@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="604,100">
+  <controller name="c1" pages="0,没数据,1,有数据" selected="1"/>
+  <displayList>
+    <image id="n6_gv3t" name="n6" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="1,7" size="594,87"/>
+    <loader id="n0_8a0y" name="rankImg" xy="8,0" size="100,100" url="ui://jvxpx9em100v3al" align="center" vAlign="middle"/>
+    <richtext id="n1_8a0y" name="labRank" xy="0,29" size="110,35" fontSize="24" color="#66ff00" align="center" autoSize="none" text="第4名"/>
+    <list id="n4_8a0y" name="list" xy="300,9" size="347,106" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n2_8a0y" name="labName" xy="110,25" size="224,25" group="n7_w9f4" fontSize="18" color="#ffffff" text="昵称：S1000.玩家名字六字"/>
+    <richtext id="n3_8a0y" name="labIntegral" xy="110,52" size="119,25" group="n7_w9f4" fontSize="18" color="#ffffff" text="积分：120000"/>
+    <group id="n7_w9f4" name="n7" xy="110,25" size="224,52" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n8_w9f4" name="xwydImg" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="153,41">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="goyve578" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="liti0" name="ViewLCHK.xml" path="/组件/" exported="true"/>
+    <component id="liti1" name="ItemLCHK.xml" path="/组件/" exported="true"/>
+    <image id="qnxv3" name="页签选中.png" path="/image/" exported="true"/>
+    <image id="qnxv6" name="页签.png" path="/image/" exported="true"/>
+    <image id="vib68" name="累计价值.png" path="/image/" exported="true"/>
+    <image id="vib69" name="元宝.png" path="/image/" exported="true"/>
+    <image id="povha" name="累充回馈.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="lchk" genCode="true" npot="true"/>
+</packageDescription>

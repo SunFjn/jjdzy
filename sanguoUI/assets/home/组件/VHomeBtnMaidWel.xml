@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="234,64" extention="Label">
+  <displayList>
+    <image id="n0_q29p" name="imgBg" src="q29p26" fileName="images/侍女对话框.png" xy="0,0" size="234,64"/>
+    <richtext id="n1_q29p" name="title" xy="32,18" size="186,28" fontSize="18" color="#ffffff" autoSize="height" text="欢迎欢迎欢迎迎"/>
+  </displayList>
+  <relation target="n1_q29p" sidePair="height-height"/>
+</component>

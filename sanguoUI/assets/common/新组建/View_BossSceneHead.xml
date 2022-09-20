@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,114">
+  <displayList>
+    <image id="n13_kw74" name="n13" src="kw747o" fileName="image1/BOSS血条底.png" xy="218,50" size="303,21" group="n24_u1e1"/>
+    <image id="n19_w0ts" name="n19" src="i8xh5v" fileName="image1/黑底.png" pkg="7gxkx46w" xy="225,26" size="161,26" group="n24_u1e1"/>
+    <richtext id="n4_hfx7" name="lbName" xy="232,26" size="38,28" group="n24_u1e1" fontSize="18" color="#ffffff" leading="0" text="123"/>
+    <richtext id="n3_hfx7" name="lbHp" xy="266,49" size="200,19" group="n24_u1e1" fontSize="14" color="#ffffff" align="center" autoSize="none" text="123&#xA;"/>
+    <component id="n17_nf0g" name="head" src="p75387" fileName="新组建/ViewHead.xml" xy="118,-10" group="n24_u1e1"/>
+    <group id="n24_u1e1" name="n24" xy="118,-10" size="403,127" collapsed="true"/>
+    <image id="n26_zzq3" name="n26" src="zzq33dz" fileName="image/圆底.png" xy="481,62" pivot="0.5,0.5" size="187,139" group="n32_zzq3" aspect="true"/>
+    <image id="n28_zzq3" name="n28" src="tli03cx" fileName="image1/Switch @up.png" xy="516,170" size="121,35" group="n32_zzq3"/>
+    <richtext id="n29_zzq3" name="passLb" xy="509,171" size="134,31" group="n32_zzq3" fontSize="20" color="#00ff00" align="center" autoSize="none" text="1000层大奖"/>
+    <component id="n30_zzq3" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" xy="535,85" group="n32_zzq3" scale="0.8,0.8"/>
+    <group id="n32_zzq3" name="rewardGroup" xy="481,62" size="187,143" advanced="true"/>
+  </displayList>
+</component>

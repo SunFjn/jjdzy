@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="465,326">
+  <displayList>
+    <component id="n0_c160" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="465,326" locked="true">
+      <Label title="添加"/>
+    </component>
+    <component id="n1_c160" name="btnMin" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="66,197" group="n8_c160">
+      <Button title="-10"/>
+    </component>
+    <component id="n2_c160" name="btnReduce" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="116,197" size="40,41" group="n8_c160">
+      <Button title="-1" icon="ui://jvxpx9emcyxg4w"/>
+    </component>
+    <image id="n3_c160" name="n3" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="159,200" size="141,31" group="n8_c160"/>
+    <component id="n4_c160" name="btnAdd" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="307,196" size="40,41" group="n8_c160">
+      <Button title="+1"/>
+    </component>
+    <richtext id="n5_c160" name="lbCount" xy="172,203" size="115,28" group="n8_c160" fontSize="18" color="#ffffff" align="center" autoSize="none" text="99999"/>
+    <component id="n6_c160" name="btnMax" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="349,196" group="n8_c160">
+      <Button title="+10" icon="ui://jvxpx9emcyxg4u"/>
+    </component>
+    <component id="n7_c160" name="btnUse" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="166,248" group="n8_c160">
+      <Button title="添加" titleColor="#ffffff"/>
+    </component>
+    <component id="n23_c160" name="btnM100" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="16,197" group="n8_c160">
+      <Button title="-100"/>
+    </component>
+    <component id="n24_c160" name="btnMax100" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="394,196" size="56,41" group="n8_c160">
+      <Button title="+100" icon="ui://jvxpx9emcyxg4u"/>
+    </component>
+    <group id="n8_c160" name="groupUse" xy="16,196" size="434,114" advanced="true" collapsed="true"/>
+    <text id="n11_c160" name="lbName" xy="142,75" size="125,35" fontSize="24" color="#ffffff" text="坐骑升星丹"/>
+    <component id="n12_c160" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="28,67"/>
+    <text id="n13_c160" name="lbNum" xy="142,147" size="103,28" fontSize="18" color="#ffffff" text="数量：9999"/>
+  </displayList>
+</component>

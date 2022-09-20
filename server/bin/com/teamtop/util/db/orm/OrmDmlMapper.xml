@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.util.db.orm.OrmDmlMapper">
+	<insert id="insert" parameterType="String">
+		${value}
+	</insert>
+	<!-- 删除 -->
+	<delete id="delete" parameterType="String">
+		${value}
+	</delete>
+	<!-- 同步到数据库 -->
+	<update id="update" parameterType="String">
+		${value}
+	</update>
+	<!-- 同步到数据库 -->
+	<update id="insertOnDup" parameterType="String">
+		${value}
+	</update>
+	<!-- 获取数据,根据参数 key 值得不同，会获得不同的结果集，
+		如果没有remapResults="true"属性，
+		iBatis 会将第一次查询的结果缓存，下次再执行时（必须还是该进程中）
+		不会再执行结果集映射，而是使用缓存的结果集。
+		queryForList,queryForMap,程序执行最后一句的query查询
+		时报错，原因就是iBATIS 使用了第一次查询的结果集，前后两次的结果集
+		是不同的，所以导致出错
+		 -->
+	<select id="select" parameterType="String" resultType="java.util.HashMap">
+		${value}
+	</select>
+	<!-- check -->
+	<select id="check" parameterType="String" resultType="int">
+		${value}
+	</select>
+</mapper>

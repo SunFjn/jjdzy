@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="303,20" extention="ProgressBar">
+  <displayList>
+    <image id="n0_ems4" name="n0" src="kw747o" fileName="image1/BOSS血条底.png" pkg="jvxpx9em" xy="0,0" size="303,20">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_ems4" name="bar" src="ems49" fileName="res/血条1.png" xy="3,3" size="297,14"/>
+    <text id="n2_ems4" name="title" xy="0,-2" size="303,25" locked="true" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <ProgressBar titleType="value"/>
+</component>

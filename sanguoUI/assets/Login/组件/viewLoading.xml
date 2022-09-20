@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <text id="n2_t424" name="txtProp" xy="209,967" size="222,27" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="100%">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n3_t424" name="txtInfo" xy="115,891" size="410,27" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#cc5858" text="加载必要资源">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n0_t424" name="progressBg" src="t424p" fileName="image/progressBg.png" xy="7,922" group="n4_rnn1">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <image id="n1_t424" name="progressBar" src="t424o" fileName="image/progress.png" xy="25,927" group="n4_rnn1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </image>
+    <image id="n11_gyat" name="n11" src="gyatv3" fileName="image/进度条-光.png" xy="596,922" group="n4_rnn1">
+      <relation target="n1_t424" sidePair="right-right"/>
+    </image>
+    <group id="n4_rnn1" name="n4" xy="7,922" size="636,25"/>
+    <image id="n5_rnn1" name="progressBg1" src="t424p" fileName="image/progressBg.png" xy="7,998" group="n7_rnn1">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <image id="n6_rnn1" name="progressBar1" src="t424o" fileName="image/progress.png" xy="25,1003" group="n7_rnn1">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </image>
+    <image id="n12_gyat" name="n12" src="gyatv3" fileName="image/进度条-光.png" xy="597,999" group="n7_rnn1">
+      <relation target="n6_rnn1" sidePair="right-right"/>
+    </image>
+    <group id="n7_rnn1" name="n7" xy="7,998" size="637,25" advanced="true"/>
+    <image id="n8_fipk" name="n8" src="gyatv8" fileName="image/123.png" xy="90,1060"/>
+    <richtext id="n13_kaip" name="lbClose" xy="286,1025" size="68,24" fontSize="16" color="#ff0000" underline="true" text="刷新游戏"/>
+  </displayList>
+</component>

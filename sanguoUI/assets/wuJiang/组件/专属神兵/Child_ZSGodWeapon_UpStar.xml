@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,772" designImage="ui://zyx92gzwlwblm50" designImageOffsetY="-147">
+  <displayList>
+    <image id="n17_qqvu" name="n17" src="z1jw6l" fileName="image/侧边框底.png" pkg="jvxpx9em" xy="10,0" size="137,766"/>
+    <image id="n22_qqvu" name="n22" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="232,235"/>
+    <loader id="n78_m4uj" name="godWeaponIcon" xy="288,72" size="176,197" touchable="false" align="center" vAlign="bottom" fill="scale" shrinkOnly="true"/>
+    <component id="n52_qqvu" name="useBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="518,254" pivot="0.5,0.5" size="114,115" visible="false">
+      <Button icon="ui://jvxpx9emdna53cp"/>
+    </component>
+    <text id="n26_qqvu" name="starLb" xy="227,343" size="302,28" font="ui://jvxpx9emz1r82c" fontSize="24" color="#ffffff" letterSpacing="2" text="0000000000"/>
+    <list id="n36_qqvu" name="list" xy="20,13" size="123,761" overflow="scroll" defaultItem="ui://zyx92gzwhi633y" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n24_qqvu" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="227,0" touchable="false"/>
+    <component id="n27_qqvu" name="nameLb" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="225,57" touchable="false"/>
+    <component id="n34_qqvu" name="promptLb0" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="222,384" size="329,31" touchable="false">
+      <Label title="神兵效果"/>
+    </component>
+    <component id="n58_iqo8" name="n1" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="222,506" size="329,31" touchable="false">
+      <Label title="升星属性"/>
+    </component>
+    <richtext id="n28_qqvu" name="curAtt" xy="222,542" size="120,58" group="n31_qqvu" touchable="false" fontSize="18" color="#ffffff" leading="6" text="攻击+100000&#xA;攻击+100000"/>
+    <image id="n29_qqvu" name="n29" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="362,542" size="58,58" group="n31_qqvu">
+      <relation target="n28_qqvu" sidePair="middle-middle"/>
+    </image>
+    <richtext id="n30_qqvu" name="nextAtt" xy="440,542" size="120,58" group="n31_qqvu" touchable="false" fontSize="18" color="#00ff00" leading="6" text="攻击+100000&#xA;攻击+100000"/>
+    <group id="n31_qqvu" name="attGroup" xy="222,542" size="338,58" advanced="true" layout="hz" colGap="20"/>
+    <image id="n63_ul8t" name="n63" src="ul8t3fl" fileName="image/战力提升.png" pkg="jvxpx9em" xy="272,639" group="n40_qqvu"/>
+    <component id="n37_qqvu" name="upStarBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="320,679" pivot="0.5,0.5" group="n40_qqvu">
+      <Button title="升星"/>
+    </component>
+    <text id="n64_ul8t" name="starPowerLb" xy="367,655" size="202,27" group="n40_qqvu" scale="0.8,0.8" font="ui://jvxpx9embwmw3w" fontSize="12" singleLine="true" text="99999999999"/>
+    <richtext id="n39_qqvu" name="costLb" xy="306,741" size="175,28" group="n40_qqvu" touchable="false" fontSize="18" color="#ffffff" leading="0" ubb="true" text="消耗：张凌剑x1(0/1)">
+      <relation target="n37_qqvu" sidePair="center-center"/>
+    </richtext>
+    <group id="n40_qqvu" name="upStarGroup" xy="272,639" size="297,127" advanced="true"/>
+    <image id="n41_qqvu" name="n41" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="203,701" group="n43_qqvu"/>
+    <richtext id="n42_qqvu" name="n42" xy="328,693" size="120,35" group="n43_qqvu" touchable="false" fontSize="24" color="#00ff00" align="center" autoSize="none" text="已满星"/>
+    <group id="n43_qqvu" name="maxGroup" xy="203,693" size="366,35" advanced="true"/>
+    <richtext id="n33_qqvu" name="skillDes" xy="159,418" size="460,79" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" ubb="true" autoSize="none" text="宝物效果&#xA;"/>
+    <richtext id="n35_qqvu" name="showAtt" xy="307,541" size="10,28" touchable="false" fontSize="18" color="#ffffff" leading="6" text=""/>
+    <component id="n61_wjpa" name="showBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="353,276" pivot="0.5,0.5" size="66,66">
+      <Button title="展示" titleFontSize="20" icon="ui://jvxpx9emul8t3fk"/>
+    </component>
+    <component id="n65_b8g1" name="suitBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="147,27" pivot="0.5,0.5" size="84,88">
+      <Button icon="ui://zyx92gzwhi633x"/>
+    </component>
+    <component id="n46_qqvu" name="drugBt0" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="544,6" pivot="0.5,0.5" size="66,58" group="n76_hi63">
+      <Button icon="ui://zyx92gzwu7vv3u"/>
+    </component>
+    <image id="n60_qyrc" name="n60" src="pxaa3cv" fileName="image/数量框.png" pkg="jvxpx9em" xy="517,53" pivot="0.5,0.5" size="124,26" group="n76_hi63"/>
+    <richtext id="n48_qqvu" name="drugCount0" xy="521,54" size="118,25" group="n76_hi63" touchable="false" fontSize="16" color="#ffffff" align="center" leading="0" autoSize="none" text="50000/10000"/>
+    <group id="n76_hi63" name="drugGroup0" xy="517,6" size="124,73" advanced="true"/>
+    <component id="n69_u7vv" name="drugBt1" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="547,81" pivot="0.5,0.5" size="65,57" group="n75_hi63">
+      <Button icon="ui://zyx92gzwu7vv3v"/>
+    </component>
+    <image id="n70_u7vv" name="n70" src="pxaa3cv" fileName="image/数量框.png" pkg="jvxpx9em" xy="517,128" pivot="0.5,0.5" size="124,26" group="n75_hi63"/>
+    <richtext id="n71_u7vv" name="drugCount1" xy="520,128" size="118,25" group="n75_hi63" touchable="false" fontSize="16" color="#ffffff" align="center" leading="0" autoSize="none" text="5000/1000"/>
+    <group id="n75_hi63" name="drugGroup1" xy="517,81" size="124,73" advanced="true"/>
+    <component id="n72_u7vv" name="drugBt2" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="545,157" pivot="0.5,0.5" size="64,57" group="n77_hi63">
+      <Button icon="ui://zyx92gzwu7vv3t"/>
+    </component>
+    <image id="n73_u7vv" name="n73" src="pxaa3cv" fileName="image/数量框.png" pkg="jvxpx9em" xy="517,204" pivot="0.5,0.5" size="124,26" group="n77_hi63"/>
+    <richtext id="n74_u7vv" name="drugCount2" xy="518,205" size="118,25" group="n77_hi63" touchable="false" fontSize="16" color="#ffffff" align="center" leading="0" autoSize="none" text="5000/1000"/>
+    <group id="n77_hi63" name="drugGroup2" xy="517,157" size="124,73" advanced="true"/>
+    <richtext id="n79_p5r7" name="jihuoLb" xy="245,341" size="286,35" touchable="false" fontSize="24" color="#ff0000" align="center" autoSize="none" text="淬炼4阶可以激活"/>
+    <component id="n66_u7vv" name="rightBt" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="487,158" size="50,58">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n67_u7vv" name="leftBt" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="171,158" size="50,51" scale="-1,1">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n78_m4uj" tween="true" startValue="276,106" endValue="276,96" duration="18"/>
+    <item time="18" type="XY" target="n78_m4uj" tween="true" startValue="276,96" endValue="276,106" duration="18" ease="Linear"/>
+  </transition>
+</component>

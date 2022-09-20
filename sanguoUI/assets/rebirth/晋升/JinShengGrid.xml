@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,102">
+  <displayList>
+    <component id="n0_elpx" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="0,0"/>
+    <image id="n2_hd1b" name="limitImg" src="hd1b16" fileName="image/限时.png" xy="0,3" visible="false"/>
+  </displayList>
+</component>

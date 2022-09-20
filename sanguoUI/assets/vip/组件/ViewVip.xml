@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_nvyw" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://w4xdcvn7608a5"/>
+    </component>
+    <image id="n34_i8xh" name="n34" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="22,156" size="597,119"/>
+    <image id="n15_608a" name="n15" src="608a9" fileName="image/墨痕1.png" xy="43,185" scale="0.8,0.8"/>
+    <image id="n23_608a" name="n23" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="19,649" size="602,193"/>
+    <image id="n21_608a" name="lbYlq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="258,860"/>
+    <component id="n3_nvyw" name="vipBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="36,235" size="566,21">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n2_nvyw" name="lbCZ" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="472,166">
+      <Button title="前往充值"/>
+    </component>
+    <component id="n4_nvyw" name="btn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="251,849">
+      <Button title="领取"/>
+    </component>
+    <component id="n13_nvyw" name="btnright" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="576,462" pivot="0.5,0.5" size="36,47" scale="-1,1">
+      <Button title="右边" icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <component id="n12_nvyw" name="btnleft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="27,462" size="36,47">
+      <Button title="左边" icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <loader id="n8_nvyw" name="pic" xy="292,456" pivot="0.5,0.5" size="50,30" touchable="false" url="ui://w4xdcvn7wfnc18" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="n17_608a" name="boxTitle" xy="124,444" size="50,30" touchable="false" url="ui://w4xdcvn7wfnc17" autoSize="true">
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <richtext id="n1_nvyw" name="lbVip" xy="55,184" size="68,26" font="ui://jvxpx9em608a8q" fontSize="22" color="#ffffff" leading="0" text="P20"/>
+    <richtext id="n18_608a" name="btnCheck" xy="471,660" size="113,28" fontSize="18" color="#33ff00" underline="true" text="查看全部特权"/>
+    <richtext id="n20_608a" name="lbNowBox" xy="243,657" size="153,35" fontSize="24" color="#ffc334" text="VIP0特权礼包"/>
+    <richtext id="n24_608a" name="lbPro" xy="169,185" size="299,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="213"/>
+    <image id="n27_ca7a" name="i0" src="irr13gw" fileName="image/花纹/菱形花纹.png" pkg="jvxpx9em" xy="90,615"/>
+    <image id="n28_ca7a" name="i1" src="irr13gw" fileName="image/花纹/菱形花纹.png" pkg="jvxpx9em" xy="257,615"/>
+    <image id="n29_ca7a" name="i2" src="irr13gw" fileName="image/花纹/菱形花纹.png" pkg="jvxpx9em" xy="424,615"/>
+    <component id="n36_fbyw" name="btnGift" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="512,290" size="90,107">
+      <Button icon="ui://w4xdcvn7fbywd"/>
+    </component>
+    <image id="n38_sx38" name="n38" src="orxgg" fileName="image/折扣标签.png" xy="482,293" pkg="jvxpx9em"/>
+    <richtext id="n30_ca7a" name="t0" xy="116,609" size="45,28" fontSize="18" color="#00ff00" text="asad"/>
+    <richtext id="n31_ca7a" name="t1" xy="283,609" size="45,28" fontSize="18" color="#00ff00" text="asad"/>
+    <richtext id="n32_ca7a" name="t2" xy="449,609" size="45,28" fontSize="18" color="#00ff00" text="asad"/>
+    <richtext id="n39_orxg" name="disLb" xy="489,295" size="58,36" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#006666" strokeSize="2" text="5折"/>
+    <list id="n37_rt8r" name="n37" xy="49,695" size="541,106" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

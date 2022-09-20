@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="559,618">
+  <displayList>
+    <list id="n0_fl2h" name="n0" xy="0,0" size="559,584" overflow="scroll" defaultItem="ui://gxs8kn67fl2ha">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n1_fl2h" name="lbNowLayer" xy="14,588" size="128,34" fontSize="22" color="#ffcc00" text="当前楼层：8"/>
+    <richtext id="n2_fl2h" name="lbMaxLayer" xy="202,588" size="128,34" fontSize="22" color="#ffcc00" text="最高楼层：8"/>
+    <richtext id="n3_fl2h" name="lbScore" xy="375,588" size="181,35" fontSize="24" color="#66ff00" text="最高积分：1000"/>
+  </displayList>
+</component>

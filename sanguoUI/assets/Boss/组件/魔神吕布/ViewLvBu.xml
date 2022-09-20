@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_sx38" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0"/>
+    <component id="n1_sx38" name="n1" src="dx12v" fileName="组件/魔神吕布/ChildLvBu.xml" xy="8,0"/>
+    <image id="n2_sx38" name="n2" src="bx2z1q" fileName="image/魔神吕布txt.png" xy="247,82"/>
+  </displayList>
+</component>

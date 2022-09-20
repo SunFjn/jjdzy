@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="fr83a88v">
+  <resources>
+    <component id="s8ql0" name="ViewJBP.xml" path="/组件/" exported="true"/>
+    <component id="m8f81" name="JuBaoPIt.xml" path="/组件/" exported="true"/>
+    <image id="cct42" name="成长返利.png" path="/image/" exported="true"/>
+    <image id="cct43" name="登录返利.png" path="/image/" exported="true"/>
+    <image id="cct44" name="等级返利.png" path="/image/" exported="true"/>
+    <image id="cct45" name="聚宝盆.png" path="/image/" exported="true"/>
+    <image id="cct46" name="闯关返利.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="jubaopeng" genCode="true"/>
+</packageDescription>

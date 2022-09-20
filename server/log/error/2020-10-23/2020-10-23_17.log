@@ -1,0 +1,24 @@
+2020-10-23 17:20:16.700 [main] ERROR com.teamtop.main.RunServerException - RunServerException:start server exception
+2020-10-23 17:20:16.747 [main] ERROR com.teamtop.main.RunServerException - java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.teamtop.system.event.serverEvent.ServerEventFunction.startServer(ServerEventFunction.java:168)
+	at com.teamtop.main.RunHoutaiServer.main(RunHoutaiServer.java:26)
+Caused by: java.lang.RuntimeException: 跨服分组null, pf=jysgzj01
+	at com.teamtop.cross.CrossPartCache.startServer(CrossPartCache.java:79)
+	... 6 more
+start server exception
+2020-10-23 17:51:55.462 [main] ERROR com.teamtop.main.RunServerException - RunServerException:start server exception
+2020-10-23 17:51:55.462 [main] ERROR com.teamtop.main.RunServerException - java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.teamtop.system.event.serverEvent.ServerEventFunction.startServer(ServerEventFunction.java:168)
+	at com.teamtop.main.RunHoutaiServer.main(RunHoutaiServer.java:26)
+Caused by: java.lang.RuntimeException: 跨服分组null, pf=jysgzj01
+	at com.teamtop.cross.CrossPartCache.startServer(CrossPartCache.java:79)
+	... 6 more
+start server exception

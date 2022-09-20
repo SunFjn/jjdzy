@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.zhuJiangYanWu.ZhuJiangYanWu" tbname="zhuJiangYanWu">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="numBattled" type="int" pf="all"  comment="已挑战次数"/>
+     </tb>
+</tbs>

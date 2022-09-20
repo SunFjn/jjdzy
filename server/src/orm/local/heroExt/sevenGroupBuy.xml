@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.sevenGroupBuy.SevenGroupBuy" tbname="sevenGroupBuy">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="isFristNum" type="int" pf="all" comment="今日是否首冲 0没有 >0有"/>
+			<col field="todayRrmb" type="int" pf="all" comment="今日累计充值了多少"/>
+			<col field="rewards" type="text" pf="all" comment="奖励状态"/>
+     </tb>
+</tbs>

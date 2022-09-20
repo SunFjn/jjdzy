@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,135" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <component id="n3_sv0g" name="grid" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="0,0"/>
+    <loader id="n5_sv0g" name="addImg" xy="3,8" size="89,90" url="ui://pofv8989bwmw5v" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+  </displayList>
+  <Button/>
+</component>

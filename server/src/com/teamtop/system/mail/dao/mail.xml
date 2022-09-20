@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.mail.dao.MailMapper">
+
+	
+	<!-- 获取符合条件的邮件数量 -->
+	<select id="findMailState" parameterType="com.teamtop.system.mail.model.MailTemp" resultType="int">
+		select count(*) from mail where receiverId = ${receiverId} and (isGetAdj = ${isGetAdj} or isRead = ${isRead}) ;
+	</select>
+	<!-- 查找30封邮件 -->
+	<select id="findMailList" parameterType="Long" resultType="hashmap">
+		select * from mail where receiverId = ${value} order by sendTime DESC limit 50;
+	</select>
+	<!-- 更新邮件状态 -->
+	<update id="updateMailIsRead" parameterType="com.teamtop.system.mail.model.MailTemp">
+		update mail set isRead = ${isRead} where id = ${id} and receiverId = ${receiverId}
+	</update>
+	<!-- 更新邮件状态 -->
+	<update id="updateMailIsGetAdj" parameterType="com.teamtop.system.mail.model.MailTemp">
+		update mail set isGetAdj = ${isGetAdj} where id = ${id} and receiverId = ${receiverId}
+	</update>
+	<!-- 批量更新附件状态 -->
+	<update id="updataIsGetAdj" parameterType="com.teamtop.system.mail.model.MailTemp">
+		update mail set isGetAdj = ${isGetAdj}  where receiverId = ${receiverId} and id in(${value})
+	</update>
+	<!-- 批量更新邮件已读状态 -->
+	<update id="updataIsRead" parameterType="com.teamtop.system.mail.model.MailTemp">
+		update mail set isRead = ${isRead}  where receiverId = ${receiverId} and id in(${value})
+	</update>
+	<!-- 批量更新邮件已读状态 -->
+	<update id="updataIsReadIsGetAdj" parameterType="com.teamtop.system.mail.model.MailTemp">
+		update mail set isRead = ${isRead},isGetAdj = ${isGetAdj}  where receiverId = ${receiverId} and id in(${value})
+	</update>
+	<!-- 定时清理-->
+	<delete id="delSome" parameterType="Integer">
+		delete from mail where ${value}>=sendTime
+	</delete>
+	<!-- 一键删除邮件已读已领取邮件-->
+	<delete id="oneKeyDeleteMails" parameterType="com.teamtop.system.mail.model.MailTemp">
+		delete from mail where receiverId = ${receiverId} and isRead = ${isRead} and isGetAdj = ${isGetAdj}
+	</delete>
+	<!-- 一键删除邮件已读无邮件-->
+	<delete id="oneKeyDeleteMailsReaded" parameterType="com.teamtop.system.mail.model.MailTemp">
+		delete from mail where receiverId = ${receiverId} and isRead = ${isRead} and mailAdjuncts is null
+	</delete>
+	<!-- 清理个人邮件-->
+	<delete id="delAllByHid" parameterType="Long">
+		delete from mail where receiverId = ${value} 
+	</delete>
+	<!-- 清理个人邮件，只保留最新30条
+	<delete id="delAllSave30" parameterType="Integer">
+		delete from mail where receiverId = ${receiverId} and id in(${value})
+	</delete>-->
+	<!-- 获取玩家邮件总数 -->
+	<select id="findMailNum" parameterType="com.teamtop.system.mail.model.MailTemp" resultType="int">
+		select count(*) from mail where receiverId = ${receiverId};
+	</select>
+	<update id="update" parameterType="String">
+		${value}
+	</update>   
+	<insert id="insert" parameterType="com.teamtop.system.mail.model.Mail" useGeneratedKeys="true" keyProperty="id">
+		${insertSql}
+	</insert>   
+	<delete id="delOne" parameterType="String">
+		${value}
+	</delete>
+	<!-- 查邮件by heroID和mailID -->
+	<select id="findMailByHidMailID" parameterType="com.teamtop.system.mail.model.MailTemp" resultType="hashmap">
+		select * from mail where receiverId = ${receiverId} and id = ${id} ;
+	</select>
+</mapper>

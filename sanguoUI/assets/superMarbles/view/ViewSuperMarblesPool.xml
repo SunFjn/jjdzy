@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,732">
+  <displayList>
+    <component id="n0_x9uy" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,732" locked="true">
+      <Label title="奖励预览"/>
+    </component>
+    <list id="n1_x9uy" name="list" xy="10,68" size="570,644" overflow="scroll" defaultItem="ui://gf2tw9lzx9uy5">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

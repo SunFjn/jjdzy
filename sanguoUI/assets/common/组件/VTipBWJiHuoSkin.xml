@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="484,555">
+  <displayList>
+    <component id="n35_o6gd" name="n35" src="o6gd2g" fileName="组件/ZhanShenEff.xml" xy="256,230"/>
+    <image id="n24_pmv2" name="n24" src="tw1l5m" fileName="image1/将印名称底.png" xy="126,11"/>
+    <component id="n23_pmv2" name="nameLb" src="spdw6y" fileName="组件/ViewName.xml" xy="37,118" touchable="false">
+      <Label title="宝物名称"/>
+    </component>
+    <text id="n28_pmv2" name="txtType" xy="64,381" size="105,31" fontSize="20" color="#ffc344" text="宝物效果："/>
+    <image id="n31_pmv2" name="n31" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" xy="28,442" size="456,36"/>
+    <richtext id="n32_pmv2" name="txtInfo" xy="75,442" size="377,27" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="点击[道具名称]可激活新宝物并使用"/>
+    <component id="n33_pmv2" name="btnHand" src="y1z8b" fileName="组件/Button0.xml" xy="200,493">
+      <Button title="确定"/>
+    </component>
+    <loader id="n34_o6gd" name="bwIcon" xy="156,124" size="200,200" touchable="false" url="ui://c7onhgk8ffub1x" align="center" vAlign="bottom"/>
+    <richtext id="n36_o6gd" name="txtEff" xy="175,377" size="280,61" fontSize="20" color="#ffffff" leading="6" autoSize="none" text="宝物效果宝物效果宝物效果宝物效果宝物效果宝物效果"/>
+    <richtext id="n37_sazu" name="txtSJ" xy="114,375" size="289,54" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="神剑效果: ">
+      <relation target="" sidePair=""/>
+    </richtext>
+    <loader id="n38_sazu" name="n11" xy="148,44" size="50,30" autoSize="true"/>
+  </displayList>
+  <transition name="t0" options="1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n35_o6gd" tween="true" startValue="0" endValue="360" duration="114" ease="Linear" repeat="-1"/>
+    <item time="114" type="Rotation" target="n35_o6gd" tween="true" startValue="360"/>
+  </transition>
+</component>

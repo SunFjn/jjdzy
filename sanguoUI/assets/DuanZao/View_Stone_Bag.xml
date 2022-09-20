@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,939">
+  <displayList>
+    <component id="n23_f1cf" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,939">
+      <Label title="宝石背包"/>
+    </component>
+    <list id="n9_pzg7" name="list" xy="21,90" size="550,386" layout="flow_hz" overflow="scroll" lineGap="5" colGap="11" lineItemCount="5" defaultItem="ui://jvxpx9emetorn" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n24_f1cf" name="n24" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="23,488" size="547,180" group="n17_pzg7"/>
+    <richtext id="n11_pzg7" name="curMsgLb" xy="184,549" size="38,82" group="n17_pzg7" touchable="false" fontSize="18" color="#ffffff" ubb="true" text="111&#xA;111&#xA;111"/>
+    <component id="n10_pzg7" name="curGrid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="68,529" group="n17_pzg7"/>
+    <component id="n12_pzg7" name="xqBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="400,599" group="n17_pzg7">
+      <Button title="镶嵌"/>
+    </component>
+    <component id="n18_kn3r" name="delBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="400,599" group="n17_pzg7" hideByEditor="true">
+      <Button title="拆除"/>
+    </component>
+    <richtext id="n26_f1cf" name="nameLb0" xy="180,521" size="91,35" group="n17_pzg7" touchable="false" fontSize="24" color="#ffffff" text="9级宝石"/>
+    <group id="n17_pzg7" name="curGroup" xy="23,488" size="547,180" advanced="true"/>
+    <image id="n25_f1cf" name="n25" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="23,680" size="547,180" group="n31_rt7o"/>
+    <component id="n13_pzg7" name="nextGrid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="68,722" size="102,102" group="n31_rt7o"/>
+    <component id="n15_pzg7" name="hcBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="400,700" group="n31_rt7o">
+      <Button title="合成"/>
+    </component>
+    <component id="n16_pzg7" name="keyhcBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="400,794" group="n31_rt7o">
+      <Button title="一键合成"/>
+    </component>
+    <richtext id="n27_f1cf" name="nameLb1" xy="178,712" size="91,35" group="n31_rt7o" touchable="false" fontSize="24" color="#ffffff" text="9级宝石"/>
+    <richtext id="n14_pzg7" name="nextMsgLb" xy="182,744" size="38,82" group="n31_rt7o" touchable="false" fontSize="18" color="#ffffff" ubb="true" text="111&#xA;111&#xA;111"/>
+    <group id="n31_rt7o" name="nextGroup" xy="23,680" size="547,180" advanced="true" collapsed="true"/>
+    <richtext id="n28_f1cf" name="n28" xy="162,881" size="268,28" touchable="false" fontSize="18" color="#00ff00" leading="0" text="注：2个相同宝石合成下一级宝石"/>
+  </displayList>
+</component>

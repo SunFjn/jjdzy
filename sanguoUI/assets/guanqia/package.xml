@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="r92dp953" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="hfx70" name="ViewGQBossUI.xml" path="/组件/" exported="true"/>
+    <component id="hfx71" name="PanellistItem.xml" path="/组件/" exported="true"/>
+    <component id="hfx72" name="ViewOfflineAwards.xml" path="/组件/" exported="true"/>
+    <image id="hfx7k" name="Bm_GTH.png" path="/image/" exported="true"/>
+    <image id="hfx7m" name="Sbm_TiaoZ.png" path="/image/" exported="true" scale="9grid" scale9grid="4,5,4,1"/>
+    <component id="u94lo" name="ViewGuanQiaRnk.xml" path="/组件/" exported="true"/>
+    <component id="u94lp" name="GuanQiaRnk.xml" path="/组件/" exported="true"/>
+    <component id="u94lq" name="ViewQianRenZhan.xml" path="/组件/" exported="true"/>
+    <component id="u94lr" name="ViewGuanQiaSweeping.xml" path="/组件/" exported="true"/>
+    <image id="som1v" name="千人斩icon.png" path="/image/" exported="true"/>
+    <image id="som115" name="扫荡txt.png" path="/image/" exported="true"/>
+    <image id="som117" name="排名.png" path="/image/" exported="true"/>
+    <image id="som11g" name="通关数.png" path="/image/" exported="true"/>
+    <image id="som11i" name="关卡.png" path="/image/" exported="true"/>
+    <image id="som11k" name="排行榜按钮.png" path="/image/" exported="true"/>
+    <image id="bx2z1o" name="前往.png" path="/image/" exported="true"/>
+    <image id="e2bn1p" name="扫荡icon.png" path="/image/" exported="true"/>
+    <component id="h0ag1q" name="ViewNewSkill.xml" path="/组件/" exported="true"/>
+    <image id="h0ag1s" name="解锁新技能.png" path="/image/" exported="true"/>
+    <image id="obg11t" name="普通技能框.png" path="/image/" exported="true"/>
+    <image id="v2391u" name="BOSS来袭.png" path="/image/"/>
+    <component id="v2391v" name="GuanQiaBossAni.xml" path="/组件/" exported="true"/>
+    <component id="h0zq1w" name="VGQInfo.xml" path="/组件/" exported="true"/>
+    <image id="poih2e" name="关卡求助.png" path="/image/" exported="true"/>
+    <component id="ncbg2f" name="ViewGuanQiaTips.xml" path="/组件/" exported="true"/>
+    <image id="ncbg2g" name="关卡收益提升.png" path="/image/" exported="true"/>
+    <image id="ncbg2h" name="活动开启底.png" path="/image/" exported="true" scale="9grid" scale9grid="179,76,18,152"/>
+    <image id="ncbg2i" name="箭头.png" path="/image/" exported="true"/>
+    <image id="duy32j" name="x.png" path="/image/" exported="true"/>
+    <image id="emwp2l" name="闯关背景图.jpg" path="/image/"/>
+  </resources>
+  <publish name="guanqia" genCode="true" npot="true" excluded="v2391u,emwp2l"/>
+</packageDescription>

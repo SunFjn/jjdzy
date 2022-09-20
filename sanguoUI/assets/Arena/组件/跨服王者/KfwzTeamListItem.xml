@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="178,261">
+  <displayList>
+    <image id="n28_n9yf" name="n28" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="13,27" size="153,218"/>
+    <image id="n38_hab1" name="n38" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="14,140" size="149,23"/>
+    <component id="n32_n9yf" name="headCom" src="n9yf72" fileName="组件/跨服王者/KfwzHead.xml" xy="6,43"/>
+    <component id="n37_p2gq" name="btnJoin" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="42,194" size="94,42">
+      <Button title="加入" titleFontSize="18"/>
+    </component>
+  </displayList>
+</component>

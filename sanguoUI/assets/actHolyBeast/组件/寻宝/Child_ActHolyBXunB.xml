@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,666">
+  <displayList>
+    <image id="n42_v10m" name="n0" src="m3513bf" fileName="image/底板2 拷贝 2.png" pkg="jvxpx9em" xy="2,-8" size="637,683"/>
+    <loader id="n61_g6ol" name="imgBg" xy="1,3" size="50,50"/>
+    <image id="n56_v10m" name="n56" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="240,247" size="159,48"/>
+    <image id="n55_v10m" name="n55" src="rt7o4r" fileName="image1/货币底.png" pkg="jvxpx9em" xy="251,495" size="136,30">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n54_v10m" name="n54" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="123,130" size="391,100"/>
+    <component id="n11_n2pm" name="grid0" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="20,17"/>
+    <image id="n62_8tt9" name="n62" src="8tt91i" fileName="image/起点.png" xy="53,37"/>
+    <component id="n12_n2pm" name="grid1" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="120,17"/>
+    <component id="n13_n2pm" name="grid2" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="220,17"/>
+    <component id="n14_n2pm" name="grid3" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="320,17"/>
+    <component id="n15_n2pm" name="grid4" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="420,17"/>
+    <component id="n16_n2pm" name="grid5" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="520,17"/>
+    <component id="n17_n2pm" name="grid6" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="520,124"/>
+    <component id="n18_n2pm" name="grid7" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="520,231"/>
+    <component id="n19_n2pm" name="grid8" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="520,338"/>
+    <component id="n20_n2pm" name="grid9" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="520,445"/>
+    <component id="n21_n2pm" name="grid10" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="520,552"/>
+    <component id="n22_n2pm" name="grid11" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="420,552"/>
+    <component id="n25_n2pm" name="btnDice" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="254,415">
+      <Button title="掷骰子"/>
+    </component>
+    <richtext id="n26_n2pm" name="lbCt" xy="282,496" size="95,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="999"/>
+    <richtext id="n27_n2pm" name="lbMyRank" xy="134,187" size="106,28" touchable="false" fontSize="18" color="#ffffff" leading="6" text="我的排名：5"/>
+    <richtext id="n28_n2pm" name="lbQuan" xy="238,254" size="163,35" touchable="false" fontSize="24" color="#ffffff" align="center" leading="0" autoSize="none" text="第4圈"/>
+    <richtext id="n35_n2pm" name="labTime" xy="134,147" size="169,28" touchable="false" fontSize="18" color="#00ff00" leading="0" text="剩余时间：00:00:00"/>
+    <component id="n43_v10m" name="grid12" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="320,552"/>
+    <component id="n44_v10m" name="grid13" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="220,552"/>
+    <component id="n45_v10m" name="grid14" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="120,552"/>
+    <component id="n46_v10m" name="grid15" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="20,552"/>
+    <component id="n38_n2pm" name="checkBox" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="392,495" size="122,32">
+      <Button title=" 跳过动画" titleColor="#66ff00"/>
+    </component>
+    <component id="n39_phvv" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="363,143" size="67,70">
+      <Button icon="ui://d5y9ngt6v10m14"/>
+    </component>
+    <component id="n40_phvv" name="btnTarget" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="436,143" size="67,70">
+      <Button icon="ui://d5y9ngt6v10m15"/>
+    </component>
+    <component id="n47_v10m" name="grid16" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="20,445"/>
+    <component id="n48_v10m" name="grid17" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="20,338"/>
+    <component id="n49_v10m" name="grid18" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="20,231"/>
+    <component id="n50_v10m" name="grid19" src="v10m13" fileName="组件/寻宝/VActHolyBGrid.xml" xy="20,124"/>
+    <image id="n51_v10m" name="n51" src="v10m12" fileName="image/骰子.png" xy="238,483"/>
+    <component id="n59_kxay" name="chooseImg" src="kxay19" fileName="组件/寻宝/VActHolyBHead.xml" xy="62,-19"/>
+    <loader id="n60_kxay" name="imgRoll" xy="287,322" size="50,50" url="ui://d5y9ngt6kxay1h"/>
+  </displayList>
+</component>

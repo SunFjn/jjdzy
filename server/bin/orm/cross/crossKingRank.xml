@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossKing.model.CrossKingRank" tbname="crossKingRank" serverid="3">
+		<index field="rid" type="prikey"/>
+		<index field="term" type="normal"/>
+		<index field="duanwei" type="normal"/>
+		<index field="rebornType" type="normal"/>
+		<index field="rank" type="normal"/>
+			<col field="rid" type="bigint" pf="all" comment="表唯一id 对象id"/>
+			<col field="term" type="int" pf="all" comment="赛季号"/>
+			<col field="rebornType" type="int" pf="all" comment="所在转生段"/>
+			<col field="duanwei" type="int" pf="all" comment="段位"/>
+			<col field="type" type="int" pf="all" comment="节对象类型（0玩家 1NPC）"/>
+			<col field="rank" type="int" pf="all" comment="排名"/>
+			<col field="rname" type="varchar" len="50" pf="all" comment="角色名字"/>
+			<col field="job" type="int" pf="all" comment="对象职业"/>
+			<col field="strength" type="bigint" pf="all" comment="战力"/>
+			<col field="model" type="varchar" len="500" pf="all" comment="角色显示模型"/>
+			<col field="showRank" type="varchar" len="100" pf="all" comment="刷新的对手排名集合"/>
+			<col field="upRank" type="varchar" len="100" pf="all" comment="晋级挑战的对手排名集合"/>
+	        <col field="sysid" type="int" pf="all" comment="怪物系统id"/>
+	        <col field="skill" type="varchar" len="800" pf="all" comment="技能"/>
+	        <col field="MaxDw" type="int" pf="all" comment="本赛季最高段位"/>
+	        <col field="finalFightAttr" type="text" pf="all" comment="战斗属性详细"/>
+	        <col field="belongZoneid" type="int" pf="all" comment="所属分区"/>
+	        <col field="partId" type="int" pf="all" comment="跨服分区"/>
+	        <col field="figthMonsterSpirit" type="int" pf="all" comment="出战兽灵"/>
+	        <col field="littleLeaderInfo" type="varchar" len="800" pf="all" comment="少主信息"/>
+	        <col field="godSkillLevel" type="int" pf="all" comment="神将之力技能进阶"/>	  
+	        <col field="baowu" type="text" pf="all" comment="宝物"/>
+	        <col field="tianshu" type="text" pf="all" comment="天书"/>      
+	</tb>
+</tbs>

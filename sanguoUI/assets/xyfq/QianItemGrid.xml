@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,110" extention="Label">
+  <displayList>
+    <loader id="n11_bnyp" name="icon" xy="45,55" pivot="0.5,0.5" anchor="true" size="90,110" url="ui://7hwmix0gbnyph" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n12_bnyp" name="qianIcon" xy="45,52" pivot="0.5,0.5" anchor="true" size="66,99" url="ui://7hwmix0gbnypd" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </loader>
+  </displayList>
+</component>

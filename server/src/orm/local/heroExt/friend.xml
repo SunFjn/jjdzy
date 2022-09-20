@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.friends.model.Friend" tbname="friend">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="goodFriends" type="text" pf="all" comment="好友列表"/>
+			<col field="badFriends" type="text" pf="all" comment="黑名单列表"/>
+			<col field="recentChat" type="text" pf="all" comment="最近联系人"/>
+			<col field="friendApply" type="text" pf="all" comment="好友请求"/>
+			<col field="inOtherBadList" type="text" pf="all" comment="被加黑名单玩家"/>
+     </tb>
+</tbs>

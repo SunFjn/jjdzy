@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.upLvShop.model.UpLvShop" tbname="upLvShop">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="buyMap" type="text" pf="all" comment="状态key:配置表id value:剩余购买数量,无限等于-1"/>
+    </tb>
+</tbs>

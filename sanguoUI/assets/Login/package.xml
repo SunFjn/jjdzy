@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="a056duzj">
+  <resources>
+    <component id="pc650" name="GameLoginView1.xml" path="/组件/" exported="true"/>
+    <image id="pc653" name="logo.png" path="/image/" exported="true"/>
+    <image id="pc654" name="Notice.png" path="/image/" exported="true"/>
+    <image id="pc656" name="关闭按钮.png" path="/image/" exported="true"/>
+    <image id="pc657" name="新服.png" path="/image/" exported="true"/>
+    <image id="pc658" name="火爆.png" path="/image/" exported="true"/>
+    <image id="pc659" name="维护.png" path="/image/" exported="true"/>
+    <image id="pc65b" name="套装按钮.png" path="/image/" exported="true"/>
+    <image id="pc65c" name="技能底.png" path="/image/" exported="true" scale="9grid" scale9grid="30,20,60,21"/>
+    <image id="pc65e" name="[切换].png" path="/image/" exported="true"/>
+    <component id="pc65f" name="GameServerList.xml" path="/组件/" exported="true"/>
+    <component id="pc65h" name="ServerTabbutton.xml" path="/组件/" exported="true"/>
+    <image id="pc65i" name="Switch @down.png" path="/image/" exported="true" scale="9grid" scale9grid="32,13,64,23"/>
+    <image id="pc65j" name="Switch @up.png" path="/image/" exported="true" scale="9grid" scale9grid="31,13,62,21"/>
+    <image id="pc65k" name="侧边框底.png" path="/image/" exported="true" scale="9grid" scale9grid="59,71,38,100"/>
+    <component id="pc65l" name="ServerBtn.xml" path="/组件/" exported="true"/>
+    <component id="luu2m" name="GameLoginBroadcast.xml" path="/组件/" exported="true"/>
+    <component id="t424n" name="viewLoading.xml" path="/组件/" exported="true"/>
+    <image id="t424o" name="progress.png" path="/image/" exported="true"/>
+    <image id="t424p" name="progressBg.png" path="/image/" exported="true"/>
+    <component id="10veut" name="ViewMaintainServer.xml" path="/组件/" exported="true"/>
+    <image id="gyatux" name="区底.png" path="/image/" exported="true" scale="9grid" scale9grid="15,13,15,26"/>
+    <image id="gyatuy" name="区底装饰.png" path="/image/" exported="true"/>
+    <image id="gyatv2" name="按钮.png" path="/image/" exported="true"/>
+    <image id="gyatv3" name="进度条-光.png" path="/image/" exported="true"/>
+    <component id="gyatv4" name="StartBtn.xml" path="/组件/" exported="true"/>
+    <image id="gyatv8" name="123.png" path="/image/" exported="true"/>
+    <image id="gyatva" name="弹窗.png" path="/image/" exported="true" scale="9grid" scale9grid="148,85,297,8"/>
+    <image id="qezlvb" name="banhao.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="Login" genCode="true" excluded="e12hvc"/>
+</packageDescription>

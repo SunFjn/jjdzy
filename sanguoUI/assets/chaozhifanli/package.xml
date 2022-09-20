@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qzsojhcr" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="lwai0" name="ViewChaoZhiFL.xml" path="/组件/" exported="true"/>
+    <component id="lwai1" name="ChildCaiLiaoFL.xml" path="/组件/材料返利/" exported="true"/>
+    <component id="lwai2" name="ChildYuanBaoFL.xml" path="/组件/元宝返利/" exported="true"/>
+    <component id="hn3o3" name="Child_ChaoZhiZP.xml" path="/组件/超值转盘/" exported="true"/>
+    <component id="hn3o4" name="View_ChaoZhiZP_Reward.xml" path="/组件/超值转盘/" exported="true"/>
+    <component id="lwai3" name="CailLiaoIt.xml" path="/组件/材料返利/" exported="true"/>
+    <component id="tznx7" name="View_CZZP_MyNote.xml" path="/组件/超值转盘/" exported="true"/>
+    <image id="u5ima" name="二等奖.png" path="/image/" exported="true"/>
+    <image id="u5imb" name="一等奖.png" path="/image/" exported="true"/>
+    <component id="t68we" name="DisShopItem.xml" path="/组件/折扣商店/" exported="true"/>
+    <component id="t68wf" name="Child_DisShop.xml" path="/组件/折扣商店/" exported="true"/>
+    <image id="n2xug" name="超值返利.png" path="/image/" exported="true"/>
+    <component id="asooh" name="ChildWarToDead.xml" path="/组件/血战到底/" exported="true"/>
+    <component id="asooi" name="ItemWarToDead.xml" path="/组件/血战到底/" exported="true"/>
+    <image id="asooj" name="大奖.png" path="/image/" exported="true"/>
+    <image id="asook" name="大奖框.png" path="/image/" exported="true" scale="9grid" scale9grid="23,23,46,46"/>
+    <image id="asool" name="奖励一览.png" path="/image/" exported="true"/>
+    <component id="r2r0h" name="ChildGroupBuy.xml" path="/组件/首冲团购/" exported="true"/>
+    <component id="r2r0i" name="VGroupBuyItem.xml" path="/组件/首冲团购/" exported="true"/>
+    <image id="d2hww" name="跑马灯.png" path="/image/" exported="true"/>
+    <image id="n0mtx" name="背景.png" path="/image/"/>
+    <component id="tt6c14" name="ChildLXXF.xml" path="/组件/连续消费/" exported="true"/>
+    <component id="tt6c15" name="ItemLXXF.xml" path="/组件/连续消费/" exported="true"/>
+    <image id="tt6c17" name="文字.png" path="/image/" exported="true"/>
+    <image id="tt6c18" name="补领标签.png" path="/image/" exported="true"/>
+    <image id="tt6c1c" name="大奖进度.png" path="/image/" exported="true"/>
+    <image id="c7f51f" name="第3天大奖.png" path="/image/" exported="true"/>
+    <image id="c7f51g" name="第7天大奖.png" path="/image/" exported="true"/>
+    <component id="pdbd1h" name="Child_ShengJieShop.xml" path="/组件/升阶商店/" exported="true"/>
+    <component id="pdbd1i" name="ShengJieItem.xml" path="/组件/升阶商店/" exported="true"/>
+    <image id="9tlt1j" name="4603.png" path="/image/"/>
+  </resources>
+  <publish name="chaozhifanli" genCode="true" npot="true" excluded="9tlt1j,n0mtx"/>
+</packageDescription>

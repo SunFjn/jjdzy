@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://ehocr0vupwnz8">
+  <displayList>
+    <component id="n0_pwnz" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="23,153" size="594,889">
+      <Label title="本层目标"/>
+    </component>
+    <richtext id="n1_pwnz" name="tfLayer" xy="49,252" size="125,27" fontSize="20" color="#ffcc33" strokeColor="#000000" text="成就树第一层"/>
+    <richtext id="n2_pwnz" name="tfCount" xy="463,252" pivot="1,0" size="125,27" fontSize="20" color="#ffcc33" strokeColor="#000000" text="成就树第一层"/>
+    <list id="n7_pwnz" name="list" xy="52,298" size="536,669" overflow="scroll" lineGap="10" colGap="11" defaultItem="ui://ehocr0vupwnza" autoClearItems="true">
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+    </list>
+  </displayList>
+</component>

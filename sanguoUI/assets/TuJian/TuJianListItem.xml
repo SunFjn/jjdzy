@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="180,267">
+  <displayList>
+    <component id="n30_cia2" name="item" src="cia23b" fileName="TuJianItem.xml" xy="0,0" size="226,334" scale="0.8,0.8"/>
+    <image id="n32_cia2" name="chooseImg" src="8m8s3hf" fileName="image/通用底框/蓝色选中光效.png" pkg="jvxpx9em" xy="-15,-16" size="209,299"/>
+    <image id="n33_dx7u" name="n33" src="m3513by" fileName="image/文字底.png" pkg="jvxpx9em" xy="49,194" size="93,40" group="n35_dx7u"/>
+    <image id="n34_dx7u" name="n34" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="7,228" size="157,27" group="n35_dx7u"/>
+    <richtext id="n13_h3bo" name="wayLb" xy="6,205" size="166,50" group="n35_dx7u" fontSize="18" color="#00ff00" align="center" autoSize="none" bold="true" text="获取途径&#xA;三国战神"/>
+    <group id="n35_dx7u" name="wayGroup" xy="6,194" size="166,61" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

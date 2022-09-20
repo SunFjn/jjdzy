@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <loader id="n0_v239" name="n0" xy="0,240" pivot="0.5,0.5" size="640,107" alpha="0" url="ui://r92dp953v2391u"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n0_v239" value="0"/>
+    <item time="12" type="Alpha" target="n0_v239" value="1"/>
+    <item time="12" type="XY" target="n0_v239" tween="true" startValue="-640,240" endValue="0,240" duration="8"/>
+    <item time="20" type="Alpha" target="n0_v239" value="1"/>
+    <item time="23" type="Alpha" target="n0_v239" value="0.5"/>
+    <item time="26" type="Alpha" target="n0_v239" value="1"/>
+    <item time="29" type="Alpha" target="n0_v239" value="0.5"/>
+    <item time="32" type="Alpha" target="n0_v239" value="1"/>
+    <item time="48" type="XY" target="n0_v239" tween="true" startValue="0,240" endValue="1280,240" duration="10"/>
+  </transition>
+</component>

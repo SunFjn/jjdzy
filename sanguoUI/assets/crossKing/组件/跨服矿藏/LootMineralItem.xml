@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,147">
+  <displayList>
+    <image id="n4_nyv7" name="n4" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="166,0" size="111,36" rotation="90"/>
+    <image id="n6_i9o1" name="selectImg" src="i9o15g" fileName="image/框选中.png" xy="117,-13"/>
+    <loader id="n1_nyv7" name="mineIcon" xy="0,24" size="127,123" url="ui://yqpfulefnyv74n" autoSize="true"/>
+    <image id="n2_nyv7" name="singImg0" src="nyv74j" fileName="image/跨服矿藏/可抢夺 拷贝.png" xy="59,9"/>
+    <image id="n3_nyv7" name="singImg1" src="nyv74k" fileName="image/跨服矿藏/可顺手.png" xy="59,9"/>
+    <loader id="n5_nyv7" name="nameIcon" xy="134,4" size="28,101" touchable="false" url="ui://yqpfulef9gv65m" align="center" vAlign="middle" color="#00ff00"/>
+    <image id="n7_j2qo" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="150,-3">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>

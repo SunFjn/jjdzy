@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="166,162" pivot="0.5,0.5" extention="Button" initName="guanQiaInfo">
+  <displayList>
+    <image id="n0_h0zq" name="n0" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="166,162"/>
+    <loader id="n2_h0zq" name="iconMap" xy="36,45" size="94,75" fill="scaleFree"/>
+    <text id="n3_h0zq" name="txtFinProg" xy="18,10" size="129,28" fontSize="18" color="#ffffff" align="center" vAlign="middle" text="洛阳【3-100】">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n5_h0zq" name="bar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="6,129" size="153,22">
+      <ProgressBar max="100"/>
+    </component>
+    <image id="n7_h0zq" name="iconNot" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="154,-8" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

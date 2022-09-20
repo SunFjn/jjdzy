@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 登出流水（每次登出)-->
+	<tb model="com.teamtop.system.event.backstage.events.backstage.loginInfo.B_FlowLoginout" tbname="b_flowloginout">
+		<index field="id" type="prikey"/>
+		<index field="hid" type="normal"/>
+		<index field="logoutTime" type="normal"/>
+		<index field="pfcode" type="normal"/>
+		<index field="zoneid" type="normal"/>					
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="openid" type="varchar" len="100" pf="all" comment="角色账号"/>
+		<col field="job" type="int" pf="all" comment="角色职业"/>
+		<col field="level" type="int" pf="all" comment="角色等级"/>
+		<col field="vipLevel" type="int" pf="all" comment="vip等级"/>
+		<col field="zoneid" type="int" pf="all" comment="区号"/>
+        <col field="loginpfcode" type="varchar" len="255" pf="all" comment="登陆平台代码"/>
+		<col field="pfcode" type="varchar" len="255" pf="all" comment="注册平台代码"/>
+	    <col field="nowTask" type="varchar" len="80" pf="all" comment="当前任务名称"/>
+	    <col field="beforeTask" type="varchar" len="80" pf="all" comment="上一个任务"/>
+        <col field="beforeTime" type="int" pf="all" comment="上一次任务完成时间"/>
+		<col field="logoutTime" type="int" pf="all" comment="登出时间"/>
+		<col field="totalStrength" type="bigint" pf="all" comment="总战力"/>
+		<col field="reincarnationLevel" type="int" pf="all" comment="六道轮回等级"/>    
+	</tb>
+</tbs>

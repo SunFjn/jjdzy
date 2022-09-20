@@ -1,0 +1,255 @@
+2020-11-07 11:00:28.163 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:01:28.181 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:01:37.719 [任务线程 - 13] INFO  com.teamtop.system.boss.monsterGod.MonsterGodEvent - MonsterGodEvent.fixTime cmdId:0 time:2020-11-08_19-00-00s
+2020-11-07 11:01:37.719 [任务线程 - 13] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.boss.monsterGod.MonsterGodEvent@618b19ad,now:1604833200,dayTime:1900
+2020-11-07 11:01:37.719 [任务线程 - 13] INFO  com.teamtop.system.crossBoss.cross.CrossBossCrossEvent - CrossBossCrossEvent.fixTime cmdId:2 time:2020-11-08_19-00-00s
+2020-11-07 11:01:37.719 [任务线程 - 13] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossBoss.cross.CrossBossCrossEvent@30a7c98f,now:1604833200,dayTime:1900
+2020-11-07 11:01:37.719 [crossChannelEx - 4] INFO  com.teamtop.system.crossBoss.CrossBossIO - local tell cross state:2  1
+2020-11-07 11:01:47.222 [任务线程 - 6] INFO  com.teamtop.system.activity.ativitys.caoCaoCome.CaoCaoComeFunction - createBoss:243001
+2020-11-07 11:01:47.222 [任务线程 - 6] INFO  com.teamtop.system.activity.ativitys.caoCaoCome.CaoCaoComeSchedule - CaoCaoComeFunction.getIns().start() 
+2020-11-07 11:01:47.410 [任务线程 - 15] INFO  com.teamtop.util.exector.schedule.SchedulerBean - 任务 [MonsterGodCache] 已取消 !
+2020-11-07 11:01:47.504 [任务线程 - 15] INFO  com.teamtop.system.boss.monsterGod.MonsterGodEvent - MonsterGodEvent.fixTime cmdId:0 time:2020-11-08_19-00-00s
+2020-11-07 11:01:47.504 [任务线程 - 15] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.boss.monsterGod.MonsterGodEvent@2d3379b4,now:1604833200,dayTime:1900
+2020-11-07 11:02:28.195 [任务线程 - 9] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:02:47.427 [任务线程 - 10] INFO  com.teamtop.system.event.backstage.BackstageSystemEvent - 60m event:com.teamtop.system.event.backstage.events.flowMMCache.FlowMMCacheEvent@38fdfed0,now:1604833260
+2020-11-07 11:03:28.211 [任务线程 - 13] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:04:28.223 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:05:28.239 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:06:28.252 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:07:28.259 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:08:28.269 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:09:28.276 [任务线程 - 12] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:10:28.285 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:11:28.296 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:12:28.313 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:13:28.328 [任务线程 - 9] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:14:28.343 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:15:28.353 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:16:28.365 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:17:28.379 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:18:28.388 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:19:28.390 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:20:28.398 [任务线程 - 12] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:21:28.411 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:22:28.420 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:23:28.426 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:24:28.442 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:25:28.453 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:26:28.466 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:26:37.847 [任务线程 - 10] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.battleGoods.event.BattleGoodLocalSysEvent@3c3d9b6b,now:1604834700,dayTime:1925
+2020-11-07 11:26:47.990 [任务线程 - 12] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.battleGoods.event.BattleGoodLocalSysEvent@2053d869,now:1604834700,dayTime:1925
+2020-11-07 11:27:28.480 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:28:28.488 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:29:28.498 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:29:37.252 [任务线程 - 9] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.battleGoods.event.BattleGoodCrossSysEvent@396e6d9,now:1604834880,dayTime:1928
+2020-11-07 11:29:37.252 [任务线程 - 9] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - activityOper type:3 success,proFlag:1 proState:1
+2020-11-07 11:29:37.268 [任务线程 - 9] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - week event:com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossEvent@1fba386c,now:1604834880,dayTime:1928
+2020-11-07 11:30:28.513 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:31:28.523 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:31:37.903 [任务线程 - 7] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.battleGoods.event.BattleGoodCrossSysEvent@396e6d9,now:1604835000,dayTime:1930
+2020-11-07 11:31:37.903 [任务线程 - 7] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - bang:1nodes==null 
+2020-11-07 11:31:37.903 [任务线程 - 7] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - bang:2nodes==null 
+2020-11-07 11:31:37.903 [任务线程 - 7] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - bang:3nodes==null 
+2020-11-07 11:31:37.903 [任务线程 - 7] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - bang:4nodes==null 
+2020-11-07 11:31:37.903 [任务线程 - 7] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - bang:5nodes==null 
+2020-11-07 11:31:37.903 [任务线程 - 7] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - activityOper type:2 success,proFlag:1 proState:1
+2020-11-07 11:31:37.936 [任务线程 - 7] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - week event:com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossEvent@1fba386c,now:1604835000,dayTime:1930
+2020-11-07 11:31:47.625 [任务线程 - 1] INFO  com.teamtop.system.activity.ativitys.caoCaoCome.CaoCaoComeSchedule - CaoCaoComeFunction.getIns().end() 
+2020-11-07 11:32:28.538 [任务线程 - 12] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:33:28.548 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:34:28.559 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:35:28.568 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:36:28.579 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:36:37.959 [任务线程 - 7] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - activityOper type:1 success,proFlag:1 proState:2
+2020-11-07 11:36:37.992 [任务线程 - 7] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - week event:com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossEvent@1fba386c,now:1604835300,dayTime:1935
+2020-11-07 11:37:28.581 [任务线程 - 5] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:38:28.594 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:39:28.603 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:40:28.612 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:41:28.621 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:42:28.629 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:43:28.646 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:44:28.659 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:44:37.457 [任务线程 - 13] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - activityOper type:3 success,proFlag:2 proState:1
+2020-11-07 11:44:37.490 [任务线程 - 13] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - week event:com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossEvent@1fba386c,now:1604835780,dayTime:1943
+2020-11-07 11:45:28.666 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:46:28.681 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:46:37.124 [任务线程 - 3] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - bang:1nodes==null 
+2020-11-07 11:46:37.124 [任务线程 - 3] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - bang:2nodes==null 
+2020-11-07 11:46:37.124 [任务线程 - 3] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - bang:3nodes==null 
+2020-11-07 11:46:37.124 [任务线程 - 3] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - bang:4nodes==null 
+2020-11-07 11:46:37.124 [任务线程 - 3] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - bang:5nodes==null 
+2020-11-07 11:46:37.124 [任务线程 - 3] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - activityOper type:2 success,proFlag:2 proState:1
+2020-11-07 11:46:37.156 [任务线程 - 3] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - week event:com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossEvent@1fba386c,now:1604835900,dayTime:1945
+2020-11-07 11:47:28.690 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:48:28.703 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:49:28.714 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:50:28.731 [任务线程 - 16] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:51:28.744 [任务线程 - 9] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:51:37.138 [任务线程 - 8] INFO  com.teamtop.util.exector.schedule.SchedulerBean - 任务 [ZSBOSS] 已取消 !
+2020-11-07 11:51:37.138 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2020-11-07 11:51:37.138 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2020-11-07 11:51:37.138 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2020-11-07 11:51:37.138 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2020-11-07 11:51:37.138 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2020-11-07 11:51:37.138 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2020-11-07 11:51:37.138 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2020-11-07 11:51:37.138 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2020-11-07 11:51:37.138 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2020-11-07 11:51:37.138 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2020-11-07 11:51:37.138 [crossChannelEx - 3] INFO  com.teamtop.system.crossBoss.CrossBossIO - localReceiveData :{{240003:{{240003,0,{!},{!},!}},240002:{{240002,0,{!},{!},!}},240001:{{240001,0,{!},{!},!}},240005:{{240005,0,{!},{!},!}},240004:{{240004,0,{!},{!},!}}},{1}}
+2020-11-07 11:51:37.154 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.cross.CrossBossCrossEvent - CrossBossCrossEvent.fixTime cmdId:0 time:2020-11-08_19-50-00s
+2020-11-07 11:51:37.154 [任务线程 - 8] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossBoss.cross.CrossBossCrossEvent@30a7c98f,now:1604836200,dayTime:1950
+2020-11-07 11:51:37.154 [任务线程 - 8] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.battleGoods.event.BattleGoodCrossSysEvent@396e6d9,now:1604836200,dayTime:1950
+2020-11-07 11:51:37.154 [任务线程 - 8] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - activityOper type:1 success,proFlag:2 proState:2
+2020-11-07 11:51:37.154 [crossChannelEx - 1] INFO  com.teamtop.system.crossBoss.CrossBossIO - local tell cross state:0  1
+2020-11-07 11:51:37.186 [任务线程 - 8] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - week event:com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossEvent@1fba386c,now:1604836200,dayTime:1950
+2020-11-07 11:52:28.752 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:53:28.764 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:54:28.775 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:55:28.792 [任务线程 - 10] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:56:28.805 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:56:37.246 [任务线程 - 11] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生1001——3003 bossid:240001 maxhp1367530000 倍数：0总血量：1367530000
+2020-11-07 11:56:37.246 [任务线程 - 11] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240001 tempMaxHp:0
+2020-11-07 11:56:37.246 [任务线程 - 11] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生4001——6003 bossid:240002 maxhp6730920000 倍数：0总血量：6730920000
+2020-11-07 11:56:37.246 [任务线程 - 11] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240002 tempMaxHp:0
+2020-11-07 11:56:37.246 [任务线程 - 11] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生7001——8003 bossid:240003 maxhp25705905000 倍数：0总血量：25705905000
+2020-11-07 11:56:37.246 [任务线程 - 11] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240003 tempMaxHp:0
+2020-11-07 11:56:37.246 [任务线程 - 11] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生9001——10003 bossid:240004 maxhp62142310000 倍数：0总血量：62142310000
+2020-11-07 11:56:37.246 [任务线程 - 11] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240004 tempMaxHp:0
+2020-11-07 11:56:37.246 [任务线程 - 11] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生11001——12003 bossid:240005 maxhp104600755000 倍数：0总血量：104600755000
+2020-11-07 11:56:37.246 [任务线程 - 11] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240005 tempMaxHp:0
+2020-11-07 11:56:37.246 [任务线程 - 11] INFO  com.teamtop.system.crossBoss.cross.CrossBossCrossEvent - CrossBossCrossEvent.fixTime cmdId:1 time:2020-11-08_19-55-00s
+2020-11-07 11:56:37.246 [任务线程 - 11] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossBoss.cross.CrossBossCrossEvent@30a7c98f,now:1604836500,dayTime:1955
+2020-11-07 11:56:37.246 [crossChannelEx - 2] INFO  com.teamtop.system.crossBoss.CrossBossIO - local tell cross state:1  1
+2020-11-07 11:57:28.814 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:58:28.822 [任务线程 - 13] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:59:27.404 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:GlobalCache
+2020-11-07 11:59:27.404 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:GlobalTimeCache
+2020-11-07 11:59:27.420 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:SoloRunSysCache
+2020-11-07 11:59:27.451 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossBossCache
+2020-11-07 11:59:28.184 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossKingCrossCache
+2020-11-07 11:59:28.200 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:DynastyWarriorsSysCache
+2020-11-07 11:59:28.231 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossSelectKingCache
+2020-11-07 11:59:28.247 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:HeroesListSysCache
+2020-11-07 11:59:28.262 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossSoloRunSysCache
+2020-11-07 11:59:28.404 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossFireBeaconSysCache
+2020-11-07 11:59:28.591 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CommonRankSysCache
+2020-11-07 11:59:28.622 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:LingLongCrossSysCache
+2020-11-07 11:59:28.700 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossGodGenSendGiftActCache
+2020-11-07 11:59:28.716 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossMineCrossCache
+2020-11-07 11:59:28.747 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossEightDoorAppraiseRankSysCache
+2020-11-07 11:59:28.778 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossShaoZhuQiYuanRankSysCache
+2020-11-07 11:59:28.825 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-07 11:59:28.873 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossSaintMonsterWashRankCache
+2020-11-07 11:59:28.873 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:TigerPassCrossCache
+2020-11-07 11:59:28.888 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossRechargeRankActSysCache
+2020-11-07 11:59:28.919 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:MonsterKingSearchMonsterSysCache
+2020-11-07 11:59:28.935 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossEightDoorAppraiseRankActSysCache
+2020-11-07 11:59:28.966 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossShaoZhuQiYuanRankActSysCache
+2020-11-07 11:59:28.966 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossZhuLuCache
+2020-11-07 11:59:29.138 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossTrialSysCache
+2020-11-07 11:59:29.153 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossTeamKingCroCache
+2020-11-07 11:59:29.169 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:GuardAreaCrossCache
+2020-11-07 11:59:29.200 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:YanhuiCrossCache
+2020-11-07 11:59:29.216 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossDropRedPacketSysCache
+2020-11-07 11:59:29.216 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossHouseCache
+2020-11-07 11:59:29.216 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:YuanXiaoCrossSyscache
+2020-11-07 11:59:29.216 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:RedBoxCrossCache
+2020-11-07 11:59:29.231 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossArenaFightSysCache
+2020-11-07 11:59:29.278 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:DengFengZaoJiCrossCache
+2020-11-07 11:59:29.278 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:AttackCityCrossCache
+2020-11-07 11:59:29.278 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - 文件不存在：D:\eclipse-workspace\H5_XingSanGuoVs\log\console.log
+2020-11-07 11:59:29.278 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - 文件不存在：D:\eclipse-workspace\H5_XingSanGuoVs\log\gc.log
+2020-11-07 11:59:29.278 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:Server Shutdown
+2020-11-07 11:59:29.918 [HoutaiNetty-10-1] INFO  com.teamtop.netty.handlers.CrossConnIODecoder - channel inactive,remote address:/192.168.61.210:9778,local address:/192.168.61.210:64546
+2020-11-07 11:59:33.440 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:GlobalCache
+2020-11-07 11:59:33.440 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:GlobalTimeCache
+2020-11-07 11:59:33.456 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:ServerMaintainCache
+2020-11-07 11:59:33.487 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:RechargeWhiteListCache
+2020-11-07 11:59:33.503 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:WelfareNoticeCache
+2020-11-07 11:59:33.534 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:TrueNameAndAntiAddictionCache
+2020-11-07 11:59:33.534 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:PlatformInfoCache
+2020-11-07 11:59:33.549 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:BlockWordCache
+2020-11-07 11:59:33.581 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:MonsterKingSearchMonsterSysCache
+2020-11-07 11:59:33.643 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CommonRankSysCache
+2020-11-07 11:59:33.674 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:IpWhiteListCache
+2020-11-07 11:59:33.737 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:角色
+2020-11-07 11:59:35.690 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:GlobalCache
+2020-11-07 11:59:35.722 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:GlobalTimeCache
+2020-11-07 11:59:35.893 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:HouTaiHttpCache
+2020-11-07 11:59:35.940 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:LoginNoticeCache
+2020-11-07 11:59:35.971 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:WelfareNoticeCache
+2020-11-07 11:59:36.065 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:ServerSelfMotionCache
+2020-11-07 11:59:36.127 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:ServerInfoCache
+2020-11-07 11:59:36.174 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:SetServerWarnCache
+2020-11-07 11:59:36.237 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:RechargeWhiteListCache
+2020-11-07 11:59:36.283 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossActivitySwitchCache
+2020-11-07 11:59:36.316 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:TrueNameAndAntiAddictionCache
+2020-11-07 11:59:36.316 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:KuaFuFenQuCache
+2020-11-07 11:59:36.316 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:CrossPartCache
+2020-11-07 11:59:36.425 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:ExclusiveActivitySysCache
+2020-11-07 11:59:36.440 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:全局通用
+2020-11-07 11:59:36.472 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:IpWhiteListCache
+2020-11-07 11:59:36.487 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:装备
+2020-11-07 11:59:36.518 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:TimingSelfMotionServerCache
+2020-11-07 11:59:36.596 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:GameSystemCache
+2020-11-07 11:59:36.596 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - 文件不存在：D:\eclipse-workspace\H5_XingSanGuoVs\log\console.log
+2020-11-07 11:59:36.596 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - 文件不存在：D:\eclipse-workspace\H5_XingSanGuoVs\log\gc.log
+2020-11-07 11:59:36.596 [Thread-3] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:Server Shutdown
+2020-11-07 11:59:36.612 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:后台
+2020-11-07 11:59:36.628 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:南征北战
+2020-11-07 11:59:36.659 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:单刀赴会
+2020-11-07 11:59:36.674 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:三国无双
+2020-11-07 11:59:36.784 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:群英榜
+2020-11-07 11:59:36.955 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:开服天数控制系统
+2020-11-07 11:59:37.002 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:活动
+2020-11-07 11:59:37.018 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:吕布降临
+2020-11-07 11:59:37.018 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:藏宝阁
+2020-11-07 11:59:37.064 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:烽火狼烟
+2020-11-07 11:59:37.096 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:圣兽降临-圣兽寻宝
+2020-11-07 11:59:37.127 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:圣兽寻宝（常驻）
+2020-11-07 11:59:37.174 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:铜雀台
+2020-11-07 11:59:37.220 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:魔神吕布
+2020-11-07 11:59:37.236 [HoutaiNetty-8-1] INFO  com.teamtop.netty.handlers.CrossConnIODecoder - channel inactive,remote address:/192.168.61.210:9777,local address:/192.168.61.210:64532
+2020-11-07 11:59:37.267 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:国家
+2020-11-07 11:59:37.300 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:隆中对
+2020-11-07 11:59:37.347 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:枭雄争霸
+2020-11-07 11:59:37.378 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:七日武圣榜
+2020-11-07 11:59:37.410 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:开服狂欢
+2020-11-07 11:59:37.566 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:玲珑阁
+2020-11-07 11:59:37.581 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:超值转盘返利
+2020-11-07 11:59:37.612 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:7日首冲团购
+2020-11-07 11:59:37.628 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:国家boss
+2020-11-07 11:59:37.659 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:问鼎天下
+2020-11-07 11:59:37.690 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:八门金锁
+2020-11-07 11:59:37.722 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:神将送礼(系统)
+2020-11-07 11:59:37.768 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:神将送礼(活动)
+2020-11-07 11:59:37.815 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:新王位之争
+2020-11-07 11:59:37.862 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:国家技能
+2020-11-07 11:59:37.878 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:首冲团购(8~28)
+2020-11-07 11:59:37.924 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:圣兽洗练（15-21）
+2020-11-07 11:59:38.034 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:专属活动
+2020-11-07 11:59:38.049 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:专属活动-单笔充值
+2020-11-07 11:59:38.080 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:专属活动-专属商店
+2020-11-07 11:59:38.127 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:专属活动-累计充值
+2020-11-07 11:59:38.143 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:专属活动-单笔返利
+2020-11-07 11:59:38.190 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:专属活动-元宝返利
+2020-11-07 11:59:38.205 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:火烧赤壁
+2020-11-07 11:59:38.221 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:异兽BOSS
+2020-11-07 11:59:38.252 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:曹操来袭
+2020-11-07 11:59:38.268 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:限时抢购(活动)
+2020-11-07 11:59:38.300 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:充值排行(活动)
+2020-11-07 11:59:38.315 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:鉴定排名(活动)
+2020-11-07 11:59:38.347 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:祈愿排名(活动)
+2020-11-07 11:59:38.362 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:合服-大神送礼
+2020-11-07 11:59:38.378 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:合服-张飞醉酒
+2020-11-07 11:59:38.409 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:粮草抢夺
+2020-11-07 11:59:38.409 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:桃园结义
+2020-11-07 11:59:38.425 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:新活动-全服消费
+2020-11-07 11:59:38.456 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:跨服王者
+2020-11-07 11:59:38.503 [Thread-7] INFO  com.teamtop.util.exector.ExectorUtil - pool heroDataSaveThread close complete
+2020-11-07 11:59:38.503 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:HeroDataSaver
+2020-11-07 11:59:38.503 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - 文件不存在：D:\eclipse-workspace\H5_XingSanGuoVs\log\console.log
+2020-11-07 11:59:38.503 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - 文件不存在：D:\eclipse-workspace\H5_XingSanGuoVs\log\gc.log
+2020-11-07 11:59:38.503 [Thread-7] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:Server Shutdown

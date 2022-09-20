@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,884">
+  <displayList>
+    <component id="n3_a0u3" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="594,884">
+      <Label title="排名奖励"/>
+    </component>
+    <list id="n4_a0u3" name="list" xy="21,116" size="560,651" overflow="scroll" lineGap="3" colGap="1" defaultItem="ui://3o8q23uua0u32b" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n18_j2af" name="n18" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="21,776" size="558,87"/>
+    <richtext id="n5_a0u3" name="lbRank" xy="58,808" size="135,28" fontSize="18" color="#e2ad38" autoClearText="true" text="我的排名：22名"/>
+    <richtext id="n6_a0u3" name="lbPoint" xy="369,807" size="176,28" fontSize="18" color="#e2ad38" align="right" autoSize="none" autoClearText="true" text="我的积分：50"/>
+    <image id="n19_j2af" name="n19" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="21,68" size="558,42"/>
+    <richtext id="n20_j2af" name="n20" xy="58,77" size="41,28" fontSize="18" color="#e2ad38" text="排名"/>
+    <richtext id="n21_j2af" name="n21" xy="203,77" size="41,28" fontSize="18" color="#e2ad38" text="玩家"/>
+    <richtext id="n22_j2af" name="n22" xy="440,77" size="41,28" fontSize="18" color="#e2ad38" text="奖励"/>
+  </displayList>
+</component>

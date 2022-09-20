@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="610,125">
+  <displayList>
+    <image id="n12_jjay" name="n12" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="610,125"/>
+    <component id="n1_tw1l" name="progress" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="235,30" size="201,20">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n3_tw1l" name="btn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="451,35">
+      <Button title="前往"/>
+    </component>
+    <richtext id="n4_tw1l" name="lbAwards" xy="115,73" size="107,28" fontSize="18" color="#ffffff" autoSize="none" text="活跃"/>
+    <richtext id="n5_tw1l" name="lbTitle" xy="116,25" size="41,28" fontSize="18" color="#ffc334" text="组件"/>
+    <image id="n10_tw1l" name="imgYWC" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="457,46"/>
+    <richtext id="n13_ftjg" name="lbHuoYue" xy="242,73" size="107,28" fontSize="18" color="#ffffff" autoSize="none" text="活跃"/>
+    <component id="n14_oj5a" name="btnLQ" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="451,35">
+      <Button title="领取"/>
+    </component>
+  </displayList>
+</component>

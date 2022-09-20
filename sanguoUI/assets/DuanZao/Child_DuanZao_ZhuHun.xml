@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,904" opaque="false" adaptationTest="FitSize">
+  <displayList>
+    <component id="n35_z1r8" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="270,371"/>
+    <component id="n42_z1r8" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="158,743" size="325,24">
+      <ProgressBar value="54" max="100"/>
+    </component>
+    <component id="n48_z1r8" name="keyZhuHunBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="255,842">
+      <Button title="一键铸魂"/>
+    </component>
+    <component id="n36_z1r8" name="iconBt0" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="402,217" size="80,77">
+      <Button icon="ui://pofv8989f1cf63"/>
+    </component>
+    <component id="n37_z1r8" name="iconBt1" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="402,303" size="80,77">
+      <Button icon="ui://pofv8989f1cf65"/>
+    </component>
+    <component id="n38_z1r8" name="iconBt2" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="402,385" size="80,77">
+      <Button icon="ui://pofv8989f1cf64"/>
+    </component>
+    <image id="n58_f1cf" name="n58" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="111,536" size="418,177"/>
+    <richtext id="n40_z1r8" name="curLb" xy="189,610" size="82,85" group="n67_myqz" touchable="false" fontSize="18" color="#ffffff" leading="10" text="攻击+100&#xA;暴击+100&#xA;暴击+100"/>
+    <image id="n62_f1cf" name="n62" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="296,628" group="n67_myqz">
+      <relation target="n40_z1r8" sidePair="middle-middle"/>
+    </image>
+    <richtext id="n41_z1r8" name="nextLb" xy="374,610" size="82,85" group="n67_myqz" touchable="false" fontSize="18" color="#26e51d" leading="10" text="攻击+100&#xA;暴击+100&#xA;暴击+100"/>
+    <group id="n67_myqz" name="n67" xy="189,610" size="272,96" advanced="true" collapsed="true" layout="hz" colGap="20">
+      <relation target="n58_f1cf" sidePair="center-center"/>
+    </group>
+    <component id="n39_z1r8" name="jieLb" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="182,544" size="277,25" touchable="false">
+      <Label title="0阶"/>
+    </component>
+    <component id="n53_sv0g" name="countLb0" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="84,798" size="141,36" touchable="false"/>
+    <component id="n54_sv0g" name="countLb1" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="255,798" size="143,36" touchable="false"/>
+    <component id="n55_sv0g" name="countLb2" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="430,798" size="136,36" touchable="false"/>
+    <richtext id="n56_f1cf" name="nameLb" xy="218,337" size="204,31" touchable="false" fontSize="20" color="#f9b627" align="center" autoSize="none" text="装备名称"/>
+    <richtext id="n60_f1cf" name="n60" xy="203,577" size="41,28" touchable="false" fontSize="18" color="#ffffff" autoSize="none" text="当前"/>
+    <richtext id="n61_f1cf" name="n61" xy="397,577" size="41,28" touchable="false" fontSize="18" color="#26e51d" autoSize="none" text="下级"/>
+  </displayList>
+</component>

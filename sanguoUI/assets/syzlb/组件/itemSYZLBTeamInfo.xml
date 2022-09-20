@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="126,170">
+  <displayList>
+    <component id="n0_qqnw" name="vHead" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="17,0" scale="0.8,0.8"/>
+    <richtext id="n1_qqnw" name="lb" xy="-13,77" size="151,25" fontSize="16" color="#ffffff" align="center" autoSize="none" text="玩家名字六字,S999"/>
+    <component id="n2_qqnw" name="btn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="63,132" pivot="0.5,0.5" anchor="true" scale="0.8,0.8">
+      <Button title="转让队长"/>
+    </component>
+  </displayList>
+</component>

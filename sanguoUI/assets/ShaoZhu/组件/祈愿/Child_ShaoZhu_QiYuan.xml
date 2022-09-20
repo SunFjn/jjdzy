@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,914" opaque="false">
+  <displayList>
+    <component id="n1_u01j" name="btnBuy1" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="143,698" pivot="0.5,0.5">
+      <Button title="祈愿1次"/>
+    </component>
+    <component id="n2_u01j" name="btnBuy10" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="363,698" pivot="0.5,0.5">
+      <Button title="祈愿10次"/>
+    </component>
+    <richtext id="n7_u01j" name="labBuy1" xy="139,753" size="147,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="购买1000铜钱"/>
+    <richtext id="n8_u01j" name="labBuy10" xy="354,754" size="157,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="购买1000铜钱"/>
+    <richtext id="n23_u01j" name="labTip" xy="60,886" size="520,28" touchable="false" fontSize="18" color="#00ff00" align="center" autoSize="none" text="每次祈愿可获得10点积分，积分满后重置奖励"/>
+    <component id="n13_u01j" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="122,826" size="478,21">
+      <ProgressBar value="1000" max="1000"/>
+    </component>
+    <richtext id="n24_u01j" name="labPoint" xy="40,823" size="77,28" touchable="false" fontSize="18" color="#ff9900" text="祈愿积分"/>
+    <component id="n26_oaxs" name="gird0" src="sr6c17" fileName="组件/祈愿/VSZQiYuanPoint.xml" xy="117,799"/>
+    <component id="n27_oaxs" name="gird3" src="sr6c17" fileName="组件/祈愿/VSZQiYuanPoint.xml" xy="530,800"/>
+    <component id="n28_oaxs" name="gird2" src="sr6c17" fileName="组件/祈愿/VSZQiYuanPoint.xml" xy="399,798"/>
+    <component id="n29_oaxs" name="gird1" src="sr6c17" fileName="组件/祈愿/VSZQiYuanPoint.xml" xy="231,799"/>
+    <image id="n30_qyln" name="n30" src="qyln18" fileName="image/灯笼.png" xy="234,316"/>
+    <image id="n31_qyln" name="n31" src="qyln18" fileName="image/灯笼.png" xy="36,318"/>
+    <component id="n37_qyln" name="vres1" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="142,654" size="136,36">
+      <Label title="300"/>
+    </component>
+    <component id="n38_qyln" name="vres10" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="363,655" size="132,36">
+      <Label title="2800"/>
+    </component>
+    <loader id="n39_qyln" name="n39" xy="24,153" size="588,169" url="ui://jvxpx9emm3513bv" fill="scaleFree"/>
+    <component id="n42_qyln" name="n42" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="151,173" pivot="0.5,0.5" size="329,31">
+      <Label title="奖励预览"/>
+    </component>
+    <component id="n36_qyln" name="reward0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="85,418" scale="0.9,0.9"/>
+    <list id="n4_u01j" name="list" xy="39,205" size="656,113" scale="0.85,0.85" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n45_qyln" name="n45" src="qyln18" fileName="image/灯笼.png" xy="431,318"/>
+    <component id="n46_qyln" name="reward1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="284,417" scale="0.9,0.9"/>
+    <component id="n47_qyln" name="reward2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="483,418" scale="0.9,0.9"/>
+    <component id="n12_u01j" name="checkBox" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="504,323" size="116,32">
+      <Button title="跳过动画" titleColor="#27e730"/>
+    </component>
+    <richtext id="n5_u01j" name="lbShuoMing" xy="17,882" size="85,31" fontSize="20" color="#00ff00" underline="true" text="玩法说明"/>
+  </displayList>
+</component>

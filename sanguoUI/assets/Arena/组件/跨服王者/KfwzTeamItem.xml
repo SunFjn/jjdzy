@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="178,261">
+  <displayList>
+    <image id="n36_ju9q" name="imageSelect" src="m3513c1" fileName="image/选中效果.png" pkg="jvxpx9em" xy="-6,6" size="190,261"/>
+    <component id="n27_n9yf" name="n27" src="veix8g" fileName="组件/跨服王者/KfwzTeamItemBg.xml" xy="0,0" visible="false"/>
+    <image id="n28_n9yf" name="n28" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="13,29" size="153,218"/>
+    <component id="n32_n9yf" name="headCom" src="n9yf72" fileName="组件/跨服王者/KfwzHead.xml" xy="6,54"/>
+    <component id="n30_n9yf" name="btnClose" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="123,13" size="39,40">
+      <Button icon="ui://me1skowlju9q7p"/>
+    </component>
+    <image id="n31_n9yf" name="flagLeader" src="n9yf71" fileName="组件/跨服王者/res/队长标签.png" xy="7,19"/>
+  </displayList>
+</component>

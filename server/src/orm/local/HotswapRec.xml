@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.redeploy.HotswapRec" tbname="HotswapRec">
+			<index field="id" type="prikey"/>
+			<col field="id" type="int" pf="all" comment="唯一id"/>
+			<col field="time" type="int" pf="all" comment="时间"/>
+			<col field="zhushi" type="varchar" len="500" pf="all" comment="描述"/>
+			<col field="classinfo" type="varchar" len="2000" pf="all" comment="涉及类"/>
+     </tb>
+</tbs>

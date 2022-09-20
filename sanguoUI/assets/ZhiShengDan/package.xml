@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="1zbdupo5" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="iysk3f3" name="ViewZSD.xml" path="/组件/" exported="true"/>
+    <image id="iysk3f5" name="2501.png" path="/image/" exported="true"/>
+    <image id="iysk3f6" name="标题.png" path="/image/" exported="true"/>
+    <image id="iysk3f7" name="2801.png" path="/image/" exported="true"/>
+    <image id="iysk3fc" name="3301.png" path="/image/" exported="true"/>
+    <image id="iysk3fd" name="3102.png" path="/image/" exported="true"/>
+    <image id="iysk3fa" name="文本.png" path="/image/" exported="true"/>
+    <image id="iysk3f8" name="2701.png" path="/image/" exported="true"/>
+    <image id="iysk3f9" name="2601.png" path="/image/" exported="true"/>
+    <image id="iysk3fb" name="3101.png" path="/image/" exported="true"/>
+  </resources>
+  <publish npot="true" name="ZhiShengDan" genCode="true"/>
+</packageDescription>

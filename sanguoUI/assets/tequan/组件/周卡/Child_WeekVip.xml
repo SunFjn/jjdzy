@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="638,466" designImageOffsetY="-291">
+  <displayList>
+    <loader id="n12_ha71" name="n12" xy="11,0" size="50,30" autoSize="true"/>
+    <image id="n16_hcde" name="n16" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="32,328" size="301,118"/>
+    <image id="n11_ha71" name="n11" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="427,352"/>
+    <component id="n1_n5bt" name="n1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="42,358" scale="0.8,0.8"/>
+    <component id="n2_n5bt" name="n2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="143,358" scale="0.8,0.8"/>
+    <component id="n3_n5bt" name="n3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="245,358" scale="0.8,0.8"/>
+    <richtext id="n6_n5bt" name="lbTime" xy="376,414" size="227,25" fontSize="18" color="#33ff00" align="center" autoSize="none" text="时间">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n13_awl5" name="n13" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="429,51" visible="false">
+      <Button title="续费"/>
+    </component>
+    <image id="n17_erg2" name="n17" src="erg225" fileName="image/每日可领.png" xy="135,328"/>
+    <component id="n20_v465" name="n5" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="422,340">
+      <Button title="冲钱！"/>
+    </component>
+  </displayList>
+</component>

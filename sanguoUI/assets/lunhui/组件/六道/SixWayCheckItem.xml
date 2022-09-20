@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="562,123">
+  <displayList>
+    <loader id="n1_v97g" name="bgImg" xy="2,3" size="195,82" url="ui://ehelf5bh11m1w1j" fill="scaleFree"/>
+    <loader id="n2_v97g" name="pzImg" xy="0,0" size="198,86" url="ui://ehelf5bh11m1w1e" fill="scaleFree"/>
+    <image id="n3_v97g" name="n3" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="207,0" size="355,123"/>
+    <richtext id="n4_v97g" name="nameLb" xy="2,88" size="195,32" fontSize="25" color="#0000ff" align="center" autoSize="none" text="天道之力"/>
+    <richtext id="n5_v97g" name="lbContent" xy="214,10" size="195,25" fontSize="18" color="#ffffff" text="需装备2件蓝色天道印记"/>
+    <richtext id="n6_v97g" name="proLb" xy="214,85" size="184,27" fontSize="20" color="#ffffff" text="PVP伤害加成：50%"/>
+    <richtext id="n7_l3en" name="lbPower" xy="214,47" size="109,25" fontSize="18" color="#ffffff" text="战力：19000"/>
+  </displayList>
+</component>

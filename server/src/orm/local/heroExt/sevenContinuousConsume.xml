@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.sevenContinuousConsume.SevenContinuousConsume" tbname="sevenContinuousConsume">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="dataMap" type="text" pf="all" comment="7天数据  key:第几天     value:数据"/>
+			<col field="awardsBigGet" type="int" pf="all" comment="最大的奖励，1已领取"/>
+			<col field="awardsLittleGet" type="int" pf="all" comment="3日最大的奖励，1已领取"/>
+     </tb>
+</tbs>

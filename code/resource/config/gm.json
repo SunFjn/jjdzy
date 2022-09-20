@@ -1,0 +1,144 @@
+{
+	"说明":[
+		{
+			"style":"bar样式 1:物品链接库（自定义） 2.无连接 有输入框 3：没有输入框 5：问鼎天下选择框",
+			"type":"大类型",
+			"index":"小类型",
+			"title":"标题 最多2个",
+			"text":"对应的初始值"
+		}
+	],
+    "groups":[
+        {
+            "title":"角色",
+            "data":[
+				{ "style": 1, "type": 1, "index": 10001, "title": ["添加物品", "数量："], "text": ["强化石", "1"] },
+				{ "style": 3, "type": 1, "index": 10002, "title": ["清空背包"] },
+				{ "style": 2, "type": 1, "index": 3, "title": ["添加铜币"], "text": ["1000"] },
+				{ "style": 2, "type": 1, "index": 4, "title": ["充值商品id","直购表ID"], "text": ["1",""] },
+				{ "style": 2, "type": 1, "index": 5, "title": ["添加等级"], "text": ["100"] },
+				{ "style": 2, "type": 1, "index": 6, "title": ["添加经验"], "text": ["1000"] },
+				{ "style": 2, "type": 1, "index": 7, "title": ["挂机 0关 1开"], "text": ["0"] },
+				{ "style": 2, "type": 1, "index": 99, "title": ["增加转生"], "text": ["1001"] },
+				{ "style": 2, "type": 1, "index": 9, "title": ["阵魂"], "text": ["100"] },
+				{ "style": 2, "type": 1, "index": 13, "title": ["技能宝物点"], "text": ["100"] },
+				{ "style": 6, "type": 1, "index": 0, "title": ["增加货币类型", "数量"], "text": ["3", "1000"] },
+				{ "style": 3, "type": 1, "index": 10003, "title": ["变强:获得全套升阶道具"] },
+				{ "style": 3, "type": 1, "index": 10004, "title": ["变强:获得一套最强装备"] },
+				{ "style": 2, "type": 1, "index": 10005, "title": ["速度"], "text": ["100"] },
+				{ "style": 2, "type": 1, "index": 10007, "title": ["增加符文"], "text": ["100"] },
+				{ "style": 3, "type": 1, "index": 10006, "title": ["查看玩家坐标"] },
+				{ "style": 2, "type": 1, "index": 7101, "title": ["增加轮回"], "text": ["0"] },
+				{ "style": 2, "type": 1, "index": 10008, "title": ["增加印记"], "text": ["0"] },
+				{ "style": 2, "type": 1, "index": 10009, "title": ["天工炉次数"], "text": ["0"] }
+            ]
+        },
+        {
+            "title":"系统GM",
+            "data":[
+				{ "style": 2, "type": 2, "index": 1, "title": ["系统重置"], "text": ["1001"] },
+				{ "style": 1, "type": 2, "index": 2, "title": ["个人邮件物品", "数量："], "text": ["强化石", "1"] },
+				{ "style": 1, "type": 2, "index": 3, "title": ["全服邮件物品", "数量："], "text": ["强化石", "1"] },
+				{ "style": 3, "type": 2, "index": 4, "title": ["清空所有邮件"], "text": [""] },
+				{ "style": 2, "type": 2, "index": 14, "title": ["开启关卡数"], "text": ["100"] },
+				{ "style": 2, "type": 2, "index": 15, "title": ["铜雀台"], "text": ["100"] },
+				{ "style": 2, "type": 2, "index": 16, "title": ["过关斩将难度", "关卡"], "text": ["1", "1001"] },
+				{ "style": 2, "type": 2, "index": 17, "title": ["一骑当千难度", "增加次数"], "text": ["1", "1"] },
+				{ "style": 2, "type": 2, "index": 18, "title": ["三国无双", "类型排行榜"], "text": ["1"] },
+				{ "style": 2, "type": 2, "index": 19, "title": ["后台cdkey"], "text": [""] },
+				{ "style": 2, "type": 2, "index": 20, "title": ["bsh指令区服id", "文本字符串"], "text": ["1", "1"] },
+				{ "style": 2, "type": 2, "index": 21, "title": ["任务ID"], "text": ["1"] },
+				{ "style": 2, "type": 2, "index": 22, "title": ["踢人下线", "被踢Hero"], "text": ["1", "1002"] },
+				{ "style": 2, "type": 2, "index": 24, "title": ["获取在线人数"], "text": ["1"] },
+				{ "style": 2, "type": 2, "index": 25, "title": ["增加吕布降临积分"], "text": ["100"] },
+				{ "style": 2, "type": 2, "index": 26, "title": ["时间加速，游戏内1天为xx分钟"], "text": ["1440"] },
+				{ "style": 2, "type": 2, "index": 27, "title": ["南征北战积分"], "text": ["10"] },
+				{ "style": 2, "type": 2, "index": 28, "title": ["国家boss增加次数"], "text": ["1"] },
+				{ "style": 2, "type": 2, "index": 29, "title": ["跨服组队副本加次数"], "text": ["1"] },
+				{ "style": 2, "type": 2, "index": 30, "title": ["修改吕布气血"], "text": ["100"] },
+				{ "style": 2, "type": 2, "index": 31, "title": ["升阶秘境"], "text": ["重置扫荡次数"] },
+				{ "style": 2, "type": 2, "index": 32, "title": ["升阶秘境"], "text": ["重置副本数据"] },
+				{ "style": 5, "type": 2, "index": 33, "title": ["问鼎天下开关"], "text": ["选择"] },
+				{ "style": 2, "type": 2, "index": 34, "title": ["问鼎天下积分"], "text": ["100"] },
+				{ "style": 2, "type": 2, "index": 35, "title": ["问鼎天下本层杀敌"], "text": ["10"] },
+				{ "style": 2, "type": 2, "index": 38, "title": ["限制领取查ID"], "text": ["1001"] },
+				{ "style": 3, "type": 2, "index": 41, "title": ["限制领取查所有"] },
+				{ "style": 2, "type": 2, "index": 42, "title": ["限制领取ID", "已领取数量改为:"], "text": ["1001", "1"] },
+				{ "style": 3, "type": 2, "index": 45, "title": ["诸将演武刷新怪物"] },
+				{ "style": 2, "type": 2, "index": 46, "title": ["开关三国一统"],"text": ["1"]},
+				{ "style": 3, "type": 2, "index": 47, "title": ["群英镑玩家自动拉取"]},
+				{ "style": 3, "type": 2, "index": 48, "title": ["增加1转新秀电脑人"]},
+				{ "style": 2, "type": 2, "index": 49, "title": ["火烧赤壁"], "text": ["100"] },
+				{ "style": 2, "type": 2, "index": 52, "title": ["六出祁山"], "text": ["1001"] },
+				{ "style": 2, "type": 2, "index": 53, "title": ["限定武将任务类型","完成次数"], "text": ["1","1"] },
+				{ "style": 2, "type": 2, "index": 55, "title": ["虎牢关"], "text": ["10"] },
+				{ "style": 2, "type": 2, "index": 56, "title": ["三英战吕布加挑战次数"], "text": ["1_10"] },
+				{ "style": 2, "type": 2, "index": 56, "title": ["三英战吕布跳转第几关"], "text": ["2_10"] },
+				{ "style": 2, "type": 2, "index": 57, "title": ["成就GM"], "text": ["1_1_1"] },
+				{ "style": 2, "type": 2, "index": 58, "title": ["成就树完成层次"], "text": ["1"] },
+				{ "style": 2, "type": 2, "index": 59, "title": ["上传跨服试炼数据"], "text": ["1"] },
+				{ "style": 2, "type": 2, "index": 60, "title": ["清除跨服试炼数据"], "text": ["1"] },
+				{ "style": 2, "type": 2, "index": 61, "title": ["国家BOSS关数"], "text": ["1"] }
+            ]
+        },
+        {
+            "title":"活动GM",
+            "data":[
+				{ "style": 3, "type": 3, "index": 1, "break": 1, "title": ["查询服务器时间:"] },
+				{ "style": 4, "type": 3, "index": 1, "title": ["修改服务器时间:"], "text": ["2017-04-04 00:01:00"] },
+				{ "style": 3, "type": 3, "index": 2, "break": 1, "title": ["查询开服时间:"] },
+				{ "style": 4, "type": 3, "index": 2, "title": ["修改开服时间:"], "text": ["2017-04-04 00:01:00"] },
+				{ "style": 2, "type": 3, "index": 3, "title": ["孟获0,1,2"], "text": ["1"] },
+				{ "style": 2, "type": 3, "index": 4, "title": ["决斗无双状态0,1,2"], "text": ["0"] },
+				{ "style": 3, "type": 3, "index": 5, "break": 1, "title": ["查询合服时间:"] },
+				{ "style": 4, "type": 3, "index": 5, "title": ["修改合服时间:"], "text": ["2017-04-04 00:01:00"] },
+				{ "style": 3, "type": 3, "index": 6, "break": 1, "title": ["结束合服活动"] },
+				{ "style": 2, "type": 3, "index": 7, "title": ["军团战", "开1关2"], "text": ["1", "1"] },
+				{ "style": 2, "type": 3, "index": 7, "title": ["军团战", "添加积分"], "text": ["2", "100"] },
+				{ "style": 2, "type": 3, "index": 8, "title": ["阵营战", "开1关0"], "text": ["1", "1"] },
+				{ "style": 2, "type": 3, "index": 10, "title": ["枭雄争霸", "0开始1准备2战斗3上传4结束"], "text": ["1"] },
+				{ "style": 2, "type": 3, "index": 11, "title": ["乱世枭雄段位", "排名"], "text": ["13", "1"] },
+				{ "style": 2, "type": 3, "index": 12, "title": ["吕布0,1"], "text": ["1"] },
+				{ "style": 2, "type": 3, "index": 9, "title": ["乱世枭雄", "0准备1开2关"], "text": ["1"] },
+				{ "style": 2, "type": 3, "index": 13, "title": ["乱世枭雄加次数"], "text": ["10"] },
+				{ "style": 2, "type": 3, "index": 14, "title": ["设置服务器状态 0:维护, 1:正常， 2：火爆，3：白名单"], "text": ["1"] },
+				{ "style": 2, "type": 3, "index": 15, "title": ["七擒孟获次数"], "text": ["1"] },
+				{ "style": 2, "type": 3, "index": 16, "title": ["获取中央服时间"], "text": ["1"] },
+				{ "style": 2, "type": 3, "index": 17, "title": ["清排行"], "text": ["1"] },
+				{ "style": 2, "type": 3, "index": 18, "title": ["粮草争夺 0子服报名1准备2开启3结束"], "text": ["1"] }
+            ]
+        },
+        {
+            "title":"战斗GM",
+            "data":[
+				{ "style": 1, "type": 4, "index": 1, "title": ["战斗"], "text": ["1000"] },
+				{ "style": 2, "type": "addEnemy", "index": 2, "title": ["添加敌人"], "text": ["32009"] },
+				{ "style": 2, "type": "removeEnemys", "index": 2, "title": ["移除关卡所有敌人"], "text": [] },
+				{ "style": 2, "type": "updateRole", "index": 2, "title": ["npcID"], "text": ["200001"] },
+				{ "style": 3, "type": "openConsole", "index": 2, "title": ["打开控制台"] },
+				{ "style": 2, "type": "pvpBattle", "index": 2, "title": ["后端PVP战斗1PVP,2:组队"], "text": ["1"] }
+            ]
+        },
+        {
+            "title":"其他GM",
+            "data":[
+				{ "style": 3, "type": 5, "index": 1, "title": ["完成当前任务"] },
+				{ "style": 2, "type": 5, "index": 2, "title": ["接取任务"], "text": ["1"] },
+				{ "style": 2, "type": 5, "index": 3, "title": ["热更开始区号", "结束区号"], "text": ["1", "1"] },
+				{ "style": 2, "type": 5, "index": 4, "title": ["脚本开始区号", "结束区号"], "text": ["1", "1"] },
+				{ "style": 3, "type": 5, "index": 5, "title": ["请求跨服"] },
+				{ "style": 2, "type": 5, "index": 9999, "title": ["eval"], "text": ["输入代码"] }
+            ]
+        },
+        {
+            "title":"活动GM",
+            "data":[
+				{ "style": 2, "type": 6, "index": 1, "title": ["活动Id", "期数", "开始时间", "结束时间"], "text": ["1", "1", "time", "time"] },
+				{ "style": 2, "type": 6, "index": 2, "title": ["活动Id", "期数", "1开启2关闭"], "text": ["1", "1", "1"] },
+				{ "style": 2, "type": 6, "index": 3, "title": ["活动Id", "期数", "开始时间", "结束时间", "序号"], "text": ["1", "1", "time", "time", "1"] },
+				{ "style": 2, "type": 6, "index": 4, "title": ["1:战力2:正式", "轮数", "state: 状态 1：准备，2：战斗"], "text": ["1", "1", "1"] },
+				{ "style": 2, "type": 6, "index": 5, "title": ["获取开始的活动"], "text": ["1"] }
+			]
+		}
+    ]
+}

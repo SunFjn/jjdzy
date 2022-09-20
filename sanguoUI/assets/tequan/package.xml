@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="k82cjspu" jpegQuality="75" compressPNG="true">
+  <resources>
+    <component id="g8eo4" name="ChildCard.xml" path="/组件/" exported="true"/>
+    <component id="mp0412" name="TqIt.xml" path="/组件/" exported="true"/>
+    <component id="g8eo3" name="ViewTeQuan.xml" path="/组件/" exported="true"/>
+    <image id="mtuj1g" name="特权卡标题.png" path="/image/" exported="true"/>
+    <image id="v2391m" name="少年吕布.png" path="/image/" exported="true"/>
+    <image id="srrs1n" name="2002.png" path="/image/" exported="true"/>
+    <image id="srrs1o" name="101.png" path="/image/" exported="true"/>
+    <component id="hcde21" name="Child_WeekVip.xml" path="/组件/周卡/" exported="true"/>
+    <image id="erg225" name="每日可领.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="tequan" genCode="true" npot="true"/>
+</packageDescription>

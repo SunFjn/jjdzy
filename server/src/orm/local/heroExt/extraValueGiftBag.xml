@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.extraValueGiftBag.model.ExtraValueGiftBag" tbname="extraValueGiftBag">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="qsWeek" type="int" pf="all" comment="周礼包期数"/>
+			<col field="weekGiftMap" type="text" pf="all" comment="超值周礼包剩余购买次数"/>
+			<col field="qsMonth" type="int" pf="all" comment="月礼包期数"/>
+			<col field="monthGiftMap" type="text" pf="all" comment="超值月礼包剩余购买次数"/>
+    </tb>
+</tbs>

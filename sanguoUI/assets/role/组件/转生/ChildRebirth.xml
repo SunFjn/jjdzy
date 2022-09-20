@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://3tzqotadgsrt5a">
+  <displayList>
+    <image id="n114_t9hd" name="n114" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="361,595" size="259,169" group="n104_ysz4"/>
+    <image id="n113_t9hd" name="n113" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="19,595" size="335,169" group="n104_ysz4"/>
+    <image id="n107_t9hd" name="n107" src="t9hd58" fileName="image/小标题花纹底.png" xy="362,597" group="n104_ysz4"/>
+    <loader id="n59_f09s" name="roleImg" xy="192,238" size="250,273" group="n104_ysz4" url="ui://3tzqotadgsrt59"/>
+    <richtext id="n4_vaaj" name="labNext" xy="369,597" size="32,163" group="n104_ysz4" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="三转一重获得"/>
+    <component id="n11_vaaj" name="grid0" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="78,622" group="n104_ysz4" scale="0.8,0.8"/>
+    <component id="n12_vaaj" name="grid1" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="170,622" group="n104_ysz4" scale="0.8,0.8"/>
+    <component id="n13_vaaj" name="grid2" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="259,622" group="n104_ysz4" scale="0.8,0.8"/>
+    <richtext id="n14_vaaj" name="labCondition0" xy="39,800" size="140,25" group="n104_ysz4" touchable="false" fontSize="18" color="#ffee79" text="成长条件： 1000"/>
+    <richtext id="n16_vaaj" name="labCondition1" xy="39,836" size="185,25" group="n104_ysz4" touchable="false" fontSize="18" color="#ffee79" text="将衔等级达到等级达到"/>
+    <richtext id="n17_vaaj" name="labCondition2" xy="39,872" size="179,25" group="n104_ysz4" touchable="false" fontSize="18" color="#ffee79" text="装备宝石等级达到800"/>
+    <component id="n20_8hzf" name="viewPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="185,176" group="n104_ysz4"/>
+    <image id="n23_8hzf" name="imgCondition0" src="irr13gw" fileName="image/花纹/菱形花纹.png" pkg="jvxpx9em" xy="19,802" group="n104_ysz4"/>
+    <image id="n24_8hzf" name="imgCondition1" src="irr13gw" fileName="image/花纹/菱形花纹.png" pkg="jvxpx9em" xy="19,838" group="n104_ysz4"/>
+    <image id="n25_8hzf" name="imgCondition2" src="irr13gw" fileName="image/花纹/菱形花纹.png" pkg="jvxpx9em" xy="19,875" group="n104_ysz4"/>
+    <image id="n106_t9hd" name="n106" src="t9hd58" fileName="image/小标题花纹底.png" xy="20,597" group="n104_ysz4"/>
+    <richtext id="n3_vaaj" name="labStatus" xy="193,156" size="258,35" group="n104_ysz4" fontSize="24" color="#fffccc" align="center" ubb="true" autoSize="none" text="三转三重"/>
+    <richtext id="n45_gsdl" name="title" xy="25,597" size="32,163" group="n46_gsdl" touchable="false" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="转生奖励"/>
+    <group id="n46_gsdl" name="labReward" xy="25,597" size="32,163" group="n104_ysz4" advanced="true" collapsed="true"/>
+    <component id="n61_f09s" name="btnDaShi" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="535,156" size="89,75" group="n104_ysz4">
+      <Button icon="ui://3tzqotadf09s49"/>
+    </component>
+    <image id="n105_t9hd" name="n105" src="t9hd57" fileName="image/发光底座.png" xy="406,571" group="n104_ysz4" locked="true"/>
+    <richtext id="n62_f09s" name="labDaShi" xy="535,231" size="93,35" group="n104_ysz4" fontSize="20" color="#ffffff" align="center" ubb="true" autoSize="none" text="12阶"/>
+    <component id="n69_f09s" name="gridNext" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="475,620" group="n104_ysz4" scale="0.8,0.8"/>
+    <image id="n57_f09s" name="n57" src="f09s48" fileName="image/点线.png" xy="141,330" group="n104_ysz4"/>
+    <richtext id="n75_f09s" name="btnLook" xy="482,867" size="93,29" group="n104_ysz4" fontSize="22" color="#02e703" leading="0" text="&lt;u>查看属性&lt;/u>"/>
+    <component id="n76_f09s" name="btnOneKey" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="250,520" group="n104_ysz4">
+      <Button title="一键装备"/>
+    </component>
+    <image id="n79_f09s" name="n79" src="f09s48" fileName="image/点线.png" xy="140,456" group="n104_ysz4"/>
+    <image id="n80_f09s" name="n80" src="f09s48" fileName="image/点线.png" xy="494,271" group="n104_ysz4" scale="-1,1"/>
+    <image id="n81_f09s" name="n81" src="f09s48" fileName="image/点线.png" xy="495,408" group="n104_ysz4" scale="-1,1"/>
+    <component id="n109_t9hd" name="expCondition0" src="emwp3h8" fileName="组件/ExpBar1.xml" pkg="jvxpx9em" xy="231,802" size="189,20" group="n104_ysz4">
+      <ProgressBar value="40" max="100"/>
+    </component>
+    <component id="n111_t9hd" name="expCondition1" src="emwp3h8" fileName="组件/ExpBar1.xml" pkg="jvxpx9em" xy="231,838" size="189,20" group="n104_ysz4">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n112_t9hd" name="expCondition2" src="emwp3h8" fileName="组件/ExpBar1.xml" pkg="jvxpx9em" xy="231,873" size="189,20" group="n104_ysz4">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n90_eltg" name="boxMax" src="eltg4d" fileName="image/已达转生上限.png" xy="205,827" group="n104_ysz4" hideByEditor="true"/>
+    <image id="n64_f09s" name="n64" src="f09s47" fileName="image/底框.png" xy="74,349" group="n93_vqr0"/>
+    <richtext id="n65_f09s" name="labEquip0" xy="74,349" size="136,35" group="n93_vqr0" fontSize="20" color="#ffffff" align="center" ubb="true" autoSize="none" text="1转天魂"/>
+    <component id="n63_f09s" name="equip0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="95,247" group="n93_vqr0" scale="0.9,0.9"/>
+    <richtext id="n82_g7pm" name="labEquLv0" xy="108,256" size="69,28" group="n93_vqr0" touchable="false" fontSize="18" color="#ffffff" align="right" ubb="true" autoSize="none" text="Lv.1"/>
+    <group id="n93_vqr0" name="n93" xy="74,247" size="136,137" group="n104_ysz4" collapsed="true"/>
+    <image id="n72_f09s" name="n72" src="f09s47" fileName="image/底框.png" xy="432,502" group="n94_vqr0"/>
+    <richtext id="n73_f09s" name="labEquip3" xy="431,502" size="136,35" group="n94_vqr0" fontSize="20" color="#ffffff" align="center" ubb="true" autoSize="none" text="1转天魂"/>
+    <component id="n68_f09s" name="equip3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="458,400" group="n94_vqr0" scale="0.9,0.9"/>
+    <richtext id="n85_g7pm" name="labEquLv3" xy="472,409" size="69,28" group="n94_vqr0" touchable="false" fontSize="18" color="#ffffff" align="right" ubb="true" autoSize="none" text="Lv.1"/>
+    <group id="n94_vqr0" name="n94" xy="431,400" size="136,137" group="n104_ysz4" collapsed="true"/>
+    <image id="n70_f09s" name="n70" src="f09s47" fileName="image/底框.png" xy="431,356" group="n95_vqr0"/>
+    <richtext id="n71_f09s" name="labEquip2" xy="430,356" size="136,35" group="n95_vqr0" fontSize="20" color="#ffffff" align="center" ubb="true" autoSize="none" text="1转天魂"/>
+    <component id="n66_f09s" name="equip2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="457,254" group="n95_vqr0" scale="0.9,0.9"/>
+    <richtext id="n83_g7pm" name="labEquLv2" xy="471,263" size="69,28" group="n95_vqr0" touchable="false" fontSize="18" color="#ffffff" align="right" ubb="true" autoSize="none" text="Lv.1"/>
+    <group id="n95_vqr0" name="n95" xy="430,254" size="136,137" group="n104_ysz4" collapsed="true"/>
+    <image id="n56_f09s" name="n56" src="f09s47" fileName="image/底框.png" xy="74,501" group="n96_vqr0"/>
+    <richtext id="n74_f09s" name="labEquip1" xy="74,501" size="136,35" group="n96_vqr0" fontSize="20" color="#ffffff" align="center" ubb="true" autoSize="none" text="1转天魂"/>
+    <component id="n67_f09s" name="equip1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="98,399" group="n96_vqr0" scale="0.9,0.9"/>
+    <richtext id="n84_g7pm" name="labEquLv1" xy="111,408" size="69,28" group="n96_vqr0" touchable="false" fontSize="18" color="#ffffff" align="right" ubb="true" autoSize="none" text="Lv.1"/>
+    <group id="n96_vqr0" name="n96" xy="74,399" size="136,137" group="n104_ysz4" collapsed="true"/>
+    <image id="n98_vqr0" name="n98" src="vqr04o" fileName="image/线.png" xy="59,616" group="n104_ysz4"/>
+    <image id="n99_vqr0" name="n99" src="vqr04o" fileName="image/线.png" xy="406,616" group="n104_ysz4"/>
+    <image id="n101_vqr0" name="n101" src="bwmw3l" fileName="image/战力.png" pkg="jvxpx9em" xy="412,715" group="n103_vqr0"/>
+    <text id="n102_vqr0" name="labNextPower" xy="473,721" size="148,27" group="n103_vqr0" font="ui://jvxpx9embwmw3w" fontSize="12" singleLine="true" text="99999999"/>
+    <group id="n103_vqr0" name="n103" xy="412,715" size="209,40" group="n104_ysz4" advanced="true" collapsed="true" layout="hz" colGap="5">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <component id="n108_t9hd" name="btnReBirth" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="460,797" group="n104_ysz4">
+      <Button title="转生"/>
+    </component>
+    <group id="n104_ysz4" name="n104" xy="19,156" size="661,741"/>
+  </displayList>
+</component>

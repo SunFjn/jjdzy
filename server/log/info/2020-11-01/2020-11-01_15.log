@@ -1,0 +1,103 @@
+2020-11-01 15:00:57.895 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:01:57.908 [任务线程 - 10] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:02:57.926 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:03:57.942 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:04:57.958 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:05:57.974 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:06:06.231 [任务线程 - 1] INFO  com.teamtop.util.exector.schedule.SchedulerBean - 任务 [ZSBOSS] 已取消 !
+2020-11-01 15:06:06.231 [任务线程 - 1] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2020-11-01 15:06:06.231 [任务线程 - 1] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2020-11-01 15:06:06.231 [任务线程 - 1] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2020-11-01 15:06:06.231 [任务线程 - 1] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2020-11-01 15:06:06.231 [任务线程 - 1] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2020-11-01 15:06:06.231 [任务线程 - 1] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2020-11-01 15:06:06.231 [任务线程 - 1] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2020-11-01 15:06:06.231 [任务线程 - 1] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2020-11-01 15:06:06.231 [任务线程 - 1] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2020-11-01 15:06:06.231 [任务线程 - 1] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2020-11-01 15:06:06.231 [crossChannelEx - 1] INFO  com.teamtop.system.crossBoss.CrossBossIO - localReceiveData :{{240003:{{240003,0,{!},{!},!}},240002:{{240002,0,{!},{!},!}},240001:{{240001,0,{!},{!},!}},240005:{{240005,0,{!},{!},!}},240004:{{240004,0,{!},{!},!}}},{1}}
+2020-11-01 15:06:06.263 [任务线程 - 1] INFO  com.teamtop.system.crossBoss.cross.CrossBossCrossEvent - CrossBossCrossEvent.fixTime cmdId:0 time:2020-11-01_17-50-00s
+2020-11-01 15:06:06.263 [任务线程 - 1] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossBoss.cross.CrossBossCrossEvent@34fe326d,now:1604224200,dayTime:1750
+2020-11-01 15:06:06.263 [crossChannelEx - 4] INFO  com.teamtop.system.crossBoss.CrossBossIO - local tell cross state:0  1
+2020-11-01 15:06:57.995 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:07:58.012 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:08:58.028 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:09:58.046 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:10:58.062 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:11:06.399 [任务线程 - 5] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生1001——3003 bossid:240001 maxhp1367530000 倍数：0总血量：1367530000
+2020-11-01 15:11:06.399 [任务线程 - 5] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240001 tempMaxHp:0
+2020-11-01 15:11:06.399 [任务线程 - 5] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生4001——6003 bossid:240002 maxhp6730920000 倍数：0总血量：6730920000
+2020-11-01 15:11:06.399 [任务线程 - 5] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240002 tempMaxHp:0
+2020-11-01 15:11:06.399 [任务线程 - 5] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生7001——8003 bossid:240003 maxhp25705905000 倍数：0总血量：25705905000
+2020-11-01 15:11:06.399 [任务线程 - 5] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240003 tempMaxHp:0
+2020-11-01 15:11:06.399 [任务线程 - 5] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生9001——10003 bossid:240004 maxhp62142310000 倍数：0总血量：62142310000
+2020-11-01 15:11:06.399 [任务线程 - 5] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240004 tempMaxHp:0
+2020-11-01 15:11:06.399 [任务线程 - 5] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生11001——12003 bossid:240005 maxhp104600755000 倍数：0总血量：104600755000
+2020-11-01 15:11:06.399 [任务线程 - 5] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240005 tempMaxHp:0
+2020-11-01 15:11:06.399 [任务线程 - 5] INFO  com.teamtop.system.crossBoss.cross.CrossBossCrossEvent - CrossBossCrossEvent.fixTime cmdId:1 time:2020-11-01_17-55-00s
+2020-11-01 15:11:06.399 [任务线程 - 5] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossBoss.cross.CrossBossCrossEvent@34fe326d,now:1604224500,dayTime:1755
+2020-11-01 15:11:06.399 [crossChannelEx - 3] INFO  com.teamtop.system.crossBoss.CrossBossIO - local tell cross state:1  1
+2020-11-01 15:11:58.086 [任务线程 - 9] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:12:58.107 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:13:58.123 [任务线程 - 5] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:14:58.141 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:15:58.163 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:16:06.545 [任务线程 - 11] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.xuTianHunt.XuTianHuntSysEvent@38afe297,now:1604224800,dayTime:1800
+2020-11-01 15:16:06.545 [任务线程 - 11] INFO  com.teamtop.system.house.yanhui.event.YanhuiEvent - YanhuiEvent.fixTime cmdId:1 time:2020-11-01_18-00-00s
+2020-11-01 15:16:06.545 [任务线程 - 11] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.house.yanhui.event.YanhuiEvent@8c3b9d,now:1604224800,dayTime:1800
+2020-11-01 15:16:06.545 [任务线程 - 11] INFO  com.teamtop.system.crossBoss.cross.CrossBossCrossEvent - CrossBossCrossEvent.fixTime cmdId:2 time:2020-11-01_18-00-00s
+2020-11-01 15:16:06.545 [任务线程 - 11] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossBoss.cross.CrossBossCrossEvent@34fe326d,now:1604224800,dayTime:1800
+2020-11-01 15:16:06.545 [crossChannelEx - 2] INFO  com.teamtop.system.crossBoss.CrossBossIO - local tell cross state:2  1
+2020-11-01 15:16:07.950 [任务线程 - 10] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.xuTianHunt.XuTianHuntSysEvent@193f604a,now:1604224800,dayTime:1800
+2020-11-01 15:16:07.950 [任务线程 - 10] INFO  com.teamtop.system.house.yanhui.event.YanhuiEvent - YanhuiEvent.fixTime cmdId:1 time:2020-11-01_18-00-00s
+2020-11-01 15:16:07.950 [任务线程 - 10] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.house.yanhui.event.YanhuiEvent@6d4e5011,now:1604224800,dayTime:1800
+2020-11-01 15:16:58.187 [任务线程 - 9] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:17:07.829 [任务线程 - 14] INFO  com.teamtop.system.event.backstage.BackstageSystemEvent - 60m event:com.teamtop.system.event.backstage.events.flowMMCache.FlowMMCacheEvent@44f4deed,now:1604224860
+2020-11-01 15:17:58.219 [任务线程 - 16] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:18:58.225 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:19:58.242 [任务线程 - 16] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:20:58.259 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:21:58.278 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:22:58.298 [任务线程 - 12] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:23:58.314 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:24:58.330 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:25:58.348 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:26:58.367 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:27:58.391 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:28:58.407 [任务线程 - 12] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:29:58.416 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:30:58.434 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:31:58.454 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:32:58.474 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:33:58.490 [任务线程 - 12] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:34:58.507 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:35:58.523 [任务线程 - 16] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:36:58.541 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:37:58.558 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:38:58.574 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:39:58.594 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:40:58.611 [任务线程 - 12] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:41:58.628 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:42:58.651 [任务线程 - 16] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:43:58.668 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:44:58.686 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:45:58.702 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:46:06.301 [任务线程 - 14] INFO  com.teamtop.system.boss.monsterGod.MonsterGodEvent - MonsterGodEvent.fixTime cmdId:1 time:2020-11-01_18-30-00s
+2020-11-01 15:46:06.301 [任务线程 - 14] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.boss.monsterGod.MonsterGodEvent@618b19ad,now:1604226600,dayTime:1830
+2020-11-01 15:46:07.737 [任务线程 - 10] INFO  com.teamtop.system.boss.monsterGod.MonsterGodFunction - create lvbuboss id:241001
+2020-11-01 15:46:07.737 [任务线程 - 10] INFO  com.teamtop.system.boss.monsterGod.MonsterGodEvent - MonsterGodEvent.fixTime cmdId:1 time:2020-11-01_18-30-00s
+2020-11-01 15:46:07.737 [任务线程 - 10] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.boss.monsterGod.MonsterGodEvent@2d3379b4,now:1604226600,dayTime:1830
+2020-11-01 15:46:58.721 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:47:58.740 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:48:58.757 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:49:58.791 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:50:58.794 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:51:58.817 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:52:58.838 [任务线程 - 10] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:53:58.857 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:54:58.873 [任务线程 - 5] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:55:58.890 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:56:58.907 [任务线程 - 16] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:57:58.924 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:58:58.941 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-01 15:59:58.962 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7

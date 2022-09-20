@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="379,41">
+  <displayList>
+    <text id="n1_re2a" name="lbAdd" xy="112,8" size="221,32" font="ui://7gxkx46whkln41" fontSize="12" vAlign="middle" letterSpacing="5" autoSize="none" text="213123123"/>
+    <image id="n2_re2a" name="n2" src="hkln42" fileName="image1/战力/战力.png" xy="-1,8"/>
+  </displayList>
+</component>

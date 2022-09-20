@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="568,124">
+  <controller name="stateCtrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n8_pwnz" name="n8" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,9" size="568,115"/>
+    <image id="n9_pwnz" name="n9" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="214,0" size="139,34" group="n11_pwnz"/>
+    <richtext id="n10_pwnz" name="tfLayer" xy="228,0" pivot="0.5,0.5" size="110,28" group="n11_pwnz" touchable="false" fontSize="20" color="#ffcc33" align="center" leading="0" bold="true" strokeColor="#000000" autoClearText="true" text="点亮第一层"/>
+    <group id="n11_pwnz" name="n11" xy="214,0" size="139,34"/>
+    <list id="n13_pwnz" name="itemList1" xy="20,35" size="541,109" scale="0.7,0.7" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="1" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n15_pwnz" name="btnGo" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="413,43" grayed="true">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+      <Button title="领取"/>
+    </component>
+    <component id="n12_pwnz" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="413,43">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+      <Button title="领取"/>
+    </component>
+    <image id="n14_pwnz" name="n14" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="415,49">
+      <gearDisplay controller="stateCtrl" pages="2"/>
+    </image>
+  </displayList>
+</component>

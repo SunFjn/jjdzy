@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 不需要入库的字段，需要在这里配置 -->
+<tbs>
+	<tb classname="Hero">
+		<col field="tempData"/>  
+		<col field="loginPlatform"/>  
+		<col field="loginRecalc"/>  
+		<col field="nameZoneid"/>  
+		<col field="recalcStrength"/>  
+		<col field="recalcReason"/>  
+		<col field="selfStrength"/>  
+		<col field="gangName"/>  
+		<col field="fightAttr"/>  
+		<col field="tempFightAttr"/>  
+		<col field="operateDamage"/>  
+		<col field="operateTempStrength"/>  
+		<col field="tempVariables"/>  
+		<col field="onbodyEquip"/>  
+		<col field="notOnBodyEquip"/>  
+		<col field="fashionId"/>  
+		<col field="sceneState"/>  
+		<col field="sceneBoardDataUpdate"/>  
+		<col field="receiveGangVigor"/>  
+		<col field="receiveGangVigorRefreshDay"/>  
+		<col field="indoorGlodTemp"/>  
+		<col field="indoorGlodNotBindTemp"/>  
+		<col field="houtaiMail"/>  
+		<col field="houtaiApplyMail"/>  
+		<col field="inviteHid"/>  
+		<col field="crossChannel"/>  
+		<col field="localChannel"/>  
+		<col field="crossChannelSyncTime"/>  
+		<col field="battleCheckMap"/>  
+		<col field="isCanSend"/>  
+		<col field="waitSendList"/>  
+		<col field="reportTime"/>  
+		<col field="sceneShowData"/>  
+		<col field="brothRewards"/>  
+		<col field="fightAttrBySysid"/>  
+		<col field="scene"/>  
+		<col field="actIds"/>  
+		<col field="belongZoneid"/>  
+		<col field="realLevel"/>
+     </tb>
+	<tb classname="Guanqia">
+		<col field="syncTime"/>  
+     </tb>
+	<tb classname="Skill">
+		<col field="openAward"/>  
+     </tb>
+	<tb classname="CrossKingRank">
+		<col field="zoneid"/>  
+		<col field="battleTime"/>  
+		<col field="isBattle"/>  
+     </tb>
+	<tb classname="GlobalData">
+		<col field="zoneid"/>  
+     </tb>
+	<tb classname="Bag">
+		<col field="isCreate"/>  
+     </tb>
+	<tb classname="M_ServerInfo">
+		<col field="playerNum"/>  
+     </tb>
+	<tb classname="Friend">
+		<col field="hasFriendNum"/>  
+		<col field="backupList"/>  
+		<col field="msgModelMap"/>  
+     </tb>
+	<tb classname="ActivityData">
+		<col field="insertActStr"/>  
+     </tb>
+	<tb classname="BattleVixens">
+		<col field="tempHardType"/>  
+		<col field="tempPassId"/>  
+		<col field="tempHp"/>  
+		<col field="synTime"/>  
+     </tb>
+	<tb classname="CrossTeamFuBen">
+        <col field="timeAddMember"/>  
+        <col field="fristId"/>  
+        <col field="teamID"/>  
+        <col field="awardsState"/>  
+        <col field="timeBuilTeam"/>  
+        <col field="isDouble"/>
+     </tb>
+	<tb classname="CrossSJMiJing">
+		<col field="timeBuilTeam"/>  
+		<col field="fristId"/>  
+		<col field="teamID"/>
+		<col field="isDouble"/> 
+     </tb>
+     <tb classname="AbsOpenDaysSystemModel">
+		<col field="insertActStr"/>  
+     </tb>
+     <tb classname="AntiAddictionInfo">
+		<col field="zoneidSet"/>
+     </tb>
+     <tb classname="AntiAddictionModel">
+		<col field="onlineTime"/>
+		<col field="punishState"/>
+     </tb>
+     <tb classname="SaintMonsterTreasureModel">
+		<col field="rewardList"/>
+     </tb>
+     <tb classname="ExclusiveActivityData">
+		<col field="exActivityMap"/>
+		<col field="exActOpenStateMap"/>
+     </tb>
+     <tb classname="QunXiongZhuLu">
+		<col field="attackCity"/>
+		<col field="attackIndex"/>
+     </tb>
+     <tb classname="CrossMine">
+		<col field="needSave"/>
+     </tb>
+     <tb classname="ThreeHeroFightLvBu">
+		<col field="chaNumHandler"/>
+     </tb>
+     <tb classname="GuardAreaLocal">
+		<col field="attckCityId"/>
+     </tb>
+     <tb classname="LocalHouse">
+		<col field="atkNpcId"/>
+		<col field="atkHeroId"/>
+     </tb>
+     <tb classname="XuTianHuntModel">
+		<col field="huntNumAdd"/>
+		<col field="huntTempData"/>
+     </tb>
+     <tb classname="RebornFBLocal">
+		<col field="teamID"/>
+		<col field="timeBuilTeam"/>
+     </tb>
+     <tb classname="CrossTeamKingLocal">
+		<col field="leftNumHandler"/>
+     </tb>     
+     <tb classname="AttackCityLocal">
+     	<col field="attckCityId"/>
+		<col field="attckPlayerId"/>	
+     </tb>
+</tbs>

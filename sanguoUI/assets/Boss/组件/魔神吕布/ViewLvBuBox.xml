@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="586,313">
+  <displayList>
+    <component id="n0_qcyl" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="586,313">
+      <Label title="奖励"/>
+    </component>
+    <image id="n3_w0ts" name="n3" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="23,89" size="539,204"/>
+    <richtext id="n2_qcyl" name="lbCondition" xy="131,100" size="324,28" font="Microsoft YaHei" fontSize="18" color="#dfd1b5" align="center" autoSize="none" text=" 排名达到第1名可领取"/>
+  </displayList>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="554,90">
+  <displayList>
+    <image id="n1_r5ge" name="n1" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="7,0" size="546,90"/>
+    <loader id="n2_r5ge" name="iconImg" xy="0,9" size="65,71" url="ui://vgiijkm8r5ges" fill="scale"/>
+    <richtext id="n3_r5ge" name="lb" xy="64,8" size="480,73" fontSize="24" color="#ffffff" leading="6" autoSize="none" text="玩家名字"/>
+  </displayList>
+</component>

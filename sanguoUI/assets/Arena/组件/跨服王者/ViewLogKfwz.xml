@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://me1skowln9yf6l">
+  <displayList>
+    <component id="n0_pmqq" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="21,95" size="598,835">
+      <Label title="战报"/>
+    </component>
+    <list id="n5_pmqq" name="list" xy="38,184" size="560,719" overflow="scroll" lineGap="9" defaultItem="ui://me1skowls0r57n" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

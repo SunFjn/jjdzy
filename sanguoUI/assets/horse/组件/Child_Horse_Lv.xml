@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <richtext id="n5_nct0" name="labAttrCur" xy="127,623" size="172,110" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" autoClearText="true" text="升星+1000&#xA;升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <richtext id="n6_nct0" name="labAttrNext" xy="410,623" size="172,110" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" autoClearText="true" text="升星+1000&#xA;升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <richtext id="n7_nct0" name="labAttrMax" xy="204,623" size="237,110" touchable="false" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="10" autoSize="none" autoClearText="true" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <image id="n8_nct0" name="imgArrow" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="319,681" pivot="0.5,0.5" anchor="true"/>
+    <component id="n9_nct0" name="lbTit" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="159,608" size="329,31">
+      <Label title="升星属性"/>
+    </component>
+    <richtext id="n10_nct0" name="labCost" xy="127,861" size="385,28" fontSize="18" color="#ffffff" align="center" ubb="true" autoSize="none" autoClearText="true" text="消耗：武将赵云*1（5/1）"/>
+    <component id="n11_nct0" name="btnUp" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="252,845" pivot="0.5,0.5">
+      <Button title="升星"/>
+    </component>
+    <loader id="n12_nct0" name="imgPower" xy="214,739" size="106,51" group="n14_nct0" url="ui://jvxpx9emra8g3hk"/>
+    <text id="n13_nct0" name="starPowerLb" xy="306,757" size="148,27" group="n14_nct0" scale="0.8,0.8" font="ui://jvxpx9embwmw3w" fontSize="12" singleLine="true" text="99999999"/>
+    <group id="n14_nct0" name="starGroup" xy="214,739" size="240,51" advanced="true" collapsed="true" layout="hz" colGap="-14">
+      <relation target="n11_nct0" sidePair="center-center"/>
+    </group>
+    <loader id="n15_nct0" name="imgMax" xy="274,855" size="92,42" visible="false" touchable="false" url="ui://jvxpx9emirr13h1"/>
+    <component id="n32_nct0" name="vres" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="296,801"/>
+    <richtext id="n33_fd9p" name="lbRes" xy="148,804" size="144,28" fontSize="18" color="#ffffff" align="right" ubb="true" autoSize="none" autoClearText="true" text="消耗武将赵云"/>
+    <image id="n34_fd9p" name="n34" src="fd9pm" fileName="image/级.png" xy="550,476"/>
+    <image id="n35_fd9p" name="n35" src="fd9pn" fileName="image/阶.png" xy="498,422"/>
+    <richtext id="n36_fd9p" name="tfJie" xy="472,409" pivot="1,0" size="80,53" touchable="false" font="ui://jvxpx9emfd9p3hv" fontSize="18" color="#ffffff" autoClearText="true" text="20"/>
+    <richtext id="n37_fd9p" name="tfJi" xy="493,465" pivot="1,0" size="54,38" touchable="false" font="ui://jvxpx9emfd9p3i7" fontSize="18" color="#ffffff" autoClearText="true" text="10"/>
+  </displayList>
+</component>

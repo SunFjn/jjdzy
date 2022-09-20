@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="zzz8io3r" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="s3t30" name="ViewShouChong.xml" path="/组件/" exported="true"/>
+    <component id="rh401" name="ViewMeiRiChongZhi.xml" path="/组件/" exported="true"/>
+    <component id="o5122" name="MRBox.xml" path="/组件/" exported="true"/>
+    <component id="o5124" name="ViewMRBOX.xml" path="/组件/" exported="true"/>
+    <image id="u5zb9" name="每日首充标题.png" path="/image/" exported="true"/>
+    <component id="bvbpl" name="ViewNewSkillShow.xml" path="/组件/" exported="true"/>
+    <component id="gr6p13" name="ItemSel.xml" path="/组件/" exported="true"/>
+    <component id="gr6p14" name="CompBtn.xml" path="/组件/" exported="true"/>
+    <image id="h1aq1i" name="按钮2.png" path="/image/" exported="true"/>
+    <image id="h1aq1j" name="关闭(1).png" path="/image/" exported="true"/>
+    <image id="h1aq1m" name="箭头.png" path="/image/" exported="true"/>
+    <image id="bhm61t" name="按钮.png" path="/image/" exported="true"/>
+    <image id="bhm61u" name="按钮-未选中.png" path="/image/" exported="true"/>
+    <image id="escg1y" name="40000元宝.png" path="/image/" exported="true"/>
+    <image id="qblv22" name="98元.png" path="/image/" exported="true"/>
+    <image id="dgv624" name="推荐.png" path="/image/" exported="true"/>
+    <image id="nxbw27" name="战力30W.png" path="/image/" exported="true"/>
+    <image id="weoo28" name="战力15W.png" path="/image/" exported="true"/>
+    <image id="weoo29" name="神将诸葛.png" path="/image/" exported="true"/>
+    <image id="htjf2c" name="充点小钱.png" path="/image/" exported="true"/>
+    <image id="htjf2z" name="额外奖励.png" path="/image/" exported="true"/>
+    <image id="vuzv31" name="每日首充底图.jpg" path="/image/"/>
+  </resources>
+  <publish name="shouchong" genCode="true" npot="true" excluded="vuzv31"/>
+</packageDescription>

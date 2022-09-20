@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="hohorv9t" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="t3c30" name="ViewHelpPanel.xml" path="/" exported="true"/>
+    <image id="t3c31" name="箭头.png" path="/image/"/>
+    <image id="t3c32" name="箭头底.png" path="/image/"/>
+    <image id="t3c33" name="客服.png" path="/image/"/>
+    <image id="t3c34" name="客服刷新底.png" path="/image/"/>
+    <image id="t3c35" name="刷新.png" path="/image/"/>
+    <component id="qczb6" name="AutoBtn.xml" path="/com/" exported="true"/>
+    <component id="s9sj8" name="HelpBtnItem.xml" path="/com/" exported="true"/>
+  </resources>
+  <publish npot="true" name="helper" genCode="true"/>
+</packageDescription>

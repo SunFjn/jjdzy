@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,409">
+  <displayList>
+    <component id="n0_fs5a" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,409">
+      <Label title="侍女属性"/>
+    </component>
+    <component id="n2_fs5a" name="lbTitStar" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="131,87" size="329,31">
+      <Label title="升星属性"/>
+    </component>
+    <component id="n3_fs5a" name="lbTitLv" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="131,247" size="329,31">
+      <Label title="升级属性"/>
+    </component>
+    <richtext id="n4_fs5a" name="lbStar" xy="177,119" size="237,110" touchable="false" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="10" autoSize="none" autoClearText="true" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <richtext id="n5_fs5a" name="lbLv" xy="177,279" size="237,110" touchable="false" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="10" autoSize="none" autoClearText="true" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+  </displayList>
+</component>

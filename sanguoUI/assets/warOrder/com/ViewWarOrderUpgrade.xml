@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="566,411">
+  <controller name="stateCtrl" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n62_sk4y" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="566,411">
+      <Label title="高级犒赏"/>
+    </component>
+    <image id="n66_sk4y" name="n66" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="27,74" size="512,222"/>
+    <list id="n63_sk4y" name="list" xy="84,131" size="398,107" layout="row" overflow="hidden" colGap="38" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n64_sk4y" name="btnGo" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="215,318">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+      <Button title="98元"/>
+    </component>
+    <richtext id="n54_tvlr" name="tf0" xy="154,87" pivot="0.5,0.5" size="257,28" fontSize="18" color="#ffffff" text="激活高级犒赏即可领取豪华奖励"/>
+    <richtext id="n65_sk4y" name="tf1" xy="85,253" pivot="0.5,0.5" size="149,28" fontSize="18" color="#ffffff" text="完成任务更有价值"/>
+    <richtext id="n68_sk4y" name="tf2" xy="284,254" size="203,28" fontSize="18" color="#ffffff" text="9999  超值奖励等你来拿"/>
+    <loader id="n69_sk4y" name="img" xy="240,249" size="40,40" fill="scale"/>
+    <image id="n70_sk4y" name="tfDes" src="m8r618" fileName="image/已激活.png" xy="238,319">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </image>
+  </displayList>
+</component>

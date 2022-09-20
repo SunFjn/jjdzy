@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 防沉迷数据 -->
+	<tb model="com.teamtop.system.antiAddictionSystem.model.AntiAddictionInfo" tbname="antiAddictionInfo" serverid="2">
+		<index field="id" type="prikey"/>
+		<index field="openid" type="unique"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="openid" type="varchar" len="100" pf="all" comment="角色账号"/>
+		<col field="startOnlineTime" type="int" pf="all" comment="开始在线时间"/>
+		<col field="onlineTime" type="int" pf="all" comment="累计在线时间"/>
+		<col field="leftTime" type="int" pf="all" comment="累计离线时长"/>
+		<col field="lastLogoutTime" type="int" pf="all" comment="最后一次离线时间"/>
+	</tb>
+</tbs>

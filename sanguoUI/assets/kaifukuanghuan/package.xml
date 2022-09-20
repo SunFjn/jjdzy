@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="yk4rwc6r" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="d7mw0" name="View_KaiFKH.xml" path="/组件/" exported="true"/>
+    <component id="d7mw1" name="KaiFuIt.xml" path="/组件/" exported="true"/>
+    <image id="luu22" name="主题狂欢.png" path="/image/" exported="true"/>
+    <image id="luu23" name="元宝狂欢.png" path="/image/" exported="true"/>
+    <image id="luu24" name="晋升狂欢.png" path="/image/" exported="true"/>
+    <image id="luu25" name="等级狂欢.png" path="/image/" exported="true"/>
+    <image id="luu28" name="开服狂欢标题.png" path="/image/" exported="true"/>
+    <component id="l4a99" name="Child_ShenJiangKuangHuan.xml" path="/组件/" exported="true"/>
+    <component id="inpxl" name="SJKH_Item.xml" path="/组件/" exported="true"/>
+    <image id="rncym" name="限量奖励.png" path="/image/"/>
+    <image id="rncyn" name="已领取.png" path="/image/"/>
+    <image id="rncyo" name="已抢完.png" path="/image/"/>
+    <image id="rncyp" name="达标奖励.png" path="/image/"/>
+    <image id="rncy3fk" name="奖励底.png" path="/image/" exported="true" scale="9grid" scale9grid="38,19,50,37"/>
+  </resources>
+  <publish name="kaifukuanghuan" genCode="true" npot="true" excluded="luu22,luu23,luu24,luu25"/>
+</packageDescription>

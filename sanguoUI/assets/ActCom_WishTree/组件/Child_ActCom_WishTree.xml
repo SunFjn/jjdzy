@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="638,666" designImage="ui://zyevj37nwnzhg" designImageOffsetY="-259">
+  <displayList>
+    <image id="n40_wnzh" name="n40" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="0,0" size="638,666"/>
+    <loader id="n36_qozw" name="bgImg" xy="11,9" size="50,50" url="ui://zyevj37nwnzhh"/>
+    <image id="n6_lwy2" name="n6" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="17,351" size="192,27"/>
+    <richtext id="n7_lwy2" name="labTime" xy="18,353" size="225,25" touchable="false" fontSize="18" color="#00ff00" text="剩余时间：6天5小时5分8秒"/>
+    <component id="n8_lwy2" name="vres1" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="148,393" size="134,36">
+      <Label title="300"/>
+    </component>
+    <component id="n9_lwy2" name="vres10" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="362,393" size="134,36">
+      <Label title="300"/>
+    </component>
+    <component id="n10_lwy2" name="btnBuy1" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="145,434">
+      <Button title="许愿1次"/>
+    </component>
+    <component id="n11_lwy2" name="btnBuy10" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="359,434">
+      <Button title="许愿10次"/>
+    </component>
+    <richtext id="n12_lwy2" name="labBuy1" xy="134,495" size="147,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="购买1000铜币"/>
+    <richtext id="n13_lwy2" name="labBuy10" xy="353,495" size="147,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="购买10000铜币"/>
+    <richtext id="n14_lwy2" name="labTip" xy="63,532" size="520,28" touchable="false" fontSize="18" color="#00ff00" align="center" autoSize="none" text="每领取一轮奖励后重置进度"/>
+    <richtext id="n15_lwy2" name="labPoint" xy="15,582" size="93,29" touchable="false" fontSize="22" color="#ff9900" text="许愿次数"/>
+    <component id="n17_lwy2" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="103,585" size="478,19">
+      <ProgressBar value="150" max="300"/>
+    </component>
+    <component id="n16_lwy2" name="gird0" src="lwy25" fileName="组件/WishPointItem.xml" xy="131,563"/>
+    <component id="n18_lwy2" name="gird1" src="lwy25" fileName="组件/WishPointItem.xml" xy="224,563"/>
+    <component id="n19_lwy2" name="gird2" src="lwy25" fileName="组件/WishPointItem.xml" xy="392,563"/>
+    <component id="n20_lwy2" name="gird3" src="lwy25" fileName="组件/WishPointItem.xml" xy="531,563"/>
+    <component id="n21_lwy2" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="544,413" size="67,83" scale="0.9,0.9">
+      <Button icon="ui://zyevj37nqozwb"/>
+    </component>
+    <image id="n22_lwy2" name="n22" src="lwy22" fileName="image/奖品底图.png" xy="134,84"/>
+    <image id="n24_lwy2" name="n24" src="lwy22" fileName="image/奖品底图.png" xy="288,98"/>
+    <image id="n25_lwy2" name="n25" src="lwy22" fileName="image/奖品底图.png" xy="441,75"/>
+    <image id="n26_lwy2" name="n26" src="lwy22" fileName="image/奖品底图.png" xy="203,183"/>
+    <image id="n27_lwy2" name="n27" src="lwy22" fileName="image/奖品底图.png" xy="369,198"/>
+    <component id="n28_lwy2" name="reward0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="143,117" scale="0.6,0.6"/>
+    <component id="n29_lwy2" name="reward1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="296,132" scale="0.6,0.6"/>
+    <component id="n30_lwy2" name="reward2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="449,108" scale="0.6,0.6"/>
+    <component id="n31_lwy2" name="reward3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="211,217" scale="0.6,0.6"/>
+    <component id="n32_lwy2" name="reward4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="377,233" scale="0.6,0.6"/>
+    <component id="n37_qozw" name="btnCheck" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="514,15" size="116,32">
+      <Button title="跳过动画"/>
+    </component>
+    <component id="n38_lonv" name="btnTarget" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="43,413" size="64,77" scale="0.9,0.9">
+      <Button icon="ui://zyevj37nlonvf"/>
+    </component>
+  </displayList>
+</component>

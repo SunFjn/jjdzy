@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="77,85">
+  <displayList>
+    <component id="n0_opnx" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="-13,-21" pivot="0.5,0.5" scale="0.6,0.6"/>
+    <image id="n1_opnx" name="imgYlq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="-24,15" pivot="0.5,0.5" scale="0.6,0.6"/>
+    <richtext id="n2_opnx" name="lbTarget" xy="-1,57" size="79,24" fontSize="14" color="#ffffff" text="分享币1000">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n3_oxr7" name="n3" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="54,1"/>
+  </displayList>
+</component>

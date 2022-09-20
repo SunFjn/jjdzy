@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.cdkey.model.CDkey" tbname="cdkey">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="gainCDkeyRecordMap" type="text" pf="all" comment="玩家已领取激活码记录Map key为类型，value为已领取该类型的激活码的次数"/>
+			<col field="commCDkeyMap" type="text" pf="all" comment="通用码使用记录"/>
+    </tb>
+</tbs>

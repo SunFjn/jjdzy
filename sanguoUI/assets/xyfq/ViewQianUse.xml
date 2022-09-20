@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="533,332" designImage="ui://7hwmix0gbnyp4" designImageOffsetX="-56" designImageOffsetY="-293">
+  <displayList>
+    <loader id="n25_bnyp" name="bg" xy="0,0" size="533,332" url="ui://7hwmix0goflgz" fill="scaleFree"/>
+    <component id="n29_bnyp" name="item" src="bnypm" fileName="QianItem.xml" xy="221,28">
+      <Label icon="ui://7hwmix0gbnyph"/>
+    </component>
+    <component id="n30_bnyp" name="numCom" src="ko8c3gq" fileName="组件/NumberCom.xml" pkg="jvxpx9em" xy="127,185"/>
+    <component id="n31_bnyp" name="btnOpen" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="198,243" pivot="0.5,0.5">
+      <Button title="开启福签" titleColor="#ffffff"/>
+    </component>
+    <component id="n27_bnyp" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="339,59" pivot="0.5,0.5" size="55,63">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n28_bnyp" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="139,59" pivot="0.5,0.5" size="55,63" scale="-1,1">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+  </displayList>
+</component>

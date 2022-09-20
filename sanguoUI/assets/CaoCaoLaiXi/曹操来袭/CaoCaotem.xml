@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="556,82">
+  <displayList>
+    <image id="n6_bx2z" name="n6" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="556,82"/>
+    <richtext id="n7_bx2z" name="lbRank" xy="33,31" size="80,28" fontSize="18" color="#ffc334" align="center" autoSize="none" text="第一名"/>
+    <richtext id="n8_bx2z" name="lbName" xy="105,31" size="193,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="22"/>
+    <richtext id="n9_bx2z" name="lbLv" xy="307,31" size="91,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="1111"/>
+    <component id="n10_bx2z" name="btnCheck" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="433,3" size="99,84" scale="0.7,0.7">
+      <Button title="查看" icon="ui://jvxpx9emaro89e"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,84" extention="Button">
+  <displayList>
+    <loader id="n0_ad1l" name="icon" xy="0,0" size="84,84" url="ui://7a366usaaxhn2u" align="center" vAlign="middle"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

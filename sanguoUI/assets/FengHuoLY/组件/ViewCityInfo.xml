@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,338">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n8_j08a" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,0" size="594,338" locked="true"/>
+    <loader id="n10_j08a" name="n10" xy="53,67" pivot="0.5,0.5" size="206,124" url="ui://edvdots4ekf614" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <component id="n14_j08a" name="n14" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="76,239" scale="0.7,0.7">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n15_j08a" name="n15" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="162,239" scale="0.7,0.7">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n16_j08a" name="n16" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="248,239" scale="0.7,0.7">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <image id="n19_j08a" name="n19" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="291,64"/>
+    <image id="n17_j08a" name="n17" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="291,34"/>
+    <loader id="n21_j08a" name="n21" xy="352,116" size="182,192" url="ui://edvdots4ov4h18"/>
+    <text id="n13_j08a" name="lb1" xy="46,232" size="65,27" fontSize="20" color="#ffffff" text="占领者">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <text id="n18_j08a" name="lbMember" xy="303,36" size="149,27" fontSize="20" color="#ffffff" text="征收人数：1111"/>
+    <text id="n20_j08a" name="lbTime" xy="303,66" size="137,27" fontSize="20" color="#ffffff" text="征收时长：10s"/>
+    <text id="n22_j08a" name="n22" xy="400,193" size="85,27" fontSize="20" color="#ffffff" text="无人占领"/>
+    <image id="n25_j08a" name="n25" src="ekf6y" fileName="images/标题文字底.png" xy="373,95" group="n33_j08a"/>
+    <image id="n30_j08a" name="n30" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="350,291" size="186,27" group="n33_j08a"/>
+    <text id="n26_j08a" name="n26" xy="406,100" size="65,27" group="n33_j08a" fontSize="20" color="#ff0000" text="占领者"/>
+    <component id="n3_srrs" name="barHp" src="p4bn88" fileName="新组建/HpBar.xml" pkg="jvxpx9em" xy="368,134" size="142,30" group="n33_j08a">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader id="n27_j08a" name="imgHead" xy="403,169" size="80,80" group="n33_j08a" url="ui://edvdots4kzd9e"/>
+    <loader id="n28_j08a" name="imgHeadGird" xy="400,164" size="88,88" group="n33_j08a" url="ui://edvdots4ov4h17" align="center" vAlign="bottom"/>
+    <image id="n29_j08a" name="n29" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="350,258" size="186,27" group="n33_j08a" locked="true"/>
+    <text id="n31_j08a" name="lbPlayerName" xy="351,260" size="185,27" group="n33_j08a" fontSize="20" color="#ffffff" text="名字最长长字.s6666">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n32_j08a" name="lbPower" xy="354,293" size="175,27" group="n33_j08a" fontSize="20" color="#ffffff" align="center" text="战力：1888888888">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n33_j08a" name="groupOwner" xy="350,95" size="186,225" advanced="true"/>
+    <text id="n1_srrs" name="lbCity" xy="129,22" size="53,31" fontSize="24" color="#66ff00" text="都城"/>
+    <loader id="n34_m2dl" name="n34" xy="534,38" size="33,17" url="ui://edvdots4m2dlw1u"/>
+    <image id="n40_jv3k" name="n40" src="lve29q" fileName="image1/小血条底.png" pkg="jvxpx9em" xy="289,61" size="260,293" group="n37_m2dl"/>
+    <list id="n36_m2dl" name="n36" xy="294,62" size="247,284" group="n37_m2dl" overflow="scroll" defaultItem="ui://edvdots4m2dlw1t"/>
+    <group id="n37_m2dl" name="memberGroup" xy="289,61" size="260,293" locked="true" hideByEditor="true" visible="false" advanced="true"/>
+    <image id="n41_crbi" name="n41" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="22,198"/>
+    <text id="n42_crbi" name="lbtitle" xy="110,200" size="85,27" fontSize="20" color="#ffffff" text="征收奖励"/>
+    <text id="n43_crbi" name="lb2" xy="191,231" size="65,27" fontSize="20" color="#ffffff" text="征收者">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <component id="n44_crbi" name="n44" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="16,260" scale="0.6,0.6">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n46_crbi" name="n46" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="85,260" scale="0.6,0.6">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n47_crbi" name="n47" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="164,260" scale="0.6,0.6">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n48_crbi" name="n48" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="227,260" scale="0.6,0.6">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+</component>

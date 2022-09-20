@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,921" opaque="false">
+  <controller name="c1" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <loader id="n10_ut4i" name="imgBg" xy="0,263" size="640,658" url="ui://rhfap29iut4i5"/>
+    <component id="n1_n093" name="tai0" src="n0931" fileName="组建/ItemLeiTai.xml" xy="185,408">
+      <Button controller="c1" page="0"/>
+    </component>
+    <component id="n2_n093" name="tai1" src="n0931" fileName="组建/ItemLeiTai.xml" xy="14,302">
+      <Button checked="true" controller="c1" page="1"/>
+    </component>
+    <component id="n3_n093" name="tai2" src="n0931" fileName="组建/ItemLeiTai.xml" xy="389,302">
+      <Button controller="c1" page="2"/>
+    </component>
+    <component id="n4_n093" name="tai3" src="n0931" fileName="组建/ItemLeiTai.xml" xy="14,513">
+      <Button controller="c1" page="3"/>
+    </component>
+    <component id="n5_n093" name="tai4" src="n0931" fileName="组建/ItemLeiTai.xml" xy="389,513">
+      <Button controller="c1" page="4"/>
+    </component>
+    <image id="n17_ut4i" name="n17" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="11,754" size="617,160"/>
+    <component id="n7_ut4i" name="vhead0" src="n0933" fileName="组建/ItemLeiTaiHead.xml" xy="41,774"/>
+    <component id="n8_ut4i" name="vhead1" src="n0933" fileName="组建/ItemLeiTaiHead.xml" xy="187,774"/>
+    <component id="n9_ut4i" name="vhead2" src="n0933" fileName="组建/ItemLeiTaiHead.xml" xy="331,774"/>
+    <image id="n11_ut4i" name="n11" src="m3513bv" fileName="image/通用底框/tips.png" pkg="jvxpx9em" xy="454,764" size="169,132">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <richtext id="n12_ut4i" name="lbCt" xy="462,855" size="154,25" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="挑战CD：05:59"/>
+    <component id="n13_ut4i" name="btnBat" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="469,791">
+      <Button title="挑战擂主"/>
+    </component>
+    <image id="n14_ut4i" name="imgTime" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="18,277" size="224,27"/>
+    <richtext id="n15_ut4i" name="labTime" xy="20,278" size="169,28" touchable="false" fontSize="18" color="#2ff10f" autoClearText="true" text="剩余时间：10:10:10"/>
+    <image id="n16_ut4i" name="imgArrow" src="ut4i6" fileName="image/绿色箭头.png" xy="304,352" pivot="0.5,0" anchor="true" visible="false"/>
+    <image id="n19_ut4i" name="imgDes" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="530,277" size="83,27" flip="hz"/>
+    <richtext id="n18_ut4i" name="lbDes" xy="537,278" size="77,28" fontSize="18" color="#33ff00" text="&lt;u>玩法说明&lt;/u>"/>
+    <component id="n22_ut4i" name="btnReport" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="303,303" pivot="0.5,0.5" anchor="true" size="84,88" scale="0.6,0.6">
+      <Button icon="ui://rhfap29iut4ia"/>
+    </component>
+  </displayList>
+</component>

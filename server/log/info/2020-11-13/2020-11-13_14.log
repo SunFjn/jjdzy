@@ -1,0 +1,65 @@
+2020-11-13 14:00:44.633 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:01:44.641 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:02:44.660 [任务线程 - 16] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:03:44.665 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:04:44.669 [任务线程 - 12] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:05:44.677 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:06:44.686 [任务线程 - 10] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:07:44.691 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:08:44.695 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:09:44.705 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:10:44.707 [任务线程 - 12] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:11:44.713 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:12:44.732 [任务线程 - 12] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:13:44.751 [任务线程 - 1] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:14:44.755 [任务线程 - 13] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:15:44.760 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:16:44.769 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:17:44.788 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:18:44.794 [任务线程 - 12] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:19:44.799 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:20:37.844 [任务线程 - 16] INFO  com.teamtop.system.crossAttackCity.AttackCityLocalEvent - 12345678清理城池完毕,中央服当前时间::2020-12-29 23:50:00
+2020-11-13 14:20:37.844 [任务线程 - 16] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossAttackCity.AttackCityLocalEvent@37271612,now:1609257000,dayTime:2350
+2020-11-13 14:20:44.803 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:21:44.807 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:22:44.824 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:23:44.841 [任务线程 - 1] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:24:41.411 [任务线程 - 2] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossAttackCity.AttackCityLocalEvent@383bfa16,now:1609257000,dayTime:2350
+2020-11-13 14:24:44.860 [任务线程 - 13] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:25:44.881 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:26:44.884 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:27:44.890 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:28:44.895 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:29:37.321 [任务线程 - 9] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.event.backstage.BackstageSystemEvent@245cf5ea,now:1609257540,dayTime:2359
+2020-11-13 14:29:44.903 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:30:37.141 [任务线程 - 16] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.country.newkingship.NewKingShipEvent@24269709,now:1609257600,dayTime:0
+2020-11-13 14:30:37.141 [任务线程 - 16] INFO  com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossEvent - WDTX.FixTime bigan.cmd:1
+2020-11-13 14:30:37.141 [任务线程 - 16] INFO  com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossEvent - WDTX.FixTime.cmd:1
+2020-11-13 14:30:37.141 [任务线程 - 16] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossEvent@1816e24a,now:1609257600,dayTime:0
+2020-11-13 14:30:38.156 [任务线程 - 8] INFO  com.teamtop.system.event.systemEvent.SystemEventFunction - zeroPUHandlerEvents start handler
+2020-11-13 14:30:38.172 [OpTaskExecutorService-thread-13] INFO  com.teamtop.system.eightDoorAppraiseRank.cross.CrossEightDoorAppraiseRankCL$3 - sendMailAwardToLocal partId:10001 content:{10001:{"beginTime":1604246400,"endTime":1604764799,"rankTreeSet":[],"sendAwardSet":[]}}
+2020-11-13 14:30:38.172 [OpTaskExecutorService-thread-13] INFO  com.teamtop.system.shaozhuQiYuanRank.cross.CrossShaoZhuQiYuanRankCL$3 - sendMailAwardToLocal partId:10001 content:{10001:{"beginTime":1605456000,"endTime":1605974399,"rankTreeSet":[],"sendAwardSet":[]}}
+2020-11-13 14:30:38.578 [任务线程 - 8] INFO  com.teamtop.system.crossTrial.cross.CrossTrialCentralFunction - CrossTrialCentralFunction clear all
+2020-11-13 14:30:38.859 [任务线程 - 2] INFO  com.teamtop.system.house.yard.HouseGoldSchedule - 排名奖励发放完毕
+2020-11-13 14:30:38.875 [OpTaskExecutorService-thread-14] INFO  com.teamtop.system.crossCommonRank.cross.CrossCommonRankCL$1 - (ID:1000100000000009),Name:晓月乄逐笙.S1,rec:CrossCommonRankCL zoneid:1 rank:1 parameter:101000000
+2020-11-13 14:30:38.875 [OpTaskExecutorService-thread-14] INFO  com.teamtop.system.crossCommonRank.cross.CrossCommonRankCL$1 - (ID:1000100000000005),Name:世家丿非宸.S1,rec:CrossCommonRankCL zoneid:1 rank:2 parameter:101000000
+2020-11-13 14:30:38.875 [OpTaskExecutorService-thread-14] INFO  com.teamtop.system.crossCommonRank.cross.CrossCommonRankCL$1 - (ID:1000100000000002),Name:才貌丿听雨.S1,rec:CrossCommonRankCL zoneid:1 rank:3 parameter:101000000
+2020-11-13 14:30:38.969 [任务线程 - 8] INFO  com.teamtop.system.event.systemEvent.SystemEventFunction - zeroPUHandlerEvents success handler finsh
+2020-11-13 14:30:38.969 [任务线程 - 8] INFO  com.teamtop.system.event.systemEvent.SystemEventFunction - zeroHandlerEvents  start  handler
+2020-11-13 14:30:38.969 [任务线程 - 8] INFO  com.teamtop.system.event.systemEvent.SystemEventFunction - zeroHandlerEvents  success  handler finsh
+2020-11-13 14:30:38.969 [任务线程 - 8] INFO  com.teamtop.system.event.systemEvent.SystemEventFunction - zeroHandlerEvents success handler finsh
+2020-11-13 14:30:42.761 [任务线程 - 2] INFO  com.teamtop.system.mail.MailCache - mail send start :3
+2020-11-13 14:30:42.793 [任务线程 - 2] INFO  com.teamtop.system.event.backstage.events.flowMail.FlowMailEvent - mail id:1000100000001718,receiverId:1000100000000009,flag:200, time:1609257357
+2020-11-13 14:30:42.824 [任务线程 - 2] INFO  com.teamtop.system.event.backstage.events.flowMail.FlowMailEvent - mail id:1000100000001719,receiverId:1000100000000005,flag:200, time:1609257357
+2020-11-13 14:30:42.856 [任务线程 - 2] INFO  com.teamtop.system.event.backstage.events.flowMail.FlowMailEvent - mail id:1000100000001720,receiverId:1000100000000002,flag:200, time:1609257357
+2020-11-13 14:30:42.871 [任务线程 - 2] INFO  com.teamtop.system.mail.MailCache - mail send over :0
+2020-11-13 14:30:44.915 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:31:37.821 [任务线程 - 2] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossTrial.CrossTrialSysEvent@4218d6a3,now:1609257660,dayTime:1
+2020-11-13 14:31:37.821 [任务线程 - 2] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossHeroesList.cross.CrossHeroesListSysEvent@5d7835a8,now:1609257660,dayTime:1
+2020-11-13 14:31:37.821 [任务线程 - 2] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.activity.ativitys.godGenSendGiftAct.cross.CrossGodGenSendGiftActEvent@47b179d7,now:1609257660,dayTime:1
+2020-11-13 14:31:37.821 [任务线程 - 2] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.eightDoorAppraiseRank.cross.CrossEightDoorAppraiseRankEvent@162b3d47,now:1609257660,dayTime:1
+2020-11-13 14:31:37.821 [任务线程 - 2] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.activity.ativitys.rechargeRankAct.cross.CrossRechargeRankActEvent@46d567cb,now:1609257660,dayTime:1
+2020-11-13 14:31:37.821 [任务线程 - 2] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.activity.ativitys.eightDoorAppraiseRankAct.cross.CrossEightDoorAppraiseRankActEvent@25da615a,now:1609257660,dayTime:1
+2020-11-13 14:31:37.821 [任务线程 - 2] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.activity.ativitys.shaoZhuQiYuanRankAct.cross.CrossShaoZhuQiYuanRankActEvent@7ee3d262,now:1609257660,dayTime:1
+2020-11-13 14:31:44.920 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-13 14:32:44.938 [任务线程 - 10] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7

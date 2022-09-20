@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,666">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n9_pdzw" name="n9" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="11,0" size="618,664"/>
+    <image id="n10_pdzw" name="n10" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="11,540" size="618,124"/>
+    <image id="n11_pdzw" name="n11" src="dlak69" fileName="image/箭头+其他/间隔线.png" pkg="jvxpx9em" xy="11,541" size="618,4"/>
+    <loader id="n12_pdzw" name="n12" xy="128,85" size="383,435" url="ui://w5ll6n5jpdzwk"/>
+    <loader id="n14_pdzw" name="btnChai" xy="156,226" size="328,229" url="ui://w5ll6n5jpdzws">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader>
+    <list id="n0_hsa2" name="n0" xy="50,15" size="540,59" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9em6hpm3ft" vAlign="bottom">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_hsa2" name="n3" src="hsa2i" fileName="组件/红包/HongBaoLabel.xml" xy="94,554"/>
+    <loader id="n13_pdzw" name="n13" xy="280,90" size="79,33" url="ui://w5ll6n5jpdzwl">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <richtext id="n15_pdzw" name="lbTime" xy="311,671" size="40,28" fontSize="18" color="#66ff33" align="center" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n16_pdzw" name="n16" src="w6ro3cm" fileName="image/箭头+其他/箭头1.png" pkg="jvxpx9em" xy="585,10" pivot="0.5,0.5"/>
+    <image id="n17_pdzw" name="n17" src="w6ro3cm" fileName="image/箭头+其他/箭头1.png" pkg="jvxpx9em" xy="0,11" pivot="0.5,0.5" scale="-1,1"/>
+    <list id="n4_hsa2" name="list0" xy="223,241" size="238,104" scale="0.85,0.85" layout="flow_hz" overflow="scroll" colGap="12" defaultItem="ui://jvxpx9emetorn" align="center">
+      <gearDisplay controller="c1" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n5_hsa2" name="list1" xy="98,353" size="529,110" scale="0.85,0.85" layout="flow_hz" overflow="scroll" colGap="12" defaultItem="ui://jvxpx9emetorm" align="center">
+      <gearDisplay controller="c1" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n18_wycz" name="n18" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="338,290">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+  </displayList>
+</component>

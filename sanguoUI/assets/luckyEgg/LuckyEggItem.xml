@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" pivot="0.5,0.5" anchor="true">
+  <controller name="typeCtrl" pages="0,,1,,2," selected="2"/>
+  <displayList>
+    <loader id="n19_osj3" name="bg" xy="0,0" size="80,80" url="ui://wx4kos8uosj3f" fill="scaleFree">
+      <gearIcon controller="typeCtrl" pages="0,2" values="ui://wx4kos8uosj3e|ui://wx4kos8uosj3f" default="ui://wx4kos8uosj3g"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="610,25" overflow="hidden" extention="Label">
+  <displayList>
+    <richtext id="n0_j2m4" name="title" xy="0,0" size="610,25" touchable="false" fontSize="18" color="#ffffff" leading="0" ubb="true" autoSize="none" singleLine="true" text="111111111111111111111111"/>
+  </displayList>
+</component>

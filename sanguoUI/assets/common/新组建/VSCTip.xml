@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="221,230">
+  <displayList>
+    <loader id="n0_810t" name="n0" xy="-10,0" size="235,230" url="ui://jvxpx9emsguf3fz"/>
+    <loader id="n3_810t" name="n3" xy="19,186" size="192,29" url="ui://jvxpx9emsguf3g0"/>
+    <component id="n5_810t" name="container" src="tc2x3dv" fileName="新组建/EmptyComp.xml" xy="130,112"/>
+    <loader id="n8_810t" name="n8" xy="27,4" size="170,56" url="ui://jvxpx9em810t3e1"/>
+    <loader id="n9_nxbw" name="n9" xy="89,168" size="147,42" url="ui://jvxpx9emnxbw3e2"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n5_810t" tween="true" startValue="120,120" endValue="120,100" duration="24"/>
+    <item time="24" type="XY" target="n5_810t" tween="true" startValue="120,100" endValue="120,120" duration="24"/>
+  </transition>
+</component>

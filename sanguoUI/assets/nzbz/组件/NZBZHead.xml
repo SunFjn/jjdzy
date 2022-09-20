@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,92">
+  <displayList>
+    <image id="n56_ghu9" name="n56" src="kw747l" fileName="image1/头像底.png" pkg="jvxpx9em" xy="9,8"/>
+    <loader id="n57_ghu9" name="headIcon" xy="9,8" size="80,80" url="ui://jvxpx9emp75388" fill="scaleFree"/>
+    <loader id="n58_ghu9" name="frameIcon" xy="0,0" size="100,90" url="ui://jvxpx9emtw1l5j" align="center" vAlign="bottom"/>
+    <loader id="n12_nb1u" name="countryImg" xy="62,11" size="24,17" aspect="true" url="ui://jvxpx9emxyp27g" align="right" fill="scale"/>
+    <image id="n54_aro8" name="n54" src="p75385" fileName="image1/BOSS等级底.png" pkg="jvxpx9em" xy="63,62"/>
+    <richtext id="n55_aro8" name="levelLb" xy="59,68" size="44,25" fontSize="16" color="#ffc344" align="center" leading="0" autoSize="none" text="999">
+      <relation target="n58_ghu9" sidePair="right-right"/>
+    </richtext>
+  </displayList>
+</component>

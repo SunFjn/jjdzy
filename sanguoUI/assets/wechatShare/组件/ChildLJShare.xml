@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <list id="n0_q09v" name="list" xy="21,363" size="599,454" overflow="scroll" lineGap="2" defaultItem="ui://83gc6bhvq09v3">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n2_u7hr" name="imgBanner" xy="19,166" size="601,183" url="ui://83gc6bhvu7hrk"/>
+    <richtext id="n3_xtmm" name="n3" xy="37,310" size="249,25" fontSize="18" color="#ffcc33" text="每日前3次分享才算入累计分享"/>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="girq9ndu" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="l5k50" name="ViewTrueNamePanel.xml" path="/组件/" exported="true"/>
+    <image id="l5k52" name="Bm_XinQu.png" path="/image/" exported="true"/>
+    <component id="l5k53" name="ViewTrueNameAlert.xml" path="/组件/" exported="true"/>
+    <component id="mu0i5" name="ViewTrueNameReward.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish npot="true" name="trueName" genCode="true"/>
+</packageDescription>

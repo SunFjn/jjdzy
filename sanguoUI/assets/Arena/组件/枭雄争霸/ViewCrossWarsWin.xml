@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="622,898">
+  <displayList>
+    <component id="n5_6wzt" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="622,898">
+      <Label title="名人堂"/>
+    </component>
+    <image id="n14_6wzt" name="n14" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="34,722" size="555,120"/>
+    <richtext id="n10_6wzt" name="lbTips" xy="34,848" size="555,28" touchable="false" fontSize="18" color="#0bf52c" align="center" autoSize="none" text="活动结束后每个冠军所在服全体玩家可领取奖励一份"/>
+    <text id="n11_6wzt" name="lbReward" xy="52,762" size="131,57" fontSize="18" color="#ffc334" align="center" autoSize="none" text="冠军所在服&#xA;全员奖励"/>
+    <list id="n12_6wzt" name="list" xy="215,729" size="211,107" layout="row" overflow="scroll" scroll="horizontal" colGap="4" defaultItem="ui://jvxpx9emetorm" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n18_6wzt" name="ply2" src="hfct4b" fileName="组件/枭雄争霸/VCrossWarsWin.xml" xy="393,160"/>
+    <component id="n17_6wzt" name="ply1" src="hfct4b" fileName="组件/枭雄争霸/VCrossWarsWin.xml" xy="211,101"/>
+    <component id="n20_6wzt" name="ply4" src="hfct4b" fileName="组件/枭雄争霸/VCrossWarsWin.xml" xy="321,410"/>
+    <component id="n19_6wzt" name="ply3" src="hfct4b" fileName="组件/枭雄争霸/VCrossWarsWin.xml" xy="98,410"/>
+    <component id="n16_6wzt" name="ply0" src="hfct4b" fileName="组件/枭雄争霸/VCrossWarsWin.xml" xy="27,160"/>
+    <component id="n22_cazx" name="btnMobai" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="238,664">
+      <Button title="膜拜"/>
+    </component>
+    <component id="n23_cazx" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="431,761">
+      <Button title="领取"/>
+    </component>
+    <image id="n24_ydye" name="imgHas" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="441,762"/>
+    <image id="n25_nw6y" name="imgMobai" src="hfct53" fileName="image/乱世枭雄/已膜拜.png" xy="246,665"/>
+  </displayList>
+</component>

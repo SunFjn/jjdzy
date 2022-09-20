@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="193,332" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n10_oiih" name="n10" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="29,11" size="133,36"/>
+    <image id="n4_iad8" name="n4" src="oiih38" fileName="image/跨服组队/奖励预览.png" xy="59,232"/>
+    <loader id="n5_iad8" name="nameIcon" xy="34,15" size="123,29" url="ui://yqpfulefoiih3h" align="center"/>
+    <component id="n6_iad8" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="25,257" scale="0.65,0.65"/>
+    <component id="n7_iad8" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="112,257" scale="0.65,0.65"/>
+    <loader id="n8_iad8" name="chooseImg" xy="-17,-19" size="227,369" touchable="false" url="ui://yqpfulefoiih3j">
+      <gearDisplay controller="button" pages="1,3"/>
+    </loader>
+    <loader id="n11_oiih" name="taiziImg" xy="27,165" size="230,114" aspect="true" scale="0.6,0.6" url="ui://yqpfulefqxiv1b"/>
+    <image id="n12_qsq2" name="imgDoub" src="qsq23gc" fileName="image1/双倍标签.png" pkg="jvxpx9em" xy="136,66"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <controller name="c1" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <component id="n0_n7ie" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0"/>
+    <image id="n25_lwyd" name="n25" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="284,147" size="344,211"/>
+    <image id="n15_oc0j" name="n15" src="oc0jl" fileName="image/诸葛亮.png" xy="16,147"/>
+    <richtext id="n3_n7ie" name="lbRemain" xy="315,662" size="10,35" fontSize="24" color="#ffffff" text="">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n5_n7ie" name="lbScore" xy="300,322" size="163,28" fontSize="18" color="#ffffff" autoSize="none" text="我的积分：0"/>
+    <richtext id="n6_n7ie" name="lbRank" xy="465,322" size="162,28" fontSize="18" color="#ffffff" autoSize="none" text="我的排名：10+"/>
+    <image id="n17_oc0j" name="n17" src="n4tu52" fileName="image1/ContentBg.png" pkg="jvxpx9em" xy="4,460" size="634,450" group="n12_n7ie" locked="true"/>
+    <image id="n24_lwyd" name="n24" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="31,561" size="579,314" group="n12_n7ie"/>
+    <component id="n7_n7ie" name="i0" src="n7ie2" fileName="组件/隆中对/LongZDIt.xml" xy="119,582" size="403,57" group="n12_n7ie"/>
+    <component id="n8_n7ie" name="i1" src="n7ie2" fileName="组件/隆中对/LongZDIt.xml" xy="119,648" size="403,57" group="n12_n7ie"/>
+    <component id="n9_n7ie" name="i2" src="n7ie2" fileName="组件/隆中对/LongZDIt.xml" xy="119,714" size="403,57" group="n12_n7ie"/>
+    <component id="n10_n7ie" name="i3" src="n7ie2" fileName="组件/隆中对/LongZDIt.xml" xy="119,780" size="403,57" group="n12_n7ie"/>
+    <richtext id="n13_n7ie" name="lbTime" xy="315,888" size="10,28" group="n12_n7ie" fontSize="18" color="#ffffff" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n11_n7ie" name="lbTopic" xy="49,481" size="541,69" group="n12_n7ie" fontSize="24" color="#ffffff" align="center" leading="6" autoSize="none" text="题&#xA;目&#xA;"/>
+    <group id="n12_n7ie" name="g0" xy="4,460" size="634,456" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n1_n7ie" name="btnDH" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="306,370" size="67,82">
+      <Button title="兑换" icon="ui://1xydor24oc0j7"/>
+    </component>
+    <component id="n2_n7ie" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="406,370" size="67,82">
+      <Button title="排行" icon="ui://1xydor24oc0ja"/>
+    </component>
+    <list id="n27_lwyd" name="n27" xy="302,169" size="308,150" overflow="scroll" lineGap="4" defaultItem="ui://1xydor24lwyd14">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n28_q9i5" name="n28" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="259,673">
+      <gearDisplay controller="c1" pages="2"/>
+      <Button title="开始答题"/>
+    </component>
+    <richtext id="n29_q9i5" name="n29" xy="172,593" size="295,35" fontSize="24" color="#ffffff" text="活动时间：12：00-22：00">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n30_htjf" name="lbtips" xy="190,612" size="259,35" fontSize="24" color="#ffffff" text="活动时间：12:00-22:00">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n31_htjf" name="n31" xy="245,620" size="149,35" fontSize="24" color="#ffffff" text="今日已答完题">
+      <gearDisplay controller="c1" pages="3"/>
+    </richtext>
+  </displayList>
+</component>

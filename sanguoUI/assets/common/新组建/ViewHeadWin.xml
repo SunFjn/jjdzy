@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_608a" name="bg1" src="d2iu9v" fileName="新组建/ViewBg1.xml" xy="0,0"/>
+    <image id="n16_vbia" name="n16" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" xy="118,301" size="404,246"/>
+    <component id="n1_608a" name="btnClose" src="y1z8l" fileName="组件/Button1.xml" xy="255,737" pivot="0.5,0.5">
+      <Button title="离开"/>
+    </component>
+    <image id="n2_608a" name="n2" src="i6im6i" fileName="image1/胜利.png" xy="232,18"/>
+    <richtext id="n9_s8ql" name="lbInfo" xy="184,428" size="272,96" fontSize="18" color="#ffffff" align="center" leading="12" autoSize="none" text="三国战纪顶级玩家"/>
+    <component id="n12_vbia" name="head" src="p75387" fileName="新组建/ViewHead.xml" xy="263,317"/>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n1_fbyw" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0" locked="true"/>
+    <image id="n2_fbyw" name="n2" src="fbywc" fileName="image/vip礼包title.png" xy="258,69"/>
+    <list id="n3_fbyw" name="n3" xy="16,170" size="607,703" overflow="scroll" lineGap="-15" defaultItem="ui://w4xdcvn7fbywe">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

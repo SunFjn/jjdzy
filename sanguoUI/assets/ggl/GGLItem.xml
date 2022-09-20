@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,133">
+  <displayList>
+    <image id="n24_loxz" name="n24" src="loxzb" fileName="res/刮刮乐1.png" xy="0,0"/>
+    <component id="n25_loxz" name="item" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="83,62" pivot="0.5,0.5" anchor="true"/>
+    <graph id="n26_loxz" name="p0" xy="54,43" pivot="0.5,0.5" anchor="true" size="20,20"/>
+    <graph id="n30_loxz" name="p1" xy="105,43" pivot="0.5,0.5" anchor="true" size="20,20"/>
+    <graph id="n31_loxz" name="p2" xy="108,95" pivot="0.5,0.5" anchor="true" size="20,20"/>
+  </displayList>
+</component>

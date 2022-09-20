@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="604,170" extention="Label">
+  <displayList>
+    <image id="n12_j1af" name="n12" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="604,170"/>
+    <image id="n23_ly3w" name="tipBg" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="424,115" size="178,24"/>
+    <richtext id="n14_j1af" name="lbName" xy="140,27" size="98,34" touchable="false" fontSize="22" color="#ffffff" text="符文·坚甲"/>
+    <richtext id="n16_j1af" name="lbAttr" xy="140,85" size="273,82" touchable="false" fontSize="18" color="#ffffff" autoSize="height" text="攻击：125000&#xA;攻击：125000&#xA;攻击：125000"/>
+    <component id="n17_j1af" name="grid" src="f8nk4" fileName="组件/VBaZTGrid.xml" xy="26,39"/>
+    <component id="n18_j1af" name="btnDown" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="438,53" pivot="0.5,0.5">
+      <Button title="卸下"/>
+    </component>
+    <image id="n19_j1af" name="imgEquip" src="z1jw6q" fileName="image1/佩戴标志.png" pkg="jvxpx9em" xy="12,25"/>
+    <component id="n20_j1af" name="btnWear" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="439,52" pivot="0.5,0.5">
+      <Button title="镶嵌"/>
+    </component>
+    <richtext id="n21_ly3w" name="lbTips" xy="423,113" size="178,28" visible="false" fontSize="18" color="#ff0000" align="center" autoSize="none" text="已镶嵌同类型符文"/>
+    <richtext id="n22_ly3w" name="lbLevel" xy="140,57" size="101,28" touchable="false" fontSize="18" color="#ffffff" autoSize="none" text="Lv.180/200"/>
+    <richtext id="n15_j1af" name="lbPower" xy="262,57" size="147,28" fontSize="18" color="#33ff33" text="战力：10000000"/>
+  </displayList>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://ehocr0vupwnzc">
+  <displayList>
+    <component id="n0_pwnz" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="23,153" size="594,889">
+      <Label title="奖励预览"/>
+    </component>
+    <list id="n7_pwnz" name="list" xy="36,242" size="568,762" overflow="scroll" lineGap="26" colGap="11" defaultItem="ui://ehocr0vupwnzd" autoClearItems="true">
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+    </list>
+  </displayList>
+</component>

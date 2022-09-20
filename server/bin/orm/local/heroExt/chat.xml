@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.chat.Chat" tbname="chat">
+		<index field="hid" type="prikey" autoIncrement="false"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="crossCiShu" type="int" pf="all" comment="跨服服聊天次数"/>
+		<col field="localCiShu" type="int" pf="all" comment="本服聊天次数"/>
+	    <col field="countryCiShu" type="int" pf="all" comment="国家聊天次数"/>
+	    <col field="blackMap"     type="text"   pf="all" comment="黑名单人数"/>		
+        <col field="siLiaoRenShu" type="varchar" len="500" pf="all" comment="私聊人数"/>	
+	    <col field="inOthBlackMap" type="text"   pf="all" comment="在别人的黑名单，别人的Hid"/>		
+    </tb>
+</tbs>

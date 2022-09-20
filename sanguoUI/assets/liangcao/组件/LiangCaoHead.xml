@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="139,125">
+  <displayList>
+    <image id="n0_hd20" name="n0" src="kw747l" fileName="image1/头像底.png" pkg="jvxpx9em" xy="28,8"/>
+    <loader id="n1_hd20" name="headIcon" xy="28,8" size="80,80" url="ui://jvxpx9emp75388" fill="scaleFree"/>
+    <loader id="n2_hd20" name="frameIcon" xy="18,0" size="100,90" url="ui://jvxpx9emtw1l5j" align="center" vAlign="bottom"/>
+    <richtext id="n13_hd20" name="lbState" xy="12,97" size="121,28" fontSize="18" color="#ffffff" text="复活：00：00">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n14_hd20" name="imgDeaded" src="hd205" fileName="images/已击杀标记.png" xy="45,21"/>
+  </displayList>
+</component>

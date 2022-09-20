@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="174,40">
+  <displayList>
+    <richtext id="n20_jt4v" name="tfName" xy="0,8" size="85,27" fontSize="20" color="#ffff00" vAlign="middle" autoClearText="true" text="物品名称"/>
+    <loader id="n21_jt4v" name="imageIcon" xy="83,0" size="40,40" url="ui://jvxpx9embwmw3y" align="center" vAlign="middle" fill="scale">
+      <relation target="n20_jt4v" sidePair="left-right"/>
+    </loader>
+    <richtext id="n22_jt4v" name="tfValue" xy="125,8" size="49,27" fontSize="20" color="#ffff00" vAlign="middle" autoClearText="true" text="1000">
+      <relation target="n21_jt4v" sidePair="left-right"/>
+    </richtext>
+  </displayList>
+</component>

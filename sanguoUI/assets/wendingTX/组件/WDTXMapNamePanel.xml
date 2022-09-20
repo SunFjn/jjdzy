@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="217,82">
+  <displayList>
+    <image id="n0_hocl" name="n0" src="cg2in" fileName="images/第.png" xy="0,0" scale="2,2"/>
+    <image id="n1_hocl" name="n1" src="cg2ii" fileName="images/层.png" xy="141,0" scale="2,2"/>
+    <richtext id="n2_hocl" name="lbMapName" xy="87,1" size="22,27" scale="2,2" font="ui://jvxpx9embwmw3w" fontSize="30" color="#ffcc00" align="center" text="1">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.guardArea.model.GuardAreaLocal" tbname="guardAreaLocal">
+		<index field="hid" type="prikey"/>
+		<col field="hid" type="bigint" pf="all" comment="玩家id"/>
+		<col field="plunderTimes" type="int" pf="all" comment="掠夺次数"/>
+		<col field="freeRefreshTime" type="int" pf="all" comment="免费刷新时间"/>
+		<col field="shopMap" type="text" pf="all" comment="商城信息"/>
+		<col field="shopRefreshTime" type="int" pf="all" comment="商店刷新时间"/>
+		<col field="honorCoin" type="bigint" pf="all" comment="荣耀货币"/>
+	</tb>
+</tbs>

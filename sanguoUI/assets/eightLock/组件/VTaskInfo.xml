@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,665">
+  <displayList>
+    <component id="n0_vib6" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="11,0" size="615,668"/>
+    <image id="n21_j3hf" name="n21" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="30,82" size="267,575"/>
+    <image id="n22_xchg" name="n22" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="390,75" size="220,29" flip="hz"/>
+    <list id="n3_vib6" name="list" xy="303,106" size="315,550" overflow="scroll" lineGap="5" defaultItem="ui://hincjqblvib68">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n13_vib6" name="txtPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="53,137" scale="0.8,0.8">
+      <Label title="2312313"/>
+    </component>
+    <richtext id="n4_vib6" name="txtInfo" xy="449,74" size="161,27" fontSize="20" color="#00ff00" text="休门任务: (20/20)">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <text id="n5_vib6" name="txtJiangLi" xy="101,96" size="125,39" fontSize="30" color="#ffff00" text="休门奖励"/>
+    <loader id="n8_vib6" name="glPic" xy="48,237" size="230,271" align="center" fill="scale"/>
+    <loader id="n7_vib6" name="glName" xy="48,194" size="50,30" autoSize="true" color="#ffff00"/>
+    <richtext id="n12_vib6" name="txtCZ" xy="38,538" size="237,43" fontSize="16" color="#ffffff" align="center" autoSize="none" text="活动期间充值(5000/10000)元宝&#xA;可快速完成"/>
+    <component id="n14_vib6" name="btnGotAll" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="98,531">
+      <Button title="领取"/>
+    </component>
+    <richtext id="n16_vib6" name="txtGotAll" xy="68,590" size="185,25" fontSize="18" color="#ffffff" align="center" autoSize="none" text="领取奖励后开启下一门"/>
+    <image id="n17_nkwt" name="iconGot" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="101,535" visible="false"/>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.houtaiHttp.events.adMonitor.AdAccountMapper">
+	<insert id="insert" parameterType="com.teamtop.houtaiHttp.events.adMonitor.M_AdAccount" useGeneratedKeys="true" keyProperty="id">
+		${insertSql}
+	</insert>
+	<!-- 查找某个玩家账号的广告号信息 -->
+	<select id="findByOpenid" parameterType="String" resultType="hashMap">
+		select * from m_adaccount where openid = #{value};
+	</select>
+	<!-- 根据账号删除广告号信息 -->
+	<delete id="delByOpenid" parameterType="String">
+		delete from m_adaccount where openid = #{value};
+	</delete>
+</mapper>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="597,821">
+  <displayList>
+    <component id="n0_j9wf" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="597,821">
+      <Label title="晋级挑战"/>
+    </component>
+    <component id="n1_j9wf" name="ply0" src="hfct3q" fileName="组件/乱世枭雄/VCrossKingPly.xml" xy="198,198"/>
+    <component id="n2_j9wf" name="ply1" src="hfct3q" fileName="组件/乱世枭雄/VCrossKingPly.xml" xy="27,388"/>
+    <component id="n3_j9wf" name="ply2" src="hfct3q" fileName="组件/乱世枭雄/VCrossKingPly.xml" xy="366,389"/>
+    <richtext id="n4_j9wf" name="lbBattleCount" xy="205,752" size="147,28" fontSize="18" color="#ffffff" text="挑战次数：10/10"/>
+    <component id="n5_j9wf" name="btnAdd" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="358,748" size="32,31">
+      <relation target="n4_j9wf" sidePair="right-right"/>
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <richtext id="n7_j9wf" name="lbChangeCost" xy="280,718" size="60,28" fontSize="18" color="#ffffff" text="10000"/>
+    <richtext id="n9_j9wf" name="lbTips" xy="171,90" size="254,35" fontSize="18" color="#ffffff" align="center" autoSize="none" text="挑战成功可晋级至"/>
+    <component id="n13_qxiv" name="btnChange" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="225,660">
+      <Button title="换一批"/>
+    </component>
+    <image id="n14_qxiv" name="n14" src="ltpm59" fileName="image1/铜币.png" pkg="jvxpx9em" xy="248,718"/>
+    <richtext id="n15_qxiv" name="lbPromotion" xy="171,123" size="254,35" fontSize="24" color="#f3c216" align="center" autoSize="none" text="乱世枭雄"/>
+    <image id="n16_qxiv" name="imgMax" src="hfct5f" fileName="image/乱世枭雄/枭.png" xy="235,122"/>
+  </displayList>
+</component>

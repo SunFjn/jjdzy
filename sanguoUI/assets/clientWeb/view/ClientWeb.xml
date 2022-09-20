@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600">
+  <displayList>
+    <image id="n4_p3o2" name="n4" src="m3513bv" fileName="image/通用底框/tips.png" pkg="jvxpx9em" xy="0,0" size="800,600"/>
+    <list id="n1_p3o2" name="list" xy="130,70" size="540,57" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emiv1o3in">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n7_p3o2" name="n7" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="12,131" size="775,194"/>
+    <image id="n8_p3o2" name="n8" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="17,330" size="766,254"/>
+    <richtext id="n5_p3o2" name="n5" xy="332,20" size="136,45" fontSize="33" color="#00ff00" text="合力游戏"/>
+    <richtext id="n6_p3o2" name="lbLog" xy="24,342" size="751,232" fontSize="33" color="#00ff00" autoSize="none" text=""/>
+    <list id="n10_p3o2" name="listOpt" xy="34,150" size="735,155" layout="flow_hz" overflow="scroll" colGap="12" defaultItem="ui://jvxpx9emy1z8l">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n11_p3o2" name="n11" xy="731,570" size="58,19" fontSize="12" color="#00ff00" text="by tkwen"/>
+  </displayList>
+</component>

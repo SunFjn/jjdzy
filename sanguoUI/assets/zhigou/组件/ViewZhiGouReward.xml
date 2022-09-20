@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="470,293">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n4_q4gk" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="470,293">
+      <gearSize controller="c1" pages="1" values="470,311,1,1" default="470,293,1,1"/>
+      <Label title="奖励"/>
+    </component>
+    <image id="n6_q4gk" name="n6" src="jkp64z" fileName="image1/Bg4.png" pkg="jvxpx9em" xy="15,79" size="436,163"/>
+    <list id="n7_q4gk" name="list" xy="59,99" size="361,110" layout="row" overflow="scroll" scroll="horizontal" colGap="24" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n9_sg2o" name="btnGet" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="170,228">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <image id="n10_sg2o" name="imgHas" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="172,245">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+  </displayList>
+</component>

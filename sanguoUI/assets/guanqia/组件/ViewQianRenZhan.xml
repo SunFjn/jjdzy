@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="566,459">
+  <displayList>
+    <component id="n3_som1" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="566,459">
+      <Label title="千人斩"/>
+    </component>
+    <image id="n7_som1" name="n7" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="36,92" size="490,205"/>
+    <richtext id="n6_som1" name="lbCount" xy="164,103" size="238,29" fontSize="18" color="#ffc334" bold="true" text="本日已领取（13/14）次奖励">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n8_som1" name="lbPro" xy="32,315" size="501,31" fontSize="24" color="#ffffff" align="center" autoSize="none" text="击败一定数量怪物可领取奖励（100、100）"/>
+    <image id="n10_pjhm" name="ylq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="221,362" visible="false"/>
+    <component id="n2_u94l" name="btnLQ" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="218,360">
+      <Button title="领取"/>
+    </component>
+    <list id="n11_l3sh" name="n11" xy="68,153" size="429,128" layout="flow_hz" overflow="scroll" colGap="20" defaultItem="ui://jvxpx9emetorn" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

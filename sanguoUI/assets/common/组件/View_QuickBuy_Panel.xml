@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="535,424">
+  <displayList>
+    <component id="n0_nbrv" name="frame" src="f1cf4b" fileName="组件/frame2.xml" xy="0,0" size="535,424">
+      <Label title="快速购买"/>
+    </component>
+    <image id="n1_nbrv" name="n1" src="x3b93cl" fileName="image/通用底框/方框3.png" xy="16,80" size="504,243"/>
+    <component id="n2_nbrv" name="btnMin" src="usb23gq" fileName="组件/Button6.xml" xy="94,225" group="n9_nbrv">
+      <Button title="-10"/>
+    </component>
+    <component id="n3_nbrv" name="btnReduce" src="usb23gq" fileName="组件/Button6.xml" xy="145,225" group="n9_nbrv">
+      <Button title="-1"/>
+    </component>
+    <component id="n5_nbrv" name="btnAdd" src="usb23gq" fileName="组件/Button6.xml" xy="339,225" group="n9_nbrv"/>
+    <image id="n4_nbrv" name="n4" src="rt7o4r" fileName="image/通用底框/inputBg.png" xy="195,230" size="141,31" group="n9_nbrv"/>
+    <richtext id="n6_nbrv" name="lbCount" xy="222,228" size="86,35" group="n9_nbrv" fontSize="22" color="#ffffff" align="center" autoSize="none" text="99999"/>
+    <component id="n7_nbrv" name="btnMax" src="usb23gq" fileName="组件/Button6.xml" xy="390,225" group="n9_nbrv">
+      <Button title="+10"/>
+    </component>
+    <group id="n9_nbrv" name="groupUse" xy="94,225" size="344,41" advanced="true"/>
+    <component id="n8_nbrv" name="btnEsc" src="y1z8b" fileName="组件/Button0.xml" xy="90,342" group="n11_nbrv">
+      <Button title="取消" titleColor="#ffffff"/>
+    </component>
+    <component id="n10_nbrv" name="btnBuy" src="y1z8l" fileName="组件/Button1.xml" xy="314,343" group="n11_nbrv">
+      <Button title="购买"/>
+    </component>
+    <group id="n11_nbrv" name="n11" xy="90,342" size="360,63"/>
+    <richtext id="n12_nbrv" name="surLb" xy="114,274" size="307,31" fontSize="20" color="#ffffff" align="center" autoSize="none" text="今日剩余购买次数：50"/>
+    <component id="n13_nbrv" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" xy="134,104"/>
+    <richtext id="n14_nbrv" name="nameLb" xy="242,109" size="93,34" fontSize="22" color="#ffffff" text="道具名字"/>
+    <richtext id="n15_nbrv" name="costLb" xy="242,170" size="152,34" fontSize="22" color="#ffffff" text="总价：      100"/>
+    <image id="n16_nbrv" name="n16" src="bwmw3y" fileName="image1/元宝.png" xy="315,172"/>
+  </displayList>
+</component>

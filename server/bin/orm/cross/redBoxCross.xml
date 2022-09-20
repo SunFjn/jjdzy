@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.redBox.cross.RedBoxCross" tbname="redBoxCross" serverid="3">
+		<index field="boxid" type="prikey"/>
+			<col field="boxid" type="bigint" pf="all" comment="表唯一id 红包唯一id"/>
+			<col field="sendid" type="bigint" pf="all" comment="发送者id"/>
+			<col field="name" type="varchar" len="100" pf="all" comment="发送者名字"/>
+			<col field="boxname" type="varchar" len="100" pf="all" comment="红包名字"/>
+			<col field="icon" type="int" pf="all" comment="头像"/>
+			<col field="frame" type="int" pf="all" comment="头像框"/>
+			<col field="maxNum" type="int" pf="all" comment="红包总金元宝数"/>
+			<col field="leftNum" type="int" pf="all" comment="剩余红包金元宝数"/>
+			<col field="redBoxGetInfo" type="text" pf="all" comment="红包领取情况"/>
+	        <col field="randomList" type="text" pf="all" comment="红包随机金额"/>
+	        <col field="belongPartid" type="int" pf="all" comment="跨服分区"/>
+	</tb>
+</tbs>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.liuChuQiShan.model.LiuChuQiShan" tbname="liuChuQiShan">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="gqId" type="int" pf="all" comment="当前关卡id"/>
+			<col field="saoDangNum" type="int" pf="all" comment="每日可扫荡次数"/>
+			<col field="needHelpNum" type="int" pf="all" comment="每日可求助次数"/>
+			<col field="numHelpAwards" type="int" pf="all" comment="每日可协助次数"/>
+			<col field="passSet" type="text" pf="all" comment="当天首通关卡 隔日0点清空 用于限制当天扫荡"/>
+     </tb>
+</tbs>

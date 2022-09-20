@@ -1,0 +1,7 @@
+2020-11-09 19:03:13.909 [任务线程 - 3] WARN  com.teamtop.system.boss.monsterGod.MonsterGodFunction - monsterGodCache==null
+2020-11-09 19:40:16.877 [nioEventLoopGroup-11-1] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000011
+2020-11-09 19:53:13.933 [任务线程 - 4] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-09 19:53:13.964 [任务线程 - 4] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-09 19:53:13.964 [任务线程 - 4] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-09 19:53:13.964 [任务线程 - 4] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-09 19:53:13.964 [任务线程 - 4] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null

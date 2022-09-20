@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="twm3bfyg" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ot2y0" name="ChildBzpt.xml" path="/" exported="true"/>
+    <image id="ot2y1" name="宝藏拼图.jpg" path="/res/"/>
+    <image id="ot2y2" name="宝藏拼图2.jpg" path="/res/"/>
+    <image id="ot2y3" name="宝藏拼图背景.jpg" path="/res/"/>
+    <image id="ot2y4" name="豪华箱子打开.png" path="/res/"/>
+    <image id="ot2y5" name="普通箱子打开.png" path="/res/"/>
+    <image id="ot2y6" name="宝箱背景框.png" path="/res/"/>
+    <image id="ot2y7" name="箱子1.png" path="/res/"/>
+    <image id="ot2y8" name="箱子2.png" path="/res/"/>
+    <component id="ot2y9" name="BzptBoxItem.xml" path="/com/" exported="true"/>
+    <image id="ot2ya" name="拼图遮盖背景.png" path="/res/"/>
+    <component id="lplob" name="BzptCardItem.xml" path="/com/" exported="true"/>
+    <component id="lploc" name="ViewBzptReward.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="actBzpt" genCode="true" npot="true" excluded="ot2y3"/>
+</packageDescription>

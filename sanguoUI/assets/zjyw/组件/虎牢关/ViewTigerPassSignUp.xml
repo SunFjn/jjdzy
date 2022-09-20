@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="616,478">
+  <displayList>
+    <component id="n6_hdie" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="616,478">
+      <Label title="报名雇佣"/>
+    </component>
+    <component id="n7_hdie" name="btnJoin" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="243,370">
+      <Button title="报名雇佣"/>
+    </component>
+    <image id="n12_hdie" name="n12" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="23,98" size="568,177"/>
+    <richtext id="n8_hdie" name="lb" xy="149,432" size="317,31" fontSize="20" color="#00ff00" text="每日0点重置，玩家需重新报名雇佣"/>
+    <richtext id="n9_hdie" name="lbTip" xy="154,290" size="309,71" fontSize="24" color="#00ff00" align="center" autoSize="none" text="每天最多被雇佣5次&#xA;奖励通过邮件发送"/>
+    <list id="n10_hdie" name="list" xy="129,150" size="357,118" layout="row" overflow="scroll" scroll="horizontal" colGap="17" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n13_hdie" name="imgHas" src="hdie2o" fileName="image/虎牢关/已报名.png" xy="254,371"/>
+    <image id="n14_hdie" name="n14" src="hdie2l" fileName="image/虎牢关/每次被雇佣奖励.png" xy="220,114"/>
+  </displayList>
+</component>

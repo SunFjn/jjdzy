@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="555,120">
+  <displayList>
+    <image id="n16_qxiv" name="n16" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="555,120"/>
+    <text id="n10_j9wf" name="lbGrade" xy="19,84" size="127,28" fontSize="18" color="#ff0000" align="center" autoSize="none" text="乱世枭雄"/>
+    <list id="n13_j9wf" name="list" xy="235,7" size="314,107" layout="row" overflow="scroll" scroll="horizontal" colGap="4" defaultItem="ui://jvxpx9emetorm" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n15_qxiv" name="imgGrade" xy="17,16" size="131,66" url="ui://me1skowlhfct4p" align="center" fill="scale"/>
+  </displayList>
+</component>

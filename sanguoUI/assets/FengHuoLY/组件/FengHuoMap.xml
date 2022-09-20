@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2271,1380">
+  <displayList>
+    <loader id="n0_srrs" name="mapBg1" xy="0,0" size="509,1001" locked="true" scale="1.5,1.5" url="ui://edvdots4b801w22"/>
+    <loader id="n18_ov4h" name="mapBg2" xy="761,0" size="509,1001" locked="true" scale="1.5,1.5" url="ui://edvdots4b801w23"/>
+    <loader id="n19_ov4h" name="mapBg3" xy="1523,0" size="509,1001" locked="true" scale="1.5,1.5" url="ui://edvdots4b801w24"/>
+    <component id="n4_srrs" name="id2" src="srrs5" fileName="组件/ItemCity.xml" xy="656,374"/>
+    <component id="n8_srrs" name="id1" src="srrs5" fileName="组件/ItemCity.xml" xy="968,714"/>
+    <component id="n10_srrs" name="id3" src="srrs5" fileName="组件/ItemCity.xml" xy="1235,1010"/>
+    <loader id="n20_ov4h" name="n20" xy="222,1236" size="344,185" group="n22_ov4h" url="ui://edvdots4ec49w1y"/>
+    <image id="n15_ekf6" name="imgSafe1" src="ekf613" fileName="images/蓝色旗子.png" xy="279,1105" group="n22_ov4h"/>
+    <text id="n38_ov4h" name="lbServer1" xy="272,1190" size="109,43" group="n22_ov4h" fontSize="30" color="#ffcc00" align="center" autoSize="none" strokeColor="#000000" text="轮空"/>
+    <group id="n22_ov4h" name="safe1" xy="222,1105" size="344,316" advanced="true" collapsed="true"/>
+    <loader id="n23_ov4h" name="n23" xy="1757,1259" size="344,185" group="n25_ov4h" url="ui://edvdots4ec49w1y"/>
+    <image id="n24_ov4h" name="imgSafe2" src="ekf611" fileName="images/红色旗子.png" xy="1952,1147" group="n25_ov4h"/>
+    <text id="n39_ov4h" name="lbServer2" xy="1889,1226" size="109,43" group="n25_ov4h" fontSize="30" color="#ffcc00" align="center" autoSize="none" strokeColor="#000000" text="轮空"/>
+    <group id="n25_ov4h" name="safe2" xy="1757,1147" size="344,297" advanced="true" collapsed="true"/>
+    <loader id="n40_b801" name="n40" xy="935,175" size="344,185" group="n43_b801" url="ui://edvdots4ec49w1y"/>
+    <image id="n41_b801" name="imgSafe3" src="kbplw2b" fileName="images/绿色旗子.png" xy="1131,63" group="n43_b801"/>
+    <text id="n42_b801" name="lbServer3" xy="1068,143" size="109,43" group="n43_b801" fontSize="30" color="#ffcc00" align="center" autoSize="none" strokeColor="#000000" text="轮空"/>
+    <group id="n43_b801" name="safe3" xy="935,63" size="375,297" advanced="true" collapsed="true"/>
+    <component id="n27_ov4h" name="id6" src="srrs5" fileName="组件/ItemCity.xml" xy="20,907"/>
+    <component id="n33_ov4h" name="id5" src="srrs5" fileName="组件/ItemCity.xml" xy="650,997"/>
+    <component id="n35_ov4h" name="id7" src="srrs5" fileName="组件/ItemCity.xml" xy="1918,962"/>
+    <component id="n36_ov4h" name="id4" src="srrs5" fileName="组件/ItemCity.xml" xy="1281,383"/>
+    <component id="n44_b801" name="id8" src="srrs5" fileName="组件/ItemCity.xml" xy="541,78"/>
+    <component id="n45_nmqy" name="id9" src="srrs5" fileName="组件/ItemCity.xml" xy="401,674"/>
+    <component id="n46_nmqy" name="id10" src="srrs5" fileName="组件/ItemCity.xml" xy="1519,667"/>
+  </displayList>
+</component>

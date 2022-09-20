@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="127,131">
+  <displayList>
+    <component id="n0_ws8y" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="12,0"/>
+    <richtext id="n1_ws8y" name="lbName" xy="0,102" size="127,29" fontSize="18" color="#ffffff" align="center" autoSize="shrink" text="中级消耗品啊"/>
+    <image id="n2_ws8y" name="drawImg" src="ws8yg" fileName="image/已抽取.png" xy="19,21"/>
+  </displayList>
+</component>

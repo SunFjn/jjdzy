@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="193,234">
+  <displayList>
+    <image id="n15_iad8" name="n15" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="2,20" size="182,214"/>
+    <component id="n16_iad8" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="35,39"/>
+    <richtext id="n17_iad8" name="levelLb" xy="23,165" size="144,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="Lv.100"/>
+    <richtext id="n19_oiih" name="powerLb" xy="52,192" size="92,28" touchable="false" fontSize="18" color="#ffffff" align="center" text="战力100万">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n21_oiih" name="leaderImg" src="u9lhb" fileName="image/队长标签.png" xy="0,11" visible="false"/>
+    <component id="n22_oiih" name="closeBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="154,0" size="39,40">
+      <Button icon="ui://3o8q23uuu9lha"/>
+    </component>
+  </displayList>
+</component>

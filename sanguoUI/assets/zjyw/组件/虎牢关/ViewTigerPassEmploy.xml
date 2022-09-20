@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,694">
+  <displayList>
+    <component id="n11_y5hd" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,694">
+      <Label title="雇佣帮手"/>
+    </component>
+    <list id="n4_y5hd" name="list" xy="6,72" size="581,486" layout="flow_hz" overflow="hidden" lineGap="-18" colGap="-28" lineItemCount="3" defaultItem="ui://7a366usay5hd2g" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5_y5hd" name="btnSure" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="313,561">
+      <Button title="确认雇佣"/>
+    </component>
+    <component id="n6_y5hd" name="btnCge" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="143,561">
+      <Button title="换一批"/>
+    </component>
+    <richtext id="n7_y5hd" name="lbCost" xy="191,615" size="60,28" fontSize="18" color="#ffffff" text="20000"/>
+    <richtext id="n8_y5hd" name="lbCt" xy="291,615" size="175,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="雇佣他人次数:5/5"/>
+    <richtext id="n9_y5hd" name="lb" xy="224,652" size="142,28" fontSize="18" color="#00ff00" text="每日0点重置次数"/>
+    <image id="n10_y5hd" name="imgCost" src="ltpm59" fileName="image1/铜币.png" pkg="jvxpx9em" xy="158,616"/>
+  </displayList>
+</component>

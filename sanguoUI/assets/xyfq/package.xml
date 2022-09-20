@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7hwmix0g">
+  <resources>
+    <component id="bnyp0" name="ChildXyfq.xml" path="/" exported="true"/>
+    <image id="bnyp1" name="福签.png" path="/design/"/>
+    <image id="bnyp2" name="排名奖励.png" path="/design/"/>
+    <image id="bnyp3" name="目标奖励.png" path="/design/"/>
+    <image id="bnyp4" name="开启.png" path="/design/"/>
+    <image id="bnyp5" name="奖励预览.png" path="/design/"/>
+    <image id="bnyp6" name="合成.png" path="/design/"/>
+    <image id="bnyp7" name="排名奖励.png" path="/res/"/>
+    <image id="bnyp8" name="目标奖励.png" path="/res/"/>
+    <image id="bnyp9" name="奖励预览.png" path="/res/"/>
+    <image id="bnypa" name="合成福签.png" path="/res/"/>
+    <image id="bnypb" name="背景.jpg" path="/res/"/>
+    <image id="bnypc" name="qian_4.png" path="/export/" exported="true"/>
+    <image id="bnypd" name="qian_5.png" path="/export/" exported="true"/>
+    <image id="bnype" name="qian_1.png" path="/export/" exported="true"/>
+    <image id="bnypf" name="qian_2.png" path="/export/" exported="true"/>
+    <image id="bnypg" name="qian_3.png" path="/export/" exported="true"/>
+    <image id="bnyph" name="color_5.png" path="/export/" exported="true"/>
+    <image id="bnypi" name="color_4.png" path="/export/" exported="true"/>
+    <image id="bnypj" name="color_1.png" path="/export/" exported="true"/>
+    <image id="bnypk" name="color_2.png" path="/export/" exported="true"/>
+    <image id="bnypl" name="color_3.png" path="/export/" exported="true"/>
+    <component id="bnypm" name="QianItem.xml" path="/" exported="true"/>
+    <component id="bnypn" name="ViewQianUse.xml" path="/" exported="true"/>
+    <component id="bnypo" name="ViewRankXyfq.xml" path="/" exported="true"/>
+    <component id="bnypp" name="XyfqItemRank.xml" path="/" exported="true"/>
+    <component id="bnypq" name="ViewTaskXyfq.xml" path="/" exported="true"/>
+    <component id="bnypr" name="XyfqItemTask.xml" path="/" exported="true"/>
+    <image id="bnyps" name="签盒.png" path="/res/"/>
+    <component id="bnypt" name="ViewRewardXyfq.xml" path="/" exported="true"/>
+    <component id="bnypu" name="XyfqRewardItem.xml" path="/" exported="true"/>
+    <component id="szt5v" name="ViewCompoundXyfq.xml" path="/" exported="true"/>
+    <component id="szt5w" name="QianItemGrid.xml" path="/" exported="true"/>
+    <component id="szt5x" name="XyfqCompItem.xml" path="/" exported="true"/>
+    <image id="oflgz" name="开启背景.png" path="/res/"/>
+  </resources>
+  <publish name="xyfq" genCode="true" excluded="bnypb,oflgz"/>
+</packageDescription>

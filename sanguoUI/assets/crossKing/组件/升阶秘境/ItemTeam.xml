@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="182,213">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n1_udgz" name="n1" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="0,0" size="183,213"/>
+    <component id="n2_udgz" name="headInfo" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="35,8"/>
+    <richtext id="n3_udgz" name="txtNum" xy="22,127" size="144,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="人数：2/3">
+      <gearDisplay controller="c1" pages="0"/>
+    </richtext>
+    <component id="n4_udgz" name="btnJoin" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="33,158" size="116,47">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="加入"/>
+    </component>
+    <richtext id="n9_udgz" name="txtZhanLi" xy="42,164" size="101,27" touchable="false" fontSize="20" color="#ffffff" text="战力: 1000">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n10_udgz" name="iconLeader" src="oiih35" fileName="image/跨服组队/队长标签.png" xy="0,-8" visible="false">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <component id="n11_udgz" name="iconKick" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="146,-5" size="39,40" visible="false">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button icon="ui://yqpfulefoiih32"/>
+    </component>
+  </displayList>
+</component>

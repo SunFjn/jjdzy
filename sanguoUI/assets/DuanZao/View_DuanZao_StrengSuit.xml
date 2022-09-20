@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="595,491">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n23_jg2q" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="1,0" size="594,491"/>
+    <image id="n24_jg2q" name="n24" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="18,142" size="560,262"/>
+    <component id="n25_jg2q" name="upgradeBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="232,416">
+      <relation target="n24_jg2q" sidePair="top-top"/>
+      <Button title="升阶"/>
+    </component>
+    <richtext id="n26_jg2q" name="suitLb" xy="148,38" size="139,35" touchable="false" fontSize="24" color="#ffc334" leading="0" ubb="true" vars="true" text="强化大师{suit=1}阶"/>
+    <richtext id="n27_jg2q" name="powerLb" xy="148,89" size="126,31" touchable="false" fontSize="20" color="#ffc334" leading="0" ubb="true" vars="true" text="战力 +{power=15600}"/>
+    <richtext id="n28_jg2q" name="nextLb" xy="52,156" size="308,31" group="n31_jg2q" touchable="false" fontSize="20" color="#ffffff" leading="0" ubb="true" vars="true" text="[color=#FFC334]下一阶段[/color]  {des=全身强化+150} {state=[color=#16f60b](已激活)[/color]}"/>
+    <richtext id="n29_jg2q" name="nextAttLb" xy="51,193" size="98,76" group="n31_jg2q" touchable="false" fontSize="18" color="#999999" leading="0" ubb="true" text="攻击+1000&#xA;攻击+1000&#xA;攻击+1000"/>
+    <image id="n30_jg2q" name="n30" src="irr13gw" fileName="image/point.png" xy="33,165" group="n31_jg2q" pkg="jvxpx9em"/>
+    <group id="n31_jg2q" name="n31" xy="33,156" size="327,113" advanced="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="33,156|32,276" default="38,265"/>
+    </group>
+    <image id="n32_jg2q" name="n32" src="bwmw5o" fileName="image/锻造大师.png" xy="46,40"/>
+    <image id="n33_jg2q" name="n33" src="irr13gw" fileName="image/point.png" xy="33,165" group="n36_jg2q" pkg="jvxpx9em"/>
+    <richtext id="n34_jg2q" name="curLb" xy="53,156" size="308,31" group="n36_jg2q" touchable="false" fontSize="20" color="#ffffff" leading="0" ubb="true" vars="true" text="[color=#FFC334]当前阶段[/color]  {des=全身强化+150} {state=[color=#16f60b](已激活)[/color]}"/>
+    <richtext id="n35_jg2q" name="curAttLb" xy="52,190" size="98,76" group="n36_jg2q" touchable="false" fontSize="18" color="#00ff00" leading="0" ubb="true" text="攻击+1000&#xA;攻击+1000&#xA;攻击+1000"/>
+    <group id="n36_jg2q" name="n36" xy="33,156" size="328,110" advanced="true">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </group>
+  </displayList>
+</component>

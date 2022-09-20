@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,657" designImage="ui://qzsojhcrcytp1m" designImageOffsetY="-260">
+  <controller name="ctrl1" pages="0,,1,,2,,3," selected="0"/>
+  <controller name="ctrl2" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n106_wnzh" name="n106" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="1,-17" size="638,664"/>
+    <loader id="n60_tt6c" name="n66" xy="12,-8" size="616,584" autoSize="true"/>
+    <image id="n42_fdrs" name="n42" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="165,290"/>
+    <image id="n8_go93" name="btnLeft" src="gs0d67" fileName="image1/收起按钮.png" pkg="jvxpx9em" xy="7,-2" scale="0.8,0.8"/>
+    <image id="n9_go93" name="btnRight" src="gs0d67" fileName="image1/收起按钮.png" pkg="jvxpx9em" xy="634,-2" scale="-0.8,0.8">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <list id="n10_go93" name="list" xy="50,-11" size="542,64" layout="row" overflow="scroll" scroll="horizontal" margin="5,0,0,0" colGap="13" defaultItem="ui://qzsojhcrtt6c15" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n109_cytp" name="n109" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="19,467" size="602,164"/>
+    <richtext id="n18_go93" name="txtTJZhanLi" xy="148,435" size="345,27" fontSize="20" color="#00ff00" text="活动期间可通过元宝补足未完成的任务">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <graph id="n37_xt46" name="n37" xy="295,337" size="1,1" type="rect"/>
+    <image id="n108_cytp" name="n108" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="14,74" size="228,36">
+      <relation target="n63_tt6c" sidePair="rightext-right"/>
+    </image>
+    <richtext id="n63_tt6c" name="txtLeftTm" xy="31,78" size="202,25" fontSize="18" color="#ffffff" text="活动剩余时间:6天23小时"/>
+    <image id="n64_tt6c" name="n64" src="tt6c17" fileName="image/文字.png" xy="27,115"/>
+    <loader id="n66_tt6c" name="bigImg" xy="213,112" size="212,208" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <richtext id="n68_tt6c" name="txtProgress" xy="360,397" size="38,31" fontSize="24" color="#ffffff" text="0/7">
+      <gearDisplay controller="ctrl2" pages="1"/>
+    </richtext>
+    <richtext id="n69_tt6c" name="txtCost" xy="32,478" size="193,27" fontSize="20" color="#ffffff" text="消耗元宝(1000/1000)"/>
+    <image id="n73_tt6c" name="n73" src="tt6c1c" fileName="image/大奖进度.png" xy="243,398">
+      <gearDisplay controller="ctrl2" pages="1"/>
+    </image>
+    <component id="n74_tt6c" name="btnBigAward" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="250,372">
+      <gearDisplay controller="ctrl2" pages="0"/>
+      <Button title="领取"/>
+    </component>
+    <richtext id="n75_tt6c" name="txtYBCost" xy="533,602" size="49,27" fontSize="20" color="#ffffff" text="1000">
+      <gearDisplay controller="ctrl1" pages="3"/>
+    </richtext>
+    <component id="n71_tt6c" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="467,518">
+      <gearDisplay controller="ctrl1" pages="0"/>
+      <Button title="领取"/>
+    </component>
+    <component id="n77_tt6c" name="btnForward" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="467,535">
+      <gearDisplay controller="ctrl1" pages="1"/>
+      <Button title="前往"/>
+    </component>
+    <component id="n78_tt6c" name="btnBuLing" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="467,535">
+      <gearDisplay controller="ctrl1" pages="3"/>
+      <Button title="补领"/>
+    </component>
+    <loader id="n79_tt6c" name="iconBL" xy="491,599" size="37,31" url="ui://jvxpx9embwmw3y" fill="scaleFree">
+      <gearDisplay controller="ctrl1" pages="3"/>
+    </loader>
+    <image id="n81_tt6c" name="n81" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="474,548">
+      <gearDisplay controller="ctrl1" pages="2"/>
+    </image>
+    <image id="n83_pl50" name="iconBigGot" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="257,381">
+      <gearDisplay controller="ctrl2" pages="0"/>
+    </image>
+    <component id="n97_hj7d" name="gridBigAward1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="499,109" group="n102_hj7d" scale="0.75,0.75"/>
+    <component id="n98_hj7d" name="n98" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="489,103" size="90,92" group="n102_hj7d" touchable="false">
+      <Button icon="ui://qzsojhcrasook"/>
+    </component>
+    <image id="n99_hj7d" name="n99" src="asooj" fileName="image/大奖.png" xy="497,110" group="n102_hj7d"/>
+    <image id="n100_hj7d" name="n100" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="445,202" size="177,43" group="n102_hj7d"/>
+    <richtext id="n101_hj7d" name="txtZhanLi1" xy="461,210" size="145,28" group="n102_hj7d" fontSize="18" color="#ffcc00" align="center" autoSize="none" text="战力: 1000000"/>
+    <image id="n104_c7f5" name="n104" src="c7f51f" fileName="image/第3天大奖.png" xy="493,78" group="n102_hj7d"/>
+    <group id="n102_hj7d" name="n102" xy="445,78" size="177,167" collapsed="true"/>
+    <component id="n87_uidj" name="gridBigAward" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="500,284" group="n103_hj7d" scale="0.75,0.75"/>
+    <component id="n88_uidj" name="n88" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="490,278" size="90,92" group="n103_hj7d" touchable="false">
+      <Button icon="ui://qzsojhcrasook"/>
+    </component>
+    <image id="n89_uidj" name="n89" src="asooj" fileName="image/大奖.png" xy="498,285" group="n103_hj7d"/>
+    <image id="n92_uidj" name="n92" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="445,376" size="177,43" group="n103_hj7d"/>
+    <richtext id="n93_uidj" name="txtZhanLi" xy="462,384" size="147,28" group="n103_hj7d" fontSize="18" color="#ffcc00" align="center" autoSize="none" text="战力: 1000000"/>
+    <image id="n105_c7f5" name="n105" src="c7f51g" fileName="image/第7天大奖.png" xy="493,252" group="n103_hj7d"/>
+    <group id="n103_hj7d" name="n103" xy="445,252" size="177,167" collapsed="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n66_tt6c" tween="true" startValue="212,109" endValue="212,129" duration="24"/>
+    <item time="24" type="XY" target="n66_tt6c" tween="true" startValue="212,129" endValue="212,109" duration="24" ease="Linear"/>
+    <item time="48" type="XY" target="n66_tt6c" tween="true" startValue="212,109" ease="Linear"/>
+  </transition>
+</component>

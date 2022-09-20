@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="194,264">
+  <controller name="c1" pages="0,系统红包,1,玩家红包" selected="1"/>
+  <displayList>
+    <image id="n2_v465" name="n2" src="v465g" fileName="image/红包未拆.png" xy="0,0" group="n20_v465"/>
+    <component id="n7_v465" name="btnGet" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="97,156" pivot="0.5,0.5" anchor="true" size="105,105" group="n20_v465">
+      <Button icon="ui://fm0lrzctv4659"/>
+    </component>
+    <image id="n13_v465" name="n13" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="2,200" size="190,62" group="n20_v465"/>
+    <richtext id="n9_v465" name="n9" xy="35,210" size="41,25" group="n20_v465" fontSize="18" color="#ffffff" text="总额"/>
+    <richtext id="n10_v465" name="totalLab" xy="115,209" size="45,25" group="n20_v465" fontSize="18" color="#ffffff" text="1000"/>
+    <loader id="n12_v465" name="iconYuanBao" xy="71,203" size="32,31" group="n20_v465" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <richtext id="n11_v465" name="residueLab" xy="35,232" size="130,25" group="n20_v465" fontSize="18" color="#ffffff" text="剩余个数：5/10"/>
+    <group id="n20_v465" name="canGetGroup" xy="0,0" size="194,264" advanced="true"/>
+    <image id="n19_v465" name="n19" src="v465e" fileName="image/红包已拆.png" xy="0,0" group="n8_v465"/>
+    <image id="n15_v465" name="n15" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="2,220" size="190,40" group="n8_v465"/>
+    <richtext id="n4_v465" name="labCheck" xy="4,227" size="185,25" group="n8_v465" fontSize="18" color="#33ff00" align="center" autoSize="none" underline="true" text="查看记录"/>
+    <richtext id="n3_v465" name="n3" xy="77,127" size="43,25" group="n28_k2yd" fontSize="18" color="#00ff00" bold="true" text="抢到"/>
+    <loader id="n21_v465" name="iconYuanBao" xy="35,155" size="38,34" group="n28_k2yd" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <richtext id="n27_v465" name="lbRob" xy="77,155" size="84,28" group="n28_k2yd" font="ui://fm0lrzctv9rkk" fontSize="18" color="#ffffff" text="10000"/>
+    <group id="n28_k2yd" name="qiangdao" xy="35,127" size="126,62" group="n8_v465" advanced="true" collapsed="true"/>
+    <image id="n29_k2yd" name="qiangguang" src="k2ydy" fileName="image/已抢完.png" xy="38,126" group="n8_v465"/>
+    <group id="n8_v465" name="hasGetGroup" xy="0,0" size="194,264" advanced="true" collapsed="true"/>
+    <richtext id="n0_qq0g" name="lbName" xy="25,9" size="145,25" group="n22_v465" fontSize="18" color="#ffffff" align="center" autoSize="none" text="玩家名字六字"/>
+    <component id="n5_v465" name="viewHead" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="50,37" size="119,127" group="n22_v465" scale="0.8,0.8"/>
+    <group id="n22_v465" name="n22" xy="25,9" size="145,155" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n23_v465" name="n23" src="v4658" fileName="image/天降红包字.png" xy="46,30" group="n25_v465"/>
+    <richtext id="n24_v465" name="timeLab" xy="55,58" size="87,25" group="n25_v465" fontSize="18" color="#ffffff" text="(12:00:00)"/>
+    <group id="n25_v465" name="n25" xy="46,30" size="103,53" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+  </displayList>
+</component>

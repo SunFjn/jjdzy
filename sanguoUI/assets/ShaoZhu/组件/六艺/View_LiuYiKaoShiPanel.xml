@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,745">
+  <displayList>
+    <component id="n1_ad1l" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,745">
+      <Label title="学堂考试"/>
+    </component>
+    <component id="n2_ad1l" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="230,612" pivot="0.5,0.5">
+      <Button title="进修"/>
+    </component>
+    <list id="n3_ad1l" name="list" xy="23,81" size="557,528" layout="flow_hz" overflow="hidden" lineGap="5" colGap="21" lineItemCount="2" defaultItem="ui://p83wyb2bad1l20">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n4_ad1l" name="lb" xy="113,680" size="371,53" fontSize="18" color="#ffffff" align="center" autoSize="none" text="全部合格后可进修下一学堂"/>
+  </displayList>
+</component>

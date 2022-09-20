@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,235">
+  <displayList>
+    <graph id="n8_n7xv" name="maskSp" xy="1,-246" size="640,320" type="rect"/>
+    <component id="n7_n7xv" name="effImg" src="myon1j" fileName="晋升/JinShengEff.xml" xy="320,74"/>
+    <image id="n0_n7xv" name="n0" src="myon1h" fileName="image/最高排名奖励底.png" xy="0,69" size="640,166"/>
+    <image id="n2_n7xv" name="n2" src="myon1l" fileName="image/晋升大奖文字.png" xy="195,0"/>
+    <image id="n5_n7xv" name="n5" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="258,165" size="26,25" aspect="true"/>
+    <image id="n12_myon" name="n12" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="378,165" size="26,25" aspect="true"/>
+    <richtext id="n3_n7xv" name="rankLb" xy="86,102" size="467,35" touchable="false" fontSize="24" color="#ffffff" align="center" autoSize="none" text="恭喜晋升9品县令"/>
+    <richtext id="n4_n7xv" name="n4" xy="177,161" size="77,35" touchable="false" fontSize="24" color="#ffffff" autoSize="none" text="奖励："/>
+    <richtext id="n6_n7xv" name="moneyLb0" xy="289,161" size="86,35" touchable="false" fontSize="24" color="#ffffff" text="1000 +"/>
+    <richtext id="n13_myon" name="moneyLb1" xy="409,161" size="61,35" touchable="false" fontSize="24" color="#ffffff" text="1000"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n7_n7xv" tween="true" startValue="0" endValue="360" duration="144" ease="Linear"/>
+  </transition>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="498,310">
+  <displayList>
+    <component id="n0_ftjg" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="498,310">
+      <Label title="奖励"/>
+    </component>
+    <image id="n5_ftjg" name="n5" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="35,91" size="426,149"/>
+    <component id="n6_hcde" name="getBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="184,246">
+      <Button title="领取"/>
+    </component>
+    <image id="n7_hcde" name="getImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="187,253"/>
+    <richtext id="n8_hcde" name="tips" xy="158,259" size="181,29" fontSize="22" color="#ff0000" text="满足条件后可领取"/>
+  </displayList>
+</component>

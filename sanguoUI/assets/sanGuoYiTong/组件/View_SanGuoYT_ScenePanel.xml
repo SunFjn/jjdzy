@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,109">
+  <displayList>
+    <image id="n1_lyu5" name="n1" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="640,109"/>
+    <image id="n3_lyu5" name="n3" src="kw747o" fileName="image1/BOSS血条底.png" pkg="jvxpx9em" xy="19,15" size="257,20" group="n6_lyu5"/>
+    <loader id="n4_lyu5" name="bar0" xy="19,15" size="257,20" group="n6_lyu5" url="ui://jvxpx9emkw747v" fill="scaleFree"/>
+    <richtext id="n5_lyu5" name="numlb0" xy="28,11" size="100,28" group="n6_lyu5" fontSize="18" color="#ffffff" text="蜀国:10010"/>
+    <group id="n6_lyu5" name="n6" xy="19,11" size="257,28"/>
+    <image id="n7_lyu5" name="n7" src="kw747o" fileName="image1/BOSS血条底.png" pkg="jvxpx9em" xy="19,47" size="257,20" group="n10_lyu5"/>
+    <loader id="n8_lyu5" name="bar1" xy="19,47" size="257,20" group="n10_lyu5" url="ui://jvxpx9emkw747v" fill="scaleFree"/>
+    <richtext id="n9_lyu5" name="numlb1" xy="28,43" size="100,28" group="n10_lyu5" fontSize="18" color="#ffffff" text="蜀国:10010"/>
+    <group id="n10_lyu5" name="n10" xy="19,43" size="497,28"/>
+    <image id="n11_lyu5" name="n11" src="kw747o" fileName="image1/BOSS血条底.png" pkg="jvxpx9em" xy="19,77" size="257,20" group="n14_lyu5"/>
+    <loader id="n12_lyu5" name="bar2" xy="19,77" size="257,20" group="n14_lyu5" url="ui://jvxpx9emkw747v" fill="scaleFree"/>
+    <richtext id="n13_lyu5" name="numlb2" xy="28,73" size="100,28" group="n14_lyu5" fontSize="18" color="#ffffff" text="蜀国:10010"/>
+    <group id="n14_lyu5" name="n14" xy="19,73" size="257,28"/>
+    <loader id="n15_lyu5" name="countryImg" xy="348,23" size="54,47" url="ui://jvxpx9emxyp27h" align="center" vAlign="middle"/>
+    <richtext id="n16_lyu5" name="resTimeLb" xy="307,67" size="95,28" touchable="false" fontSize="18" color="#00ff00" text="刷新倒计时"/>
+    <richtext id="n17_lyu5" name="activityTime" xy="478,68" size="77,28" touchable="false" fontSize="18" color="#00ff00" text="活动时间"/>
+    <richtext id="n18_lyu5" name="smLb" xy="539,25" size="77,28" fontSize="18" color="#00ff00" text="玩法说明"/>
+  </displayList>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,830">
+  <displayList>
+    <component id="n1_r3je" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,830">
+      <Label title="目标奖励"/>
+    </component>
+    <list id="n10_r3je" name="list" xy="16,74" size="564,740" overflow="scroll" defaultItem="ui://iwvd88mqr3jeb" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

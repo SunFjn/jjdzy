@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="389,380">
+  <displayList>
+    <image id="n5_cg2i" name="n5" src="m3513bv" fileName="image/tips.png" pkg="jvxpx9em" xy="0,0" size="389,380" locked="true"/>
+    <image id="n14_cg2i" name="n14" src="cg2i12" fileName="images/结算背景.png" xy="7,7"/>
+    <image id="n6_cg2i" name="n6" src="m3513bx" fileName="image/顶部装饰.png" pkg="jvxpx9em" xy="161,0" locked="true">
+      <relation target="n5_cg2i" sidePair="center-center"/>
+    </image>
+    <component id="n2_fl2h" name="n2" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="122,290">
+      <Button title="确定"/>
+    </component>
+    <component id="n12_cg2i" name="closeButton" src="f1cf49" fileName="组件/closeButton1.xml" pkg="jvxpx9em" xy="320,-2"/>
+    <loader id="n13_cg2i" name="n13" xy="102,32" pivot="0.5,0.5" size="184,76" url="ui://gxs8kn67cg2iw" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="n8_cg2i" name="n8" xy="153,128" size="80,80" group="n15_s56p" url="ui://gxs8kn67fl2hd"/>
+    <loader id="n7_cg2i" name="n7" xy="148,124" size="88,88" group="n15_s56p" url="ui://gxs8kn67qh9z18" align="center" vAlign="bottom"/>
+    <image id="n9_cg2i" name="n9" src="i8xh5u" fileName="image1/自动底.png" pkg="7gxkx46w" xy="105,231" size="178,38" group="n15_s56p">
+      <relation target="n10_cg2i" sidePair="width-width"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <richtext id="n10_cg2i" name="n10" xy="144,235" size="101,31" group="n15_s56p" fontSize="24" color="#ff9900" align="center" text="玩家名字">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n15_s56p" name="groupHead" xy="105,124" size="178,145" advanced="true"/>
+    <image id="n16_s56p" name="n16" src="s56p14" fileName="images/虚位以待.png" xy="147,172"/>
+  </displayList>
+</component>

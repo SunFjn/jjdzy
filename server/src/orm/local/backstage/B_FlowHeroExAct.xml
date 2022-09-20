@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 专属活动流水表-->
+	<tb model="com.teamtop.system.event.backstage.events.flowHero.B_FlowHeroExAct" tbname="b_flowheroexact">
+		<index field="id" type="prikey"/>
+		<index field="hid" type="normal"/>
+		<index field="exActId" type="normal"/>
+		<index field="actId" type="normal"/>
+		<index field="time" type="normal"/>
+		<index field="pfcode" type="normal"/>
+		<index field="zoneid" type="normal"/>			
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="name" type="varchar" len="20" pf="all" comment="角色名"/>
+		<col field="openid" type="varchar" len="255" pf="all" comment="玩家账号"/>
+		<col field="level" type="int" pf="all" comment="角色等级"/>
+		<col field="exActId" type="int" pf="all" comment="活动唯一id"/>
+		<col field="actId" type="int" pf="all" comment="活动id"/>
+		<col field="viplv" type="int" pf="all" comment="活动id"/>
+		<col field="reward" type="text" pf="all" comment="领取奖励"/>
+		<col field="opType" type="int" pf="all" comment="操作类型 (1领取)"/>
+		<col field="zoneid" type="int" pf="all" comment="区号"/>
+		<col field="pfcode" type="varchar" len="255" pf="all" comment="平台代码"/>
+		<col field="usesys" type="varchar" len="255" pf="all" comment="注册系统"/>
+		<col field="time" type="int" pf="all" comment="操作时间"/>
+		<col field="loginIp" type="varchar" len="255" pf="all" comment="登录ip"/>
+		<col field="money" type="bigint" pf="all" comment="记录充值或消费元宝"/>
+		<col field="num" type="int" pf="all" comment="记录领取次数或购买次数"/>
+		<col field="reincarnationLevel" type="int" pf="all" comment="六道轮回等级"/>
+	</tb>
+</tbs>

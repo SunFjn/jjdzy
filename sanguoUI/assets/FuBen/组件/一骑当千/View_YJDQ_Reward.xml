@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="294,100">
+  <displayList>
+    <image id="n3_rvdr" name="n3" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="0,0" size="294,100"/>
+    <component id="n0_fzz8" name="rewardBt" src="c14z16" fileName="新组建/Button2.xml" pkg="jvxpx9em" xy="88,6" size="102,88">
+      <Button icon="ui://jvxpx9emaro89e"/>
+    </component>
+    <image id="n1_fzz8" name="n1" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="88,63" size="102,32"/>
+    <richtext id="n2_fzz8" name="n2" xy="100,65" size="77,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" text="累积奖励"/>
+  </displayList>
+</component>

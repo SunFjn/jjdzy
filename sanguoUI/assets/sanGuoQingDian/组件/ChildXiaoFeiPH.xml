@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,917" opaque="false">
+  <displayList>
+    <loader id="n1_tipm" name="bg" xy="7,278" size="50,30" autoSize="true"/>
+    <image id="n2_tipm" name="n2" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,554" size="640,364"/>
+    <component id="n3_tipm" name="container" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="163,499"/>
+    <richtext id="n4_tipm" name="txtLeftTm" xy="31,296" size="178,31" fontSize="20" color="#66ff00" text="剩余时间: 00:00:00"/>
+    <richtext id="n5_tipm" name="txtFirName" xy="159,380" size="18,34" fontSize="22" color="#ff9900" text="0">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n7_tipm" name="item0" src="tipmg" fileName="组件/ItemXiaoFeiPH.xml" xy="309,268"/>
+    <component id="n8_tipm" name="item3" src="tipmg" fileName="组件/ItemXiaoFeiPH.xml" xy="13,725" size="300,173"/>
+    <richtext id="n9_tipm" name="n9" xy="331,502" size="267,51" fontSize="18" color="#66ff00" align="center" leading="6" autoSize="none" text="消费前5名活动结束后按一定比例&#xA;返还活动期间消费的元宝"/>
+    <component id="n10_tipm" name="item4" src="tipmg" fileName="组件/ItemXiaoFeiPH.xml" xy="328,725" size="300,173"/>
+    <component id="n11_tipm" name="item1" src="tipmg" fileName="组件/ItemXiaoFeiPH.xml" xy="13,577" size="300,173"/>
+    <component id="n12_tipm" name="item2" src="tipmg" fileName="组件/ItemXiaoFeiPH.xml" xy="328,577" size="300,173"/>
+    <richtext id="n13_tipm" name="txtMinePH" xy="118,870" size="131,34" fontSize="22" color="#ff9900" align="center" leading="6" text="我的排名: 10"/>
+    <richtext id="n14_tipm" name="txtMineCost" xy="396,869" size="131,34" fontSize="22" color="#ff9900" align="center" leading="6" text="我的消耗: 10"/>
+    <richtext id="n16_j27o" name="n16" xy="102,919" size="357,31" fontSize="20" color="#ff9900" text="前5名需要消费20000元宝以上方能上榜"/>
+    <image id="n17_m5m5" name="iconXWYD" src="ioin14" fileName="image/虚位以待.png" xy="120,430"/>
+  </displayList>
+</component>

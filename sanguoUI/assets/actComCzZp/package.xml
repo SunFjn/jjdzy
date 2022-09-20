@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="5omp3d64" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ve5s0" name="Child_ActComCzZp.xml" path="/组件/" exported="true"/>
+    <image id="ve5sc" name="bg.png" path="/image/" exported="true"/>
+    <image id="ve5sd" name="底盘.png" path="/image/" exported="true"/>
+    <image id="ve5se" name="光.png" path="/image/" exported="true"/>
+    <image id="ve5sf" name="花纹.png" path="/image/" exported="true"/>
+    <image id="ve5sg" name="圆盘.png" path="/image/" exported="true"/>
+    <image id="ve5sh" name="圆盘2.png" path="/image/" exported="true"/>
+    <image id="ve5si" name="转.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="actComCzZp" genCode="true" npot="true"/>
+</packageDescription>

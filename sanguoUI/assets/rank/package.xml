@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="y2wvab26" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="mq9u0" name="ViewRankPanel.xml" path="/组件/" exported="true"/>
+    <component id="mq9u1" name="ChildRank.xml" path="/组件/" exported="true"/>
+    <image id="nxcb8" name="1 拷贝.png" path="/image/" exported="true"/>
+    <image id="nxcb9" name="2 拷贝.png" path="/image/" exported="true"/>
+    <image id="nxcba" name="3 拷贝.png" path="/image/" exported="true"/>
+    <image id="nxcbb" name="虚位以待 拷贝.png" path="/image/" exported="true"/>
+    <image id="nxcbd" name="排行榜.png" path="/image/" exported="true"/>
+    <component id="kjeze" name="ChildRankItem.xml" path="/组件/" exported="true"/>
+    <component id="c6yyf" name="ViewRankInfo.xml" path="/组件/" exported="true"/>
+    <image id="wnzhg" name="力.png" path="/image/"/>
+    <image id="wnzhh" name="家.png" path="/image/"/>
+    <image id="wnzhj" name="级.png" path="/image/"/>
+    <image id="wnzhk" name="衔.png" path="/image/"/>
+  </resources>
+  <publish name="rank" genCode="true" npot="true"/>
+</packageDescription>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,920" opaque="false">
+  <displayList>
+    <image id="n12_i8xh" name="n12" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="26,738" size="583,174"/>
+    <list id="n0_tw1l" name="lst" xy="15,153" size="610,576" overflow="scroll" defaultItem="ui://oy62ymetd8t63">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n2_tw1l" name="box0" src="whzh6" fileName="组建/ItemHomeTaskBao.xml" xy="82,763"/>
+    <component id="n3_tw1l" name="box1" src="whzh6" fileName="组建/ItemHomeTaskBao.xml" xy="208,763"/>
+    <component id="n4_tw1l" name="box2" src="whzh6" fileName="组建/ItemHomeTaskBao.xml" xy="334,763"/>
+    <component id="n5_tw1l" name="box3" src="whzh6" fileName="组建/ItemHomeTaskBao.xml" xy="462,763"/>
+    <component id="n6_tw1l" name="progress" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="68,859" size="500,16">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <richtext id="n7_ftjg" name="lb0" xy="69,877" size="110,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="完成2个"/>
+    <richtext id="n8_ftjg" name="lb1" xy="195,877" size="111,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="完成3个"/>
+    <richtext id="n9_ftjg" name="lb2" xy="322,877" size="110,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="完成5个"/>
+    <richtext id="n10_ftjg" name="lb3" xy="449,877" size="110,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="完成5个"/>
+  </displayList>
+</component>

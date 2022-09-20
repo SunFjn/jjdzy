@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,817">
+  <displayList>
+    <component id="n2_i884" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,35" size="594,733"/>
+    <image id="n4_i884" name="n4" src="i8847" fileName="image/每日直购配图.png" xy="13,114"/>
+    <image id="n5_i884" name="n5" src="i8845" fileName="image/标题.png" xy="125,0"/>
+    <image id="n13_i884" name="n13" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="14,416" size="565,326"/>
+    <image id="n14_i884" name="n14" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="25,501" size="541,223"/>
+    <image id="n18_i884" name="n18" src="m3513by" fileName="image/文字底.png" pkg="jvxpx9em" xy="173,505" size="274,49"/>
+    <component id="n6_i884" name="tab0" src="i884c" fileName="组件/ZhiGouTab.xml" xy="25,122">
+      <Button title="第一天"/>
+    </component>
+    <component id="n7_i884" name="tab1" src="i884c" fileName="组件/ZhiGouTab.xml" xy="79,122">
+      <Button title="第二天"/>
+    </component>
+    <component id="n8_i884" name="tab2" src="i884c" fileName="组件/ZhiGouTab.xml" xy="133,122">
+      <Button title="第三天"/>
+    </component>
+    <component id="n9_i884" name="tab3" src="i884c" fileName="组件/ZhiGouTab.xml" xy="187,122">
+      <Button title="第四天"/>
+    </component>
+    <component id="n10_i884" name="tab4" src="i884c" fileName="组件/ZhiGouTab.xml" xy="241,122">
+      <Button title="第五天"/>
+    </component>
+    <component id="n11_i884" name="tab5" src="i884c" fileName="组件/ZhiGouTab.xml" xy="295,122">
+      <Button title="第六天"/>
+    </component>
+    <component id="n12_i884" name="tab6" src="i884c" fileName="组件/ZhiGouTab.xml" xy="349,122">
+      <Button title="第七天"/>
+    </component>
+    <component id="n15_i884" name="moneyTab0" src="i884d" fileName="组件/moneyTab.xml" xy="62,435" size="128,56"/>
+    <component id="n16_i884" name="moneyTab1" src="i884d" fileName="组件/moneyTab.xml" xy="234,435" size="128,54">
+      <Button title="45元直购"/>
+    </component>
+    <component id="n17_i884" name="moneyTab2" src="i884d" fileName="组件/moneyTab.xml" xy="408,435" size="128,54">
+      <Button title="108元直购"/>
+    </component>
+    <component id="n22_i884" name="buyBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="216,656" size="154,57">
+      <Button icon="ui://42sp9wgri8843"/>
+    </component>
+    <component id="n26_lb1w" name="closeBt" src="bwmw3b" fileName="组件/closeButton.xml" pkg="jvxpx9em" xy="441,762"/>
+    <image id="n19_i884" name="n19" src="i8840" fileName="image/价值             元宝.png" xy="167,517" size="265,31"/>
+    <loader id="n20_i884" name="moneyIcon" xy="229,519" size="145,29" url="ui://42sp9wgrdx7ug" align="center"/>
+    <image id="n27_bubc" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="230,660"/>
+    <list id="n21_i884" name="list" xy="37,558" size="517,93" layout="row" overflow="hidden" scroll="horizontal" colGap="5" defaultItem="ui://42sp9wgrrquie" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n23_i884" name="moneyLb" xy="227,660" size="131,35" touchable="false" fontSize="24" color="#552016" align="center" leading="0" autoSize="none" text="1元直购"/>
+    <image id="n35_kqkt" name="n35" src="kqktl" fileName="image/遮罩.png" xy="14,300"/>
+    <component id="n34_kqkt" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="24,340" size="475,20">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <image id="n42_kqkt" name="n42" src="i8848" fileName="image/未选中天数底.png" xy="201,382" size="39,121" group="n33_kqkt" scale="0.6,0.7" rotation="90"/>
+    <component id="n31_kqkt" name="icon0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="121,300" size="102,102" group="n33_kqkt" scale="0.8,0.8"/>
+    <richtext id="n32_kqkt" name="lb0" xy="127,381" size="61,24" group="n33_kqkt" fontSize="16" color="#ffffff" align="center" text="购买9次">
+      <relation target="n42_kqkt" sidePair="center-center"/>
+    </richtext>
+    <image id="n51_qw8f" name="img0" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="112,327" size="124,40" group="n33_kqkt" scale="0.8,0.8"/>
+    <image id="n55_lruu" name="noticeImg0" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="177,298" size="26,27" group="n33_kqkt" aspect="true">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <group id="n33_kqkt" name="v0" xy="112,298" size="128,205" advanced="true"/>
+    <image id="n43_kqkt" name="n43" src="i8848" fileName="image/未选中天数底.png" xy="388,382" size="39,121" group="n46_kqkt" scale="0.6,0.7" rotation="90"/>
+    <component id="n44_kqkt" name="icon1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="308,300" size="102,102" group="n46_kqkt" scale="0.8,0.8"/>
+    <richtext id="n45_kqkt" name="lb1" xy="311,381" size="61,24" group="n46_kqkt" fontSize="16" color="#ffffff" align="center" text="购买9次">
+      <relation target="n43_kqkt" sidePair="center-center"/>
+    </richtext>
+    <image id="n52_qw8f" name="img1" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="299,327" size="124,40" group="n46_kqkt" scale="0.8,0.8"/>
+    <image id="n56_lruu" name="noticeImg1" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="364,300" size="26,27" group="n46_kqkt" aspect="true">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <group id="n46_kqkt" name="v1" xy="299,300" size="128,203" advanced="true"/>
+    <image id="n47_kqkt" name="n47" src="i8848" fileName="image/未选中天数底.png" xy="571,382" size="39,121" group="n50_kqkt" scale="0.6,0.7" rotation="90"/>
+    <component id="n48_kqkt" name="icon2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="491,300" size="102,102" group="n50_kqkt" scale="0.8,0.8"/>
+    <richtext id="n49_kqkt" name="lb2" xy="495,381" size="61,24" group="n50_kqkt" fontSize="16" color="#ffffff" align="center" text="购买9次">
+      <relation target="n47_kqkt" sidePair="center-center"/>
+    </richtext>
+    <image id="n53_qw8f" name="img2" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="478,327" size="124,40" group="n50_kqkt" scale="0.8,0.8"/>
+    <image id="n57_lruu" name="noticeImg2" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="548,300" size="26,27" group="n50_kqkt" aspect="true">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <group id="n50_kqkt" name="v2" xy="478,300" size="132,203" advanced="true"/>
+    <text id="n59_lruu" name="n59" xy="488,122" size="84,29" fontSize="20" color="#00ff00" align="right" text="剩余时间"/>
+    <text id="n60_lruu" name="timeTxt" xy="444,149" size="128,29" fontSize="20" color="#00ff00" align="right" text="2天3小时23分">
+      <relation target="n59_lruu" sidePair="right-right"/>
+    </text>
+  </displayList>
+</component>

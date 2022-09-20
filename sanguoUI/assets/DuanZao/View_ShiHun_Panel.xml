@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="477,361">
+  <displayList>
+    <component id="n10_f1cf" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,0" size="477,361">
+      <relation target="n6_tlm3" sidePair="height-height"/>
+    </component>
+    <image id="n14_jg2q" name="n14" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="18,117" size="441,153">
+      <relation target="n6_tlm3" sidePair="height-height"/>
+    </image>
+    <image id="n11_f1cf" name="n11" src="irr13gw" fileName="image/point.png" xy="36,134" pkg="jvxpx9em"/>
+    <image id="n12_f1cf" name="n12" src="irr13gw" fileName="image/point.png" xy="36,170" pkg="jvxpx9em"/>
+    <component id="n3_tlm3" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="30,22" scale="0.8,0.8"/>
+    <richtext id="n4_tlm3" name="messageLb" xy="120,19" size="123,93" touchable="false" fontSize="18" color="#ffffff" leading="5" ubb="true" vars="true" text="[size=24]{name=[color=#ffc334]孤狼之魂[/color]}[/size]&#xA;已吞噬：[color=#16f60b]{count = 0}/{max=10}[/color]&#xA;拥有：{num=0}"/>
+    <richtext id="n5_tlm3" name="desLb" xy="55,126" size="225,31" touchable="false" fontSize="20" color="#ffc334" leading="6" ubb="true" text="凶暴妖魔身上提取的魂晶"/>
+    <richtext id="n6_tlm3" name="attLb" xy="57,164" size="92,96" touchable="false" fontSize="18" color="#ffffff" leading="10" text="攻击 +10&#xA;生命 +100&#xA;生命 +100"/>
+    <richtext id="n7_tlm3" name="promptLb" xy="50,294" size="375,34" group="n15_fnsi" touchable="false" fontSize="22" color="#00f234" align="center" leading="0" ubb="true" autoSize="none" text="全身铸魂5阶开启"/>
+    <component id="n1_tlm3" name="tunshiBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="63,286" pivot="0.5,0.5" size="129,51" group="n15_fnsi">
+      <Button title="吞噬"/>
+    </component>
+    <component id="n8_tlm3" name="keyBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="282,286" pivot="0.5,0.5" size="130,51" group="n15_fnsi">
+      <Button title="一键吞噬"/>
+    </component>
+    <group id="n15_fnsi" name="upgroup" xy="50,286" size="375,51" advanced="true" collapsed="true"/>
+  </displayList>
+  <relation target="n6_tlm3" sidePair="height-height"/>
+</component>

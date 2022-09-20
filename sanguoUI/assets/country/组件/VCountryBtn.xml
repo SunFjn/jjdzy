@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="280,150" extention="Button">
+  <displayList>
+    <loader id="n0_iala" name="img" xy="0,0" size="280,150"/>
+    <image id="n1_iala" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="264,-5" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.05"/>
+</component>

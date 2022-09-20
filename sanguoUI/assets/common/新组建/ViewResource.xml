@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="177,35" extention="Label">
+  <displayList>
+    <image id="n0_n7sj" name="bg" src="rt7o4r" fileName="image/通用底框/inputBg.png" xy="9,1" size="167,30">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <loader id="n1_n7sj" name="icon" xy="0,0" size="35,35" url="ui://jvxpx9emy1z8p" vAlign="bottom" fill="scaleMatchWidth"/>
+    <richtext id="n2_n7sj" name="title" xy="32,2" pivot="0.5,0.5" size="145,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="9999/9999">
+      <relation target="" sidePair="width-width"/>
+    </richtext>
+  </displayList>
+</component>

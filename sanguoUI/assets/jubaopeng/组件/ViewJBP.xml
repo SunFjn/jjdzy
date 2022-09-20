@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <controller name="c1" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <component id="n0_s8ql" name="frame" src="fsg93cj" fileName="组件/frame4.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://fr83a88vcct45"/>
+    </component>
+    <loader id="n8_m8f8" name="pic" xy="0,278" size="50,50" url="ui://fr83a88vzazna"/>
+    <list id="n9_m8f8" name="lst" xy="0,468" size="640,457" overflow="scroll" defaultItem="ui://fr83a88vm8f81">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n21_uqdp" name="n21" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="496,323" size="142,27" group="n10_m8f8"/>
+    <richtext id="n6_m8f8" name="lbCondition" xy="512,323" size="101,26" group="n10_m8f8" fontSize="18" color="#ff0000" text="VIP2 可购买"/>
+    <component id="n7_m8f8" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="500,360" group="n10_m8f8">
+      <Button title="购买"/>
+    </component>
+    <group id="n10_m8f8" name="g0" xy="496,323" size="142,99" advanced="true"/>
+    <component id="n24_flid" name="t0" src="r9to3he" fileName="组件/ComActivityTab.xml" pkg="jvxpx9em" xy="20,132" group="n29_r9to">
+      <Button icon="ui://fr83a88vcct43" controller="c1" page="0"/>
+    </component>
+    <component id="n25_flid" name="t1" src="r9to3he" fileName="组件/ComActivityTab.xml" pkg="jvxpx9em" xy="174,132" group="n29_r9to">
+      <Button icon="ui://fr83a88vcct46" controller="c1" page="1"/>
+    </component>
+    <component id="n26_flid" name="t3" src="r9to3he" fileName="组件/ComActivityTab.xml" pkg="jvxpx9em" xy="328,132" group="n29_r9to">
+      <Button icon="ui://fr83a88vcct44" controller="c1" page="2"/>
+    </component>
+    <component id="n27_flid" name="t2" src="r9to3he" fileName="组件/ComActivityTab.xml" pkg="jvxpx9em" xy="482,132" group="n29_r9to">
+      <Button icon="ui://fr83a88vcct42" controller="c1" page="3"/>
+    </component>
+    <group id="n29_r9to" name="n29" xy="20,132" size="601,138"/>
+  </displayList>
+</component>

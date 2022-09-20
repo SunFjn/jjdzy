@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="549,126">
+  <controller name="c1" pages="0,大哥,1,不是大哥,2,虚位以待" selected="0"/>
+  <displayList>
+    <image id="n2_vfmx" name="n2" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="549,126" locked="true"/>
+    <component id="n3_vfmx" name="viewHead" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="14,15" size="119,127"/>
+    <richtext id="n4_vfmx" name="nameLb" xy="128,33" size="113,25" fontSize="18" color="#ffffff" text="玩家名字六字">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </richtext>
+    <richtext id="n5_vfmx" name="timeLb" xy="128,65" size="80,25" fontSize="18" color="#d8e2eb" text="离线>7天">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </richtext>
+    <component id="n6_vfmx" name="kickBtn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="310,41" size="107,42">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="踢出成员" titleFontSize="19"/>
+    </component>
+    <component id="n7_vfmx" name="transferBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="426,41" size="107,42">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="转让大哥" titleFontSize="19"/>
+    </component>
+    <image id="n11_f0ed" name="n11" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="141,53">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <component id="n9_f0ed" name="applyBtn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="399,41" size="107,42">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="申请大哥" titleFontSize="19"/>
+    </component>
+  </displayList>
+</component>

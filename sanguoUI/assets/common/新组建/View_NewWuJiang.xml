@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="492,514">
+  <displayList>
+    <component id="n0_x9ki" name="nameLb" src="spdw6y" fileName="组件/ViewName.xml" xy="41,84" touchable="false">
+      <Label title="宝物名称"/>
+    </component>
+    <image id="n1_x9ki" name="n1" src="q5t63h4" fileName="image1/技能底.png" xy="0,401" size="492,40"/>
+    <richtext id="n2_x9ki" name="txtInfo" xy="0,397" size="492,35" touchable="false" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="点击&lt;font color='#00F234'>【武将】&lt;/font>可激活新武将并出战"/>
+    <image id="n3_x9ki" name="n3" src="tw1l5m" fileName="image1/将印名称底.png" xy="120,4"/>
+    <image id="n4_x9ki" name="n4" src="x9ki3bb" fileName="image1/获得新武将.png" xy="145,33"/>
+    <component id="n5_x9ki" name="btnHand" src="y1z8b" fileName="组件/Button0.xml" xy="175,464">
+      <Button title="确定"/>
+    </component>
+    <loader id="n6_x9ki" name="wjBg" xy="246,333" pivot="0.5,0.5" anchor="true" size="176,87" touchable="false" align="center" vAlign="bottom"/>
+  </displayList>
+</component>

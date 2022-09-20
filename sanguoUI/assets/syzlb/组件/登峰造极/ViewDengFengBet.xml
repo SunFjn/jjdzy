@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,915">
+  <displayList>
+    <component id="n3_a0u3" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="594,915">
+      <Label title="冠军预测"/>
+    </component>
+    <list id="n4_a0u3" name="list" xy="17,60" size="560,692" layout="flow_hz" overflow="hidden" lineGap="-8" colGap="1" lineItemCount="3" defaultItem="ui://3o8q23uua0u327" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n5_a0u3" name="n5" xy="37,827" size="329,28" fontSize="18" color="#ffffff" text="周六可选择你认为能夺冠的玩家进行下注"/>
+    <component id="n7_a0u3" name="btn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="417,813">
+      <Button title="下注"/>
+    </component>
+    <richtext id="n8_a0u3" name="lbCt" xy="478,872" size="49,28" fontSize="18" color="#ffffff" text="1000"/>
+    <image id="n9_a0u3" name="n9" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="113,848"/>
+    <image id="n10_a0u3" name="imgCt" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="443,867"/>
+    <image id="n11_a0u3" name="n11" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="294,848">
+      <relation target="n18_k4tt" sidePair="left-right"/>
+    </image>
+    <richtext id="n12_a0u3" name="lbSt" xy="446,837" size="83,39" visible="false" fontSize="26" color="#18f02c" text="已下注"/>
+    <image id="n13_a0u3" name="n13" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="230,769" size="138,30"/>
+    <richtext id="n14_a0u3" name="pageTxt" xy="242,770" size="104,28" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="1/2"/>
+    <component id="n15_a0u3" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="199,784" pivot="0.5,0.5" anchor="true" size="56,58" scale="-1,1">
+      <Button icon="ui://jvxpx9eml3y16b"/>
+    </component>
+    <component id="n16_a0u3" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="399,784" pivot="0.5,0.5" anchor="true" size="56,58">
+      <Button icon="ui://jvxpx9eml3y16b"/>
+    </component>
+    <richtext id="n17_k4tt" name="lbTip0" xy="37,852" size="77,28" fontSize="18" color="#ffffff" text="&lt;font color='#18F02C'>下对&lt;/font>获得"/>
+    <richtext id="n18_k4tt" name="lbTip1" xy="144,852" size="150,28" fontSize="18" color="#ffffff" text="60000，&lt;font color='#ff0000'>下错&lt;/font>获得"/>
+    <richtext id="n19_k4tt" name="lbTip2" xy="324,852" size="49,28" fontSize="18" color="#ffffff" text="1000">
+      <relation target="n18_k4tt" sidePair="left-right"/>
+    </richtext>
+  </displayList>
+</component>

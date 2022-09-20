@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="0z9qzd94" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="y1c10" name="ViewGiftBAG.xml" path="/组件/" exported="true"/>
+    <component id="y1c12" name="ItemGiftBag.xml" path="/组件/" exported="true"/>
+    <image id="y1c13" name="卡牌选中框.png" path="/image/" exported="true" scale="9grid" scale9grid="65,75,89,157"/>
+  </resources>
+  <publish name="giftBag" genCode="true" npot="true"/>
+</packageDescription>

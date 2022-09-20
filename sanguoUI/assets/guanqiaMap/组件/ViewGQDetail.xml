@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,420" scroll="horizontal">
+  <displayList>
+    <image id="n35_cr7l" name="n35" src="daee3" fileName="image/地图框上.png" xy="0,387" group="n36_p3a0"/>
+    <image id="n34_cr7l" name="n34" src="daee4" fileName="image/地图框下.png" xy="0,1" group="n36_p3a0"/>
+    <group id="n36_p3a0" name="n36" xy="0,1" size="640,423" advanced="true"/>
+    <component id="n39_vib6" name="n21" src="p3a02b" fileName="组件/tempComp.xml" xy="0,29"/>
+    <image id="n32_cr7l" name="n32" src="daee0" fileName="image/二级框标头.png" xy="220,-20"/>
+    <text id="n33_cr7l" name="n33" xy="294,-2" size="85,27" fontSize="20" color="#eeeeee" text="三国地图"/>
+    <list id="n40_ir1y" name="roadList" xy="1,28" size="640,361" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://qxuksu69ir1y2h">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n37_gv7i" name="btnClose" src="gv7i2g" fileName="组件/tempbtn.xml" xy="584,-9"/>
+    <text id="n41_hlq0" name="n41" xy="617,38" size="40,19" fontSize="12" text=""/>
+  </displayList>
+</component>

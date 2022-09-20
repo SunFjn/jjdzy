@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="423,351">
+  <displayList>
+    <component id="n27_kpxy" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="423,351">
+      <Label title="熔炼成功"/>
+    </component>
+    <image id="n25_t570" name="n25" src="jkp64z" fileName="image1/Bg4.png" pkg="jvxpx9em" xy="19,87" size="379,163"/>
+    <text id="n6_cyxg" name="lb1" xy="93,110" size="98,28" fontSize="18" color="#ffffff" ubb="true" text="气血+1000"/>
+    <text id="n18_cyxg" name="lb2" xy="93,150" size="77,28" fontSize="18" color="#ffffff" ubb="true" text="坐骑副本"/>
+    <component id="n14_cyxg" name="btnSure" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="141,278">
+      <Button title="确定" titleColor="#ffffff"/>
+    </component>
+    <text id="n21_cyxg" name="lb3" xy="94,190" size="77,28" fontSize="18" color="#ffffff" ubb="true" text="坐骑副本"/>
+    <text id="n28_rxjy" name="lb4" xy="225,110" size="77,28" fontSize="18" color="#ffffff" ubb="true" text="坐骑副本"/>
+    <text id="n26_ixu9" name="lbTip" xy="94,242" size="235,28" fontSize="18" color="#ff0000" align="center" autoSize="none" text="今日熔炼经验已满"/>
+    <text id="n29_kxay" name="lb5" xy="225,150" size="77,28" fontSize="18" color="#ffffff" ubb="true" text="坐骑副本"/>
+  </displayList>
+</component>

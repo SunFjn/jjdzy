@@ -1,0 +1,8 @@
+2020-11-09 17:04:05.411 [任务线程 - 9] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-09 17:04:05.411 [任务线程 - 9] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-09 17:04:05.411 [任务线程 - 9] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-09 17:04:05.411 [任务线程 - 9] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-09 17:04:05.411 [任务线程 - 9] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-09 17:56:30.530 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:8
+2020-11-09 17:57:50.128 [Thread-7] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000011
+2020-11-09 17:57:53.173 [Thread-7] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000012

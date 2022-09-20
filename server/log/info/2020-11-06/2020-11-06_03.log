@@ -1,0 +1,266 @@
+2020-11-06 03:00:07.115 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:01:07.133 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:01:37.168 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:01:37.168 [任务线程 - 9] INFO  com.teamtop.system.crossBoss.cross.CrossBossCrossEvent - CrossBossCrossEvent.fixTime cmdId:2 time:2020-11-07_11-00-00s
+2020-11-06 03:01:37.168 [任务线程 - 9] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossBoss.cross.CrossBossCrossEvent@30a7c98f,now:1604718000,dayTime:1100
+2020-11-06 03:01:37.168 [crossChannelEx - 2] INFO  com.teamtop.system.crossBoss.CrossBossIO - local tell cross state:2  1
+2020-11-06 03:01:37.168 [任务线程 - 9] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossTeamKing.cross.CrossTeamKingCrossEvent@e48bf9a,now:1604718000,dayTime:1100
+2020-11-06 03:01:57.449 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:02:07.153 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:02:17.732 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:02:38.013 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:02:47.453 [任务线程 - 1] INFO  com.teamtop.system.event.backstage.BackstageSystemEvent - 60m event:com.teamtop.system.event.backstage.events.flowMMCache.FlowMMCacheEvent@38fdfed0,now:1604718060
+2020-11-06 03:02:58.295 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:03:07.158 [任务线程 - 9] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:03:18.563 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:03:38.844 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:03:59.125 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:04:07.177 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:04:19.409 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:04:39.666 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:04:59.947 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:05:07.186 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:05:20.230 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:05:40.511 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:06:00.795 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:06:07.192 [任务线程 - 10] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:06:21.062 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:06:41.375 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:07:01.656 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:07:07.195 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:07:21.939 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:07:42.220 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:08:02.502 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:08:07.214 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:08:22.770 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:08:43.051 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:09:03.332 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:09:07.217 [任务线程 - 10] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:09:23.615 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:09:43.896 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:10:04.177 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:10:07.220 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:10:24.460 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:10:44.741 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:11:05.023 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:11:07.239 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:11:25.306 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:11:45.587 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:12:05.868 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:12:07.242 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:12:26.142 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:12:46.423 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:13:06.690 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:13:07.252 [任务线程 - 10] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:13:26.943 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:13:47.224 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:14:07.258 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:14:07.509 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:14:27.791 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:14:48.072 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:15:07.261 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:15:08.354 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:15:28.620 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:15:48.901 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:16:07.265 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:16:09.186 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:16:29.467 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:16:49.748 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:17:07.283 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:17:10.031 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:17:30.312 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:17:50.594 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:18:07.303 [任务线程 - 16] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:18:10.895 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:18:31.176 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:18:51.457 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:19:07.307 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:19:11.740 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:19:32.021 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:19:52.302 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:20:07.325 [任务线程 - 10] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:20:12.554 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:20:32.835 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:20:53.116 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:21:07.330 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:21:13.388 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:21:33.669 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:21:53.950 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:22:07.336 [任务线程 - 10] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:22:14.233 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:22:34.545 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:22:54.827 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:23:07.355 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:23:15.082 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:23:35.363 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:23:55.644 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:24:07.361 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:24:15.928 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:24:36.209 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:24:56.490 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:25:07.364 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:25:16.773 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:25:37.054 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:25:57.336 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:26:07.369 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:26:17.620 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:26:37.901 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:26:58.182 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:27:07.371 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:27:18.465 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:27:38.746 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:27:59.028 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:28:07.375 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:28:19.296 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:28:39.577 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:28:59.858 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:29:07.378 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:29:20.127 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:29:40.408 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:30:00.689 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:30:07.398 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:30:20.972 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:30:41.253 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:31:01.535 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:31:07.417 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:31:21.818 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:31:42.099 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:32:02.380 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:32:07.419 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:32:22.663 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:32:42.944 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:33:03.226 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:33:07.439 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:33:23.510 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:33:43.791 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:34:04.073 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:34:07.443 [任务线程 - 5] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:34:24.342 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:34:44.625 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:35:04.906 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:35:07.450 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:35:25.189 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:35:45.470 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:36:05.754 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:36:07.455 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:36:26.037 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:36:46.318 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:37:06.599 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:37:07.474 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:37:26.866 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:37:47.147 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:38:07.460 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:38:07.492 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:38:27.727 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:38:48.008 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:39:07.493 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:39:08.290 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:39:28.556 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:39:48.837 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:40:07.496 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:40:09.107 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:40:29.372 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:40:49.684 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:41:07.502 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:41:09.959 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:41:30.240 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:41:50.521 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:42:07.510 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:42:10.793 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:42:31.074 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:42:51.356 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:43:07.519 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:43:11.640 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:43:31.921 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:43:52.202 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:44:07.525 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:44:12.476 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:44:32.757 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:44:53.038 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:45:07.531 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:45:13.321 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:45:33.602 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:45:53.867 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:46:07.537 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:46:14.124 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:46:34.405 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:46:54.686 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:47:07.557 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:47:14.954 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:47:35.235 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:47:55.502 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:48:07.561 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:48:15.785 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:48:36.066 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:48:56.347 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:49:07.580 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:49:16.630 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:49:36.911 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:49:57.192 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:50:07.582 [任务线程 - 13] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:50:17.461 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:50:37.742 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:50:58.023 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:51:07.588 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:51:18.293 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:51:37.560 [任务线程 - 13] INFO  com.teamtop.util.exector.schedule.SchedulerBean - 任务 [ZSBOSS] 已取消 !
+2020-11-06 03:51:37.560 [任务线程 - 13] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2020-11-06 03:51:37.560 [任务线程 - 13] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2020-11-06 03:51:37.560 [任务线程 - 13] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2020-11-06 03:51:37.560 [任务线程 - 13] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2020-11-06 03:51:37.560 [任务线程 - 13] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2020-11-06 03:51:37.560 [任务线程 - 13] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2020-11-06 03:51:37.560 [任务线程 - 13] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2020-11-06 03:51:37.560 [任务线程 - 13] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2020-11-06 03:51:37.560 [任务线程 - 13] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2020-11-06 03:51:37.560 [任务线程 - 13] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2020-11-06 03:51:37.560 [crossChannelEx - 3] INFO  com.teamtop.system.crossBoss.CrossBossIO - localReceiveData :{{240003:{{240003,0,{!},{!},!}},240002:{{240002,0,{!},{!},!}},240001:{{240001,0,{!},{!},!}},240005:{{240005,0,{!},{!},!}},240004:{{240004,0,{!},{!},!}}},{1}}
+2020-11-06 03:51:37.593 [任务线程 - 13] INFO  com.teamtop.system.crossBoss.cross.CrossBossCrossEvent - CrossBossCrossEvent.fixTime cmdId:0 time:2020-11-07_11-50-00s
+2020-11-06 03:51:37.593 [任务线程 - 13] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossBoss.cross.CrossBossCrossEvent@30a7c98f,now:1604721000,dayTime:1150
+2020-11-06 03:51:37.593 [crossChannelEx - 4] INFO  com.teamtop.system.crossBoss.CrossBossIO - local tell cross state:0  1
+2020-11-06 03:51:38.575 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:51:58.856 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:52:07.593 [任务线程 - 1] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:52:19.127 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:52:39.408 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:52:59.690 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:53:07.600 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:53:19.975 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:53:40.256 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:54:00.537 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:54:07.606 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:54:20.806 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:54:41.087 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:55:01.368 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:55:07.609 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:55:21.637 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:55:41.918 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:56:02.201 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:56:07.615 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:56:22.485 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:56:37.742 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生1001——3003 bossid:240001 maxhp1367530000 倍数：0总血量：1367530000
+2020-11-06 03:56:37.742 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240001 tempMaxHp:0
+2020-11-06 03:56:37.742 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生4001——6003 bossid:240002 maxhp6730920000 倍数：0总血量：6730920000
+2020-11-06 03:56:37.742 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240002 tempMaxHp:0
+2020-11-06 03:56:37.742 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生7001——8003 bossid:240003 maxhp25705905000 倍数：0总血量：25705905000
+2020-11-06 03:56:37.742 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240003 tempMaxHp:0
+2020-11-06 03:56:37.742 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生9001——10003 bossid:240004 maxhp62142310000 倍数：0总血量：62142310000
+2020-11-06 03:56:37.742 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240004 tempMaxHp:0
+2020-11-06 03:56:37.742 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生11001——12003 bossid:240005 maxhp104600755000 倍数：0总血量：104600755000
+2020-11-06 03:56:37.742 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240005 tempMaxHp:0
+2020-11-06 03:56:37.742 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.cross.CrossBossCrossEvent - CrossBossCrossEvent.fixTime cmdId:1 time:2020-11-07_11-55-00s
+2020-11-06 03:56:37.742 [任务线程 - 8] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossBoss.cross.CrossBossCrossEvent@30a7c98f,now:1604721300,dayTime:1155
+2020-11-06 03:56:37.742 [crossChannelEx - 4] INFO  com.teamtop.system.crossBoss.CrossBossIO - local tell cross state:1  1
+2020-11-06 03:56:42.767 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:57:03.048 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:57:07.619 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:57:23.318 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:57:43.599 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:58:03.881 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:58:07.626 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:58:24.165 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:58:44.446 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:59:04.727 [crossChannelEx - 4] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:59:07.630 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=7
+2020-11-06 03:59:25.011 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2020-11-06 03:59:45.292 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 

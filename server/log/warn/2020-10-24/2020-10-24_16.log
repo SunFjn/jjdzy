@@ -1,0 +1,26 @@
+2020-10-24 16:50:00.928 [任务线程 - 13] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-10-24 16:50:00.928 [任务线程 - 13] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-10-24 16:50:00.928 [任务线程 - 13] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-10-24 16:50:00.928 [任务线程 - 13] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-10-24 16:50:00.928 [任务线程 - 13] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-10-24 16:50:09.512 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-24 16:50:09.512 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-24 16:50:09.512 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-24 16:50:09.512 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-24 16:50:09.512 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-24 16:50:09.512 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-24 16:50:09.543 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000752
+2020-10-24 16:50:09.543 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-10-24 16:50:10.246 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000752 name:轩辕乄浮凉openUI countryType=0
+2020-10-24 16:50:49.095 [nioEventLoopGroup-11-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-10-24 16:51:09.045 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-24 16:51:09.045 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-24 16:51:09.045 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-24 16:51:09.045 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-24 16:51:09.045 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-24 16:51:09.076 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000752
+2020-10-24 16:51:09.076 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-10-24 16:51:09.921 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000752 name:轩辕乄浮凉openUI countryType=0
+2020-10-24 16:53:26.761 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000752, pid=404
+2020-10-24 16:53:26.777 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-24 16:53:26.777 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.shop.model.ShopData" tbname="shopData">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="shoppingMap" type="text" pf="all" comment="已购买商品数据"/>
+			<col field="goodsMap" type="text" pf="all" comment="当前各商店商品信息"/>
+     </tb>
+</tbs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossSelectKing.local.CrossSelectKingLocal" tbname="crossSelectKingLocal">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="玩家id"/>
+			<col field="trem" type="int" pf="all" comment="第几届"/>
+	        <col field="mobai" type="int" pf="all" comment="膜拜奖励"/>
+	        <col field="reward" type="int" pf="all" comment="冠军所在服奖励"/>
+     </tb>
+</tbs>

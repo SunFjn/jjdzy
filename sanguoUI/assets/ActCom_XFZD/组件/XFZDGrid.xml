@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="81,81">
+  <displayList>
+    <component id="n0_mm9s" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="0,0" scale="0.8,0.8"/>
+    <image id="n1_mm9s" name="drawImg" src="mm9s9" fileName="image/已领取.png" xy="-4,0"/>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="638,466" designImage="ui://k82cjsputiqw26" designImageOffsetY="-293">
+  <displayList>
+    <loader id="n4_mp04" name="bg" xy="11,0" size="618,462"/>
+    <image id="n15_wfnc" name="ylq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="427,352"/>
+    <text id="n24_n986" name="lbTime" xy="376,414" size="227,21" fontSize="18" color="#00ff00" align="center" autoSize="none" text="时间2019年2月18日 11:47:20"/>
+    <component id="n25_awl5" name="n25" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="429,51" visible="false">
+      <Button title="续费"/>
+    </component>
+    <component id="n29_v465" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="421,341">
+      <Button title="冲钱！"/>
+    </component>
+  </displayList>
+</component>

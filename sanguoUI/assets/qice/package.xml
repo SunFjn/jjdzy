@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="cokk050n">
+  <resources>
+    <component id="j82l0" name="ViewQice.xml" path="/" exported="true"/>
+    <image id="j82l1" name="奇策title.png" path="/res/"/>
+    <component id="j82l2" name="ChildStarQice.xml" path="/" exported="true"/>
+    <image id="j82l3" name="将魂入口.png" path="/res/"/>
+    <image id="j82l4" name="套装入口图标.png" path="/res/"/>
+    <image id="j82l5" name="兵魂入口.png" path="/res/"/>
+    <image id="j82l6" name="奇策-升星.jpg" path="/res/"/>
+    <image id="j82l7" name="奇策-升阶.jpg" path="/res/"/>
+    <component id="x49y8" name="QiceItemGrid.xml" path="/com/" exported="true"/>
+    <image id="x49y9" name="未激活标签.png" path="/res/"/>
+    <component id="b5kha" name="ViewSuitQice.xml" path="/" exported="true"/>
+    <image id="b5khb" name="套装图标.png" path="/res/"/>
+    <component id="b5khc" name="QiceSuitItem.xml" path="/com/" exported="true"/>
+    <image id="b5khd" name="阶.png" path="/res/"/>
+    <image id="b5khe" name="级.png" path="/res/"/>
+    <component id="b5khf" name="ChildLevelQice.xml" path="/" exported="true"/>
+    <image id="b5khg" name="大数字1.png" path="/font/"/>
+    <image id="b5khh" name="大数字2.png" path="/font/"/>
+    <image id="b5khi" name="大数字3.png" path="/font/"/>
+    <image id="b5khj" name="大数字4.png" path="/font/"/>
+    <image id="b5khk" name="大数字5.png" path="/font/"/>
+    <image id="b5khl" name="大数字6.png" path="/font/"/>
+    <image id="b5khm" name="大数字7.png" path="/font/"/>
+    <image id="b5khn" name="大数字8.png" path="/font/"/>
+    <image id="b5kho" name="大数字9.png" path="/font/"/>
+    <image id="b5khp" name="大数字0.png" path="/font/"/>
+    <font id="b5khq" name="BigNum.fnt" path="/font/" exported="true"/>
+    <image id="b5khr" name="小数字2.png" path="/font/"/>
+    <image id="b5khs" name="小数字3.png" path="/font/"/>
+    <image id="b5kht" name="小数字4.png" path="/font/"/>
+    <image id="b5khu" name="小数字5.png" path="/font/"/>
+    <image id="b5khv" name="小数字6.png" path="/font/"/>
+    <image id="b5khw" name="小数字7.png" path="/font/"/>
+    <image id="b5khx" name="小数字8.png" path="/font/"/>
+    <image id="b5khy" name="小数字9.png" path="/font/"/>
+    <image id="b5khz" name="小数字？.png" path="/font/"/>
+    <image id="b5kh10" name="小数字0.png" path="/font/"/>
+    <image id="b5kh11" name="小数字1.png" path="/font/"/>
+    <font id="b5kh12" name="SmallNum.fnt" path="/font/" exported="true"/>
+    <component id="eckr13" name="ChildLotteryQice.xml" path="/" exported="true"/>
+    <image id="eckr14" name="出谋划策.jpg" path="/res/"/>
+    <image id="pi6u15" name="出谋划策底图.jpg" path="/res/"/>
+    <image id="pi6u17" name="选角底条.png" path="/res/" scale="9grid" scale9grid="163,37,221,76"/>
+    <component id="pi6u18" name="QiceRewardItem.xml" path="/com/" exported="true"/>
+    <component id="pi6u19" name="ViewQiceReward.xml" path="/" exported="true"/>
+    <image id="jlu21a" name="升级战力.png" path="/res/"/>
+    <image id="kfd71b" name="金毛笔.png" path="/res/"/>
+    <image id="k7mb1c" name="奖励预览.png" path="/res/"/>
+  </resources>
+  <publish name="qice" genCode="true" excluded="pi6u15"/>
+</packageDescription>

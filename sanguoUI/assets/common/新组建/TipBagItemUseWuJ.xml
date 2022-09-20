@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="435,665">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n32_lnck" name="frame" src="f1cf47" fileName="组件/frame1.xml" xy="0,0" size="435,665">
+      <gearSize controller="c1" pages="1" values="435,665,1,1" default="435,724,1,1"/>
+      <relation target="n33_lnck" sidePair="bottomext-bottom"/>
+    </component>
+    <component id="n31_cyxg" name="btnUse" src="y1z8b" fileName="组件/Button0.xml" xy="155,654" size="127,51" group="n13_etor">
+      <Button title="使用" titleColor="#ffffff"/>
+    </component>
+    <group id="n13_etor" name="groupUse" xy="155,654" size="127,51" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n33_lnck" sidePair="top-bottom"/>
+    </group>
+    <component id="n33_lnck" name="childTip" src="lnckac" fileName="新组建/ChildTipBagItem.xml" xy="24,32" size="380,263"/>
+    <component id="n34_q2i9" name="childWuJ" src="q2i93g1" fileName="新组建/ChildTipBagWuJ.xml" xy="30,302">
+      <relation target="n33_lnck" sidePair="top-bottom"/>
+    </component>
+  </displayList>
+  <relation target="n32_lnck" sidePair="height-height"/>
+</component>

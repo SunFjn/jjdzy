@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="569,592">
+  <displayList>
+    <image id="n16_som1" name="n16" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="567,39"/>
+    <list id="n8_u94l" name="list" xy="0,45" size="569,514" overflow="scroll" lineGap="6" defaultItem="ui://xzyn0qe3l3h39" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n30_l3h3" name="rankLb" xy="20,564" size="77,28" touchable="false" fontSize="18" color="#ffffff" text="我的排名"/>
+    <richtext id="n31_l3h3" name="jifenLb" xy="410,564" size="77,28" touchable="false" fontSize="18" color="#ffffff" text="我的排名"/>
+    <richtext id="n41_tidc" name="n41" xy="36,5" size="41,28" fontSize="18" color="#f4bf12" text="排名"/>
+    <richtext id="n42_tidc" name="n42" xy="112,4" size="41,28" fontSize="18" color="#f4bf12" text="国家"/>
+    <richtext id="n43_tidc" name="n43" xy="249,5" size="41,28" fontSize="18" color="#f4bf12" text="名字"/>
+    <richtext id="n44_tidc" name="n44" xy="375,5" size="41,28" fontSize="18" color="#f4bf12" text="积分"/>
+    <richtext id="n45_tidc" name="n45" xy="479,5" size="41,28" fontSize="18" color="#f4bf12" text="奖励"/>
+  </displayList>
+</component>

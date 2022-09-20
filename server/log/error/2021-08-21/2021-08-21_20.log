@@ -1,0 +1,60 @@
+2021-08-21 20:06:17.438 [main] ERROR com.teamtop.main.RunServerException - RunServerException:CrossServer netty port bind by others,port:11001
+2021-08-21 20:29:42.119 [main] ERROR com.teamtop.main.RunServerException - RunServerException:
+2021-08-21 20:29:42.119 [main] ERROR com.teamtop.main.RunServerException - org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'el_8001.crossminelocal' doesn't exist
+### The error may involve com.teamtop.util.db.autoTable.DDLMapper.createTable-Inline
+### The error occurred while setting parameters
+### SQL: create table crossMineLocal (hid bigint(20) NOT NULL  AUTO_INCREMENT COMMENT '玩家id',helpMinerId bigint(20) NULL COMMENT '协助矿矿主id',fightTimes int(10) NULL COMMENT '战斗掠夺次数',stealTimes int(10) NULL COMMENT '顺手牵羊次数',mineIdList text NULL COMMENT '已搜索矿藏id',searchTimes int(10) NULL COMMENT '搜索矿藏次数',PRIMARY KEY (`hid`))ENGINE=InnoDB AUTO_INCREMENT=1000100000000001 DEFAULT CHARSET=utf8
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'el_8001.crossminelocal' doesn't exist
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:200)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy5.createTable(Unknown Source)
+	at com.teamtop.util.db.autoTable.DDLDao.createTable(DDLDao.java:25)
+	at com.teamtop.util.db.autoTable.DDLUtil.getCreateTableSql(DDLUtil.java:187)
+	at com.teamtop.util.db.autoTable.DDLUtil.createTable(DDLUtil.java:46)
+	at com.teamtop.util.db.orm.OrmDdlUtil.checkField(OrmDdlUtil.java:377)
+	at com.teamtop.util.db.orm.OrmDdlUtil.init(OrmDdlUtil.java:105)
+	at com.teamtop.util.db.orm.AutoObjTableUtil.startServer(AutoObjTableUtil.java:466)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.teamtop.system.event.serverEvent.ServerEventFunction.startServer(ServerEventFunction.java:169)
+	at com.teamtop.main.RunLocalServer.main(RunLocalServer.java:25)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'el_8001.crossminelocal' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1242)
+	at com.p6spy.engine.logging.P6LogPreparedStatement.execute(P6LogPreparedStatement.java:161)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	... 15 more
+
+2021-08-21 20:32:23.318 [crossChannelEx - 2] ERROR com.teamtop.houtaiHttp.events.manualOpServer.ManualOpServerIO - java.lang.NullPointerException
+	at com.teamtop.houtaiHttp.events.manualOpServer.ManualOpServerIO.sendServerAddressData(ManualOpServerIO.java:283)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.teamtop.netty.handlers.CrossDispatch$3.run(CrossDispatch.java:124)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+sendServerAddressData

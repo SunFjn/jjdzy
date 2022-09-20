@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,135">
+  <displayList>
+    <component id="n0_etor" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" xy="0,0"/>
+    <richtext id="n2_etor" name="lbName" xy="-12,102" size="127,29" fontSize="18" color="#ffffff" align="center" autoSize="shrink" text="中级消耗品啊"/>
+    <loader id="n3_rxjy" name="extraImg" xy="-4,2" size="35,64" visible="false" url="ui://jvxpx9emrxjy3dl"/>
+  </displayList>
+</component>

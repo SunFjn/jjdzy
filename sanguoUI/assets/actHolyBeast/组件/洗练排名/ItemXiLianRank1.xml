@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="304,167">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1_wea3" name="n1" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="0,0" size="304,167" locked="true"/>
+    <component id="n3_wea3" name="viewHead" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="13,14" size="119,127" scale="0.7,0.7"/>
+    <richtext id="n4_wea3" name="nameTxt" xy="95,26" size="113,25" fontSize="18" color="#ffffff" text="玩家名字六字">
+      <gearDisplay controller="c1" pages="1"/>
+    </richtext>
+    <richtext id="n5_wea3" name="jdTxt" xy="95,54" size="143,25" fontSize="18" color="#ffffff" text="圣兽洗练：500次">
+      <gearDisplay controller="c1" pages="1"/>
+    </richtext>
+    <list id="n6_wea3" name="list" xy="165,89" size="215,105" scale="0.65,0.65" layout="flow_hz" overflow="hidden" scroll="horizontal" colGap="4" defaultItem="ui://jvxpx9emetorm" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <list id="n7_s73w" name="bpList" xy="1,81" size="184,97" scale="0.9,0.9" layout="row" overflow="hidden" defaultItem="ui://d5y9ngt6cl031m" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <image id="n10_foqs" name="n10" src="kxay1a" fileName="image/虚位以待.png" xy="149,38">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n11_ze8t" name="secondImg" src="ze8t1x" fileName="image/第2名.png" xy="126,-7"/>
+    <image id="n12_ze8t" name="thirdImg" src="ze8t1y" fileName="image/第3名.png" xy="126,-7"/>
+  </displayList>
+</component>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,855">
+  <displayList>
+    <component id="n1_k1rz" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,854">
+      <Label title="排行榜"/>
+    </component>
+    <image id="n2_k1rz" name="n2" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="25,88" size="538,47"/>
+    <richtext id="n3_k1rz" name="n3" xy="63,96" size="459,31" fontSize="20" color="#ffc344" text="排名                       名字                          充值元宝"/>
+    <list id="n9_k1rz" name="list" xy="26,139" size="547,602" overflow="scroll" lineGap="6" defaultItem="ui://q5asybs1k1rz8" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n10_k1rz" name="n10" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="19,752" size="550,84"/>
+    <richtext id="n11_k1rz" name="rankLb" xy="46,778" size="117,31" fontSize="20" color="#ffc344" align="center" ubb="true" vars="true" text="我的排名：[color=#00ff00]{rank=7}[/color]"/>
+    <richtext id="n12_k1rz" name="moneyLb" xy="334,778" size="157,31" fontSize="20" color="#ffc344" align="center" ubb="true" vars="true" text="充值元宝：[color=#00ff00]{money=7元宝}[/color]"/>
+  </displayList>
+</component>

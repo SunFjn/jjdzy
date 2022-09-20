@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <loader id="n17_u7hr" name="imgBanner" xy="19,166" size="601,183" url="ui://83gc6bhvu7hrk"/>
+    <loader id="n13_u7hr" name="imgPan" xy="72,395" size="495,396" url="ui://83gc6bhvu7hry"/>
+    <component id="n0_q09v" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="293,431" scale="0.65,0.65"/>
+    <component id="n1_q09v" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="376,470" scale="0.65,0.65"/>
+    <component id="n2_q09v" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="410,560" scale="0.65,0.65"/>
+    <component id="n3_q09v" name="grid3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="377,640" scale="0.65,0.65"/>
+    <component id="n4_q09v" name="grid4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="293,680" scale="0.65,0.65"/>
+    <component id="n5_q09v" name="grid5" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="208,640" scale="0.65,0.65"/>
+    <component id="n6_q09v" name="grid6" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="171,560" scale="0.65,0.65"/>
+    <component id="n7_q09v" name="grid7" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="203,469" scale="0.65,0.65"/>
+    <loader id="n14_u7hr" name="imgArrow" xy="255,416" pivot="0.5,0.69" size="137,246" touchable="false" url="ui://83gc6bhvxcpq14"/>
+    <component id="n15_u7hr" name="btnRun" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="257,525" size="126,126">
+      <Button icon="ui://83gc6bhvxcpq13"/>
+    </component>
+    <richtext id="n10_q09v" name="lbCount" xy="265,608" size="110,22" fontSize="16" color="#ffffff" text="当前还可抽5次">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

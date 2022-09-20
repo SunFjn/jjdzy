@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="01fuz6zc" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="sbsr0" name="ViewLvBuComeup.xml" path="/组件/" exported="true"/>
+    <image id="q4sp3" name="吕布半身像.png" path="/image/" exported="true"/>
+    <image id="q4sp4" name="大奖.png" path="/image/" exported="true"/>
+    <image id="q4sp5" name="大奖框.png" path="/image/" exported="true"/>
+    <image id="q4sp6" name="宝箱.png" path="/image/" exported="true"/>
+    <image id="q4sp7" name="排名底.png" path="/image/" exported="true" scale="9grid" scale9grid="21,8,42,16"/>
+    <image id="q4sp8" name="最强战神.png" path="/image/" exported="true"/>
+    <image id="q4sp9" name="横幅.png" path="/image/" exported="true"/>
+    <image id="q4spa" name="武将材料底.png" path="/image/" exported="true"/>
+    <image id="q4spb" name="第一名.png" path="/image/" exported="true"/>
+    <component id="sivqe" name="ItemLvBuAward.xml" path="/组件/" exported="true"/>
+    <image id="sivqf" name="积分底.png" path="/image/" exported="true" scale="9grid" scale9grid="8,49,16,98"/>
+    <component id="100umg" name="ViewLBPaiHang.xml" path="/组件/" exported="true"/>
+    <component id="100umh" name="ItemLBPH.xml" path="/组件/" exported="true"/>
+    <component id="100umi" name="ViewGetJL.xml" path="/组件/" exported="true"/>
+    <image id="k6f8mj" name="晋升豪礼标题.png" path="/image/" exported="true"/>
+    <image id="k6f8mk" name="装饰.png" path="/image/" exported="true"/>
+    <image id="gr6pmn" name="神装-武器.png" path="/image/" exported="true"/>
+    <image id="gr6pmo" name="文本.png" path="/image/"/>
+    <image id="gr6pmp" name="晋升豪礼.png" path="/image/"/>
+    <image id="jh31mq" name="神装背景.png" path="/image/" exported="true"/>
+    <image id="skfzmr" name="文本(1).png" path="/image/" exported="true"/>
+  </resources>
+  <publish npot="true" name="LvBuComeUp"/>
+</packageDescription>

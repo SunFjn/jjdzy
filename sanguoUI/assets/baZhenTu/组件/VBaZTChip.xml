@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="166,61" extention="Label">
+  <displayList>
+    <image id="n9_b5l2" name="imgDi" src="rt7o4r" fileName="image1/货币底.png" pkg="jvxpx9em" xy="16,16" size="150,30"/>
+    <richtext id="n10_b5l2" name="title" xy="66,17" size="60,28" fontSize="18" color="#ffffff" text="10000"/>
+    <loader id="n11_b5l2" name="icon" xy="0,0" size="61,61" url="ui://xrzn9ppab5l2x" fill="scaleFree"/>
+  </displayList>
+</component>

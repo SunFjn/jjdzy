@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="63,86" pivot="0.5,0.5" anchor="true">
+  <controller name="stateCtrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n21_illc" name="item" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="0,0" scale="0.6,0.6"/>
+    <richtext id="n22_illc" name="tfScore" xy="9,61" pivot="0.5,0.5" size="32,25" fontSize="16" color="#ffffff" vAlign="middle" autoClearText="true" text="100"/>
+    <image id="n23_nnxc" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="43,0">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n24_nnxc" name="imageGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="-5,25" size="68,22" aspect="true">
+      <gearDisplay controller="stateCtrl" pages="2"/>
+    </image>
+    <richtext id="n25_taxk" name="tfRewardCount" xy="49,-5" pivot="0.5,0.5" size="13,24" fontSize="14" color="#ffffff" vAlign="middle" autoClearText="true" text="1">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+      <relation target="n23_nnxc" sidePair="center-center,middle-middle"/>
+    </richtext>
+  </displayList>
+</component>

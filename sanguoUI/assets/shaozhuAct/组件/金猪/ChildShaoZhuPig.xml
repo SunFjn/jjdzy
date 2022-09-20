@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,666">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n23_hgo3" name="n23" src="m3513bf" fileName="image/底板2 拷贝 2.png" pkg="jvxpx9em" xy="0,0" size="640,666" group="n6_hsa2"/>
+    <loader id="n27_hgo3" name="n27" xy="333,26" size="290,470" group="n6_hsa2" url="ui://w5ll6n5jhgo312"/>
+    <loader id="n28_hgo3" name="n28" xy="20,26" size="290,470" group="n6_hsa2" url="ui://w5ll6n5jhgo311"/>
+    <image id="n37_hgo3" name="n37" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="34,517" size="571,138" group="n6_hsa2"/>
+    <image id="n33_hgo3" name="n33" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="186,300" group="n6_hsa2">
+      <relation target="n29_hgo3" sidePair="right-left"/>
+    </image>
+    <image id="n34_hgo3" name="n34" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="498,300" group="n6_hsa2">
+      <relation target="n31_hgo3" sidePair="right-left"/>
+    </image>
+    <image id="n35_hgo3" name="n35" src="hgo3z" fileName="image/10倍.png" xy="179,339" group="n6_hsa2">
+      <relation target="n30_hgo3" sidePair="right-left"/>
+    </image>
+    <image id="n36_hgo3" name="n36" src="hgo310" fileName="image/20倍.png" xy="501,339" group="n6_hsa2">
+      <relation target="n32_hgo3" sidePair="right-left"/>
+    </image>
+    <image id="n20_pdzw" name="headYlq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="438,566" group="n6_hsa2"/>
+    <component id="n0_hsa2" name="btnGo0" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="100,391" group="n6_hsa2">
+      <Button title="前往" controller="c1" page="1"/>
+    </component>
+    <component id="n1_hsa2" name="btnGo1" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="413,396" group="n6_hsa2">
+      <Button title="前往" controller="c1" page="1"/>
+    </component>
+    <component id="n2_hsa2" name="btnBuy0" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="100,391" group="n6_hsa2">
+      <Button title="购买"/>
+    </component>
+    <component id="n3_hsa2" name="btnBuy1" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="413,396" group="n6_hsa2">
+      <Button title="购买"/>
+    </component>
+    <component id="n5_hsa2" name="btnLq" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="433,560" group="n6_hsa2">
+      <Button title="领取"/>
+    </component>
+    <richtext id="n25_hgo3" name="lbTask1" xy="526,461" size="77,28" group="n6_hsa2" fontSize="18" color="#66ff00" text="&lt;u>查看任务&lt;/u>"/>
+    <richtext id="n4_hsa2" name="lbTask" xy="211,461" size="77,28" group="n6_hsa2" fontSize="18" color="#66ff00" text="&lt;u>查看任务&lt;/u>"/>
+    <richtext id="n29_hgo3" name="lbyuanbao0" xy="70,305" size="77,28" group="n6_hsa2" fontSize="18" color="#ffffff" text="购买立返"/>
+    <richtext id="n30_hgo3" name="lbadd0" xy="70,347" size="113,28" group="n6_hsa2" fontSize="18" color="#ffffff" text="完成任务再送"/>
+    <richtext id="n31_hgo3" name="lbyuanbao1" xy="383,306" size="77,28" group="n6_hsa2" fontSize="18" color="#ffffff" text="购买立返"/>
+    <richtext id="n32_hgo3" name="lbadd1" xy="383,348" size="113,28" group="n6_hsa2" fontSize="18" color="#ffffff" text="完成任务再送"/>
+    <richtext id="n38_hgo3" name="n38" xy="214,564" size="131,53" group="n6_hsa2" fontSize="18" color="#ffffff" align="center" text="全部购买可获得&#xA;绝版头像"/>
+    <loader id="n39_hgo3" name="headIcon" xy="84,551" size="80,80" group="n6_hsa2" url="ui://jvxpx9emp75388" fill="scaleFree"/>
+    <loader id="n40_hgo3" name="frameIcon" xy="74,543" size="100,90" group="n6_hsa2" url="ui://jvxpx9emtw1l5j" align="center" vAlign="bottom"/>
+    <richtext id="n51_mznh" name="n51" xy="200,675" size="239,28" group="n6_hsa2" fontSize="18" color="#66ff00" text="活动结束后邮件发放元宝奖励"/>
+    <group id="n6_hsa2" name="page0" xy="0,0" size="640,703" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n44_hgo3" name="n44" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="2,192" size="636,471" group="n19_hsa2"/>
+    <loader id="n41_hgo3" name="imgBanner" xy="0,0" size="640,184" group="n19_hsa2" url="ui://w5ll6n5jhgo314"/>
+    <image id="n45_hgo3" name="n45" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="491,18" size="146,22" group="n19_hsa2">
+      <relation target="n47_hgo3" sidePair="leftext-left"/>
+    </image>
+    <image id="n48_hgo3" name="n48" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="513,45" size="98,22" group="n19_hsa2">
+      <relation target="n7_hsa2" sidePair="left-left"/>
+    </image>
+    <image id="n49_hgo3" name="n49" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="514,71" size="97,22" group="n19_hsa2">
+      <relation target="n9_hsa2" sidePair="left-left"/>
+    </image>
+    <image id="n50_hgo3" name="n50" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="430,99" size="164,22" group="n19_hsa2">
+      <relation target="n10_hsa2" sidePair="left-left"/>
+    </image>
+    <image id="n11_hsa2" name="n11" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="537,90" group="n19_hsa2">
+      <relation target="n12_hsa2" sidePair="right-left"/>
+    </image>
+    <richtext id="n10_hsa2" name="jnnn" xy="433,98" size="101,25" group="n19_hsa2" fontSize="16" color="#ffffff" text="可获得元宝：">
+      <relation target="n11_hsa2" sidePair="right-left"/>
+    </richtext>
+    <richtext id="n7_hsa2" name="lbPro" xy="518,43" size="110,25" group="n19_hsa2" fontSize="16" color="#ffffff" align="right" text="完成任务：1/2">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <richtext id="n9_hsa2" name="lbBuff" xy="518,69" size="110,25" group="n19_hsa2" fontSize="16" color="#ffffff" align="right" text="完成任务：1/2">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <richtext id="n12_hsa2" name="lbAwards" xy="569,98" size="59,25" group="n19_hsa2" fontSize="16" color="#f0c711" align="right" text="123123">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <richtext id="n17_hsa2" name="n17" xy="146,675" size="347,28" group="n19_hsa2" fontSize="18" color="#66ff00" text="完成任务可增值元宝，活动结束后邮件发放"/>
+    <richtext id="n47_hgo3" name="lbTime" xy="501,18" size="127,25" group="n19_hsa2" fontSize="16" color="#ffffff" align="right" text="活动时间:123123">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <component id="n14_hsa2" name="tab0" src="6hpm3ft" fileName="组件/TabButton2.xml" pkg="jvxpx9em" xy="369,131" size="144,58" group="n19_hsa2" scale="0.85,0.85">
+      <Button title="银猪送财"/>
+    </component>
+    <component id="n15_hsa2" name="tab1" src="6hpm3ft" fileName="组件/TabButton2.xml" pkg="jvxpx9em" xy="513,131" group="n19_hsa2" scale="0.85,0.85">
+      <Button title="金猪送财"/>
+    </component>
+    <list id="n16_hsa2" name="n16" xy="7,212" size="622,444" group="n19_hsa2" overflow="scroll" defaultItem="ui://w5ll6n5jhsa2g">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n19_hsa2" name="page2" xy="0,0" size="657,703" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

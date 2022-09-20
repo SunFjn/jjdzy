@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="zyx92gzw" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="tht40" name="ViewWuJiangPanel.xml" path="/组件/" exported="true"/>
+    <component id="tht41" name="ChildWuJiangUpJie.xml" path="/组件/武将/" exported="true"/>
+    <component id="tht42" name="ChildWuJiangUpStar.xml" path="/组件/武将/" exported="true"/>
+    <component id="tht43" name="ChildWuJiangJYin.xml" path="/组件/武将/" exported="true"/>
+    <component id="tht44" name="VWuJiangSkill.xml" path="/组件/武将/" exported="true"/>
+    <component id="tht45" name="VWuJiangGrid.xml" path="/组件/武将/" exported="true"/>
+    <image id="l0xe7" name="title.png" path="/image/" exported="true"/>
+    <image id="l0xeb" name="武将材料底.png" path="/image/" exported="true"/>
+    <image id="l0xex" name="出战中.png" path="/image/" exported="true"/>
+    <image id="l0xey" name="分解按钮.png" path="/image/" exported="true"/>
+    <component id="phli10" name="VWuJiangJYin.xml" path="/组件/武将/" exported="true"/>
+    <image id="phli15" name="头像阴影.png" path="/image/" exported="true"/>
+    <image id="kaqa22" name="头像星星背景.png" path="/image/" exported="true"/>
+    <image id="pr1u2l" name="按钮出战中.png" path="/image/" exported="true"/>
+    <image id="pr1u2m" name="出战按钮.png" path="/image/" exported="true"/>
+    <image id="pxaa36" name="技能名字框.png" path="/image/" exported="true"/>
+    <image id="sn5v37" name="打造材料.png" path="/image/" exported="true"/>
+    <component id="eqmk38" name="ChildShiZhuang.xml" path="/组件/武将/" exported="true"/>
+    <component id="ke3i39" name="ItemSZ.xml" path="/组件/武将/" exported="true"/>
+    <image id="z7r83a" name="BmG_3.png" path="/image/" exported="true"/>
+    <image id="ur843b" name="敬请期待.png" path="/image/" exported="true"/>
+    <image id="ur843c" name="已穿戴.png" path="/image/" exported="true"/>
+    <image id="ur843d" name="穿戴.png" path="/image/" exported="true"/>
+    <image id="tbzv3e" name="已穿戴(1).png" path="/image/" exported="true"/>
+    <component id="by8m3i" name="ChildWuJiangJiBan.xml" path="/组件/武将/" exported="true"/>
+    <component id="7xjx3j" name="ViewWuJShiZPanel.xml" path="/组件/武将/" exported="true"/>
+    <image id="7xjx3k" name="时装图标.png" path="/image/" exported="true"/>
+    <image id="jxbq3l" name="神将之力icon.png" path="/image/"/>
+    <component id="jxbq3m" name="View_WuJiangZhiLi.xml" path="/组件/武将/" exported="true"/>
+    <component id="u7vv3n" name="Child_ZSGodWeapon_UpStar.xml" path="/组件/专属神兵/" exported="true"/>
+    <component id="u7vv3p" name="Child_ZSGodWeapon_CuiLian.xml" path="/组件/专属神兵/" exported="true"/>
+    <image id="u7vv3r" name="3101.png" path="/image/" exported="true"/>
+    <image id="u7vv3t" name="神铁.png" path="/image/专属神兵/" exported="true"/>
+    <image id="u7vv3u" name="玄铁.png" path="/image/专属神兵/" exported="true"/>
+    <image id="u7vv3v" name="陨铁.png" path="/image/专属神兵/" exported="true"/>
+    <image id="u7vv3w" name="7001.png" path="/image/专属神兵/" exported="true"/>
+    <image id="hi633x" name="专属图标.png" path="/image/专属神兵/" exported="true"/>
+    <component id="hi633y" name="VZSGodWeaponGrid.xml" path="/组件/专属神兵/打造神兵/" exported="true"/>
+    <image id="hi6340" name="淬炼背景.jpg" path="/image/专属神兵/"/>
+    <component id="hi6342" name="View_ZSGodWeaponSuit_Panel.xml" path="/组件/专属神兵/" exported="true"/>
+    <image id="hi6343" name="经验.png" path="/image/专属神兵/" exported="true"/>
+    <image id="m4uj44" name="等级.png" path="/image/专属神兵/" exported="true"/>
+    <component id="m4uj45" name="Child_GodWeapon_DuanZao.xml" path="/组件/专属神兵/打造神兵/" exported="true"/>
+    <component id="m4uj46" name="ViewGodWeaponReward.xml" path="/组件/专属神兵/打造神兵/" exported="true"/>
+    <component id="m4uj47" name="VGodWeaponPoint.xml" path="/组件/专属神兵/打造神兵/" exported="true"/>
+    <image id="m4uj4b" name="神匠图标.png" path="/image/专属神兵/" exported="true"/>
+    <image id="m4uj4c" name="铁毡.png" path="/image/专属神兵/" exported="true"/>
+    <component id="p5r74d" name="VTipGodWeaponJiHuo.xml" path="/组件/专属神兵/" exported="true"/>
+    <image id="eq414e" name="套装背景.png" path="/image/"/>
+    <component id="eq414g" name="VWuJiangSkillS.xml" path="/组件/武将/"/>
+    <image id="o65r4h" name="折扣小标签.png" path="/image/专属神兵/" exported="true"/>
+    <image id="h6e14i" name="气泡框.png" path="/image/专属神兵/" exported="true"/>
+    <component id="nlyo4j" name="ChildGodWuJiang.xml" path="/组件/神将/" exported="true"/>
+    <component id="nlyo4k" name="ViewGodWuJiangInnate.xml" path="/组件/神将/" exported="true"/>
+    <component id="nlyo4l" name="ChildGodWuJiangXiuLian.xml" path="/组件/神将/" exported="true"/>
+    <component id="nlyo4m" name="ChildGodWuJiangView.xml" path="/组件/神将/" exported="true"/>
+    <image id="nlyo4o" name="修炼战力+.png" path="/image/" exported="true"/>
+    <image id="nlyo4p" name="神将图标.png" path="/image/" exported="true"/>
+    <image id="nlyo4q" name="神将天赋图标.png" path="/image/" exported="true"/>
+    <image id="nlyo4s" name="修炼背景.jpg" path="/image/"/>
+    <image id="nlyo4t" name="line.png" path="/image/"/>
+    <image id="nlyo4u" name="神将技能.png" path="/image/" exported="true"/>
+    <image id="nlyo4v" name="卫星.png" path="/image/" exported="true"/>
+    <component id="f00b4x" name="WuJiangZhiLiMainView.xml" path="/组件/武将/" exported="true"/>
+    <component id="f00b4y" name="ChildWuJiangZhiLiSkillUp.xml" path="/组件/武将/" exported="true"/>
+    <image id="1160m4z" name="point.png" path="/image/专属神兵/" exported="true"/>
+    <image id="cytpm51" name="技能名称底.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="wuJiang" genCode="true" npot="true" excluded="z7r83a,hi6340,hi6343,nlyo4s,nlyo4t"/>
+</packageDescription>

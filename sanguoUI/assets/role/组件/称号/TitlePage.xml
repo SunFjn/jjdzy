@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="44,159">
+  <displayList>
+    <loader id="n2_p6mw" name="img" xy="0,0" size="44,159" url="ui://3tzqotadp6mw3x"/>
+    <image id="n3_9gwz" name="imgSelected" src="p6mw3z" fileName="image/称号底选中.png" xy="-8,-8" visible="false"/>
+    <image id="n4_9gwz" name="imgNotice" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="30,5"/>
+    <richtext id="n5_9gwz" name="lbName" xy="5,11" size="35,136" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="我是"/>
+  </displayList>
+</component>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,650">
+  <controller name="c1" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <loader id="n6_qftx" name="bgImg" xy="0,0" size="100,100"/>
+    <image id="n1_qftx" name="n1" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="18,127" size="267,27"/>
+    <richtext id="n2_qftx" name="labTime" xy="17,129" size="165,25" touchable="false" fontSize="18" color="#2ff10f" text="剩余时间：10:10:10"/>
+    <image id="n3_qftx" name="n3" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="18,152" size="267,27"/>
+    <richtext id="n4_qftx" name="tipsTxt" xy="17,154" size="350,25" touchable="false" fontSize="18" color="#ffffff" text="活动期间充值（500/1000）元可激活次返利"/>
+    <list id="n5_qftx" name="list" xy="0,185" size="638,452" overflow="scroll" lineGap="3" defaultItem="ui://07jsdu7hqftx3" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_qftx" name="tab0" src="6hpm3ft" fileName="组件/TabButton2.xml" pkg="jvxpx9em" xy="23,50">
+      <Button checked="true" title="全民BOSS" controller="c1" page="0"/>
+    </component>
+    <component id="n8_qftx" name="tab1" src="6hpm3ft" fileName="组件/TabButton2.xml" pkg="jvxpx9em" xy="176,50">
+      <Button title="三国战神" controller="c1" page="1"/>
+    </component>
+    <component id="n9_qftx" name="tab2" src="6hpm3ft" fileName="组件/TabButton2.xml" pkg="jvxpx9em" xy="330,50">
+      <Button title="南征北战" controller="c1" page="2"/>
+    </component>
+    <component id="n10_qftx" name="tab3" src="6hpm3ft" fileName="组件/TabButton2.xml" pkg="jvxpx9em" xy="486,50">
+      <Button title="每日任务" controller="c1" page="3"/>
+    </component>
+  </displayList>
+</component>

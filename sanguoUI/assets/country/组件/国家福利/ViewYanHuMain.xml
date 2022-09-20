@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="620,768">
+  <displayList>
+    <loader id="n4_eeiw" name="bgImg" xy="0,0" size="620,768" url="ui://jvxpx9emm3513bg"/>
+    <image id="n0_eeiw" name="n0" src="gsdl3cn" fileName="image1/战力底1.png" pkg="jvxpx9em" xy="177,150" scale="0.5,0.5"/>
+    <image id="n1_eeiw" name="n1" src="zftk3f" fileName="image/其他/奖励一览.png" xy="195,150"/>
+    <image id="n3_eeiw" name="n3" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="610,148"/>
+  </displayList>
+</component>

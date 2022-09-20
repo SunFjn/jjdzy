@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,380" remark="提示">
+  <displayList>
+    <component id="n1_7cuy" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,380" locked="true">
+      <Label title="提示"/>
+    </component>
+    <image id="n16_7cuy" name="n16" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="28,72" size="537,178" locked="true">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <loader id="n9_7cuy" name="moneyIcon0" xy="192,169" size="30,30" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <loader id="n11_7cuy" name="moneyIcon1" xy="313,169" size="30,30" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <richtext id="n5_7cuy" name="n5" xy="210,96" size="173,31" fontSize="23" color="#ffffff" autoSize="none" text="当前非顶级矿藏">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n6_7cuy" name="n6" xy="167,127" size="258,34" fontSize="23" color="#ffffff" text="玉矿满采资源最高可获得">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n10_7cuy" name="moneyLb0" xy="228,169" size="53,31" fontSize="20" color="#ffffff" leading="0" text="1000"/>
+    <richtext id="n12_7cuy" name="moneyLb1" xy="347,169" size="53,31" fontSize="20" color="#ffffff" leading="0" text="1000"/>
+    <richtext id="n13_7cuy" name="n13" xy="213,205" size="167,28" fontSize="18" color="#00ff00" align="center" text="且被抢夺不会有损失">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n14_7cuy" name="openBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="365,282">
+      <Button title="刷新矿藏"/>
+    </component>
+    <component id="n15_7cuy" name="startBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="99,282">
+      <Button title="仍然开采"/>
+    </component>
+  </displayList>
+</component>

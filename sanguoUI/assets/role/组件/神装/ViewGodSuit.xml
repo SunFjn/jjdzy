@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="470,436">
+  <displayList>
+    <component id="n16_cld8" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,0" size="470,436"/>
+    <image id="n18_cld8" name="n18" src="jkp64z" fileName="image1/Bg4.png" pkg="jvxpx9em" xy="8,101" size="453,271"/>
+    <text id="n0_p87f" name="labTitle" xy="112,28" size="139,35" fontSize="24" color="#ffffff" autoClearText="true" text="神装收集2阶"/>
+    <text id="n2_p87f" name="labPower" xy="112,65" size="109,28" fontSize="18" color="#ffc334" autoClearText="true" text="战力+10000"/>
+    <text id="n3_p87f" name="labCur" xy="47,124" size="95,28" fontSize="18" color="#ffc334" autoClearText="true" text="当前阶段："/>
+    <text id="n4_p87f" name="labAttrCur" xy="47,153" size="87,78" fontSize="18" color="#ffffff" autoClearText="true" text="气血+100&#xA;防御+100&#xA;防御+100"/>
+    <text id="n5_p87f" name="labNeedCur" xy="141,124" size="106,28" fontSize="18" color="#ffffff" autoClearText="true" text="全身身装1阶"/>
+    <text id="n10_ey4i" name="labNext" xy="47,233" size="95,28" fontSize="18" color="#ffc334" autoClearText="true" text="下一阶段："/>
+    <text id="n11_ey4i" name="labAttrNext" xy="47,262" size="87,78" fontSize="18" color="#00ff00" autoClearText="true" text="气血+100&#xA;防御+100&#xA;防御+100"/>
+    <text id="n12_ey4i" name="labNeedNext" xy="141,233" size="106,28" fontSize="18" color="#ffffff" autoClearText="true" text="全身身装1阶"/>
+    <image id="n15_cld8" name="n15" src="n7sj2f" fileName="image/神装套装效果.png" xy="22,18"/>
+    <component id="n17_cld8" name="btnUp" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="164,370">
+      <Button title="升阶"/>
+    </component>
+    <image id="n19_roqq" name="n19" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="52,384" group="n21_roqq"/>
+    <richtext id="n20_roqq" name="n20" xy="177,374" size="116,35" group="n21_roqq" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满阶"/>
+    <group id="n21_roqq" name="boxMax" xy="52,374" size="366,35" advanced="true"/>
+  </displayList>
+</component>

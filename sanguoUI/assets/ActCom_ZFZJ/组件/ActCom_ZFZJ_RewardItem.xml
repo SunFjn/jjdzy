@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="564,97">
+  <displayList>
+    <image id="n5_r3je" name="n5" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="564,97"/>
+    <image id="n9_r3je" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="408,28"/>
+    <richtext id="n6_r3je" name="levelLb" xy="25,31" size="56,31" fontSize="20" color="#ffffff" align="center" autoSize="none" text="1级"/>
+    <component id="n8_r3je" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="402,17">
+      <Button title="领取"/>
+    </component>
+    <list id="n7_r3je" name="list" xy="110,7" size="317,102" scale="0.8,0.8" layout="row" overflow="hidden" defaultItem="ui://jvxpx9emetorm" align="right">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

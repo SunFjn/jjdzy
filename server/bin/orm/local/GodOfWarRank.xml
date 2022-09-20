@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.godOfWar.model.GodOfWarRank" tbname="godOfWarRank">
+			<index field="hid" type="prikey"/>
+			<col field="hid" type="bigint" pf="all" comment="玩家id"/>
+			<col field="name" type="varchar" len="100" pf="all" comment="玩家名称"/>
+			<col field="official" type="int" pf="all" comment="官衔"/>
+			<col field="job" type="int" pf="all" comment="职业"/>
+			<col field="country" type="int" pf="all" comment="国家"/>
+			<col field="level" type="int" pf="all" comment="等级"/>
+			<col field="vipLevel" type="int" pf="all" comment="vip等级"/>
+			<col field="strength" type="bigint" pf="all" comment="战力"/>
+			<col field="ranking" type="int" pf="all" comment="排行"/>
+			<col field="robotId" type="int" pf="all" comment="机器人id"/>
+			<col field="icon" type="int" pf="all" comment="头像"/>
+			<col field="frame" type="int" pf="all" comment="头像框"/>
+			<col field="zoneid" type="int" pf="all" comment="区号"/>
+			<col field="titleId" type="int" pf="all" comment="称号"/>
+			<col field="bodyid" type="int" pf="all" comment="时装"/>
+			<col field="createJob" type="int" pf="all" comment="创号时的职业"/>
+			<col field="godWeapon" type="int" pf="all" comment="专属神兵"/>
+			<col field="reincarnationLevel" type="int" pf="all" comment="轮回等级"/>
+			<col field="mountId" type="int" pf="all" comment="坐骑"/>
+     </tb>
+</tbs>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n14_jb04" name="bg1" src="d2iu9v" fileName="新组建/ViewBg1.xml" xy="0,0"/>
+    <image id="n15_jb04" name="n15" src="i6im6i" fileName="image1/胜利.png" xy="226,18"/>
+    <image id="n16_jb04" name="n16" src="i6im6g" fileName="image1/获得奖励.png" xy="263,265" group="n19_jb04"/>
+    <image id="n17_jb04" name="n17" src="irr13gw" fileName="image1/tit.png" xy="226,272" group="n19_jb04"/>
+    <image id="n18_jb04" name="n18" src="irr13gw" fileName="image1/tit.png" xy="396,272" group="n19_jb04"/>
+    <group id="n19_jb04" name="n19" xy="226,265" size="187,28" advanced="true" collapsed="true">
+      <relation target="n22_hfm3" sidePair="top-bottom"/>
+    </group>
+    <list id="n20_kpxy" name="list" xy="102,300" size="436,467" layout="flow_hz" overflow="scroll" lineGap="10" colGap="16" lineItemCount="3" defaultItem="ui://jvxpx9emetorn" align="center">
+      <relation target="n22_hfm3" sidePair="top-bottom"/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n21_vxzz" name="lbTip" xy="236,765" size="167,25" visible="false" fontSize="18" color="#ffffff" text="奖励已通过邮件发放"/>
+    <richtext id="n22_hfm3" name="txtXieZhu" xy="130,218" pivot="0.5,0" size="379,29" fontSize="22" color="#ffcc00" align="center" leading="7" autoClearText="true" text="您击败了驻守汉中的【蜀国】丢你雷姆"/>
+    <component id="n13_som1" name="btnClose" src="y1z8l" fileName="组件/Button1.xml" xy="248,801">
+      <Button title="离开"/>
+    </component>
+  </displayList>
+</component>

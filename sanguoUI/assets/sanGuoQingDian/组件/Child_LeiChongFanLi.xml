@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,929" opaque="false">
+  <displayList>
+    <loader id="n0_mq0c" name="backImg" xy="0,280" size="640,649" url="ui://kdt501v2mq0c1h"/>
+    <loader id="n1_mq0c" name="rewardBackImg" xy="290,484" size="370,381" url="ui://kdt501v2mq0c1g"/>
+    <list id="n2_mq0c" name="list" xy="61,567" size="232,305" overflow="scroll" clipSoftness="10,10" defaultItem="ui://kdt501v2mq0c1m">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_mq0c" name="upGrad" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="403,769">
+      <Button title="立即充值"/>
+    </component>
+    <component id="n4_h9gs" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="356,596" scale="0.8,0.8"/>
+    <component id="n5_h9gs" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="435,596" scale="0.8,0.8"/>
+    <component id="n6_h9gs" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="513,596" scale="0.8,0.8"/>
+    <component id="n10_h9gs" name="grid3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="356,676" scale="0.8,0.8"/>
+    <component id="n11_h9gs" name="grid4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="435,676" scale="0.8,0.8"/>
+    <component id="n12_h9gs" name="grid5" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="513,676" scale="0.8,0.8"/>
+    <text id="n13_iwpd" name="desc" xy="421,832" size="109,31" fontSize="20" align="center" vAlign="middle" ubb="true" text="已充值80元"/>
+    <text id="n14_iwpd" name="txtLeftTime" xy="0,886" size="640,27" fontSize="20" color="#33ff00" align="center" vAlign="middle" autoSize="none" text="11111111111111111111"/>
+    <image id="n16_q1k4" name="ylq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="412,777"/>
+    <text id="n17_7wfm" name="lbTitle" xy="381,510" size="189,32" font="_sans" fontSize="23" color="#ffff00" align="center" autoSize="none" bold="true" text="丰厚豪礼&#xA;"/>
+  </displayList>
+</component>

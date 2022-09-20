@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="w5ll6n5j" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="6hpm0" name="ViewShaoZhuAct.xml" path="/组件/" exported="true"/>
+    <image id="6hpm2" name="4507.png" path="/image/" exported="true"/>
+    <component id="6hpm4" name="ChildShaoZhuTarget.xml" path="/组件/目标/" exported="true"/>
+    <component id="6hpm5" name="ItemShaoZhuTarget.xml" path="/组件/目标/" exported="true"/>
+    <component id="ykxm6" name="ChildShaoZhuLJCZ.xml" path="/组件/累冲/" exported="true"/>
+    <component id="ykxm9" name="ChildShaoZhuDanBi.xml" path="/组件/单笔/" exported="true"/>
+    <component id="ykxmc" name="ItemSaoZhuDB.xml" path="/组件/单笔/" exported="true"/>
+    <component id="hsa2d" name="ViewShaoZhuActSingleLog.xml" path="/组件/单笔/" exported="true"/>
+    <component id="hsa2e" name="DBLabel.xml" path="/组件/单笔/" exported="true"/>
+    <component id="hsa2f" name="ChildShaoZhuPig.xml" path="/组件/金猪/" exported="true"/>
+    <component id="hsa2g" name="ItemPig.xml" path="/组件/金猪/" exported="true"/>
+    <component id="hsa2h" name="ChildShaoZhuHongBao.xml" path="/组件/红包/" exported="true"/>
+    <component id="hsa2i" name="HongBaoLabel.xml" path="/组件/红包/" exported="true"/>
+    <image id="pdzwl" name="第一天.png" path="/image/" exported="true"/>
+    <image id="pdzwm" name="第七天.png" path="/image/" exported="true"/>
+    <image id="pdzwn" name="第三天.png" path="/image/" exported="true"/>
+    <image id="pdzwo" name="第二天.png" path="/image/" exported="true"/>
+    <image id="pdzwp" name="第五天.png" path="/image/" exported="true"/>
+    <image id="pdzwq" name="第六天.png" path="/image/" exported="true"/>
+    <image id="pdzwr" name="第四天.png" path="/image/" exported="true"/>
+    <image id="hgo3z" name="10倍.png" path="/image/" exported="true"/>
+    <image id="hgo310" name="20倍.png" path="/image/" exported="true"/>
+    <image id="hxx516" name="按钮.png" path="/image/" exported="true"/>
+    <image id="hxx517" name="按钮-未选中.png" path="/image/" exported="true"/>
+    <image id="hxx51a" name="转盘-中间按钮.png" path="/image/" exported="true"/>
+    <image id="hxx51c" name="钥匙.png" path="/image/" exported="true"/>
+    <image id="hxx51e" name="yuanbao1.png" path="/image/" exported="true"/>
+    <image id="hxx51f" name="yuanbao2.png" path="/image/" exported="true"/>
+    <image id="hxx51g" name="yuanbao3.png" path="/image/" exported="true"/>
+    <image id="hxx51h" name="yuanbao4.png" path="/image/" exported="true"/>
+    <image id="hxx51i" name="yuanbao5.png" path="/image/" exported="true"/>
+    <image id="hxx51j" name="yuanbao6.png" path="/image/" exported="true"/>
+    <image id="hxx51k" name="8倍元宝.png" path="/image/" exported="true"/>
+    <image id="hxx51l" name="10倍元宝.png" path="/image/" exported="true"/>
+    <image id="hxx51n" name="转盘-hover2.png" path="/image/" exported="true"/>
+    <component id="jhq01o" name="ViewShaoZhuActAwards.xml" path="/组件/单笔/" exported="true"/>
+    <image id="jhq01p" name="少主活动标题.png" path="/image/" exported="true"/>
+    <component id="m02f1t" name="ShaoZhuTab2.xml" path="/组件/累冲/" exported="true"/>
+    <component id="foqs1v" name="ChildShaoZhuQYRank.xml" path="/组件/祈愿排名/" exported="true"/>
+    <component id="foqs1w" name="QiYuanListGrid.xml" path="/组件/祈愿排名/" exported="true"/>
+    <component id="foqs1y" name="ItemShaoZhuQyRank1.xml" path="/组件/祈愿排名/" exported="true"/>
+    <component id="foqs1z" name="ItemShaoZhuQyRank2.xml" path="/组件/祈愿排名/" exported="true"/>
+    <image id="u7hu21" name="名字.png" path="/image/" exported="true"/>
+    <image id="u7hu22" name="排名.png" path="/image/" exported="true"/>
+    <image id="u7hu23" name="虚位以待.png" path="/image/" exported="true"/>
+    <image id="et0424" name="祈愿次数.png" path="/image/" exported="true"/>
+    <image id="k8x025" name="第11-20名.png" path="/image/" exported="true"/>
+    <image id="k8x026" name="第4-10名.png" path="/image/" exported="true"/>
+    <image id="ze8t27" name="第1名.png" path="/image/" exported="true"/>
+    <image id="ze8t28" name="第2名.png" path="/image/" exported="true"/>
+    <image id="ze8t29" name="第3名.png" path="/image/" exported="true"/>
+    <component id="ze8t2a" name="ItemShaoZhuQyRank.xml" path="/组件/祈愿排名/" exported="true"/>
+    <component id="ze8t2b" name="ViewShaoZhuQYRank.xml" path="/组件/祈愿排名/" exported="true"/>
+  </resources>
+  <publish name="shaozhuAct" genCode="true" npot="true" excluded="6hpm2"/>
+</packageDescription>

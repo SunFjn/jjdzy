@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="560,621">
+  <displayList>
+    <list id="n25_iv4o" name="list" xy="0,0" size="560,590" overflow="scroll" lineGap="2" defaultItem="ui://z4ijxlqkiv4or" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n26_iv4o" name="jifenLb" xy="17,593" size="77,28" fontSize="18" color="#ff9933" align="center" text="当前积分"/>
+  </displayList>
+</component>

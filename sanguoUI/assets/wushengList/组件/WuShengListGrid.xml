@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,92">
+  <displayList>
+    <component id="n12_oo0o" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="6,2" aspect="true" scale="0.8,0.8"/>
+    <component id="n14_bubc" name="rewardBt0" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="0,0" size="90,92" group="n19_tv5m" touchable="false">
+      <Button icon="ui://a8l39nm9bubcs"/>
+    </component>
+    <image id="n13_bubc" name="rewardImg0" src="bubcr" fileName="image/大奖.png" xy="7,5" group="n19_tv5m"/>
+    <group id="n19_tv5m" name="rewardGroup0" xy="0,0" size="90,92" visible="false" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

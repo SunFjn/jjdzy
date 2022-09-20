@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="127,341">
+  <displayList>
+    <component id="n1_qb9y" name="bgBtn" src="y1z8b" fileName="新组建/Button0.xml" pkg="jvxpx9em" xy="0,0" group="n7_qb9y">
+      <Button title="切换背景"/>
+    </component>
+    <component id="n3_qb9y" name="arena" src="y1z8b" fileName="新组建/Button0.xml" pkg="jvxpx9em" xy="0,58" group="n7_qb9y">
+      <Button title="PVP"/>
+    </component>
+    <component id="n4_qb9y" name="rideEnterBtn" src="y1z8b" fileName="新组建/Button0.xml" pkg="jvxpx9em" xy="0,116" group="n7_qb9y">
+      <Button title="骑马乱撞"/>
+    </component>
+    <component id="n5_qb9y" name="btnBreak" src="y1z8b" fileName="新组建/Button0.xml" pkg="jvxpx9em" xy="0,174" group="n7_qb9y">
+      <Button title="受击"/>
+    </component>
+    <component id="n6_qb9y" name="hiboxOptionBtn" src="y1z8b" fileName="新组建/Button0.xml" pkg="jvxpx9em" xy="0,232" group="n7_qb9y">
+      <Button title="碰撞显示"/>
+    </component>
+    <component id="n8_qb9y" name="closeBtn" src="y1z8b" fileName="新组建/Button0.xml" pkg="jvxpx9em" xy="0,290" group="n7_qb9y">
+      <Button title="关闭"/>
+    </component>
+    <group id="n7_qb9y" name="gg" xy="0,0" size="127,341" advanced="true" layout="vt" lineGap="7"/>
+  </displayList>
+</component>

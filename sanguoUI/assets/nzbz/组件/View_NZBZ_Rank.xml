@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,757">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n10_som1" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,703">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearText controller="c1" pages="0" values="个人排行" default="国家排行"/>
+      <Label title="国家排行"/>
+    </component>
+    <component id="n33_l3h3" name="n33" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,697">
+      <Button checked="true" title="国家排名" controller="c1" page="1"/>
+    </component>
+    <component id="n32_l3h3" name="n32" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,698">
+      <Button title="个人排名" controller="c1" page="0"/>
+    </component>
+    <richtext id="n34_l3h3" name="n34" xy="83,663" size="425,28" fontSize="18" color="#15f234" align="center" autoSize="none" text="奖励每周一0点发放，并重置积分"/>
+    <component id="n16_som1" name="item0" src="l3h3b" fileName="组件/Child_NZBZ_MyRank.xml" xy="13,71">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n35_l3h3" name="item1" src="l3h3f" fileName="组件/Child_Country_Rank.xml" xy="7,65">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+</component>

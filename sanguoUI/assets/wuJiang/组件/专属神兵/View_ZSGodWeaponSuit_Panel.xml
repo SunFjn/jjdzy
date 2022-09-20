@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,715">
+  <displayList>
+    <component id="n0_hi63" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,715">
+      <Label title="神兵专属"/>
+    </component>
+    <image id="n8_hi63" name="n8" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="28,296" size="536,305"/>
+    <component id="n2_hi63" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="177,70" touchable="false"/>
+    <richtext id="n3_hi63" name="levelLb" xy="222,132" size="139,35" fontSize="24" color="#ffff00" text="专属等级：1"/>
+    <loader id="n5_hi63" name="n5" xy="346,179" size="96,96" url="ui://zyx92gzwz7r83a"/>
+    <component id="n6_hi63" name="wujiangGrid" src="tht45" fileName="组件/武将/VWuJiangGrid.xml" xy="140,165" touchable="false"/>
+    <component id="n7_hi63" name="weaponGrid" src="hi633y" fileName="组件/专属神兵/打造神兵/VZSGodWeaponGrid.xml" xy="337,165" touchable="false"/>
+    <component id="n9_hi63" name="godBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="231,627">
+      <Button title="升级"/>
+    </component>
+    <richtext id="n10_hi63" name="nextLb" xy="54,455" size="308,31" group="n13_hi63" touchable="false" fontSize="20" color="#ffffff" leading="0" ubb="true" vars="true" text="[color=#FFC334]下一阶段[/color]  {des=全身强化+150} {state=[color=#16f60b](已激活)[/color]}"/>
+    <richtext id="n11_hi63" name="nextAttLb" xy="54,492" size="98,96" group="n13_hi63" touchable="false" fontSize="18" color="#999999" leading="10" ubb="true" text="攻击+1000&#xA;攻击+1000&#xA;攻击+1000"/>
+    <image id="n12_hi63" name="n12" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="35,464" group="n13_hi63"/>
+    <group id="n13_hi63" name="nextGroup" xy="35,455" size="327,133" advanced="true" collapsed="true"/>
+    <image id="n14_hi63" name="n14" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="35,315" group="n17_hi63"/>
+    <richtext id="n15_hi63" name="curLb" xy="55,306" size="308,31" group="n17_hi63" touchable="false" fontSize="20" color="#ffffff" leading="0" ubb="true" vars="true" text="[color=#FFC334]当前阶段[/color]  {des=全身强化+150} {state=[color=#16f60b](已激活)[/color]}"/>
+    <richtext id="n16_hi63" name="curAttLb" xy="55,340" size="98,96" group="n17_hi63" touchable="false" fontSize="18" color="#00ff00" leading="10" ubb="true" text="攻击+1000&#xA;攻击+1000&#xA;攻击+1000"/>
+    <group id="n17_hi63" name="curGroup" xy="35,306" size="328,130" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

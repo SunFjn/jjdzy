@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.sevenDayRecharge.SevenDayRecharge" tbname="sevenDayRecharge">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="todayRecharge" type="int" pf="all" comment="今日充值元"/>
+			<col field="reward" type="text" pf="all" comment="奖励状态"/>
+     </tb>
+</tbs>

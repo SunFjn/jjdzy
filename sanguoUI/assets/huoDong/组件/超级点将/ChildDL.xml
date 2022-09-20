@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="128,133">
+  <displayList>
+    <image id="n12_wuzz" name="n12" src="wuzzy" fileName="image/填充底.png" xy="10,5"/>
+    <image id="n1_hfv1" name="imgNotice" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="105,4"/>
+    <component id="n4_hfv1" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="16,11" pivot="0.5,0.5" scale="0.74,0.74"/>
+    <loader id="n6_luu2" name="imgHead" xy="8,10" pivot="0.5,0.5" size="90,90" url="ui://vrw7je9rwuzzx">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <image id="n5_luu2" name="n5" src="luu2v" fileName="image/牌子.png" xy="0,0"/>
+    <image id="n3_hfv1" name="ylq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="21,15" pivot="0.5,0.5" size="124,40" scale="0.7,0.7" rotation="30"/>
+    <richtext id="n11_wuzz" name="lbName" xy="34,105" size="59,25" fontSize="18" color="#ffffff" align="center" text="小司马">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

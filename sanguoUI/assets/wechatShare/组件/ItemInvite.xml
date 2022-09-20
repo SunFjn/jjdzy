@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="547,147">
+  <displayList>
+    <image id="n0_q09v" name="n0" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="547,147"/>
+    <list id="n3_q09v" name="n3" xy="254,31" size="337,104" scale="0.8,0.8" layout="flow_hz" overflow="scroll" scroll="horizontal" colGap="12" defaultItem="ui://jvxpx9emetorm">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n6_q09v" name="lbpro" xy="35,61" size="93,28" fontSize="18" color="#ffffff" vars="true" text="邀请{0}名好友"/>
+  </displayList>
+</component>

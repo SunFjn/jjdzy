@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="3me6ra11" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="ijvz1" name="BOSS来袭背景.png" path="/image/" exported="true"/>
+    <image id="ijvz2" name="X1.png" path="/image/" exported="true"/>
+    <component id="ijvz3" name="ViewBossTiShi.xml" path="/组件/" exported="true"/>
+    <image id="9m2m4" name="获得奖励底.png" path="/image/" exported="true" scale="9grid" scale9grid="50,258,521,48"/>
+    <component id="9m2m5" name="View_Reward_Show2.xml" path="/组件/" exported="true"/>
+    <component id="ot2y6" name="View_Reward_Show4.xml" path="/组件/" exported="true"/>
+    <component id="s37b6" name="View_Reward_Show1.xml" path="/组件/" exported="true"/>
+    <component id="qid37" name="View_Reward_Show5.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="bossTiShi" genCode="true" npot="true"/>
+</packageDescription>

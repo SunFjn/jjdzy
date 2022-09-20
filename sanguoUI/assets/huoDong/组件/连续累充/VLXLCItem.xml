@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="104,107">
+  <displayList>
+    <component id="n0_ecsa" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="14,0" scale="0.8,0.8"/>
+    <image id="n1_ecsa" name="imgGray" src="ecsa14" fileName="image/活动名称灰底.png" xy="6,73"/>
+    <image id="n2_ecsa" name="imgLig" src="ecsa15" fileName="image/活动名称蓝底.png" xy="6,73"/>
+    <richtext id="n3_ecsa" name="lab" xy="0,79" size="104,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="累充2天"/>
+  </displayList>
+</component>

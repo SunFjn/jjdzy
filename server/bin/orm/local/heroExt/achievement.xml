@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.achievement.model.Achievement" tbname="achievement">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>			
+			<col field="goalPoint" type="int" pf="all" comment="成就点数"/>
+			<col field="goalJie" type="int" pf="all" comment="成就阶数"/>
+			<col field="countMap" type="text" pf="all" comment="统计特殊任务完成度"/>	
+			<col field="rewardMap" type="text" pf="all" comment="成就阶数奖励"/>
+			<col field="goalTaskMap" type="text" pf="all" comment="成就任务奖励"/>
+			<col field="goalNumMap" type="text" pf="all" comment="成就任务完成度"/>		
+     </tb>
+</tbs>

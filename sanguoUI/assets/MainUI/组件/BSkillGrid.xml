@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="109,113" opaque="false" extention="Button">
+  <displayList>
+    <image id="n2_tw1l" name="n2" src="oi0q4o" fileName="image1/大框.png" xy="0,0"/>
+    <loader id="n3_tw1l" name="skillIcon" xy="8,9" size="89,86" align="center" vAlign="middle" fill="scale"/>
+    <image id="n6_oi0q" name="n6" src="oi0q4q" fileName="image1/能量底.png" xy="10,11"/>
+    <image id="n7_oi0q" name="angerBar0" src="orxgb7i" fileName="image1/能量.png" xy="8,7" group="n10_orxg" flip="vt"/>
+    <image id="n9_orxg" name="angerBar1" src="orxgb7g" fileName="image1/能量1.png" xy="52,7" group="n10_orxg"/>
+    <group id="n10_orxg" name="n10" xy="8,7" size="89,89" advanced="true" collapsed="true" layout="hz"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.10"/>
+</component>

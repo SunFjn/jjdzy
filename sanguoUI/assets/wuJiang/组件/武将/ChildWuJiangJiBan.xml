@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="607,771" designImage="ui://zyx92gzwcytpm50" designImageOffsetX="-15" designImageOffsetY="-143">
+  <displayList>
+    <image id="n104_cytp" name="n104" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="4,622" size="601,139" hideByEditor="true"/>
+    <image id="n70_7xjx" name="n70" src="by8m3e3" fileName="image/羁绊图标底.png" pkg="jvxpx9em" xy="79,642"/>
+    <image id="n72_7xjx" name="n72" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="4,144" size="602,225" hideByEditor="true"/>
+    <richtext id="n73_7xjx" name="labNeed" xy="80,588" size="447,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="本羁绊武将全部获取可激活羁绊（0/5）"/>
+    <image id="n74_7xjx" name="n74" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="122,537" group="n76_7xjx"/>
+    <richtext id="n75_7xjx" name="n75" xy="247,527" size="116,35" group="n76_7xjx" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满级"/>
+    <group id="n76_7xjx" name="boxMax" xy="122,527" size="366,35" advanced="true" collapsed="true"/>
+    <component id="n77_7xjx" name="labPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="164,1"/>
+    <list id="n78_7xjx" name="list" xy="50,70" size="504,54" group="n81_7xjx" layout="row" overflow="scroll" scroll="horizontal" colGap="15" defaultItem="ui://jvxpx9emtli03cv" autoItemSize="false" vAlign="bottom">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n79_7xjx" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="-8,70" pivot="0.5,0.5" size="55,63" group="n81_7xjx" scale="-1,1">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n80_7xjx" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="586,101" pivot="0.5,0.5" anchor="true" size="55,63" group="n81_7xjx">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <group id="n81_7xjx" name="n81" xy="-8,70" size="649,94" collapsed="true"/>
+    <richtext id="n83_7xjx" name="labAttrCur" xy="66,404" size="182,100" group="n87_7xjx" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text="攻击+1000&#xA;攻击+1000&#xA;攻击+1000"/>
+    <richtext id="n84_7xjx" name="labAttrNext" xy="386,404" size="182,100" group="n87_7xjx" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text="攻击+1000&#xA;攻击+1000&#xA;攻击+1000"/>
+    <richtext id="n85_7xjx" name="labAttrMax" xy="250,408" size="102,85" group="n87_7xjx" touchable="false" fontSize="18" color="#ffffff" leading="10" text="攻击+1000&#xA;攻击+1000&#xA;攻击+10001"/>
+    <image id="n86_7xjx" name="imgArrow" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="308,455" pivot="0.5,0.5" anchor="true" group="n87_7xjx"/>
+    <group id="n87_7xjx" name="n87" xy="66,404" size="502,109" collapsed="true"/>
+    <richtext id="n89_7xjx" name="lab1" xy="204,642" size="101,31" touchable="false" fontSize="24" color="#f1ab13" text="效果说明"/>
+    <image id="n105_cytp" name="n105" src="cytpm51" fileName="image/技能名称底.png" xy="17,631"/>
+    <list id="n91_7xjx" name="listGrid" xy="18,169" size="591,143" layout="row" overflow="hidden" defaultItem="ui://zyx92gzwtht45" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n92_7xjx" name="labAttr" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="140,374" size="329,31">
+      <Label title="羁绊属性"/>
+    </component>
+    <loader id="n93_7xjx" name="imgName" xy="22,640" size="29,99" align="center"/>
+    <richtext id="n95_7xjx" name="lab2" xy="204,680" size="220,25" touchable="false" fontSize="18" color="#ffffff" text="在PVP战斗中提升50%伤害"/>
+    <richtext id="n97_7xjx" name="lab3" xy="204,713" size="95,25" touchable="false" fontSize="18" color="#11ed20" text="可通过升级"/>
+    <loader id="n98_7xjx" name="imgIcon" xy="89,652" size="80,80" align="center" vAlign="middle"/>
+    <component id="n99_7xjx" name="labName" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="132,149" size="345,31">
+      <Label title="五虎上将" titleFontSize="24"/>
+    </component>
+    <richtext id="n100_7xjx" name="labLevel" xy="84,313" size="447,28" touchable="false" fontSize="18" color="#f2dd0f" align="center" autoSize="none" text="羁绊等级：10"/>
+    <richtext id="n101_7xjx" name="labSM" xy="84,339" size="447,28" touchable="false" fontSize="18" color="#ffffff" align="center" ubb="true" autoSize="none" text="本羁绊每升1级可提升PVP战斗伤害1%"/>
+    <richtext id="n102_7xjx" name="btnExplain" xy="9,587" size="101,31" fontSize="24" color="#11ed20" text="&lt;u>属性说明&lt;/u>"/>
+    <component id="n103_7xjx" name="btnActivity" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="238,518" pivot="0.5,0.5">
+      <Button title="激活"/>
+    </component>
+  </displayList>
+</component>

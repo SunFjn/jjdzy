@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,374">
+  <displayList>
+    <component id="n0_hsa2" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0">
+      <Label title="转盘记录"/>
+    </component>
+    <image id="n2_hsa2" name="n2" src="x3b93cl" fileName="image1/BOSS名字底.png" pkg="jvxpx9em" xy="19,81" size="556,215"/>
+    <component id="n3_hsa2" name="n3" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="232,305">
+      <Button title="确定"/>
+    </component>
+    <component id="n6_hsa2" name="n6" src="ve5s2" fileName="组件/单笔/DBLabel.xml" xy="31,93"/>
+  </displayList>
+</component>

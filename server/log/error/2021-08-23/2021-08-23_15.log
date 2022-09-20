@@ -1,0 +1,11 @@
+2021-08-23 15:22:24.800 [crossChannelEx - 2] ERROR com.teamtop.houtaiHttp.events.manualOpServer.ManualOpServerIO - java.lang.NullPointerException
+	at com.teamtop.houtaiHttp.events.manualOpServer.ManualOpServerIO.sendServerAddressData(ManualOpServerIO.java:283)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.teamtop.netty.handlers.CrossDispatch$3.run(CrossDispatch.java:124)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+sendServerAddressData

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="188,123" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <component id="n0_h0zq" name="part1" src="p3a02d" fileName="组件/tempComp3.xml" xy="2,32"/>
+    <component id="n4_h0zq" name="part2" src="p3a02c" fileName="组件/tempComp2.xml" xy="110,-33"/>
+    <image id="n11_gv7i" name="iconTG" src="r5ge3il" fileName="image/已通关(1).png" xy="10,75" visible="false" pkg="jvxpx9em"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.96"/>
+</component>

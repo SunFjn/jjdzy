@@ -1,0 +1,45 @@
+2020-11-05 09:36:18.037 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000752 name:轩辕乄浮凉openUI countryType=0
+2020-11-05 09:36:19.021 [nioEventLoopGroup-11-2] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-11-05 09:36:27.972 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:36:27.972 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:36:27.972 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:36:27.972 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:36:27.987 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:36:28.206 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:36:28.206 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000752
+2020-11-05 09:36:28.206 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-11-05 09:36:28.785 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000752 name:轩辕乄浮凉openUI countryType=0
+2020-11-05 09:36:32.937 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:39:20.613 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:8
+2020-11-05 09:40:19.492 [nioEventLoopGroup-11-3] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-11-05 09:40:34.248 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:40:34.248 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:40:34.248 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:40:34.248 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:40:34.263 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:40:34.263 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:40:34.263 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000752
+2020-11-05 09:40:34.263 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-11-05 09:40:35.083 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000752 name:轩辕乄浮凉openUI countryType=0
+2020-11-05 09:41:01.482 [nioEventLoopGroup-11-4] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-11-05 09:41:23.547 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:41:23.547 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:41:23.547 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:41:23.547 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:41:23.563 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:41:23.578 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-05 09:41:23.578 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000752
+2020-11-05 09:41:23.578 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-11-05 09:41:24.360 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000752 name:轩辕乄浮凉openUI countryType=0
+2020-11-05 09:50:00.828 [任务线程 - 6] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-05 09:50:00.860 [任务线程 - 6] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-05 09:50:00.860 [任务线程 - 6] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-05 09:50:00.860 [任务线程 - 6] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-05 09:50:00.860 [任务线程 - 6] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-10-26 16:34:28.403 [OpTaskExecutorService-thread-12] WARN  com.teamtop.system.chat.ChatManager - broadCast castNum is error!castNum:2008 广播表还没录
+2020-10-26 16:54:39.930 [OpTaskExecutorService-thread-12] WARN  com.teamtop.system.chat.ChatManager - broadCast castNum is error!castNum:2008 广播表还没录
+2020-11-05 09:51:37.481 [任务线程 - 3] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-05 09:51:37.481 [任务线程 - 3] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-05 09:51:37.481 [任务线程 - 3] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-05 09:51:37.481 [任务线程 - 3] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-05 09:51:37.481 [任务线程 - 3] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null

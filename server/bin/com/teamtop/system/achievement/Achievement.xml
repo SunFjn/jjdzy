@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.achievement.AchievementMapper">
+	<!--更新成就数据-->
+	<update id="update" parameterType="String">
+		${value}
+	</update>
+	
+	<!--获取成就数据-->
+	<select id="findAchievement" parameterType="long" resultType="hashmap">
+	    select * from achievement where hid=${value}
+	</select>	
+</mapper>

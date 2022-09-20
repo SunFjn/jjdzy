@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="455,452" initName="frame">
+  <displayList>
+    <image id="n0_f1cf" name="n0" src="m3513bv" fileName="image/通用底框/tips.png" xy="0,0" size="455,452">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2_f1cf" name="closeButton" src="f1cf49" fileName="组件/closeButton1.xml" xy="385,8" aspect="true" visible="false" touchable="false">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="610,148">
+  <displayList>
+    <image id="n0_zftk" name="n0" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="610,148"/>
+    <image id="n12_zftk" name="n12" src="o9c21a" fileName="image/货币底.png" pkg="ye1luhg3" xy="460,107" size="126,27"/>
+    <image id="n1_zftk" name="small" src="zftk34" fileName="image/宴会/小型宴会.png" xy="22,52"/>
+    <image id="n2_zftk" name="middle" src="zftk39" fileName="image/宴会/中型宴会.png" xy="22,52"/>
+    <image id="n3_zftk" name="big" src="zftk2x" fileName="image/宴会/大型宴会.png" xy="22,52"/>
+    <list id="n5_zftk" name="rewardList" xy="164,49" size="387,102" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="128" margin="0,0,5,50" scrollBarMargin="0,46,0,0" defaultItem="ui://jvxpx9emetorm" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n6_zftk" name="setBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="457,49">
+      <Button title="设 宴"/>
+    </component>
+    <text id="n7_zftk" name="countDesc" xy="457,23" size="128,27" fontSize="20" color="#00cc33" vAlign="middle" ubb="true" text="人数上限: 5人"/>
+    <text id="n8_zftk" name="useCount" xy="509,109" size="44,27" fontSize="20" color="#00cc33" vAlign="middle" ubb="true" text="2/22"/>
+    <image id="n9_zftk" name="three" src="zftk35" fileName="image/宴会/宴会令-道具大.png" xy="460,100" scale="0.4,0.4"/>
+    <image id="n11_zftk" name="two" src="zftk37" fileName="image/宴会/宴会令-道具中.png" xy="460,100" scale="0.4,0.4"/>
+    <image id="n10_zftk" name="one" src="zftk36" fileName="image/宴会/宴会令-道具小.png" xy="460,100" scale="0.4,0.4"/>
+    <image id="n16_zftk" name="n16" src="gsdl3cn" fileName="image1/战力底1.png" pkg="jvxpx9em" xy="238,25" scale="0.5,0.5"/>
+    <image id="n14_zftk" name="n14" src="zftk3f" fileName="image/其他/奖励一览.png" xy="256,25"/>
+  </displayList>
+</component>

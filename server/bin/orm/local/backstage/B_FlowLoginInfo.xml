@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 登陆流水（每次登录）-->
+	<tb model="com.teamtop.system.event.backstage.events.backstage.loginInfo.B_FlowLoginInfo" tbname="b_flowlogininfo">
+		<index field="id" type="prikey"/>
+		<index field="hid" type="normal"/>
+		<index field="logintime" type="normal"/>
+		<index field="pfcode" type="normal"/>
+		<index field="zoneid" type="normal"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="openid" type="varchar" len="100" pf="all" comment="角色账号"/>
+		<col field="level" type="int" pf="all" comment="角色等级"/>
+		<col field="vipLevel" type="int" pf="all" comment="vip等级"/>
+		<col field="zoneid" type="int" pf="all" comment="区号"/>
+		<col field="logintime" type="int" pf="all" comment="登录时间"/>
+		<col field="regtime" type="int" pf="all" comment="注册时间"/>
+		<col field="loginip" type="varchar" len="100" pf="all" comment="登陆ip"/>
+		<col field="loginpfcode" type="varchar" len="255" pf="all" comment="登陆平台代码"/>
+		<col field="pfcode" type="varchar" len="255" pf="all" comment="注册平台代码"/>
+		<col field="usesys" type="varchar" len="255" pf="all" comment="注册系统"/>
+		<col field="loginsys" type="varchar" len="100" pf="all" comment="登陆系统"/>
+		<col field="app_custom" type="varchar" len="255" pf="all" comment="广告标识"/>
+		<col field="totalStrength" type="bigint" pf="all" comment="总战力"/>
+		<col field="reincarnationLevel" type="int" pf="all" comment="六道轮回等级"/>
+		<col field="country" type="varchar" len="100" pf="all" comment="用户国家"/>
+		<col field="region" type="varchar" len="100" pf="all" comment="用户地区"/>		
+	</tb>
+</tbs>

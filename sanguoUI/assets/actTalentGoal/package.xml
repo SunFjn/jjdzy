@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ss8kd9ac" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ewuk1" name="Child_ActTalentGoal.xml" path="/组件/" exported="true"/>
+    <component id="oiu12" name="VActTalentGoalItem.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="actTalentGoal" genCode="true"/>
+</packageDescription>

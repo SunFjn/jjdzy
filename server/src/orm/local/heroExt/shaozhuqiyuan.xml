@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.shaozhuqiyuan.ShaoZhuQiYuan" tbname="shaozhuqiyuan">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="score" type="int" pf="all"  comment="积分 "/>
+			<col field="times" type="int" pf="all"  comment="抽奖次数"/>
+			<col field="scoreAwardStateMap" type="text" pf="all" comment="少主祈愿积分宝箱领奖次数"/>	
+    </tb>
+</tbs>

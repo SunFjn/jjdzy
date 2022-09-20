@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 装备状态流水表 -->
+	<tb model="com.teamtop.system.event.backstage.events.flowEquip.B_FlowEquip" tbname="b_flowequip">
+		<index field="id" type="prikey"/>
+		<index field="hid" type="normal"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="job" type="int" pf="all" comment="穿戴职业，只有穿戴的装备才有值，默认为0"/>
+		<col field="equipId" type="bigint" pf="all" comment="装备唯一id"/>
+		<col field="sysId" type="int" pf="all" comment="装备的系统id"/>
+		<col field="state" type="int" pf="all" comment="状态 1 在背包中  2 在仓库 3 在身上  4 在交易中/市场上 5在当铺 6在邮件"/>
+		<col field="attrAdd" type="int" pf="all" comment="附加属性的系数"/>
+		<col field="bodyIndex" type="int" pf="all" comment="穿戴身上的位置"/>
+		<col field="isadd" type="int" pf="all" comment="增加或减少"/>
+		<col field="reason" type="int" pf="all" comment="操作原因"/>
+		<col field="zoneid" type="int" pf="all" comment="区号"/>
+		<col field="operateTime" type="int" pf="all" comment="操作时间"/>
+	</tb>
+</tbs>

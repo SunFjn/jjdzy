@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="545,123">
+  <controller name="stateCtrl" pages="0,,1,,2," selected="2"/>
+  <displayList>
+    <image id="n2_g7h3" name="n2" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="545,123"/>
+    <richtext id="n3_g7h3" name="tfName" xy="18,11" size="132,30" fontSize="22" color="#ffffff" bold="true" strokeColor="#000000" autoClearText="true" text="每天0点重置"/>
+    <list id="n5_g7h3" name="itemList1" xy="18,41" size="517,109" scale="0.7,0.7" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="1" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_g7h3" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="404,39">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+      <Button title="领取"/>
+    </component>
+    <image id="n8_g7h3" name="imageGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="406,44">
+      <gearDisplay controller="stateCtrl" pages="2"/>
+    </image>
+    <richtext id="n9_g7h3" name="tfLimit" xy="401,52" pivot="0.5,0.5" size="132,30" fontSize="22" color="#ff0000" bold="true" autoClearText="true" text="每天0点重置">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+    </richtext>
+  </displayList>
+</component>

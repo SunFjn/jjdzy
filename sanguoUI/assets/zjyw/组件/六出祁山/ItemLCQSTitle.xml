@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,169">
+  <displayList>
+    <loader id="n0_loov" name="imgBg" xy="0,0" size="640,169"/>
+    <richtext id="n1_loov" name="lbHelpMe" xy="402,105" size="230,31" fontSize="20" color="#ffffff" align="right" autoSize="none" text="今日求助次数：2/20"/>
+    <richtext id="n2_loov" name="lbHelpOth" xy="402,135" size="230,31" fontSize="20" color="#ffffff" align="right" autoSize="none" text="今日帮助次数：2/20"/>
+    <component id="n3_loov" name="btnSM" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="539,17" size="92,83">
+      <Button icon="ui://jvxpx9emw6sh3g4"/>
+    </component>
+  </displayList>
+</component>

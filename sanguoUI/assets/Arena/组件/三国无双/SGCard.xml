@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="186,246">
+  <displayList>
+    <image id="n9_vlmi" name="sg" src="5voq3g5" fileName="image/选中框2.png" pkg="jvxpx9em" xy="0,0" size="186,245"/>
+    <richtext id="n2_608a" name="lbGX" xy="87,128" size="10,28" fontSize="18" color="#ffffff" align="center" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n3_608a" name="lbName" xy="3,160" size="179,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text=""/>
+    <richtext id="n4_608a" name="lbPower" xy="3,192" size="179,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="123213"/>
+    <component id="n8_vlmi" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="33,12"/>
+    <image id="n10_vlmi" name="yxz" src="hfct52" fileName="image/乱世枭雄/已押注标签.png" xy="12,27"/>
+  </displayList>
+</component>

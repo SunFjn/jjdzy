@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="554,257">
+  <displayList>
+    <component id="n0_pb4s" name="frame" src="f1cf4b" fileName="组件/frame2.xml" xy="-2,8" size="556,249">
+      <Label title="天赋技能"/>
+    </component>
+    <component id="n1_pb4s" name="gridSkill" src="l0xet" fileName="新组建/VWuJiangSkillS.xml" xy="58,104" touchable="false"/>
+    <richtext id="n4_pb4s" name="lbDescription" xy="173,118" size="336,28" fontSize="18" color="#ffffff" ubb="true" autoSize="height" text="天赋技能描述"/>
+  </displayList>
+</component>

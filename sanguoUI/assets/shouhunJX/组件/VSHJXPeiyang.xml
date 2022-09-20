@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="598,965">
+  <displayList>
+    <component id="n0_rjpy" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="598,965">
+      <Label title="兽魂培养"/>
+    </component>
+    <component id="n2_rjpy" name="labPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="182,65" touchable="false"/>
+    <component id="n7_rjpy" name="btnZS" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="19,64" size="66,66">
+      <Button icon="ui://jvxpx9emul8t3fk"/>
+    </component>
+    <list id="n9_rjpy" name="list" xy="10,127" size="578,183" layout="row" overflow="hidden" scroll="horizontal" colGap="5" defaultItem="ui://4aepcdbwrjpys">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n10_rjpy" name="n10" xy="34,669" size="296,35" touchable="false" fontSize="24" color="#00ff00" autoSize="none" text="青龙套装: 激活4个青龙印记"/>
+    <richtext id="n11_rjpy" name="txtAttr2" xy="60,704" size="527,31" touchable="false" fontSize="20" color="#ffffff" leading="0" autoSize="none" text=""/>
+    <richtext id="n12_rjpy" name="n12" xy="34,733" size="382,35" touchable="false" fontSize="24" color="#00ff00" autoSize="none" text="青龙套装: 激活4个8星以上青龙印记"/>
+    <richtext id="n13_rjpy" name="txtAttr3" xy="41,765" size="121,31" touchable="false" fontSize="20" color="#cccccc" leading="10" text="sdfsdfsdfsdf"/>
+    <component id="n14_rjpy" name="n14" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="152,548" size="293,33">
+      <Label title="洗练" titleColor="#ffffff" titleFontSize="22"/>
+    </component>
+    <richtext id="n15_rjpy" name="itemName0" xy="16,589" size="87,31" touchable="false" fontSize="20" color="#ff0000" align="right" autoSize="none" text="洗练石"/>
+    <richtext id="n19_rjpy" name="itemName1" xy="16,633" size="87,31" touchable="false" fontSize="20" color="#ffcc00" align="right" autoSize="none" text="洗练锁"/>
+    <component id="n18_rjpy" name="txtMet1" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="105,589" size="156,36"/>
+    <component id="n22_rjpy" name="txtMet2" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="105,635" size="156,36"/>
+    <component id="n26_rjpy" name="btnHand" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="444,633">
+      <Button title="开始洗练"/>
+    </component>
+    <component id="n29_eium" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="294,586" scale="0.85,0.85"/>
+    <component id="n31_sh62" name="compGray" src="sh622t" fileName="组件/tempComp.xml" xy="295,588"/>
+    <image id="n32_jmmn" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="360,583" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <richtext id="n33_tu9m" name="txtAttr5" xy="41,792" size="121,31" touchable="false" fontSize="20" color="#ffcc00" leading="10" text="sdfsdfsdfsdf"/>
+    <richtext id="n35_dm95" name="txtAttr4" xy="295,764" size="121,31" touchable="false" fontSize="20" color="#cccccc" leading="10" text="sdfsdfsdfsdf"/>
+    <richtext id="n36_dm95" name="txtAttr6" xy="295,790" size="121,31" touchable="false" fontSize="20" color="#cccccc" leading="10" text="sdfsdfsdfsdf"/>
+    <image id="n49_l5k5" name="n49" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="14,826" size="569,122"/>
+    <component id="n37_dm95" name="starBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="36,904" size="520,19">
+      <ProgressBar value="150" max="1500"/>
+    </component>
+    <richtext id="n38_dm95" name="starLb" xy="39,828" size="267,31" touchable="false" fontSize="20" color="#ffffff" leading="10" autoSize="none" text="当前印记洗练范围： 3-7星"/>
+    <richtext id="n39_dm95" name="txtShuoMing" xy="476,830" size="85,31" fontSize="20" color="#00ff00" autoSize="none" text="&lt;u>一键升星&lt;/u>"/>
+    <component id="n42_l5k5" name="starBox0" src="l5k54d" fileName="组件/VSHStarItem.xml" xy="23,859"/>
+    <component id="n43_l5k5" name="starBox1" src="l5k54d" fileName="组件/VSHStarItem.xml" xy="73,859"/>
+    <component id="n44_l5k5" name="starBox2" src="l5k54d" fileName="组件/VSHStarItem.xml" xy="124,859"/>
+    <component id="n45_l5k5" name="starBox3" src="l5k54d" fileName="组件/VSHStarItem.xml" xy="191,859"/>
+    <component id="n46_l5k5" name="starBox4" src="l5k54d" fileName="组件/VSHStarItem.xml" xy="276,859"/>
+    <component id="n47_l5k5" name="starBox5" src="l5k54d" fileName="组件/VSHStarItem.xml" xy="393,859"/>
+    <component id="n48_l5k5" name="starBox6" src="l5k54d" fileName="组件/VSHStarItem.xml" xy="529,859"/>
+    <list id="n51_flxz" name="list1" xy="10,367" size="578,183" layout="row" overflow="hidden" scroll="horizontal" colGap="5" defaultItem="ui://4aepcdbwrjpys">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n54_flxz" name="thBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="444,573">
+      <Button title="替换"/>
+    </component>
+    <image id="n56_ncgt" name="n56" src="ncgt5e" fileName="image/洗练前.png" xy="89,87"/>
+    <image id="n58_ncgt" name="n58" src="nxcba0" fileName="image1/分割线.png" pkg="jvxpx9em" xy="10,316" size="570,1"/>
+    <loader id="n34_acon" name="maskObj" xy="0,0" size="598,965" hideByEditor="true" url="ui://jvxpx9em61zd77" fill="scaleFree"/>
+    <component id="n55_ncgt" name="labPower1" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="182,306" group="n60_ncgt" touchable="false"/>
+    <image id="n59_ncgt" name="n59" src="ncgt5f" fileName="image/洗练后.png" xy="89,322" group="n60_ncgt"/>
+    <group id="n60_ncgt" name="nextGroup" xy="89,306" size="358,61" advanced="true"/>
+  </displayList>
+</component>

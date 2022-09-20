@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,920" opaque="false">
+  <displayList>
+    <image id="n4_dsuf" name="n4" src="z1jw6l" fileName="image/侧边框底.png" pkg="jvxpx9em" xy="15,146" size="122,770"/>
+    <list id="n0_d8t6" name="tabList" xy="15,209" size="109,655" overflow="scroll" lineGap="22" defaultItem="ui://jvxpx9emvxva3gg">
+      <item icon="ui://oy62ymetdsuff"/>
+      <item icon="ui://oy62ymetdsufg"/>
+      <item icon="ui://oy62ymetdsufh"/>
+      <item icon="ui://oy62ymetdsufi"/>
+      <item icon="ui://oy62ymetdsufj"/>
+    </list>
+    <list id="n1_d8t6" name="list" xy="138,181" size="492,706" overflow="scroll" defaultItem="ui://oy62ymetd8t65" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5_dsuf" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="68,181" pivot="0.5,0.5" anchor="true" size="55,63" rotation="-90">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n6_dsuf" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="68,888" pivot="0.5,0.5" anchor="true" size="55,63" rotation="90">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+  </displayList>
+</component>

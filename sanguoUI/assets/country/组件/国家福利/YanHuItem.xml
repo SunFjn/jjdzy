@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="610,148">
+  <displayList>
+    <image id="n0_zftk" name="n0" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="610,148"/>
+    <image id="n1_zftk" name="small" src="zftk34" fileName="image/宴会/小型宴会.png" xy="28,31"/>
+    <image id="n2_zftk" name="middle" src="zftk39" fileName="image/宴会/中型宴会.png" xy="28,31"/>
+    <image id="n3_zftk" name="big" src="zftk2x" fileName="image/宴会/大型宴会.png" xy="25,31"/>
+    <text id="n4_zftk" name="yanhuName" xy="28,83" size="125,27" fontSize="20" color="#00ff00" ubb="true" strokeColor="#000000" text="玩家名字六字"/>
+    <list id="n5_zftk" name="rewardList" xy="168,50" size="387,102" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="128" margin="0,0,5,50" scrollBarMargin="0,46,0,0" defaultItem="ui://jvxpx9emetorm" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n6_zftk" name="gotoYanhu" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="463,49">
+      <Button title="赴 宴"/>
+    </component>
+    <component id="n7_zftk" name="inYanhu" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="464,49">
+      <Button title="赴宴中"/>
+    </component>
+    <image id="n10_zftk" name="n10" src="o9c21a" fileName="image/货币底.png" pkg="ye1luhg3" xy="466,105" size="126,28"/>
+    <text id="n8_zftk" name="count" xy="500,108" size="58,27" fontSize="20" color="#00ff00" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="4/5"/>
+    <text id="n13_i4t0" name="yanhuTime" xy="463,26" size="128,28" fontSize="16" color="#33cc33" ubb="true" autoSize="none" text="宴会时间 : 21:00"/>
+    <image id="n11_zftk" name="n11" src="gsdl3cn" fileName="image1/战力底1.png" pkg="jvxpx9em" xy="249,24" scale="0.5,0.5"/>
+    <image id="n12_zftk" name="n12" src="zftk3f" fileName="image/其他/奖励一览.png" xy="267,24"/>
+  </displayList>
+</component>

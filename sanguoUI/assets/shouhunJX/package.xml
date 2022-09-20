@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="4aepcdbw" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="811a0" name="VShouHunJX.xml" path="/组件/" exported="true"/>
+    <component id="811a2" name="ChildJX.xml" path="/组件/" exported="true"/>
+    <component id="811a3" name="ChildSJ.xml" path="/组件/" exported="true"/>
+    <component id="811a4" name="ChildEBS.xml" path="/组件/" exported="true"/>
+    <image id="811a5" name="n7.png" path="/image/" exported="true"/>
+    <image id="811a6" name="n8.png" path="/image/" exported="true"/>
+    <image id="811a7" name="n9.png" path="/image/" exported="true"/>
+    <component id="uikji" name="ItemSHJX.xml" path="/组件/" exported="true"/>
+    <image id="uikjp" name="按钮出战中.png" path="/image/" exported="true"/>
+    <image id="uikjq" name="出战按钮.png" path="/image/" exported="true"/>
+    <component id="rjpyr" name="VSHJXPeiyang.xml" path="/组件/" exported="true"/>
+    <component id="rjpys" name="ItemYinJi.xml" path="/组件/" exported="true"/>
+    <image id="rjpy1p" name="白虎1.png" path="/image/"/>
+    <image id="rjpy1v" name="解锁.png" path="/image/" exported="true"/>
+    <image id="rjpy1y" name="青龙1.png" path="/image/"/>
+    <component id="rjpy24" name="VShouHunJXMeti.xml" path="/组件/" exported="true"/>
+    <component id="rjpy25" name="ItemMeti.xml" path="/组件/" exported="true"/>
+    <image id="eium26" name="slBG.png" path="/image/"/>
+    <image id="eium27" name="花纹2.png" path="/image/" exported="true"/>
+    <image id="eium28" name="花纹3.png" path="/image/" exported="true"/>
+    <image id="eium29" name="花纹4.png" path="/image/" exported="true"/>
+    <image id="eium2a" name="花纹1.png" path="/image/" exported="true"/>
+    <image id="eium2h" name="标题文字底.png" path="/image/" exported="true" scale="9grid" scale9grid="32,9,64,18"/>
+    <image id="eium2j" name="朱雀之魂.png" path="/image/" exported="true"/>
+    <image id="eium2k" name="白虎之魂.png" path="/image/" exported="true"/>
+    <image id="eium2l" name="青龙之魂.png" path="/image/" exported="true"/>
+    <image id="eium2m" name="玄武之魂.png" path="/image/" exported="true"/>
+    <image id="eium2n" name="001.png" path="/image/"/>
+    <image id="sh622p" name="灰色白虎 印记.png" path="/image/" exported="true"/>
+    <image id="sh622q" name="灰色青龙 印记.png" path="/image/" exported="true"/>
+    <image id="sh622r" name="灰色玄武 印记.png" path="/image/" exported="true"/>
+    <image id="sh622s" name="灰色朱雀 印记.png" path="/image/" exported="true"/>
+    <component id="sh622t" name="tempComp.xml" path="/组件/" exported="true"/>
+    <image id="sh622w" name="东方七宿.png" path="/image/" exported="true"/>
+    <image id="sh622x" name="南方七宿.png" path="/image/" exported="true"/>
+    <image id="sh622y" name="西方七宿.png" path="/image/" exported="true"/>
+    <image id="sh622z" name="北方七宿.png" path="/image/" exported="true"/>
+    <image id="vwaa30" name="阶.png" path="/image/" exported="true"/>
+    <image id="vwaa31" name="白虎之力.png" path="/image/" exported="true"/>
+    <image id="vwaa32" name="青龙之力.png" path="/image/" exported="true"/>
+    <image id="vwaa33" name="玄武之力.png" path="/image/" exported="true"/>
+    <image id="vwaa34" name="朱雀之力.png" path="/image/" exported="true"/>
+    <image id="vwaa35" name="小星星.png" path="/image/" exported="true"/>
+    <component id="vwaa36" name="ItemEBS.xml" path="/组件/" exported="true"/>
+    <component id="k0ep3t" name="VErBarTZ.xml" path="/组件/" exported="true"/>
+    <image id="k0ep3u" name="point.png" path="/image/" exported="true"/>
+    <image id="k0ep3v" name="baiHuYJ.png" path="/image/"/>
+    <image id="k0ep3w" name="锁定.png" path="/image/" exported="true"/>
+    <image id="nz7l3x" name="兽灵升级标题.png" path="/image/" exported="true"/>
+    <image id="nz7l3y" name="二十八宿标题.png" path="/image/" exported="true"/>
+    <image id="nz7l3z" name="兽魂觉醒标题.png" path="/image/" exported="true"/>
+    <image id="nbrv42" name="白虎文本.png" path="/image/"/>
+    <image id="tu9m44" name="青龙文本.png" path="/image/" exported="true"/>
+    <image id="tu9m45" name="玄武文本.png" path="/image/" exported="true"/>
+    <image id="tu9m47" name="白虎文本(1).png" path="/image/" exported="true"/>
+    <component id="dm9548" name="View_ShouHun_GaiLv.xml" path="/组件/" exported="true"/>
+    <component id="l5k549" name="VSHGaiLvItem.xml" path="/组件/" exported="true"/>
+    <image id="l5k54c" name="分割线.png" path="/image/" exported="true"/>
+    <component id="l5k54d" name="VSHStarItem.xml" path="/组件/" exported="true"/>
+    <image id="l5k54e" name="1star.png" path="/image/" exported="true"/>
+    <image id="l5k54f" name="2star.png" path="/image/" exported="true"/>
+    <image id="l5k54g" name="3star.png" path="/image/" exported="true"/>
+    <image id="l5k54h" name="4star.png" path="/image/" exported="true"/>
+    <image id="l5k54i" name="5star.png" path="/image/" exported="true"/>
+    <image id="l5k54j" name="6star.png" path="/image/" exported="true"/>
+    <image id="l5k54k" name="7star.png" path="/image/" exported="true"/>
+    <image id="l5k54l" name="星级-亮.png" path="/image/" exported="true"/>
+    <image id="l5k54m" name="星级-暗.png" path="/image/" exported="true"/>
+    <component id="wg9y4n" name="Child_ActHolyBXunB.xml" path="/组件/寻宝/" exported="true"/>
+    <component id="wg9y4p" name="VActHolyBGrid.xml" path="/组件/寻宝/" exported="true"/>
+    <component id="wg9y4q" name="VActHolyBHead.xml" path="/组件/寻宝/" exported="true"/>
+    <image id="wg9y4r" name="头像背景.png" path="/image/" exported="true"/>
+    <image id="wg9y4s" name="骰子.png" path="/image/" exported="true"/>
+    <image id="wg9y4t" name="目标奖励.png" path="/image/" exported="true"/>
+    <image id="wg9y4u" name="排名奖励.png" path="/image/" exported="true"/>
+    <image id="wg9y4v" name="roll1.png" path="/image/" exported="true"/>
+    <image id="wg9y4w" name="roll2.png" path="/image/" exported="true"/>
+    <image id="wg9y4x" name="roll3.png" path="/image/" exported="true"/>
+    <image id="wg9y4y" name="roll4.png" path="/image/" exported="true"/>
+    <image id="wg9y4z" name="roll5.png" path="/image/" exported="true"/>
+    <image id="wg9y50" name="roll6.png" path="/image/" exported="true"/>
+    <image id="wg9y51" name="圣兽寻宝标题.png" path="/image/" exported="true"/>
+    <component id="wg9y52" name="VActHolyBMuB.xml" path="/组件/寻宝/" exported="true"/>
+    <component id="wg9y53" name="VActHolyBRank.xml" path="/组件/寻宝/" exported="true"/>
+    <component id="wg9y54" name="ViewActHolyBMuB.xml" path="/组件/寻宝/" exported="true"/>
+    <component id="wg9y55" name="ViewActHolyBRank.xml" path="/组件/寻宝/" exported="true"/>
+    <component id="wg9y56" name="ViewActHolyBReward.xml" path="/组件/寻宝/" exported="true"/>
+    <image id="wg9y57" name="虚位以待.png" path="/image/" exported="true"/>
+    <image id="wg9y58" name="起点.png" path="/image/" exported="true"/>
+    <image id="wg9y59" name="格子底.png" path="/image/" exported="true"/>
+    <image id="flxz5b" name="寻宝背景.jpg" path="/image/"/>
+    <component id="flxz5d" name="ActHolyBXunBGrid.xml" path="/组件/寻宝/" exported="true"/>
+    <image id="ncgt5e" name="洗练前.png" path="/image/" exported="true"/>
+    <image id="ncgt5f" name="洗练后.png" path="/image/" exported="true"/>
+    <component id="bvfw5g" name="VSHHuanXing.xml" path="/组件/" exported="true"/>
+    <image id="bvfw5h" name="已幻形.png" path="/image/幻形/" exported="true"/>
+    <image id="bvfw5i" name="幻形入口.png" path="/image/幻形/" exported="true"/>
+    <image id="bvfw5k" name="箭头.png" path="/image/幻形/" exported="true"/>
+    <image id="mwm95l" name="幻形.png" path="/image/幻形/" exported="true"/>
+    <image id="i1zl5n" name="back.png" path="/image/"/>
+    <image id="i1zl5s" name="青龙.png" path="/image/"/>
+    <image id="i1zl5t" name="2.png" path="/image/"/>
+    <image id="i1zl5w" name="朱雀文本.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="shouhunJX" genCode="true" npot="true" excluded="k0ep3v,eium2n,rjpy1p,flxz5b,i1zl5n,eium26,i1zl5s"/>
+</packageDescription>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="605,105">
+  <displayList>
+    <image id="n0_opnx" name="n0" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="605,105"/>
+    <list id="n3_opnx" name="list" xy="319,8" size="307,107" scale="0.85,0.85" layout="flow_hz" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" align="right" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n1_opnx" name="lbName" xy="57,23" size="149,28" group="n4_opnx" fontSize="18" color="#ffffff" text="玩家名字玩家名字"/>
+    <richtext id="n2_opnx" name="lbCoin" xy="56,61" size="149,28" group="n4_opnx" fontSize="18" color="#ffffff" text="玩家名字玩家名字"/>
+    <group id="n4_opnx" name="groupRank" xy="56,23" size="150,66" advanced="true"/>
+    <richtext id="n5_opnx" name="n5" xy="59,20" size="81,35" group="n7_opnx" fontSize="24" color="#ffffff" text="4-10名"/>
+    <richtext id="n6_opnx" name="n6" xy="60,60" size="77,28" group="n7_opnx" fontSize="18" color="#66ff00" underline="true" text="查看排名"/>
+    <group id="n7_opnx" name="groupTen" xy="59,20" size="81,68" advanced="true"/>
+  </displayList>
+</component>

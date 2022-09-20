@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,915" opaque="false">
+  <displayList>
+    <list id="n4_tujy" name="lst" xy="22,161" size="596,688" overflow="scroll" lineGap="12" defaultItem="ui://47jfyc6etujy1" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n6_tujy" name="btnSweep" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="459,853">
+      <Button title="一键扫荡"/>
+    </component>
+    <richtext id="n10_p753" name="n10" xy="40,868" size="268,28" fontSize="18" color="#00ff00" text="每天0点重置次数，通关后可扫荡"/>
+  </displayList>
+</component>

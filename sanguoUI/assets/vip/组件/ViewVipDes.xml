@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="404,400">
+  <displayList>
+    <component id="n1_nvyw" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="404,400">
+      <Label title="VIP特权"/>
+    </component>
+    <richtext id="n2_nvyw" name="lb" xy="57,86" size="10,28" fontSize="18" color="#ffffff" leading="6" text=""/>
+  </displayList>
+</component>

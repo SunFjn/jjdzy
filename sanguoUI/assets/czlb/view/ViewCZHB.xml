@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" designImage="ui://2o8uvlozk7mb0">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0_k7mb" name="frame" src="fsg93cj" fileName="组件/frame4.xml" pkg="jvxpx9em" xy="0,0"/>
+    <loader id="n3_k7mb" name="bgImg" xy="13,428" size="616,463" url="ui://jvxpx9emm3513bg" autoSize="true"/>
+    <image id="n1_k7mb" name="n1" src="k7mb1" fileName="assets/超值礼包.png" xy="245,69"/>
+    <image id="n2_k7mb" name="n0" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="2,418" size="636,508"/>
+    <component id="n5_k7mb" name="btnweek" src="iv1o3in" fileName="组件/TabButton4.xml" pkg="jvxpx9em" xy="125,129">
+      <Button checked="true" title="周礼包" controller="c1" page="0"/>
+    </component>
+    <component id="n6_k7mb" name="btnmouth" src="iv1o3in" fileName="组件/TabButton4.xml" pkg="jvxpx9em" xy="401,129">
+      <Button title="月礼包" controller="c1" page="1"/>
+    </component>
+    <image id="n8_k7mb" name="n8" src="if1k3hc" fileName="image/通用底框/小标题文字底.png" pkg="jvxpx9em" xy="50,190"/>
+    <image id="n9_k7mb" name="n9" src="if1k3hc" fileName="image/通用底框/小标题文字底.png" pkg="jvxpx9em" xy="355,190"/>
+    <richtext id="n10_k7mb" name="lbt0" xy="168,196" size="34,26" fontSize="18" color="#00cc00" text="123">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n11_k7mb" name="lbt1" xy="461,196" size="34,26" fontSize="18" color="#00cc00" text="123">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <list id="n12_k7mb" name="list" xy="25,424" size="588,487" overflow="scroll" defaultItem="ui://2o8uvlozk7mb4" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n13_k7mb" name="n13" src="k7mb2" fileName="assets/配图.jpg" xy="-1,228"/>
+  </displayList>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,491">
+  <displayList>
+    <component id="n0_k0ep" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,0" size="594,491"/>
+    <image id="n1_k0ep" name="n1" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="17,142" size="560,262"/>
+    <component id="n2_k0ep" name="btnHand" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="235,425">
+      <relation target="n1_k0ep" sidePair="top-top"/>
+      <Button title="升阶"/>
+    </component>
+    <richtext id="n3_k0ep" name="txtJie" xy="147,38" size="139,35" touchable="false" fontSize="24" color="#ffc334" leading="0" ubb="true" vars="true" text="青龙之力1阶"/>
+    <richtext id="n4_k0ep" name="txtZhanLi" xy="147,89" size="126,31" touchable="false" fontSize="20" color="#ffc334" leading="0" ubb="true" vars="true" text="战力 +{power=15600}"/>
+    <richtext id="n5_k0ep" name="txtCur" xy="51,156" size="308,31" group="n8_k0ep" touchable="false" fontSize="20" color="#ffffff" leading="0" ubb="true" vars="true" text="[color=#FFC334]下一阶段[/color]  {des=全身强化+150} {state=[color=#16f60b](已激活)[/color]}"/>
+    <richtext id="n6_k0ep" name="txtAttr1" xy="50,193" size="98,84" group="n8_k0ep" touchable="false" fontSize="18" color="#ffffff" leading="6" ubb="true" text="攻击+1000&#xA;攻击+1000&#xA;攻击+1000"/>
+    <image id="n7_k0ep" name="n7" src="k0ep3u" fileName="image/point.png" xy="32,165" group="n8_k0ep"/>
+    <group id="n8_k0ep" name="grpCur" xy="32,156" size="327,121" advanced="true"/>
+    <loader id="n9_k0ep" name="iconType" xy="45,40" size="89,75" url="ui://4aepcdbwvwaa34" fill="scale"/>
+    <richtext id="n10_p0qh" name="txtNext" xy="51,275" size="308,31" group="n13_p0qh" touchable="false" fontSize="20" color="#ffffff" leading="0" ubb="true" vars="true" text="[color=#FFC334]下一阶段[/color]  {des=全身强化+150} {state=[color=#16f60b](已激活)[/color]}"/>
+    <richtext id="n11_p0qh" name="txtAttr2" xy="50,312" size="98,84" group="n13_p0qh" touchable="false" fontSize="18" color="#ffffff" leading="6" ubb="true" text="攻击+1000&#xA;攻击+1000&#xA;攻击+1000"/>
+    <image id="n12_p0qh" name="n12" src="k0ep3u" fileName="image/point.png" xy="32,284" group="n13_p0qh"/>
+    <group id="n13_p0qh" name="grpNext" xy="32,275" size="327,121" advanced="true"/>
+  </displayList>
+</component>

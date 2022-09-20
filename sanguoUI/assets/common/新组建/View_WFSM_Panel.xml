@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="506,669">
+  <displayList>
+    <component id="n0_ah3c" name="frame" src="f1cf4b" fileName="组件/frame2.xml" xy="0,0" size="506,669">
+      <Label title="玩法说明"/>
+    </component>
+    <list id="n3_ah3c" name="list" xy="23,95" size="460,547" overflow="scroll" defaultItem="ui://jvxpx9emah3c3aq">
+      <item/>
+    </list>
+  </displayList>
+</component>

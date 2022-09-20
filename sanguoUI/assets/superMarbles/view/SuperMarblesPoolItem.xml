@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="571,260">
+  <displayList>
+    <image id="n5_77k9" name="n5" src="htpq1q" fileName="image/通用底框/名字底框.png" pkg="jvxpx9em" xy="145,0" size="281,40"/>
+    <component id="n3_77k9" name="lbTitle" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="134,5" size="303,28">
+      <relation target="" sidePair="center-center"/>
+      <Label title="一等奖"/>
+    </component>
+    <image id="n4_77k9" name="n4" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="0,42" size="571,218"/>
+    <list id="n1_x9uy" name="list" xy="23,65" size="617,206" scale="0.85,0.85" layout="flow_hz" overflow="scroll" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

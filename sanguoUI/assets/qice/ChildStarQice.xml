@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://cokk050nj82l6">
+  <controller name="maxCtrl" pages="0,,1,,2," selected="1">
+    <remark page="0" value="已激活"/>
+    <remark page="1" value="满星"/>
+    <remark page="2" value="未激活"/>
+  </controller>
+  <controller name="itemCtrl" exported="true" pages="" selected="-1"/>
+  <displayList>
+    <image id="n0_j82l" name="img" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="379,400" pivot="0.5,0.2" anchor="true" aspect="true"/>
+    <image id="n1_j82l" name="n1" src="z1jw6l" fileName="image/侧边框底.png" pkg="jvxpx9em" xy="17,146" size="122,770"/>
+    <text id="n2_j82l" name="starCom" xy="207,478" size="347,35" font="ui://jvxpx9emz1r82c" fontSize="24" color="#ffffff" align="center" autoSize="none" text="5111111111"/>
+    <component id="n3_j82l" name="nameCom" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="156,187">
+      <Label title="赵云"/>
+    </component>
+    <image id="n6_j82l" name="boxMax" src="irr13h1" fileName="image/美术字/满级美术字/已满星.png" pkg="jvxpx9em" xy="336,837">
+      <gearDisplay controller="maxCtrl" pages="1"/>
+    </image>
+    <component id="n7_j82l" name="btnUp" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="314,827">
+      <gearDisplay controller="maxCtrl" pages="0,2"/>
+      <Button title="激活"/>
+    </component>
+    <richtext id="n8_j82l" name="tfCost" xy="182,887" size="385,28" fontSize="18" color="#ffffff" align="center" ubb="true" autoSize="none" text="消耗：武将赵云*1（5/1）">
+      <gearDisplay controller="maxCtrl" pages="0,2"/>
+    </richtext>
+    <component id="n9_j82l" name="powerCom" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="227,145">
+      <Label title="0"/>
+    </component>
+    <component id="n16_j82l" name="btnSuit" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="527,176" size="89,76">
+      <Button icon="ui://cokk050nj82l4"/>
+    </component>
+    <image id="n20_j82l" name="n20" src="ul8t3fl" fileName="image/战力提升.png" pkg="jvxpx9em" xy="313,776" group="n22_j82l">
+      <relation target="n21_j82l" sidePair="middle-middle,right-left"/>
+    </image>
+    <text id="n21_j82l" name="tfPowerUp" xy="415,788" pivot="0.5,0.5" size="22,27" group="n22_j82l" font="ui://jvxpx9embwmw3w" fontSize="12" singleLine="true" autoClearText="true" text="0"/>
+    <group id="n22_j82l" name="groupPowerUp" xy="313,776" size="124,51" advanced="true">
+      <gearDisplay controller="maxCtrl" pages="0,2"/>
+    </group>
+    <component id="n23_j82l" name="n23" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="217,517" size="329,31">
+      <Label title="奇策效果"/>
+    </component>
+    <component id="n24_j82l" name="n24" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="217,639" size="329,31">
+      <Label title="升星属性"/>
+    </component>
+    <richtext id="n25_j82l" name="tfEffect" xy="192,560" size="95,55" touchable="false" fontSize="18" color="#ffffff" autoClearText="true" text="可提升百万&#xA;可提升百万"/>
+    <richtext id="n26_x49y" name="tfProCur" xy="374,679" pivot="0.5,0" anchor="true" size="109,82" touchable="false" fontSize="18" color="#ffffff" autoClearText="true" text="生命+10000&#xA;生命+10000&#xA;生命+10000">
+      <gearXY controller="maxCtrl" pages="0,1,2" values="248,674|374,679|374,673"/>
+    </richtext>
+    <richtext id="n27_x49y" name="tfProNext" xy="506,679" pivot="0.5,0" anchor="true" size="95,55" touchable="false" fontSize="18" color="#00ff00" autoClearText="true" text="可提升百万&#xA;可提升百万">
+      <gearDisplay controller="maxCtrl" pages="0"/>
+      <relation target="n26_x49y" sidePair="top-top"/>
+    </richtext>
+    <image id="n28_x49y" name="imgArrow" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="381,703" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="maxCtrl" pages="0"/>
+    </image>
+    <list id="n29_x49y" name="list" xy="15,155" size="116,759" overflow="scroll" defaultItem="ui://cokk050nx49y8" selectionController="itemCtrl">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n30_x49y" name="bwIcon" xy="291,215" size="176,191" touchable="false" align="center" vAlign="bottom" fill="scale" shrinkOnly="true"/>
+    <component id="n31_x49y" name="btnShow" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="347,409" size="66,66">
+      <Button title="展示" titleFontSize="20" icon="ui://jvxpx9emul8t3fk"/>
+    </component>
+    <component id="n15_j82l" name="btnJh" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="530,367" size="85,94" group="n32_x49y">
+      <Button icon="ui://cokk050nj82l3"/>
+    </component>
+    <image id="n17_j82l" name="n17" src="pxaa3cv" fileName="image/数量框.png" pkg="jvxpx9em" xy="529,441" size="85,26" group="n32_x49y"/>
+    <richtext id="n19_j82l" name="tfJH" xy="540,438" pivot="0.5,0.5" size="66,25" group="n32_x49y" touchable="false" fontSize="16" color="#ffffff" autoClearText="true" text="999/999"/>
+    <group id="n32_x49y" name="groupJh" xy="529,367" size="86,100" advanced="true"/>
+    <component id="n14_j82l" name="btnBh" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="531,258" size="85,95" group="n33_x49y">
+      <Button icon="ui://cokk050nj82l5"/>
+    </component>
+    <image id="n13_j82l" name="n13" src="pxaa3cv" fileName="image/数量框.png" pkg="jvxpx9em" xy="530,335" size="85,26" group="n33_x49y"/>
+    <richtext id="n18_j82l" name="tfBH" xy="541,332" pivot="0.5,0.5" size="66,25" group="n33_x49y" touchable="false" fontSize="16" color="#ffffff" autoClearText="true" text="999/999"/>
+    <group id="n33_x49y" name="groupBh" xy="530,258" size="86,103" advanced="true"/>
+  </displayList>
+  <transition name="t0" options="1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n30_x49y" tween="true" startValue="-,215" endValue="-,205" duration="18" ease="Linear"/>
+    <item time="18" type="XY" target="n30_x49y" tween="true" startValue="-,205" endValue="287,215" duration="18" ease="Linear"/>
+  </transition>
+</component>

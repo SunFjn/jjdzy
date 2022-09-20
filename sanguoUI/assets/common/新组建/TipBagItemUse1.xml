@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="435,394">
+  <displayList>
+    <component id="n32_lnck" name="frame" src="f1cf47" fileName="组件/frame1.xml" xy="0,0" size="435,394">
+      <relation target="n33_lnck" sidePair="bottomext-bottom"/>
+    </component>
+    <component id="n31_cyxg" name="btnUse" src="y1z8b" fileName="组件/Button0.xml" xy="149,312" group="n13_etor">
+      <Button title="使用" titleColor="#ffffff"/>
+    </component>
+    <group id="n13_etor" name="groupUse" xy="149,312" size="136,62" advanced="true">
+      <relation target="n33_lnck" sidePair="top-bottom"/>
+    </group>
+    <component id="n33_lnck" name="childTip" src="lnckac" fileName="新组建/ChildTipBagItem.xml" xy="24,32" size="380,263"/>
+  </displayList>
+  <relation target="n33_lnck" sidePair="bottomext-bottom"/>
+</component>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 服务器事件，包括启动服务器和关闭服务器 -->
+	<!-- 日志 -->
+	<bean id="LogServer" class="com.teamtop.util.log.LogServer">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 大字段 -->
+	<bean id="TransInnerUtil" class="com.teamtop.util.db.trans.TransInnerUtil">
+		<property method = "startServer"/>
+	</bean>
+	<!-- mybatis -->
+	<bean id="MybatisUtil" class="com.teamtop.util.mybatis.MybatisUtil">
+		<property method = "startServer"/>
+	</bean>
+	<!-- auto obj table orm -->
+	<bean id="AutoObjTableUtil" class="com.teamtop.util.db.orm.AutoObjTableUtil">
+	<property method = "startServer"/>
+	</bean>
+	<!-- 公共数据缓存-->
+	<bean id="GlobalCache" class="com.teamtop.system.global.GlobalCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 游戏配置文件-->
+	<bean id="GameProperties" class="com.teamtop.gameCommon.GameProperties">
+		<property method = "startServer"/>
+	</bean>			
+	<!-- gm时间设置 -->
+	<bean id="GlobalTimeCache" class="com.teamtop.system.global.GlobalTimeCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 协议对应传输字段-->
+	<bean id="ProtocolInvoke" class="com.teamtop.netty.util.nettyCache.ProtocolInvoke">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 协议对应方法-->
+	<bean id="MethodInvoke" class="com.teamtop.netty.util.nettyCache.MethodInvoke">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 后台http服务器-->
+	<bean id="HouTaiHttpServer" class="com.teamtop.houtaiHttp.HouTaiHttpServer">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 后台http事件-->
+	<bean id="HouTaiHttpCache" class="com.teamtop.houtaiHttp.HouTaiHttpCache">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 系统事件-->
+	<bean id="SystemEventFunction" class="com.teamtop.system.event.systemEvent.SystemEventFunction">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 连接事件-->
+	<bean id="CrossConnCache" class="com.teamtop.cross.connEvent.CrossConnCache">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 地图文件-->
+	<bean id="SceneFile" class="com.teamtop.system.scene.SceneFile">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 场景事件-->
+	<bean id="SceneEventFunction" class="com.teamtop.system.event.sceneEvent.SceneEventFunction">
+		<property method = "startServer"/>
+	</bean>
+	<!-- GM事件-->
+	<bean id="GMCache" class="com.teamtop.system.gm.GMCache">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 跨服分区 -->
+	<bean id="CrossPartCache" class="com.teamtop.cross.CrossPartCache">
+		<property method = "startServer"/>
+		<property method = "initExcel"/>
+	</bean>	
+	<!-- 单刀赴会 -->
+	<bean id="SoloRunSysCache" class="com.teamtop.system.crossSoloRun.SoloRunSysCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!--七擒孟获(跨服转生boss)-->
+	<bean id="CrossBossCache" class="com.teamtop.system.crossBoss.CrossBossCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>	
+	<!--乱世枭雄(跨服王者)-->
+	<bean id="CrossKingCrossCache" class="com.teamtop.system.crossKing.cross.CrossKingCrossCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>	
+	<!-- 三国无双 -->
+	<bean id="DynastyWarriorsSysCache" class="com.teamtop.system.crossDynastyWarriors.DynastyWarriorsSysCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 枭雄争霸 -->
+	<bean id="CrossSelectKingCache" class="com.teamtop.system.crossSelectKing.cross.CrossSelectKingCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 群英榜 -->
+	<bean id="HeroesListSysCache" class="com.teamtop.system.crossHeroesList.HeroesListSysCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 单刀赴会 -->
+	<bean id="CrossSoloRunSysCache" class="com.teamtop.system.crossSoloRun.cross.CrossSoloRunSysCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 烽火狼烟 -->
+	<bean id="CrossFireBeaconSysCache" class="com.teamtop.system.crossFireBeacon.CrossFireBeaconSysCache">
+		<property method = "initExcel"/>
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 跨服组队 -->
+	<bean id="CrossTeamFubenCache" class="com.teamtop.system.crossTeamFuBen.CrossTeamFubenCache">
+		<property method = "initExcel"/>
+	</bean>
+	<!-- 升阶秘境 -->
+	<bean id="CrossSJMiJingCache" class="com.teamtop.system.crossSJMiJing.CrossSJMiJingCache">
+		<property method = "initExcel"/>
+	</bean>
+	<!-- 通用排名 -->
+	<bean id="CommonRankSysCache" class="com.teamtop.system.crossCommonRank.CommonRankSysCache">
+		<property method = "initExcel"/>
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 玲珑阁跨服部分 -->
+	<bean id="LingLongCrossSysCache" class="com.teamtop.system.linglongge.LingLongCrossSysCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>	
+	<!-- 三国庆典-消费排行 -->
+	<bean id="ConsumeRankSysCache" class="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.consumeRank.ConsumeRankSysCache">
+		<property method = "initExcel"/>
+	</bean>
+	<!-- 三国庆典-活跃有礼 -->
+	<bean id="ActiveGetGiftSysCache" class="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.activeGetGift.ActiveGetGiftSysCache">
+		<property method = "initExcel"/>
+	</bean>		
+	<!-- 问鼎天下 -->
+	<bean id="CrossWenDingTianXiaCrossCache" class="com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossCache">
+		<property method = "initExcel"/>
+	</bean>	
+	<!-- 符文有礼 -->
+	<bean id="RuneGiftSysCache" class="com.teamtop.system.openDaysSystem.runeGift.RuneGiftSysCache">
+		<property method = "initExcel"/>
+	</bean>
+	<!-- 跨服战场boss -->
+	<bean id="ZcBossCrossCache" class="com.teamtop.system.zcBoss.cross.ZcBossCrossCache">
+		<property method = "startServer"/>
+		<property method = "initExcel"/>
+	</bean>				
+	<!-- 神将送礼(活动) -->
+	<bean id="CrossGodGenSendGiftActCache" class="com.teamtop.system.activity.ativitys.godGenSendGiftAct.cross.CrossGodGenSendGiftActCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!--跨服矿藏-->
+	<bean id="CrossMineCrossCache" class="com.teamtop.system.crossMine.CrossMineCrossCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>	
+	<!--八门金锁-鉴定排名-->
+	<bean id="CrossEightDoorAppraiseRankSysCache" class="com.teamtop.system.eightDoorAppraiseRank.cross.CrossEightDoorAppraiseRankSysCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>	
+	<!--少年英主-祈愿排名-->
+	<bean id="CrossShaoZhuQiYuanRankSysCache" class="com.teamtop.system.shaozhuQiYuanRank.cross.CrossShaoZhuQiYuanRankSysCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>	
+	<!--兽魂洗练排行-->
+	<bean id="CrossSaintMonsterWashRankCache" class="com.teamtop.system.openDaysSystem.saintMonsterWashRank.cross.CrossSaintMonsterWashRankCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!--虎牢关—雇佣兵缓存-->
+	<bean id="TigerPassCrossCache" class="com.teamtop.system.tigerPass.cross.TigerPassCrossCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>			
+	<!-- 充值排行(活动) -->
+	<bean id="CrossRechargeRankActSysCache" class="com.teamtop.system.activity.ativitys.rechargeRankAct.cross.CrossRechargeRankActSysCache">
+		<property method = "initExcel"/>
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 万兽之王-仙山寻兽排名(活动) -->
+	<bean id="MonsterKingSearchMonsterSysCache" class="com.teamtop.system.openDaysSystem.monsterKingSearchMonster.MonsterKingSearchMonsterSysCache">
+		<property method = "initExcel"/>
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 鉴定排名(活动) -->
+	<bean id="CrossEightDoorAppraiseRankActSysCache" class="com.teamtop.system.activity.ativitys.eightDoorAppraiseRankAct.cross.CrossEightDoorAppraiseRankActSysCache">
+		<property method = "initExcel"/>
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 祈愿排名(活动) -->
+	<bean id="CrossShaoZhuQiYuanRankActSysCache" class="com.teamtop.system.activity.ativitys.shaoZhuQiYuanRankAct.cross.CrossShaoZhuQiYuanRankActSysCache">
+		<property method = "initExcel"/>
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 逐鹿群雄 -->
+	<bean id="CrossZhuLuCache" class="com.teamtop.system.crossZhuLu.cross.CrossZhuLuCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 跨服试炼 -->
+	<bean id="CrossTrialSysCache" class="com.teamtop.system.crossTrial.cross.CrossTrialSysCache">
+		<property method = "initExcel"/>
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 跨服王者 -->
+	<bean id="CrossTeamKingCroCache" class="com.teamtop.system.crossTeamKing.cross.CrossTeamKingCroCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 镇守四方 -->
+	<bean id="GuardAreaCrossCache" class="com.teamtop.system.guardArea.cross.GuardAreaCrossCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 宴会 -->
+	<bean id="YanhuiCrossCache" class="com.teamtop.system.house.yanhui.cross.YanhuiCrossCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+		<property method = "initExcel"/>
+	</bean>		
+	<!-- 新活动-天降红包 -->
+	<bean id="CrossDropRedPacketSysCache" class="com.teamtop.system.activity.ativitys.dropRedPacket.cross.CrossDropRedPacketSysCache">
+		<property method = "initExcel"/>
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!--府邸系统-->
+	<bean id="CrossHouseCache" class="com.teamtop.system.house.yard.cross.CrossHouseCache">
+		<property method = "initExcel"/>
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 活动做元宵 -->
+	<bean id="YuanXiaoCrossSyscache" class="com.teamtop.system.activity.ativitys.yuanXiao.YuanXiaoCrossSyscache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 红包系统 -->
+	<bean id="RedBoxCrossCache" class="com.teamtop.system.redBox.cross.RedBoxCrossCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>	
+	<!-- 擂台比武（活动） -->
+	<bean id="CrossArenaFightSysCache" class="com.teamtop.system.activity.ativitys.arenaFight.cross.CrossArenaFightSysCache">
+		<property method = "initExcel"/>
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 登峰造极 -->
+	<bean id="DengFengZaoJiCrossCache" class="com.teamtop.system.dengFengZaoJi.cross.DengFengZaoJiCrossCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 轮回副本 -->
+	<bean id="RebornFBCache" class="com.teamtop.system.crossRebornFB.RebornFBCache">
+		<property method = "initExcel"/>
+		<property method = "startServer"/>
+	</bean>
+	<!-- 攻城拔寨 -->
+	<bean id="AttackCityCrossCache" class="com.teamtop.system.crossAttackCity.cross.AttackCityCrossCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+</beans>
+
+
+

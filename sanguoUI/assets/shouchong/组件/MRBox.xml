@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,102">
+  <displayList>
+    <component id="n4_srmp" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="2,0"/>
+    <image id="n0_o512" name="img" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="0,35" size="124,40" scale="0.8,0.8"/>
+    <image id="n5_srmp" name="imgNotice" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="84,0" visible="false"/>
+  </displayList>
+</component>

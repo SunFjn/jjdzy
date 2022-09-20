@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="146,63">
+  <displayList>
+    <loader id="n2_liti" name="bg" xy="0,0" size="146,63" url="ui://goyve578qnxv6"/>
+    <text id="n1_liti" name="txtInfo" xy="16,16" size="116,31" fontSize="24" color="#ffffff" text="充值100元">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n3_mfma" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="126,-1" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>

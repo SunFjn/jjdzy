@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.peacockFloor.PeacockFloor" tbname="peacockFloor">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="floorNum" type="int" pf="all" comment="当前过关层数"/>
+			<col field="attTime" type="int" pf="all" comment="开始战斗时间"/>
+			<col field="rewardState" type="text" pf="all" comment="已经通过的层数奖励状态"/>
+     </tb>
+</tbs>

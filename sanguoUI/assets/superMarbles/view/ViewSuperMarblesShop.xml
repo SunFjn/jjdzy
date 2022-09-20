@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="634,858">
+  <displayList>
+    <component id="n13_x9uy" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="634,858">
+      <Label title="弹珠商店"/>
+    </component>
+    <image id="n1_x9uy" name="n1" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="56,262"/>
+    <loader id="n2_x9uy" name="n2" xy="19,256" size="40,40" url="ui://6tpaxc0ksu6n3" align="center" vAlign="middle"/>
+    <loader id="n3_x9uy" name="headIcon" xy="20,76" size="594,179" fill="scale"/>
+    <list id="n8_x9uy" name="list" xy="21,298" size="595,537" layout="flow_hz" selectionMode="none" overflow="scroll" lineGap="11" colGap="12" lineItemCount="2" defaultItem="ui://gf2tw9lzx9uy3" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n9_x9uy" name="costLb" xy="63,262" size="49,28" touchable="false" fontSize="18" color="#ffffff" leading="0" text="1111"/>
+  </displayList>
+</component>

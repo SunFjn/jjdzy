@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,648">
+  <displayList>
+    <loader id="n5_jthq" name="imgBg" xy="0,0" size="100,100" url="ui://746rywv8otsef"/>
+    <list id="n0_coud" name="list" xy="4,184" size="631,480" overflow="scroll" lineGap="3" defaultItem="ui://746rywv8e3qh1">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n9_e3qh" name="n9" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="361,150" size="267,27" flip="hz"/>
+    <richtext id="n2_coud" name="labTime" xy="350,151" size="275,28" touchable="false" fontSize="18" color="#2ff10f" align="right" autoSize="none" text="活动剩余时间：10:10:10"/>
+    <richtext id="n3_coud" name="lab1" xy="424,73" size="211,36" touchable="false" fontSize="20" color="#ff0000" align="center" autoSize="none" text="（仅限通关奖励双倍）"/>
+    <richtext id="n10_e3qh" name="lab2" xy="326,42" size="146,31" touchable="false" fontSize="20" color="#ffffff" align="right" autoSize="none" text="活动期间副本"/>
+    <richtext id="n11_e3qh" name="lab3" xy="580,42" size="54,31" touchable="false" fontSize="20" color="#ffffff" autoSize="none" text="掉落"/>
+  </displayList>
+</component>

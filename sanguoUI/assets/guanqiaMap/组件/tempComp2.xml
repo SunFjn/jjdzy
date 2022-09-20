@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="123,130" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <image id="n4_h0zq" name="n4" src="kplsah" fileName="image1/tishikuang.png" pkg="jvxpx9em" xy="0,6" size="107,114"/>
+    <component id="n5_h0zq" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="24,36" size="109,107" scale="0.7,0.7"/>
+    <text id="n6_h0zq" name="n6" xy="16,11" size="85,27" fontSize="20" color="#ffffff" align="center" strokeColor="#333333" text="通关奖励">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n7_jx75" name="iconNot" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="87,0" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

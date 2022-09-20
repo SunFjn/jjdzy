@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <loader id="n15_77k9" name="n15" xy="31,266" size="585,704" locked="true" touchable="false" url="ui://gf2tw9lz77k9a"/>
+    <image id="n38_77k9" name="ball0" src="77k99" fileName="assets/弹珠.png" xy="539,372" group="n83_77k9" visible="false"/>
+    <image id="n6_7jlm" name="ball1" src="77k99" fileName="assets/弹珠.png" xy="534,400" group="n83_77k9" visible="false"/>
+    <image id="n39_77k9" name="ball2" src="77k99" fileName="assets/弹珠.png" xy="303,403" group="n83_77k9" visible="false"/>
+    <image id="n40_77k9" name="ball4" src="77k99" fileName="assets/弹珠.png" xy="303,457" group="n83_77k9" visible="false"/>
+    <image id="n41_77k9" name="ball3" src="77k99" fileName="assets/弹珠.png" xy="166,457" group="n83_77k9" visible="false"/>
+    <image id="n42_77k9" name="ball5" src="77k99" fileName="assets/弹珠.png" xy="475,457" group="n83_77k9" visible="false"/>
+    <image id="n43_77k9" name="ball7" src="77k99" fileName="assets/弹珠.png" xy="166,519" group="n83_77k9" visible="false"/>
+    <image id="n44_77k9" name="ball6" src="77k99" fileName="assets/弹珠.png" xy="121,520" group="n83_77k9" visible="false"/>
+    <image id="n45_77k9" name="ball8" src="77k99" fileName="assets/弹珠.png" xy="202,520" group="n83_77k9" visible="false"/>
+    <image id="n46_77k9" name="ball16" src="77k99" fileName="assets/弹珠.png" xy="121,593" group="n83_77k9" visible="false"/>
+    <image id="n47_77k9" name="ball15" src="77k99" fileName="assets/弹珠.png" xy="92,593" group="n83_77k9" visible="false"/>
+    <image id="n48_77k9" name="ball17" src="77k99" fileName="assets/弹珠.png" xy="152,593" group="n83_77k9" visible="false"/>
+    <image id="n49_77k9" name="ball33" src="77k99" fileName="assets/弹珠.png" xy="92,665" group="n83_77k9" visible="false"/>
+    <image id="n50_77k9" name="ball18" src="77k99" fileName="assets/弹珠.png" xy="185,593" group="n83_77k9" visible="false"/>
+    <image id="n51_77k9" name="ball20" src="77k99" fileName="assets/弹珠.png" xy="228,593" group="n83_77k9" visible="false"/>
+    <image id="n52_77k9" name="ball34" src="77k99" fileName="assets/弹珠.png" xy="152,665" group="n83_77k9" visible="false"/>
+    <image id="n53_77k9" name="ball35" src="77k99" fileName="assets/弹珠.png" xy="185,665" group="n83_77k9" visible="false"/>
+    <image id="n54_77k9" name="ball36" src="77k99" fileName="assets/弹珠.png" xy="228,665" group="n83_77k9" visible="false"/>
+    <image id="n55_77k9" name="ball37" src="77k99" fileName="assets/弹珠.png" xy="258,665" group="n83_77k9" visible="false"/>
+    <image id="n56_77k9" name="ball10" src="77k99" fileName="assets/弹珠.png" xy="303,520" group="n83_77k9" visible="false"/>
+    <image id="n57_77k9" name="ball9" src="77k99" fileName="assets/弹珠.png" xy="276,520" group="n83_77k9" visible="false"/>
+    <image id="n58_77k9" name="ball11" src="77k99" fileName="assets/弹珠.png" xy="354,520" group="n83_77k9" visible="false"/>
+    <image id="n59_77k9" name="ball21" src="77k99" fileName="assets/弹珠.png" xy="258,593" group="n83_77k9" visible="false"/>
+    <image id="n60_77k9" name="ball22" src="77k99" fileName="assets/弹珠.png" xy="276,593" group="n83_77k9" visible="false"/>
+    <image id="n61_77k9" name="ball23" src="77k99" fileName="assets/弹珠.png" xy="303,593" group="n83_77k9" visible="false"/>
+    <image id="n62_77k9" name="ball38" src="77k99" fileName="assets/弹珠.png" xy="303,665" group="n83_77k9" visible="false"/>
+    <image id="n63_77k9" name="ball24" src="77k99" fileName="assets/弹珠.png" xy="335,593" group="n83_77k9" visible="false"/>
+    <image id="n64_77k9" name="ball26" src="77k99" fileName="assets/弹珠.png" xy="378,593" group="n83_77k9" visible="false"/>
+    <image id="n65_77k9" name="ball39" src="77k99" fileName="assets/弹珠.png" xy="335,665" group="n83_77k9" visible="false"/>
+    <image id="n66_77k9" name="ball40" src="77k99" fileName="assets/弹珠.png" xy="378,665" group="n83_77k9" visible="false"/>
+    <image id="n67_77k9" name="ball12" src="77k99" fileName="assets/弹珠.png" xy="433,520" group="n83_77k9" visible="false"/>
+    <image id="n68_77k9" name="ball14" src="77k99" fileName="assets/弹珠.png" xy="514,520" group="n83_77k9" visible="false"/>
+    <image id="n69_77k9" name="ball13" src="77k99" fileName="assets/弹珠.png" xy="476,520" group="n83_77k9" visible="false"/>
+    <image id="n70_77k9" name="ball28" src="77k99" fileName="assets/弹珠.png" xy="433,593" group="n83_77k9" visible="false"/>
+    <image id="n71_77k9" name="ball27" src="77k99" fileName="assets/弹珠.png" xy="409,593" group="n83_77k9" visible="false"/>
+    <image id="n72_77k9" name="ball29" src="77k99" fileName="assets/弹珠.png" xy="454,593" group="n83_77k9" visible="false"/>
+    <image id="n73_77k9" name="ball30" src="77k99" fileName="assets/弹珠.png" xy="484,593" group="n83_77k9" visible="false"/>
+    <image id="n74_77k9" name="ball31" src="77k99" fileName="assets/弹珠.png" xy="514,593" group="n83_77k9" visible="false"/>
+    <image id="n75_77k9" name="ball32" src="77k99" fileName="assets/弹珠.png" xy="547,593" group="n83_77k9" visible="false"/>
+    <image id="n76_77k9" name="ball41" src="77k99" fileName="assets/弹珠.png" xy="409,665" group="n83_77k9" visible="false"/>
+    <image id="n77_77k9" name="ball42" src="77k99" fileName="assets/弹珠.png" xy="454,665" group="n83_77k9" visible="false"/>
+    <image id="n78_77k9" name="ball43" src="77k99" fileName="assets/弹珠.png" xy="484,665" group="n83_77k9" visible="false"/>
+    <image id="n79_77k9" name="ball25" src="77k99" fileName="assets/弹珠.png" xy="354,593" group="n83_77k9" visible="false"/>
+    <image id="n80_77k9" name="ball44" src="77k99" fileName="assets/弹珠.png" xy="547,665" group="n83_77k9" visible="false"/>
+    <image id="n82_77k9" name="ball19" src="77k99" fileName="assets/弹珠.png" xy="202,593" group="n83_77k9" visible="false"/>
+    <group id="n83_77k9" name="n83" xy="92,372" size="475,313" locked="true" collapsed="true"/>
+    <loader id="n16_77k9" name="n16" xy="62,381" size="529,376" url="ui://gf2tw9lz77k9c"/>
+    <component id="n1_7jlm" name="btnReset" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="480,286" pivot="0.5,0.5" scale="0.8,0.8">
+      <Button title="重置奖励"/>
+    </component>
+    <component id="n2_7jlm" name="btnShot1" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="132,766" pivot="0.5,0.5" scale="0.8,0.8">
+      <Button title="发射一次"/>
+    </component>
+    <component id="n3_7jlm" name="btnShot5" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="378,766" pivot="0.5,0.5" scale="0.8,0.8">
+      <Button title="发射五次"/>
+    </component>
+    <component id="n7_7jlm" name="btnPre" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="63,276" size="84,88">
+      <Button icon="ui://gf2tw9lz77k98"/>
+    </component>
+    <component id="n8_7jlm" name="btnShop" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="59,396" size="84,88">
+      <Button icon="ui://gf2tw9lz77k9b"/>
+    </component>
+    <richtext id="n12_x9uy" name="lbTips" xy="79,863" size="479,25" fontSize="16" color="#ffffff" align="center" text="屏蔽奖励后，弹珠不会掉落到该品质奖励槽中\n再抽取1次重置奖池">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n13_77k9" name="lbTime" xy="40,930" size="40,28" fontSize="18" color="#33ff00" text=""/>
+    <image id="n19_77k9" name="n19" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="58,465"/>
+    <image id="n20_77k9" name="n20" src="77k97" fileName="assets/图层 1057.png" xy="71,466"/>
+    <richtext id="n21_77k9" name="lbScore" xy="99,466" size="27,28" fontSize="18" color="#ffffff" text="12"/>
+    <image id="n23_77k9" name="n23" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="156,820"/>
+    <image id="n24_77k9" name="n24" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="400,820"/>
+    <richtext id="n25_77k9" name="btnDesc" xy="511,880" size="69,25" fontSize="16" color="#00ff00" underline="true" text="玩法说明"/>
+    <richtext id="n26_77k9" name="lbPrice0" xy="191,825" size="16,28" fontSize="18" color="#ffffff" text="1"/>
+    <richtext id="n27_77k9" name="lbPrice1" xy="435,825" size="16,28" fontSize="18" color="#ffffff" text="1"/>
+    <component id="n28_77k9" name="card0" src="77k9e" fileName="view/SMCard.xml" xy="49,626" pivot="0.5,0.5" scale="0.6,0.6"/>
+    <component id="n29_77k9" name="card1" src="77k9e" fileName="view/SMCard.xml" xy="125,626" pivot="0.5,0.5" scale="0.6,0.6"/>
+    <component id="n30_77k9" name="card2" src="77k9e" fileName="view/SMCard.xml" xy="201,626" pivot="0.5,0.5" scale="0.6,0.6"/>
+    <component id="n31_77k9" name="card3" src="77k9e" fileName="view/SMCard.xml" xy="277,626" pivot="0.5,0.5" scale="0.6,0.6"/>
+    <component id="n32_77k9" name="card4" src="77k9e" fileName="view/SMCard.xml" xy="353,626" pivot="0.5,0.5" scale="0.6,0.6"/>
+    <component id="n33_77k9" name="card5" src="77k9e" fileName="view/SMCard.xml" xy="429,626" pivot="0.5,0.5" scale="0.6,0.6"/>
+    <component id="n34_77k9" name="card6" src="77k9e" fileName="view/SMCard.xml" xy="505,626" pivot="0.5,0.5" scale="0.6,0.6"/>
+    <image id="n84_77k9" name="n84" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="513,338"/>
+    <richtext id="n85_77k9" name="lbreset" xy="548,343" size="16,28" fontSize="18" color="#ffffff" text="1"/>
+    <richtext id="n86_su44" name="linkLb" xy="37,784" size="37,25" fontSize="16" color="#00ff00" underline="true" text="概率"/>
+  </displayList>
+</component>

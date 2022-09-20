@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="469,170">
+  <displayList>
+    <image id="n4_qqnw" name="n4" src="zzq33dy" fileName="image/boss名字底.png" pkg="jvxpx9em" xy="149,0"/>
+    <image id="n0_qqnw" name="n0" src="sd2wh" fileName="image/奖励预览底.png" xy="0,56" size="469,114"/>
+    <list id="n1_qqnw" name="listRew" xy="97,92" size="478,116" scale="0.6,0.6" layout="row" overflow="scroll" scroll="horizontal" colGap="19" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n2_qqnw" name="lb" xy="136,12" size="197,35" fontSize="24" align="center" autoSize="none" text="第1战"/>
+    <image id="n5_cenr" name="n5" src="cenr14" fileName="image/通关奖励文字.png" xy="183,51"/>
+  </displayList>
+</component>

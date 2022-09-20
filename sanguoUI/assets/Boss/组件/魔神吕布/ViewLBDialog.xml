@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="558,183">
+  <displayList>
+    <image id="n0_bx2z" name="n0" src="bx2z29" fileName="image/对话框.png" xy="0,0" size="558,183"/>
+    <image id="n2_bx2z" name="n2" src="bx2z2f" fileName="image/c12.png" xy="29,24"/>
+    <richtext id="n3_bx2z" name="lb" xy="184,37" size="245,66" fontSize="24" color="#ffffff" ubb="true" text="&lt;font color='#ffc334'>吕布：&lt;/font>&#xA;这便是活生生的地狱啊"/>
+  </displayList>
+</component>

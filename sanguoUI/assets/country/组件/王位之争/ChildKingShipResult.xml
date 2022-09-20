@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,781">
+  <displayList>
+    <loader id="n2_u0wz" name="imgBg" xy="0,0" size="640,781" url="ui://uwzc58njggjy2o" autoSize="true"/>
+    <image id="n14_8hg8" name="n14" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="22,30"/>
+    <image id="n15_8hg8" name="n15" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="22,74" size="99,27"/>
+    <richtext id="n1_u0wz" name="labTimeTips1" xy="26,30" size="261,28" touchable="false" fontSize="18" color="#00ff00" text="王位之争将于00 : 11 : 34后开始"/>
+    <component id="n8_teph" name="leader0" src="teph24" fileName="组件/王位之争/VKingShipPly.xml" xy="261,199"/>
+    <component id="n9_teph" name="leader1" src="teph24" fileName="组件/王位之争/VKingShipPly.xml" xy="171,320"/>
+    <component id="n10_teph" name="leader2" src="teph24" fileName="组件/王位之争/VKingShipPly.xml" xy="355,320"/>
+    <component id="n4_teph" name="guard0" src="teph24" fileName="组件/王位之争/VKingShipPly.xml" xy="99,419"/>
+    <component id="n6_teph" name="guard1" src="teph24" fileName="组件/王位之争/VKingShipPly.xml" xy="428,419"/>
+    <component id="n5_teph" name="guard2" src="teph24" fileName="组件/王位之争/VKingShipPly.xml" xy="40,545"/>
+    <component id="n7_teph" name="guard3" src="teph24" fileName="组件/王位之争/VKingShipPly.xml" xy="487,545"/>
+    <richtext id="n11_8hg8" name="linkLb" xy="26,73" size="77,28" fontSize="18" color="#00ff00" underline="true" text="玩法说明"/>
+    <component id="n12_8hg8" name="boxBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="508,43" size="97,100">
+      <Button icon="ui://uwzc58njjd2n2u"/>
+    </component>
+    <image id="n16_8hg8" name="n16" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="171,637" size="302,105" group="n21_nbrv"/>
+    <image id="n27_jd2n" name="n27" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="185,607" size="265,31" group="n21_nbrv"/>
+    <component id="n17_8hg8" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="179,654" group="n21_nbrv" scale="0.8,0.8"/>
+    <richtext id="n18_8hg8" name="dataLb" xy="274,653" size="187,76" group="n21_nbrv" touchable="false" fontSize="18" color="#ffffff" leading="6" autoSize="none" text="名字&#xA;职位&#xA;战力"/>
+    <richtext id="n19_8hg8" name="n19" xy="187,609" size="265,31" group="n21_nbrv" touchable="false" fontSize="20" color="#00ff00" leading="6" text="点击目标可直接争夺对应官职"/>
+    <richtext id="n28_jd2n" name="battleTimeLb" xy="427,746" size="200,28" group="n21_nbrv" touchable="false" fontSize="18" color="#00ff00" align="right" leading="6" autoSize="none" text="00:00:00恢复一次"/>
+    <richtext id="n20_8hg8" name="battleNumLb" xy="231,746" size="129,28" group="n26_jd2n" touchable="false" fontSize="18" color="#00ff00" leading="6" text="挑战次数10/10"/>
+    <component id="n25_jd2n" name="buyBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="368,744" size="32,31" group="n26_jd2n">
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <group id="n26_jd2n" name="n26" xy="231,744" size="169,31" group="n21_nbrv" collapsed="true"/>
+    <group id="n21_nbrv" name="roleGroup" xy="171,607" size="456,174" advanced="true" collapsed="true"/>
+    <component id="n22_nbrv" name="moBaiBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="255,715" group="n24_nbrv">
+      <Button title="膜拜"/>
+    </component>
+    <image id="n23_nbrv" name="moBaiImg" src="qnae1i" fileName="image/已膜拜.png" xy="258,721" group="n24_nbrv"/>
+    <group id="n24_nbrv" name="mbGroup" xy="255,715" size="129,51" advanced="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.material.baodi.GiftBaodiData" tbname="giftBaodiData">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="baodiMap" type="text" pf="all" comment="保底数据"/>
+     </tb>
+</tbs>

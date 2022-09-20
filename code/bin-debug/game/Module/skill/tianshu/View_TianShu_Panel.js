@@ -1,0 +1,211 @@
+var __reflect = (this && this.__reflect) || function (p, c, t) {
+    p.__class__ = c, t ? t.push(c) : t = [c], p.__types__ = p.__types__ ? t.concat(p.__types__) : t;
+};
+var __extends = this && this.__extends || function __extends(t, e) { 
+ function r() { 
+ this.constructor = t;
+}
+for (var i in e) e.hasOwnProperty(i) && (t[i] = e[i]);
+r.prototype = e.prototype, t.prototype = new r();
+};
+var View_TianShu_Panel = (function (_super) {
+    __extends(View_TianShu_Panel, _super);
+    function View_TianShu_Panel() {
+        var _this = _super.call(this) || this;
+        _this.setSkin("role", "role_atlas0", "View_BaoWu_Panel");
+        return _this;
+    }
+    View_TianShu_Panel.prototype.setExtends = function () {
+        fairygui.UIObjectFactory.setPackageItemExtension(ViewBWGrid.URL, TianShuItem);
+        fairygui.UIObjectFactory.setPackageItemExtension(Child_BaoWu.URL, Child_TianShu);
+        fairygui.UIObjectFactory.setPackageItemExtension(Child_BaoWu_Jie.URL, Child_TianShu_Jie);
+        fairygui.UIObjectFactory.setPackageItemExtension(Child_BaoWu_JiBan.URL, Child_TianShu_JiBan);
+    };
+    View_TianShu_Panel.prototype.initView = function () {
+        _super.prototype.initView.call(this);
+        var a = this;
+        GGlobal.modelBySys.CGGetinfobysys(Model_BySys.TIAN_SHU);
+        GGlobal.modelBySys.CGJiBan(Model_BySys.JIB_TIANSHU);
+    };
+    View_TianShu_Panel.prototype.check_juexing = function () {
+        var s = this;
+        s.checkBingFa();
+        s.checkZhanJia();
+        s.checkBaoWu();
+        s.checkYiBao();
+        s.checkRed();
+        s.checkShenJian();
+    };
+    View_TianShu_Panel.prototype.checkZhanJia = function () {
+        var r = GGlobal.reddot;
+        this.btnSZ.checkNotice = r.checkCondition(UIConst.ZHAN_JIA) || r.checkCondition(UIConst.JUEXING, 6);
+    };
+    View_TianShu_Panel.prototype.checkBaoWu = function () {
+        var r = GGlobal.reddot;
+        this.btnJH.checkNotice = r.checkCondition(UIConst.BAOWU) || r.checkCondition(UIConst.BAOWU, 1) || r.checkCondition(UIConst.BAOWU, 2) || r.checkCondition(UIConst.JUEXING, 1);
+    };
+    View_TianShu_Panel.prototype.checkShenJian = function () {
+        var r = GGlobal.reddot;
+        this.btnSJ.checkNotice = r.checkCondition(UIConst.SHEN_JIAN) || r.checkCondition(UIConst.SHEN_JIAN, 1) || r.checkCondition(UIConst.SHEN_JIAN, 2) || r.checkCondition(UIConst.JUEXING, 2);
+    };
+    View_TianShu_Panel.prototype.checkBingFa = function () {
+        var ret = false;
+        for (var i = 0; i < 4; i++) {
+            ret = GGlobal.reddot.checkCondition(UIConst.BINGFA, i);
+            if (ret)
+                break;
+        }
+        if (!ret)
+            ret = GGlobal.reddot.checkCondition(UIConst.JUEXING, 5);
+        this.btnBF.checkNotice = ret;
+    };
+    View_TianShu_Panel.prototype.checkYiBao = function () {
+        var r = GGlobal.reddot;
+        this.btnYB.checkNotice = r.checkCondition(UIConst.YIBAO) || r.checkCondition(UIConst.YIBAO, 1) || r.checkCondition(UIConst.YIBAO, 2) || r.checkCondition(UIConst.JUEXING, 3);
+    };
+    View_TianShu_Panel.prototype.openJiangHunHandle = function () {
+        //宝物
+        GGlobal.layerMgr.open(UIConst.BAOWU, this.c1.selectedIndex);
+    };
+    View_TianShu_Panel.prototype.shenjianHandle = function () {
+        GGlobal.layerMgr.open(UIConst.SHEN_JIAN, this.c1.selectedIndex);
+    };
+    View_TianShu_Panel.prototype.openBingFaHandler = function () {
+        GGlobal.layerMgr.open(UIConst.BINGFA, this.c1.selectedIndex);
+    };
+    View_TianShu_Panel.prototype.openSZHandler = function () {
+        GGlobal.layerMgr.open(UIConst.ZHAN_JIA, this.c1.selectedIndex);
+    };
+    View_TianShu_Panel.prototype.openYiBao = function () {
+        GGlobal.layerMgr.open(UIConst.YIBAO, this.c1.selectedIndex);
+    };
+    View_TianShu_Panel.prototype.onShown = function () {
+        var s = this;
+        var f = GGlobal.reddot;
+        s.setExtends();
+        if (s._args) {
+            s.c1.selectedIndex = s._args;
+        }
+        else {
+            s.c1.selectedIndex = 0;
+        }
+        s.onXianShi();
+        s.iconSelImg.setXY(s.btnTJ.x - 11, s.btnTJ.y - 5);
+        s.btnBF.addClickListener(s.openBingFaHandler, s);
+        s.btnYB.addClickListener(s.openYiBao, s);
+        s.btnSZ.addClickListener(s.openSZHandler, s);
+        s.btnSJ.addClickListener(s.shenjianHandle, s);
+        s.btnJH.addClickListener(s.openJiangHunHandle, s);
+        s.selectPage();
+        s.check_juexing();
+        GGlobal.modeltianshu.CG_OPENUI_971();
+        this.c1.addEventListener(fairygui.StateChangeEvent.CHANGED, this.selectPage, this);
+        f.listen(ReddotEvent.CHECK_TIANSHU, s.checkRed, s);
+        f.listen(ReddotEvent.CHECK_BINGFA, s.checkBingFa, s);
+        f.listen(ReddotEvent.CHECK_ZHAN_JIA, s.checkZhanJia, s);
+        f.listen(ReddotEvent.CHECK_BAOWU, s.checkBaoWu, s);
+        f.listen(ReddotEvent.CHECK_SHENJIAN, s.checkShenJian, s);
+        f.listen(ReddotEvent.CHECK_YIBAO, s.checkYiBao, s);
+        f.listen(UIConst.JUEXING, s.check_juexing, s);
+    };
+    View_TianShu_Panel.prototype.onHide = function () {
+        var s = this;
+        var f = GGlobal.reddot;
+        if (s._p) {
+            s._p.close();
+        }
+        s._p = null;
+        s.btnYB.removeClickListener(s.openYiBao, s);
+        s.btnBF.removeClickListener(s.openBingFaHandler, s);
+        s.btnSJ.removeClickListener(s.shenjianHandle, s);
+        s.btnJH.removeClickListener(s.openJiangHunHandle, s);
+        s.btnSZ.removeClickListener(s.openSZHandler, s);
+        f.remove(ReddotEvent.CHECK_SHENJIAN, s.checkShenJian, s);
+        f.remove(ReddotEvent.CHECK_BINGFA, s.checkBingFa, s);
+        f.remove(ReddotEvent.CHECK_ZHAN_JIA, s.checkZhanJia, s);
+        f.remove(ReddotEvent.CHECK_BAOWU, s.checkBaoWu, s);
+        f.remove(ReddotEvent.CHECK_YIBAO, s.checkYiBao, s);
+        f.remove(ReddotEvent.CHECK_TIANSHU, s.checkRed, s);
+        f.remove(UIConst.JUEXING, s.check_juexing, s);
+        this.c1.removeEventListener(fairygui.StateChangeEvent.CHANGED, this.selectPage, this);
+        GGlobal.layerMgr.close(UIConst.TIANSHU);
+    };
+    View_TianShu_Panel.prototype.selectPage = function () {
+        if (this._p) {
+            this._p.close();
+        }
+        if (this.c1.selectedIndex == 0) {
+            this.p0.open();
+            this._p = this.p0;
+        }
+        else if (this.c1.selectedIndex == 1) {
+            this.p1.open();
+            this._p = this.p1;
+        }
+        else if (this.c1.selectedIndex == 2) {
+            this.p2.open();
+            this._p = this.p2;
+        }
+    };
+    View_TianShu_Panel.prototype.checkRed = function () {
+        var r = false;
+        var f = GGlobal.reddot;
+        r = f.checkCondition(UIConst.TIANSHU, 0) || f.checkCondition(UIConst.TIANSHU, 1) || f.checkCondition(UIConst.TIANSHU, 2) || f.checkCondition(UIConst.TIANSHU, 3) || f.checkCondition(UIConst.JUEXING, 4);
+        this.tab0.checkNotice = r;
+        //升阶
+        this.tab1.checkNotice = f.checkCondition(UIConst.TIANSHU, 4);
+        this.tab2.checkNotice = f.checkCondition(UIConst.TIANSHU, 5);
+        this.btnTJ.checkNotice = r || f.checkCondition(UIConst.TIANSHU, 4) || f.checkCondition(UIConst.TIANSHU, 5);
+    };
+    View_TianShu_Panel.prototype.onXianShi = function () {
+        var arr = [];
+        var boo;
+        //宝物
+        boo = ModuleManager.isXianShi(UIConst.BAOWU);
+        this.btnJH.visible = boo;
+        if (boo) {
+            arr.push(this.btnJH);
+        }
+        //天书
+        boo = ModuleManager.isXianShi(UIConst.TIANSHU);
+        this.btnTJ.visible = boo;
+        if (boo) {
+            arr.push(this.btnTJ);
+        }
+        //神剑
+        boo = ModuleManager.isXianShi(UIConst.SHEN_JIAN);
+        this.btnSJ.visible = boo;
+        if (boo) {
+            arr.push(this.btnSJ);
+        }
+        //异宝
+        boo = ModuleManager.isXianShi(UIConst.YIBAO);
+        this.btnYB.visible = boo;
+        if (boo) {
+            arr.push(this.btnYB);
+        }
+        //战甲
+        boo = ModuleManager.isXianShi(UIConst.ZHAN_JIA);
+        this.btnSZ.visible = boo;
+        if (boo) {
+            arr.push(this.btnSZ);
+        }
+        //兵法
+        boo = ModuleManager.isXianShi(UIConst.BINGFA);
+        this.btnBF.visible = boo;
+        if (boo) {
+            arr.push(this.btnBF);
+        }
+        //按钮居中
+        var jg = 15;
+        var ww = 640;
+        var w = 76;
+        var len = arr.length;
+        for (var i = 0; i < len; i++) {
+            arr[i].x = (ww - len * w - (len - 1) * jg) / 2 + i * (w + jg);
+        }
+    };
+    View_TianShu_Panel.URL = "ui://3tzqotadjx2x34";
+    return View_TianShu_Panel;
+}(UIPanelBase));
+__reflect(View_TianShu_Panel.prototype, "View_TianShu_Panel");

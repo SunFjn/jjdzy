@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="104,130">
+  <displayList>
+    <component id="n1_phli" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="2,0"/>
+    <richtext id="n3_phli" name="labName" xy="-8,102" size="119,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="二阶解锁解锁"/>
+    <image id="n4_vh5g" name="imgLocked" src="k8qc9z" fileName="image1/maskBg.png" pkg="jvxpx9em" xy="2,5" size="96,96"/>
+  </displayList>
+</component>

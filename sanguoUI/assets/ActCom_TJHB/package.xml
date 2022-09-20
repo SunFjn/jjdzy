@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="fm0lrzct" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="tl0c0" name="Child_ActCom_TJHB.xml" path="/组件/" exported="true"/>
+    <component id="tl0c1" name="TJHBItem.xml" path="/组件/" exported="true"/>
+    <component id="v4652" name="ViewFHB.xml" path="/组件/" exported="true"/>
+    <component id="v4653" name="ItemFHB.xml" path="/组件/" exported="true"/>
+    <image id="v4658" name="天降红包字.png" path="/image/" exported="true"/>
+    <image id="v4659" name="拆.png" path="/image/" exported="true"/>
+    <image id="v465a" name="按钮.png" path="/image/" exported="true"/>
+    <image id="v465e" name="红包已拆.png" path="/image/" exported="true"/>
+    <image id="v465g" name="红包未拆.png" path="/image/" exported="true" scale="9grid" scale9grid="25,90,146,113"/>
+    <component id="v465i" name="ViewHBRecord.xml" path="/组件/" exported="true"/>
+    <component id="v465j" name="ItemHBRecord.xml" path="/组件/" exported="true"/>
+    <font id="v9rkk" name="Font1.fnt" path="/组件/" exported="true"/>
+    <image id="v9rkl" name="0.png" path="/image/" exported="true"/>
+    <image id="v9rkm" name="1.png" path="/image/" exported="true"/>
+    <image id="v9rkn" name="2.png" path="/image/" exported="true"/>
+    <image id="v9rko" name="3.png" path="/image/" exported="true"/>
+    <image id="v9rkp" name="4.png" path="/image/" exported="true"/>
+    <image id="v9rkq" name="5.png" path="/image/" exported="true"/>
+    <image id="v9rkr" name="6.png" path="/image/" exported="true"/>
+    <image id="v9rks" name="7.png" path="/image/" exported="true"/>
+    <image id="v9rkt" name="8.png" path="/image/" exported="true"/>
+    <image id="v9rku" name="9.png" path="/image/" exported="true"/>
+    <component id="eodnv" name="TJHBEff.xml" path="/组件/" exported="true"/>
+    <image id="eodnw" name="eff.png" path="/image/" exported="true"/>
+    <image id="nif0x" name="已发送.png" path="/image/" exported="true"/>
+    <image id="k2ydy" name="已抢完.png" path="/image/" exported="true"/>
+    <image id="k2ydz" name="运气王标签.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="ActCom_TJHB" genCode="true" npot="true"/>
+</packageDescription>

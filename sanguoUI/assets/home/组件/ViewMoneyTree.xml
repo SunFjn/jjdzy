@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,758">
+  <displayList>
+    <component id="n0_ye03" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,758" locked="true">
+      <Label title="摇钱树升级"/>
+    </component>
+    <loader id="n3_ye03" name="imgTree" xy="271,120" size="50,30" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <component id="n1_ye03" name="lbName" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="72,140" size="40,21"/>
+    <component id="n2_ye03" name="n2" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="164,56"/>
+    <component id="n6_ye03" name="n6" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="137,399" size="319,28">
+      <Label title="效果提升"/>
+    </component>
+    <component id="n10_ye03" name="n10" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="137,498" size="319,28">
+      <Label title="升级属性"/>
+    </component>
+    <component id="n17_nvxy" name="lbLevel" src="nvxy3ib" fileName="组件/LevelLabel.xml" pkg="jvxpx9em" xy="70,311">
+      <relation target="n1_ye03" sidePair="center-center"/>
+    </component>
+    <component id="n4_ye03" name="btnYao" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="430,270" size="120,119">
+      <Button title="摇钱" icon="ui://y0plc878nvxy1l"/>
+    </component>
+    <richtext id="n5_ye03" name="lbTime" xy="276,363" size="40,29" fontSize="18" color="#00ff00" bold="true" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n20_tmlf" name="lbFull" xy="276,437" size="40,28" group="n23_tmlf" fontSize="18" color="#ffffff" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n21_tmlf" name="lbFullAtt" xy="276,534" size="40,28" group="n23_tmlf" fontSize="18" color="#ffffff" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n22_tmlf" name="imgFull" src="shpk3h3" fileName="image/美术字/满级美术字/已满级.png" pkg="jvxpx9em" xy="250,668" group="n23_tmlf"/>
+    <group id="n23_tmlf" name="groupFull" xy="250,437" size="92,273" advanced="true"/>
+    <component id="n13_ye03" name="n13" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="251,628" group="n24_tmlf"/>
+    <image id="n18_nvxy" name="n18" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="268,428" group="n24_tmlf"/>
+    <image id="n19_nvxy" name="n19" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="268,543" group="n24_tmlf"/>
+    <richtext id="n7_ye03" name="lbNow" xy="33,437" size="40,28" group="n24_tmlf" fontSize="18" color="#ffffff" text=""/>
+    <richtext id="n8_ye03" name="lbNext" xy="340,437" size="40,28" group="n24_tmlf" fontSize="18" color="#33ff00" text=""/>
+    <richtext id="n9_ye03" name="lbNowAtt" xy="33,534" size="40,28" group="n24_tmlf" fontSize="18" color="#ffffff" text=""/>
+    <richtext id="n11_ye03" name="lbNextAtt" xy="340,534" size="40,28" group="n24_tmlf" fontSize="18" color="#33ff00" text=""/>
+    <richtext id="n12_ye03" name="lbItem" xy="201,630" size="40,28" group="n24_tmlf" fontSize="18" text=""/>
+    <richtext id="n15_ye03" name="lbCondition" xy="276,729" size="40,21" group="n24_tmlf" fontSize="12" text=""/>
+    <component id="n14_ye03" name="btnLevelup" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="228,670" group="n24_tmlf">
+      <Button title="升级"/>
+    </component>
+    <group id="n24_tmlf" name="groupAtt" xy="33,428" size="395,322" locked="true" hideByEditor="true" advanced="true"/>
+    <component id="n25_se7l" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="529,226" size="55,63" visible="false" alpha="0" touchable="false">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n26_se7l" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="21,226" pivot="0.5,0.5" size="55,63" scale="-1,1" visible="false" alpha="0" touchable="false">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+  </displayList>
+</component>

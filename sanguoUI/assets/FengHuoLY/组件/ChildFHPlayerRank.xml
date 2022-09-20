@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="562,752">
+  <displayList>
+    <list id="n0_kzd9" name="n0" xy="1,0" size="558,706" overflow="scroll" lineGap="3" defaultItem="ui://edvdots4kzd9h">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n1_kzd9" name="lbMyRank" xy="24,715" size="125,35" fontSize="24" color="#ffcc00" text="我的排名："/>
+    <text id="n2_kzd9" name="lbMyScore" xy="301,715" size="125,35" fontSize="24" color="#00ff00" text="我的积分："/>
+  </displayList>
+</component>

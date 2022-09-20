@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,739">
+  <displayList>
+    <component id="n1_cenr" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,739">
+      <Label title="镇守宝库"/>
+    </component>
+    <loader id="n2_cenr" name="bg" xy="30,79" size="543,186" url="ui://3o8q23uucenr1i" autoSize="true"/>
+    <component id="n3_cenr" name="moneyLb" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="35,228" size="143,33"/>
+    <image id="n4_cenr" name="n4" src="if1k3hc" fileName="image/通用底框/小标题文字底.png" pkg="jvxpx9em" xy="414,229" size="160,36"/>
+    <richtext id="n5_cenr" name="n5" xy="444,233" size="95,28" fontSize="18" color="#00ff00" text="每周一更新"/>
+    <list id="n6_cenr" name="list" xy="29,282" size="549,444" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" lineItemCount="2" defaultItem="ui://3o8q23uucenr1j" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

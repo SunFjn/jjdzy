@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,443" designImage="ui://m2fm2aiyihs7m" designImageOffsetX="-30" designImageOffsetY="-267">
+  <displayList>
+    <component id="n0_vfmx" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="-2,0" size="593,443" locked="true">
+      <Label title="人员调动"/>
+    </component>
+    <component id="n1_vfmx" name="leaveBtn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="225,368">
+      <Button title="离开义盟"/>
+    </component>
+    <list id="n2_vfmx" name="list" xy="20,92" size="549,262" overflow="hidden" lineGap="8" defaultItem="ui://m2fm2aiyvfmx1b" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

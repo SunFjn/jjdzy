@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.xuTianHunt.model.XuTianHuntModel" tbname="xuTianHuntModel">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="huntNum" type="int" pf="all" comment="狩猎次数"/>
+			<col field="buyNum" type="int" pf="all" comment="今日已买次数"/>
+			<col field="addSet" type="text" pf="all" comment="永久类已获得称号"/>
+     </tb>
+</tbs>

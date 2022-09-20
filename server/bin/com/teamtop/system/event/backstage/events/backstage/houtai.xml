@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.event.backstage.events.backstage.HoutaiMapper">
+	<!--插入用户表数据m_register--> 
+	<insert id="insertRegister" parameterType="b_register">
+		insert into b_register (openid,zoneid,pfopenid,pfcode,usesys,createtime,createip,app_custom,id,name)
+		values(#{openid},#{zoneid},#{pfopenid},#{pfcode},#{usesys},#{createtime},#{createip},#{app_custom},#{id},#{name})
+	</insert>
+	<!-- 查找用户表数据-->
+	<select id="getB_RegisterByopenid" parameterType="java.lang.String" resultType="b_register">
+		select * from b_register where openid=#{value};
+	</select>
+    <!-- 更新用户表数据 -->
+	<update id="updateB_Register" parameterType="b_register">
+		update b_register set id=#{id},name=#{name},job=#{job} where openid=#{openid};
+	</update>
+	<!-- 查找角色表 -->
+	<select id="getB_RoleInfoByopenid" parameterType="java.lang.String" resultType="b_roleInfo">
+		select * from b_roleInfo where openid=#{value};
+	</select>
+	<!--插入角色表--> 
+	<insert id="insertB_RoleInfo" parameterType="b_roleInfo">
+		insert into b_roleInfo (openid,id,zoneid,pfopenid,pfcode,usesys,createip,name,level,totalStrength,coin,yuanbao,vip,app_custom,SumMoney,isOld,createHeroTime,RegisterTime,updateTime)
+		values(#{openid},#{id},#{zoneid},#{pfopenid},#{pfcode},#{usesys},#{createip},#{name},#{level},#{totalStrength},#{coin},#{yuanbao},#{vip},#{app_custom},#{SumMoney},#{isOld},#{createHeroTime},#{RegisterTime},#{updateTime});
+	</insert>
+	<!--插入订单表数据--> 
+	<insert id="insertB_PayAccount" parameterType="b_payaccount">
+		insert into b_payaccount (product_id,product_sdkid,zoneid,pfopenid,loginpfcode,pfcode,openid,hid,name,lv,vipLv,app_custom,payNum,itemId,itemNum,itemName,itemInfo,creatTime,payTime,payState,successPayNum,usesys,loginsys,createtime,updateTime,isBlackList,parameters,job)
+		values(#{product_id},#{product_sdkid},#{zoneid},#{pfopenid},#{loginpfcode},#{pfcode},#{openid},#{hid},#{name},#{lv},#{vipLv},#{app_custom},#{payNum},#{itemId},#{itemNum},#{itemName},#{itemInfo},#{creatTime},#{payTime},#{payState},#{successPayNum},#{usesys},#{loginsys},#{createtime},#{updateTime},#{isBlackList},#{parameters},#{job});
+	</insert>
+	<!-- 查找订单表数据  -->
+	<select id="selectB_PayAccount" parameterType="Long" resultType="b_payaccount">
+		select * from b_payaccount where product_id = #{value}
+	</select>
+	 <!-- 更新订单表数据-->
+	<update id="updateB_PayAccount" parameterType="b_payaccount">
+		update b_payaccount set order_formType=#{order_formType},payType=#{payType},product_sdkid=#{product_sdkid},payTime=#{payTime},payState=#{payState},vipLv=#{vipLv},successPayNum=#{successPayNum},updateTime=#{updateTime} where product_id = #{product_id};
+	</update>
+	<!--获取最新的在线信息 m_online--> 
+	<select id="getOnlineLast" resultType="B_Online">
+		select * from b_online order by id desc limit 1;
+	</select>
+	<!-- 查找所有订单表数据  -->
+	<select id="selectAllB_PayAccount"  resultType="b_payaccount">
+		select * from b_payaccount where payState=1;
+	</select>
+</mapper>

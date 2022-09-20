@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="474,288">
+  <displayList>
+    <component id="n0_pdbd" name="frame" src="f1cf47" fileName="组件/frame1.xml" xy="0,0" size="474,288"/>
+    <image id="n4_sp3l" name="n4" src="x3b93cl" fileName="image/奖励底.png" xy="26,78" size="422,172"/>
+    <loader id="n1_pdbd" name="titleIcon" xy="114,23" size="251,40" url="ui://jvxpx9emz05i3f5" align="center" vAlign="middle">
+      <relation target="n0_pdbd" sidePair="center-center"/>
+    </loader>
+    <richtext id="n2_pdbd" name="rewardLb" xy="38,83" size="234,158" fontSize="22" color="#ffffff" vAlign="middle" leading="0" ubb="true" autoSize="none" text="奖品名字      10%&#xA;奖品名字      10%&#xA;奖品名字      10%&#xA;奖品名字      10%&#xA;奖品名字      10%"/>
+    <richtext id="n5_sp3l" name="numLb" xy="340,83" size="98,155" fontSize="22" color="#00f234" align="right" vAlign="middle" leading="0" ubb="true" autoSize="none" text="10%&#xA;10%&#xA;10%&#xA;10%&#xA;10%"/>
+  </displayList>
+</component>

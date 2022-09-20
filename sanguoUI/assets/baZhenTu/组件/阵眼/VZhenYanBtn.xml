@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="77,117" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n0_caql" name="n0" src="caql20" fileName="image/阵眼/阵眼底座.png" xy="0,0"/>
+    <image id="n2_caql" name="n2" src="caql1n" fileName="image/阵眼/选中小.png" xy="-9,-10" size="95,96" aspect="true">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <loader id="n1_caql" name="img" xy="2,-26" size="75,100" touchable="false" url="ui://xrzn9ppacaql1y"/>
+    <image id="n3_caql" name="starBg" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="-10,80" size="98,34"/>
+    <richtext id="n4_caql" name="lb" xy="-2,79" size="44,35" fontSize="24" color="#ffcc00" align="right" autoSize="none" autoClearText="true" text="10"/>
+    <image id="n5_caql" name="star" src="sv0g2l" fileName="image1/big_star_4.png" pkg="jvxpx9em" xy="46,82"/>
+    <image id="n6_mdbj" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="62,6">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

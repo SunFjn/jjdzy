@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="491,574" adaptationTest="FitHeightAndSetCenter">
+  <displayList>
+    <list id="n12_g30n" name="listHead" xy="15,167" size="471,170" layout="flow_hz" overflow="scroll" margin="5,0,0,0" lineGap="20" colGap="21" lineItemCount="4" defaultItem="ui://dt6yws4jg30n3">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n13_g30n" name="lab1" xy="207,126" size="80,35" touchable="false" fontSize="18" color="#b5bfe8" align="center" autoSize="none" text="头像"/>
+    <list id="n14_g30n" name="listFrame" xy="6,393" size="485,181" layout="flow_hz" overflow="scroll" margin="5,0,0,0" lineGap="13" colGap="17" lineItemCount="4" defaultItem="ui://dt6yws4jlncka">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n15_g30n" name="lab2" xy="207,353" size="80,35" touchable="false" fontSize="18" color="#b5bfe8" align="center" autoSize="none" text="头像框"/>
+    <richtext id="n17_g30n" name="labHead" xy="99,14" size="286,28" touchable="false" fontSize="18" color="#ffffff" ubb="true" autoSize="none" text="头像：【赵云】（已激活）"/>
+    <richtext id="n18_g30n" name="labFrame" xy="99,42" size="285,28" touchable="false" fontSize="18" color="#ffffff" ubb="true" autoSize="none" text="头像框：[color=#EEC315]【默认】[/color][color=#12F60D]（已激活）[/color]"/>
+    <richtext id="n21_g30n" name="labOperate" xy="135,79" size="77,28" touchable="false" fontSize="18" color="#ffffff" autoSize="none" text="隐藏国家"/>
+    <component id="n24_lyou" name="checkBox" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="99,78"/>
+    <component id="n28_r7m7" name="btnChange" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="386,40" size="90,36">
+      <Button title="更改" titleFontSize="20"/>
+    </component>
+    <component id="n29_ejx3" name="vhead" src="ejx38" fileName="组件/VSettingHeadTop.xml" xy="-7,16"/>
+    <image id="n32_bri4" name="n32" src="m3513bt" fileName="image/分割线.png" pkg="jvxpx9em" xy="-10,134" pivot="0.5,0.5" size="500,10"/>
+    <image id="n33_bri4" name="n33" src="m3513bt" fileName="image/分割线.png" pkg="jvxpx9em" xy="-10,359" pivot="0.5,0.5" size="500,10"/>
+  </displayList>
+</component>

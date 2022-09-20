@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="180,50" opaque="false">
+  <displayList>
+    <loader id="n0_mni4" name="imgState" xy="0,0" size="50,30" autoSize="true"/>
+  </displayList>
+</component>

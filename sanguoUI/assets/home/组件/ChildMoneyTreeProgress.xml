@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,98">
+  <displayList>
+    <image id="n9_se7l" name="n9" src="se7l24" fileName="images/收益框.png" xy="0,0" size="160,98"/>
+    <image id="n2_wy1s" name="n2" src="g2m4v" fileName="images/府邸币.png" xy="-7,-7" pivot="0.5,0.5" scale="0.8,0.8"/>
+    <richtext id="n5_wy1s" name="lbTime" xy="63,13" size="47,24" fontSize="14" color="#ffffff" text="时间："/>
+    <richtext id="n7_wy1s" name="lbMoney" xy="62,38" size="29,24" fontSize="14" color="#ffffff" text="123"/>
+    <component id="n10_se7l" name="n10" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="12,50" pivot="0.5,0.5" scale="0.5,0.5">
+      <Button title="领取"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="559,101">
+  <displayList>
+    <image id="n1_owxn" name="n1" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="559,101"/>
+    <richtext id="n2_owxn" name="contentLb" xy="5,37" size="371,28" fontSize="18" color="#ffffff" autoSize="none" text="玩家前来赴宴"/>
+    <component id="n3_owxn" name="bt0" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="381,32" pivot="0.5,0.5" size="85,38">
+      <Button title="拒绝" titleFontSize="20"/>
+    </component>
+    <component id="n4_owxn" name="bt1" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="468,32" pivot="0.5,0.5" size="85,38">
+      <Button title="同意" titleFontSize="20"/>
+    </component>
+  </displayList>
+</component>

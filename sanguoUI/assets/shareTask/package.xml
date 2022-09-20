@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="a6geycdp" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="g6d50" name="ViewShareTaskPanel.xml" path="/组件/" exported="true"/>
+    <image id="g6d51" name="赵云.png" path="/image/"/>
+    <image id="eysi3" name="分享底.png" path="/image/"/>
+    <image id="eysi4" name="绝世飞剑.png" path="/image/"/>
+    <image id="eysi5" name="御剑临风.png" path="/image/"/>
+    <image id="eysi6" name="倚天剑.png" path="/image/"/>
+    <component id="cxhe7" name="ViewShareFirstPanel.xml" path="/组件/" exported="true"/>
+    <image id="cxhe8" name="首次分享底.png" path="/image/"/>
+    <image id="cxhe9" name="首次分享图.png" path="/image/"/>
+    <image id="cxheb" name="图层 10.png" path="/image/"/>
+    <image id="cxhec" name="首次分享.png" path="/image/"/>
+    <image id="cxhed" name="首次分享 送武将陆逊.png" path="/image/"/>
+    <image id="q2mke" name="分享送礼.png" path="/image/"/>
+    <image id="q2mkf" name="珍稀豪礼.png" path="/image/"/>
+    <image id="q2mkg" name="分享即送.png" path="/image/"/>
+    <image id="q2mkh" name="首次分享领取丰厚奖励.png" path="/image/"/>
+  </resources>
+  <publish name="shareTask" genCode="true" npot="true"/>
+</packageDescription>

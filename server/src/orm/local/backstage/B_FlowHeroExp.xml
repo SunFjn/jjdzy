@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 角色经验流水表-->
+	<tb model="com.teamtop.system.event.backstage.events.flowHero.B_FlowHeroExp" tbname="b_flowheroexp">
+		<index field="id" type="prikey"/>
+		<index field="hid" type="normal"/>
+		<index field="operateTime" type="normal"/>
+		<index field="pfcode" type="normal"/>
+		<index field="zoneid" type="normal"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="level" type="int" pf="all" comment="当前等级"/>
+		<col field="exp" type="bigint" pf="all" comment="当前经验值"/>
+		<col field="addExp" type="bigint" pf="all" comment="增加的经验值"/>
+		<col field="reason" type="int" pf="all" comment="操作原因"/>
+		<col field="zoneid" type="int" pf="all" comment="区号"/>
+		<col field="operateTime" type="int" pf="all" comment="操作时间"/>
+		<col field="addFlag" type="int" pf="all" comment="1增加，2减少"/>
+		<col field="pfcode" type="varchar" len="255" pf="all" comment="平台代码"/>
+		<col field="usesys" type="varchar" len="255" pf="all" comment="注册系统"/>	
+		<col field="reincarnationLevel" type="int" pf="all" comment="六道轮回等级"/>	
+	</tb>
+</tbs>

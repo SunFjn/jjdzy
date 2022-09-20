@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="77,65" pivot="0.5,0.5" anchor="true">
+  <controller name="stateCtrl" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n21_n9yf" name="n21" src="aro89e" fileName="image/新资源/宝箱.png" pkg="jvxpx9em" xy="0,0" size="77,65" aspect="true" flip="hz"/>
+    <image id="n23_n9yf" name="n23" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="4,85" size="69,29" group="n25_n9yf"/>
+    <richtext id="n24_n9yf" name="tfScore" xy="18,85" pivot="0.5,0.5" size="43,25" group="n25_n9yf" touchable="false" fontSize="18" color="#ffff33" align="center" leading="0" autoClearText="true" text="10场"/>
+    <group id="n25_n9yf" name="n25" xy="4,85" size="69,29"/>
+    <image id="n26_uirp" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="58,-2">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n27_uirp" name="imageGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="-3,21" size="84,27" aspect="true">
+      <gearDisplay controller="stateCtrl" pages="2"/>
+    </image>
+  </displayList>
+</component>

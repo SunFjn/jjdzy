@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="403,57">
+  <displayList>
+    <image id="n6_oc0j" name="imgBg" src="oc0jm" fileName="image/选项1.png" xy="0,3" size="403,53"/>
+    <image id="n7_oc0j" name="imgBg1" src="oc0jn" fileName="image/选项2.png" xy="0,3" size="403,53"/>
+    <richtext id="n2_n7ie" name="lbInfo" xy="164,11" size="10,35" fontSize="24" color="#ffffff" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n3_n7ie" name="imgright" src="oc0jt" fileName="image/勾.png" xy="320,12"/>
+    <image id="n4_n7ie" name="imageX" src="oc0ju" fileName="image/叉.png" xy="322,16"/>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="608,843">
+  <displayList>
+    <component id="n0_608a" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="608,843">
+      <Label title="无双奖池"/>
+    </component>
+    <component id="n2_608a" name="i0" src="608ax" fileName="组件/三国无双/WardItem.xml" xy="59,93" customData="16"/>
+    <component id="n3_608a" name="i1" src="608ax" fileName="组件/三国无双/WardItem.xml" xy="318,93" customData="8"/>
+    <component id="n4_608a" name="i2" src="608ax" fileName="组件/三国无双/WardItem.xml" xy="59,446" customData="4"/>
+    <component id="n5_608a" name="i3" src="608ax" fileName="组件/三国无双/WardItem.xml" xy="318,446" customData="1"/>
+  </displayList>
+</component>

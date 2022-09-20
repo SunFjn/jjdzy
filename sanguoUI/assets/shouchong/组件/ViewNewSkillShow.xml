@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="492,510" opaque="false">
+  <displayList>
+    <richtext id="n2_bvbp" name="txtInfo" xy="0,416" size="492,35" touchable="false" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="点击&lt;font color='#00F234'>【角色-神剑】&lt;/font>可激活倚天剑并装备"/>
+    <richtext id="n7_bvbp" name="txtInfo" xy="0,20" size="492,35" touchable="false" fontSize="24" color="#ffc334" align="center" vAlign="middle" autoSize="none" text="点击任意位置关闭"/>
+    <richtext id="n8_bvbp" name="txtInfo" xy="0,376" size="492,35" touchable="false" fontSize="24" color="#ffc334" align="center" vAlign="middle" autoSize="none" text="装备倚天剑后攻击附带燃烧效果"/>
+    <component id="n9_qzb0" name="btnHand" src="y1z8b" fileName="新组建/Button0.xml" pkg="jvxpx9em" xy="182,456">
+      <Button title="确定"/>
+    </component>
+  </displayList>
+</component>

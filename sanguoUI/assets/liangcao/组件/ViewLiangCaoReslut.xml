@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="591,514">
+  <displayList>
+    <component id="n2_hd20" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="591,514">
+      <Label title="活动结束"/>
+    </component>
+    <image id="n3_hd20" name="n3" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="24,186" size="540,234"/>
+    <loader id="n4_hd20" name="n4" xy="33,195" size="518,221" url="ui://edvdots4ekf6z"/>
+    <component id="n5_hd20" name="n5" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="230,436">
+      <Button title="确定"/>
+    </component>
+    <image id="n6_hd20" name="n6" src="m3513by" fileName="image/文字底.png" pkg="jvxpx9em" xy="241,202" size="116,43"/>
+    <list id="n7_hd20" name="n7" xy="122,92" size="345,87" overflow="scroll" defaultItem="ui://mbcu0qc0hd202" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n15_hd20" name="n15" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="155,358" size="265,43" group="n13_hd20"/>
+    <image id="n16_hd20" name="n16" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="155,358" size="265,43" group="n13_hd20"/>
+    <text id="n9_hd20" name="lbMvpName" xy="174,366" size="222,35" group="n13_hd20" fontSize="24" color="#66ff00" align="center" autoSize="none" text="玩家名字六子.s8888"/>
+    <text id="n10_hd20" name="n10" xy="253,207" size="59,35" group="n13_hd20" fontSize="24" color="#ffcc00" text="MVP"/>
+    <loader id="n11_hd20" name="imgHead" xy="242,254" size="80,80" group="n13_hd20" url="ui://mbcu0qc0hd20i"/>
+    <loader id="n12_hd20" name="imgHeadGrid" xy="238,250" size="88,88" group="n13_hd20" url="ui://mbcu0qc0hd20j" align="center" vAlign="bottom"/>
+    <group id="n13_hd20" name="groupHead" xy="155,207" size="265,194" advanced="true"/>
+  </displayList>
+</component>

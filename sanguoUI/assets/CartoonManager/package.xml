@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qghqlkzy">
+  <resources>
+    <component id="r80f3" name="CartoonManager.xml" path="/" exported="true"/>
+    <movieclip id="fbev7" name="fire.jta" path="/" exported="true"/>
+    <image id="fbevd" name="序章_右船02.png" path="/" exported="true" scale=""/>
+    <image id="fbevj" name="序章_左船.png" path="/" exported="true" scale=""/>
+    <image id="plupk" name="示例图.jpg" path="/"/>
+    <image id="plupm" name="cartoon.jpg" path="/"/>
+  </resources>
+  <publish name="CartoonManager" genCode="true" excluded="plupm,plupk"/>
+</packageDescription>

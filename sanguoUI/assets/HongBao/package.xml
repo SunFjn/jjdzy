@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="s01exr8x">
+  <resources>
+    <component id="qz020" name="View_HongBao_Panel.xml" path="/组件/" exported="true"/>
+    <component id="qz021" name="HongBaoItem.xml" path="/组件/" exported="true"/>
+    <image id="qz022" name="拆.png" path="/image/" exported="true"/>
+    <image id="qz024" name="红包已拆.png" path="/image/" exported="true"/>
+    <image id="qz026" name="运气王标签.png" path="/image/" exported="true"/>
+    <component id="qz027" name="ViewHongBaoRecord.xml" path="/组件/" exported="true"/>
+    <component id="qz028" name="ItemHongBaoRecord.xml" path="/组件/" exported="true"/>
+    <image id="qz029" name="tianjianghongbao1.png" path="/image/" exported="true"/>
+    <component id="qz02a" name="View_HongBao_SendPanel.xml" path="/组件/" exported="true"/>
+    <image id="qz02d" name="banner图.jpg" path="/image/"/>
+    <image id="qz02e" name="发红包图标.png" path="/image/" exported="true"/>
+    <image id="qz02f" name="红包标题.png" path="/image/"/>
+    <image id="ami9h" name="eff.png" path="/image/" exported="true"/>
+    <image id="iv1oi" name="已抢完.png" path="/image/"/>
+  </resources>
+  <publish name="HongBao" genCode="true" maxAtlasSize="1024" sizeOption="npot" excluded="qz029,qz02d"/>
+</packageDescription>

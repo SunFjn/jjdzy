@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,784">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n3_fvsk" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,729">
+      <Button title="转生" page="0"/>
+    </component>
+    <component id="n2_fvsk" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,729">
+      <Button title="切换地图" page="1"/>
+    </component>
+    <component id="n5_fvsk" name="tab2" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="251,729">
+      <Button title="红将收集" page="2"/>
+    </component>
+    <component id="n13_fvsk" name="tab3" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="370,729">
+      <Button title="一骑当先" page="3"/>
+    </component>
+    <component id="n4_fvsk" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,734"/>
+    <image id="n22_smiu" name="n22" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="14,123" size="565,595"/>
+    <loader id="n8_fvsk" name="imgBg" xy="41,144" size="508,404" url="ui://k02wlh83fvsk9"/>
+    <image id="n20_smiu" name="n20" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="24,493" size="545,213"/>
+    <image id="n6_fvsk" name="n6" src="fvsk3" fileName="image/至尊成长礼包字.png" xy="135,127">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n7_fvsk" name="n7" src="fvsk2" fileName="image/至尊.png" xy="193,263">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n9_fvsk" name="n9" src="fvsk8" fileName="image/限时礼包title.png" xy="196,18"/>
+    <image id="n11_fvsk" name="n11" src="fvsk5" fileName="image/豪华成长礼包字.png" xy="135,127">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n12_fvsk" name="n12" src="fvsk4" fileName="image/豪华.png" xy="193,211">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <component id="n14_fvsk" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="231,638">
+      <Button title="128元"/>
+    </component>
+    <list id="n15_fvsk" name="list" xy="50,537" size="550,114" scale="0.9,0.9" layout="row" overflow="scroll" scroll="horizontal" colGap="6" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n16_fvsk" name="btnTab0" src="6hpm3ft" fileName="组件/TabButton2.xml" pkg="jvxpx9em" xy="16,69">
+      <Button checked="true" title="豪华成长礼包" titleFontSize="20" controller="c1" page="0"/>
+    </component>
+    <component id="n17_fvsk" name="btnTab1" src="6hpm3ft" fileName="组件/TabButton2.xml" pkg="jvxpx9em" xy="167,69">
+      <Button title="至尊成长礼包" titleFontSize="20" controller="c1" page="1"/>
+    </component>
+    <image id="n10_fvsk" name="n10" src="fvsk1" fileName="image/礼包预览.png" xy="250,507" group="n19_fvsk"/>
+    <image id="n18_fvsk" name="n18" src="m3513bt" fileName="image/分割线.png" pkg="jvxpx9em" xy="39,518" pivot="0.5,0.5" size="521,10" group="n19_fvsk"/>
+    <group id="n19_fvsk" name="n19" xy="39,507" size="521,29"/>
+    <richtext id="n21_smiu" name="lbTime" xy="25,459" size="201,31" fontSize="20" color="#66ff00" text="剩余时间：1小时59分"/>
+    <image id="n23_smiu" name="n23" src="smiub" fileName="image/订阅标题框修饰(1).png" xy="101,10" group="n26_smiu"/>
+    <image id="n25_smiu" name="n25" src="smiub" fileName="image/订阅标题框修饰(1).png" xy="491,10" group="n26_smiu" scale="-1,1"/>
+    <group id="n26_smiu" name="n26" xy="101,10" size="525,62"/>
+    <image id="n27_smiu" name="n27" src="smiua" fileName="image/折扣标签.png" xy="177,487"/>
+    <richtext id="n28_smiu" name="lbZhe" xy="167,493" size="51,35" fontSize="24" color="#ffffff" align="right" autoSize="none" text="1"/>
+    <richtext id="n29_smiu" name="lbTit" xy="162,187" size="263,35" fontSize="24" color="#00ff00" align="center" autoSize="none" text="000关"/>
+    <component id="n30_ved3" name="btnGet" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="231,638"/>
+    <image id="n31_ved3" name="imgHas" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="233,644"/>
+    <image id="n32_h2o6" name="n32" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="346,459" size="217,27"/>
+    <richtext id="n33_h2o6" name="n33" xy="358,462" size="197,25" fontSize="16" color="#ff0000" text="在本界面点击充值才可生效"/>
+  </displayList>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,414">
+  <displayList>
+    <loader id="n0_jhq0" name="n0" xy="-50,0" size="640,345" group="n13_poih" scale="1.2,1.2" url="ui://3me6ra119m2m4" autoSize="true"/>
+    <image id="n1_jhq0" name="n1" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="9,116" size="622,204" group="n13_poih"/>
+    <component id="n3_jhq0" name="surebt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="162,326" group="n5_jhq0">
+      <Button title="确定(10)"/>
+    </component>
+    <component id="n4_jhq0" name="continuebt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="376,326" group="n5_jhq0">
+      <Button title="再来一次"/>
+    </component>
+    <group id="n5_jhq0" name="n5" xy="162,326" size="344,51" group="n13_poih"/>
+    <richtext id="n6_jhq0" name="lab" xy="462,378" pivot="0.5,0" anchor="true" size="35,28" group="n13_poih" fontSize="18" color="#ffffff" autoClearText="true" text="7/1"/>
+    <loader id="n7_jhq0" name="img" xy="409,377" size="30,30" group="n13_poih" url="ui://w5ll6n5jhxx51c" fill="scaleFree">
+      <relation target="n6_jhq0" sidePair="left-left"/>
+    </loader>
+    <component id="n8_jhq0" name="closeButton" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="521,27" size="62,56" group="n13_poih">
+      <Button icon="ui://3me6ra11ijvz2"/>
+    </component>
+    <richtext id="n10_jhq0" name="lb" xy="260,256" size="95,28" group="n13_poih" fontSize="18" color="#ffffff" text="本次钥匙："/>
+    <component id="n11_jhq0" name="n11" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="283,120" group="n13_poih"/>
+    <richtext id="n12_jhq0" name="lbAwards" xy="260,290" size="95,28" group="n13_poih" fontSize="18" color="#ffffff" text="本次钥匙："/>
+    <group id="n13_poih" name="n13" xy="-50,0" size="681,407"/>
+  </displayList>
+</component>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="608,778">
+  <displayList>
+    <image id="n58_pr1u" name="n58" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="136,417" size="338,136" flip="vt"/>
+    <text id="n11_tht4" name="lbName" xy="160,140" size="290,50" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="飞龙将印"/>
+    <richtext id="n18_tjor" name="lbCurAttr" xy="147,418" size="140,127" touchable="false" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="攻击&#xA;+1000&#xA;攻击&#xA;+1000"/>
+    <richtext id="n19_tjor" name="lbNextAttr" xy="322,418" size="140,127" touchable="false" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="攻击&#xA;+1000&#xA;攻击&#xA;+1000"/>
+    <component id="n26_l0xe" name="btnDecompose" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="132,601" pivot="0.5,0.5" size="78,89">
+      <Button icon="ui://zyx92gzwl0xey"/>
+    </component>
+    <component id="n27_l0xe" name="btnOperate" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="236,681" pivot="0.5,0.5">
+      <Button title="装备"/>
+    </component>
+    <component id="n33_phli" name="g0" src="phli10" fileName="组件/武将/VWuJiangJYin.xml" xy="26,60"/>
+    <component id="n34_phli" name="g1" src="phli10" fileName="组件/武将/VWuJiangJYin.xml" xy="26,192"/>
+    <component id="n35_phli" name="g2" src="phli10" fileName="组件/武将/VWuJiangJYin.xml" xy="26,325"/>
+    <component id="n36_phli" name="g4" src="phli10" fileName="组件/武将/VWuJiangJYin.xml" xy="26,590"/>
+    <component id="n37_phli" name="g3" src="phli10" fileName="组件/武将/VWuJiangJYin.xml" xy="26,457"/>
+    <component id="n38_phli" name="g5" src="phli10" fileName="组件/武将/VWuJiangJYin.xml" xy="485,60"/>
+    <component id="n39_phli" name="g6" src="phli10" fileName="组件/武将/VWuJiangJYin.xml" xy="485,192"/>
+    <component id="n40_phli" name="g7" src="phli10" fileName="组件/武将/VWuJiangJYin.xml" xy="485,325"/>
+    <component id="n41_phli" name="g8" src="phli10" fileName="组件/武将/VWuJiangJYin.xml" xy="485,457"/>
+    <component id="n42_phli" name="g9" src="phli10" fileName="组件/武将/VWuJiangJYin.xml" xy="485,590"/>
+    <component id="n46_spdw" name="boxMat" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="215,623"/>
+    <image id="n47_pgs5" name="n47" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="137,703" size="334,17" group="n49_pgs5"/>
+    <richtext id="n48_pgs5" name="n48" xy="246,693" size="116,35" group="n49_pgs5" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满阶"/>
+    <group id="n49_pgs5" name="boxMax" xy="137,693" size="334,35" advanced="true"/>
+    <component id="n52_vh5g" name="labPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="175,25"/>
+    <component id="n59_pr1u" name="curEquip" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="172,251"/>
+    <component id="n60_pr1u" name="nextEquip" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="337,251"/>
+    <component id="n61_pr1u" name="maxEquip" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="253,251"/>
+    <richtext id="n63_pr1u" name="lbMaxAttr" xy="274,430" size="62,103" touchable="false" fontSize="18" color="#ffffff" align="center" text="攻击&#xA;+1000&#xA;攻击&#xA;+1000">
+      <relation target="n58_pr1u" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <image id="n24_l0xe" name="arrow1" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="303,305" pivot="0.5,0.5" anchor="true"/>
+    <image id="n25_l0xe" name="arrow2" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="302,492" pivot="0.5,0.5" anchor="true"/>
+    <image id="n64_sn5v" name="imgMat" src="sn5v37" fileName="image/打造材料.png" xy="254,585"/>
+  </displayList>
+</component>

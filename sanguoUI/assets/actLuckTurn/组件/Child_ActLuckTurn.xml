@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,666">
+  <displayList>
+    <image id="n14_kzdy" name="n14" src="m3513bf" fileName="image/底板2 拷贝 2.png" pkg="jvxpx9em" xy="1,0" size="638,666"/>
+    <component id="n1_kzdy" name="btnTarge" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="71,154" pivot="0.5,0.5" size="84,86">
+      <Button icon="ui://px5jiht9kzdy9"/>
+    </component>
+    <component id="n2_kzdy" name="btnSM" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="71,249" pivot="0.5,0.5" size="84,87">
+      <Button icon="ui://px5jiht9kzdy8"/>
+    </component>
+    <component id="n3_kzdy" name="card1" src="kzdya" fileName="组件/ItemActLuckTurn.xml" xy="136,355"/>
+    <image id="n21_kzdy" name="n21" src="kzdyc" fileName="image/选角底条.png" xy="7,34" size="622,121"/>
+    <richtext id="n5_kzdy" name="lbTime" xy="23,19" size="226,22" fontSize="16" color="#00ff00" text="活动剩余时间：3天19小时30分"/>
+    <list id="n6_kzdy" name="list" xy="80,52" size="654,116" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="8" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n22_kzdy" name="n22" src="kzdyc" fileName="image/选角底条.png" xy="9,538" size="620,118"/>
+    <component id="n8_kzdy" name="btnTen" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="353,558" pivot="0.5,0.5">
+      <Button title="十连胜"/>
+    </component>
+    <component id="n9_kzdy" name="btnMust" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="158,558" pivot="0.5,0.5">
+      <Button title="必胜翻牌"/>
+    </component>
+    <image id="n10_kzdy" name="n10" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="175,610"/>
+    <richtext id="n11_kzdy" name="lbMust" xy="211,616" size="45,25" fontSize="18" color="#ffffff" text="1000"/>
+    <image id="n12_kzdy" name="n12" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="370,610"/>
+    <richtext id="n13_kzdy" name="lbTen" xy="407,616" size="45,25" fontSize="18" color="#ffffff" text="1000"/>
+    <component id="n15_kzdy" name="card2" src="kzdya" fileName="组件/ItemActLuckTurn.xml" xy="324,355"/>
+    <component id="n16_kzdy" name="card3" src="kzdya" fileName="组件/ItemActLuckTurn.xml" xy="512,355"/>
+    <richtext id="n17_kzdy" name="lb1" xy="402,161" size="160,22" fontSize="16" color="#ffffff" autoClearText="true" text="今日累计获胜数：100"/>
+    <richtext id="n18_kzdy" name="lb2" xy="402,193" size="192,22" fontSize="16" color="#ffffff" autoClearText="true" text="今日已参与翻牌次数：100"/>
+    <richtext id="n19_kzdy" name="lb3" xy="402,225" size="222,22" fontSize="16" color="#ffffff" text="每天0点重置翻牌数和目标奖励"/>
+    <image id="n20_kzdy" name="n20" src="kzdyb" fileName="image/奖励预览.png" xy="31,56"/>
+    <component id="n23_kzdy" name="card0" src="kzdya" fileName="组件/ItemActLuckTurn.xml" xy="324,161"/>
+    <component id="n24_tboq" name="checkBox" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="13,577" size="122,32">
+      <Button title=" 跳过动画"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="108,130">
+  <displayList>
+    <loader id="n25_dna5" name="bg" xy="6,7" size="96,96" url="ui://jvxpx9emy1z8p" autoSize="true"/>
+    <loader id="n26_dna5" name="imgIcon" xy="9,10" size="91,90" fill="scaleFree"/>
+    <image id="n32_dna5" name="n32" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="8,75" group="n35_dna5"/>
+    <image id="n33_dna5" name="n33" src="sv0g2l" fileName="image1/big_star_4.png" pkg="jvxpx9em" xy="54,77" size="20,20" group="n35_dna5" aspect="true"/>
+    <richtext id="n34_dna5" name="starLb" xy="18,75" size="35,25" group="n35_dna5" touchable="false" fontSize="16" color="#ffffff" align="right" autoSize="none" text="10"/>
+    <group id="n35_dna5" name="starGroup" xy="8,75" size="92,25" visible="false" advanced="true" collapsed="true"/>
+    <richtext id="n36_dna5" name="nameLb" xy="4,102" size="101,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="张角巾"/>
+    <image id="n37_dna5" name="selectImg" src="m3513c1" fileName="image/选中效果.png" pkg="jvxpx9em" xy="0,1" size="108,107" visible="false"/>
+    <image id="n38_dna5" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="87,3" visible="false"/>
+  </displayList>
+</component>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="602,168">
+  <displayList>
+    <loader id="n1_ox4f" name="bgImg" xy="0,0" size="602,168" url="ui://pkuzcu87gv3429" align="center" vAlign="middle" autoSize="true"/>
+    <image id="n31_q5t6" name="n31" src="q5t639" fileName="image/副本标题文字底.png" xy="0,3"/>
+    <image id="n30_q5t6" name="n30" src="shpk38" fileName="image/旗帜底.png" xy="11,-6"/>
+    <image id="n15_s0h0" name="n15" src="toav1p" fileName="image/副本.png" xy="214,11"/>
+    <loader id="n16_s0h0" name="lbImg" xy="145,11" size="71,35" url="ui://pkuzcu87toav1m" autoSize="true"/>
+    <image id="n20_s0h0" name="n20" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="416,18" size="123,25" group="n8_ox4f"/>
+    <richtext id="n6_ox4f" name="battleNumLb" xy="426,17" size="94,25" group="n8_ox4f" fontSize="16" color="#ffffff" leading="0" vars="true" text="挑战次数：{num=2}"/>
+    <component id="n7_ox4f" name="addBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="541,11" size="41,41" group="n8_ox4f">
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <component id="n5_ox4f" name="battleBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="426,68" group="n8_ox4f">
+      <Button title="挑战"/>
+    </component>
+    <group id="n8_ox4f" name="battleGroup" xy="416,11" size="166,115" advanced="true" collapsed="true"/>
+    <component id="n3_ox4f" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="162,62" aspect="true" scale="0.8,0.8"/>
+    <richtext id="n4_ox4f" name="promptLb" xy="374,130" size="223,28" fontSize="16" color="#00ff00" align="center" leading="0" autoSize="none" text="4转可以提升副本收益"/>
+    <loader id="n22_n080" name="iconImg" xy="31,28" size="86,86" url="ui://pkuzcu87n08034" autoSize="true"/>
+    <image id="n25_n080" name="maskImg" src="n08036" fileName="image/黑色遮罩.png" xy="0,0" size="602,168" group="n28_n080"/>
+    <component id="n26_n080" name="openLb" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="71,66" size="459,35" group="n28_n080">
+      <relation target="n25_n080" sidePair="center-center"/>
+      <Label title="主角等级200级开启" titleColor="#ff0000" titleFontSize="24"/>
+    </component>
+    <group id="n28_n080" name="openGroup" xy="0,0" size="602,168" advanced="true"/>
+  </displayList>
+</component>

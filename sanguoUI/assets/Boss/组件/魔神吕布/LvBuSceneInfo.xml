@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,181" opaque="false">
+  <displayList>
+    <image id="n5_bx2z" name="n5" src="bx2z89" fileName="image1/公告底.png" pkg="jvxpx9em" xy="92,21" size="434,36"/>
+    <image id="n9_bx2z" name="n9" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="504,111" size="205,72" group="n13_bx2z"/>
+    <component id="n20_hxms" name="btn" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="567,115" size="58,65" group="n13_bx2z">
+      <Button icon="ui://47jfyc6ebx2z25"/>
+    </component>
+    <group id="n13_bx2z" name="n13" xy="504,111" size="205,72" advanced="true"/>
+    <image id="n8_bx2z" name="n8" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="507,-3" size="205,60" group="n15_bx2z"/>
+    <richtext id="n0_qcyl" name="n22" xy="549,3" size="77,25" group="n15_bx2z" fontSize="18" color="#ffffff" text="剩余时间"/>
+    <richtext id="n16_hxms" name="lbTime" xy="517,32" size="158,25" group="n15_bx2z" fontSize="16" color="#00ff00" align="center" autoSize="none" text="2018-10-17 21:59:08"/>
+    <group id="n15_bx2z" name="n15" xy="507,-3" size="205,60" advanced="true"/>
+    <richtext id="n2_fog8" name="lbMyhurt" xy="98,26" size="41,25" fontSize="18" color="#ffffff" text="自己"/>
+    <richtext id="n18_hxms" name="lbBest" xy="246,26" size="10,28" fontSize="18" color="#ffffff" text=""/>
+  </displayList>
+</component>

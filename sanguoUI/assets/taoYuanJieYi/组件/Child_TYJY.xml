@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://m2fm2aiyhtpq1w">
+  <controller name="c1" pages="0,未加盟,1,已加盟" selected="1"/>
+  <displayList>
+    <loader id="n3_ihs7" name="bgImg" xy="12,148" size="50,50" url="ui://m2fm2aiyhtpq1x"/>
+    <image id="n28_htpq" name="n28" src="htpq1q" fileName="image/名字底框.png" xy="255,162" group="n13_vfmx" pkg="jvxpx9em"/>
+    <image id="n2_ihs7" name="n2" src="ihs71" fileName="image/义盟列表.png" xy="261,162" group="n13_vfmx"/>
+    <image id="n5_ihs7" name="n5" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="261,791" size="116,42" group="n13_vfmx"/>
+    <richtext id="n6_ihs7" name="pageTxt" xy="267,795" size="104,36" group="n13_vfmx" fontSize="28" color="#ffffff" align="center" autoSize="none" text="1/5"/>
+    <component id="n7_ihs7" name="createBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="251,847" group="n13_vfmx">
+      <Button title="创建义盟"/>
+    </component>
+    <component id="n8_ihs7" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="204,794" size="36,47" group="n13_vfmx" scale="0.8,0.8">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <component id="n9_ihs7" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="403,794" size="36,47" group="n13_vfmx" scale="-0.8,0.8">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <list id="n11_ihs7" name="applyList" xy="22,208" size="592,572" group="n13_vfmx" lineGap="8" defaultItem="ui://m2fm2aiyihs7w" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n13_vfmx" name="n13" xy="22,162" size="592,747" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <list id="n17_vfmx" name="gangList" xy="14,254" size="614,472" group="n21_vfmx" lineGap="3" defaultItem="ui://m2fm2aiyvfmx11" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n30_htpq" name="n30" src="htpq1q" fileName="image/名字底框.png" xy="206,177" size="230,53" group="n21_vfmx" pkg="jvxpx9em"/>
+    <richtext id="n20_vfmx" name="nameTxt" xy="228,186" size="189,32" group="n21_vfmx" fontSize="27" color="#ffffff" align="center" autoSize="none" text="铜锣湾"/>
+    <component id="n22_f0ed" name="renameBtn" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="464,180" size="48,48" group="n21_vfmx">
+      <Button icon="ui://m2fm2aiyvfmx13"/>
+    </component>
+    <component id="n23_f0ed" name="applyBtn" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="223,766" size="84,88" group="n21_vfmx">
+      <Button icon="ui://m2fm2aiyihs7p"/>
+    </component>
+    <component id="n24_f0ed" name="memberBtn" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="331,766" size="84,88" group="n21_vfmx">
+      <Button icon="ui://m2fm2aiyihs73"/>
+    </component>
+    <group id="n21_vfmx" name="n21" xy="14,177" size="614,677" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n25_1160m" name="n25" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="29,160" size="101,27" alpha="0.8"/>
+    <richtext id="n26_1160m" name="lbDesc" xy="37,158" size="85,27" fontSize="20" color="#66ff00" underline="true" text="&lt;u>玩法说明&lt;/u>"/>
+  </displayList>
+</component>

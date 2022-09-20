@@ -1,0 +1,12 @@
+2020-11-09 19:28:23.905 [OpTaskExecutorService-thread-6] ERROR com.teamtop.system.activity.ativitys.vipDiscount.VipDiscountFunction - java.lang.NullPointerException
+	at com.teamtop.system.activity.ativitys.vipDiscount.VipDiscountFunction.getVipDisList(VipDiscountFunction.java:40)
+	at com.teamtop.system.activity.ativitys.vipDiscount.VipDiscountManager.openUI(VipDiscountManager.java:49)
+	at com.teamtop.system.activity.ativitys.vipDiscount.VipDiscountCG.openUI(VipDiscountCG.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.teamtop.netty.util.NettyDispatch$1.run(NettyDispatch.java:141)
+	at com.teamtop.synHandleCore.OpTaskExecutorService$Work.run(OpTaskExecutorService.java:314)
+	at java.lang.Thread.run(Thread.java:745)
+,hid:1000100000000011,name:夏夜丶红尘VipDiscountFunction getVipDis 获得已领现价的vip折扣 异常

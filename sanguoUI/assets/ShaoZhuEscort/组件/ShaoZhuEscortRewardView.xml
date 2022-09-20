@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,707">
+  <displayList>
+    <component id="n1_lnit" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,707">
+      <Label title="奖励内容"/>
+    </component>
+    <component id="n2_lnit" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="236,86"/>
+    <text id="n3_lnit" name="powerLb" xy="224,207" size="142,27" fontSize="20" color="#ff9900" align="center" text="战力：1000000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n5_lnit" name="n5" xy="203,282" size="185,25" fontSize="18" color="#ff0000" align="center" text="雇佣吕布被拦截无损失"/>
+    <image id="n6_lnit" name="n6" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="28,320" size="536,279"/>
+    <component id="n7_lnit" name="rewardBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="232,620">
+      <Button title="领取奖励"/>
+    </component>
+    <list id="n8_lnit" name="list" xy="49,327" size="496,259" overflow="scroll" lineGap="3" defaultItem="ui://lnw94ki2lnitk" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n10_imkm" name="nameLb" xy="203,182" size="185,25" fontSize="18" color="#ffffff" align="center" autoSize="none" text="玩家名字"/>
+    <richtext id="n11_xekk" name="guardNameLb" xy="203,243" size="185,29" fontSize="22" color="#00ff00" align="center" autoSize="none" text="护送武将：貂蝉"/>
+  </displayList>
+</component>

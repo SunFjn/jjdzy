@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,910" opaque="false">
+  <displayList>
+    <image id="n41_to1m" name="n41" src="m3513bv" fileName="image/通用底框/tips.png" pkg="jvxpx9em" xy="0,280" size="640,630" group="n43_to1m"/>
+    <group id="n43_to1m" name="n43" xy="0,280" size="640,630"/>
+    <loader id="n2_to1m" name="zhuanPanImg" xy="13,294" size="465,464" url="ui://kdt501v2to1my"/>
+    <image id="n0_to1m" name="img3" src="to1mz" fileName="image/选中奖励.png" xy="242,603"/>
+    <image id="n3_to1m" name="img5" src="to1mz" fileName="image/选中奖励.png" xy="168,525" rotation="90"/>
+    <image id="n4_to1m" name="img4" src="to1mz" fileName="image/选中奖励.png" xy="191,577" rotation="45"/>
+    <image id="n5_to1m" name="img7" src="to1mz" fileName="image/选中奖励.png" xy="247,451" rotation="180"/>
+    <image id="n6_to1m" name="img6" src="to1mz" fileName="image/选中奖励.png" xy="191,470" rotation="135"/>
+    <image id="n7_to1m" name="img0" src="to1mz" fileName="image/选中奖励.png" xy="300,473" skew="225,225"/>
+    <image id="n8_to1m" name="img1" src="to1mz" fileName="image/选中奖励.png" xy="321,528" rotation="270"/>
+    <image id="n9_to1m" name="img2" src="to1mz" fileName="image/选中奖励.png" xy="296,582" rotation="315"/>
+    <image id="n10_to1m" name="imgArrow" src="to1mx" fileName="image/箭头.png" xy="250,529" pivot="0.47,0.31" anchor="true" rotation="206"/>
+    <component id="n12_to1m" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="511,300" size="104,87">
+      <Button icon="ui://kdt501v2to1mw"/>
+    </component>
+    <component id="n13_to1m" name="btnOne" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="478,578">
+      <Button title="购买1次"/>
+    </component>
+    <component id="n14_to1m" name="btnTen" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="478,679">
+      <Button title="购买10次"/>
+    </component>
+    <text id="n15_to1m" name="lbOne" xy="534,637" size="53,31" fontSize="20" color="#ffffff" vAlign="middle" text="1000"/>
+    <image id="n16_to1m" name="n16" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="498,631" size="32,31" aspect="true"/>
+    <text id="n17_to1m" name="lbTen" xy="535,737" size="53,31" fontSize="20" color="#ffffff" vAlign="middle" text="1000"/>
+    <image id="n18_to1m" name="n18" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="499,731" size="32,31" aspect="true"/>
+    <image id="n19_to1m" name="n19" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="20,296" size="257,31"/>
+    <richtext id="n20_to1m" name="labTime" xy="24,299" size="229,28" touchable="false" fontSize="18" color="#00ff00" text="剩余时间：6天5小时5分8秒"/>
+    <image id="n21_to1m" name="n21" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="26,771" size="584,121" flip="vt"/>
+    <image id="n1_to1m" name="n1" src="to1mv" fileName="image/中奖记录.png" xy="45,772"/>
+    <image id="n23_to1m" name="n23" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="110,710" size="292,30"/>
+    <richtext id="n24_to1m" name="labTip" xy="114,711" size="269,28" touchable="false" fontSize="18" color="#10ea2d" align="center" autoSize="none" text="每购买一万铜钱可转动一次"/>
+    <component id="n26_to1m" name="checkBox" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="30,738" size="122,32">
+      <Button title=" 跳过动画"/>
+    </component>
+    <component id="n32_to1m" name="grid6" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="60,425" scale="0.8,0.8"/>
+    <component id="n33_to1m" name="grid7" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="149,336" scale="0.8,0.8"/>
+    <component id="n34_to1m" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="262,336" scale="0.8,0.8"/>
+    <component id="n35_to1m" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="353,425" scale="0.8,0.8"/>
+    <component id="n36_to1m" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="353,541" scale="0.8,0.8"/>
+    <component id="n37_to1m" name="grid3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="262,627" scale="0.8,0.8"/>
+    <component id="n38_to1m" name="grid4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="149,627" scale="0.8,0.8"/>
+    <component id="n39_to1m" name="grid5" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="60,541" scale="0.8,0.8"/>
+    <image id="n45_xx41" name="n45" src="xx4115" fileName="image/大奖.png" xy="263,337" size="26,52" aspect="true"/>
+    <image id="n46_xx41" name="n46" src="xx4115" fileName="image/大奖.png" xy="354,542" size="26,53" aspect="true"/>
+    <image id="n47_xx41" name="n47" src="xx4115" fileName="image/大奖.png" xy="61,426" size="26,52" aspect="true"/>
+    <image id="n48_xx41" name="n48" src="xx4115" fileName="image/大奖.png" xy="150,628" size="26,52" aspect="true"/>
+    <list id="n49_xx41" name="listLog" xy="103,784" size="486,97" overflow="scroll" defaultItem="ui://kdt501v2xx4116">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n50_dg22" name="btnTarget" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="526,395" size="94,80">
+      <Button icon="ui://kdt501v2dg221a"/>
+    </component>
+  </displayList>
+</component>

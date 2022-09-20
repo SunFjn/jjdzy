@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.taoyuanSworn.model.Sworn" tbname="sworn">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="taoyuanSwornId" type="bigint" pf="all" comment="桃园结义id"/>
+			<col field="taskAwardState" type="text" pf="all" comment="已领取任务奖励"/>
+			<col field="bossAwardState" type="int" pf="all" comment="BOSS奖励领取状态"/>
+			<col field="apply" type="text" pf="all" comment="申请桃园结义"/>
+     </tb>
+</tbs>

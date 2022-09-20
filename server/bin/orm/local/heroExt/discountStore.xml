@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.discountStore.model.DiscountStore" tbname="discountStore">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="goodsMap" type="text" pf="all" comment="商品列表，key为商品id，value为已购买数量"/>
+			<col field="oneTime" type="int" pf="all" comment="7天后与（8~28)冲突特殊记录时间"/>
+			<col field="state" type="int" pf="all" comment="7天后与（8~28)冲突特殊记录字段 "/>
+    </tb>
+</tbs>

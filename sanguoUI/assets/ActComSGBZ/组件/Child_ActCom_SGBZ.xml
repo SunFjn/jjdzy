@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,923" opaque="false">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n1_zm7h" name="n1" xy="0,259" size="640,664" touchable="false" url="ui://jvxpx9emm3513bv" fill="scaleFree"/>
+    <list id="n50_k1rz" name="list" xy="13,302" size="612,541" group="n17_j158" overflow="scroll" lineGap="10" defaultItem="ui://y9683xrpj158b" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n15_j158" name="sureBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="255,854" group="n17_j158">
+      <Button title="确认选择" titleFontSize="18"/>
+    </component>
+    <group id="n17_j158" name="chooseGroup" xy="13,302" size="612,603" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n26_pz3i" name="n26" src="vasq3b6" fileName="image/进度条/经验底.png" pkg="jvxpx9em" xy="131,385" size="118,26" group="n46_pz3i"/>
+    <image id="n29_pz3i" name="n29" src="vasq3b6" fileName="image/进度条/经验底.png" pkg="jvxpx9em" xy="372,387" size="107,26" group="n46_pz3i"/>
+    <image id="n32_pz3i" name="n32" src="vasq3b6" fileName="image/进度条/经验底.png" pkg="jvxpx9em" xy="516,387" size="103,26" group="n46_pz3i"/>
+    <loader id="n36_pz3i" name="moneyIcon" xy="186,420" size="32,31" group="n46_pz3i" url="ui://jvxpx9embwmw3y"/>
+    <richtext id="n27_pz3i" name="gridLb0" xy="149,383" size="81,28" group="n46_pz3i" fontSize="18" color="#ffffff" align="center" autoSize="none" text="开启1个"/>
+    <richtext id="n19_j158" name="n19" xy="18,336" size="77,28" group="n46_pz3i" fontSize="18" color="#ffffff" text="开启宝箱"/>
+    <richtext id="n30_pz3i" name="gridLb1" xy="386,385" size="81,28" group="n46_pz3i" fontSize="18" color="#ffffff" align="center" autoSize="none" text="开启1个"/>
+    <richtext id="n33_pz3i" name="gridLb2" xy="526,386" size="81,28" group="n46_pz3i" fontSize="18" color="#ffffff" align="center" autoSize="none" text="开启1个"/>
+    <richtext id="n35_pz3i" name="moneyLb" xy="27,424" size="241,28" group="n46_pz3i" touchable="false" fontSize="18" color="#ffffff" align="center" text="当前开启宝箱消耗：      1000"/>
+    <richtext id="n45_pz3i" name="previewLb" xy="493,424" size="113,28" group="n46_pz3i" fontSize="18" color="#00ff00" underline="true" text="剩余奖励预览"/>
+    <component id="n20_j158" name="expbar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="104,341" size="461,21" group="n46_pz3i">
+      <ProgressBar value="7" max="9"/>
+    </component>
+    <component id="n25_j158" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="151,302" group="n46_pz3i" scale="0.8,0.8"/>
+    <component id="n28_pz3i" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="381,302" group="n46_pz3i" scale="0.8,0.8"/>
+    <component id="n31_pz3i" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="521,304" group="n46_pz3i" scale="0.8,0.8"/>
+    <component id="n21_j158" name="boxGrid0" src="j158e" fileName="组件/ActCom_SGBZGrid1.xml" xy="24,459" group="n46_pz3i"/>
+    <component id="n37_pz3i" name="boxGrid1" src="j158e" fileName="组件/ActCom_SGBZGrid1.xml" xy="227,459" group="n46_pz3i"/>
+    <component id="n38_pz3i" name="boxGrid2" src="j158e" fileName="组件/ActCom_SGBZGrid1.xml" xy="430,459" group="n46_pz3i"/>
+    <component id="n39_pz3i" name="boxGrid3" src="j158e" fileName="组件/ActCom_SGBZGrid1.xml" xy="24,603" group="n46_pz3i"/>
+    <component id="n40_pz3i" name="boxGrid4" src="j158e" fileName="组件/ActCom_SGBZGrid1.xml" xy="227,603" group="n46_pz3i"/>
+    <component id="n41_pz3i" name="boxGrid5" src="j158e" fileName="组件/ActCom_SGBZGrid1.xml" xy="430,603" group="n46_pz3i"/>
+    <component id="n42_pz3i" name="boxGrid6" src="j158e" fileName="组件/ActCom_SGBZGrid1.xml" xy="24,747" group="n46_pz3i"/>
+    <component id="n43_pz3i" name="boxGrid7" src="j158e" fileName="组件/ActCom_SGBZGrid1.xml" xy="227,747" group="n46_pz3i"/>
+    <component id="n44_pz3i" name="boxGrid8" src="j158e" fileName="组件/ActCom_SGBZGrid1.xml" xy="430,747" group="n46_pz3i"/>
+    <image id="n47_quww" name="drawImg0" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="148,335" size="83,27" group="n46_pz3i" aspect="true"/>
+    <image id="n48_quww" name="drawImg1" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="378,335" size="83,27" group="n46_pz3i" aspect="true"/>
+    <image id="n49_quww" name="drawImg2" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="518,335" size="83,27" group="n46_pz3i" aspect="true"/>
+    <component id="n51_ws8y" name="timeBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="237,860" size="166,51" group="n46_pz3i">
+      <Button title="继续寻宝(30)" titleFontSize="18"/>
+    </component>
+    <group id="n46_pz3i" name="boxGroup" xy="18,302" size="605,609" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <richtext id="n2_zm7h" name="timeLb" xy="19,271" size="41,28" touchable="false" fontSize="18" color="#00ff00" text="活动"/>
+    <richtext id="n14_j158" name="numLb" xy="26,867" size="113,28" touchable="false" fontSize="18" color="#ffffff" text="当前寻宝轮数"/>
+    <richtext id="n16_j158" name="linkLb" xy="529,867" size="77,28" fontSize="18" color="#00ff00" underline="true" text="活动说明"/>
+    <richtext id="n52_hnj1" name="linkLb0" xy="553,269" size="41,28" fontSize="18" color="#00ff00" underline="true" text="概率"/>
+  </displayList>
+</component>

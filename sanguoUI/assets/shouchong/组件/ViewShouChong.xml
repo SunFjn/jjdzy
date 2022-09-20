@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" bgColor="#000000">
+  <displayList>
+    <loader id="n36_jh31" name="iconBg" xy="4,28" size="50,50"/>
+    <image id="n51_h1aq" name="btnClose" src="h1aq1j" fileName="image/关闭(1).png" xy="562,134"/>
+    <loader id="n52_h1aq" name="iconUp" xy="118,368" size="404,50" url="ui://zzz8io3rweoo28"/>
+    <component id="n21_wzeo" name="item1" src="gr6p13" fileName="组件/ItemSel.xml" xy="102,633"/>
+    <component id="n35_gr6p" name="item2" src="gr6p13" fileName="组件/ItemSel.xml" xy="332,633"/>
+    <component id="n28_wzeo" name="btnGet" src="gr6p14" fileName="组件/CompBtn.xml" xy="250,861" size="153,59"/>
+    <image id="n40_j0j5" name="iconGot" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="253,861" size="148,50" hideByEditor="true"/>
+    <loader id="n41_j0j5" name="icon1" xy="147,438" size="134,122" url="ui://zzz8io3rqzb0m" fill="scale"/>
+    <loader id="n42_j0j5" name="icon2" xy="372,438" size="134,122" url="ui://zzz8io3rj0j516" fill="scale"/>
+    <loader id="n50_h1aq" name="iconDes" xy="183,212" size="393,89" url="ui://zzz8io3rweoo29"/>
+    <richtext id="n54_h1aq" name="txtGift" xy="138,315" size="354,31" fontSize="20" color="#ffffff" text="VIP等级直达V4, 开启材料副本扫荡功能">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <loader id="n56_bhm6" name="iconEff" xy="52,419" size="100,100"/>
+    <image id="n62_escg" name="icon4kYB" src="escg1y" fileName="image/40000元宝.png" xy="361,566"/>
+    <loader id="n63_escg" name="IcTittle" xy="345,557" size="191,50"/>
+    <list id="n64_ejku" name="n64" xy="26,716" pivot="0.5,0.5" size="591,109" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="18" defaultItem="ui://jvxpx9emetorm" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n66_pvjf" name="n66" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="215,823" size="241,27"/>
+    <richtext id="n65_pvjf" name="n65" xy="227,826" size="197,25" fontSize="16" color="#ff0000" text="在本界面点击充值才可生效"/>
+  </displayList>
+  <transition name="t4" options="1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n41_j0j5" tween="true" startValue="147,438" endValue="147,420" duration="24" ease="Linear"/>
+    <item time="24" type="XY" target="n41_j0j5" tween="true" startValue="147,420" endValue="147,438" duration="24" ease="Linear"/>
+  </transition>
+  <transition name="t5" options="1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n42_j0j5" tween="true" startValue="372,438" endValue="372,420" duration="24" ease="Linear"/>
+    <item time="24" type="XY" target="n42_j0j5" tween="true" startValue="372,420" endValue="372,438" duration="24" ease="Linear"/>
+  </transition>
+</component>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <loader id="n0_klpn" name="loadbg" xy="274,641" pivot="0.5,0.5" size="77,77" url="ui://7gxkx46wklpn30" fill="scaleFree"/>
+  </displayList>
+</component>

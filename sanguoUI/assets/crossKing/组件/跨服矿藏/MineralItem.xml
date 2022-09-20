@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="242,285" pivot="0.5,0.5" extention="Button">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n0_nyv7" name="n0" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="0,0" size="242,285" locked="true"/>
+    <image id="n18_nyv7" name="label1" src="nyv757" fileName="image/跨服矿藏/协助标签.png" xy="6,-1">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n17_nyv7" name="label0" src="nyv758" fileName="image/跨服矿藏/矿主标签.png" xy="6,-1">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n20_nxcm" name="selectImg" src="q6rjb7j" fileName="image/卡牌选中框.png" pkg="7gxkx46w" xy="-26,-20" size="295,324"/>
+    <loader id="n1_nyv7" name="mineIcon" xy="55,20" size="127,123" group="n21_nxcm" url="ui://yqpfulefnyv74n">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </loader>
+    <component id="n2_nyv7" name="refreshBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="74,149" size="98,38" group="n21_nxcm">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="刷新矿藏" titleFontSize="19"/>
+    </component>
+    <loader id="n5_nyv7" name="nameIcon" xy="192,26" size="35,109" group="n21_nxcm" url="ui://yqpfulef9gv65m" align="center" vAlign="middle" color="#00ff00"/>
+    <richtext id="n6_nyv7" name="sourceLb" xy="6,203" size="95,28" group="n21_nxcm" touchable="false" fontSize="18" color="#ffffff" text="满采资源："/>
+    <richtext id="n7_nyv7" name="timeLb" xy="6,255" size="142,28" group="n21_nxcm" touchable="false" fontSize="18" color="#ffffff" text="采集时间：4小时"/>
+    <loader id="n8_nyv7" name="typeIcon0" xy="94,199" size="32,31" group="n21_nxcm" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <loader id="n9_nyv7" name="typeIcon1" xy="94,226" size="32,31" group="n21_nxcm" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <richtext id="n10_nyv7" name="moneyLb0" xy="128,203" size="45,26" group="n21_nxcm" touchable="false" fontSize="16" color="#ffffff" bold="true" text="2000"/>
+    <richtext id="n11_nyv7" name="moneyLb1" xy="128,231" size="45,26" group="n21_nxcm" touchable="false" fontSize="16" color="#ffffff" bold="true" text="2000"/>
+    <richtext id="n12_nyv7" name="numLb0" xy="8,162" size="111,28" group="n14_nyv7" touchable="false" fontSize="18" color="#ffffff" text="被顺次数:0/3"/>
+    <richtext id="n13_nyv7" name="numLb1" xy="125,162" size="111,28" group="n14_nyv7" touchable="false" fontSize="18" color="#ffffff" text="被抢次数:0/3"/>
+    <group id="n14_nyv7" name="txtGroup" xy="8,162" size="228,28" group="n21_nxcm" advanced="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </group>
+    <group id="n21_nxcm" name="mineInfoGroup" xy="6,20" size="230,263" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </group>
+    <image id="n23_nxcm" name="n23" src="nyv75a" fileName="image/跨服矿藏/？.png" xy="64,40" group="n25_nxcm"/>
+    <richtext id="n24_nxcm" name="n2" xy="59,179" size="125,43" group="n25_nxcm" touchable="false" fontSize="30" color="#ffffff" text="尚未协助"/>
+    <group id="n25_nxcm" name="noAssGroup" xy="59,40" size="125,182" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </group>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.10"/>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,915">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n7_vxva" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,922">
+      <Button checked="true" title="异兽录" controller="c1" page="0"/>
+    </component>
+    <component id="n8_vxva" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,922">
+      <Button title="仙山寻兽" controller="c1" page="1"/>
+    </component>
+  </displayList>
+</component>

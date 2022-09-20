@@ -1,0 +1,352 @@
+2020-11-03 17:19:08.027 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:200001
+2020-11-03 17:19:08.027 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750024
+2020-11-03 17:19:08.027 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750025
+2020-11-03 17:19:08.027 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750026
+2020-11-03 17:19:08.027 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750027
+2020-11-03 17:19:08.027 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750028
+2020-11-03 17:19:08.027 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750029
+2020-11-03 17:19:08.027 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750030
+2020-11-03 17:19:08.027 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750031
+2020-11-03 17:19:08.027 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750032
+2020-11-03 17:19:08.027 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750033
+2020-11-03 17:19:08.027 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750034
+2020-11-03 17:19:08.027 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750035
+2020-11-03 17:19:08.105 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350004
+2020-11-03 17:19:08.105 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350005
+2020-11-03 17:19:08.105 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350006
+2020-11-03 17:19:08.105 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350101
+2020-11-03 17:19:08.105 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350102
+2020-11-03 17:19:08.105 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350301
+2020-11-03 17:19:08.105 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350004
+2020-11-03 17:19:08.105 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350005
+2020-11-03 17:19:08.105 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350006
+2020-11-03 17:19:08.105 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350101
+2020-11-03 17:19:08.105 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350102
+2020-11-03 17:19:08.105 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350106
+2020-11-03 17:19:08.105 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350104
+2020-11-03 17:19:08.105 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350301
+2020-11-03 17:19:08.120 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350004
+2020-11-03 17:19:08.136 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350005
+2020-11-03 17:19:08.136 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350006
+2020-11-03 17:19:08.136 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350101
+2020-11-03 17:19:08.136 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350102
+2020-11-03 17:19:08.136 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350104
+2020-11-03 17:19:08.136 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350106
+2020-11-03 17:19:08.136 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350301
+2020-11-03 17:19:08.136 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350108
+2020-11-03 17:19:08.136 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350103
+2020-11-03 17:19:08.152 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350004
+2020-11-03 17:19:08.152 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350005
+2020-11-03 17:19:08.152 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350006
+2020-11-03 17:19:08.152 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350101
+2020-11-03 17:19:08.152 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350102
+2020-11-03 17:19:08.152 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350103
+2020-11-03 17:19:08.152 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350104
+2020-11-03 17:19:08.152 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350106
+2020-11-03 17:19:08.152 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350301
+2020-11-03 17:19:08.152 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350107
+2020-11-03 17:19:08.152 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350108
+2020-11-03 17:19:12.887 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:200001
+2020-11-03 17:19:12.887 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750024
+2020-11-03 17:19:12.887 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750025
+2020-11-03 17:19:12.887 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750026
+2020-11-03 17:19:12.887 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750027
+2020-11-03 17:19:12.887 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750028
+2020-11-03 17:19:12.887 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750029
+2020-11-03 17:19:12.887 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750030
+2020-11-03 17:19:12.887 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750031
+2020-11-03 17:19:12.887 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750032
+2020-11-03 17:19:12.887 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750033
+2020-11-03 17:19:12.887 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750034
+2020-11-03 17:19:12.887 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750035
+2020-11-03 17:19:12.965 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350004
+2020-11-03 17:19:12.965 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350005
+2020-11-03 17:19:12.965 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350006
+2020-11-03 17:19:12.965 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350101
+2020-11-03 17:19:12.965 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350102
+2020-11-03 17:19:12.965 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350301
+2020-11-03 17:19:12.965 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350004
+2020-11-03 17:19:12.965 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350005
+2020-11-03 17:19:12.965 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350006
+2020-11-03 17:19:12.965 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350101
+2020-11-03 17:19:12.965 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350102
+2020-11-03 17:19:12.965 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350106
+2020-11-03 17:19:12.965 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350104
+2020-11-03 17:19:12.965 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350301
+2020-11-03 17:19:12.980 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350004
+2020-11-03 17:19:12.980 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350005
+2020-11-03 17:19:12.980 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350006
+2020-11-03 17:19:12.980 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350101
+2020-11-03 17:19:12.980 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350102
+2020-11-03 17:19:12.980 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350104
+2020-11-03 17:19:12.980 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350106
+2020-11-03 17:19:12.980 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350301
+2020-11-03 17:19:12.980 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350108
+2020-11-03 17:19:12.980 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350103
+2020-11-03 17:19:13.012 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350004
+2020-11-03 17:19:13.012 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350005
+2020-11-03 17:19:13.012 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350006
+2020-11-03 17:19:13.012 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350101
+2020-11-03 17:19:13.012 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350102
+2020-11-03 17:19:13.012 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350103
+2020-11-03 17:19:13.012 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350104
+2020-11-03 17:19:13.012 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350106
+2020-11-03 17:19:13.012 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350301
+2020-11-03 17:19:13.012 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350107
+2020-11-03 17:19:13.012 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350108
+2020-11-03 17:53:11.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:200001
+2020-11-03 17:53:11.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750024
+2020-11-03 17:53:11.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750025
+2020-11-03 17:53:11.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750026
+2020-11-03 17:53:11.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750027
+2020-11-03 17:53:11.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750028
+2020-11-03 17:53:11.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750029
+2020-11-03 17:53:11.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750030
+2020-11-03 17:53:11.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750031
+2020-11-03 17:53:11.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750032
+2020-11-03 17:53:11.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750033
+2020-11-03 17:53:11.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750034
+2020-11-03 17:53:11.613 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750035
+2020-11-03 17:53:11.676 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350004
+2020-11-03 17:53:11.676 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350005
+2020-11-03 17:53:11.676 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350006
+2020-11-03 17:53:11.676 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350101
+2020-11-03 17:53:11.676 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350102
+2020-11-03 17:53:11.676 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350301
+2020-11-03 17:53:11.691 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350004
+2020-11-03 17:53:11.691 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350005
+2020-11-03 17:53:11.691 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350006
+2020-11-03 17:53:11.691 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350101
+2020-11-03 17:53:11.691 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350102
+2020-11-03 17:53:11.691 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350106
+2020-11-03 17:53:11.691 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350104
+2020-11-03 17:53:11.691 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350301
+2020-11-03 17:53:11.707 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350004
+2020-11-03 17:53:11.707 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350005
+2020-11-03 17:53:11.707 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350006
+2020-11-03 17:53:11.707 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350101
+2020-11-03 17:53:11.707 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350102
+2020-11-03 17:53:11.707 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350104
+2020-11-03 17:53:11.707 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350106
+2020-11-03 17:53:11.707 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350301
+2020-11-03 17:53:11.707 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350108
+2020-11-03 17:53:11.707 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350103
+2020-11-03 17:53:11.722 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350004
+2020-11-03 17:53:11.722 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350005
+2020-11-03 17:53:11.738 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350006
+2020-11-03 17:53:11.738 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350101
+2020-11-03 17:53:11.738 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350102
+2020-11-03 17:53:11.738 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350103
+2020-11-03 17:53:11.738 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350104
+2020-11-03 17:53:11.738 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350106
+2020-11-03 17:53:11.738 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350301
+2020-11-03 17:53:11.738 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350107
+2020-11-03 17:53:11.738 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350108
+2020-11-03 17:53:17.871 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:17.902 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:17.902 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:17.918 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:17.933 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:17.933 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:17.949 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:18.450 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:18.450 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:18.450 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:18.450 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:18.450 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:18.466 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:18.466 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:18.590 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:18.622 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:18.622 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:18.684 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:18.934 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:18.934 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:18.934 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:18.934 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.137 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.137 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.153 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.153 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.215 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.215 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.215 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.215 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.215 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.215 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.215 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.512 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.512 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.512 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.528 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.544 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.544 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.544 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:19.560 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.169 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.169 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.169 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.169 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.169 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.169 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.169 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.200 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.200 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.200 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.465 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.465 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.465 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.465 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.465 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.465 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.481 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.606 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.606 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.606 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.606 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.716 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.716 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.716 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.716 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.716 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.732 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.872 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.872 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.872 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.934 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.934 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:20.950 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.279 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.279 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.279 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.279 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.279 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.279 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.294 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.294 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.294 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.294 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.294 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.294 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.294 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.544 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.544 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.544 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.544 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.544 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.591 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.591 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.606 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.779 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.779 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.779 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.779 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.779 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.779 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.794 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.810 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.810 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.810 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.810 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.826 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.950 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.950 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.950 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.950 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.950 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.950 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.982 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.982 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.982 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.982 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.982 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.982 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:21.982 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.122 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.122 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.122 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.122 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.122 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.122 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.122 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.153 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.153 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.153 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.153 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.153 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.153 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.295 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.310 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.310 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.326 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.326 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.326 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.326 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.326 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.326 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.341 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.497 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.513 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.513 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.513 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.513 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.544 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.544 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.544 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.685 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.685 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.685 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.717 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.717 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.717 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.717 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.717 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.966 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.966 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.966 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.966 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.966 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.966 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:22.982 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.044 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.044 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.044 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.169 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.169 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.169 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.169 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.169 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.169 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.248 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.248 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.248 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.248 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.248 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.248 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.248 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.373 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.373 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.373 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.373 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.373 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.389 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.513 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.513 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.513 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.513 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.513 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.513 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.655 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.655 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.655 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.655 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.655 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:53:23.655 [crossChannelEx - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:54:58.889 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:54:58.889 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:54:58.889 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:54:58.906 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:54:58.969 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:54:59.601 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000753
+2020-11-03 17:55:06.656 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-03 17:55:23.402 [nioEventLoopGroup-11-1] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000753

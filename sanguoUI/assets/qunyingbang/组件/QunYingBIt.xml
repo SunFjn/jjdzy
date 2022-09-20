@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="603,102">
+  <displayList>
+    <image id="n7_i8xh" name="n7" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="603,102"/>
+    <richtext id="n1_wzou" name="lbName" xy="111,20" size="10,28" fontSize="18" color="#ffffff" leading="12" text=""/>
+    <loader id="n4_ewje" name="imgRank" xy="20,14" size="75,67" group="n6_ewje" url="ui://jvxpx9em100v3al" autoSize="true">
+      <relation target="" sidePair="middle-middle"/>
+    </loader>
+    <richtext id="n0_wzou" name="lbRank" xy="47,33" size="19,35" group="n6_ewje" fontSize="24" color="#ffc334" align="center" text="1">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n6_ewje" name="n6" xy="20,14" size="75,67" collapsed="true"/>
+    <list id="n8_l3sh" name="n8" xy="329,7" size="334,105" scale="0.8,0.8" layout="flow_hz" overflow="scroll" scroll="horizontal" colGap="12" defaultItem="ui://jvxpx9emetorm">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

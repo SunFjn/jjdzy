@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://ehocr0vupwnz0">
+  <displayList>
+    <image id="n0_pwnz" name="n0" src="m3513bv" fileName="image/通用底框/tips.png" pkg="jvxpx9em" xy="1,265" size="638,661"/>
+    <loader id="n11_pwnz" name="bgLoader" xy="38,309" size="564,579" url="ui://ehocr0vupwnz2"/>
+    <image id="n9_pwnz" name="n9" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="8,272" size="267,27"/>
+    <richtext id="n10_pwnz" name="tfDate" xy="10,273" size="160,28" fontSize="18" color="#00ff00" text="活动剩余时间：1天"/>
+    <component id="n1_pwnz" name="btnReward" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="131,828">
+      <Button title="查看奖励"/>
+    </component>
+    <component id="n2_pwnz" name="btnTarget" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="379,828">
+      <Button title="本层目标"/>
+    </component>
+    <component id="n4_pwnz" name="btnLast" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="27,315" size="118,48">
+      <Button title="上一层"/>
+    </component>
+    <component id="n5_pwnz" name="btnNext" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="497,315" size="118,48">
+      <Button title="下一层"/>
+    </component>
+    <image id="n6_pwnz" name="n6" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="240,281" size="159,48" group="n8_pwnz"/>
+    <richtext id="n7_pwnz" name="tfLayer" xy="277,285" pivot="0.5,0.5" size="83,38" group="n8_pwnz" touchable="false" fontSize="26" color="#ffff00" align="center" leading="0" bold="true" strokeColor="#000000" autoClearText="true" text="第一层"/>
+    <group id="n8_pwnz" name="n8" xy="240,281" size="159,48"/>
+    <component id="n13_pwnz" name="iconItem0" src="pwnz6" fileName="com/CJSIconItem.xml" xy="207,370" controller="stateCtrl,0"/>
+    <component id="n15_pwnz" name="iconItem1" src="pwnz6" fileName="com/CJSIconItem.xml" xy="312,352" controller="stateCtrl,0"/>
+    <component id="n16_pwnz" name="iconItem2" src="pwnz6" fileName="com/CJSIconItem.xml" xy="120,418" controller="stateCtrl,0"/>
+    <component id="n17_pwnz" name="iconItem3" src="pwnz6" fileName="com/CJSIconItem.xml" xy="385,425" controller="stateCtrl,0"/>
+    <component id="n18_pwnz" name="iconItem4" src="pwnz6" fileName="com/CJSIconItem.xml" xy="173,505" controller="stateCtrl,0"/>
+    <component id="n19_pwnz" name="iconItem5" src="pwnz6" fileName="com/CJSIconItem.xml" xy="341,531" controller="stateCtrl,0"/>
+    <component id="n20_pwnz" name="iconItem6" src="pwnz6" fileName="com/CJSIconItem.xml" xy="260,481" controller="stateCtrl,0"/>
+    <component id="n21_pwnz" name="iconItem7" src="pwnz6" fileName="com/CJSIconItem.xml" xy="52,512" controller="stateCtrl,0"/>
+    <component id="n22_pwnz" name="iconItem8" src="pwnz6" fileName="com/CJSIconItem.xml" xy="479,467" controller="stateCtrl,0"/>
+    <component id="n23_pwnz" name="iconItem9" src="pwnz6" fileName="com/CJSIconItem.xml" xy="106,610" controller="stateCtrl,0"/>
+    <component id="n24_pwnz" name="iconItem10" src="pwnz6" fileName="com/CJSIconItem.xml" xy="492,585" controller="stateCtrl,0"/>
+    <component id="n25_pwnz" name="iconItem11" src="pwnz6" fileName="com/CJSIconItem.xml" xy="408,604" controller="stateCtrl,0"/>
+  </displayList>
+</component>

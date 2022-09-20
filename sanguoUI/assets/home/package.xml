@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="y0plc878" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ye030" name="HomeUI.xml" path="/组件/" exported="true"/>
+    <component id="ye033" name="ViewHome.xml" path="/组件/" exported="true"/>
+    <component id="ye034" name="ViewFurnitureLevelUp.xml" path="/组件/" exported="true"/>
+    <component id="ye035" name="ViewMoneyTree.xml" path="/组件/" exported="true"/>
+    <component id="ye036" name="ViewTianGongLu.xml" path="/组件/" exported="true"/>
+    <component id="ye037" name="ViewHomePoolPre.xml" path="/组件/" exported="true"/>
+    <component id="ye038" name="PoolPreItem.xml" path="/组件/" exported="true"/>
+    <component id="ye039" name="ViewTianGongBag.xml" path="/组件/" exported="true"/>
+    <component id="ye03a" name="TianGongItem.xml" path="/组件/" exported="true"/>
+    <component id="ye03b" name="ViewHomeGod.xml" path="/组件/" exported="true"/>
+    <component id="hvvjc" name="TianGongLuItem.xml" path="/组件/" exported="true"/>
+    <component id="sbl7d" name="ViewHomeRank.xml" path="/组件/" exported="true"/>
+    <component id="sbl7e" name="ItemHomeRank.xml" path="/组件/" exported="true"/>
+    <component id="g2m4f" name="ViewHomeEvent.xml" path="/组件/" exported="true"/>
+    <component id="g2m4g" name="ViewJiaDingSkill.xml" path="/组件/" exported="true"/>
+    <component id="g2m4h" name="ViewHomeLog.xml" path="/组件/" exported="true"/>
+    <component id="g2m4i" name="ItemLog.xml" path="/组件/" exported="true"/>
+    <image id="g2m4j" name="侍女.png" path="/images/" exported="true"/>
+    <image id="g2m4l" name="其他.png" path="/images/" exported="true"/>
+    <image id="g2m4m" name="家丁.png" path="/images/" exported="true"/>
+    <image id="g2m4n" name="府邸.png" path="/images/" exported="true"/>
+    <image id="g2m4o" name="府邸任务.png" path="/images/" exported="true"/>
+    <image id="g2m4p" name="府邸列表.png" path="/images/" exported="true"/>
+    <image id="g2m4q" name="府邸升级.png" path="/images/" exported="true"/>
+    <image id="g2m4r" name="府邸商店.png" path="/images/" exported="true"/>
+    <image id="g2m4u" name="府邸图标.png" path="/images/" exported="true"/>
+    <image id="g2m4v" name="府邸币.png" path="/images/" exported="true"/>
+    <image id="g2m4w" name="府邸日常标题.png" path="/images/" exported="true"/>
+    <image id="g2m4x" name="府邸目标标题.png" path="/images/" exported="true"/>
+    <image id="g2m4y" name="普通奖池.png" path="/images/" exported="true"/>
+    <image id="g2m4z" name="离开.png" path="/images/" exported="true"/>
+    <image id="g2m410" name="繁荣度图标.png" path="/images/" exported="true"/>
+    <image id="g2m411" name="至尊奖池.png" path="/images/" exported="true"/>
+    <image id="g2m412" name="装饰.png" path="/images/" exported="true"/>
+    <image id="g2m413" name="豪华奖池.png" path="/images/" exported="true"/>
+    <image id="g2m414" name="高级奖池.png" path="/images/" exported="true"/>
+    <image id="nvxy1j" name="冒泡框.png" path="/images/" exported="true"/>
+    <image id="nvxy1k" name="记录.png" path="/images/" exported="true"/>
+    <image id="nvxy1l" name="摇钱按钮.png" path="/images/" exported="true"/>
+    <image id="nvxy1m" name="天工炉背景.jpg" path="/images/" exported="true"/>
+    <image id="nvxy1n" name="献祭按钮.png" path="/images/" exported="true"/>
+    <image id="nvxy1o" name="积分图标.png" path="/images/" exported="true"/>
+    <image id="nvxy1q" name="感叹号.png" path="/images/" exported="true"/>
+    <image id="nvxy1r" name="拜访.png" path="/images/" exported="true"/>
+    <component id="wy1s1s" name="ChildMoneyTreeProgress.xml" path="/组件/" exported="true"/>
+    <image id="wy1s1t" name="圆圈底.png" path="/images/" exported="true"/>
+    <image id="wy1s1u" name="绿圈.png" path="/images/" exported="true"/>
+    <component id="wy1s1v" name="ChildHomeEventTip.xml" path="/组件/" exported="true"/>
+    <image id="w7611w" name="红圈.png" path="/images/" exported="true"/>
+    <component id="tmlf1x" name="ChildFurnitureName.xml" path="/组件/" exported="true"/>
+    <image id="s4ou1y" name="0_0.jpg" path="/images/"/>
+    <image id="s4ou1z" name="回府.png" path="/images/" exported="true"/>
+    <component id="qeas20" name="VHomeBtnMaid.xml" path="/组件/" exported="true"/>
+    <image id="qeas21" name="200001.png" path="/images/"/>
+    <image id="se7l22" name="显示按钮.png" path="/images/" exported="true"/>
+    <image id="se7l23" name="隐藏按钮.png" path="/images/" exported="true"/>
+    <image id="se7l24" name="收益框.png" path="/images/" exported="true" scale="9grid" scale9grid="11,8,22,16"/>
+    <component id="q29p25" name="VHomeBtnMaidWel.xml" path="/组件/" exported="true"/>
+    <image id="q29p26" name="侍女对话框.png" path="/images/" exported="true" scale="9grid" scale9grid="27,50,42,19"/>
+    <component id="c60e25" name="TianGLPlug.xml" path="/组件/" exported="true"/>
+    <image id="imjs27" name="玩法说明.png" path="/images/" exported="true"/>
+    <component id="c16028" name="HomeTGLUse.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="home" genCode="true" npot="true" excluded="nvxy1m,qeas21"/>
+</packageDescription>

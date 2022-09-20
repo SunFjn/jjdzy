@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossSelectKing.cross.CrossSelectKing" tbname="crossSelectKing" serverid="3">
+		<index field="hid" type="prikey"/>
+			<col field="hid" type="bigint" pf="all" comment="表唯一id 对象id"/>
+			<col field="term" type="int" pf="all" comment="赛季号"/>
+			<col field="bang" type="int" pf="all" comment="转生段位对应不同榜"/>
+			<col field="rank" type="int" pf="all" comment="排名"/>
+			<col field="name" type="varchar" len="50" pf="all" comment="角色名字"/>
+			<col field="job" type="int" pf="all" comment="对象职业"/>
+			<col field="strength" type="bigint" pf="all" comment="战力"/>
+			<col field="model" type="varchar" len="500" pf="all" comment="角色显示模型"/>
+	        <col field="zoneid" type="int" pf="all" comment="区号"/>
+	        <col field="skill" type="varchar" len="800" pf="all" comment="技能"/>
+	        <col field="finalFightAttr" type="text" pf="all" comment="战斗属性详细"/>
+	        <col field="belongZoneid" type="int" pf="all" comment="隶属首服区"/>
+	        <col field="figthMonsterSpirit" type="int" pf="all" comment="出战兽灵"/>
+	        <col field="littleLeaderInfo" type="varchar" len="800" pf="all" comment="少主信息"/>
+	        <col field="godSkillLevel" type="int" pf="all" comment="神将之力技能进阶"/>	
+	</tb>
+</tbs>

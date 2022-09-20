@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="540,423">
+  <displayList>
+    <component id="n0_vhu6" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="540,423">
+      <relation target="n2_vhu6" sidePair="height-height"/>
+      <Label title="提示"/>
+    </component>
+    <image id="n1_vhu6" name="back" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="21,93" size="498,199">
+      <relation target="n2_vhu6" sidePair="height-height"/>
+    </image>
+    <richtext id="n2_vhu6" name="tipsTxt" xy="38,153" size="465,64" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="7" autoSize="height" autoClearText="true" text="是否花费1000元宝激活单枪匹马，激活后可攻打任意敌国城池！"/>
+    <component id="n3_vhu6" name="btnCancel" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="105,306">
+      <Button title="取消"/>
+    </component>
+    <component id="n4_vhu6" name="btnOk" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="312,306">
+      <Button title="确定"/>
+    </component>
+    <loader id="n5_vhu6" name="iconYuanBao" xy="337,376" size="32,31" url="ui://jvxpx9embwmw3y"/>
+    <richtext id="n6_vhu6" name="lbYuanbao" xy="371,378" size="45,25" fontSize="18" color="#ffffff" text="4500"/>
+  </displayList>
+</component>

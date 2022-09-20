@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="27qy37vt">
+  <resources>
+    <component id="k7mb0" name="ViewWYHB.xml" path="/view/" exported="true"/>
+    <image id="k7mb1" name="充值红包.jpg" path="/assets/"/>
+    <image id="k7mb2" name="万元红包.png" path="/assets/" exported="true"/>
+    <image id="k7mb4" name="红包.png" path="/assets/" exported="true"/>
+    <image id="k7mb5" name="角标.png" path="/assets/" exported="true"/>
+    <image id="k7mb6" name="配图.jpg" path="/assets/" exported="true"/>
+    <image id="k7mb7" name="领.png" path="/assets/" exported="true"/>
+    <component id="k7mb8" name="ItemWyhb.xml" path="/view/" exported="true"/>
+    <image id="iv1o9" name="已领取.png" path="/assets/"/>
+  </resources>
+  <publish name="" genCode="true" maxAtlasSize="2048" sizeOption="npot"/>
+</packageDescription>

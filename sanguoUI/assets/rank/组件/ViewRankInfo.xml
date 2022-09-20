@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,600">
+  <displayList>
+    <component id="n0_c6yy" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,600">
+      <Label title="玩家信息"/>
+    </component>
+    <loader id="n19_c6yy" name="imgBg" xy="52,104" size="50,50"/>
+    <image id="n1_c6yy" name="imgDi" src="m3513c0" fileName="image/新版台子.png" pkg="jvxpx9em" xy="296,480" pivot="0.5,0.7" anchor="true"/>
+    <richtext id="n7_c6yy" name="lbName" xy="147,199" size="233,35" touchable="false" fontSize="24" color="#ffffff" text="玩家名字六字S99999"/>
+    <text id="n12_c6yy" name="lbVip" xy="379,202" size="76,28" font="ui://jvxpx9em608a8q" fontSize="24" color="#ffffff" text="P29"/>
+    <loader id="n20_c6yy" name="imgTitle" xy="181,84" size="231,78" align="center" vAlign="middle"/>
+    <image id="n5_c6yy" name="n5" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="201,482" size="191,43"/>
+    <richtext id="n9_c6yy" name="lbLevel" xy="181,488" size="230,35" touchable="false" fontSize="24" color="#ffffff" align="center" autoSize="none" text="等级：1000"/>
+    <richtext id="n8_c6yy" name="lbGuan" xy="270,165" pivot="0.5,0" size="53,35" touchable="false" fontSize="24" color="#ffffff" align="center" text="五官"/>
+    <component id="n26_mm2v" name="labPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="164,521">
+      <Label title="123"/>
+    </component>
+    <loader id="n27_mm2v" name="imgCountry" xy="216,158" size="50,50" url="ui://jvxpx9emxyp27g" align="center">
+      <relation target="n8_c6yy" sidePair="left-left"/>
+    </loader>
+  </displayList>
+</component>

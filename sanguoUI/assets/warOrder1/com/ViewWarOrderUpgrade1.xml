@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,672">
+  <controller name="stateCtrl" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n62_sk4y" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,672">
+      <Label title="荣誉勋章"/>
+    </component>
+    <image id="n66_sk4y" name="n66" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="18,352" size="557,220"/>
+    <component id="n64_sk4y" name="btnGo" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="229,601">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+      <Button title="98元"/>
+    </component>
+    <richtext id="n54_tvlr" name="tf0" xy="134,575" pivot="0.5,0.5" size="329,28" fontSize="18" color="#33ff00" text="解锁荣誉勋章，完成任务可领取丰厚大奖">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+    </richtext>
+    <list id="n63_sk4y" name="list" xy="40,357" size="658,258" scale="0.8,0.8" layout="flow_hz" overflow="scroll" lineGap="8" colGap="8" lineItemCount="6" defaultItem="ui://jvxpx9emetorm">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n72_e7lc" name="n72" src="e7lce" fileName="出图文件/背景底纹.png" xy="42,66"/>
+    <component id="n73_e7lc" name="ldName" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="71,84"/>
+    <image id="n74_e7lc" name="posImg" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="296,264" pivot="0.5,0.4" anchor="true" aspect="true"/>
+    <image id="n75_e7lc" name="n75" src="e7lch" fileName="出图文件/文字底.png" xy="170,313"/>
+    <richtext id="n68_sk4y" name="tf2" xy="239,318" size="113,28" fontSize="18" color="#ffffff" text="荣誉勋章奖励"/>
+    <image id="n70_sk4y" name="tfDes" src="e7lca" fileName="image/已激活.png" xy="251,588">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </image>
+    <loader id="n76_g3ec" name="pic" xy="196,62" size="200,200" touchable="false" url="ui://89er3bo3e7lc5" align="center" vAlign="bottom"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n76_g3ec" tween="true" startValue="196,62" endValue="196,52" duration="18"/>
+    <item time="18" type="XY" target="n76_g3ec" tween="true" startValue="196,52" endValue="196,62" duration="18"/>
+  </transition>
+</component>

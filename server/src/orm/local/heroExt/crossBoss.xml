@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossBoss.model.CrossBoss" tbname="crossBoss">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="num" type="int" pf="all" comment="剩余参与跨服boss次数"/>
+			<col field="hurt" type="int" pf="all" comment="上期伤害值"/>
+			<col field="buyNum" type="int" pf="all" comment="今天买了多少次"/>
+			<col field="joinInCD" type="int" pf="all" comment="进入冷却时间"/>
+			<col field="isInBoss" type="int" pf="all" comment="是否在打跨服boss"/>
+     </tb>
+</tbs>

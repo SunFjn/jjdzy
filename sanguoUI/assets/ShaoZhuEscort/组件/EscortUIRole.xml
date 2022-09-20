@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="96,104">
+  <displayList>
+    <graph id="n2_n8o7" name="n2" xy="0,0" size="96,104" alpha="0" type="rect"/>
+    <image id="n3_n8o7" name="interImg" src="n8o7t" fileName="image/inter.png" xy="68,-1" scale="0.8,0.8"/>
+    <text id="n4_vdfj" name="nameTxt" xy="14,104" size="65,21" fontSize="15" color="#ffc344" align="center" text="玩家名字">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n5_vdfj" name="timeTxt" xy="0,124" size="96,19" fontSize="15" color="#ffffff" align="center" autoSize="none" text="15:00"/>
+  </displayList>
+</component>

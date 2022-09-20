@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="548,329">
+  <displayList>
+    <component id="n10_som1" name="frame" src="f1cf4b" fileName="组件/frame2.xml" xy="0,0" size="548,329">
+      <Label title="提示"/>
+    </component>
+    <image id="n1_hfx7" name="back" src="x3b93cl" fileName="image/通用底框/方框3.png" xy="43,93" size="445,181"/>
+    <list id="n12_x2oe" name="list" xy="79,136" size="380,108" layout="row" colGap="34" defaultItem="ui://jvxpx9emtszw3gr">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n13_h0ag" name="n13" xy="199,102" size="149,28" fontSize="18" color="#ffffff" text="恭喜获得珍稀道具"/>
+  </displayList>
+</component>

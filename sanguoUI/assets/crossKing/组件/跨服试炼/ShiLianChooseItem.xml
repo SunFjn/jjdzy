@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="204,422">
+  <displayList>
+    <loader id="n2_kh25" name="backImg" xy="0,48" size="201,353" url="ui://yqpfulefkh2566"/>
+    <image id="n11_kh25" name="n11" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="38,0" size="129,37"/>
+    <image id="n16_kh25" name="n16" src="bwmw3l" fileName="image/战力.png" pkg="jvxpx9em" xy="27,252" size="37,26" aspect="true"/>
+    <loader id="n12_kh25" name="titleIcon" xy="44,2" size="119,38" url="ui://yqpfulefkh2565" align="center"/>
+    <loader id="n14_kh25" name="modelIcon" xy="53,61" size="97,122"/>
+    <component id="n13_kh25" name="battleBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="43,376" size="115,46">
+      <Button title="挑战" titleFontSize="24"/>
+    </component>
+    <richtext id="n15_kh25" name="nameLb" xy="20,224" size="157,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="11"/>
+    <richtext id="n17_kh25" name="powerLb" xy="65,252" size="112,28" fontSize="18" color="#ffffff" autoSize="none" text="123"/>
+    <component id="n18_kh25" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="41,278" scale="0.6,0.6"/>
+    <component id="n19_kh25" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="102,278" scale="0.6,0.6"/>
+  </displayList>
+</component>

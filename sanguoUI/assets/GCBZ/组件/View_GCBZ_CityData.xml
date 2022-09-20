@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="596,278">
+  <displayList>
+    <component id="n1_r5ge" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="597,278"/>
+    <component id="n2_r5ge" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="33,101" scale="0.9,0.9"/>
+    <richtext id="n3_r5ge" name="dataLb" xy="154,75" size="101,158" fontSize="24" color="#ffffff" leading="10" text="玩家名字&#xA;战力&#xA;已驻守&#xA;共收益"/>
+    <richtext id="n4_r5ge" name="rewardLb" xy="195,235" size="244,32" fontSize="18" color="#ffffff" leading="0" autoSize="none" text=""/>
+    <richtext id="n6_r5ge" name="promptLb" xy="445,173" size="120,28" group="n8_c0lh" fontSize="18" color="#ff0000" align="center" leading="0" autoSize="none" text="需通关该城池"/>
+    <component id="n5_r5ge" name="battleBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="450,123" size="111,49" group="n8_c0lh">
+      <Button title="攻城"/>
+    </component>
+    <component id="n7_r5ge" name="zsBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="450,123" size="111,49" group="n8_c0lh">
+      <Button title="驻守"/>
+    </component>
+    <group id="n8_c0lh" name="group0" xy="445,123" size="120,78" advanced="true"/>
+  </displayList>
+</component>

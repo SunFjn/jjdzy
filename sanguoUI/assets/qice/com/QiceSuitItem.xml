@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="345,53">
+  <displayList>
+    <richtext id="n0_b5kh" name="tfName" xy="24,0" size="77,25" group="n3_b5kh" touchable="false" fontSize="18" color="#ffc344" text="道具来源"/>
+    <richtext id="n1_b5kh" name="tfContent" xy="24,31" size="321,22" group="n3_b5kh" touchable="false" fontSize="16" color="#ffffff" leading="6" autoSize="height" autoClearText="true" text="坐骑副本"/>
+    <image id="n2_b5kh" name="imgSource" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="0,7" group="n3_b5kh"/>
+    <group id="n3_b5kh" name="n3" xy="0,0" size="345,53"/>
+  </displayList>
+  <relation target="n1_b5kh" sidePair="height-height"/>
+</component>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="a8l39nm9" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="8hxb0" name="View_WuShengList_Panel.xml" path="/组件/" exported="true"/>
+    <component id="8hxb2" name="WuShengTab.xml" path="/组件/" exported="true"/>
+    <image id="8hxb4" name="state1.png" path="/image/" exported="true"/>
+    <image id="8hxb5" name="state0.png" path="/image/" exported="true"/>
+    <component id="8hxb9" name="WuShengItem.xml" path="/组件/" exported="true"/>
+    <component id="rkjpb" name="View_WuShengRank_Panel.xml" path="/组件/" exported="true"/>
+    <component id="rkjpc" name="WuShengRankItem.xml" path="/组件/" exported="true"/>
+    <image id="af3gd" name="2.png" path="/image/" exported="true"/>
+    <image id="af3ge" name="6.png" path="/image/" exported="true"/>
+    <image id="af3gg" name="4.png" path="/image/" exported="true"/>
+    <image id="af3gh" name="5.png" path="/image/" exported="true"/>
+    <image id="af3gi" name="3.png" path="/image/" exported="true"/>
+    <image id="af3gj" name="7.png" path="/image/" exported="true"/>
+    <image id="v913m" name="武圣榜标题.png" path="/image/" exported="true"/>
+    <image id="v913n" name="冲榜礼包.png" path="/image/" exported="true"/>
+    <image id="v913o" name="lookBt.png" path="/image/" exported="true"/>
+    <image id="u4yfp" name="通关层数.png" path="/image/" exported="true"/>
+    <image id="bubcq" name="1.png" path="/image/" exported="true"/>
+    <image id="bubcr" name="大奖.png" path="/image/" exported="true"/>
+    <image id="bubcs" name="大奖框.png" path="/image/" exported="true" scale="9grid" scale9grid="23,23,46,46"/>
+    <component id="tv5mt" name="WuShengListGrid.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="wushengList" genCode="true" npot="true" excluded="bubcq,af3gd,af3gi,af3gg,af3gh,af3ge,af3gj"/>
+</packageDescription>

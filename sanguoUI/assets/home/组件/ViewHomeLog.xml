@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,527">
+  <displayList>
+    <component id="n0_g2m4" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,527" locked="true">
+      <Label title="金库记录"/>
+    </component>
+    <list id="n1_g2m4" name="list" xy="8,74" size="578,425" overflow="scroll" defaultItem="ui://y0plc878g2m4i">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

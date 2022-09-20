@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 跨服分组配置表 -->
+	<tb model="com.teamtop.system.event.backstage.events.backstage.kuaFuFenQu.KuaFuFenQuInfo" tbname="kuaFuFenQuInfo" serverid="2">
+		<index field="centralIndex" type="prikey"/>
+		<index field="centralIp" type="normal"/>
+		<col field="centralIndex" type="int" pf="all" comment="中央服编号"/>
+		<col field="pf" type="varchar" len="100" pf="all" comment="平台号"/>
+		<col field="centralIp" type="varchar" len="100" pf="all" comment="域名"/>
+		<col field="centralPort" type="int" pf="all" comment="端口"/>
+		<col field="numRange" type="varchar" len="100" pf="all" comment="游戏服范围"/>
+	</tb>
+</tbs>

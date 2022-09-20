@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="617,123">
+  <controller name="state0Ctrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <controller name="state1Ctrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n56_ml15" name="n56" src="djuz3hk" fileName="image/通用底框/关卡连击底框.png" pkg="jvxpx9em" xy="286,41"/>
+    <image id="n59_ml15" name="n59" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="290,123"/>
+    <image id="n57_ml15" name="n57" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="327,0" size="290,123"/>
+    <richtext id="n46_tvlr" name="tfIndex" xy="286,50" pivot="0.5,0" size="45,28" fontSize="18" color="#ffffff" autoClearText="true" text="10级"/>
+    <list id="n47_tvlr" name="itemList1" xy="338,18" size="338,109" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="13" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n48_tvlr" name="itemList0" xy="11,18" size="338,109" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="13" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n58_ml15" name="grey1" src="ml1513" fileName="image/黑色遮挡.png" xy="332,5" size="280,113" alpha="0.5"/>
+    <image id="n60_sk4y" name="grey0" src="ml1513" fileName="image/黑色遮挡.png" xy="5,5" size="280,113" alpha="0.5"/>
+    <image id="n49_tvlr" name="imageGet0" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="83,43">
+      <gearDisplay controller="state0Ctrl" pages="2"/>
+    </image>
+    <image id="n50_tvlr" name="imageGet1" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="409,43">
+      <gearDisplay controller="state1Ctrl" pages="2"/>
+    </image>
+    <image id="n51_kjiu" name="noticeImg0" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="270,0">
+      <gearDisplay controller="state0Ctrl" pages="1"/>
+    </image>
+    <image id="n52_kjiu" name="noticeImg1" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="597,0">
+      <gearDisplay controller="state1Ctrl" pages="1"/>
+    </image>
+    <graph id="n53_ke27" name="btnGet0" xy="6,5" size="278,112" alpha="0" type="rect">
+      <gearDisplay controller="state0Ctrl" pages="1"/>
+    </graph>
+    <graph id="n54_ke27" name="btnGet1" xy="333,5" size="278,112" alpha="0" type="rect">
+      <gearDisplay controller="state1Ctrl" pages="1"/>
+    </graph>
+    <image id="n61_wdrn" name="lbNo0" src="wdrn1a" fileName="image/无奖励.png" xy="101,46" pivot="0.5,0" visible="false"/>
+    <image id="n62_wdrn" name="lbNo1" src="wdrn1a" fileName="image/无奖励.png" xy="429,46" pivot="0.5,0" visible="false"/>
+  </displayList>
+</component>

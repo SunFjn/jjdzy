@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="540,671">
+  <displayList>
+    <loader id="n7_v465" name="bgImg" xy="0,0" size="50,50"/>
+    <list id="n5_v465" name="list" xy="32,167" size="454,390" overflow="scroll" lineGap="2" defaultItem="ui://fm0lrzctv465j" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n6_v465" name="n6" xy="222,37" size="97,30" fontSize="22" color="#cccccc" bold="true" strokeColor="#000000" text="查看记录"/>
+    <component id="n8_qmu0" name="closeBtn" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="488,46" pivot="0.5,0.5" anchor="true" size="60,53">
+      <Button icon="ui://jvxpx9emm3513bo"/>
+    </component>
+    <richtext id="n10_en1z" name="n10" xy="205,93" size="41,25" fontSize="18" color="#ffffff" text="总额"/>
+    <richtext id="n11_en1z" name="totalLab" xy="285,92" size="45,25" fontSize="18" color="#ffffff" text="1000"/>
+    <loader id="n12_en1z" name="iconYuanBao" xy="246,88" size="32,31" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+  </displayList>
+</component>

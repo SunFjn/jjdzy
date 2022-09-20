@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="109,110" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <loader id="n3_vxva" name="icon" xy="4,3" size="101,107" url="ui://jvxpx9emvxva3gh" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <image id="n4_vxva" name="n4" src="5voq3g5" fileName="image/选中框2.png" xy="0,0" size="109,110">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n5_vxva" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" xy="75,2"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

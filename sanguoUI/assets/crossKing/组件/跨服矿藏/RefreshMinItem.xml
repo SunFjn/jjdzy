@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="585,126">
+  <displayList>
+    <image id="n1_nyv7" name="n1" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="3,0" size="582,124"/>
+    <image id="n5_nyv7" name="n5" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="64,5" size="111,36" rotation="90"/>
+    <loader id="n2_nyv7" name="mineIcon" xy="95,4" size="127,123" url="ui://yqpfulefnyv74n" autoSize="true"/>
+    <list id="n3_nyv7" name="list" xy="255,19" size="336,105" scale="0.9,0.9" layout="flow_hz" overflow="scroll" scroll="horizontal" colGap="4" defaultItem="ui://jvxpx9emetorm" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n4_nyv7" name="nameIcon" xy="30,7" size="31,107" url="ui://yqpfulef9gv65m" align="center" vAlign="middle" color="#00ff00"/>
+    <image id="n6_c0mj" name="chooseImg" src="z1r82h" fileName="image/新资源/选中发光状态框.png" pkg="jvxpx9em" xy="-3,-7" size="596,140" visible="false"/>
+  </displayList>
+</component>

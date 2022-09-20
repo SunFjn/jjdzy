@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="87,83">
+  <displayList>
+    <image id="n0_wy1s" name="n0" src="nvxy1q" fileName="images/感叹号.png" xy="0,0" pivot="0.3,0.9"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n0_wy1s" tween="true" startValue="-5" endValue="10" duration="4" ease="Linear"/>
+    <item time="4" type="Rotation" target="n0_wy1s" tween="true" startValue="10" endValue="5" duration="4"/>
+    <item time="8" type="Rotation" target="n0_wy1s" tween="true" startValue="5" ease="Linear"/>
+  </transition>
+</component>

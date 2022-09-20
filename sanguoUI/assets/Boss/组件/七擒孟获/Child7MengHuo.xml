@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="622,923" opaque="false">
+  <displayList>
+    <image id="n31_gyat" name="n31" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="29,266" size="581,638"/>
+    <image id="n24_bx2z" name="n24" src="bx2z22" fileName="image/奖励背景.png" xy="358,270" size="249,521" group="n18_bx2z"/>
+    <image id="n21_bx2z" name="n21" src="p7531i" fileName="image/奖励一览.png" xy="436,291" group="n18_bx2z"/>
+    <image id="n25_bx2z" name="n25" src="bx2z1v" fileName="image/分割线.png" xy="43,800" group="n18_bx2z"/>
+    <image id="n20_bx2z" name="n20" src="bx2z20" fileName="image/最后一击.png" xy="434,560" group="n18_bx2z"/>
+    <group id="n18_bx2z" name="n18" xy="43,270" size="564,532" collapsed="true"/>
+    <component id="n9_ee11" name="btnFight" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="248,823">
+      <Button title="开始挑战"/>
+    </component>
+    <component id="n11_ee11" name="btBuy" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="553,829" size="32,31">
+      <relation target="n10_ee11" sidePair="leftext-left"/>
+      <Button icon="ui://47jfyc6ebx2z1s"/>
+    </component>
+    <list id="n12_flgs" name="lst" xy="59,149" size="521,112" layout="row" overflow="scroll" scroll="horizontal" colGap="15" defaultItem="ui://47jfyc6erjjf14">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n19_bx2z" name="btnRank" xy="64,831" size="113,28" fontSize="18" color="#00ff00" underline="true" text="查看上期排名"/>
+    <richtext id="n7_ee11" name="lbTime" xy="74,716" size="141,31" fontSize="18" color="#ff0000" text="BOSS复活时间：&#xA;"/>
+    <component id="n6_ee11" name="lbName" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="34,268">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <richtext id="n8_ee11" name="lbAdd" xy="63,748" size="59,28" fontSize="18" color="#ffffff" text="再起："/>
+    <richtext id="n10_ee11" name="lbCount" xy="425,833" size="125,28" fontSize="18" color="#ffffff" text="挑战次数：0/5"/>
+    <image id="n26_608a" name="n26" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="58,633" size="270,75"/>
+    <richtext id="n32_6hpm" name="n32" xy="438,715" size="95,28" fontSize="18" color="#ffc334" text="上轮击杀者"/>
+    <image id="n34_6hpm" name="bgv" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="375,744" size="220,31"/>
+    <richtext id="n35_6hpm" name="lbKiller" xy="375,746" size="219,31" fontSize="18" color="#ffffff" align="center" autoSize="none" text="无"/>
+  </displayList>
+</component>

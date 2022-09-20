@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://yqpfuleflwbl6j">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <loader id="n1_kh25" name="backImg" xy="0,157" size="609,567" hideByEditor="true" url="ui://yqpfulefkh2560"/>
+    <component id="n6_kh25" name="passLb" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="152,211" size="334,31">
+      <Label title="试炼1关" titleColor="#ffcc33" titleFontSize="24"/>
+    </component>
+    <richtext id="n7_kh25" name="wfsmLb" xy="18,158" size="85,27" fontSize="20" color="#00ff00" underline="true" text="玩法说明"/>
+    <richtext id="n8_kh25" name="linkLb" xy="129,158" size="85,27" fontSize="20" color="#00ff00" underline="true" text="当前加成"/>
+    <richtext id="n9_kh25" name="n9" xy="350,161" size="116,30" fontSize="18" color="#ffffff" align="right" autoSize="none" text="试炼点"/>
+    <component id="n10_kh25" name="moneyRe" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="469,160" size="150,36"/>
+    <component id="n22_kh25" name="shopBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="33,772" size="108,111">
+      <Button icon="ui://yqpfulefkh2569"/>
+    </component>
+    <component id="n2_kh25" name="item0" src="kh256e" fileName="组件/跨服试炼/ShiLianChooseItem.xml" xy="21,261" group="n24_kh25"/>
+    <component id="n20_kh25" name="item1" src="kh256e" fileName="组件/跨服试炼/ShiLianChooseItem.xml" xy="218,261" group="n24_kh25"/>
+    <component id="n21_kh25" name="item2" src="kh256e" fileName="组件/跨服试炼/ShiLianChooseItem.xml" xy="414,261" group="n24_kh25"/>
+    <group id="n24_kh25" name="group0" xy="21,261" size="597,422" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n27_kh25" name="item00" src="kh256f" fileName="组件/跨服试炼/ShiLianBuffChooseItem.xml" xy="-3,261" group="n33_kh25"/>
+    <component id="n42_kh25" name="item01" src="kh256f" fileName="组件/跨服试炼/ShiLianBuffChooseItem.xml" xy="203,261" group="n33_kh25"/>
+    <component id="n43_kh25" name="item02" src="kh256f" fileName="组件/跨服试炼/ShiLianBuffChooseItem.xml" xy="405,261" group="n33_kh25"/>
+    <component id="n44_kh25" name="nextBt" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="248,693" group="n33_kh25">
+      <Button title="下一层"/>
+    </component>
+    <group id="n33_kh25" name="group1" xy="-3,261" size="646,490" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <loader id="n46_kh25" name="backIcon" xy="47,291" size="543,333" group="n50_kh25" url="ui://yqpfulefkh2568"/>
+    <loader id="n48_kh25" name="boxIcon" xy="206,408" size="233,185" group="n50_kh25" url="ui://yqpfulefkh255x"/>
+    <image id="n47_kh25" name="n47" src="kh2567" fileName="image/跨服试炼/试炼大礼title.png" xy="206,305" group="n50_kh25"/>
+    <component id="n51_kh25" name="costRe" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="259,647" size="121,36" group="n50_kh25"/>
+    <component id="n49_kh25" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="253,692" group="n50_kh25">
+      <Button title="免费开箱"/>
+    </component>
+    <component id="n52_kh25" name="nextBt0" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="459,691" group="n50_kh25">
+      <Button title="下一层"/>
+    </component>
+    <richtext id="n54_s37b" name="numLb" xy="36,699" size="138,31" group="n50_kh25" touchable="false" fontSize="24" color="#00ff00" text="剩余次数：5"/>
+    <group id="n50_kh25" name="group2" xy="36,291" size="567,458" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </group>
+    <richtext id="n53_s37b" name="maxLb" xy="257,805" size="125,39" touchable="false" fontSize="30" color="#ff0000" text="恭喜通关"/>
+  </displayList>
+</component>

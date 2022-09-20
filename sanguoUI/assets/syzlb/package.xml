@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="3o8q23uu" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="hiz70" name="ViewSYZLB.xml" path="/组件/" exported="true"/>
+    <image id="hfuw3" name="三英战吕布标题.png" path="/image/" exported="true"/>
+    <component id="hfuw7" name="ItemSYZLBTeam.xml" path="/组件/" exported="true"/>
+    <component id="hfuw8" name="ItemSYZLBJoin.xml" path="/组件/" exported="true"/>
+    <component id="hfuw9" name="Child_SYZLB.xml" path="/组件/" exported="true"/>
+    <image id="u9lha" name="x Copy.png" path="/image/" exported="true"/>
+    <image id="u9lhb" name="队长标签.png" path="/image/" exported="true"/>
+    <component id="qqnwc" name="ViewSYZLBRward.xml" path="/组件/" exported="true"/>
+    <component id="qqnwe" name="ViewSYZLBTeamInfo.xml" path="/组件/" exported="true"/>
+    <component id="qqnwf" name="ItemSYZLBTeamInfo.xml" path="/组件/" exported="true"/>
+    <component id="qqnwg" name="ViewSYZLBRelive.xml" path="/组件/" exported="true"/>
+    <image id="sd2wh" name="奖励预览底.png" path="/image/" exported="true" scale="9grid" scale9grid="200,19,61,11"/>
+    <component id="ad1li" name="TabButSYZLB.xml" path="/组件/"/>
+    <image id="hsaxo" name="背景.jpg" path="/image/" exported="true"/>
+    <image id="lt8ip" name="syzlb1.png" path="/image/"/>
+    <component id="lt8ir" name="Child_ZSSF.xml" path="/组件/镇守四方/" exported="true"/>
+    <image id="lt8is" name="掠夺底图.jpg" path="/image/镇守四方/" exported="true"/>
+    <image id="lt8it" name="city0.png" path="/image/镇守四方/" exported="true"/>
+    <image id="lt8iu" name="city1.png" path="/image/镇守四方/" exported="true"/>
+    <component id="spfrw" name="ZSSFCityItem.xml" path="/组件/镇守四方/" exported="true"/>
+    <image id="spfrx" name="名字底.png" path="/image/镇守四方/" exported="true"/>
+    <image id="spfry" name="西方.png" path="/image/镇守四方/" exported="true"/>
+    <image id="spfrz" name="北方.png" path="/image/镇守四方/" exported="true"/>
+    <image id="spfr10" name="东方.png" path="/image/镇守四方/" exported="true"/>
+    <image id="spfr11" name="南方.png" path="/image/镇守四方/" exported="true"/>
+    <image id="cenr14" name="通关奖励文字.png" path="/image/" exported="true"/>
+    <image id="cenr15" name="奖励预览文字.png" path="/image/" exported="true"/>
+    <image id="cenr16" name="锁定.png" path="/image/镇守四方/" exported="true"/>
+    <component id="cenr18" name="View_ZSSF_GeneralGo.xml" path="/组件/镇守四方/" exported="true"/>
+    <component id="cenr19" name="ZSSFGeneralGoItem.xml" path="/组件/镇守四方/" exported="true"/>
+    <image id="cenr1c" name="3401.png" path="/image/镇守四方/" exported="true"/>
+    <component id="cenr1e" name="View_ZSSF_battleReport.xml" path="/组件/镇守四方/" exported="true"/>
+    <component id="cenr1f" name="ZSSFBattleReportItem.xml" path="/组件/镇守四方/" exported="true"/>
+    <component id="cenr1h" name="View_ZSSF_Shop.xml" path="/组件/镇守四方/" exported="true"/>
+    <image id="cenr1i" name="镇守宝库图.jpg" path="/image/镇守四方/"/>
+    <component id="cenr1j" name="ZSSF_ShopItem.xml" path="/组件/镇守四方/" exported="true"/>
+    <image id="mqpu1k" name="掠夺成功.png" path="/image/镇守四方/" exported="true"/>
+    <image id="mqpu1l" name="标题.png" path="/image/镇守四方/" exported="true"/>
+    <component id="jo891m" name="Child_DFZJ_Final.xml" path="/组件/登峰造极/" exported="true"/>
+    <component id="jo891o" name="Child_DFZJ_SeaSel.xml" path="/组件/登峰造极/" exported="true"/>
+    <component id="jo891r" name="VDengFengPly.xml" path="/组件/登峰造极/" exported="true"/>
+    <component id="jo891s" name="ViewDengFengBet.xml" path="/组件/登峰造极/" exported="true"/>
+    <component id="jo891w" name="ViewDengFeng.xml" path="/组件/登峰造极/" exported="true"/>
+    <image id="jo891x" name="登峰造极海选背景.jpg" path="/image/登峰造极/"/>
+    <image id="jo891y" name="冠军预测.png" path="/image/登峰造极/" exported="true"/>
+    <image id="jo891z" name="海选地台.png" path="/image/登峰造极/" exported="true"/>
+    <image id="jo8920" name="海选地台2.png" path="/image/登峰造极/" exported="true"/>
+    <image id="jo8921" name="海选地台3.png" path="/image/登峰造极/" exported="true"/>
+    <image id="jo8922" name="海选图标.png" path="/image/登峰造极/" exported="true"/>
+    <image id="jo8923" name="换一批.png" path="/image/登峰造极/" exported="true"/>
+    <image id="jo8924" name="积分奖励.png" path="/image/登峰造极/" exported="true"/>
+    <image id="jo8925" name="决赛图标.png" path="/image/登峰造极/" exported="true"/>
+    <image id="jo8926" name="挑战按钮.png" path="/image/登峰造极/" exported="true"/>
+    <component id="a0u327" name="VDengFengBet.xml" path="/组件/登峰造极/" exported="true"/>
+    <component id="a0u32a" name="ViewDengFengRank.xml" path="/组件/登峰造极/" exported="true"/>
+    <component id="a0u32b" name="VDengFengRank.xml" path="/组件/登峰造极/" exported="true"/>
+    <component id="a0u32c" name="ViewDengFengPoint.xml" path="/组件/登峰造极/" exported="true"/>
+    <component id="a0u32d" name="VDengFengPoint.xml" path="/组件/登峰造极/" exported="true"/>
+    <image id="j2af2e" name="第一名.png" path="/image/登峰造极/" exported="true"/>
+    <image id="j2af2f" name="排名奖励.png" path="/image/登峰造极/" exported="true"/>
+    <image id="spw62g" name="登峰造极决赛背景.jpg" path="/image/登峰造极/"/>
+    <image id="f33b2h" name="已挑战.png" path="/image/登峰造极/" exported="true"/>
+    <component id="okqy1m" name="LhfbTeamItem.xml" path="/轮回副本/" exported="true"/>
+    <component id="ymt71n" name="ChildLhfb.xml" path="/轮回副本/" exported="true"/>
+    <image id="ymt71o" name="轮回副本.jpg" path="/轮回副本/design/"/>
+    <image id="ymt71p" name="hover底 (1).png" path="/轮回副本/res/"/>
+    <image id="ymt71q" name="底 (1).png" path="/轮回副本/res/"/>
+    <image id="ymt71r" name="宝箱2.png" path="/轮回副本/res/"/>
+    <image id="ymt71s" name="宝箱1.png" path="/轮回副本/res/"/>
+    <image id="ymt71t" name="宝箱4.png" path="/轮回副本/res/"/>
+    <image id="ymt71u" name="宝箱3.png" path="/轮回副本/res/"/>
+    <component id="ymt71v" name="LhfbCopyItem.xml" path="/轮回副本/" exported="true"/>
+    <component id="ymt71w" name="LhfbStarCom.xml" path="/轮回副本/" exported="true"/>
+    <image id="q4bc1x" name="title (1).png" path="/轮回副本/res/"/>
+    <image id="q4bc1y" name="按钮2.png" path="/轮回副本/res/"/>
+    <image id="q4bc1z" name="按钮1.png" path="/轮回副本/res/"/>
+    <image id="k90x20" name="修2.png" path="/轮回副本/res/"/>
+    <image id="k90x21" name="红框.png" path="/轮回副本/res/"/>
+    <image id="chem22" name="坐台.png" path="/轮回副本/res/"/>
+    <image id="chem23" name="底.png" path="/轮回副本/res/"/>
+    <image id="chem24" name="轮回副本底图.jpg" path="/轮回副本/res/"/>
+  </resources>
+  <publish name="syzlb" genCode="true" excluded="hsaxo,lt8ip,lt8is,cenr1i,ymt71s,k90x20,chem24,jo891x,spw62g"/>
+</packageDescription>

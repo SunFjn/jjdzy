@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.reincarnationGodfate.model.ReincarnationGodFate" tbname="godFate">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="infoMap" type="text" pf="all" comment="天命map key:天命id"/>
+    </tb>
+</tbs>

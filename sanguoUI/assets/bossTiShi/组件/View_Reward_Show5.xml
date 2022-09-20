@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,483">
+  <displayList>
+    <image id="n10_9m2m" name="n10" src="9m2m4" fileName="image/获得奖励底.png" xy="0,0" size="640,383"/>
+    <list id="n1_hn3o" name="list" xy="38,129" size="566,166" layout="flow_hz" selectionMode="none" overflow="scroll" colGap="10" lineItemCount="5" defaultItem="ui://jvxpx9emetorn" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <component id="n5_eytm" name="surebt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="149,389">
+      <Button title="确定(10)"/>
+    </component>
+    <component id="n3_q8rv" name="continuebt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="363,389">
+      <Button title="再来十次"/>
+    </component>
+    <component id="n11_9m2m" name="closeButton" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="571,27" size="62,56">
+      <Button icon="ui://3me6ra11ijvz2"/>
+    </component>
+    <richtext id="n14_qid3" name="tfDes" xy="319,317" pivot="0.5,0" anchor="true" size="137,29" fontSize="22" color="#ffffff" autoClearText="true" text="自定义的说明"/>
+    <richtext id="n7_eytm" name="lab" xy="445,445" pivot="0.5,0" anchor="true" size="55,25" group="n15_qid3" fontSize="18" color="#ffffff" autoClearText="true" text="10000"/>
+    <loader id="n12_qid3" name="img" xy="389,443" size="30,30" group="n15_qid3" fill="scale">
+      <relation target="n7_eytm" sidePair="left-left"/>
+    </loader>
+    <group id="n15_qid3" name="groupMoney" xy="389,443" size="83,30" advanced="true"/>
+    <richtext id="n16_ys8k" name="tfDes2" xy="430,447" pivot="0.5,0" anchor="true" size="41,25" visible="false" fontSize="18" color="#00ff00" autoClearText="true" text="免费"/>
+  </displayList>
+</component>

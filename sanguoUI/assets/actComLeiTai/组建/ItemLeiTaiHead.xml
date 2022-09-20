@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="94,122">
+  <displayList>
+    <richtext id="n1_n093" name="lbTil" xy="-64,76" size="223,25" fontSize="16" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="玩家名字六字"/>
+    <richtext id="n2_n093" name="lbCt" xy="-56,97" size="206,25" fontSize="16" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="战力：123456788"/>
+    <component id="n4_n093" name="vhead" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="0,0" scale="0.8,0.8"/>
+    <image id="n5_ut4i" name="imgAdd" src="qblv3dq" fileName="image/直升一阶(1).png" pkg="jvxpx9em" xy="23,13" scale="0.8,0.8" visible="false"/>
+    <component id="n6_wf0h" name="closeBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="75,5" pivot="0.5,0.5" anchor="true" size="52,54" scale="0.8,0.8" visible="false">
+      <Button icon="ui://jvxpx9emmf0y3hi"/>
+    </component>
+    <image id="n7_u1ku" name="imgLei" src="u1kuc" fileName="image/擂主.png" xy="0,-1" scale="0.7,0.7"/>
+  </displayList>
+</component>

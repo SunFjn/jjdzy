@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="0,0" bgColor="#000000">
+  <displayList>
+    <image id="n1_n7xv" name="n1" src="myon3di" fileName="image/单根光效.png" xy="0,0" pivot="0.5,1" anchor="true"/>
+    <image id="n2_n7xv" name="n2" src="myon3di" fileName="image/单根光效.png" xy="0,0" pivot="0.5,1" anchor="true" rotation="30"/>
+    <image id="n3_n7xv" name="n3" src="myon3di" fileName="image/单根光效.png" xy="0,0" pivot="0.5,1" anchor="true" rotation="60"/>
+    <image id="n5_n7xv" name="n5" src="myon3di" fileName="image/单根光效.png" xy="0,0" pivot="0.5,1" anchor="true" rotation="90"/>
+    <image id="n7_n7xv" name="n7" src="myon3di" fileName="image/单根光效.png" xy="0,0" pivot="0.5,1" anchor="true" rotation="150"/>
+    <image id="n8_n7xv" name="n8" src="myon3di" fileName="image/单根光效.png" xy="0,0" pivot="0.5,1" anchor="true" rotation="120"/>
+    <image id="n9_n7xv" name="n9" src="myon3di" fileName="image/单根光效.png" xy="0,0" pivot="0.5,1" anchor="true" rotation="180"/>
+    <image id="n10_n7xv" name="n10" src="myon3di" fileName="image/单根光效.png" xy="1,1" pivot="0.5,1" anchor="true" rotation="210"/>
+    <image id="n11_n7xv" name="n11" src="myon3di" fileName="image/单根光效.png" xy="0,0" pivot="0.5,1" anchor="true" rotation="240"/>
+    <image id="n12_n7xv" name="n12" src="myon3di" fileName="image/单根光效.png" xy="0,0" pivot="0.5,1" anchor="true" rotation="270"/>
+    <image id="n16_n7xv" name="n16" src="myon3di" fileName="image/单根光效.png" xy="0,0" pivot="0.5,1" anchor="true" rotation="300"/>
+    <image id="n22_n7xv" name="n22" src="myon3di" fileName="image/单根光效.png" xy="0,0" pivot="0.5,1" anchor="true" rotation="330"/>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="560,80">
+  <displayList>
+    <image id="n0_100um" name="n0" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="560,80"/>
+    <text id="n1_100um" name="txtPM" xy="37,25" size="33,35" fontSize="26" color="#ffcc00" text="10">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n3_100um" name="txtName" xy="168,25" size="187,35" fontSize="26" color="#ffffff" text="玩家名字六个字">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n4_100um" name="txtJiFen" xy="413,25" size="123,35" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="300"/>
+    <loader id="n5_k8l7" name="iconPM" xy="16,7" size="72,65" aspect="true" fill="scale" autoSize="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <loader id="n17_x9uy" name="imgBg" xy="0,259" size="636,668" url="ui://swuqw468x9uy2"/>
+    <component id="n0_x9uy" name="n0" src="x9uy1" fileName="view/ItemZZmiBao.xml" xy="279,332" group="n8_x9uy" scale="0.8,0.8"/>
+    <component id="n1_x9uy" name="n1" src="x9uy1" fileName="view/ItemZZmiBao.xml" xy="425,378" group="n8_x9uy" scale="0.8,0.8"/>
+    <component id="n2_x9uy" name="n2" src="x9uy1" fileName="view/ItemZZmiBao.xml" xy="478,505" group="n8_x9uy" scale="0.8,0.8"/>
+    <component id="n3_x9uy" name="n3" src="x9uy1" fileName="view/ItemZZmiBao.xml" xy="424,621" group="n8_x9uy" scale="0.8,0.8"/>
+    <component id="n4_x9uy" name="n4" src="x9uy1" fileName="view/ItemZZmiBao.xml" xy="281,676" group="n8_x9uy" scale="0.8,0.8"/>
+    <component id="n5_x9uy" name="n5" src="x9uy1" fileName="view/ItemZZmiBao.xml" xy="130,628" group="n8_x9uy" scale="0.8,0.8"/>
+    <component id="n6_x9uy" name="n6" src="x9uy1" fileName="view/ItemZZmiBao.xml" xy="74,511" group="n8_x9uy" scale="0.8,0.8"/>
+    <component id="n7_x9uy" name="n7" src="x9uy1" fileName="view/ItemZZmiBao.xml" xy="128,387" group="n8_x9uy" scale="0.8,0.8"/>
+    <group id="n8_x9uy" name="n8" xy="74,332" size="506,479" collapsed="true"/>
+    <richtext id="n16_x9uy" name="lbTime" xy="16,327" size="32,25" fontSize="16" color="#ffffff" text="123"/>
+    <richtext id="n20_x9uy" name="n20" xy="177,873" size="285,45" fontSize="14" color="#ffffff" align="center" text="每轮秘宝抽奖消耗将逐渐提高&#xA;重置秘宝后可刷新新一批奖励并重置抽奖消耗"/>
+    <component id="n9_x9uy" name="btnReset" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="120,778">
+      <Button title="重置秘宝"/>
+    </component>
+    <component id="n10_x9uy" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="392,778">
+      <Button title="开启秘宝"/>
+    </component>
+    <component id="n11_x9uy" name="cost0" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="106,839" group="n22_x9uy"/>
+    <richtext id="n13_x9uy" name="lbItemName0" xy="93,841" size="10,28" group="n22_x9uy" fontSize="18" color="#ffffff" text="">
+      <relation target="n11_x9uy" sidePair="right-left"/>
+    </richtext>
+    <group id="n22_x9uy" name="n22" xy="93,839" size="190,35"/>
+    <component id="n12_x9uy" name="cost1" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="380,839" group="n23_x9uy"/>
+    <richtext id="n14_x9uy" name="lbItemName1" xy="364,841" size="10,28" group="n23_x9uy" fontSize="18" color="#ffffff" text="">
+      <relation target="n12_x9uy" sidePair="right-center"/>
+    </richtext>
+    <group id="n23_x9uy" name="n23" xy="364,839" size="193,35"/>
+    <richtext id="n17_hnj1" name="linkLb" xy="40,821" size="41,28" fontSize="18" color="#00ff00" underline="true" text="概率"/>
+  </displayList>
+</component>

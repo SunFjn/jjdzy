@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.antiAddictionSystem.model.AntiAddictionModel" tbname="antiAddictionModel">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="lastNoticeTime" type="int" pf="all" comment="上次提醒时间"/>
+			<col field="noticeNum" type="int" pf="all" comment="5小时后提示次数"/>
+     </tb>
+</tbs>

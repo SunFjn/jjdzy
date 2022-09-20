@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="565,457">
+  <displayList>
+    <image id="n60_p1wo" name="n60" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="563,41"/>
+    <richtext id="n99_tidc" name="n99" xy="52,7" size="41,28" group="n66_p1wo" fontSize="18" color="#f4bf12" text="排名"/>
+    <richtext id="n100_tidc" name="n100" xy="173,7" size="41,28" group="n66_p1wo" fontSize="18" color="#f4bf12" text="国家"/>
+    <richtext id="n101_tidc" name="n101" xy="286,7" size="77,28" group="n66_p1wo" fontSize="18" color="#f4bf12" text="通关层数"/>
+    <richtext id="n102_tidc" name="n102" xy="479,7" size="41,28" group="n66_p1wo" fontSize="18" color="#f4bf12" text="奖励"/>
+    <group id="n66_p1wo" name="n66" xy="52,7" size="468,28"/>
+    <image id="n75_p1wo" name="n75" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,46" size="565,97" group="n85_p1wo"/>
+    <richtext id="n71_p1wo" name="lbRank0" xy="45,80" size="63,28" group="n85_p1wo" touchable="false" fontSize="18" color="#ffc334" align="center" autoSize="none" bold="true" text="第1名"/>
+    <loader id="n72_p1wo" name="countryIcon0" xy="124,76" size="147,39" group="n85_p1wo" touchable="false" url="ui://jvxpx9emxyp27h" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <richtext id="n73_p1wo" name="passLb0" xy="283,80" size="89,28" group="n85_p1wo" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="9999999"/>
+    <loader id="n74_p1wo" name="boxImg0" xy="461,58" size="79,74" group="n85_p1wo" aspect="true" url="ui://jvxpx9emaro89e" align="center" vAlign="middle" fill="scale"/>
+    <group id="n85_p1wo" name="n85" xy="0,46" size="565,97" collapsed="true"/>
+    <image id="n86_p1wo" name="n86" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,153" size="565,97" group="n91_p1wo"/>
+    <richtext id="n87_p1wo" name="lbRank1" xy="46,185" size="63,28" group="n91_p1wo" touchable="false" fontSize="18" color="#ffc334" align="center" autoSize="none" bold="true" text="第2名"/>
+    <loader id="n88_p1wo" name="countryIcon1" xy="125,180" size="147,39" group="n91_p1wo" touchable="false" url="ui://jvxpx9emxyp27h" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <richtext id="n89_p1wo" name="passLb1" xy="284,185" size="89,28" group="n91_p1wo" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="9999999"/>
+    <loader id="n90_p1wo" name="boxImg1" xy="461,163" size="79,74" group="n91_p1wo" aspect="true" url="ui://jvxpx9emaro89e" align="center" vAlign="middle" fill="scale"/>
+    <group id="n91_p1wo" name="n91" xy="0,153" size="565,97"/>
+    <richtext id="n68_p1wo" name="rankLb" xy="35,362" size="77,28" touchable="false" fontSize="18" color="#ffffff" text="我的国家"/>
+    <image id="n92_p1wo" name="n92" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,260" size="565,97" group="n97_p1wo"/>
+    <richtext id="n93_p1wo" name="lbRank2" xy="44,288" size="63,28" group="n97_p1wo" touchable="false" fontSize="18" color="#ffc334" align="center" autoSize="none" bold="true" text="第3名"/>
+    <loader id="n94_p1wo" name="countryIcon2" xy="123,283" size="147,39" group="n97_p1wo" touchable="false" url="ui://jvxpx9emxyp27h" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <richtext id="n95_p1wo" name="passLb2" xy="282,288" size="89,28" group="n97_p1wo" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="9999999"/>
+    <loader id="n96_p1wo" name="boxImg2" xy="461,266" size="79,74" group="n97_p1wo" aspect="true" url="ui://jvxpx9emaro89e" align="center" vAlign="middle" fill="scale"/>
+    <group id="n97_p1wo" name="n97" xy="0,260" size="565,97"/>
+    <richtext id="n98_p1wo" name="n98" xy="83,402" size="380,55" fontSize="18" color="#00ff00" align="center" autoSize="height" text="挑战过国家boss即可获得国家排行奖励&#xA;奖励每周一0点通过邮件发放"/>
+  </displayList>
+</component>

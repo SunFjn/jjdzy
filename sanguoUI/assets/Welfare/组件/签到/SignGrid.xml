@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="104,102">
+  <displayList>
+    <component id="n6_r6x4" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="2,0"/>
+    <image id="n7_r6x4" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="3,69" size="93,30" visible="false"/>
+    <image id="n8_r6x4" name="signImg" src="pseoq" fileName="image/可补签.png" xy="66,2" visible="false"/>
+  </displayList>
+</component>

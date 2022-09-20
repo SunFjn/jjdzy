@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n16_j1af" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0"/>
+    <list id="n14_csl0" name="list" xy="17,396" size="604,510" overflow="scroll" colGap="13" defaultItem="ui://xrzn9ppaj1af17">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n18_j1af" name="vEqu" src="j1af17" fileName="组件/VBaZTBag.xml" xy="17,175"/>
+    <component id="n19_j1af" name="BtnGo" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="256,758">
+      <Button title="前往获取"/>
+    </component>
+    <component id="n20_j1af" name="labT" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="155,357">
+      <Label title="其他符文"/>
+    </component>
+    <text id="n21_j1af" name="lbTip" xy="110,816" size="419,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="鉴定可获得大量符文"/>
+  </displayList>
+</component>

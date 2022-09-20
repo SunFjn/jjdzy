@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="641,641">
+  <displayList>
+    <loader id="n1_ayd2" name="n1" xy="0,0" size="448,444" aspect="true" scale="1.43,1.43" url="ui://kummtenyayd21"/>
+    <image id="n13_ayd2" name="n13" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="97,561" size="514,80"/>
+    <loader id="n14_ayd2" name="itemImg" xy="377,185" size="200,200" fill="scale"/>
+    <component id="n3_ayd2" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="73,434"/>
+    <component id="n4_ayd2" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="181,434"/>
+    <component id="n5_ayd2" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="289,434"/>
+    <component id="n6_ayd2" name="grid3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="397,434"/>
+    <component id="n7_ayd2" name="grid4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="505,434"/>
+    <component id="n8_ayd2" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="267,578">
+      <Button title="立即分享"/>
+    </component>
+    <component id="n9_ayd2" name="checkBt" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="443,592" visible="false">
+      <Button checked="true"/>
+    </component>
+    <component id="n11_ayd2" name="closeButton" src="f1cf49" fileName="组件/closeButton1.xml" pkg="jvxpx9em" xy="588,7"/>
+    <richtext id="n10_ayd2" name="n10" xy="488,592" size="77,28" visible="false" touchable="false" fontSize="18" color="#ffffff" leading="0" text="求助好友"/>
+    <text id="n15_dpll" name="txtHasGot" xy="77,412" size="95,28" fontSize="18" color="#ff0000" strokeColor="#acbd4b" text="奖励已领取"/>
+  </displayList>
+</component>

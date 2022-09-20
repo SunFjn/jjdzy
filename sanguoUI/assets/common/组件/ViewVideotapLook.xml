@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,86">
+  <displayList>
+    <image id="n0_nw6y" name="n0" src="q5t63h4" fileName="image1/技能底.png" xy="0,0" size="600,86"/>
+    <text id="n1_nw6y" name="lb" xy="160,28" size="279,35" fontSize="24" color="#00ff00" align="center" autoSize="none" text="观看录像中......"/>
+  </displayList>
+</component>

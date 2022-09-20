@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="185,382">
+  <displayList>
+    <image id="n10_u7hr" name="n10" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="0,0" size="183,382"/>
+    <richtext id="n0_q09v" name="lbTitle" xy="45,32" size="95,28" fontSize="18" color="#ffffff" text="第一个好友">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n1_q09v" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="33,70"/>
+    <richtext id="n2_q09v" name="lbName" xy="8,181" size="169,28" fontSize="18" color="#ffffff" text="玩家名字六个.s9999">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n3_q09v" name="lbLevel" xy="50,218" size="83,28" fontSize="18" color="#ffffff" text="LV 80/80">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <list id="n4_q09v" name="list" xy="12,241" size="206,104" scale="0.8,0.8" layout="flow_hz" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm">
+      <item/>
+      <item/>
+    </list>
+    <image id="n8_q09v" name="imgXWYD" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="45,200"/>
+    <image id="n11_xcpq" name="imgYLQ" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="30,331"/>
+    <component id="n5_q09v" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="27,333" size="130,40">
+      <Button title="领取"/>
+    </component>
+    <image id="n12_urpp" name="lbWDC" src="urpp1d" fileName="images/未达成.png" xy="57,340"/>
+  </displayList>
+</component>

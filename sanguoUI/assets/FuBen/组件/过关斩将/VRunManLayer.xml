@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="217,124">
+  <displayList>
+    <image id="n13_nphm" name="imgBg" src="nphm2j" fileName="image/浮空台.png" xy="115,-22" pivot="0.5,0" anchor="true" size="134,66" aspect="true"/>
+    <image id="n12_nphm" name="n12" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="217,124"/>
+    <list id="n6_nphm" name="listDrop" xy="13,44" size="331,110" scale="0.6,0.6" layout="row" overflow="hidden" scroll="horizontal" colGap="9" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n7_nphm" name="labDrop" xy="14,14" size="187,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="第4000关 通关奖励"/>
+    <image id="n9_nphm" name="imgFirst" src="nphm2h" fileName="image/首通奖励1.png" xy="108,16"/>
+    <image id="n10_nphm" name="imgPass" src="r5ge3il" fileName="image/已通关.png" xy="60,-78" pkg="jvxpx9em"/>
+    <richtext id="n11_nphm" name="labDropFirst" xy="7,14" size="93,28" touchable="false" fontSize="18" color="#ffffff" align="right" autoSize="none" text="第400关"/>
+  </displayList>
+</component>

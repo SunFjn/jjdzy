@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,233">
+  <displayList>
+    <image id="n12_qxiv" name="n12" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="0,65" size="600,168" flip="vt"/>
+    <image id="n13_qxiv" name="n13" src="hfct5e" fileName="image/乱世枭雄/晋级成功.png" xy="173,0"/>
+    <image id="n14_qxiv" name="img" src="hfct5f" fileName="image/乱世枭雄/枭.png" xy="235,191"/>
+    <loader id="n15_qxiv" name="imgGrade" xy="212,65" size="170,140" url="ui://me1skowlhfct4p" align="center" vAlign="middle"/>
+    <text id="n10_j9wf" name="lbGrade" xy="169,193" size="254,35" fontSize="24" color="#ff0000" align="center" autoSize="none" text="乱世枭雄"/>
+  </displayList>
+</component>

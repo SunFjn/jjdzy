@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="638,126">
+  <displayList>
+    <image id="n0_qftx" name="n0" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="638,126" flip="vt"/>
+    <image id="n2_qftx" name="n2" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="31,11" size="267,27"/>
+    <richtext id="n3_qftx" name="lab" xy="35,11" size="192,25" touchable="false" fontSize="18" color="#ffffff" text="满足条件可领取（1/1）"/>
+    <list id="n4_qftx" name="list" xy="29,37" size="436,110" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="7" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_doz3" name="btnRec" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="470,41">
+      <Button title="前往"/>
+    </component>
+    <component id="n5_qftx" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="470,41">
+      <Button title="领取"/>
+    </component>
+    <image id="n6_hilo" name="imgGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="472,46"/>
+  </displayList>
+</component>

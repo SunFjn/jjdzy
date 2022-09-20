@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="555,585">
+  <displayList>
+    <image id="n20_qxiv" name="n20" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="555,45"/>
+    <list id="n13_j9wf" name="list" xy="0,52" size="555,450" overflow="scroll" lineGap="7" defaultItem="ui://me1skowlhfct3u">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n14_j9wf" name="lbMyGrade" xy="99,515" size="356,35" touchable="false" fontSize="24" color="#ffffff" align="center" autoSize="none" text="我的段位：乱世枭雄"/>
+    <richtext id="n18_j9wf" name="lbTips" xy="0,557" size="555,28" touchable="false" fontSize="18" color="#25f909" align="center" autoSize="none" text="段位奖励赛季结束邮件发放"/>
+    <image id="n21_qxiv" name="n21" src="q8rv9o" fileName="image1/奖励.png" pkg="jvxpx9em" xy="370,12"/>
+    <image id="n22_qxiv" name="n22" src="hfct5k" fileName="image/乱世枭雄/段位.png" xy="62,13"/>
+  </displayList>
+</component>

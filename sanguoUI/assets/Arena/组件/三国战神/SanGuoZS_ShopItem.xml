@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="293,162" designImageOffsetX="-22" designImageOffsetY="-321">
+  <displayList>
+    <image id="n22_wnzh" name="n22" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="293,162"/>
+    <component id="n12_m40k" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="20,15"/>
+    <component id="n13_m40k" name="buyBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="143,91" size="101,42">
+      <Button title="购买"/>
+    </component>
+    <loader id="n14_m40k" name="typeImg0" xy="184,30" size="26,26" url="ui://jvxpx9emltpm59" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <image id="n17_m40k" name="buyImg" src="mb5j7d" fileName="image/已购买.png" pkg="jvxpx9em" xy="134,93" visible="false"/>
+    <richtext id="n19_m40k" name="nameLb" xy="13,127" size="113,28" touchable="false" fontSize="18" color="#ff0000" align="center" leading="0" autoSize="shrink" text="兵法属性丹"/>
+    <richtext id="n20_m40k" name="dataLb" xy="133,29" size="141,28" touchable="false" fontSize="18" color="#ffffff" leading="6" vars="true" autoSize="none" text="价格：      5000"/>
+    <richtext id="n21_m40k" name="promptLb" xy="132,75" size="125,28" touchable="false" fontSize="18" color="#ff0000" align="center" leading="0" ubb="true" autoSize="none" text="VIP5可购买"/>
+  </displayList>
+</component>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="243,330">
+  <displayList>
+    <image id="n1_608a" name="n1" src="m3513bf" fileName="image/底板2 拷贝 2.png" pkg="jvxpx9em" xy="0,0" size="243,330"/>
+    <richtext id="n2_608a" name="lbTitle" xy="69,10" size="105,35" fontSize="24" color="#ffffff" text="16强奖池"/>
+    <loader id="n3_608a" name="box" xy="67,48" size="109,108" url="ui://me1skowlvbia2n" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <richtext id="n4_608a" name="lbRemain" xy="37,169" size="169,28" fontSize="18" color="#ffffff" align="center" autoClearText="true" text="剩余数量：100/500">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n5_608a" name="n33" xy="37,204" size="59,28" group="n15_vbia" fontSize="18" color="#ffffff" text="抢到："/>
+    <image id="n13_vbia" name="n13" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="92,200" group="n15_vbia"/>
+    <richtext id="n14_vbia" name="lbMyYuanBao" xy="129,204" size="16,28" group="n15_vbia" fontSize="18" color="#ffffff" text="0"/>
+    <group id="n15_vbia" name="g0" xy="37,200" size="108,32" advanced="true"/>
+    <image id="n7_s8ql" name="yqw" src="thox2z" fileName="image/已抢完.png" xy="73,199" size="105,32" group="n16_vbia"/>
+    <component id="n8_s8ql" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="74,199" size="105,43" group="n16_vbia">
+      <Button title="领取"/>
+    </component>
+    <group id="n16_vbia" name="g1" xy="73,199" size="106,43" advanced="true"/>
+    <image id="n21_thox" name="n21" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="-2,244" size="244,79" group="n20_vbia"/>
+    <image id="n12_vbia" name="n12" src="k8h127" fileName="image/抢到最多标记.png" xy="25,243" group="n20_vbia"/>
+    <richtext id="n6_608a" name="n44" xy="69,283" size="59,28" group="n20_vbia" fontSize="18" color="#ffffff" text="抢到："/>
+    <richtext id="n17_vbia" name="lbLuckMoney" xy="157,283" size="16,28" group="n20_vbia" fontSize="18" color="#ffffff" text="0"/>
+    <image id="n18_vbia" name="n18" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="124,282" group="n20_vbia"/>
+    <richtext id="n19_vbia" name="lbLucker" xy="69,252" size="77,28" group="n20_vbia" fontSize="18" color="#ffffff" text="虚位以待"/>
+    <group id="n20_vbia" name="g2" xy="-2,243" size="244,86" advanced="true"/>
+    <richtext id="n22_thox" name="lbTip" xy="101,227" size="40,28" fontSize="18" color="#ffffff" align="center" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

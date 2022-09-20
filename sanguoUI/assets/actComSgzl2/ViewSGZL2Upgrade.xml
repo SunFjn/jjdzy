@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="460,142">
+  <controller name="stateCtrl" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n57_w1tt" name="n57" src="w1ttq" fileName="res/图层 744.png" xy="0,0"/>
+    <component id="n53_tvlr" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="203,68" size="179,69">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+      <Button title="168元" titleColor="#ffffff" titleFontSize="26" icon="ui://ggwi8wepqhocp"/>
+    </component>
+    <richtext id="n54_tvlr" name="tfDes" xy="162,40" pivot="0.5,0.5" size="258,29" fontSize="18" color="#482f10" bold="true" text="立刻获得限量头像、元宝33600"/>
+    <image id="n55_nzeu" name="n55" src="qhocb" fileName="res/已进阶.png" xy="240,96">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </image>
+    <image id="n56_w1tt" name="n56" src="w1tts" fileName="res/矩形 765.png" xy="31,19"/>
+    <image id="n58_w1tt" name="n58" src="w1ttr" fileName="res/激活进阶战令.png" xy="217,10"/>
+    <loader id="n59_w1tt" name="imgHead" xy="31,19" size="101,101" align="center" vAlign="middle"/>
+  </displayList>
+</component>

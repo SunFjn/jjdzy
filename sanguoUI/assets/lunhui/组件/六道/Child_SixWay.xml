@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://ehelf5bh11m1w18">
+  <displayList>
+    <list id="n3_11m1w" name="list" xy="21,276" size="602,637" layout="pagination" overflow="scroll" lineGap="13" colGap="12" defaultItem="ui://ehelf5bh11m1ww" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n5_11m1w" name="linkSixWay" xy="29,164" size="105,32" fontSize="25" color="#00ff00" underline="true" text="玩法说明"/>
+    <component id="n6_11m1w" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="181,198"/>
+    <component id="n8_11m1w" name="btnBag" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="524,162" size="84,88">
+      <Button icon="ui://ehelf5bh11m1w1q"/>
+    </component>
+  </displayList>
+</component>

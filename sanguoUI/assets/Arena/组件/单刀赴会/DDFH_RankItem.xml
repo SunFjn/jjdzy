@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="564,79">
+  <displayList>
+    <image id="n15_r4og" name="n15" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="564,79"/>
+    <richtext id="n16_r4og" name="lbRank" xy="22,23" size="37,28" touchable="false" fontSize="18" color="#ffc334" align="center" leading="0" autoSize="none" text="1"/>
+    <richtext id="n18_r4og" name="nameLb" xy="185,26" size="173,28" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="单刀赴会"/>
+    <richtext id="n19_r4og" name="jifenLb" xy="361,26" size="84,28" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="10000"/>
+    <loader id="n17_r4og" name="levelImg" xy="102,17" size="63,46" url="ui://me1skowln9yf6v" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <loader id="n20_r4og" name="boxImg" xy="460,5" size="85,68" url="ui://jvxpx9emaro89e" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <loader id="n22_if1k" name="rankIcon" xy="17,14" size="53,47" touchable="false" url="ui://jvxpx9em100v3al" align="center" vAlign="middle" fill="scale"/>
+  </displayList>
+</component>

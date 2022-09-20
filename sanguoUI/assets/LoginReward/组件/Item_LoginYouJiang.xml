@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,124">
+  <displayList>
+    <image id="n0_mq0c" name="n0" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="640,124"/>
+    <image id="n1_mq0c" name="ylq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="494,42"/>
+    <component id="n2_mq0c" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="489,36">
+      <Button title="可领取"/>
+    </component>
+    <text id="n4_mq0c" name="desc" xy="28,32" size="138,31" fontSize="24" color="#ffffff" text="累计登陆1天"/>
+    <text id="n5_mq0c" name="day" xy="52,65" size="86,31" fontSize="24" color="#00ff00" ubb="true" text="（5/1）"/>
+    <image id="n12_wde0" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="603,31" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <list id="n13_o9c2" name="girdList" xy="172,23" size="400,102" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,50" scrollBarMargin="0,46,0,0" defaultItem="ui://jvxpx9emetorm" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

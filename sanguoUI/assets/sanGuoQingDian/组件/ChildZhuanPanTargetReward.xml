@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="563,131">
+  <displayList>
+    <image id="n2_dg22" name="n2" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="563,131"/>
+    <richtext id="n3_dg22" name="label" xy="39,49" size="89,31" fontSize="20" color="#ffffff" text="转盘20次"/>
+    <component id="n4_dg22" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="165,23" scale="0.8,0.8"/>
+    <component id="n5_dg22" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="247,23" scale="0.8,0.8"/>
+    <component id="n6_dg22" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="329,23" scale="0.8,0.8"/>
+    <image id="n7_dg22" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="423,47"/>
+    <component id="n8_dg22" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="431,47" size="109,43">
+      <Button title="领取"/>
+    </component>
+  </displayList>
+</component>

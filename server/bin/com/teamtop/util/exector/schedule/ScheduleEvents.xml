@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 服务器线程事件，启动服务器后处理  delay是延时启动，interval是间隔 -->
+	<!-- 指定定时任务-->
+	<bean key="QURATZ" class="com.teamtop.util.exector.schedule.ScheduleFixtime" pf="PF_ALL" delay="1000" interval="1000" local="1" desc="指定定时任务">
+		<property method = "ScheduleFixtime"/>
+	</bean>
+	<!-- 全民boss-->
+	<bean key="QMBOSS" class="com.teamtop.system.boss.qmboss.QMBossSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="全民boss">
+		<property method = "QMBossSchedule"/>
+	</bean>
+	<!--国家boss-->
+	<bean key="CROUTRYBOSS" class="com.teamtop.system.boss.countryBoss.CountryBossSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="国家boss">
+		<property method = "CountryBossSchedule"/>
+	</bean>	
+	<!-- 快速红点更新-->
+	<bean key="REDPOINT" class="com.teamtop.system.redPoint.RedPointSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="快速红点更新">
+		<property method = "RedPointSchedule"/>
+	</bean>
+	<!-- 称号-->
+	<bean key="TITLE_END" class="com.teamtop.system.title.TitleSchedule" pf="PF_ALL" delay="10000" interval="10000" useLong="false" local="1" desc="称号">
+		<property method = "TitleSchedule"/>
+	</bean>	
+	<!-- 背包监控-->
+	<bean key="BAG_JIAN_KONG_SCHEDULE" class="com.teamtop.system.bag.BagSchedule" pf="PF_ALL" delay="10000" interval="60000" useLong="false" local="1" desc="背包监控">
+		<property method = "BagSchedule"/>
+	</bean>	
+	<!-- 发邮件队列-->
+	<bean key="MAIL_SEND_SCHEDULE" class="com.teamtop.system.mail.MailSchedule" pf="PF_ALL" delay="10000" interval="5000" useLong="false" local="1" desc="发邮件队列">
+		<property method = "MailSchedule"/>
+	</bean>	
+	<!-- 时间GM-->
+	<bean key="TIME_GM_SCHEDULE" class="com.teamtop.util.time.TimeDateSchedule" pf="PF_ALL" delay="10000" interval="1000" useLong="false" local="1" desc="时间GM">
+		<property method = "TimeDateSchedule"/>
+	</bean>	
+	<!-- 新战斗模式-->
+	<bean key="BATTLE_NEW" class="com.teamtop.system.battleNew.BattleNewSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="新战斗模式">
+		<property method = "BattleNewSchedule"/>
+	</bean>
+	<!-- 战场boss-->
+	<bean key="ZCBOSS_SCHEDULE" class="com.teamtop.system.zcBoss.ZcBossSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="战场boss">
+		<property method = "ZcBossSchedule"/>
+	</bean>	
+	<!-- 关卡协助-->
+	<bean key="GUAN_QIA_HELP_SCHEDULE" class="com.teamtop.system.guanQiaHelp.GuanQiaHelpSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="关卡协助">
+		<property method = "GuanQiaHelpSchedule"/>
+	</bean>
+	<!-- 少主护送-->
+	<bean key="SHAOZHU_ESCORT_SCHEDULE" class="com.teamtop.system.shaozhuEscort.ShaoZhuEscortSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="少主护送">
+		<property method = "ShaoZhuEscortSchedule"/>
+	</bean>
+	<!-- 六出祁山-->
+	<bean key="LIU_CHU_QI_SHAN" class="com.teamtop.system.liuChuQiShan.LiuChuQiShanSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="六出祁山">
+		<property method = "LiuChuQiShanSchedule"/>
+	</bean>
+	<!--曹操来袭-->
+	<bean key="SCHEDULE_CAOCAO_BOSS" class="com.teamtop.system.activity.ativitys.caoCaoCome.CaoCaoComeSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="曹操来袭">
+		<property method = "CaoCaoComeSchedule"/>
+	</bean>
+	<!--虎牢关-->
+	<bean key="TIGERPASS" class="com.teamtop.system.tigerPass.TigerPassSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="虎牢关">
+		<property method = "TigerPassSchedule"/>
+	</bean>
+	<!--合服-张飞醉酒-->
+	<bean key="SCHEDULE_ZHANGFEI_HEFU" class="com.teamtop.system.activity.ativitys.hefuZhangFeiBoss.HeFuZhangFeiSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="合服-张飞醉酒">
+		<property method = "HeFuZhangFeiSchedule"/>
+	</bean>		
+	<!-- 三英战吕布-->
+	<bean key="THREE_HERO_FIGHT_LVBU" class="com.teamtop.system.threeHeroFightLvBu.ThreeHeroFightLvBuSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="三英战吕布">
+		<property method = "ThreeHeroFightLvBuSchedule"/>
+	</bean>
+	<!-- 许田围猎-->
+	<bean key="XUTIAN_HUNT" class="com.teamtop.system.xuTianHunt.XuTianHuntSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="许田围猎">
+		<property method = "XuTianHuntSchedule"/>
+	</bean>
+	<!--桃园boss-->
+	<bean key="TAOYUAN_BOSS" class="com.teamtop.system.taoyuanSworn.TaoyuanSwornSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="桃园boss">
+		<property method = "TaoyuanSwornSchedule"/>
+	</bean>			
+</beans>

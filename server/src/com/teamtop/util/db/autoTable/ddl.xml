@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.util.db.autoTable.DDLMapper">
+<!--新增表 --> 
+<update id="createTable" parameterType="String">
+	create table ${value}
+</update>
+<!-- 插入一条默认记录 -->
+<insert id="makeOneRec" parameterType="map">
+	insert into ${tbname} (${prikey}) values (0)
+</insert>
+<!--新增字段 --> 
+<update id="addColumn" parameterType="AlterColumn">  
+	alter table ${tbname} add column ${field} ${type} COMMENT #{comment}
+	<if test="type!='text' and type!='blob' and type!='mediumblob' and type!='longblob'">
+	 	 ${isNull} DEFAULT #{defVal}
+	</if>
+</update>
+
+<!--修改字段 --> 
+<update id="modifyColumn" parameterType="AlterColumn">
+	alter table ${tbname} modify column ${field} ${type} COMMENT #{comment}
+	<if test="type!='text' and type!='blob' and type!='mediumblob' and type!='longblob'">  
+		 ${isNull} DEFAULT #{defVal}
+	</if>
+</update>
+
+<!--删除字段 --> 
+<update id="dropColumn" parameterType="map">
+	ALTER TABLE ${tbname} DROP COLUMN ${fieldName}
+</update>
+
+<select id="descTable" resultType="FieldStru" parameterType="String">
+	desc ${value};
+</select>	
+
+<select id="tbIncrement" resultType="com.teamtop.util.db.autoTable.TableIncrement" parameterType="String">
+	select TABLE_NAME as tbname,AUTO_INCREMENT as increment from information_schema.tables where table_schema=#{value}
+</select>
+
+<select id="showKeys" parameterType="String" resultType="KeyStru">
+	show keys from ${value}
+</select>
+
+<update id="modifyIndex" parameterType="String">
+	alter table ${value}
+</update>
+
+<update id="dropIndex" parameterType="map">
+	alter table ${tbname} DROP INDEX ${keyname}
+</update>
+<!--最大id --> 
+<select id="maxid" parameterType="String" resultType="java.lang.Object">
+     ${value}
+</select>
+ <update id="alterIncrement" parameterType="String">
+      ${value}
+ </update> 	
+</mapper>

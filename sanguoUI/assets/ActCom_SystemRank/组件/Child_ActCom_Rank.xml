@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,924" opaque="false">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n1_wea3" name="bg" xy="0,258" size="50,30" url="ui://hincjqblj3hfw" autoSize="true"/>
+    <image id="n13_wea3" name="n13" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="303,295" size="302,202"/>
+    <image id="n2_wea3" name="n2" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="15,271" size="192,27"/>
+    <text id="n3_wea3" name="timeTxt" xy="19,272" size="189,31" fontSize="20" color="#33ff00" bold="true" text="剩余时间：6天7小时"/>
+    <image id="n7_wea3" name="n7" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,523" size="640,401"/>
+    <richtext id="n9_wea3" name="myRankTxt" xy="29,856" size="149,28" fontSize="18" color="#ff9900" text="我的排名：未上榜"/>
+    <richtext id="n10_wea3" name="myAuthenTxt" xy="29,880" size="106,28" fontSize="18" color="#ff9900" text="祈愿次数：0"/>
+    <richtext id="n11_wea3" name="sbTxt" xy="378,856" size="182,28" fontSize="18" color="#ff9900" text="上榜条件：祈愿100次"/>
+    <richtext id="n12_wea3" name="bpTxt" xy="378,880" size="182,28" fontSize="18" color="#ff9900" text="大奖条件：祈愿200次"/>
+    <list id="n18_wea3" name="list" xy="319,396" size="322,105" scale="0.9,0.9" layout="flow_hz" overflow="hidden" scroll="horizontal" colGap="4" defaultItem="ui://jvxpx9emetorm" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n24_s73w" name="bpList" xy="362,303" size="199,97" layout="row" overflow="hidden" colGap="15" defaultItem="ui://qz5r0meldsdy1">
+      <item/>
+      <item/>
+    </list>
+    <image id="n5_wea3" name="n5" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="63,489" size="202,27" group="n28_7ijt"/>
+    <text id="n6_wea3" name="authenTxt" xy="69,492" size="121,28" group="n28_7ijt" fontSize="18" color="#ffffff" text="祈愿：1000次"/>
+    <text id="n21_s73w" name="nameTxt" xy="72,310" size="160,25" group="n28_7ijt" fontSize="18" color="#ffffff" align="center" autoSize="none" text="玩家名字六字.S999"/>
+    <component id="n30_7ijt" name="container" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="150,483" group="n28_7ijt"/>
+    <group id="n28_7ijt" name="n28" xy="63,310" size="202,207" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n31_foqs" name="item2" src="dsdy2" fileName="组件/Item_ActCom_Rank1.xml" xy="12,546">
+      <Label icon="ui://qz5r0meldsdy8"/>
+    </component>
+    <component id="n32_foqs" name="item3" src="dsdy2" fileName="组件/Item_ActCom_Rank1.xml" xy="321,546"/>
+    <component id="n33_foqs" name="item4" src="dsdy3" fileName="组件/Item_ActCom_Rank2.xml" xy="12,724"/>
+    <component id="n34_foqs" name="item5" src="dsdy3" fileName="组件/Item_ActCom_Rank2.xml" xy="321,724">
+      <Label icon="ui://qz5r0meldsdy6"/>
+    </component>
+    <component id="n35_foqs" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="233,854">
+      <Button title="前往"/>
+    </component>
+    <image id="n36_u7hu" name="n36" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="114,376">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n37_ze8t" name="n37" src="dsdy7" fileName="image/第1名.png" xy="322,258"/>
+  </displayList>
+</component>

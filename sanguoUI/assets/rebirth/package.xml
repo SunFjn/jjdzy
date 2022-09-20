@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="dllc71i9" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="vaaj0" name="ViewRebirthPanel.xml" path="/组件/" exported="true"/>
+    <image id="8hzfc" name="转生奖励.png" path="/image/" exported="true"/>
+    <component id="s0h0d" name="JinShengItem.xml" path="/晋升/" exported="true"/>
+    <component id="s0h0e" name="Child_JinSheng.xml" path="/晋升/" exported="true"/>
+    <component id="elpxf" name="JinShengGrid.xml" path="/晋升/" exported="true"/>
+    <component id="elpxh" name="View_JinShengReward_Panel.xml" path="/晋升/" exported="true"/>
+    <component id="elpxi" name="JinShengRewardItem.xml" path="/晋升/" exported="true"/>
+    <image id="hd1bp" name="js_7.png" path="/image/" exported="true"/>
+    <image id="hd1bx" name="name4.png" path="/image/" exported="true"/>
+    <image id="hd1b14" name="晋升标签2.png" path="/image/" exported="true"/>
+    <image id="hd1b15" name="晋升标签1.png" path="/image/" exported="true"/>
+    <image id="hd1b16" name="限时.png" path="/image/" exported="true"/>
+    <image id="so6h17" name="晋升经验.png" path="/image/" exported="true"/>
+    <image id="7gru1c" name="武将激活.png" path="/image/" exported="true"/>
+    <image id="cxk81g" name="晋升标题.png" path="/image/" exported="true"/>
+    <image id="myon1h" name="最高排名奖励底.png" path="/image/" exported="true" scale="9grid" scale9grid="81,14,162,28"/>
+    <component id="myon1i" name="ViewJingShengPrompt.xml" path="/晋升/" exported="true"/>
+    <component id="myon1j" name="JinShengEff.xml" path="/晋升/" exported="true"/>
+    <image id="myon1l" name="晋升大奖文字.png" path="/image/" exported="true"/>
+    <component id="ltpm12" name="ChildGuanXian.xml" path="/官衔/" exported="true"/>
+    <image id="m20j1m" name="官衔tit.png" path="/image/" exported="true"/>
+    <component id="g7t31n" name="JXGrid.xml" path="/官衔/" exported="true"/>
+    <image id="v2391o" name="激活标记.png" path="/image/" exported="true"/>
+    <image id="nszk1p" name="5501.png" path="/image/" exported="true"/>
+    <image id="v95q1q" name="晋升豪礼.png" path="/image/" exported="true"/>
+    <image id="v95q1r" name="晋升奖励(1).png" path="/image/" exported="true"/>
+    <image id="hxx51s" name="当前属性.png" path="/image/" exported="true"/>
+    <image id="hxx51t" name="每日俸禄.png" path="/image/" exported="true"/>
+    <component id="pke61u" name="ChildAchievement.xml" path="/成就/" exported="true"/>
+    <image id="pke61v" name="成就hover.jpg" path="/成就/res/"/>
+    <component id="pke61x" name="AchieveIconBtn.xml" path="/成就/" exported="true"/>
+    <image id="pke61y" name="icon_2.png" path="/成就/icon/" exported="true"/>
+    <image id="pke61z" name="icon_1.png" path="/成就/icon/" exported="true"/>
+    <image id="pke620" name="icon_3.png" path="/成就/icon/" exported="true"/>
+    <image id="pke621" name="icon_4.png" path="/成就/icon/" exported="true"/>
+    <image id="pke622" name="选中效果底部.png" path="/成就/res/"/>
+    <component id="pke624" name="AchieveTaskItem.xml" path="/成就/" exported="true"/>
+    <image id="pke625" name="成就奖励.png" path="/成就/res/"/>
+    <image id="pke626" name="成就大师入口.png" path="/成就/res/"/>
+    <image id="pke627" name="任务一览title.png" path="/成就/res/"/>
+    <component id="g7h328" name="ViewAchieveMaster.xml" path="/成就/" exported="true"/>
+    <component id="g7h32a" name="AchievementMasterItem.xml" path="/成就/" exported="true"/>
+    <component id="g7h32b" name="ViewAchieveReward.xml" path="/成就/" exported="true"/>
+    <image id="g7h32c" name="成就奖励.jpg" path="/成就/res/"/>
+    <component id="g7h32d" name="AchieveRewardItem.xml" path="/成就/" exported="true"/>
+    <image id="wmr82e" name="成就title.png" path="/成就/res/"/>
+    <image id="idkj2g" name="country2.png" path="/image/" exported="true"/>
+    <image id="idkj2h" name="country1.png" path="/image/" exported="true"/>
+    <image id="idkj2i" name="country3.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="rebirth" genCode="true" npot="true" excluded="hd1bx,hd1bp"/>
+</packageDescription>

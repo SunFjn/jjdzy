@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="614,155">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n14_htpq" name="n14" src="m3513bv" fileName="image/通用底框/tips.png" pkg="jvxpx9em" xy="0,0" size="614,155"/>
+    <image id="n2_vfmx" name="n2" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="146,62" group="n6_vfmx"/>
+    <component id="n5_vfmx" name="inviteBtn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="455,46" group="n6_vfmx">
+      <Button title="广播邀请"/>
+    </component>
+    <group id="n6_vfmx" name="n6" xy="146,46" size="445,62" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <richtext id="n4_vfmx" name="timeLb" xy="457,63" size="136,27" group="n11_vfmx" fontSize="20" color="#00ff00" align="center" autoSize="none" text="在线"/>
+    <richtext id="n7_vfmx" name="nameLb" xy="140,29" size="149,31" group="n11_vfmx" fontSize="24" color="#ffffff" text="玩家名字六字"/>
+    <richtext id="n8_vfmx" name="lvLb" xy="140,65" size="109,27" group="n11_vfmx" fontSize="20" color="#ffffff" text="等级：1237"/>
+    <richtext id="n9_vfmx" name="powerLb" xy="140,96" size="153,27" group="n11_vfmx" fontSize="20" color="#ffff00" text="战力：12346789"/>
+    <group id="n11_vfmx" name="n11" xy="140,29" size="453,94" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n3_vfmx" name="viewHead" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="23,27" size="119,127"/>
+    <image id="n10_vfmx" name="first" src="ihs76" fileName="image/大哥标签.png" xy="16,19"/>
+    <image id="n12_vfmx" name="second" src="ihs72" fileName="image/二哥标签.png" xy="16,19"/>
+    <image id="n13_vfmx" name="third" src="ihs70" fileName="image/三弟标签.png" xy="16,19"/>
+  </displayList>
+</component>

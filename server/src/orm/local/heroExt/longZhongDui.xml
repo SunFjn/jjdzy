@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.longZhongDui.model.LongZhongDui" tbname="longZhongDui">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="myScore" type="int" pf="all" comment="积分"/>
+			<col field="heroOpenTime" type="int" pf="all" comment="开启时间"/>
+			<col field="answeredMap" type="text" pf="all" comment="存放答完题的map"/>
+     </tb>
+</tbs>

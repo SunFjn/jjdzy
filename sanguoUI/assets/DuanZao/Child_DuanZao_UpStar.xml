@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,904" opaque="false">
+  <displayList>
+    <image id="n48_f1cf" name="n48" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="114,535" size="411,178"/>
+    <image id="n39_bwmw" name="n39" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="295,605"/>
+    <component id="n40_bwmw" name="costItem" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="245,796" size="149,36"/>
+    <component id="n24_z1r8" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="270,371"/>
+    <component id="n25_z1r8" name="suitBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="395,219" size="89,75">
+      <Button icon="ui://pofv8989bwmw5z"/>
+    </component>
+    <component id="n33_z1r8" name="perBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="502,829" size="89,75">
+      <Button title="完美升星" icon="ui://pofv8989bfa36j"/>
+    </component>
+    <component id="n32_z1r8" name="upStar" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="255,842">
+      <Button title="升星"/>
+    </component>
+    <text id="n26_z1r8" name="starLb" xy="178,502" size="284,28" font="ui://jvxpx9emz1r82c" fontSize="18" color="#ffffff" leading="0" text="0000001111"/>
+    <richtext id="n27_z1r8" name="sucRate" xy="157,543" size="317,30" touchable="false" fontSize="18" color="#f9b627" leading="0" ubb="true" autoSize="none" text="升星成功率"/>
+    <richtext id="n28_z1r8" name="curLb" xy="153,616" size="136,66" touchable="false" fontSize="18" color="#ffffff" align="center" leading="15" ubb="true" autoSize="none" text="装备基础属性"/>
+    <richtext id="n29_z1r8" name="nextLb" xy="354,616" size="122,66" touchable="false" fontSize="18" color="#00e51d" align="center" leading="15" ubb="true" autoSize="none" text="装备基础属性&#xA;+36%"/>
+    <component id="n30_z1r8" name="n30" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="155,742" touchable="false">
+      <Label title="升星消耗"/>
+    </component>
+    <richtext id="n36_bwmw" name="suitLb" xy="407,291" size="72,31" touchable="false" fontSize="20" color="#ffffff" align="center" leading="0" autoSize="none" strokeColor="#000000" text="3阶"/>
+    <richtext id="n37_bwmw" name="n37" xy="201,576" size="41,29" touchable="false" fontSize="18" color="#ffffff" leading="0" autoSize="none" text="当前"/>
+    <richtext id="n38_bwmw" name="n38" xy="396,576" size="41,29" touchable="false" fontSize="18" color="#00e51d" leading="0" autoSize="none" text="下级"/>
+    <richtext id="n46_f1cf" name="nameLb" xy="218,337" size="204,31" touchable="false" fontSize="20" color="#e5bd1d" align="center" autoSize="none" text="装备名称"/>
+    <component id="n50_idkj" name="costItem1" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="476,796" size="135,36"/>
+  </displayList>
+</component>

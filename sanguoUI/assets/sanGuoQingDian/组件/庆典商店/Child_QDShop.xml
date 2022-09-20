@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,919" opaque="false">
+  <displayList>
+    <image id="n20_n0mt" name="n20" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="3,280" size="634,639"/>
+    <list id="n18_t68w" name="list" xy="32,307" size="575,592" layout="flow_hz" overflow="scroll" lineGap="6" colGap="10" lineItemCount="2" defaultItem="ui://kdt501v2qrkf1r" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

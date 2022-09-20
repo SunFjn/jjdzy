@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="82,83" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <image id="n31_sh62" name="n31" src="y1z8p" fileName="image1/BmG_3.png" pkg="jvxpx9em" xy="0,0" size="82,83" grayed="true"/>
+    <loader id="n33_sh62" name="huaWenLD" xy="3,3" size="75,77" url="ui://4aepcdbweium2a" align="center" fill="scale"/>
+    <loader id="n32_sh62" name="yinJiLD" xy="23,23" size="38,42" url="ui://4aepcdbwsh622p"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

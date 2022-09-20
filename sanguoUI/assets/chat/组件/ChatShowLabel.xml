@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="282,29" extention="Label">
+  <displayList>
+    <image id="n1_wjpa" name="n1" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="0,0" size="282,30" alpha="0.5"/>
+    <richtext id="n0_wjpa" name="title" xy="0,0" size="41,29" touchable="false" fontSize="18" color="#eba819" bold="true" singleLine="true" text="名字"/>
+  </displayList>
+</component>

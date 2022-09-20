@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="561,109">
+  <displayList>
+    <image id="n22_gz25" name="n22" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="561,109"/>
+    <richtext id="n21_gz25" name="contentLb" xy="13,7" size="181,94" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" text=""/>
+    <component id="n23_gz25" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="403,25">
+      <Button title="领取"/>
+    </component>
+    <component id="n24_gz25" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="258,12" scale="0.8,0.8"/>
+    <image id="n25_wtx2" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="409,35"/>
+  </displayList>
+</component>

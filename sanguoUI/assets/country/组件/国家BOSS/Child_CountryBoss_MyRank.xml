@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="569,456">
+  <displayList>
+    <image id="n16_som1" name="n16" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="564,41"/>
+    <list id="n8_u94l" name="list" xy="0,47" size="569,328" overflow="scroll" lineGap="6" defaultItem="ui://uwzc58njp1wo2h" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n30_l3h3" name="rankLb" xy="49,386" size="77,28" touchable="false" fontSize="18" color="#ffffff" text="我的排名"/>
+    <richtext id="n31_l3h3" name="jifenLb" xy="225,386" size="77,28" touchable="false" fontSize="18" color="#ffffff" text="我的排名"/>
+    <richtext id="n41_p1wo" name="n41" xy="160,427" size="234,29" fontSize="18" color="#00ff00" align="center" leading="0" autoSize="none" text="本层通关后通过邮件发放"/>
+    <richtext id="n43_tidc" name="n43" xy="35,6" size="41,28" fontSize="18" color="#f4bf12" text="排名"/>
+    <richtext id="n44_vscu" name="n44" xy="197,6" size="41,28" fontSize="18" color="#f4bf12" text="名字"/>
+    <richtext id="n45_vscu" name="n45" xy="344,6" size="41,28" fontSize="18" color="#f4bf12" text="伤害"/>
+    <richtext id="n46_vscu" name="n46" xy="480,6" size="41,28" fontSize="18" color="#f4bf12" text="奖励"/>
+  </displayList>
+</component>

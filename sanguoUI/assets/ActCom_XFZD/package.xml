@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="nshesk1r" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="glz71" name="Child_ActCom_XFZD.xml" path="/组件/" exported="true"/>
+    <image id="glz72" name="消费砸蛋背景图.jpg" path="/image/" exported="true"/>
+    <image id="glz74" name="ptEgg.png" path="/image/" exported="true"/>
+    <image id="glz75" name="ptDanC.png" path="/image/" exported="true"/>
+    <image id="glz76" name="caidan.png" path="/image/" exported="true"/>
+    <image id="glz77" name="caidanC.png" path="/image/" exported="true"/>
+    <component id="mm9s8" name="XFZDGrid.xml" path="/组件/" exported="true"/>
+    <image id="mm9s9" name="已领取.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="ActCom_XFZD" genCode="true" npot="true" excluded="glz72"/>
+</packageDescription>

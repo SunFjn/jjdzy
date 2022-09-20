@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="414,301">
+  <displayList>
+    <image id="n1_lsg1" name="n1" src="lsg11" fileName="image/活动开启底.png" xy="0,0"/>
+    <image id="n2_lsg1" name="n2" src="lsg12" fileName="image/活动开启标题.png" xy="99,7"/>
+    <loader id="n3_lsg1" name="iconImg" xy="146,80" size="125,102" align="center" vAlign="bottom"/>
+    <component id="n4_lsg1" name="enterBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="160,189" size="99,40">
+      <Button title="立即参与" titleFontSize="18"/>
+    </component>
+    <component id="n5_lsg1" name="closeBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="365,8" size="49,47">
+      <Button icon="ui://5ed3mplelsg14"/>
+    </component>
+  </displayList>
+</component>

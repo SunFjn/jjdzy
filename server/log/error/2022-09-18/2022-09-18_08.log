@@ -1,0 +1,310 @@
+2022-09-18 08:25:03.645 [main] ERROR com.teamtop.cross.callback.ListenerLogic - 
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) ~[na:1.8.0_341]
+	at com.teamtop.cross.callback.ListenerLogic.sendAndWait(ListenerLogic.java:96) ~[bin/:na]
+	at com.teamtop.netty.util.NettyWrite.writeBlockData(NettyWrite.java:368) [bin/:na]
+	at com.teamtop.netty.server.server2.Client_2.getKuaFufenQuInfoAndNewClient(Client_2.java:44) [bin/:na]
+	at com.teamtop.netty.server.server2.Client_2.getIns(Client_2.java:27) [bin/:na]
+	at com.teamtop.netty.server.ServerController.startServer(ServerController.java:44) [bin/:na]
+	at com.teamtop.main.RunLocalServer.main(RunLocalServer.java:28) [bin/:na]
+2022-09-18 08:25:03.648 [main] ERROR com.teamtop.main.RunServerException - RunServerException:
+2022-09-18 08:25:03.649 [main] ERROR com.teamtop.main.RunServerException - java.lang.NullPointerException
+	at com.teamtop.netty.server.server2.Client_2.getKuaFufenQuInfoAndNewClient(Client_2.java:45)
+	at com.teamtop.netty.server.server2.Client_2.getIns(Client_2.java:27)
+	at com.teamtop.netty.server.ServerController.startServer(ServerController.java:44)
+	at com.teamtop.main.RunLocalServer.main(RunLocalServer.java:28)
+
+2022-09-18 08:25:55.877 [crossChannelEx - 3] ERROR com.teamtop.netty.handlers.CrossDispatch - java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.teamtop.netty.handlers.CrossDispatch$3.run(CrossDispatch.java:124)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.NullPointerException
+	at com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache.getKuaFuFenQuInfo(KuaFuFenQuCache.java:51)
+	at com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuIO.getKuaFufenQuInfo(KuaFuFenQuIO.java:44)
+	... 8 more
+dispatcherMethod err,cmd:259,channel:[id: 0x66866fcc, /127.0.0.1:53630 => /127.0.0.1:11001]
+2022-09-18 08:26:05.887 [main] ERROR com.teamtop.cross.callback.ListenerLogic - 
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) ~[na:1.8.0_341]
+	at com.teamtop.cross.callback.ListenerLogic.sendAndWait(ListenerLogic.java:96) ~[bin/:na]
+	at com.teamtop.netty.util.NettyWrite.writeBlockData(NettyWrite.java:368) [bin/:na]
+	at com.teamtop.netty.server.server2.Client_2.getKuaFufenQuInfoAndNewClient(Client_2.java:44) [bin/:na]
+	at com.teamtop.netty.server.server2.Client_2.getIns(Client_2.java:27) [bin/:na]
+	at com.teamtop.netty.server.ServerController.startServer(ServerController.java:44) [bin/:na]
+	at com.teamtop.main.RunLocalServer.main(RunLocalServer.java:28) [bin/:na]
+2022-09-18 08:26:05.893 [main] ERROR com.teamtop.main.RunServerException - RunServerException:
+2022-09-18 08:26:05.896 [main] ERROR com.teamtop.main.RunServerException - java.lang.NullPointerException
+	at com.teamtop.netty.server.server2.Client_2.getKuaFufenQuInfoAndNewClient(Client_2.java:45)
+	at com.teamtop.netty.server.server2.Client_2.getIns(Client_2.java:27)
+	at com.teamtop.netty.server.ServerController.startServer(ServerController.java:44)
+	at com.teamtop.main.RunLocalServer.main(RunLocalServer.java:28)
+
+2022-09-18 08:27:05.960 [crossChannelEx - 6] ERROR com.teamtop.netty.handlers.CrossDispatch - java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.teamtop.netty.handlers.CrossDispatch$3.run(CrossDispatch.java:124)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.NullPointerException
+	at com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache.getKuaFuFenQuInfo(KuaFuFenQuCache.java:51)
+	at com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuIO.getKuaFufenQuInfo(KuaFuFenQuIO.java:44)
+	... 8 more
+dispatcherMethod err,cmd:259,channel:[id: 0x12f55b4d, /127.0.0.1:53653 => /127.0.0.1:11001]
+2022-09-18 08:27:15.974 [main] ERROR com.teamtop.cross.callback.ListenerLogic - 
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) ~[na:1.8.0_341]
+	at com.teamtop.cross.callback.ListenerLogic.sendAndWait(ListenerLogic.java:96) ~[bin/:na]
+	at com.teamtop.netty.util.NettyWrite.writeBlockData(NettyWrite.java:368) [bin/:na]
+	at com.teamtop.netty.server.server2.Client_2.getKuaFufenQuInfoAndNewClient(Client_2.java:44) [bin/:na]
+	at com.teamtop.netty.server.server2.Client_2.getIns(Client_2.java:27) [bin/:na]
+	at com.teamtop.netty.server.ServerController.startServer(ServerController.java:44) [bin/:na]
+	at com.teamtop.main.RunLocalServer.main(RunLocalServer.java:28) [bin/:na]
+2022-09-18 08:27:15.985 [main] ERROR com.teamtop.main.RunServerException - RunServerException:
+2022-09-18 08:27:15.989 [main] ERROR com.teamtop.main.RunServerException - java.lang.NullPointerException
+	at com.teamtop.netty.server.server2.Client_2.getKuaFufenQuInfoAndNewClient(Client_2.java:45)
+	at com.teamtop.netty.server.server2.Client_2.getIns(Client_2.java:27)
+	at com.teamtop.netty.server.ServerController.startServer(ServerController.java:44)
+	at com.teamtop.main.RunLocalServer.main(RunLocalServer.java:28)
+
+2022-09-18 08:29:26.800 [任务线程 - 2] ERROR com.teamtop.houtaiHttp.events.manualOpServer.ServerInfoSchedule - org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.transaction.TransactionException: Error configuring AutoCommit.  Your driver may not support getAutoCommit() or setAutoCommit(). Requested setting: false.  Cause: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 60,054 milliseconds ago.  The last packet sent successfully to the server was 35 milliseconds ago.
+### The error may exist in com/teamtop/system/event/backstage/events/backstage/serverInfoList/serverInfo.xml
+### The error may involve com.teamtop.system.event.backstage.events.backstage.serverInfoList.ServerInfoMapper.findAll
+### The error occurred while executing a query
+### Cause: org.apache.ibatis.transaction.TransactionException: Error configuring AutoCommit.  Your driver may not support getAutoCommit() or setAutoCommit(). Requested setting: false.  Cause: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 60,054 milliseconds ago.  The last packet sent successfully to the server was 35 milliseconds ago.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:75)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy6.findAll(Unknown Source)
+	at com.teamtop.system.event.backstage.events.backstage.serverInfoList.ServerInfoDao.findAll(ServerInfoDao.java:92)
+	at com.teamtop.houtaiHttp.events.manualOpServer.ServerInfoCache.initAndReflashServer(ServerInfoCache.java:84)
+	at com.teamtop.houtaiHttp.events.manualOpServer.ServerInfoSchedule.execute(ServerInfoSchedule.java:15)
+	at com.teamtop.util.exector.schedule.ScheduleUtil$1.run(ScheduleUtil.java:75)
+	at com.teamtop.util.exector.schedule.SchedulerBean$3.run(SchedulerBean.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.ibatis.transaction.TransactionException: Error configuring AutoCommit.  Your driver may not support getAutoCommit() or setAutoCommit(). Requested setting: false.  Cause: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 60,054 milliseconds ago.  The last packet sent successfully to the server was 35 milliseconds ago.
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:107)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:142)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.getConnection(JdbcTransaction.java:60)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	... 17 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 60,054 milliseconds ago.  The last packet sent successfully to the server was 35 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3562)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3462)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3905)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2491)
+	at com.mysql.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:4807)
+	at com.p6spy.engine.spy.P6Connection.setAutoCommit(P6Connection.java:189)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.datasource.pooled.PooledConnection.invoke(PooledConnection.java:245)
+	at com.sun.proxy.$Proxy1.setAutoCommit(Unknown Source)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:102)
+	... 27 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:101)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:144)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:174)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3011)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3472)
+	... 40 more
+ServerInfoSchedule execute
+2022-09-18 08:29:26.799 [任务线程 - 1] ERROR com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.transaction.TransactionException: Error configuring AutoCommit.  Your driver may not support getAutoCommit() or setAutoCommit(). Requested setting: false.  Cause: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 60,054 milliseconds ago.  The last packet sent successfully to the server was 35 milliseconds ago.
+### The error may exist in com/teamtop/system/event/backstage/events/backstage/kuaFuFenQu/kuaFuFenQuInfo.xml
+### The error may involve com.teamtop.system.event.backstage.events.backstage.kuaFuFenQu.KuaFuFenQuMapper.findKuaFuFenQuInfo
+### The error occurred while executing a query
+### Cause: org.apache.ibatis.transaction.TransactionException: Error configuring AutoCommit.  Your driver may not support getAutoCommit() or setAutoCommit(). Requested setting: false.  Cause: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 60,054 milliseconds ago.  The last packet sent successfully to the server was 35 milliseconds ago.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:75)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy9.findKuaFuFenQuInfo(Unknown Source)
+	at com.teamtop.system.event.backstage.events.backstage.kuaFuFenQu.KuaFuFenQuDao.findAllPlatform(KuaFuFenQuDao.java:33)
+	at com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache.initKuafuFenQuMap(KuaFuFenQuCache.java:58)
+	at com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuSchedule.execute(KuaFuFenQuSchedule.java:15)
+	at com.teamtop.util.exector.schedule.ScheduleUtil$1.run(ScheduleUtil.java:75)
+	at com.teamtop.util.exector.schedule.SchedulerBean$3.run(SchedulerBean.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.ibatis.transaction.TransactionException: Error configuring AutoCommit.  Your driver may not support getAutoCommit() or setAutoCommit(). Requested setting: false.  Cause: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 60,054 milliseconds ago.  The last packet sent successfully to the server was 35 milliseconds ago.
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:107)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:142)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.getConnection(JdbcTransaction.java:60)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	... 17 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 60,054 milliseconds ago.  The last packet sent successfully to the server was 35 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3562)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3462)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3905)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2491)
+	at com.mysql.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:4807)
+	at com.p6spy.engine.spy.P6Connection.setAutoCommit(P6Connection.java:189)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.datasource.pooled.PooledConnection.invoke(PooledConnection.java:245)
+	at com.sun.proxy.$Proxy1.setAutoCommit(Unknown Source)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:102)
+	... 27 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:101)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:144)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:174)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3011)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3472)
+	... 40 more
+KuaFuFenQuCache initKuafuFenQuMap fail
+2022-09-18 08:29:26.808 [任务线程 - 1] ERROR com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuSchedule - org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.apache.ibatis.transaction.TransactionException: Error configuring AutoCommit.  Your driver may not support getAutoCommit() or setAutoCommit(). Requested setting: false.  Cause: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 60,054 milliseconds ago.  The last packet sent successfully to the server was 35 milliseconds ago.
+### The error may exist in com/teamtop/system/event/backstage/events/backstage/kuaFuFenQu/kuaFuFenQuInfo.xml
+### The error may involve com.teamtop.system.event.backstage.events.backstage.kuaFuFenQu.KuaFuFenQuMapper.findKuaFuFenQuInfo
+### The error occurred while executing a query
+### Cause: org.apache.ibatis.transaction.TransactionException: Error configuring AutoCommit.  Your driver may not support getAutoCommit() or setAutoCommit(). Requested setting: false.  Cause: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 60,054 milliseconds ago.  The last packet sent successfully to the server was 35 milliseconds ago.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:75)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy9.findKuaFuFenQuInfo(Unknown Source)
+	at com.teamtop.system.event.backstage.events.backstage.kuaFuFenQu.KuaFuFenQuDao.findAllPlatform(KuaFuFenQuDao.java:33)
+	at com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache.initKuafuFenQuMap(KuaFuFenQuCache.java:58)
+	at com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuSchedule.execute(KuaFuFenQuSchedule.java:15)
+	at com.teamtop.util.exector.schedule.ScheduleUtil$1.run(ScheduleUtil.java:75)
+	at com.teamtop.util.exector.schedule.SchedulerBean$3.run(SchedulerBean.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.ibatis.transaction.TransactionException: Error configuring AutoCommit.  Your driver may not support getAutoCommit() or setAutoCommit(). Requested setting: false.  Cause: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 60,054 milliseconds ago.  The last packet sent successfully to the server was 35 milliseconds ago.
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:107)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:142)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.getConnection(JdbcTransaction.java:60)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	... 17 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 60,054 milliseconds ago.  The last packet sent successfully to the server was 35 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3562)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3462)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3905)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2491)
+	at com.mysql.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:4807)
+	at com.p6spy.engine.spy.P6Connection.setAutoCommit(P6Connection.java:189)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.datasource.pooled.PooledConnection.invoke(PooledConnection.java:245)
+	at com.sun.proxy.$Proxy1.setAutoCommit(Unknown Source)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:102)
+	... 27 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:101)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:144)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:174)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3011)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3472)
+	... 40 more
+KuaFuFenQuSchedule initKuafuFenQuMap

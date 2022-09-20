@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,135">
+  <displayList>
+    <image id="n3_x9uy" name="n3" src="pxaa3cv" fileName="image/数量框.png" pkg="jvxpx9em" xy="-3,108"/>
+    <component id="n0_x9uy" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="0,0"/>
+    <richtext id="n1_x9uy" name="lbRemaind" xy="15,107" size="71,28" fontSize="18" color="#ffffff" text="123213">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n2_x9uy" name="imgBig" src="c6yy3dg" fileName="image1/大奖.png" pkg="jvxpx9em" xy="-5,0"/>
+  </displayList>
+</component>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,915" opaque="false" designImage="ui://yqpfuleflwbl6i">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n20_nyv7" name="backIcon" xy="21,254" size="596,655" hideByEditor="true" url="ui://yqpfulefnyv759" fill="scaleFree"/>
+    <component id="n5_nyv7" name="kfMineralBtn" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="255,184" size="130,58">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <gearText controller="c1" pages="1" values="前往我的矿场" default="前往跨服矿场"/>
+      <Button title="前往我的矿场" titleFontSize="18"/>
+    </component>
+    <richtext id="n13_nyv7" name="timeLb" xy="22,157" size="201,27" touchable="false" fontSize="20" color="#eba00e" text="采矿时间：8:00-24:00"/>
+    <richtext id="n14_nyv7" name="myStealTxt" xy="22,188" size="156,25" touchable="false" fontSize="18" color="#ffffff" text="顺手牵羊次数：2/3"/>
+    <richtext id="n15_nyv7" name="myLootTxt" xy="22,219" size="156,25" touchable="false" fontSize="18" color="#ffffff" text="战斗抢夺次数：2/3"/>
+    <component id="n26_nyv7" name="btnTips" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="535,150" size="84,88">
+      <Button icon="ui://yqpfulefnyv74m"/>
+    </component>
+    <component id="n27_nyv7" name="btnReport" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="448,150" size="84,88">
+      <Button icon="ui://yqpfulefnyv74l"/>
+    </component>
+    <image id="n7_nyv7" name="n7" src="m3513bt" fileName="image/分割线.png" pkg="jvxpx9em" xy="62,580" pivot="0.5,0.5" size="513,10" group="n24_nyv7"/>
+    <image id="n22_nyv7" name="n22" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="264,566" size="111,36" group="n24_nyv7"/>
+    <richtext id="n23_nyv7" name="n23" xy="276,568" size="89,28" group="n24_nyv7" fontSize="20" color="#ffffff" align="center" leading="0" autoSize="none" text="我的矿场"/>
+    <group id="n24_nyv7" name="n24" xy="62,566" size="513,36" group="n30_nyv7" collapsed="true"/>
+    <component id="n3_nyv7" name="startBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="343,836" group="n30_nyv7">
+      <Button title="开始采矿"/>
+    </component>
+    <component id="n4_nyv7" name="invitationBtn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="141,836" group="n30_nyv7">
+      <Button title="邀请采矿"/>
+    </component>
+    <image id="n83_lwbl" name="n83" src="m3513bv" fileName="image/通用底框/tips.png" pkg="jvxpx9em" xy="68,603" size="509,183" group="n30_nyv7"/>
+    <list id="n8_nyv7" name="list" xy="89,609" size="461,173" group="n30_nyv7" layout="flow_hz" overflow="scroll" colGap="18" defaultItem="ui://yqpfulefnyv752">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n12_nyv7" name="promptLb" xy="75,796" size="485,28" group="n30_nyv7" fontSize="18" color="#00ff00" align="center" autoSize="none" text="1名帮手资源+10%，2名帮手资源+25%"/>
+    <component id="n17_nyv7" name="ownerItem" src="nyv753" fileName="组件/跨服矿藏/MineralItem.xml" xy="66,275" group="n30_nyv7"/>
+    <component id="n18_nyv7" name="assistItem" src="nyv753" fileName="组件/跨服矿藏/MineralItem.xml" xy="330,275" group="n30_nyv7"/>
+    <loader id="n68_upam" name="typeIcon0" xy="174,794" size="32,31" group="n72_upam" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <loader id="n69_upam" name="typeIcon1" xy="371,792" size="32,31" group="n72_upam" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <richtext id="n70_upam" name="rewradLb0" xy="208,797" size="41,23" group="n72_upam" touchable="false" fontSize="16" color="#ffffff" bold="true" text="2000"/>
+    <richtext id="n71_upam" name="rewradLb1" xy="405,795" size="41,23" group="n72_upam" touchable="false" fontSize="16" color="#ffffff" bold="true" text="2000"/>
+    <group id="n72_upam" name="rewardGroup" xy="174,792" size="276,33" group="n30_nyv7" advanced="true" collapsed="true"/>
+    <loader id="n78_j2qo" name="typeIcon00" xy="486,798" size="32,31" group="n82_j2qo" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <loader id="n79_j2qo" name="typeIcon01" xy="486,828" size="32,31" group="n82_j2qo" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <richtext id="n80_j2qo" name="rewradLb00" xy="520,801" size="41,23" group="n82_j2qo" touchable="false" fontSize="16" color="#ffffff" bold="true" text="2000"/>
+    <richtext id="n81_j2qo" name="rewradLb01" xy="520,831" size="41,23" group="n82_j2qo" touchable="false" fontSize="16" color="#ffffff" bold="true" text="2000"/>
+    <richtext id="n29_nyv7" name="collectLb" xy="486,856" size="95,31" group="n82_j2qo" touchable="false" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" text="采集中....."/>
+    <group id="n82_j2qo" name="collectGroup" xy="486,798" size="95,89" group="n30_nyv7" advanced="true" collapsed="true"/>
+    <group id="n30_nyv7" name="myMineralGroup" xy="62,275" size="519,623" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n35_nyv7" name="n35" src="m3513bt" fileName="image/分割线.png" pkg="jvxpx9em" xy="61,645" pivot="0.5,0.5" size="513,10" group="n38_nyv7">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <image id="n36_nyv7" name="n36" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="261,552" size="111,36" group="n38_nyv7"/>
+    <richtext id="n37_nyv7" name="n37" xy="267,553" size="99,31" group="n38_nyv7" fontSize="20" color="#ffffff" align="center" leading="0" autoSize="none" text="目标矿藏"/>
+    <group id="n38_nyv7" name="n38" xy="61,552" size="513,103" group="n57_nyv7" collapsed="true"/>
+    <loader id="n39_nyv7" name="mineIcon" xy="46,614" size="127,123" group="n73_upam" touchable="false" url="ui://yqpfulefnyv74n" fill="scaleFree"/>
+    <loader id="n48_nyv7" name="moneyIcon0" xy="106,756" size="26,25" group="n73_upam" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <loader id="n49_nyv7" name="moneyIcon1" xy="106,782" size="26,25" group="n73_upam" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <loader id="n50_nyv7" name="moneyIcon2" xy="106,819" size="26,25" group="n73_upam" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <loader id="n51_nyv7" name="moneyIcon3" xy="106,846" size="26,25" group="n73_upam" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <component id="n42_nyv7" name="battleBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="442,805" size="130,51" group="n73_upam">
+      <Button title="战斗抢夺"/>
+    </component>
+    <component id="n43_nyv7" name="stealBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="242,805" size="129,51" group="n73_upam">
+      <Button title="顺手牵羊"/>
+    </component>
+    <loader id="n40_nyv7" name="nameIcon" xy="165,612" size="31,125" group="n73_upam" touchable="false" url="ui://yqpfulef9gv65m" align="center" vAlign="middle" color="#00ff00"/>
+    <richtext id="n41_nyv7" name="n41" xy="210,769" size="391,31" group="n73_upam" fontSize="20" color="#00ff00" align="center" autoSize="none" text="战斗抢夺与战力最高采矿玩家进行战斗"/>
+    <richtext id="n44_nyv7" name="numLb0" xy="241,860" size="129,29" group="n73_upam" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="被顺次数:1/3"/>
+    <richtext id="n45_nyv7" name="numLb1" xy="438,860" size="137,29" group="n73_upam" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="被抢次数:1/3"/>
+    <richtext id="n46_nyv7" name="n46" xy="33,757" size="65,23" group="n73_upam" touchable="false" fontSize="15" color="#ff9900" autoSize="none" bold="true" text="战斗抢夺"/>
+    <richtext id="n47_nyv7" name="n47" xy="33,821" size="65,23" group="n73_upam" touchable="false" fontSize="15" color="#ff9900" autoSize="none" bold="true" text="顺手牵羊"/>
+    <richtext id="n52_nyv7" name="moneyLb0" xy="135,754" size="60,27" group="n73_upam" fontSize="20" color="#ffffff" text="20000"/>
+    <richtext id="n53_nyv7" name="moneyLb1" xy="135,782" size="60,27" group="n73_upam" fontSize="20" color="#ffffff" text="20000"/>
+    <richtext id="n54_nyv7" name="moneyLb2" xy="135,818" size="60,27" group="n73_upam" fontSize="20" color="#ffffff" text="20000"/>
+    <richtext id="n55_nyv7" name="moneyLb3" xy="135,846" size="60,27" group="n73_upam" fontSize="20" color="#ffffff" text="20000"/>
+    <image id="n59_nyv7" name="n59" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="203,591" size="403,178" group="n73_upam"/>
+    <list id="n60_nyv7" name="list1" xy="206,588" size="398,168" group="n73_upam" layout="flow_hz" overflow="hidden" colGap="-10" defaultItem="ui://yqpfulefnyv752">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n56_nyv7" name="item0" src="nyv75f" fileName="组件/跨服矿藏/LootMineralItem.xml" xy="61,285" size="170,147" group="n73_upam"/>
+    <component id="n61_i9o1" name="item1" src="nyv75f" fileName="组件/跨服矿藏/LootMineralItem.xml" xy="238,387" size="170,147" group="n73_upam"/>
+    <component id="n62_i9o1" name="item2" src="nyv75f" fileName="组件/跨服矿藏/LootMineralItem.xml" xy="440,285" size="170,147" group="n73_upam"/>
+    <group id="n73_upam" name="dataGroup" xy="33,285" size="577,604" group="n57_nyv7" advanced="true" collapsed="true"/>
+    <image id="n63_q6rj" name="n63" src="q6rj5i" fileName="image/跨服矿藏/搜索.png" xy="483,421" group="n57_nyv7"/>
+    <image id="n65_q6rj" name="promptImg" src="q6rj5j" fileName="image/跨服矿藏/尚未发现矿藏，请搜索矿藏.png" xy="136,725" group="n57_nyv7" visible="false"/>
+    <component id="n66_q6rj" name="searchBt" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="475,502" size="120,46" group="n57_nyv7">
+      <Button title="搜索矿藏"/>
+    </component>
+    <image id="n74_upam" name="costIcon" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="492,544" size="26,25" group="n76_9gv6"/>
+    <richtext id="n75_upam" name="costLb" xy="521,542" size="60,27" group="n76_9gv6" fontSize="20" color="#ffffff" text="20000"/>
+    <group id="n76_9gv6" name="costGroup" xy="492,542" size="94,31" group="n57_nyv7" advanced="true" collapsed="true"/>
+    <richtext id="n77_9gv6" name="freeLb" xy="489,546" size="99,28" group="n57_nyv7" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="本次免费"/>
+    <group id="n57_nyv7" name="kfMineralGroup" xy="33,285" size="577,604" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qqn3a7vx" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="137v65" name="使用中.png" path="/image/" exported="true"/>
+    <image id="137v66" name="使用按钮.png" path="/image/" exported="true"/>
+    <image id="137v67" name="侍女.png" path="/image/" exported="true"/>
+    <image id="137v68" name="侍女背景.jpg" path="/image/"/>
+    <image id="137v6a" name="花.png" path="/image/" exported="true"/>
+    <component id="137v6b" name="ViewHomeMaidPanel.xml" path="/组建/" exported="true"/>
+    <component id="137v6c" name="VMaidGrid.xml" path="/组建/" exported="true"/>
+    <image id="137v6d" name="shuxing.png" path="/image/" exported="true"/>
+    <component id="fs5a6e" name="ViewHomeMaidAttr.xml" path="/组建/" exported="true"/>
+    <image id="whzh6f" name="使用中1.png" path="/image/"/>
+  </resources>
+  <publish name="homeMaid" genCode="true" excluded="137v68"/>
+</packageDescription>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.boss.countryBoss.CountryBoss" tbname="countryBoss">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="bossReward" type="text" pf="all" comment="boss被击败奖励"/>
+			<col field="restTime" type="int" pf="all" comment="奖励重置时间"/>
+			<col field="dayTimes" type="int" pf="all" comment="每日挑战剩余次数"/>
+			<col field="buyTimes" type="int" pf="all" comment="购买次数+令牌使用次数"/>
+			<col field="battleBossId" type="int" pf="all" comment="当前挑战boss序号"/>
+			<col field="hurtByBossid" type="text" pf="all" comment="bosss伤害"/>
+     </tb>
+</tbs>

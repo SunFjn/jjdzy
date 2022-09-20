@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="586,335">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n35_cia2" name="n35" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="233,9" size="236,41"/>
+    <component id="n34_cia2" name="item" src="cia23b" fileName="TuJianItem.xml" xy="1,1"/>
+    <component id="n10_rcvu" name="costLb1" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="318,228" size="175,36" group="n12_rkgc"/>
+    <component id="n6_rcvu" name="levelBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="304,183" size="247,20" group="n12_rkgc">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <richtext id="n29_61zd" name="n29" xy="246,178" size="41,28" group="n12_rkgc" fontSize="18" color="#ffffff" leading="0" text="等级"/>
+    <component id="n11_rcvu" name="upLvBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="337,273" group="n12_rkgc">
+      <Button title="升级"/>
+    </component>
+    <component id="n32_tli0" name="n0" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="258,56" size="329,31" group="n12_rkgc" touchable="false">
+      <Label title="升级属性"/>
+    </component>
+    <component id="n37_cia2" name="upStarBt" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="57,267" size="102,39" group="n12_rkgc">
+      <Button title="升星" titleFontSize="20"/>
+    </component>
+    <richtext id="n39_8m8s" name="itemNameLb" xy="228,230" size="87,28" group="n12_rkgc" touchable="false" fontSize="18" color="#ffffff" align="right" autoSize="none" text=""/>
+    <group id="n12_rkgc" name="stargroup" xy="57,56" size="530,279" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n13_rkgc" name="n2" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="269,60" size="309,31" group="n16_rkgc" touchable="false">
+      <Label title="未激活" titleColor="#ff0000"/>
+    </component>
+    <component id="n14_rkgc" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="299,216" group="n16_rkgc"/>
+    <component id="n15_rkgc" name="jihuoBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="418,246" group="n16_rkgc">
+      <Button title="激活"/>
+    </component>
+    <group id="n16_rkgc" name="jihuoGroup" xy="269,60" size="309,258" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <richtext id="n8_rcvu" name="curAttLb" xy="295,102" size="98,58" group="n30_61zd" touchable="false" fontSize="18" color="#ffffff" leading="6" text="生命+0000&#xA;生命+0"/>
+    <image id="n22_jrht" name="n22" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="403,102" group="n30_61zd">
+      <relation target="n8_rcvu" sidePair="middle-middle"/>
+    </image>
+    <richtext id="n9_rcvu" name="nextAttLb" xy="471,102" size="73,58" group="n30_61zd" touchable="false" fontSize="18" color="#15f234" leading="6" text="+10000&#xA;+10000"/>
+    <group id="n30_61zd" name="n30" xy="295,102" size="249,58" advanced="true" collapsed="true" layout="hz" colGap="10">
+      <relation target="n13_rkgc" sidePair="center-center"/>
+    </group>
+    <richtext id="n36_cia2" name="powerLb" xy="244,15" size="214,31" fontSize="20" color="#ffcc00" align="center" autoSize="none" text="升级战力：99999999"/>
+    <component id="n38_wjpa" name="showBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="476,4" size="110,48">
+      <Button title="展示" titleFontSize="20"/>
+    </component>
+  </displayList>
+</component>

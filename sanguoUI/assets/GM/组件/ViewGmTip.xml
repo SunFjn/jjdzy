@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,390" bgColor="#6060bd">
+  <displayList>
+    <image id="n1_jnat" name="n1" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="-1,0" size="201,398"/>
+    <list id="n0_qm4n" name="list" xy="0,0" size="200,390" overflow="scroll" lineGap="1" defaultItem="ui://vm9a8xq8qm4n5">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ncy51skv" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="glz70" name="Child_ActCom_DBCZ.xml" path="/组件/" exported="true"/>
+    <component id="glz71" name="ActCom_DBCZItem.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="ActCom_DBCZ" genCode="true" npot="true"/>
+</packageDescription>

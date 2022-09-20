@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.hero.HeroCurrencies" tbname="heroCurrencies">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="hoodlePoint" type="int" pf="all" comment="弹珠积分"/>
+		    <col field="sixyinji" type="bigint" pf="all" comment="六道印记碎片"/>			
+     </tb>
+</tbs>

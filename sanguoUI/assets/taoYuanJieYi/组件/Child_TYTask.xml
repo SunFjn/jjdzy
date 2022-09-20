@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://m2fm2aiyhtpq1r">
+  <displayList>
+    <image id="n3_htpq" name="n3" src="htpq1s" fileName="image/关卡连击底框.png" xy="245,152" size="152,43"/>
+    <image id="n1_f0ed" name="n1" src="f0ed1c" fileName="image/每日任务.png" xy="264,156"/>
+    <list id="n0_vfmx" name="list" xy="19,199" size="603,711" overflow="scroll" lineGap="9" defaultItem="ui://m2fm2aiyvfmx15" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

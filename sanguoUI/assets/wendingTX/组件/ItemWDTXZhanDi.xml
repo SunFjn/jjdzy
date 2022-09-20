@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="556,128">
+  <displayList>
+    <image id="n9_cg2i" name="n9" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="556,128" locked="true"/>
+    <richtext id="n0_fl2h" name="lbTitle" xy="29,22" size="135,39" fontSize="26" color="#f9bb13" align="center" text="主宰主宰主">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n1_fl2h" name="lbCondition" xy="37,73" size="117,28" fontSize="18" color="#ffffff" align="center" text="连续击杀10人">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n2_fl2h" name="n2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="350,23" scale="0.8,0.8"/>
+    <component id="n3_fl2h" name="n3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="186,23" scale="0.8,0.8"/>
+    <component id="n4_fl2h" name="n4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="268,23" scale="0.8,0.8"/>
+    <richtext id="n5_fl2h" name="lbWDC" xy="457,54" size="77,35" fontSize="24" color="#ff0000" text="未达成"/>
+    <component id="n6_fl2h" name="n6" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="435,52" size="115,42">
+      <Button title="领取"/>
+    </component>
+    <image id="n7_fl2h" name="imgYlq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="435,52" size="112,40"/>
+  </displayList>
+</component>

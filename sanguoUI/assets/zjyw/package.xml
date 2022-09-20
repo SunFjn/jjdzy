@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7a366usa" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="fxp30" name="ViewZJYW.xml" path="/组件/" exported="true"/>
+    <component id="fxp31" name="ItemZJYW.xml" path="/组件/" exported="true"/>
+    <component id="fxp32" name="VChInfo.xml" path="/组件/" exported="true"/>
+    <image id="fxp36" name="诸将演武标题.png" path="/image/" exported="true"/>
+    <image id="fxp37" name="活动武将标签.png" path="/image/" exported="true"/>
+    <image id="fxp38" name="未激活标签.png" path="/image/" exported="true"/>
+    <component id="q5rfc" name="ViewHeroHead.xml" path="/组件/" exported="true"/>
+    <component id="q5rfe" name="ChildZJYW.xml" path="/组件/" exported="true"/>
+    <component id="ql4nf" name="ChilHSCB.xml" path="/组件/火烧赤壁/" exported="true"/>
+    <component id="ql4ng" name="ItemHSCB.xml" path="/组件/火烧赤壁/" exported="true"/>
+    <image id="ql4nh" name="标题文字底.png" path="/image/"/>
+    <image id="ql4ni" name="选中框2.png" path="/image/"/>
+    <image id="ql4nj" name="关数底.png" path="/image/火烧赤壁/" exported="true"/>
+    <image id="ql4nk" name="左下底.png" path="/image/火烧赤壁/" exported="true"/>
+    <image id="ql4nl" name="恭喜通关.png" path="/image/火烧赤壁/" exported="true"/>
+    <image id="ql4nn" name="榜首底.png" path="/image/火烧赤壁/" exported="true"/>
+    <image id="ql4nq" name="火烧赤壁title.png" path="/image/火烧赤壁/" exported="true"/>
+    <component id="ql4nt" name="View_HSCB_RanK.xml" path="/组件/火烧赤壁/" exported="true"/>
+    <component id="ql4nu" name="Item_HSCB_Rank.xml" path="/组件/火烧赤壁/" exported="true"/>
+    <image id="ql4nv" name="1.png" path="/image/火烧赤壁/" exported="true"/>
+    <image id="ql4nw" name="2.png" path="/image/火烧赤壁/" exported="true"/>
+    <image id="ql4nx" name="3.png" path="/image/火烧赤壁/" exported="true"/>
+    <image id="ql4ny" name="list.png" path="/image/火烧赤壁/" exported="true"/>
+    <image id="r1ku10" name="奖励预览.png" path="/image/火烧赤壁/" exported="true"/>
+    <component id="sr4011" name="ChildLiuChuQS.xml" path="/组件/六出祁山/" exported="true"/>
+    <image id="sr401c" name="通关上一关卡后开启.png" path="/image/六出祁山/" exported="true"/>
+    <component id="sr401f" name="View_LiuChuQS_Panel.xml" path="/组件/六出祁山/" exported="true"/>
+    <component id="sr401g" name="ItemLCQSEnter.xml" path="/组件/六出祁山/" exported="true"/>
+    <component id="sr401h" name="View_LiuChuQS_SaoDang.xml" path="/组件/六出祁山/" exported="true"/>
+    <component id="sr401i" name="ItemLCQSTeam.xml" path="/组件/六出祁山/" exported="true"/>
+    <image id="sr401j" name="队长标签.png" path="/image/六出祁山/" exported="true"/>
+    <component id="sr401k" name="ItemLCQSTeamJoin.xml" path="/组件/六出祁山/" exported="true"/>
+    <component id="sr401l" name="ItemLCQSMap.xml" path="/组件/六出祁山/" exported="true"/>
+    <component id="sr401m" name="ItemLCQSMapDetail.xml" path="/组件/六出祁山/" exported="true"/>
+    <image id="loov1o" name="卷轴.png" path="/image/六出祁山/"/>
+    <image id="loov1s" name="矩形.png" path="/image/六出祁山/" exported="true"/>
+    <component id="loov1t" name="ItemLCQSTitle.xml" path="/组件/六出祁山/" exported="true"/>
+    <image id="loov1u" name="城池名字底.png" path="/image/六出祁山/" exported="true"/>
+    <image id="hndy1y" name="地图框.png" path="/image/六出祁山/"/>
+    <image id="8rj71z" name="x Copy.png" path="/image/六出祁山/" exported="true"/>
+    <image id="jten20" name="北伐汉中.png" path="/image/六出祁山/"/>
+    <image id="iduu22" name="lcqsMap0.jpg" path="/image/六出祁山/"/>
+    <component id="y5hd23" name="ChildTigerPass.xml" path="/组件/虎牢关/" exported="true"/>
+    <image id="y5hd25" name="吕布经典.png" path="/image/虎牢关/"/>
+    <image id="y5hd28" name="报名图标.png" path="/image/虎牢关/" exported="true"/>
+    <image id="y5hd2b" name="虎牢关标题.png" path="/image/虎牢关/" exported="true"/>
+    <component id="y5hd2e" name="ViewTigerPassSignUp.xml" path="/组件/虎牢关/" exported="true"/>
+    <component id="y5hd2f" name="ViewTigerPassEmploy.xml" path="/组件/虎牢关/" exported="true"/>
+    <component id="y5hd2g" name="ItemTigPasEmploy.xml" path="/组件/虎牢关/" exported="true"/>
+    <image id="hdie2h" name="关.png" path="/image/虎牢关/" exported="true"/>
+    <image id="hdie2i" name="卡牌选中框.png" path="/image/虎牢关/" exported="true" scale="9grid" scale9grid="54,75,108,150"/>
+    <image id="hdie2j" name="已雇佣帮手.png" path="/image/虎牢关/" exported="true"/>
+    <image id="hdie2k" name="战斗力底.png" path="/image/虎牢关/" exported="true"/>
+    <image id="hdie2l" name="每次被雇佣奖励.png" path="/image/虎牢关/" exported="true"/>
+    <image id="hdie2m" name="通关奖励.png" path="/image/虎牢关/" exported="true"/>
+    <image id="hdie2n" name="铁质底框.png" path="/image/虎牢关/" exported="true"/>
+    <image id="hdie2o" name="已报名.png" path="/image/虎牢关/" exported="true"/>
+    <image id="hdie2p" name="背景.jpg" path="/image/虎牢关/"/>
+    <image id="hdie2q" name="系统公告底部-底.png" path="/image/虎牢关/" exported="true"/>
+    <component id="fxj42r" name="ViewTigPasSceneInfo.xml" path="/组件/虎牢关/" exported="true"/>
+    <image id="nvpf2s" name="通关.png" path="/image/虎牢关/" exported="true"/>
+    <component id="axhn2t" name="TabButLCQS.xml" path="/组件/六出祁山/"/>
+    <component id="axhn2y" name="TabButSYZLB.xml" path="/组件/"/>
+  </resources>
+  <publish name="zjyw" genCode="true" npot="true" excluded="jten20,iduu22,y5hd25,hdie2p,loov1o,hndy1y"/>
+</packageDescription>

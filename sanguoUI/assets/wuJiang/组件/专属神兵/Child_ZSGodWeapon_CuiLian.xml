@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,777" designImage="ui://zyx92gzwlwblm51" designImageOffsetY="-146">
+  <displayList>
+    <loader id="n67_hi63" name="backImg" xy="134,0" size="495,488" url="ui://zyx92gzwhi6340" autoSize="true"/>
+    <image id="n94_eccs" name="n94" src="z1jw6l" fileName="image/侧边框底.png" pkg="jvxpx9em" xy="0,0" size="137,766"/>
+    <list id="n65_hi63" name="list" xy="10,13" size="129,761" overflow="scroll" defaultItem="ui://zyx92gzwhi633y" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n66_hi63" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="228,0" touchable="false"/>
+    <component id="n70_hi63" name="n1" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="215,508" size="329,31" touchable="false">
+      <Label title="淬炼属性"/>
+    </component>
+    <component id="n68_hi63" name="nameLb" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="506,50" touchable="false"/>
+    <richtext id="n71_hi63" name="curAtt" xy="221,559" size="112,51" group="n74_hi63" touchable="false" fontSize="18" color="#ffffff" leading="6" text="攻击+100000&#xA;攻击+100000"/>
+    <image id="n72_hi63" name="n72" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="353,559" size="58,58" group="n74_hi63">
+      <relation target="n71_hi63" sidePair="middle-middle"/>
+    </image>
+    <richtext id="n73_hi63" name="nextAtt" xy="431,559" size="112,51" group="n74_hi63" touchable="false" fontSize="18" color="#00ff00" leading="6" text="攻击+100000&#xA;攻击+100000"/>
+    <group id="n74_hi63" name="attGroup" xy="221,559" size="322,58" advanced="true" collapsed="true" layout="hz" colGap="20"/>
+    <richtext id="n75_hi63" name="showAtt" xy="378,561" size="10,28" touchable="false" fontSize="18" color="#ffffff" leading="6" text=""/>
+    <richtext id="n81_hi63" name="levelLb" xy="320,439" size="113,31" touchable="false" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" vars="true" autoSize="none" text="[size=24]{jie=1}阶[/size]{level=3}级"/>
+    <loader id="n82_hi63" name="expBar" xy="223,75" size="310,310" url="ui://zyx92gzwhi6343"/>
+    <graph id="n83_hi63" name="shape" xy="203,55" size="350,350" hideByEditor="true" aspect="true" type="eclipse"/>
+    <image id="n84_m4uj" name="n84" src="m4uj44" fileName="image/专属神兵/等级.png" xy="217,230" group="n86_m4uj"/>
+    <richtext id="n85_m4uj" name="n85" xy="214,229" size="30,28" group="n86_m4uj" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="30"/>
+    <group id="n86_m4uj" name="levelGroup" xy="214,229" size="30,28" visible="false" advanced="true" collapsed="true"/>
+    <richtext id="n87_m4uj" name="expLb" xy="285,406" size="184,31" touchable="false" fontSize="20" color="#ffffff" align="center" autoSize="none" text="2000/1000"/>
+    <loader id="n88_m4uj" name="godWeaponIcon" xy="290,140" size="176,197" touchable="false" align="center" vAlign="bottom" fill="scale" shrinkOnly="true"/>
+    <image id="n90_p5r7" name="n90" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="191,705" group="n92_p5r7"/>
+    <richtext id="n91_p5r7" name="n91" xy="316,697" size="120,35" group="n92_p5r7" touchable="false" fontSize="24" color="#00ff00" align="center" autoSize="none" text="已满阶"/>
+    <group id="n92_p5r7" name="maxGroup" xy="191,697" size="366,35" advanced="true" collapsed="true"/>
+    <component id="n78_hi63" name="clBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="220,702" group="n89_p5r7">
+      <Button title="淬炼"/>
+    </component>
+    <component id="n79_hi63" name="keyCLBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="408,702" group="n89_p5r7">
+      <Button title="一键淬炼"/>
+    </component>
+    <component id="n77_hi63" name="costLb" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="307,655" size="189,36" group="n89_p5r7" touchable="false"/>
+    <richtext id="n76_hi63" name="costNameLb" xy="208,660" size="98,28" group="n89_p5r7" touchable="false" fontSize="18" color="#ffffff" align="right" autoSize="none" text="淬炼石"/>
+    <group id="n89_p5r7" name="clGroup" xy="208,655" size="336,109" advanced="true" collapsed="true"/>
+    <richtext id="n93_p5r7" name="promptLb" xy="216,686" size="333,35" touchable="false" fontSize="24" color="#ff0000" align="center" autoSize="none" text="请先激活神兵"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n88_m4uj" tween="true" startValue="275,140" endValue="275,130" duration="18" ease="Linear"/>
+    <item time="18" type="XY" target="n88_m4uj" tween="true" startValue="275,130" endValue="275,140" duration="18" ease="Linear"/>
+  </transition>
+</component>

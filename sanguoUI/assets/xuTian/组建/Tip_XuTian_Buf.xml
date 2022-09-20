@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="435,148">
+  <displayList>
+    <component id="n15_lnck" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,0" size="435,148"/>
+    <image id="n18_opmf" name="g22" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="22,25" size="389,99"/>
+    <loader id="n16_opmf" name="img" xy="38,48" size="50,50" url="ui://j0lk55yeg53a5" align="center" vAlign="middle"/>
+    <richtext id="n17_opmf" name="lb" xy="101,58" size="127,31" touchable="false" fontSize="20" color="#ffffff" leading="6" text="概率提升10%"/>
+  </displayList>
+</component>

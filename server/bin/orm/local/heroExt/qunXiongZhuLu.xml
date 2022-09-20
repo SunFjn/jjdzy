@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossZhuLu.model.QunXiongZhuLu" tbname="qunXiongZhuLu">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="baoKuMap" type="text" pf="all" comment="已购买宝库物品信息key:商品id,value:已购数量"/>
+			<col field="taskInfoMap" type="text" pf="all" comment="任务信息key:任务id,value:任务信息"/>
+			<col field="weekZeroTime" type="int" pf="all" comment="刷新周的时间"/>
+			<col field="buyTiLiTimes" type="int" pf="all" comment="购买体力次数"/>
+			<col field="score" type="bigint" pf="all" comment="当前积分"/>
+			<col field="buffTime" type="int" pf="all" comment="单枪匹马buff时间"/>
+	</tb>
+</tbs>

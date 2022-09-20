@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="486,34">
+  <displayList>
+    <richtext id="n0_xx41" name="lab" xy="0,0" size="486,34" fontSize="20" color="#ffffff" leading="10" ubb="true" autoSize="none" singleLine="true" text="玩家名字名字.S1000抽中了道具名字名字*1000&#xA;"/>
+  </displayList>
+</component>

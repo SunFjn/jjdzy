@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="j0lk55ye" jpegQuality="80" compressPNG="true" hasFavorites="true">
+  <resources>
+    <component id="g53a1" name="Child_XuTian.xml" path="/组建/" exported="true"/>
+    <component id="g53a3" name="View_XuTian_CangKu.xml" path="/组建/" exported="true"/>
+    <component id="g53a4" name="VXuTianHunt.xml" path="/组建/" exported="true"/>
+    <image id="g53a5" name="buf1.png" path="/image/" exported="true"/>
+    <image id="g53a6" name="buf2.png" path="/image/" exported="true"/>
+    <image id="g53a7" name="buf4.png" path="/image/" exported="true"/>
+    <image id="g53a8" name="buf5.png" path="/image/" exported="true"/>
+    <image id="g53aa" name="xutian.jpg" path="/image/"/>
+    <image id="g53ab" name="弓.png" path="/image/" exported="true"/>
+    <image id="g53ac" name="箭.png" path="/image/" exported="true"/>
+    <image id="g53ad" name="图层 1.png" path="/image/" exported="true" scale="9grid" scale9grid="11,42,22,68"/>
+    <image id="g53ae" name="许田围猎标题.png" path="/image/" exported="true"/>
+    <image id="g53af" name="狩猎仓库.png" path="/image/" exported="true"/>
+    <component id="g53ag" name="View_XuTian_Panel.xml" path="/组建/" exported="true"/>
+    <image id="opmfh" name="奖励预览底.png" path="/image/" exported="true" scale="9grid" scale9grid="200,19,61,11"/>
+    <image id="opmfi" name="奖励预览文字.png" path="/image/" exported="true"/>
+    <image id="opmfj" name="buf3.png" path="/image/" exported="true"/>
+    <component id="opmfk" name="Tip_XuTian_Buf.xml" path="/组建/" exported="true" favorite="true"/>
+  </resources>
+  <publish name="xuTian" genCode="true" npot="true" excluded="g53aa"/>
+</packageDescription>

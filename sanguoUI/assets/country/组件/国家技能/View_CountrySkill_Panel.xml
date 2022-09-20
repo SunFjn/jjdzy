@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" designImage="ui://uwzc58njwnzh6w">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n0_dr4r" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://uwzc58njwuea6g"/>
+    </component>
+    <image id="n20_wuea" name="n20" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="19,156" size="600,116"/>
+    <image id="n22_wnzh" name="n22" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="20,762" size="600,145"/>
+    <text id="n2_dr4r" name="labName" xy="156,224" size="128,29" fontSize="22" color="#ffffff" text="坏脾气S.999"/>
+    <component id="n3_dr4r" name="viewHead" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="25,166"/>
+    <richtext id="n4_dr4r" name="lbShuoMing" xy="519,873" size="85,27" fontSize="20" color="#00ff00" underline="true" text="玩法说明"/>
+    <component id="n5_dr4r" name="lbPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="196,258">
+      <Label title="111"/>
+    </component>
+    <richtext id="n6_dr4r" name="lbCost" xy="187,806" size="77,28" fontSize="18" color="#ffffff" autoSize="none" text="国家声望">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="187,806|187,806" default="187,806"/>
+    </richtext>
+    <component id="n7_dr4r" name="btnGet" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="252,840">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="升阶"/>
+    </component>
+    <component id="n8_dr4r" name="vres" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="278,801">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="278,801|276,801" default="276,803"/>
+    </component>
+    <text id="n9_dr4r" name="lbCondition" xy="111,769" size="421,31" fontSize="20" color="#00ff00" align="center" autoSize="none" text="升级条件：技能总等级到达20级">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <image id="n12_wuea" name="n12" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="137,817" group="n14_wuea"/>
+    <richtext id="n13_wuea" name="n13" xy="262,807" size="116,35" group="n14_wuea" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满级"/>
+    <group id="n14_wuea" name="boxMax" xy="137,807" size="366,35" advanced="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </group>
+    <loader id="n16_wuea" name="imgTitle" xy="146,163" size="50,50" url="ui://uwzc58njwuea6j"/>
+    <text id="n21_wuea" name="lbKing" xy="109,839" size="421,31" fontSize="20" color="#00ff00" align="center" autoSize="none" text="仅国王可激活和升级技能">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <list id="n10_dr4r" name="list" xy="16,322" size="609,435" layout="row" overflow="scroll" scroll="horizontal" colGap="8" defaultItem="ui://uwzc58njdr4r6d">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n19_wuea" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="621,518" pivot="0.5,0.5" anchor="true" size="55,63">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n18_wuea" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="24,518" pivot="0.5,0.5" anchor="true" size="55,63" scale="-1,1">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+  </displayList>
+</component>

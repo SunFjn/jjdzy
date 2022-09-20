@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="540,351">
+  <displayList>
+    <component id="n10_som1" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="540,351">
+      <Label title="提示"/>
+    </component>
+    <image id="n1_hfx7" name="back" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="21,93" size="498,166"/>
+    <component id="n8_c5a5" name="btnCancel" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="79,278" size="155,51">
+      <Button title="稍后认证(60)"/>
+    </component>
+    <component id="n9_c5a5" name="btnOk" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="312,278">
+      <Button title="立即认证"/>
+    </component>
+    <richtext id="n11_l5k5" name="lb" xy="38,117" size="465,35" fontSize="24" color="#ffffff" autoSize="height" text="您已累计在线1小时，请合理安排游戏时间"/>
+    <richtext id="n12_l5k5" name="lb1" xy="38,202" size="465,35" fontSize="24" color="#ffcc00" align="center" autoSize="shrink" text="您是否需要进行身份证信息认证"/>
+  </displayList>
+</component>

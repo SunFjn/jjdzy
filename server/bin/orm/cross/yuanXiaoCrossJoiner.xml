@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.activity.ativitys.yuanXiao.model.YuanXiaoCrossJoiner" tbname="yuanXiaoCrossJoiner" serverid="3">
+		<index field="hid" type="prikey"/>
+			<col field="hid" type="bigint" pf="all" comment="表唯一id 对象id"/>
+			<col field="job" type="int" pf="all" comment="对象职业"/>
+			<col field="strength" type="bigint" pf="all" comment="战力"/>
+			<col field="country" type="int" pf="all" comment="国家"/>
+			<col field="herdid" type="int" pf="all" comment="头像框"/>
+			<col field="iconid" type="int" pf="all" comment="排名"/>
+			<col field="model" type="varchar" len="600" pf="all" comment="角色显示模型"/>
+			<col field="skill" type="varchar" len="800" pf="all" comment="技能"/>
+			<col field="finalFightAttr" type="text" pf="all" comment="战斗属性详细"/>
+	        <col field="figthMonsterSpirit" type="int" pf="all" comment="出战兽灵"/>
+	        <col field="littleLeaderInfo" type="varchar" len="800" pf="all" comment="少主信息"/>
+			<col field="name" type="varchar" len="50" pf="all" comment="角色名字"/>
+			<col field="official" type="int" pf="all" comment="将衔等级 "/>
+			<col field="cailiaoMap" type="varchar" len="500" pf="all" comment="材料 1 2 3"/>
+	        <col field="belongZoneid" type="int" pf="all" comment="所属分区"/>
+	        <col field="belongPartid" type="int" pf="all" comment="跨服分区"/>
+	        <col field="godSkillLevel" type="int" pf="all" comment="神将之力技能进阶"/>
+	        <col field="lookListMap" type="text" pf="all" comment="抢夺目录"/>
+	</tb>
+</tbs>

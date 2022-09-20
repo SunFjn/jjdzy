@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,95">
+  <displayList>
+    <component id="n10_qmrj" name="viewHead" src="g30n3" fileName="组件/VSettingHead.xml" xy="0,0"/>
+    <loader id="n9_xyp2" name="imgCountry" xy="66,12" size="20,20" url="ui://jvxpx9emxyp27h" fill="scale"/>
+  </displayList>
+</component>

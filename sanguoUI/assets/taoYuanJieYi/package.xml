@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="m2fm2aiy" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="ihs70" name="三弟标签.png" path="/image/" exported="true"/>
+    <image id="ihs71" name="义盟列表.png" path="/image/" exported="true"/>
+    <image id="ihs72" name="二哥标签.png" path="/image/" exported="true"/>
+    <image id="ihs73" name="人员调动.png" path="/image/" exported="true"/>
+    <image id="ihs76" name="大哥标签.png" path="/image/" exported="true"/>
+    <image id="ihs77" name="奖励预览.png" path="/image/" exported="true"/>
+    <image id="ihs78" name="已满.png" path="/image/" exported="true"/>
+    <image id="ihs79" name="桃园BOSS.png" path="/image/" exported="true"/>
+    <image id="ihs7o" name="桃园结义标题.png" path="/image/" exported="true"/>
+    <image id="ihs7p" name="申请列表.png" path="/image/" exported="true"/>
+    <image id="ihs7q" name="申请已满.png" path="/image/" exported="true"/>
+    <component id="ihs7t" name="TaoYuanJieYi_View.xml" path="/组件/" exported="true"/>
+    <component id="ihs7u" name="Child_TYJY.xml" path="/组件/" exported="true"/>
+    <component id="ihs7w" name="TYJY_NoJoinItem.xml" path="/组件/" exported="true"/>
+    <component id="ihs7x" name="TYJY_CreatView.xml" path="/组件/" exported="true"/>
+    <image id="vfmxy" name="货币底.png" path="/image/" exported="true" scale="9grid" scale9grid="29,8,58,9"/>
+    <component id="vfmxz" name="Child_TYBoss.xml" path="/组件/" exported="true"/>
+    <component id="vfmx10" name="TYJY_BossItem.xml" path="/组件/" exported="true"/>
+    <component id="vfmx11" name="TYJY_JoinItem.xml" path="/组件/" exported="true"/>
+    <image id="vfmx12" name="帮派名字框.png" path="/image/" exported="true"/>
+    <image id="vfmx13" name="改名按钮.png" path="/image/" exported="true"/>
+    <component id="vfmx14" name="Child_TYTask.xml" path="/组件/" exported="true"/>
+    <component id="vfmx15" name="TYJY_TaskItem.xml" path="/组件/" exported="true"/>
+    <component id="vfmx16" name="TYJY_TaskItem1.xml" path="/组件/" exported="true"/>
+    <component id="vfmx17" name="TYJY_TaskItem2.xml" path="/组件/" exported="true"/>
+    <component id="vfmx18" name="TYJY_ApplyView.xml" path="/组件/" exported="true"/>
+    <component id="vfmx19" name="TYJY_ApplyItem.xml" path="/组件/" exported="true"/>
+    <component id="vfmx1a" name="TYJY_ChangeView.xml" path="/组件/" exported="true"/>
+    <component id="vfmx1b" name="TYJY_ChangeItem.xml" path="/组件/" exported="true"/>
+    <image id="f0ed1c" name="每日任务.png" path="/image/" exported="true"/>
+    <component id="gt1t1d" name="TYJY_BoxView.xml" path="/组件/" exported="true"/>
+    <component id="ozk41e" name="TYJY_BossTips.xml" path="/组件/" exported="true"/>
+    <component id="h2sm1f" name="TYJY_JoinTipsView.xml" path="/组件/" exported="true"/>
+    <component id="gf441g" name="TaoYuanBossInfo.xml" path="/组件/" exported="true"/>
+    <image id="lvrs1h" name="展开伤害榜.png" path="/image/" exported="true"/>
+    <component id="lvrs1j" name="TYBossRnk.xml" path="/组件/" exported="true"/>
+    <component id="htpq1k" name="TYTimeLimitPanel.xml" path="/组件/"/>
+    <image id="htpq1s" name="关卡连击底框.png" path="/image/" exported="true" scale="9grid" scale9grid="13,12,18,18"/>
+    <image id="htpq1t" name="内部边框.png" path="/image/" exported="true" scale="9grid" scale9grid="4,4,6,7" gridTile="31"/>
+  </resources>
+  <publish name="taoYuanJieYi" genCode="true" npot="true"/>
+</packageDescription>

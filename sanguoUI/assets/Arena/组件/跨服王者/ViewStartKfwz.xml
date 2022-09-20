@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <loader id="n0_pzsw" name="bg1" xy="0,307" size="640,260" group="n6_pzsw" url="ui://me1skowlpzsw81"/>
+    <list id="n4_pzsw" name="list1" xy="62,328" size="515,135" group="n6_pzsw" layout="row" colGap="8" defaultItem="ui://me1skowln9yf72" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n6_pzsw" name="n6" xy="0,307" size="640,260" advanced="true"/>
+    <loader id="n1_pzsw" name="bg2" xy="0,567" size="640,261" group="n7_pzsw" url="ui://me1skowlpzsw82"/>
+    <list id="n5_pzsw" name="list2" xy="62,674" size="515,135" group="n7_pzsw" layout="row" colGap="8" defaultItem="ui://me1skowln9yf72" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n7_pzsw" name="n7" xy="0,567" size="640,261" advanced="true"/>
+    <image id="n2_pzsw" name="n2" src="pzsw83" fileName="组件/跨服王者/res/db_ttz_vs.png" xy="320,568" pivot="0.5,0.5" anchor="true" size="148,192"/>
+  </displayList>
+  <transition name="mc">
+    <item time="0" type="Alpha" target="n2_pzsw" tween="true" startValue="0" endValue="1" duration="3"/>
+    <item time="0" type="Size" target="n2_pzsw" tween="true" startValue="494.84,622.15" endValue="148,192" duration="3" ease="Linear"/>
+    <item time="0" type="XY" target="n6_pzsw" value="-640,307"/>
+    <item time="0" type="XY" target="n7_pzsw" value="640,567"/>
+    <item time="3" type="XY" target="n6_pzsw" tween="true" startValue="-640,307" endValue="0,307" duration="6" ease="Cubic.Out"/>
+    <item time="3" type="XY" target="n7_pzsw" tween="true" startValue="640,567" endValue="0,567" duration="6" ease="Cubic.Out"/>
+    <item time="42" type="XY" target="n6_pzsw" tween="true" startValue="0,307" endValue="640,307" duration="6" ease="Cubic.Out"/>
+    <item time="42" type="XY" target="n7_pzsw" tween="true" startValue="0,567" endValue="-640,567" duration="6" ease="Cubic.Out"/>
+    <item time="45" type="Alpha" target="n2_pzsw" tween="true" startValue="1" endValue="0" duration="3"/>
+    <item time="45" type="Size" target="n2_pzsw" tween="true" startValue="148,192" endValue="494,622" duration="3"/>
+  </transition>
+</component>

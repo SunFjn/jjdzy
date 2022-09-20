@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossDynastyWarriors.model.DynastyWarriorsModel" tbname="dynastyWarriorsModel">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="betMap" type="text" pf="all" comment="下注信息"/>
+			<col field="pondAward" type="text" pf="all" comment="已领取奖池奖励"/>
+			<col field="weekResetTime" type="int" pf="all" comment="周重置时间"/>
+     </tb>
+</tbs>

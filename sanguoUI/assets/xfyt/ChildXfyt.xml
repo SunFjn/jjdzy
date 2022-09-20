@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://n5noipr2vpqq1">
+  <displayList>
+    <loader id="n0_vpqq" name="loaderBg" xy="0,254" size="640,667" hideByEditor="true" url="ui://n5noipr2vpqq4"/>
+    <image id="n24_vpqq" name="n24" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="19,276" size="267,27"/>
+    <richtext id="n25_vpqq" name="tfDate" xy="21,278" size="159,25" fontSize="18" color="#00ff00" text="活动剩余时间：1天"/>
+    <component id="n36_ot2y" name="btnCheck" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="500,276" size="116,32">
+      <Button title="跳过动画"/>
+    </component>
+    <component id="n2_vpqq" name="item0" src="vpqq6" fileName="com/XfytStepItem.xml" xy="251,320"/>
+    <component id="n4_vpqq" name="item1" src="vpqq6" fileName="com/XfytStepItem.xml" xy="330,365"/>
+    <component id="n5_vpqq" name="item2" src="vpqq6" fileName="com/XfytStepItem.xml" xy="409,409"/>
+    <component id="n6_vpqq" name="item3" src="vpqq6" fileName="com/XfytStepItem.xml" xy="495,457"/>
+    <component id="n7_vpqq" name="item4" src="vpqq6" fileName="com/XfytStepItem.xml" xy="506,541"/>
+    <component id="n17_vpqq" name="item14" src="vpqq6" fileName="com/XfytStepItem.xml" xy="171,364"/>
+    <component id="n16_vpqq" name="item13" src="vpqq6" fileName="com/XfytStepItem.xml" xy="86,408"/>
+    <component id="n15_vpqq" name="item12" src="vpqq6" fileName="com/XfytStepItem.xml" xy="4,456"/>
+    <component id="n14_vpqq" name="item11" src="vpqq6" fileName="com/XfytStepItem.xml" xy="7,543"/>
+    <component id="n13_vpqq" name="item10" src="vpqq6" fileName="com/XfytStepItem.xml" xy="41,612"/>
+    <component id="n12_vpqq" name="item9" src="vpqq6" fileName="com/XfytStepItem.xml" xy="91,675"/>
+    <component id="n11_vpqq" name="item8" src="vpqq6" fileName="com/XfytStepItem.xml" xy="190,721"/>
+    <component id="n8_vpqq" name="item5" src="vpqq6" fileName="com/XfytStepItem.xml" xy="483,635"/>
+    <component id="n9_vpqq" name="item6" src="vpqq6" fileName="com/XfytStepItem.xml" xy="402,680"/>
+    <component id="n10_vpqq" name="item7" src="vpqq6" fileName="com/XfytStepItem.xml" xy="321,722"/>
+    <image id="n19_vpqq" name="arrow" src="vpqq8" fileName="res/绿色箭头.png" xy="316,323" pivot="0.5,1" anchor="true"/>
+    <richtext id="n20_vpqq" name="tfCount" xy="241,808" pivot="0.5,0.5" size="156,27" fontSize="20" color="#ffffff" text="可翻牌次数：2次"/>
+    <richtext id="n21_vpqq" name="tfDes" xy="119,874" pivot="0.5,0.5" size="401,25" fontSize="18" color="#ffffff" autoClearText="true" text="活动期间每消费指定元宝数，可获得一次翻牌次数"/>
+    <component id="n22_vpqq" name="pb" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="81,842" size="478,23">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n26_vpqq" name="btnRoll" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="255,624">
+      <Button title="摇骰子" titleColor="#ffffff"/>
+    </component>
+    <component id="n33_vpqq" name="rollItem" src="vpqqf" fileName="res/RollItem.xml" xy="290,526"/>
+    <image id="n34_vpqq" name="n34" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="240,458" size="159,48"/>
+    <richtext id="n35_vpqq" name="tfRound" xy="286,465" pivot="0.5,0.5" size="66,31" touchable="false" fontSize="24" color="#ffffff" align="center" leading="0" autoClearText="true" text="第4圈"/>
+  </displayList>
+</component>

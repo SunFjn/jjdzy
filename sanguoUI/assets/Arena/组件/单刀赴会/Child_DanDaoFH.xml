@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,907" opaque="false" designImage="ui://me1skowlwnzh6i">
+  <displayList>
+    <loader id="n47_6ieu" name="qzImg" xy="17,165" size="230,406" url="ui://me1skowlpapu6e"/>
+    <image id="n23_c4lf" name="n23" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="21,586" size="600,321" hideByEditor="true"/>
+    <loader id="n16_c4lf" name="listBt" xy="103,403" size="67,71" url="ui://jvxpx9ememwp3h9" align="center" vAlign="middle" fill="scale"/>
+    <component id="n21_c4lf" name="explainBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="521,162" pivot="0.5,0.5" size="75,76">
+      <Button icon="ui://jvxpx9emw6sh3g4"/>
+    </component>
+    <component id="n26_c4lf" name="rewardBt0" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="65,630" pivot="0.5,0.5" size="87,76">
+      <Button icon="ui://jvxpx9emaro89e"/>
+    </component>
+    <component id="n27_c4lf" name="rewardBt1" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="219,630" pivot="0.5,0.5" size="87,76">
+      <Button icon="ui://jvxpx9emaro89e"/>
+    </component>
+    <component id="n28_c4lf" name="rewardBt2" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="377,630" pivot="0.5,0.5" size="87,76">
+      <Button icon="ui://jvxpx9emaro89e"/>
+    </component>
+    <component id="n29_c4lf" name="rewardBt3" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="516,630" pivot="0.5,0.5" size="87,76">
+      <Button icon="ui://jvxpx9emaro89e"/>
+    </component>
+    <image id="n40_c4lf" name="drawImg0" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="59,658" size="98,30"/>
+    <image id="n41_c4lf" name="drawImg1" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="215,661" size="98,30"/>
+    <image id="n42_c4lf" name="drawImg2" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="374,659" size="98,30"/>
+    <image id="n43_c4lf" name="drawImg3" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="511,656" size="98,30"/>
+    <loader id="n17_c4lf" name="nameImg" xy="67,294" size="131,52" touchable="false" url="ui://me1skowlpzsw7w" align="center"/>
+    <loader id="n48_6ieu" name="levelImg" xy="67,200" size="131,105" url="ui://me1skowln9yf6w" align="center" vAlign="middle" fill="scale"/>
+    <image id="n62_if1k" name="n62" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="38,863" size="133,30" group="n52_j92x"/>
+    <component id="n35_c4lf" name="buyBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="181,858" pivot="0.5,0.5" size="41,41" group="n52_j92x">
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <component id="n38_c4lf" name="checkBt" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="560,864" group="n52_j92x"/>
+    <component id="n36_c4lf" name="mathBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="465,794" pivot="0.5,0.5" group="n52_j92x">
+      <Button title="匹配对手"/>
+    </component>
+    <richtext id="n37_c4lf" name="timeLb" xy="44,811" size="330,28" group="n52_j92x" touchable="false" fontSize="18" color="#00f234" leading="0" autoSize="none" text="单刀赴会将于50:50:50后结束"/>
+    <richtext id="n34_c4lf" name="battleLb" xy="46,868" size="103,25" group="n52_j92x" fontSize="16" color="#ffffff" leading="0" text="挑战次数：10"/>
+    <richtext id="n56_j92x" name="autoLb" xy="478,810" size="107,28" group="n52_j92x" touchable="false" fontSize="18" color="#15f234" leading="0" text="自动匹配中..."/>
+    <richtext id="n39_c4lf" name="n39" xy="476,869" size="77,28" group="n52_j92x" fontSize="18" color="#ffffff" leading="0" text="自动匹配"/>
+    <group id="n52_j92x" name="startGroup" xy="38,794" size="563,105" advanced="true"/>
+    <richtext id="n25_c4lf" name="n25" xy="336,534" size="222,28" fontSize="18" color="#00f234" align="center" leading="0" autoSize="none" text="晋级时邮件发放"/>
+    <richtext id="n32_c4lf" name="n32" xy="88,749" size="517,22" touchable="false" fontSize="16" color="#ffffff" leading="0" autoSize="none" text=" 3场                         5场                               7场                        10场"/>
+    <richtext id="n15_c4lf" name="jifenLb" xy="279,173" size="125,31" touchable="false" fontSize="20" color="#f2f2f2" text="本赛季积分："/>
+    <richtext id="n18_c4lf" name="myRankLb" xy="279,210" size="164,31" touchable="false" fontSize="20" color="#f2f2f2" leading="0" text="本赛季排名：20+"/>
+    <richtext id="n49_6ieu" name="n49" xy="279,261" size="93,34" fontSize="22" color="#f4bf12" leading="0" text="晋级奖励"/>
+    <richtext id="n54_j92x" name="timeLb1" xy="105,832" size="348,28" touchable="false" fontSize="18" color="#15f234" align="center" leading="0" autoSize="none" text="单刀赴会将于00:11:35后开始"/>
+    <component id="n22_c4lf" name="battleGroupBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="507,246" pivot="0.5,0.5" size="106,47">
+      <Button title="查看战报" titleFontSize="20"/>
+    </component>
+    <component id="n19_c4lf" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="45,349" size="178,22">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n31_c4lf" name="winBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="31,715" size="576,20">
+      <ProgressBar value="5" max="10"/>
+    </component>
+    <list id="n24_c4lf" name="list" xy="281,303" size="334,211" layout="flow_hz" overflow="hidden" lineGap="5" colGap="15" lineItemCount="3" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n55_j92x" name="n55" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="161,591">
+      <Label title="每日胜利"/>
+    </component>
+    <image id="n63_r9to" name="n63" src="dlak69" fileName="image/箭头+其他/间隔线.png" pkg="jvxpx9em" xy="19,783"/>
+  </displayList>
+</component>

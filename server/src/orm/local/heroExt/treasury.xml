@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.treasury.model.Treasury" tbname="treasury">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="treasuryMap" type="text" pf="all" comment="商品列表，第一个key为宝库id,第二个key为已购买的物品id，第二个value为物品已购买次数"/>
+			<col field="weekZeroTime" type="int" pf="all" comment="周零点时间"/>
+     </tb>
+</tbs>

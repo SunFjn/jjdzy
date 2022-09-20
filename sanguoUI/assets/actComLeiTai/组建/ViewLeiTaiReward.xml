@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="590,288">
+  <displayList>
+    <component id="n0_ut4i" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="590,288">
+      <Label title="提示"/>
+    </component>
+    <richtext id="n1_ut4i" name="lb4" xy="110,237" size="370,28" fontSize="18" color="#ffffff" align="center" leading="18" autoSize="none" text="擂主奖励、协助奖励每场擂台结束后邮件发放"/>
+    <image id="n2_ut4i" name="n2" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="15,78" size="566,150" flip="vt"/>
+    <richtext id="n7_ut4i" name="lb0" xy="49,91" size="129,28" group="n10_wf0h" fontSize="18" color="#ff0000" align="center" leading="18" autoSize="none" text="擂主奖励"/>
+    <richtext id="n8_ut4i" name="lb1" xy="235,91" size="129,28" group="n10_wf0h" fontSize="18" color="#ffc344" align="center" leading="18" autoSize="none" text="协助奖励"/>
+    <richtext id="n9_ut4i" name="lb2" xy="410,91" size="129,28" group="n10_wf0h" fontSize="18" color="#ffc344" align="center" leading="18" autoSize="none" text="NPC奖励"/>
+    <list id="n11_k1xl" name="list0" xy="32,129" size="208,106" group="n10_wf0h" scale="0.8,0.8" layout="flow_hz" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <list id="n12_k1xl" name="list1" xy="221,129" size="208,106" group="n10_wf0h" scale="0.8,0.8" layout="flow_hz" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <list id="n13_k1xl" name="list2" xy="401,129" size="208,106" group="n10_wf0h" scale="0.8,0.8" layout="flow_hz" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <group id="n10_wf0h" name="n10" xy="32,91" size="577,144"/>
+  </displayList>
+</component>

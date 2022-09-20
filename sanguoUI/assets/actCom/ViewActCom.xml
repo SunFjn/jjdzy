@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <controller name="tabCtrl" exported="true" pages="" selected="-1"/>
+  <displayList>
+    <component id="n2_mvdu" name="frame" src="fsg93cj" fileName="组件/frame4.xml" pkg="jvxpx9em" xy="0,0"/>
+    <list id="n1_mvdu" name="actList" xy="24,111" size="592,156" layout="row" overflow="scroll" scroll="horizontal" scrollBar="hidden" colGap="3" defaultItem="ui://jvxpx9emr9to3he" autoItemSize="false" selectionController="tabCtrl" autoClearItems="true">
+      <relation target="" sidePair="width-width,top-top"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_mvdu" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="18,175" pivot="0.5,0.5" anchor="true" size="55,63">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <component id="n4_mvdu" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="622,175" pivot="0.5,0.5" anchor="true" size="55,63" scale="-1,1">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <loader id="n5_gzam" name="titleIcon" xy="190,69" size="260,39" url="ui://g8w9swygzm7he" align="center"/>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="89,82" extention="Button">
+  <displayList>
+    <loader id="n4_o89h" name="icon" xy="0,0" size="89,77" url="ui://p83wyb2bo89h40"/>
+    <richtext id="n2_o89h" name="title" xy="-15,54" size="122,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="999/999"/>
+    <image id="n5_flou" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="64,1" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.10"/>
+</component>

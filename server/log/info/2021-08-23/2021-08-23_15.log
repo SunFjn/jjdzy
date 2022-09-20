@@ -1,0 +1,793 @@
+2021-08-23 15:21:47.348 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:LogServer,time:201 ms
+2021-08-23 15:21:47.353 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.util.db.trans.TransInnerUtil
+2021-08-23 15:21:47.353 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:TransInnerUtil,time:2 ms
+2021-08-23 15:21:47.358 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.util.mybatis.MybatisUtil
+2021-08-23 15:21:47.364 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:MybatisUtil,time:10 ms
+2021-08-23 15:21:47.373 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.util.db.orm.AutoObjTableUtil
+2021-08-23 15:21:48.190 [main] INFO  com.teamtop.util.mybatis.MybatisUtil - get DB session but not found,init this session,zoneid:12345679
+2021-08-23 15:21:49.137 [main] INFO  com.teamtop.util.mybatis.MybatisUtil - get DB session urljdbc:mysql://127.0.0.1:3306/houtai?useUnicode=true&amp;characterEncoding=utf-8 user=root pwd=root
+2021-08-23 15:21:49.879 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:AutoObjTableUtil,time:2515 ms
+2021-08-23 15:21:49.879 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.global.GlobalCache
+2021-08-23 15:21:49.916 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:GlobalCache,time:37 ms
+2021-08-23 15:21:49.917 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.gameCommon.GameProperties
+2021-08-23 15:21:49.918 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:GameProperties,time:1 ms
+2021-08-23 15:21:49.925 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.global.GlobalTimeCache
+2021-08-23 15:21:49.926 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:GlobalTimeCache,time:4 ms
+2021-08-23 15:21:49.928 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.netty.util.nettyCache.ProtocolInvoke
+2021-08-23 15:21:50.102 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:ProtocolInvoke,time:176 ms
+2021-08-23 15:21:50.105 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.netty.util.nettyCache.MethodInvoke
+2021-08-23 15:21:50.290 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:MethodInvoke,time:188 ms
+2021-08-23 15:21:50.293 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.recharge.RechargetHttpServer
+2021-08-23 15:21:50.783 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:RechargetHttpServer,time:492 ms
+2021-08-23 15:21:50.785 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.HouTaiHttpServer
+2021-08-23 15:21:51.193 [main] INFO  com.teamtop.houtaiHttp.HouTaiHttpServer2 - houtai websocket start ok at port:0
+2021-08-23 15:21:51.194 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:HouTaiHttpServer,time:411 ms
+2021-08-23 15:21:51.197 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.HouTaiHttpCache
+2021-08-23 15:21:51.273 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:HouTaiHttpCache,time:78 ms
+2021-08-23 15:21:51.274 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.cross.connEvent.CrossConnCache
+2021-08-23 15:21:51.294 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossConnCache,time:21 ms
+2021-08-23 15:21:51.295 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.loginNotice.LoginNoticeCache
+2021-08-23 15:21:51.295 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:LoginNoticeCache,time:1 ms
+2021-08-23 15:21:51.297 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.welfareNotice.WelfareNoticeCache
+2021-08-23 15:21:51.298 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:WelfareNoticeCache,time:3 ms
+2021-08-23 15:21:51.300 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.serverSelfMotion.ServerSelfMotionCache
+2021-08-23 15:21:51.300 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:ServerSelfMotionCache,time:2 ms
+2021-08-23 15:21:51.303 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.manualOpServer.ServerInfoCache
+2021-08-23 15:21:51.326 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:ServerInfoCache,time:26 ms
+2021-08-23 15:21:51.327 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.cdkey.CDkeyCache
+2021-08-23 15:21:51.337 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CDkeyCache,time:11 ms
+2021-08-23 15:21:51.340 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.serverEvent.setServerWarn.SetServerWarnCache
+2021-08-23 15:21:51.340 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:SetServerWarnCache,time:1 ms
+2021-08-23 15:21:51.343 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.rechargeWhiteList.RechargeWhiteListCache
+2021-08-23 15:21:51.344 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:RechargeWhiteListCache,time:3 ms
+2021-08-23 15:21:51.346 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.crossActivitySwitch.CrossActivitySwitchCache
+2021-08-23 15:21:51.347 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossActivitySwitchCache,time:3 ms
+2021-08-23 15:21:51.348 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.trueNameAndAntiAddiction.TrueNameAndAntiAddictionCache
+2021-08-23 15:21:51.349 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:TrueNameAndAntiAddictionCache,time:2 ms
+2021-08-23 15:21:51.350 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache
+2021-08-23 15:21:51.362 [main] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:21:51.362 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:KuaFuFenQuCache,time:13 ms
+2021-08-23 15:21:51.364 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.cross.CrossPartCache
+2021-08-23 15:21:51.599 [main] INFO  com.teamtop.cross.CrossPartCache - crossPartCache partMap size=26
+2021-08-23 15:21:51.600 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossPartCache,time:237 ms
+2021-08-23 15:21:51.601 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.qqGift.QqGiftHttpServer
+2021-08-23 15:21:51.607 [main] INFO  com.teamtop.houtaiHttp.qqGift.QqGiftHttpServer - server start
+2021-08-23 15:21:51.607 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:QqGiftHttpServer,time:7 ms
+2021-08-23 15:21:51.612 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.exclusiveActivity.ExclusiveActivitySysCache
+2021-08-23 15:21:51.818 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:ExclusiveActivitySysCache,time:211 ms
+2021-08-23 15:21:51.819 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.ipWhiteList.IpWhiteListCache
+2021-08-23 15:21:51.820 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:IpWhiteListCache,time:2 ms
+2021-08-23 15:21:51.821 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.timingSelfMotionServer.TimingSelfMotionServerCache
+2021-08-23 15:21:51.821 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:TimingSelfMotionServerCache,time:1 ms
+2021-08-23 15:21:51.823 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.gameSystem.GameSystemCache
+2021-08-23 15:21:51.823 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:GameSystemCache,time:2 ms
+2021-08-23 15:21:51.823 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:serverStart invoke complete,total time:4677 ms
+2021-08-23 15:21:51.830 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CDkeyCache,time:7 ms
+2021-08-23 15:21:51.839 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:ActivitySysCache,time:9 ms
+2021-08-23 15:21:51.839 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:initExcel invoke complete,total time:16 ms
+2021-08-23 15:21:51.845 [main] INFO  com.teamtop.netty.server.ServerController - server id:2,platform:elbt01
+2021-08-23 15:21:51.861 [main] INFO  com.teamtop.netty.server.cross.CrossServer - run complete:netty server,total time:13 ms
+2021-08-23 15:21:51.873 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:null,time:1 ms
+2021-08-23 15:21:51.879 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:null,time:2 ms
+2021-08-23 15:21:51.881 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:null,time:1 ms
+2021-08-23 15:21:51.884 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:null,time:2 ms
+2021-08-23 15:21:51.884 [main] INFO  com.teamtop.main.RunHoutaiServer - run complete:服务器启动完毕,total time:5045 ms
+2021-08-23 15:21:58.064 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:LogServer,time:144 ms
+2021-08-23 15:21:58.067 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.util.db.trans.TransInnerUtil
+2021-08-23 15:21:58.067 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:TransInnerUtil,time:1 ms
+2021-08-23 15:21:58.069 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.util.mybatis.MybatisUtil
+2021-08-23 15:21:58.072 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:MybatisUtil,time:5 ms
+2021-08-23 15:21:58.073 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.util.db.orm.AutoObjTableUtil
+2021-08-23 15:21:58.713 [main] INFO  com.teamtop.util.mybatis.MybatisUtil - get DB session but not found,init this session,zoneid:12345678
+2021-08-23 15:21:59.573 [main] INFO  com.teamtop.util.mybatis.MybatisUtil - get DB session urljdbc:mysql://127.0.0.1:3306/central?useUnicode=true&amp;characterEncoding=utf-8 user=root pwd=root
+2021-08-23 15:22:00.331 [main] INFO  com.teamtop.util.mybatis.MybatisUtil - get DB session but not found,init this session,zoneid:1
+2021-08-23 15:22:00.679 [main] INFO  com.teamtop.util.mybatis.MybatisUtil - get DB session urljdbc:mysql://127.0.0.1:3306/el01_8001?useUnicode=true&amp;characterEncoding=utf-8 user=root pwd=root
+2021-08-23 15:22:02.698 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:AutoObjTableUtil,time:4626 ms
+2021-08-23 15:22:02.699 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.global.GlobalCache
+2021-08-23 15:22:02.717 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:GlobalCache,time:18 ms
+2021-08-23 15:22:02.717 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.gameCommon.GameProperties
+2021-08-23 15:22:02.718 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:GameProperties,time:1 ms
+2021-08-23 15:22:02.719 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.global.GlobalTimeCache
+2021-08-23 15:22:02.719 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:GlobalTimeCache,time:1 ms
+2021-08-23 15:22:02.720 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.netty.util.nettyCache.ProtocolInvoke
+2021-08-23 15:22:02.772 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:ProtocolInvoke,time:53 ms
+2021-08-23 15:22:02.772 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.netty.util.nettyCache.MethodInvoke
+2021-08-23 15:22:02.776 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:MethodInvoke,time:4 ms
+2021-08-23 15:22:02.780 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.HouTaiHttpServer
+2021-08-23 15:22:03.590 [main] INFO  com.teamtop.houtaiHttp.HouTaiHttpServer2 - houtai websocket start ok at port:0
+2021-08-23 15:22:03.593 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:HouTaiHttpServer,time:817 ms
+2021-08-23 15:22:03.595 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.HouTaiHttpCache
+2021-08-23 15:22:03.629 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:HouTaiHttpCache,time:36 ms
+2021-08-23 15:22:03.630 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.event.systemEvent.SystemEventFunction
+2021-08-23 15:22:03.671 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:SystemEventFunction,time:41 ms
+2021-08-23 15:22:03.672 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.cross.connEvent.CrossConnCache
+2021-08-23 15:22:03.685 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossConnCache,time:14 ms
+2021-08-23 15:22:03.686 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.scene.SceneFile
+2021-08-23 15:22:04.221 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:SceneFile,time:536 ms
+2021-08-23 15:22:04.224 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.event.sceneEvent.SceneEventFunction
+2021-08-23 15:22:04.236 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:SceneEventFunction,time:15 ms
+2021-08-23 15:22:04.237 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.gm.GMCache
+2021-08-23 15:22:04.250 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:GMCache,time:14 ms
+2021-08-23 15:22:04.251 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.cross.CrossPartCache
+2021-08-23 15:22:04.253 [main] INFO  com.teamtop.cross.CrossPartCache - crossPartCache partMap size=1
+2021-08-23 15:22:04.255 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossPartCache,time:5 ms
+2021-08-23 15:22:04.260 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossSoloRun.SoloRunSysCache
+2021-08-23 15:22:04.264 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:SoloRunSysCache,time:9 ms
+2021-08-23 15:22:04.268 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossBoss.CrossBossCache
+2021-08-23 15:22:04.268 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossBossCache,time:3 ms
+2021-08-23 15:22:04.272 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossKing.cross.CrossKingCrossCache
+2021-08-23 15:22:06.294 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossKingCrossCache,time:2026 ms
+2021-08-23 15:22:06.296 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossDynastyWarriors.DynastyWarriorsSysCache
+2021-08-23 15:22:06.296 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:DynastyWarriorsSysCache,time:2 ms
+2021-08-23 15:22:06.298 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossSelectKing.cross.CrossSelectKingCache
+2021-08-23 15:22:06.313 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossSelectKingCache,time:17 ms
+2021-08-23 15:22:06.316 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossHeroesList.HeroesListSysCache
+2021-08-23 15:22:06.316 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:HeroesListSysCache,time:3 ms
+2021-08-23 15:22:06.320 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossSoloRun.cross.CrossSoloRunSysCache
+2021-08-23 15:22:06.320 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossSoloRunSysCache,time:4 ms
+2021-08-23 15:22:06.324 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossFireBeacon.CrossFireBeaconSysCache
+2021-08-23 15:22:06.324 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossFireBeaconSysCache,time:3 ms
+2021-08-23 15:22:06.351 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossCommonRank.CommonRankSysCache
+2021-08-23 15:22:06.352 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CommonRankSysCache,time:28 ms
+2021-08-23 15:22:06.353 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.linglongge.LingLongCrossSysCache
+2021-08-23 15:22:06.353 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:LingLongCrossSysCache,time:1 ms
+2021-08-23 15:22:06.356 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.zcBoss.cross.ZcBossCrossCache
+2021-08-23 15:22:06.356 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:ZcBossCrossCache,time:3 ms
+2021-08-23 15:22:06.360 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.godGenSendGiftAct.cross.CrossGodGenSendGiftActCache
+2021-08-23 15:22:06.360 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossGodGenSendGiftActCache,time:4 ms
+2021-08-23 15:22:06.362 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossMine.CrossMineCrossCache
+2021-08-23 15:22:06.372 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossMineCrossCache,time:11 ms
+2021-08-23 15:22:06.374 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.eightDoorAppraiseRank.cross.CrossEightDoorAppraiseRankSysCache
+2021-08-23 15:22:06.374 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossEightDoorAppraiseRankSysCache,time:2 ms
+2021-08-23 15:22:06.376 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.shaozhuQiYuanRank.cross.CrossShaoZhuQiYuanRankSysCache
+2021-08-23 15:22:06.376 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossShaoZhuQiYuanRankSysCache,time:2 ms
+2021-08-23 15:22:06.377 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.openDaysSystem.saintMonsterWashRank.cross.CrossSaintMonsterWashRankCache
+2021-08-23 15:22:06.378 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossSaintMonsterWashRankCache,time:2 ms
+2021-08-23 15:22:06.379 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.tigerPass.cross.TigerPassCrossCache
+2021-08-23 15:22:06.386 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:TigerPassCrossCache,time:8 ms
+2021-08-23 15:22:06.388 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.rechargeRankAct.cross.CrossRechargeRankActSysCache
+2021-08-23 15:22:06.389 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossRechargeRankActSysCache,time:3 ms
+2021-08-23 15:22:06.390 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.openDaysSystem.monsterKingSearchMonster.MonsterKingSearchMonsterSysCache
+2021-08-23 15:22:06.391 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:MonsterKingSearchMonsterSysCache,time:2 ms
+2021-08-23 15:22:06.394 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.eightDoorAppraiseRankAct.cross.CrossEightDoorAppraiseRankActSysCache
+2021-08-23 15:22:06.394 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossEightDoorAppraiseRankActSysCache,time:3 ms
+2021-08-23 15:22:06.397 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.shaoZhuQiYuanRankAct.cross.CrossShaoZhuQiYuanRankActSysCache
+2021-08-23 15:22:06.398 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossShaoZhuQiYuanRankActSysCache,time:4 ms
+2021-08-23 15:22:06.402 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossZhuLu.cross.CrossZhuLuCache
+2021-08-23 15:22:06.445 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossZhuLuCache,time:47 ms
+2021-08-23 15:22:06.448 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossTrial.cross.CrossTrialSysCache
+2021-08-23 15:22:06.448 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossTrialSysCache,time:2 ms
+2021-08-23 15:22:06.452 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossTeamKing.cross.CrossTeamKingCroCache
+2021-08-23 15:22:06.453 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossTeamKingCroCache,time:5 ms
+2021-08-23 15:22:06.454 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.guardArea.cross.GuardAreaCrossCache
+2021-08-23 15:22:06.497 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:GuardAreaCrossCache,time:44 ms
+2021-08-23 15:22:06.501 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.house.yanhui.cross.YanhuiCrossCache
+2021-08-23 15:22:06.503 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:YanhuiCrossCache,time:6 ms
+2021-08-23 15:22:06.509 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.dropRedPacket.cross.CrossDropRedPacketSysCache
+2021-08-23 15:22:06.510 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossDropRedPacketSysCache,time:6 ms
+2021-08-23 15:22:06.512 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.house.yard.cross.CrossHouseCache
+2021-08-23 15:22:06.526 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossHouseCache,time:16 ms
+2021-08-23 15:22:06.528 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.yuanXiao.YuanXiaoCrossSyscache
+2021-08-23 15:22:06.533 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:YuanXiaoCrossSyscache,time:6 ms
+2021-08-23 15:22:06.534 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.redBox.cross.RedBoxCrossCache
+2021-08-23 15:22:06.539 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:RedBoxCrossCache,time:6 ms
+2021-08-23 15:22:06.542 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.arenaFight.cross.CrossArenaFightSysCache
+2021-08-23 15:22:06.542 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossArenaFightSysCache,time:2 ms
+2021-08-23 15:22:06.544 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.dengFengZaoJi.cross.DengFengZaoJiCrossCache
+2021-08-23 15:22:06.545 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:DengFengZaoJiCrossCache,time:3 ms
+2021-08-23 15:22:06.549 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossRebornFB.RebornFBCache
+2021-08-23 15:22:06.549 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:RebornFBCache,time:4 ms
+2021-08-23 15:22:06.551 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossAttackCity.cross.AttackCityCrossCache
+2021-08-23 15:22:06.562 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:AttackCityCrossCache,time:13 ms
+2021-08-23 15:22:06.562 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:serverStart invoke complete,total time:8643 ms
+2021-08-23 15:22:06.562 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossPartCache,time:0 ms
+2021-08-23 15:22:06.567 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossFireBeaconSysCache,time:5 ms
+2021-08-23 15:22:06.576 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossTeamFubenCache,time:8 ms
+2021-08-23 15:22:06.733 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossSJMiJingCache,time:157 ms
+2021-08-23 15:22:06.733 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CommonRankSysCache,time:0 ms
+2021-08-23 15:22:06.742 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:ConsumeRankSysCache,time:8 ms
+2021-08-23 15:22:06.746 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:ActiveGetGiftSysCache,time:4 ms
+2021-08-23 15:22:06.752 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossWenDingTianXiaCrossCache,time:6 ms
+2021-08-23 15:22:06.755 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:RuneGiftSysCache,time:3 ms
+2021-08-23 15:22:06.763 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:ZcBossCrossCache,time:8 ms
+2021-08-23 15:22:06.767 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossRechargeRankActSysCache,time:3 ms
+2021-08-23 15:22:06.769 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:MonsterKingSearchMonsterSysCache,time:2 ms
+2021-08-23 15:22:06.769 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossEightDoorAppraiseRankActSysCache,time:0 ms
+2021-08-23 15:22:06.769 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossShaoZhuQiYuanRankActSysCache,time:0 ms
+2021-08-23 15:22:06.774 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossTrialSysCache,time:5 ms
+2021-08-23 15:22:06.775 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:YanhuiCrossCache,time:0 ms
+2021-08-23 15:22:06.784 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossDropRedPacketSysCache,time:9 ms
+2021-08-23 15:22:06.787 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossHouseCache,time:3 ms
+2021-08-23 15:22:06.792 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossArenaFightSysCache,time:5 ms
+2021-08-23 15:22:06.796 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:RebornFBCache,time:4 ms
+2021-08-23 15:22:06.796 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:initExcel invoke complete,total time:234 ms
+2021-08-23 15:22:06.799 [main] INFO  com.teamtop.netty.server.ServerController - server id:3,platform:elbt01
+2021-08-23 15:22:06.817 [main] INFO  com.teamtop.netty.server.cross.CrossServer - run complete:netty server,total time:16 ms
+2021-08-23 15:22:06.844 [main] INFO  com.teamtop.netty.websocket.WebSocketSSLServer - websocket start ok at port:6001
+2021-08-23 15:22:06.855 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:null,time:0 ms
+2021-08-23 15:22:06.860 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:烽火狼烟 征收,time:2 ms
+2021-08-23 15:22:06.863 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:跨服组队副本,time:2 ms
+2021-08-23 15:22:06.866 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:升阶秘境,time:2 ms
+2021-08-23 15:22:06.875 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:问鼎天下定时奖励,time:9 ms
+2021-08-23 15:22:06.877 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:问鼎天下玩家复活,time:0 ms
+2021-08-23 15:22:06.883 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:跨服战场boss,time:3 ms
+2021-08-23 15:22:06.897 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:跨服矿藏,time:11 ms
+2021-08-23 15:22:06.914 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:群雄逐鹿,time:16 ms
+2021-08-23 15:22:06.916 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:粮草抢夺,time:2 ms
+2021-08-23 15:22:06.918 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:镇守四方,time:2 ms
+2021-08-23 15:22:06.920 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:跨服王者,time:1 ms
+2021-08-23 15:22:06.925 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:府邸金库,time:3 ms
+2021-08-23 15:22:06.928 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:宴会,time:2 ms
+2021-08-23 15:22:06.930 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:攻城拔寨,time:1 ms
+2021-08-23 15:22:06.934 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:新战斗模式,time:2 ms
+2021-08-23 15:22:06.938 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:轮回副本,time:2 ms
+2021-08-23 15:22:06.938 [main] INFO  com.teamtop.main.RunCentralServer - run complete:服务器启动完毕,total time:10698 ms
+2021-08-23 15:22:14.553 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:LogServer,time:134 ms
+2021-08-23 15:22:14.556 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.util.db.trans.TransInnerUtil
+2021-08-23 15:22:14.556 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:TransInnerUtil,time:2 ms
+2021-08-23 15:22:14.559 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.util.mybatis.MybatisUtil
+2021-08-23 15:22:14.563 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:MybatisUtil,time:7 ms
+2021-08-23 15:22:14.565 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.util.db.orm.AutoObjTableUtil
+2021-08-23 15:22:15.398 [main] INFO  com.teamtop.util.mybatis.MybatisUtil - get DB session but not found,init this session,zoneid:1
+2021-08-23 15:22:16.325 [main] INFO  com.teamtop.util.mybatis.MybatisUtil - get DB session urljdbc:mysql://127.0.0.1:3306/el01_8001?useUnicode=true&amp;characterEncoding=utf-8 user=root pwd=root
+2021-08-23 15:22:18.884 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:AutoObjTableUtil,time:4321 ms
+2021-08-23 15:22:18.884 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.global.GlobalCache
+2021-08-23 15:22:18.905 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:GlobalCache,time:21 ms
+2021-08-23 15:22:18.905 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.gameCommon.GameProperties
+2021-08-23 15:22:18.906 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:GameProperties,time:1 ms
+2021-08-23 15:22:18.907 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.global.GlobalTimeCache
+2021-08-23 15:22:18.907 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:GlobalTimeCache,time:1 ms
+2021-08-23 15:22:18.908 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.netty.util.nettyCache.ProtocolInvoke
+2021-08-23 15:22:18.960 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:ProtocolInvoke,time:53 ms
+2021-08-23 15:22:18.962 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.forbid.ForbidFunction
+2021-08-23 15:22:18.963 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:ForbidFunction,time:3 ms
+2021-08-23 15:22:18.965 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.scene.SceneFile
+2021-08-23 15:22:19.452 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:SceneFile,time:488 ms
+2021-08-23 15:22:19.455 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.event.sceneEvent.SceneEventFunction
+2021-08-23 15:22:19.480 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:SceneEventFunction,time:28 ms
+2021-08-23 15:22:19.483 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.hero.HeroDataSaver
+2021-08-23 15:22:19.488 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:HeroDataSaver,time:8 ms
+2021-08-23 15:22:19.493 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.hero.FightCalcFunction
+2021-08-23 15:22:19.531 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:FightCalcFunction,time:42 ms
+2021-08-23 15:22:19.532 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.recharge.RechargetHttpServer
+2021-08-23 15:22:20.001 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:RechargetHttpServer,time:470 ms
+2021-08-23 15:22:20.003 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.cross.CrossPartCache
+2021-08-23 15:22:20.005 [main] INFO  com.teamtop.cross.CrossPartCache - crossPartCache partMap size=26
+2021-08-23 15:22:20.005 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossPartCache,time:3 ms
+2021-08-23 15:22:20.007 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.recharge.RechargeEventCache
+2021-08-23 15:22:20.026 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:RechargeEventCache,time:21 ms
+2021-08-23 15:22:20.027 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.consume.ConsumeEventCache
+2021-08-23 15:22:20.039 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:ConsumeEventCache,time:13 ms
+2021-08-23 15:22:20.040 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.HouTaiHttpServer
+2021-08-23 15:22:20.433 [main] INFO  com.teamtop.houtaiHttp.HouTaiHttpServer2 - houtai websocket start ok at port:0
+2021-08-23 15:22:20.436 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:HouTaiHttpServer,time:397 ms
+2021-08-23 15:22:20.439 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.HouTaiHttpCache
+2021-08-23 15:22:20.509 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:HouTaiHttpCache,time:72 ms
+2021-08-23 15:22:20.511 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.notice.NoticeCache
+2021-08-23 15:22:20.513 [main] INFO  com.teamtop.houtaiHttp.events.notice.NoticeCache - startNoticeServer ....
+2021-08-23 15:22:20.513 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:NoticeCache,time:4 ms
+2021-08-23 15:22:20.515 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.serverMaintain.ServerMaintainCache
+2021-08-23 15:22:20.516 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:ServerMaintainCache,time:1 ms
+2021-08-23 15:22:20.516 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.rechargeWhiteList.RechargeWhiteListCache
+2021-08-23 15:22:20.516 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:RechargeWhiteListCache,time:0 ms
+2021-08-23 15:22:20.518 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.welfareNotice.WelfareNoticeCache
+2021-08-23 15:22:20.518 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:WelfareNoticeCache,time:1 ms
+2021-08-23 15:22:20.519 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.trueNameAndAntiAddiction.TrueNameAndAntiAddictionCache
+2021-08-23 15:22:20.520 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:TrueNameAndAntiAddictionCache,time:0 ms
+2021-08-23 15:22:20.522 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.redeploy.platformInfo.PlatformInfoCache
+2021-08-23 15:22:20.529 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:PlatformInfoCache,time:9 ms
+2021-08-23 15:22:20.531 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.BlockWord.BlockWordCache
+2021-08-23 15:22:20.557 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:BlockWordCache,time:27 ms
+2021-08-23 15:22:20.565 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.openDaysSystem.monsterKingSearchMonster.MonsterKingSearchMonsterSysCache
+2021-08-23 15:22:20.566 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:MonsterKingSearchMonsterSysCache,time:8 ms
+2021-08-23 15:22:20.590 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossCommonRank.CommonRankSysCache
+2021-08-23 15:22:20.590 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CommonRankSysCache,time:24 ms
+2021-08-23 15:22:20.591 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.houtaiHttp.events.ipWhiteList.IpWhiteListCache
+2021-08-23 15:22:20.591 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:IpWhiteListCache,time:1 ms
+2021-08-23 15:22:20.593 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.gm.GMCache
+2021-08-23 15:22:20.598 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:GM,time:6 ms
+2021-08-23 15:22:20.598 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.hero.HeroCache
+2021-08-23 15:22:20.599 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:角色,time:1 ms
+2021-08-23 15:22:20.601 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.guanqia.GuanqiaCache
+2021-08-23 15:22:20.640 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:关卡,time:41 ms
+2021-08-23 15:22:20.645 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.bag.BagCache
+2021-08-23 15:22:20.645 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:背包,time:3 ms
+2021-08-23 15:22:20.645 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.global.GlobalCache
+2021-08-23 15:22:20.655 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:全局通用,time:10 ms
+2021-08-23 15:22:20.657 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.equip.EquipCache
+2021-08-23 15:22:20.657 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:装备,time:2 ms
+2021-08-23 15:22:20.659 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.mail.MailCache
+2021-08-23 15:22:20.659 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:邮件,time:2 ms
+2021-08-23 15:22:20.659 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.event.backstage.BackstageSystemEvent
+2021-08-23 15:22:20.676 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:后台,time:17 ms
+2021-08-23 15:22:20.678 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.friends.FriendCache
+2021-08-23 15:22:20.678 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:好友,time:2 ms
+2021-08-23 15:22:20.680 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.battleVixens.BattleVixensCache
+2021-08-23 15:22:20.691 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:一骑当千,time:13 ms
+2021-08-23 15:22:20.693 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.godOfWar.model.GodOfWarCache
+2021-08-23 15:22:21.007 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:三国战神,time:316 ms
+2021-08-23 15:22:21.013 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.country.fightNorthAndSouth.FightNSSysCache
+2021-08-23 15:22:21.023 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:南征北战,time:15 ms
+2021-08-23 15:22:21.027 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossSoloRun.SoloRunSysCache
+2021-08-23 15:22:21.031 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:单刀赴会,time:8 ms
+2021-08-23 15:22:21.032 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossDynastyWarriors.DynastyWarriorsSysCache
+2021-08-23 15:22:21.036 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:三国无双,time:5 ms
+2021-08-23 15:22:21.038 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossHeroesList.HeroesListSysCache
+2021-08-23 15:22:21.038 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:群英榜,time:2 ms
+2021-08-23 15:22:21.045 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.openDaysSystem.OpenDaysSystemSysCache
+2021-08-23 15:22:21.217 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:开服天数控制系统,time:178 ms
+2021-08-23 15:22:21.219 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ActivitySysCache
+2021-08-23 15:22:21.513 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:活动,time:296 ms
+2021-08-23 15:22:21.514 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.lvBuRising.LvBuRisingCache
+2021-08-23 15:22:21.514 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:吕布降临,time:1 ms
+2021-08-23 15:22:21.516 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.hiddentreasure.HiddenTreasureCache
+2021-08-23 15:22:21.516 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:藏宝阁,time:2 ms
+2021-08-23 15:22:21.519 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossFireBeacon.CrossFireBeaconSysCache
+2021-08-23 15:22:21.519 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:烽火狼烟,time:3 ms
+2021-08-23 15:22:21.522 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.openDaysSystem.saintMonsterTreasure.SaintMonsterTreasureSysCache
+2021-08-23 15:22:21.523 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:圣兽降临-圣兽寻宝,time:3 ms
+2021-08-23 15:22:21.527 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.saintMonsterTreasureSystem.SaintMonsterTreasureSystemSysCache
+2021-08-23 15:22:21.528 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:圣兽寻宝（常驻）,time:5 ms
+2021-08-23 15:22:21.530 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.rankNew.RankingCache
+2021-08-23 15:22:21.597 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:排行榜,time:69 ms
+2021-08-23 15:22:21.600 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.peacockFloor.PeacockFloorSysCache
+2021-08-23 15:22:21.600 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:铜雀台,time:3 ms
+2021-08-23 15:22:21.601 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.boss.qmboss.QMBossCache
+2021-08-23 15:22:21.607 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:全民boss,time:7 ms
+2021-08-23 15:22:21.611 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.boss.monsterGod.MonsterGodSysCache
+2021-08-23 15:22:21.613 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:魔神吕布,time:6 ms
+2021-08-23 15:22:21.615 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.country.CountrySysCache
+2021-08-23 15:22:21.628 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:国家,time:15 ms
+2021-08-23 15:22:21.631 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.longZhongDui.LongZhongDuiSysCache
+2021-08-23 15:22:21.639 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:隆中对,time:11 ms
+2021-08-23 15:22:21.640 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.treasury.TreasuryCache
+2021-08-23 15:22:21.640 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:宝库,time:1 ms
+2021-08-23 15:22:21.645 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossSelectKing.local.CrossSelectKingLocalCache
+2021-08-23 15:22:21.645 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:枭雄争霸,time:5 ms
+2021-08-23 15:22:21.648 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.sevenWuShenRank.SevenWuShenRankCache
+2021-08-23 15:22:21.648 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:七日武圣榜,time:3 ms
+2021-08-23 15:22:21.650 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.sevenHappy.SevenHappyCache
+2021-08-23 15:22:21.679 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:开服狂欢,time:31 ms
+2021-08-23 15:22:21.682 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.linglongge.LingLongGeSysCache
+2021-08-23 15:22:21.683 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:玲珑阁,time:4 ms
+2021-08-23 15:22:21.686 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.overTurntable.OverTurntableSysCache
+2021-08-23 15:22:21.688 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:超值转盘返利,time:4 ms
+2021-08-23 15:22:21.689 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.sevenGroupBuy.SevenGroupBuyCache
+2021-08-23 15:22:21.690 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:7日首冲团购,time:2 ms
+2021-08-23 15:22:21.694 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.boss.countryBoss.CountryBossSysCache
+2021-08-23 15:22:21.703 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:国家boss,time:13 ms
+2021-08-23 15:22:21.704 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.directUp.DirectUPCache
+2021-08-23 15:22:21.715 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:直升一阶丹,time:12 ms
+2021-08-23 15:22:21.717 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.eightDoor.EightDoorSysCache
+2021-08-23 15:22:21.719 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:八门金锁,time:4 ms
+2021-08-23 15:22:21.722 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.zcBoss.ZcBossLocalCache
+2021-08-23 15:22:21.730 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:boss战场,time:11 ms
+2021-08-23 15:22:21.732 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.godGenSendGift.GodGenSendGiftSysCache
+2021-08-23 15:22:21.732 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:神将送礼(系统),time:2 ms
+2021-08-23 15:22:21.735 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.godGenSendGiftAct.GodGenSendGiftActCache
+2021-08-23 15:22:21.736 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:神将送礼(活动),time:3 ms
+2021-08-23 15:22:21.739 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.country.newkingship.NewKingShipCache
+2021-08-23 15:22:21.739 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:新王位之争,time:2 ms
+2021-08-23 15:22:21.741 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.rewardBack.RewardBackCache
+2021-08-23 15:22:21.758 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:奖励找回,time:19 ms
+2021-08-23 15:22:21.760 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.openDaysSystem.shaozhuSevenDayTarget.ShaoZhuSevenDayTargetCache
+2021-08-23 15:22:21.768 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:少主活动-七日目标,time:10 ms
+2021-08-23 15:22:21.772 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.openDaysSystem.otherSevenDayLogin.OtherSevenDayLoginCache
+2021-08-23 15:22:21.776 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:少主活动-登录红包,time:6 ms
+2021-08-23 15:22:21.778 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.countrySkill.CountrySkillCache
+2021-08-23 15:22:21.779 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:国家技能,time:3 ms
+2021-08-23 15:22:21.784 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.openDaysSystem.otherSevenGroupBuy.OtherSevenGroupBuyCache
+2021-08-23 15:22:21.784 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:首冲团购(8~28),time:5 ms
+2021-08-23 15:22:21.786 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.openDaysSystem.saintMonsterWashRank.SaintMonsterWashRankCache
+2021-08-23 15:22:21.786 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:圣兽洗练（15-21）,time:1 ms
+2021-08-23 15:22:21.789 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.exclusiveActivity.ExclusiveActivitySysCache
+2021-08-23 15:22:21.811 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:专属活动,time:25 ms
+2021-08-23 15:22:21.813 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.exclusiveActivity.exOneRecharge.ExActOneRechargeCache
+2021-08-23 15:22:21.813 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:专属活动-单笔充值,time:2 ms
+2021-08-23 15:22:21.815 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.exclusiveActivity.exclusiveShop.ExclusiveShopSysCache
+2021-08-23 15:22:21.815 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:专属活动-专属商店,time:2 ms
+2021-08-23 15:22:21.818 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.exclusiveActivity.exTotalRecharge.ExActTotalRechargeCache
+2021-08-23 15:22:21.818 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:专属活动-累计充值,time:2 ms
+2021-08-23 15:22:21.821 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.exclusiveActivity.exOneRechargeBack.ExActOneRechargeBackSysCache
+2021-08-23 15:22:21.821 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:专属活动-单笔返利,time:2 ms
+2021-08-23 15:22:21.822 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.exclusiveActivity.exOverCallbackYBSe.ExActOverCallbackYBSeCache
+2021-08-23 15:22:21.823 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:专属活动-元宝返利,time:2 ms
+2021-08-23 15:22:21.826 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.huoShaoChiBi.HuoShaoChiBiSysCache
+2021-08-23 15:22:21.826 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:火烧赤壁,time:3 ms
+2021-08-23 15:22:21.831 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.boss.specialAnimalBoss.SpecialAnimalBossSysCache
+2021-08-23 15:22:21.833 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:异兽BOSS,time:7 ms
+2021-08-23 15:22:21.837 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.caoCaoCome.CaoCaoComeSysCache
+2021-08-23 15:22:21.967 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:曹操来袭,time:134 ms
+2021-08-23 15:22:21.973 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.flashSale.FlashSaleCache
+2021-08-23 15:22:21.974 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:限时抢购(活动),time:7 ms
+2021-08-23 15:22:21.978 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.rechargeRankAct.RechargeRankActSysCache
+2021-08-23 15:22:21.978 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:充值排行(活动),time:3 ms
+2021-08-23 15:22:21.980 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.eightDoorAppraiseRankAct.EightDoorAppraiseRankActSysCache
+2021-08-23 15:22:21.981 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:鉴定排名(活动),time:3 ms
+2021-08-23 15:22:21.983 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.shaoZhuQiYuanRankAct.ShaoZhuQiYuanRankActSysCache
+2021-08-23 15:22:21.983 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:祈愿排名(活动),time:2 ms
+2021-08-23 15:22:21.986 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.hefuGodGift.HeFuGodGiftSysCache
+2021-08-23 15:22:21.986 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:合服-大神送礼,time:3 ms
+2021-08-23 15:22:21.989 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.hefuZhangFeiBoss.HeFuZhangFeiBossSysCache
+2021-08-23 15:22:21.989 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:合服-张飞醉酒,time:3 ms
+2021-08-23 15:22:21.993 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.battleGoods.cache.BattleGoodsLocalCache
+2021-08-23 15:22:21.993 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:粮草抢夺,time:3 ms
+2021-08-23 15:22:21.997 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.taoyuanSworn.TaoyuanSwornSysCache
+2021-08-23 15:22:22.007 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:桃园结义,time:14 ms
+2021-08-23 15:22:22.008 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.activity.ativitys.serverConsumeAct.ServerConsumeActSysCache
+2021-08-23 15:22:22.008 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:新活动-全服消费,time:1 ms
+2021-08-23 15:22:22.011 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.crossTeamKing.local.CrossTeamKingLocalCache
+2021-08-23 15:22:22.011 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:跨服王者,time:3 ms
+2021-08-23 15:22:22.012 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.system.dengFengZaoJi.DengFengZaoJiCache
+2021-08-23 15:22:22.012 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:登峰造极,time:1 ms
+2021-08-23 15:22:22.012 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:serverStart invoke complete,total time:7594 ms
+2021-08-23 15:22:22.012 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:ForbidFunction,time:0 ms
+2021-08-23 15:22:22.012 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CrossPartCache,time:0 ms
+2021-08-23 15:22:22.016 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:GiftBaodiCache,time:4 ms
+2021-08-23 15:22:22.018 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:MonsterKingSearchMonsterSysCache,time:2 ms
+2021-08-23 15:22:22.072 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:CommonRankSysCache,time:53 ms
+2021-08-23 15:22:22.072 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:角色,time:0 ms
+2021-08-23 15:22:22.615 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:关卡,time:543 ms
+2021-08-23 15:22:22.784 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:装备,time:168 ms
+2021-08-23 15:22:22.825 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:称号,time:40 ms
+2021-08-23 15:22:22.833 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:熔炼,time:8 ms
+2021-08-23 15:22:22.939 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:技能,time:105 ms
+2021-08-23 15:22:23.136 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:兽灵,time:196 ms
+2021-08-23 15:22:23.198 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:图鉴,time:61 ms
+2021-08-23 15:22:23.237 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:星图,time:39 ms
+2021-08-23 15:22:23.253 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:将魂,time:16 ms
+2021-08-23 15:22:23.480 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:商城,time:226 ms
+2021-08-23 15:22:23.484 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:个人Boss,time:4 ms
+2021-08-23 15:22:23.490 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:一骑当千,time:5 ms
+2021-08-23 15:22:23.492 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:南征北战,time:2 ms
+2021-08-23 15:22:23.498 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:晋升,time:6 ms
+2021-08-23 15:22:23.503 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:群英榜,time:4 ms
+2021-08-23 15:22:23.506 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:开服天数控制系统,time:3 ms
+2021-08-23 15:22:23.509 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:登录豪礼(8~28),time:3 ms
+2021-08-23 15:22:23.514 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:新单笔充值(8~28),time:5 ms
+2021-08-23 15:22:23.517 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:累计充值(8~28),time:3 ms
+2021-08-23 15:22:23.520 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:新单日累充(8~28),time:3 ms
+2021-08-23 15:22:23.524 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:新血战到底(8~28),time:4 ms
+2021-08-23 15:22:23.529 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:折扣商店(8~28),time:5 ms
+2021-08-23 15:22:23.534 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:超值元宝返利(8~28),time:4 ms
+2021-08-23 15:22:23.537 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:超级点将(8~28),time:3 ms
+2021-08-23 15:22:23.540 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:连续消费(8~28),time:3 ms
+2021-08-23 15:22:23.554 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:活动,time:14 ms
+2021-08-23 15:22:23.558 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:登录豪礼活动,time:4 ms
+2021-08-23 15:22:23.562 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:登录豪礼活动,time:4 ms
+2021-08-23 15:22:23.570 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:藏宝阁,time:7 ms
+2021-08-23 15:22:23.572 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:烽火狼烟,time:2 ms
+2021-08-23 15:22:23.574 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:符文收集,time:2 ms
+2021-08-23 15:22:23.577 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:圣兽降临-圣兽目标,time:3 ms
+2021-08-23 15:22:23.580 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:圣兽降临-每日活跃,time:3 ms
+2021-08-23 15:22:23.584 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:圣兽降临-圣兽寻宝,time:4 ms
+2021-08-23 15:22:23.592 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:圣兽降临-圣兽转盘,time:8 ms
+2021-08-23 15:22:23.603 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:圣兽寻宝（常驻）,time:11 ms
+2021-08-23 15:22:23.645 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:跨服试炼,time:41 ms
+2021-08-23 15:22:23.652 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:异宝,time:6 ms
+2021-08-23 15:22:23.732 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:铜雀台,time:80 ms
+2021-08-23 15:22:23.734 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:全民boss,time:2 ms
+2021-08-23 15:22:23.743 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:过关斩将,time:9 ms
+2021-08-23 15:22:23.750 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:宝库,time:6 ms
+2021-08-23 15:22:23.754 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:签到,time:4 ms
+2021-08-23 15:22:23.761 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:七日武圣榜,time:4 ms
+2021-08-23 15:22:23.762 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:开服狂欢,time:0 ms
+2021-08-23 15:22:23.762 [main] INFO  com.teamtop.system.linglongge.LingLongGeSysCache - LingLongGeSysCache initExcel start
+2021-08-23 15:22:23.777 [main] INFO  com.teamtop.system.linglongge.LingLongGeSysCache - LingLongGeSysCache initExcel end tableId=13
+2021-08-23 15:22:23.777 [main] INFO  com.teamtop.system.linglongge.LingLongGeSysCache - LingLongGeSysCache initExcel llgScoreTableMap =4
+2021-08-23 15:22:23.777 [main] INFO  com.teamtop.system.linglongge.LingLongGeSysCache - LingLongGeSysCache initExcel llgRankTableMap =4
+2021-08-23 15:22:23.777 [main] INFO  com.teamtop.system.linglongge.LingLongGeSysCache - LingLongGeSysCache initExcel rankZoneidTableMap =0
+2021-08-23 15:22:23.777 [main] INFO  com.teamtop.system.linglongge.LingLongGeSysCache - LingLongGeSysCache initExcel genAndHigtAwardMap =2
+2021-08-23 15:22:23.777 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:玲珑阁,time:15 ms
+2021-08-23 15:22:23.794 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:活动预告,time:17 ms
+2021-08-23 15:22:23.800 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:累计充值(活动),time:6 ms
+2021-08-23 15:22:23.805 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:超值材料返利(活动),time:5 ms
+2021-08-23 15:22:23.810 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:超值材料返利,time:5 ms
+2021-08-23 15:22:23.815 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:超值元宝返利(活动),time:4 ms
+2021-08-23 15:22:23.819 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:超值元宝返利,time:4 ms
+2021-08-23 15:22:23.822 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:超值转盘返利,time:3 ms
+2021-08-23 15:22:23.826 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:单日充值,time:4 ms
+2021-08-23 15:22:23.832 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:超级点将(活动),time:6 ms
+2021-08-23 15:22:23.840 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:折扣商店,time:8 ms
+2021-08-23 15:22:23.871 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:7日首冲团购,time:31 ms
+2021-08-23 15:22:23.882 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:7日单日累充,time:11 ms
+2021-08-23 15:22:23.886 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:新单日累充,time:3 ms
+2021-08-23 15:22:23.890 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:7日新单笔累充,time:4 ms
+2021-08-23 15:22:23.895 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:新单笔累充,time:4 ms
+2021-08-23 15:22:23.896 [main] INFO  com.teamtop.system.dailyDirectBuy.DailyDirectBuyCache - DailyDirectBuyCache clear finish
+2021-08-23 15:22:23.904 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:每日直购(开服七天系统),time:9 ms
+2021-08-23 15:22:23.910 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:每日直购(活动),time:6 ms
+2021-08-23 15:22:23.953 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:升阶秘境,time:43 ms
+2021-08-23 15:22:23.956 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:宝物现世,time:3 ms
+2021-08-23 15:22:23.964 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:三国盛典-豪礼转盘,time:8 ms
+2021-08-23 15:22:23.966 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:三国庆典-消费排行,time:1 ms
+2021-08-23 15:22:23.967 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:三国庆典-活跃有礼,time:1 ms
+2021-08-23 15:22:23.970 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:三国庆典-登录有奖,time:3 ms
+2021-08-23 15:22:23.973 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:三国庆典-单笔返利,time:3 ms
+2021-08-23 15:22:23.977 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:三国庆典-累充返利,time:4 ms
+2021-08-23 15:22:23.981 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:闯关有礼,time:4 ms
+2021-08-23 15:22:23.982 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:超级点将(系统),time:1 ms
+2021-08-23 15:22:23.986 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:八阵图,time:4 ms
+2021-08-23 15:22:23.989 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:升阶商店,time:3 ms
+2021-08-23 15:22:23.995 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:诸将演武,time:6 ms
+2021-08-23 15:22:24.000 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:神将送礼(系统),time:3 ms
+2021-08-23 15:22:24.006 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:神将送礼(活动),time:6 ms
+2021-08-23 15:22:24.010 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:奖励找回,time:4 ms
+2021-08-23 15:22:24.017 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:少主,time:7 ms
+2021-08-23 15:22:24.020 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:少主活动-七日目标,time:3 ms
+2021-08-23 15:22:24.027 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:少主活动-单笔返利,time:7 ms
+2021-08-23 15:22:24.028 [main] INFO  com.teamtop.system.linglongge.LingLongGeSysCache - ShaoZhuQiYuanSysCache initExcel start
+2021-08-23 15:22:24.035 [main] INFO  com.teamtop.system.shaozhuqiyuan.ShaoZhuQiYuanSysCache - ShaoZhuQiYuanSysCache initExcel end tableId=13
+2021-08-23 15:22:24.035 [main] INFO  com.teamtop.system.shaozhuqiyuan.ShaoZhuQiYuanSysCache - ShaoZhuQiYuanSysCache initExcel szqyScoreTableMap =4
+2021-08-23 15:22:24.035 [main] INFO  com.teamtop.system.shaozhuqiyuan.ShaoZhuQiYuanSysCache - ShaoZhuQiYuanSysCache initExcel genAwardList =1
+2021-08-23 15:22:24.035 [main] INFO  com.teamtop.system.shaozhuqiyuan.ShaoZhuQiYuanSysCache - ShaoZhuQiYuanSysCache initExcel higtAwardMap =10
+2021-08-23 15:22:24.035 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:少主祈愿,time:8 ms
+2021-08-23 15:22:24.039 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:国家技能,time:4 ms
+2021-08-23 15:22:24.045 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:每日直购(8~28),time:6 ms
+2021-08-23 15:22:24.048 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:首冲团购(8~28),time:3 ms
+2021-08-23 15:22:24.050 [main] INFO  com.teamtop.system.linglongge.LingLongGeSysCache - ReincarnationSysCache initExcel start
+2021-08-23 15:22:24.051 [main] INFO  com.teamtop.system.reincarnation.ReincarnationSysCache - ShaoZhuQiYuanSysCache initExcel trueLevelMap =11
+2021-08-23 15:22:24.051 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:六道轮回,time:2 ms
+2021-08-23 15:22:24.055 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:八门金锁-鉴定排名,time:4 ms
+2021-08-23 15:22:24.060 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:少年英主-祈愿排名,time:5 ms
+2021-08-23 15:22:24.070 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:专属神兵,time:10 ms
+2021-08-23 15:22:24.072 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:专属活动,time:2 ms
+2021-08-23 15:22:24.072 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:专属活动-单笔充值,time:0 ms
+2021-08-23 15:22:24.072 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:专属活动-专属商店,time:0 ms
+2021-08-23 15:22:24.072 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:专属活动-累计充值,time:0 ms
+2021-08-23 15:22:24.072 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:专属活动-单笔返利,time:0 ms
+2021-08-23 15:22:24.072 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:专属活动-元宝返利,time:0 ms
+2021-08-23 15:22:24.076 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:三国庆典-庆典商城,time:4 ms
+2021-08-23 15:22:24.077 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:年兽闹春,time:1 ms
+2021-08-23 15:22:24.078 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:擂台比武,time:1 ms
+2021-08-23 15:22:24.082 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:天降豪礼,time:4 ms
+2021-08-23 15:22:24.085 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:至尊秘宝,time:3 ms
+2021-08-23 15:22:24.091 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:超级弹珠,time:6 ms
+2021-08-23 15:22:24.095 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:刮刮乐,time:4 ms
+2021-08-23 15:22:24.099 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:许田围猎,time:4 ms
+2021-08-23 15:22:24.103 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:少主护送,time:4 ms
+2021-08-23 15:22:24.115 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:火烧赤壁,time:12 ms
+2021-08-23 15:22:24.119 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:微信分享,time:4 ms
+2021-08-23 15:22:24.137 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:六出祁山,time:18 ms
+2021-08-23 15:22:24.171 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:异兽录,time:34 ms
+2021-08-23 15:22:24.180 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:单笔返利(活动),time:8 ms
+2021-08-23 15:22:24.184 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:充值转盘(活动),time:4 ms
+2021-08-23 15:22:24.192 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:消费转盘(活动),time:8 ms
+2021-08-23 15:22:24.198 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:消费翻牌(活动),time:6 ms
+2021-08-23 15:22:24.203 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:万兽之王-累计充值,time:5 ms
+2021-08-23 15:22:24.211 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:万兽之王-每日活跃,time:8 ms
+2021-08-23 15:22:24.215 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:万兽之王-登录有奖,time:4 ms
+2021-08-23 15:22:24.233 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:限时抢购(活动),time:17 ms
+2021-08-23 15:22:24.238 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:充值排行(活动),time:3 ms
+2021-08-23 15:22:24.250 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:限定武将(活动),time:11 ms
+2021-08-23 15:22:24.255 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:万兽之王-连充豪礼,time:4 ms
+2021-08-23 15:22:24.264 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:万兽之王-异兽送礼,time:8 ms
+2021-08-23 15:22:24.270 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:仙山寻兽,time:6 ms
+2021-08-23 15:22:24.277 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:三国战令,time:7 ms
+2021-08-23 15:22:24.284 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:修炼天赋,time:7 ms
+2021-08-23 15:22:24.284 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:鉴定排名(活动),time:0 ms
+2021-08-23 15:22:24.284 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:祈愿排名(活动),time:0 ms
+2021-08-23 15:22:24.292 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:消费砸蛋(活动),time:7 ms
+2021-08-23 15:22:24.295 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:龙飞凤舞-修炼天赋,time:3 ms
+2021-08-23 15:22:24.300 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:龙飞凤舞-天赋目标,time:4 ms
+2021-08-23 15:22:24.310 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:神将现世(活动),time:10 ms
+2021-08-23 15:22:24.314 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:三英战吕布,time:4 ms
+2021-08-23 15:22:24.321 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:出谋策划,time:7 ms
+2021-08-23 15:22:24.327 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:打气球(活动),time:6 ms
+2021-08-23 15:22:24.336 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:消费摇骰子(活动),time:9 ms
+2021-08-23 15:22:24.340 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:运筹帷幄-锦囊妙计,time:4 ms
+2021-08-23 15:22:24.349 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:运筹帷幄_奇策有礼,time:9 ms
+2021-08-23 15:22:24.352 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:新活动-连续充值,time:3 ms
+2021-08-23 15:22:24.361 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:许愿树(活动),time:9 ms
+2021-08-23 15:22:24.366 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:许愿树(系统),time:5 ms
+2021-08-23 15:22:24.374 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:新活动-主题消费,time:7 ms
+2021-08-23 15:22:24.379 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:成就,time:4 ms
+2021-08-23 15:22:24.389 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:三国战令(活动),time:10 ms
+2021-08-23 15:22:24.396 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:新活动-幸运翻牌,time:7 ms
+2021-08-23 15:22:24.396 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:限时礼包,time:0 ms
+2021-08-23 15:22:24.400 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:新活动-全服消费,time:4 ms
+2021-08-23 15:22:24.405 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:成就树(活动),time:5 ms
+2021-08-23 15:22:24.415 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:轮回-天命,time:10 ms
+2021-08-23 15:22:24.418 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:累计返利(活动),time:3 ms
+2021-08-23 15:22:24.422 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:新活动-双12商城,time:4 ms
+2021-08-23 15:22:24.429 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:新活动-节日商城,time:7 ms
+2021-08-23 15:22:24.433 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:财神送礼(活动),time:3 ms
+2021-08-23 15:22:24.438 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:跨服王者,time:5 ms
+2021-08-23 15:22:24.448 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:对对联(活动),time:10 ms
+2021-08-23 15:22:24.453 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:幸运扭蛋(活动),time:5 ms
+2021-08-23 15:22:24.456 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:府邸商店任务目标,time:3 ms
+2021-08-23 15:22:24.464 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:新活动-天降红包,time:7 ms
+2021-08-23 15:22:24.468 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:轮回副本,time:4 ms
+2021-08-23 15:22:24.473 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:对对联(活动),time:5 ms
+2021-08-23 15:22:24.481 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:武庙十哲(活动),time:8 ms
+2021-08-23 15:22:24.496 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:幸运福签(活动),time:15 ms
+2021-08-23 15:22:24.507 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:犒赏三军(系统),time:11 ms
+2021-08-23 15:22:24.508 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:犒赏三军(活动),time:1 ms
+2021-08-23 15:22:24.512 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:超值礼包,time:4 ms
+2021-08-23 15:22:24.512 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - run complete:initExcel invoke complete,total time:2500 ms
+2021-08-23 15:22:24.513 [main] INFO  com.teamtop.netty.server.ServerController - server id:1,platform:elbt01
+2021-08-23 15:22:24.533 [HoutaiNetty-8-1] INFO  com.teamtop.netty.handlers.CrossConnIODecoder - 与中央服 /127.0.0.1:11001 连接成功.channel active,local address:/127.0.0.1:4972
+2021-08-23 15:22:24.537 [nioEventLoopGroup-11-1] INFO  com.teamtop.netty.handlers.CrossIODecoder - channel active,remote address:/127.0.0.1:4972,local address:/127.0.0.1:11001
+2021-08-23 15:22:24.718 [OpTaskExecutorService-thread-12] INFO  com.teamtop.cross.CrossCache - 与子服【1】服连接成功。CrossCache.bindChannelZoneid.bind zoneid and channel,remote address:/127.0.0.1:4972 zoneid:1 id:127.0.0.1
+2021-08-23 15:22:24.718 [OpTaskExecutorService-thread-12] INFO  com.teamtop.cross.CrossIO - CrossCache.getMainServerSet() zoneid=1
+2021-08-23 15:22:24.718 [OpTaskExecutorService-thread-12] INFO  com.teamtop.cross.CrossIO - CrossCache.getMainServerSet() size=1
+2021-08-23 15:22:24.784 [crossChannelEx - 1] INFO  com.teamtop.cross.CrossIO - 与【跨服-后台】连接成功。CrossIO.sendToAsPort.remoteAddress:/127.0.0.1:11001
+2021-08-23 15:22:24.785 [crossChannelEx - 1] INFO  com.teamtop.houtaiHttp.events.serverMaintain.ServerMaintainIO - SetServerMaintain.state:1 content:
+2021-08-23 15:22:27.540 [crossChannelEx - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuIO - KuaFuFenQuIO getKuaFufenQuInfo zoneid=1, pf=elbt01
+2021-08-23 15:22:27.544 [main] INFO  com.teamtop.netty.server.server2.Client_2 - 跨服连接ip端口 getKuaFufenQuInfoAndNewClient centralIndex=13001, centralIp=127.0.0.1, centralPort=12001
+2021-08-23 15:22:27.550 [HoutaiNetty-9-1] INFO  com.teamtop.netty.handlers.CrossConnIODecoder - 与中央服 /127.0.0.1:12001 连接成功.channel active,local address:/127.0.0.1:4981
+2021-08-23 15:22:27.560 [nioEventLoopGroup-7-1] INFO  com.teamtop.netty.handlers.CrossIODecoder - channel active,remote address:/127.0.0.1:4981,local address:/127.0.0.1:12001
+2021-08-23 15:22:27.568 [main] INFO  com.teamtop.netty.websocket.WebSocketSSLServer - websocket start ok at port:8001
+2021-08-23 15:22:27.577 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:指定定时任务,time:0 ms
+2021-08-23 15:22:27.582 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:全民boss,time:3 ms
+2021-08-23 15:22:27.583 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:国家boss,time:1 ms
+2021-08-23 15:22:27.585 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:快速红点更新,time:1 ms
+2021-08-23 15:22:27.587 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:称号,time:1 ms
+2021-08-23 15:22:27.588 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:背包监控,time:1 ms
+2021-08-23 15:22:27.591 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:发邮件队列,time:2 ms
+2021-08-23 15:22:27.593 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:时间GM,time:2 ms
+2021-08-23 15:22:27.594 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:新战斗模式,time:1 ms
+2021-08-23 15:22:27.596 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:战场boss,time:1 ms
+2021-08-23 15:22:27.598 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:关卡协助,time:1 ms
+2021-08-23 15:22:27.600 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:少主护送,time:2 ms
+2021-08-23 15:22:27.603 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:六出祁山,time:3 ms
+2021-08-23 15:22:27.605 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:曹操来袭,time:1 ms
+2021-08-23 15:22:27.606 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:虎牢关,time:1 ms
+2021-08-23 15:22:27.608 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:合服-张飞醉酒,time:1 ms
+2021-08-23 15:22:27.609 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:三英战吕布,time:1 ms
+2021-08-23 15:22:27.610 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:许田围猎,time:1 ms
+2021-08-23 15:22:27.614 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - init complete:桃园boss,time:3 ms
+2021-08-23 15:22:27.614 [main] INFO  com.teamtop.util.exector.schedule.ScheduleUtil - run complete:serverStart invoke complete,total time:37 ms
+2021-08-23 15:22:27.614 [main] INFO  com.teamtop.main.RunLocalServer - run complete:服务器启动完毕,total time:14516 ms
+2021-08-23 15:22:27.708 [OpTaskExecutorService-thread-12] INFO  com.teamtop.cross.CrossCache - 与子服【1】服连接成功。CrossCache.bindChannelZoneid.bind zoneid and channel,remote address:/127.0.0.1:4981 zoneid:1 id:127.0.0.1
+2021-08-23 15:22:27.708 [OpTaskExecutorService-thread-12] INFO  com.teamtop.cross.CrossIO - CrossCache.getMainServerSet() zoneid=1
+2021-08-23 15:22:27.708 [OpTaskExecutorService-thread-12] INFO  com.teamtop.cross.CrossIO - CrossCache.getMainServerSet() size=1
+2021-08-23 15:22:27.742 [crossChannelEx - 1] INFO  com.teamtop.cross.CrossIO - 与【跨服-玩法】连接成功。CrossIO.sendToAsPort.remoteAddress:/127.0.0.1:12001
+2021-08-23 15:22:27.764 [OpTaskExecutorService-thread-12] INFO  c.t.system.activity.ativitys.godGenSendGiftAct.cross.CrossGodGenSendGiftActCL - CrossGodGenSendGiftActCL connEvent:[id: 0x5682cbb7, /127.0.0.1:4981 => /127.0.0.1:12001]
+2021-08-23 15:22:27.810 [OpTaskExecutorService-thread-12] INFO  c.teamtop.system.activity.ativitys.rechargeRankAct.cross.CrossRechargeRankActCL - CrossRechargeRankActCL connEvent:[id: 0x5682cbb7, /127.0.0.1:4981 => /127.0.0.1:12001]
+2021-08-23 15:22:27.811 [OpTaskExecutorService-thread-13] INFO  com.teamtop.system.eightDoorAppraiseRank.cross.CrossEightDoorAppraiseRankCL$1 - CrossEightDoorAppraiseRankCL:[id: 0x5682cbb7, /127.0.0.1:4981 => /127.0.0.1:12001]
+2021-08-23 15:22:27.812 [OpTaskExecutorService-thread-11] INFO  com.teamtop.system.crossBoss.CrossBossIO - CRLGlobalData :1:1,
+2021-08-23 15:22:27.814 [OpTaskExecutorService-thread-12] INFO  c.t.s.a.ativitys.eightDoorAppraiseRankAct.cross.CrossEightDoorAppraiseRankActCL - CrossEightDoorAppraiseRankActCL connEvent:[id: 0x5682cbb7, /127.0.0.1:4981 => /127.0.0.1:12001]
+2021-08-23 15:22:27.814 [OpTaskExecutorService-thread-13] INFO  com.teamtop.system.shaozhuQiYuanRank.cross.CrossShaoZhuQiYuanRankCL$1 - CrossShaoZhuQiYuanRankCL:[id: 0x5682cbb7, /127.0.0.1:4981 => /127.0.0.1:12001]
+2021-08-23 15:22:27.817 [OpTaskExecutorService-thread-12] INFO  c.t.s.activity.ativitys.shaoZhuQiYuanRankAct.cross.CrossShaoZhuQiYuanRankActCL - CrossShaoZhuQiYuanRankActCL connEvent:[id: 0x5682cbb7, /127.0.0.1:4981 => /127.0.0.1:12001]
+2021-08-23 15:22:27.836 [OpTaskExecutorService-thread-12] INFO  com.teamtop.system.crossCommonRank.cross.CrossCommonRankCL - CrossCommonRankCL connEvent:[id: 0x5682cbb7, /127.0.0.1:4981 => /127.0.0.1:12001]
+2021-08-23 15:22:27.846 [OpTaskExecutorService-thread-12] INFO  com.teamtop.system.activity.ativitys.dropRedPacket.cross.CrossDropRedPacketCL - CrossDropRedPacketCL connEvent:[id: 0x5682cbb7, /127.0.0.1:4981 => /127.0.0.1:12001]
+2021-08-23 15:22:27.885 [crossChannelEx - 2] INFO  com.teamtop.system.crossBoss.CrossBossIO - localReceiveData :{{240003:{{3,0,{!},{!},null}},240002:{{2,0,{!},{!},null}},240001:{{1,0,{!},{!},null}},240005:{{5,0,{!},{!},null}},240004:{{4,0,{!},{!},null}}},{1}}
+2021-08-23 15:22:27.918 [crossChannelEx - 2] INFO  com.teamtop.system.crossTeamKing.CrossTeamKingIO - LRCrank success 
+2021-08-23 15:22:27.923 [crossChannelEx - 4] INFO  com.teamtop.system.redBox.RedBoxCrossIO - LRCRedBoxMapByChannel success num:0
+2021-08-23 15:22:28.175 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.local.CrossTeamKingLocal - CrossTeamKing leftNum hid 100010000000000210
+2021-08-23 15:22:28.175 [crossChannelEx - 1] INFO  com.teamtop.system.crossTeamKing.local.CrossTeamKingLocal - CrossTeamKing jf hid 10001000000000020
+2021-08-23 15:22:28.260 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.local.CrossTeamKingLocal - CrossTeamKing leftNum hid 100010000000000210
+2021-08-23 15:22:28.261 [crossChannelEx - 3] INFO  com.teamtop.system.crossTeamKing.local.CrossTeamKingLocal - CrossTeamKing jf hid 10001000000000020
+2021-08-23 15:22:28.660 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:275004 UnitBossId:-1 sceneSysId:380040 sceneUnitId:1629703362
+2021-08-23 15:22:28.661 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:275005 UnitBossId:-2 sceneSysId:380040 sceneUnitId:1629703363
+2021-08-23 15:22:28.661 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274001 UnitBossId:-3 sceneSysId:380021 sceneUnitId:1629703339
+2021-08-23 15:22:28.661 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274002 UnitBossId:-4 sceneSysId:380022 sceneUnitId:1629703340
+2021-08-23 15:22:28.661 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274003 UnitBossId:-5 sceneSysId:380023 sceneUnitId:1629703341
+2021-08-23 15:22:28.661 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274004 UnitBossId:-6 sceneSysId:380024 sceneUnitId:1629703342
+2021-08-23 15:22:28.661 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274005 UnitBossId:-7 sceneSysId:380025 sceneUnitId:1629703343
+2021-08-23 15:22:28.662 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274006 UnitBossId:-8 sceneSysId:380026 sceneUnitId:1629703344
+2021-08-23 15:22:28.662 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274007 UnitBossId:-9 sceneSysId:380027 sceneUnitId:1629703345
+2021-08-23 15:22:28.662 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274008 UnitBossId:-10 sceneSysId:380028 sceneUnitId:1629703346
+2021-08-23 15:22:28.662 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274009 UnitBossId:-11 sceneSysId:380029 sceneUnitId:1629703347
+2021-08-23 15:22:28.662 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274010 UnitBossId:-12 sceneSysId:380030 sceneUnitId:1629703348
+2021-08-23 15:22:28.662 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274011 UnitBossId:-13 sceneSysId:380031 sceneUnitId:1629703349
+2021-08-23 15:22:28.662 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274012 UnitBossId:-14 sceneSysId:380032 sceneUnitId:1629703350
+2021-08-23 15:22:28.662 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274013 UnitBossId:-15 sceneSysId:380033 sceneUnitId:1629703351
+2021-08-23 15:22:28.662 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274014 UnitBossId:-16 sceneSysId:380034 sceneUnitId:1629703352
+2021-08-23 15:22:28.662 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274015 UnitBossId:-17 sceneSysId:380035 sceneUnitId:1629703353
+2021-08-23 15:22:28.663 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274016 UnitBossId:-18 sceneSysId:380036 sceneUnitId:1629703354
+2021-08-23 15:22:28.663 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274017 UnitBossId:-19 sceneSysId:380037 sceneUnitId:1629703355
+2021-08-23 15:22:28.663 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274018 UnitBossId:-20 sceneSysId:380038 sceneUnitId:1629703356
+2021-08-23 15:22:28.663 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274019 UnitBossId:-21 sceneSysId:380039 sceneUnitId:1629703357
+2021-08-23 15:22:28.663 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:274020 UnitBossId:-22 sceneSysId:380040 sceneUnitId:1629703358
+2021-08-23 15:22:28.670 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:275001 UnitBossId:-23 sceneSysId:380040 sceneUnitId:1629703359
+2021-08-23 15:22:28.671 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:275002 UnitBossId:-24 sceneSysId:380040 sceneUnitId:1629703360
+2021-08-23 15:22:28.671 [任务线程 - 5] INFO  com.teamtop.system.zcBoss.ZcBossFunction - bossId:275003 UnitBossId:-25 sceneSysId:380040 sceneUnitId:1629703361
+2021-08-23 15:22:29.214 [crossChannelEx - 3] INFO  java.lang.Class - (ID:1000100000000002),Name:涯丶灵珊,rec:init equipData:EquipData [hid=1000100000000002, equipAlllist={1000100000000003,1000100000000002,910021,1,0}{1000100000000002,1000100000000002,910124,1,0}{1000100000000001,1000100000000002,910127,1,0}{1000100000000007,1000100000000002,910020,1,0}{1000100000000006,1000100000000002,910026,1,0}{1000100000000005,1000100000000002,910025,1,0}{1000100000000004,1000100000000002,910022,1,0}]
+2021-08-23 15:22:29.216 [crossChannelEx - 1] INFO  java.lang.Class - (ID:1000100000000002),Name:涯丶灵珊,rec:init equipData:EquipData [hid=1000100000000002, equipAlllist={1000100000000003,1000100000000002,910021,1,0}{1000100000000002,1000100000000002,910124,1,0}{1000100000000001,1000100000000002,910127,1,0}{1000100000000007,1000100000000002,910020,1,0}{1000100000000006,1000100000000002,910026,1,0}{1000100000000005,1000100000000002,910025,1,0}{1000100000000004,1000100000000002,910022,1,0}]
+2021-08-23 15:22:29.642 [crossChannelEx - 1] INFO  com.teamtop.system.dengFengZaoJi.DengFengZaoJiFunction - DengFengZaoJiEvent upload
+2021-08-23 15:22:29.711 [crossChannelEx - 3] INFO  com.teamtop.system.dengFengZaoJi.cross.DengFengZaoJiCrossIO - DengFengZaoJiCrossIO.crossUpdata zoneid:1time:1629648000上传成功：0服  时间:1629703349711  size:1
+2021-08-23 15:22:51.887 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:23:51.925 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:24:51.941 [任务线程 - 12] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:25:51.951 [任务线程 - 13] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:26:51.973 [任务线程 - 16] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:27:51.987 [任务线程 - 9] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:28:51.999 [任务线程 - 10] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:29:52.015 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:30:46.538 [nioEventLoopGroup-11-1] INFO  com.teamtop.netty.websocket.WebSocketSSLServer - init channel,ch:[id: 0xf9a0da7e, /127.0.0.1:10725 => /127.0.0.1:8001]
+2021-08-23 15:30:46.835 [nioEventLoopGroup-11-1] INFO  com.teamtop.netty.websocket.MyWebSocketServerHandler - /127.0.0.1:10725,client channelActive
+2021-08-23 15:30:46.836 [nioEventLoopGroup-11-1] INFO  com.teamtop.netty.websocket.SslHandler - not an SSL/TLS record,[id: 0xf9a0da7e, /127.0.0.1:10725 => /127.0.0.1:8001]
+2021-08-23 15:30:47.039 [nioEventLoopGroup-11-1] INFO  com.teamtop.system.hero.HeroManager - Login begin.Important.account:dds,platform:null,zoneid:1 pfopenid:undefined pfcode:test01 usesys: app_custom:,data:{"account":"dds","zoneid":"1","pf":"test01","openid":"undefined","pfcode":"test01"}
+2021-08-23 15:30:47.113 [nioEventLoopGroup-11-1] INFO  com.teamtop.system.hero.HeroManager - Login end hid==0.create hero.Important.hid:0
+2021-08-23 15:30:49.987 [nioEventLoopGroup-11-1] INFO  com.teamtop.system.hero.HeroManager - (ID:1000100000000003),Name:才貌丨袅袅.S1,rec:bindHeroChannel done
+2021-08-23 15:30:50.005 [crossChannelEx - 2] INFO  com.teamtop.houtaiHttp.events.adMark.adMarkCrossIO - adMarkCrossIO getAdMark openid=dds
+2021-08-23 15:30:50.005 [crossChannelEx - 2] INFO  com.teamtop.houtaiHttp.events.adMark.adMarkCrossIO - adMarkCrossIO getAdMark type=-1
+2021-08-23 15:30:50.008 [crossChannelEx - 3] INFO  com.teamtop.houtaiHttp.events.adMark.adMarkCrossIO - adMarkCrossIO checkAdMark type=-1
+2021-08-23 15:30:50.833 [OpTaskExecutorService-thread-6] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:init equipData:EquipData [hid=1000100000000003, equipAlllist=]
+2021-08-23 15:30:50.963 [OpTaskExecutorService-thread-6] INFO  com.teamtop.system.crossTeamKing.local.CrossTeamKingLocal - CrossTeamKing leftNum hid 100010000000000310
+2021-08-23 15:30:51.148 [OpTaskExecutorService-thread-6] INFO  com.teamtop.system.event.useAddEvent.UseAddCache - UseAddCache init
+2021-08-23 15:30:51.399 [OpTaskExecutorService-thread-6] INFO  com.teamtop.system.hero.HeroEvent - IosChargeGuanka :0
+2021-08-23 15:30:51.418 [OpTaskExecutorService-thread-6] INFO  com.teamtop.houtaiHttp.events.whiteList.WhiteListIO - checkWhiteList openid=dds
+2021-08-23 15:30:51.419 [OpTaskExecutorService-thread-6] INFO  com.teamtop.system.chat.ChatEvent - account Ismarket0
+2021-08-23 15:30:51.735 [OpTaskExecutorService-thread-6] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:OpenDaysSystemFunction sendOpenSystem, uid=18
+2021-08-23 15:30:51.735 [OpTaskExecutorService-thread-6] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:OpenDaysSystemFunction sendOpenSystem, uid=70
+2021-08-23 15:30:51.735 [OpTaskExecutorService-thread-6] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:OpenDaysSystemFunction sendOpenSystem, uid=71
+2021-08-23 15:30:51.775 [OpTaskExecutorService-thread-6] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:没有修改  actindex:1 actid:5006 Periods:0 startTime:2018-07-12_00-00-00s endTime:2023-11-18_23-59-59s
+2021-08-23 15:30:51.775 [OpTaskExecutorService-thread-6] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:最终时间前段收到  actindex:1 actid:5006 Periods:0 startTime:2018-07-12_00-00-00s endTime:2023-11-18_23-59-59s
+2021-08-23 15:30:51.793 [OpTaskExecutorService-thread-6] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:CrossFireBeaconFunction resetData
+2021-08-23 15:30:51.828 [crossChannelEx - 4] INFO  com.teamtop.system.antiAddictionSystem.AntiAddictionIO - AntiAddictionIO 7777, openid=dds, startOnlineTime=1629703851, lastLogoutTime=1629703851, onlineTime=0, leftTime=0, size=0, currentTime=1629703851
+2021-08-23 15:30:51.996 [OpTaskExecutorService-thread-6] INFO  com.teamtop.system.activity.ativitys.godGenSendGiftAct.GodGenSendGiftActEvent - ActivitySender.sendCmd_2256 1615824000
+2021-08-23 15:30:52.040 [任务线程 - 5] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:30:59.064 [OpTaskExecutorService-thread-6] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:TitleFunction start add titleId=109
+2021-08-23 15:30:59.072 [OpTaskExecutorService-thread-6] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:TitleFunction add titleId=109
+2021-08-23 15:31:52.055 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:32:52.075 [任务线程 - 9] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:33:52.084 [任务线程 - 13] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:34:52.105 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:35:52.124 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:36:19.490 [heroDataSaver - 4] INFO  com.teamtop.system.hero.HeroDao - Update DB begin.Important.hid:1000100000000003 type:1
+2021-08-23 15:36:19.515 [heroDataSaver - 4] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:logout equipData:EquipData [hid=1000100000000003, equipAlllist={1000100000000011,1000100000000003,910123,1,0}{1000100000000010,1000100000000003,910124,1,0}{1000100000000009,1000100000000003,910123,1,0}{1000100000000008,1000100000000003,910120,1,0}{1000100000000003,1000100000000003,910128,1,0}{1000100000000002,1000100000000003,910122,1,0}{1000100000000001,1000100000000003,910127,1,0}{1000100000000007,1000100000000003,910129,1,0}{1000100000000006,1000100000000003,910124,1,0}{1000100000000005,1000100000000003,910121,1,0}{1000100000000004,1000100000000003,910121,1,0}]
+2021-08-23 15:36:20.844 [heroDataSaver - 4] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:{5006:{"actId":5006,"baoXiangList":[0,0,0],"hid":1000100000000003,"id":1000100000000002,"indexId":1,"isGetted":0,"periods":0,"recentlyRechargeTime":0,"rechargeDay":0}}
+2021-08-23 15:36:20.858 [heroDataSaver - 4] INFO  com.teamtop.system.hero.HeroDao - Update DB end.Important.hid:1000100000000003,才貌丨袅袅.S1
+2021-08-23 15:36:52.138 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:37:52.148 [任务线程 - 9] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:38:52.162 [任务线程 - 1] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:39:52.171 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:40:52.192 [任务线程 - 12] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:41:49.499 [heroDataSaver - 2] INFO  com.teamtop.system.hero.HeroDao - Update DB begin.Important.hid:1000100000000003 type:1
+2021-08-23 15:41:49.508 [heroDataSaver - 2] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:logout equipData:EquipData [hid=1000100000000003, equipAlllist={1000100000000011,1000100000000003,910123,1,0}{1000100000000010,1000100000000003,910124,1,0}{1000100000000009,1000100000000003,910123,1,0}{1000100000000008,1000100000000003,910120,1,0}{1000100000000003,1000100000000003,910128,1,0}{1000100000000002,1000100000000003,910122,1,0}{1000100000000001,1000100000000003,910127,1,0}{1000100000000007,1000100000000003,910129,1,0}{1000100000000006,1000100000000003,910124,1,0}{1000100000000005,1000100000000003,910121,1,0}{1000100000000004,1000100000000003,910121,1,0}]
+2021-08-23 15:41:50.165 [heroDataSaver - 2] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:{5006:{"actId":5006,"baoXiangList":[0,0,0],"hid":1000100000000003,"id":1000100000000002,"indexId":1,"isGetted":0,"periods":0,"recentlyRechargeTime":0,"rechargeDay":0}}
+2021-08-23 15:41:50.176 [heroDataSaver - 2] INFO  com.teamtop.system.hero.HeroDao - Update DB end.Important.hid:1000100000000003,才貌丨袅袅.S1
+2021-08-23 15:41:52.204 [任务线程 - 4] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:42:52.227 [任务线程 - 13] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:43:52.246 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:44:52.259 [任务线程 - 10] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:45:52.275 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:46:52.294 [任务线程 - 7] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:47:19.498 [heroDataSaver - 2] INFO  com.teamtop.system.hero.HeroDao - Update DB begin.Important.hid:1000100000000003 type:1
+2021-08-23 15:47:19.533 [heroDataSaver - 2] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:logout equipData:EquipData [hid=1000100000000003, equipAlllist={1000100000000011,1000100000000003,910123,1,0}{1000100000000010,1000100000000003,910124,1,0}{1000100000000009,1000100000000003,910123,1,0}{1000100000000008,1000100000000003,910120,1,0}{1000100000000003,1000100000000003,910128,1,0}{1000100000000002,1000100000000003,910122,1,0}{1000100000000001,1000100000000003,910127,1,0}{1000100000000007,1000100000000003,910129,1,0}{1000100000000006,1000100000000003,910124,1,0}{1000100000000005,1000100000000003,910121,1,0}{1000100000000004,1000100000000003,910121,1,0}]
+2021-08-23 15:47:20.185 [heroDataSaver - 2] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:{5006:{"actId":5006,"baoXiangList":[0,0,0],"hid":1000100000000003,"id":1000100000000002,"indexId":1,"isGetted":0,"periods":0,"recentlyRechargeTime":0,"rechargeDay":0}}
+2021-08-23 15:47:20.196 [heroDataSaver - 2] INFO  com.teamtop.system.hero.HeroDao - Update DB end.Important.hid:1000100000000003,才貌丨袅袅.S1
+2021-08-23 15:47:52.313 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:48:52.321 [任务线程 - 12] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:49:52.337 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:50:00.425 [任务线程 - 8] INFO  com.teamtop.system.crossBoss.cross.CrossBossCrossEvent - CrossBossCrossEvent.fixTime cmdId:0 time:2021-08-23_15-50-00s
+2021-08-23 15:50:00.426 [任务线程 - 8] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossBoss.cross.CrossBossCrossEvent@1436a7ab,now:1629705000,dayTime:1550
+2021-08-23 15:50:52.345 [任务线程 - 10] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:51:52.365 [任务线程 - 5] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:52:49.498 [heroDataSaver - 2] INFO  com.teamtop.system.hero.HeroDao - Update DB begin.Important.hid:1000100000000003 type:1
+2021-08-23 15:52:49.534 [heroDataSaver - 2] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:logout equipData:EquipData [hid=1000100000000003, equipAlllist={1000100000000011,1000100000000003,910123,1,0}{1000100000000010,1000100000000003,910124,1,0}{1000100000000009,1000100000000003,910123,1,0}{1000100000000008,1000100000000003,910120,1,0}{1000100000000003,1000100000000003,910128,1,0}{1000100000000002,1000100000000003,910122,1,0}{1000100000000001,1000100000000003,910127,1,0}{1000100000000007,1000100000000003,910129,1,0}{1000100000000006,1000100000000003,910124,1,0}{1000100000000005,1000100000000003,910121,1,0}{1000100000000004,1000100000000003,910121,1,0}]
+2021-08-23 15:52:50.097 [heroDataSaver - 2] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:{5006:{"actId":5006,"baoXiangList":[0,0,0],"hid":1000100000000003,"id":1000100000000002,"indexId":1,"isGetted":0,"periods":0,"recentlyRechargeTime":0,"rechargeDay":0}}
+2021-08-23 15:52:50.104 [heroDataSaver - 2] INFO  com.teamtop.system.hero.HeroDao - Update DB end.Important.hid:1000100000000003,才貌丨袅袅.S1
+2021-08-23 15:52:52.385 [任务线程 - 16] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:53:52.414 [任务线程 - 5] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:54:04.957 [nioEventLoopGroup-11-1] INFO  com.teamtop.netty.websocket.MyWebSocketServerHandler - MyWebSocket.remove channel.hid:1000100000000003.hero online time:1395
+2021-08-23 15:54:04.957 [nioEventLoopGroup-11-1] INFO  com.teamtop.system.hero.HeroFunction - Logout start.Important.hid:1000100000000003
+2021-08-23 15:54:04.957 [nioEventLoopGroup-11-1] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:logout equipData:EquipData [hid=1000100000000003, equipAlllist={1000100000000011,1000100000000003,910123,1,0}{1000100000000010,1000100000000003,910124,1,0}{1000100000000009,1000100000000003,910123,1,0}{1000100000000008,1000100000000003,910120,1,0}{1000100000000013,1000100000000003,910127,1,0}{1000100000000012,1000100000000003,910126,1,0}{1000100000000003,1000100000000003,910128,1,0}{1000100000000002,1000100000000003,910122,1,0}{1000100000000001,1000100000000003,910127,1,0}{1000100000000007,1000100000000003,910129,1,0}{1000100000000006,1000100000000003,910124,1,0}{1000100000000005,1000100000000003,910121,1,0}{1000100000000004,1000100000000003,910121,1,0}]
+2021-08-23 15:54:04.998 [nioEventLoopGroup-11-1] INFO  com.teamtop.system.hero.HeroFunction - Logout end.Important.hid:1000100000000003
+2021-08-23 15:54:05.493 [heroDataSaver - 2] INFO  com.teamtop.system.hero.HeroDao - Update DB begin.Important.hid:1000100000000003 type:2
+2021-08-23 15:54:05.503 [heroDataSaver - 2] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:logout equipData:EquipData [hid=1000100000000003, equipAlllist={1000100000000011,1000100000000003,910123,1,0}{1000100000000010,1000100000000003,910124,1,0}{1000100000000009,1000100000000003,910123,1,0}{1000100000000008,1000100000000003,910120,1,0}{1000100000000013,1000100000000003,910127,1,0}{1000100000000012,1000100000000003,910126,1,0}{1000100000000003,1000100000000003,910128,1,0}{1000100000000002,1000100000000003,910122,1,0}{1000100000000001,1000100000000003,910127,1,0}{1000100000000007,1000100000000003,910129,1,0}{1000100000000006,1000100000000003,910124,1,0}{1000100000000005,1000100000000003,910121,1,0}{1000100000000004,1000100000000003,910121,1,0}]
+2021-08-23 15:54:06.068 [heroDataSaver - 2] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:{5006:{"actId":5006,"baoXiangList":[0,0,0],"hid":1000100000000003,"id":1000100000000002,"indexId":1,"isGetted":0,"periods":0,"recentlyRechargeTime":0,"rechargeDay":0}}
+2021-08-23 15:54:06.075 [heroDataSaver - 2] INFO  com.teamtop.system.hero.HeroDao - Update DB end.Important.hid:1000100000000003,才貌丨袅袅.S1
+2021-08-23 15:54:19.489 [heroDataSaver - 2] INFO  com.teamtop.system.hero.HeroDataSaver - (ID:1000100000000003),Name:才貌丨袅袅.S1,rec:clear hero succ
+2021-08-23 15:54:19.490 [heroDataSaver - 2] INFO  com.teamtop.system.hero.HeroDao - Update DB begin.Important.hid:1000100000000003 type:3
+2021-08-23 15:54:19.518 [heroDataSaver - 2] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:logout equipData:EquipData [hid=1000100000000003, equipAlllist={1000100000000011,1000100000000003,910123,1,0}{1000100000000010,1000100000000003,910124,1,0}{1000100000000009,1000100000000003,910123,1,0}{1000100000000008,1000100000000003,910120,1,0}{1000100000000013,1000100000000003,910127,1,0}{1000100000000012,1000100000000003,910126,1,0}{1000100000000003,1000100000000003,910128,1,0}{1000100000000002,1000100000000003,910122,1,0}{1000100000000001,1000100000000003,910127,1,0}{1000100000000007,1000100000000003,910129,1,0}{1000100000000006,1000100000000003,910124,1,0}{1000100000000005,1000100000000003,910121,1,0}{1000100000000004,1000100000000003,910121,1,0}]
+2021-08-23 15:54:20.003 [heroDataSaver - 2] INFO  java.lang.Class - (ID:1000100000000003),Name:才貌丨袅袅,rec:{5006:{"actId":5006,"baoXiangList":[0,0,0],"hid":1000100000000003,"id":1000100000000002,"indexId":1,"isGetted":0,"periods":0,"recentlyRechargeTime":0,"rechargeDay":0}}
+2021-08-23 15:54:20.012 [heroDataSaver - 2] INFO  com.teamtop.system.hero.HeroDao - Update DB end.Important.hid:1000100000000003,才貌丨袅袅.S1
+2021-08-23 15:54:52.422 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2021-08-23 15:55:00.152 [任务线程 - 4] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生1001——3003 bossid:240001 maxhp1367530000 倍数：0总血量：1367530000
+2021-08-23 15:55:00.153 [任务线程 - 4] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240001 tempMaxHp:0
+2021-08-23 15:55:00.154 [任务线程 - 4] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生4001——6003 bossid:240002 maxhp6730920000 倍数：0总血量：6730920000
+2021-08-23 15:55:00.154 [任务线程 - 4] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240002 tempMaxHp:0
+2021-08-23 15:55:00.154 [任务线程 - 4] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生7001——8003 bossid:240003 maxhp25705905000 倍数：0总血量：25705905000
+2021-08-23 15:55:00.154 [任务线程 - 4] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240003 tempMaxHp:0
+2021-08-23 15:55:00.154 [任务线程 - 4] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生9001——10003 bossid:240004 maxhp62142310000 倍数：0总血量：62142310000
+2021-08-23 15:55:00.154 [任务线程 - 4] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240004 tempMaxHp:0
+2021-08-23 15:55:00.154 [任务线程 - 4] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生11001——12003 bossid:240005 maxhp104600755000 倍数：0总血量：104600755000
+2021-08-23 15:55:00.154 [任务线程 - 4] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240005 tempMaxHp:0
+2021-08-23 15:55:00.156 [任务线程 - 4] INFO  com.teamtop.system.crossBoss.cross.CrossBossCrossEvent - CrossBossCrossEvent.fixTime cmdId:1 time:2021-08-23_15-55-00s
+2021-08-23 15:55:00.157 [任务线程 - 4] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossBoss.cross.CrossBossCrossEvent@1436a7ab,now:1629705300,dayTime:1555
+2021-08-23 15:55:00.159 [crossChannelEx - 2] INFO  com.teamtop.system.crossBoss.CrossBossIO - local tell cross state:1  1
+2021-08-23 15:55:52.438 [任务线程 - 13] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="s98a5pru" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="oz6c0" name="ChildXianding.xml" path="/" exported="true"/>
+    <image id="oz6c1" name="任务底框.png" path="/res/" scale="9grid" scale9grid="11,22,9,44"/>
+    <image id="oz6c2" name="限定武将活动.jpg" path="/res/"/>
+    <image id="oz6c3" name="武将活动图.jpg" path="/res/"/>
+    <component id="oz6c4" name="XiandingItem.xml" path="/com/" exported="true"/>
+    <component id="illc5" name="XiandingRewardItem.xml" path="/com/" exported="true"/>
+    <component id="ucru6" name="ViewXiandingReward.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="actComXianding" genCode="true" npot="true" excluded="oz6c3"/>
+</packageDescription>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.collectTreasury.model.CollectTreasury" tbname="collectTreasury">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="buyGiftBagList" type="text" pf="all" comment="聚宝盆礼包购买的礼包列表"/>
+			<col field="ctAwardsStateList" type="text" pf="all" comment="聚宝盆奖励状态列表 奖励状态0未达成1可领取2已领取"/>
+			<col field="loginDay" type="int" pf="all"  comment="累计登录天数"/>
+    </tb>
+</tbs>

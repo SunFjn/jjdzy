@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="134,176" pivot="0.5,0" anchor="true">
+  <displayList>
+    <image id="n3_kzdy" name="bg" src="kzdye" fileName="image/卡牌背面.png" xy="0,0"/>
+    <image id="n4_kzdy" name="bg1" src="kzdyd" fileName="image/卡牌正面.png" xy="0,0"/>
+    <loader id="n0_kzdy" name="img" xy="7,6" size="120,159" url="ui://px5jiht9kzdy1"/>
+    <loader id="n2_kzdy" name="gou" xy="-15,-9" size="53,52" url="ui://px5jiht9kzdy2"/>
+    <image id="n7_fvsk" name="n7" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="17,119" size="100,28" group="n8_fvsk"/>
+    <image id="n5_fvsk" name="imgYb" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="23,116" group="n8_fvsk"/>
+    <richtext id="n6_fvsk" name="lbYb" xy="59,122" size="49,28" group="n8_fvsk" fontSize="18" color="#ffffff" text="1000"/>
+    <group id="n8_fvsk" name="boxYb" xy="17,116" size="100,34" advanced="true"/>
+  </displayList>
+</component>

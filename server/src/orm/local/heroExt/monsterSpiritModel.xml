@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.monsterSpirit.model.MonsterSpiritModel" tbname="monsterSpiritModel">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="fightMonsterSpiri" type="int" pf="all" comment="当前出战兽灵"/>
+			<col field="monsterSpiritMap" type="text" pf="all" comment="兽灵数据"/>
+			<col field="washNum" type="int" pf="all" comment="洗练总次数"/>			
+     </tb>
+</tbs>

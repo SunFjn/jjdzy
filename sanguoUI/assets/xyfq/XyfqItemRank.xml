@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="558,117">
+  <displayList>
+    <image id="n8_bnyp" name="n8" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="558,117"/>
+    <richtext id="n9_bnyp" name="tfRank" xy="20,44" pivot="0.5,0.5" size="68,33" fontSize="24" color="#ffcc33" bold="true" text="第1名"/>
+    <richtext id="n10_bnyp" name="tfName" xy="109,28" size="41,25" fontSize="18" color="#f1f1f1" text="玩家"/>
+    <richtext id="n11_bnyp" name="tfCount" xy="109,66" size="41,25" fontSize="18" color="#f1f1f1" text="玩家"/>
+    <list id="n12_bnyp" name="itemList" xy="274,12" size="338,109" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="1" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

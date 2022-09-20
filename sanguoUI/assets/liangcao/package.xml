@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="mbcu0qc0" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="hd200" name="LiangCaoSceneTopPanel.xml" path="/组件/" exported="true"/>
+    <component id="hd202" name="LiangCaoScoreBar.xml" path="/组件/" exported="true"/>
+    <component id="hd204" name="LiangCaoHead.xml" path="/组件/" exported="true"/>
+    <image id="hd205" name="已击杀标记.png" path="/images/" exported="true"/>
+    <component id="hd206" name="LiangCaoSceneBottomPanel.xml" path="/组件/" exported="true"/>
+    <image id="hd207" name="排名奖励.png" path="/images/" exported="true"/>
+    <component id="hd208" name="ViewLiangCaoRank.xml" path="/组件/" exported="true"/>
+    <component id="hd20a" name="LiangCaoPersonItem.xml" path="/组件/" exported="true"/>
+    <component id="hd20d" name="LiangCaoServerItem.xml" path="/组件/" exported="true"/>
+    <component id="hd20f" name="LiangCaoScoreItem.xml" path="/组件/" exported="true"/>
+    <component id="hd20g" name="ViewLiangCaoReslut.xml" path="/组件/" exported="true"/>
+    <image id="hd20i" name="1.png" path="/images/" exported="true"/>
+    <image id="hd20j" name="2001.png" path="/images/" exported="true"/>
+    <image id="hd20k" name="兵精粮足.png" path="/images/" exported="true"/>
+    <image id="hd20l" name="MVP.png" path="/images/" exported="true"/>
+    <image id="lipbm" name="血条底.png" path="/images/" exported="true"/>
+    <image id="lipbn" name="血条1.png" path="/images/" exported="true" scale="9grid" scale9grid="49,4,98,8"/>
+    <image id="lipbo" name="血条2.png" path="/images/" exported="true"/>
+    <image id="lipbp" name="血条3.png" path="/images/" exported="true"/>
+  </resources>
+  <publish name="liangcao" genCode="true"/>
+</packageDescription>

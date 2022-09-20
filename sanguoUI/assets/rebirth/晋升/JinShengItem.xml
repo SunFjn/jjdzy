@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="601,118">
+  <displayList>
+    <image id="n1_s0h0" name="n1" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="601,118"/>
+    <loader id="n9_hd1b" name="backImg" xy="22,1" size="83,111" url="ui://dllc71i9hd1b15" autoSize="true"/>
+    <image id="n5_s0h0" name="n5" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="331,42" size="41,37"/>
+    <image id="n10_hd1b" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="444,40"/>
+    <component id="n4_s0h0" name="expBar" src="emwp3h8" fileName="组件/ExpBar1.xml" pkg="jvxpx9em" xy="117,64" size="179,20">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <richtext id="n2_s0h0" name="expLb" xy="30,65" size="76,27" font="ui://jvxpx9embwmw3w" fontSize="18" color="#ffffff" leading="0" text="1500">
+      <relation target="n9_hd1b" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n3_s0h0" name="conditionLb" xy="118,17" size="70,28" fontSize="18" color="#ffffff" leading="0" text="达到6转"/>
+    <richtext id="n7_s0h0" name="moneyLb" xy="378,47" size="49,28" fontSize="18" color="#00f234" leading="0" text="1500"/>
+    <component id="n6_s0h0" name="goBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="438,29">
+      <Button title="前往"/>
+    </component>
+    <component id="n11_so6h" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="438,29">
+      <Button title="领取"/>
+    </component>
+  </displayList>
+</component>

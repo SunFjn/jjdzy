@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,910" opaque="false" designImage="ui://47jfyc6edjuz3z">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <list id="n26_ppyw" name="list" xy="17,184" size="604,727" overflow="scroll" lineGap="10" defaultItem="ui://47jfyc6eppyw2z" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n39_djuz" name="imageSelect1" src="djuz3hl" fileName="image/通用底框/圆形选中框.png" pkg="jvxpx9em" xy="193,28" group="n32_sppk"/>
+    <image id="n40_djuz" name="imageSelect2" src="djuz3hl" fileName="image/通用底框/圆形选中框.png" pkg="jvxpx9em" xy="332,28" group="n32_sppk"/>
+    <component id="n10_hc26" name="n10" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="202,48" size="100,93" group="n32_sppk">
+      <Button icon="ui://47jfyc6ehc262x" controller="c1" page="0"/>
+    </component>
+    <component id="n11_ppyw" name="n11" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="341,49" size="100,93" group="n32_sppk">
+      <Button icon="ui://47jfyc6ehc262w" controller="c1" page="1"/>
+    </component>
+    <group id="n32_sppk" name="n32" xy="193,28" size="255,116"/>
+    <component id="n33_scqm" name="btnShop" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="16,68" size="70,73">
+      <Button icon="ui://47jfyc6escqm38"/>
+    </component>
+    <richtext id="n36_h4nz" name="lbDes" xy="551,112" size="77,28" fontSize="18" color="#33ff00" text="&lt;u>玩法说明&lt;/u>"/>
+    <richtext id="n37_jzd0" name="lbNextTime" xy="25,155" size="204,28" fontSize="18" color="#ffffff" strokeColor="#000000" text="BOSS刷新时间：0:00:00"/>
+    <richtext id="n38_jzd0" name="lbRefreshTime" xy="411,155" size="204,28" fontSize="18" color="#ffffff" strokeColor="#000000" text="BOSS刷新时间：0:00:00"/>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.cdkey.CDkeyMapper">
+	<update id="insertOnDuplicateBatch" parameterType="String">
+		${value}
+	</update>
+	<select id="findAllCDkeyData" resultType="hashmap">
+		select * from m_cdkeydata
+	</select>
+	<update id="updateByCDkey" parameterType="CDkeyData">
+		update m_cdkeydata set isUsed=#{isUsed} where cdkey=#{cdkey}
+	</update>
+</mapper>

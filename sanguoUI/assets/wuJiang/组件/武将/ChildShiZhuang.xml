@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,768">
+  <displayList>
+    <image id="n0_eqmk" name="img" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="377,276" pivot="0.5,0.4" anchor="true" aspect="true"/>
+    <image id="n1_eqmk" name="n1" src="z1jw6l" fileName="image/侧边框底.png" pkg="jvxpx9em" xy="12,0" size="122,770"/>
+    <list id="n2_eqmk" name="list" xy="10,9" size="116,759" overflow="scroll" defaultItem="ui://zyx92gzwtht45">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n3_eqmk" name="labAttrCur" xy="178,571" size="172,110" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <richtext id="n4_eqmk" name="labAttrNext" xy="455,571" size="172,110" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <text id="n5_eqmk" name="labCost" xy="183,741" size="385,28" fontSize="18" color="#ffffff" align="center" vAlign="bottom" ubb="true" autoSize="none" text="消耗：武将赵云*1（5/1）"/>
+    <text id="n6_eqmk" name="labStar" xy="197,344" size="347,35" font="ui://jvxpx9emz1r82c" fontSize="24" color="#ffffff" align="center" autoSize="none" text="5111111111"/>
+    <component id="n7_eqmk" name="btnUp" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="319,683" pivot="0.5,0.5">
+      <Button title="激活"/>
+    </component>
+    <component id="n8_eqmk" name="labName" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="144,3">
+      <Label title="赵云"/>
+    </component>
+    <image id="n9_eqmk" name="n9" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="204,710" group="n11_eqmk"/>
+    <richtext id="n10_eqmk" name="n10" xy="329,700" size="116,35" group="n11_eqmk" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满星"/>
+    <group id="n11_eqmk" name="boxMax" xy="204,700" size="366,35" advanced="true"/>
+    <component id="n12_eqmk" name="labPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="245,280"/>
+    <richtext id="n13_eqmk" name="labAttrMax" xy="321,571" size="172,110" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <image id="n16_eqmk" name="imgArrow" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="375,612" pivot="0.5,0.5" anchor="true"/>
+    <component id="n27_eqmk" name="n27" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="212,388" size="329,31">
+      <Label title="时装列表"/>
+    </component>
+    <component id="n28_eqmk" name="n28" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="212,555" size="480,28">
+      <Label title="时装属性"/>
+    </component>
+    <list id="n30_ke3i" name="list2" xy="187,402" size="390,167" layout="row" overflow="scroll" scroll="horizontal" margin="20,0,0,0" colGap="18" defaultItem="ui://zyx92gzwke3i39" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n31_ke3i" name="btnLeft" src="gs0d67" fileName="image1/收起按钮.png" pkg="jvxpx9em" xy="138,454"/>
+    <image id="n32_ke3i" name="btnRight" src="gs0d67" fileName="image1/收起按钮.png" pkg="jvxpx9em" xy="579,453" flip="hz"/>
+    <text id="n35_z7r8" name="iconMR" xy="279,620" size="245,39" fontSize="30" color="#ffff00" text="默认时装不可升星">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n36_ur84" name="iconDressSt" xy="526,214" size="101,89" url="ui://zyx92gzwur843d"/>
+  </displayList>
+</component>

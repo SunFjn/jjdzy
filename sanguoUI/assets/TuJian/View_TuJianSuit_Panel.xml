@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,547">
+  <displayList>
+    <component id="n9_jrht" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,0" size="594,547"/>
+    <image id="n10_jrht" name="n10" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="23,116" size="548,316"/>
+    <image id="n19_j2yi" name="n19" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="114,474" group="n21_j2yi"/>
+    <richtext id="n20_j2yi" name="n20" xy="239,464" size="116,35" group="n21_j2yi" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满级"/>
+    <group id="n21_j2yi" name="maxGroup" xy="114,464" size="366,35" advanced="true" collapsed="true"/>
+    <richtext id="n12_jrht" name="nameLb" xy="214,23" size="165,43" touchable="false" fontSize="30" color="#ffc344" align="center" leading="0" autoSize="none" text="美人如画"/>
+    <richtext id="n13_jrht" name="levelLb" xy="113,76" size="369,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="佳人图鉴总等级：10"/>
+    <richtext id="n14_jrht" name="n14" xy="44,128" size="77,28" touchable="false" fontSize="18" color="#ffc344" leading="0" text="当前效果"/>
+    <richtext id="n15_jrht" name="curAttLb" xy="74,161" size="120,28" touchable="false" fontSize="18" color="#ffffff" leading="10" text="生命+100000"/>
+    <richtext id="n16_jrht" name="n16" xy="43,263" size="77,28" touchable="false" fontSize="18" color="#ffc344" leading="0" text="下级效果"/>
+    <richtext id="n17_jrht" name="nextAttLb" xy="73,295" size="120,28" touchable="false" fontSize="18" color="#ffffff" leading="10" text="生命+100000"/>
+    <richtext id="n18_jrht" name="numLb" xy="136,262" size="58,28" touchable="false" fontSize="18" color="#ff0000" leading="0" text="(0/10)"/>
+    <component id="n11_jrht" name="upBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="226,463">
+      <Button title="升级"/>
+    </component>
+  </displayList>
+</component>

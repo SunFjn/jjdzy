@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.treasure.model.TreasureData" tbname="treasureData">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="wearTreasureList" type="varchar" len="50"  pf="all" comment="位置装备的宝物"/>
+			<col field="taozhuangs" type="varchar" len="400" pf="all" comment="套装"/>
+			<col field="exp" type="int" pf="all" comment="升级经验"/>
+			<col field="level" type="int" pf="all" comment="等级"/>
+			<col field="treasureMap" type="text" pf="all" comment="已拥有宝物信息"/>
+			<col field="strength" type="int" pf="all" comment="宝石战力"/>
+			<col field="skills" type="varchar" len="1000" pf="all" comment="技能"/>			
+     </tb>
+</tbs>

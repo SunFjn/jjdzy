@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.crossKing.model.CrossKingRankMapper">
+	<insert id="insert" parameterType="CrossKingRank" useGeneratedKeys="true" keyProperty="rid">
+		${insertSql}
+	</insert>
+	<update id="update" parameterType="String">
+		${value}
+	</update>
+	<select id="find" parameterType="String" resultType="hashmap">
+		${value}
+	</select>
+	<!--查找当前届的排行数据-->
+	<select id="findTermRank"  resultType="hashmap">
+		select * from crossKingRank
+	</select>
+	<update id="insertOnDuplicateBatch" parameterType="String">
+		${value}
+	</update>
+	<!-- 删除赛季数据 -->
+	<delete id="deleteTerm">
+		delete from crossKingRank
+	</delete>
+	<!-- 清空所赛季数据 -->
+	<delete id="truncate">
+		truncate table crossKingRank
+	</delete>
+</mapper>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="201,270">
+  <displayList>
+    <loader id="n6_u7hr" name="n6" xy="0,0" size="201,270" url="ui://83gc6bhvu7hr10"/>
+    <image id="n2_q09v" name="n2" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="38,141"/>
+    <loader id="n8_u7hr" name="n8" xy="40,97" size="121,122" url="ui://83gc6bhvu7hrz"/>
+    <image id="n9_u7hr" name="n9" src="rt7o4r" fileName="image1/货币底.png" pkg="jvxpx9em" xy="49,225"/>
+    <richtext id="n3_q09v" name="lbMoney" xy="81,228" size="38,28" fontSize="18" color="#ffffff" text="100">
+      <relation target="n10_xtmm" sidePair="rightext-left"/>
+    </richtext>
+    <loader id="n10_xtmm" name="n10" xy="42,217" size="50,30" scale="0.5,0.5" url="ui://83gc6bhvxtmm1e" autoSize="true"/>
+    <image id="n11_j1q4" name="n11" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="116,121"/>
+  </displayList>
+</component>

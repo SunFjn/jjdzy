@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="590,800">
+  <displayList>
+    <component id="n1_rjpy" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,-12" size="593,814">
+      <Label title="印记"/>
+    </component>
+    <list id="n2_rjpy" name="list" xy="16,60" size="556,736" overflow="scroll" lineGap="5" defaultItem="ui://4aepcdbwrjpy25">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

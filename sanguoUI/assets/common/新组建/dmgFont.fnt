@@ -1,0 +1,14 @@
+info creator=UIBuilder
+common xadvance=22
+char id=48 img=og798t xoffset=0 yoffset=0 xadvance=0
+char id=49 img=og798u xoffset=-2 yoffset=0 xadvance=15
+char id=50 img=og798v xoffset=0 yoffset=0 xadvance=0
+char id=51 img=og798w xoffset=0 yoffset=0 xadvance=0
+char id=52 img=og798x xoffset=0 yoffset=0 xadvance=0
+char id=53 img=og798y xoffset=0 yoffset=0 xadvance=0
+char id=54 img=og798z xoffset=0 yoffset=0 xadvance=0
+char id=55 img=og7990 xoffset=1 yoffset=0 xadvance=20
+char id=56 img=og7991 xoffset=0 yoffset=0 xadvance=0
+char id=57 img=og798s xoffset=0 yoffset=0 xadvance=0
+char id=122 img=nwjs21 xoffset=0 yoffset=0 xadvance=70
+char id=76 img=ngrk3go xoffset=0 yoffset=-11 xadvance=90

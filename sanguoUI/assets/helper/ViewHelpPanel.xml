@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <component id="n6_s9sj" name="item" src="s9sj8" fileName="com/HelpBtnItem.xml" xy="-40,312" controller="ctrlArrow,0"/>
+  </displayList>
+</component>

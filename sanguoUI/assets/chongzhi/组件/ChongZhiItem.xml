@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="139,173" extention="Button">
+  <displayList>
+    <image id="n5_siu4" name="n5" src="siu4b" fileName="image/充值底.png" xy="0,0"/>
+    <richtext id="n0_nvyw" name="lbYB" xy="63,1" size="10,12" scale="0.8,0.8" font="ui://jvxpx9embwmw3w" fontSize="12" text=""/>
+    <image id="n2_nvyw" name="mulIcon" src="siu46" fileName="image/五倍标签.png" xy="0,0"/>
+    <image id="n8_siu4" name="n8" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="32,1"/>
+    <loader id="n9_siu4" name="imgBox" xy="18,48" pivot="0.5,0.5" size="102,73" url="ui://42zxp7qjsiu4k" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <image id="n10_hxms" name="n10" src="hxmsv" fileName="image/再充     次激活5倍.png" xy="2,144" size="135,27" group="n12_hxms"/>
+    <richtext id="n11_hxms" name="lbCount" xy="44,150" size="17,25" group="n12_hxms" fontSize="14" color="#00ff00" align="center" autoSize="none" text="9"/>
+    <group id="n12_hxms" name="g0" xy="2,144" size="135,31" advanced="true"/>
+    <text id="n1_nvyw" name="lbRMB" xy="39,119" size="61,29" font="ui://jvxpx9embwmw3w" fontSize="12" text="30n">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossKing.local.CrossKing" tbname="crossKing">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="term" type="int" pf="all" comment="赛季"/>
+			<col field="duanwei" type="int" pf="all" comment="段位"/>
+	        <col field="rebornType" type="int" pf="all" comment="转生段位房间"/>
+            <col field="rank" type="int" pf="all" comment="排名"/>
+            <col field="score" type="int" pf="all" comment="积分"/>
+            <col field="buyCount" type="int" pf="all" comment="已购买次数"/>
+            <col field="challCount" type="int" pf="all" comment="剩余挑战次数"/>
+            <col field="challTime" type="int" pf="all" comment="挑战时间"/>
+            <col field="changeNum" type="int" pf="all" comment="已经换一批的次数"/>
+            <col field="MaxDw" type="int" pf="all" comment="本赛季最高段位"/>
+            <col field="scoreReward" type="varchar" len="500" pf="all" comment="积分奖励"/>
+            <col field="history" type="text" pf="all" comment="战斗日志"/>
+            <col field="jingJiReward" type="varchar" len="500" pf="all" comment="晋级奖励"/>
+            <col field="sumBattleNum" type="int" pf="all" comment="累计挑战次数 "/>
+            <col field="shopItems" type="varchar" len="600" pf="all" comment="乱世商城"/>  
+            <col field="belongZoneid" type="int" pf="all" comment="跨服大分区"/>
+     </tb>
+</tbs>

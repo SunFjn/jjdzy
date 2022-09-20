@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 场景事件注册 场景类型参考表格或sceneConst-->
+	<!-- 补给地图 -->
+	<bean sceneType="1" class="com.teamtop.system.event.sceneEvent.SupplySceneEvent" />
+	<!-- 问鼎天下 -->
+	<bean sceneType="5" class="com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaSceneEvent" />
+	<!-- 战场boss(本服) -->
+	<bean sceneType="6" class="com.teamtop.system.zcBoss.ZcBossScene" />
+	<!-- 战场boss(跨服) -->		
+	<bean sceneType="7" class="com.teamtop.system.zcBoss.cross.ZcBossCrossScene" />
+	<!-- 三英战吕布 -->		
+	<bean sceneType="10" class="com.teamtop.system.threeHeroFightLvBu.ThreeHeroFightLvBuSceneEvent" />
+    <!-- 粮草抢夺（跨服） -->		
+	<bean sceneType="9" class="com.teamtop.system.battleGoods.event.BattleGoodsSceneEvent" />
+	<!-- 府邸系统（跨服） -->		
+	<bean sceneType="12" class="com.teamtop.system.house.yard.event.CrossHouseSceneEvent" />
+    <!-- 宴会 -->		
+	<bean sceneType="11" class="com.teamtop.system.house.yanhui.event.YanhuiCrossSceneEvent" />
+</beans>

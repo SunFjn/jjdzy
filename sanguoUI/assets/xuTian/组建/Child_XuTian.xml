@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,922" designImageAlpha="100">
+  <displayList>
+    <loader id="n9_bzs6" name="backImg" xy="0,142" size="640,662" url="ui://j0lk55yeg53aa" autoSize="true"/>
+    <image id="n2_bzs6" name="n2" src="opmfh" fileName="image/奖励预览底.png" xy="86,167" size="468,140" group="n5_bzs6"/>
+    <list id="n3_bzs6" name="listRew" xy="135,203" size="478,116" group="n5_bzs6" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="19" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n4_bzs6" name="n4" src="opmfi" fileName="image/奖励预览文字.png" xy="273,162" group="n5_bzs6"/>
+    <group id="n5_bzs6" name="boxRew" xy="86,162" size="527,157" advanced="true"/>
+    <component id="n6_bzs6" name="btnAdd" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="152,842" pivot="0.5,0.5" size="41,41">
+      <relation target="n7_bzs6" sidePair="left-right"/>
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <richtext id="n7_bzs6" name="lbCt" xy="27,848" size="125,28" font="Microsoft YaHei" fontSize="18" color="#ffffff" text="挑战次数：1/2"/>
+    <component id="n8_bzs6" name="startBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="234,831">
+      <Button title="开始狩猎"/>
+    </component>
+    <richtext id="n12_bzs6" name="lbHunt" xy="260,857" size="86,34" font="Microsoft YaHei" fontSize="22" color="#ffffff" text="狩猎中..."/>
+    <component id="n17_bzs6" name="btnCanKu" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="523,157" size="89,81">
+      <Button icon="ui://j0lk55yeg53af"/>
+    </component>
+    <component id="n24_bzs6" name="btnArrow" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="304,730" pivot="0.5,0" anchor="true" size="220,119" touchable="false">
+      <Button icon="ui://j0lk55yeg53ab"/>
+    </component>
+    <component id="n25_g53a" name="smBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="531,825" size="75,76">
+      <Button icon="ui://jvxpx9emw6sh3g4"/>
+    </component>
+    <image id="n26_g53a" name="imgBufBg" src="w6ro5n" fileName="image1/左功能区底.png" pkg="7gxkx46w" xy="14,157" size="90,302" group="n27_g53a"/>
+    <loader id="n15_bzs6" name="imgBuf0" xy="33,166" size="54,67" group="n27_g53a" url="ui://j0lk55yeg53a5"/>
+    <loader id="n13_bzs6" name="imgBuf1" xy="33,239" size="54,66" group="n27_g53a" url="ui://j0lk55yeg53a6"/>
+    <loader id="n16_bzs6" name="imgBuf2" xy="20,312" size="80,67" group="n27_g53a" url="ui://j0lk55yeg53a7"/>
+    <loader id="n14_bzs6" name="imgBuf3" xy="20,385" size="78,67" group="n27_g53a" url="ui://j0lk55yeg53a8"/>
+    <richtext id="n38_opmf" name="lbBuf0" xy="106,189" size="48,29" group="n27_g53a" touchable="false" font="ui://jvxpx9emog7992" fontSize="22" color="#ffffff" text="60"/>
+    <richtext id="n39_opmf" name="lbBuf1" xy="106,256" size="48,29" group="n27_g53a" touchable="false" font="ui://jvxpx9emog7992" fontSize="22" color="#ffffff" text="60"/>
+    <richtext id="n40_opmf" name="lbBuf2" xy="106,333" size="48,29" group="n27_g53a" touchable="false" font="ui://jvxpx9emog7992" fontSize="22" color="#ffffff" text="60"/>
+    <richtext id="n41_opmf" name="lbBuf3" xy="106,400" size="48,29" group="n27_g53a" touchable="false" font="ui://jvxpx9emog7992" fontSize="22" color="#ffffff" text="60"/>
+    <group id="n27_g53a" name="boxBuf" xy="14,157" size="140,302" advanced="true"/>
+    <image id="n28_g53a" name="n28" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="201,166" size="237,33" group="n29_g53a"/>
+    <richtext id="n19_bzs6" name="lbTime" xy="178,167" size="284,34" group="n29_g53a" font="Microsoft YaHei" fontSize="22" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="剩余时间：10分23秒"/>
+    <group id="n29_g53a" name="boxTime" xy="178,166" size="284,35" advanced="true"/>
+    <image id="n20_bzs6" name="n20" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="20,758" size="159,31" group="n31_g53a">
+      <relation target="n22_bzs6" sidePair="width-width"/>
+    </image>
+    <richtext id="n21_bzs6" name="lbName" xy="25,758" size="41,28" group="n31_g53a" font="Microsoft YaHei" fontSize="18" color="#ffffff" text="羽箭"/>
+    <image id="n18_bzs6" name="imgArrow" src="g53ac" fileName="image/箭.png" xy="68,735" group="n31_g53a"/>
+    <richtext id="n22_bzs6" name="lbArrCt" xy="97,759" size="79,28" group="n31_g53a" font="Microsoft YaHei" fontSize="18" color="#ffffff" text="101/101"/>
+    <group id="n31_g53a" name="boxArrow" xy="20,735" size="159,56" advanced="true"/>
+    <richtext id="n34_g53a" name="itemLb" xy="27,848" size="77,28" group="n37_g53a" fontSize="18" color="#33ff00" text="三英令："/>
+    <loader id="n35_g53a" name="itemIcon" xy="102,848" size="30,30" group="n37_g53a" aspect="true" fill="scaleFree"/>
+    <richtext id="n36_g53a" name="itemCt" xy="136,848" size="16,28" group="n37_g53a" fontSize="18" color="#ffffff" text="4"/>
+    <group id="n37_g53a" name="groupItem" xy="27,848" size="125,30" advanced="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="1xydor24" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="n7ie0" name="ViewActivityHall.xml" path="/组件/" exported="true"/>
+    <component id="n7ie1" name="ViewLZD.xml" path="/组件/隆中对/" exported="true"/>
+    <component id="n7ie2" name="LongZDIt.xml" path="/组件/隆中对/" exported="true"/>
+    <component id="n7ie3" name="ViewLZDRet.xml" path="/组件/隆中对/" exported="true"/>
+    <component id="n7ie4" name="ViewLZDRank.xml" path="/组件/隆中对/" exported="true"/>
+    <component id="n7ie5" name="LZDRankIt.xml" path="/组件/隆中对/" exported="true"/>
+    <component id="n7ie6" name="ViewLZDShow.xml" path="/组件/隆中对/" exported="true"/>
+    <image id="oc0j7" name="兑换.png" path="/image/" exported="true"/>
+    <image id="oc0ja" name="排名.png" path="/image/" exported="true"/>
+    <image id="oc0jd" name="活动大厅.png" path="/image/" exported="true"/>
+    <image id="oc0jl" name="诸葛亮.png" path="/image/" exported="true"/>
+    <image id="oc0jm" name="选项1.png" path="/image/" exported="true" scale="9grid" scale9grid="16,14,32,28"/>
+    <image id="oc0jn" name="选项2.png" path="/image/" exported="true" scale="9grid" scale9grid="16,14,32,28"/>
+    <component id="oc0js" name="AcitivityTab.xml" path="/组件/" exported="true"/>
+    <image id="oc0jt" name="勾.png" path="/image/" exported="true"/>
+    <image id="oc0ju" name="叉.png" path="/image/" exported="true"/>
+    <image id="oc0jv" name="回答正确.png" path="/image/" exported="true"/>
+    <image id="oc0jw" name="回答错误.png" path="/image/" exported="true"/>
+    <image id="oc0jx" name="隆中对.png" path="/image/" exported="true"/>
+    <image id="vuo012" name="跨服标签.png" path="/image/" exported="true"/>
+    <component id="lwyd14" name="LZDItem.xml" path="/组件/隆中对/"/>
+    <image id="ljbu15" name="测试标签.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="activityHall" genCode="true" npot="true"/>
+</packageDescription>

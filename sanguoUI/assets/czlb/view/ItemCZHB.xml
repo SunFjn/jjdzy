@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="586,140">
+  <displayList>
+    <image id="n0_k7mb" name="n0" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="586,140"/>
+    <image id="n1_k7mb" name="n1" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="17,15"/>
+    <richtext id="n2_k7mb" name="lbPro" xy="29,16" size="76,26" fontSize="18" color="#ffffff" text="达到条件"/>
+    <component id="n3_k7mb" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="410,75">
+      <Button title="领取"/>
+    </component>
+    <image id="n4_k7mb" name="ylq" src="c4lpa2" fileName="image/已售罄.png" pkg="jvxpx9em" xy="417,85"/>
+    <list id="n6_k7mb" name="list" xy="21,44" size="434,105" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n9_k7mb" name="n9" src="htpq1q" fileName="image/通用底框/名字底框.png" pkg="jvxpx9em" xy="370,11" size="203,63"/>
+    <richtext id="n7_k7mb" name="lbTips" xy="416,18" size="121,26" fontSize="18" color="#ffffff" text="限购次数：1/5">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n10_k7mb" name="lbPrice" xy="416,44" size="121,26" fontSize="18" color="#ff0000" strike="true" text="限购次数：1/5">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <graph id="n11_rnnu" name="n11" xy="411,57" size="132,2" type="rect" lineSize="0" fillColor="#ffff0000">
+      <relation target="n10_k7mb" sidePair="width-width,center-center"/>
+    </graph>
+  </displayList>
+</component>

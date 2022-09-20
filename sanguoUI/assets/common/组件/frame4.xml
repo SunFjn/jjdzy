@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" extention="Label">
+  <displayList>
+    <loader id="n0_fsg9" name="backImg" xy="0,0" size="640,1136" url="ui://jvxpx9emm3513bl"/>
+    <image id="n6_irr1" name="n6" src="irr13gx" fileName="image/花纹/标题背景花纹.png" xy="119,67"/>
+    <component id="n3_fsg9" name="closeButton" src="bwmw3b" fileName="组件/closeButton.xml" xy="494,923"/>
+    <loader id="n4_fsg9" name="icon" xy="203,68" size="232,42" align="center" vAlign="middle"/>
+  </displayList>
+</component>

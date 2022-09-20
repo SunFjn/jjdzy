@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="vrw7je9r" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="lj8v0" name="View_HuoDong_Panel.xml" path="/组件/" exported="true"/>
+    <component id="t2amc" name="Child_HuoDong.xml" path="/组件/" exported="true"/>
+    <component id="t2amd" name="VHuoDongItem.xml" path="/组件/" exported="true"/>
+    <component id="hfv1f" name="ChildCZDJ.xml" path="/组件/超级点将/" exported="true"/>
+    <component id="hfv1g" name="ChildDL.xml" path="/组件/超级点将/" exported="true"/>
+    <image id="l1e2k" name="精彩活动.png" path="/image/" exported="true"/>
+    <image id="luu2s" name="奖励一览.png" path="/image/" exported="true"/>
+    <image id="luu2v" name="牌子.png" path="/image/" exported="true"/>
+    <image id="xt4610" name="BmG_4.png" path="/image/" exported="true"/>
+    <image id="wuzzy" name="填充底.png" path="/image/" exported="true"/>
+    <image id="wuzzz" name="点我！点我！.png" path="/image/" exported="true"/>
+    <component id="wuzz10" name="ChaoJiTip.xml" path="/组件/超级点将/" exported="true"/>
+    <component id="s56p11" name="ItemCJDJ.xml" path="/组件/超级点将/" exported="true"/>
+    <component id="e7xr12" name="Child_LXLC.xml" path="/组件/连续累充/" exported="true"/>
+    <component id="ecsa13" name="VLXLCItem.xml" path="/组件/连续累充/" exported="true"/>
+    <image id="ecsa14" name="活动名称灰底.png" path="/image/" exported="true"/>
+    <image id="ecsa15" name="活动名称蓝底.png" path="/image/" exported="true"/>
+    <image id="r56816" name="累充天数.png" path="/image/"/>
+  </resources>
+  <publish name="huoDong" genCode="true" npot="true" excluded="9tlt12"/>
+</packageDescription>

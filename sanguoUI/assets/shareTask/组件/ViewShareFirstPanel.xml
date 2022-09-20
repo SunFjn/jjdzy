@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,592" designImage="ui://a6geycdpcxhe9" designImageOffsetY="-188">
+  <controller name="ctrlState" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n27_cxhe" name="n27" src="cxheb" fileName="image/图层 10.png" xy="0,10"/>
+    <image id="n1_ayd2" name="n1" src="cxhe8" fileName="image/首次分享底.png" xy="0,241" aspect="true"/>
+    <list id="n16_eihz" name="itemList" xy="31,298" size="577,109" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n18_eysi" name="n18" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="237,88"/>
+    <component id="n25_eysi" name="btnShare" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="248,506">
+      <gearDisplay controller="ctrlState" pages="0,1"/>
+      <gearText controller="ctrlState" pages="1" values="领取奖励" default="分享"/>
+      <Button title="分享"/>
+    </component>
+    <image id="n28_cxhe" name="n28" src="cxhec" fileName="image/首次分享.png" xy="241,146"/>
+    <image id="n29_cxhe" name="n29" src="q2mkh" fileName="image/首次分享领取丰厚奖励.png" xy="73,430"/>
+    <richtext id="n30_cxhe" name="tfDes" xy="19,261" size="105,24" font="SimHei" fontSize="20" color="#ffffff" leading="0" text="可获得奖励"/>
+    <image id="n31_jvba" name="imageGot" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="258,514">
+      <gearDisplay controller="ctrlState" pages="2"/>
+    </image>
+    <component id="n32_q2mk" name="closeButton" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="570,178" size="62,56">
+      <Button icon="ui://jvxpx9emq2mk3g8"/>
+    </component>
+  </displayList>
+</component>

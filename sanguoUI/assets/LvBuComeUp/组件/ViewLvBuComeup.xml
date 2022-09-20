@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <loader id="n96_k6f8" name="backImg" xy="0,0" size="640,1136" group="n101_k6f8"/>
+    <image id="n97_k6f8" name="n0" src="m3513bf" fileName="image/底板2 拷贝 2.png" pkg="jvxpx9em" xy="1,102" size="637,839" group="n101_k6f8"/>
+    <loader id="n98_k6f8" name="bgImg" xy="0,113" size="640,815" group="n101_k6f8" fill="scaleFree"/>
+    <loader id="n100_k6f8" name="titleIcon" xy="203,55" size="232,42" group="n101_k6f8" url="ui://01fuz6zck6f8mj" align="center" vAlign="middle"/>
+    <component id="n99_k6f8" name="closeButton" src="bwmw3b" fileName="组件/closeButton.xml" pkg="jvxpx9em" xy="494,934" group="n101_k6f8"/>
+    <group id="n101_k6f8" name="n101" xy="0,0" size="640,1136" advanced="true"/>
+    <image id="n18_sivq" name="n18" src="q4spb" fileName="image/第一名.png" xy="368,114"/>
+    <image id="n94_k6f8" name="n94" src="jh31mq" fileName="image/神装背景.png" xy="30,172"/>
+    <image id="n102_fod5" name="n102" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="217,292" size="410,102" flip="vt"/>
+    <image id="n93_k6f8" name="n93" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="-7,114" size="252,44" flip="vt"/>
+    <richtext id="n4_sbsr" name="txtAcTime" xy="34,122" size="175,27" fontSize="20" color="#ffffff" text="剩余时间: 00:00:00"/>
+    <loader id="n13_sivq" name="iconHero" xy="281,128" size="80,75" fill="scale"/>
+    <richtext id="n15_sivq" name="txtNameFir" xy="425,155" size="113,25" fontSize="18" color="#ffffff" text="玩家名字六字">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n16_sivq" name="txtJiFenFir" xy="415,182" size="137,25" fontSize="18" color="#ffffff" text="晋升积分: 10000">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n17_sivq" name="n17" xy="276,219" size="53,60" fontSize="24" color="#ffffff" text="排名&#xA;奖励">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n19_sivq" name="grid1_0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="344,210" size="102,102" group="n22_sivq" scale="0.75,0.75"/>
+    <component id="n20_sivq" name="grid1_1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="436,210" size="102,102" group="n22_sivq" scale="0.75,0.75"/>
+    <component id="n21_sivq" name="grid1_2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="528,210" size="102,102" group="n22_sivq" scale="0.75,0.75"/>
+    <group id="n22_sivq" name="n22" xy="344,210" size="286,102" advanced="true" layout="hz" colGap="-10"/>
+    <richtext id="n23_sivq" name="n23" xy="377,313" size="93,29" fontSize="22" color="#ffffff" text="超级大奖"/>
+    <richtext id="n24_sivq" name="txtPromot" xy="343,351" size="167,27" fontSize="20" color="#00ff00" text="(晋级积分>=1000)"/>
+    <component id="n25_sivq" name="grid1_3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="531,305" group="n27_sivq" scale="0.68,0.68"/>
+    <image id="n26_sivq" name="n25" src="q4sp5" fileName="image/大奖框.png" xy="519,296" group="n27_sivq"/>
+    <image id="n78_sazu" name="n78" src="q4sp4" fileName="image/大奖.png" xy="529,304" group="n27_sivq"/>
+    <group id="n27_sivq" name="grp0" xy="519,296" size="114,111" advanced="true"/>
+    <image id="n31_sivq" name="n31" src="q4sp7" fileName="image/排名底.png" xy="8,394" size="623,102" group="n42_sivq"/>
+    <image id="n85_fgw2" name="n85" src="q4sp9" fileName="image/横幅.png" xy="10,395" group="n42_sivq"/>
+    <richtext id="n32_sivq" name="txtSec" xy="90,406" size="59,25" group="n42_sivq" fontSize="18" color="#ff9900" text="第二名"/>
+    <text id="n33_sivq" name="txtNameSec" xy="56,434" size="131,25" group="n42_sivq" fontSize="18" color="#ffffff" text="玩家名字六个字">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n34_sivq" name="txtJiFenSec" xy="52,462" size="137,25" group="n42_sivq" fontSize="18" color="#ffffff" text="晋升积分: 10000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n35_sivq" name="grid2_0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="244,405" group="n38_sivq" scale="0.75,0.75"/>
+    <component id="n36_sivq" name="grid2_1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="336,405" group="n38_sivq" scale="0.75,0.75"/>
+    <component id="n37_sivq" name="grid2_2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="428,405" group="n38_sivq" scale="0.75,0.75"/>
+    <group id="n38_sivq" name="n38" xy="244,405" size="286,102" group="n42_sivq" advanced="true" collapsed="true" layout="hz" colGap="-10"/>
+    <component id="n39_sivq" name="grid2_3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="531,407" group="n41_sivq" scale="0.68,0.68"/>
+    <image id="n40_sivq" name="n39" src="q4sp5" fileName="image/大奖框.png" xy="519,398" group="n41_sivq"/>
+    <group id="n41_sivq" name="grp2" xy="519,398" size="114,111" group="n42_sivq" advanced="true"/>
+    <image id="n81_sazu" name="n81" src="q4sp4" fileName="image/大奖.png" xy="529,406" group="n42_sivq"/>
+    <group id="n42_sivq" name="n42" xy="8,394" size="625,115"/>
+    <image id="n43_sivq" name="n43" src="q4sp7" fileName="image/排名底.png" xy="8,506" size="623,102" group="n54_sivq"/>
+    <image id="n86_fgw2" name="n86" src="q4sp9" fileName="image/横幅.png" xy="9,507" group="n54_sivq"/>
+    <richtext id="n44_sivq" name="n45" xy="92,518" size="59,25" group="n54_sivq" fontSize="18" color="#0099ff" text="第三名">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <text id="n45_sivq" name="txtNameThir" xy="56,546" size="131,25" group="n54_sivq" fontSize="18" color="#ffffff" text="玩家名字六个字">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n46_sivq" name="txtJiFenThir" xy="52,574" size="137,25" group="n54_sivq" fontSize="18" color="#ffffff" text="晋升积分: 10000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n47_sivq" name="grid3_0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="244,517" group="n50_sivq" scale="0.75,0.75"/>
+    <component id="n48_sivq" name="grid3_1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="336,517" group="n50_sivq" scale="0.75,0.75"/>
+    <component id="n49_sivq" name="grid3_2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="428,517" group="n50_sivq" scale="0.75,0.75"/>
+    <group id="n50_sivq" name="n50" xy="244,517" size="286,102" group="n54_sivq" advanced="true" layout="hz" colGap="-10"/>
+    <component id="n51_sivq" name="grid3_3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="531,519" group="n53_sivq" scale="0.68,0.68"/>
+    <image id="n52_sivq" name="n51" src="q4sp5" fileName="image/大奖框.png" xy="519,510" group="n53_sivq"/>
+    <image id="n82_sazu" name="n82" src="q4sp4" fileName="image/大奖.png" xy="529,519" group="n53_sivq"/>
+    <group id="n53_sivq" name="grp3" xy="519,510" size="114,111" group="n54_sivq" advanced="true"/>
+    <group id="n54_sivq" name="n54" xy="8,506" size="625,115"/>
+    <image id="n55_sivq" name="n55" src="q4sp7" fileName="image/排名底.png" xy="9,616" size="623,102" group="n66_sivq"/>
+    <image id="n87_fgw2" name="n87" src="q4sp9" fileName="image/横幅.png" xy="10,617" group="n66_sivq"/>
+    <richtext id="n56_sivq" name="n56" xy="93,634" size="59,25" group="n66_sivq" fontSize="18" color="#ffffff" text="4-10名"/>
+    <component id="n59_sivq" name="grid4_0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="245,628" group="n62_sivq" scale="0.75,0.75"/>
+    <component id="n60_sivq" name="grid4_1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="337,628" group="n62_sivq" scale="0.75,0.75"/>
+    <component id="n61_sivq" name="grid4_2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="429,628" group="n62_sivq" scale="0.75,0.75"/>
+    <group id="n62_sivq" name="n62" xy="245,628" size="286,102" group="n66_sivq" advanced="true" collapsed="true" layout="hz" colGap="-10"/>
+    <component id="n63_sivq" name="grid4_3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="531,629" group="n65_sivq" scale="0.68,0.68"/>
+    <image id="n64_sivq" name="n63" src="q4sp5" fileName="image/大奖框.png" xy="519,620" group="n65_sivq"/>
+    <image id="n83_sazu" name="n83" src="q4sp4" fileName="image/大奖.png" xy="529,629" group="n65_sivq"/>
+    <group id="n65_sivq" name="grp4" xy="519,620" size="114,111" group="n66_sivq" advanced="true"/>
+    <richtext id="n84_sazu" name="txtCheck" xy="84,675" size="77,25" group="n66_sivq" fontSize="18" color="#00ff00" underline="true" text="查看排行"/>
+    <group id="n66_sivq" name="n66" xy="9,616" size="624,115"/>
+    <richtext id="n68_sivq" name="txtAwardTJ" xy="16,741" size="275,25" fontSize="18" color="#ffffff" text="大奖领取条件：晋升积分>=10000"/>
+    <richtext id="n69_sivq" name="txtMinePM" xy="16,772" size="141,25" fontSize="18" color="#ffffff" text="我的排名: 未上榜"/>
+    <richtext id="n70_sivq" name="txtMineJF" xy="242,772" size="163,25" fontSize="18" color="#ffffff" text="我的晋升积分: 1500"/>
+    <component id="n71_sivq" name="btnForward" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="483,736">
+      <Button title="前往提升"/>
+    </component>
+    <image id="n73_sivq" name="btnLeft" src="gs0d67" fileName="image1/收起按钮.png" pkg="jvxpx9em" xy="9,822"/>
+    <image id="n74_sivq" name="btnRight" src="gs0d67" fileName="image1/收起按钮.png" pkg="jvxpx9em" xy="594,822" flip="hz"/>
+    <list id="n75_sivq" name="list" xy="46,801" size="548,91" layout="row" overflow="scroll" scroll="horizontal" colGap="49" defaultItem="ui://01fuz6zcsivqe">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n77_100um" name="headBg" xy="275,123" size="93,85"/>
+    <image id="n91_r09a" name="n91" src="vasq3b6" fileName="image1/经验底.png" pkg="jvxpx9em" xy="34,900" size="563,25"/>
+    <image id="n90_r09a" name="iconProp" src="vasq3b5" fileName="image1/经验.png" pkg="jvxpx9em" xy="37,903" size="557,19"/>
+    <text id="n92_r09a" name="txtProp" xy="288,902" size="60,25" fontSize="18" color="#ffffff" text="50/100">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n104_gr6p" name="n104" src="skfzmr" fileName="image/文本(1).png" xy="35,310"/>
+  </displayList>
+</component>

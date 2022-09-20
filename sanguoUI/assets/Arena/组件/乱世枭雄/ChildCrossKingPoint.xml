@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="555,585">
+  <displayList>
+    <image id="n23_qxiv" name="n23" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="555,45"/>
+    <list id="n13_j9wf" name="list" xy="0,52" size="555,450" overflow="scroll" lineGap="7" defaultItem="ui://me1skowlhfct3z">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n14_j9wf" name="lbMyPoint" xy="99,515" size="356,35" touchable="false" fontSize="22" color="#ffffff" align="center" autoSize="none" text="我的积分：10"/>
+    <richtext id="n18_j9wf" name="lbTips" xy="0,557" size="555,28" touchable="false" fontSize="18" color="#25f909" align="center" autoSize="none" text="积分奖励每日零点重置，请及时领取"/>
+    <image id="n24_qxiv" name="n24" src="j92x9s" fileName="image1/积分.png" pkg="jvxpx9em" xy="64,12"/>
+    <image id="n25_qxiv" name="n25" src="hfct5t" fileName="image/乱世枭雄/领取.png" xy="443,12"/>
+    <image id="n26_qxiv" name="n26" src="q8rv9o" fileName="image1/奖励.png" pkg="jvxpx9em" xy="249,12"/>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,532">
+  <displayList>
+    <component id="n1_gz25" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,532">
+      <Label title="比武"/>
+    </component>
+    <component id="n2_gz25" name="item0" src="gz25m" fileName="组件/YanHui_ToumamentItem.xml" xy="17,71"/>
+    <component id="n14_gz25" name="item1" src="gz25m" fileName="组件/YanHui_ToumamentItem.xml" xy="17,220"/>
+    <component id="n15_gz25" name="item2" src="gz25m" fileName="组件/YanHui_ToumamentItem.xml" xy="17,369"/>
+  </displayList>
+</component>

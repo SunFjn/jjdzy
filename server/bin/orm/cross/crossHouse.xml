@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.house.yard.model.CrossHouse" tbname="crossHouse"
+		serverid="3">
+		<index field="hid" type="prikey" />
+		<col field="hid" type="bigint" pf="all" comment="玩家id" />
+		<col field="belongZoneid" type="int" pf="all" comment="所属区服" />
+		<col field="sceneUnitId" type="int" pf="all" comment="场景唯一id" />
+		<col field="houseLv" type="int" pf="all" comment="府邸等级" />
+		<col field="houseDc" type="int" pf="all" comment="府邸档次" />
+		<col field="prosperity" type="bigint" pf="all" comment="繁荣度" />
+		<col field="decorateLvMap" type="text" pf="all" comment="装饰等级信息" />
+		<col field="name" type="varchar" len="50" pf="all" comment="玩家名字" />
+		<col field="level" type="int" pf="all" comment="玩家等级" />
+		<col field="icon" type="int" pf="all" comment="玩家头像" />
+		<col field="frame" type="int" pf="all" comment="玩家头像框" />
+		<col field="eventMap" type="text" pf="all" comment="随机事件" />
+		<col field="nextShakeTreeTime" type="int" pf="all" comment="下次可摇树时间" />
+		<col field="goldHouseMoney" type="int" pf="all" comment="金库现有府邸币库存" />
+		<col field="lastAddMoneyTime" type="int" pf="all" comment="上次金库添加府邸币时间" />
+		<col field="npcMap" type="text" pf="all" comment="强盗小怪" />
+		<col field="nextRobberTime" type="int" pf="all" comment="下次刷新强盗时间" />
+		<col field="houseKeepId" type="int" pf="all" comment="家丁id" />
+		<col field="drawAwardTimes" type="int" pf="all" comment="天工炉被借用次数" />
+		<col field="maidId" type="int" pf="all" comment="侍女id" />
+		<col field="lastLostMoneyTime" type="int" pf="all" comment="上次金库被偷时间" />
+	</tb>
+</tbs>

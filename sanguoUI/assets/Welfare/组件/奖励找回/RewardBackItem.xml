@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,140">
+  <displayList>
+    <image id="n0_o9c2" name="n0" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="631,140"/>
+    <text id="n1_o9c2" name="itemName" xy="24,11" size="71,24" fontSize="16" color="#ff9900" text="国家boss&#xA;"/>
+    <image id="n17_o9c2" name="hadGet" src="o9c213" fileName="image/已找回.png" xy="419,54"/>
+    <component id="n6_o9c2" name="get" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="339,40" group="n24_o9c2">
+      <Button title="铜钱找回"/>
+    </component>
+    <component id="n7_o9c2" name="getAll" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="478,39" group="n24_o9c2">
+      <Button title="元宝找回"/>
+    </component>
+    <image id="n27_povh" name="n27" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="479,97" size="126,28" group="n24_o9c2"/>
+    <richtext id="n9_o9c2" name="lbYB1" xy="501,94" size="101,25" group="n24_o9c2" touchable="false" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" text="10000"/>
+    <image id="n10_o9c2" name="n10" src="o9c218" fileName="image/元宝.png" xy="481,94" group="n24_o9c2"/>
+    <image id="n29_povh" name="n29" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="338,97" size="126,28" group="n24_o9c2"/>
+    <richtext id="n12_o9c2" name="lbYB2" xy="360,94" size="101,25" group="n24_o9c2" touchable="false" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" text="10000"/>
+    <text id="n14_o9c2" name="desc1" xy="365,17" size="77,25" group="n24_o9c2" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="80%奖励"/>
+    <image id="n16_o9c2" name="n16" src="o9c215" fileName="image/100%奖励.png" xy="497,19" group="n24_o9c2"/>
+    <image id="n26_onxf" name="n26" src="onxf1c" fileName="image/铜币.png" xy="336,97" group="n24_o9c2"/>
+    <group id="n24_o9c2" name="itemParent" xy="336,17" size="278,108" advanced="true"/>
+    <list id="n25_onxf" name="list" xy="18,37" size="408,104" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,50" scrollBarMargin="0,46,0,0" defaultItem="ui://jvxpx9emetorm" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

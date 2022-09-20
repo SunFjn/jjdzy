@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,112">
+  <displayList>
+    <richtext id="n0_mq9u" name="labRank" xy="0,36" size="110,35" fontSize="24" color="#ffffff" align="center" autoSize="none" text="第4名"/>
+    <richtext id="n1_mq9u" name="labName" xy="204,11" size="225,28" fontSize="18" color="#ffffff" text="昵称：S1000.玩家名字六字"/>
+    <richtext id="n3_mq9u" name="labLevel" xy="204,43" size="92,28" fontSize="18" color="#ffffff" text="等级：123"/>
+    <text id="n4_mq9u" name="labPower" xy="204,73" size="158,28" fontSize="18" color="#ffffff" text="战力：123456789"/>
+    <loader id="n7_nxcb" name="imgRank" xy="5,4" size="100,100" url="ui://y2wvab26nxcba" align="center" vAlign="middle"/>
+    <component id="n8_nxcb" name="viewHead" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="92,7"/>
+    <image id="n9_nxcb" name="n9" src="nxcba0" fileName="image1/分割线.png" pkg="jvxpx9em" xy="7,110" size="435,2"/>
+    <image id="n11_nxcb" name="imgNo" src="nxcbb" fileName="image/虚位以待 拷贝.png" xy="219,42"/>
+  </displayList>
+</component>

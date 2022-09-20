@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="394,188">
+  <displayList>
+    <image id="n1_73mn" name="n1" src="73mn6f" fileName="image1/功能开启底.png" xy="0,0"/>
+    <loader id="n2_73mn" name="iconImg" xy="142,39" size="110,133" url="ui://7gxkx46w73mn6g" align="center" vAlign="middle" fill="scaleNoBorder" shrinkOnly="true"/>
+  </displayList>
+</component>

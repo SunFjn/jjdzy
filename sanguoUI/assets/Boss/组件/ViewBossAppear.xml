@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,50">
+  <displayList>
+    <image id="n0_hfx7" name="n0" src="jb04k" fileName="image/BM_GongGaoBG.png" xy="0,0" size="450,50"/>
+    <image id="n1_hfx7" name="imgText" src="jb04b" fileName="image/BM_BOSSAPEAR.png" xy="120,3"/>
+  </displayList>
+</component>

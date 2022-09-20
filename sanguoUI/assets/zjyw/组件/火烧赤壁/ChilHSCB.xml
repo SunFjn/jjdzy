@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,771">
+  <displayList>
+    <loader id="n12_ql4n" name="imgBg" xy="0,0" size="50,50" url="ui://7a366usaql4ns"/>
+    <image id="n0_ql4n" name="n0" src="ql4nk" fileName="image/火烧赤壁/左下底.png" xy="24,315"/>
+    <richtext id="n5_ql4n" name="lbCur" xy="26,319" size="216,35" fontSize="20" color="#feecb0" align="center" autoSize="none" text="当前关卡：10关"/>
+    <richtext id="n6_ql4n" name="lbBig" xy="26,544" size="216,35" fontSize="20" color="#feecb0" align="center" autoSize="none" text="20关大奖"/>
+    <richtext id="n7_ql4n" name="lbPower" xy="26,654" size="216,35" fontSize="20" color="#e27519" align="center" autoSize="none" text="战力提示100000"/>
+    <image id="n9_ql4n" name="imgPass" src="ql4nl" fileName="image/火烧赤壁/恭喜通关.png" xy="-8,685"/>
+    <image id="n10_ql4n" name="n10" src="ql4nn" fileName="image/火烧赤壁/榜首底.png" xy="473,9"/>
+    <list id="n13_ql4n" name="listRew" xy="59,380" size="230,230" scale="0.7,0.7" layout="flow_hz" selectionMode="none" overflow="hidden" lineGap="12" colGap="13" lineItemCount="2" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n14_ql4n" name="vhead" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="506,57" scale="0.7,0.7"/>
+    <component id="n16_ql4n" name="btnBat" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="68,704">
+      <Button title="挑战"/>
+    </component>
+    <component id="n17_ql4n" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="578,8" size="57,57">
+      <Button icon="ui://7a366usaql4ny"/>
+    </component>
+    <richtext id="n18_ql4n" name="lbRank" xy="482,146" size="132,25" fontSize="16" color="#dca40f" align="center" autoSize="none" text="通关102层"/>
+    <component id="n22_r1ku" name="layer3" src="ql4ng" fileName="组件/火烧赤壁/ItemHSCB.xml" xy="147,79"/>
+    <component id="n11_ql4n" name="layer2" src="ql4ng" fileName="组件/火烧赤壁/ItemHSCB.xml" xy="297,230"/>
+    <component id="n20_r1ku" name="layer1" src="ql4ng" fileName="组件/火烧赤壁/ItemHSCB.xml" xy="459,393"/>
+    <component id="n21_r1ku" name="layer0" src="ql4ng" fileName="组件/火烧赤壁/ItemHSCB.xml" xy="345,571"/>
+    <image id="n23_r1ku" name="n23" src="r1ku10" fileName="image/火烧赤壁/奖励预览.png" xy="90,353"/>
+    <list id="n24_ujy0" name="listBig" xy="32,580" size="295,112" scale="0.7,0.7" layout="row" selectionMode="none" overflow="hidden" lineGap="12" colGap="13" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center" autoClearItems="true">
+      <item/>
+    </list>
+  </displayList>
+</component>

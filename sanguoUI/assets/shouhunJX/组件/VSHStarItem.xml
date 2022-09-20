@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="52,86">
+  <displayList>
+    <loader id="n4_l5k5" name="imgBg" xy="4,0" size="42,49" url="ui://4aepcdbwl5k54m"/>
+    <loader id="n2_l5k5" name="imgStar" xy="10,10" size="30,20" url="ui://4aepcdbwl5k54f"/>
+    <richtext id="n5_l5k5" name="lb" xy="-10,59" size="71,32" touchable="false" fontSize="18" color="#ffffff" align="center" leading="10" autoSize="none" text="1500次"/>
+  </displayList>
+</component>

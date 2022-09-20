@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,92">
+  <displayList>
+    <loader id="n8_vasq" name="imgBg" xy="6,0" size="76,76" url="ui://jvxpx9emdhj53ds" fill="scaleFree"/>
+    <loader id="n1_tht4" name="imgIcon" xy="15,9" size="58,58" aspect="true" fill="scaleFree"/>
+    <image id="n9_pxaa" name="n9" src="pxaa36" fileName="image/技能名字框.png" xy="45,63" pivot="0.5,0" anchor="true" size="90,26" pkg="zyx92gzw">
+      <relation target="n10_sn5v" sidePair="width-width"/>
+    </image>
+    <text id="n6_l0xe" name="labName" xy="-18,66" size="124,28" fontSize="18" color="#b5bfe8" align="center" autoSize="none" autoClearText="true" text="大鹏展翅"/>
+    <text id="n10_sn5v" name="labName1" xy="7,24" size="77,28" visible="false" fontSize="18" color="#b5bfe8" autoClearText="true" text="大鹏展翅"/>
+  </displayList>
+</component>

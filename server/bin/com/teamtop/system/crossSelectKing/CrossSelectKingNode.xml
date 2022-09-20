@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.crossSelectKing.CrossSelectKingNodeMapper">
+	<insert id="insert" parameterType="CrossSelectKingNode">
+		${insertSql}
+	</insert>
+	<update id="updateNode" parameterType="String">
+	    ${value}
+	</update>
+	<!--查找当前届的节点数据-->
+	<select id="findCrossSelectKingNode" resultType="hashmap">
+		select * from crossSelectKingNode
+	</select>
+	<!-- 批量更新数据 -->
+	<update id="insertOnDuplicateBatch" parameterType="String">
+		${value}
+	</update> 
+     <!-- 清空所有本服晋级赛角色数据 -->
+	<delete id="truncateCrossSelectKingNode">
+		truncate table crossSelectKingNode
+	</delete>
+</mapper>

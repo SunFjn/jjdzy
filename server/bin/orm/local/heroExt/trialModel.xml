@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossTrial.model.TrialModel" tbname="trialModel">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="floor" type="int" pf="all" comment="当前层"/>
+			<col field="passFloor" type="int" pf="all" comment="已通关层"/>
+			<col field="trailPoint" type="int" pf="all" comment="试炼点"/>
+			<col field="buffAttr" type="text" pf="all" comment="buff 临时属性"/>
+			<col field="getChestMap" type="text" pf="all" comment="领取宝箱次数"/>
+			<col field="buffMap" type="text" pf="all" comment="buff层刷新的buff"/>
+			<col field="enemyMap" type="text" pf="all" comment="类型对手数据"/>
+			<col field="enemyDetialMap" type="text" pf="all" comment="对手详细数据"/>
+			<col field="fightType" type="int" pf="all" comment="在打类型"/>
+			<col field="historyFloor" type="int" pf="all" comment="历史最高层"/>
+     </tb>
+</tbs>

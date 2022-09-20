@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.talent.model.Talent" tbname="talent">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="showItemList" type="text" pf="all" comment=" 展示信息"/>
+			<col field="awards" type="text" pf="all" comment="修炼奖励"/>
+			<col field="num" type="int" pf="all" comment="修炼次数"/>
+     </tb>
+</tbs>

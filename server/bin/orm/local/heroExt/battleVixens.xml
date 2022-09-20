@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.battleVixens.model.BattleVixens" tbname="battleVixens">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="hardType" type="int" pf="all" comment="开启的最高难度"/>
+			<col field="passMap" type="varchar" len="250" pf="all" comment="通关信息"/>
+			<col field="maxPassId" type="int" pf="all" comment="最高通关编号"/>
+			<col field="todayHardType" type="int" pf="all" comment="今日最高难度"/>
+			<col field="todayMaxPassId" type="int" pf="all" comment="今日最高通关编号"/>
+			<col field="buyNum" type="int" pf="all" comment="当天已购买的挑战次数"/>
+			<col field="addNum" type="int" pf="all" comment="一骑当千令次数"/>
+			<col field="freeCha" type="int" pf="all" comment="免费挑战次数"/>
+			<col field="challengeNum" type="int" pf="all" comment="已挑战次数"/>
+			<col field="strength" type="bigint" pf="all" comment="通关最高层时的战力"/>
+			<col field="resetTime" type="int" pf="all" comment="重置时间"/>
+			<col field="topPassMap" type="varchar" len="250" pf="all" comment="历史最高通关信息"/>
+     </tb>
+</tbs>

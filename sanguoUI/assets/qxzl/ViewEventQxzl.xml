@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://6d8dzzdgrak313">
+  <controller name="tabCtrl" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n13_rak3" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="26,828">
+      <Button checked="true" title="全服战况" controller="tabCtrl" page="0"/>
+    </component>
+    <component id="n14_rak3" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="145,828">
+      <Button title="个人战况" controller="tabCtrl" page="1"/>
+    </component>
+    <component id="n0_fmjx" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="13,115" size="614,719">
+      <Label title="战况"/>
+    </component>
+    <image id="n15_g6cv" name="n15" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="28,195" size="581,601"/>
+    <component id="n17_i2j2" name="logCom" src="i2j21g" fileName="com/QxzlLogCom.xml" xy="40,206"/>
+  </displayList>
+</component>

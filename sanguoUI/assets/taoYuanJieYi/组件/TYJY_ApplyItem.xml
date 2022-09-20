@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="573,153">
+  <displayList>
+    <image id="n8_htpq" name="n8" src="m3513bv" fileName="image/通用底框/tips.png" pkg="jvxpx9em" xy="0,0" size="573,153"/>
+    <component id="n2_vfmx" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="130,61"/>
+    <component id="n3_vfmx" name="viewHead" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="13,24" size="119,127"/>
+    <richtext id="n4_vfmx" name="nameLb" xy="143,32" size="155,32" fontSize="25" color="#ffffff" text="玩家名字六字"/>
+    <component id="n5_vfmx" name="cancelBtn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="424,79">
+      <Button title="拒绝"/>
+    </component>
+    <component id="n6_vfmx" name="okBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="424,17">
+      <Button title="同意"/>
+    </component>
+  </displayList>
+</component>

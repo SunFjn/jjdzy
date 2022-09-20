@@ -1,0 +1,9 @@
+2020-10-27 18:17:31.164 [OpTaskExecutorService-thread-12] ERROR com.teamtop.util.exector.schedule.ScheduleFixtime - java.lang.NullPointerException
+	at com.teamtop.system.country.newkingship.NewKingShipEvent.fixTimeEnd(NewKingShipEvent.java:126)
+	at com.teamtop.system.country.newkingship.NewKingShipEvent.fixTime(NewKingShipEvent.java:168)
+	at com.teamtop.util.exector.schedule.ScheduleFixtime.execute(ScheduleFixtime.java:119)
+	at com.teamtop.system.gm.event.TimeGMFunction.UpdateTime(TimeGMFunction.java:351)
+	at com.teamtop.system.gm.event.TimeGMFunction$1.run(TimeGMFunction.java:246)
+	at com.teamtop.synHandleCore.OpTaskExecutorService$Work.run(OpTaskExecutorService.java:314)
+	at java.lang.Thread.run(Thread.java:745)
+,excute event ocurs an error

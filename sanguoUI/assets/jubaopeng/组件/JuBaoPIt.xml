@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="639,153">
+  <displayList>
+    <image id="n4_cct4" name="n4" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="639,153"/>
+    <component id="n0_m8f8" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="463,45">
+      <Button title="领取"/>
+    </component>
+    <image id="n1_m8f8" name="pic" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="470,54"/>
+    <image id="n8_zazn" name="n8" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="19,13"/>
+    <richtext id="n2_m8f8" name="lbCondition" xy="25,12" size="77,28" fontSize="18" color="#ffffff" text="累计充值"/>
+    <list id="n9_l3sh" name="n9" xy="34,50" size="347,110" scale="0.8,0.8" layout="flow_hz" overflow="scroll" colGap="12" defaultItem="ui://jvxpx9emetorm">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

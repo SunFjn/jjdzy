@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,86">
+  <displayList>
+    <image id="n0_mca4" name="n0" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="0,0" size="600,86"/>
+    <text id="n1_mca4" name="n1" xy="249,28" size="101,35" fontSize="24" color="#00ff00" align="center" text="准备战斗">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

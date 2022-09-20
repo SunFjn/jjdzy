@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="273,455" extention="Label">
+  <displayList>
+    <loader id="n52_gz25" name="backImg" xy="0,0" size="273,455" url="ui://ypo8uejwgz259"/>
+    <image id="n54_gz25" name="n54" src="htpq1q" fileName="image/通用底框/名字底框.png" pkg="jvxpx9em" xy="31,7" size="209,40"/>
+    <loader id="n27_ctaj" name="modelImg0" xy="63,85" size="148,206" align="center" vAlign="middle"/>
+    <list id="n45_ctaj" name="list" xy="11,330" size="252,110" layout="row" overflow="hidden" colGap="10" defaultItem="ui://ypo8uejwgz25a" autoItemSize="false" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n55_gz25" name="title" xy="67,12" size="148,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="高级家丁"/>
+  </displayList>
+</component>

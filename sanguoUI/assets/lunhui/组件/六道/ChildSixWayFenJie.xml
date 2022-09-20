@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" designImage="ui://ehelf5bh11m1w1b">
+  <displayList>
+    <component id="n23_v97g" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://ehelf5bh11m1w1d"/>
+    </component>
+    <image id="n25_v97g" name="n25" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="12,151" size="616,362"/>
+    <image id="n26_v97g" name="n26" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="12,509" size="616,175"/>
+    <list id="n2_11m1w" name="list" xy="17,159" size="604,344" layout="flow_hz" overflow="scroll" lineGap="4" colGap="8" lineItemCount="4" defaultItem="ui://ehelf5bh11m1w10" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_11m1w" name="check5" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="502,727" size="116,32">
+      <Button title="彩&lt;font color='#ed1414'>色&lt;/font>&lt;font color='#ffc344'>印&lt;/font>&lt;font color='#da2bfa'>记&lt;/font>" titleColor="#3ba5ff"/>
+    </component>
+    <component id="n4_11m1w" name="check1" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="16,725" size="116,32">
+      <Button title="绿蓝印记" titleColor="#3ba5ff"/>
+    </component>
+    <component id="n5_11m1w" name="check2" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="136,725" size="116,32">
+      <Button title="紫色印记" titleColor="#ff00ff"/>
+    </component>
+    <component id="n6_11m1w" name="check3" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="260,725" size="116,32">
+      <Button title="橙色印记" titleColor="#ffc344"/>
+    </component>
+    <component id="n7_11m1w" name="check4" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="379,725" size="116,32">
+      <Button title="红色印记" titleColor="#ed1414"/>
+    </component>
+    <component id="n21_11m1w" name="grid" src="11m1w11" fileName="组件/六道/VSixWayGrid.xml" xy="29,532"/>
+    <component id="n10_11m1w" name="labT" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="147,684" size="349,32">
+      <Label title="分解印记" titleFontSize="25"/>
+    </component>
+    <component id="n14_11m1w" name="btnFenJ" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="251,821">
+      <Button title="分解印记"/>
+    </component>
+    <richtext id="n15_11m1w" name="lbName" xy="196,523" size="109,29" font="SimHei" fontSize="25" color="#ffffff" text="天道风印"/>
+    <richtext id="n16_11m1w" name="lbAttr" xy="196,588" size="300,95" font="SimHei" fontSize="20" color="#ffffff" autoSize="none" text="攻击：125000&#xA;攻击：125000&#xA;攻击：125000"/>
+    <text id="n17_11m1w" name="lbLevel" xy="314,525" size="31,27" fontSize="20" color="#ffffff" text="Lv."/>
+    <richtext id="n18_11m1w" name="lbPower" xy="196,557" size="153,27" fontSize="20" color="#33ff33" text="战力：10000000"/>
+    <text id="n19_11m1w" name="n19" xy="24,888" size="590,28" fontSize="16" color="#00ff00" align="center" autoSize="none" text="分解后将返还所有培养材料"/>
+    <component id="n24_v97g" name="vres" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="245,777" size="151,36">
+      <Label title="300"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,128 @@
+2022-09-18 20:00:00.299 [任务线程 - 53] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossFireBeacon.FrieBeaconLocalSysEvent@2a65fe7c,now:1663502400,dayTime:2000
+2022-09-18 20:00:00.314 [任务线程 - 53] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossFireBeacon.CrossFireBeaconSysEvent@6302bbb1,now:1663502400,dayTime:2000
+2022-09-18 20:00:00.632 [任务线程 - 19] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossFireBeacon.FrieBeaconLocalSysEvent@4562e04d,now:1663502400,dayTime:2000
+2022-09-18 20:00:00.644 [任务线程 - 19] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossFireBeacon.CrossFireBeaconSysEvent@4135c3b,now:1663502400,dayTime:2000
+2022-09-18 20:00:00.650 [任务线程 - 19] INFO  com.teamtop.system.crossBoss.cross.CrossBossCrossEvent - CrossBossCrossEvent.fixTime cmdId:2 time:2022-09-18_20-00-00s
+2022-09-18 20:00:00.651 [任务线程 - 19] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossBoss.cross.CrossBossCrossEvent@280e8a1a,now:1663502400,dayTime:2000
+2022-09-18 20:00:00.651 [任务线程 - 19] INFO  com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossEvent - WDTX.FixTime bigan.cmd:4
+2022-09-18 20:00:00.651 [任务线程 - 19] INFO  com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossFunction - WDTX.begin.zid:1 timeEnd:1663503600
+2022-09-18 20:00:00.652 [任务线程 - 19] INFO  com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossEvent - WDTX.FixTime.cmd:4
+2022-09-18 20:00:00.652 [任务线程 - 19] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossEvent@41b0ae4c,now:1663502400,dayTime:2000
+2022-09-18 20:00:00.661 [任务线程 - 19] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - week event:com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossEvent@74abbb,now:1663502400,dayTime:2000
+2022-09-18 20:00:00.661 [crossChannelEx - 5] INFO  com.teamtop.system.crossBoss.CrossBossIO - local tell cross state:2  1
+2022-09-18 20:00:00.674 [crossChannelEx - 7] INFO  com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaIO - CrossWenDingTianXiaIO sendBeginTimeAndStarCL state=1, time=1663503600
+2022-09-18 20:00:43.098 [任务线程 - 52] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:01:00.731 [任务线程 - 39] INFO  com.teamtop.system.event.backstage.BackstageSystemEvent - 60m event:com.teamtop.system.event.backstage.events.flowMMCache.FlowMMCacheEvent@2ad33b63,now:1663502460
+2022-09-18 20:01:43.028 [任务线程 - 5] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:02:43.039 [任务线程 - 55] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:03:43.050 [任务线程 - 2] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:04:43.059 [任务线程 - 45] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:05:00.780 [任务线程 - 2] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - week event:com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossEvent@74abbb,now:1663502700,dayTime:2005
+2022-09-18 20:05:43.072 [任务线程 - 16] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:06:43.100 [任务线程 - 37] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:07:43.114 [任务线程 - 43] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:08:43.125 [任务线程 - 9] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:09:43.137 [任务线程 - 33] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:10:43.145 [任务线程 - 15] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:11:43.155 [任务线程 - 26] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:12:43.163 [任务线程 - 9] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:13:00.428 [任务线程 - 48] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - activityOper type:3 success,proFlag:0 proState:0
+2022-09-18 20:13:00.489 [任务线程 - 48] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - week event:com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossEvent@74abbb,now:1663503180,dayTime:2013
+2022-09-18 20:13:43.169 [任务线程 - 6] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:14:43.192 [任务线程 - 44] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:15:00.433 [任务线程 - 61] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - week event:com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossEvent@74abbb,now:1663503300,dayTime:2015
+2022-09-18 20:15:43.220 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:16:43.276 [任务线程 - 57] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:17:43.301 [任务线程 - 33] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:18:43.310 [任务线程 - 44] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:19:43.333 [任务线程 - 41] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:20:00.693 [任务线程 - 19] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossFireBeacon.CrossFireBeaconSysEvent@4135c3b,now:1663503600,dayTime:2020
+2022-09-18 20:20:00.694 [任务线程 - 19] INFO  com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossEvent - WDTX.FixTime bigan.cmd:5
+2022-09-18 20:20:00.695 [任务线程 - 38] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossFireBeacon.CrossFireBeaconSysEvent@6302bbb1,now:1663503600,dayTime:2020
+2022-09-18 20:20:00.701 [任务线程 - 19] INFO  com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossFunction - WDTX.Send room awards.roomID:1
+2022-09-18 20:20:00.706 [任务线程 - 19] INFO  com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossFunction - WDTX.RankAwards.rankList size:0
+2022-09-18 20:20:00.711 [任务线程 - 19] INFO  com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossEvent - WDTX.FixTime.cmd:5
+2022-09-18 20:20:00.728 [任务线程 - 19] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossEvent@41b0ae4c,now:1663503600,dayTime:2020
+2022-09-18 20:20:00.731 [任务线程 - 19] INFO  com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossFunction - activityOper type:4 success,proFlag:0 proState:0
+2022-09-18 20:20:00.739 [crossChannelEx - 3] INFO  com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaIO - CrossWenDingTianXiaIO sendBeginTimeAndStarCL state=2, time=0
+2022-09-18 20:20:00.757 [任务线程 - 19] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - week event:com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossEvent@74abbb,now:1663503600,dayTime:2020
+2022-09-18 20:20:43.347 [任务线程 - 10] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:21:43.368 [任务线程 - 46] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:22:43.380 [任务线程 - 35] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:23:43.445 [任务线程 - 10] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:24:43.490 [任务线程 - 41] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:25:43.529 [任务线程 - 34] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:26:43.564 [任务线程 - 35] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:27:43.588 [任务线程 - 19] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:28:00.496 [任务线程 - 29] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - week event:com.teamtop.system.crossDynastyWarriors.DynastyWarriorsSysEvent@6aeb35e6,now:1663504080,dayTime:2028
+2022-09-18 20:28:00.571 [任务线程 - 9] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - week event:com.teamtop.system.crossDynastyWarriors.DynastyWarriorsSysEvent@1283bb96,now:1663504080,dayTime:2028
+2022-09-18 20:28:43.602 [任务线程 - 45] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:29:00.976 [任务线程 - 41] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - week event:com.teamtop.system.crossDynastyWarriors.cross.CrossDynastyWarriorsSysEvent@4cb0a000,now:1663504140,dayTime:2029
+2022-09-18 20:29:43.615 [任务线程 - 20] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:30:00.465 [任务线程 - 62] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossSoloRun.SoloRunSysEvent@42a48628,now:1663504200,dayTime:2030
+2022-09-18 20:30:00.469 [任务线程 - 62] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossFireBeacon.FrieBeaconLocalSysEvent@4562e04d,now:1663504200,dayTime:2030
+2022-09-18 20:30:00.473 [任务线程 - 62] INFO  com.teamtop.system.house.yanhui.event.YanhuiEvent - YanhuiEvent.fixTime cmdId:2 time:2022-09-18_20-30-00s
+2022-09-18 20:30:00.473 [任务线程 - 62] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.house.yanhui.event.YanhuiEvent@71e9ddb4,now:1663504200,dayTime:2030
+2022-09-18 20:30:00.492 [任务线程 - 62] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - week event:com.teamtop.system.crossDynastyWarriors.cross.CrossDynastyWarriorsSysEvent@4cb0a000,now:1663504200,dayTime:2030
+2022-09-18 20:30:00.579 [任务线程 - 38] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossSoloRun.SoloRunSysEvent@293a5bf6,now:1663504200,dayTime:2030
+2022-09-18 20:30:00.582 [任务线程 - 38] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossFireBeacon.FrieBeaconLocalSysEvent@2a65fe7c,now:1663504200,dayTime:2030
+2022-09-18 20:30:00.583 [任务线程 - 38] INFO  com.teamtop.system.house.yanhui.event.YanhuiEvent - YanhuiEvent.fixTime cmdId:2 time:2022-09-18_20-30-00s
+2022-09-18 20:30:00.583 [任务线程 - 38] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.house.yanhui.event.YanhuiEvent@394df057,now:1663504200,dayTime:2030
+2022-09-18 20:30:43.627 [任务线程 - 25] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:31:43.642 [任务线程 - 3] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:32:43.658 [任务线程 - 41] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:33:43.675 [任务线程 - 50] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:34:43.689 [任务线程 - 8] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:35:43.702 [任务线程 - 37] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:36:43.729 [任务线程 - 35] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:37:43.743 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:38:43.757 [任务线程 - 36] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:39:43.759 [任务线程 - 55] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:40:43.775 [任务线程 - 36] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:41:43.812 [任务线程 - 5] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:42:43.832 [任务线程 - 1] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:43:43.840 [任务线程 - 11] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:44:43.845 [任务线程 - 52] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:45:43.853 [任务线程 - 54] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:46:43.871 [任务线程 - 63] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:47:43.890 [任务线程 - 62] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:48:43.903 [任务线程 - 14] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:49:43.913 [任务线程 - 61] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:50:00.495 [任务线程 - 45] INFO  com.teamtop.util.exector.schedule.SchedulerBean - 任务 [ZSBOSS] 已取消 !
+2022-09-18 20:50:00.497 [任务线程 - 45] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2022-09-18 20:50:00.497 [任务线程 - 45] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2022-09-18 20:50:00.498 [任务线程 - 45] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2022-09-18 20:50:00.498 [任务线程 - 45] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2022-09-18 20:50:00.499 [任务线程 - 45] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2022-09-18 20:50:00.499 [任务线程 - 45] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2022-09-18 20:50:00.500 [任务线程 - 45] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2022-09-18 20:50:00.501 [任务线程 - 45] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2022-09-18 20:50:00.501 [任务线程 - 45] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0, useTime=9999
+2022-09-18 20:50:00.501 [任务线程 - 45] INFO  com.teamtop.system.crossBoss.CrossBossFunction - crossBoss addHp=-2, xhp=0, maxNum=20, minNum=0
+2022-09-18 20:50:00.547 [任务线程 - 45] INFO  com.teamtop.system.crossBoss.cross.CrossBossCrossEvent - CrossBossCrossEvent.fixTime cmdId:0 time:2022-09-18_20-50-00s
+2022-09-18 20:50:00.547 [crossChannelEx - 2] INFO  com.teamtop.system.crossBoss.CrossBossIO - local tell cross state:0  1
+2022-09-18 20:50:00.547 [任务线程 - 45] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossBoss.cross.CrossBossCrossEvent@280e8a1a,now:1663505400,dayTime:2050
+2022-09-18 20:50:00.549 [crossChannelEx - 8] INFO  com.teamtop.system.crossBoss.CrossBossIO - localReceiveData :{{240003:{{240003,0,{!},{!},!}},240002:{{240002,0,{!},{!},!}},240001:{{240001,0,{!},{!},!}},240005:{{240005,0,{!},{!},!}},240004:{{240004,0,{!},{!},!}}},{1}}
+2022-09-18 20:50:43.927 [任务线程 - 24] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:51:43.944 [任务线程 - 63] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:52:43.961 [任务线程 - 24] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:53:43.972 [任务线程 - 35] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:54:43.990 [任务线程 - 5] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:55:00.784 [任务线程 - 36] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生1001——3003 bossid:240001 maxhp1367530000 倍数：0总血量：1367530000
+2022-09-18 20:55:00.790 [任务线程 - 36] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240001 tempMaxHp:0
+2022-09-18 20:55:00.791 [任务线程 - 36] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生4001——6003 bossid:240002 maxhp6730920000 倍数：0总血量：6730920000
+2022-09-18 20:55:00.791 [任务线程 - 36] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240002 tempMaxHp:0
+2022-09-18 20:55:00.791 [任务线程 - 36] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生7001——8003 bossid:240003 maxhp25705905000 倍数：0总血量：25705905000
+2022-09-18 20:55:00.791 [任务线程 - 36] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240003 tempMaxHp:0
+2022-09-18 20:55:00.791 [任务线程 - 36] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生9001——10003 bossid:240004 maxhp62142310000 倍数：0总血量：62142310000
+2022-09-18 20:55:00.791 [任务线程 - 36] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240004 tempMaxHp:0
+2022-09-18 20:55:00.791 [任务线程 - 36] INFO  com.teamtop.system.crossBoss.CrossBossFunction - 转生11001——12003 bossid:240005 maxhp104600755000 倍数：0总血量：104600755000
+2022-09-18 20:55:00.791 [任务线程 - 36] INFO  com.teamtop.system.crossBoss.CrossBossFunction - ready new CrossBoss :1 zsBossid:240005 tempMaxHp:0
+2022-09-18 20:55:00.797 [任务线程 - 36] INFO  com.teamtop.system.crossBoss.cross.CrossBossCrossEvent - CrossBossCrossEvent.fixTime cmdId:1 time:2022-09-18_20-55-00s
+2022-09-18 20:55:00.797 [任务线程 - 36] INFO  com.teamtop.util.exector.schedule.ScheduleFixtime - day event:com.teamtop.system.crossBoss.cross.CrossBossCrossEvent@280e8a1a,now:1663505700,dayTime:2055
+2022-09-18 20:55:00.799 [crossChannelEx - 6] INFO  com.teamtop.system.crossBoss.CrossBossIO - local tell cross state:1  1
+2022-09-18 20:55:44.025 [任务线程 - 46] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:56:44.064 [任务线程 - 61] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:57:44.097 [任务线程 - 31] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:58:44.126 [任务线程 - 43] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1
+2022-09-18 20:59:44.142 [任务线程 - 41] INFO  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache - KuaFuFenQuCache size=1

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <richtext id="n0_afjm" name="n0" xy="117,457" size="405,69" fontSize="50" color="#663399" text="正在进入自由地图">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

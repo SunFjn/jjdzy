@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="304,115" extention="Label">
+  <displayList>
+    <image id="n1_wea3" name="n1" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="0,0" size="304,115" locked="true"/>
+    <list id="n2_wea3" name="list" xy="94,36" size="322,105" scale="0.65,0.65" layout="flow_hz" overflow="hidden" scroll="horizontal" colGap="4" defaultItem="ui://jvxpx9emetorm" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n3_wea3" name="checkTxt" xy="218,6" size="85,31" fontSize="20" color="#33ff00" underline="true" text="查看排行"/>
+    <loader id="n7_k8x0" name="icon" xy="12,2" size="114,31" url="ui://qz5r0meldsdya"/>
+    <list id="n9_ju2y" name="bpList" xy="12,31" size="92,97" scale="0.9,0.9" layout="flow_hz" overflow="hidden" colGap="15" defaultItem="ui://qz5r0meldsdy1">
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,906" opaque="false">
+  <displayList>
+    <image id="n11_jkp6" name="n11" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="18,156" size="604,417"/>
+    <list id="n0_etor" name="dataList" xy="36,169" size="578,397" layout="flow_hz" overflow="hidden" lineGap="-3" colGap="16" lineItemCount="5" defaultItem="ui://jvxpx9emetorn" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_cyxg" name="btn_rl" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="254,844">
+      <Button title="一键熔炼" titleColor="#ffffff"/>
+    </component>
+    <component id="n5_jkp6" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="75,657" size="491,21">
+      <ProgressBar max="100"/>
+    </component>
+    <component id="n7_jkp6" name="labLevel" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="140,597" size="359,31">
+      <relation target="n5_jkp6" sidePair="center-center"/>
+      <Label title="熔炼等级 13"/>
+    </component>
+    <text id="n8_jkp6" name="labAttr0" xy="35,701" size="180,28" group="n25_w4dl" fontSize="18" color="#ffffff" align="center" ubb="true" autoSize="none" text="生命[color=#18e748]+1000[/color]"/>
+    <text id="n9_jkp6" name="labAttr1" xy="229,701" size="180,28" group="n25_w4dl" fontSize="18" color="#ffffff" align="center" ubb="true" autoSize="none" text="生命+1000"/>
+    <text id="n10_jkp6" name="labAttr2" xy="424,701" size="180,28" group="n25_w4dl" fontSize="18" color="#ffffff" align="center" ubb="true" autoSize="none" text="生命+1000"/>
+    <group id="n25_w4dl" name="n25" xy="35,701" size="569,28" collapsed="true"/>
+    <text id="n12_mq9u" name="labRl0" xy="35,783" size="180,28" group="n28_w4dl" fontSize="18" color="#ffffff" align="center" ubb="true" autoSize="none" text="生命[color=#18e748]+1000[/color]"/>
+    <text id="n13_mq9u" name="labRl1" xy="229,783" size="180,28" group="n28_w4dl" fontSize="18" color="#ffffff" align="center" ubb="true" autoSize="none" text="生命+1000"/>
+    <text id="n14_mq9u" name="labRl2" xy="424,783" size="180,28" group="n28_w4dl" fontSize="18" color="#ffffff" align="center" ubb="true" autoSize="none" text="生命+1000"/>
+    <text id="n15_rxjy" name="labRl3" xy="35,829" size="180,28" group="n28_w4dl" fontSize="18" color="#ffffff" align="center" ubb="true" autoSize="none" text="生命+1000"/>
+    <text id="n16_kxay" name="labRl4" xy="224,829" size="180,28" group="n28_w4dl" fontSize="18" color="#ffffff" align="center" ubb="true" autoSize="none" text="生命+1000"/>
+    <group id="n28_w4dl" name="n28" xy="35,783" size="569,74" collapsed="true"/>
+    <component id="n27_w4dl" name="linkLb0" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="155,757" size="329,31" group="n22_j6jz">
+      <relation target="n5_jkp6" sidePair="center-center"/>
+      <Label title="获取装备"/>
+    </component>
+    <richtext id="n18_j6jz" name="linkLb1" xy="139,798" size="98,34" group="n22_j6jz" fontSize="20" color="#00cc00" align="center" autoSize="none" underline="true" text="组队"/>
+    <richtext id="n19_j6jz" name="linkLb2" xy="272,798" size="85,34" group="n22_j6jz" fontSize="20" color="#00cc00" align="center" autoSize="none" underline="true" text="组队"/>
+    <richtext id="n20_j6jz" name="linkLb3" xy="393,798" size="98,34" group="n22_j6jz" fontSize="20" color="#00cc00" align="right" autoSize="none" underline="true" text="全民BOSS"/>
+    <group id="n22_j6jz" name="boxGetEq" xy="139,757" size="352,75" hideByEditor="true" advanced="true" collapsed="true"/>
+    <image id="n26_w4dl" name="n26" src="dlak69" fileName="image/箭头+其他/间隔线.png" pkg="jvxpx9em" xy="20,746" size="600,2"/>
+  </displayList>
+</component>

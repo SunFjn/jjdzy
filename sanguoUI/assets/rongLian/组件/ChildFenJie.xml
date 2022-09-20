@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,915" opaque="false">
+  <displayList>
+    <loader id="n15_kgke" name="imageItem" xy="76,439" size="488,263" hideByEditor="true" url="ui://ny9kb4yzkgke9" autoSize="true"/>
+    <image id="n2_kgke" name="n2" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="20,155" size="599,284"/>
+    <image id="n23_if1k" name="n23" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="20,693" size="600,127"/>
+    <image id="n21_if1k" name="n21" src="if1k3hc" fileName="image/通用底框/小标题文字底.png" pkg="jvxpx9em" xy="194,456"/>
+    <list id="n0_etor" name="list1" xy="34,168" size="581,268" layout="flow_hz" overflow="scroll" colGap="16" lineItemCount="5" defaultItem="ui://ny9kb4yze1fic" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_kgke" name="btn_fj" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="154,853">
+      <Button title="分解"/>
+    </component>
+    <component id="n4_kgke" name="viewRes" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="147,823"/>
+    <component id="n5_kgke" name="btnMin" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="168,647">
+      <Button title="-10"/>
+    </component>
+    <component id="n6_kgke" name="btnReduce" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="225,648" size="40,41">
+      <Button title="-1"/>
+    </component>
+    <image id="n7_kgke" name="n7" src="rt7o4r" fileName="image/通用底框/货币底.png" pkg="jvxpx9em" xy="273,655" size="99,27"/>
+    <component id="n8_kgke" name="btnAdd" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="379,648" size="40,41"/>
+    <richtext id="n9_kgke" name="lbCount" xy="273,653" size="101,31" touchable="false" fontSize="20" color="#ffffff" align="center" autoSize="none" text="1"/>
+    <component id="n10_kgke" name="btnMax" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="428,647">
+      <Button title="+10"/>
+    </component>
+    <component id="n13_kgke" name="grid_fj" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="274,498"/>
+    <list id="n14_kgke" name="list2" xy="36,728" size="710,107" scale="0.8,0.8" layout="flow_hz" colGap="38" lineItemCount="4" defaultItem="ui://jvxpx9emetorm" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n16_kgke" name="n16" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="155,456">
+      <Label title="分解道具"/>
+    </component>
+    <component id="n18_ujlb" name="btn_fj1" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="350,853">
+      <Button title="一键分解"/>
+    </component>
+    <component id="n19_ujlb" name="viewRes1" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="334,822"/>
+    <component id="n22_if1k" name="n22" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="155,696">
+      <Label title="分解预览"/>
+    </component>
+  </displayList>
+</component>

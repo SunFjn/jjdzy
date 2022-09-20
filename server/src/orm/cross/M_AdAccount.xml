@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 广告号账号数据 -->
+	<tb model="com.teamtop.houtaiHttp.events.adMonitor.M_AdAccount" tbname="m_adaccount" serverid="2">
+		<index field="id" type="prikey"/>
+		<index field="time" type="normal"/>
+		<index field="openid" type="unique"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="openid" type="varchar" len="255" pf="all" comment="角色账号"/>
+		<col field="time" type="int" pf="all" comment="添加时间"/>
+	</tb>
+</tbs>

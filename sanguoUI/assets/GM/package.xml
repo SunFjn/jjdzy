@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="vm9a8xq8" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="7jrg0" name="ViewGmPanel.xml" path="/组件/" exported="true"/>
+    <component id="7jrg1" name="ChildGm.xml" path="/组件/" exported="true"/>
+    <component id="qm4n4" name="ViewGmTip.xml" path="/组件/" exported="true"/>
+    <component id="qm4n5" name="ChildGmTip.xml" path="/组件/" exported="true"/>
+    <component id="qb9y6" name="ArenaEntry.xml" path="/组件/" exported="true"/>
+    <component id="qla28" name="Child_SkillTest.xml" path="/组件/" exported="true"/>
+    <component id="q8rv9" name="ChildActivityGm.xml" path="/组件/" exported="true"/>
+    <component id="q8rva" name="GmBar.xml" path="/组件/" exported="true"/>
+    <component id="pckgb" name="ViewGMProtocolPanel.xml" path="/组件/" exported="true"/>
+    <component id="pckgc" name="GMProtItem.xml" path="/组件/" exported="true"/>
+    <component id="pckgd" name="GMProtInputItem.xml" path="/组件/" exported="true"/>
+    <component id="p3a0e" name="ChildTest.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish npot="true" name="GM" genCode="true"/>
+</packageDescription>

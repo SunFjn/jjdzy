@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="121,172" extention="Button">
+  <displayList>
+    <loader id="n11_idjl" name="icon" xy="-5,0" size="131,172" touchable="false" url="ui://p8pwr887qt181b" autoSize="true"/>
+    <image id="n16_idjl" name="noticeImg1" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="103,30" visible="false"/>
+    <image id="n17_qt18" name="noticeImg" src="qt181a" fileName="image/···.png" xy="76,-49" pivot="0.39,1"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.10"/>
+  <relation target="n11_idjl" sidePair="width-width,height-height"/>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n17_qt18" tween="true" startValue="0" endValue="5" duration="2" ease="Linear"/>
+    <item time="2" type="Rotation" target="n17_qt18" tween="true" startValue="5" endValue="-5" duration="3" ease="Linear"/>
+    <item time="5" type="Rotation" target="n17_qt18" tween="true" startValue="-5" endValue="1" duration="2" ease="Linear"/>
+    <item time="18" type="Rotation" target="n17_qt18" value="1"/>
+  </transition>
+</component>

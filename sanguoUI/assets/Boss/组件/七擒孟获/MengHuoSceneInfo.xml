@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,193" opaque="false">
+  <displayList>
+    <image id="n11_bx2z" name="n11" src="bx2z89" fileName="image1/公告底.png" pkg="jvxpx9em" xy="102,29" size="434,38" group="n12_bx2z"/>
+    <richtext id="n7_klpn" name="lb1" xy="140,35" size="41,27" group="n12_bx2z" fontSize="18" color="#ffffff" text="魏国&#xA;"/>
+    <richtext id="n8_klpn" name="lb2" xy="283,35" size="41,27" group="n12_bx2z" fontSize="18" color="#ffffff" text="魏国&#xA;"/>
+    <richtext id="n9_klpn" name="lb3" xy="438,35" size="41,27" group="n12_bx2z" fontSize="18" color="#ffffff" text="魏国&#xA;"/>
+    <image id="n38_hxms" name="n38" src="xyp27g" fileName="image1/country1.png" pkg="jvxpx9em" xy="94,31" pivot="0.5,0.5" size="52,36" group="n12_bx2z" scale="0.6,0.6"/>
+    <image id="n39_hxms" name="n39" src="xyp27h" fileName="image1/country2.png" pkg="jvxpx9em" xy="241,31" pivot="0.5,0.5" size="47,35" group="n12_bx2z" scale="0.6,0.6"/>
+    <image id="n40_hxms" name="n40" src="xyp27i" fileName="image1/country3.png" pkg="jvxpx9em" xy="392,31" pivot="0.5,0.5" size="53,36" group="n12_bx2z" scale="0.6,0.6"/>
+    <group id="n12_bx2z" name="n12" xy="94,29" size="442,38" advanced="true" collapsed="true"/>
+    <image id="n30_bx2z" name="n30" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="493,257" size="205,74" group="n18_bx2z"/>
+    <component id="n43_y9g1" name="btnTg" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="562,264" size="72,59" group="n18_bx2z">
+      <Button icon="ui://47jfyc6ehxms2j"/>
+    </component>
+    <group id="n18_bx2z" name="n18" xy="493,257" size="205,74" advanced="true"/>
+    <image id="n28_bx2z" name="n28" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="505,86" size="168,86" group="n22_bx2z"/>
+    <richtext id="n21_bx2z" name="lbDmgAdd" xy="555,151" size="69,22" group="n22_bx2z" fontSize="16" color="#00ff00" text="伤害+0%"/>
+    <component id="n44_y9g1" name="btnAdd" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="558,87" size="75,68" group="n22_bx2z">
+      <Button icon="ui://47jfyc6ehxms2i"/>
+    </component>
+    <group id="n22_bx2z" name="n22" xy="505,86" size="168,87" advanced="true"/>
+    <image id="n29_bx2z" name="n29" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="497,179" size="205,72" group="n26_bx2z"/>
+    <component id="n42_y9g1" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="565,182" size="58,65" group="n26_bx2z">
+      <Button icon="ui://47jfyc6ebx2z25"/>
+    </component>
+    <group id="n26_bx2z" name="n26" xy="497,179" size="205,72" advanced="true"/>
+    <image id="n34_hxms" name="n34" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="509,4" size="205,60" group="n37_hxms"/>
+    <richtext id="n35_hxms" name="n22" xy="551,10" size="95,25" group="n37_hxms" fontSize="18" color="#ffffff" text="剩余时间："/>
+    <richtext id="n36_hxms" name="lbTime" xy="519,39" size="158,25" group="n37_hxms" fontSize="16" color="#00ff00" align="center" autoSize="none" text="2018-10-17 21:59:08"/>
+    <group id="n37_hxms" name="n37" xy="509,4" size="205,60" advanced="true"/>
+    <image id="n13_bx2z" name="n13" src="bx2z89" fileName="image1/公告底.png" pkg="jvxpx9em" xy="103,74" size="434,38" group="n41_hxms"/>
+    <richtext id="n2_fog8" name="lbInfo" xy="106,80" size="41,25" group="n41_hxms" touchable="false" fontSize="18" color="#ffffff" text="自己"/>
+    <richtext id="n31_hxms" name="lbBestInfo" xy="246,80" size="10,28" group="n41_hxms" touchable="false" fontSize="18" color="#ffffff" text=""/>
+    <group id="n41_hxms" name="n41" xy="103,74" size="434,38"/>
+  </displayList>
+</component>

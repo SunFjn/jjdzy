@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="530,100" overflow="scroll">
+  <displayList>
+    <richtext id="n0_hsa2" name="n0" xy="0,0" size="40,28" fontSize="18" color="#ffffff" leading="8" text=""/>
+  </displayList>
+</component>

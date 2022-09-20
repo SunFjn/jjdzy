@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="129,70">
+  <displayList>
+    <loader id="n0_sjy2" name="n0" xy="0,0" size="129,70" align="center">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+  </displayList>
+</component>

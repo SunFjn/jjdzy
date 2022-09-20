@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="9v2h3i3b">
+  <resources>
+    <component id="p3o20" name="ClientWeb.xml" path="/view/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

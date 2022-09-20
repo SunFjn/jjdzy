@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.baoWuXianShi.BaoWuXianShi" tbname="baoWuXianShi">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="timeGeted" type="int" pf="all" comment="上一次领取的时间"/>
+			<col field="numGetToday" type="int" pf="all" comment="今天领取次数"/>
+     </tb>
+</tbs>

@@ -1,0 +1,4 @@
+interface IArpgManager {
+	enter();
+	exite();
+}

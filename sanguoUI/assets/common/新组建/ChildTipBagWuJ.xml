@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="374,339">
+  <displayList>
+    <image id="n26_ud97" name="g22" src="x3b93cl" fileName="image/通用底框/方框3.png" xy="0,0" size="374,339"/>
+    <richtext id="n22_cyxg" name="lbDesTit" xy="41,8" size="77,28" touchable="false" fontSize="18" color="#ffc344" autoSize="none" text="道具展示"/>
+    <image id="n28_q2i9" name="img" src="m3513c0" fileName="image/通用底框/新版台子.png" xy="187,248" pivot="0.5,0.2" anchor="true" aspect="true"/>
+    <component id="n30_q2i9" name="skill0" src="l0xet" fileName="新组建/VWuJiangSkillS.xml" xy="16,257" scale="0.8,0.8"/>
+    <component id="n31_q2i9" name="skill1" src="l0xet" fileName="新组建/VWuJiangSkillS.xml" xy="106,257" scale="0.8,0.8"/>
+    <component id="n32_q2i9" name="skill2" src="l0xet" fileName="新组建/VWuJiangSkillS.xml" xy="196,257" scale="0.8,0.8"/>
+    <component id="n33_q2i9" name="skill3" src="l0xet" fileName="新组建/VWuJiangSkillS.xml" xy="286,257" scale="0.8,0.8"/>
+    <image id="n34_q2i9" name="imgDes" src="irr13gw" fileName="image/花纹/菱形花纹.png" xy="17,12"/>
+  </displayList>
+</component>

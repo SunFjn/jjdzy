@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="558,87">
+  <displayList>
+    <image id="n14_a0u3" name="n14" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="558,87"/>
+    <richtext id="n17_a0u3" name="lb" xy="21,25" size="72,34" fontSize="22" color="#e2ad38" align="center" autoSize="none" text="50"/>
+    <list id="n18_a0u3" name="list" xy="157,5" size="340,114" scale="0.7,0.7" layout="row" overflow="scroll" scroll="horizontal" colGap="13" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <component id="n21_a0u3" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="404,12">
+      <Button title="领取"/>
+    </component>
+    <image id="n22_a0u3" name="imgHas" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="411,22"/>
+    <richtext id="n16_a0u3" name="lbNO" xy="437,26" size="71,34" fontSize="22" color="#ff0000" text="未达成"/>
+  </displayList>
+</component>

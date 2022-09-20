@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+       Copyright 2009-2013 the original author or authors.
+
+       Licensed under the Apache License, Version 2.0 (the "License");
+       you may not use this file except in compliance with the License.
+       You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+       Unless required by applicable law or agreed to in writing, software
+       distributed under the License is distributed on an "AS IS" BASIS,
+       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+       See the License for the specific language governing permissions and
+       limitations under the License.
+-->
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<!--设置别名-->
+	<typeAliases>
+		<typeAlias alias="AlterColumn" type="com.teamtop.util.db.autoTable.AlterColumn" />	
+		<typeAlias alias="FieldStru" type="com.teamtop.util.db.autoTable.FieldStru" />
+		<typeAlias alias="KeyStru" type="com.teamtop.util.db.autoTable.KeyStru" />		
+		<typeAlias alias="Hero" type="com.teamtop.system.hero.Hero" />		
+		<typeAlias alias="Account" type="com.teamtop.system.account.Account" />
+		<typeAlias alias="LightLoginHero" type="com.teamtop.system.hero.LightLoginHero" />
+		<typeAlias alias="GlobalData" type="com.teamtop.system.global.GlobalData" />
+		<typeAlias alias="Equip" type="com.teamtop.system.equip.model.Equip" />
+		<typeAlias alias="DelHero" type="com.teamtop.hefu.DelHero" />
+		<typeAlias alias="GodOfWarRank" type="com.teamtop.system.godOfWar.model.GodOfWarRank" />
+		<typeAlias alias="FightNSScoreRank" type="com.teamtop.system.country.fightNorthAndSouth.model.FightNSScoreRank" />
+		<typeAlias alias="CountryStrengthRankModel" type="com.teamtop.system.country.model.CountryStrengthRankModel" />
+		<typeAlias alias="KingShipModel" type="com.teamtop.system.country.kingship.model.KingShipModel" />
+	    <typeAlias alias="CrossKingRank" type="com.teamtop.system.crossKing.model.CrossKingRank"/>
+	    <typeAlias alias="CrossKingInfo" type="com.teamtop.system.crossKing.model.CrossKingInfo"/>
+	    <typeAlias alias="CrossSelectKing" type="com.teamtop.system.crossSelectKing.cross.CrossSelectKing"/>
+	    <typeAlias alias="CrossSelectKingNode" type="com.teamtop.system.crossSelectKing.cross.CrossSelectKingNode"/>
+	    <typeAlias alias="CDkeyData" type="com.teamtop.system.cdkey.model.CDkeyData"/>
+	    <typeAlias alias="ActivityData" type="com.teamtop.system.activity.model.ActivityData"/>
+	    <typeAlias alias="AbsOpenDaysSystemModel" type="com.teamtop.system.openDaysSystem.model.AbsOpenDaysSystemModel"/>
+	    <typeAlias alias="B_RoleInfo" type="com.teamtop.system.event.backstage.events.backstage.roleInfo.B_RoleInfo" />
+	    <typeAlias alias="B_PayAccount" type="com.teamtop.system.event.backstage.events.backstage.recharge.B_PayAccount" />
+	    <typeAlias alias="B_Register" type="com.teamtop.system.event.backstage.events.backstage.register.B_Register" />
+		<typeAlias alias="B_Online" type="com.teamtop.system.event.backstage.events.backstage.online.B_Online" />
+		<typeAlias alias="M_ServerInfo" type="com.teamtop.system.event.backstage.events.backstage.serverInfoList.M_ServerInfo"/>
+		<typeAlias alias="M_WhiteList" type="com.teamtop.system.event.backstage.events.backstage.whiteList.M_WhiteList"/>
+		<typeAlias alias="ChatMapper" type="com.teamtop.system.chat.dao.ChatMapper"/>
+		<typeAlias alias="M_BlackList" type="com.teamtop.system.event.backstage.events.backstage.blackList.M_BlackList"/>
+		<typeAlias alias="M_RechargeWhiteList" type="com.teamtop.system.event.backstage.events.backstage.rechargeWhiteList.M_RechargeWhiteList"/>
+		<typeAlias alias="AntiAddictionInfo" type="com.teamtop.system.antiAddictionSystem.model.AntiAddictionInfo"/>
+		<typeAlias alias="CrossMine" type="com.teamtop.system.crossMine.model.CrossMine"/>
+		<typeAlias alias="KuaFuFenQuInfo" type="com.teamtop.system.event.backstage.events.backstage.kuaFuFenQu.KuaFuFenQuInfo"/>
+		<typeAlias alias="PlatformInfo" type="com.teamtop.redeploy.platformInfo.PlatformInfo"/>
+		<typeAlias alias="CrossMineLocal" type="com.teamtop.system.crossMine.model.CrossMineLocal"/>
+		<typeAlias alias="ExclusiveActivityData" type="com.teamtop.system.exclusiveActivity.model.ExclusiveActivityData"/>
+		<typeAlias alias="WeiXinShare" type="com.teamtop.system.weiXinShare.model.WeiXinShare"/>
+		<typeAlias alias="M_AdMark" type="com.teamtop.system.event.backstage.events.backstage.adMark.M_AdMark"/>
+	    <typeAlias alias="TigerPassEmployer" type="com.teamtop.system.tigerPass.model.TigerPassEmployer"/>
+	   	<typeAlias alias="CrossZhuLuRoomInfo" type="com.teamtop.system.crossZhuLu.model.CrossZhuLuRoomInfo"/>
+	   	<typeAlias alias="CrossZhuLuHeroInfo" type="com.teamtop.system.crossZhuLu.model.CrossZhuLuHeroInfo"/>
+	    <typeAlias alias="M_IpWhiteList" type="com.teamtop.system.event.backstage.events.backstage.ipWhiteList.M_IpWhiteList"/>		
+	    <typeAlias alias="TaoyuanSworn" type="com.teamtop.system.taoyuanSworn.model.TaoyuanSworn"/>		
+	    <typeAlias alias="Sworn" type="com.teamtop.system.taoyuanSworn.model.Sworn"/>		
+	    <typeAlias alias="HeroLevelInfo" type="com.teamtop.houtaiHttp.events.mail.HeroLevelInfo"/>
+		<typeAlias alias="Achievement" type="com.teamtop.system.achievement.model.Achievement"/>
+		<typeAlias alias="GuardArea" type="com.teamtop.system.guardArea.model.GuardArea"/>
+		<typeAlias alias="CrossHouse" type="com.teamtop.system.house.yard.model.CrossHouse"/>
+		<typeAlias alias="YuanXiaoCrossJoiner" type="com.teamtop.system.activity.ativitys.yuanXiao.model.YuanXiaoCrossJoiner"/>
+		<typeAlias alias="RedBoxCross" type="com.teamtop.system.redBox.cross.RedBoxCross"/>
+		<typeAlias alias="AttackCity" type="com.teamtop.system.crossAttackCity.model.AttackCity"/>		
+	</typeAliases>
+	<typeHandlers>
+	</typeHandlers>
+
+	<mappers>
+		<mapper resource="com/teamtop/util/db/autoTable/ddl.xml" />
+		<mapper resource="com/teamtop/system/hero/hero.xml" />
+		<mapper resource="com/teamtop/system/guanqia/guanqia.xml" />
+		<mapper resource="com/teamtop/system/account/account.xml" />
+		<mapper resource="com/teamtop/system/global/global_data.xml"/>
+		<mapper resource="com/teamtop/system/equip/model/equip.xml"/>
+		<mapper resource="com/teamtop/util/db/orm/OrmDmlMapper.xml" />
+		<mapper resource="com/teamtop/system/mail/dao/mail.xml"/>
+		<mapper resource="com/teamtop/system/event/backstage/dao/backstage.xml"/>
+		<mapper resource="com/teamtop/system/event/backstage/events/flowMail/flowMail.xml"/>
+		<mapper resource="com/teamtop/system/rankNew/dao/ranking.xml"/>
+		<mapper resource="com/teamtop/system/event/backstage/events/backstage/houtai.xml"/>
+		<mapper resource="com/teamtop/system/event/backstage/events/backstage/oldPlayer/oldPlayer.xml"/>
+		<mapper resource="com/teamtop/system/event/backstage/events/backstage/blackList/blackList.xml"/>
+		<mapper resource="com/teamtop/system/event/backstage/events/backstage/redList/redList.xml"/>
+		<mapper resource="com/teamtop/redeploy/HotswapRec.xml"/>
+		<mapper resource="com/teamtop/system/battleVixens/battleVixens.xml" />
+		<mapper resource="com/teamtop/system/godOfWar/model/GodOfWarRank.xml" />
+		<mapper resource="com/teamtop/system/country/model/countrydata.xml" />
+		<mapper resource="com/teamtop/system/crossKing/model/CrossKingRank.xml" />
+		<mapper resource="com/teamtop/system/crossKing/model/CrossKingInfo.xml" />
+		<mapper resource="com/teamtop/system/crossSelectKing/CrossSelectKing.xml" />
+		<mapper resource="com/teamtop/system/crossSelectKing/CrossSelectKingNode.xml" />
+		<mapper resource="com/teamtop/system/cdkey/model/cdkeydata.xml" />
+		<mapper resource="com/teamtop/system/activity/model/activityData.xml" />
+		<mapper resource="com/teamtop/system/openDaysSystem/model/openDaysSystem.xml" />
+		<mapper resource="com/teamtop/system/event/backstage/events/backstage/whiteList/whiteList.xml"/>
+		<mapper resource="com/teamtop/system/event/backstage/events/backstage/serverInfoList/serverInfo.xml" />
+		<mapper resource="com/teamtop/hefu/hefu.xml"/>
+		<mapper resource="com/teamtop/system/chat/dao/chat.xml"/>
+		<mapper resource="com/teamtop/system/event/backstage/events/backstage/rechargeWhiteList/M_RechargeWhiteList.xml"/>
+		<mapper resource="com/teamtop/system/event/backstage/events/backstage/antiaddiction/antiAddiction.xml"/>
+		<mapper resource="com/teamtop/system/crossMine/CrossMine.xml"/>
+		<mapper resource="com/teamtop/system/event/backstage/events/backstage/kuaFuFenQu/kuaFuFenQuInfo.xml"/>
+		<mapper resource="com/teamtop/redeploy/platformInfo/platformInfo.xml"/>
+		<mapper resource="com/teamtop/system/crossMine/CrossMineLocal.xml"/>
+		<mapper resource="com/teamtop/system/exclusiveActivity/exclusiveActivity.xml"/>
+		<mapper resource="com/teamtop/system/weiXinShare/WeiXinShare.xml"/>
+		<mapper resource="com/teamtop/system/event/backstage/events/backstage/adMark/adMark.xml"/>
+		<mapper resource="com/teamtop/system/tigerPass/TigerPassEmployer.xml"/>
+		<mapper resource="com/teamtop/system/event/backstage/events/backstage/ipWhiteList/ipWhiteList.xml"/>
+		<mapper resource="com/teamtop/system/crossZhuLu/xml/CrossZhuLuRoomInfo.xml"/>
+		<mapper resource="com/teamtop/system/crossZhuLu/xml/CrossZhuLuHeroInfo.xml"/>
+		<mapper resource="com/teamtop/system/taoyuanSworn/dao/taoyuanSworn.xml"/>
+		<mapper resource="com/teamtop/system/taoyuanSworn/dao/sworn.xml"/>
+		<mapper resource="com/teamtop/system/achievement/Achievement.xml"/>
+		<mapper resource="com/teamtop/system/guardArea/model/GuardArea.xml"/>
+		<mapper resource="com/teamtop/system/house/yard/model/CrossHouse.xml"/>
+		<mapper resource="com/teamtop/system/activity/ativitys/yuanXiao/model/YuanXiaoCrossJoiner.xml"/>
+		<mapper resource="com/teamtop/system/redBox/cross/RedBoxCross.xml"/>
+		<mapper resource="com/teamtop/system/crossAttackCity/model/AttackCity.xml"/>
+	</mappers>
+</configuration>

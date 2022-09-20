@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="333,28">
+  <displayList>
+    <image id="n0_hd20" name="n0" src="lipbm" fileName="images/血条底.png" xy="61,3" size="224,21"/>
+    <loader id="n1_hd20" name="hp1" xy="63,6" size="218,15" url="ui://mbcu0qc0lipbo" fill="scaleFree"/>
+    <richtext id="n2_hd20" name="n2" xy="0,0" size="56,28" fontSize="18" color="#e3a812" autoSize="none" text="S9999"/>
+    <richtext id="n3_hd20" name="n3" xy="147,2" size="50,26" fontSize="16" color="#ffffff" align="center" text="积分:0&#xA;">
+      <relation target="n0_hd20" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n4_hd20" name="n4" xy="292,0" size="41,28" fontSize="18" color="#33ff00" align="center" text="胜利"/>
+  </displayList>
+</component>

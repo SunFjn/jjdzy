@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,289">
+  <displayList>
+    <image id="n70_rc5p" name="n70" src="e7lcj" fileName="出图文件/底1.png" xy="0,0"/>
+    <image id="n69_rc5p" name="n69" src="e7lci" fileName="出图文件/底2.png" xy="0,157"/>
+    <component id="n66_rc5p" name="item0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="19,50" scale="0.8,0.8"/>
+    <component id="n67_rc5p" name="item1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="18,181" scale="0.8,0.8"/>
+    <richtext id="n46_tvlr" name="tfIndex" xy="37,7" pivot="0.5,0" size="34,28" fontSize="18" color="#ffffff" align="center" autoClearText="true" text="5级"/>
+    <image id="n71_vfla" name="lbNo0" src="e7lcg" fileName="出图文件/无奖励.png" xy="13,78" pivot="0.5,0" visible="false"/>
+    <image id="n72_vfla" name="lbNo1" src="e7lcg" fileName="出图文件/无奖励.png" xy="13,209" pivot="0.5,0" visible="false"/>
+  </displayList>
+</component>

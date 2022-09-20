@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://3o8q23uuymt71o">
+  <controller name="teamCtrl" pages="0,,1,,2," selected="0">
+    <remark page="0" value="无队伍状态"/>
+    <remark page="1" value="队长"/>
+    <remark page="2" value="队员"/>
+  </controller>
+  <controller name="copyCtrl" exported="true" pages="" selected="-1"/>
+  <displayList>
+    <image id="n43_q4bc" name="n43" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="2,138" size="636,786"/>
+    <loader id="n48_chem" name="bgLoader" xy="11,144" size="619,253" url="ui://3o8q23uuchem24"/>
+    <image id="n0_ymt7" name="n0" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="17,560" size="605,275"/>
+    <component id="n2_ymt7" name="titleCopy" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="155,569" pivot="0.5,0.5" size="321,25">
+      <Label title="队伍信息"/>
+    </component>
+    <component id="n3_ymt7" name="createBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="467,845" pivot="0.5,0.5">
+      <gearDisplay controller="teamCtrl" pages="0"/>
+      <Button title="创建房间"/>
+    </component>
+    <list id="n7_ymt7" name="listTeam" xy="32,582" size="588,247" layout="row" overflow="hidden" defaultItem="ui://3o8q23uuokqy1m" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n1_ymt7" name="btnChat" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="22,565" pivot="0.5,0.5" size="51,47">
+      <Button icon="ui://7gxkx46wi2yv6i"/>
+    </component>
+    <component id="n9_ymt7" name="btnInvite" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="318,845" pivot="0.5,0.5">
+      <gearDisplay controller="teamCtrl" pages="1"/>
+      <Button title="邀请协助"/>
+    </component>
+    <component id="n10_ymt7" name="btnExit" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="467,845" pivot="0.5,0.5">
+      <gearDisplay controller="teamCtrl" pages="2"/>
+      <Button title="退出"/>
+    </component>
+    <component id="n11_ymt7" name="btnCreate" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="467,845" pivot="0.5,0.5">
+      <gearDisplay controller="teamCtrl" pages="0"/>
+      <Button title="创建队伍"/>
+    </component>
+    <component id="n12_ymt7" name="btnStart" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="467,845" pivot="0.5,0.5">
+      <gearDisplay controller="teamCtrl" pages="1"/>
+      <Button title="开始挑战"/>
+    </component>
+    <richtext id="n13_ymt7" name="tfChallengeCount" xy="40,846" size="77,25" touchable="false" fontSize="18" color="#ffffff" align="center" text="挑战次数"/>
+    <richtext id="n14_ymt7" name="tfHelpCount" xy="40,879" size="77,25" touchable="false" fontSize="18" color="#ffffff" align="center" text="协助次数"/>
+    <image id="n21_ymt7" name="n21" src="m3513bv" fileName="image/通用底框/tips.png" pkg="jvxpx9em" xy="14,390" size="612,158"/>
+    <list id="n22_ymt7" name="itemList" xy="28,443" size="546,109" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="1" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n23_ymt7" name="starCom" src="ymt71w" fileName="轮回副本/LhfbStarCom.xml" xy="35,407"/>
+    <component id="n24_ymt7" name="btnRefresh" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="478,416" pivot="0.5,0.5">
+      <Button title="刷新奖励"/>
+    </component>
+    <richtext id="n40_ymt7" name="n40" xy="294,411" size="165,22" touchable="false" fontSize="16" color="#ffffff" align="center" text="星数越多，奖励越丰厚"/>
+    <component id="n41_ymt7" name="resCom" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="471,484" size="145,35"/>
+    <list id="n42_ldei" name="listCopy1" xy="16,162" size="608,229" layout="row" overflow="scroll" scroll="horizontal" scrollBar="hidden" defaultItem="ui://3o8q23uuymt71v" autoItemSize="false" selectionController="copyCtrl" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n44_k90x" name="resHelp" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="126,877" visible="false">
+      <relation target="n14_ymt7" sidePair="left-right"/>
+    </component>
+    <component id="n46_chem" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="612,261" pivot="0.5,0.5" anchor="true" size="55,63" aspect="true" scale="0.8,0.8">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n47_chem" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="27,262" pivot="0.5,0.5" anchor="true" size="55,63" scale="-0.8,0.8">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+  </displayList>
+</component>

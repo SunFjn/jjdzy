@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="76,71">
+  <displayList>
+    <loader id="n2_w5fd" name="bg" xy="2,0" size="69,69" url="ui://jvxpx9emy1z8p" fill="scaleFree"/>
+    <loader id="n3_w5fd" name="imgIcon" xy="4,2" size="65,65" url="ui://zyx92gzwl0xew" fill="scaleFree"/>
+    <richtext id="n5_xh30" name="lbLevel" xy="1,44" size="69,28" touchable="false" fontSize="18" color="#ffffff" align="right" leading="0" autoSize="none" strokeColor="#000000" text="Lv.100"/>
+    <image id="n6_vh5g" name="imgLocked" src="k8qc9z" fileName="image1/maskBg.png" xy="2,0" size="69,69"/>
+    <image id="n7_qyuu" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" xy="56,-6" visible="false"/>
+  </displayList>
+</component>

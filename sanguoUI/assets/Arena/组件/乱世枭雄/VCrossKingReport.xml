@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="532,32">
+  <displayList>
+    <richtext id="n10_j9wf" name="lbLog" xy="4,4" size="240,28" touchable="false" fontSize="18" color="#ffffff" text="战胜了S252.XXXX , 排名上升"/>
+    <image id="n12_qxiv" name="imgUp" src="hfct5d" fileName="image/乱世枭雄/晋级.png" xy="262,9">
+      <relation target="n10_j9wf" sidePair="right-right"/>
+    </image>
+    <image id="n13_qxiv" name="imgDown" src="hfct5s" fileName="image/乱世枭雄/降级.png" xy="262,9">
+      <relation target="n10_j9wf" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>

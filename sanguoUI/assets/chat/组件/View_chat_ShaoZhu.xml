@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,549">
+  <displayList>
+    <component id="n0_wjpa" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,549" locked="true">
+      <Label title="展示"/>
+    </component>
+    <image id="n27_wjpa" name="n27" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="23,392" size="547,125" locked="true"/>
+    <loader id="n1_wjpa" name="backIcon" xy="24,29" size="542,490" locked="true" touchable="false" url="ui://fx4pr5qewjpa29" fill="scaleFree"/>
+    <image id="n11_wjpa" name="n11" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="7,255" locked="true"/>
+    <image id="n24_wjpa" name="n24" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="86,293" size="129,39" locked="true"/>
+    <image id="n26_wjpa" name="n26" src="sv0g2l" fileName="image1/big_star_4.png" pkg="jvxpx9em" xy="151,299" locked="true"/>
+    <image id="n34_dx1h" name="n34" src="dx1h2n" fileName="image/主动技能底框.png" xy="290,224" locked="true"/>
+    <richtext id="n25_wjpa" name="starLb" xy="98,295" size="47,35" locked="true" fontSize="24" color="#ffffff" align="right" autoSize="none" text="10"/>
+    <component id="n23_wjpa" name="n23" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="132,359" size="329,31" locked="true">
+      <Label title="被动技能"/>
+    </component>
+    <component id="n7_wjpa" name="ownerLb" src="wjpa25" fileName="组件/ChatShowLabel.xml" xy="286,73"/>
+    <component id="n8_wjpa" name="nameLb" src="wjpa25" fileName="组件/ChatShowLabel.xml" xy="286,111"/>
+    <component id="n9_wjpa" name="powerLb" src="wjpa25" fileName="组件/ChatShowLabel.xml" xy="286,185" locked="true"/>
+    <component id="n19_wjpa" name="skill0" src="ewn52k" fileName="组件/ChatShaoZhuSkillGrid.xml" xy="46,397" group="n28_wjpa" locked="true"/>
+    <component id="n20_wjpa" name="skill1" src="ewn52k" fileName="组件/ChatShaoZhuSkillGrid.xml" xy="151,397" group="n28_wjpa" locked="true"/>
+    <component id="n21_wjpa" name="skill2" src="ewn52k" fileName="组件/ChatShaoZhuSkillGrid.xml" xy="256,397" group="n28_wjpa" locked="true"/>
+    <component id="n22_wjpa" name="skill3" src="ewn52k" fileName="组件/ChatShaoZhuSkillGrid.xml" xy="361,397" group="n28_wjpa" locked="true"/>
+    <component id="n31_ewn5" name="skill4" src="ewn52k" fileName="组件/ChatShaoZhuSkillGrid.xml" xy="466,397" group="n28_wjpa" locked="true"/>
+    <group id="n28_wjpa" name="n28" xy="46,397" size="510,115" locked="true" collapsed="true"/>
+    <component id="n32_ewn5" name="skill" src="ewn52k" fileName="组件/ChatShaoZhuSkillGrid.xml" xy="424,235" locked="true"/>
+    <richtext id="n29_ewn5" name="n29" xy="314,251" size="85,31" locked="true" fontSize="20" color="#ffffff" text="主动技能"/>
+    <richtext id="n35_dx1h" name="skillNameLb" xy="313,285" size="89,28" locked="true" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text=""/>
+    <richtext id="n36_dx1h" name="levelLb" xy="437,300" size="63,28" locked="true" fontSize="18" color="#ffffff" align="center" autoSize="none" text="Lv.99"/>
+    <loader id="n37_oyny" name="levelIcon" xy="338,112" size="138,28"/>
+    <component id="n38_hd47" name="qianNengLb" src="wjpa25" fileName="组件/ChatShowLabel.xml" xy="286,148"/>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.weekCard.model.WeekCardModel" tbname="weekCardModel">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="dailyAward" type="int" pf="all" comment="每日奖励领取状态 (0:未领取,1:已领取)"/>
+			<col field="startTime" type="int" pf="all" comment="周卡起效时间"/>
+			<col field="endTime" type="int" pf="all" comment="周卡失效时间"/>
+			<col field="dailyFirst" type="int" pf="all" comment="每天第一次打开"/>
+     </tb>
+</tbs>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,904" opaque="false">
+  <displayList>
+    <component id="n17_z1r8" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="270,371"/>
+    <component id="n18_z1r8" name="suitBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="395,219" size="89,75">
+      <Button icon="ui://pofv8989bwmw5t"/>
+    </component>
+    <richtext id="n31_bwmw" name="getBt" xy="510,858" size="85,27" fontSize="20" color="#00ff00" underline="true" text="获取宝石"/>
+    <component id="n19_z1r8" name="stoneBt0" src="sv0ga" fileName="GemBt.xml" xy="186,518"/>
+    <component id="n20_z1r8" name="stoneBt1" src="sv0ga" fileName="GemBt.xml" xy="356,518"/>
+    <component id="n21_z1r8" name="stoneBt2" src="sv0ga" fileName="GemBt.xml" xy="186,662"/>
+    <component id="n22_z1r8" name="stoneBt3" src="sv0ga" fileName="GemBt.xml" xy="356,662"/>
+    <component id="n23_z1r8" name="keyBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="255,842">
+      <Button title="一键镶嵌"/>
+    </component>
+    <richtext id="n25_bwmw" name="suitLb" xy="407,291" size="72,31" touchable="false" fontSize="20" color="#ffffff" align="center" leading="0" autoSize="none" strokeColor="#000000" text="3阶"/>
+    <richtext id="n26_bwmw" name="nameLb" xy="218,337" size="204,31" touchable="false" fontSize="20" color="#e5bd1d" align="center" autoSize="none" text="装备名称"/>
+  </displayList>
+</component>

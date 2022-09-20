@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_rh40" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://zzz8io3ru5zb9"/>
+    </component>
+    <loader id="n9_u5zb" name="bg2" xy="10,146" size="620,773" url="ui://zzz8io3rvuzv31"/>
+    <image id="n16_mt87" name="n16" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="28,724" size="584,190"/>
+    <component id="n2_o512" name="bar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="68,860" size="499,21">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n3_o512" name="g0" src="o5122" fileName="组件/MRBox.xml" xy="75,750"/>
+    <component id="n4_o512" name="g1" src="o5122" fileName="组件/MRBox.xml" xy="269,750"/>
+    <component id="n5_o512" name="g2" src="o5122" fileName="组件/MRBox.xml" xy="463,750"/>
+    <richtext id="n10_u5zb" name="n10" xy="90,880" size="70,28" fontSize="18" color="#ffffff" text="累计2天"/>
+    <richtext id="n11_u5zb" name="n11" xy="286,880" size="70,28" fontSize="18" color="#ffffff" text="累计4天"/>
+    <richtext id="n12_u5zb" name="n12" xy="478,880" size="70,28" fontSize="18" color="#ffffff" text="累计6天"/>
+    <image id="n13_kfz1" name="imgYLQ" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="392,581" size="124,40"/>
+    <image id="n18_srmp" name="n18" src="z1jw6w" fileName="image/战力底.png" pkg="jvxpx9em" xy="180,684"/>
+    <image id="n7_u5zb" name="n7" src="htjf2z" fileName="image/额外奖励.png" xy="256,704"/>
+    <list id="n19_ejku" name="n19" xy="319,456" size="333,127" scale="0.8,0.8" layout="flow_hz" overflow="scroll" colGap="11" defaultItem="ui://jvxpx9emetorn" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n21_htjf" name="n21" xy="319,352" size="333,127" scale="0.8,0.8" layout="flow_hz" overflow="scroll" colGap="11" defaultItem="ui://jvxpx9emetorn" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n22_htjf" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="387,572">
+      <Button title="充点小钱"/>
+    </component>
+  </displayList>
+</component>

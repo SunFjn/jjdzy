@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,429">
+  <displayList>
+    <component id="n0_81i0" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,429">
+      <Label title="玩家信息"/>
+    </component>
+    <image id="n7_wjpa" name="n7" src="m3513c0" fileName="image/新版台子.png" pkg="jvxpx9em" xy="22,321"/>
+    <image id="n19_ej6h" name="n19" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="300,124" size="282,30" alpha="0.5"/>
+    <loader id="n14_wjpa" name="titleIcon" xy="45,66" size="223,75" align="center" fill="scaleNoBorder"/>
+    <component id="n8_wjpa" name="levelLb" src="wjpa25" fileName="组件/ChatShowLabel.xml" xy="300,158"/>
+    <component id="n9_wjpa" name="powerLb" src="wjpa25" fileName="组件/ChatShowLabel.xml" xy="300,192"/>
+    <component id="n10_wjpa" name="zsLb" src="wjpa25" fileName="组件/ChatShowLabel.xml" xy="300,226"/>
+    <component id="n11_wjpa" name="jinshengLb" src="wjpa25" fileName="组件/ChatShowLabel.xml" xy="300,260"/>
+    <component id="n12_wjpa" name="countryLb" src="wjpa25" fileName="组件/ChatShowLabel.xml" xy="300,294"/>
+    <component id="n13_wjpa" name="jxLb" src="wjpa25" fileName="组件/ChatShowLabel.xml" xy="300,328"/>
+    <richtext id="n20_ej6h" name="nameLb" xy="300,124" size="63,29" touchable="false" fontSize="18" color="#eba819" leading="0" bold="true" singleLine="true" text="名字11">
+      <relation target="" sidePair="width-width,height-height"/>
+    </richtext>
+    <text id="n18_ej6h" name="vipLb" xy="363,125" size="68,26" font="ui://jvxpx9em608a8q" fontSize="22" color="#ffffff" leading="0" text="P12">
+      <relation target="n20_ej6h" sidePair="right-right"/>
+    </text>
+  </displayList>
+</component>

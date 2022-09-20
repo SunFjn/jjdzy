@@ -1,0 +1,606 @@
+2020-11-05 10:21:00.935 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 10:23:07.616 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863922303,hid:1000100000000752
+2020-10-26 10:23:17.630 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863912289,hid:1000100000000752
+2020-10-26 10:23:27.632 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863902287,hid:1000100000000752
+2020-10-26 10:23:38.631 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863891288,hid:1000100000000752
+2020-10-26 10:23:48.631 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863881288,hid:1000100000000752
+2020-10-26 10:23:58.631 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863871288,hid:1000100000000752
+2020-10-26 10:24:08.631 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863861288,hid:1000100000000752
+2020-10-26 10:24:19.632 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863850287,hid:1000100000000752
+2020-10-26 10:24:29.631 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863840288,hid:1000100000000752
+2020-10-26 10:24:39.632 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863830287,hid:1000100000000752
+2020-10-26 10:24:49.632 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863820287,hid:1000100000000752
+2020-10-26 10:25:00.633 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863809286,hid:1000100000000752
+2020-10-26 10:25:11.632 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863798287,hid:1000100000000752
+2020-10-26 10:25:21.632 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863788287,hid:1000100000000752
+2020-10-26 10:25:32.634 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863777285,hid:1000100000000752
+2020-10-26 10:25:42.632 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863767287,hid:1000100000000752
+2020-10-26 10:25:52.633 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863757286,hid:1000100000000752
+2020-10-26 10:26:02.633 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863747286,hid:1000100000000752
+2020-10-26 10:26:12.633 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863737286,hid:1000100000000752
+2020-10-26 10:26:22.634 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863727285,hid:1000100000000752
+2020-10-26 10:26:33.632 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863716287,hid:1000100000000752
+2020-10-26 10:26:43.633 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863706286,hid:1000100000000752
+2020-10-26 10:26:53.633 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863696286,hid:1000100000000752
+2020-10-26 10:27:04.634 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863685285,hid:1000100000000752
+2020-10-26 10:27:15.634 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863674285,hid:1000100000000752
+2020-10-26 10:27:25.634 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863664285,hid:1000100000000752
+2020-10-26 10:27:35.645 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863654274,hid:1000100000000752
+2020-10-26 10:27:45.634 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863644285,hid:1000100000000752
+2020-10-26 10:27:55.634 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863634285,hid:1000100000000752
+2020-10-26 10:28:05.635 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863624284,hid:1000100000000752
+2020-10-26 10:28:15.635 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863614284,hid:1000100000000752
+2020-10-26 10:28:25.629 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863604290,hid:1000100000000752
+2020-10-26 10:28:35.629 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863594290,hid:1000100000000752
+2020-10-26 10:28:45.628 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863584291,hid:1000100000000752
+2020-10-26 10:28:55.628 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863574291,hid:1000100000000752
+2020-10-26 10:29:05.643 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863564276,hid:1000100000000752
+2020-10-26 10:29:15.627 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863554292,hid:1000100000000752
+2020-10-26 10:29:25.642 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863544277,hid:1000100000000752
+2020-10-26 10:29:35.626 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863534293,hid:1000100000000752
+2020-10-26 10:29:45.626 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863524293,hid:1000100000000752
+2020-10-26 10:29:55.641 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863514278,hid:1000100000000752
+2020-10-26 10:30:05.625 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863504294,hid:1000100000000752
+2020-10-26 10:30:15.640 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863494279,hid:1000100000000752
+2020-10-26 10:30:25.624 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863484295,hid:1000100000000752
+2020-10-26 10:30:36.638 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863473281,hid:1000100000000752
+2020-10-26 10:30:47.651 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863462268,hid:1000100000000752
+2020-10-26 10:30:57.635 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863452284,hid:1000100000000752
+2020-10-26 10:31:07.651 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863442268,hid:1000100000000752
+2020-10-26 10:31:17.635 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863432284,hid:1000100000000752
+2020-10-26 10:31:27.634 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863422285,hid:1000100000000752
+2020-10-26 10:31:37.649 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863412270,hid:1000100000000752
+2020-10-26 10:31:47.633 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863402286,hid:1000100000000752
+2020-10-26 10:31:58.647 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863391272,hid:1000100000000752
+2020-10-26 10:32:09.629 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863380290,hid:1000100000000752
+2020-10-26 10:32:19.645 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863370274,hid:1000100000000752
+2020-10-26 10:32:29.629 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863360290,hid:1000100000000752
+2020-10-26 10:32:40.642 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863349277,hid:1000100000000752
+2020-10-26 10:32:50.626 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863339293,hid:1000100000000752
+2020-10-26 10:33:00.641 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863329278,hid:1000100000000752
+2020-10-26 10:33:11.624 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863318295,hid:1000100000000752
+2020-10-26 10:33:21.639 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863308280,hid:1000100000000752
+2020-10-26 10:33:32.637 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863297282,hid:1000100000000752
+2020-10-26 10:33:42.637 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863287282,hid:1000100000000752
+2020-10-26 10:33:53.650 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863276269,hid:1000100000000752
+2020-10-26 10:34:03.634 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863266285,hid:1000100000000752
+2020-10-26 10:34:13.649 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863256270,hid:1000100000000752
+2020-10-26 10:34:23.633 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863246286,hid:1000100000000752
+2020-10-26 10:34:33.649 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863236270,hid:1000100000000752
+2020-10-26 10:34:44.631 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863225288,hid:1000100000000752
+2020-10-26 10:34:54.646 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863215273,hid:1000100000000752
+2020-10-26 10:35:05.629 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863204290,hid:1000100000000752
+2020-10-26 10:35:15.644 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863194275,hid:1000100000000752
+2020-10-26 10:35:25.643 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863184276,hid:1000100000000752
+2020-10-26 10:35:36.641 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863173278,hid:1000100000000752
+2020-10-26 10:35:46.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863163262,hid:1000100000000752
+2020-10-26 10:35:57.639 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863152280,hid:1000100000000752
+2020-10-26 10:36:07.654 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863142265,hid:1000100000000752
+2020-10-26 10:36:17.638 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863132281,hid:1000100000000752
+2020-10-26 10:36:27.638 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863122281,hid:1000100000000752
+2020-10-26 10:36:37.637 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863112282,hid:1000100000000752
+2020-10-26 10:36:47.637 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863102282,hid:1000100000000752
+2020-10-26 10:36:57.637 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863092282,hid:1000100000000752
+2020-10-26 10:37:07.636 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863082283,hid:1000100000000752
+2020-10-26 10:37:17.636 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863072283,hid:1000100000000752
+2020-10-26 10:37:28.649 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863061270,hid:1000100000000752
+2020-10-26 10:37:38.633 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863051286,hid:1000100000000752
+2020-10-26 10:37:49.631 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863040288,hid:1000100000000752
+2020-10-26 10:38:00.629 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863029290,hid:1000100000000752
+2020-10-26 10:38:10.629 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863019290,hid:1000100000000752
+2020-10-26 10:38:20.629 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-863009290,hid:1000100000000752
+2020-10-26 10:38:30.644 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862999275,hid:1000100000000752
+2020-10-26 10:38:40.628 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862989291,hid:1000100000000752
+2020-10-26 10:38:50.643 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862979276,hid:1000100000000752
+2020-10-26 10:39:00.658 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862969261,hid:1000100000000752
+2020-10-26 10:39:10.642 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862959277,hid:1000100000000752
+2020-10-26 10:39:20.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862949262,hid:1000100000000752
+2020-10-26 10:39:30.641 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862939278,hid:1000100000000752
+2020-10-26 10:39:40.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862929262,hid:1000100000000752
+2020-10-26 10:39:50.641 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862919278,hid:1000100000000752
+2020-10-26 10:40:00.656 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862909263,hid:1000100000000752
+2020-10-26 10:40:10.640 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862899279,hid:1000100000000752
+2020-10-26 10:40:20.655 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862889264,hid:1000100000000752
+2020-10-26 10:40:30.639 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862879280,hid:1000100000000752
+2020-10-26 10:40:40.654 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862869265,hid:1000100000000752
+2020-10-26 10:40:50.638 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862859281,hid:1000100000000752
+2020-10-26 10:41:01.652 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862848267,hid:1000100000000752
+2020-10-26 10:41:11.636 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862838283,hid:1000100000000752
+2020-10-26 10:41:22.649 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862827270,hid:1000100000000752
+2020-10-26 10:41:32.633 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862817286,hid:1000100000000752
+2020-10-26 10:41:42.649 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862807270,hid:1000100000000752
+2020-10-26 10:41:53.631 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862796288,hid:1000100000000752
+2020-10-26 10:42:03.646 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862786273,hid:1000100000000752
+2020-10-26 10:42:14.644 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862775275,hid:1000100000000752
+2020-10-26 10:42:25.642 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862764277,hid:1000100000000752
+2020-10-26 10:42:35.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862754262,hid:1000100000000752
+2020-10-26 10:42:45.641 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862744278,hid:1000100000000752
+2020-10-26 10:42:55.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862734262,hid:1000100000000752
+2020-10-26 10:43:05.641 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862724278,hid:1000100000000752
+2020-10-26 10:43:15.640 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862714279,hid:1000100000000752
+2020-10-26 10:43:25.640 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862704279,hid:1000100000000752
+2020-10-26 10:43:35.655 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862694264,hid:1000100000000752
+2020-10-26 10:43:45.639 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862684280,hid:1000100000000752
+2020-10-26 10:43:56.653 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862673266,hid:1000100000000752
+2020-10-26 10:44:06.637 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862663282,hid:1000100000000752
+2020-10-26 10:44:16.652 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862653267,hid:1000100000000752
+2020-10-26 10:44:26.636 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862643283,hid:1000100000000752
+2020-10-26 10:44:36.651 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862633268,hid:1000100000000752
+2020-10-26 10:44:46.635 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862623284,hid:1000100000000752
+2020-10-26 10:44:57.633 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862612286,hid:1000100000000752
+2020-10-26 10:45:08.662 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862601257,hid:1000100000000752
+2020-10-26 10:45:18.646 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862591273,hid:1000100000000752
+2020-10-26 10:45:28.661 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862581258,hid:1000100000000752
+2020-10-26 10:45:38.645 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862571274,hid:1000100000000752
+2020-10-26 10:45:48.661 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862561258,hid:1000100000000752
+2020-10-26 10:45:58.645 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862551274,hid:1000100000000752
+2020-10-26 10:46:08.644 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862541275,hid:1000100000000752
+2020-10-26 10:46:18.644 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862531275,hid:1000100000000752
+2020-10-26 10:46:28.659 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862521260,hid:1000100000000752
+2020-10-26 10:46:39.641 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862510278,hid:1000100000000752
+2020-10-26 10:46:49.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862500262,hid:1000100000000752
+2020-10-26 10:46:59.641 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862490278,hid:1000100000000752
+2020-10-26 10:47:09.656 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862480263,hid:1000100000000752
+2020-10-26 10:47:19.640 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862470279,hid:1000100000000752
+2020-10-26 10:47:29.639 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862460280,hid:1000100000000752
+2020-10-26 10:47:39.639 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862450280,hid:1000100000000752
+2020-10-26 10:47:49.639 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862440280,hid:1000100000000752
+2020-10-26 10:48:00.637 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862429282,hid:1000100000000752
+2020-10-26 10:48:11.650 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862418269,hid:1000100000000752
+2020-10-26 10:48:21.634 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862408285,hid:1000100000000752
+2020-10-26 10:48:31.649 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862398270,hid:1000100000000752
+2020-10-26 10:48:41.649 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862388270,hid:1000100000000752
+2020-10-26 10:48:51.649 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862378270,hid:1000100000000752
+2020-10-26 10:49:01.664 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862368255,hid:1000100000000752
+2020-10-26 10:49:12.646 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862357273,hid:1000100000000752
+2020-10-26 10:49:22.646 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862347273,hid:1000100000000752
+2020-10-26 10:49:32.645 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862337274,hid:1000100000000752
+2020-10-26 10:49:42.661 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862327258,hid:1000100000000752
+2020-10-26 10:49:53.643 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862316276,hid:1000100000000752
+2020-10-26 10:50:03.658 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862306261,hid:1000100000000752
+2020-10-26 10:50:13.642 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862296277,hid:1000100000000752
+2020-10-26 10:50:23.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862286262,hid:1000100000000752
+2020-10-26 10:50:34.640 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862275279,hid:1000100000000752
+2020-10-26 10:50:44.655 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862265264,hid:1000100000000752
+2020-10-26 10:50:54.639 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862255280,hid:1000100000000752
+2020-10-26 10:51:04.654 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862245265,hid:1000100000000752
+2020-10-26 10:51:14.638 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862235281,hid:1000100000000752
+2020-10-26 10:51:24.653 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862225266,hid:1000100000000752
+2020-10-26 10:51:35.651 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862214268,hid:1000100000000752
+2020-10-26 10:51:45.651 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862204268,hid:1000100000000752
+2020-10-26 10:51:55.651 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862194268,hid:1000100000000752
+2020-10-26 10:52:06.649 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862183270,hid:1000100000000752
+2020-10-26 10:52:16.664 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862173255,hid:1000100000000752
+2020-10-26 10:52:26.648 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862163271,hid:1000100000000752
+2020-10-26 10:52:36.663 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862153256,hid:1000100000000752
+2020-10-26 10:52:46.647 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862143272,hid:1000100000000752
+2020-10-26 10:52:56.647 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862133272,hid:1000100000000752
+2020-10-26 10:53:07.660 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862122259,hid:1000100000000752
+2020-10-26 10:53:17.644 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862112275,hid:1000100000000752
+2020-10-26 10:53:28.642 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862101277,hid:1000100000000752
+2020-10-26 10:53:38.642 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862091277,hid:1000100000000752
+2020-10-26 10:53:48.641 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862081278,hid:1000100000000752
+2020-10-26 10:53:58.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862071262,hid:1000100000000752
+2020-10-26 10:54:08.656 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862061263,hid:1000100000000752
+2020-10-26 10:54:19.670 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862050249,hid:1000100000000752
+2020-10-26 10:54:30.652 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862039267,hid:1000100000000752
+2020-10-26 10:54:40.667 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862029252,hid:1000100000000752
+2020-10-26 10:54:51.650 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862018269,hid:1000100000000752
+2020-10-26 10:55:01.665 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-862008254,hid:1000100000000752
+2020-10-26 10:55:11.649 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861998270,hid:1000100000000752
+2020-10-26 10:55:22.663 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861987256,hid:1000100000000752
+2020-10-26 10:55:33.645 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861976274,hid:1000100000000752
+2020-10-26 10:55:43.660 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861966259,hid:1000100000000752
+2020-10-26 10:55:53.644 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861956275,hid:1000100000000752
+2020-10-26 10:56:03.659 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861946260,hid:1000100000000752
+2020-10-26 10:56:13.643 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861936276,hid:1000100000000752
+2020-10-26 10:56:23.643 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861926276,hid:1000100000000752
+2020-10-26 10:56:33.658 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861916261,hid:1000100000000752
+2020-10-26 10:56:43.642 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861906277,hid:1000100000000752
+2020-10-26 10:56:53.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861896262,hid:1000100000000752
+2020-10-26 10:57:03.673 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861886246,hid:1000100000000752
+2020-10-26 10:57:13.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861876262,hid:1000100000000752
+2020-10-26 10:57:24.655 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861865264,hid:1000100000000752
+2020-10-26 10:57:34.654 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861855265,hid:1000100000000752
+2020-10-26 10:57:45.668 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861844251,hid:1000100000000752
+2020-10-26 10:57:56.650 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861833269,hid:1000100000000752
+2020-10-26 10:58:07.664 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861822255,hid:1000100000000752
+2020-10-26 10:58:17.648 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861812271,hid:1000100000000752
+2020-10-26 10:58:28.661 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861801258,hid:1000100000000752
+2020-10-26 10:58:38.645 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861791274,hid:1000100000000752
+2020-10-26 10:58:48.661 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861781258,hid:1000100000000752
+2020-10-26 10:58:59.659 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861770260,hid:1000100000000752
+2020-10-26 10:59:09.658 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861760261,hid:1000100000000752
+2020-10-26 10:59:19.658 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861750261,hid:1000100000000752
+2020-10-26 10:59:29.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861740262,hid:1000100000000752
+2020-10-26 10:59:39.673 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861730246,hid:1000100000000752
+2020-10-26 10:59:49.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861720262,hid:1000100000000752
+2020-10-26 10:59:59.656 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861710263,hid:1000100000000752
+2020-10-26 11:00:09.656 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861700263,hid:1000100000000752
+2020-10-26 11:00:20.654 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861689265,hid:1000100000000752
+2020-10-26 11:00:30.653 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861679266,hid:1000100000000752
+2020-10-26 11:00:40.669 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861669250,hid:1000100000000752
+2020-10-26 11:00:50.653 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861659266,hid:1000100000000752
+2020-10-26 11:01:00.668 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861649251,hid:1000100000000752
+2020-10-26 11:01:11.650 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861638269,hid:1000100000000752
+2020-10-26 11:01:21.650 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861628269,hid:1000100000000752
+2020-10-26 11:01:32.648 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861617271,hid:1000100000000752
+2020-10-26 11:01:42.647 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861607272,hid:1000100000000752
+2020-10-26 11:01:52.647 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861597272,hid:1000100000000752
+2020-10-26 11:02:02.662 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861587257,hid:1000100000000752
+2020-10-26 11:02:12.646 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861577273,hid:1000100000000752
+2020-10-26 11:02:23.660 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861566259,hid:1000100000000752
+2020-10-26 11:02:33.659 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861556260,hid:1000100000000752
+2020-10-26 11:02:43.659 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861546260,hid:1000100000000752
+2020-10-26 11:02:53.659 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861536260,hid:1000100000000752
+2020-10-26 11:03:03.658 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861526261,hid:1000100000000752
+2020-10-26 11:03:13.673 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861516246,hid:1000100000000752
+2020-10-26 11:03:23.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861506262,hid:1000100000000752
+2020-10-26 11:03:33.673 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861496246,hid:1000100000000752
+2020-10-26 11:03:43.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861486262,hid:1000100000000752
+2020-10-26 11:03:53.672 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861476247,hid:1000100000000752
+2020-10-26 11:04:03.656 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861466263,hid:1000100000000752
+2020-10-26 11:04:13.655 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861456264,hid:1000100000000752
+2020-10-26 11:04:24.653 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861445266,hid:1000100000000752
+2020-10-26 11:04:34.669 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861435250,hid:1000100000000752
+2020-10-26 11:04:44.653 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861425266,hid:1000100000000752
+2020-10-26 11:04:54.668 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861415251,hid:1000100000000752
+2020-10-26 11:05:05.650 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861404269,hid:1000100000000752
+2020-10-26 11:05:15.650 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861394269,hid:1000100000000752
+2020-10-26 11:05:25.649 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861384270,hid:1000100000000752
+2020-10-26 11:05:35.649 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861374270,hid:1000100000000752
+2020-10-26 11:05:46.663 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861363256,hid:1000100000000752
+2020-10-26 11:05:56.678 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861353241,hid:1000100000000752
+2020-10-26 11:06:07.660 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861342259,hid:1000100000000752
+2020-10-26 11:06:18.658 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861331261,hid:1000100000000752
+2020-10-26 11:06:28.673 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861321246,hid:1000100000000752
+2020-10-26 11:06:38.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861311262,hid:1000100000000752
+2020-10-26 11:06:48.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861301262,hid:1000100000000752
+2020-10-26 11:06:58.672 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861291247,hid:1000100000000752
+2020-10-26 11:07:09.670 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861280249,hid:1000100000000752
+2020-10-26 11:07:20.653 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861269266,hid:1000100000000752
+2020-10-26 11:07:31.651 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861258268,hid:1000100000000752
+2020-10-26 11:07:41.650 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861248269,hid:1000100000000752
+2020-10-26 11:07:52.679 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861237240,hid:1000100000000752
+2020-10-26 11:08:02.663 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861227256,hid:1000100000000752
+2020-10-26 11:08:13.677 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861216242,hid:1000100000000752
+2020-10-26 11:08:23.661 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861206258,hid:1000100000000752
+2020-10-26 11:08:33.676 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861196243,hid:1000100000000752
+2020-10-26 11:08:43.660 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861186259,hid:1000100000000752
+2020-10-26 11:08:53.660 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861176259,hid:1000100000000752
+2020-10-26 11:09:03.659 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861166260,hid:1000100000000752
+2020-10-26 11:09:14.673 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861155246,hid:1000100000000752
+2020-10-26 11:09:24.657 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861145262,hid:1000100000000752
+2020-10-26 11:09:34.953 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861134966,hid:1000100000000752
+2020-10-26 11:09:42.488 [nioEventLoopGroup-11-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-10-26 11:09:54.203 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:09:54.203 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:09:54.203 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:09:54.203 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:09:54.219 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:09:55.124 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000752
+2020-10-26 11:09:55.124 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-10-26 11:09:55.171 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000752 name:轩辕乄浮凉openUI countryType=0
+2020-10-26 11:09:58.306 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861111613,hid:1000100000000752
+2020-10-26 11:10:08.353 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861101566,hid:1000100000000752
+2020-10-26 11:10:18.352 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861091567,hid:1000100000000752
+2020-10-26 11:10:28.367 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861081552,hid:1000100000000752
+2020-10-26 11:10:38.383 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861071536,hid:1000100000000752
+2020-10-26 11:10:39.443 [nioEventLoopGroup-11-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-10-26 11:10:46.510 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:10:46.510 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:10:46.510 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:10:46.510 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:10:46.619 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:10:46.619 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000752
+2020-10-26 11:10:46.729 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-10-26 11:10:47.399 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000752 name:轩辕乄浮凉openUI countryType=0
+2020-10-26 11:10:50.613 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861059306,hid:1000100000000752
+2020-10-26 11:11:00.628 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861049291,hid:1000100000000752
+2020-10-26 11:11:10.612 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861039307,hid:1000100000000752
+2020-10-26 11:11:13.108 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:11:13.108 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:11:13.124 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:11:13.420 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000009
+2020-10-26 11:11:18.085 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:8
+2020-10-26 11:11:20.627 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861029292,hid:1000100000000752
+2020-10-26 11:11:22.889 [nioEventLoopGroup-11-8] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000009
+2020-10-26 11:11:28.271 [nioEventLoopGroup-11-7] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-10-26 11:11:42.889 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:11:42.889 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:11:42.889 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:11:42.889 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:11:42.889 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:11:42.904 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000752
+2020-10-26 11:11:42.920 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-10-26 11:11:43.684 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000752 name:轩辕乄浮凉openUI countryType=0
+2020-10-26 11:11:46.976 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:11:47.319 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-861002600,hid:1000100000000752
+2020-10-26 11:11:57.350 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860992569,hid:1000100000000752
+2020-10-26 11:12:07.349 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860982570,hid:1000100000000752
+2020-10-26 11:12:12.669 [nioEventLoopGroup-11-1] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-10-26 11:12:19.829 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:12:19.829 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:12:19.829 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:12:19.829 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:12:19.829 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:12:19.845 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000752
+2020-10-26 11:12:19.845 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-10-26 11:12:20.672 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000752 name:轩辕乄浮凉openUI countryType=0
+2020-10-26 11:12:23.761 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860966158,hid:1000100000000752
+2020-10-26 11:12:33.791 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860956128,hid:1000100000000752
+2020-10-26 11:12:43.807 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860946112,hid:1000100000000752
+2020-10-26 11:12:53.791 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860936128,hid:1000100000000752
+2020-10-26 11:13:03.821 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860926098,hid:1000100000000752
+2020-10-26 11:13:14.601 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860915318,hid:1000100000000752
+2020-10-26 11:13:24.585 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860905334,hid:1000100000000752
+2020-10-26 11:13:35.599 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860894320,hid:1000100000000752
+2020-10-26 11:13:45.583 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860884336,hid:1000100000000752
+2020-10-26 11:13:56.581 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860873338,hid:1000100000000752
+2020-10-26 11:13:59.295 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-10-26 11:14:01.604 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:14:01.604 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:14:01.604 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:14:01.604 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:14:01.604 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:14:01.666 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000752
+2020-10-26 11:14:01.666 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-10-26 11:14:02.462 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000752 name:轩辕乄浮凉openUI countryType=0
+2020-10-26 11:14:05.738 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860864181,hid:1000100000000752
+2020-10-26 11:14:15.722 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860854197,hid:1000100000000752
+2020-10-26 11:14:25.768 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860844151,hid:1000100000000752
+2020-10-26 11:14:39.059 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860830860,hid:1000100000000752
+2020-10-26 11:15:11.601 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860798318,hid:1000100000000752
+2020-10-26 11:15:12.334 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860797585,hid:1000100000000752
+2020-10-26 11:15:24.003 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860785916,hid:1000100000000752
+2020-10-26 11:16:05.390 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860744529,hid:1000100000000752
+2020-10-26 11:16:05.405 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860744514,hid:1000100000000752
+2020-10-26 11:16:15.452 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860734467,hid:1000100000000752
+2020-10-26 11:16:25.436 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860724483,hid:1000100000000752
+2020-10-26 11:16:35.467 [OpTaskExecutorService-thread-5] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:-860714452,hid:1000100000000752
+2020-10-26 11:16:39.663 [nioEventLoopGroup-11-3] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000752
+2020-10-26 11:16:49.553 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:16:49.553 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:16:49.553 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:16:49.569 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000009
+2020-10-26 11:17:02.439 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:17:02.439 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:17:02.439 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:17:02.439 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:17:02.533 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:17:03.313 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 11:17:11.659 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 11:18:55.494 [nioEventLoopGroup-11-4] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000009
+2020-10-26 12:19:28.734 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 13:20:23.767 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 14:22:44.835 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 15:28:13.866 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:33:09.311 [nioEventLoopGroup-11-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 16:33:17.298 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:33:17.298 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:33:17.298 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:33:17.298 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:33:17.298 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:33:17.329 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000755
+2020-10-26 16:33:17.329 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 16:33:18.125 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000755 name:才貌乄墨痕openUI countryType=0
+2020-10-26 16:33:58.560 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.chat.ChatManager - broadCast castNum is error!castNum:2008 广播表还没录
+2020-10-26 16:33:58.560 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.guanqia.GuanqiaManager - guanqia compare:0,hid:1000100000000755
+2020-10-26 16:34:12.413 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:8
+2020-10-26 16:34:12.429 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:34:15.627 [nioEventLoopGroup-11-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 16:34:23.505 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:34:23.505 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:34:23.505 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:34:23.505 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:34:23.505 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:34:24.207 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:34:24.207 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000755
+2020-10-26 16:34:24.207 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 16:34:24.300 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000755 name:才貌乄墨痕openUI countryType=0
+2020-10-26 16:34:28.980 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:34:40.633 [nioEventLoopGroup-11-7] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 16:35:01.709 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:35:01.709 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:35:01.709 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:35:01.709 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:35:01.709 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:35:01.709 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000755
+2020-10-26 16:35:01.709 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 16:35:01.725 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:35:02.536 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000755 name:才貌乄墨痕openUI countryType=0
+2020-10-26 16:35:51.567 [nioEventLoopGroup-11-8] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 16:38:11.389 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:38:11.389 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:38:11.389 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:38:11.389 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:38:11.389 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:38:11.405 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:38:11.405 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000755
+2020-10-26 16:38:11.405 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 16:38:12.185 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000755 name:才貌乄墨痕openUI countryType=0
+2020-10-26 16:41:30.898 [nioEventLoopGroup-11-1] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 16:41:47.325 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:41:47.325 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:41:47.325 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:41:47.325 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:41:47.325 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:41:47.325 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:41:47.325 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000755
+2020-10-26 16:41:47.325 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 16:41:48.120 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000755 name:才貌乄墨痕openUI countryType=0
+2020-10-26 16:42:18.025 [nioEventLoopGroup-11-2] WARN  com.teamtop.netty.util.NettyDispatch - dispatcherMethod warn,cmd:4121,channel:[id: 0x6a4fea79, /192.168.61.50:56486 => /192.168.61.210:9001]
+2020-10-26 16:42:18.025 [nioEventLoopGroup-11-2] WARN  com.teamtop.netty.util.NettyDispatch - dispatcherMethod warn,cmd:4121,channel:[id: 0x6a4fea79, /192.168.61.50:56486 => /192.168.61.210:9001]
+2020-10-26 16:42:56.823 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:43:09.505 [nioEventLoopGroup-11-2] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 16:43:16.822 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:43:16.822 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:43:16.822 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:43:16.822 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:43:16.822 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:43:17.680 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:43:17.680 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000755
+2020-10-26 16:43:17.680 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 16:43:17.680 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000755 name:才貌乄墨痕openUI countryType=0
+2020-10-26 16:44:02.623 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:44:05.088 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:44:51.873 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:44:54.727 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:44:54.883 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:44:55.039 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:44:59.813 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:46:15.161 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:46:16.799 [nioEventLoopGroup-11-3] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 16:46:27.891 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:46:27.891 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:46:27.891 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:46:27.891 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:46:27.906 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:46:28.561 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000756
+2020-10-26 16:46:33.834 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:46:33.959 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:46:34.115 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:46:34.318 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:46:34.536 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:46:42.492 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:46:44.941 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:53:41.602 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:53:44.893 [nioEventLoopGroup-11-4] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000756
+2020-10-26 16:53:52.413 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:53:52.413 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:53:52.413 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:53:52.413 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:53:52.413 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:53:52.413 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:53:52.413 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:53:52.413 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000756
+2020-10-26 16:53:52.413 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000756
+2020-10-26 16:53:52.428 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:53:53.395 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000756 name:风流丨知秋openUI countryType=0
+2020-10-26 16:54:39.135 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.chat.ChatManager - broadCast castNum is error!castNum:2008 广播表还没录
+2020-10-26 16:54:40.320 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:54:44.329 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:55:18.135 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:56:21.049 [nioEventLoopGroup-11-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000756
+2020-10-26 16:56:31.486 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:56:31.486 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:56:31.486 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:56:31.486 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:56:31.501 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:56:32.110 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000757
+2020-10-26 16:56:37.492 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:56:37.679 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:56:37.804 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:56:37.975 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:56:43.576 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:56:49.410 [nioEventLoopGroup-11-6] WARN  com.teamtop.netty.util.NettyDispatch - dispatcherMethod warn,cmd:4121,channel:[id: 0x0099e90e, /192.168.61.50:56643 => /192.168.61.210:9001]
+2020-10-26 16:56:49.426 [nioEventLoopGroup-11-6] WARN  com.teamtop.netty.util.NettyDispatch - dispatcherMethod warn,cmd:4121,channel:[id: 0x0099e90e, /192.168.61.50:56643 => /192.168.61.210:9001]
+2020-10-26 16:57:10.938 [nioEventLoopGroup-11-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000757
+2020-10-26 16:57:22.732 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:57:22.732 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:57:22.732 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:57:22.732 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:57:22.732 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:57:22.732 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:57:22.732 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000757
+2020-10-26 16:57:22.732 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000757
+2020-10-26 16:57:22.747 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:57:23.824 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000757 name:乱世丶秦洛openUI countryType=0
+2020-10-26 16:57:27.693 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 16:59:38.951 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:00:43.566 [nioEventLoopGroup-11-7] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000757
+2020-10-26 17:00:58.012 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:00:58.012 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:00:58.012 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:00:58.012 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:00:58.012 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:00:58.027 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:00:58.043 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:00:58.043 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000757
+2020-10-26 17:00:58.043 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000757
+2020-10-26 17:00:59.010 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000757 name:乱世丶秦洛openUI countryType=0
+2020-10-26 17:01:01.771 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:01:04.860 [nioEventLoopGroup-11-8] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000757
+2020-10-26 17:12:11.958 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:12:11.958 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:12:11.958 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:12:13.175 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000009
+2020-10-26 17:14:23.310 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:14:23.310 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:14:23.310 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:14:23.310 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:14:23.310 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:14:23.326 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:14:23.326 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:14:23.326 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000755
+2020-10-26 17:14:23.326 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 17:14:24.324 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000755 name:才貌乄墨痕openUI countryType=0
+2020-10-26 17:16:49.799 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:19:06.592 [nioEventLoopGroup-11-1] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000009
+2020-10-26 17:19:11.569 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:19:11.569 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:19:11.569 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:19:11.616 [OpTaskExecutorService-thread-4] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000009
+2020-10-26 17:20:03.261 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:20:06.657 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:37:29.355 [nioEventLoopGroup-11-2] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 17:37:40.483 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:37:40.483 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:37:40.483 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:37:40.483 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:37:40.483 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:37:40.483 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:37:40.498 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:37:40.514 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000755
+2020-10-26 17:37:40.514 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-10-26 17:37:41.515 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000755 name:才貌乄墨痕openUI countryType=0
+2020-10-26 17:37:48.996 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:8
+2020-10-26 17:39:28.875 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:39:28.875 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:39:28.875 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:39:28.875 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:39:28.907 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:39:29.455 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000758
+2020-10-26 17:39:41.568 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:39:54.026 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:40:10.333 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:40:35.232 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:41:08.990 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:41:49.524 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:42:39.011 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:42:44.910 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:47:57.663 [nioEventLoopGroup-11-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000758
+2020-10-26 17:48:20.841 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:48:20.841 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:48:20.841 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:48:20.841 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:48:20.841 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:48:20.841 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:48:20.841 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000758
+2020-10-26 17:48:20.841 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000758
+2020-10-26 17:50:30.690 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000758 name:沉沦灬璃眸openUI countryType=0
+2020-10-26 17:53:09.117 [nioEventLoopGroup-11-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000758
+2020-10-26 17:53:26.740 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:53:26.740 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:53:26.740 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:53:26.740 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:53:26.755 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:53:26.755 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 17:53:26.755 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000758
+2020-10-26 17:53:26.771 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000758
+2020-10-26 17:53:27.632 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000758 name:沉沦灬璃眸openUI countryType=0
+2020-10-26 17:54:10.029 [nioEventLoopGroup-11-3] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000009
+2020-10-26 18:08:29.279 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 18:11:37.316 [nioEventLoopGroup-11-7] WARN  com.teamtop.netty.util.NettyDispatch - dispatcherMethod warn,cmd:4121,channel:[id: 0x6d3c800c, /192.168.61.51:60208 => /192.168.61.210:9001]
+2020-10-26 18:11:37.316 [nioEventLoopGroup-11-7] WARN  com.teamtop.netty.util.NettyDispatch - dispatcherMethod warn,cmd:4121,channel:[id: 0x6d3c800c, /192.168.61.51:60208 => /192.168.61.210:9001]
+2020-10-26 18:11:39.664 [nioEventLoopGroup-11-7] WARN  com.teamtop.netty.util.NettyDispatch - dispatcherMethod warn,cmd:4121,channel:[id: 0x6d3c800c, /192.168.61.51:60208 => /192.168.61.210:9001]
+2020-10-26 18:11:39.664 [nioEventLoopGroup-11-7] WARN  com.teamtop.netty.util.NettyDispatch - dispatcherMethod warn,cmd:4121,channel:[id: 0x6d3c800c, /192.168.61.51:60208 => /192.168.61.210:9001]
+2020-10-26 18:11:42.089 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-26 18:12:45.201 [nioEventLoopGroup-11-7] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000758
+2020-10-26 18:13:04.950 [Thread-7] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000755
+2020-11-05 10:31:37.363 [任务线程 - 7] WARN  com.teamtop.system.boss.monsterGod.MonsterGodFunction - monsterGodCache==null
+2020-11-05 10:51:37.761 [任务线程 - 15] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-05 10:51:37.761 [任务线程 - 15] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-05 10:51:37.761 [任务线程 - 15] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-05 10:51:37.761 [任务线程 - 15] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-05 10:51:37.761 [任务线程 - 15] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null

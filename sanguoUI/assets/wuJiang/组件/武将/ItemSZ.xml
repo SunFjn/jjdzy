@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,140">
+  <controller name="ctrl" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n0_ke3i" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="13,0" group="n6_gofq"/>
+    <text id="n1_ke3i" name="txtName" xy="25,106" size="77,28" group="n6_gofq" fontSize="18" color="#ffcc00" text="默认名字">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n6_gofq" name="n6" xy="13,0" size="102,131" advanced="true">
+      <gearDisplay controller="ctrl" pages="0"/>
+    </group>
+    <image id="n9_gofq" name="n9" src="ur843b" fileName="image/敬请期待.png" xy="13,6" size="95,94">
+      <gearDisplay controller="ctrl" pages="1"/>
+    </image>
+    <text id="n15_z7r8" name="n15" xy="40,106" size="41,28" fontSize="18" color="#ffff00" text="默认">
+      <gearDisplay controller="ctrl" pages="2"/>
+    </text>
+    <loader id="n12_z7r8" name="backIcon" xy="13,5" size="96,96" group="n20_ur84" url="ui://zyx92gzwz7r83a"/>
+    <loader id="n13_z7r8" name="iconDefault" xy="16,8" size="90,90" group="n20_ur84" align="center" vAlign="middle"/>
+    <group id="n20_ur84" name="n20" xy="13,5" size="96,96" advanced="true">
+      <gearDisplay controller="ctrl" pages="2"/>
+    </group>
+    <image id="n24_ur84" name="selectImg" src="z1r82h" fileName="image/新资源/选中发光状态框.png" pkg="jvxpx9em" xy="4,-6" size="112,114" visible="false">
+      <gearDisplay controller="ctrl" pages="0,2"/>
+    </image>
+    <image id="n18_ur84" name="n18" src="m3513by" fileName="image/文字底.png" pkg="jvxpx9em" xy="4,-5" group="n19_ur84"/>
+    <text id="n10_gofq" name="n10" xy="10,2" size="41,29" group="n19_ur84" fontSize="18" color="#ffffff" bold="true" text="活动">
+      <gearDisplay controller="ctrl" pages="0"/>
+    </text>
+    <group id="n19_ur84" name="n19" xy="4,-5" size="78,31" advanced="true">
+      <gearDisplay controller="ctrl" pages="0"/>
+    </group>
+    <image id="n28_ur84" name="n28" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="24,75" size="76,24" group="n31_cl8i"/>
+    <text id="n29_ur84" name="txtNum" xy="42,76" size="17,31" group="n32_cl8i" fontSize="20" color="#ffffff" vAlign="middle" text="2"/>
+    <loader id="n30_cl8i" name="imgStar" xy="56,73" size="24,24" group="n32_cl8i" url="ui://jvxpx9emsv0g2i">
+      <relation target="n29_ur84" sidePair="right-right"/>
+    </loader>
+    <group id="n32_cl8i" name="n32" xy="42,73" size="38,34" group="n31_cl8i" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n31_cl8i" name="n31" xy="24,73" size="76,34" advanced="true" collapsed="true">
+      <gearDisplay controller="ctrl" pages="0"/>
+    </group>
+    <image id="n33_cl8i" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="100,0" visible="false">
+      <gearDisplay controller="ctrl" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n34_tbzv" name="iconDressed" src="tbzv3e" fileName="image/已穿戴(1).png" xy="13,5">
+      <gearDisplay controller="ctrl" pages="0,2"/>
+    </image>
+  </displayList>
+</component>

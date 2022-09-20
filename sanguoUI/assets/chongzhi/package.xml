@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="42zxp7qj" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="q5ux0" name="ViewChongZhi.xml" path="/组件/" exported="true"/>
+    <component id="nvyw1" name="ChongZhiItem.xml" path="/组件/" exported="true"/>
+    <image id="siu46" name="五倍标签.png" path="/image/" exported="true"/>
+    <image id="siu4b" name="充值底.png" path="/image/" exported="true"/>
+    <image id="siu4i" name="开服庆典，五倍充值.png" path="/image/" exported="true"/>
+    <image id="siu4j" name="yuanbao1.png" path="/image/" exported="true"/>
+    <image id="siu4k" name="yuanbao2.png" path="/image/" exported="true"/>
+    <image id="siu4l" name="yuanbao3.png" path="/image/" exported="true"/>
+    <component id="anpmm" name="TeQuanCardIt.xml" path="/组件/" exported="true"/>
+    <image id="anpmn" name="card1.png" path="/image/" exported="true"/>
+    <image id="anpmo" name="card2.png" path="/image/" exported="true"/>
+    <image id="anpmp" name="card3.png" path="/image/" exported="true"/>
+    <image id="anpmq" name="price1.png" path="/image/" exported="true"/>
+    <image id="anpmr" name="price2.png" path="/image/" exported="true"/>
+    <image id="anpms" name="price3.png" path="/image/" exported="true"/>
+    <image id="anpmt" name="bg5.png" path="/image/" exported="true"/>
+    <image id="anpmu" name="墨痕1.png" path="/image/" exported="true"/>
+    <image id="hxmsv" name="再充     次激活5倍.png" path="/image/" exported="true"/>
+    <image id="kfz1w" name="yuanbao4.png" path="/image/" exported="true"/>
+    <image id="kfz1x" name="yuanbao5.png" path="/image/" exported="true"/>
+    <image id="kfz1y" name="yuanbao6.png" path="/image/" exported="true"/>
+    <image id="s9vjz" name="永久生效.png" path="/image/" exported="true"/>
+    <component id="t2yi12" name="ItemChongZhi.xml" path="/组件/" exported="true"/>
+    <image id="r6t614" name="充值标题.png" path="/image/" exported="true"/>
+    <image id="r6t615" name="价格栏.png" path="/image/" exported="true" scale="9grid" scale9grid="36,9,72,17"/>
+    <image id="r6t618" name="30元标签.png" path="/image/" exported="true"/>
+    <image id="dev71w" name="永久三倍.png" path="/image/" exported="true"/>
+    <image id="dev71x" name="6元标签.png" path="/image/" exported="true"/>
+    <image id="dev71y" name="额外赠送.png" path="/image/" exported="true"/>
+    <image id="hj7d20" name="充值底1.png" path="/image/" exported="true"/>
+    <image id="hj7d21" name="每日首充标题.png" path="/image/"/>
+    <image id="x43e22" name="3.2.png" path="/image/" exported="true"/>
+    <image id="x43e23" name="3.5.png" path="/image/" exported="true"/>
+  </resources>
+  <publish npot="true" name="chongzhi" genCode="true"/>
+</packageDescription>

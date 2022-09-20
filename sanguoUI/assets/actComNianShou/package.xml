@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ht2966i4" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="dsuf0" name="Child_ActComNianShou.xml" path="/组建/" exported="true"/>
+    <image id="dsuf5" name="title.png" path="/image/" exported="true"/>
+    <image id="dsuf7" name="年兽闹喜底图.jpg" path="/image/"/>
+    <component id="dsuf8" name="ViewNianShouReward.xml" path="/组建/" exported="true"/>
+    <component id="dsuf9" name="ItemNianShouReward.xml" path="/组建/" exported="true"/>
+    <component id="dsufa" name="ViewNianShouAlert.xml" path="/组建/" exported="true"/>
+    <image id="dsufb" name="目标奖励.png" path="/image/" exported="true"/>
+    <component id="dsufc" name="ItemNianShouGrid.xml" path="/组建/" exported="true"/>
+    <image id="dsufd" name="气泡框2.png" path="/image/" exported="true"/>
+    <component id="plkme" name="VNianShouHp.xml" path="/组建/" exported="true"/>
+    <component id="plkmg" name="VNianShou.xml" path="/组建/" exported="true"/>
+    <component id="qdrxh" name="VNianShouBtn.xml" path="/组建/" exported="true"/>
+    <image id="n093i" name="炮仗.png" path="/image/" exported="true"/>
+    <image id="n093k" name="3.png" path="/image/"/>
+    <image id="n093o" name="年兽本体.png" path="/image/"/>
+    <image id="n093p" name="年兽王图标.png" path="/image/" exported="true"/>
+    <image id="n093q" name="年兽问号.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="actComNianShou" genCode="true" npot="true" excluded="dsuf7,n093k,n093o"/>
+</packageDescription>

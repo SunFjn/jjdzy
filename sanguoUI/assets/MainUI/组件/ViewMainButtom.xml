@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,131" opaque="false">
+  <displayList>
+    <image id="n29_idn5" name="n29" src="idn56a" fileName="image1/经验底.png" xy="0,120" size="640,11"/>
+    <image id="n1_mp9n" name="n1" src="rt7oy" fileName="image1/底部背景.png" xy="0,29"/>
+    <component id="n2_mp9n" name="bar" src="rt7oz" fileName="组件/MainExpBar.xml" xy="0,121" size="640,10">
+      <ProgressBar value="71" max="100"/>
+    </component>
+    <component id="n3_mp9n" name="generalBt" src="mp9n4" fileName="组件/MainMenuBtn.xml" xy="25,19" size="84,106">
+      <Button icon="ui://7gxkx46wmrrg4k"/>
+    </component>
+    <component id="n4_mp9n" name="roleBt" src="mp9n4" fileName="组件/MainMenuBtn.xml" xy="134,34" size="73,86">
+      <Button icon="ui://7gxkx46wmrrg4j"/>
+    </component>
+    <component id="n5_mp9n" name="bagBt" src="mp9n4" fileName="组件/MainMenuBtn.xml" xy="428,34" size="73,86">
+      <Button icon="ui://7gxkx46wmrrg4g"/>
+    </component>
+    <component id="n6_mp9n" name="recruitBt" src="mp9n4" fileName="组件/MainMenuBtn.xml" xy="232,34" size="73,86">
+      <Button icon="ui://7gxkx46wmrrg4l"/>
+    </component>
+    <component id="n7_mp9n" name="forgeBt" src="mp9n4" fileName="组件/MainMenuBtn.xml" xy="330,34" size="73,86">
+      <Button icon="ui://7gxkx46wmrrg4h"/>
+    </component>
+    <component id="n8_mp9n" name="townBt" src="mp9n4" fileName="组件/MainMenuBtn.xml" xy="526,27" size="85,98">
+      <Button icon="ui://7gxkx46wmrrg4f"/>
+    </component>
+    <graph id="n9_tw1l" name="n9" xy="44,123" size="4,6" type="rect" lineColor="#00ff0000" fillColor="#cc666666"/>
+    <graph id="n10_tw1l" name="n10" xy="112,123" size="4,6" type="rect" lineColor="#00ff0000" fillColor="#cc666666"/>
+    <graph id="n11_tw1l" name="n11" xy="180,123" size="4,6" type="rect" lineColor="#00ff0000" fillColor="#cc666666"/>
+    <graph id="n12_tw1l" name="n12" xy="248,123" size="4,6" type="rect" lineColor="#00ff0000" fillColor="#cc666666"/>
+    <graph id="n13_tw1l" name="n13" xy="316,123" size="4,6" type="rect" lineColor="#00ff0000" fillColor="#cc666666"/>
+    <graph id="n14_tw1l" name="n14" xy="384,123" size="4,6" type="rect" lineColor="#00ff0000" fillColor="#cc666666"/>
+    <graph id="n15_tw1l" name="n15" xy="452,123" size="4,6" type="rect" lineColor="#00ff0000" fillColor="#cc666666"/>
+    <graph id="n16_tw1l" name="n16" xy="520,123" size="4,6" type="rect" lineColor="#00ff0000" fillColor="#cc666666"/>
+    <graph id="n17_tw1l" name="n17" xy="588,123" size="4,6" type="rect" lineColor="#00ff0000" fillColor="#cc666666"/>
+    <loader id="n22_rqrf" name="imgRongL" xy="473,-2" size="86,46" group="n20_roqq" url="ui://7gxkx46wroqq52" fill="scaleFree"/>
+    <loader id="n21_rqrf" name="imgRongL1" xy="495,7" size="51,28" group="n20_roqq" touchable="false" url="ui://7gxkx46wroqq53" autoSize="true"/>
+    <group id="n20_roqq" name="gRongL" xy="473,-2" size="86,46" advanced="true"/>
+    <loader id="n23_qohz" name="imgBackGQ" xy="410,-2" size="170,46" group="n25_qohz" fill="scaleFree"/>
+    <image id="n27_qohz" name="n27" src="roqq52" fileName="image1/提示框.png" xy="410,-2" size="170,46" group="n25_qohz" flip="hz"/>
+    <image id="n28_qohz" name="n28" src="qohz5b" fileName="image1/点击回到关卡.png" xy="417,6" group="n25_qohz"/>
+    <group id="n25_qohz" name="gBackGQ" xy="410,-2" size="170,46" advanced="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n20_roqq" tween="true" startValue="473,-2" endValue="473,14" duration="24"/>
+    <item time="0" type="XY" target="n25_qohz" tween="true" startValue="410,-2" endValue="410,14" duration="24"/>
+    <item time="24" type="XY" target="n20_roqq" tween="true" startValue="473,14" endValue="473,-2" duration="24"/>
+    <item time="24" type="XY" target="n25_qohz" tween="true" startValue="410,14" endValue="410,-2" duration="24"/>
+  </transition>
+</component>

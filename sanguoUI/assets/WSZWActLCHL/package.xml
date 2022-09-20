@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="niyo89mi" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="q6qw0" name="Child_WSZW_LianChong.xml" path="/组件/" exported="true"/>
+    <component id="q6qw2" name="WSZW_LianChong_Item.xml" path="/组件/" exported="true"/>
+    <component id="c4543" name="WSZWListGrid.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="WSZWActLCHL" genCode="true" npot="true"/>
+</packageDescription>

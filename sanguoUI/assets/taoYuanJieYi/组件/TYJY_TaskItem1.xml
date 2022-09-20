@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="531,25">
+  <displayList>
+    <richtext id="n1_vfmx" name="nameLb" xy="0,0" size="113,25" fontSize="18" color="#ffffff" text="玩家名字六字"/>
+    <component id="n3_htpq" name="expBar" src="emwp3h8" fileName="组件/ExpBar1.xml" pkg="jvxpx9em" xy="177,1" size="353,20">
+      <ProgressBar value="50" max="100"/>
+    </component>
+  </displayList>
+</component>

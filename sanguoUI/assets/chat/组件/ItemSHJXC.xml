@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,116">
+  <displayList>
+    <loader id="n0_sh62" name="iconType" xy="0,0" size="100,100" fill="scale"/>
+    <image id="n5_sh62" name="n5" src="pxaa3cv" fileName="image/数量框.png" pkg="jvxpx9em" xy="0,84" size="100,31"/>
+    <text id="n2_sh62" name="txtNum" xy="34,88" size="16,28" fontSize="18" color="#ffcc00" vAlign="middle" strokeColor="#000000" text="6">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n3_sh62" name="n3" src="sv0g2l" fileName="image1/big_star_4.png" pkg="jvxpx9em" xy="50,87">
+      <relation target="n2_sh62" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>

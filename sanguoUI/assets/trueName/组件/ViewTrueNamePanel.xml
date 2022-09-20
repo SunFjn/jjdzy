@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,619">
+  <displayList>
+    <component id="n0_l5k5" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,619">
+      <Label title="防沉迷验证"/>
+    </component>
+    <component id="n4_l5k5" name="btnSure" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="363,546" size="116,46">
+      <Button title="立即认证"/>
+    </component>
+    <component id="n5_l5k5" name="btnCancel" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="113,546" size="116,46">
+      <Button title="稍后认证"/>
+    </component>
+    <image id="n7_l5k5" name="n7" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="35,212" size="518,214"/>
+    <image id="n10_l5k5" name="n10" src="l5k52" fileName="image/Bm_XinQu.png" xy="76,98"/>
+    <image id="n11_l5k5" name="n11" src="l5k52" fileName="image/Bm_XinQu.png" xy="76,155"/>
+    <text id="n1_l5k5" name="n1" xy="58,109" size="180,35" fontSize="22" color="#ffffff" align="right" autoSize="none" text="真实姓名："/>
+    <text id="n2_l5k5" name="n2" xy="58,166" size="180,35" fontSize="22" color="#ffffff" align="right" autoSize="none" text="身份证号码："/>
+    <text id="n8_l5k5" name="lbName" xy="251,109" size="256,34" input="true" prompt="[color=#999999]请输入名字[/color]" fontSize="22" color="#7dd742" ubb="true" autoSize="none" text=""/>
+    <text id="n9_l5k5" name="lbCard" xy="252,166" size="256,34" input="true" prompt="[color=#999999]请输入身份证号码[/color]" maxLength="18" fontSize="22" color="#7dd742" ubb="true" autoSize="none" text=""/>
+    <image id="n12_mu0i" name="n12" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="35,435" size="518,100"/>
+    <richtext id="n14_mu0i" name="n14" xy="51,470" size="245,31" fontSize="20" color="#e3ac2d" text="成功认证可获得丰厚奖励："/>
+    <list id="n15_mu0i" name="list" xy="333,444" size="240,115" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="17" defaultItem="ui://jvxpx9emetorm" autoItemSize="false">
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n3_l5k5" name="lb" xy="48,224" size="493,227" fontSize="20" color="#ffffff" autoSize="height" text="亲爱的玩家：&#xA;       为保护未成年健康合理的上网娱乐，对于未满18周岁和未通过防沉迷验证的玩家，将被纳入防沉迷系统，每日游戏时长3小时内收益正常；3-5小时收益减少50%,5小时后无收益!&#xA;       如果玩家对该系统有任何疑问，请联系客服人员获得解答。&#xA;       &lt;font color='#ed1414'>登录后才可认证&lt;/font>&#xA;"/>
+  </displayList>
+</component>

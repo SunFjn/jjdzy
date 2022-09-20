@@ -1,0 +1,50 @@
+<beans>
+<!-- 升级事件说明 -->
+	<!-- level 属性是指定事件触发等级数字则说明是等级 all代表所有等级都需要执行-->
+	<!--对于多个等级需要触发同一事件那么可以：level="5_11_17_23_12" 此时代表此事件分别会在 人物升级到5级、11级、23级以及12级分别触发-->
+	<!--对于间隔等级触发的事件可以：level="gap" startLevel="5" endLevel="120" gapLevel="5"此时代表此事件会在5-120(包含5,120级)级每间隔5级触发-->
+	<!-- 增加functionId注册方式，加入funid属性则会从X_104_系统开启表.xlsx中读取等级注册等级事件 -->
+	
+	<!-- 例子
+	<property method = "levelUp" level="all"/>
+	<property method = "levelUp" level="30"/>
+	<property method = "levelUp" level="30_50_60_70_80_90_100_110_120"/>
+	<property method = "levelUp" funid="1002"/>
+	<property method = "levelUp" level="gap" startLevel="100" endLevel="130" gapLevel="1"/>
+	 -->
+<!-- end -->
+
+<!-- fixtimeSyncPub说明 -->
+	<!-- 适用于帮会等跟个人无关的系统 -->
+	<!-- gap参数为分钟，仅有此参数 
+	<property method = "fixtimeSyncPub" gap="30"/>
+	 -->
+<!-- end -->
+
+<!-- fixtime说明 -->
+	<!-- 
+	定时事件定义：
+	(1)：d1200表示每天12点触发；
+	(2)：w71400表示星期天14点触发，周一至周日是1至7；
+	(3)：g30表示间隔30分钟触发，必须配置开始时间starttime
+	(4)：y10010000表示每年几月几日几时几分触发，如 10月1日0点
+	例子如下：
+	<property method = "fixTime" starttime="0000" time="d1200_1,d1800_2,g30_3"/>
+	<property method = "fixTime" time="w71400_1,w71430_2,w71500_3" />
+	 -->
+<!-- end -->
+	
+	<!-- 系统事件，常规包括init login-->
+	<!-- hero -->
+	<bean id="HeroEvent" class="com.teamtop.system.hero.HeroEvent" pf="PF_ALL" funid="1001">
+		<property method = "init"/>
+		<property method = "login"/>
+		<property method = "afterLogin"/>
+		<property method = "logout"/>
+		<property method = "sync"/>
+		<property method = "fixTime" starttime="0000" time="g30_1"/>
+		<property method = "loginReset"/>
+		<property method = "zeroHero"/>
+		<property method = "zeroPub"/>
+	</bean>
+</beans>

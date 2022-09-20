@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 平台域名配置表 -->
+	<tb model="com.teamtop.redeploy.platformInfo.PlatformInfo" tbname="platformInfo">
+		<index field="id" type="prikey"/>
+		<index field="pfIp" type="normal"/>
+		<index field="pf" type="unique"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="pf" type="varchar" len="100" pf="all" comment="平台号"/>
+		<col field="pfIp" type="varchar" len="100" pf="all" comment="平台域名"/>
+		<col field="port" type="int" pf="all" comment="端口"/>
+	</tb>
+</tbs>

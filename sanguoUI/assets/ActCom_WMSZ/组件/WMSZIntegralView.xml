@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="597,887" designImage="ui://5na9ulpxgv3t5" designImageOffsetX="-21" designImageOffsetY="-154">
+  <displayList>
+    <component id="n0_lwy2" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="597,887">
+      <Label title="积分目标"/>
+    </component>
+    <list id="n1_lwy2" name="list" xy="21,117" size="558,650" overflow="scroll" lineGap="3" defaultItem="ui://5na9ulpxgv3t3" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n11_gv3t" name="n11" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="21,68" size="559,43" group="n14_gv3t"/>
+    <richtext id="n12_gv3t" name="n12" xy="56,79" size="45,27" group="n14_gv3t" fontSize="20" color="#ffcc00" text="积分"/>
+    <richtext id="n13_gv3t" name="n13" xy="281,79" size="45,27" group="n14_gv3t" fontSize="20" color="#ffcc00" text="奖励"/>
+    <group id="n14_gv3t" name="n14" xy="21,68" size="559,43" collapsed="true"/>
+    <image id="n15_gv3t" name="n15" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="21,777" size="559,87" group="n17_gv3t"/>
+    <richtext id="n2_lwy2" name="lbMyRank" xy="58,809" size="115,25" group="n17_gv3t" fontSize="18" color="#f9bb13" strokeColor="#000000" text="我的排名：10"/>
+    <richtext id="n16_gv3t" name="lbMyInte" xy="421,809" size="115,25" group="n17_gv3t" fontSize="18" color="#f9bb13" strokeColor="#000000" text="我的积分：10"/>
+    <group id="n17_gv3t" name="n17" xy="21,777" size="559,87"/>
+  </displayList>
+</component>

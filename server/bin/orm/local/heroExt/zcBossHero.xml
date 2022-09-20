@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.zcBoss.ZcBossHero" tbname="zcBossHero">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="winScore" type="int" pf="all" comment="每天得到的战胜积分"/>
+			<col field="sumScore" type="int" pf="all" comment="玩家的生死夺宝总积分"/>
+			<col field="joinTime" type="text" pf="all" comment="上次退出副本时间"/>
+			<col field="bossIndex" type="int" pf="all" comment="进入boss序号"/>
+			<col field="hasKill"   type="text" pf="all" comment="已经击杀过得战场boss"/>		
+     </tb>
+</tbs>

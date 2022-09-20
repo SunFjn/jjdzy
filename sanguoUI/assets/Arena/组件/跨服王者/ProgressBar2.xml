@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="232,50" extention="ProgressBar">
+  <displayList>
+    <image id="n0_fyft" name="n0" src="fyft8a" fileName="组件/跨服王者/res/粗血条底.png" xy="4,0" size="232,53">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_fyft" name="bar" src="fyft8b" fileName="组件/跨服王者/res/粗血条.png" xy="11,7" size="214,33"/>
+  </displayList>
+  <ProgressBar reverse="true"/>
+</component>

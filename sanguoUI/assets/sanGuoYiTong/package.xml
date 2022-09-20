@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="z4ijxlqk" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="tdwd0" name="三国一统标题.png" path="/image/" exported="true"/>
+    <component id="tdwd2" name="View_SanGuoYT_Panel.xml" path="/组件/" exported="true"/>
+    <image id="tdwd3" name="奖励一览.png" path="/image/" exported="true"/>
+    <image id="tdwd4" name="玩法说明.png" path="/image/" exported="true"/>
+    <image id="tdwd5" name="战利品.png" path="/image/" exported="true"/>
+    <image id="tdwd6" name="每日奖励1.png" path="/image/" exported="true"/>
+    <image id="tdwd7" name="三国霸主 拷贝.png" path="/image/" exported="true"/>
+    <image id="tdwd8" name="上期战况.png" path="/image/" exported="true"/>
+    <image id="tdwd9" name="无武将.png" path="/image/" exported="true"/>
+    <image id="lceja" name="界面背景.jpg" path="/image/" exported="true"/>
+    <component id="lcejc" name="View_SanGuoYT_ZLP.xml" path="/组件/" exported="true"/>
+    <component id="iv4oe" name="Child_SanGuoYT_ZLPItem.xml" path="/组件/" exported="true"/>
+    <component id="iv4og" name="View_SGYT_EveryDayReward.xml" path="/组件/" exported="true"/>
+    <component id="iv4oi" name="View_SGYT_LastRank.xml" path="/组件/" exported="true"/>
+    <component id="iv4ok" name="SGYT_CountryRankRewardItem.xml" path="/组件/" exported="true"/>
+    <component id="iv4on" name="View_SGYT_RewardPanel.xml" path="/组件/" exported="true"/>
+    <component id="iv4oo" name="SGYT_MyRankItem.xml" path="/组件/" exported="true"/>
+    <component id="iv4op" name="Child_SGYT_MyRank.xml" path="/组件/" exported="true"/>
+    <component id="iv4oq" name="Child_SGYT_CountryRank.xml" path="/组件/" exported="true"/>
+    <component id="iv4or" name="SGYT_JiFenRewardItem.xml" path="/组件/" exported="true"/>
+    <component id="iv4os" name="Child_SGYT_JiFenReward.xml" path="/组件/" exported="true"/>
+    <component id="lyu5u" name="View_SanGuoYT_ScenePanel.xml" path="/组件/" exported="true"/>
+    <image id="lyu5v" name="奖励.png" path="/image/" exported="true"/>
+    <image id="rfyww" name="分割线.png" path="/image/" exported="true"/>
+    <component id="mo6gx" name="View_SanGuoYT_ButtomUI.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish npot="true" name="sanGuoYiTong" genCode="true" excluded="lceja"/>
+</packageDescription>

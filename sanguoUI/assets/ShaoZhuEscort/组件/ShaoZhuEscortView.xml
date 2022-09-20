@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n1_lnit" name="frame" src="z1jw6v" fileName="组件/WindowFrame1.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://lnw94ki2lnitc"/>
+    </component>
+    <loader id="n14_mmd0" name="bgImg" xy="0,120" size="50,30" fill="scaleFree" autoSize="true"/>
+    <image id="n2_lnit" name="n2" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="39,743" size="560,112"/>
+    <richtext id="n3_lnit" name="escortTxt" xy="104,772" size="133,27" fontSize="20" color="#ffffff" text="护送次数：0/2"/>
+    <richtext id="n4_lnit" name="interTxt" xy="104,806" size="133,27" fontSize="20" color="#ffffff" text="拦截次数：0/2"/>
+    <component id="n11_duy3" name="maskBg" src="duy3p" fileName="组件/EscortMask.xml" xy="29,167" size="573,537"/>
+    <richtext id="n5_lnit" name="timeTxt" xy="372,787" size="155,27" fontSize="20" color="#ffffff" text="剩余时间：00:00"/>
+    <component id="n6_lnit" name="escortBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="256,860">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="前往护送"/>
+    </component>
+    <component id="n7_lnit" name="btnReport" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="519,156" size="84,88">
+      <Button icon="ui://jvxpx9emoyp8r"/>
+    </component>
+    <richtext id="n13_moyq" name="n13" xy="256,869" size="129,31" touchable="false" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" text="护送中.....">
+      <gearDisplay controller="c1" pages="1"/>
+    </richtext>
+  </displayList>
+</component>

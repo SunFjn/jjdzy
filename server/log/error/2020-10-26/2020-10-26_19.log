@@ -1,0 +1,100 @@
+2020-10-26 19:48:03.308 [OpTaskExecutorService-thread-12] ERROR com.teamtop.util.exector.schedule.ScheduleFixtime - java.lang.NullPointerException
+	at com.teamtop.system.battleGoods.event.BattleGoodLocalSysEvent.fixTime(BattleGoodLocalSysEvent.java:69)
+	at com.teamtop.util.exector.schedule.ScheduleFixtime.execute(ScheduleFixtime.java:119)
+	at com.teamtop.system.gm.event.TimeGMFunction.UpdateTime(TimeGMFunction.java:351)
+	at com.teamtop.system.gm.event.TimeGMFunction$1.run(TimeGMFunction.java:246)
+	at com.teamtop.synHandleCore.OpTaskExecutorService$Work.run(OpTaskExecutorService.java:314)
+	at java.lang.Thread.run(Thread.java:745)
+,excute event ocurs an error
+2020-10-26 19:49:45.426 [OpTaskExecutorService-thread-12] ERROR com.teamtop.util.exector.schedule.ScheduleFixtime - java.lang.NullPointerException
+	at com.teamtop.system.country.newkingship.NewKingShipEvent.fixTime(NewKingShipEvent.java:176)
+	at com.teamtop.util.exector.schedule.ScheduleFixtime.execute(ScheduleFixtime.java:119)
+	at com.teamtop.system.gm.event.TimeGMFunction.UpdateTime(TimeGMFunction.java:351)
+	at com.teamtop.system.gm.event.TimeGMFunction$1.run(TimeGMFunction.java:246)
+	at com.teamtop.synHandleCore.OpTaskExecutorService$Work.run(OpTaskExecutorService.java:314)
+	at java.lang.Thread.run(Thread.java:745)
+,excute event ocurs an error
+2020-10-26 19:49:52.356 [OpTaskExecutorService-thread-3] ERROR com.teamtop.system.crossTeamKing.CrossTeamKingFunction - java.lang.NullPointerException
+	at com.teamtop.system.crossTeamKing.CrossTeamKingFunction.sendRankReward(CrossTeamKingFunction.java:1611)
+	at com.teamtop.system.crossTeamKing.local.CrossTeamKingLocalEvent.zeroPub(CrossTeamKingLocalEvent.java:132)
+	at com.teamtop.system.event.systemEvent.SystemEventFunction.triggerZeroHandlerEvent(SystemEventFunction.java:1148)
+	at com.teamtop.util.exector.schedule.ScheduleFixtime.checkZeroTime(ScheduleFixtime.java:39)
+	at com.teamtop.util.exector.schedule.ScheduleFixtime.execute(ScheduleFixtime.java:51)
+	at com.teamtop.system.gm.event.TimeGMFunction.changeSysTime(TimeGMFunction.java:92)
+	at com.teamtop.system.gm.event.ActivityGMEvent.gm(ActivityGMEvent.java:60)
+	at com.teamtop.system.gm.GMManager.gm(GMManager.java:33)
+	at com.teamtop.system.gm.GMCG.gm(GMCG.java:29)
+	at sun.reflect.GeneratedMethodAccessor1398.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.teamtop.netty.util.NettyDispatch$1.run(NettyDispatch.java:141)
+	at com.teamtop.synHandleCore.OpTaskExecutorService$Work.run(OpTaskExecutorService.java:314)
+	at java.lang.Thread.run(Thread.java:745)
+weekRestSendReward has wrong
+2020-10-26 19:50:10.658 [OpTaskExecutorService-thread-12] ERROR com.teamtop.util.exector.schedule.ScheduleFixtime - java.lang.NullPointerException
+	at com.teamtop.system.country.newkingship.NewKingShipEvent.fixTimeEnd(NewKingShipEvent.java:126)
+	at com.teamtop.system.country.newkingship.NewKingShipEvent.fixTime(NewKingShipEvent.java:168)
+	at com.teamtop.util.exector.schedule.ScheduleFixtime.execute(ScheduleFixtime.java:119)
+	at com.teamtop.system.gm.event.TimeGMFunction.UpdateTime(TimeGMFunction.java:351)
+	at com.teamtop.system.gm.event.TimeGMFunction$1.run(TimeGMFunction.java:246)
+	at com.teamtop.synHandleCore.OpTaskExecutorService$Work.run(OpTaskExecutorService.java:314)
+	at java.lang.Thread.run(Thread.java:745)
+,excute event ocurs an error
+2020-10-26 19:52:04.088 [OpTaskExecutorService-thread-12] ERROR com.teamtop.util.exector.schedule.ScheduleFixtime - java.lang.NullPointerException
+	at com.teamtop.system.battleGoods.event.BattleGoodLocalSysEvent.fixTime(BattleGoodLocalSysEvent.java:69)
+	at com.teamtop.util.exector.schedule.ScheduleFixtime.execute(ScheduleFixtime.java:119)
+	at com.teamtop.system.gm.event.TimeGMFunction.UpdateTime(TimeGMFunction.java:351)
+	at com.teamtop.system.gm.event.TimeGMFunction$1.run(TimeGMFunction.java:246)
+	at com.teamtop.synHandleCore.OpTaskExecutorService$Work.run(OpTaskExecutorService.java:314)
+	at java.lang.Thread.run(Thread.java:745)
+,excute event ocurs an error
+2020-10-26 19:52:07.740 [OpTaskExecutorService-thread-12] ERROR com.teamtop.util.exector.schedule.ScheduleFixtime - java.lang.NullPointerException
+	at com.teamtop.system.country.newkingship.NewKingShipEvent.fixTime(NewKingShipEvent.java:176)
+	at com.teamtop.util.exector.schedule.ScheduleFixtime.execute(ScheduleFixtime.java:119)
+	at com.teamtop.system.gm.event.TimeGMFunction.UpdateTime(TimeGMFunction.java:351)
+	at com.teamtop.system.gm.event.TimeGMFunction$1.run(TimeGMFunction.java:246)
+	at com.teamtop.synHandleCore.OpTaskExecutorService$Work.run(OpTaskExecutorService.java:314)
+	at java.lang.Thread.run(Thread.java:745)
+,excute event ocurs an error
+2020-10-26 19:53:35.358 [OpTaskExecutorService-thread-12] ERROR com.teamtop.util.exector.schedule.ScheduleFixtime - java.lang.NullPointerException
+	at com.teamtop.system.country.newkingship.NewKingShipEvent.fixTimeEnd(NewKingShipEvent.java:126)
+	at com.teamtop.system.country.newkingship.NewKingShipEvent.fixTime(NewKingShipEvent.java:168)
+	at com.teamtop.util.exector.schedule.ScheduleFixtime.execute(ScheduleFixtime.java:119)
+	at com.teamtop.system.gm.event.TimeGMFunction.UpdateTime(TimeGMFunction.java:351)
+	at com.teamtop.system.gm.event.TimeGMFunction$1.run(TimeGMFunction.java:246)
+	at com.teamtop.synHandleCore.OpTaskExecutorService$Work.run(OpTaskExecutorService.java:314)
+	at java.lang.Thread.run(Thread.java:745)
+,excute event ocurs an error
+2020-10-26 19:54:18.415 [OpTaskExecutorService-thread-12] ERROR com.teamtop.util.exector.schedule.ScheduleFixtime - java.lang.NullPointerException
+	at com.teamtop.system.battleGoods.event.BattleGoodLocalSysEvent.fixTime(BattleGoodLocalSysEvent.java:69)
+	at com.teamtop.util.exector.schedule.ScheduleFixtime.execute(ScheduleFixtime.java:119)
+	at com.teamtop.system.gm.event.TimeGMFunction.UpdateTime(TimeGMFunction.java:351)
+	at com.teamtop.system.gm.event.TimeGMFunction$1.run(TimeGMFunction.java:246)
+	at com.teamtop.synHandleCore.OpTaskExecutorService$Work.run(OpTaskExecutorService.java:314)
+	at java.lang.Thread.run(Thread.java:745)
+,excute event ocurs an error
+2020-10-26 19:58:30.068 [OpTaskExecutorService-thread-12] ERROR com.teamtop.util.exector.schedule.ScheduleFixtime - java.lang.NullPointerException
+	at com.teamtop.system.country.newkingship.NewKingShipEvent.fixTime(NewKingShipEvent.java:176)
+	at com.teamtop.util.exector.schedule.ScheduleFixtime.execute(ScheduleFixtime.java:119)
+	at com.teamtop.system.gm.event.TimeGMFunction.UpdateTime(TimeGMFunction.java:351)
+	at com.teamtop.system.gm.event.TimeGMFunction$1.run(TimeGMFunction.java:246)
+	at com.teamtop.synHandleCore.OpTaskExecutorService$Work.run(OpTaskExecutorService.java:314)
+	at java.lang.Thread.run(Thread.java:745)
+,excute event ocurs an error
+2020-10-26 19:59:09.265 [OpTaskExecutorService-thread-4] ERROR com.teamtop.system.crossTeamKing.CrossTeamKingFunction - java.lang.NullPointerException
+	at com.teamtop.system.crossTeamKing.CrossTeamKingFunction.sendRankReward(CrossTeamKingFunction.java:1611)
+	at com.teamtop.system.crossTeamKing.local.CrossTeamKingLocalEvent.zeroPub(CrossTeamKingLocalEvent.java:132)
+	at com.teamtop.system.event.systemEvent.SystemEventFunction.triggerZeroHandlerEvent(SystemEventFunction.java:1148)
+	at com.teamtop.util.exector.schedule.ScheduleFixtime.checkZeroTime(ScheduleFixtime.java:39)
+	at com.teamtop.util.exector.schedule.ScheduleFixtime.execute(ScheduleFixtime.java:51)
+	at com.teamtop.system.gm.event.TimeGMFunction.changeSysTime(TimeGMFunction.java:92)
+	at com.teamtop.system.gm.event.ActivityGMEvent.gm(ActivityGMEvent.java:60)
+	at com.teamtop.system.gm.GMManager.gm(GMManager.java:33)
+	at com.teamtop.system.gm.GMCG.gm(GMCG.java:29)
+	at sun.reflect.GeneratedMethodAccessor1398.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.teamtop.netty.util.NettyDispatch$1.run(NettyDispatch.java:141)
+	at com.teamtop.synHandleCore.OpTaskExecutorService$Work.run(OpTaskExecutorService.java:314)
+	at java.lang.Thread.run(Thread.java:745)
+weekRestSendReward has wrong

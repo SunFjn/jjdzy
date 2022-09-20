@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.country.newkingship.NewKingWar" tbname="newKingWar">
+		<index field="hid" type="prikey" autoIncrement="false"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="isHasReward" type="int" pf="all" comment="是否已领取俸禄"/>
+		<col field="battleNum" type="int" pf="all" comment="剩余挑战次数"/>
+		<col field="nextBattleTime" type="int" pf="all" comment="挑战结束剩余时间"/>
+		<col field="buyChaTimes" type="int" pf="all" comment="已购买挑战次数"/>
+		<col field="mobai" type="int" pf="all" comment="膜拜"/>
+		<col field="refreshTime" type="int" pf="all" comment="挑战次数  最后一次刷新时间"/>		
+    </tb>
+</tbs>

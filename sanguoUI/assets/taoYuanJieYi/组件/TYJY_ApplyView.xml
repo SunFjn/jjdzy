@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,837" designImageOffsetX="-23" designImageOffsetY="-106">
+  <displayList>
+    <component id="n1_vfmx" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,837">
+      <Label title="申请列表"/>
+    </component>
+    <component id="n2_vfmx" name="cancelBtn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="218,761">
+      <Button title="全部拒绝"/>
+    </component>
+    <list id="n3_vfmx" name="list" xy="9,77" size="573,665" overflow="scroll" defaultItem="ui://m2fm2aiyvfmx19" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

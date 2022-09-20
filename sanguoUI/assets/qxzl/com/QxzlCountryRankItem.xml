@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="579,135">
+  <displayList>
+    <image id="n6_cpw9" name="n6" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="579,132"/>
+    <image id="n14_cpw9" name="n14" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="123,83" size="167,27" group="n16_cpw9"/>
+    <richtext id="n15_cpw9" name="tfScore" xy="125,83" size="133,31" group="n16_cpw9" fontSize="20" color="#ffffff" autoClearText="true" text="总积分：1000"/>
+    <group id="n16_cpw9" name="n16" xy="123,83" size="167,27" collapsed="true"/>
+    <list id="n8_cpw9" name="itemList" xy="293,24" size="338,109" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="1" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n17_cpw9" name="loaderFlag" xy="15,10" size="104,115" aspect="true" url="ui://6d8dzzdgcpw91c" fill="scale"/>
+    <image id="n11_cpw9" name="n11" src="htpq1q" fileName="image/通用底框/名字底框.png" pkg="jvxpx9em" xy="136,30" group="n18_cpw9"/>
+    <richtext id="n12_cpw9" name="tfCountry" xy="182,29" pivot="0.5,0.5" size="49,34" group="n18_cpw9" fontSize="22" color="#ffffff" align="center" bold="true" autoClearText="true" text="魏国"/>
+    <group id="n18_cpw9" name="n18" xy="136,29" size="140,41"/>
+  </displayList>
+</component>

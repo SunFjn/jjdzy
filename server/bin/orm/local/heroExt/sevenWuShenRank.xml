@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.sevenWuShenRank.SevenWuShenRank" tbname="sevenWuShenRank">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="rewardMap" type="text" pf="all" comment="所有目标奖励情况"/>
+			<col field="countNum" type="text" pf="all" comment="各个榜单定格战力"/>
+     </tb>
+</tbs>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="595,888">
+  <displayList>
+    <component id="n0_o89h" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="-1,0" size="596,888">
+      <Label title="潜能"/>
+    </component>
+    <image id="n1_o89h" name="n1" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="25,72" size="547,137"/>
+    <list id="n2_o89h" name="list" xy="31,78" size="527,129" layout="row" overflow="hidden" colGap="20" defaultItem="ui://p83wyb2bh7p81" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_o89h" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="167,201">
+      <Label title="0"/>
+    </component>
+    <loader id="n4_o89h" name="imgBg" xy="149,258" size="327,462" url="ui://p83wyb2bo89h37"/>
+    <loader id="n102_o89h" name="img6" xy="301,300" size="93,19" rotation="47" touchable="false" url="ui://p83wyb2bo89h3t"/>
+    <loader id="n103_o89h" name="img5" xy="357,371" size="93,19" rotation="136" touchable="false" url="ui://p83wyb2bo89h3t"/>
+    <loader id="n101_o89h" name="img4" xy="299,419" size="93,19" rotation="47" touchable="false" url="ui://p83wyb2bo89h3t"/>
+    <loader id="n104_o89h" name="img3" xy="349,504" size="93,19" rotation="162" touchable="false" url="ui://p83wyb2bo89h3t"/>
+    <loader id="n100_o89h" name="img2" xy="260,523" size="93,19" rotation="18" touchable="false" url="ui://p83wyb2bo89h3t"/>
+    <loader id="n105_o89h" name="img1" xy="348,573" size="93,19" rotation="157" touchable="false" url="ui://p83wyb2bo89h3t"/>
+    <loader id="n75_o89h" name="img0" xy="263,600" size="93,19" rotation="18" touchable="false" url="ui://p83wyb2bo89h3t"/>
+    <richtext id="n12_o89h" name="lbLv" xy="9,241" size="216,69" font="ui://p83wyb2bo89h3s" fontSize="18" align="center" autoSize="none" autoClearText="true" text="d10c"/>
+    <image id="n13_o89h" name="n13" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="19,725" size="555,148"/>
+    <richtext id="n14_o89h" name="lbLv1" xy="39,722" size="119,69" scale="0.8,0.8" font="ui://p83wyb2bo89h3s" fontSize="18" autoClearText="true" text="d7c"/>
+    <richtext id="n15_o89h" name="lbName" xy="133,742" size="305,28" fontSize="18" color="#ffffff" autoClearText="true" text="孙鲁育升星基础属性+50%（+60%）"/>
+    <richtext id="n16_o89h" name="lbAttr" xy="46,777" size="153,78" fontSize="18" color="#e9e7d2" autoClearText="true" text="生命+123456789&#xA;生命+123456789&#xA;生命+123456789"/>
+    <image id="n17_o89h" name="imgMax" src="o89h35" fileName="image/潜能/已满级.png" xy="415,780"/>
+    <image id="n18_o89h" name="imgG7" src="o89h3c" fileName="image/潜能/重-未亮.png" xy="275,296"/>
+    <image id="n19_o89h" name="imgL7" src="o89h3b" fileName="image/潜能/重-亮.png" xy="270,291"/>
+    <image id="n21_o89h" name="imgG6" src="o89h3c" fileName="image/潜能/重-未亮.png" xy="327,351"/>
+    <image id="n22_o89h" name="imgL6" src="o89h3b" fileName="image/潜能/重-亮.png" xy="322,346"/>
+    <image id="n24_o89h" name="imgG5" src="o89h3c" fileName="image/潜能/重-未亮.png" xy="268,406"/>
+    <image id="n25_o89h" name="imgL5" src="o89h3b" fileName="image/潜能/重-亮.png" xy="263,401"/>
+    <image id="n27_o89h" name="imgG4" src="o89h3c" fileName="image/潜能/重-未亮.png" xy="336,474"/>
+    <image id="n28_o89h" name="imgL4" src="o89h3b" fileName="image/潜能/重-亮.png" xy="331,469"/>
+    <image id="n30_o89h" name="imgG3" src="o89h3c" fileName="image/潜能/重-未亮.png" xy="229,510"/>
+    <image id="n31_o89h" name="imgL3" src="o89h3b" fileName="image/潜能/重-亮.png" xy="224,505"/>
+    <image id="n33_o89h" name="imgG2" src="o89h3c" fileName="image/潜能/重-未亮.png" xy="337,547"/>
+    <image id="n34_o89h" name="imgL2" src="o89h3b" fileName="image/潜能/重-亮.png" xy="332,542"/>
+    <image id="n36_o89h" name="imgG1" src="o89h3c" fileName="image/潜能/重-未亮.png" xy="231,590"/>
+    <image id="n37_o89h" name="imgL1" src="o89h3b" fileName="image/潜能/重-亮.png" xy="226,585"/>
+    <image id="n39_o89h" name="imgG0" src="o89h3c" fileName="image/潜能/重-未亮.png" xy="336,620"/>
+    <image id="n40_o89h" name="imgL0" src="o89h3b" fileName="image/潜能/重-亮.png" xy="331,615"/>
+    <component id="n42_o89h" name="btnUp" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="421,755"/>
+    <component id="n43_o89h" name="vRes" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="425,819" size="138,33"/>
+    <richtext id="n44_o89h" name="lbRes" xy="313,822" size="108,28" fontSize="18" color="#ffffff" align="right" autoSize="none" autoClearText="true" text="经脉丹"/>
+    <component id="n76_o89h" name="btnGrid0" src="o89h3z" fileName="组件/潜能/BtnQianNeng.xml" xy="480,286">
+      <Button title="0/100" icon="ui://p83wyb2bo89h41"/>
+    </component>
+    <component id="n77_o89h" name="btnGrid1" src="o89h3z" fileName="组件/潜能/BtnQianNeng.xml" xy="480,382">
+      <Button title="0/100" icon="ui://p83wyb2bo89h40"/>
+    </component>
+    <loader id="n74_o89h" name="lbBg7" xy="174,308" size="101,23" touchable="false" url="ui://p83wyb2bo89h3u"/>
+    <richtext id="n73_o89h" name="lb7" xy="179,306" size="71,28" fontSize="16" color="#9ab1de" align="center" autoSize="none" text="督脉"/>
+    <loader id="n88_o89h" name="lbBg6" xy="417,358" pivot="0.5,0" anchor="true" size="101,23" scale="-1,1" touchable="false" url="ui://p83wyb2bo89h3u"/>
+    <richtext id="n89_o89h" name="lb6" xy="392,356" size="71,28" fontSize="16" color="#9ab1de" align="center" autoSize="none" text="任脉"/>
+    <loader id="n79_o89h" name="lbBg5" xy="170,416" size="101,23" touchable="false" url="ui://p83wyb2bo89h3u"/>
+    <richtext id="n80_o89h" name="lb5" xy="175,414" size="71,28" fontSize="16" color="#9ab1de" align="center" autoSize="none" text="冲脉"/>
+    <loader id="n91_o89h" name="lbBg4" xy="428,485" pivot="0.5,0" anchor="true" size="101,23" scale="-1,1" url="ui://p83wyb2bo89h3u"/>
+    <richtext id="n92_o89h" name="lb4" xy="403,483" size="71,28" fontSize="16" color="#9ab1de" align="center" autoSize="none" text="带脉"/>
+    <loader id="n82_o89h" name="lbBg3" xy="131,521" size="101,23" touchable="false" url="ui://p83wyb2bo89h3u"/>
+    <richtext id="n83_o89h" name="lb3" xy="136,519" size="71,28" fontSize="16" color="#9ab1de" align="center" autoSize="none" text="阴维脉"/>
+    <loader id="n94_o89h" name="lbBg2" xy="427,554" pivot="0.5,0" anchor="true" size="101,23" scale="-1,1" url="ui://p83wyb2bo89h3u"/>
+    <richtext id="n95_o89h" name="lb2" xy="402,552" size="71,28" fontSize="16" color="#9ab1de" align="center" autoSize="none" text="阳维脉"/>
+    <loader id="n85_o89h" name="lbBg1" xy="136,598" size="101,23" touchable="false" url="ui://p83wyb2bo89h3u"/>
+    <richtext id="n86_o89h" name="lb1" xy="141,596" size="71,28" fontSize="16" color="#9ab1de" align="center" autoSize="none" text="阴跷脉"/>
+    <loader id="n97_o89h" name="lbBg0" xy="423,628" pivot="0.5,0" anchor="true" size="101,23" scale="-1,1" url="ui://p83wyb2bo89h3u"/>
+    <richtext id="n98_o89h" name="lb0" xy="398,626" size="71,28" fontSize="16" color="#9ab1de" align="center" autoSize="none" text="阳跷脉"/>
+  </displayList>
+</component>

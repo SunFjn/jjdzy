@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="293,171">
+  <displayList>
+    <image id="n1_ocq2" name="n1" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="13,6" size="280,165"/>
+    <component id="n2_ocq2" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="24,18"/>
+    <component id="n3_ocq2" name="buyBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="141,110" pivot="0.5,0.5" size="118,42">
+      <Button title="购买"/>
+    </component>
+    <loader id="n4_ocq2" name="typeImg0" xy="188,24" size="26,26" url="ui://jvxpx9emltpm59" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <loader id="n5_ocq2" name="typeImg1" xy="189,52" size="26,26" url="ui://jvxpx9emltpm59" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <image id="n6_ocq2" name="lineImg" src="mb5j7f" fileName="image1/line.png" pkg="jvxpx9em" xy="185,34" size="98,2"/>
+    <image id="n7_ocq2" name="buyImg" src="mb5j7d" fileName="image/已购买.png" pkg="jvxpx9em" xy="135,115" visible="false"/>
+    <image id="n8_ocq2" name="disImg" src="orxgg" fileName="image/新资源/折扣标签.png" pkg="jvxpx9em" xy="0,0"/>
+    <richtext id="n9_ocq2" name="nameLb" xy="17,128" size="113,28" touchable="false" fontSize="18" color="#ff0000" align="center" leading="0" autoSize="shrink" text="兵法属性丹"/>
+    <richtext id="n10_ocq2" name="dataLb" xy="135,21" size="155,88" touchable="false" fontSize="18" color="#ffffff" leading="6" vars="true" autoSize="height" text="原价：      5000&#xA;现价：      1000&#xA;今日(3/3)"/>
+    <richtext id="n11_ocq2" name="promptLb" xy="135,122" size="125,28" touchable="false" fontSize="18" color="#ff0000" align="center" leading="0" ubb="true" autoSize="none" text="VIP5可购买"/>
+    <text id="n12_ocq2" name="disLb" xy="7,8" size="51,28" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="5折"/>
+  </displayList>
+</component>

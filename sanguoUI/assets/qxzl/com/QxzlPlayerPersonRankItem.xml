@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="556,128">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n0_vhu6" name="n0" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="556,128"/>
+    <list id="n8_vhu6" name="itemList" xy="198,26" size="485,109" scale="0.7,0.7" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="1" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n1_vhu6" name="lbRank" xy="9,16" size="180,31" fontSize="24" color="#f9bb13" align="center" autoSize="none" text="第10名"/>
+    <richtext id="n2_vhu6" name="lbName" xy="10,53" size="184,25" group="n10_vhu6" fontSize="18" color="#ffffff" align="center" autoSize="height" text="岁月催人老了.s9999"/>
+    <richtext id="n3_vhu6" name="lbScore" xy="10,87" size="184,22" group="n10_vhu6" fontSize="16" color="#33ff33" align="center" autoSize="none" text="积分：99999"/>
+    <group id="n10_vhu6" name="n10" xy="10,53" size="184,56" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n12_afk0" name="xwydImg" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="52,58">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+  </displayList>
+</component>

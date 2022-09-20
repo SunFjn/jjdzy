@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="82,98">
+  <displayList>
+    <component id="n29_dsdy" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="7,0" scale="0.7,0.7"/>
+    <image id="n37_dsdy" name="imgHas" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="0,27" size="80,26" aspect="true"/>
+    <image id="n34_dsdy" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="56,-3" size="24,25" group="n36_dsdy" aspect="true"/>
+    <richtext id="n35_dsdy" name="numLb" xy="54,-5" size="25,25" group="n36_dsdy" fontSize="16" color="#ffffff" align="center" autoSize="none" text="10"/>
+    <group id="n36_dsdy" name="noticeGroup" xy="54,-5" size="26,27" advanced="true" collapsed="true"/>
+    <richtext id="n33_dsdy" name="jifenLb" xy="0,73" size="82,25" touchable="false" fontSize="16" color="#ffffff" align="center" autoSize="none" text="积分:500"/>
+  </displayList>
+</component>

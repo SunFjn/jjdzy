@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://cokk050neckr14" designImageAlpha="89">
+  <displayList>
+    <loader id="n6_pi6u" name="loaderBg" xy="18,304" size="604,343" url="ui://cokk050npi6u15"/>
+    <component id="n0_eckr" name="btnTen" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="354,716">
+      <Button title="谋划10次" titleColor="#ffffff"/>
+    </component>
+    <component id="n1_eckr" name="btnOne" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="150,716">
+      <Button title="谋划一次"/>
+    </component>
+    <component id="n3_eckr" name="resCom0" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="145,666" size="140,36"/>
+    <component id="n4_eckr" name="resCom1" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="349,666" size="140,36"/>
+    <component id="n5_pi6u" name="btnCheck" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="506,316" size="116,32">
+      <Button title="跳过动画"/>
+    </component>
+    <image id="n7_pi6u" name="n7" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="20,312" size="254,51"/>
+    <richtext id="n8_pi6u" name="tfPreView" xy="29,311" size="207,28" fontSize="18" color="#ffffff" autoClearText="true" text="再谋划10次必出高级奖励"/>
+    <richtext id="n9_pi6u" name="tfTips" xy="29,333" size="185,28" fontSize="18" color="#00ff00" text="谋划次数满后重置进度"/>
+    <image id="n12_pi6u" name="n12" src="if1k3hc" fileName="image/通用底框/小标题文字底.png" pkg="jvxpx9em" xy="16,188" size="613,110"/>
+    <component id="n11_pi6u" name="n11" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="155,152" pivot="0.5,0.5" size="329,31">
+      <relation target="" sidePair="width-width,middle-middle"/>
+      <Label title="奖励预览"/>
+    </component>
+    <component id="n13_pi6u" name="pb" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="115,832" size="458,21">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n14_pi6u" name="tempItem" src="pi6u18" fileName="com/QiceRewardItem.xml" xy="192,854" visible="false" controller="stateCtrl,0"/>
+    <richtext id="n15_pi6u" name="tfTimes" xy="29,817" size="77,55" fontSize="18" color="#ffcc33" align="center" autoClearText="true" text="谋划次数&#xA;0/200"/>
+    <list id="n16_pi6u" name="itemList" xy="34,199" size="715,109" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="20" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n17_kfd7" name="imagePen" src="kfd71b" fileName="res/金毛笔.png" xy="255,404"/>
+  </displayList>
+</component>

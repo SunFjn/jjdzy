@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="312,134">
+  <displayList>
+    <image id="n11_k1rz" name="n11" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="0,0" size="312,134"/>
+    <loader id="n12_k1rz" name="backImg" xy="-14,0" size="213,51" url="ui://q5asybs1k1rz2"/>
+    <list id="n10_k1rz" name="list" xy="0,55" size="441,107" scale="0.7,0.7" layout="flow_vt" overflow="scroll" scroll="horizontal" margin="0,0,5,0" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n13_k1rz" name="rankLb" xy="15,11" size="57,31" fontSize="20" color="#e0cd92" text="第1名"/>
+    <richtext id="n14_gzam" name="nameLb" xy="97,11" size="45,31" fontSize="20" color="#00ff00" text="名字"/>
+  </displayList>
+</component>

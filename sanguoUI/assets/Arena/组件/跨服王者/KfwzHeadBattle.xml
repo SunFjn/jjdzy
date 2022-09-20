@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="124,88">
+  <controller name="dirCtrl" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n5_psge" name="imgHead" xy="22,6" size="80,80" group="n3_lxm0" url="ui://jvxpx9emp75388" fill="scaleFree"/>
+    <loader id="n6_psge" name="imgHeadGrid" xy="12,-2" size="100,90" group="n3_lxm0" url="ui://jvxpx9emtw1l5j" align="center" vAlign="bottom"/>
+    <group id="n3_lxm0" name="n3" xy="12,-2" size="100,90"/>
+    <graph id="n14_u5s0" name="n14" xy="18,-1" size="88,88" group="n15_u5s0" alpha="0.5" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <image id="n13_u5s0" name="n13" src="u5s08f" fileName="组件/跨服王者/res/已击杀标记.png" xy="38,20" group="n15_u5s0"/>
+    <group id="n15_u5s0" name="groupDie" xy="18,-1" size="88,88" visible="false" advanced="true"/>
+    <image id="n9_fyft" name="n9" src="fyft87" fileName="组件/跨服王者/res/顺序底.png" xy="89,-3" group="n12_fyft"/>
+    <richtext id="n11_fyft" name="tfIndex" xy="101,-1" pivot="0.5,0.5" size="15,25" group="n12_fyft" fontSize="18" color="#ffffff" vAlign="middle" autoClearText="true" text="1"/>
+    <group id="n12_fyft" name="n12" xy="89,-3" size="35,34" advanced="true">
+      <gearXY controller="dirCtrl" pages="0,1" values="89,-3|0,-3"/>
+    </group>
+  </displayList>
+</component>

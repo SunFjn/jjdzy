@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="134,152">
+  <displayList>
+    <component id="n2_kzdy" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="34,0" scale="0.7,0.7"/>
+    <component id="n1_kzdy" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="16,112" size="102,40">
+      <Button title="领取"/>
+    </component>
+    <component id="n6_kzdy" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="16,112" size="102,40" aspect="true">
+      <Button title="前往"/>
+    </component>
+    <image id="n4_kzdy" name="imgHas" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="18,116" size="99,32" aspect="true"/>
+    <richtext id="n5_kzdy" name="lb" xy="0,76" size="134,28" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="免费领取"/>
+  </displayList>
+</component>

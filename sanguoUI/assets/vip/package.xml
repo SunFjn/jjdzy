@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="w4xdcvn7" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="nvyw0" name="ViewVip.xml" path="/组件/" exported="true"/>
+    <component id="nvyw1" name="ViewVipDes.xml" path="/组件/" exported="true"/>
+    <image id="608a5" name="VIP.png" path="/image/" exported="true"/>
+    <image id="608a9" name="墨痕1.png" path="/image/" exported="true"/>
+    <component id="fbywa" name="ViewVipGift.xml" path="/组件/" exported="true"/>
+    <image id="fbywc" name="vip礼包title.png" path="/image/" exported="true"/>
+    <image id="fbywd" name="VIP礼包入口.png" path="/image/" exported="true"/>
+    <component id="fbywe" name="ItemVipGift.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="vip" genCode="true" npot="true"/>
+</packageDescription>

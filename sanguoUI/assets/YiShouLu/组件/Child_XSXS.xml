@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="639,920" opaque="false" designImage="ui://7y83phvnumao17">
+  <displayList>
+    <loader id="n4_jw42" name="backImg" xy="11,148" size="617,771" hideByEditor="true" url="ui://7y83phvnjw42i"/>
+    <component id="n9_jw42" name="resourceLb" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="503,151" size="114,36">
+      <Label title="999"/>
+    </component>
+    <component id="n28_dsdy" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="95,818" size="475,21">
+      <ProgressBar value="70" max="100"/>
+    </component>
+    <component id="n11_jw42" name="grid0" src="jw42m" fileName="组件/XunShouGrid.xml" xy="93,248"/>
+    <component id="n12_jw42" name="grid1" src="jw42m" fileName="组件/XunShouGrid.xml" xy="309,273"/>
+    <component id="n13_jw42" name="grid2" src="jw42m" fileName="组件/XunShouGrid.xml" xy="454,230"/>
+    <component id="n14_jw42" name="grid4" src="jw42m" fileName="组件/XunShouGrid.xml" xy="246,386"/>
+    <component id="n15_jw42" name="grid3" src="jw42m" fileName="组件/XunShouGrid.xml" xy="61,410"/>
+    <component id="n16_jw42" name="grid5" src="jw42m" fileName="组件/XunShouGrid.xml" xy="514,356"/>
+    <component id="n17_jw42" name="grid6" src="jw42m" fileName="组件/XunShouGrid.xml" xy="405,460"/>
+    <component id="n18_jw42" name="grid8" src="jw42m" fileName="组件/XunShouGrid.xml" xy="272,562"/>
+    <component id="n19_jw42" name="grid7" src="jw42m" fileName="组件/XunShouGrid.xml" xy="78,596"/>
+    <component id="n20_jw42" name="grid9" src="jw42m" fileName="组件/XunShouGrid.xml" xy="467,604"/>
+    <component id="n29_dsdy" name="grid00" src="dsdyp" fileName="组件/XSXS_JiFenGrid.xml" xy="201,789"/>
+    <component id="n42_dsdy" name="grid01" src="dsdyp" fileName="组件/XSXS_JiFenGrid.xml" xy="384,789"/>
+    <component id="n43_dsdy" name="grid02" src="dsdyp" fileName="组件/XSXS_JiFenGrid.xml" xy="531,792"/>
+    <component id="n24_dsdy" name="keyBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="253,695">
+      <Button title="一键寻兽"/>
+    </component>
+    <component id="n25_dsdy" name="costGrid" src="tw1l5d" fileName="新组建/ViewGrid2.xml" pkg="jvxpx9em" xy="274,754" size="33,31"/>
+    <richtext id="n26_dsdy" name="costLb" xy="312,756" size="45,25" touchable="false" fontSize="18" color="#ffffff" text="3360"/>
+    <richtext id="n27_dsdy" name="n27" xy="18,815" size="77,25" touchable="false" fontSize="18" color="#ffc344" text="寻兽积分"/>
+    <richtext id="n40_dsdy" name="n40" xy="260,890" size="121,28" touchable="false" fontSize="16" color="#ffffff" align="center" autoSize="none" text="积分满后重置"/>
+    <richtext id="n5_jw42" name="promptLb" xy="28,157" size="372,42" touchable="false" fontSize="16" color="#ffffff" ubb="true" vars="true" text="消耗[color=#ffc344]{money=1000元宝}[/color]或[color=#ffc344]{item=1个罗盘}[/color]可寻兽一次，并获得10积分&#xA;全部寻完必出珍惜道具(重置后可继续寻兽)"/>
+    <richtext id="n6_jw42" name="nameLb" xy="404,151" size="82,28" touchable="false" fontSize="18" color="#ffc344" align="right" autoSize="none" text="罗盘"/>
+    <component id="n45_dsdy" name="resetBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="253,695">
+      <Button title="重置"/>
+    </component>
+    <image id="n21_dsdy" name="n21" src="dsdyn" fileName="images/气泡框.png" xy="140,203" size="139,90" group="n46_dsdy" aspect="true"/>
+    <richtext id="n22_dsdy" name="n22" xy="176,232" size="77,25" group="n46_dsdy" touchable="false" fontSize="18" color="#ffffff" text="点此寻兽"/>
+    <group id="n46_dsdy" name="randomGroup" xy="140,203" size="139,90" advanced="true"/>
+  </displayList>
+</component>

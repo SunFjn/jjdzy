@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,800">
+  <displayList>
+    <component id="n2_tipm" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="9,0" size="622,801">
+      <Label title="消费排行"/>
+    </component>
+    <image id="n3_tipm" name="n3" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="40,81" size="560,80"/>
+    <list id="n4_tipm" name="list" xy="40,167" size="561,585" overflow="scroll" lineGap="8" defaultItem="ui://kdt501v2tipml">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n5_tipm" name="n5" xy="73,107" size="53,31" fontSize="24" color="#ff9900" text="排名"/>
+    <text id="n6_tipm" name="n6" xy="244,107" size="101,31" fontSize="24" color="#ff9900" text="玩家名称"/>
+    <text id="n7_tipm" name="n7" xy="482,107" size="53,31" fontSize="24" color="#ff9900" text="消费"/>
+  </displayList>
+</component>

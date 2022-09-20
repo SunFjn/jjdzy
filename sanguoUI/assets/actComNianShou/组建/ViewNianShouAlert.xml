@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="596,410">
+  <displayList>
+    <component id="n1_dsuf" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="596,410">
+      <Label title="提示"/>
+    </component>
+    <image id="n6_dsuf" name="n6" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="23,82" size="548,198"/>
+    <component id="n3_dsuf" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="230,296"/>
+    <richtext id="n4_dsuf" name="lbtip" xy="130,235" size="331,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="倒计时结束后可免费开启"/>
+    <richtext id="n7_dsuf" name="lb" xy="283,357" size="49,28" touchable="false" fontSize="18" color="#ffffff" align="center" text="1000"/>
+    <loader id="n8_dsuf" name="img" xy="252,355" size="32,32" touchable="false" url="ui://jvxpx9emqxkh3fp" fill="scale"/>
+    <component id="n9_id9y" name="vgrid" src="dsufc" fileName="组建/ItemNianShouGrid.xml" xy="248,98"/>
+    <image id="n10_plkm" name="imgYWC" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="236,308"/>
+  </displayList>
+</component>

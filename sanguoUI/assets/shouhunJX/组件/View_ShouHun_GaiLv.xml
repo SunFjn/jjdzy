@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="591,650">
+  <displayList>
+    <component id="n16_l5k5" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="591,650">
+      <Label title="一键升星"/>
+    </component>
+    <image id="n17_l5k5" name="n17" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="30,100" size="531,355"/>
+    <image id="n22_l5k5" name="n22" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="37,139" size="516,308"/>
+    <richtext id="n18_l5k5" name="lb1" xy="78,107" size="49,29" fontSize="22" color="#ffffff" leading="0" ubb="true" text="星级"/>
+    <richtext id="n19_l5k5" name="lb2" xy="217,106" size="159,29" fontSize="22" color="#ffffff" leading="0" ubb="true" text="可洗炼印记范围"/>
+    <richtext id="n20_l5k5" name="lb3" xy="435,106" size="93,29" fontSize="22" color="#ffffff" leading="0" ubb="true" text="洗炼次数"/>
+    <list id="n21_l5k5" name="list" xy="61,161" size="462,286" overflow="hidden" lineGap="6" defaultItem="ui://4aepcdbwl5k549">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n23_k8d1" name="curStarLv" xy="57,465" size="134,27" fontSize="20" color="#ffcc00" ubb="true" text="当前星级 : 3星"/>
+    <text id="n24_k8d1" name="hasCount" xy="414,465" size="125,27" fontSize="20" color="#ffcc00" ubb="true" text="已洗练 : 50次"/>
+    <text id="n25_k8d1" name="curDesc" xy="124,516" pivot="0.5,0.5" size="342,27" fontSize="20" color="#ffffff" align="center" vAlign="middle" ubb="true" text="消耗(100/250)个洗练石可直接升至4星"/>
+    <component id="n26_k8d1" name="upBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="230,564">
+      <Button title="一键升星"/>
+    </component>
+    <image id="n27_k8d1" name="n27" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="118,581" group="n29_k8d1"/>
+    <richtext id="n28_k8d1" name="n28" xy="243,574" size="116,35" group="n29_k8d1" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满星"/>
+    <group id="n29_k8d1" name="maxLvDesc" xy="118,574" size="366,35" advanced="true"/>
+  </displayList>
+</component>

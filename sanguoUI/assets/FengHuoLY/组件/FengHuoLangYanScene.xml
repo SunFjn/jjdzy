@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_srrs" name="map" src="heu9w1q" fileName="组件/FengHuoMap.xml" xy="0,0"/>
+  </displayList>
+</component>

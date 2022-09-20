@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,762">
+  <displayList>
+    <component id="n0_ye03" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,762" locked="true">
+      <Label title="装饰升级"/>
+    </component>
+    <loader id="n3_ye03" name="img" xy="271,154" size="50,30" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <component id="n1_ye03" name="n1" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="166,63"/>
+    <component id="n2_ye03" name="lbName" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="69,145" size="40,21"/>
+    <component id="n4_ye03" name="n4" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="137,413" size="319,28">
+      <Label title="升级属性"/>
+    </component>
+    <component id="n13_nvxy" name="lbLevel" src="nvxy3ib" fileName="组件/LevelLabel.xml" pkg="jvxpx9em" xy="67,304">
+      <relation target="n2_ye03" sidePair="center-center"/>
+      <Label title="1231231"/>
+    </component>
+    <richtext id="n5_ye03" name="lbNow" xy="54,463" size="40,28" group="n16_tmlf" fontSize="18" color="#ffffff" text=""/>
+    <richtext id="n6_ye03" name="lbNext" xy="328,463" size="40,28" group="n16_tmlf" fontSize="18" color="#33ff33" text=""/>
+    <component id="n7_ye03" name="n7" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="250,601" group="n16_tmlf"/>
+    <component id="n8_ye03" name="btnLevelup" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="228,648" group="n16_tmlf">
+      <Button title="升级"/>
+    </component>
+    <richtext id="n9_ye03" name="lbItem" xy="204,604" size="40,28" group="n16_tmlf" fontSize="18" color="#ffffff" align="right" text="">
+      <relation target="n7_ye03" sidePair="right-left"/>
+    </richtext>
+    <richtext id="n10_ye03" name="lbCondition" xy="276,713" size="40,28" group="n16_tmlf" fontSize="18" color="#ff0000" align="right" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n14_nvxy" name="n14" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="268,477" group="n16_tmlf"/>
+    <group id="n16_tmlf" name="groupAtt" xy="54,463" size="373,278" advanced="true" collapsed="true"/>
+    <image id="n15_tmlf" name="imgYMJ" src="shpk3h3" fileName="image/美术字/满级美术字/已满级.png" pkg="jvxpx9em" xy="252,657" group="n18_tmlf"/>
+    <richtext id="n17_tmlf" name="lbFull" xy="276,461" size="40,28" group="n18_tmlf" fontSize="18" color="#ffffff" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n18_tmlf" name="groupFull" xy="252,461" size="92,238" advanced="true" collapsed="true"/>
+    <component id="n19_se7l" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="529,226" size="55,63">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n20_se7l" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="21,226" pivot="0.5,0.5" size="55,63" scale="-1,1">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <richtext id="n21_se7l" name="lbxixi" xy="276,370" size="40,28" fontSize="18" color="#ff0000" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,654" designImage="ui://fm0lrzctqmu0x" designImageOffsetY="-273">
+  <displayList>
+    <image id="n3_v465" name="n3" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="3,198" size="636,457"/>
+    <loader id="n1_tl0c" name="bgImg" xy="0,0" size="50,50"/>
+    <image id="n4_v465" name="n4" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="0,149"/>
+    <richtext id="n0_tl0c" name="labTime" xy="19,152" size="123,25" touchable="false" fontSize="18" color="#00ff00" text="剩余时间：6天"/>
+    <list id="n2_tl0c" name="list" xy="21,210" size="606,422" layout="flow_hz" overflow="scroll" lineGap="16" colGap="11" defaultItem="ui://fm0lrzcttl0c1" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n5_v465" name="nextTimeTxt" xy="187,656" size="235,25" touchable="false" fontSize="18" color="#00ff00" text="下次系统天降红包时间 18:00">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n6_v465" name="btnFHB" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="322,122" pivot="0.5,0.5" anchor="true" size="136,62">
+      <Button icon="ui://fm0lrzctv465a"/>
+    </component>
+    <image id="n10_cbd5" name="n10" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="368,149"/>
+    <richtext id="n7_qmu0" name="n7" xy="293,108" size="65,27" touchable="false" fontSize="20" color="#ffffff" text="发红包"/>
+    <richtext id="n9_cbd5" name="labCount" xy="402,151" size="215,25" touchable="false" fontSize="18" color="#00ff00" align="right" autoSize="none" text="今日可抢红包数："/>
+  </displayList>
+</component>

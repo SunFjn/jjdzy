@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="uwarq7k4" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="lfaz0" name="View_Mail_Panel.xml" path="/组件/" exported="true"/>
+    <component id="lfaz1" name="MailItem.xml" path="/组件/" exported="true"/>
+    <component id="sl2fg" name="View_Mail_Content.xml" path="/组件/" exported="true"/>
+    <image id="k8ozj" name="Email.png" path="/image/" exported="true"/>
+    <image id="k8ozl" name="已领取邮件.png" path="/image/" exported="true"/>
+    <image id="cxk8n" name="邮件标题.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="Mail" genCode="true" npot="true"/>
+</packageDescription>

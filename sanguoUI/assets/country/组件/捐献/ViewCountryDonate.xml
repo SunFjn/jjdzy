@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,524">
+  <displayList>
+    <component id="n0_lyou" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,524">
+      <Label title="捐献"/>
+    </component>
+    <image id="n26_f50e" name="n26" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="17,73" size="559,391"/>
+    <richtext id="n4_mq9u" name="labCoinGet1" xy="128,274" size="41,28" fontSize="18" color="#11ed20" text="声望"/>
+    <richtext id="n5_mq9u" name="labCoinGet2" xy="128,305" size="41,28" fontSize="18" color="#11ed20" text="功勋"/>
+    <component id="n6_mq9u" name="btnCoin" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="113,359">
+      <Button title="捐献[color=#ff0000](10/10)[/color]" titleColor="#ffffff" titleFontSize="20"/>
+    </component>
+    <richtext id="n7_mq9u" name="labCoinCost" xy="163,418" size="60,28" touchable="false" fontSize="18" color="#ffffff" text="20000"/>
+    <richtext id="n8_mq9u" name="labGoldGet1" xy="358,274" size="41,28" fontSize="18" color="#11ed20" text="声望"/>
+    <richtext id="n9_mq9u" name="labGoldGet2" xy="358,305" size="41,28" fontSize="18" color="#11ed20" text="功勋"/>
+    <component id="n10_mq9u" name="btnGold" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="346,359">
+      <Button title="捐献(10/10)" titleColor="#ffffff" titleFontSize="20"/>
+    </component>
+    <richtext id="n11_mq9u" name="labGoldCost" xy="413,418" size="38,28" fontSize="18" color="#ffffff" text="100"/>
+    <richtext id="n12_mq9u" name="labSW" xy="70,477" size="49,28" fontSize="18" color="#ffffff" text="6000"/>
+    <richtext id="n15_f50e" name="btnRecharge" xy="151,477" size="77,28" fontSize="18" color="#11ed20" text="&lt;u>前往兑换&lt;/u>"/>
+    <image id="n16_f50e" name="n16" src="f50e11" fileName="image/其他/铜钱插图.png" xy="99,160"/>
+    <image id="n17_f50e" name="n17" src="f50e10" fileName="image/其他/元宝插图.png" xy="327,132"/>
+    <richtext id="n20_f50e" name="labCoinCount1" xy="200,274" size="40,28" fontSize="18" color="#ffffff" text="+10"/>
+    <richtext id="n21_f50e" name="labCoinCount2" xy="200,305" size="40,28" fontSize="18" color="#ffffff" text="+10"/>
+    <image id="n22_f50e" name="n22" src="ltpm59" fileName="image1/铜币.png" pkg="jvxpx9em" xy="125,418"/>
+    <image id="n23_f50e" name="n23" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="373,416"/>
+    <image id="n24_f50e" name="n24" src="f50e9w" fileName="image1/功勋图标.png" pkg="jvxpx9em" xy="172,307"/>
+    <image id="n25_f50e" name="n25" src="f50e9x" fileName="image1/声望图标.png" pkg="jvxpx9em" xy="174,271"/>
+    <richtext id="n27_f50e" name="labGoldCount1" xy="430,274" size="40,28" fontSize="18" color="#ffffff" text="+10"/>
+    <richtext id="n28_f50e" name="labGoldCount2" xy="430,305" size="40,28" fontSize="18" color="#ffffff" text="+10"/>
+    <image id="n29_f50e" name="n29" src="f50e9x" fileName="image1/声望图标.png" pkg="jvxpx9em" xy="404,271"/>
+    <image id="n30_f50e" name="n30" src="f50e9w" fileName="image1/功勋图标.png" pkg="jvxpx9em" xy="402,307"/>
+    <image id="n31_f50e" name="n31" src="f50e9x" fileName="image1/声望图标.png" pkg="jvxpx9em" xy="39,473"/>
+    <richtext id="n33_tidc" name="n33" xy="136,112" size="85,31" fontSize="20" color="#f4bf12" text="铜钱捐献"/>
+    <richtext id="n34_tidc" name="n34" xy="372,113" size="85,31" fontSize="20" color="#f4bf12" text="元宝捐献"/>
+  </displayList>
+</component>

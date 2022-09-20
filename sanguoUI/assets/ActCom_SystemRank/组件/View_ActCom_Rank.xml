@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,695">
+  <displayList>
+    <component id="n14_ze8t" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="591,695">
+      <Label title="异兽排名"/>
+    </component>
+    <image id="n15_ze8t" name="n15" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="19,83" size="556,44"/>
+    <list id="n6_wea3" name="list" xy="19,131" size="556,522" overflow="scroll" lineGap="5" defaultItem="ui://qz5r0meldsdy4" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n19_ze8t" name="n19" src="q8rv9n" fileName="image1/排名.png" pkg="jvxpx9em" xy="81,96" size="37,20" aspect="true"/>
+    <image id="n20_ze8t" name="n20" src="j92x9t" fileName="image1/名字.png" pkg="jvxpx9em" xy="285,96" size="38,20" aspect="true"/>
+    <loader id="n21_ze8t" name="txtImg" xy="468,96" size="73,20" url="ui://qz5r0meldsdyb"/>
+  </displayList>
+</component>

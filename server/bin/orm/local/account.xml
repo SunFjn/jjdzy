@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.account.Account" tbname="account">
+			<index field="id" type="prikey"/>
+			<index field="createtime" type="normal"/>
+			<index field="hid" type="normal"/>
+			<index field="openid" type="normal"/>
+			<index field="pf" type="normal"/>
+			<index field="pd" type="normal"/>
+			<col field="id" type="bigint" pf="all" comment="账号ID"/>
+			<col field="openid" type="varchar" len="100" pf="all" comment="账号名 腾讯狗日是openid+1，或者openid+2，表示安卓和苹果，其他平台还是openid"/>
+			<col field="oriopenid" type="varchar" len="100" pf="all" comment="真实的openid"/>
+			<col field="zoneid" type="int" pf="all" comment="区id"/>
+			<col field="createtime" type="int" pf="all" comment="创建角色时间"/>
+			<col field="createip" type="varchar" len="100" pf="all" comment="创建角色ip"/>
+			<col field="pf" type="varchar" len="100" pf="all" comment="注册渠道(平台)"/>
+			<col field="pd" type="varchar" len="100" pf="all" comment="小渠道"/>
+			<col field="hid" type="bigint" pf="all" comment="角色列表"/>
+			<col field="via" type="varchar" len="100" pf="all" comment="腾讯广告位数据"/>
+			<col field="app_custom" type="varchar" len="100" pf="all" comment="广告位数据"/>
+			<col field="pfopenid" type="varchar" len="100" pf="all" comment="平台账户 接入的渠道账户名 由SDk提供给游戏前端"/>
+			<col field="pfcode" type="varchar" len="100" pf="all" comment="平台代码 接入平台代号 由SDk转接工程提供给游戏前端 "/>
+			<col field="usesys" type="varchar" len="100" pf="all" comment="注册系统"/>
+			<col field="loginsys" type="varchar" len="100" pf="all" comment="注册系统"/>
+			<col field="Ismarket" type="int" pf="all" comment="是否集市用户，0-否，1-是"/>
+			<col field="inCreate" type="int" pf="all" comment="是否到达创建页面，0否，1是"/>
+			<col field="rechargeWhite" type="int" pf="all" comment="是否到达创建页面，0否，1是"/>
+			<col field="loginstate" type="int" pf="all" comment="1创角开始 2结束创角 3加在公共资源 4加载配置 5 预加载 6过场动画 7正式进入第一关"/>			
+			<col field="overState" type="int" pf="all" comment="是否达到ip注册限制"/>
+			<col field="country" type="varchar" len="100" pf="all" comment="用户国家"/>
+			<col field="region" type="varchar" len="100" pf="all" comment="用户地区"/>			
+     </tb>
+</tbs>

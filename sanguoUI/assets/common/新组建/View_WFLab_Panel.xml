@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="490,135">
+  <displayList>
+    <image id="n4_on89" name="n4" src="x3b93cl" fileName="image/通用底框/方框3.png" xy="0,0" size="490,135"/>
+    <richtext id="n8_on89" name="labDesc" xy="20,25" size="448,72" touchable="false" fontSize="22" color="#ffffff" align="center" ubb="true" autoSize="none" text="属性加成只针对本系统的&#xA;[color=#FFC000]升星[/color]和[color=#FFC000]升阶[/color]属性进行百分比加成"/>
+  </displayList>
+</component>

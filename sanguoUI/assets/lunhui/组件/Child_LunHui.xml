@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <component id="n1_n5o7" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="203,157"/>
+    <image id="n12_olrh" name="n12" src="olrh6" fileName="image/轮回背景.jpg" xy="41,266">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n11_olrh" name="n11" src="olrh2" fileName="image/背景-人.png" xy="224,293"/>
+    <image id="n16_olrh" name="n16" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="46,513" size="546,141">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n10_olrh" name="n10" src="olrh5" fileName="image/轮回奖励.png" xy="267,526">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n2_n5o7" name="lunhuiBtn" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="248,800">
+      <relation target="" sidePair="center-center"/>
+      <Button title="轮回"/>
+    </component>
+    <component id="n7_n5o7" name="n7" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="155,663" size="329,31">
+      <relation target="" sidePair="center-center"/>
+      <Label title="轮回属性"/>
+    </component>
+    <image id="n13_olrh" name="n13" src="olrh1" fileName="image/世轮回.png" xy="278,225"/>
+    <richtext id="n17_olrh" name="linkLb" xy="526,182" size="85,31" fontSize="20" color="#00ff00" underline="true" text="玩法说明"/>
+    <list id="n18_olrh" name="list" xy="102,555" size="430,93" layout="row" overflow="hidden" scroll="horizontal" defaultItem="ui://ehelf5bhxzzhh" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n19_xzzh" name="numIcon" xy="241,225" size="41,33" url="ui://ehelf5bhtkdni" align="center" vAlign="middle"/>
+    <image id="n4_n5o7" name="n4" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="291,717" size="66,58" group="n21_ibhd"/>
+    <richtext id="n5_n5o7" name="nextAtt" xy="386,699" size="153,100" group="n21_ibhd" touchable="false" fontSize="18" color="#00ff00" leading="6" autoSize="none" text="攻击+1000&#xA;攻击+1000"/>
+    <richtext id="n3_n5o7" name="curAtt" xy="127,699" size="153,100" group="n21_ibhd" touchable="false" fontSize="18" color="#ffffff" leading="6" autoSize="none" text="攻击+1000&#xA;攻击+1000"/>
+    <group id="n21_ibhd" name="upGroup" xy="127,699" size="412,100" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <richtext id="n22_ibhd" name="maxAtt" xy="244,699" size="153,100" touchable="false" fontSize="18" color="#ffffff" leading="6" autoSize="none" text="攻击+1000&#xA;攻击+1000">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <text id="n25_myip" name="jihuoLb" xy="191,886" size="262,28" fontSize="20" color="#ff0000" align="center" autoSize="none" text="600级可轮回">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n29_aq9e" name="n29" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="137,819" group="n31_aq9e"/>
+    <richtext id="n32_ituu" name="n32" xy="262,810" size="116,35" group="n31_aq9e" fontSize="22" color="#02e703" align="center" autoSize="none" text="轮回已满世"/>
+    <group id="n31_aq9e" name="maxTips" xy="137,810" size="366,35" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <richtext id="n33_ytxc" name="costLb" xy="108,855" size="421,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="消耗材料"/>
+  </displayList>
+</component>

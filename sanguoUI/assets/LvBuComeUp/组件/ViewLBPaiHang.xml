@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="622,800">
+  <displayList>
+    <component id="n0_100um" name="frame" src="f1cf4b" fileName="新组建/frame2.xml" pkg="jvxpx9em" xy="0,0" size="622,801"/>
+    <image id="n1_100um" name="n1" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="31,81" size="560,80"/>
+    <list id="n3_100um" name="list" xy="31,167" size="561,585" overflow="scroll" lineGap="8" defaultItem="ui://01fuz6zc100umh">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n8_100um" name="n8" xy="62,107" size="53,31" fontSize="24" color="#ff9900" text="排名"/>
+    <text id="n9_100um" name="n9" xy="247,107" size="101,31" fontSize="24" color="#ff9900" text="玩家名称"/>
+    <text id="n10_100um" name="n10" xy="454,107" size="101,31" fontSize="24" color="#ff9900" text="晋升积分"/>
+  </displayList>
+</component>

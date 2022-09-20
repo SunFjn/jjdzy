@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="608,778">
+  <displayList>
+    <image id="n40_pr1u" name="img" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="304,299" pivot="0.5,0.4" anchor="true" aspect="true"/>
+    <image id="n52_gjj0" name="n52" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="31,357" size="548,92"/>
+    <list id="n3_tht4" name="list" xy="88,369" size="482,79" layout="row" scroll="horizontal" colGap="24" defaultItem="ui://jvxpx9emdv773dn">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n6_tht4" name="labNeedName" xy="115,664" size="153,28" fontSize="18" color="#ffffff" align="right" autoSize="none" text="武将培养丹"/>
+    <component id="n32_w5fd" name="boxNeed" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="275,661"/>
+    <component id="n34_vh5g" name="labPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="171,2"/>
+    <component id="n44_hkwu" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="138,633" size="399,22">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <richtext id="n46_hkwu" name="labAttrCur" xy="97,502" size="172,110" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <richtext id="n47_hkwu" name="labAttrNext" xy="394,502" size="172,110" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <richtext id="n48_hkwu" name="labAttrMax" xy="256,502" size="172,110" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <image id="n49_hkwu" name="imgArrow" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="305,562" pivot="0.5,0.5" anchor="true"/>
+    <component id="n54_pxaa" name="n54" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="139,466" size="329,31">
+      <Label title="升阶属性"/>
+    </component>
+    <component id="n9_l0xe" name="btnUp" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="131,708" group="n55_pxaa">
+      <Button title="升阶" titleColor="#ffffff"/>
+    </component>
+    <component id="n37_qyuu" name="btnOnekey" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="351,708" group="n55_pxaa">
+      <Button title="一键升阶"/>
+    </component>
+    <group id="n55_pxaa" name="n55" xy="131,708" size="350,51"/>
+    <component id="n56_qph8" name="equip0" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="38,40"/>
+    <component id="n57_qph8" name="equip1" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="37,203"/>
+    <component id="n58_qph8" name="equip2" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="475,40"/>
+    <component id="n59_qph8" name="equip3" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="475,202"/>
+    <component id="n60_qph8" name="btnEquip" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="237,299">
+      <Button title="一键装备"/>
+    </component>
+    <component id="n56_khne" name="zhiShengDan" src="khne3dm" fileName="新组建/VZhiSheng.xml" pkg="jvxpx9em" xy="509,679"/>
+    <image id="n61_jx2x" name="n61" src="r3tt3dm" fileName="image/升阶解锁.png" pkg="jvxpx9em" xy="48,364"/>
+    <component id="n62_s89q" name="iconJie" src="s89q3e5" fileName="新组建/IconJie.xml" pkg="jvxpx9em" xy="65,622"/>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="p8fr1bvg" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="kzdy2" name="全服消费配图.jpg" path="/image/" exported="true"/>
+    <image id="kzdy4" name="普通奖励底.png" path="/image/" exported="true" scale="9grid" scale9grid="7,4,54,26"/>
+    <component id="kzdy5" name="Child_ActQFXF.xml" path="/组件/" exported="true"/>
+    <component id="kzdy6" name="ItemActQFXF.xml" path="/组件/" exported="true"/>
+    <component id="kzdy7" name="GridActQFXF.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="actQFXF" genCode="true" npot="true"/>
+</packageDescription>

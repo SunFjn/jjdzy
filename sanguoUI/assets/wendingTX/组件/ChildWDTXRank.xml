@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="559,618">
+  <displayList>
+    <list id="n0_fl2h" name="n0" xy="0,0" size="555,584" overflow="scroll" defaultItem="ui://gxs8kn67fl2h6">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n1_fl2h" name="lbMyRank" xy="23,588" size="157,34" fontSize="22" color="#ffcc00" text="我的排名：10+"/>
+    <richtext id="n3_fl2h" name="lbScore" xy="299,588" size="167,34" fontSize="22" color="#66ff00" text="当前积分：8000"/>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="165,162">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n3_glgp" name="n3" src="5voq3g5" fileName="image/选中框2.png" pkg="jvxpx9em" xy="4,0" size="174,162" scale="0.9,1">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <loader id="n4_glgp" name="img" xy="0,11" size="165,130"/>
+    <image id="n9_tcq6" name="n9" src="djuz3hk" fileName="image/通用底框/关卡连击底框.png" pkg="jvxpx9em" xy="23,105" size="119,44"/>
+    <richtext id="n6_glgp" name="lbTitle" xy="40,114" size="81,26" fontSize="19" color="#ffffff" text="异兽有礼"/>
+    <image id="n7_glgp" name="imgNotice" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="121,103"/>
+    <image id="n8_glgp" name="actImg" src="glgp7" fileName="image/已激活.png" xy="68,5"/>
+  </displayList>
+</component>

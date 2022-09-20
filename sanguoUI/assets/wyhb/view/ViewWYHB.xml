@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" designImage="ui://27qy37vtk7mb1">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0_k7mb" name="frame" src="fsg93cj" fileName="组件/frame4.xml" pkg="jvxpx9em" xy="0,0" group="n7_k7mb"/>
+    <image id="n4_k7mb" name="n0" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="6,371" size="636,548" group="n7_k7mb"/>
+    <loader id="n5_k7mb" name="bgImg" xy="16,380" size="616,463" group="n7_k7mb" url="ui://jvxpx9emm3513bg" autoSize="true"/>
+    <image id="n2_k7mb" name="n2" src="k7mb6" fileName="assets/配图.jpg" xy="-1,133" group="n7_k7mb"/>
+    <image id="n3_k7mb" name="n3" src="k7mb2" fileName="assets/万元红包.png" xy="243,67" group="n7_k7mb"/>
+    <group id="n7_k7mb" name="n7" xy="-1,0" size="643,1136"/>
+    <list id="n6_k7mb" name="list" xy="34,382" size="585,487" layout="flow_hz" overflow="scroll" lineGap="7" colGap="4" defaultItem="ui://27qy37vtk7mb8">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_k7mb" name="btnlv" src="iv1o3in" fileName="组件/TabButton4.xml" pkg="jvxpx9em" xy="146,316">
+      <Button checked="true" title="等级红包" controller="c1" page="0"/>
+    </component>
+    <component id="n9_k7mb" name="btncz" src="iv1o3in" fileName="组件/TabButton4.xml" pkg="jvxpx9em" xy="351,316">
+      <Button title="充值红包" controller="c1" page="1"/>
+    </component>
+    <richtext id="n10_qejn" name="lbPro2" xy="512,876" size="104,26" fontSize="18" color="#ffffff" align="right" text="当前进度：0">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <richtext id="n12_oxfc" name="lbPro0" xy="39,876" size="86,26" fontSize="18" color="#ffffff" text="已领取：0">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <richtext id="n13_oxfc" name="lbPro1" xy="265,876" size="104,26" fontSize="18" color="#ffffff" text="剩余可领：0">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+  </displayList>
+</component>

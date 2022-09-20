@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,910" opaque="false" designImage="ui://me1skowlwnzh6h">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n0_hfct" name="viewWars" src="hfct44" fileName="组件/枭雄争霸/ChildCrossWars.xml" xy="16,143">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n1_hfct" name="viewKing" src="hfct3p" fileName="组件/乱世枭雄/ChildCrossKing.xml" xy="5,149">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <image id="n9_djuz" name="n9" src="djuz3hl" fileName="image/通用底框/圆形选中框.png" pkg="jvxpx9em" xy="338,28" group="n7_hfct">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n8_djuz" name="n8" src="djuz3hl" fileName="image/通用底框/圆形选中框.png" pkg="jvxpx9em" xy="193,28" group="n7_hfct">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <component id="n2_hfct" name="bt0" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="202,48" size="100,93" group="n7_hfct">
+      <Button icon="ui://me1skowlhfct4t" controller="c1" page="0"/>
+    </component>
+    <component id="n3_hfct" name="bt1" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="347,48" size="100,93" group="n7_hfct">
+      <Button icon="ui://me1skowlhfct5g" controller="c1" page="1"/>
+    </component>
+    <group id="n7_hfct" name="n7" xy="193,28" size="261,116"/>
+  </displayList>
+</component>

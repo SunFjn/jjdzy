@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="555,82">
+  <displayList>
+    <image id="n0_n7ie" name="n0" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="555,82"/>
+    <loader id="n6_oc0j" name="imgRank" xy="56,6" size="72,65" url="ui://jvxpx9em100v3al" autoSize="true">
+      <relation target="" sidePair="middle-middle,center-center"/>
+    </loader>
+    <richtext id="n1_n7ie" name="lbRank" xy="72,27" size="41,28" fontSize="18" color="#ffc334" text="庄园"/>
+    <richtext id="n2_n7ie" name="lbName" xy="158,27" size="185,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text=""/>
+    <richtext id="n3_n7ie" name="lbScore" xy="386,27" size="10,28" fontSize="18" color="#ffffff" align="center" text=""/>
+    <component id="n5_n7ie" name="box" src="c14z16" fileName="新组建/Button2.xml" pkg="jvxpx9em" xy="454,0" pivot="0.5,0.5" size="99,84" scale="0.8,0.8">
+      <Button icon="ui://jvxpx9emaro89e"/>
+    </component>
+  </displayList>
+</component>

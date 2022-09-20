@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.sevenDayLogin.model.SevenDayLogin" tbname="sevenDayLogin">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="getteList" type="text" pf="all" comment="已领取列表"/>
+			<col field="loginDay" type="int" pf="all"  comment="登录天数"/>
+    </tb>
+</tbs>

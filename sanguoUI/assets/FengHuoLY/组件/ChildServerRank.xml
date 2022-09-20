@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="561,752">
+  <displayList>
+    <image id="n15_j08a" name="n15" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="0,521" size="561,231"/>
+    <loader id="n14_j08a" name="n14" xy="21,529" size="518,221" url="ui://edvdots4ekf6z"/>
+    <loader id="n2_kzd9" name="imgHead" xy="104,596" size="80,80" url="ui://edvdots4kzd9e"/>
+    <loader id="n3_kzd9" name="imgHeadGrid" xy="100,591" size="88,88" url="ui://edvdots4ov4h17" align="center" vAlign="bottom"/>
+    <text id="n5_kzd9" name="lbScore" xy="257,544" size="261,31" fontSize="24" color="#33ff00" text="mvp玩家积分：9999999"/>
+    <component id="n6_kzd9" name="n6" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="261,596" scale="0.9,0.9"/>
+    <component id="n7_kzd9" name="n7" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="351,596" scale="0.9,0.9"/>
+    <component id="n8_kzd9" name="n8" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="441,596" scale="0.9,0.9"/>
+    <image id="n10_j08a" name="n10" src="ekf6y" fileName="images/标题文字底.png" xy="11,704" size="271,40"/>
+    <text id="n4_kzd9" name="lbMvp" xy="35,709" size="222,35" fontSize="24" color="#66ff00" align="center" autoSize="none" text="玩家名字六个.s9999"/>
+    <image id="n11_j08a" name="n11" src="m3513by" fileName="image/文字底.png" pkg="jvxpx9em" xy="92,536" size="134,47"/>
+    <text id="n1_kzd9" name="n1" xy="92,548" size="103,31" fontSize="24" color="#ffcc00" text="当前MVP"/>
+    <list id="n18_b801" name="n18" xy="2,0" size="559,519" overflow="scroll" defaultItem="ui://edvdots4kzd9j">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

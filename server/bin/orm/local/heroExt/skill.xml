@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.skill.model.Skill" tbname="skill">
+		<index field="hid" type="prikey" autoIncrement="false"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="skillMap" type="varchar" len="500" pf="all" comment="技能数据"/>
+		<col field="photoCenterSet" type="varchar" len="500" pf="all" comment="阵眼数据"/>
+    </tb>
+</tbs>

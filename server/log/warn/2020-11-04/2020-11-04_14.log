@@ -1,0 +1,74 @@
+2020-11-04 14:50:00.688 [任务线程 - 9] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-04 14:50:00.688 [任务线程 - 9] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-04 14:50:00.688 [任务线程 - 9] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-04 14:50:00.688 [任务线程 - 9] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-04 14:50:00.688 [任务线程 - 9] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-04 14:01:37.235 [任务线程 - 14] WARN  com.teamtop.system.boss.monsterGod.MonsterGodFunction - monsterGodCache==null
+2020-11-04 14:34:57.554 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:34:57.554 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:34:57.554 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:34:57.554 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:34:57.554 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:34:57.585 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000011
+2020-11-04 14:34:57.585 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000011
+2020-11-04 14:34:58.647 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000011 name:夏夜丶红尘openUI countryType=0
+2020-11-04 14:35:10.726 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:35:10.883 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:35:14.456 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:35:29.193 [nioEventLoopGroup-9-1] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000011name 夏夜丶红尘.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-11-04 14:35:32.911 [nioEventLoopGroup-9-2] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000011name 夏夜丶红尘.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-11-04 14:35:39.875 [nioEventLoopGroup-9-3] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000011name 夏夜丶红尘.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-11-04 14:35:57.107 [nioEventLoopGroup-9-4] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000011name 夏夜丶红尘.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-11-04 14:36:01.511 [nioEventLoopGroup-11-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000011
+2020-11-04 14:36:15.115 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:36:15.115 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:36:15.115 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:36:15.115 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:36:15.115 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:36:15.115 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:36:15.161 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000011
+2020-11-04 14:36:15.161 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000011
+2020-11-04 14:36:16.192 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000011 name:夏夜丶红尘openUI countryType=0
+2020-11-04 14:36:41.126 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:36:41.157 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:8
+2020-11-04 14:36:48.277 [nioEventLoopGroup-9-5] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000011name 夏夜丶红尘.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-11-04 14:36:59.967 [nioEventLoopGroup-9-6] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000011name 夏夜丶红尘.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-11-04 14:37:03.278 [nioEventLoopGroup-9-7] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000011name 夏夜丶红尘.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-11-04 14:37:32.384 [nioEventLoopGroup-9-8] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000011name 夏夜丶红尘.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-11-04 14:41:06.931 [nioEventLoopGroup-9-1] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000011name 夏夜丶红尘.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-11-04 14:41:08.290 [nioEventLoopGroup-9-2] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000011name 夏夜丶红尘.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-11-04 14:41:15.502 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:41:15.720 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:41:15.876 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:41:20.342 [nioEventLoopGroup-9-3] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000011name 夏夜丶红尘.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-11-04 14:41:26.401 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.skill.SkillManager - type null:0
+2020-11-04 14:41:26.401 [OpTaskExecutorService-thread-6] WARN  com.teamtop.system.skill.SkillManager - type null:0
+2020-11-04 14:41:30.272 [任务线程 - 14] WARN  com.teamtop.system.crossTeamFuBen.CrossTeamFubenFunction - scheduleAttQmBoss.team is null.teamID:2
+2020-11-04 14:41:30.272 [任务线程 - 14] WARN  com.teamtop.system.crossTeamFuBen.CrossTeamFubenFunction - scheduleBossAttTeam.team is null.teamID:2
+2020-11-04 14:41:30.647 [nioEventLoopGroup-9-4] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000011name 夏夜丶红尘.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-11-04 14:42:29.661 [nioEventLoopGroup-9-5] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000011name 夏夜丶红尘.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-11-04 14:42:36.216 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:42:38.687 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:42:41.496 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:42:57.259 [nioEventLoopGroup-9-6] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000011name 夏夜丶红尘.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-11-04 14:44:30.157 [nioEventLoopGroup-11-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000011
+2020-11-04 14:44:42.695 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:44:42.695 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:44:42.695 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:44:42.711 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:44:42.711 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:44:43.464 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000012
+2020-11-04 14:44:51.007 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:44:51.132 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:44:51.351 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:44:51.539 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:44:51.695 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:44:59.045 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:45:02.902 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:45:03.417 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-11-04 14:45:11.424 [nioEventLoopGroup-9-7] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000012name 逆天灬墨染.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-11-04 14:51:37.399 [任务线程 - 2] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-04 14:51:37.399 [任务线程 - 2] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-04 14:51:37.399 [任务线程 - 2] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-04 14:51:37.399 [任务线程 - 2] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-11-04 14:51:37.399 [任务线程 - 2] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="610,193">
+  <displayList>
+    <image id="n19_jy0z" name="n19" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="11,12" size="587,168"/>
+    <image id="n15_dn79" name="n15" src="dn7912" fileName="image/普通技能框.png" xy="26,41"/>
+    <loader id="n1_c14z" name="skillIcon" xy="49,65" size="58,58" fill="scaleFree"/>
+    <image id="n16_dn79" name="n16" src="p75385" fileName="image/新资源/技能数字底框.png" pkg="jvxpx9em" xy="83,101"/>
+    <component id="n17_dn79" name="costItem" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="452,43" size="129,33" group="n11_nxam"/>
+    <component id="n8_c14z" name="upBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="444,96" group="n11_nxam">
+      <Button title="升级"/>
+    </component>
+    <group id="n11_nxam" name="showGroup" xy="444,43" size="137,115" advanced="true" collapsed="true"/>
+    <richtext id="n3_c14z" name="nameLb" xy="163,36" size="101,35" touchable="false" fontSize="24" color="#ffffff" leading="0" ubb="true" text="三分天下"/>
+    <richtext id="n4_c14z" name="cdLb" xy="279,44" size="75,28" touchable="false" fontSize="18" color="#ffffff" leading="0" ubb="true" text="CD:10秒"/>
+    <richtext id="n5_c14z" name="desLb" xy="158,95" size="286,79" touchable="false" fontSize="18" color="#ffffff" leading="6" autoSize="none" text="三分天下三分天下三分天下"/>
+    <richtext id="n12_z1r8" name="levelLb" xy="86,109" size="35,23" touchable="false" fontSize="14" color="#ffffff" align="center" leading="0" autoSize="none" text="999"/>
+    <richtext id="n20_10vjx" name="promptLb" xy="460,76" size="105,35" fontSize="24" color="#ff0000" leading="0" text="50关开启"/>
+    <image id="n18_mclp" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="102,51" visible="false"/>
+    <image id="n9_nxam" name="selectImg" src="z1r82h" fileName="image/新资源/选中发光状态框.png" pkg="jvxpx9em" xy="0,0" size="610,193" hideByEditor="true" visible="false"/>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="07jsdu7h" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="qftx2" name="Child_HeFu_CZFL.xml" path="/组件/充值返利/" exported="true"/>
+    <component id="qftx3" name="HeFu_CZFL_Item.xml" path="/组件/充值返利/" exported="true"/>
+    <image id="hilo5" name="方形花纹.png" path="/image/" exported="true"/>
+    <component id="hilo6" name="Child_HeFu_DSSL.xml" path="/组件/大神送礼/" exported="true"/>
+    <component id="hilo7" name="HeFu_DSSL_Item.xml" path="/组件/大神送礼/" exported="true"/>
+    <component id="hilo8" name="HeFu_DSSL_Item1.xml" path="/组件/大神送礼/" exported="true"/>
+    <image id="lgr89" name="已领取.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="hefuAct" genCode="true" npot="true"/>
+</packageDescription>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="560,162">
+  <displayList>
+    <image id="n2_iv4o" name="n2" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="560,160"/>
+    <richtext id="n3_iv4o" name="rankLb" xy="45,20" size="483,31" fontSize="20" color="#ff9933" vars="true" text="第{rank=1}名          国王专属              奖励                 战利品"/>
+    <richtext id="n4_iv4o" name="promptLb" xy="259,71" size="35,43" fontSize="30" color="#ffffff" text="无"/>
+    <richtext id="n6_iv4o" name="numLb" xy="20,103" size="125,28" group="n11_iv4o" fontSize="18" color="#00ff00" text="积分：123456"/>
+    <loader id="n5_iv4o" name="countryImg" xy="39,54" size="62,51" group="n11_iv4o" url="ui://jvxpx9emxyp27h" align="center" vAlign="middle"/>
+    <component id="n7_iv4o" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="160,59" group="n11_iv4o" scale="0.7,0.7"/>
+    <component id="n8_iv4o" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="280,60" group="n11_iv4o" scale="0.7,0.7"/>
+    <component id="n9_iv4o" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="357,60" group="n11_iv4o" scale="0.7,0.7"/>
+    <component id="n10_iv4o" name="grid3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="473,60" group="n11_iv4o" scale="0.7,0.7"/>
+    <group id="n11_iv4o" name="dataGroup" xy="20,54" size="555,108" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

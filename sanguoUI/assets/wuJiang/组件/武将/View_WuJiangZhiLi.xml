@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,600" opaque="false">
+  <displayList>
+    <image id="n1_jxbq" name="n1" src="jxbq3l" fileName="image/神将之力icon.png" xy="48,77"/>
+    <image id="n8_jxbq" name="n8" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="29,159" size="534,352"/>
+    <component id="n15_jxbq" name="upBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="221,515">
+      <Button title="升 阶"/>
+    </component>
+    <text id="n16_jxbq" name="maxDesc" xy="249,529" size="71,29" fontSize="22" color="#00ff33" ubb="true" text="已满阶"/>
+    <text id="n17_jxbq" name="current" xy="55,180" size="10,29" group="n21_jxbq" fontSize="22" color="#00ff33" ubb="true" text=""/>
+    <text id="n18_jxbq" name="curLife" xy="55,214" size="10,27" group="n21_jxbq" fontSize="20" color="#00ff33" ubb="true" text=""/>
+    <text id="n19_jxbq" name="curAttack" xy="55,244" size="10,27" group="n21_jxbq" fontSize="20" color="#00ff33" ubb="true" text=""/>
+    <text id="n20_jxbq" name="curDefense" xy="55,274" size="10,27" group="n21_jxbq" fontSize="20" color="#00ff33" ubb="true" text=""/>
+    <text id="n30_mcrs" name="curRealHurt" xy="55,304" size="10,27" group="n21_jxbq" fontSize="20" color="#00ff33" ubb="true" text=""/>
+    <group id="n21_jxbq" name="upGroup" xy="55,180" size="10,151" advanced="true" collapsed="true"/>
+    <text id="n22_jxbq" name="next" xy="55,348" size="10,29" group="n26_jxbq" fontSize="22" color="#00ff33" ubb="true" text=""/>
+    <text id="n23_jxbq" name="nextLife" xy="55,382" size="10,27" group="n26_jxbq" fontSize="20" color="#00ff33" ubb="true" text=""/>
+    <text id="n24_jxbq" name="nextAttack" xy="55,412" size="10,27" group="n26_jxbq" fontSize="20" color="#00ff33" ubb="true" text=""/>
+    <text id="n25_jxbq" name="nextDefense" xy="55,442" size="10,27" group="n26_jxbq" fontSize="20" color="#00ff33" ubb="true" text=""/>
+    <text id="n31_mcrs" name="nextRealHurt" xy="55,472" size="10,27" group="n26_jxbq" fontSize="20" color="#00ff33" ubb="true" text=""/>
+    <group id="n26_jxbq" name="downGroup" xy="55,348" size="10,151" advanced="true" collapsed="true"/>
+    <text id="n27_jxbq" name="currentLevel" xy="172,84" size="149,35" fontSize="26" color="#ffcc33" ubb="true" strokeColor="#000000" text="1阶神将之力"/>
+    <text id="n28_jxbq" name="currentPower" xy="172,125" size="153,27" fontSize="20" color="#ffffff" ubb="true" strokeColor="#000000" text="战力：99982131"/>
+    <text id="n29_jxbq" name="bottomDesc" xy="179,580" size="233,37" fontSize="18" color="#ee1515" autoSize="none" bold="true" text="红色武将才可培养神将之力"/>
+    <image id="n34_wf2c" name="adorn" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="103,534"/>
+  </displayList>
+</component>

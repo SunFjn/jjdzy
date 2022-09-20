@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,728" adaptationTest="FitSize">
+  <displayList>
+    <image id="n2_nb1u" name="n2" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="0,131" size="600,58"/>
+    <image id="n18_nb1u" name="n18" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="-1,304" size="601,353" hideByEditor="true"/>
+    <image id="n59_81i0" name="n59" src="dlak69" fileName="image/箭头+其他/间隔线.png" pkg="jvxpx9em" xy="15,486" size="564,1"/>
+    <component id="n49_aro8" name="headItem" src="aro8m" fileName="组件/NZBZHead.xml" xy="14,0"/>
+    <image id="n7_nb1u" name="n7" src="aro8t" fileName="image/声望图标.png" xy="180,38"/>
+    <image id="n8_nb1u" name="n8" src="aro8s" fileName="image/功勋图标.png" xy="411,40"/>
+    <loader id="n11_nb1u" name="rankBt" xy="495,122" size="81,69" aspect="true" url="ui://jvxpx9emaro89e" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n14_nb1u" name="jifenBt" xy="19,202" size="86,72" aspect="true" url="ui://jvxpx9emaro89e" align="center" vAlign="middle" fill="scale"/>
+    <image id="n57_aro8" name="n57" src="aro8o" fileName="image/积分奖励.png" xy="26,277"/>
+    <image id="n58_aro8" name="n58" src="aro8n" fileName="image/排名奖励.png" xy="501,196"/>
+    <image id="n60_pseo" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="83,204"/>
+    <component id="n45_nb1u" name="addBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="156,669" size="41,41">
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <component id="n16_nb1u" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="131,230" size="422,21">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <richtext id="n4_nb1u" name="guanxianLb" xy="127,3" size="157,28" touchable="false" fontSize="18" color="#ffffff" text="【12阶·骠骑将军】"/>
+    <richtext id="n5_nb1u" name="gongxunLb" xy="355,39" size="152,28" touchable="false" fontSize="18" color="#ffffff" text="功勋         100000"/>
+    <richtext id="n6_nb1u" name="prestigeLb" xy="127,39" size="152,28" touchable="false" fontSize="18" color="#ffffff" text="声望         100000"/>
+    <richtext id="n9_nb1u" name="myRankLb" xy="18,142" size="101,35" touchable="false" fontSize="24" color="#ffffff" text="个人排名"/>
+    <richtext id="n10_nb1u" name="countryLb" xy="278,142" size="101,35" touchable="false" fontSize="24" color="#ffffff" leading="0" text="国家排名"/>
+    <richtext id="n44_nb1u" name="battleLb" xy="14,669" size="125,28" touchable="false" fontSize="18" color="#ffffff" leading="0" text="挑战次数：4/5"/>
+    <richtext id="n61_p5b5" name="powerLb" xy="127,74" size="92,28" touchable="false" fontSize="18" color="#ffffff" leading="0" text="战力：360"/>
+    <richtext id="n46_nb1u" name="timeLb" xy="14,700" size="79,28" touchable="false" fontSize="18" color="#ffffff" leading="0" text="00:00:00"/>
+    <component id="n47_nb1u" name="resBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="439,669">
+      <Button title="刷新"/>
+    </component>
+    <component id="n19_nb1u" name="item0" src="nb1u6" fileName="组件/NZBZ_Item.xml" xy="13,327"/>
+    <component id="n43_nb1u" name="item1" src="nb1u6" fileName="组件/NZBZ_Item.xml" xy="13,503"/>
+  </displayList>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="209,72" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_m02f" name="n0" src="hxx517" fileName="image/按钮-未选中.png" xy="0,2" size="209,74">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_m02f" name="n1" src="hxx516" fileName="image/按钮.png" xy="-10,-11">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_m02f" name="n2" src="hxx517" fileName="image/按钮-未选中.png" xy="0,2" size="209,74">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_m02f" name="n3" src="hxx516" fileName="image/按钮.png" xy="-10,-11">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <richtext id="n4_m02f" name="title" xy="84,16" size="40,31" fontSize="20" color="#330066" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <image id="n5_m02f" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="189,-1" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n6_erg2" name="n6" src="wycz3fv" fileName="image/ylq.png" pkg="jvxpx9em" xy="3,-2" visible="false"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

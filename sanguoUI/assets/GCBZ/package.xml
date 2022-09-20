@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="vgiijkm8">
+  <resources>
+    <component id="uvs30" name="View_GCBZ_Panel.xml" path="/组件/" exported="true"/>
+    <component id="uvs31" name="GCBZCityItem.xml" path="/组件/" exported="true"/>
+    <component id="uvs33" name="Child_GCBZ.xml" path="/组件/" exported="true"/>
+    <image id="r5ge5" name="城池底.png" path="/image/" exported="true"/>
+    <image id="r5ge6" name="普通背景.jpg" path="/image/" exported="true"/>
+    <image id="r5ge7" name="驻守奖励.png" path="/image/" exported="true"/>
+    <image id="r5ge8" name="攻城宝库.png" path="/image/" exported="true"/>
+    <image id="r5ge9" name="气泡.png" path="/image/" exported="true"/>
+    <image id="r5gea" name="困难背景.jpg" path="/image/" exported="true"/>
+    <component id="r5gee" name="View_GCBZ_Shop.xml" path="/组件/" exported="true"/>
+    <image id="r5gei" name="攻城宝库背景.jpg" path="/image/" exported="true"/>
+    <component id="r5gej" name="GCBZ_ShopItem.xml" path="/组件/" exported="true"/>
+    <image id="r5gek" name="定位.png" path="/image/" exported="true"/>
+    <component id="r5gem" name="View_GCBZ_CityData.xml" path="/组件/" exported="true"/>
+    <component id="r5gep" name="View_GCBZ_BattleReport.xml" path="/组件/" exported="true"/>
+    <component id="r5geq" name="GCBZ_BattleReportItem.xml" path="/组件/" exported="true"/>
+    <image id="r5ger" name="fail.png" path="/image/" exported="true"/>
+    <image id="r5ges" name="win.png" path="/image/" exported="true"/>
+    <image id="h9brt" name="标题.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="GCBZ" genCode="true" excluded="r5gea,r5ge6,r5gei">
+    <atlas compression="true" index="0"/>
+  </publish>
+</packageDescription>

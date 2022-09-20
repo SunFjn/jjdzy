@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="555,93">
+  <displayList>
+    <image id="n16_qxiv" name="n16" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="555,93"/>
+    <loader id="n17_qxiv" name="imgRank" xy="69,5" size="80,80" url="ui://jvxpx9em100v3al" align="center" vAlign="middle"/>
+    <text id="n10_j9wf" name="lbRank" xy="62,26" size="93,40" fontSize="34" color="#f3c216" align="center" autoSize="none" text="4"/>
+    <text id="n14_j9wf" name="lbName" xy="240,29" size="253,35" fontSize="24" color="#ffffff" align="center" autoSize="none" text="S1000.玩家名字六字"/>
+  </displayList>
+</component>

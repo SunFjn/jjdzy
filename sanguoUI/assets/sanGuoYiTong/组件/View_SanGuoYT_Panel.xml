@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n1_tdwd" name="frame" src="z1jw6v" fileName="组件/WindowFrame1.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://z4ijxlqktdwd0"/>
+    </component>
+    <loader id="n25_lcej" name="backImg" xy="0,147" size="640,763" url="ui://z4ijxlqklceja" autoSize="true"/>
+    <image id="n2_tdwd" name="n2" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="42,677" size="556,164"/>
+    <image id="n11_tdwd" name="n11" src="gsdl3cn" fileName="image1/战力底1.png" pkg="jvxpx9em" xy="248,695" size="145,32"/>
+    <image id="n12_tdwd" name="n12" src="tdwd3" fileName="image/奖励一览.png" xy="276,701"/>
+    <image id="n13_tdwd" name="n13" src="tdwd7" fileName="image/三国霸主 拷贝.png" xy="210,158"/>
+    <image id="n19_tdwd" name="n19" src="m3513c0" fileName="image/新版台子.png" pkg="jvxpx9em" xy="179,533"/>
+    <image id="n22_tdwd" name="n22" src="tdwd9" fileName="image/无武将.png" xy="200,260" group="n24_tdwd"/>
+    <image id="n23_tdwd" name="n23" src="q09v3g6" fileName="image/其他/虚位以待.png" pkg="jvxpx9em" xy="273,233" group="n24_tdwd"/>
+    <group id="n24_tdwd" name="roleGroup" xy="200,233" size="260,315" advanced="true" collapsed="true"/>
+    <component id="n4_tdwd" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="112,743" scale="0.7,0.7"/>
+    <component id="n5_tdwd" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="199,743" scale="0.7,0.7"/>
+    <component id="n6_tdwd" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="286,743" scale="0.7,0.7"/>
+    <component id="n7_tdwd" name="grid3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="373,743" scale="0.7,0.7"/>
+    <component id="n8_tdwd" name="grid4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="460,743" scale="0.7,0.7"/>
+    <component id="n14_tdwd" name="bt0" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="78,569" size="84,88">
+      <Button icon="ui://z4ijxlqktdwd5"/>
+    </component>
+    <component id="n15_tdwd" name="bt1" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="212,569" size="84,88">
+      <Button icon="ui://z4ijxlqktdwd6"/>
+    </component>
+    <component id="n16_tdwd" name="bt2" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="345,569" size="84,88">
+      <Button icon="ui://z4ijxlqktdwd8"/>
+    </component>
+    <component id="n17_tdwd" name="bt3" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="481,569" size="84,88">
+      <Button icon="ui://z4ijxlqktdwd4"/>
+    </component>
+    <component id="n26_wcko" name="battleBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="255,852"/>
+    <richtext id="n18_tdwd" name="nameLb" xy="216,225" size="201,62" fontSize="20" color="#ffffff" align="center" autoSize="none" text="名字&#xA;战力"/>
+    <richtext id="n20_tdwd" name="timeLb" xy="99,861" size="442,35" fontSize="20" color="#00ff00" align="center" autoSize="none" text="三国一统倒计时"/>
+  </displayList>
+</component>

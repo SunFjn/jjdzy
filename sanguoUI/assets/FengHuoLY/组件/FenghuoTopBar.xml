@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="437,28">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n1_b801" name="n1" src="b801w29" fileName="images/血条底.png" xy="64,3" size="317,21"/>
+    <loader id="n0_b801" name="hp1" xy="66,6" size="312,15" url="ui://edvdots4b801w28" fill="scaleFree">
+      <gearIcon controller="c1" pages="1,2" values="ui://edvdots4b801w26|ui://edvdots4b801w27" default="ui://edvdots4b801w28"/>
+    </loader>
+    <richtext id="n2_b801" name="n2" xy="3,0" size="56,28" fontSize="18" color="#e3a812" autoSize="none" text="S9999"/>
+    <richtext id="n3_b801" name="n3" xy="193,2" size="50,26" fontSize="16" color="#ffffff" align="center" text="积分:0&#xA;">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n5_b801" name="n5" xy="397,0" size="41,28" fontSize="18" color="#33ff00" align="center" text="胜利"/>
+  </displayList>
+</component>

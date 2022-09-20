@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,235">
+  <displayList>
+    <graph id="n8_n7xv" name="maskSp" xy="1,-246" size="640,320" type="rect"/>
+    <component id="n7_n7xv" name="effImg" src="n7xv30" fileName="组件/三国战神/ZhanShenEff.xml" xy="320,74"/>
+    <image id="n0_n7xv" name="n0" src="n7xv33" fileName="image/最高排名奖励底.png" xy="0,74" size="640,161"/>
+    <image id="n2_n7xv" name="n2" src="n7xv34" fileName="image/历史最高字体.png" xy="195,0"/>
+    <image id="n5_n7xv" name="n5" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="318,152"/>
+    <richtext id="n3_n7xv" name="rankLb" xy="124,102" size="392,35" touchable="false" fontSize="24" color="#ffffff" align="center" autoSize="none" text="历史最高排名提高至：500"/>
+    <richtext id="n4_n7xv" name="n4" xy="235,152" size="77,35" touchable="false" fontSize="24" color="#ffffff" autoSize="none" text="奖励："/>
+    <richtext id="n6_n7xv" name="moneyLb" xy="356,152" size="47,35" touchable="false" fontSize="24" color="#ffffff" text="100"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n7_n7xv" tween="true" startValue="0" endValue="360" duration="144" ease="Linear"/>
+  </transition>
+</component>

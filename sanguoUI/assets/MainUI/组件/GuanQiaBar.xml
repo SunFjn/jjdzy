@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="137,74">
+  <displayList>
+    <image id="n25_koxx" name="pro21" src="koxx65" fileName="image1/副本进度2.png" xy="43,1" group="n9_heex"/>
+    <image id="n6_bq0h" name="fis2" src="koxx64" fileName="image1/副本进度1.png" xy="43,0" group="n9_heex"/>
+    <image id="n27_koxx" name="pro22" src="koxx67" fileName="image1/副本进度4.png" xy="8,30" group="n9_heex"/>
+    <image id="n2_bq0h" name="fis1" src="koxx66" fileName="image1/副本进度3.png" xy="7,29" group="n9_heex"/>
+    <image id="n26_koxx" name="pro23" src="koxx67" fileName="image1/副本进度4.png" xy="104,30" group="n9_heex"/>
+    <image id="n8_bq0h" name="fis3" src="koxx66" fileName="image1/副本进度3.png" xy="103,29" group="n9_heex"/>
+    <group id="n9_heex" name="g3" xy="7,0" size="130,74" advanced="true"/>
+    <image id="n10_heex" name="pro11" src="koxx65" fileName="image1/副本进度2.png" xy="43,0" group="n16_heex"/>
+    <image id="n11_heex" name="fis11" src="koxx64" fileName="image1/副本进度1.png" xy="43,-1" group="n16_heex"/>
+    <group id="n16_heex" name="g1" xy="43,-1" size="54,73" advanced="true"/>
+    <image id="n17_heex" name="pro21" src="koxx67" fileName="image1/副本进度4.png" xy="27,26" group="n23_heex"/>
+    <image id="n24_koxx" name="pro22" src="koxx67" fileName="image1/副本进度4.png" xy="82,26" group="n23_heex"/>
+    <image id="n18_heex" name="fis21" src="koxx66" fileName="image1/副本进度3.png" xy="27,25" group="n23_heex"/>
+    <image id="n22_heex" name="fis23" src="koxx66" fileName="image1/副本进度3.png" xy="82,25" group="n23_heex"/>
+    <group id="n23_heex" name="g2" xy="27,25" size="88,45" locked="true" advanced="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://47jfyc6edjuz40">
+  <displayList>
+    <loader id="n10_hul7" name="n10" xy="10,362" size="616,284" url="ui://47jfyc6ehul73e"/>
+    <image id="n40_djuz" name="n40" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="20,624" size="601,181">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n16_hul7" name="n16" src="hul73j" fileName="image/底框.png" xy="471,154"/>
+    <image id="n39_djuz" name="n39" src="djuz3hk" fileName="image/通用底框/关卡连击底框.png" pkg="jvxpx9em" xy="221,222" size="167,43"/>
+    <image id="n34_hul7" name="imgNULL" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="494,291"/>
+    <image id="n36_hul7" name="imgYlq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="264,845"/>
+    <image id="n5_hul7" name="n5" src="i8xh5v" fileName="image1/黑底.png" pkg="7gxkx46w" xy="130,582" size="379,34" group="n7_hul7"/>
+    <richtext id="n6_hul7" name="lbDebuff" xy="168,585" size="301,25" group="n7_hul7" fontSize="18" color="#ff0000" text="boss已被{0}率先击杀，属性降低{1}%">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n7_hul7" name="groupDebuff" xy="130,582" size="379,34" advanced="true" collapsed="true"/>
+    <component id="n12_hul7" name="btnRank" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="574,147" size="57,57">
+      <Button icon="ui://jvxpx9ememwp3h9"/>
+    </component>
+    <component id="n19_hul7" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="498,195" scale="0.9,0.9"/>
+    <richtext id="n9_hul7" name="lbBossName" xy="245,230" size="122,31" fontSize="24" color="#ffffff" text="第1场·曹操">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n1_hul7" name="n1" xy="22,157" size="195,25" fontSize="18" color="#33ff00" text="每周一0点重置挑战进度"/>
+    <richtext id="n2_hul7" name="lbDesc" xy="23,180" size="77,25" fontSize="18" color="#33ff00" text="&lt;u>玩法说明&lt;/u>"/>
+    <richtext id="n17_hul7" name="n17" xy="497,162" size="77,25" fontSize="18" color="#ffcc33" text="率先通关"/>
+    <richtext id="n18_hul7" name="lbName" xy="507,289" size="69,22" fontSize="16" color="#ffffff" text="玩家名字">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n24_hul7" name="lbTime" xy="22,885" size="77,25" fontSize="18" color="#33ff00" text="恢复时间"/>
+    <richtext id="n25_hul7" name="lbCount" xy="30,854" size="77,25" fontSize="18" color="#ffffff" text="挑战次数"/>
+    <richtext id="n37_hul7" name="lbComplete" xy="281,893" size="77,25" fontSize="18" color="#ff0000" text="恭喜通关"/>
+    <richtext id="n26_hul7" name="n26" xy="22,853" size="113,25" group="n28_hul7" fontSize="18" color="#33ff00" text="异兽挑战令："/>
+    <loader id="n27_hul7" name="n27" xy="127,853" size="80,80" group="n28_hul7" scale="0.4,0.4" url="ui://47jfyc6engkt3b"/>
+    <richtext id="n29_hul7" name="n29" xy="159,853" size="15,25" group="n28_hul7" fontSize="18" color="#ffffff" text="4"/>
+    <group id="n28_hul7" name="groupItem" xy="22,853" size="185,80" advanced="true" collapsed="true"/>
+    <list id="n30_hul7" name="n30" xy="64,678" size="514,100" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n31_hul7" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="258,835">
+      <Button title="领取"/>
+    </component>
+    <component id="n35_hul7" name="btnFght" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="258,835">
+      <Button title="开始挑战"/>
+    </component>
+    <component id="n38_nlyo" name="btnAdd" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="188,846" size="41,41">
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <component id="n41_djuz" name="n41" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="160,634">
+      <Label title="通关奖励" titleColor="#f4bf12" titleFontSize="18"/>
+    </component>
+  </displayList>
+</component>

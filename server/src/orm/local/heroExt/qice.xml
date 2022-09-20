@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.qice.model.QiCe" tbname="qiCe">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="qiCeMap" type="text" pf="all" comment="已拥有奇策信息"/>
+			<col field="taozhuangLv" type="int" pf="all" comment="奇策套装等级"/>
+			<col field="strength" type="bigint" pf="all" comment="奇策战力"/>
+     </tb>
+</tbs>

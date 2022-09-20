@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <controller name="c1" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <component id="n0_htxq" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://uwzc58njescg1w"/>
+    </component>
+    <image id="n41_escg" name="n41" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="216,212" size="208,40"/>
+    <image id="n45_escg" name="n45" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="20,624" size="602,185"/>
+    <richtext id="n16_htxq" name="n0" xy="25,156" size="261,34" fontSize="20" color="#00ff00" text="每周一0点重置boss挑战进度&#xA;"/>
+    <richtext id="n18_htxq" name="txtBossName" xy="245,217" size="151,31" fontSize="20" color="#ffffff" text="第十四章 沙摩柯">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n21_htxq" name="n21" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="166,482"/>
+    <richtext id="n31_htxq" name="txtLeftCnt" xy="23,839" size="129,31" fontSize="20" color="#ffffff" text="挑战次数: 0/3">
+      <gearDisplay controller="c1" pages="0"/>
+    </richtext>
+    <component id="n32_htxq" name="btnAdd" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="181,833" size="41,41">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n31_htxq" sidePair="left-right"/>
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <richtext id="n33_htxq" name="n33" xy="24,884" size="117,31" fontSize="20" color="#00ff00" text="每天0点重置">
+      <gearDisplay controller="c1" pages="0"/>
+    </richtext>
+    <component id="n34_htxq" name="btnHand" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="258,835">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearText controller="c1" pages="0" values="挑战" default="领取奖励"/>
+      <Button title="挑战"/>
+    </component>
+    <component id="n35_htxq" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="35,388" pivot="0.5,0.5" size="55,63">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <component id="n36_htxq" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="550,389" pivot="0.5,0.5" size="55,63" scale="-1,1">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <image id="n37_htxq" name="n37" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="260,839">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <text id="n38_htxq" name="n38" xy="212,844" size="217,34" fontSize="22" color="#ffff00" text="请先通关上一个BOSS">
+      <gearDisplay controller="c1" pages="3"/>
+    </text>
+    <richtext id="n39_htxq" name="txtKiller" xy="228,594" size="196,31" fontSize="20" color="#ff9900" text="击杀者: 玩家名称六字">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n43_escg" name="n43" src="kw747o" fileName="image1/BOSS血条底.png" pkg="jvxpx9em" xy="168,572" size="301,20"/>
+    <image id="n42_escg" name="iconProg" src="kw747v" fileName="image1/BM_BOXT1.png" pkg="jvxpx9em" xy="167,572"/>
+    <text id="n47_escg" name="txtProg" xy="285,569" size="66,25" fontSize="16" color="#ffffff" text="100/100">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n49_ase2" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="258,836">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n50_qup6" name="listBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="543,251" size="64,63">
+      <Button icon="ui://jvxpx9ememwp3h9"/>
+    </component>
+    <component id="n52_ofde" name="killReward" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="529,156" size="86,76">
+      <Button icon="ui://uwzc58njofde2j"/>
+    </component>
+    <component id="n54_tidc" name="n54" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="159,640">
+      <Label title="通关奖励"/>
+    </component>
+  </displayList>
+</component>

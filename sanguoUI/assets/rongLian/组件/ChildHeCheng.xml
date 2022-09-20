@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,922" opaque="false">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n17_nflu" name="n17" src="z1jw6l" fileName="image/侧边框底.png" pkg="jvxpx9em" xy="17,173" size="119,749"/>
+    <image id="n20_nflu" name="n20" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="144,566" size="475,342"/>
+    <image id="n12_nflu" name="n12" src="if1k3hc" fileName="image/通用底框/小标题文字底.png" pkg="jvxpx9em" xy="245,179"/>
+    <image id="n29_idkj" name="n29" src="idkjj" fileName="image/卷轴背景图.png" xy="241,232"/>
+    <component id="n2_nflu" name="grid" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="335,276"/>
+    <list id="n3_nflu" name="listCost" xy="199,641" size="374,137" layout="row" overflow="hidden" colGap="20" defaultItem="ui://jvxpx9emetorn" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_nflu" name="btnMin" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="230,452" group="n11_nflu">
+      <Button title="-10"/>
+    </component>
+    <component id="n5_nflu" name="btnReduce" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="287,451" size="37,41" group="n11_nflu">
+      <Button title="-1"/>
+    </component>
+    <image id="n6_nflu" name="n6" src="rt7o4r" fileName="image/通用底框/货币底.png" pkg="jvxpx9em" xy="334,460" size="99,26" group="n11_nflu"/>
+    <component id="n7_nflu" name="btnAdd" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="441,452" size="38,41" group="n11_nflu"/>
+    <richtext id="n8_nflu" name="lbCount" xy="341,457" size="86,31" group="n11_nflu" touchable="false" fontSize="20" color="#ffffff" align="center" autoSize="none" text="99999"/>
+    <component id="n9_nflu" name="btnMax" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="487,451" group="n11_nflu">
+      <Button title="+10"/>
+    </component>
+    <group id="n11_nflu" name="groupUse" xy="230,451" size="305,42"/>
+    <richtext id="n13_nflu" name="n13" xy="310,182" size="139,31" fontSize="20" color="#f4bf12" align="center" autoSize="none" text="合成预览"/>
+    <component id="n14_nflu" name="btnHe" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="316,779">
+      <Button title="合成" titleFontSize="20"/>
+    </component>
+    <component id="n15_nflu" name="n15" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="224,586" size="329,31">
+      <Label title="消耗材料" titleColor="#27e730"/>
+    </component>
+    <list id="n16_nflu" name="list" xy="16,270" size="115,638" overflow="scroll" lineGap="3" defaultItem="ui://ny9kb4yznflug" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n18_nflu" name="labCost" xy="373,848" size="49,28" touchable="false" fontSize="18" color="#ffffff" text="1000"/>
+    <image id="n22_nflu" name="n22" src="w6ro3cm" fileName="image/箭头+其他/箭头1.png" pkg="jvxpx9em" xy="388,531" pivot="0.5,0.5" anchor="true" rotation="-90"/>
+    <loader id="n24_r34l" name="imgCost" xy="337,846" size="30,30" url="ui://jvxpx9embwmw3y" align="center" vAlign="middle"/>
+    <component id="n25_dy6t" name="tab0" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="17,156">
+      <Button checked="true" title="武将" controller="c1" page="0"/>
+    </component>
+    <component id="n26_dy6t" name="tab1" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="17,214">
+      <Button title="道具" controller="c1" page="1"/>
+    </component>
+    <text id="n27_qt7v" name="txtVIP" xy="322,846" size="118,31" fontSize="20" color="#ff0000" text="vip10可合成"/>
+  </displayList>
+</component>

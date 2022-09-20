@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="76,102" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_c14z" name="icon" xy="0,0" size="76,102" url="ui://7gxkx46wltpmu" align="center" vAlign="middle" fill="scale"/>
+    <image id="n5_83lm" name="selImg" src="nayub6l" fileName="image/发光选中框.png" pkg="7gxkx46w" xy="-10,-6">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <image id="n4_rt7o" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="58,3" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

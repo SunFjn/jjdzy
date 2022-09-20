@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="295,220" opaque="false" extention="Button">
+  <displayList>
+    <component id="n0_hfx7" name="btn" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="-5,72" size="166,120">
+      <Button icon="ui://7gxkx46wpc654v"/>
+    </component>
+    <loader id="n6_hfx7" name="imgAuto" xy="5,191" size="123,41" url="ui://7gxkx46wjvkq68" align="center" vAlign="middle" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <image id="n8_yeyu" name="img" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="118,94"/>
+    <component id="n9_kpls" name="tip" src="fzsd55" fileName="组件/guideTip.xml" xy="124,143"/>
+    <component id="n12_po2d" name="autoBt" src="tw1l5d" fileName="新组建/ViewGrid2.xml" pkg="jvxpx9em" xy="3,198" size="127,30" touchable="false"/>
+    <component id="n13_koxx" name="prog" src="bq0h59" fileName="组件/GuanQiaBar.xml" xy="0,0" locked="true"/>
+    <component id="n14_p3a0" name="forwardBtn" src="102xb6j" fileName="组件/tempBtn.xml" xy="5,189"/>
+    <component id="n15_sakt" name="grpExtral" src="p0spb6k" fileName="组件/tempComp1.xml" xy="130,-28"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1"/>
+</component>

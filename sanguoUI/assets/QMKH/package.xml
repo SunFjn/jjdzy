@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="vrex0iz4" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="woj20" name="View_QMKH_Panel.xml" path="/组件/" exported="true"/>
+    <component id="woj23" name="QMKHItem.xml" path="/组件/" exported="true"/>
+    <component id="tznx4" name="Child_QMKH.xml" path="/组件/" exported="true"/>
+    <image id="ehmac" name="全民狂欢标题.png" path="/image/" exported="true"/>
+    <image id="q1jvh" name="单刀赴会banner.jpg" path="/image/"/>
+    <image id="9tltj" name="5203.png" path="/image/"/>
+  </resources>
+  <publish name="QMKH" genCode="true" npot="true" excluded="q1jvh,9tltj"/>
+</packageDescription>

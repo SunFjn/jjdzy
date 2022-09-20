@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,653">
+  <displayList>
+    <loader id="n8_j3hf" name="bg" xy="0,0" size="100,100"/>
+    <image id="n10_j3hf" name="n10" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="437,7" size="190,36">
+      <relation target="n6_sakt" sidePair="leftext-left"/>
+    </image>
+    <image id="n11_c4j4" name="n11" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="437,7" size="190,36">
+      <relation target="n6_sakt" sidePair="leftext-left"/>
+    </image>
+    <image id="n9_j3hf" name="n9" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="22,58"/>
+    <text id="n2_vib6" name="n2" xy="26,60" size="151,31" fontSize="20" color="#ffffff" text="活动剩余时间： "/>
+    <text id="n3_vib6" name="txtRemainTm" xy="159,60" size="87,31" fontSize="20" color="#33ff00" text="00:00:00"/>
+    <list id="n4_vib6" name="list" xy="1,94" size="638,557" overflow="scroll" defaultItem="ui://hincjqblsaktd">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n6_sakt" name="n6" xy="459,14" size="131,31" fontSize="20" color="#ffffff" text="已完美鉴定： ">
+      <relation target="n7_sakt" sidePair="right-left"/>
+    </text>
+    <text id="n7_sakt" name="txtJDInfo" xy="576,14" size="37,31" fontSize="20" color="#33ff00" text="0件">
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+</component>

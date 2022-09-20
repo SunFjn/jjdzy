@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="166,61">
+  <displayList>
+    <image id="n3_wuzz" name="n3" src="roqq52" fileName="image1/提示框.png" pkg="7gxkx46w" xy="0,0" size="166,61" group="n5_wuzz"/>
+    <image id="n4_wuzz" name="n4" src="wuzzz" fileName="image/点我！点我！.png" xy="28,20" size="129,24" group="n5_wuzz"/>
+    <group id="n5_wuzz" name="tip" xy="0,0" size="166,61" advanced="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n5_wuzz" tween="true" startValue="0,0" endValue="0,5" duration="12" ease="Linear"/>
+    <item time="12" type="XY" target="n5_wuzz" tween="true" startValue="0,5" endValue="0,0" duration="12" ease="Linear"/>
+  </transition>
+</component>

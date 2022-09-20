@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://pkuzcu87qimq3a">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <loader id="n21_r4og" name="backImg" xy="10,144" size="620,773" aspect="true" align="center" vAlign="middle" fill="scale" autoSize="true"/>
+    <image id="n22_r4og" name="n22" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="476,152" size="145,266"/>
+    <image id="n33_oh9v" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="495,370" size="99,32" aspect="true"/>
+    <image id="n35_jg2q" name="tabBg" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="23,669" size="589,146"/>
+    <image id="n28_r4og" name="n28" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="229,163" size="183,41"/>
+    <image id="n29_r4og" name="n29" src="r4og11" fileName="image/连斩.png" xy="312,166"/>
+    <component id="n9_jie0" name="rankBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="26,165" size="64,63">
+      <Button icon="ui://jvxpx9ememwp3h9"/>
+    </component>
+    <component id="n19_jie0" name="addBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="383,867" size="41,41" scale="0.9,0.9">
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <component id="n5_jie0" name="grid" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="505,189"/>
+    <richtext id="n6_jie0" name="passLb" xy="481,165" size="139,28" touchable="false" fontSize="18" color="#ffc344" align="center" leading="0" vars="true" autoSize="none" text="{pass=1000}波首通大奖"/>
+    <richtext id="n7_jie0" name="powerLb" xy="479,319" size="144,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="战力+88888888"/>
+    <richtext id="n11_jie0" name="curPassLb" xy="209,159" size="99,40" touchable="false" fontSize="28" color="#f4bf12" align="right" vAlign="middle" autoSize="none" text="100"/>
+    <richtext id="n17_jie0" name="battleLb" xy="259,876" size="120,25" touchable="false" fontSize="18" color="#ffffff" leading="0" vars="true" text="挑战次数：{str=0/1}"/>
+    <component id="n8_jie0" name="drawBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="484,346">
+      <Button title="领取"/>
+    </component>
+    <component id="n18_jie0" name="battleBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="253,812">
+      <Button title="开始挑战"/>
+    </component>
+    <component id="n13_jie0" name="tab0" src="r4og10" fileName="组件/一骑当千/YJDQ_Tab.xml" xy="58,681">
+      <Button checked="true" title="普通" icon="ui://pkuzcu87r4ogv"/>
+    </component>
+    <component id="n25_r4og" name="tab1" src="r4og10" fileName="组件/一骑当千/YJDQ_Tab.xml" xy="196,681">
+      <Button title="普通" icon="ui://pkuzcu87r4ogu"/>
+    </component>
+    <component id="n26_r4og" name="tab2" src="r4og10" fileName="组件/一骑当千/YJDQ_Tab.xml" xy="339,681">
+      <Button title="普通" icon="ui://pkuzcu87r4ogt"/>
+    </component>
+    <component id="n27_r4og" name="tab3" src="r4og10" fileName="组件/一骑当千/YJDQ_Tab.xml" xy="485,681">
+      <Button title="普通" icon="ui://pkuzcu87r4ogs"/>
+    </component>
+    <image id="n37_ftd2" name="n37" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="38,620" size="397,52"/>
+    <richtext id="n38_ftd2" name="lab" xy="43,622" size="385,48" touchable="false" fontSize="18" color="#ffffff" text="海量经验，连斩数越多经验越丰厚&#xA;&lt;font color='#15f234'>周卡特权：可从历史最高通关数前10关直接挑战&lt;/font>"/>
+    <richtext id="n39_eren" name="labMax" xy="237,214" size="168,25" touchable="false" fontSize="18" color="#ffffff" text="(历史最高关数:50关)">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n40_qimq" name="n40" src="tw1l5j" fileName="image1/头像框.png" pkg="jvxpx9em" xy="509,198"/>
+  </displayList>
+</component>

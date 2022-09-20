@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_woj2" name="frame" src="fsg93cj" fileName="组件/frame4.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://vrex0iz4ehmac"/>
+    </component>
+    <list id="n1_woj2" name="tabList" xy="10,121" size="622,154" layout="row" overflow="scroll" scroll="horizontal" colGap="20" defaultItem="ui://jvxpx9emr9to3he" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

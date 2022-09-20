@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="622,211">
+  <displayList>
+    <image id="n1_k2yd" name="n1" src="k2yd1h" fileName="image/标题标签底.png" xy="1,0"/>
+    <richtext id="n2_k2yd" name="lbTitle" xy="9,5" size="113,25" fontSize="18" color="#ffffff" text="元宵元宵元宵"/>
+    <loader id="n3_k2yd" name="bgImg" xy="0,36" size="621,175"/>
+  </displayList>
+</component>

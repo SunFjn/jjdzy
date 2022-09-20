@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="263,40" extention="Label">
+  <displayList>
+    <image id="n2_h3bo" name="n2" src="bwmw3l" fileName="image/战力.png" xy="0,0"/>
+    <text id="n0_h3bo" name="title" xy="61,6" size="202,27" font="ui://jvxpx9embwmw3w" fontSize="12" singleLine="true" text="99999999999"/>
+  </displayList>
+  <relation target="n0_h3bo" sidePair="width-width"/>
+</component>

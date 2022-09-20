@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="212,69">
+  <displayList>
+    <image id="n1_8xhz" name="n1" src="dyuu3bd" fileName="image1/错误提示.png" xy="0,0" size="212,69" group="n3_8xhz"/>
+    <richtext id="n2_8xhz" name="guideLb" xy="14,3" size="184,57" group="n3_8xhz" touchable="false" fontSize="18" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="none" text=""/>
+    <group id="n3_8xhz" name="guideGroup" xy="0,0" size="212,69" advanced="true" collapsed="true"/>
+    <component id="n0_8xhz" name="arrowImg" src="8xhz3g9" fileName="组件/GuideArrowImg.xml" xy="0,0"/>
+  </displayList>
+</component>

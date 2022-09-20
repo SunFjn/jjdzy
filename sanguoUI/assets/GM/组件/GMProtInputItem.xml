@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="199,30">
+  <displayList>
+    <image id="n2_af09" name="n2" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="46,0" size="153,30"/>
+    <richtext id="n0_pckg" name="lb" xy="1,1" size="44,28" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="u"/>
+    <text id="n1_pckg" name="contentLb" xy="48,1" size="150,28" input="true" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" text="协议内容"/>
+  </displayList>
+</component>

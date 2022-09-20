@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.wanyuanhongbao.model.WanyuanHongbao" tbname="wanyuanHongbao">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="lvlAwardsStateList" type="text" pf="all" comment="万元红包等级奖励状态列表 奖励状态0未达成1可领取2已领取"/>
+			<col field="rcAwardsStateList" type="text" pf="all" comment="万元红包累计充值奖励状态列表 奖励状态0未达成1可领取2已领取"/>
+    </tb>
+</tbs>

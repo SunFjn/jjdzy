@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="251,25">
+  <controller name="ctrl" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <richtext id="n23_ymt7" name="tfStar" xy="0,0" size="77,25" touchable="false" fontSize="18" color="#ffffff" align="center" text="零星奖励"/>
+    <image id="n35_ymt7" name="n35" src="sv0g2n" fileName="image1/big_star_0.png" pkg="jvxpx9em" xy="87,1"/>
+    <image id="n36_ymt7" name="n36" src="sv0g2n" fileName="image1/big_star_0.png" pkg="jvxpx9em" xy="122,1"/>
+    <image id="n37_ymt7" name="n37" src="sv0g2n" fileName="image1/big_star_0.png" pkg="jvxpx9em" xy="157,1"/>
+    <image id="n38_ymt7" name="n38" src="sv0g2n" fileName="image1/big_star_0.png" pkg="jvxpx9em" xy="192,1"/>
+    <image id="n39_ymt7" name="n39" src="sv0g2n" fileName="image1/big_star_0.png" pkg="jvxpx9em" xy="227,1"/>
+    <image id="n40_ymt7" name="n40" src="sv0g2i" fileName="image1/big_star_1.png" pkg="jvxpx9em" xy="87,1">
+      <gearDisplay controller="ctrl" pages="1"/>
+    </image>
+    <image id="n41_ymt7" name="n41" src="sv0g2j" fileName="image1/big_star_2.png" pkg="jvxpx9em" xy="87,1">
+      <gearDisplay controller="ctrl" pages="2"/>
+    </image>
+    <image id="n42_ymt7" name="n42" src="sv0g2k" fileName="image1/big_star_3.png" pkg="jvxpx9em" xy="87,1">
+      <gearDisplay controller="ctrl" pages="3"/>
+    </image>
+    <image id="n46_ymt7" name="n46" src="sv0g2j" fileName="image1/big_star_2.png" pkg="jvxpx9em" xy="122,1">
+      <gearDisplay controller="ctrl" pages="2"/>
+    </image>
+    <image id="n47_ymt7" name="n47" src="sv0g2k" fileName="image1/big_star_3.png" pkg="jvxpx9em" xy="122,1">
+      <gearDisplay controller="ctrl" pages="3"/>
+    </image>
+    <image id="n48_ymt7" name="n48" src="sv0g2k" fileName="image1/big_star_3.png" pkg="jvxpx9em" xy="157,1">
+      <gearDisplay controller="ctrl" pages="3"/>
+    </image>
+    <image id="n43_ymt7" name="n43" src="sv0g2l" fileName="image1/big_star_4.png" pkg="jvxpx9em" xy="87,1">
+      <gearDisplay controller="ctrl" pages="4"/>
+    </image>
+    <image id="n49_ymt7" name="n49" src="sv0g2l" fileName="image1/big_star_4.png" pkg="jvxpx9em" xy="122,1">
+      <gearDisplay controller="ctrl" pages="4"/>
+    </image>
+    <image id="n50_ymt7" name="n50" src="sv0g2l" fileName="image1/big_star_4.png" pkg="jvxpx9em" xy="157,1">
+      <gearDisplay controller="ctrl" pages="4"/>
+    </image>
+    <image id="n51_ymt7" name="n51" src="sv0g2l" fileName="image1/big_star_4.png" pkg="jvxpx9em" xy="192,1">
+      <gearDisplay controller="ctrl" pages="4"/>
+    </image>
+    <image id="n44_ymt7" name="n44" src="sv0g2m" fileName="image1/big_star_5.png" pkg="jvxpx9em" xy="87,1" group="n58_ymt7"/>
+    <image id="n53_ymt7" name="n53" src="sv0g2m" fileName="image1/big_star_5.png" pkg="jvxpx9em" xy="122,1" group="n58_ymt7"/>
+    <image id="n54_ymt7" name="n54" src="sv0g2m" fileName="image1/big_star_5.png" pkg="jvxpx9em" xy="157,1" group="n58_ymt7"/>
+    <image id="n55_ymt7" name="n55" src="sv0g2m" fileName="image1/big_star_5.png" pkg="jvxpx9em" xy="192,1" group="n58_ymt7"/>
+    <image id="n56_ymt7" name="n56" src="sv0g2m" fileName="image1/big_star_5.png" pkg="jvxpx9em" xy="227,1" group="n58_ymt7"/>
+    <group id="n58_ymt7" name="n58" xy="87,1" size="164,24" advanced="true">
+      <gearDisplay controller="ctrl" pages="5"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="176,161">
+  <displayList>
+    <image id="n36_wtx2" name="n36" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="0,0" size="173,51"/>
+    <component id="n37_wtx2" name="container" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="85,18"/>
+    <image id="n45_wtx2" name="n45" src="wtx23ic" fileName="image/新资源/气泡框.png" pkg="jvxpx9em" xy="76,-135" size="129,82" group="n48_wtx2"/>
+    <richtext id="n47_wtx2" name="n47" xy="103,-109" size="77,28" group="n48_wtx2" fontSize="18" color="#ffffff" text="没屯粮了"/>
+    <group id="n48_wtx2" name="promptGroup" xy="76,-135" size="129,82" advanced="true" collapsed="true"/>
+    <image id="n38_wtx2" name="n38" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="4,37" size="172,66" group="n49_qc9h"/>
+    <image id="n39_wtx2" name="n39" src="dlak69" fileName="image/箭头+其他/间隔线.png" pkg="jvxpx9em" xy="8,67" size="163,1" group="n49_qc9h"/>
+    <image id="n41_wtx2" name="n41" src="bwmw3l" fileName="image/战力.png" pkg="jvxpx9em" xy="17,68" size="42,31" group="n49_qc9h"/>
+    <image id="n44_wtx2" name="ldImg" src="wtx2p" fileName="image/掠夺成功.png" xy="39,109" group="n49_qc9h"/>
+    <richtext id="n40_wtx2" name="nameLb" xy="16,38" size="147,28" group="n49_qc9h" fontSize="18" color="#ffffff" align="center" autoSize="none" text="名字"/>
+    <richtext id="n42_wtx2" name="powerLb" xy="60,69" size="71,28" group="n49_qc9h" fontSize="18" color="#f4bf12" align="center" text="123455"/>
+    <component id="n43_wtx2" name="ldBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="30,106" size="119,55" group="n49_qc9h">
+      <Button title="掠夺"/>
+    </component>
+    <group id="n49_qc9h" name="dataGroup" xy="4,37" size="172,124" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

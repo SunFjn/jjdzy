@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,682">
+  <displayList>
+    <component id="n0_rkgc" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,682">
+      <Label title="升星"/>
+    </component>
+    <image id="n11_jrht" name="n11" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="20,80" size="552,557"/>
+    <image id="n12_j2yi" name="n12" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="113,558" group="n14_j2yi"/>
+    <richtext id="n13_j2yi" name="n13" xy="238,548" size="116,35" group="n14_j2yi" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满星"/>
+    <group id="n14_j2yi" name="maxGroup" xy="113,548" size="366,35" advanced="true" collapsed="true"/>
+    <text id="n4_rkgc" name="starLb" xy="224,142" size="144,28" font="ui://jvxpx9emz1r82c" fontSize="18" color="#ffffff" leading="0" text="00100"/>
+    <richtext id="n5_rkgc" name="levelLb" xy="154,179" size="284,28" touchable="false" fontSize="18" color="#00a5ff" align="center" leading="0" autoSize="none" text="等级上限增加至20"/>
+    <component id="n3_rkgc" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="164,78"/>
+    <component id="n8_rkgc" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="178,514" group="n15_j2yi"/>
+    <component id="n9_rkgc" name="upBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="296,545" group="n15_j2yi">
+      <Button title="升星"/>
+    </component>
+    <group id="n15_j2yi" name="upstarGroup" xy="178,514" size="259,102" advanced="true" collapsed="true"/>
+    <list id="n17_cjfy" name="list" xy="108,211" size="385,306" overflow="scroll" defaultItem="ui://m0rbmsgscjfy3d" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,88" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n3_6hpm" name="n3" src="v10mu" fileName="image/选中框.png" xy="0,0" size="84,88">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="n4_6hpm" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n4_6hpm" name="icon" xy="0,0" size="84,88" url="ui://d5y9ngt6jt4v1n" align="center" vAlign="middle" autoSize="true"/>
+    <image id="n5_6hpm" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="64,0" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+  <relation target="n4_6hpm" sidePair="width-width,height-height"/>
+</component>

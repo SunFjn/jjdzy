@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="380,263">
+  <displayList>
+    <image id="n26_ud97" name="g22" src="x3b93cl" fileName="image/通用底框/方框3.png" xy="6,110" size="374,153">
+      <relation target="n23_cyxg" sidePair="bottomext-bottom"/>
+    </image>
+    <text id="n15_cyxg" name="lbName" xy="120,8" size="125,35" fontSize="24" color="#ffffff" text="坐骑升星丹"/>
+    <component id="n16_cyxg" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" xy="6,0"/>
+    <text id="n17_cyxg" name="lbNum" xy="120,80" size="103,28" fontSize="18" color="#ffffff" text="数量：9999"/>
+    <text id="n18_cyxg" name="lbLevel" xy="120,49" size="103,28" fontSize="18" color="#ffffff" text="等级：9999"/>
+    <richtext id="n19_cyxg" name="lbDes" xy="42,148" size="320,28" touchable="false" fontSize="18" color="#ffffff" leading="6" autoSize="height" text="气血+1000"/>
+    <richtext id="n22_cyxg" name="lbDesTit" xy="42,117" size="77,28" touchable="false" fontSize="18" color="#ffc344" autoSize="none" text="道具描述"/>
+    <image id="n24_cyxg" name="imgDes" src="irr13gw" fileName="image/花纹/菱形花纹.png" xy="18,124"/>
+    <component id="n27_bwh7" name="vPower" src="z8fv3ff" fileName="新组建/ViewPower1.xml" xy="120,76" size="227,40" scale="0.9,0.9">
+      <Label title="111222223"/>
+    </component>
+    <richtext id="n21_cyxg" name="lbSourceTit" xy="42,191" size="77,28" group="n28_q2mk" touchable="false" fontSize="18" color="#ffc344" autoSize="none" text="道具来源">
+      <relation target="n19_cyxg" sidePair="top-bottom"/>
+    </richtext>
+    <richtext id="n23_cyxg" name="lbSource" xy="42,222" size="321,28" group="n28_q2mk" touchable="false" fontSize="18" color="#ffffff" leading="6" autoSize="height" text="坐骑副本">
+      <relation target="n19_cyxg" sidePair="top-bottom"/>
+    </richtext>
+    <image id="n25_cyxg" name="imgSource" src="irr13gw" fileName="image/花纹/菱形花纹.png" xy="18,198" group="n28_q2mk">
+      <relation target="n19_cyxg" sidePair="top-bottom"/>
+    </image>
+    <group id="n28_q2mk" name="groupSource" xy="18,191" size="345,56" advanced="true"/>
+  </displayList>
+  <relation target="n23_cyxg" sidePair="bottomext-bottom"/>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.tigerPass.model.TigerPass" tbname="tigerPass">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="refreshTime" type="int" pf="all" comment="恢复次数时间"/>
+			<col field="battleNum" type="int" pf="all" comment="剩余次数"/>
+			<col field="bossIndex" type="int" pf="all" comment="当前boss序号"/>
+			<col field="curhp" type="bigint" pf="all" comment="当前气血"/>
+			<col field="hpmax" type="bigint" pf="all" comment="hpmax"/>
+			<col field="chooseHid" type="bigint" pf="all" comment=" 0没有雇佣者 >1雇佣者hid"/>
+			<col field="joinEmploySate" type="int" pf="all" comment="是否加入雇佣兵 0没有 1已经加入雇佣兵"/>
+			<col field="chooseNum" type="int" pf="all" comment="每天雇佣剩余次"/>
+			<col field="rewards" type="text" pf="all" comment="首通奖励状态"/>
+			<col field="tigerPassEmployers" type="text" pf="all" comment="雇佣者集合"/>
+			<col field="weekRestTime" type="int" pf="all" comment="奖励重置时间"/>			
+     </tb>
+</tbs>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="5xptxudg">
+  <resources>
+    <component id="p5ib0" name="ViewWarOrderPanel.xml" path="/com/" exported="true"/>
+    <component id="p5ib1" name="ViewWarOrderUpgrade.xml" path="/com/" exported="true"/>
+    <component id="p5ib3" name="WarOrderRewItem.xml" path="/com/" exported="true"/>
+    <component id="p5ib5" name="WarOrderTaskItem.xml" path="/com/" exported="true"/>
+    <component id="ml15t" name="ViewWarOrderBuyCt.xml" path="/com/" exported="true"/>
+    <image id="ml15y" name="徽章底.png" path="/image/" exported="true"/>
+    <image id="ml15z" name="红色标题渐变底.png" path="/image/" exported="true"/>
+    <image id="ml1513" name="黑色遮挡.png" path="/image/" exported="true"/>
+    <image id="hw8616" name="装备锻造.png" path="/image/" exported="true"/>
+    <image id="m8r617" name="文字bg1.png" path="/image/" exported="true"/>
+    <image id="m8r618" name="已激活.png" path="/image/" exported="true"/>
+    <image id="g3ec19" name="8001_title.png" path="/image/" exported="true"/>
+    <image id="wdrn1a" name="无奖励.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="warOrder" genCode="true" excluded="hw8616"/>
+</packageDescription>

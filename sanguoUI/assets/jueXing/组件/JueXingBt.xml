@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="101,103" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <loader id="n0_zgyl" name="icon" xy="50,51" pivot="0.5,0.5" anchor="true" size="101,103" url="ui://tbqdf7fdb8g12" autoSize="true">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearIcon controller="button" pages="1" values="ui://tbqdf7fdb8g17" default="ui://tbqdf7fdb8g12"/>
+    </loader>
+    <image id="n2_zgyl" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="79,3" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n3_zgyl" name="n3" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="0,83" size="101,29"/>
+    <richtext id="n4_zgyl" name="title" xy="4,85" size="93,25" fontSize="16" color="#ffffff" align="center" autoSize="none" text="七杀Lv.77"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

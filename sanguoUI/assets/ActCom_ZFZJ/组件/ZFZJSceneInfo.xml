@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,181" opaque="false">
+  <displayList>
+    <image id="n5_bx2z" name="n5" src="bx2z89" fileName="image1/公告底.png" pkg="jvxpx9em" xy="92,21" size="434,36"/>
+    <richtext id="n2_fog8" name="lbMyhurt" xy="98,26" size="41,28" touchable="false" fontSize="18" color="#ffffff" text="自己"/>
+    <richtext id="n18_hxms" name="lbBest" xy="246,26" size="10,28" touchable="false" fontSize="18" color="#ffffff" text=""/>
+  </displayList>
+</component>

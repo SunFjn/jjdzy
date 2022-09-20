@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="122,129" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n6_pke6" name="n6" src="pke622" fileName="成就/res/选中效果底部.png" xy="-3,4">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <loader id="n4_6hpm" name="icon" xy="2,0" size="115,129" url="ui://dllc71i9pke61z" align="center" vAlign="middle"/>
+    <image id="n5_6hpm" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="81,16" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

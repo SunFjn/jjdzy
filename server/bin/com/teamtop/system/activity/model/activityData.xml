@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.activity.ActivityMapper">
+<delete id="deleteAct" parameterType="String">
+	${value}
+</delete>
+<select id="findHeroAct" parameterType="Long" resultType="ActivityData">
+	select * from activityData where hid = ${value}
+</select> 
+<insert id="insertData" parameterType="ActivityData" useGeneratedKeys="true" keyProperty="id">
+		insert into activityData (hid,indexId,actId,periods,actStr) values (#{hid},#{indexId},#{actId},#{periods},#{insertActStr})
+</insert>
+<update id="saveActData" parameterType="String">
+	${value}
+</update> 
+</mapper>

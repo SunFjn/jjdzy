@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="590,554">
+  <displayList>
+    <component id="n0_k8oz" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="590,554">
+      <Label title="将魂升级"/>
+    </component>
+    <image id="n15_sqnk" name="n15" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="23,92" size="545,253"/>
+    <image id="n16_sqnk" name="n16" src="l3y16b" fileName="image1/箭头.png" pkg="jvxpx9em" xy="262,240"/>
+    <image id="n18_sqnk" name="n18" src="rt7o4r" fileName="image1/货币底.png" pkg="jvxpx9em" xy="197,427" size="174,30"/>
+    <image id="n19_sqnk" name="n19" src="z1jw6n" fileName="image1/魂火.png" pkg="jvxpx9em" xy="196,399"/>
+    <component id="n1_k8oz" name="grid" src="k8ozf" fileName="组件/将魂/JiangHunGrid.xml" xy="59,105"/>
+    <component id="n9_k8oz" name="expbar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="109,384" size="399,16">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n13_k8oz" name="upBt" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="223,477">
+      <Button title="升级"/>
+    </component>
+    <richtext id="n2_k8oz" name="nameLb" xy="177,106" size="101,35" touchable="false" fontSize="24" color="#ffffff" leading="0" text="张辽之魂"/>
+    <richtext id="n3_k8oz" name="levelLb" xy="457,108" size="64,35" touchable="false" fontSize="24" color="#ffffff" leading="0" text="Lv.20"/>
+    <richtext id="n7_k8oz" name="curAtt" xy="105,217" size="164,108" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="6" autoSize="none" text="攻击+10000"/>
+    <richtext id="n8_k8oz" name="nextAtt" xy="348,217" size="178,108" touchable="false" fontSize="18" color="#00ff00" vAlign="middle" leading="6" autoSize="none" text="攻击+10000"/>
+    <richtext id="n10_k8oz" name="n10" xy="50,375" size="53,35" touchable="false" fontSize="24" color="#ffffff" leading="0" text="经验"/>
+    <richtext id="n12_k8oz" name="moneyLb" xy="233,426" size="105,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="10000"/>
+    <richtext id="n17_sqnk" name="n17" xy="141,429" size="41,28" fontSize="18" color="#ffc344" text="魂火"/>
+    <component id="n5_k8oz" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="180,144"/>
+  </displayList>
+</component>

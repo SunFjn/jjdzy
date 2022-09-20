@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="596,888">
+  <displayList>
+    <component id="n8_dsuf" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="596,888">
+      <Label title="目标奖励"/>
+    </component>
+    <list id="n6_dsuf" name="list" xy="10,78" size="574,755" overflow="scroll" lineGap="1" defaultItem="ui://ht2966i4dsuf9" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n7_dsuf" name="lbPoint" xy="92,842" size="414,31" fontSize="20" color="#ffffff" align="center" autoSize="none" text="已获得20积分"/>
+  </displayList>
+</component>

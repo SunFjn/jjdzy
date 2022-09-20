@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,907" opaque="false">
+  <controller name="c1" pages="0,,1,,2," selected="1"/>
+  <controller name="c2" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9," selected="0"/>
+  <displayList>
+    <image id="n63_nv7z" name="n63" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="20,739" size="600,168"/>
+    <loader id="n17_b5l2" name="dizuoIcon" xy="38,182" size="564,563" url="ui://xrzn9ppab5l2c"/>
+    <component id="n0_f8nk" name="grid0" src="f8nk5" fileName="组件/VBaZTItem.xml" xy="271,218">
+      <Button checked="true" controller="c2" page="0"/>
+    </component>
+    <component id="n1_f8nk" name="grid1" src="f8nk5" fileName="组件/VBaZTItem.xml" xy="406,277">
+      <Button controller="c2" page="1"/>
+    </component>
+    <component id="n2_f8nk" name="grid2" src="f8nk5" fileName="组件/VBaZTItem.xml" xy="465,415">
+      <Button controller="c2" page="2"/>
+    </component>
+    <component id="n3_f8nk" name="grid3" src="f8nk5" fileName="组件/VBaZTItem.xml" xy="410,551">
+      <Button controller="c2" page="3"/>
+    </component>
+    <component id="n4_f8nk" name="grid4" src="f8nk5" fileName="组件/VBaZTItem.xml" xy="268,613">
+      <Button controller="c2" page="4"/>
+    </component>
+    <component id="n5_f8nk" name="grid5" src="f8nk5" fileName="组件/VBaZTItem.xml" xy="135,552">
+      <Button controller="c2" page="5"/>
+    </component>
+    <component id="n6_f8nk" name="grid6" src="f8nk5" fileName="组件/VBaZTItem.xml" xy="77,414">
+      <Button controller="c2" page="6"/>
+    </component>
+    <component id="n7_f8nk" name="grid7" src="f8nk5" fileName="组件/VBaZTItem.xml" xy="135,280">
+      <Button controller="c2" page="7"/>
+    </component>
+    <image id="n66_vuzv" name="lbCostStarBg" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="465,782" size="129,30" group="n16_csl0">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <component id="n8_f8nk" name="btnUp" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="309,828" pivot="0.5,0.5" group="n16_csl0">
+      <Button title="升级"/>
+    </component>
+    <component id="n9_f8nk" name="btnStar" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="464,826" pivot="0.5,0.5" group="n16_csl0">
+      <Button title="升星"/>
+    </component>
+    <richtext id="n13_f8nk" name="lbName" xy="154,741" size="107,35" group="n16_csl0" fontSize="24" color="#ffffff" text="符文·坚甲"/>
+    <richtext id="n14_f8nk" name="lbLv" xy="154,771" size="97,28" group="n16_csl0" fontSize="18" color="#ffffff" text="lv.180/200"/>
+    <richtext id="n15_f8nk" name="lbAttr" xy="154,794" size="125,109" group="n16_csl0" fontSize="18" color="#ffffff" text="攻击：125000&#xA;攻击：125000&#xA;攻击：125000&#xA;攻击：125000"/>
+    <component id="n26_b5l2" name="btnChange" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="509,684" pivot="0.5,0.5" size="112,46" group="n16_csl0">
+      <Button title="替换"/>
+    </component>
+    <component id="n27_b5l2" name="btnShow" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="20,684" pivot="0.5,0.5" size="112,46" group="n16_csl0">
+      <Button title="展示"/>
+    </component>
+    <component id="n49_j1af" name="grid" src="f8nk4" fileName="组件/VBaZTGrid.xml" xy="49,778" group="n16_csl0"/>
+    <richtext id="n52_j1af" name="lbCostStar" xy="469,783" size="126,28" group="n16_csl0" fontSize="18" color="#ffffff" align="center" autoSize="none" text="111"/>
+    <component id="n55_j1af" name="lbCostUp" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="309,782" size="136,33" group="n16_csl0"/>
+    <richtext id="n56_ly3w" name="lbMaxLv" xy="318,837" size="111,35" group="n16_csl0" touchable="false" fontSize="24" color="#ffc344" align="center" autoSize="none" text="已满级"/>
+    <richtext id="n57_ly3w" name="lbMaxStar" xy="474,835" size="112,35" group="n16_csl0" touchable="false" fontSize="24" color="#ffc344" align="center" autoSize="none" text="不可升星"/>
+    <group id="n16_csl0" name="n16" xy="20,684" size="601,219" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n18_b5l2" name="lbPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="174,144">
+      <Label title="11111111111"/>
+    </component>
+    <component id="n10_f8nk" name="btnWear" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="242,813" pivot="0.5,0.5">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="镶嵌"/>
+    </component>
+    <image id="n34_b5l2" name="n34" src="b5l2i" fileName="image/阵眼图标.png" xy="33,751" group="n43_b5l2"/>
+    <loader id="n33_b5l2" name="imgName" xy="43,863" size="110,32" group="n43_b5l2" url="ui://xrzn9ppab5l2t"/>
+    <image id="n41_b5l2" name="n41" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="187,795" size="253,27" group="n43_b5l2"/>
+    <component id="n36_b5l2" name="btnFast" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="452,800" pivot="0.5,0.5" group="n43_b5l2">
+      <Button title="快速解锁"/>
+    </component>
+    <richtext id="n37_b5l2" name="lbLock1" xy="214,795" size="182,28" group="n43_b5l2" fontSize="18" color="#ffffff" text="解锁：玩家达到&lt;font color='#ff0000'>200级&lt;/font>"/>
+    <image id="n42_b5l2" name="n42" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="187,829" size="253,27" group="n43_b5l2"/>
+    <richtext id="n38_b5l2" name="lbLock2" xy="214,829" size="179,28" group="n43_b5l2" fontSize="18" color="#ffffff" text="解锁消耗：        1000"/>
+    <image id="n39_b5l2" name="n39" src="irr13gw" fileName="image/花纹/菱形花纹.png" pkg="jvxpx9em" xy="193,800" group="n43_b5l2"/>
+    <image id="n40_b5l2" name="n40" src="irr13gw" fileName="image/花纹/菱形花纹.png" pkg="jvxpx9em" xy="193,834" group="n43_b5l2"/>
+    <image id="n61_ogkk" name="iyuan" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="308,826" group="n43_b5l2"/>
+    <richtext id="n62_ogkk" name="lbProgress" xy="451,853" size="130,28" group="n43_b5l2" fontSize="18" color="#ffffff" align="center" autoSize="none" text="200/200"/>
+    <group id="n43_b5l2" name="n43" xy="33,751" size="548,145" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </group>
+    <component id="n58_ly3w" name="vChip" src="b5l216" fileName="组件/VBaZTChip.xml" xy="14,173"/>
+    <component id="n59_ogkk" name="grid8" src="f8nk5" fileName="组件/VBaZTItem.xml" xy="178,416">
+      <Button controller="c2" page="8"/>
+    </component>
+    <component id="n60_ogkk" name="grid9" src="f8nk5" fileName="组件/VBaZTItem.xml" xy="363,413">
+      <Button controller="c2" page="9"/>
+    </component>
+    <component id="n64_vrr6" name="btnDaShi" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="519,162" pivot="0.5,0.5" size="89,79">
+      <Button icon="ui://xrzn9ppavrr61f"/>
+    </component>
+    <richtext id="n65_vrr6" name="lbDaShi" xy="521,236" size="89,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="八戒"/>
+  </displayList>
+</component>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="82,82" extention="Button">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n17_foau" name="iconGrey" xy="0,0" size="82,82" grayed="true" url="ui://jvxpx9emtojh3c4">
+      <gearDisplay controller="c1" pages="1"/>
+    </loader>
+    <loader id="n0_khne" name="iconZS" xy="0,0" size="82,82" group="n4_khne" url="ui://jvxpx9emtojh3c4"/>
+    <graph id="n1_khne" name="n1" xy="58,3" size="25,25" group="n3_khne" type="rect" fillColor="#ffff3300" corner="60">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <text id="n2_khne" name="txtCount" xy="65,6" size="13,24" group="n3_khne" fontSize="14" color="#ffffff" align="center" vAlign="middle" text="6">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n3_khne" name="n3" xy="58,3" size="25,25" group="n4_khne" advanced="true"/>
+    <group id="n4_khne" name="n4" xy="0,0" size="83,82" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n19_qblv" name="n19" src="qblv3dr" fileName="image/今日上架(1).png" xy="-5,-15">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.99"/>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n19_qblv" tween="true" startValue="-5,-15" endValue="-5,-30" duration="24" ease="Linear"/>
+    <item time="24" type="XY" target="n19_qblv" tween="true" startValue="-5,-30" endValue="-5,-15" duration="24" ease="Linear"/>
+    <item time="48" type="XY" target="n19_qblv" tween="true" startValue="-5,-15" ease="Linear"/>
+  </transition>
+</component>

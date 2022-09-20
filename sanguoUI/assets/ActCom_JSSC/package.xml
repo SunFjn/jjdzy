@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="yug4d48u" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="tidc1" name="Child_ActCom_JSSC.xml" path="/组件/" exported="true"/>
+    <image id="bg032" name="底图.jpg" path="/image/"/>
+    <image id="bg034" name="聚宝盆.png" path="/image/"/>
+    <image id="bg035" name="10000元宝.png" path="/image/"/>
+  </resources>
+  <publish name="ActCom_JSSC" genCode="true" npot="true" excluded="bg032"/>
+</packageDescription>

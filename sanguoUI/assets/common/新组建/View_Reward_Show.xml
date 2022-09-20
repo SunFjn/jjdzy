@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="464,362">
+  <displayList>
+    <component id="n0_r6x4" name="frame" src="f1cf4b" fileName="组件/frame2.xml" xy="0,0" size="464,362">
+      <Label title="奖励"/>
+    </component>
+    <image id="n1_r6x4" name="n1" src="x3b93cl" fileName="image/通用底框/方框3.png" xy="28,86" size="408,193"/>
+    <image id="n7_ih3m" name="drawImg" src="bx2z8a" fileName="image/已领取.png" xy="170,292"/>
+    <list id="n2_r6x4" name="list" xy="37,129" size="389,136" layout="row" overflow="hidden" colGap="40" defaultItem="ui://jvxpx9emetorn" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n4_r6x4" name="dataLb" xy="29,96" size="406,28" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="今日胜利3场可领取"/>
+    <richtext id="n5_r6x4" name="promptLb" xy="29,298" size="406,28" fontSize="18" color="#00f234" align="center" leading="0" autoSize="none" text="赛季结束后邮件发放"/>
+    <component id="n6_r6x4" name="drawBt" src="y1z8b" fileName="组件/Button0.xml" xy="164,283">
+      <Button title="领取"/>
+    </component>
+  </displayList>
+</component>

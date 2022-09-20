@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="631,145">
+  <displayList>
+    <loader id="n12_e3qh" name="img" xy="0,0" size="631,145" url="ui://746rywv8e3qh2" autoSize="true"/>
+    <component id="n9_jthq" name="btn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="460,50">
+      <Button title="前往"/>
+    </component>
+  </displayList>
+</component>

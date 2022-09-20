@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ggwi8wep" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="qhoc0" name="ChildSGZL2.xml" path="/" exported="true"/>
+    <image id="qhoc1" name="战令任务.png" path="/res/"/>
+    <image id="qhoc2" name="战令商店.png" path="/res/"/>
+    <image id="qhoc3" name="普通战令.png" path="/res/"/>
+    <image id="qhoc4" name="升级后战令.png" path="/res/"/>
+    <image id="qhoc5" name="VIP按钮.png" path="/res/"/>
+    <image id="qhoc6" name="进阶.png" path="/res/"/>
+    <image id="qhoc7" name="进阶奖励底.png" path="/res/" scale="9grid" scale9grid="11,11,221,39"/>
+    <image id="qhoc8" name="进阶奖励框.png" path="/res/" scale="9grid" scale9grid="45,17,199,15"/>
+    <image id="qhoc9" name="普通奖励底 拷贝 2.png" path="/res/"/>
+    <image id="qhoca" name="进阶奖励标题.png" path="/res/"/>
+    <image id="qhocb" name="已进阶.png" path="/res/"/>
+    <image id="qhocc" name="三国战令.png" path="/res/"/>
+    <component id="qhocd" name="SGZL2Btn.xml" path="/com/" exported="true"/>
+    <image id="qhoce" name="战令奖励.png" path="/res/"/>
+    <component id="qhocf" name="SGZL2TaskItem.xml" path="/com/" exported="true"/>
+    <component id="qhocg" name="SGZL2ShopItem.xml" path="/com/" exported="true"/>
+    <image id="qhoch" name="已兑完.png" path="/res/"/>
+    <component id="qhoci" name="SGZL2RewardItem.xml" path="/com/" exported="true"/>
+    <image id="qhocj" name="连接线.png" path="/res/"/>
+    <image id="qhock" name="普通奖励底.png" path="/res/"/>
+    <image id="qhocl" name="星级-亮.png" path="/res/"/>
+    <image id="qhocm" name="选中框.png" path="/res/"/>
+    <component id="qhocn" name="ViewSGZL2Upgrade.xml" path="/" exported="true"/>
+    <image id="qhocp" name="组 216 拷贝.png" path="/res/"/>
+    <image id="w1ttq" name="图层 744.png" path="/res/"/>
+    <image id="w1ttr" name="激活进阶战令.png" path="/res/"/>
+    <image id="w1tts" name="矩形 765.png" path="/res/"/>
+  </resources>
+  <publish name="actComSgzl2" genCode="true" npot="true"/>
+</packageDescription>

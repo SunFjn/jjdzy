@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="631,918">
+  <displayList>
+    <loader id="n2_a31a" name="imgBg" xy="9,146" size="622,772" locked="true" url="ui://3o8q23uujo891x"/>
+    <richtext id="n0_a31a" name="labTips" xy="158,733" size="327,28" fontSize="18" color="#33ff00" align="center" autoSize="none" text="本批全部战胜额外获得100积分"/>
+    <component id="n3_a31a" name="btnCge" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="553,153" size="59,58">
+      <Button icon="ui://3o8q23uujo8923"/>
+    </component>
+    <component id="n4_a31a" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="26,779" size="108,110">
+      <Button icon="ui://3o8q23uuj2af2f"/>
+    </component>
+    <component id="n5_a31a" name="btnPoint" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="147,779" size="108,110">
+      <Button icon="ui://3o8q23uujo8924"/>
+    </component>
+    <richtext id="n6_a31a" name="btnSM" xy="24,156" size="77,28" fontSize="18" color="#33ff00" text="&lt;a>玩法说明&lt;/a>"/>
+    <component id="n12_a31a" name="ply5" src="jo891r" fileName="组件/登峰造极/VDengFengPly.xml" xy="429,522"/>
+    <component id="n11_a31a" name="ply4" src="jo891r" fileName="组件/登峰造极/VDengFengPly.xml" xy="229,522"/>
+    <component id="n10_a31a" name="ply3" src="jo891r" fileName="组件/登峰造极/VDengFengPly.xml" xy="28,522"/>
+    <component id="n9_a31a" name="ply2" src="jo891r" fileName="组件/登峰造极/VDengFengPly.xml" xy="406,302"/>
+    <component id="n7_a31a" name="ply1" src="jo891r" fileName="组件/登峰造极/VDengFengPly.xml" xy="50,302"/>
+    <component id="n8_a31a" name="ply0" src="jo891r" fileName="组件/登峰造极/VDengFengPly.xml" xy="228,151"/>
+    <image id="n13_a31a" name="n13" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="275,761" size="338,143"/>
+    <richtext id="n14_a31a" name="lbMyRank" xy="293,814" size="128,28" fontSize="18" color="#e2ad38" align="center" autoClearText="true" text="我的排名：500"/>
+    <richtext id="n15_a31a" name="lbPower" xy="349,777" size="135,34" fontSize="22" color="#ffffff" autoClearText="true" text="1234567890"/>
+    <image id="n16_a31a" name="n16" src="bwmw3l" fileName="image/战力.png" pkg="jvxpx9em" xy="290,774" aspect="true"/>
+    <richtext id="n17_a31a" name="lbMyPoint" xy="445,814" size="150,28" fontSize="18" color="#e2ad38" align="center" autoClearText="true" text="我的积分：10000"/>
+    <richtext id="n18_a31a" name="lbBatCt" xy="293,854" size="153,28" fontSize="18" color="#ffffff" align="center" autoClearText="true" text="今日挑战次数：10"/>
+    <image id="n19_jo89" name="n19" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="545,205"/>
+    <richtext id="n20_jo89" name="lbCge" xy="578,210" size="49,28" fontSize="18" color="#ffffff" autoClearText="true" text="3001"/>
+    <component id="n21_jo89" name="btnAdd" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="455,847" size="41,41">
+      <relation target="n18_a31a" sidePair="left-right"/>
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <richtext id="n22_nmmp" name="itemLb" xy="293,854" size="113,28" group="n25_nmmp" fontSize="18" color="#33ff00" text="登峰挑战令："/>
+    <loader id="n23_nmmp" name="itemIcon" xy="404,854" size="30,30" group="n25_nmmp" aspect="true" fill="scaleFree">
+      <relation target="n22_nmmp" sidePair="left-right"/>
+    </loader>
+    <richtext id="n24_nmmp" name="itemCt" xy="438,854" size="16,28" group="n25_nmmp" fontSize="18" color="#ffffff" text="4">
+      <relation target="n22_nmmp" sidePair="left-right"/>
+    </richtext>
+    <group id="n25_nmmp" name="groupItem" xy="293,854" size="161,30" advanced="true"/>
+  </displayList>
+</component>

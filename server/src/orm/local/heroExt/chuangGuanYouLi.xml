@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.chuangGuanYouLi.model.ChuangGuanYouLi" tbname="chuangGuanYouLi">
+		<index field="hid" type="prikey" autoIncrement="false"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="targetID" type="int" pf="all" comment="玩家当前目标ID"/>
+		<col field="targetState" type="int" pf="all" comment="目标奖励领取状态"/>
+        <col field="taskMap" type="varchar" len="500" pf="all" comment="任务数据  key：任务表ID  value：任务状态  "/>	
+    </tb>
+</tbs>

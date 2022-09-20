@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,472" designImage="ui://m2fm2aiyihs7i" designImageOffsetX="-25" designImageOffsetY="-190">
+  <controller name="c1" pages="0,创建义盟,1,修改名字" selected="0"/>
+  <displayList>
+    <component id="n10_som1" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,472" locked="true">
+      <Label title="创建义盟"/>
+    </component>
+    <component id="n9_c5a5" name="okBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="230,378">
+      <Button title="创建义盟"/>
+    </component>
+    <loader id="n12_vfmx" name="bgImg" xy="28,97" size="50,50"/>
+    <richtext id="n13_vfmx" name="consumeLb" xy="192,436" size="204,25" fontSize="18" color="#ffffff" align="center" text="消耗：义盟改名卡x1(5/1)">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n14_vfmx" name="n14" src="vfmxy" fileName="image/货币底.png" xy="169,205" size="256,42"/>
+    <text id="n15_vfmx" name="inputName" xy="174,209" size="246,33" input="true" prompt="[color=#FFFF00]义盟名字[/color]" maxLength="6" fontSize="25" color="#ffffff" align="center" vAlign="middle" autoSize="none" text=""/>
+    <richtext id="n19_vfmx" name="n19" xy="181,145" size="230,32" fontSize="25" color="#ffffff" align="center" text="请为义盟取一个名字"/>
+    <loader id="n20_vfmx" name="iconYuanBao" xy="247,430" size="32,31" group="n22_vfmx" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <richtext id="n21_vfmx" name="lb" xy="284,430" size="49,27" group="n22_vfmx" fontSize="20" color="#ffffff" text="1000"/>
+    <group id="n22_vfmx" name="n22" xy="247,430" size="86,31" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+  </displayList>
+</component>

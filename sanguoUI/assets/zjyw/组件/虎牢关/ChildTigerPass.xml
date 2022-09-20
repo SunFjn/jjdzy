@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,777">
+  <displayList>
+    <loader id="n25_hdie" name="imgBg" xy="0,0" size="640,692" url="ui://7a366usahdie2p"/>
+    <loader id="n26_hdie" name="imgBg1" xy="84,71" size="50,50" url="ui://7a366usay5hd25"/>
+    <image id="n24_hdie" name="n24" src="hdie2n" fileName="image/虎牢关/铁质底框.png" xy="86,515"/>
+    <list id="n1_y5hd" name="list" xy="134,540" size="470,118" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="17" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n2_y5hd" name="btnSignUp" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="29,53" size="84,88">
+      <Button icon="ui://7a366usay5hd28"/>
+    </component>
+    <component id="n4_y5hd" name="btnBattle" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="341,667">
+      <Button title="开始挑战"/>
+    </component>
+    <component id="n5_y5hd" name="btnEmploy" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="171,667">
+      <Button title="雇佣帮手"/>
+    </component>
+    <richtext id="n6_y5hd" name="lbCost" xy="160,745" size="187,28" fontSize="18" color="#ffffff" text="虎牢关挑战令:        9/9"/>
+    <richtext id="n7_y5hd" name="lbTime" xy="355,745" size="136,28" fontSize="18" color="#ff0000" text="59:01后恢复1次"/>
+    <image id="n33_hdie" name="n33" src="hdie2q" fileName="image/虎牢关/系统公告底部-底.png" xy="7,446" size="624,29" alpha="0.5"/>
+    <image id="n14_y5hd" name="n14" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="235,21" size="167,47"/>
+    <component id="n15_y5hd" name="bar" src="p4bn88" fileName="新组建/HpBar.xml" pkg="jvxpx9em" xy="161,450" size="302,30">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n17_y5hd" name="btnRew" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="254,667">
+      <Button title="领取奖励"/>
+    </component>
+    <richtext id="n18_y5hd" name="n18" xy="18,15" size="178,28" fontSize="18" color="#66ff00" text="周一0点重置挑战进度"/>
+    <image id="n19_hdie" name="n19" src="hdie2k" fileName="image/虎牢关/战斗力底.png" xy="177,481" size="280,54"/>
+    <image id="n22_hdie" name="n22" src="hdie2m" fileName="image/虎牢关/通关奖励.png" xy="248,489" scale="1.4,1.4"/>
+    <image id="n23_hdie" name="n23" src="hdie2h" fileName="image/虎牢关/关.png" xy="262,25"/>
+    <loader id="n27_hdie" name="imgCost" xy="279,743" size="30,30" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <richtext id="n28_hdie" name="lbGua" xy="287,26" size="64,27" font="ui://jvxpx9embwmw3w" fontSize="12" align="center" autoSize="none" singleLine="true" text="22"/>
+    <image id="n34_hdie" name="n34" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="499,15" size="122,27" flip="hz"/>
+    <richtext id="n35_hdie" name="txtDes" xy="539,14" size="77,28" fontSize="18" color="#00ff00" text="玩法说明"/>
+    <image id="n21_hdie" name="n21" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="467,71" size="156,185" group="n36_fxj4"/>
+    <component id="n8_y5hd" name="vHead" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="489,108" group="n36_fxj4"/>
+    <richtext id="n9_y5hd" name="lbName" xy="480,201" size="133,28" group="n36_fxj4" fontSize="16" color="#ffffff" align="center" autoSize="none" text="玩家名字六字"/>
+    <richtext id="n10_y5hd" name="lbPower" xy="467,226" size="156,25" group="n36_fxj4" fontSize="16" color="#ffffff" align="center" autoSize="none" text="战力 :  123456789"/>
+    <image id="n20_hdie" name="n20" src="hdie2j" fileName="image/虎牢关/已雇佣帮手.png" xy="498,77" group="n36_fxj4"/>
+    <group id="n36_fxj4" name="boxEmp" xy="467,71" size="156,185" visible="false" advanced="true"/>
+    <image id="n37_k91u" name="imgHas" src="nvpf2s" fileName="image/虎牢关/通关.png" xy="258,658"/>
+  </displayList>
+</component>

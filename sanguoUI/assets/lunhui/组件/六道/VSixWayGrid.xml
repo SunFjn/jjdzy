@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="144,130">
+  <displayList>
+    <loader id="n23_a4yc" name="pzImg" xy="40,0" size="73,84" url="ui://ehelf5bhf2zdw29"/>
+    <loader id="n4_b5l2" name="iconImg" xy="40,0" size="73,84" url="ui://ehelf5bhf2zdw25" align="center" vAlign="bottom"/>
+    <image id="n18_v97g" name="n18" src="htpq1q" fileName="image/通用底框/名字底框.png" pkg="jvxpx9em" xy="0,90" group="n22_v97g"/>
+    <richtext id="n19_v97g" name="lbName" xy="0,96" size="95,25" group="n22_v97g" fontSize="18" color="#ffffff" align="right" autoSize="none" text="修罗道风印"/>
+    <richtext id="n20_v97g" name="starLb" xy="97,96" size="25,25" group="n24_j0hh" fontSize="18" color="#ffffff" align="center" text="10"/>
+    <image id="n21_v97g" name="n21" src="sv0g2i" fileName="image1/big_star_1.png" pkg="jvxpx9em" xy="120,96" group="n24_j0hh"/>
+    <group id="n24_j0hh" name="n24" xy="97,96" size="47,25" group="n22_v97g" advanced="true"/>
+    <group id="n22_v97g" name="starGroup" xy="0,90" size="144,40" advanced="true"/>
+  </displayList>
+</component>

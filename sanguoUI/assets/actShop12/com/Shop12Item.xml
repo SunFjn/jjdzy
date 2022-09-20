@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="284,192">
+  <controller name="stateCtrl" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n11_lplo" name="n11" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="284,192"/>
+    <component id="n20_lplo" name="resComSource" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="167,10" size="109,36"/>
+    <component id="n17_lplo" name="resComNow" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="167,53" size="109,36"/>
+    <component id="n12_lplo" name="item" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="15,12"/>
+    <richtext id="n13_lplo" name="tfItemName" xy="28,115" pivot="0.5,0.5" size="77,28" fontSize="18" color="#ffff00" align="center" vAlign="middle" singleLine="true" autoClearText="true" text="战令等级"/>
+    <richtext id="n15_lplo" name="n15" xy="123,13" size="59,28" touchable="false" fontSize="18" color="#a09dad" text="原价："/>
+    <richtext id="n16_lplo" name="n16" xy="123,55" size="59,28" touchable="false" fontSize="18" color="#ffffff" text="现价："/>
+    <image id="n18_lplo" name="lineImg" src="mb5j7f" fileName="image1/line.png" pkg="jvxpx9em" xy="131,24" size="139,2"/>
+    <richtext id="n19_lplo" name="tfLimit" xy="123,91" size="129,28" fontSize="18" color="#00ff00" autoClearText="true" text="限购（10/10）"/>
+    <image id="n28_lplo" name="n28" src="c4lpa2" fileName="image/已售罄.png" pkg="jvxpx9em" xy="72,147">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </image>
+    <component id="n29_ko8c" name="numberCom" src="ko8c3gq" fileName="组件/NumberCom.xml" pkg="jvxpx9em" xy="13,148" size="258,41">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+    </component>
+    <image id="n33_bjac" name="disImg" src="bjac8" fileName="res/折扣标签.png" xy="0,1" group="n35_bjac"/>
+    <text id="n34_bjac" name="tfDiscount" xy="5,9" size="60,28" group="n35_bjac" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="0.8折"/>
+    <group id="n35_bjac" name="groupDiscount" xy="0,1" size="70,47" advanced="true"/>
+  </displayList>
+</component>

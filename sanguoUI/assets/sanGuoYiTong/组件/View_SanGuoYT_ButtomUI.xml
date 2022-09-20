@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="596,287" opaque="false">
+  <displayList>
+    <component id="n0_mo6g" name="rewardBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="0,0" size="67,83">
+      <Button icon="ui://z4ijxlqklyu5v"/>
+    </component>
+    <component id="n1_mo6g" name="exitBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="466,236">
+      <Button title="退出"/>
+    </component>
+  </displayList>
+</component>

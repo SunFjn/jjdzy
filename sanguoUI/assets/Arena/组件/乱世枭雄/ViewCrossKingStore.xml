@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n10_gwaz" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://me1skowlhfct4s"/>
+    </component>
+    <loader id="n11_gwaz" name="titleImg" xy="34,154" size="569,148" fill="scaleFree"/>
+    <image id="n14_gwaz" name="n14" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="41,261" size="452,27"/>
+    <image id="n15_gwaz" name="n15" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="586,261" pivot="1,0" anchor="true" size="101,30">
+      <relation target="n17_gwaz" sidePair="width-width"/>
+    </image>
+    <loader id="n16_gwaz" name="moneyIcon" xy="493,257" size="33,33" url="ui://me1skowlm40k3f" fill="scaleFree">
+      <relation target="n17_gwaz" sidePair="left-left"/>
+    </loader>
+    <richtext id="n17_gwaz" name="moneyLb" xy="578,264" pivot="1,0" anchor="true" size="49,28" fontSize="18" color="#ffffff" text="9999"/>
+    <richtext id="n18_gwaz" name="n18" xy="42,258" size="317,35" touchable="false" fontSize="24" color="#ffffff" leading="0" text="挑战乱世枭雄，解锁超值宝藏"/>
+    <list id="n19_gwaz" name="list" xy="31,307" size="584,607" layout="flow_hz" overflow="scroll" lineGap="5" colGap="20" lineItemCount="2" defaultItem="ui://me1skowlhfct43">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n8_n9y0" name="n8" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="587,193" pivot="1,0" anchor="true" size="253,43">
+      <relation target="n9_n9y0" sidePair="width-width"/>
+    </image>
+    <richtext id="n9_n9y0" name="lbCount" xy="576,202" pivot="1,0" anchor="true" size="230,28" touchable="false" fontSize="18" color="#15f234" leading="0" text="累计挑战次数：100000000"/>
+  </displayList>
+</component>

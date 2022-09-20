@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <controller name="ctr1" autoRadioGroupDepth="true" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n0_vaaj" name="frame" src="v3t93c3" fileName="组件/WindowFrame1.xml" pkg="jvxpx9em" xy="0,0">
+      <gearIcon controller="ctr1" pages="1,2" values="ui://dllc71i9m20j1m|ui://dllc71i9wmr82e" default="ui://dllc71i9cxk81g"/>
+      <Label icon="ui://dllc71i9cxk81g"/>
+    </component>
+    <component id="n15_vaaj" name="btn0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,922">
+      <Button checked="true" title="晋升" titleColor="#ffffff" controller="ctr1" page="0"/>
+    </component>
+    <component id="n21_qpvk" name="btn1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,922">
+      <Button title="将衔" titleColor="#ffffff" controller="ctr1" page="1"/>
+    </component>
+    <component id="n22_pke6" name="btn2" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="251,922">
+      <Button title="成就" titleColor="#ffffff" controller="ctr1" page="2"/>
+    </component>
+  </displayList>
+</component>

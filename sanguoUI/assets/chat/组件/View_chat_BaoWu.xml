@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,434">
+  <displayList>
+    <component id="n0_wjpa" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,434">
+      <Label title="展示"/>
+    </component>
+    <loader id="n1_wjpa" name="backIcon" xy="24,29" size="542,388" touchable="false" url="ui://fx4pr5qewjpa29" fill="scaleFree"/>
+    <component id="n7_wjpa" name="ownerLb" src="wjpa25" fileName="组件/ChatShowLabel.xml" xy="307,155"/>
+    <component id="n8_wjpa" name="nameLb" src="wjpa25" fileName="组件/ChatShowLabel.xml" xy="307,189"/>
+    <component id="n9_wjpa" name="powerLb" src="wjpa25" fileName="组件/ChatShowLabel.xml" xy="307,223"/>
+    <image id="n11_wjpa" name="n11" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="24,281"/>
+    <loader id="n12_wjpa" name="sjIcon" xy="75,107" size="200,200" touchable="false" align="center" vAlign="bottom"/>
+    <image id="n13_wjpa" name="n13" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="97,327" size="129,39"/>
+    <richtext id="n14_wjpa" name="starLb" xy="109,329" size="47,35" fontSize="24" color="#ffffff" align="right" autoSize="none" text="10"/>
+    <image id="n15_wjpa" name="n15" src="sv0g2l" fileName="image1/big_star_4.png" pkg="jvxpx9em" xy="162,333"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n12_wjpa" tween="true" startValue="-,107" endValue="-,97" duration="18" ease="Linear"/>
+    <item time="18" type="XY" target="n12_wjpa" tween="true" startValue="-,97" endValue="-,107" duration="18" ease="Linear"/>
+  </transition>
+</component>

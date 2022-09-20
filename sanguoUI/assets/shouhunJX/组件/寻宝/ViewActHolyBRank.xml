@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="587,722">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n21_j6jz" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,715">
+      <Button checked="true" title="本期排名" controller="c1" page="0"/>
+    </component>
+    <component id="n22_j6jz" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,715">
+      <Button title="上期排名" controller="c1" page="1"/>
+    </component>
+    <component id="n0_kaqa" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="587,722">
+      <Label title="排名奖励"/>
+    </component>
+    <image id="n12_q4gk" name="n12" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="16,89" size="555,61"/>
+    <list id="n2_kaqa" name="list" xy="16,157" size="555,509" overflow="scroll" lineGap="8" defaultItem="ui://4aepcdbwwg9y53">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n8_q4gk" name="n8" src="kxay16" fileName="image/积分.png" pkg="d5y9ngt6" xy="474,100"/>
+    <image id="n9_q4gk" name="n9" src="q8rv9o" fileName="image1/奖励.png" pkg="jvxpx9em" xy="329,109"/>
+    <image id="n10_q4gk" name="n10" src="j92x9t" fileName="image1/名字.png" pkg="jvxpx9em" xy="146,109"/>
+    <image id="n11_q4gk" name="n11" src="q8rv9n" fileName="image1/排名.png" pkg="jvxpx9em" xy="35,109"/>
+    <richtext id="n20_twy6" name="lbMy" xy="19,678" size="117,28" fontSize="18" color="#f9bb13" text="我的排名：10"/>
+    <richtext id="n23_eegc" name="lbTip" xy="281,678" size="200,28" fontSize="18" color="#00ff00" align="right" autoSize="none" text="需要10圈可上榜"/>
+    <richtext id="n24_n4wg" name="lbQuan" xy="181,678" size="128,28" fontSize="18" color="#f9bb13" text="我的圈数：100"/>
+  </displayList>
+</component>

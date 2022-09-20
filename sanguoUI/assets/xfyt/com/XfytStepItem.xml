@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="127,88">
+  <controller name="bgCtrl" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n2_vpqq" name="n2" xy="0,0" size="127,88" url="ui://n5noipr2vpqq3">
+      <gearIcon controller="bgCtrl" pages="0" values="ui://n5noipr2vpqq3" default="ui://n5noipr2vpqq2"/>
+    </loader>
+    <image id="n3_vpqq" name="imageStart" src="vpqq5" fileName="res/起点.png" xy="41,-19"/>
+    <loader id="n5_vpqq" name="imgIcon" xy="30,-24" size="67,67" aspect="true" url="ui://n5noipr2vpqq7" align="center" vAlign="middle" fill="scale"/>
+    <image id="n4_vpqq" name="imgBig" src="c6yy3dg" fileName="image1/大奖.png" pkg="jvxpx9em" xy="8,8" size="25,50" aspect="true"/>
+    <richtext id="n6_vpqq" name="tfCount" xy="24,19" pivot="1,0" size="70,22" touchable="false" fontSize="16" color="#ffffff" align="right" leading="0" strokeColor="#000000" text="9999.9万">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </richtext>
+  </displayList>
+</component>

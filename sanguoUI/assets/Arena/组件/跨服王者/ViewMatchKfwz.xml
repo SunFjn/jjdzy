@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="256,422">
+  <displayList>
+    <loader id="n0_ju9q" name="bgLoader" xy="0,0" size="256,422" url="ui://me1skowlju9q7r"/>
+    <component id="n1_ju9q" name="btnClose" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="183,103" size="39,40">
+      <Button icon="ui://me1skowlju9q7p"/>
+    </component>
+    <richtext id="n2_ju9q" name="tfDes" xy="70,164" pivot="0.5,0.5" size="115,30" fontSize="22" color="#ffff99" bold="true" text="正在匹配..."/>
+    <richtext id="n3_veix" name="tfTime" xy="85,202" pivot="0.5,0.5" size="85,28" fontSize="20" color="#ffff99" bold="true" autoClearText="true" text="00:00:00"/>
+  </displayList>
+</component>

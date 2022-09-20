@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_ejra" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://j1v1kh34objsd"/>
+    </component>
+    <image id="n18_s78h" name="n18" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="23,666" size="593,238"/>
+    <loader id="n14_d2dd" name="backImg" xy="25,668" size="590,234" url="ui://j1v1kh34s78hg" autoSize="true"/>
+    <image id="n12_8hxb" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="413,827"/>
+    <loader id="n15_d2dd" name="iconImg" xy="79,716" size="120,120" touchable="false" url="ui://j1v1kh34mx0ah" align="center" vAlign="middle" fill="scaleMatchHeight" shrinkOnly="true"/>
+    <loader id="n16_d2dd" name="lbImg" xy="33,682" size="251,30" fill="scale"/>
+    <list id="n8_ejra" name="list" xy="18,153" size="604,506" layout="flow_hz" overflow="scroll" scrollBarFlags="2" lineGap="7" colGap="2" lineItemCount="4" defaultItem="ui://j1v1kh34ejra4" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n9_ejra" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="366,694"/>
+    <component id="n10_ejra" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="490,694"/>
+    <component id="n11_ejra" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="407,817">
+      <Button title="领取"/>
+    </component>
+    <richtext id="n19_tejm" name="gqLb" xy="406,833" size="135,28" visible="false" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="100关开启"/>
+  </displayList>
+</component>

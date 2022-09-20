@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,305">
+  <displayList>
+    <component id="n1_ewn5" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,305">
+      <Label title="被动技能"/>
+    </component>
+    <component id="n2_ewn5" name="grid" src="ng03d" fileName="组件/ShaoZhuSkillGrid.xml" xy="99,116"/>
+    <richtext id="n3_ewn5" name="attLb" xy="256,124" size="45,31" fontSize="20" color="#00ff00" text="暴击"/>
+    <component id="n4_ewn5" name="powerLb" src="z8fv3ff" fileName="新组建/ViewPower1.xml" pkg="jvxpx9em" xy="257,195"/>
+  </displayList>
+</component>

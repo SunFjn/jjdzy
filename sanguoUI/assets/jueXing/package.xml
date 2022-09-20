@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="tbqdf7fd" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="b8g10" name="贪狼.png" path="/image/" exported="true"/>
+    <image id="b8g11" name="觉.png" path="/image/" exported="true"/>
+    <image id="b8g12" name="破军.png" path="/image/" exported="true"/>
+    <image id="b8g13" name="七杀.png" path="/image/" exported="true"/>
+    <component id="b8g14" name="View_JueXing_Panel.xml" path="/组件/" exported="true"/>
+    <component id="b8g16" name="JueXingGrid.xml" path="/组件/" exported="true"/>
+    <image id="b8g17" name="破军 选中.png" path="/image/" exported="true"/>
+    <image id="b8g18" name="贪狼 选中.png" path="/image/" exported="true"/>
+    <image id="b8g19" name="七杀 选中.png" path="/image/" exported="true"/>
+    <component id="zgylb" name="JueXingBt.xml" path="/组件/" exported="true"/>
+    <component id="zgylc" name="JueXingIconBt.xml" path="/组件/" exported="true"/>
+    <component id="nlhgd" name="View_JueXing_Suit.xml" path="/组件/" exported="true"/>
+    <image id="nlhge" name="point.png" path="/image/" exported="true"/>
+    <component id="nlhgf" name="View_WJ_JueXing_Panel.xml" path="/组件/" exported="true"/>
+    <image id="nlhgg" name="觉醒.png" path="/image/" exported="true"/>
+  </resources>
+  <publish npot="true" name="jueXing" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="435,380">
+  <displayList>
+    <component id="n38_kjez" name="frame" src="f1cf47" fileName="组件/frame1.xml" xy="0,0" size="435,380">
+      <relation target="n37_kjez" sidePair="bottomext-bottom"/>
+    </component>
+    <component id="n37_kjez" name="childTip" src="lnckac" fileName="新组建/ChildTipBagItem.xml" xy="24,32"/>
+    <component id="n39_kjez" name="btnUse" src="y1z8b" fileName="组件/Button0.xml" xy="147,306">
+      <relation target="n37_kjez" sidePair="top-bottom"/>
+      <Button title="穿戴" titleColor="#ffffff"/>
+    </component>
+  </displayList>
+  <relation target="n37_kjez" sidePair="bottomext-bottom"/>
+</component>

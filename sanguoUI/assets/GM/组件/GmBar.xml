@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,35">
+  <displayList>
+    <richtext id="n5_q8rv" name="lbTitle" xy="0,3" size="77,28" group="n10_q8rv" touchable="false" fontSize="18" color="#ffffff" leading="0" text="添加物品"/>
+    <image id="n8_q8rv" name="n8" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="82,0" size="28,35" group="n9_q8rv">
+      <relation target="n3_q8rv" sidePair="width-width"/>
+    </image>
+    <text id="n3_q8rv" name="lbInput" xy="88,4" size="16,28" group="n9_q8rv" input="true" fontSize="18" color="#ffffff" leading="0" singleLine="true" text="1"/>
+    <group id="n9_q8rv" name="n9" xy="82,0" size="28,35" group="n10_q8rv" advanced="true"/>
+    <group id="n10_q8rv" name="n10" xy="0,0" size="110,35" advanced="true" layout="hz" colGap="5"/>
+  </displayList>
+  <relation target="n3_q8rv" sidePair="width-width"/>
+  <relation target="n5_q8rv" sidePair="width-width"/>
+</component>

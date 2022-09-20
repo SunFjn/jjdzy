@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="591,903">
+  <displayList>
+    <component id="n0_rkjp" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="591,903">
+      <Label title="排行榜"/>
+    </component>
+    <image id="n1_rkjp" name="n1" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="19,83" size="556,44"/>
+    <image id="n18_pseo" name="n18" src="j92x9t" fileName="image1/名字.png" pkg="jvxpx9em" xy="285,96"/>
+    <image id="n19_pseo" name="n19" src="q8rv9n" fileName="image1/排名.png" pkg="jvxpx9em" xy="81,96"/>
+    <image id="n21_pseo" name="powerImg" src="vqyp3cy" fileName="image/战力(1).png" xy="486,94" aspect="true" pkg="jvxpx9em"/>
+    <image id="n22_u4yf" name="passImg" src="u4yfp" fileName="image/通关层数.png" xy="468,96"/>
+    <component id="n3_rkjp" name="item0" src="rkjpc" fileName="组件/WuShengRankItem.xml" xy="18,136"/>
+    <component id="n7_rkjp" name="item1" src="rkjpc" fileName="组件/WuShengRankItem.xml" xy="18,211"/>
+    <component id="n8_rkjp" name="item2" src="rkjpc" fileName="组件/WuShengRankItem.xml" xy="18,286"/>
+    <component id="n9_rkjp" name="item3" src="rkjpc" fileName="组件/WuShengRankItem.xml" xy="18,361"/>
+    <component id="n10_rkjp" name="item4" src="rkjpc" fileName="组件/WuShengRankItem.xml" xy="18,436"/>
+    <component id="n11_rkjp" name="item5" src="rkjpc" fileName="组件/WuShengRankItem.xml" xy="18,511"/>
+    <component id="n12_rkjp" name="item6" src="rkjpc" fileName="组件/WuShengRankItem.xml" xy="18,586"/>
+    <component id="n13_rkjp" name="item7" src="rkjpc" fileName="组件/WuShengRankItem.xml" xy="18,661"/>
+    <component id="n14_rkjp" name="item8" src="rkjpc" fileName="组件/WuShengRankItem.xml" xy="18,736"/>
+    <component id="n15_rkjp" name="item9" src="rkjpc" fileName="组件/WuShengRankItem.xml" xy="18,811"/>
+  </displayList>
+</component>

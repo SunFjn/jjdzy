@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" adaptationTest="FitSize">
+  <displayList>
+    <component id="n47_y1z8" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://uwarq7k4cxk8n"/>
+    </component>
+    <component id="n29_sl2f" name="delBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="155,852">
+      <Button title="一键删除"/>
+    </component>
+    <component id="n30_sl2f" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="343,852">
+      <Button title="一键领取"/>
+    </component>
+    <list id="n2_lfaz" name="list" xy="21,148" size="597,691" overflow="scroll" scrollBarFlags="2" scrollBar="hidden" lineGap="10" defaultItem="ui://uwarq7k4lfaz1" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n48_myon" name="n48" xy="207,114" size="225,28" touchable="false" fontSize="18" color="#ff0000" leading="0" text="邮件上限50，请及时清理！"/>
+  </displayList>
+</component>

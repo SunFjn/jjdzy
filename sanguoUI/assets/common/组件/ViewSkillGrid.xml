@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="91,90">
+  <displayList>
+    <loader id="n0_r3je" name="imgBg" xy="6,0" size="76,76" url="ui://jvxpx9emdhj53ds" fill="scaleFree"/>
+    <loader id="n1_r3je" name="imgIcon" xy="15,9" size="58,58" aspect="true" fill="scaleFree"/>
+    <image id="n2_r3je" name="n2" src="tli03cx" fileName="image1/Switch @up.png" xy="0,63" pivot="0.5,0" size="90,26"/>
+    <richtext id="n3_r3je" name="labName" xy="0,62" size="91,28" touchable="false" fontSize="18" color="#b5bfe8" align="center" autoSize="none" autoClearText="true" text="大鹏展翅"/>
+  </displayList>
+</component>

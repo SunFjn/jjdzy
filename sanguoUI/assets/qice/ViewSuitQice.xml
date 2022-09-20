@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="435,380">
+  <displayList>
+    <component id="n38_kjez" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,0" size="435,380" locked="true">
+      <relation target="n54_b5kh" sidePair="bottomext-bottom"/>
+    </component>
+    <component id="n39_kjez" name="btnUp" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="152,308">
+      <relation target="n54_b5kh" sidePair="top-bottom"/>
+      <Button title="升级" titleColor="#ffffff"/>
+    </component>
+    <image id="n54_b5kh" name="g22" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="30,143" size="374,153">
+      <relation target="n71_b5kh" sidePair="height-height"/>
+    </image>
+    <richtext id="n55_b5kh" name="tfName" xy="144,51" size="130,33" fontSize="24" color="#ffcc66" bold="true" strokeColor="#000000" autoClearText="true" text="坐骑升星丹"/>
+    <component id="n62_b5kh" name="powerCom" src="z8fv3ff" fileName="新组建/ViewPower1.xml" pkg="jvxpx9em" xy="144,97" size="227,40" scale="0.9,0.9">
+      <Label title="111222223"/>
+    </component>
+    <list id="n71_b5kh" name="list" xy="45,160" size="344,115" lineGap="9" defaultItem="ui://cokk050nb5khc">
+      <item/>
+      <item/>
+    </list>
+    <image id="n72_jlu2" name="n72" src="j82l4" fileName="res/套装入口图标.png" xy="38,51"/>
+  </displayList>
+</component>

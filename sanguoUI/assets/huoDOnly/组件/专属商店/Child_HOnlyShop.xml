@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,648">
+  <displayList>
+    <list id="n7_spa9" name="list" xy="35,202" size="588,445" layout="flow_hz" selectionMode="none" overflow="scroll" lineGap="7" colGap="11" lineItemCount="2" defaultItem="ui://mk3gp0vrujy06" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n28_ujy0" name="imgHeadbg" xy="0,0" size="100,100"/>
+    <richtext id="n29_ujy0" name="labTime" xy="15,145" size="205,28" touchable="false" fontSize="18" color="#2ff10f" text="活动剩余时间：10:10:10"/>
+    <richtext id="n30_ujy0" name="labTips" xy="231,105" size="389,68" touchable="false" fontSize="18" color="#ffffff" align="right" vAlign="bottom" autoSize="none" text="累计充值达到指定数额即可领取奖励领取奖励&#xA;累计充值达到指定数额即可领取奖励领取奖励"/>
+  </displayList>
+</component>

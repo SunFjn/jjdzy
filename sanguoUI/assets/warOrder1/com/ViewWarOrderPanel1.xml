@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <controller name="tabCtrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <controller name="updateFlagCtrl" exported="true" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n75_hw86" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://89er3bo3e7lcf"/>
+    </component>
+    <list id="n26_jt4v" name="list1" xy="10,293" size="621,623" overflow="scroll" lineGap="-1" defaultItem="ui://89er3bo3e7lc3" autoItemSize="false" autoClearItems="true">
+      <gearDisplay controller="tabCtrl" pages="1,2"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n65_sk4y" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="18,923">
+      <Button checked="true" title="奖励" titleFontSize="22" controller="tabCtrl" page="0"/>
+    </component>
+    <component id="n66_sk4y" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="136,923">
+      <Button title="每日挑战" titleFontSize="22" controller="tabCtrl" page="1"/>
+    </component>
+    <component id="n67_sk4y" name="tab2" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="252,922">
+      <Button title="周挑战" titleFontSize="22" controller="tabCtrl" page="2"/>
+    </component>
+    <component id="n77_e7lc" name="itemRew" src="e7lcp" fileName="com/ChildWarOrderRew.xml" xy="4,116">
+      <gearDisplay controller="tabCtrl" pages="0"/>
+    </component>
+    <image id="n63_sk4y" name="n63" src="e7lc5" fileName="image/徽章底.png" xy="19,176" group="n78_e7lc"/>
+    <image id="n52_ke27" name="n52" src="e7lca" fileName="image/已激活.png" xy="248,192" group="n78_e7lc">
+      <gearDisplay controller="updateFlagCtrl" pages="1"/>
+    </image>
+    <text id="n14_jt4v" name="tfLevel" xy="63,216" pivot="0.5,0" size="41,34" group="n78_e7lc" fontSize="22" color="#ffffff" align="center" letterSpacing="-2" bold="true" text="122"/>
+    <richtext id="n15_jt4v" name="tfDate" xy="34,150" size="160,28" group="n78_e7lc" touchable="false" fontSize="18" color="#ffffff" autoClearText="true" text="活动剩余时间：1天"/>
+    <component id="n55_k2ez" name="btnBuyLv" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="364,198" size="118,54" group="n78_e7lc">
+      <Button title="购买等级" titleFontSize="18"/>
+    </component>
+    <component id="n60_sk4y" name="btnUpgrade" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="240,198" size="118,54" group="n78_e7lc">
+      <gearDisplay controller="updateFlagCtrl" pages="0"/>
+      <Button title="激活勋章" titleFontSize="18"/>
+    </component>
+    <component id="n61_sk4y" name="btnGetAll" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="489,198" size="118,54" group="n78_e7lc">
+      <Button title="一键领取" titleFontSize="18"/>
+    </component>
+    <component id="n62_sk4y" name="pb" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="168,261" size="443,22" group="n78_e7lc">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <richtext id="n64_sk4y" name="lbSM" xy="526,155" size="77,28" group="n78_e7lc" fontSize="18" color="#00ff00" underline="true" singleLine="true" autoClearText="true" text="玩法说明"/>
+    <group id="n78_e7lc" name="n78" xy="19,150" size="592,140" advanced="true">
+      <gearDisplay controller="tabCtrl" pages="1,2"/>
+    </group>
+  </displayList>
+</component>

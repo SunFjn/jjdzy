@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="172,88" pivot="0.5,1" anchor="true">
+  <displayList>
+    <component id="n5_wxym" name="hpbar" src="lve29r" fileName="新组建/SceneBar.xml" pkg="jvxpx9em" xy="39,77">
+      <relation target="" sidePair="center-center"/>
+      <ProgressBar max="100"/>
+    </component>
+    <loader id="n6_wxym" name="titleImg" xy="61,-13" size="50,30" autoSize="true"/>
+    <richtext id="n7_wxym" name="nameLb" xy="-4,48" size="180,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" strokeColor="#000000" text="玩家名字名字.s9999"/>
+    <loader id="n8_wxym" name="countryImg" xy="8,21" size="46,26" url="ui://jvxpx9emxyp27g" align="center" vAlign="middle"/>
+    <richtext id="n9_wxym" name="jxLb" xy="54,21" size="110,28" touchable="false" fontSize="18" color="#ffffff" leading="0" strokeColor="#000000" text="【1阶·都尉】">
+      <relation target="n8_wxym" sidePair="left-left"/>
+    </richtext>
+  </displayList>
+</component>

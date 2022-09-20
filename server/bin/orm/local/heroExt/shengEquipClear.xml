@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.equip.model.ShengEquipClear" tbname="shengEquipClear">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="clearValues" type="text" pf="all" comment="部位洗练->属性位置 102攻击 103防御  104血量->属性值"/>
+     </tb>
+</tbs>

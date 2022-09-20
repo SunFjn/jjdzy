@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="577,200">
+  <displayList>
+    <text id="n0_rydj" name="n0" xy="7,7" size="116,35" fontSize="26" color="#ffcc00" text="扫荡副本:"/>
+    <text id="n1_rydj" name="title" xy="128,8" size="116,35" fontSize="26" color="#ff9900" text="扫荡副本:"/>
+    <text id="n2_rydj" name="n2" xy="7,49" size="116,35" fontSize="26" color="#ffcc00" text="获得奖励:"/>
+  </displayList>
+</component>

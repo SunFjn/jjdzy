@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="454,44">
+  <displayList>
+    <image id="n1_v465" name="n1" src="if1k3hc" fileName="image/通用底框/小标题文字底.png" pkg="jvxpx9em" xy="28,6" size="426,36"/>
+    <richtext id="n2_v465" name="lbName" xy="44,12" size="124,25" fontSize="18" color="#ffffff" text="玩家名字S.008"/>
+    <richtext id="n3_v465" name="n3" xy="306,12" size="41,25" fontSize="18" color="#ffffff" text="抢到"/>
+    <richtext id="n4_v465" name="lbNum" xy="376,12" size="55,25" fontSize="18" color="#ffffff" text="10000"/>
+    <loader id="n5_v465" name="iconYuanBao" xy="347,7" size="32,31" url="ui://jvxpx9embwmw3y"/>
+    <image id="n7_k2yd" name="dingImg" src="k2ydz" fileName="image/运气王标签.png" xy="-3,1"/>
+  </displayList>
+</component>

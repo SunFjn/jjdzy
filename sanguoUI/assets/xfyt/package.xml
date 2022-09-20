@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="n5noipr2" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="vpqq0" name="ChildXfyt.xml" path="/" exported="true"/>
+    <image id="vpqq1" name="消费摇骰.png" path="/res/"/>
+    <image id="vpqq2" name="黄色底座.png" path="/res/"/>
+    <image id="vpqq3" name="灰色底座.png" path="/res/"/>
+    <image id="vpqq4" name="背景.jpg" path="/res/"/>
+    <image id="vpqq5" name="起点.png" path="/res/"/>
+    <component id="vpqq6" name="XfytStepItem.xml" path="/com/"/>
+    <image id="vpqq7" name="413307.png" path="/res/"/>
+    <image id="vpqq8" name="绿色箭头.png" path="/res/"/>
+    <image id="vpqq9" name="roll1.png" path="/res/" exported="true"/>
+    <image id="vpqqa" name="roll2.png" path="/res/" exported="true"/>
+    <image id="vpqqb" name="roll3.png" path="/res/" exported="true"/>
+    <image id="vpqqc" name="roll4.png" path="/res/" exported="true"/>
+    <image id="vpqqd" name="roll5.png" path="/res/" exported="true"/>
+    <image id="vpqqe" name="roll6.png" path="/res/" exported="true"/>
+    <component id="vpqqf" name="RollItem.xml" path="/res/"/>
+  </resources>
+  <publish name="xfyt" genCode="true" npot="true" excluded="vpqq4,vpqq7"/>
+</packageDescription>

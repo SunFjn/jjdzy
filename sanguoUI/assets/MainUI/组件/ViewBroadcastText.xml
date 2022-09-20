@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,32" overflow="hidden" scroll="horizontal">
+  <displayList>
+    <image id="n0_e2bn" name="n0" src="i8xh5v" fileName="image1/黑底.png" xy="0,0" size="640,32"/>
+    <component id="n1_e2bn" name="btxt" src="e2bn4b" fileName="组件/BrocastTxt.xml" xy="130,3"/>
+  </displayList>
+</component>

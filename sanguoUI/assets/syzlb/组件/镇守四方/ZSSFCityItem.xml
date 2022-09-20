@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="225,176" extention="Label">
+  <displayList>
+    <loader id="n5_lt8i" name="icon" xy="0,10" pivot="0.5,0.5" size="224,166" url="ui://3o8q23uult8it" align="center" vAlign="bottom"/>
+    <image id="n12_spfr" name="n12" src="if1k3hc" fileName="image/通用底框/小标题文字底.png" pkg="jvxpx9em" xy="0,0" size="225,30" group="n18_cenr"/>
+    <richtext id="n13_spfr" name="timeLb" xy="7,1" pivot="0.5,0.5" size="211,28" group="n18_cenr" fontSize="18" color="#ffffff" align="center" autoSize="none" text="剩余时间"/>
+    <group id="n18_cenr" name="timesGroup" xy="0,0" size="225,30" advanced="true" collapsed="true"/>
+    <image id="n7_lt8i" name="n7" src="if1k3hc" fileName="image/通用底框/小标题文字底.png" pkg="jvxpx9em" xy="0,144" size="222,30" group="n19_cenr"/>
+    <richtext id="n8_lt8i" name="nameLb" xy="4,144" pivot="0.5,0.5" size="211,28" group="n19_cenr" fontSize="18" color="#ffffff" align="center" autoSize="none" text="玩家名字"/>
+    <group id="n19_cenr" name="nameGroup" xy="0,144" size="222,30" advanced="true" collapsed="true"/>
+    <component id="n11_spfr" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="52,39"/>
+    <image id="n17_spfr" name="selImg" src="z1r82h" fileName="image/新资源/选中发光状态框.png" pkg="jvxpx9em" xy="57,29" size="110,110"/>
+    <image id="n20_cenr" name="lockImg" src="cenr16" fileName="image/镇守四方/锁定.png" xy="97,70" hideByEditor="true"/>
+    <component id="n14_spfr" name="backBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="45,135" group="n16_spfr">
+      <Button title="提前召回"/>
+    </component>
+    <component id="n15_spfr" name="costLb" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="46,193" group="n16_spfr">
+      <relation target="n14_spfr" sidePair="center-center"/>
+    </component>
+    <group id="n16_spfr" name="btGroup" xy="45,135" size="136,91" visible="false" advanced="true" collapsed="true"/>
+    <component id="n21_cenr" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="46,136" hideByEditor="true">
+      <Button title="领取奖励"/>
+    </component>
+    <image id="n22_mqpu" name="ldImg" src="mqpu1k" fileName="image/镇守四方/掠夺成功.png" xy="60,65"/>
+    <image id="n23_mqpu" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="140,40" size="20,20" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossHeroesList.model.HeroesListData" tbname="heroesListData">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="week" type="int" pf="all" comment="周几"/>
+			<col field="score" type="int" pf="all" comment="积分"/>
+			<col field="tempScore" type="int" pf="all" comment="临时记录积分"/>
+			<col field="scoreReward" type="text" pf="all" comment="已领取积分奖励"/>
+			<col field="refreshTime" type="int" pf="all" comment="刷新时间"/>
+     </tb>
+</tbs>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.guanqia.Guanqia" tbname="guanqia">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="curGuanqia" type="int" pf="all" comment="关数"/>
+			<col field="curMonster" type="int" pf="all" comment="小怪第几波"/>
+			<col field="killMonsterCount" type="int" pf="all" comment="当天击杀小怪数量"/>
+			<col field="killAwardIndex" type="int" pf="all" comment="已领取斩杀奖励编号"/>
+			<col field="todayMopUp" type="int" pf="all" comment="今日已扫荡次数"/>
+			<col field="timeTopGuanQia" type="int" pf="all" comment="第一次打到本人最高层的时间"/>
+			<col field="bigGuanqia" type="int" pf="all" comment="当前大关卡id"/>
+			<col field="bigRewardSet" type="text" pf="all" comment="已领取大关卡通关奖励"/>
+			<col field="jingJiaPro" type="int" pf="all" comment="当前关卡出现金甲兵概率 "/>
+			<col field="jingJiaSateByGuan" type="varchar" len="100"  pf="all" comment="x关卡是否出现金甲兵 0无 1有 [x关,金甲兵是否出现 0无 1有]"/>
+			<col field="noJingJia" type="int" pf="all" comment="连续没有出现金甲兵关数 "/>			
+     </tb>
+</tbs>

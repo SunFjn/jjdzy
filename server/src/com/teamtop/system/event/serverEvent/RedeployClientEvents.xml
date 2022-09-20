@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 部署服务器事件 -->
+	<!-- 日志 -->
+	<bean id="LogServer" class="com.teamtop.util.log.LogServer">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 协议对应传输字段-->
+	<bean id="ProtocolInvoke" class="com.teamtop.netty.util.nettyCache.ProtocolInvoke">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 协议对应方法-->
+	<bean id="MethodInvoke" class="com.teamtop.netty.util.nettyCache.MethodInvoke">
+		<property method = "startServer"/>
+	</bean>
+</beans>

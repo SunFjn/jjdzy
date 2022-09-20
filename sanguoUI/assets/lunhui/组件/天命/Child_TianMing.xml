@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <controller name="c1" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <loader id="n16_h2o6" name="imgBg" xy="114,225" size="402,409" url="ui://ehelf5bhh2o6r"/>
+    <image id="n15_h2o6" name="n15" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="19,723" size="604,168"/>
+    <component id="n1_h2o6" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="181,146"/>
+    <component id="n2_h2o6" name="grid0" src="h2o6p" fileName="组件/天命/GridTianMing.xml" xy="50,224">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+    <loader id="n18_h2o6" name="imgBg1" xy="299,743" size="314,133" url="ui://ehelf5bhh2o6s" fill="scaleFree"/>
+    <richtext id="n5_h2o6" name="lbName" xy="150,741" size="101,35" fontSize="24" color="#ffffff" text="厚土天命"/>
+    <richtext id="n6_h2o6" name="lbPower" xy="154,774" size="109,28" fontSize="18" color="#ffffff" text="战力+50000"/>
+    <richtext id="n8_h2o6" name="lbAttr" xy="154,800" size="100,78" fontSize="18" color="#ffffff" text="攻击:50000&#xA;暴击:50000&#xA;暴击:50000"/>
+    <component id="n9_h2o6" name="grid1" src="h2o6p" fileName="组件/天命/GridTianMing.xml" xy="50,384">
+      <gearDisplay controller="c1" pages=""/>
+      <Button controller="c1" page="1"/>
+    </component>
+    <component id="n10_h2o6" name="grid2" src="h2o6p" fileName="组件/天命/GridTianMing.xml" xy="50,554">
+      <Button controller="c1" page="2"/>
+    </component>
+    <component id="n11_h2o6" name="grid3" src="h2o6p" fileName="组件/天命/GridTianMing.xml" xy="480,224">
+      <Button controller="c1" page="3"/>
+    </component>
+    <component id="n12_h2o6" name="grid4" src="h2o6p" fileName="组件/天命/GridTianMing.xml" xy="480,384">
+      <Button controller="c1" page="4"/>
+    </component>
+    <component id="n13_h2o6" name="grid5" src="h2o6p" fileName="组件/天命/GridTianMing.xml" xy="480,554">
+      <Button controller="c1" page="5"/>
+    </component>
+    <component id="n14_h2o6" name="grid" src="h2o6p" fileName="组件/天命/GridTianMing.xml" xy="35,757" touchable="false"/>
+    <image id="n20_h2o6" name="imgMax" src="h2o6t" fileName="image/天命/已满级.png" xy="389,789"/>
+    <richtext id="n21_b8as" name="lbJiHuo" xy="328,797" size="247,35" hideByEditor="true" fontSize="24" color="#ff0000" align="center" autoSize="none" text="3轮回开启"/>
+    <component id="n4_h2o6" name="btnPin" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="388,817" group="n25_g8w8">
+      <Button title="升品"/>
+    </component>
+    <richtext id="n22_g8w8" name="lb" xy="402,748" size="101,35" group="n25_g8w8" fontSize="24" color="#ff9933" text="天命升品"/>
+    <component id="n23_g8w8" name="vres" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="402,782" group="n25_g8w8"/>
+    <richtext id="n27_rovk" name="lbres" xy="287,785" size="110,28" group="n25_g8w8" fontSize="18" color="#ffffff" align="right" autoSize="none" text="天命升品升品"/>
+    <component id="n19_h2o6" name="btnLv" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="388,817" group="n25_g8w8">
+      <Button title="升级"/>
+    </component>
+    <group id="n25_g8w8" name="boxUp" xy="287,748" size="293,120" advanced="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="hpazy1te" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="furkf" name="Button_Big.xml" path="/组件/" exported="true"/>
+    <component id="furkg" name="ViewCreateRolePanel.xml" path="/组件/" exported="true"/>
+    <component id="furkh" name="Button_Random.xml" path="/组件/" exported="true"/>
+    <component id="furki" name="ChildRoleBtn.xml" path="/组件/" exported="true"/>
+    <image id="lg3qj" name="创建角色.png" path="/image/" exported="true"/>
+    <image id="lg3qk" name="名字框.png" path="/image/" exported="true" scale="9grid" scale9grid="73,13,146,26"/>
+    <image id="lg3ql" name="底座.png" path="/image/" exported="true"/>
+    <image id="lg3qr" name="貂蝉.png" path="/image/" exported="true"/>
+    <image id="lg3qt" name="貂蝉选中效果.png" path="/image/" exported="true"/>
+    <image id="lg3qu" name="赵云.png" path="/image/" exported="true"/>
+    <image id="lg3qw" name="赵云选中效果.png" path="/image/" exported="true"/>
+    <image id="lg3qx" name="进入游戏.png" path="/image/" exported="true"/>
+    <image id="lg3qy" name="骰子.png" path="/image/" exported="true"/>
+    <component id="lkx8z" name="ViewNebieLoading.xml" path="/组件/" exported="true"/>
+    <image id="lkx810" name="截江救阿斗2.jpg" path="/image/"/>
+    <image id="lkx812" name="截江救阿斗1.png" path="/image/" exported="true"/>
+    <image id="git213" name="诸葛亮.png" path="/image/"/>
+    <image id="git214" name="诸葛亮选择效果.png" path="/image/"/>
+  </resources>
+  <publish name="createRole" genCode="true" npot="true" excluded="lkx810"/>
+</packageDescription>

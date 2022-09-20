@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,780">
+  <displayList>
+    <component id="n1_lcej" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,720">
+      <Label title="战利品分配"/>
+    </component>
+    <image id="n2_lcej" name="n2" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="14,84" size="565,132"/>
+    <image id="n6_iv4o" name="n6" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="13,224" size="565,473"/>
+    <component id="n4_iv4o" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="262,114" scale="0.7,0.7"/>
+    <richtext id="n3_iv4o" name="n3" xy="73,132" size="77,35" fontSize="24" color="#ff9933" text="战利品"/>
+    <richtext id="n5_iv4o" name="surLb" xy="435,133" size="91,35" fontSize="24" color="#00ff00" text="剩余：9"/>
+    <richtext id="n14_iv4o" name="n14" xy="103,722" size="388,58" fontSize="18" color="#00ff00" align="center" autoSize="none" text="战利品仅有国王可分配，下次三国一统开始后&#xA;未分配的战利品清零"/>
+    <list id="n13_iv4o" name="list" xy="25,265" size="527,427" overflow="scroll" lineGap="25" defaultItem="ui://z4ijxlqkiv4oe" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

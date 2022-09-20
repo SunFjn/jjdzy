@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://6d8dzzdgrak313">
+  <displayList>
+    <component id="n0_fmjx" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="13,115" size="614,894">
+      <Label title="宝库"/>
+    </component>
+    <list id="n3_fmjx" name="list" xy="35,372" size="571,585" layout="flow_hz" overflow="scroll" lineGap="7" colGap="10" defaultItem="ui://6d8dzzdgrak315" autoClearItems="true">
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+    </list>
+    <loader id="n15_rak3" name="banner" xy="33,189" size="573,177" url="ui://6d8dzzdgrak318"/>
+    <richtext id="n16_rak3" name="tfDate" xy="30,967" size="159,25" fontSize="18" color="#00ff00" autoClearText="true" text="活动剩余时间：1天"/>
+    <component id="n17_rak3" name="resCom" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="39,326" size="123,36"/>
+  </displayList>
+</component>

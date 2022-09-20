@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="549,124">
+  <displayList>
+    <image id="n1_nyv7" name="n1" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="549,124" locked="true"/>
+    <image id="n9_nyv7" name="n9" src="nyv75e" fileName="image/跨服矿藏/负.png" xy="-4,-3"/>
+    <image id="n10_nyv7" name="n10" src="nyv75d" fileName="image/跨服矿藏/胜.png" xy="-4,-3"/>
+    <richtext id="n2_nyv7" name="n2" xy="59,21" size="149,34" touchable="false" fontSize="25" color="#ff0000" autoSize="none" bold="true" text="战斗抢夺"/>
+    <richtext id="n3_nyv7" name="n3" xy="14,68" size="519,28" touchable="false" fontSize="18" color="#ffffff" autoSize="height" text="玩家名字六字.S9999"/>
+    <component id="n8_nyv7" name="roomBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="397,14">
+      <Button title="战斗回放"/>
+    </component>
+  </displayList>
+</component>

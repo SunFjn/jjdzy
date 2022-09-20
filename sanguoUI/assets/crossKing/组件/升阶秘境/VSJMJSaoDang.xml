@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="610,600">
+  <displayList>
+    <component id="n1_rydj" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="6,2" size="600,599"/>
+    <text id="n2_rydj" name="n2" xy="275,26" size="65,39" fontSize="30" color="#ffffff" strokeColor="#000000" text="扫荡"/>
+    <list id="n3_rydj" name="list" xy="19,78" size="577,511" overflow="scroll" defaultItem="ui://yqpfulefrydj47"/>
+  </displayList>
+</component>

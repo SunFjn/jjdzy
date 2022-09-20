@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="130,135">
+  <displayList>
+    <loader id="n3_g53a" name="awaUI" xy="0,0" size="50,50" touchable="false"/>
+    <image id="n0_g53a" name="n0" src="roqq52" fileName="image1/提示框.png" pkg="7gxkx46w" xy="0,135" rotation="-90"/>
+    <component id="n1_g53a" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="18,6"/>
+    <loader id="n2_g53a" name="buf" xy="19,13" size="92,92" url="ui://3o8q23uubzs61o" align="center" vAlign="middle"/>
+  </displayList>
+</component>

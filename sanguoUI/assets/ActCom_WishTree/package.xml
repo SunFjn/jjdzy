@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="zyevj37n" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="lwy21" name="Child_ActCom_WishTree.xml" path="/组件/" exported="true"/>
+    <image id="lwy22" name="奖品底图.png" path="/image/" exported="true"/>
+    <component id="lwy25" name="WishPointItem.xml" path="/组件/" exported="true"/>
+    <component id="lwy26" name="WishTreeRankView.xml" path="/组件/" exported="true"/>
+    <image id="lwy27" name="字.png" path="/image/" exported="true"/>
+    <component id="lwy28" name="WishTreeRankItem.xml" path="/组件/" exported="true"/>
+    <image id="qozwb" name="排名图标.png" path="/image/" exported="true"/>
+    <component id="ixpzc" name="WishTreeRewView.xml" path="/组件/" exported="true"/>
+    <component id="lonvd" name="WishTreeTargetView.xml" path="/组件/" exported="true"/>
+    <component id="lonve" name="WishTreeTargetItem.xml" path="/组件/" exported="true"/>
+    <image id="lonvf" name="送礼.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="ActCom_WishTree" genCode="true" npot="true"/>
+</packageDescription>

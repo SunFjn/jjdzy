@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.guardArea.model.GuardArea" tbname="guardArea" serverid="3">
+		<index field="hid" type="prikey"/>
+		<col field="hid" type="bigint" pf="all" comment="玩家id"/>
+		<col field="cityInfoMap" type="text" pf="all" comment="城池信息"/>	
+		<col field="plunderMap" type="text" pf="all" comment="掠夺信息"/>
+		<col field="belongZoneid" type="int" pf="all" comment="所属区服"/>
+	</tb>
+</tbs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="116,55" designImageOffsetX="-50" designImageOffsetY="-271">
+  <displayList>
+    <component id="n13_tt6c" name="tab" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="0,8" size="113,43">
+      <Button title="第一天"/>
+    </component>
+    <image id="n11_tt6c" name="iconBu" src="tt6c18" fileName="image/补领标签.png" xy="89,0"/>
+  </displayList>
+</component>

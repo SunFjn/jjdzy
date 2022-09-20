@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,832">
+  <displayList>
+    <component id="n1_r3je" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,832">
+      <Label title="排名奖励"/>
+    </component>
+    <image id="n3_r3je" name="n3" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="19,80" size="555,44"/>
+    <image id="n6_r3je" name="n6" src="q8rv9o" fileName="image1/奖励.png" pkg="jvxpx9em" xy="408,90"/>
+    <image id="n7_r3je" name="n7" src="j92x9t" fileName="image1/名字.png" pkg="jvxpx9em" xy="155,90"/>
+    <image id="n8_r3je" name="n8" src="q8rv9n" fileName="image1/排名.png" pkg="jvxpx9em" xy="38,90"/>
+    <list id="n4_r3je" name="list" xy="19,133" size="555,643" overflow="scroll" lineGap="8" defaultItem="ui://iwvd88mqr3jee">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n10_r3je" name="lb1" xy="317,790" size="254,28" touchable="false" fontSize="18" color="#ffff00" align="right" vars="true" autoSize="none" text="前3名上榜需抽奖{count=1000}次"/>
+    <richtext id="n13_r3je" name="lbMy" xy="17,790" size="283,28" touchable="false" fontSize="18" color="#ffffff" autoSize="none" text="我的排名：10         抽奖：100"/>
+  </displayList>
+</component>

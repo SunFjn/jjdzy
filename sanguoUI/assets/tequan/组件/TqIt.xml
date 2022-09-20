@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="322,29">
+  <displayList>
+    <image id="n0_mp04" name="n0" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="4,3"/>
+    <richtext id="n1_mp04" name="lb" xy="30,0" size="38,28" fontSize="18" color="#ffffff" text="123"/>
+  </displayList>
+</component>

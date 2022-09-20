@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="470,293">
+  <displayList>
+    <component id="n4_q4gk" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="470,293">
+      <Label title="奖励"/>
+    </component>
+    <text id="n5_q4gk" name="lb" xy="0,243" size="470,28" fontSize="18" color="#1bf011" align="center" autoSize="none" text="达到100圈后可领取，周一0点结算邮件发送奖励"/>
+    <image id="n6_q4gk" name="n6" src="jkp64z" fileName="image1/Bg4.png" pkg="jvxpx9em" xy="15,79" size="436,163"/>
+    <list id="n7_q4gk" name="list" xy="59,99" size="361,110" layout="row" overflow="scroll" scroll="horizontal" colGap="24" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

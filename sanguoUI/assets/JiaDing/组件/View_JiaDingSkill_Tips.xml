@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,162">
+  <displayList>
+    <image id="n1_gz25" name="n1" src="m3513bv" fileName="image/通用底框/tips.png" pkg="jvxpx9em" xy="0,0" size="594,162"/>
+    <component id="n2_gz25" name="skillLb" src="gz25a" fileName="组件/JiaDingSkill.xml" xy="31,29"/>
+    <richtext id="n3_gz25" name="skillDesLb" xy="134,32" size="427,105" fontSize="22" color="#ffffff" leading="10" autoSize="none" text="技能描述"/>
+  </displayList>
+</component>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,663" designImage="ui://ke8qv0ckehld1" designImageOffsetY="-262">
+  <displayList>
+    <image id="n0_ehld" name="n0" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="0,0" size="640,663" locked="true" hideByEditor="true"/>
+    <loader id="n1_ehld" name="bgImg" xy="12,8" size="50,50"/>
+    <richtext id="n2_ehld" name="labRecharge" xy="210,325" size="221,25" touchable="false" fontSize="18" color="#ffffff" text="按正确顺序点击文字对下联">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n3_ehld" name="againBtn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="174,349">
+      <Button title="重来"/>
+    </component>
+    <component id="n4_ehld" name="okBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="333,349">
+      <Button title="确定"/>
+    </component>
+    <richtext id="n5_ehld" name="labCount" xy="153,442" size="59,25" touchable="false" fontSize="18" color="#ffffff" text="对联："/>
+    <component id="n6_ehld" name="vres" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="211,440" size="125,36">
+      <Label title="300"/>
+    </component>
+    <richtext id="n7_ehld" name="labTime" xy="191,112" size="257,25" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="剩余时间：6天">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n8_ehld" name="labRecover" xy="153,480" size="153,25" touchable="false" fontSize="18" color="#ffffff" text="恢复时间：01：59"/>
+    <richtext id="n9_ehld" name="labRecharge" xy="269,632" size="113,25" touchable="false" fontSize="18" color="#ff9900" text="奖励每日重置">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n11_ehld" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="461,469" pivot="0.5,0.5" anchor="true" size="108,110" scale="0.7,0.7">
+      <Button icon="ui://ke8qv0ckehld4"/>
+    </component>
+    <component id="n12_ehld" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="31,580" size="573,22">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <richtext id="n24_ehld" name="shanglian" xy="53,88" size="62,424" touchable="false" font="SimSun" fontSize="48" leading="7" autoSize="none" bold="true" text="一帆风顺吉星到">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n25_ehld" name="xialian" xy="534,88" size="62,424" touchable="false" font="SimSun" fontSize="48" leading="7" autoSize="none" bold="true" text="一帆风顺吉星到">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n26_ehld" name="item0" src="ehld6" fileName="组件/DDLItem.xml" xy="138,140"/>
+    <component id="n27_ehld" name="item1" src="ehld6" fileName="组件/DDLItem.xml" xy="223,140"/>
+    <component id="n28_ehld" name="item2" src="ehld6" fileName="组件/DDLItem.xml" xy="308,140"/>
+    <component id="n30_ehld" name="item3" src="ehld6" fileName="组件/DDLItem.xml" xy="394,140"/>
+    <component id="n31_ehld" name="item4" src="ehld6" fileName="组件/DDLItem.xml" xy="160,229"/>
+    <component id="n32_ehld" name="item6" src="ehld6" fileName="组件/DDLItem.xml" xy="372,229"/>
+    <component id="n33_ehld" name="item5" src="ehld6" fileName="组件/DDLItem.xml" xy="265,229"/>
+    <richtext id="n34_ehld" name="hengfu" xy="216,45" size="217,52" touchable="false" font="SimSun" fontSize="48" leading="0" letterSpacing="4" bold="true" text="财源广进">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n36_ehld" name="n36" src="dlak69" fileName="image/箭头+其他/间隔线.png" pkg="jvxpx9em" xy="19,516"/>
+    <component id="n37_tcq6" name="rewardItem0" src="tcq69" fileName="组件/DDLRewardItem.xml" xy="68,510"/>
+    <component id="n38_tcq6" name="rewardItem1" src="tcq69" fileName="组件/DDLRewardItem.xml" xy="185,510"/>
+    <component id="n40_tcq6" name="rewardItem3" src="tcq69" fileName="组件/DDLRewardItem.xml" xy="418,510"/>
+    <component id="n41_tcq6" name="rewardItem2" src="tcq69" fileName="组件/DDLRewardItem.xml" xy="302,510"/>
+    <component id="n42_tcq6" name="rewardItem4" src="tcq69" fileName="组件/DDLRewardItem.xml" xy="534,510"/>
+  </displayList>
+</component>

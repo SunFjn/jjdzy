@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,112" opaque="false" extention="Button">
+  <displayList>
+    <loader id="n14_ved3" name="icon" xy="0,0" size="84,88" autoSize="true"/>
+    <image id="n15_ved3" name="kfIcon" src="dhj56c" fileName="image1/跨服标签.png" xy="0,0" visible="false"/>
+    <image id="n16_ved3" name="noticeImg" src="u89ob7k" fileName="image1/Bm_Liang.png" xy="64,0" visible="false">
+      <relation target="n14_ved3" sidePair="right-right,top-top"/>
+    </image>
+    <image id="n17_ved3" name="disImg" src="o6k7b7m" fileName="image/折扣小标签.png" xy="51,-3" size="41,31">
+      <relation target="n14_ved3" sidePair="right-right,top-top"/>
+    </image>
+    <image id="n11_mx0a" name="n11" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="-9,88" size="106,24" group="n18_ved3"/>
+    <richtext id="n10_pzcf" name="timeLb" xy="-7,88" pivot="0.5,0.5" size="101,24" group="n18_ved3" touchable="false" fontSize="14" color="#00f234" leading="0" autoClearText="true" text="00:59:59后开启"/>
+    <group id="n18_ved3" name="n18" xy="-9,88" size="106,24" advanced="true">
+      <relation target="n14_ved3" sidePair="center-center,top-bottom"/>
+    </group>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.10"/>
+  <relation target="n14_ved3" sidePair="width-width,height-height"/>
+</component>

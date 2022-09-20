@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="579,595">
+  <displayList>
+    <image id="n61_tidc" name="n61" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="10,8" size="558,556"/>
+    <loader id="n35_l3h3" name="countryImg0" xy="172,108" size="229,251" group="n50_i6im" url="ui://xzyn0qe3tidc1i" fill="scale" autoSize="true"/>
+    <image id="n36_l3h3" name="n36" src="100v3al" fileName="image/新资源/rank_1.png" pkg="jvxpx9em" xy="247,10" group="n50_i6im"/>
+    <loader id="n46_l3h3" name="boxImg0" xy="245,336" size="76,65" group="n50_i6im" aspect="true" url="ui://jvxpx9emaro89e" align="center" vAlign="middle" fill="scale"/>
+    <richtext id="n41_l3h3" name="jifenLb0" xy="224,398" size="118,28" group="n50_i6im" touchable="false" fontSize="18" color="#15f234" align="center" autoSize="none" text="2000积分"/>
+    <richtext id="n45_l3h3" name="nameLb" xy="186,89" size="202,28" group="n50_i6im" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="君主"/>
+    <image id="n54_rjsa" name="n54" src="rjsa18" fileName="image/君主.png" xy="255,65" group="n50_i6im"/>
+    <group id="n50_i6im" name="group0" xy="172,10" size="229,416" advanced="true" collapsed="true"/>
+    <loader id="n37_l3h3" name="countryImg1" xy="1,224" size="229,251" group="n51_i6im" url="ui://xzyn0qe3tidc1i" autoSize="true"/>
+    <image id="n38_l3h3" name="n38" src="100v3am" fileName="image/新资源/rank_2.png" pkg="jvxpx9em" xy="71,174" group="n51_i6im"/>
+    <loader id="n47_l3h3" name="boxImg1" xy="65,448" size="80,68" group="n51_i6im" aspect="true" url="ui://jvxpx9emaro89e" fill="scale"/>
+    <richtext id="n42_l3h3" name="jifenLb1" xy="44,513" size="118,28" group="n51_i6im" touchable="false" fontSize="18" color="#15f234" align="center" autoSize="none" text="20000积分"/>
+    <group id="n51_i6im" name="group1" xy="1,174" size="229,367" advanced="true" collapsed="true"/>
+    <loader id="n39_l3h3" name="countryImg2" xy="350,222" size="229,251" group="n52_i6im" url="ui://xzyn0qe3tidc1i" autoSize="true"/>
+    <image id="n40_l3h3" name="n40" src="100v3an" fileName="image/新资源/rank_3.png" pkg="jvxpx9em" xy="423,175" group="n52_i6im"/>
+    <loader id="n48_l3h3" name="boxImg2" xy="423,451" size="78,66" group="n52_i6im" aspect="true" url="ui://jvxpx9emaro89e" fill="scale"/>
+    <richtext id="n43_l3h3" name="jifenLb2" xy="405,526" size="112,28" group="n52_i6im" touchable="false" fontSize="18" color="#15f234" align="center" autoSize="none" text="20000积分"/>
+    <group id="n52_i6im" name="group2" xy="350,175" size="229,379" advanced="true" collapsed="true"/>
+    <richtext id="n49_l3h3" name="countryLb" xy="16,567" size="77,28" touchable="false" fontSize="18" color="#ffffff" leading="0" text="我的国家"/>
+  </displayList>
+</component>

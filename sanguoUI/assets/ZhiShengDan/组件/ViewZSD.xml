@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="626,305">
+  <displayList>
+    <loader id="n0_iysk" name="n0" xy="0,0" size="626,305"/>
+    <image id="n1_iysk" name="btnClose" src="m3513bo" fileName="image/通用按钮/弹窗关闭按钮.png" pkg="jvxpx9em" xy="524,-3"/>
+    <image id="n2_iysk" name="n2" src="iysk3fa" fileName="image/文本.png" xy="196,28"/>
+    <component id="n3_iysk" name="btnZG" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="233,235">
+      <Button title="前往直购"/>
+    </component>
+    <image id="n4_iysk" name="n4" src="iysk3f6" fileName="image/标题.png" xy="240,-111"/>
+    <component id="n6_iysk" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="257,73"/>
+    <loader id="n7_iysk" name="iconContent" xy="181,-38" size="97,51" url="ui://1zbdupo5iysk3f5"/>
+    <component id="n8_iysk" name="btnUSE" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="242,235">
+      <Button title="立刻使用"/>
+    </component>
+    <richtext id="n9_d5g8" name="promptLb" xy="218,245" size="177,35" touchable="false" fontSize="24" color="#ffffff" align="center" autoSize="none" text="7天后可购买"/>
+  </displayList>
+</component>

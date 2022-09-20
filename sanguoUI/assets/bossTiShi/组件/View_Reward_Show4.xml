@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,483">
+  <displayList>
+    <image id="n10_9m2m" name="n10" src="9m2m4" fileName="image/获得奖励底.png" xy="0,0" size="640,483"/>
+    <image id="n4_jzfm" name="n4" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="38,99" size="566,284"/>
+    <list id="n1_hn3o" name="list" xy="38,99" size="566,284" layout="flow_hz" selectionMode="none" overflow="scroll" colGap="10" lineItemCount="5" defaultItem="ui://jvxpx9emetorn" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5_eytm" name="surebt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="149,389">
+      <Button title="确定(10)"/>
+    </component>
+    <component id="n3_q8rv" name="continuebt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="363,389">
+      <Button title="再来十次"/>
+    </component>
+    <richtext id="n7_eytm" name="lab" xy="428,445" pivot="0.5,0" anchor="true" size="30,25" fontSize="18" color="#ffffff" autoClearText="true" text="7/1"/>
+    <component id="n11_9m2m" name="closeButton" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="571,27" size="62,56">
+      <Button icon="ui://3me6ra11ijvz2"/>
+    </component>
+  </displayList>
+</component>

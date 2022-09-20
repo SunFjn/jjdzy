@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.boss.specialAnimalBoss.model.SpecialAnimalBossData" tbname="specialAnimalBossData">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="guanqia" type="int" pf="all" comment="当前关卡"/>
+			<col field="passGq" type="int" pf="all" comment="已通关最大关卡"/>
+			<col field="rewardGq" type="int" pf="all" comment="已领取奖励关卡"/>
+			<col field="chaNum" type="int" pf="all" comment="可挑战次数"/>
+			<col field="buyChaNum" type="int" pf="all" comment="今日已购买次数"/>
+			<col field="lastAddChaTime" type="int" pf="all" comment="上次恢复时间"/>
+			<col field="lastPassTime" type="bigint" pf="all" comment="最后一次通关时间"/>
+			<col field="weekResetTime" type="int" pf="all" comment="周重置时间"/>
+     </tb>
+</tbs>

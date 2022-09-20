@@ -1,0 +1,26 @@
+#名字区分大小写
+ALTER TABLE role MODIFY COLUMN `name` VARCHAR(60) BINARY;
+
+#不同平台，平台A开跨服，平台B不开跨服，平台A有自己的系统，平台B有自己的系统
+#可以根据平台标示，控制运行java时读取对应的配置文件。
+
+#设置中央服务器与子服通讯的异步回调，就不用额外写多协议
+
+#sysFunFunction.canUseFunction(OpenFunctionConst.FUN_COUPLE_RUM, role, 0, false)
+
+插代码
+
+#货币统一发送
+
+#系统图标统一推送
+
+#-Djava.util.Arrays.useLegacyMergeSort=true
+
+#统一等级判断在收到cg时
+#初始化时系统根据等级做初始化
+#cmdToMethod改造
+
+
+#1秒连接服务器30条，即刻断开，重复1个小时
+
+#服务器因为维护或者崩溃关机重启后，错过的定时事件触发，通过后台统一人工操作。

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="580,57">
+  <displayList>
+    <image id="n1_nvxy" name="n1" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="580,57"/>
+    <richtext id="n0_g2m4" name="lbInfo" xy="15,14" size="75,28" fontSize="18" color="#ffffff" text="金库小贼"/>
+  </displayList>
+</component>

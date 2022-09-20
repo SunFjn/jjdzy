@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,741">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <component id="n0_i7mo" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,689">
+      <Label title="兽灵"/>
+    </component>
+    <loader id="n19_nb1u" name="bgImg" xy="96,83" size="400,250"/>
+    <image id="n23_nb1u" name="n23" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="66,383" size="460,149" locked="true" hideByEditor="true" visible="false"/>
+    <component id="n2_i7mo" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="163,68"/>
+    <loader id="n20_nb1u" name="typeImg" xy="217,129" size="158,158" autoSize="true">
+      <relation target="n19_nb1u" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n9_i7mo" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,686">
+      <Button checked="true" title="青龙" controller="c1" page="0"/>
+    </component>
+    <component id="n10_i7mo" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,686">
+      <Button title="白虎" controller="c1" page="1"/>
+    </component>
+    <component id="n11_i7mo" name="tab2" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="251,686">
+      <Button title="朱雀" controller="c1" page="2"/>
+    </component>
+    <component id="n12_i7mo" name="tab3" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="370,686">
+      <Button title="玄武" controller="c1" page="3"/>
+    </component>
+    <richtext id="n5_i7mo" name="curAttLb" xy="153,443" size="109,28" group="n24_y91x" fontSize="18" color="#ffffff" leading="10" text="攻击+10000">
+      <relation target="n23_nb1u" sidePair="middle-middle"/>
+    </richtext>
+    <image id="n18_nb1u" name="n18" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="272,428" group="n24_y91x">
+      <relation target="n23_nb1u" sidePair="middle-middle"/>
+    </image>
+    <richtext id="n6_i7mo" name="nextAttLb" xy="340,443" size="98,28" group="n24_y91x" fontSize="18" color="#00ff00" leading="10" text="攻击+1000">
+      <relation target="n23_nb1u" sidePair="middle-middle"/>
+    </richtext>
+    <group id="n24_y91x" name="attgroup" xy="153,428" size="285,58" advanced="true" collapsed="true" layout="hz" colGap="10">
+      <relation target="n23_nb1u" sidePair="center-center"/>
+    </group>
+    <component id="n21_nb1u" name="costItem" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="202,546" group="n25_y91x"/>
+    <component id="n8_i7mo" name="upBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="227,600" group="n25_y91x">
+      <Button title="升级"/>
+    </component>
+    <group id="n25_y91x" name="upBtGroup" xy="202,546" size="178,105" advanced="true" collapsed="true"/>
+    <image id="n26_y91x" name="n26" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="113,614" group="n28_y91x"/>
+    <richtext id="n27_y91x" name="n27" xy="238,606" size="120,35" group="n28_y91x" touchable="false" fontSize="24" color="#00ff00" align="center" autoSize="none" text="已满级"/>
+    <group id="n28_y91x" name="maxGroup" xy="113,606" size="366,35" advanced="true" collapsed="true"/>
+    <richtext id="n4_i7mo" name="levelName" xy="107,316" size="378,35" fontSize="24" color="#ffffff" align="center" leading="0" autoSize="none" text="青龙兽灵 Lv.15"/>
+    <richtext id="n29_y91x" name="attLb" xy="291,443" size="10,28" fontSize="18" color="#ffffff" leading="10" text="">
+      <relation target="n23_nb1u" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <component id="n31_tli0" name="n31" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="131,356" size="329,31">
+      <Label title="升级属性"/>
+    </component>
+  </displayList>
+</component>

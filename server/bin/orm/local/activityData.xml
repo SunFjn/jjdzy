@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.activity.model.ActivityData" tbname="activityData">
+		<index field="id" type="prikey"/>
+		<index field="hid,actId,periods" type="normal"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="indexId" type="int" pf="all" comment="序号"/>
+		<col field="actId" type="int" pf="all" comment="活动id"/>
+		<col field="periods" type="int" pf="all" comment="期数"/>
+		<col field="actStr" type="text" pf="all" comment="活动详细数据"/>
+	</tb>
+</tbs>

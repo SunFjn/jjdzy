@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="265,61" extention="Label">
+  <displayList>
+    <image id="n1_h3bo" name="n1" src="z1jw6w" fileName="image1/战力底.png" xy="-8,0"/>
+    <image id="n2_h3bo" name="n2" src="bwmw3l" fileName="image1/战力.png" xy="12,17" group="n3_h3bo"/>
+    <text id="n0_h3bo" name="title" xy="73,23" size="180,23" group="n3_h3bo" font="ui://jvxpx9embwmw3w" fontSize="12" singleLine="true" text="99999999999"/>
+    <group id="n3_h3bo" name="n3" xy="12,17" size="241,40" advanced="true" collapsed="true" layout="hz" colGap="5">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

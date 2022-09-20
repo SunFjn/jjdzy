@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n7_pr1u" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0"/>
+    <component id="n9_eqmk" name="viewSZ" src="eqmk38" fileName="组件/武将/ChildShiZhuang.xml" xy="0,146"/>
+  </displayList>
+</component>

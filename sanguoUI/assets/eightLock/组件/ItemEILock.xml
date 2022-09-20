@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="633,150">
+  <displayList>
+    <image id="n1_vib6" name="n1" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="633,150"/>
+    <image id="n4_vib6" name="txtInfoJL" src="ppyw3ey" fileName="image/奖励预览.png" pkg="jvxpx9em" xy="251,11" size="85,27"/>
+    <list id="n5_vib6" name="list" xy="120,43" size="447,125" scale="0.8,0.8" layout="flow_hz" overflow="scroll" scroll="horizontal" colGap="5" defaultItem="ui://jvxpx9emetorm" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n6_vib6" name="txtInfo3" xy="477,20" size="151,28" fontSize="18" color="#ffffff" text="任务进度100/200">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n9_vib6" name="txtInfo4" xy="493,67" size="95,28" fontSize="18" color="#ff0000" text="需开启生门">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n7_vib6" name="btnQW" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="485,53">
+      <Button title="前往领取"/>
+    </component>
+    <component id="n8_vib6" name="btnTask" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="486,53">
+      <Button title="生门任务"/>
+    </component>
+    <image id="n10_vib6" name="iconGot" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="489,56"/>
+    <image id="n12_c4j4" name="n12" src="c4j41c" fileName="image/ball.png" xy="16,37"/>
+    <richtext id="n11_j3hf" name="txtInfo" xy="27,100" size="78,43" font="ui://hincjqblj3hfo" fontSize="30" text="死门">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

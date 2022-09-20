@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,404">
+  <displayList>
+    <component id="n0_g2m4" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,404">
+      <Label title="随机事件"/>
+    </component>
+    <richtext id="n1_g2m4" name="lbInfo" xy="276,88" size="40,28" fontSize="18" color="#ffffff" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n2_g2m4" name="n2" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="154,144" size="285,28">
+      <Label title="奖励"/>
+    </component>
+    <list id="n3_g2m4" name="n3" xy="118,183" size="356,110" layout="flow_hz" overflow="scroll" defaultItem="ui://jvxpx9emetorm" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_g2m4" name="n4" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="228,298">
+      <Button title="确定"/>
+    </component>
+    <richtext id="n5_vbiy" name="lbCount" xy="277,364" size="38,28" fontSize="18" color="#ffffff" text="123">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

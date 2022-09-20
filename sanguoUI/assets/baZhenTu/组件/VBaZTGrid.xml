@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="96,96">
+  <displayList>
+    <loader id="n3_b5l2" name="bg" xy="0,0" size="96,96" url="ui://jvxpx9emy1z8p" fill="scaleFree"/>
+    <loader id="n4_b5l2" name="imgIcon" xy="7,-27" size="100,100" url="ui://xrzn9ppab5l2j"/>
+    <image id="n13_ly3w" name="n13" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="2,69" group="n16_ly3w"/>
+    <image id="n14_ly3w" name="n14" src="sv0g2l" fileName="image1/big_star_4.png" pkg="jvxpx9em" xy="49,68" group="n16_ly3w"/>
+    <richtext id="n15_ly3w" name="starLb" xy="13,67" size="33,29" group="n16_ly3w" touchable="false" fontSize="18" color="#ffffff" align="right" autoSize="none" bold="true" text="10"/>
+    <group id="n16_ly3w" name="starGroup" xy="2,67" size="92,29" advanced="true"/>
+  </displayList>
+</component>

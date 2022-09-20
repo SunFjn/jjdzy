@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="623,779">
+  <displayList>
+    <component id="n10_som1" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="-1,0" size="623,779">
+      <Label title="关卡排名"/>
+    </component>
+    <image id="n16_som1" name="n16" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="31,101" size="556,44"/>
+    <image id="n13_som1" name="n13" src="som11g" fileName="image/通关数.png" xy="485,112"/>
+    <image id="n14_som1" name="n14" src="j92x9t" fileName="image1/名字.png" pkg="jvxpx9em" xy="291,112"/>
+    <image id="n15_som1" name="n15" src="q8rv9n" fileName="image1/排名.png" pkg="jvxpx9em" xy="87,113"/>
+    <list id="n8_u94l" name="list" xy="31,152" size="560,533" overflow="scroll" lineGap="10" defaultItem="ui://r92dp953u94lp">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n20_som1" name="n20" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="31,689" size="556,61"/>
+    <richtext id="n21_mh9p" name="lbMineRank" xy="58,711" size="149,28" fontSize="18" color="#ffc334" align="center" text="我的信息我的信息"/>
+    <richtext id="n22_mh9p" name="lbMineGuanQ" xy="441,711" size="149,28" fontSize="18" color="#ffc334" text="我的信息我的信息"/>
+  </displayList>
+</component>

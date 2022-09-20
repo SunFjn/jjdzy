@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="643,150">
+  <displayList>
+    <image id="n0_phch" name="n0" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="643,150" locked="true" flip="vt"/>
+    <image id="n7_phch" name="n7" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="35,15" size="267,27"/>
+    <richtext id="n1_phch" name="lab" xy="38,15" size="203,25" touchable="false" fontSize="18" color="#ffffff" text="收集以下所有物品可兑换"/>
+    <component id="n3_phch" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="467,48">
+      <Button title="领取"/>
+    </component>
+    <component id="n4_phch" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="467,48">
+      <Button title="前往"/>
+    </component>
+    <image id="n5_phch" name="imgGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="473,57"/>
+    <list id="n12_phch" name="list" xy="37,50" size="436,110" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="7" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

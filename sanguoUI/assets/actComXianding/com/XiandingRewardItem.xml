@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="59,84" pivot="0.5,0.5" anchor="true">
+  <controller name="stateCtrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n21_illc" name="item" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="4,9" scale="0.5,0.5"/>
+    <richtext id="n22_illc" name="tfScore" xy="12,60" pivot="0.5,0.5" size="32,22" fontSize="16" color="#ffffff" vAlign="middle" autoClearText="true" text="100"/>
+    <image id="n23_nnxc" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="39,0">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n24_nnxc" name="imageGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="-5,25" size="68,22" aspect="true">
+      <gearDisplay controller="stateCtrl" pages="2"/>
+    </image>
+  </displayList>
+</component>

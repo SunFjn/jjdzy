@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="591,514">
+  <displayList>
+    <component id="n1_j08a" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="591,514">
+      <Label title="活动结束"/>
+    </component>
+    <image id="n21_j08a" name="n21" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="24,186" size="540,234"/>
+    <loader id="n22_j08a" name="n22" xy="33,195" size="518,221" url="ui://edvdots4ekf6z"/>
+    <component id="n14_j08a" name="n14" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="230,436">
+      <Button title="确定"/>
+    </component>
+    <image id="n20_j08a" name="n20" src="m3513by" fileName="image/文字底.png" pkg="jvxpx9em" xy="241,202" size="116,43"/>
+    <list id="n29_b801" name="n29" xy="76,94" size="438,87" overflow="scroll" defaultItem="ui://edvdots4b801w25">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n10_j08a" name="n10" src="ekf6y" fileName="images/标题文字底.png" xy="154,361" size="264,36" group="n30_qxkh"/>
+    <text id="n11_j08a" name="lbMvpName" xy="174,366" size="222,35" group="n30_qxkh" fontSize="24" color="#66ff00" align="center" autoSize="none" text="玩家名字六子.s8888"/>
+    <text id="n12_j08a" name="n12" xy="253,207" size="59,35" group="n30_qxkh" fontSize="24" color="#ffcc00" text="MVP"/>
+    <loader id="n17_j08a" name="imgHead" xy="242,254" size="80,80" group="n30_qxkh" url="ui://edvdots4kzd9e"/>
+    <loader id="n18_j08a" name="imgHeadGrid" xy="238,250" size="88,88" group="n30_qxkh" url="ui://edvdots4ov4h17" align="center" vAlign="bottom"/>
+    <group id="n30_qxkh" name="groupHead" xy="154,207" size="264,194" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

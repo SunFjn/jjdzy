@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,628" designImage="ui://ye1luhg3k2yd1d" designImageOffsetY="-269">
+  <controller name="c1" pages="0,更新公告,1,功能预览" selected="1"/>
+  <displayList>
+    <image id="n3_u5im" name="n3" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="5,193" size="630,435"/>
+    <list id="n0_ffub" name="list" xy="19,202" size="604,421" overflow="scroll" defaultItem="ui://ye1luhg3ffubh">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+    </list>
+    <loader id="n2_u5im" name="backImg" xy="0,0" size="640,186" fill="scaleFree"/>
+    <component id="n5_k2yd" name="btnGonggao" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="489,66" pivot="0.5,0.5" anchor="true" size="213,61">
+      <Button icon="ui://ye1luhg3k2yd1f"/>
+    </component>
+    <component id="n6_k2yd" name="btnGongneng" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="489,139" pivot="0.5,0.5" anchor="true" size="213,61">
+      <Button icon="ui://ye1luhg3k2yd1e"/>
+    </component>
+    <list id="n7_k2yd" name="list1" xy="9,197" size="622,420" overflow="scroll" defaultItem="ui://ye1luhg3k2yd1g">
+      <gearDisplay controller="c1" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

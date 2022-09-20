@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,90">
+  <displayList>
+    <image id="n12_ghu9" name="n12" src="kw747l" fileName="image1/头像底.png" pkg="jvxpx9em" xy="9,8"/>
+    <loader id="n13_ghu9" name="headIcon" xy="9,8" size="80,80" url="ui://jvxpx9emp75388" fill="scaleFree"/>
+    <loader id="n14_ghu9" name="frameIcon" xy="0,0" size="100,90" url="ui://jvxpx9emtw1l5j" align="center" vAlign="bottom"/>
+    <loader id="n4_ov4j" name="countryImg" xy="59,9" size="29,27" url="ui://jvxpx9emxyp27h" fill="scaleFree"/>
+    <image id="n6_hzfc" name="n6" src="hzfc1f" fileName="image/Vip背景.png" xy="10,60" size="47,27" group="n10_y91x"/>
+    <text id="n2_og79" name="vipLb" xy="13,61" size="68,26" group="n10_y91x" font="ui://jvxpx9em608a8q" fontSize="22" color="#ffffff" leading="0" text="P12"/>
+    <group id="n10_y91x" name="vipGroup" xy="10,60" size="71,27" advanced="true"/>
+  </displayList>
+</component>

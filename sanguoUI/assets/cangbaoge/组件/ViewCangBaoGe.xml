@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n52_tar6" name="frame" src="fsg93cj" fileName="组件/frame4.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://1tr9e6d8tar61"/>
+    </component>
+    <loader id="n48_tar6" name="bgLun" xy="0,0" size="640,822" url="ui://1tr9e6d8q5t61h" autoSize="true"/>
+    <image id="n67_x3b9" name="n67" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="6,762" size="628,160"/>
+    <image id="n50_tar6" name="n50" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="135,252" size="389,248" group="n47_tar6"/>
+    <richtext id="n22_m0yo" name="lbLog" xy="175,259" size="10,28" group="n47_tar6" fontSize="18" color="#ffffff" leading="16" text=""/>
+    <component id="n2_m0yo" name="g0" src="m0yoz" fileName="组件/CBGGrid.xml" xy="272,124" group="n47_tar6"/>
+    <component id="n3_m0yo" name="g11" src="m0yoz" fileName="组件/CBGGrid.xml" xy="159,146" group="n47_tar6"/>
+    <component id="n4_m0yo" name="g1" src="m0yoz" fileName="组件/CBGGrid.xml" xy="385,148" group="n47_tar6"/>
+    <component id="n5_m0yo" name="g10" src="m0yoz" fileName="组件/CBGGrid.xml" xy="82,228" group="n47_tar6"/>
+    <component id="n6_m0yo" name="g2" src="m0yoz" fileName="组件/CBGGrid.xml" xy="464,228" group="n47_tar6"/>
+    <component id="n7_m0yo" name="g6" src="m0yoz" fileName="组件/CBGGrid.xml" xy="272,531" group="n47_tar6"/>
+    <component id="n8_m0yo" name="g7" src="m0yoz" fileName="组件/CBGGrid.xml" xy="157,502" group="n47_tar6"/>
+    <component id="n9_m0yo" name="g5" src="m0yoz" fileName="组件/CBGGrid.xml" xy="388,502" group="n47_tar6"/>
+    <component id="n10_m0yo" name="g8" src="m0yoz" fileName="组件/CBGGrid.xml" xy="79,421" group="n47_tar6"/>
+    <component id="n11_m0yo" name="g4" src="m0yoz" fileName="组件/CBGGrid.xml" xy="462,421" group="n47_tar6"/>
+    <component id="n14_m0yo" name="g9" src="m0yoz" fileName="组件/CBGGrid.xml" xy="45,323" group="n47_tar6"/>
+    <component id="n15_m0yo" name="g3" src="m0yoz" fileName="组件/CBGGrid.xml" xy="495,326" group="n47_tar6"/>
+    <component id="n16_m0yo" name="btnOne" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="145,670" group="n47_tar6">
+      <Button title="寻宝一次"/>
+    </component>
+    <richtext id="n42_tar6" name="lbOne" xy="151,637" size="121,28" group="n47_tar6" fontSize="18" color="#ffffff" text="购买1000铜钱"/>
+    <richtext id="n44_tar6" name="lbTen" xy="371,637" size="132,28" group="n47_tar6" fontSize="18" color="#ffffff" text="购买10000铜钱"/>
+    <component id="n17_m0yo" name="btnTen" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="374,670" group="n47_tar6">
+      <Button title="寻宝十次"/>
+    </component>
+    <loader id="n59_bcxw" name="iconYuanBao" xy="149,724" size="32,31" group="n47_tar6" url="ui://jvxpx9embwmw3y"/>
+    <loader id="n60_bcxw" name="iconYuanBao1" xy="375,725" size="32,31" group="n47_tar6" url="ui://jvxpx9embwmw3y"/>
+    <richtext id="n61_bcxw" name="lbOne0" xy="187,727" size="38,28" group="n47_tar6" fontSize="18" color="#ffffff" text="500"/>
+    <richtext id="n62_bcxw" name="lbTen0" xy="409,727" size="49,28" group="n47_tar6" fontSize="18" color="#ffffff" text="4500"/>
+    <text id="n81_mmd0" name="n81" xy="411,726" size="43,28" group="n83_mmd0" rotation="6" fontSize="18" color="#ff0000" text="——"/>
+    <text id="n82_mmd0" name="discount10" xy="456,729" size="50,28" group="n83_mmd0" fontSize="18" color="#00ff00" text="(300)"/>
+    <group id="n83_mmd0" name="vresG10" xy="411,726" size="92,28" group="n47_tar6" advanced="true"/>
+    <text id="n84_mmd0" name="n84" xy="183,725" size="43,28" group="n86_mmd0" rotation="6" fontSize="18" color="#ff0000" text="——"/>
+    <text id="n85_mmd0" name="discount1" xy="225,728" size="50,28" group="n86_mmd0" fontSize="18" color="#00ff00" text="(300)"/>
+    <group id="n86_mmd0" name="vresG1" xy="183,725" size="89,28" group="n47_tar6" advanced="true" collapsed="true"/>
+    <group id="n47_tar6" name="n47" xy="45,124" size="552,632"/>
+    <component id="n23_m0yo" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="115,822" size="445,24" group="n25_m0yo">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <richtext id="n24_m0yo" name="n24" xy="31,815" size="83,35" group="n25_m0yo" fontSize="24" color="#ffcc00" text="幸运值:"/>
+    <richtext id="n35_m0yo" name="lbDesc" xy="129,890" size="416,25" group="n25_m0yo" fontSize="16" color="#00ff00" align="center" vars="true" text="幸运值越高抽到高级道具的概率越高，幸运值满后必得{tname=100}">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n36_m0yo" name="lbTip" xy="215,766" size="189,28" group="n25_m0yo" fontSize="18" color="#00ff00" text="每次寻宝增加10幸运值"/>
+    <component id="n26_m0yo" name="icon0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="133,801" size="102,102" group="n55_bcxw" scale="0.59,0.59"/>
+    <richtext id="n27_m0yo" name="lb0" xy="120,865" size="80,25" group="n55_bcxw" fontSize="16" color="#ffffff" text="幸运值100"/>
+    <group id="n55_bcxw" name="v0" xy="120,801" size="115,102" group="n25_m0yo" advanced="true" collapsed="true"/>
+    <component id="n28_m0yo" name="icon1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="237,801" size="102,102" group="n56_bcxw" scale="0.59,0.59"/>
+    <richtext id="n31_m0yo" name="lb1" xy="224,865" size="80,25" group="n56_bcxw" fontSize="16" color="#ffffff" text="幸运值200"/>
+    <group id="n56_bcxw" name="v1" xy="224,801" size="115,102" group="n25_m0yo" advanced="true" collapsed="true"/>
+    <component id="n29_m0yo" name="icon2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="413,801" size="102,102" group="n57_bcxw" scale="0.59,0.59"/>
+    <richtext id="n32_m0yo" name="lb2" xy="400,865" size="80,25" group="n57_bcxw" fontSize="16" color="#ffffff" text="幸运值300"/>
+    <group id="n57_bcxw" name="v2" xy="400,801" size="115,102" group="n25_m0yo" advanced="true" collapsed="true"/>
+    <component id="n30_m0yo" name="icon3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="536,802" size="102,102" group="n58_bcxw" scale="0.59,0.59"/>
+    <richtext id="n33_m0yo" name="lb3" xy="523,866" size="80,25" group="n58_bcxw" fontSize="16" color="#ffffff" text="幸运值400"/>
+    <group id="n58_bcxw" name="v3" xy="523,802" size="115,102" group="n25_m0yo" advanced="true" collapsed="true"/>
+    <group id="n25_m0yo" name="n25" xy="31,766" size="607,149" collapsed="true"/>
+    <image id="n37_m0yo" name="n37" src="roqq52" fileName="image1/提示框.png" pkg="7gxkx46w" xy="485,583" group="n40_m0yo"/>
+    <component id="n38_m0yo" name="gridFirst" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="510,605" pivot="0.5,0.5" group="n40_m0yo" scale="0.8,0.8"/>
+    <image id="n53_tar6" name="n53" src="bcxw11" fileName="image/首抽必中.png" xy="513,592" group="n40_m0yo"/>
+    <group id="n40_m0yo" name="firstGroup" xy="485,583" size="135,130" advanced="true" collapsed="true"/>
+    <richtext id="n68_bg08" name="labTip1" xy="245,926" size="149,25" fontSize="16" color="#00ff00" text="幸运值满后更换奖励"/>
+    <richtext id="n69_pdbd" name="linkLb" xy="550,133" size="45,31" fontSize="20" color="#00ff00" underline="true" text="概率"/>
+    <component id="n71_q9yr" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="35,112" size="84,88">
+      <Button icon="ui://1tr9e6d8q9yr1d"/>
+    </component>
+    <image id="n72_q9yr" name="imgKua" src="dhj56c" fileName="image1/跨服标签.png" pkg="7gxkx46w" xy="37,114"/>
+    <component id="n73_ouaz" name="checkBox" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="14,681" size="122,32">
+      <Button title=" 跳过动画"/>
+    </component>
+    <richtext id="n74_kof8" name="labTime" xy="-2,201" size="156,28" fontSize="18" color="#00ff00" align="center" autoSize="none" text="22天09时07分结束"/>
+    <image id="n87_ob6z" name="n87" src="ob6z1f" fileName="image/气泡框.png" xy="-7,517" group="n77_mmd0" flip="hz"/>
+    <richtext id="n76_mmd0" name="tips" xy="20,561" size="220,77" group="n77_mmd0" font="SimHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="5" letterSpacing="5" autoSize="none" text="当前打造享7折优惠&#xA;打造30次后可享6折优惠"/>
+    <group id="n77_mmd0" name="tipsGroup" xy="-7,517" size="270,175" advanced="true" collapsed="true"/>
+    <image id="n90_q5t6" name="n90" src="irr13gx" fileName="image/花纹/标题背景花纹.png" pkg="jvxpx9em" xy="115,66"/>
+    <image id="n91_q5t6" name="icon" src="tar61" fileName="image/藏宝阁标题.png" xy="257,60"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n40_m0yo" tween="true" startValue="-,583" endValue="-,573" duration="24" ease="Linear"/>
+    <item time="24" type="XY" target="n40_m0yo" tween="true" startValue="-,573" endValue="-,583" duration="24"/>
+    <item time="48" type="XY" target="n40_m0yo" tween="true" startValue="-,583" ease="Linear"/>
+  </transition>
+</component>

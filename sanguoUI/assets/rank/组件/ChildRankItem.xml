@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,30">
+  <displayList>
+    <richtext id="n0_kjez" name="labLevel" xy="0,2" size="155,28" touchable="false" fontSize="18" color="#ffffff" text="等级：0    战力：0"/>
+    <component id="n1_kjez" name="ButtonVIP" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="175,-4" size="95,39" touchable="false">
+      <relation target="n0_kjez" sidePair="left-right"/>
+      <Button icon="ui://7gxkx46wltpm18"/>
+    </component>
+    <text id="n2_kjez" name="lbVip" xy="174,2" size="97,26" font="ui://jvxpx9em608a8q" fontSize="22" align="center" leading="0" autoSize="none" text="P13">
+      <relation target="n0_kjez" sidePair="left-right"/>
+    </text>
+  </displayList>
+  <relation target="n1_kjez" sidePair="rightext-right"/>
+</component>

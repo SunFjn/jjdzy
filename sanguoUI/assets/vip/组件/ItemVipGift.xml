@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="605,163">
+  <displayList>
+    <image id="n1_fbyw" name="n1" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,24" size="605,139"/>
+    <image id="n2_fbyw" name="n2" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="38,34" size="149,38"/>
+    <richtext id="n3_fbyw" name="n3" xy="56,37" size="119,35" fontSize="24" color="#ffffff" align="center" text="VIP20礼包"/>
+    <component id="n4_fbyw" name="n4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="35,76" aspect="true" scale="0.7,0.7"/>
+    <component id="n5_fbyw" name="n5" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="117,76" aspect="true" scale="0.7,0.7"/>
+    <component id="n6_fbyw" name="n6" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="199,76" aspect="true" scale="0.7,0.7"/>
+    <component id="n7_fbyw" name="n7" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="281,76" aspect="true" scale="0.7,0.7"/>
+    <component id="n8_fbyw" name="n8" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="363,76" aspect="true" scale="0.7,0.7"/>
+    <component id="n9_fbyw" name="n9" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="466,85">
+      <Button title="购买"/>
+    </component>
+    <richtext id="n12_fbyw" name="n12" xy="475,98" size="109,28" fontSize="18" color="#ff0000" align="center" text="VIP14可购买"/>
+    <image id="n15_fbyw" name="n15" src="mb5j7d" fileName="image/已购买.png" pkg="jvxpx9em" xy="470,73"/>
+    <image id="n11_fbyw" name="n11" src="rt7o4r" fileName="image1/货币底.png" pkg="jvxpx9em" xy="458,48" size="140,30" group="n16_fbyw"/>
+    <image id="n13_fbyw" name="n13" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="470,48" group="n16_fbyw"/>
+    <richtext id="n14_fbyw" name="n14" xy="505,49" size="82,28" group="n16_fbyw" fontSize="18" color="#ffffff" align="center" text="1231456"/>
+    <group id="n16_fbyw" name="n16" xy="458,48" size="140,31" advanced="true" collapsed="true"/>
+    <image id="n17_orxg" name="n17" src="orxgg" fileName="image/折扣标签.png" xy="0,0" pkg="jvxpx9em"/>
+    <richtext id="n18_orxg" name="disLb" xy="6,2" size="56,36" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#006666" strokeSize="2" text="5折"/>
+  </displayList>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="511,361">
+  <displayList>
+    <component id="n0_rl7f" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="511,361">
+      <Label title="购买等级"/>
+    </component>
+    <image id="n3_rl7f" name="back" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="22,87" size="461,167"/>
+    <richtext id="n1_rl7f" name="lb" xy="86,125" size="85,31" touchable="false" fontSize="20" color="#ffffff" align="center" vAlign="middle" ubb="true" text="是否花费"/>
+    <richtext id="n5_ml15" name="lb2" xy="49,183" pivot="0.5,0.5" size="412,31" touchable="false" fontSize="20" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="height" autoClearText="true" text="(今日还可购买5/5次)"/>
+    <loader id="n6_ml15" name="img" xy="176,121" size="40,40" fill="scaleFree"/>
+    <richtext id="n7_ml15" name="lb1" xy="222,127" size="193,31" touchable="false" fontSize="20" color="#ffffff" vAlign="middle" ubb="true" autoClearText="true" text="999购买1级犒赏等级"/>
+    <component id="n2_rl7f" name="btnCancel" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="60,277" scale="0.8,0.8">
+      <Button title="取消"/>
+    </component>
+    <component id="n4_rl7f" name="btnOk" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="286,278" scale="0.8,0.8">
+      <Button title="确定"/>
+    </component>
+  </displayList>
+</component>

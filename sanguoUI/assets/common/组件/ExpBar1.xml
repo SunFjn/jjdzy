@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,20" extention="ProgressBar">
+  <displayList>
+    <image id="n0_emwp" name="n0" src="irr13h2" fileName="image/进度条/经验条2底框.png" xy="0,0" size="50,20">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_emwp" name="bar" src="emwp3h7" fileName="image/进度条/经验条2.png" xy="3,3" size="44,14"/>
+    <richtext id="n2_emwp" name="title" xy="2,-2" size="45,25" touchable="false" fontSize="16" color="#ffffff" align="center" autoSize="none" strokeColor="#000000" text="1/1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </richtext>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,475">
+  <displayList>
+    <component id="n0_rkgc" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,0" size="593,475"/>
+    <image id="n11_sqnk" name="n11" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="29,90" size="536,272"/>
+    <component id="n8_rkgc" name="upBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="226,394">
+      <Button title="升阶"/>
+    </component>
+    <richtext id="n2_rkgc" name="nameLb" xy="214,15" size="165,35" touchable="false" fontSize="24" color="#ffc344" align="center" leading="0" ubb="true" autoSize="none" text="曹魏之魂"/>
+    <richtext id="n3_rkgc" name="levelLb" xy="112,55" size="369,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" ubb="true" autoSize="none" text="曹魏之魂总等级"/>
+    <richtext id="n4_rkgc" name="n4" xy="42,102" size="77,28" touchable="false" fontSize="18" color="#ffc344" leading="0" text="当前效果"/>
+    <richtext id="n5_rkgc" name="curAttLb" xy="64,129" size="120,28" touchable="false" fontSize="18" color="#ffffff" leading="10" text="生命+100000"/>
+    <richtext id="n6_rkgc" name="n6" xy="41,225" size="77,28" touchable="false" fontSize="18" color="#ffc344" leading="0" text="下阶效果"/>
+    <richtext id="n7_rkgc" name="nextAttLb" xy="64,252" size="120,28" touchable="false" fontSize="18" color="#ffffff" leading="10" text="生命+100000"/>
+    <richtext id="n10_sqnk" name="numLb" xy="138,224" size="58,28" touchable="false" fontSize="18" color="#ff0000" leading="0" text="(0/10)"/>
+  </displayList>
+</component>

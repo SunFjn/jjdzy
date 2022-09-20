@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,901" opaque="false">
+  <displayList>
+    <component id="n35_ndgc" name="container" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="322,584"/>
+    <component id="n24_uikj" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="193,283"/>
+    <loader id="n25_uikj" name="iconType" xy="247,357" size="145,45" url="ui://4aepcdbweium2j" autoSize="true" color="#ffff00"/>
+    <component id="n27_uikj" name="item1" src="uikji" fileName="组件/ItemSHJX.xml" xy="475,368"/>
+    <component id="n28_uikj" name="item2" src="uikji" fileName="组件/ItemSHJX.xml" xy="24,590"/>
+    <component id="n29_uikj" name="item3" src="uikji" fileName="组件/ItemSHJX.xml" xy="474,590"/>
+    <richtext id="n30_uikj" name="txtShuoMing" xy="523,304" size="77,28" fontSize="18" color="#00ff00" underline="true" text="玩法说明"/>
+    <component id="n31_uikj" name="btnJH" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="252,839">
+      <Button title="激活"/>
+    </component>
+    <richtext id="n32_uikj" name="txtCost" xy="189,792" size="261,28" fontSize="18" color="#00ff00" text="集齐12枚青龙印可激活青龙之魂">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n33_uikj" name="iconOnBat" src="uikjp" fileName="image/按钮出战中.png" xy="287,796"/>
+    <component id="n34_uikj" name="btnBattle" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="260,778" size="114,118">
+      <Button icon="ui://4aepcdbwuikjq"/>
+    </component>
+    <component id="n36_bvfw" name="btnHX" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="48,367" size="88,87">
+      <Button icon="ui://4aepcdbwbvfw5i"/>
+    </component>
+  </displayList>
+</component>

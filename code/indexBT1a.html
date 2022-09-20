@@ -1,0 +1,228 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>无双魏蜀吴H5</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta id="safari-app-capable" name="apple-mobile-web-app-capable" content="no" />
+    <meta id="safari-app-bar-style" name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <script src="loginjs/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://staticjs.quickapi.net/static/lib/libQuickSDK_v2.js"></script>
+    <style>
+        html,
+        body {
+            -ms-touch-action: none;
+            background: #000;
+            background: url(../loginres/2.jpg) no-repeat center center;
+			background-size: cover;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+            -webkit-touch-callout: none; /* iOS Safari */
+            -webkit-user-select: none; /* Chrome/Safari/Opera */
+            -khtml-user-select: none; /* Konqueror */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently not supported by any browser */
+        }
+    </style>
+</head>
+<script type="text/javascript">
+    !(function (win, doc) {
+        function setFontSize() {
+            var rate = 1.6666;
+            var winWidth = document.documentElement.clientWidth;
+            var winHeight = document.documentElement.clientHeight;
+            if (winHeight / winWidth < rate) {
+                var size = winHeight / rate / 10;
+            } else {
+                var size = winWidth / 10;
+            }
+            doc.documentElement.style.fontSize = size + 'px';
+        }
+
+        var evt = 'onorientationchange' in win ? 'orientationchange' : 'resize';
+        var timer = null;
+        win.addEventListener(evt, function () {
+            clearTimeout(timer);
+            timer = setTimeout(setFontSize, 100);
+            changeMode();
+        }, false);
+
+        win.addEventListener("pageshow", function (e) {
+            if (e.persisted) {
+                clearTimeout(timer);
+                timer = setTimeout(setFontSize, 100);
+            }
+            changeMode();
+        }, false);
+
+        // 初始化
+        setFontSize();
+    } (window, document));
+
+    $.random = function (n1, n2) {
+        return Math.round(Math.random() * (Math.max(n1, n2) - Math.min(n1, n2)), 0);
+    }
+
+    $("head").append("<link>");
+    var css = $("head").children(":last");
+    css.attr({
+        rel: "stylesheet",
+        type: "text/css",
+        href: "css/stylePro3bt1a.css?v=" + Math.random()
+    });
+
+    function changeMode() {
+        var winWidth = document.documentElement.clientWidth;
+        var winHeight = document.documentElement.clientHeight;
+
+        // var r = winWidth / winHeight;
+        // if (r <= 0.5625 && r > 0.46) {
+        var scaleMode = "fixedHeight";
+        // } else {
+        //     var scaleMode = "showAll";
+        // }
+        var egretdiv = document.getElementsByClassName("egret-player")[0];
+        egretdiv.setAttribute("data-scale-mode", scaleMode);
+    }
+</script>
+
+<body>
+    <div id="gameBg" class="gameBg server_webkit"></div>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="Main" data-orientation="auto" data-scale-mode="fixedHeight" data-frame-rate="30"
+data-content-width="640" data-content-height="1136" data-show-paint-rect="false" data-multi-fingered="2" data-show-fps="true"
+data-show-log="false" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+</div>
+<div id="server" class="server server_webkit">
+    <div id="gg" class="gg_none">
+        <span class="pop_title">公 告</span>
+        <span class="pop_bottom"></span>
+        <div class="pop_close" id="ggtopclose"></div>
+        <div class="ggcontent" id="ggcontent">公告<br/>
+        </div>
+
+    </div>
+
+    <div id="choose" class="choose choose_webkit">
+        <div id="ggbut" class="ggbut">
+            <div id="ggbtn" class="ggbtn" style="display:block;"></div>
+</div>
+<div id="logo" class="logo"></div>
+<div class="newServer" id="newServer">&nbsp;&nbsp;&nbsp;账号：<input id='zhanghaoTxt' type="text" placeholder="请输入用户名" class="newInput" />
+</div>
+<div class="now">
+    <img id="imgst" class="serverst" src="../loginres/flag2.png">
+    <img class="changeserver" src="../loginres/huanfu.png">
+    <div class="servername"> </div>
+</div>
+<div class="goplay"></div>
+<div class="notice"></div>
+<span class="version"></span>
+</div>
+<div id="slist" class="slist_none">
+    <span class="pop_title">选择区服</span>
+    <span class="pop_bottom"></span>
+    <div class="pop_close" id="sclosetitle"></div>
+    <div class="ggclose" id="sclose"></div>
+    <div class="between-out">
+        <div class="between"></div>
+    </div>
+    <div id="pop_line" class="pop_line"></div>
+</div>
+<div id="loading" class="loading_none">
+    <div id="loading1" class="loading1 loadpro_webkit">
+        <div id="pro_line1" class="pro_line1">
+            <div id="star1" class="star"></div>
+        </div>
+        <div id="proalert1" class="protext">加载中</div>
+    </div>
+    <div id="loading2" class="loading2 loadpro_webkit">
+        <div id="pro_line2" class="pro_line2">
+            <div id="star2" class="star"></div>
+        </div>
+        <div id="proalert2" class="protext">加载中</div>
+    </div>
+</div>
+</div>
+<div id="popbg" class="pop_bg" style="display:none;"></div>
+</body>
+<!--<script src="loginjs/vconsole.min.js?v=3.2.0"></script>
+<script>
+        var vConsole = new VConsole();
+    </script>-->
+<script>
+    $("#ggbtn").hide();
+    document.getElementById("newServer").style.visibility = "hidden"
+    changeMode();
+    var productCode = '25024540909625511040577709106028';        //QuickSDK后台自动分配 
+    var productKey = '63008517';        //QuickSDK后台自动分配 
+    var isTest = false;//是否是内测服
+    var isDebugModel = false;//是否是本地调试模式
+    var loginArg = null;
+    var pf = "elbt01";
+    function initPbSDK() {
+        if (isDebugModel) {
+            loginArg = {};
+            loginArg.account = "wen";
+            loginArg.resHead = "";
+            loginArg.serverHttpUrl = "loginjs/servers.php";
+            test_platformdata();
+        } else {
+            QuickSDK.init(productCode, productKey, true, function () {
+                console.log("QuickSDK init success");
+                QuickSDK.login(function (callbackData) {
+                    var message;
+                    if (callbackData.status) {
+                        console.log('GameDemo:QuickSDK登录成功: uid=>' + callbackData.data.uid);
+                        var data = callbackData.data;
+                        loginArg = {};
+                        loginArg.resHead = "https://elres.xiaoxiaowuxia.top/bt1/";
+                        loginArg.serverHttpUrl = "https://elbthta.xiaoxiaowuxia.top:6999/";
+                        loginArg.account = loginArg.open_id = data.channelId + "_" + data.uid;
+                        loginArg.username = data.username;
+                        loginArg.pfcode = loginArg.pf = loginArg.platform = pf;
+                        loginArg.channelId = data.channelId;
+                        loginArg.uid = data.uid;
+                        loginArg.os = "other";
+                        loginArg.mainType = 2;
+                        loginArg.token = data.token;
+                        loginArg.isLogin = data.isLogin;
+                        loginArg.productCode = productCode; //QuickSDK后台自动分配 
+                        loginArg.productKey = productKey;        //QuickSDK后台自动分配 
+                    } else {
+                        console.log('GameDemo:QuickSDK登录失败:' + callbackData.message);
+                    }
+                })
+            })
+        }
+    }
+
+    function test_platformdata() {
+        loginArg = {};
+        loginArg.resHead = "http://49.235.248.138/bt1/";
+        loginArg.serverHttpUrl = "http://elbts011.xiaoxiaowuxia.top:6999/";
+        loginArg.open_id = "wen11";
+        loginArg.account = loginArg.uid = "wen11";
+        loginArg.clientversion = "v1";
+        loginArg.pfcode = loginArg.pf = loginArg.platform = pf;
+        loginArg.os = "other";
+        loginArg.mainType = 2;
+    }
+
+    window.onload = function () {
+        initPbSDK();
+    }
+</script>
+<script type="text/javascript">
+    document.write('<script src="loginjs/BT01/loginHioBT.js?adv=' + Math.random() + '"><\/script>');
+</script>
+
+</html>

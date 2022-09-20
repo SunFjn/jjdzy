@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="lnw94ki2" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="lnit6" name="ShaoZhuEscortView.xml" path="/组件/" exported="true"/>
+    <component id="lnit7" name="ShaoZhuGuardView.xml" path="/组件/" exported="true"/>
+    <component id="lnit8" name="ShaoZhuGuardItem.xml" path="/组件/" exported="true"/>
+    <component id="lnit9" name="ShaoZhuEscortRewardView.xml" path="/组件/" exported="true"/>
+    <image id="lnitc" name="少主护送标题.png" path="/image/" exported="true"/>
+    <component id="lnitk" name="EscortRewardItem.xml" path="/组件/" exported="true"/>
+    <component id="lnitl" name="ShaoZhuEscortInterView.xml" path="/组件/" exported="true"/>
+    <component id="lnitm" name="ShaoZhuEscReportView.xml" path="/组件/" exported="true"/>
+    <component id="lnitn" name="ShaoZhuEscReportItem.xml" path="/组件/" exported="true"/>
+    <component id="imkmo" name="ShaoZhuEscReportInter.xml" path="/组件/" exported="true"/>
+    <component id="duy3p" name="EscortMask.xml" path="/组件/" exported="true"/>
+    <component id="h1frq" name="ViewShaoZhuEscortLook.xml" path="/组件/" exported="true"/>
+    <component id="n8o7s" name="EscortUIRole.xml" path="/组件/" exported="true"/>
+    <image id="n8o7t" name="inter.png" path="/image/" exported="true"/>
+    <image id="n8o7u" name="胜.png" path="/image/" exported="true"/>
+    <image id="n8o7v" name="负.png" path="/image/" exported="true"/>
+    <image id="q4pnw" name="guard5.png" path="/image/"/>
+  </resources>
+  <publish name="ShaoZhuEscort" genCode="true" npot="true"/>
+</packageDescription>

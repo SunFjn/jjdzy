@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,926" opaque="false">
+  <displayList>
+    <loader id="n9_eztb" name="imgPic" xy="0,280" size="50,30" url="ui://qzsojhcrbubc1e" autoSize="true"/>
+    <list id="n1_lwai" name="lst" xy="0,471" size="640,455" overflow="scroll" lineGap="2" defaultItem="ui://qzsojhcrlwai3">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n6_eztb" name="lbTime" xy="14,432" size="131,25" fontSize="18" color="#00ff00" text="活动剩余时间："/>
+    <richtext id="n10_bubc" name="n9" xy="257,432" size="383,25" fontSize="18" color="#ffffff" text="材料返利：活动期间消耗目标材料即可领取奖励"/>
+  </displayList>
+</component>

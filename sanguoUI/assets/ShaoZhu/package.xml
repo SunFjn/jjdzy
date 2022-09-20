@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="p83wyb2b" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="h7p80" name="View_ShaoZhu_Panel.xml" path="/组件/" exported="true"/>
+    <component id="h7p81" name="ShaoZhuGrid.xml" path="/组件/" exported="true"/>
+    <image id="h7p82" name="时装图标.png" path="/image/" exported="true"/>
+    <image id="h7p85" name="出战按钮.png" path="/image/" exported="true"/>
+    <component id="h7p86" name="Child_ShaoZhu_UpStar.xml" path="/组件/" exported="true"/>
+    <image id="ftpj9" name="出战中.png" path="/image/" exported="true"/>
+    <image id="ng03a" name="话框.png" path="/image/" exported="true"/>
+    <image id="ng03b" name="亲密度-心.png" path="/image/" exported="true"/>
+    <component id="ng03c" name="Child_ShaoZhu_QinMi.xml" path="/组件/" exported="true"/>
+    <component id="ng03d" name="ShaoZhuSkillGrid.xml" path="/组件/" exported="true"/>
+    <image id="ng03e" name="未解锁.png" path="/image/" exported="true"/>
+    <component id="ng03f" name="Child_ShaoZhu_Skill.xml" path="/组件/" exported="true"/>
+    <image id="ng03g" name="亲密度提升框.png" path="/image/" exported="true"/>
+    <component id="ng03i" name="View_ShaoZhu_QinMiUp.xml" path="/组件/" exported="true"/>
+    <image id="ng03k" name="如胶似漆.png" path="/image/" exported="true"/>
+    <image id="ng03l" name="技能选中框.png" path="/image/" exported="true"/>
+    <image id="ng03p" name="升阶奖励.png" path="/image/" exported="true"/>
+    <component id="ng03r" name="View_ShaoZhu_Fashion.xml" path="/组件/" exported="true"/>
+    <image id="ng03s" name="穿戴.png" path="/image/" exported="true"/>
+    <image id="ng03t" name="已穿戴.png" path="/image/" exported="true"/>
+    <image id="ng03u" name="已穿戴(1).png" path="/image/" exported="true"/>
+    <component id="ng03v" name="ItemShaoZhuFashion.xml" path="/组件/" exported="true"/>
+    <image id="ewn5w" name="取消出站.png" path="/image/" exported="true"/>
+    <component id="ewn5y" name="View_ShaoZhuSkill_Tip.xml" path="/组件/" exported="true"/>
+    <image id="vsk3z" name="敬请期待.png" path="/image/" exported="true"/>
+    <image id="eigu10" name="少主.png" path="/image/" exported="true"/>
+    <image id="eigu11" name="技能浏览.png" path="/image/" exported="true"/>
+    <component id="eigu13" name="View_ShaoZhuSkill_Panel.xml" path="/组件/" exported="true"/>
+    <image id="gfnp14" name="下阶奖励.png" path="/image/" exported="true"/>
+    <component id="sr6c15" name="Child_ShaoZhu_QiYuan.xml" path="/组件/祈愿/" exported="true"/>
+    <component id="sr6c16" name="ViewSZQiYuanReward.xml" path="/组件/祈愿/" exported="true"/>
+    <component id="sr6c17" name="VSZQiYuanPoint.xml" path="/组件/祈愿/" exported="true"/>
+    <image id="qyln18" name="灯笼.png" path="/image/" exported="true"/>
+    <image id="qyln1b" name="奖励预览.png" path="/image/" exported="true"/>
+    <image id="qyln1c" name="标题.png" path="/image/" exported="true"/>
+    <component id="n0801d" name="View_ShaoZhu_SkillDataPanel.xml" path="/组件/" exported="true"/>
+    <image id="n0801e" name="放大镜.png" path="/image/" exported="true"/>
+    <component id="lsg11g" name="ShaoZhuSkillItem.xml" path="/组件/" exported="true"/>
+    <component id="ad1l1h" name="Child_LiuYi.xml" path="/组件/六艺/" exported="true"/>
+    <image id="ad1l1l" name="贾诩.png" path="/image/六艺/" exported="true"/>
+    <image id="ad1l1n" name="考试底.png" path="/image/六艺/" exported="true"/>
+    <image id="ad1l1o" name="礼.png" path="/image/六艺/" exported="true"/>
+    <component id="ad1l1y" name="BtnLiuYi.xml" path="/组件/六艺/" exported="true"/>
+    <component id="ad1l1z" name="View_LiuYiKaoShiPanel.xml" path="/组件/六艺/" exported="true"/>
+    <component id="ad1l20" name="ItemLiuYiKaoShi.xml" path="/组件/六艺/" exported="true"/>
+    <image id="ad1l23" name="御大.png" path="/image/六艺/" exported="true"/>
+    <image id="t87429" name="少主图标.png" path="/image/六艺/" exported="true"/>
+    <image id="t8742a" name="六艺图标.png" path="/image/六艺/" exported="true"/>
+    <component id="kc1n2b" name="BtnXueTang.xml" path="/组件/六艺/" exported="true"/>
+    <image id="kc1n2c" name="pic1.png" path="/image/六艺/"/>
+    <component id="o89h2d" name="View_ShaoZhu_QianNeng.xml" path="/组件/潜能/" exported="true"/>
+    <component id="o89h2e" name="Child_ShaoZhu.xml" path="/组件/"/>
+    <image id="o89h35" name="已满级.png" path="/image/潜能/" exported="true"/>
+    <image id="o89h36" name="潜能入口.png" path="/image/潜能/" exported="true"/>
+    <image id="o89h37" name="潜能底图.jpg" path="/image/潜能/"/>
+    <image id="o89h3b" name="重-亮.png" path="/image/潜能/" exported="true"/>
+    <image id="o89h3c" name="重-未亮.png" path="/image/潜能/" exported="true"/>
+    <image id="o89h3f" name="0.png" path="/image/潜能num/" exported="true"/>
+    <image id="o89h3g" name="1.png" path="/image/潜能num/" exported="true"/>
+    <image id="o89h3i" name="2.png" path="/image/潜能num/" exported="true"/>
+    <image id="o89h3j" name="3.png" path="/image/潜能num/" exported="true"/>
+    <image id="o89h3k" name="4.png" path="/image/潜能num/" exported="true"/>
+    <image id="o89h3l" name="5.png" path="/image/潜能num/" exported="true"/>
+    <image id="o89h3m" name="6.png" path="/image/潜能num/" exported="true"/>
+    <image id="o89h3n" name="7.png" path="/image/潜能num/" exported="true"/>
+    <image id="o89h3o" name="8.png" path="/image/潜能num/" exported="true"/>
+    <image id="o89h3p" name="9.png" path="/image/潜能num/" exported="true"/>
+    <image id="o89h3q" name="第.png" path="/image/潜能num/" exported="true"/>
+    <image id="o89h3r" name="重.png" path="/image/潜能num/" exported="true"/>
+    <font id="o89h3s" name="FontQianNeng.fnt" path="/组件/潜能/" exported="true"/>
+    <image id="o89h3t" name="亮条.png" path="/image/潜能/" exported="true"/>
+    <image id="o89h3u" name="底框1.png" path="/image/潜能/" exported="true"/>
+    <image id="o89h3v" name="底框2.png" path="/image/潜能/" exported="true"/>
+    <image id="o89h3w" name="灰条.png" path="/image/潜能/" exported="true"/>
+    <component id="o89h3z" name="BtnQianNeng.xml" path="/组件/潜能/" exported="true"/>
+    <image id="o89h40" name="大丹.png" path="/image/潜能/" exported="true"/>
+    <image id="o89h41" name="小单.png" path="/image/潜能/" exported="true"/>
+  </resources>
+  <publish name="ShaoZhu" genCode="true" npot="true" excluded="ng03k,ng03g,ad1l1l,ad1l1o,ad1l23,kc1n2c,o89h37">
+    <atlas compression="true" index="0"/>
+  </publish>
+</packageDescription>

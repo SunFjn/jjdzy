@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="630,799">
+  <controller name="updateFlagCtrl" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n17_rc5p" name="imgBg1" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="1,294" size="630,146"/>
+    <image id="n23_rc5p" name="n23" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="8,229" size="136,60"/>
+    <image id="n1_rc5p" name="n1" src="e7lc5" fileName="image/徽章底.png" xy="15,309"/>
+    <text id="n2_rc5p" name="tfLevel" xy="69,349" pivot="0.5,0.5" size="22,27" font="ui://jvxpx9embwmw3w" fontSize="22" color="#ffffff" align="center" letterSpacing="-2" bold="true" text="6"/>
+    <richtext id="n3_rc5p" name="tfDate" xy="12,232" size="131,53" touchable="false" fontSize="18" color="#ffffff" autoClearText="true" text="活动剩余时间：&#xA;1天"/>
+    <component id="n6_rc5p" name="btnGetAll" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="269,737">
+      <Button title="一键领取" titleFontSize="22"/>
+    </component>
+    <component id="n7_rc5p" name="pb" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="149,356" size="337,22">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n9_rc5p" name="n9" src="e7lck" fileName="出图文件/勋章.png" xy="-3,442"/>
+    <richtext id="n10_rc5p" name="lb11" xy="40,449" size="41,28" touchable="false" fontSize="18" color="#ffffff" text="等级"/>
+    <list id="n18_rc5p" name="list" xy="114,442" size="402,293" layout="row" overflow="scroll" scroll="horizontal" colGap="-3" defaultItem="ui://89er3bo3e7lc2">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n20_rc5p" name="itemBig" src="e7lco" fileName="com/WarOrderRewItem2.xml" xy="513,442"/>
+    <component id="n25_vfla" name="btnBuyLv" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="486,337" scale="0.8,0.8">
+      <Button title="购买等级"/>
+    </component>
+    <image id="n28_p3zs" name="n28" src="e7lcc" fileName="出图文件/遮罩.png" xy="6,608" group="n30_p3zs" alpha="0.6"/>
+    <richtext id="n29_p3zs" name="n29" xy="16,675" size="85,31" group="n30_p3zs" touchable="false" fontSize="20" color="#00ff00" bold="true" strokeColor="#000000" text="点击解锁"/>
+    <component id="n43_g3ec" name="imgLock" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="38,635" pivot="0.5,0.5" size="42,39" group="n30_p3zs" touchable="false">
+      <Button icon="ui://89er3bo3e7lcb"/>
+    </component>
+    <graph id="n31_p3zs" name="btnLock" xy="11,614" size="101,100" group="n30_p3zs" alpha="0" type="rect"/>
+    <group id="n30_p3zs" name="lock0" xy="6,608" size="111,137" advanced="true">
+      <gearDisplay controller="updateFlagCtrl" pages="0"/>
+    </group>
+    <image id="n33_ica9" name="n33" src="e7lc7" fileName="image/黑色遮挡.png" xy="414,30" size="206,136" group="n37_ica9" alpha="0.4"/>
+    <richtext id="n35_ica9" name="n35" xy="436,30" size="167,28" group="n37_ica9" fontSize="18" color="#ffffff" text="激活勋章可立即获得"/>
+    <list id="n36_ica9" name="listShow" xy="429,56" size="233,132" group="n37_ica9" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="26" defaultItem="ui://jvxpx9emetorn">
+      <item/>
+      <item/>
+    </list>
+    <group id="n37_ica9" name="n37" xy="414,30" size="248,158" advanced="true">
+      <gearDisplay controller="updateFlagCtrl" pages="0"/>
+    </group>
+    <image id="n40_e7lc" name="posImg" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="281,262" pivot="0.5,0.4" anchor="true" aspect="true"/>
+    <component id="n41_e7lc" name="ldName" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="62,39"/>
+    <loader id="n42_l6z7" name="pic" xy="179,61" size="200,200" touchable="false" url="ui://89er3bo3e7lc5" align="center" vAlign="bottom"/>
+  </displayList>
+  <transition name="t0" options="1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n42_l6z7" tween="true" startValue="217,61" endValue="216,51" duration="18" ease="Linear"/>
+    <item time="18" type="XY" target="n42_l6z7" tween="true" startValue="216,51" endValue="216,61" duration="18" ease="Linear"/>
+  </transition>
+</component>

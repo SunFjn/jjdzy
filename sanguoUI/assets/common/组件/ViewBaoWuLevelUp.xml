@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,556">
+  <displayList>
+    <component id="n1_uu9u" name="frame" src="f1cf4b" fileName="组件/frame2.xml" xy="0,0" size="593,556">
+      <Label title="宝物升级"/>
+    </component>
+    <image id="n20_a6fi" name="n20" src="tw1l5p" fileName="image1/bg5.png" xy="42,178" size="505,136" locked="true" hideByEditor="true" visible="false"/>
+    <richtext id="n21_a6fi" name="lbAttr" xy="192,200" size="65,92" group="n24_a6fi" fontSize="18" color="#ffffff" leading="8" text="生命+0&#xA;生命+0&#xA;生命+0"/>
+    <image id="n23_a6fi" name="n23" src="l3y16b" fileName="image/箭头+其他/箭头.png" xy="267,217" group="n24_a6fi">
+      <relation target="n21_a6fi" sidePair="middle-middle"/>
+    </image>
+    <richtext id="n22_a6fi" name="lbAttrNext" xy="335,200" size="65,92" group="n24_a6fi" fontSize="18" color="#15f234" leading="8" text="生命+0&#xA;生命+0&#xA;生命+0"/>
+    <group id="n24_a6fi" name="attrGroup" xy="192,200" size="208,92" advanced="true" collapsed="true" layout="hz" colGap="10">
+      <relation target="n20_a6fi" sidePair="center-center,middle-middle"/>
+    </group>
+    <richtext id="n37_p753" name="lbAttrMax" xy="291,232" size="10,28" fontSize="18" color="#ffff00" leading="8" text="">
+      <relation target="n20_a6fi" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n8_uu9u" name="lbLevel" xy="40,356" size="77,28" fontSize="18" color="#ffffff" align="right" leading="0" autoSize="none" text="Lv.50"/>
+    <component id="n9_uu9u" name="barExp" src="vasq3b4" fileName="组件/expBar2.xml" xy="120,361" size="373,16">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n34_p753" name="n34" src="61zd78" fileName="image/装饰2.png" xy="112,448" group="n36_p753"/>
+    <richtext id="n35_p753" name="n35" xy="254,438" size="77,35" group="n36_p753" fontSize="24" color="#00ff00" text="已满级"/>
+    <group id="n36_p753" name="maxGroup" xy="112,438" size="366,35" advanced="true" collapsed="true"/>
+    <component id="n26_a6fi" name="lbCount" src="n7sj6d" fileName="新组建/ViewResource.xml" xy="211,403" group="n33_p753"/>
+    <richtext id="n27_a6fi" name="itemName" xy="55,407" size="141,28" group="n33_p753" fontSize="18" color="#ffc344" align="right" autoSize="none" text="宝物属性丹"/>
+    <component id="n12_uu9u" name="btnLevel" src="y1z8b" fileName="组件/Button0.xml" xy="118,473" group="n33_p753">
+      <Button title="升级"/>
+    </component>
+    <component id="n13_uu9u" name="btnOneKey" src="y1z8l" fileName="组件/Button1.xml" xy="324,473" group="n33_p753">
+      <Button title="一键升级"/>
+    </component>
+    <group id="n33_p753" name="cost0" xy="55,403" size="405,132" advanced="true" collapsed="true"/>
+    <component id="n38_e2bn" name="lbPower" src="h3bo72" fileName="新组建/ViewPower.xml" xy="170,77"/>
+    <component id="n40_iqo8" name="n40" src="iqo83cg" fileName="组件/ViewTitle.xml" xy="132,150" size="329,31">
+      <Label title="升级属性"/>
+    </component>
+  </displayList>
+</component>

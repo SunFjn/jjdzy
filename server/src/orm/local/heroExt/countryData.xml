@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.country.model.CountryData" tbname="countryData">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="coinDonationTimes" type="int" pf="all" comment="铜币捐献次数"/>
+			<col field="ybDonationTimes" type="int" pf="all" comment="元宝捐献次数"/>
+			<col field="donationTimes" type="int" pf="all" comment="捐献累计次数"/>
+			<col field="kingShipData" type="text" pf="all" comment="王位之争"/>
+			<col field="fightNSModel" type="text" pf="all" comment="南征北战个人数据"/>
+     </tb>
+</tbs>

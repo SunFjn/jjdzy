@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="112,150">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="c2" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1_k7mb" name="n1" src="k7mb4" fileName="assets/红包.png" xy="4,4" group="n8_kfmp"/>
+    <component id="n3_k7mb" name="btnlq" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="22,47" size="67,67" group="n8_kfmp">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button icon="ui://27qy37vtk7mb7"/>
+    </component>
+    <image id="n2_k7mb" name="n2" src="k7mb5" fileName="assets/角标.png" xy="5,5" group="n6_k7mb"/>
+    <richtext id="n5_k7mb" name="lbLev" xy="3,28" size="42,22" group="n6_k7mb" rotation="-45" fontSize="14" color="#ffffff" text="120级"/>
+    <group id="n6_k7mb" name="n6" xy="3,5" size="53,52" group="n8_kfmp" advanced="true">
+      <gearDisplay controller="c2" pages="0"/>
+    </group>
+    <richtext id="n7_k7mb" name="lbcz" xy="12,6" size="95,26" group="n8_kfmp" font="STXingkai" fontSize="18" color="#ffffff" text="累充10000元">
+      <gearDisplay controller="c2" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n10_t5ha" name="lbYb" xy="40,103" size="32,34" group="n8_kfmp" fontSize="24" color="#ffcc00" text="12">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n8_kfmp" name="n8" xy="3,4" size="104,141"/>
+    <image id="n12_t5ha" name="n12" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="-2,58" scale="0.9,0.9">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+  </displayList>
+</component>

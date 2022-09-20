@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="compile" default="main" basedir=".">
+
+ <property name="s" value="E:/RomeServer/H5_XingSanGuoVs"/>
+ <property name="root" value="E:/RomeServer/H5_XingSanGuoVs/src"/>
+ <property name="destdir" value="E:/RomeServer/H5_XingSanGuoVs/hotswap/complie" />
+ <target name="main">
+  <javac srcdir="${root}" destdir="${destdir}" debug="on" nowarn="on" extdirs="d:/extdirs" encoding="utf-8" source="1.8" target="1.8">
+		<compilerarg value="-Xlint:unchecked"/>
+	    <compilerarg value="-XDignore.symbol.file"/>
+		<classpath>
+			<fileset dir="${s}/lib" includes="*.jar"/>
+			<pathelement path="${destdir}/bin"/>
+			<pathelement path="${java.home}/jre/lib/rt.jar"/>
+			<pathelement path="${java.classpath}"/>
+			<pathelement path="E:/RomeServer/H5_XingSanGuoVs/bin"/>
+		</classpath>
+  </javac>
+  <copy todir="${destdir}">  
+    <fileset dir="${root}">  
+		<exclude name="**/*.java"/>
+                <include name="**/*" />
+            </fileset>  
+        </copy>  
+ </target>
+ 
+</project>

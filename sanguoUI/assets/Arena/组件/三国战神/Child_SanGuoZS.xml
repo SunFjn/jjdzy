@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://me1skowlwnzh6f">
+  <displayList>
+    <loader id="n37_eia5" name="imgBg" xy="12,148" size="50,50"/>
+    <image id="n28_q8rv" name="n28" src="61zd77" fileName="image1/九宫格拉伸透明底.png" pkg="jvxpx9em" xy="11,762" size="619,114" alpha="0.6"/>
+    <image id="n31_q8rv" name="n31" src="kw747l" fileName="image1/头像底.png" pkg="jvxpx9em" xy="33,778"/>
+    <loader id="n32_q8rv" name="headImg" xy="34,779" size="78,78" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n33_q8rv" name="frameImg" xy="22,775" size="100,90" url="ui://jvxpx9emtw1l5j" align="center" vAlign="bottom"/>
+    <richtext id="n16_qiai" name="roleLb" xy="130,808" size="41,28" touchable="false" fontSize="18" color="#ffffff" leading="10" text="名字">
+      <relation target="n33_q8rv" sidePair="middle-middle"/>
+    </richtext>
+    <richtext id="n19_qiai" name="battleLb" xy="24,884" size="125,28" hideByEditor="true" touchable="false" fontSize="18" color="#ffffff" leading="10" text="挑战次数：4/5"/>
+    <richtext id="n21_qiai" name="timeLb" xy="403,886" size="220,28" touchable="false" fontSize="18" color="#00f234" align="right" leading="10" autoSize="none" text="00:59:59后恢复1次"/>
+    <richtext id="n22_qiai" name="tfDes" xy="367,716" size="116,28" fontSize="18" color="#ffffff" leading="0" text="VIP7开启扫荡"/>
+    <component id="n23_qiai" name="resBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="488,697">
+      <Button title="刷新对手"/>
+    </component>
+    <component id="n20_qiai" name="addBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="199,877" size="41,41">
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <component id="n24_p24e" name="listBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="563,150" size="64,63">
+      <Button icon="ui://jvxpx9ememwp3h9"/>
+    </component>
+    <component id="n17_qiai" name="boxImg" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="517,763" size="108,110">
+      <Button icon="ui://me1skowlmw7t3n"/>
+    </component>
+    <component id="n34_mw7t" name="shopBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="395,763" size="108,110">
+      <Button icon="ui://me1skowlm40k3g"/>
+    </component>
+    <component id="n38_eia5" name="pre1" src="eia55y" fileName="组件/三国战神/SanGuoZSItemPre.xml" xy="33,240"/>
+    <component id="n39_eia5" name="pre0" src="eia55y" fileName="组件/三国战神/SanGuoZSItemPre.xml" xy="228,213"/>
+    <component id="n40_eia5" name="pre2" src="eia55y" fileName="组件/三国战神/SanGuoZSItemPre.xml" xy="427,240"/>
+    <list id="n13_qiai" name="list" xy="22,460" size="595,234" layout="row" lineGap="-72" colGap="20" defaultItem="ui://me1skowlqiai4" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n46_wnzh" name="n46" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="25,881" size="168,31" group="n44_uitl"/>
+    <richtext id="n41_uitl" name="lbItemCount" xy="24,884" size="173,28" group="n44_uitl" fontSize="18" color="#ffffff" text="战神挑战令：      1/2"/>
+    <richtext id="n42_uitl" name="lbRemaindTime" xy="243,884" size="40,28" group="n44_uitl" fontSize="18" color="#ff0000" text=""/>
+    <loader id="n43_uitl" name="iconItem" xy="132,885" size="30,30" group="n44_uitl" aspect="true" url="ui://47jfyc6engkt3b" fill="scaleFree"/>
+    <group id="n44_uitl" name="groupItem" xy="24,881" size="259,34" advanced="true"/>
+  </displayList>
+</component>

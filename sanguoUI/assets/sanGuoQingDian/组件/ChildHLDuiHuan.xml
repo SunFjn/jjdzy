@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,920" opaque="false">
+  <displayList>
+    <loader id="n0_tipm" name="bg" xy="0,280" size="640,184" url="ui://kdt501v2mq0c1j" fill="scaleFree"/>
+    <image id="n5_mymk" name="n5" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="9,419" size="268,29" flip="hz"/>
+    <image id="n6_mymk" name="n6" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="410,420" size="223,29" flip="hz"/>
+    <richtext id="n2_tipm" name="txtLeftTime" xy="16,418" size="218,31" fontSize="20" color="#66ff00" text="活动剩余时间: 00:00:00"/>
+    <text id="n3_tipm" name="nn" xy="446,424" size="185,34" fontSize="20" color="#ffffff" text="集齐材料可兑换豪礼&#xA;">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <list id="n4_tipm" name="list" xy="0,466" size="640,453" overflow="scroll" defaultItem="ui://kdt501v2tipm6">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n7_s9tc" name="icon1" xy="30,308" size="40,40" aspect="true" fill="scaleFree"/>
+    <loader id="n8_s9tc" name="icon2" xy="30,359" size="40,40" aspect="true" fill="scaleFree"/>
+    <image id="n10_s9tc" name="n10" src="kw747o" fileName="image1/BOSS血条底.png" pkg="jvxpx9em" xy="75,314" size="134,30"/>
+    <image id="n11_s9tc" name="n11" src="kw747o" fileName="image1/BOSS血条底.png" pkg="jvxpx9em" xy="75,368" size="134,30"/>
+    <text id="n12_s9tc" name="txtCnt1" xy="83,318" size="27,28" fontSize="18" color="#ffffff" text="00"/>
+    <text id="n13_s9tc" name="txtCnt2" xy="83,373" size="27,28" fontSize="18" color="#ffffff" text="00"/>
+    <text id="n14_misw" name="n14" xy="150,919" size="325,31" fontSize="20" color="#33ff00" text="兑换材料仅本次活动有效，过期无效"/>
+  </displayList>
+</component>

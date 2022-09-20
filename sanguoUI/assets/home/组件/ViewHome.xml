@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,719">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n0_ye03" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,2" size="593,760" locked="true">
+      <Label title="府邸升级"/>
+    </component>
+    <image id="n48_s4ou" name="n48" src="shpk3h3" fileName="image/美术字/满级美术字/已满级.png" pkg="jvxpx9em" xy="250,605" group="n33_ye03"/>
+    <image id="n42_nvxy" name="n42" src="htpq1q" fileName="image/通用底框/名字底框.png" pkg="jvxpx9em" xy="89,90" group="n51_jbpe"/>
+    <richtext id="n22_ye03" name="lbNowName" xy="150,95" size="10,28" group="n51_jbpe" fontSize="18" color="#1ae2fa" align="right" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <loader id="n24_ye03" name="imgNowHouse" xy="32,146" size="50,50" group="n51_jbpe">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <richtext id="n26_ye03" name="lbNowAwards" xy="45,351" size="40,28" group="n51_jbpe" fontSize="18" color="#ffffff" text=""/>
+    <group id="n51_jbpe" name="groupNowHome" xy="32,90" size="197,289" group="n33_ye03" locked="true" advanced="true" collapsed="true"/>
+    <image id="n43_nvxy" name="n43" src="htpq1q" fileName="image/通用底框/名字底框.png" pkg="jvxpx9em" xy="368,90" group="n52_jbpe"/>
+    <component id="n29_ye03" name="n29" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="137,504" size="319,28" group="n52_jbpe">
+      <Label title="提升条件"/>
+    </component>
+    <richtext id="n23_ye03" name="lbNextName" xy="423,95" size="40,28" group="n52_jbpe" fontSize="18" color="#1ae2fa" align="right" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <loader id="n25_ye03" name="imgNextHouse" xy="332,146" size="50,50" group="n52_jbpe">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <richtext id="n27_ye03" name="lbNextAwards" xy="332,351" size="40,28" group="n52_jbpe" fontSize="18" color="#ffffff" text=""/>
+    <component id="n28_ye03" name="btnStar" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="232,600" group="n47_s4ou">
+      <Button title="提升"/>
+    </component>
+    <richtext id="n30_ye03" name="lbStarCondition" xy="276,555" size="40,28" group="n47_s4ou" fontSize="18" color="#ff0000" align="right" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n34_ye03" name="n34" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="219,674" group="n47_s4ou"/>
+    <group id="n47_s4ou" name="n47" xy="219,555" size="177,154" group="n52_jbpe" advanced="true" collapsed="true"/>
+    <image id="n45_nvxy" name="n45" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="267,195" group="n52_jbpe"/>
+    <group id="n52_jbpe" name="groupNextHome" xy="137,90" size="371,619" group="n33_ye03" advanced="true"/>
+    <group id="n33_ye03" name="groupStar" xy="32,90" size="476,619" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <loader id="n16_ye03" name="imgHouse" xy="271,132" size="50,30" group="n10_ye03" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <component id="n1_ye03" name="lbName" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="69,121" size="77,28" group="n10_ye03"/>
+    <richtext id="n2_ye03" name="lbCondition" xy="243,305" size="106,28" group="n10_ye03" fontSize="18" color="#ff0000" text="繁荣度达到1">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n3_ye03" name="n3" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="164,61" group="n10_ye03"/>
+    <component id="n4_ye03" name="n4" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="137,339" size="319,28" group="n10_ye03">
+      <Label title="升级解锁"/>
+    </component>
+    <component id="n5_ye03" name="n5" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="137,489" size="319,28" group="n10_ye03">
+      <Label title="升级属性"/>
+    </component>
+    <richtext id="n6_ye03" name="lbActivation" xy="276,376" size="40,28" group="n10_ye03" fontSize="18" color="#ffffff" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n9_ye03" name="imgFull" src="shpk3h3" fileName="image/美术字/满级美术字/已满级.png" pkg="jvxpx9em" xy="250,676" group="n10_ye03"/>
+    <loader id="n13_ye03" name="n13" xy="403,131" size="131,64" group="n15_ye03" url="ui://y0plc878nvxy1j"/>
+    <richtext id="n14_ye03" name="n14" xy="420,139" size="95,28" group="n15_ye03" touchable="false" fontSize="18" color="#00ff00" text="可提升档次"/>
+    <group id="n15_ye03" name="groupTip" xy="403,131" size="131,64" group="n10_ye03" advanced="true" collapsed="true"/>
+    <component id="n39_nvxy" name="lbLevel" src="nvxy3ib" fileName="组件/LevelLabel.xml" pkg="jvxpx9em" xy="69,281" group="n10_ye03"/>
+    <richtext id="n7_ye03" name="lbNow" xy="52,527" size="40,28" group="n49_jbpe" fontSize="18" color="#ffffff" text=""/>
+    <richtext id="n8_ye03" name="lbNext" xy="330,527" size="40,28" group="n49_jbpe" fontSize="18" color="#00ff00" text=""/>
+    <richtext id="n18_ye03" name="lbItem" xy="177,622" size="59,28" group="n49_jbpe" fontSize="18" color="#ffffff" align="right" text="建造令"/>
+    <component id="n21_ye03" name="btnLevel" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="228,667" group="n49_jbpe">
+      <Button title="升级"/>
+    </component>
+    <component id="n36_ye03" name="n36" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="255,618" group="n49_jbpe"/>
+    <image id="n40_nvxy" name="n40" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="268,533" group="n49_jbpe"/>
+    <group id="n49_jbpe" name="groupInfo" xy="52,527" size="380,202" group="n10_ye03" locked="true" advanced="true" collapsed="true"/>
+    <richtext id="n50_jbpe" name="lbFullAttribute" xy="276,527" size="40,28" group="n10_ye03" fontSize="18" color="#00ff00" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n10_ye03" name="groupLevel" xy="52,61" size="482,668" locked="true" hideByEditor="true" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n11_ye03" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="12,757">
+      <Button title="府邸升级" controller="c1" page="0"/>
+    </component>
+    <component id="n12_ye03" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="130,756">
+      <Button checked="true" title="府邸档次" controller="c1" page="1"/>
+    </component>
+  </displayList>
+</component>

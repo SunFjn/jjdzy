@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="549,181">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1_nyv7" name="n1" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="549,181"/>
+    <richtext id="n2_nyv7" name="n2" xy="59,21" size="149,34" touchable="false" fontSize="25" color="#ff0000" autoSize="none" bold="true" text="战斗抢夺"/>
+    <richtext id="n3_nyv7" name="n3" xy="10,93" size="519,25" touchable="false" fontSize="18" color="#ffffff" autoSize="height" text="玩家名字六字.S9999">
+      <gearDisplay controller="c1" pages="0"/>
+    </richtext>
+    <component id="n8_nyv7" name="roomBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="397,14">
+      <Button title="战斗回放"/>
+    </component>
+    <richtext id="n13_imkm" name="n13" xy="10,82" size="170,25" touchable="false" fontSize="18" color="#ffffff" text="玩家名字六字.S9999">
+      <gearDisplay controller="c1" pages="1"/>
+    </richtext>
+    <list id="n14_imkm" name="list" xy="10,109" size="385,58" layout="row" defaultItem="ui://lnw94ki2imkmo" autoClearItems="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n15_n8o7" name="win" src="n8o7u" fileName="image/胜.png" xy="-4,-3"/>
+    <image id="n16_n8o7" name="lose" src="n8o7v" fileName="image/负.png" xy="-4,-3"/>
+  </displayList>
+</component>

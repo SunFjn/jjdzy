@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,557">
+  <displayList>
+    <richtext id="n0_lkx8" name="n0" xy="28,478" size="540,98" fontSize="30" color="#56b3da" autoSize="none" text="汉建安十六年冬，孙权趁刘备入蜀之际意图挟持阿斗换回荆州...">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <loader id="n1_lkx8" name="n1" xy="24,121" size="544,350" url="ui://hpazy1telkx810"/>
+    <image id="n3_lkx8" name="n3" src="lkx812" fileName="image/截江救阿斗1.png" xy="27,0" pivot="0.5,0.5"/>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.house.houseKeeper.model.HouseKeeper" tbname="houseKeeper">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="id" type="int" pf="all" comment="家丁序号"/>		
+			<col field="level" type="int" pf="all" comment="家丁等级"/>
+			<col field="curExp" type="int" pf="all" comment="家丁当前经验"/>
+			<col field="strength" type="bigint" pf="all" comment="家丁战力"/>
+     </tb>
+</tbs>

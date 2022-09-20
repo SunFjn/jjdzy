@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://7shc3kzddwb4p">
+  <controller name="stateCtrl" pages="0,,1,,3," selected="2">
+    <remark page="0" value="未激活"/>
+    <remark page="1" value="已激活"/>
+    <remark page="2" value="已满级"/>
+  </controller>
+  <controller name="horseCtrl" pages="" selected="-1"/>
+  <displayList>
+    <image id="n0_dwb4" name="n0" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="21,168" size="138,721"/>
+    <loader id="n1_dwb4" name="loaderBg" xy="167,168" size="442,426" url="ui://7shc3kzddwb4q"/>
+    <image id="n2_dwb4" name="n2" src="dwb4r" fileName="res_幻化/装饰.png" xy="575,168"/>
+    <image id="n3_dwb4" name="n3" src="dwb4r" fileName="res_幻化/装饰.png" xy="575,557" flip="vt"/>
+    <image id="n4_dwb4" name="n4" src="dwb4r" fileName="res_幻化/装饰.png" xy="167,557" flip="both"/>
+    <image id="n5_dwb4" name="n5" src="dwb4r" fileName="res_幻化/装饰.png" xy="167,168" flip="hz"/>
+    <component id="n7_dwb4" name="btnUp" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="322,835" pivot="0.5,0.5">
+      <gearDisplay controller="stateCtrl" pages="0,1"/>
+      <Button title="升阶"/>
+    </component>
+    <component id="n10_dwb4" name="n10" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="228,600" size="321,25">
+      <Label title="坐骑效果"/>
+    </component>
+    <component id="n11_dwb4" name="n11" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="228,651" size="321,25">
+      <Label title="升阶属性"/>
+    </component>
+    <image id="n15_dwb4" name="n15" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="388,430" pivot="0.5,0.2" anchor="true" aspect="true"/>
+    <loader id="n16_dwb4" name="modelIcon" xy="315,274" size="148,175" touchable="false" align="center" vAlign="bottom"/>
+    <component id="n14_dwb4" name="btnRide" src="wa9je" fileName="组件/VHorseBtn.xml" xy="504,345" scale="0.75,0.75"/>
+    <component id="n13_dwb4" name="btnShow" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="355,441" pivot="0.5,0.5" size="66,66">
+      <gearDisplay controller="stateCtrl" pages="1,3"/>
+      <Button title="展示" titleFontSize="20" icon="ui://jvxpx9emul8t3fk"/>
+    </component>
+    <component id="n12_dwb4" name="tfPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="255,164" touchable="false">
+      <Label title="999"/>
+    </component>
+    <component id="n19_dwb4" name="comJieji" src="nvxy3ib" fileName="组件/LevelLabel.xml" pkg="jvxpx9em" xy="205,256" pivot="0.5,0.5">
+      <Label title="0阶0级"/>
+    </component>
+    <text id="n20_dwb4" name="tfEffect" xy="334,629" pivot="0.5,0.5" size="108,25" fontSize="18" color="#ffffff" align="center" ubb="true" autoClearText="true" text="移动速度+10"/>
+    <richtext id="n21_dwb4" name="tfCurAttr" xy="197,679" size="92,115" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoClearText="true" text="升星+1000&#xA;升星+1000&#xA;升星+1000&#xA;升星+1000">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </richtext>
+    <richtext id="n22_dwb4" name="tfNextAttr" xy="480,679" size="92,115" touchable="false" fontSize="18" color="#15f234" vAlign="middle" leading="10" autoClearText="true" text="升星+1000&#xA;升星+1000&#xA;升星+1000&#xA;升星+1000">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </richtext>
+    <richtext id="n23_dwb4" name="tfMaxAttr" xy="346,691" pivot="0.5,0.5" size="92,85" touchable="false" fontSize="18" color="#15f234" align="center" vAlign="middle" leading="10" autoClearText="true" text="升星+1000&#xA;升星+1000&#xA;升星+1000">
+      <gearDisplay controller="stateCtrl" pages="0,3"/>
+    </richtext>
+    <image id="n24_dwb4" name="n24" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="388,735" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </image>
+    <list id="n29_dwb4" name="listHorse" xy="29,184" size="125,697" overflow="scroll" defaultItem="ui://7shc3kzddwb4u" selectionController="horseCtrl" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_dwb4" name="resCom" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="363,798" size="142,35" group="n30_dwb4"/>
+    <richtext id="n9_dwb4" name="tfConsume" xy="246,801" pivot="1,0" size="113,25" group="n30_dwb4" fontSize="18" color="#ffffff" align="right" autoClearText="true" text="消耗武将赵云"/>
+    <group id="n30_dwb4" name="groupConsume" xy="246,798" size="259,35" advanced="true">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </group>
+    <image id="n35_dwb4" name="bgLv" src="pxaa3cv" fileName="image/数量框.png" pkg="jvxpx9em" xy="493,406" pivot="0.5,0.5" size="112,26" group="n37_dwb4"/>
+    <richtext id="n36_dwb4" name="tfRideNeed" xy="527,406" pivot="0.5,0.5" size="43,25" group="n37_dwb4" fontSize="18" color="#ed1414" align="center" autoClearText="true" text="10星"/>
+    <group id="n37_dwb4" name="groupRideNeed" xy="493,406" size="112,26" advanced="true"/>
+    <image id="n38_omv4" name="n38" src="shpk3h3" fileName="image/美术字/满级美术字/已满级.png" pkg="jvxpx9em" xy="344,845">
+      <gearDisplay controller="stateCtrl" pages="3"/>
+    </image>
+    <image id="n6_dwb4" name="n6" src="dwb4s" fileName="res_幻化/背景光.png" xy="169,507" group="n39_omv4"/>
+    <list id="n28_dwb4" name="listCondition" xy="232,508" size="368,96" group="n39_omv4" scale="0.85,0.85" layout="row" selectionMode="none" overflow="hidden" defaultItem="ui://7shc3kzddwb4v" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n25_dwb4" name="tfConditon" xy="203,512" size="29,90" group="n39_omv4" fontSize="18" color="#ffff00" align="center" leading="0" autoSize="none" text="激活要求"/>
+    <group id="n39_omv4" name="groupCondition" xy="169,507" size="438,97" advanced="true">
+      <gearDisplay controller="stateCtrl" pages="0,1"/>
+    </group>
+  </displayList>
+</component>

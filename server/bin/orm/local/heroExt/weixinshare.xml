@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.weiXinShare.model.WeiXinShare" tbname="weixinshare">
+		<index field="hid" type="prikey" autoIncrement="false" />
+		<col field="hid" type="bigint" pf="all" comment="玩家id" />
+		<col field="totalShareTimes" type="int" pf="all" comment="总累计分享次数 " />
+		<col field="firstShareState" type="int" pf="all" comment="第一次分享奖励状态" />
+		<col field="lastShareTime" type="bigint" pf="all" comment="上一次分享时间戳" />
+		<col field="todayShareTimes" type="int" pf="all" comment="今天分享次数 " />
+		<col field="todayDrawTimes" type="int" pf="all" comment="今天抽奖次数 " />
+		<col field="drawAwardList" type="text" pf="all" comment="抽奖已获得奖励配置id列表" />
+		<col field="cumulativeAwardList" type="text" pf="all" comment="累计分享已获得奖励配置id列表 " />
+		<col field="friendMap" type="text" pf="all" comment="邀请好友列表" />
+		<col field="numberCfgId" type="int" pf="all" comment="当前好友数量奖励配置id " />
+		<col field="numberState" type="int" pf="all" comment="当前好友数量奖励状态 " />
+		<col field="todayShareCoin" type="int" pf="all" comment="今天已领取红包分享币数量 " />
+		<col field="hongBaoList" type="text" pf="all" comment="返利红包列表" />
+		<col field="zoneId" type="int" pf="all" comment="推荐人区服id " />
+		<col field="openId" type="varchar" len="100" pf="all" comment="推荐人openId"/>
+	</tb>
+</tbs>

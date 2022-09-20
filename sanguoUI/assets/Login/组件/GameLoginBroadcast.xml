@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <graph id="n5_fdq8" name="bg" xy="0,0" size="640,1136" locked="true" type="rect" lineColor="#00000000" fillColor="#99000000"/>
+    <image id="n9_gyat" name="n9" src="gyatva" fileName="image/弹窗.png" xy="24,236" size="593,538" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <richtext id="n11_gyat" name="title" xy="294,251" size="53,35" fontSize="24" color="#ffffff" leading="0" strokeColor="#000000" text="公告">
+      <relation target="n9_gyat" sidePair="center-center"/>
+    </richtext>
+    <loader id="n4_luu2" name="btnClose" xy="560,226" size="52,54" url="ui://a056duzjpc656"/>
+    <richtext id="n2_luu2" name="lbContent" xy="46,324" size="547,411" fontSize="16" color="#b0ad87" autoSize="none" bold="true" text="尊敬的玩家：&#xA;      《恐龙快打》将于xx年xx月xx日进行停服更新，给玩家造成的不便，敬请谅解.&#xA;"/>
+  </displayList>
+</component>

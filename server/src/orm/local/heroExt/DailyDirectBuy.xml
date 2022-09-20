@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.dailyDirectBuy.model.DailyDirectBuy" tbname="dailyDirectBuy">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="awardMap" type="text" pf="all" comment="Map代表奖励状态，key:每日直购表id，value:1已购买但未领取，2已领取"/>
+			<col field="targetAwardMap" type="text" pf="all" comment="每日直购目标奖励,key:每日直购目标表id，value:1：可领取，2：已领取"/>
+    </tb>
+</tbs>

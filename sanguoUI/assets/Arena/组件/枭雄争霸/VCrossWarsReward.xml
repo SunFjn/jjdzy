@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="555,120">
+  <displayList>
+    <image id="n15_cazx" name="n15" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="555,120"/>
+    <richtext id="n10_j9wf" name="lbRank" xy="20,35" size="127,49" fontSize="34" color="#ffc334" align="center" autoSize="none" text="冠军"/>
+    <list id="n13_j9wf" name="list" xy="200,19" size="428,106" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="5" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="right">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

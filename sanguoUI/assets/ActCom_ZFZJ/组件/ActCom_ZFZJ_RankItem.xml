@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="563,96">
+  <displayList>
+    <image id="n6_r3je" name="n6" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="563,96"/>
+    <image id="n11_r3je" name="imgNo" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="144,38"/>
+    <loader id="n7_r3je" name="rankIcon" xy="18,19" size="63,57" aspect="true" url="ui://jvxpx9em100v3al" fill="scale"/>
+    <richtext id="n8_r3je" name="rankLb" xy="21,32" size="58,31" fontSize="20" color="#ffcc00" align="center" autoSize="none" text="10"/>
+    <richtext id="n9_r3je" name="nameLb" xy="101,12" size="181,70" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text=""/>
+    <list id="n10_r3je" name="list" xy="302,4" size="317,102" scale="0.8,0.8" layout="row" overflow="hidden" defaultItem="ui://jvxpx9emetorm" align="right" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

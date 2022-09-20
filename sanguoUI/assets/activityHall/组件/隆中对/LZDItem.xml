@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="284,24">
+  <displayList>
+    <richtext id="n0_lwyd" name="n0" xy="10,-1" size="14,25" fontSize="16" color="#ffffff" text="1"/>
+    <richtext id="n1_lwyd" name="n1" xy="57,-1" size="148,25" fontSize="16" color="#ffffff" text="名字最长六子.s9999"/>
+    <richtext id="n2_lwyd" name="n2" xy="218,-1" size="66,25" fontSize="16" color="#ffffff" text="99999分"/>
+  </displayList>
+</component>

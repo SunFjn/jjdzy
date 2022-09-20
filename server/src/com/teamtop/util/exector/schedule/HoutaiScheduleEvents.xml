@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 快速红点更新-->
+	<bean key="SERVERSELFMOTION" class="com.teamtop.houtaiHttp.events.serverSelfMotion.ServerSelfMotionSchedule" pf="PF_ALL" delay="10000" interval="1000" useLong="false">
+		<property method = "ServerSelfMotionSchedule"/>
+	</bean>
+	<!-- 所有服务器缓存更新-->
+	<bean key="SERVERINFO" class="com.teamtop.houtaiHttp.events.manualOpServer.ServerInfoSchedule" pf="PF_ALL" delay="60000" interval="60000" useLong="false">
+		<property method = "ServerInfoSchedule"/>
+	</bean>
+	<!-- 设置定时器检测备份服务器数是否满足设置的预警数目，不满足发邮件-->
+	<bean key="HOUTAI_SERVERWARN" class="com.teamtop.houtaiHttp.events.serverEvent.setServerWarn.SetServerWarnSchedule" pf="PF_ALL" delay="0" interval="60000" useLong="false">
+		<property method = "SetServerWarnSchedule"/>
+	</bean>
+	<!-- 跨服分组信息更新-->
+	<bean key="KUA_FU_FEN_ZU_INFO" class="com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuSchedule" pf="PF_ALL" delay="60000" interval="60000" useLong="false">
+		<property method = "KuaFuFenQuSchedule"/>
+	</bean>
+</beans>

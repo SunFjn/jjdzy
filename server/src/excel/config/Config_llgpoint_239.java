@@ -1,0 +1,115 @@
+package excel.config;
+import com.teamtop.util.excel.ConfigBase;
+import excel.struct.Struct_llgpoint_239;
+public class Config_llgpoint_239 extends ConfigBase<Struct_llgpoint_239> {
+    private static Config_llgpoint_239 ins = null;
+    public static Config_llgpoint_239 getIns(){
+        if(ins==null){
+            ins = new Config_llgpoint_239();
+        }
+        return ins;
+    }
+    private Config_llgpoint_239(){
+        put(1,new Struct_llgpoint_239(1,11,100,"[[1,411001,66]]"));
+        put(2,new Struct_llgpoint_239(2,11,500,"[[1,412001,10]]"));
+        put(3,new Struct_llgpoint_239(3,11,1000,"[[1,400263,1]]"));
+        put(4,new Struct_llgpoint_239(4,11,2000,"[[1,440008,1]]"));
+        put(5,new Struct_llgpoint_239(5,12,100,"[[1,411003,66]]"));
+        put(6,new Struct_llgpoint_239(6,12,500,"[[1,412005,10]]"));
+        put(7,new Struct_llgpoint_239(7,12,1000,"[[1,400763,1]]"));
+        put(8,new Struct_llgpoint_239(8,12,2000,"[[1,431220,1]]"));
+        put(9,new Struct_llgpoint_239(9,13,100,"[[1,411008,66]]"));
+        put(10,new Struct_llgpoint_239(10,13,500,"[[1,412013,10]]"));
+        put(11,new Struct_llgpoint_239(11,13,1000,"[[1,400863,1]]"));
+        put(12,new Struct_llgpoint_239(12,13,2000,"[[1,432002,1]]"));
+        put(13,new Struct_llgpoint_239(13,14,100,"[[1,411007,66]]"));
+        put(14,new Struct_llgpoint_239(14,14,500,"[[1,412009,10]]"));
+        put(15,new Struct_llgpoint_239(15,14,1000,"[[1,400463,1]]"));
+        put(16,new Struct_llgpoint_239(16,14,2000,"[[1,430002,1]]"));
+        put(17,new Struct_llgpoint_239(17,15,100,"[[1,411005,66]]"));
+        put(18,new Struct_llgpoint_239(18,15,500,"[[1,412011,10]]"));
+        put(19,new Struct_llgpoint_239(19,15,1000,"[[1,400563,1]]"));
+        put(20,new Struct_llgpoint_239(20,15,2000,"[[1,434004,1]]"));
+        put(21,new Struct_llgpoint_239(21,16,100,"[[1,411002,66]]"));
+        put(22,new Struct_llgpoint_239(22,16,500,"[[1,412003,10]]"));
+        put(23,new Struct_llgpoint_239(23,16,1000,"[[1,400363,1]]"));
+        put(24,new Struct_llgpoint_239(24,16,2000,"[[1,441005,1]]"));
+        put(25,new Struct_llgpoint_239(25,17,100,"[[1,410005,6]]"));
+        put(26,new Struct_llgpoint_239(26,17,500,"[[1,410009,50]]"));
+        put(27,new Struct_llgpoint_239(27,17,1000,"[[1,410010,20]]"));
+        put(28,new Struct_llgpoint_239(28,17,2000,"[[1,410011,10]]"));
+        put(29,new Struct_llgpoint_239(29,21,50,"[[1,411001,28]]"));
+        put(30,new Struct_llgpoint_239(30,21,100,"[[1,411001,48]]"));
+        put(31,new Struct_llgpoint_239(31,21,200,"[[1,412001,2]]"));
+        put(32,new Struct_llgpoint_239(32,21,500,"[[1,412001,3]]"));
+        put(33,new Struct_llgpoint_239(33,21,1000,"[[1,412001,5]]"));
+        put(34,new Struct_llgpoint_239(34,21,1500,"[[1,400085,1]]"));
+        put(35,new Struct_llgpoint_239(35,21,2000,"[[1,440012,1]]"));
+        put(36,new Struct_llgpoint_239(36,21,2500,"[[1,411006,100]]"));
+        put(37,new Struct_llgpoint_239(37,21,3000,"[[1,411006,150]]"));
+        put(38,new Struct_llgpoint_239(38,21,4000,"[[1,400906,1]]"));
+        put(39,new Struct_llgpoint_239(39,22,50,"[[1,411002,28]]"));
+        put(40,new Struct_llgpoint_239(40,22,100,"[[1,411002,48]]"));
+        put(41,new Struct_llgpoint_239(41,22,200,"[[1,412003,2]]"));
+        put(42,new Struct_llgpoint_239(42,22,500,"[[1,412003,3]]"));
+        put(43,new Struct_llgpoint_239(43,22,1000,"[[1,412003,5]]"));
+        put(44,new Struct_llgpoint_239(44,22,1500,"[[1,400085,1]]"));
+        put(45,new Struct_llgpoint_239(45,22,2000,"[[1,441006,1]]"));
+        put(46,new Struct_llgpoint_239(46,22,2500,"[[1,411006,100]]"));
+        put(47,new Struct_llgpoint_239(47,22,3000,"[[1,411006,150]]"));
+        put(48,new Struct_llgpoint_239(48,22,4000,"[[1,441008,1]]"));
+        put(49,new Struct_llgpoint_239(49,23,50,"[[1,411003,28]]"));
+        put(50,new Struct_llgpoint_239(50,23,100,"[[1,411003,48]]"));
+        put(51,new Struct_llgpoint_239(51,23,200,"[[1,412005,2]]"));
+        put(52,new Struct_llgpoint_239(52,23,500,"[[1,412005,3]]"));
+        put(53,new Struct_llgpoint_239(53,23,1000,"[[1,412005,5]]"));
+        put(54,new Struct_llgpoint_239(54,23,1500,"[[1,400085,1]]"));
+        put(55,new Struct_llgpoint_239(55,23,2000,"[[1,431206,1]]"));
+        put(56,new Struct_llgpoint_239(56,23,2500,"[[1,411006,100]]"));
+        put(57,new Struct_llgpoint_239(57,23,3000,"[[1,411006,150]]"));
+        put(58,new Struct_llgpoint_239(58,23,4000,"[[1,431214,1]]"));
+        put(59,new Struct_llgpoint_239(59,24,50,"[[1,411008,28]]"));
+        put(60,new Struct_llgpoint_239(60,24,100,"[[1,411008,48]]"));
+        put(61,new Struct_llgpoint_239(61,24,200,"[[1,412013,2]]"));
+        put(62,new Struct_llgpoint_239(62,24,500,"[[1,412013,3]]"));
+        put(63,new Struct_llgpoint_239(63,24,1000,"[[1,412013,5]]"));
+        put(64,new Struct_llgpoint_239(64,24,1500,"[[1,400085,1]]"));
+        put(65,new Struct_llgpoint_239(65,24,2000,"[[1,432002,1]]"));
+        put(66,new Struct_llgpoint_239(66,24,2500,"[[1,411006,100]]"));
+        put(67,new Struct_llgpoint_239(67,24,3000,"[[1,411006,150]]"));
+        put(68,new Struct_llgpoint_239(68,24,4000,"[[1,432003,1]]"));
+        put(69,new Struct_llgpoint_239(69,25,50,"[[1,411007,28]]"));
+        put(70,new Struct_llgpoint_239(70,25,100,"[[1,411007,48]]"));
+        put(71,new Struct_llgpoint_239(71,25,200,"[[1,412009,2]]"));
+        put(72,new Struct_llgpoint_239(72,25,500,"[[1,412009,3]]"));
+        put(73,new Struct_llgpoint_239(73,25,1000,"[[1,412009,5]]"));
+        put(74,new Struct_llgpoint_239(74,25,1500,"[[1,400085,1]]"));
+        put(75,new Struct_llgpoint_239(75,25,2000,"[[1,430002,1]]"));
+        put(76,new Struct_llgpoint_239(76,25,2500,"[[1,411006,100]]"));
+        put(77,new Struct_llgpoint_239(77,25,3000,"[[1,411006,150]]"));
+        put(78,new Struct_llgpoint_239(78,25,4000,"[[1,430004,1]]"));
+        put(79,new Struct_llgpoint_239(79,26,50,"[[1,411005,28]]"));
+        put(80,new Struct_llgpoint_239(80,26,100,"[[1,411005,48]]"));
+        put(81,new Struct_llgpoint_239(81,26,200,"[[1,412011,2]]"));
+        put(82,new Struct_llgpoint_239(82,26,500,"[[1,412011,3]]"));
+        put(83,new Struct_llgpoint_239(83,26,1000,"[[1,412011,5]]"));
+        put(84,new Struct_llgpoint_239(84,26,1500,"[[1,400085,1]]"));
+        put(85,new Struct_llgpoint_239(85,26,2000,"[[1,434003,1]]"));
+        put(86,new Struct_llgpoint_239(86,26,2500,"[[1,411006,100]]"));
+        put(87,new Struct_llgpoint_239(87,26,3000,"[[1,411006,150]]"));
+        put(88,new Struct_llgpoint_239(88,26,4000,"[[1,434007,1]]"));
+        put(89,new Struct_llgpoint_239(89,27,50,"[[1,411004,28]]"));
+        put(90,new Struct_llgpoint_239(90,27,100,"[[1,411004,48]]"));
+        put(91,new Struct_llgpoint_239(91,27,200,"[[1,412007,2]]"));
+        put(92,new Struct_llgpoint_239(92,27,500,"[[1,412007,3]]"));
+        put(93,new Struct_llgpoint_239(93,27,1000,"[[1,412007,5]]"));
+        put(94,new Struct_llgpoint_239(94,27,1500,"[[1,400085,1]]"));
+        put(95,new Struct_llgpoint_239(95,27,2000,"[[1,433004,1]]"));
+        put(96,new Struct_llgpoint_239(96,27,2500,"[[1,411006,100]]"));
+        put(97,new Struct_llgpoint_239(97,27,3000,"[[1,411006,150]]"));
+        put(98,new Struct_llgpoint_239(98,27,4000,"[[1,433008,1]]"));
+    }
+    public void reset(){
+        ins = null;
+    }
+}

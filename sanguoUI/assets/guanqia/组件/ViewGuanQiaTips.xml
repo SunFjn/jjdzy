@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="581,301">
+  <displayList>
+    <image id="n0_ncbg" name="n0" src="ncbg2h" fileName="image/活动开启底.png" xy="0,0" size="581,301"/>
+    <component id="n1_ncbg" name="closeBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="521,8" size="49,47">
+      <Button icon="ui://r92dp953duy32j"/>
+    </component>
+    <image id="n2_ncbg" name="n2" src="ncbg2g" fileName="image/关卡收益提升.png" xy="172,26"/>
+    <image id="n7_ncbg" name="n7" src="ncbg2i" fileName="image/箭头.png" xy="316,113" rotation="90"/>
+    <richtext id="n8_ncbg" name="nextTongBiTxt" xy="369,105" size="93,28" fontSize="20" color="#00ff00" text="22222222&#xA;"/>
+    <image id="n9_ncbg" name="n9" src="ltpm59" fileName="image1/铜币.png" pkg="jvxpx9em" xy="341,106"/>
+    <richtext id="n10_ncbg" name="nextExpTxt" xy="369,148" size="110,28" fontSize="20" color="#00ff00" autoSize="none" text="20.3万/小时&#xA;&#xA;"/>
+    <image id="n11_ncbg" name="n11" src="som163" fileName="image1/经验球.png" pkg="jvxpx9em" xy="341,150"/>
+    <richtext id="n3_ncbg" name="curTongBiTxt" xy="137,105" size="110,28" group="n13_ddp0" fontSize="20" color="#00ff00" text="20.3万/小时&#xA;"/>
+    <image id="n4_ncbg" name="n4" src="ltpm59" fileName="image1/铜币.png" pkg="jvxpx9em" xy="109,106" group="n13_ddp0"/>
+    <richtext id="n5_ncbg" name="curExpTxt" xy="137,148" size="110,28" group="n13_ddp0" fontSize="20" color="#00ff00" text="20.3万/小时&#xA;"/>
+    <image id="n6_ncbg" name="n6" src="som163" fileName="image1/经验球.png" pkg="jvxpx9em" xy="109,150" group="n13_ddp0"/>
+    <group id="n13_ddp0" name="n13" xy="109,105" size="138,71" advanced="true"/>
+  </displayList>
+</component>

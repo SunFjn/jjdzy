@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="540,351">
+  <displayList>
+    <component id="n10_som1" name="frame" src="f1cf4b" fileName="组件/frame2.xml" xy="0,0" size="540,417">
+      <relation target="n6_hfx7" sidePair="height-height"/>
+      <Label title="提示"/>
+    </component>
+    <image id="n1_hfx7" name="back" src="x3b93cl" fileName="image/通用底框/方框3.png" xy="21,93" size="498,232">
+      <relation target="n6_hfx7" sidePair="height-height"/>
+    </image>
+    <richtext id="n6_hfx7" name="lb" xy="38,153" size="465,111" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="7" autoSize="height" autoClearText="true" text="测试测试测试&#xA;测试测试测试测试测试测试测试测试测试&#xA;测试测试测试测试测试测试"/>
+    <component id="n8_c5a5" name="btnCancel" src="y1z8b" fileName="组件/Button0.xml" xy="105,344">
+      <relation target="n10_som1" sidePair="bottom-bottom"/>
+      <Button title="取消"/>
+    </component>
+    <component id="n9_c5a5" name="btnOk" src="y1z8l" fileName="组件/Button1.xml" xy="312,344">
+      <relation target="n10_som1" sidePair="bottom-bottom"/>
+      <Button title="确定"/>
+    </component>
+  </displayList>
+</component>

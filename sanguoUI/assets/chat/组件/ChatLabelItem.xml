@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="595,51" extention="Label">
+  <displayList>
+    <richtext id="n0_tv5m" name="title" xy="74,0" size="521,51" fontSize="18" color="#ffffff" leading="10" ubb="true" autoSize="none" text="[color=#00ff00]名字六个字[/color]邀请天下豪杰共创组队副本，[color=#00ff00][u]【点击进入】[/u][/color]&#xA;D豪杰"/>
+    <richtext id="n1_tv5m" name="n1" xy="-2,1" size="77,28" touchable="false" fontSize="18" color="#ffff00" text="【系统】"/>
+  </displayList>
+</component>

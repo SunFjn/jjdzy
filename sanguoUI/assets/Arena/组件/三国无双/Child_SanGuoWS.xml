@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,920" opaque="false" designImage="ui://me1skowlca026n" bgColor="#ff0000">
+  <displayList>
+    <image id="n313_k8h1" name="n313" src="k8h12h" fileName="image/灰色.png" xy="125,220" group="n314_k8h1"/>
+    <image id="n319_k8h1" name="n319" src="k8h12h" fileName="image/灰色.png" xy="515,220" group="n314_k8h1" scale="-1,1"/>
+    <image id="n320_k8h1" name="n320" src="k8h12h" fileName="image/灰色.png" xy="125,754" group="n314_k8h1" scale="1,-1"/>
+    <image id="n321_k8h1" name="n321" src="k8h12h" fileName="image/灰色.png" xy="515,754" group="n314_k8h1" scale="-1,-1"/>
+    <image id="n323_k8h1" name="b0" src="k8h12l" fileName="image/绿色4.png" xy="125,218" group="n314_k8h1" customData="[1,[1]]"/>
+    <image id="n324_k8h1" name="b1" src="k8h12l" fileName="image/绿色4.png" xy="125,244" group="n314_k8h1" customData="[1,[2]]"/>
+    <image id="n326_k8h1" name="b3" src="k8h12k" fileName="image/绿色3.png" xy="124,320" group="n314_k8h1" scale="1,-1" customData="[2,[1,2]]"/>
+    <image id="n327_k8h1" name="b4" src="k8h12j" fileName="image/绿色2.png" xy="229,478" group="n314_k8h1" scale="1,-1" customData="[3,[1,2,3,4]]"/>
+    <image id="n325_k8h1" name="b5" src="k8h12i" fileName="image/绿色1.png" xy="254,469" group="n314_k8h1" customData="[4,[1,2,3,4,5,6,7,8]]"/>
+    <image id="n332_k8h1" name="b6" src="k8h12k" fileName="image/绿色3.png" xy="125,326" group="n314_k8h1" customData="[2,[3,4]]"/>
+    <image id="n333_k8h1" name="b7" src="k8h12l" fileName="image/绿色4.png" xy="125,375" group="n314_k8h1" customData="[1,[3]]"/>
+    <image id="n334_k8h1" name="b8" src="k8h12l" fileName="image/绿色4.png" xy="125,403" group="n314_k8h1" customData="[1,[4]]"/>
+    <image id="n335_k8h1" name="b9" src="k8h12l" fileName="image/绿色4.png" xy="125,543" group="n314_k8h1" customData="[1,[5]]"/>
+    <image id="n336_k8h1" name="b10" src="k8h12l" fileName="image/绿色4.png" xy="125,571" group="n314_k8h1" customData="[1,[6]]"/>
+    <image id="n337_k8h1" name="b11" src="k8h12l" fileName="image/绿色4.png" xy="125,699" group="n314_k8h1" customData="[1,[7]]"/>
+    <image id="n338_k8h1" name="b12" src="k8h12l" fileName="image/绿色4.png" xy="125,727" group="n314_k8h1" customData="[1,[8]]"/>
+    <image id="n348_k8h1" name="b13" src="k8h12k" fileName="image/绿色3.png" xy="125,646" group="n314_k8h1" scale="1,-1" customData="[2,[5,6]]"/>
+    <image id="n347_k8h1" name="b14" src="k8h12k" fileName="image/绿色3.png" xy="125,654" group="n314_k8h1" customData="[2,[7,8]]"/>
+    <image id="n349_k8h1" name="b15" src="k8h12j" fileName="image/绿色2.png" xy="229,496" group="n314_k8h1" customData="[3,[5,6,7,8]]"/>
+    <image id="n345_k8h1" name="b16" src="k8h12l" fileName="image/绿色4.png" xy="513,216" group="n314_k8h1" customData="[1,[9]]"/>
+    <image id="n352_k8h1" name="b17" src="k8h12k" fileName="image/绿色3.png" xy="515,320" group="n314_k8h1" scale="-1,-1" customData="[2,[9,10]]"/>
+    <image id="n339_k8h1" name="b18" src="k8h12l" fileName="image/绿色4.png" xy="513,543" group="n314_k8h1" customData="[1,[13]]"/>
+    <image id="n340_k8h1" name="b19" src="k8h12l" fileName="image/绿色4.png" xy="513,571" group="n314_k8h1" customData="[1,[14]]"/>
+    <image id="n341_k8h1" name="b20" src="k8h12l" fileName="image/绿色4.png" xy="513,698" group="n314_k8h1" customData="[1,[15]]"/>
+    <image id="n342_k8h1" name="b21" src="k8h12l" fileName="image/绿色4.png" xy="513,726" group="n314_k8h1" customData="[1,[16]]"/>
+    <image id="n343_k8h1" name="b22" src="k8h12l" fileName="image/绿色4.png" xy="513,374" group="n314_k8h1" customData="[1,[11]]"/>
+    <image id="n344_k8h1" name="b23" src="k8h12l" fileName="image/绿色4.png" xy="513,402" group="n314_k8h1" customData="[1,[12]]"/>
+    <image id="n346_k8h1" name="b24" src="k8h12l" fileName="image/绿色4.png" xy="513,244" group="n314_k8h1" customData="[1,[10]]"/>
+    <image id="n350_k8h1" name="b25" src="k8h12j" fileName="image/绿色2.png" xy="411,477" group="n314_k8h1" scale="-1,-1" customData="[3,[9,10,11,12]]"/>
+    <image id="n351_k8h1" name="b26" src="k8h12j" fileName="image/绿色2.png" xy="411,496" group="n314_k8h1" scale="-1,1" customData="[3,[13,14,15,16]]"/>
+    <image id="n353_k8h1" name="b27" src="k8h12k" fileName="image/绿色3.png" xy="515,647" group="n314_k8h1" scale="-1,-1" customData="[2,[13,14]]"/>
+    <image id="n354_k8h1" name="b28" src="k8h12k" fileName="image/绿色3.png" xy="515,326" group="n314_k8h1" scale="-1,1" customData="[2,[11,12]]"/>
+    <image id="n355_k8h1" name="b29" src="k8h12k" fileName="image/绿色3.png" xy="515,653" group="n314_k8h1" scale="-1,1" customData="[2,[15,16]]"/>
+    <image id="n356_k8h1" name="b2" src="k8h12i" fileName="image/绿色1.png" xy="384,469" group="n314_k8h1" scale="-1,1" customData="[4,[9,10,11,12,13,14,15,16]]"/>
+    <group id="n314_k8h1" name="n314" xy="124,216" size="587,806" locked="true"/>
+    <component id="n16_arik" name="nameLb0" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="30,176" size="188,46" group="n309_k8h1"/>
+    <component id="n19_arik" name="nameLb1" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="30,269" size="188,46" group="n309_k8h1"/>
+    <component id="n202_arik" name="nameLb2" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="30,332" size="188,46" group="n309_k8h1"/>
+    <component id="n205_arik" name="nameLb3" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="30,427" size="188,46" group="n309_k8h1"/>
+    <component id="n212_arik" name="nameLb4" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="30,500" size="188,46" group="n309_k8h1"/>
+    <component id="n215_arik" name="nameLb5" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="30,595" size="188,46" group="n309_k8h1"/>
+    <component id="n226_arik" name="nameLb6" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="30,659" size="188,46" group="n309_k8h1"/>
+    <component id="n229_arik" name="nameLb7" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="30,751" size="188,46" group="n309_k8h1"/>
+    <component id="n246_arik" name="nameLb10" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="421,332" size="188,46" group="n309_k8h1"/>
+    <component id="n249_arik" name="nameLb11" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="421,427" size="188,46" group="n309_k8h1"/>
+    <component id="n260_arik" name="nameLb12" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="421,500" size="188,46" group="n309_k8h1"/>
+    <component id="n263_arik" name="nameLb13" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="421,594" size="188,46" group="n309_k8h1"/>
+    <component id="n270_arik" name="nameLb14" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="421,659" size="188,46" group="n309_k8h1"/>
+    <component id="n273_arik" name="nameLb15" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="421,750" size="188,46" group="n309_k8h1"/>
+    <component id="n236_arik" name="nameLb8" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="421,176" size="188,46" group="n309_k8h1"/>
+    <component id="n239_arik" name="nameLb9" src="k8h12g" fileName="组件/三国无双/SanGuoItem.xml" xy="421,269" size="188,46" group="n309_k8h1"/>
+    <group id="n309_k8h1" name="n309" xy="30,176" size="579,621" locked="true" collapsed="true"/>
+    <component id="n285_arik" name="l6" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="223,453" size="69,70" group="n310_k8h1" scale="0.5,0.5" customData="[3,1]">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n182_arik" name="l4" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="195,285" size="69,70" group="n310_k8h1" scale="0.5,0.5" customData="[2,1]">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n199_arik" name="l0" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="91,209" size="69,70" group="n310_k8h1" scale="0.5,0.5" customData="[1,1]">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n209_arik" name="l1" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="91,367" size="69,70" group="n310_k8h1" scale="0.5,0.5" customData="[1,2]">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n233_arik" name="l3" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="91,694" size="69,70" group="n310_k8h1" scale="0.5,0.5" customData="[1,4]">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n219_arik" name="l2" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="92,535" size="69,70" group="n310_k8h1" scale="0.5,0.5" customData="[1,3]">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n223_arik" name="l5" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="196,613" size="69,70" group="n310_k8h1" scale="0.5,0.5" customData="[2,2]">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n243_arik" name="l10" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="480,208" size="69,70" group="n310_k8h1" scale="0.5,0.5" customData="[1,5]">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n253_arik" name="l11" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="480,367" size="69,70" group="n310_k8h1" scale="0.5,0.5" customData="[1,6]">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n257_arik" name="l8" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="374,285" size="69,70" group="n310_k8h1" scale="0.5,0.5" customData="[2,3]">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n267_arik" name="l12" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="480,535" size="69,70" group="n310_k8h1" scale="0.5,0.5" customData="[1,7]">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n277_arik" name="l13" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="480,693" size="69,70" group="n310_k8h1" scale="0.5,0.5" customData="[1,8]">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n281_arik" name="l9" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="375,614" size="69,70" group="n310_k8h1" scale="0.5,0.5" customData="[2,4]">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n289_arik" name="l7" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="349,453" size="69,70" group="n310_k8h1" scale="0.5,0.5" customData="[3,2]">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n303_k8h1" name="l14" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="284,453" size="69,70" group="n310_k8h1" scale="0.5,0.5" customData="[4,1]">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <group id="n310_k8h1" name="n310" xy="91,208" size="458,556"/>
+    <loader id="n357_thox" name="titleIcon" xy="297,148" pivot="0.5,0.5" size="50,30" autoSize="true">
+      <relation target="n305_k8h1" sidePair="bottom-top"/>
+    </loader>
+    <image id="n304_k8h1" name="n304" src="k8h12b" fileName="image/玉玺.png" xy="260,341"/>
+    <component id="n305_k8h1" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="263,180"/>
+    <richtext id="n299_608a" name="lbPro" xy="248,720" size="143,58" fontSize="20" color="#ffffff" align="center" autoSize="none" text="进行中&#xA;20:30-20:35"/>
+    <richtext id="n307_k8h1" name="lbTitle" xy="248,687" size="143,35" fontSize="24" color="#ffffff" align="center" autoSize="none" text="决赛"/>
+    <component id="n358_w6sh" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="118,814" size="85,83">
+      <Button icon="ui://me1skowlnihf3o"/>
+    </component>
+    <component id="n359_w6sh" name="btnPool" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="287,820" size="85,83">
+      <Button icon="ui://me1skowlk8h12a"/>
+    </component>
+    <component id="n360_w6sh" name="btnDesc" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="456,821" size="75,76">
+      <Button icon="ui://jvxpx9emw6sh3g4"/>
+    </component>
+  </displayList>
+</component>

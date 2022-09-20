@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,412">
+  <displayList>
+    <component id="n0_l5k5" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,412">
+      <Label title="提示"/>
+    </component>
+    <component id="n4_l5k5" name="btnSure" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="240,333" size="116,46">
+      <Button title="确认领取"/>
+    </component>
+    <richtext id="n3_l5k5" name="lb" xy="38,119" size="517,69" fontSize="22" color="#ffffff" autoSize="none" text="       您已经顺利通过防沉迷验证，可以正常体验游戏内容，祝您游戏愉快！&#xA;&#xA;"/>
+    <image id="n12_mu0i" name="n12" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="37,201" size="518,100"/>
+    <richtext id="n14_mu0i" name="n14" xy="112,235" size="105,31" fontSize="20" color="#e3ac2d" text="认证奖励："/>
+    <list id="n15_mu0i" name="list" xy="314,210" size="240,115" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="17" defaultItem="ui://jvxpx9emetorm" autoItemSize="false">
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

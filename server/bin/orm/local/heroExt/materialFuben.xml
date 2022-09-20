@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.materialFuben.MaterialFuben" tbname="materialFuben">
+		<index field="hid" type="prikey" autoIncrement="false"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="materialFubenCount" type="text" pf="all" comment="材料副本info"/>
+		<col field="hasFuBenId" type="varchar" len="400"  pf="all" comment="材料副本首次通关"/>
+    </tb>
+</tbs>

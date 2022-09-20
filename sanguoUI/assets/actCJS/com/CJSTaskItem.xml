@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="536,65">
+  <controller name="stateCtrl" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n3_pwnz" name="n3" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="536,65"/>
+    <richtext id="n4_pwnz" name="tfContent" xy="19,20" size="125,27" fontSize="20" color="#ffffff" strokeColor="#000000" text="成就树第一层"/>
+    <component id="n5_pwnz" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="399,8" size="116,47">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+      <Button title="前往"/>
+    </component>
+    <image id="n6_pwnz" name="n6" src="pwnz9" fileName="res/已达成.png" xy="378,9">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </image>
+  </displayList>
+</component>

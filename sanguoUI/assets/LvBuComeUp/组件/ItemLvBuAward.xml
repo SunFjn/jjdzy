@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <image id="n0_sivq" name="n0" src="q4sp6" fileName="image/宝箱.png" xy="5,8"/>
+    <image id="n1_sivq" name="n1" src="q4spa" fileName="image/武将材料底.png" xy="-13,64"/>
+    <text id="n2_sivq" name="txtJiFen" xy="8,68" size="86,25" fontSize="18" color="#ffffff" text="积分:1000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n3_jgbz" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="74,3" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n5_l757" name="iconGot" src="bx2z8a" fileName="image1/已领取.png" pkg="jvxpx9em" xy="2,32" size="96,30"/>
+  </displayList>
+</component>

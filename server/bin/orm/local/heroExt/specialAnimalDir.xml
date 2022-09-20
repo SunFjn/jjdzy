@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.specialAnimalDir.model.SpecialAnimalDir" tbname="specialAnimalDir">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="infoMap" type="text" pf="all" comment="异兽录map key:异兽id"/>
+     </tb>
+</tbs>

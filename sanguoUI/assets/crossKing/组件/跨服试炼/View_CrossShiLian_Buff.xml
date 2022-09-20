@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,374">
+  <displayList>
+    <component id="n0_s37b" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,386">
+      <Label title="当前加成"/>
+    </component>
+    <image id="n1_s37b" name="n1" src="bx2z89" fileName="image1/公告底.png" pkg="jvxpx9em" xy="27,85" size="539,244"/>
+    <component id="n2_s37b" name="contentLb" src="fnxm3gn" fileName="新组建/ScrollLabel.xml" pkg="jvxpx9em" xy="41,92" size="511,230"/>
+    <richtext id="n3_s37b" name="n3" xy="27,334" size="339,35" fontSize="24" color="#00ff00" text="Buff加成仅对跨服试炼玩法生效"/>
+  </displayList>
+</component>

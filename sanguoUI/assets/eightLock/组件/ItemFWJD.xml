@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="636,145">
+  <displayList>
+    <image id="n0_vib6" name="n0" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="634,145">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <richtext id="n1_vib6" name="txtName" xy="19,13" size="117,31" fontSize="20" color="#ffcc00" text="1个绿色符文"/>
+    <richtext id="n2_vib6" name="txtInfo" xy="135,13" size="52,31" fontSize="20" color="#33ff00" text="(1/1)">
+      <relation target="n1_vib6" sidePair="left-right"/>
+    </richtext>
+    <component id="n5_vib6" name="btnQW" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="487,53">
+      <Button title="前往"/>
+    </component>
+    <component id="n9_vib6" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="487,52">
+      <Button title="可领取"/>
+    </component>
+    <image id="n10_vib6" name="iconGot" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="490,59"/>
+    <list id="n11_jnlk" name="n11" xy="19,45" size="568,101" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="5" defaultItem="ui://jvxpx9emetorm">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,902" opaque="false">
+  <displayList>
+    <loader id="n37_rjpy" name="bg" xy="-3,257" size="640,591" url="ui://4aepcdbweium26" autoSize="true"/>
+    <loader id="n21_uikj" name="typeImg" xy="112,351" size="423,347" url="ui://4aepcdbwi1zl5s" align="center" vAlign="bottom" fill="scale"/>
+    <component id="n20_uikj" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="181,281"/>
+    <image id="n36_rjpy" name="n36" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="90,621" size="454,161" alpha="0.9"/>
+    <richtext id="n22_uikj" name="curAttLb" xy="172,687" size="109,28" group="n25_uikj" fontSize="18" color="#ffffff" leading="10" text="攻击+10000"/>
+    <image id="n23_uikj" name="n23" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="291,672" group="n25_uikj">
+      <relation target="n22_uikj" sidePair="middle-middle"/>
+    </image>
+    <richtext id="n24_uikj" name="nextAttLb" xy="357,687" size="98,28" group="n25_uikj" fontSize="18" color="#00ff00" leading="10" text="攻击+1000"/>
+    <group id="n25_uikj" name="attgroup" xy="172,672" size="283,58" advanced="true" collapsed="true" layout="hz" colGap="10">
+      <relation target="n36_rjpy" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n26_uikj" name="costItem" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="225,794" group="n28_uikj"/>
+    <component id="n27_uikj" name="upBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="252,840" group="n28_uikj">
+      <Button title="升级"/>
+    </component>
+    <group id="n28_uikj" name="upBtGroup" xy="225,794" size="177,108" advanced="true" collapsed="true"/>
+    <image id="n31_uikj" name="maxGroup" src="shpk3h3" fileName="image/美术字/满级美术字/已满级.png" pkg="jvxpx9em" xy="271,849"/>
+    <richtext id="n33_uikj" name="attLb" xy="308,698" size="10,28" fontSize="18" color="#ffffff" leading="10" text="">
+      <relation target="n36_rjpy" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <component id="n34_uikj" name="n34" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="150,625" size="329,31">
+      <Label title="升级属性"/>
+    </component>
+    <image id="n39_eium" name="n39" src="eium2a" fileName="image/花纹1.png" xy="112,607"/>
+    <image id="n40_eium" name="n40" src="eium27" fileName="image/花纹2.png" xy="464,605"/>
+    <image id="n41_eium" name="n41" src="eium28" fileName="image/花纹3.png" xy="112,351"/>
+    <image id="n42_eium" name="n42" src="eium29" fileName="image/花纹4.png" xy="457,351"/>
+    <image id="n44_nbrv" name="n44" src="z1jw6p" fileName="image/通用底框/名字边框.png" pkg="jvxpx9em" xy="45,355"/>
+    <loader id="n45_nbrv" name="typeIcon" xy="66,371" size="21,43" url="ui://4aepcdbwnbrv43"/>
+    <richtext id="n46_nbrv" name="levelLb" xy="57,417" size="42,80" fontSize="20" color="#ffffff" align="center" leading="0" autoSize="none" text="170级"/>
+  </displayList>
+</component>

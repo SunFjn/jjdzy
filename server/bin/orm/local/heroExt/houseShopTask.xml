@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.houseShopTask.HouseShopTask" tbname="houseShopTask">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="goodsMap" type="varchar" len="1000" pf="all" comment="刷新到的物品信息"/>
+			<col field="dayReward" type="varchar" len="1000" pf="all" comment="每日任务宝箱奖励"/>
+			<col field="dayTask" type="text" pf="all" comment="每日任务完成情况"/>
+			<col field="goalTaskMap" type="text" pf="all" comment="目标奖励状态"/>
+			<col field="goalPlan" type="text" pf="all" comment="目标类型进度"/>
+			<col field="speGoal" type="text" pf="all" comment="特殊目标任务 进度 例如举办普通/豪华  key 1 2 次数"/>
+     </tb>
+</tbs>

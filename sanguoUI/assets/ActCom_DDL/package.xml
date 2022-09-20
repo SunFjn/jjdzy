@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ke8qv0ck" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ehld0" name="Child_ActCom_DDL.xml" path="/组件/" exported="true"/>
+    <image id="ehld1" name="对对联.jpg" path="/image/"/>
+    <image id="ehld2" name="对对联背景图.jpg" path="/image/"/>
+    <image id="ehld4" name="排名奖励.png" path="/image/" exported="true"/>
+    <image id="ehld5" name="箱子3.png" path="/image/" exported="true"/>
+    <component id="ehld6" name="DDLItem.xml" path="/组件/" exported="true"/>
+    <component id="xn887" name="ViewRankDDL.xml" path="/组件/" exported="true"/>
+    <component id="xn888" name="ItemRankDDL.xml" path="/组件/" exported="true"/>
+    <component id="tcq69" name="DDLRewardItem.xml" path="/组件/" exported="true"/>
+    <component id="qq0ga" name="DDLRewardView.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="ActCom_DDL" genCode="true" npot="true"/>
+</packageDescription>

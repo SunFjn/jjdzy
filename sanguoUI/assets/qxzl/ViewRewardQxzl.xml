@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="470,293">
+  <controller name="stateCtrl" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n12_nnxc" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="470,293">
+      <Label title="驻守奖励"/>
+    </component>
+    <image id="n13_nnxc" name="n13" src="jkp64z" fileName="image1/Bg4.png" pkg="jvxpx9em" xy="15,79" size="436,163"/>
+    <list id="n8_ucru" name="itemList" xy="39,99" pivot="0.5,0.5" size="392,109" layout="row" scroll="horizontal" margin="0,0,5,0" colGap="8" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n10_ucru" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="170,228" grayed="true">
+      <gearLook controller="stateCtrl" pages="0" values="1,0,1,1" default="1,0,0,1"/>
+      <Button title="一键领取"/>
+    </component>
+    <richtext id="n14_dcne" name="tfDes" xy="182,134" pivot="0.5,0.5" size="105,33" visible="false" fontSize="24" color="#ffffff" bold="true" text="暂无奖励"/>
+  </displayList>
+</component>

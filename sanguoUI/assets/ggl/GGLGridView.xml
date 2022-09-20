@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="510,399">
+  <displayList>
+    <component id="n43_loxz" name="item3" src="loxzc" fileName="GGLItem.xml" xy="0,133" group="n52_loxz"/>
+    <component id="n44_loxz" name="item4" src="loxzc" fileName="GGLItem.xml" xy="175,133" group="n52_loxz"/>
+    <component id="n45_loxz" name="item6" src="loxzc" fileName="GGLItem.xml" xy="0,266" group="n52_loxz"/>
+    <component id="n46_loxz" name="item0" src="loxzc" fileName="GGLItem.xml" xy="0,0" group="n52_loxz"/>
+    <component id="n47_loxz" name="item2" src="loxzc" fileName="GGLItem.xml" xy="350,0" group="n52_loxz"/>
+    <component id="n48_loxz" name="item8" src="loxzc" fileName="GGLItem.xml" xy="350,266" group="n52_loxz"/>
+    <component id="n49_loxz" name="item1" src="loxzc" fileName="GGLItem.xml" xy="175,0" group="n52_loxz"/>
+    <component id="n50_loxz" name="item5" src="loxzc" fileName="GGLItem.xml" xy="350,133" group="n52_loxz"/>
+    <component id="n51_loxz" name="item7" src="loxzc" fileName="GGLItem.xml" xy="175,266" group="n52_loxz"/>
+    <group id="n52_loxz" name="n52" xy="0,0" size="510,399"/>
+  </displayList>
+</component>

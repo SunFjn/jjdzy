@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="498,335">
+  <displayList>
+    <component id="n0_tc2x" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="498,335">
+      <Label title="奖励"/>
+    </component>
+    <image id="n1_tc2x" name="n1" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="40,89" size="426,149"/>
+    <component id="n2_tc2x" name="btnHand" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="188,258">
+      <Button title="领取"/>
+    </component>
+    <image id="n3_tc2x" name="iconGot" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="189,264"/>
+  </displayList>
+</component>

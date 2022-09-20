@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,920" opaque="false">
+  <displayList>
+    <loader id="n0_tipm" name="bg" xy="0,280" size="100,100" url="ui://kdt501v2mq0c1j"/>
+    <image id="n6_mymk" name="n6" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="18,418" size="271,29" flip="hz"/>
+    <image id="n7_mymk" name="n7" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="362,419" size="270,29" flip="hz"/>
+    <richtext id="n1_tipm" name="txtLeftTm" xy="23,418" size="218,31" fontSize="20" color="#66ff00" text="活动剩余时间: 00:00:00"/>
+    <text id="n2_tipm" name="txtLeftTime" xy="380,423" size="245,31" fontSize="20" color="#ffffff" text="每日登陆即可领取豪华大礼">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <list id="n3_tipm" name="list" xy="0,466" size="640,453" overflow="scroll" defaultItem="ui://kdt501v2tipmo">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5_tipm" name="btnHand" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="466,345">
+      <Button title="6元"/>
+    </component>
+    <text id="n8_misw" name="n8" xy="188,919" size="225,31" fontSize="20" color="#33ff00" text="购买当天可领取之前奖励"/>
+  </displayList>
+</component>

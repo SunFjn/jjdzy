@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="490,120">
+  <displayList>
+    <image id="n18_dsuf" name="n18" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="490,120"/>
+    <richtext id="n13_ftjg" name="lbHuoYue" xy="110,35" size="158,27" fontSize="17" color="#ffffff" text="府邸提升为普通民宿"/>
+    <component id="n15_oytr" name="gird" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="21,21" scale="0.8,0.8"/>
+    <component id="n3_tw1l" name="btn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="344,32" group="n17_dsuf">
+      <Button title="前往"/>
+    </component>
+    <image id="n10_tw1l" name="imgYWC" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="350,42" group="n17_dsuf"/>
+    <component id="n14_oj5a" name="btnLQ" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="344,32" group="n17_dsuf">
+      <Button title="领取"/>
+    </component>
+    <group id="n17_dsuf" name="n17" xy="344,32" size="136,62"/>
+    <component id="n19_dsuf" name="progress" src="emwp3h8" fileName="组件/ExpBar1.xml" pkg="jvxpx9em" xy="112,65" size="200,20">
+      <ProgressBar value="50" max="100"/>
+    </component>
+  </displayList>
+</component>

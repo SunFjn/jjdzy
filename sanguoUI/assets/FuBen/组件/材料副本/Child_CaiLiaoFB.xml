@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,916" opaque="false">
+  <displayList>
+    <list id="n14_ox4f" name="list" xy="19,155" size="602,694" overflow="scroll" lineGap="10" defaultItem="ui://pkuzcu87dlakh" autoItemSize="false" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n15_ox4f" name="promptLb" xy="23,872" size="291,28" fontSize="18" color="#15f234" leading="0" text="每天0点重置次数    VIP4可一键扫荡"/>
+    <component id="n16_ox4f" name="jihuoBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="487,858">
+      <Button title="激活VIP"/>
+    </component>
+    <component id="n17_nsvz" name="buyBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="356,858" group="n20_hi63">
+      <Button title="一键购买"/>
+    </component>
+    <image id="n18_hi63" name="imgZhe" src="m3513by" fileName="image/文字底.png" pkg="jvxpx9em" xy="346,844" group="n20_hi63"/>
+    <richtext id="n19_hi63" name="lbZhe" xy="349,848" size="49,28" group="n20_hi63" fontSize="18" color="#ffffff" align="center" autoSize="none" text="7折"/>
+    <group id="n20_hi63" name="buyGroup" xy="346,844" size="139,65" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

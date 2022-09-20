@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="608,256" opaque="false">
+  <displayList>
+    <component id="n1_hd20" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="8,0" size="85,89">
+      <Button icon="ui://mbcu0qc0hd207"/>
+    </component>
+    <richtext id="n2_hd20" name="n2" xy="10,190" size="77,28" fontSize="18" color="#66ff00" text="玩法说明"/>
+    <component id="n4_hd20" name="n4" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="541,181" size="67,75">
+      <Button icon="ui://jvxpx9emkw747k"/>
+    </component>
+  </displayList>
+</component>

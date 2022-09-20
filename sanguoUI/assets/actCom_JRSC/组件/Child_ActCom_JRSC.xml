@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <loader id="n10_ocq2" name="imgBg" xy="0,270" size="640,175"/>
+    <richtext id="n7_ocq2" name="lbTime" xy="307,408" size="312,28" fontSize="18" color="#00ff00" align="center" autoSize="none" text="活动剩余时间：3天2小2小2小"/>
+    <list id="n1_ocq2" name="list" xy="10,458" size="619,477" layout="flow_hz" overflow="scroll" lineGap="20" colGap="30" lineItemCount="2" defaultItem="ui://zq6iymuqocq25" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n2_ocq2" name="btnZhe" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="109,283" pivot="0.5,0.5">
+      <Button title="免费刷新"/>
+    </component>
+    <component id="n3_ocq2" name="btnShop" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="395,283" pivot="0.5,0.5">
+      <Button title="刷新商品"/>
+    </component>
+    <richtext id="n4_ocq2" name="lbZhe" xy="47,376" size="260,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="本轮商品折扣：3折"/>
+    <richtext id="n5_ocq2" name="lbZheCt" xy="47,408" size="260,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="剩余刷新折扣次数：110次"/>
+    <richtext id="n6_ocq2" name="n6" xy="371,376" size="185,28" fontSize="18" color="#ff0000" text="刷新商品后，折扣重置"/>
+    <richtext id="n8_ocq2" name="lbYB" xy="446,344" size="77,31" fontSize="20" color="#00ff00" text="500000"/>
+    <image id="n9_ocq2" name="imgYB" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="409,340"/>
+    <richtext id="n11_ocq2" name="lbIt" xy="160,345" size="77,31" fontSize="20" color="#00ff00" text="500000"/>
+    <loader id="n12_ocq2" name="imgIt" xy="123,344" size="29,30" aspect="true" url="ui://zq6iymuqocq20" fill="scaleFree"/>
+  </displayList>
+</component>

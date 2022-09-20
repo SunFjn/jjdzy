@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="605,139">
+  <controller name="c1" pages="0,未抽取,1,可购买,2,已购买,3,vip等级不足" selected="1"/>
+  <displayList>
+    <image id="n0_vt1r" name="n0" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,5" size="605,139"/>
+    <image id="n1_vt1r" name="n1" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="38,10" size="149,38"/>
+    <richtext id="n2_vt1r" name="vipTxt" xy="56,13" size="113,31" fontSize="24" color="#ffffff" align="center" autoSize="none" text="VIP20"/>
+    <image id="n22_gtq2" name="n22" src="gtq213" fileName="image/底.png" xy="194,15" size="182,22"/>
+    <image id="n10_vt1r" name="n10" src="mb5j7d" fileName="image/已购买.png" pkg="jvxpx9em" xy="454,70">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <text id="n17_vt1r" name="oldPrice" xy="212,15" size="147,25" fontSize="18" color="#660000" align="center" autoSize="none" text="原价1200000元宝"/>
+    <text id="n18_vt1r" name="n18" xy="203,13" size="161,19" rotation="3" fontSize="12" color="#ff0000" text="—————————————"/>
+    <list id="n19_vt1r" name="rewardList" xy="26,52" size="567,113" aspect="true" scale="0.7,0.7" layout="flow_hz" overflow="scroll" scroll="horizontal" colGap="12" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n20_vt1r" name="extractBtn" src="io2jx" fileName="组件/VipDiscountBtn.xml" xy="454,47" scale="0.7,0.7">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n8_vt1r" name="buyBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="453,56" scale="0.9,0.9">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="购买" titleColor="#ffffff" titleFontSize="20"/>
+    </component>
+    <image id="n11_vt1r" name="n11" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="445,19" size="140,30" group="n14_vt1r"/>
+    <image id="n12_vt1r" name="n12" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="457,19" group="n14_vt1r"/>
+    <richtext id="n13_vt1r" name="curPrice" xy="492,20" size="75,25" group="n14_vt1r" fontSize="18" color="#ffffff" align="center" text="1231456"/>
+    <group id="n14_vt1r" name="n14" xy="445,19" size="140,31" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </group>
+    <richtext id="n23_gtq2" name="n23" xy="470,61" size="104,25" fontSize="18" color="#ff0000" align="center" text="VIP等级不足">
+      <gearDisplay controller="c1" pages="3"/>
+    </richtext>
+  </displayList>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="461,389">
+  <displayList>
+    <component id="n0_o512" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="461,389">
+      <Label title="奖励"/>
+    </component>
+    <image id="n7_hyjz" name="n7" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="34,90" size="397,184"/>
+    <component id="n3_o512" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="166,290">
+      <Button title="领取"/>
+    </component>
+    <richtext id="n4_o512" name="lbTip" xy="157,301" size="149,28" fontSize="18" color="#ff0000" text="满足条件后可领取"/>
+    <richtext id="n5_o512" name="lbPro" xy="210,98" size="40,28" fontSize="18" color="#ffffff" align="center" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n8_mnbx" name="img" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="183,300" size="124,40" scale="0.8,0.8" visible="false"/>
+    <list id="n9_l3sh" name="n9" xy="56,138" size="346,126" layout="flow_hz" overflow="scroll" colGap="12" defaultItem="ui://jvxpx9emetorn" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

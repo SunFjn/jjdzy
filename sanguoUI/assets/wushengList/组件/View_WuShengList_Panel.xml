@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_8hxb" name="frame" src="fsg93cj" fileName="组件/frame4.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://a8l39nm9v913m"/>
+    </component>
+    <list id="n1_8hxb" name="list" xy="7,123" size="625,165" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="2" defaultItem="ui://a8l39nm98hxb2">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n44_mo6g" name="list1" xy="2,288" size="636,442" overflow="scroll" defaultItem="ui://a8l39nm98hxb9">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n42_oo0o" name="n42" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="4,731" size="632,194"/>
+    <image id="n40_pseo" name="n40" src="nxcba0" fileName="image1/分割线.png" pkg="jvxpx9em" xy="42,796"/>
+    <image id="n35_8hxb" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="122,836"/>
+    <component id="n32_8hxb" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="27,809" aspect="true" scale="0.8,0.8"/>
+    <richtext id="n28_8hxb" name="conditionLb" xy="19,738" size="244,28" fontSize="18" color="#ffffff" leading="0" text="上榜条件:武将战力达到10000"/>
+    <richtext id="n29_8hxb" name="rankLb" xy="19,763" size="149,28" fontSize="18" color="#ffffff" leading="0" text="我的排名：未上榜"/>
+    <richtext id="n30_8hxb" name="powerLb" xy="223,763" size="150,28" fontSize="18" color="#ffffff" leading="0" text="武将战力：10000"/>
+    <richtext id="n33_8hxb" name="tipLb" xy="115,806" size="135,28" fontSize="18" color="#ffffff" leading="0" text="武将达到3阶2级"/>
+    <component id="n31_8hxb" name="goBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="492,744" size="130,43">
+      <Button title="前往提升"/>
+    </component>
+    <component id="n34_8hxb" name="drawBt" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="109,836">
+      <Button title="领取"/>
+    </component>
+    <component id="n36_8hxb" name="giftBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="509,804" size="101,92">
+      <Button icon="ui://a8l39nm9v913n"/>
+    </component>
+    <richtext id="n38_pseo" name="n38" xy="61,893" size="513,24" fontSize="14" color="#15f234" text="1.排名活动当日24点结算，奖励邮件发放。2.目标奖励开服7天后截止，请尽快领取"/>
+  </displayList>
+</component>

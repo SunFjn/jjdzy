@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="591,374">
+  <displayList>
+    <component id="n11_g7pm" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="591,374">
+      <Label title="查看属性"/>
+    </component>
+    <image id="n16_vqr0" name="n16" src="vqr04q" fileName="image/战斗力底.png" xy="115,95"/>
+    <image id="n18_vqr0" name="n18" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="12,162" size="566,165"/>
+    <richtext id="n4_m20j" name="labAttrNext" xy="306,224" size="264,100" fontSize="20" color="#ffffff" leading="10" autoSize="none" text="生命+1111&#xA;攻击+1111&#xA;攻击+1111"/>
+    <richtext id="n8_m20j" name="labNext" xy="303,185" size="90,31" fontSize="20" color="#ffffff" leading="10" ubb="true" text="下个转生:"/>
+    <component id="n14_fyjq" name="labPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="162,78">
+      <Label title="12134456"/>
+    </component>
+    <image id="n20_vqr0" name="n20" src="vqr04o" fileName="image/线.png" xy="25,218" size="1,250" skew="-90,0"/>
+    <image id="n21_vqr0" name="n21" src="vqr04o" fileName="image/线.png" xy="307,218" size="1,250" skew="-90,0"/>
+    <richtext id="n23_vqr0" name="nextStatus" xy="397,182" size="101,35" fontSize="24" color="#fffccc" ubb="true" text="三转三重"/>
+    <richtext id="n3_m20j" name="labAttrCur" xy="28,225" size="271,100" group="n25_npag" fontSize="20" color="#ffffff" leading="10" autoSize="none" text="生命+1111&#xA;攻击+1111&#xA;攻击+11"/>
+    <richtext id="n7_m20j" name="labCur" xy="24,185" size="90,31" group="n25_npag" fontSize="20" color="#ffffff" leading="10" ubb="true" text="当前转生:"/>
+    <richtext id="n22_vqr0" name="curStatus" xy="118,182" size="101,35" group="n25_npag" fontSize="24" color="#fffccc" ubb="true" text="三转三重"/>
+    <group id="n25_npag" name="groupCur" xy="24,182" size="275,143" advanced="true"/>
+  </displayList>
+  <relation target="n11_g7pm" sidePair="height-height"/>
+</component>

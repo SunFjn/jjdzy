@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 库存监控表 -->
+	<tb model="com.teamtop.system.event.backstage.events.flowJianKong.B_FlowJianKong" tbname="b_flowjiankong">
+		<index field="id" type="prikey"/>
+		<index field="hid" type="normal"/>
+		<index field="openid" type="normal"/>
+		<index field="time" type="normal"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="openid" type="varchar" len="100" pf="all" comment="玩家账号"/>
+		<col field="zoneid" type="int" pf="all" comment="区号"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="name" type="varchar" len="50" pf="all" comment="角色名称"/>
+		<col field="type" type="int" pf="all" comment="类型，物品类型（1道具、2装备）或货币类型（角色属性表）"/>
+		<col field="goodid" type="int" pf="all" comment="物品id，货币时为0"/>
+		<col field="num" type="bigint" pf="all" comment="数量"/>
+		<col field="chongzhi" type="bigint" pf="all" comment="充值数"/>
+		<col field="lv" type="int" pf="all" comment="角色等级"/>
+		<col field="reason" type="int" pf="all" comment="操作原因"/>
+		<col field="time" type="int" pf="all" comment="记录时间"/>
+	</tb>
+</tbs>

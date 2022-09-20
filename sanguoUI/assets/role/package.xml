@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="3tzqotad">
+  <resources>
+    <component id="ua8b2" name="ChildRolePanel.xml" path="/组件/角色/" exported="true"/>
+    <component id="ua8b4" name="ViewRolePanel.xml" path="/组件/" exported="true"/>
+    <component id="i7mo5" name="View_ShouLing_Panel.xml" path="/组件/" exported="true"/>
+    <component id="k8oze" name="View_JiangHun_Panel.xml" path="/组件/将魂/" exported="true"/>
+    <component id="k8ozf" name="JiangHunGrid.xml" path="/组件/将魂/" exported="true"/>
+    <image id="k8ozg" name="line0.png" path="/image/" exported="true"/>
+    <image id="k8ozh" name="line1.png" path="/image/" exported="true"/>
+    <image id="k8ozl" name="群雄.png" path="/image/" exported="true"/>
+    <component id="k8ozp" name="View_JiangHun_UpgradePanel.xml" path="/组件/将魂/" exported="true"/>
+    <component id="k8ozq" name="View_JiangHun_Suit.xml" path="/组件/将魂/" exported="true"/>
+    <image id="ltpms" name="shuxing.png" path="/image/" exported="true"/>
+    <component id="ltpm13" name="ChildTitle.xml" path="/组件/称号/" exported="true"/>
+    <component id="ltpm15" name="ViewGodEquipPanel.xml" path="/组件/神装/" exported="true"/>
+    <component id="ltpm17" name="ViewGodSuit.xml" path="/组件/神装/" exported="true"/>
+    <component id="ltpm18" name="ViewShuXing.xml" path="/组件/角色/" exported="true"/>
+    <component id="ltpm19" name="lstLabel.xml" path="/组件/角色/" exported="true"/>
+    <image id="gs0d1t" name="阵营框.png" path="/image/" exported="true"/>
+    <image id="n7sj2b" name="分解按钮.png" path="/image/" exported="true"/>
+    <image id="n7sj2f" name="神装套装效果.png" path="/image/" exported="true"/>
+    <image id="qcyl2h" name="国家图标.png" path="/image/" exported="true"/>
+    <image id="qcyl2j" name="成就图标.png" path="/image/" exported="true"/>
+    <image id="qcyl2k" name="排名图标.png" path="/image/" exported="true"/>
+    <image id="qcyl2l" name="活动图标.png" path="/image/" exported="true"/>
+    <image id="qcyl2m" name="称号txt.png" path="/image/" exported="true"/>
+    <component id="qcyl2p" name="Button1.xml" path="/组件/称号/" exported="true"/>
+    <image id="cxk836" name="将魂标题.png" path="/image/" exported="true"/>
+    <image id="i8xh37" name="影子.png" path="/image/" exported="true"/>
+    <image id="dna53a" name="出战2.png" path="/image/" exported="true"/>
+    <image id="dna53d" name="神剑标题.png" path="/image/" exported="true"/>
+    <image id="ud973g" name="神装标题.png" path="/image/" exported="true"/>
+    <image id="hr703i" name="装备中.png" path="/image/" exported="true"/>
+    <image id="p6mw3k" name="0.png" path="/image/fnt/" exported="true"/>
+    <image id="p6mw3l" name="1.png" path="/image/fnt/" exported="true"/>
+    <image id="p6mw3m" name="2.png" path="/image/fnt/" exported="true"/>
+    <image id="p6mw3n" name="3.png" path="/image/fnt/" exported="true"/>
+    <image id="p6mw3o" name="4.png" path="/image/fnt/" exported="true"/>
+    <image id="p6mw3p" name="5.png" path="/image/fnt/" exported="true"/>
+    <image id="p6mw3q" name="6.png" path="/image/fnt/" exported="true"/>
+    <image id="p6mw3r" name="7.png" path="/image/fnt/" exported="true"/>
+    <image id="p6mw3s" name="8.png" path="/image/fnt/" exported="true"/>
+    <image id="p6mw3t" name="9.png" path="/image/fnt/" exported="true"/>
+    <image id="p6mw3u" name="阶.png" path="/image/fnt/" exported="true"/>
+    <font id="p6mw3v" name="Titlefnt.fnt" path="/image/fnt/" exported="true"/>
+    <component id="p6mw3w" name="TitlePage.xml" path="/组件/称号/" exported="true"/>
+    <image id="p6mw3x" name="称号底未激活.png" path="/image/" exported="true"/>
+    <image id="p6mw3y" name="称号底未选中.png" path="/image/" exported="true"/>
+    <image id="p6mw3z" name="称号底选中.png" path="/image/" exported="true"/>
+    <component id="tw1l8" name="ChildRebirth.xml" path="/组件/转生/" exported="true"/>
+    <image id="m20j40" name="转生txt.png" path="/image/" exported="true"/>
+    <component id="m20j41" name="TipRebirthLook.xml" path="/组件/转生/" exported="true"/>
+    <component id="m20j42" name="TipRebirthEquip.xml" path="/组件/转生/" exported="true"/>
+    <component id="pwxe43" name="View_Rebirth_DS.xml" path="/组件/转生/" exported="true"/>
+    <image id="f09s46" name="底-小.png" path="/image/" exported="true" scale="9grid" scale9grid="14,17,28,34"/>
+    <image id="f09s47" name="底框.png" path="/image/" exported="true"/>
+    <image id="f09s48" name="点线.png" path="/image/" exported="true"/>
+    <image id="f09s49" name="转生大师图标.png" path="/image/" exported="true"/>
+    <image id="eltg4d" name="已达转生上限.png" path="/image/" exported="true"/>
+    <image id="vqr04n" name="圆底.png" path="/image/" exported="true"/>
+    <image id="vqr04o" name="线.png" path="/image/" exported="true"/>
+    <image id="vqr04q" name="战斗力底.png" path="/image/" exported="true"/>
+    <image id="jf0d4u" name="洗炼icon.png" path="/image/" exported="true"/>
+    <image id="jf0d4v" name="神装洗炼字.png" path="/image/" exported="true"/>
+    <image id="jf0d4w" name="升阶icon.png" path="/image/" exported="true"/>
+    <image id="jf0d4x" name="洗炼材料字.png" path="/image/" exported="true"/>
+    <component id="qqvu23" name="Child_BaoWu.xml" path="/组件/神剑/" exported="true"/>
+    <component id="by8m38" name="Child_BaoWu_JiBan.xml" path="/组件/神剑/" exported="true"/>
+    <component id="jx2x35" name="Child_BaoWu_Jie.xml" path="/组件/神剑/" exported="true"/>
+    <component id="jx2x34" name="View_BaoWu_Panel.xml" path="/组件/神剑/" exported="true"/>
+    <component id="qqvu27" name="View_BaowWu_Use.xml" path="/组件/神剑/" exported="true"/>
+    <component id="n4tus" name="ViewBWGrid.xml" path="/组件/神剑/" exported="true"/>
+    <image id="np4r33" name="无宝物状态.png" path="/image/" exported="true"/>
+    <image id="qqvu22" name="使用中.png" path="/image/" exported="true"/>
+    <image id="u7bl4z" name="当前属性.png" path="/image/"/>
+    <image id="u7bl50" name="每日俸禄.png" path="/image/"/>
+    <image id="u7bl51" name="轮回.png" path="/image/" exported="true"/>
+    <image id="shpk55" name="技能名称底.png" path="/image/" exported="true"/>
+    <image id="t9hd57" name="发光底座.png" path="/image/" exported="true"/>
+    <image id="t9hd58" name="小标题花纹底.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="role" genCode="true"/>
+</packageDescription>

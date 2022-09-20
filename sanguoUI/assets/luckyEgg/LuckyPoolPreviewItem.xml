@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="577,474" extention="Label">
+  <controller name="hCtrl" pages="0,,1,,2," selected="2"/>
+  <displayList>
+    <loader id="n2_lxqw" name="iconLoader" xy="0,0" size="90,60" url="ui://wx4kos8uosj3c"/>
+    <image id="n3_lxqw" name="n3" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="12,56" size="565,418">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <list id="n4_lxqw" name="itemList" xy="21,68" size="553,394" layout="flow_hz" scroll="horizontal" margin="0,0,5,0" colGap="8" defaultItem="ui://jvxpx9emetorn" autoClearItems="true">
+      <gearSize controller="hCtrl" pages="1,2" values="553,266,1,1|553,394,1,1" default="553,132,1,1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n4_lxqw" sidePair="height-height"/>
+</component>

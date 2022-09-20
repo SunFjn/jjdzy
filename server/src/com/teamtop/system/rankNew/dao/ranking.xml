@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.rankNew.dao.RankingMapper">
+	<select id="findLevel" resultType="com.teamtop.system.rankNew.rankModel.LevelRankModel">
+		select id, name, job, createJob, level,reincarnationLevel, vipLv, official, countryType, icon, frame, titleId, showCountry, zoneid, totalStrength, totalStrength as strength, mountId
+		from hero where level>0 and forbidState=0 order by reincarnationLevel desc, level desc, totalStrength desc, createTime desc  limit 20;
+	</select>
+	<select id="findStrength" resultType="com.teamtop.system.rankNew.rankModel.StrengthRankModel">
+		select id, name, job, createJob, level,reincarnationLevel, vipLv, official, countryType, icon, frame, titleId, showCountry, zoneid, totalStrength, totalStrength as strength, mountId
+		from hero where level>0 and forbidState=0 order by totalStrength desc, level desc, createTime desc limit 20;
+	</select>
+	<select id="findPeacock" resultType="com.teamtop.system.rankNew.rankModel.PeacockRankModel">
+		select id, name, job, createJob, level,reincarnationLevel, vipLv, official, countryType, icon, frame, titleId, showCountry, zoneid, totalStrength, totalStrength as strength, floorNum, mountId 
+		from (select @rownum:=0, a.id, a.name, a.job, a.createJob, a.level,a.reincarnationLevel, a.vipLv, a.official, a.countryType, a.icon, a.frame, a.titleId, a.showCountry, a.zoneid, a.totalStrength, a.mountId, b.floorNum as floorNum 
+		from hero a left join peacockFloor b on a.id = b.hid where b.floorNum>0 and a.level>0 and a.forbidState=0 order by b.floorNum desc,a.level desc,a.totalStrength desc limit 20) t;
+	</select>
+	<select id="findEquip" resultType="com.teamtop.system.rankNew.rankModel.EquipRankModel">
+		select id, name, job, createJob, level,reincarnationLevel, vipLv, official, countryType, icon, frame, titleId, showCountry, zoneid, totalStrength, strength, mountId from 
+		(select @rownum:=0, a.id, a.name, a.job, a.createJob, a.level,a.reincarnationLevel, a.vipLv, a.official, a.countryType, a.icon, a.frame, a.titleId, a.showCountry, a.zoneid, a.totalStrength, a.mountId, b.strength as strength 
+		from hero a left join equipData	b on a.id = b.hid where a.level>0 and a.forbidState=0 order by b.strength desc,a.level desc,a.totalStrength desc limit 20) t;
+	</select>
+	<select id="findZhanJia" resultType="com.teamtop.system.rankNew.rankModel.ZhanJiaRankModel">
+		select id, name, job, createJob, level,reincarnationLevel, vipLv, official, countryType, icon, frame, titleId, showCountry, zoneid, totalStrength, strength, mountId from 
+		(select @rownum:=0, a.id, a.name, a.job, a.createJob, a.level,a.reincarnationLevel, a.vipLv, a.official, a.countryType, a.icon, a.frame, a.titleId, a.showCountry, a.zoneid, a.totalStrength, a.mountId, b.strength as strength 
+		from hero a left join zhanJia b on a.id = b.hid where a.level>0 and a.forbidState=0 order by b.strength desc,a.level desc,a.totalStrength desc limit 20) t;
+	</select>
+	<select id="findWuJiang" resultType="com.teamtop.system.rankNew.rankModel.WuJiangRankModel">
+		select id, name, job, createJob, level,reincarnationLevel, vipLv, official, countryType, icon, frame, titleId, showCountry, zoneid, totalStrength, strength, mountId from 
+		(select @rownum:=0, a.id, a.name, a.job, a.createJob, a.level,a.reincarnationLevel, a.vipLv, a.official, a.countryType, a.icon, a.frame, a.titleId, a.showCountry, a.zoneid, a.totalStrength, a.mountId, b.strength as strength 
+		from hero a left join wujiang b on a.id = b.hid where a.level>0 and a.forbidState=0 order by b.strength desc,a.level desc,a.totalStrength desc limit 20) t;
+	</select>
+	<select id="findArchive" resultType="com.teamtop.system.rankNew.rankModel.ArchiveRankModel">
+		select id, name, job, createJob, level,reincarnationLevel, vipLv, official, countryType, icon, frame, titleId, showCountry, zoneid, totalStrength, strength, mountId from 
+		(select @rownum:=0, a.id, a.name, a.job, a.createJob, a.level,a.reincarnationLevel, a.vipLv, a.official, a.countryType, a.icon, a.frame, a.titleId, a.showCountry, a.zoneid, a.totalStrength, a.mountId, b.strength as strength 
+		from hero a left join archiveData b on a.id = b.hid where a.level>0 and a.forbidState=0 order by b.strength desc,a.level desc,a.totalStrength desc limit 20) t;
+	</select>
+	<select id="findGodBook" resultType="com.teamtop.system.rankNew.rankModel.GodBookRankModel">
+		select id, name, job, createJob, level,reincarnationLevel, vipLv, official, countryType, icon, frame, titleId, showCountry, zoneid, totalStrength, strength, mountId from 
+		(select @rownum:=0, a.id, a.name, a.job, a.createJob, a.level,a.reincarnationLevel, a.vipLv, a.official, a.countryType, a.icon, a.frame, a.titleId, a.showCountry, a.zoneid, a.totalStrength, a.mountId, b.strength as strength 
+		from hero a left join godbook b on a.id = b.hid where a.level>0 and a.forbidState=0 order by b.strength desc,a.level desc,a.totalStrength desc limit 20) t;
+	</select>
+	<select id="findGodEquip" resultType="com.teamtop.system.rankNew.rankModel.GodEquipRankModel">
+		select id, name, job, createJob, level,reincarnationLevel, vipLv, official, countryType, icon, frame, titleId, showCountry, zoneid, totalStrength, strength, mountId from 
+		(select @rownum:=0, a.id, a.name, a.job, a.createJob, a.level,a.reincarnationLevel, a.vipLv, a.official, a.countryType, a.icon, a.frame, a.titleId, a.showCountry, a.zoneid, a.totalStrength, a.mountId, b.strengthGodEquip as strength 
+		from hero a left join equipData	b on a.id = b.hid where a.level>0 and a.forbidState=0 order by b.strengthGodEquip desc,a.level desc,a.totalStrength desc limit 20) t;	
+	</select>
+	<select id="findExcalibur" resultType="com.teamtop.system.rankNew.rankModel.ExcaliburRankModel">
+		select id, name, job, createJob, level,reincarnationLevel, vipLv, official, countryType, icon, frame, titleId, showCountry, zoneid, totalStrength, strength, mountId from 
+		(select @rownum:=0, a.id, a.name, a.job, a.createJob, a.level,a.reincarnationLevel, a.vipLv, a.official, a.countryType, a.icon, a.frame, a.titleId, a.showCountry, a.zoneid, a.totalStrength, a.mountId, b.strength as strength 
+		from hero a left join excalibur b on a.id = b.hid where a.level>0 and a.forbidState=0 order by b.strength desc,a.level desc,a.totalStrength desc limit 20) t;
+	</select>
+	<select id="findBingFa" resultType="com.teamtop.system.rankNew.rankModel.BingFaRankModel">
+		select id, name, job, createJob, level,reincarnationLevel, vipLv, official, countryType, icon, frame, titleId, showCountry, zoneid, totalStrength, strength, mountId from 
+		(select @rownum:=0, a.id, a.name, a.job, a.createJob, a.level,a.reincarnationLevel, a.vipLv, a.official, a.countryType, a.icon, a.frame, a.titleId, a.showCountry, a.zoneid, a.totalStrength, a.mountId, b.strength as strength 
+		from hero a left join bingfa b on a.id = b.hid where a.level>0 and a.forbidState=0 order by b.strength desc,a.level desc,a.totalStrength desc limit 20) t;
+	</select>
+	<select id="findTreasure" resultType="com.teamtop.system.rankNew.rankModel.TreasureRankModel">
+		select id, name, job, createJob, level,reincarnationLevel, vipLv, official, countryType, icon, frame, titleId, showCountry, zoneid, totalStrength, strength, mountId from 
+		(select @rownum:=0, a.id, a.name, a.job, a.createJob, a.level,a.reincarnationLevel, a.vipLv, a.official, a.countryType, a.icon, a.frame, a.titleId, a.showCountry, a.zoneid, a.totalStrength, a.mountId, b.strength as strength 
+		from hero a left join treasureData b on a.id = b.hid where a.level>0 and a.forbidState=0 order by b.strength desc,a.level desc,a.totalStrength desc limit 20) t;
+	</select>
+	<select id="findHuoShaoChiBi" resultType="com.teamtop.system.rankNew.rankModel.HuoShaoChiBiRankModel">
+		select id, name, job, createJob, level,reincarnationLevel, vipLv, official, countryType, icon, frame, titleId, showCountry, zoneid, totalStrength, totalStrength as strength, floorNum, mountId
+		from (select @rownum:=0, a.id, a.name, a.job, a.createJob, a.level,a.reincarnationLevel, a.vipLv, a.official, a.countryType, a.icon, a.frame, a.titleId, a.showCountry, a.zoneid, a.totalStrength, a.mountId, b.floorNum as floorNum 
+		from hero a left join huoShaoChiBi b on a.id = b.hid where b.floorNum>0 and a.level>0 and a.forbidState=0 order by b.floorNum desc,a.level desc,a.totalStrength desc limit 20) t;
+	</select>
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n1_eigu" name="frame" src="z1jw6v" fileName="组件/WindowFrame1.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://p83wyb2beigu11"/>
+    </component>
+    <list id="n2_eigu" name="list" xy="15,167" size="610,727" layout="flow_vt" overflow="hidden" lineGap="15" colGap="5" defaultItem="ui://p83wyb2blsg11g" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

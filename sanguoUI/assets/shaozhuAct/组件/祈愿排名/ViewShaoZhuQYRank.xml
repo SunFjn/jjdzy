@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,695">
+  <displayList>
+    <component id="n14_ze8t" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="591,695">
+      <Label title="祈愿排名"/>
+    </component>
+    <image id="n15_ze8t" name="n15" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="19,83" size="556,44"/>
+    <list id="n6_wea3" name="list" xy="19,131" size="556,522" overflow="scroll" lineGap="5" defaultItem="ui://w5ll6n5jze8t2a">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n19_ze8t" name="n19" src="u7hu22" fileName="image/排名.png" xy="81,96"/>
+    <image id="n20_ze8t" name="n20" src="u7hu21" fileName="image/名字.png" xy="285,96"/>
+    <image id="n21_ze8t" name="n21" src="et0424" fileName="image/祈愿次数.png" xy="468,96"/>
+  </displayList>
+</component>

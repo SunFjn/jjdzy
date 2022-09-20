@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="143,192">
+  <displayList>
+    <image id="n27_eium" name="n27" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="0,0" size="143,192" alpha="0.9"/>
+    <component id="n26_eium" name="grid" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="24,4"/>
+    <component id="n2_uikj" name="n2" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="7,133">
+      <Button title="兽魂洗练"/>
+    </component>
+    <image id="n29_eium" name="grayBg" src="y1z8p" fileName="image1/BmG_3.png" pkg="jvxpx9em" xy="24,24" grayed="true"/>
+    <component id="n19_c1lk" name="btnXL" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="7,133">
+      <Button title="兽魂洗练"/>
+    </component>
+    <component id="n3_uikj" name="btnCD" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="7,133">
+      <Button title="穿戴"/>
+    </component>
+    <loader id="n21_eium" name="icon1" xy="26,79" size="116,114" scale="0.2,0.2" fill="scale"/>
+    <loader id="n22_eium" name="icon2" xy="49,79" size="116,114" scale="0.2,0.2" fill="scale"/>
+    <loader id="n23_eium" name="icon3" xy="72,79" size="116,114" scale="0.2,0.2" fill="scale"/>
+    <loader id="n24_eium" name="icon4" xy="95,79" size="116,114" scale="0.2,0.2" fill="scale"/>
+    <loader id="n28_eium" name="grayLD" xy="26,26" size="92,91" fill="scale"/>
+    <richtext id="n33_tu9m" name="txtCnt" xy="0,-24" size="142,24" fontSize="15" color="#33ff00" text="已洗练出青龙印: 0/4">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

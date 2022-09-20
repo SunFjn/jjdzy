@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.mail.model.Mail" tbname="mail">
+		<index field="id" type="prikey"/>
+		<index field="receiverId" type="normal"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="receiverId" type="bigint" pf="all" comment="接收者id"/>
+		<col field="receiver" type="varchar" len="50" pf="all" comment="接收者名称"/>
+		<col field="content" type="varchar" len="2500" pf="all" comment="邮件内容"/>
+		<col field="flag" type="int" pf="all" comment="邮件标识：由表决定"/>
+		<col field="sendTime" type="int" pf="all" comment="发送时间"/>
+		<col field="isRead" type="int" pf="all" comment="邮件读取状态：参考 MailConst.MAIL_READ"/>
+		<col field="isGetAdj" type="int" pf="all" comment="附件领取状态：参考 MailConst.ADJ_STATE_0"/>
+		<col field="mailAdjuncts" type="varchar" len="500" pf="all" comment="附件"/>
+		<col field="yuanbao" type="int" pf="all" comment="元宝数量"/>
+		<col field="coin" type="int" pf="all" comment="铜币数量"/>
+		<col field="title" type="varchar" len="2500" pf="all" comment="邮件标题"/>
+	</tb>
+</tbs>

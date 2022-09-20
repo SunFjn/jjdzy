@@ -1,0 +1,152 @@
+<beans>
+<!-- 升级事件说明 -->
+	<!-- level 属性是指定事件触发等级数字则说明是等级 all代表所有等级都需要执行-->
+	<!--对于多个等级需要触发同一事件那么可以：level="5_11_17_23_12" 此时代表此事件分别会在 人物升级到5级、11级、23级以及12级分别触发-->
+	<!--对于间隔等级触发的事件可以：level="gap" startLevel="5" endLevel="120" gapLevel="5"此时代表此事件会在5-120(包含5,120级)级每间隔5级触发-->
+	<!-- 增加functionId注册方式，加入funId属性则会从X_104_系统开启表.xlsx中读取等级注册等级事件 -->
+	
+	<!-- 例子
+	<property method = "levelUp" level="all"/>
+	<property method = "levelUp" level="30"/>
+	<property method = "levelUp" level="30_50_60_70_80_90_100_110_120"/>
+	<property method = "levelUp" funId="1002"/>
+	<property method = "levelUp" level="gap" startLevel="100" endLevel="130" gapLevel="1"/>
+	 -->
+<!-- end -->
+
+<!-- fixtimeSyncPub说明 -->
+	<!-- 适用于帮会等跟个人无关的系统 -->
+	<!-- gap参数为分钟，仅有此参数 
+	<property method = "fixtimeSyncPub" gap="30"/>
+	 -->
+<!-- end -->
+
+<!-- fixtime说明 -->
+	<!-- 
+	定时事件定义：
+	(1)：d1200表示每天12点触发；
+	(2)：w71400表示星期天14点触发，周一至周日是1至7；
+	(3)：g30表示间隔30分钟触发，必须配置开始时间starttime
+	例子如下：
+	<property method = "fixTime" starttime="0000" time="d1200_1,d1800_2,g30_3"/>
+	<property method = "fixTime" time="w71400_1,w71430_2,w71500_3" />
+	 -->
+<!-- end -->
+
+	<!-- 系统事件，常规包括init login-->
+	<!-- 侠客岛
+	<bean id="GeneralIslandEvent" class="com.teamtop.system.generalIsland.GeneralIslandEvent" pf="PF_ALL" funid="1090">
+		<property method = "fixTime" time="d1130_1,d1200_2,d1600_1,d1630_2"/>
+	</bean>
+	-->
+	<!-- 跨服boss 每天9点-22点,整点刷新BOSS-->
+	<bean id="CrossBossCrossEvent" class="com.teamtop.system.crossBoss.cross.CrossBossCrossEvent" pf="PF_ALL" funid="1804">
+		<property method = "fixTime" time="d0855_1,d0900_2,d0950_0,d0955_1,d1000_2,d1050_0,d1055_1,d1100_2,d1150_0,d1155_1,d1200_2,d1250_0,d1255_1,d1300_2,d1350_0,d1355_1,d1400_2,d1450_0,d1455_1,d1500_2,d1550_0,d1555_1,d1600_2,d1650_0,d1655_1,d1700_2,d1750_0,d1755_1,d1800_2,d1850_0,d1855_1,d1900_2,d1950_0,d1955_1,d2000_2,d2050_0,d2055_1,d2100_2,d2150_0,d2155_1,d2200_2,d2250_0"/>
+	</bean>
+	<!-- 单刀赴会 每周7 零点处理-->
+	<bean id="CrossSoloRunSysEvent" class="com.teamtop.system.crossSoloRun.cross.CrossSoloRunSysEvent" pf="PF_ALL" funid="1603">
+		<property method = "fixTime" time="w70000_1,w10000_2"/>
+	</bean>
+	<!--乱世枭雄(跨服王者) 每周1 零点处理开启 周6晚上结束-->
+	<bean id="CrossKingCrossEvent" class="com.teamtop.system.crossKing.cross.CrossKingCrossEvent" pf="PF_ALL" funid="3602">
+		<property method = "fixTime" time="w10000_1,w62359_2,g2_3"/>
+	</bean>
+	<!-- 三国无双 每周7 定时处理-->
+	<bean id="CrossDynastyWarriorsSysEvent" class="com.teamtop.system.crossDynastyWarriors.cross.CrossDynastyWarriorsSysEvent" pf="PF_ALL" funid="1604">
+		<property method = "fixTime" opweek="7" starttime="2035" time="w72030_1,w72130_2,g5_3,w72029_4"/>
+	</bean>
+	<!-- 枭雄争霸 每周0点开始 -->
+	<bean id="CrossSelectKingCrossEvent" class="com.teamtop.system.crossSelectKing.cross.CrossSelectKingCrossEvent" pf="PF_ALL" funid="3603">
+		<property method = "fixTime"  time="w70000_0,w71928_3,w71930_2,w71935_1,w71943_3,w71945_2,w71950_1,w71958_3,w72000_2,w72005_1,w72013_3,w72015_2,w72020_4"/>
+	</bean>
+	<!-- 群英榜 -->
+	<bean id="CrossHeroesListSysEvent" class="com.teamtop.system.crossHeroesList.cross.CrossHeroesListSysEvent" pf="PF_ALL" funid="4401">
+		<property method = "zeroPub"/>
+		<property method = "fixTime"  time="d0001_1,d0005_2"/>
+	</bean>
+	<!-- 玲珑阁跨服 -->
+	<bean id="LingLongCrossEvent" class="com.teamtop.system.linglongge.LingLongCrossEvent" pf="PF_ALL" funid="4801">
+		<property method = "zeroPub"/>
+	</bean>	
+	<!-- 问鼎天下 -->
+	<bean id="CrossWenDingTianXiaCrossEvent" class="com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossEvent" pf="PF_ALL" funid="3705">
+		<property method = "fixTime"  time="d0000_1,d1958_2,d1959_3,d2000_4,d2020_5"/>
+	</bean>
+	<!--  神将送礼(活动) -->
+	<bean id="CrossGodGenSendGiftActEvent" class="com.teamtop.system.activity.ativitys.godGenSendGiftAct.cross.CrossGodGenSendGiftActEvent" pf="PF_ALL" funid="5605">
+		<property method = "zeroPub"/>
+		<property method = "fixTime"  time="d0001_1"/>
+	</bean>
+	<!-- 八门金锁-鉴定排名 -->
+	<bean id="CrossEightDoorAppraiseRankEvent" class="com.teamtop.system.eightDoorAppraiseRank.cross.CrossEightDoorAppraiseRankEvent" pf="PF_ALL" funid="6105">
+		<property method = "zeroPub"/>
+		<property method = "fixTime"  time="d0001_1"/>
+	</bean>
+	<!-- 少年英主-祈愿排名 -->
+	<bean id="CrossShaoZhuQiYuanRankEvent" class="com.teamtop.system.shaozhuQiYuanRank.cross.CrossShaoZhuQiYuanRankEvent" pf="PF_ALL" funid="6807">
+		<property method = "zeroPub"/>
+	</bean>
+	<!--  充值排行(活动) -->
+	<bean id="CrossRechargeRankActEvent" class="com.teamtop.system.activity.ativitys.rechargeRankAct.cross.CrossRechargeRankActEvent" pf="PF_ALL" funid="7209">
+		<property method = "zeroPub"/>
+		<property method = "fixTime"  time="d0001_1"/>
+	</bean>
+	<!--  万兽之王-仙山寻兽排名(活动) -->
+	<bean id="MonsterKingSearchMonsterEvent" class="com.teamtop.system.openDaysSystem.monsterKingSearchMonster.MonsterKingSearchMonsterEvent" pf="PF_ALL" funid="7209">
+		<property method = "zeroPub"/>
+	</bean>
+	<!--虎牢关跨服-->
+	<bean id="TigerPassCrossEvent" class="com.teamtop.system.tigerPass.cross.TigerPassCrossEvent" pf="PF_ALL" funid="7400">
+		<property method = "zeroPub"/>
+	</bean>
+	<!--  鉴定排名(活动) -->
+	<bean id="CrossEightDoorAppraiseRankActEvent" class="com.teamtop.system.activity.ativitys.eightDoorAppraiseRankAct.cross.CrossEightDoorAppraiseRankActEvent" pf="PF_ALL" funid="7214">
+		<property method = "zeroPub"/>
+		<property method = "fixTime"  time="d0001_1"/>
+	</bean>	
+	<!--  祈愿排名(活动) -->
+	<bean id="CrossShaoZhuQiYuanRankActEvent" class="com.teamtop.system.activity.ativitys.shaoZhuQiYuanRankAct.cross.CrossShaoZhuQiYuanRankActEvent" pf="PF_ALL" funid="7215">
+		<property method = "zeroPub"/>
+		<property method = "fixTime"  time="d0001_1"/>
+	</bean>
+	<!--  跨服通用排行 -->
+	<bean id="CrossCommonRankEvent" class="com.teamtop.system.crossCommonRank.cross.CrossCommonRankEvent" pf="PF_ALL" funid="7218">
+		<property method = "zeroPub"/>
+		<property method = "fixTime"  time="d0005_1"/>
+	</bean>
+	<!--粮草抢夺-->
+	<bean id="BattleGoodCrossSysEvent" class="com.teamtop.system.battleGoods.event.BattleGoodCrossSysEvent" pf="PF_ALL" funid="3707">
+		<property method = "fixTime"  time="d1928_1,d1930_2,d1950_3"/>
+	</bean>	
+	<!--跨服试炼-->
+	<bean id="CrossTrialCentralSysEvent" class="com.teamtop.system.crossTrial.cross.CrossTrialCentralSysEvent" pf="PF_ALL" funid="3609">
+		<property method = "zeroPub"/>
+		<property method = "fixTime"  time="d0003_1"/>
+	</bean>
+	<!--跨服王者 0准备  1开始时间  2结束时间 每天11:00-12:00、22:00-23:00开启*-->
+	<bean id="CrossTeamKingCrossEvent" class="com.teamtop.system.crossTeamKing.cross.CrossTeamKingCrossEvent" pf="PF_ALL" funid="3610">
+		<property method = "zeroPub"/>
+		<property method = "fixTime"  time="d1057_0,d1100_1,d1200_2,d2157_0,d2200_1,d2300_2,"/>
+	</bean>
+	<!--  新活动-天降红包 -->
+	<bean id="CrossDropRedPacketEvent" class="com.teamtop.system.activity.ativitys.dropRedPacket.cross.CrossDropRedPacketEvent" pf="PF_ALL" funid="7235">
+		<property method = "zeroPub"/>
+		<property method = "fixTime" starttime="0001" time="g5_1,g1_2"/>
+	</bean>
+	<!--红包系统 -->
+	<bean id="RedBoxCrossEvent" class="com.teamtop.system.redBox.cross.RedBoxCrossEvent" pf="PF_ALL" funid="7821">
+		<property method = "zeroPub"/>
+	</bean>	
+	<!--  擂台比武（活动） -->
+	<bean id="CrossArenaFightSysEvent" class="com.teamtop.system.activity.ativitys.arenaFight.cross.CrossArenaFightSysEvent" pf="PF_ALL" funid="7238">
+		<property method = "fixTime" starttime="0000" time="g1_1"/>
+	</bean>	
+	<!-- 登峰造极 -->
+	<bean id="DengFengZaoJiCrossEvent" class="com.teamtop.system.dengFengZaoJi.event.DengFengZaoJiCrossEvent" pf="PF_ALL" funid="7720">
+		<property method = "fixTime"  time="w60000_1,w10000_2,w72200_3"/>
+	</bean>
+</beans>
+
+
+
+

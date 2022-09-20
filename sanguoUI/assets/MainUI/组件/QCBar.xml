@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="222,14" extention="ProgressBar">
+  <displayList>
+    <image id="n0_qbg3" name="n0" src="qbg3b7q" fileName="image/爆气进度条.png" xy="0,0" size="222,14">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_qbg3" name="bar" src="qbg3b7o" fileName="image/爆气进度橙条.png" xy="0,3" size="222,8"/>
+    <image id="n3_qbg3" name="n3" src="qbg3b7p" fileName="image/爆气进度点.png" xy="210,-3">
+      <relation target="n1_qbg3" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

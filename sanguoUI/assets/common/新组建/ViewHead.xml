@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="119,127">
+  <displayList>
+    <image id="n0_p753" name="n0" src="kw747l" fileName="image1/头像底.png" xy="18,8"/>
+    <loader id="n2_p753" name="headIcon" xy="18,8" size="80,80" url="ui://jvxpx9emp75388" fill="scaleFree"/>
+    <loader id="n14_ju9h" name="frameIcon" xy="8,0" size="100,90" url="ui://jvxpx9emtw1l5j" align="center" vAlign="bottom"/>
+    <image id="n4_p753" name="n4" src="p75385" fileName="image/新资源/技能数字底框.png" xy="72,67" group="n6_p753"/>
+    <richtext id="n5_p753" name="lbLv" xy="73,75" size="37,23" group="n6_p753" touchable="false" fontSize="13" color="#ffffff" align="center" autoSize="none" text="1999">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n6_p753" name="g0" xy="72,67" size="40,40" visible="false" advanced="true"/>
+    <image id="n8_p753" name="ng" src="x3b93cl" fileName="image/通用底框/方框3.png" xy="-10,94" pivot="0.5,0.5" size="139,30" group="n9_p753"/>
+    <richtext id="n7_p753" name="lbName" xy="-4,94" size="125,31" group="n9_p753" fontSize="20" color="#ffffff" align="center" text="猪猪猪朱老板">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n9_p753" name="g1" xy="-10,94" size="139,31" visible="false" advanced="true"/>
+    <image id="n10_nxcb" name="n10" src="nxcba1" fileName="image1/Vip背景.png" xy="19,60" group="n13_nxcb"/>
+    <text id="n12_nxcb" name="vipLb" xy="21,62" size="68,26" group="n13_nxcb" font="ui://jvxpx9em608a8q" fontSize="22" color="#ffffff" leading="0" text="P12"/>
+    <group id="n13_nxcb" name="gvip" xy="19,60" size="80,28" advanced="true"/>
+    <loader id="n15_ixu9" name="imgCountry" xy="74,13" size="20,20" url="ui://jvxpx9emxyp27h" align="center" fill="scale"/>
+  </displayList>
+</component>

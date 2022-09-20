@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="203,132">
+  <displayList>
+    <image id="n4_w6sh" name="n4" src="kw747l" fileName="image1/头像底.png" pkg="jvxpx9em" xy="60,8" locked="true"/>
+    <image id="n3_w6sh" name="n3" src="tw1l5j" fileName="image1/头像框.png" pkg="jvxpx9em" xy="55,4"/>
+    <loader id="n1_r4og" name="headIcon" xy="60,8" size="79,80" locked="true" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <richtext id="n2_r4og" name="nameLb" xy="0,104" size="203,28" locked="true" visible="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="单刀赴会的关羽"/>
+  </displayList>
+</component>

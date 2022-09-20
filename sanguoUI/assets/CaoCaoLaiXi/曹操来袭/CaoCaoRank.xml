@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="623,751">
+  <displayList>
+    <component id="n0_qcyl" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="623,751" locked="true">
+      <Label title="排行榜"/>
+    </component>
+    <image id="n1_qcyl" name="n1" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="31,91" size="556,44" locked="true"/>
+    <image id="n4_qcyl" name="n4" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="31,645" size="556,61"/>
+    <list id="n3_qcyl" name="list" xy="31,143" size="560,493" overflow="scroll" lineGap="19" defaultItem="ui://n6fub9ddeq414">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n5_qcyl" name="lbMine" xy="237,665" size="149,28" fontSize="18" color="#ffc334" align="center" text="我的信息我的信息">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n8_bx2z" name="n8" xy="85,102" size="439,28" fontSize="18" color="#ffc334" text="排名                   名字                     伤害                  奖励"/>
+  </displayList>
+</component>

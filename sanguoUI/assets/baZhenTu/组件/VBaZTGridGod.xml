@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="294,157">
+  <displayList>
+    <image id="n9_irzj" name="n9" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="294,157"/>
+    <component id="n3_b5l2" name="grid" src="f8nk4" fileName="组件/VBaZTGrid.xml" xy="20,20"/>
+    <richtext id="n2_f8nk" name="lbName" xy="7,120" size="123,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="符文·肩甲甲"/>
+    <richtext id="n13_au5y" name="countLb" xy="141,51" size="59,28" font="Microsoft YaHei" fontSize="18" color="#ffffff" text="剩余："/>
+    <richtext id="n8_irzj" name="lbCt" xy="170,19" size="53,31" font="Microsoft YaHei" fontSize="20" color="#ffffff" text="1000"/>
+    <loader id="n7_irzj" name="imgIt" xy="140,19" size="30,30" fill="scaleFree"/>
+    <component id="n12_irzj" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="139,82" pivot="0.5,0.5">
+      <Button title="兑换" titleFontSize="24"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="197,430" extention="Button" designImageOffsetX="-4" designImageOffsetY="-317">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n21_wnzh" name="n21" src="wnzh6x" fileName="image/其他/国家技能底.jpg" xy="0,0"/>
+    <image id="n20_wuea" name="n20" src="q6rjb7j" fileName="image/卡牌选中框.png" pkg="7gxkx46w" xy="-21,-18" size="235,468">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <richtext id="n1_dr4r" name="lbCur" xy="22,205" size="162,34" fontSize="24" color="#f4bf34" align="center" autoSize="none" text="当前效果"/>
+    <richtext id="n2_dr4r" name="lbCurVal" xy="0,238" size="200,27" fontSize="20" color="#ffffff" align="center" autoSize="height" autoClearText="true" text="当前生命+1000000"/>
+    <richtext id="n3_dr4r" name="lbNext" xy="22,316" size="162,34" fontSize="22" color="#f4bf34" align="center" autoSize="none" text="下级效果"/>
+    <richtext id="n4_dr4r" name="lbNextVal" xy="0,346" size="200,27" fontSize="20" color="#ffffff" align="center" autoSize="height" autoClearText="true" text="当前生命+1000000"/>
+    <loader id="n13_wuea" name="imgName" xy="44,31" size="111,30" url="ui://uwzc58njwuea6i" align="center"/>
+    <loader id="n15_wuea" name="bg" xy="54,95" size="96,96" group="n19_wuea" url="ui://jvxpx9emy1z8p" fill="scaleFree"/>
+    <loader id="n16_wuea" name="imgIcon" xy="56,97" size="92,92" group="n19_wuea" align="center" vAlign="middle"/>
+    <richtext id="n7_wuea" name="lbLevel" xy="60,163" size="87,28" group="n19_wuea" touchable="false" fontSize="18" color="#ffffff" align="right" leading="0" autoSize="none" strokeColor="#000000" text="Lv.100"/>
+    <image id="n8_wuea" name="imgLocked" src="k8qc9z" fileName="image1/maskBg.png" pkg="jvxpx9em" xy="54,95" size="96,96" group="n19_wuea"/>
+    <image id="n17_wuea" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="136,90" group="n19_wuea" visible="false"/>
+    <group id="n19_wuea" name="n19" xy="54,90" size="102,101" collapsed="true"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

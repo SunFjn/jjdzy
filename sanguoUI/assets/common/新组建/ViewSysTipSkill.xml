@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="415,519">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n14_80zw" name="frame" src="f1cf4b" fileName="组件/frame2.xml" xy="0,0" size="415,519">
+      <gearSize controller="c1" pages="0,1" values="415,519,1,1|415,358,1,1"/>
+      <Label title="升级技能"/>
+    </component>
+    <image id="n35_kpxy" name="g22" src="x3b93cl" fileName="image/通用底框/方框3.png" xy="20,193" size="374,156">
+      <gearSize controller="c1" pages="0" values="374,156,1,1" default="374,83,1,1"/>
+    </image>
+    <text id="n20_80zw" name="labCur" xy="35,209" size="77,28" fontSize="18" color="#e9ad1b" text="当前效果"/>
+    <text id="n21_80zw" name="labAttrCur" xy="35,242" size="313,28" fontSize="18" color="#ffffff" autoSize="height" text="提升5000点攻击"/>
+    <text id="n22_80zw" name="labNext" xy="35,279" size="77,28" fontSize="18" color="#e9ad1b" text="下级效果">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <text id="n23_80zw" name="labAttrNext" xy="35,312" size="313,28" fontSize="18" color="#14ec24" autoSize="height" text="提升5000点攻击">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <text id="n24_80zw" name="labCondition" xy="48,367" size="318,28" group="n29_80zw" fontSize="18" color="#14ec24" align="center" ubb="true" autoSize="none" text="升级条件：达到500阶"/>
+    <text id="n25_80zw" name="labNeedName" xy="15,406" size="95,28" group="n29_80zw" fontSize="18" color="#ffffff" align="right" autoSize="none" text="武将培养丹"/>
+    <component id="n27_80zw" name="btnUp" src="y1z8b" fileName="组件/Button0.xml" xy="137,448" group="n29_80zw">
+      <Button title="升级" titleColor="#ffffff"/>
+    </component>
+    <component id="n30_80zw" name="boxNeed" src="n7sj6d" fileName="新组建/ViewResource.xml" xy="117,400" group="n29_80zw"/>
+    <group id="n29_80zw" name="boxUp" xy="15,367" size="351,124" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n31_xh30" name="n31" src="61zd78" fileName="image/装饰2.png" xy="24,305" group="n33_xh30"/>
+    <richtext id="n32_xh30" name="n32" xy="149,295" size="116,35" group="n33_xh30" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满级"/>
+    <group id="n33_xh30" name="boxMax" xy="24,295" size="366,35" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <loader id="n34_nw6y" name="bg" xy="20,95" size="84,84" group="n36_kpxy" url="ui://jvxpx9emy1z8p" fill="scaleFree"/>
+    <loader id="n16_80zw" name="imgIcon" xy="22,97" size="80,80" group="n36_kpxy" url="ui://zyx92gzwl0xew" fill="scaleFree"/>
+    <text id="n17_80zw" name="labName" xy="122,100" size="101,35" group="n36_kpxy" fontSize="24" color="#ffffff" text="山崩地裂"/>
+    <text id="n18_80zw" name="labLevel" xy="246,106" size="49,28" group="n36_kpxy" fontSize="18" color="#ffffff" text="Lv.10"/>
+    <text id="n19_80zw" name="labPower" xy="122,147" size="126,28" group="n36_kpxy" fontSize="18" color="#ffffff" text="战力      99999"/>
+    <group id="n36_kpxy" name="n36" xy="20,95" size="275,84"/>
+  </displayList>
+  <relation target="n14_80zw" sidePair="height-height"/>
+</component>

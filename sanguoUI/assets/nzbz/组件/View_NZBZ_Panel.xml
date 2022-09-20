@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_nb1u" name="frame" src="z1jw6v" fileName="组件/WindowFrame1.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://xzyn0qe3gv341e"/>
+    </component>
+    <component id="n2_nb1u" name="item0" src="nb1u7" fileName="组件/Child_NZBZ.xml" xy="19,171"/>
+  </displayList>
+</component>

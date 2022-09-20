@@ -1,0 +1,109 @@
+<configuration> 
+  <!-- 定义日志文件的相对存储地址日志会默认存储到eclipse所在盘根目录 tongyuSystem.getProperty("user.dir") -->
+  <property name="LOG_HOME" value="log"/>
+  <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">  
+     <layout class="ch.qos.logback.classic.PatternLayout">  
+       <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{80} - %msg%n</pattern>  
+     </layout>  
+   </appender>  
+ <!-- Warn Appender-->
+  <appender name="WarnAppender" class="com.teamtop.util.LoggerAppender.WarnAppender">  
+    <filter class="ch.qos.logback.classic.filter.LevelFilter">
+		<level>WARN</level>
+		<onMatch>ACCEPT</onMatch>
+		<onMismatch>DENY</onMismatch>
+	</filter> 
+     <layout class="ch.qos.logback.classic.PatternLayout">  
+       <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{80} - %msg%n</pattern>  
+     </layout>  	  
+   </appender>  
+ <!-- Error Appender-->
+  <appender name="ErrorAppender" class="com.teamtop.util.LoggerAppender.ErrorAppender">  
+    <filter class="ch.qos.logback.classic.filter.LevelFilter">
+		<level>ERROR</level>
+		<onMatch>ACCEPT</onMatch>
+		<onMismatch>DENY</onMismatch>
+	</filter> 
+     <layout class="ch.qos.logback.classic.PatternLayout">  
+       <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{80} - %msg%n</pattern>  
+     </layout>  	  
+   </appender>  
+ <!-- 信息记录日志-->
+ <appender name="InfoLog" class="ch.qos.logback.core.rolling.RollingFileAppender"> 
+  <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+   <fileNamePattern>${LOG_HOME}/info/%d{yyyy-MM-dd,aux}/%d{yyyy-MM-dd_HH}.log</fileNamePattern> 
+   <maxHistory>336</maxHistory>  <!--保留2周-->
+  </rollingPolicy> 
+  <filter class="ch.qos.logback.classic.filter.LevelFilter">
+	<level>INFO</level>
+	<onMatch>ACCEPT</onMatch>
+	<onMismatch>DENY</onMismatch>
+  </filter> 
+  <encoder> 
+   <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{80} - %msg%n</pattern> 
+  </encoder> 
+ </appender>
+ <!-- 调试信息-->
+ <appender name="DebugLog" class="ch.qos.logback.core.rolling.RollingFileAppender"> 
+  <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+   <fileNamePattern>${LOG_HOME}/info/%d{yyyy-MM-dd,aux}/%d{yyyy-MM-dd_HH}.log</fileNamePattern> 
+   <maxHistory>336</maxHistory>  <!--保留2周-->
+  </rollingPolicy> 
+  <filter class="ch.qos.logback.classic.filter.LevelFilter">
+	<level>DEBUG</level>
+	<onMatch>ACCEPT</onMatch>
+	<onMismatch>DENY</onMismatch>
+  </filter> 
+  <encoder> 
+   <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{80} - %msg%n</pattern> 
+  </encoder> 
+ </appender>
+	
+ <!--警告信息记录-->
+ <appender name="WarnLog" class="ch.qos.logback.core.rolling.RollingFileAppender"> 
+  <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+   <fileNamePattern>${LOG_HOME}/warn/%d{yyyy-MM-dd,aux}/%d{yyyy-MM-dd_HH}.log</fileNamePattern> 
+   <maxHistory>720</maxHistory> <!--保留4周-->
+  </rollingPolicy> 
+  <filter class="ch.qos.logback.classic.filter.LevelFilter">
+	<level>WARN</level>
+	<onMatch>ACCEPT</onMatch>
+	<onMismatch>DENY</onMismatch>
+  </filter> 
+  <encoder> 
+   <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{80} - %msg%n</pattern> 
+  </encoder> 
+ </appender>
+ 
+<!--异常日志 -->
+ <appender name="ErrorLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+  <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+   <fileNamePattern>${LOG_HOME}/error/%d{yyyy-MM-dd,aux}/%d{yyyy-MM-dd_HH}.log</fileNamePattern> 
+   <maxHistory>720</maxHistory><!--保留4周-->
+  </rollingPolicy> 
+  <filter class="ch.qos.logback.classic.filter.LevelFilter">
+	<level>ERROR</level>
+	<onMatch>ACCEPT</onMatch>
+	<onMismatch>DENY</onMismatch>
+  </filter> 	 
+  <encoder> 
+   <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{80} - %msg%n</pattern> 
+  </encoder> 
+ </appender>
+	
+ <root level="INFO"> 
+  <!-- debug级别日志放到debug下 -->
+  <appender-ref ref="DebugLog"/>
+  <!-- info级别日志放到info下 -->
+  <appender-ref ref="InfoLog"/>
+  <!-- WARN级别日志放到WARN下 -->	 
+  <appender-ref ref="WarnLog"/>
+  <!-- error级别日志放到error下 -->	 
+  <appender-ref ref="ErrorLog"/>	 
+  <!-- debug级别日志直接标准输出只在调试阶段使用 -->
+  <appender-ref ref="stdout"/>
+  <appender-ref ref="ErrorAppender"/>	  
+  <appender-ref ref="WarnAppender"/>	  
+ </root> 
+
+</configuration>

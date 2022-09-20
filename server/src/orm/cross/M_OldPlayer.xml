@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 滚服玩家列表 -->
+	<tb model="com.teamtop.system.event.backstage.events.backstage.oldPlayer.M_OldPlayer" tbname="m_oldplayer" serverid="2">
+		<index field="openid" type="prikey" autoIncrement="false"/>
+		<col field="openid" type="varchar" len="100" pf="all" comment="角色账号"/>
+		<col field="zoneids" type="text" pf="all" comment="玩家建号的区号列表"/>
+		<col field="createIp" type="varchar" len="100" pf="all" comment="创号ip"/>
+	</tb>
+</tbs>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="601,215">
+  <displayList>
+    <image id="n27_810t" name="n27" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="601,215" alpha="0.5"/>
+    <loader id="n36_nxbw" name="bg" xy="4,8" size="100,100"/>
+    <richtext id="n15_tc2x" name="txtLink" xy="493,22" size="93,29" fontSize="22" color="#66ff00" autoSize="none" underline="true" text="活动说明"/>
+    <graph id="n16_tc2x" name="n16" xy="451,102" size="133,33" group="n18_tc2x" type="rect" lineColor="#00666666" fillColor="#ff333333">
+      <relation target="" sidePair="rightext-right"/>
+    </graph>
+    <graph id="n35_nxbw" name="n35" xy="470,102" size="116,33" group="n18_tc2x" type="rect" lineColor="#00666666" fillColor="#ff333333">
+      <relation target="" sidePair="rightext-right"/>
+    </graph>
+    <text id="n20_tc2x" name="txtActTime" xy="459,106" size="129,34" group="n18_tc2x" fontSize="22" color="#ffff00" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="10:00-12:00">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <image id="n34_nxbw" name="iconJX" src="nxbw2g" fileName="images/进行中.png" xy="489,103" group="n18_tc2x"/>
+    <group id="n18_tc2x" name="group" xy="451,102" size="135,33"/>
+    <component id="n26_v431" name="emptyCon" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="20,92"/>
+    <component id="n2_tc2x" name="btnHand" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="461,150">
+      <Button title="前往"/>
+    </component>
+    <image id="n28_810t" name="n28" src="nxbw2j" fileName="images/标题文字底.png" xy="15,31" size="175,51"/>
+    <loader id="n31_810t" name="iconImp" xy="197,42" size="57,33" url="ui://b3p8szvv810t23"/>
+    <component id="n32_nxbw" name="container" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="14,101"/>
+    <loader id="n33_nxbw" name="txtName" xy="26,25" size="171,63" vAlign="middle"/>
+    <graph id="n21_tc2x" name="iconMask" xy="0,0" size="601,215" hideByEditor="true" alpha="0.5" touchable="false" type="rect" lineColor="#00000000" fillColor="#ff000000"/>
+    <loader id="n37_nxbw" name="iconKuaFu" xy="258,42" size="57,33" url="ui://b3p8szvvnxbw2l"/>
+  </displayList>
+</component>

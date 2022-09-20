@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.dengFengZaoJi.model.DengFengZaoJi" tbname="dengFengZaoJi">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="resetTime" type="int" pf="all"  comment="每周重置时间"/>
+		    <col field="dengFengZaoJiModel" type="text" pf="all" comment="登峰造极信息"/>
+		    <col field="hasReceiveScoreReward" type="text" pf="all" comment="已领取积分奖励"/>
+		    <col field="betHid" type="bigint" pf="all" comment="预测数据"/>
+		    <col field="myRank" type="int" pf="all" comment="我的排名"/>
+		    <col field="type" type="int" pf="all" comment="0.海选 1.决赛"/>
+		    <col field="thid" type="bigint" pf="all" comment="对手玩家id"/>
+		    <col field="betReceive" type="int" pf="all" comment="领取冠军预测奖励"/>
+    </tb>
+</tbs>

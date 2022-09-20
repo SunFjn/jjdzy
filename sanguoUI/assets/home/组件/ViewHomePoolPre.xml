@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,840">
+  <displayList>
+    <component id="n0_ye03" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,840" locked="true">
+      <Label title="奖池预览"/>
+    </component>
+    <list id="n1_ye03" name="list" xy="14,68" size="576,761" overflow="scroll" defaultItem="ui://y0plc878ye038" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

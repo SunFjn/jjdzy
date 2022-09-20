@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,165">
+  <displayList>
+    <component id="n0_77k9" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="0,0"/>
+    <richtext id="n1_77k9" name="lbLv" xy="32,103" size="38,28" fontSize="18" color="#ffffff" text="123">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n2_77k9" name="btn" src="z1r82f" fileName="新组建/checkBox.xml" pkg="jvxpx9em" xy="13,133" size="76,32">
+      <Button title="屏蔽"/>
+    </component>
+  </displayList>
+</component>

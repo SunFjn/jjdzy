@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,889">
+  <displayList>
+    <component id="n1_ng03" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,889">
+      <Label title="时装"/>
+    </component>
+    <image id="n2_ng03" name="n2" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="30,81" size="532,144"/>
+    <list id="n3_ng03" name="list" xy="35,86" size="522,130" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://p83wyb2bh7p81" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_ng03" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="174,210">
+      <Label title="999999999"/>
+    </component>
+    <image id="n6_ng03" name="n6" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="158,419"/>
+    <text id="n7_ng03" name="labStar" xy="123,469" size="347,35" font="ui://jvxpx9emz1r82c" fontSize="24" color="#ffffff" align="center" autoSize="none" text="5111111111"/>
+    <component id="n8_ng03" name="equipBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="433,354" size="93,81">
+      <Button icon="ui://p83wyb2bng03t"/>
+    </component>
+    <component id="n9_ng03" name="n9" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="132,498" size="329,31">
+      <Label title="时装列表"/>
+    </component>
+    <component id="n10_ng03" name="n10" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="132,653" size="329,31">
+      <Label title="时装属性"/>
+    </component>
+    <list id="n11_ng03" name="fashionList" xy="114,522" size="392,134" layout="row" overflow="scroll" colGap="16" defaultItem="ui://p83wyb2bng03v" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n12_ng03" name="pageLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="78,558" size="55,63">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <component id="n13_ng03" name="pageRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="544,558" size="55,63" scale="-1,1">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <richtext id="n15_ng03" name="labAttrCur" xy="173,683" size="98,96" group="n18_ng03" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <image id="n16_ng03" name="imgArrow" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="281,702" group="n18_ng03">
+      <relation target="n15_ng03" sidePair="middle-middle"/>
+    </image>
+    <richtext id="n17_ng03" name="labAttrNext" xy="349,682" size="98,96" group="n18_ng03" touchable="false" fontSize="18" color="#ffffff" leading="10" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <group id="n18_ng03" name="attGroup" xy="173,682" size="274,97" advanced="true" layout="hz" colGap="10"/>
+    <richtext id="n14_ng03" name="labAttrMax" xy="261,684" size="98,96" touchable="false" fontSize="18" color="#ffffff" leading="10" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <richtext id="n22_kwfw" name="promptLb" xy="168,813" size="275,35" fontSize="24" color="#ff0000" align="center" autoSize="none" text="需激活少主">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n20_ng03" name="costLb" xy="176,842" size="240,28" group="n23_kwfw" fontSize="18" color="#ffffff" align="center" autoSize="none" text="消耗"/>
+    <component id="n19_ng03" name="upBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="228,786" group="n23_kwfw">
+      <Button title="激活"/>
+    </component>
+    <group id="n23_kwfw" name="costGroup" xy="176,786" size="240,84" advanced="true" collapsed="true"/>
+    <image id="n24_kwfw" name="n24" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="126,825" group="n26_kwfw"/>
+    <richtext id="n25_kwfw" name="n25" xy="251,815" size="116,35" group="n26_kwfw" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满星"/>
+    <group id="n26_kwfw" name="boxMax" xy="126,815" size="366,35" hideByEditor="true" advanced="true" collapsed="true"/>
+    <richtext id="n27_fe76" name="MRLb" xy="182,734" size="245,43" touchable="false" fontSize="30" color="#ffff00" autoSize="none" text="默认时装不可升星">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <loader id="n28_vuzv" name="modelIcon" xy="234,280" size="148,175" touchable="false" align="center" vAlign="bottom"/>
+  </displayList>
+</component>

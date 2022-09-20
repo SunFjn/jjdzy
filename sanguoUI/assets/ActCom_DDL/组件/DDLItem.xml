@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="108,110">
+  <displayList>
+    <image id="n1_ehld" name="selectImg" src="8m8s3hf" fileName="image/通用底框/蓝色选中光效.png" pkg="jvxpx9em" xy="0,0" size="108,110"/>
+    <richtext id="n2_ehld" name="content" xy="28,30" size="54,52" font="SimSun" fontSize="48" bold="true" text="意"/>
+  </displayList>
+</component>

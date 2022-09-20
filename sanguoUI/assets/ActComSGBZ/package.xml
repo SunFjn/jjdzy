@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="y9683xrp" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="zm7h0" name="name4.png" path="/image/" exported="true"/>
+    <image id="zm7h1" name="宝藏标题底.png" path="/image/" exported="true"/>
+    <image id="zm7h2" name="宝箱底座.png" path="/image/" exported="true"/>
+    <image id="zm7h3" name="name2.png" path="/image/" exported="true"/>
+    <image id="zm7h4" name="name3.png" path="/image/" exported="true"/>
+    <component id="zm7h9" name="Child_ActCom_SGBZ.xml" path="/组件/" exported="true"/>
+    <component id="j158a" name="ActCom_SGBZGrid.xml" path="/组件/" exported="true"/>
+    <component id="j158b" name="ActCom_SGBZItem.xml" path="/组件/" exported="true"/>
+    <component id="j158c" name="View_ActCom_SGBZList.xml" path="/组件/" exported="true"/>
+    <component id="j158d" name="View_ActCom_SGBZReward.xml" path="/组件/" exported="true"/>
+    <component id="j158e" name="ActCom_SGBZGrid1.xml" path="/组件/" exported="true"/>
+    <component id="ws8yf" name="SGBZRewardGrid.xml" path="/组件/" exported="true"/>
+    <image id="ws8yg" name="已抽取.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="ActComSGBZ" genCode="true" npot="true"/>
+</packageDescription>

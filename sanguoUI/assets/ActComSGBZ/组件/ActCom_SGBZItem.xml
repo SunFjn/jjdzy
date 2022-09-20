@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="606,198">
+  <displayList>
+    <image id="n3_zm7h" name="n3" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="606,198"/>
+    <image id="n4_zm7h" name="n4" src="zm7h1" fileName="image/宝藏标题底.png" xy="202,2"/>
+    <loader id="n5_zm7h" name="nameIcon" xy="221,5" size="153,23" url="ui://y9683xrpzm7h3" align="center"/>
+    <richtext id="n9_j158" name="promptLb" xy="28,12" size="70,28" fontSize="18" color="#ffffff" text="限选1个"/>
+    <richtext id="n11_j158" name="chooseLb" xy="503,11" size="74,28" fontSize="18" color="#ffffff" text="已选:1个"/>
+    <list id="n10_j158" name="list" xy="9,38" size="583,147" layout="row" overflow="hidden" scroll="horizontal" colGap="-13" defaultItem="ui://y9683xrpj158a" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.promotion.model.PromotionModel" tbname="promotionModel">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="level" type="int" pf="all" comment="等级"/>
+			<col field="exp" type="int" pf="all" comment="积累经验"/>
+			<col field="levelReward" type="text" pf="all" comment="已领取的晋级奖励"/>
+			<col field="taskMap" type="text" pf="all" comment="任务信息 "/>
+			<col field="teamTask" type="text" pf="all" comment="分支任务"/>
+     </tb>
+</tbs>

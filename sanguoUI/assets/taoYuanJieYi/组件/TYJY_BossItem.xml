@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="612,281">
+  <displayList>
+    <loader id="n3_vfmx" name="bgImg" xy="0,0" size="50,50"/>
+    <image id="n6_vfmx" name="n6" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="325,20" size="266,240"/>
+    <image id="n4_vfmx" name="n4" src="ihs77" fileName="image/奖励预览.png" xy="404,35"/>
+    <list id="n5_vfmx" name="list" xy="337,74" size="312,211" scale="0.8,0.8" layout="flow_hz" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

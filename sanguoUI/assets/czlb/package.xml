@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="2o8uvloz">
+  <resources>
+    <image id="k7mb0" name="C-超值礼包.jpg" path="/assets/"/>
+    <image id="k7mb1" name="超值礼包.png" path="/assets/" exported="true"/>
+    <image id="k7mb2" name="配图.jpg" path="/assets/" exported="true"/>
+    <component id="k7mb3" name="ViewCZHB.xml" path="/view/" exported="true"/>
+    <component id="k7mb4" name="ItemCZHB.xml" path="/view/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true" maxAtlasSize="2048" sizeOption="npot"/>
+</packageDescription>

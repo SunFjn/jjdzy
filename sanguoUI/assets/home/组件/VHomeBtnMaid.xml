@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="140,183" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n2_qeas" name="n2" src="htpq1q" fileName="image/通用底框/名字底框.png" pkg="jvxpx9em" xy="0,143"/>
+    <richtext id="n0_qeas" name="n0" xy="22,146" size="97,35" touchable="false" fontSize="24" color="#ffffff" align="center" autoSize="none" text="侍女"/>
+    <loader id="n3_qeas" name="img" xy="-42,-3" size="224,147" touchable="false" url="ui://y0plc878qeas21" align="center" vAlign="bottom" fill="scale"/>
+    <image id="n4_qeas" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="108,137" visible="false"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.10"/>
+</component>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cache>
+	<!--帮会缓存 -->
+	<system cache="com.teamtop.util.cache.union.test.TestGangCache" getter="getGangMap" handler="com.teamtop.util.cache.union.test.GangUCTrigger" pf="all">
+		<op trigger="serverstart"/>
+		<op trigger="fixtime" period="3060" method="syncAll"/>
+		<op trigger="shutdown"/>
+	</system>
+	<!--hero缓存 -->
+	<system cache="com.teamtop.system.hero.HeroCache" getter="getHeroMap" handler="com.teamtop.system.hero.HeroUCTrigger" pf="all">
+		<op trigger="fixtime" period="333" method="syncOne"/>
+		<op trigger="logout" method="syncOne"/>
+		<op trigger="clearcache" method="syncOne" afterMethod="killOne"/>
+		<op trigger="shutdown"/>
+		<op trigger="serverstart"/>
+	</system>
+	<!--hero默认性别缓存 -->
+	<system cache="com.teamtop.system.hero.HeroCache" getter="getHeroSexCountMap" handler="com.teamtop.system.hero.HeroSexCountUCTrigger" pf="all">
+		<op trigger="serverstart"/>
+	</system>
+	<!--loginfo缓存 -->
+	<!--
+	<system cache="BACKSTAGE" getter="z_loginfoMap" handler="com.teamtop.util.cache.union.test.LoginfoUCTrigger" pf="all">
+		<op trigger="fixtime" period="860" method="syncAll"/>
+		<op trigger="shutdown"/>
+		<op trigger="zerotime" method="killAll"/>
+	</system>
+	-->
+	<!--临时数据teampData缓存 -->
+	<!--
+	<system cache="TEMPDATA" getter="tempdataMap" handler="com.teamtop.util.cache.union.test.TempDataUCTrigger" pf="all">
+		<op trigger="serverstart"/>
+		<op trigger="fixtime" period="860" method="syncAll"/>
+		<op trigger="shutdown"/>
+	</system>
+	-->
+	<!--活动缓存 -->
+	<!--
+	<system cache="SPECIALACTIVITY" getter="specialActivityMap" handler="com.teamtop.util.cache.union.test.SpecialActivityMapUCTrigger" pf="all">
+		<op trigger="serverstart"/>
+		<op trigger="shutdown"/>
+	</system>
+	-->
+	<!--农庄缓存 -->
+	<!--
+	<system cache="MOUNTAIN" getter="mountainMap" handler="com.teamtop.util.cache.union.test.MountainUCTrigger" pf="all">
+		<op trigger="find" method="findOne"/>
+		<op trigger="fixtime" period="333" method="syncOne"/>
+		<op trigger="logout" method="syncOne"/>
+		<op trigger="shutdown"/>
+		<op trigger="clearcache" method="killOne"/>
+	</system>
+	-->
+</cache>

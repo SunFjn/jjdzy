@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,102" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <loader id="n6_h2o6" name="bg" xy="0,5" size="96,96" url="ui://jvxpx9emy1z8p" fill="scaleFree"/>
+    <loader id="n7_h2o6" name="imgIcon" xy="2,7" size="92,92" align="center" vAlign="middle"/>
+    <image id="n8_h2o6" name="selectImg" src="z1r82h" fileName="image/新资源/选中发光状态框.png" pkg="jvxpx9em" xy="-9,-6" size="114,119">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <image id="n9_h2o6" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="82,0" visible="false"/>
+    <richtext id="n1_h2o6" name="lbName" xy="-15,102" size="127,29" fontSize="18" color="#ffffff" align="center" autoSize="shrink" text="中级消耗品啊"/>
+    <richtext id="n10_b8as" name="lbLv" xy="3,72" size="89,28" touchable="false" fontSize="18" color="#ffffff" align="right" leading="0" autoSize="none" strokeColor="#000000" text="9999.9万">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </richtext>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

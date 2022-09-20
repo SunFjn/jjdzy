@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,888" opaque="false">
+  <displayList>
+    <component id="n8_c14z" name="item0" src="c14zj" fileName="组件/SkillItem.xml" xy="15,231"/>
+    <component id="n10_c14z" name="item1" src="c14zj" fileName="组件/SkillItem.xml" xy="15,418"/>
+    <component id="n11_c14z" name="item2" src="c14zj" fileName="组件/SkillItem.xml" xy="15,605"/>
+    <component id="n13_c14z" name="keyBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="252,826">
+      <Button title="一键升级"/>
+    </component>
+    <component id="n19_dn79" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="177,154"/>
+  </displayList>
+</component>

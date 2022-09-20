@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="1tr9e6d8" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="m0yoz" name="CBGGrid.xml" path="/组件/" exported="true"/>
+    <component id="m0yoy" name="ViewCangBaoGe.xml" path="/组件/" exported="true"/>
+    <image id="tar60" name="大奖.png" path="/image/" exported="true"/>
+    <image id="tar61" name="藏宝阁标题.png" path="/image/" exported="true"/>
+    <image id="bcxw11" name="首抽必中.png" path="/image/" exported="true"/>
+    <image id="vong16" name="图层 662 拷贝 2.png" path="/image/" exported="true"/>
+    <component id="z8fv17" name="ViewCangBaoGeRank.xml" path="/组件/" exported="true"/>
+    <component id="z8fv18" name="VCangBaoGeRank.xml" path="/组件/" exported="true"/>
+    <component id="z8fv19" name="VCangBaoGeRank1.xml" path="/组件/" exported="true"/>
+    <component id="dxmc1a" name="View_Reward_Show2.xml" path="/组件/"/>
+    <image id="dxmc1b" name="虚位以待.png" path="/image/" exported="true"/>
+    <component id="dxmc1c" name="ViewCangBaoGeRew.xml" path="/组件/" exported="true"/>
+    <image id="q9yr1d" name="神将送礼.png" path="/image/" exported="true"/>
+    <image id="q9yr1e" name="积分.png" path="/image/" exported="true"/>
+    <image id="ob6z1f" name="气泡框.png" path="/image/" exported="true"/>
+    <image id="q5t61h" name="藏宝阁背景.jpg" path="/image/"/>
+  </resources>
+  <publish name="cangbaoge" genCode="true" npot="true" excluded="q5t61h"/>
+</packageDescription>

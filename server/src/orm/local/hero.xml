@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.hero.Hero" tbname="hero">
+		<index field="id" type="prikey"/>
+		<index field="name" type="unique"/>
+		<index field="zoneid" type="normal"/>
+		<index field="zoneid,level" type="normal"/>
+		<index field="createTime" type="normal"/>
+		<index field="openid" type="normal"/>
+		<index field="pf" type="normal"/>
+		<index field="pd" type="normal"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="aid" type="bigint" pf="all" comment="账号id"/>
+		<col field="openid" type="varchar" len="100" pf="all" comment="openid"/>
+		<col field="name" type="varchar" len="50" pf="all" comment="名字"/>
+		<col field="level" type="int" pf="all" comment="等级"/>
+		<col field="nowCreate" type="int" pf="all" comment="刚刚建号为1，其余情况为0"/>
+		<col field="job" type="int" pf="all" comment="职业，1剑客，2刀客"/>
+		<col field="sex" type="int" pf="all" comment="性别，1男，2女"/>
+		<col field="zoneid" type="int" pf="all" comment="区id"/>
+		<col field="createTime" type="int" pf="all" comment="创建角色时间"/>
+		<col field="illegalState" type="int" pf="all" comment="禁言状态 0:正常 1:禁言"/>
+		<col field="illegalTimeout" type="int" pf="all" comment="禁言状态的失效时间"/>
+		<col field="illegalReason" type="varchar" len="255" pf="all" comment="禁言原因,通过后台传入赋值"/>
+		<col field="forbidState" type="int" pf="all" comment="封禁状态 0:正常 1:封号 2:封号处理问题"/>
+		<col field="forbidTimeout" type="int" pf="all" comment="封禁状态的失效时间"/>
+		<col field="forbidReason" type="varchar" len="255" pf="all" comment="封禁原因,通过后台传入赋值"/>
+		<col field="pf" type="varchar" len="255" pf="all" comment="pf平台信息"/>
+		<col field="pd" type="varchar" len="255" pf="all" comment="pd平台信息"/>
+		<col field="loginPf" type="varchar" len="255" pf="all" comment="最近登录的pf平台信息"/>
+		<col field="loginPd" type="varchar" len="255" pf="all" comment="最近登录的pd平台信息"/>
+		<col field="guideGameFinish" type="int" pf="all" comment="是否第一次玩游戏 1为已完成 0为未完成"/>
+		<col field="gameSound" type="int" pf="all" comment="游戏声音 1为开启 0为关闭"/>
+		<col field="totalStrength" type="bigint" pf="all" comment="总战力"/>
+		<col field="countryType" type="int" pf="all" comment="国家ID"/>
+		<col field="gangId" type="bigint" pf="all" comment="帮会ID"/>
+		<col field="marryHid" type="bigint" pf="all" comment="结婚对象id,0表示未婚"/>
+		<col field="loginTime" type="int" pf="all" comment="登陆时间"/>
+		<col field="logoutTime" type="int" pf="all" comment="登出时间"/>
+		<col field="exp" type="bigint" pf="all" comment="经验"/>
+		<col field="yuanbao" type="bigint" pf="all" comment="元宝"/>
+		<col field="coin" type="bigint" pf="all" comment="铜币"/>
+		<col field="prestige" type="bigint" pf="all" comment="声望"/>
+		<col field="destinyExp" type="bigint" pf="all" comment="符文经验"/>
+		<col field="zcBossJf" type="bigint" pf="all" comment="zcboss积分"/>
+		<col field="starSoul" type="bigint" pf="all" comment="星魂"/>
+		<col field="soulFire" type="bigint" pf="all" comment="魂火"/>
+		<col field="shareCoin" type="bigint" pf="all" comment="分享币"/>
+		<col field="zeroTime" type="int" pf="all" comment="0点处理时间"/>
+		<col field="finalFightAttr" type="varchar" len="1000" isnull="true" pf="all" comment="最终战斗属性详细，离线时保存"/>  
+		<col field="showModel" type="varchar" len="500"  pf="all" comment="外观模型"/>
+		<col field="chongZhiYuan" type="bigint" pf="all" comment="总充值(元)"/>
+		<col field="vipLv" type="int" pf="all" comment="vip等级，冗余数据"/>
+		<col field="marriageId" type="bigint" pf="all" comment="婚姻id"/>
+		<col field="indoorGlod" type="bigint" pf="all" comment="内部发放获得的绑定元宝总值"/>
+		<col field="indoorGlodUse" type="bigint" pf="all" comment="内部发放获得的绑定元宝消耗"/>
+		<col field="indoorGlodNotBind" type="bigint" pf="all" comment="内部发放获得的非绑定元宝总值"/>
+		<col field="indoorGlodNotBindUse" type="bigint" pf="all" comment="内部发放获得的非绑定元宝消耗"/>
+		<col field="isIndoorAccount" type="int" pf="all" comment="内部号标识，0否，1是"/>
+		<col field="isOldPlayer" type="int" pf="all" comment="是否滚服玩家，0待查，1是，2否"/>
+		<col field="firstRechargeTime" type="int" pf="all" comment="首次充值时间"/>
+		<col field="frAwardsState" type="int" pf="all" comment="首充奖励状态 1可领取 0未达到 2已领取"/>
+		<col field="recentlyRechargeTime" type="int" pf="all" comment="最近一次充值时间"/>
+		<col field="loginIp" type="varchar" len="50" pf="all" comment="登陆ip"/>
+		<col field="createIp" type="varchar" len="50" pf="all" comment="注册ip"/>
+		<col field="totalConsumeGlod" type="bigint" pf="all" comment="总消耗元宝，包括非绑定元宝与绑定元宝"/>
+		<col field="totalConsumeSilver" type="bigint" pf="all" comment="总消耗银两，包括非绑定银两与绑定银两"/>
+		<col field="specialType" type="int" pf="all" comment="特殊身份类型，0不是，1新手指导员，2GM"/>
+		<col field="oneDayConsmeNum" type="int" pf="all" comment="玩家每日消费数(元宝和绑定元宝数)实时的  每天都重置"/>
+		<col field="oneDayConsume" type="int" pf="all" comment="玩家每日消费数(元宝和绑定元宝数)实时的  每天都重置"/>
+		<col field="oneDayRecharge" type="int" pf="all" comment="玩家每日充值数量实时的  每天都重置"/>
+		<col field="oneDayEveryIndexRechargeList" type="text"  pf="all" comment="玩家每日充值档次实时的  每天都重置(元宝,首充,特权卡,每日直购,基金都有)"/>
+		<col field="adState" type="int" pf="all" comment="广告号状态，0不是，1广告关键字可疑，2私聊多可疑，3广告号"/>
+		<col field="adMonitorType" type="int" pf="all" comment="广告号监控类型，0不是，1广告关键字，2私聊多"/>
+		<col field="adTime" type="int" pf="all" comment="广告号添加时间"/>
+		<col field="limitRec" type="varchar"  len="1000"  pf="all" comment="收益上限"/>
+		<col field="totalOnlineTime" type="bigint" pf="all" comment="累计在线时长"/>
+		<col field="dayOnlineTime" type="int" pf="all" comment="当天在线时长"/>
+		<col field="smelt" type="varchar" len="100" pf="all" comment="熔炼系统"/>
+		<col field="rebornlv" type="int" pf="all" comment="转生等级"/>
+		<col field="chongJiAwards" type="varchar" len="100" pf="all" comment="冲级奖励"/>
+		<col field="mallJf" type="int" pf="all" comment="商城积分"/>
+		<col field="rankMobaiMap" type="varchar" len="150" pf="all" comment="排行榜膜拜"/>
+		<col field="kaiFuBiPinAwardsID" type="int" pf="all" comment="开服比拼，已领取的奖励ID"/>
+		<col field="kaiFuBiPinRankNum" type="int" pf="all" comment="开服比拼，开服比拼，下线时的排名"/>
+		<col field="official" type="int" pf="all" comment="官职"/>
+		<col field="danyao" type="varchar" len="600" pf="all" comment="丹药吞噬 "/>
+		<col field="rechargeFiveTimes" type="text" pf="all" comment="充值5倍返利 ，key：表id，value：充值次数"/>
+		<col field="privilegeCardMap" type="text" pf="all" comment="特权卡数据"/>
+		<col field="privilegeAward" type="int" pf="all" comment="同时拥有3张特权卡奖励领取状态"/>
+		<col field="heroFubenTime" type="int" pf="all" comment="英雄副本通关时间 （用于排行榜）"/>
+		<col field="heroFubenGq" type="int" pf="all" comment="英雄副本通关关卡"/>		
+		<col field="zhanGong" type="int" pf="all" comment="战功"/>
+		<col field="weiDuanFlag" type="int" pf="all" comment="微端奖励领取状态(1已领0未领)"/>
+		<col field="autoFight" type="int" pf="all" comment="自动战斗设置，0不开启，1开启"/>
+		<col field="monsterSpiritMap" type="varchar" len="150" pf="all" comment="兽灵"/>
+		<col field="starPictureMap" type="varchar" len="150" pf="all" comment="星图"/>
+		<col field="icon" type="int"  pf="all" comment="头像"/>
+		<col field="frame" type="int"  pf="all" comment="头像框"/>
+		<col field="titleId" type="int"  pf="all" comment="穿戴称号"/>
+		<col field="showCountry" type="int"  pf="all" comment="显示国家"/>
+		<col field="settingData" type="text"  pf="all" comment="设置"/>
+		<col field="openSysReward" type="text"  pf="all" comment="系统开启奖励"/>
+		<col field="successPayNum" type="int" pf="all" comment="成功支付次数"/>
+		<col field="createJob" type="int" pf="all" comment="创角职业，1剑客，2刀客"/>
+		<col field="rechargeGrade" type="varchar" len="30" pf="all" comment="档次充值记录"/>
+		<col field="firstRechargeAward" type="varchar" len="30" pf="all" comment="首充奖励"/>
+		<col field="firstRechargeCloseUITime" type="int" pf="all" comment="新首充奖励，叉掉UI的时间"/>
+		<col field="awardsCreateHero" type="int" pf="all" comment="登录就送的奖励状态  0未领取 1已领取"/>
+		<col field="beforeTime" type="int" pf="all" comment="上一次任务完成时间"/>
+		<col field="beforeTaskId" type="int" pf="all" comment="上一次任务id"/>
+		<col field="noticestr" type="varchar" len="100" pf="all" comment="上次打开公告时的版本号"/>
+		<col field="endUidSet" type="varchar" len="300" pf="all" comment="已结束结算系统uid集合"/>
+		<col field="giftTaskIds"  type="varchar" len="500" pf="all"  comment="已经领取的霸服礼包id"/>
+		<col field="usesys" type="varchar" len="200" pf="all" comment="注册系统"/>
+		<col field="waitRechargeMap" type="varchar" len="1000" pf="all" comment="待处理充值数据"/>
+		<col field="reincarnationLevel" type="int" pf="all" comment="六道轮回等级"/>
+		<col field="mountId" type="int" pf="all" comment="坐骑"/>
+		</tb>
+</tbs>

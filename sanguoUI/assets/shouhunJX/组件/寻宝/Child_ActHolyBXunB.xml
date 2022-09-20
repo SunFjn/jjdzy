@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,922" opaque="false">
+  <displayList>
+    <loader id="n61_g6ol" name="imgBg" xy="11,143" size="618,652" url="ui://4aepcdbwflxz5b" autoSize="true"/>
+    <image id="n56_v10m" name="n56" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="243,301" size="159,48"/>
+    <image id="n55_v10m" name="n55" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="250,630" size="136,30">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n64_flxz" name="n64" src="dlak69" fileName="image/箭头+其他/间隔线.png" pkg="jvxpx9em" xy="25,795"/>
+    <component id="n11_n2pm" name="grid0" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="20,156"/>
+    <image id="n62_8tt9" name="n62" src="wg9y58" fileName="image/起点.png" xy="53,176"/>
+    <component id="n12_n2pm" name="grid1" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="120,156"/>
+    <component id="n13_n2pm" name="grid2" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="220,156"/>
+    <component id="n14_n2pm" name="grid3" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="320,156"/>
+    <component id="n15_n2pm" name="grid4" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="420,156"/>
+    <component id="n16_n2pm" name="grid5" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="520,156"/>
+    <component id="n17_n2pm" name="grid6" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="520,263"/>
+    <component id="n18_n2pm" name="grid7" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="520,370"/>
+    <component id="n19_n2pm" name="grid8" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="520,477"/>
+    <component id="n20_n2pm" name="grid9" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="520,584"/>
+    <component id="n21_n2pm" name="grid10" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="520,691"/>
+    <component id="n22_n2pm" name="grid11" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="420,691"/>
+    <component id="n25_n2pm" name="btnDice" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="254,541">
+      <Button title="掷骰子"/>
+    </component>
+    <richtext id="n26_n2pm" name="lbCt" xy="281,631" size="95,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="999"/>
+    <richtext id="n28_n2pm" name="lbQuan" xy="241,308" size="163,35" touchable="false" fontSize="24" color="#ffffff" align="center" leading="0" autoSize="none" text="第4圈"/>
+    <component id="n43_v10m" name="grid12" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="320,691"/>
+    <component id="n44_v10m" name="grid13" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="220,691"/>
+    <component id="n45_v10m" name="grid14" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="120,691"/>
+    <component id="n46_v10m" name="grid15" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="20,691"/>
+    <component id="n38_n2pm" name="checkBox" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="403,628" size="122,32">
+      <Button title=" 跳过动画" titleColor="#66ff00"/>
+    </component>
+    <component id="n47_v10m" name="grid16" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="20,584"/>
+    <component id="n48_v10m" name="grid17" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="20,477"/>
+    <component id="n49_v10m" name="grid18" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="20,370"/>
+    <component id="n50_v10m" name="grid19" src="wg9y4p" fileName="组件/寻宝/VActHolyBGrid.xml" xy="20,263"/>
+    <image id="n51_v10m" name="n51" src="wg9y4s" fileName="image/骰子.png" xy="237,618"/>
+    <component id="n59_kxay" name="chooseImg" src="wg9y4q" fileName="组件/寻宝/VActHolyBHead.xml" xy="62,120"/>
+    <loader id="n60_kxay" name="imgRoll" xy="272,387" size="50,50" scale="2,2" url="ui://4aepcdbwwg9y4v"/>
+    <richtext id="n65_flxz" name="n65" xy="26,798" size="221,28" fontSize="18" color="#00ff00" text="每领取一轮奖励后重置进度"/>
+    <richtext id="n67_flxz" name="n67" xy="25,850" size="90,31" fontSize="20" color="#ff9900" text="跑圈次数:"/>
+    <component id="n68_flxz" name="bar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="119,852" size="481,19">
+      <ProgressBar value="3" max="50"/>
+    </component>
+    <component id="n69_flxz" name="grid00" src="flxz5d" fileName="组件/寻宝/ActHolyBXunBGrid.xml" xy="144,823">
+      <Label title="5圈"/>
+    </component>
+    <component id="n109_flxz" name="grid01" src="flxz5d" fileName="组件/寻宝/ActHolyBXunBGrid.xml" xy="248,823">
+      <Label title="10圈"/>
+    </component>
+    <component id="n110_flxz" name="grid02" src="flxz5d" fileName="组件/寻宝/ActHolyBXunBGrid.xml" xy="393,823">
+      <Label title="30圈"/>
+    </component>
+    <component id="n111_flxz" name="grid03" src="flxz5d" fileName="组件/寻宝/ActHolyBXunBGrid.xml" xy="539,823">
+      <Label title="50圈"/>
+    </component>
+  </displayList>
+</component>

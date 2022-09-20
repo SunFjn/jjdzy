@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="626,635">
+  <displayList>
+    <component id="n0_tznx" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="626,635">
+      <Label title="抽奖记录"/>
+    </component>
+    <richtext id="n1_tznx" name="noteLb" xy="32,82" size="558,513" fontSize="24" color="#ffffff" leading="10" autoSize="none" text=""/>
+  </displayList>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="611,88">
+  <controller name="stateCtrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n6_oz6c" name="n6" src="oz6c1" fileName="res/任务底框.png" xy="0,0" size="611,88"/>
+    <component id="n7_oz6c" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="460,19" size="130,51">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+      <Button title="前往"/>
+    </component>
+    <component id="n8_oz6c" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="460,19">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+      <Button title="领取"/>
+    </component>
+    <image id="n9_oz6c" name="imageGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="462,24">
+      <gearDisplay controller="stateCtrl" pages="2"/>
+    </image>
+    <image id="n10_oz6c" name="n10" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="15,12" size="267,27"/>
+    <richtext id="n11_oz6c" name="tfContent" xy="20,13" size="159,25" fontSize="18" color="#ffffff" autoClearText="true" text="活动剩余时间：1天"/>
+    <richtext id="n12_oz6c" name="tfScore" xy="20,49" size="68,27" fontSize="20" color="#ffff00" vAlign="middle" autoClearText="true" text="活跃+5"/>
+    <loader id="n13_oz6c" name="imageIcon" xy="127,43" size="40,40" url="ui://jvxpx9embwmw3y" align="center" vAlign="middle" fill="scale"/>
+    <richtext id="n14_oz6c" name="tfValue" xy="169,49" size="49,27" fontSize="20" color="#ffff00" vAlign="middle" autoClearText="true" text="1000"/>
+  </displayList>
+</component>

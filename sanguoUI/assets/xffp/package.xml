@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="791nthw5" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="p8zd0" name="ChildXFFP.xml" path="/" exported="true"/>
+    <image id="p8zd1" name="已领取.png" path="/res/"/>
+    <image id="p8zd2" name="选角底条.png" path="/res/" scale="9grid" scale9grid="163,37,221,76"/>
+    <image id="p8zd3" name="消费翻牌图标.png" path="/res/"/>
+    <image id="p8zd4" name="消费翻牌.png" path="/res/"/>
+    <image id="p8zd5" name="稀有奖励.png" path="/res/"/>
+    <image id="p8zd6" name="卡牌正面.png" path="/res/"/>
+    <image id="p8zd7" name="卡牌背面.png" path="/res/"/>
+    <image id="p8zd8" name="点击翻牌.png" path="/res/"/>
+    <image id="oivd9" name="奖励预览.png" path="/res/"/>
+    <component id="mej8g" name="XFFPCardItem.xml" path="/" exported="true"/>
+    <image id="hqdqh" name="卡牌正面2.png" path="/res/"/>
+    <image id="hqdqi" name="普通奖励.png" path="/res/"/>
+  </resources>
+  <publish name="xffp" genCode="true" npot="true"/>
+</packageDescription>

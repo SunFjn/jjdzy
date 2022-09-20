@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="538,60">
+  <displayList>
+    <image id="n0_hul7" name="n0" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,2" size="538,58"/>
+    <image id="n5_hul7" name="imgNull" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="226,20"/>
+    <loader id="n1_hul7" name="n1" xy="59,0" pivot="0.5,0.5" size="72,65" aspect="true" scale="0.7,0.7" url="ui://jvxpx9em100v3al"/>
+    <richtext id="n2_hul7" name="n2" xy="90,16" size="16,28" fontSize="18" color="#ffcc33" text="1">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n3_hul7" name="lbName" xy="236,16" size="77,28" fontSize="18" color="#ffffff" text="玩家名字">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n4_hul7" name="lbLayer" xy="433,16" size="27,28" fontSize="18" color="#ffffff" text="44">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qb4y6bxe" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="phch0" name="Child_ActCom_PXSB.xml" path="/组件/" exported="true"/>
+    <component id="phch1" name="Item_ActCom_PXSB.xml" path="/组件/" exported="true"/>
+    <image id="q54c2" name="大奖.png" path="/image/" exported="true"/>
+    <image id="q54c3" name="大奖框.png" path="/image/" exported="true" scale="9grid" scale9grid="23,23,46,46"/>
+    <component id="q54c4" name="PXSBGrid.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="actCom_PXSB" genCode="true"/>
+</packageDescription>

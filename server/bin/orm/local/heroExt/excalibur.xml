@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.excalibur.model.Excalibur" tbname="excalibur">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="wearExcaliburId" type="int" pf="all" comment="装备着的神剑Id"/>
+			<col field="excaliburMap" type="text" pf="all" comment="神剑信息"/>
+			<col field="strength" type="int" pf="all" comment="图鉴战力"/>
+			<col field="jieLv" type="int" pf="all"  comment="阶级"/>
+			<col field="jieexp" type="int" pf="all" comment="升阶经验"/>
+			<col field="skills" type="varchar" len="1000" pf="all" comment="技能"/>
+			<col field="taozhuangs" type="varchar" len="400" pf="all" comment="套装"/>
+     </tb>
+</tbs>

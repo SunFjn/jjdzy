@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.equip.model.Equip" tbname="equip">
+		<index field="id" type="prikey"/>
+		<index field="hid" type="normal"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="sysId" type="int" pf="all" comment="装备的系统id"/>
+		<col field="state" type="int" pf="all" comment="状态 1 在背包中  2 在仓库 3 在身上  4 在交易中/市场上 5在邮件中"/>
+		<col field="bodyIndex" type="int" pf="all" comment="穿戴装备的身上位置 默认从0开始"/>
+	</tb>
+</tbs>

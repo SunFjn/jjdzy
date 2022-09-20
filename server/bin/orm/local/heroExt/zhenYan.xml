@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.zhenYan.ZhenYan" tbname="zhenYan">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="zhenXinLevel" type="int" pf="all"  comment="阵心等级"/>
+			<col field="zhenYanLevelMap" type="text" pf="all" comment="阵眼等级"/>
+     </tb>
+</tbs>

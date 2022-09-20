@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,648">
+  <displayList>
+    <loader id="n3_woj2" name="titleBg" xy="0,0" size="640,186" url="ui://vrex0iz4q1jvh" fill="scaleFree"/>
+    <image id="n7_piq9" name="n7" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="9,136" size="304,50"/>
+    <list id="n5_woj2" name="list" xy="3,190" size="637,458" overflow="scroll" defaultItem="ui://vrex0iz4woj23" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n4_woj2" name="timeLb" xy="29,155" size="113,28" touchable="false" fontSize="18" color="#ffffff" leading="0" text="活动剩余时间"/>
+  </displayList>
+</component>

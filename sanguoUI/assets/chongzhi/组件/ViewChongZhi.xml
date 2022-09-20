@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_nvyw" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0" locked="true"/>
+    <image id="n16_x3b9" name="n16" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="12,168" size="614,102"/>
+    <component id="n1_nvyw" name="VipBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="35,244" size="564,16">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n4_nvyw" name="vip" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="492,194" size="109,43">
+      <Button title="查看特权" titleFontSize="18"/>
+    </component>
+    <list id="n5_nvyw" name="lst" xy="28,471" size="603,433" layout="flow_hz" overflow="scroll" lineGap="15" colGap="-5" lineItemCount="3" defaultItem="ui://42zxp7qjt2yi12">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n11_anpm" name="lbPro" xy="290,205" size="40,28" fontSize="18" color="#00ff00" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n17_x3b9" name="ButtonVIP" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="47,198" size="95,39">
+      <Button icon="ui://7gxkx46wltpm18"/>
+    </component>
+    <text id="n18_x3b9" name="lbVip" xy="44,205" size="99,24" font="ui://jvxpx9em608a8q" fontSize="20" align="center" leading="0" autoSize="none" text="P29"/>
+    <loader id="n19_k6f8" name="czBg" xy="17,275" size="600,188" url="ui://42zxp7qjk6f81w" align="center" vAlign="middle"/>
+  </displayList>
+</component>

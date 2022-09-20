@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,648">
+  <displayList>
+    <loader id="n0_e7xr" name="imgHeadbg" xy="0,0" size="100,100"/>
+    <image id="n20_ecsa" name="n20" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="485,13" size="145,37"/>
+    <image id="n6_e7xr" name="n6" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,187" size="640,453"/>
+    <image id="n14_xhzo" name="n14" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="18,311" size="605,301"/>
+    <image id="n1_e7xr" name="imgCharge" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="0,156" size="639,32" flip="vt"/>
+    <richtext id="n3_e7xr" name="labTime" xy="16,158" size="205,28" touchable="false" fontSize="18" color="#2ff10f" text="活动剩余时间：10:10:10"/>
+    <richtext id="n5_e7xr" name="labCharge" xy="479,18" size="159,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="今日已充2000元"/>
+    <component id="n8_e7xr" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="60,237" size="483,16">
+      <ProgressBar value="10" max="50"/>
+    </component>
+    <list id="n12_e7xr" name="list" xy="403,337" size="225,224" scale="0.8,0.8" layout="flow_hz" lineGap="9" colGap="14" lineItemCount="2" defaultItem="ui://jvxpx9emetorm">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n15_ecsa" name="n15" src="m3513c0" fileName="image/新版台子.png" pkg="jvxpx9em" xy="42,516"/>
+    <image id="n19_ecsa" name="n19" src="zzq33dz" fileName="image/圆底.png" pkg="jvxpx9em" xy="60,338"/>
+    <loader id="n18_ecsa" name="imgBig" xy="122,375" size="121,113" align="center" vAlign="middle"/>
+    <image id="n21_ecsa" name="imgLabBig" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="103,546" size="161,38"/>
+    <richtext id="n22_ecsa" name="labBig" xy="83,549" size="202,34" touchable="false" fontSize="22" color="#58a8ed" align="center" autoSize="none" autoClearText="true" text="大奖进度1/2"/>
+    <component id="n23_ecsa" name="item0" src="ecsa13" fileName="组件/连续累充/VLXLCItem.xml" xy="166,200"/>
+    <component id="n24_ecsa" name="item1" src="ecsa13" fileName="组件/连续累充/VLXLCItem.xml" xy="326,200"/>
+    <component id="n25_ecsa" name="item2" src="ecsa13" fileName="组件/连续累充/VLXLCItem.xml" xy="486,200"/>
+    <component id="n16_ecsa" name="btnBigGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="120,540">
+      <Button title="领取"/>
+    </component>
+    <image id="n17_ecsa" name="imgBigGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="122,545"/>
+    <image id="n27_jrxd" name="imgGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="426,537"/>
+    <component id="n28_jrxd" name="btnRec" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="424,532">
+      <Button title="前往充值"/>
+    </component>
+    <component id="n13_e7xr" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="424,532">
+      <Button title="领取"/>
+    </component>
+    <image id="n29_r568" name="n29" src="r56816" fileName="image/累充天数.png" xy="51,210" group="n31_r568"/>
+    <richtext id="n30_r568" name="labDay" xy="59,232" size="50,28" group="n31_r568" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="3天"/>
+    <group id="n31_r568" name="n31" xy="51,210" size="68,68"/>
+  </displayList>
+</component>

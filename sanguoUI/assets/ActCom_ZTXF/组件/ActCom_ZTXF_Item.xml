@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="618,147">
+  <displayList>
+    <image id="n1_glgp" name="n1" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="618,147" locked="true"/>
+    <image id="n3_glgp" name="n3" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="24,13"/>
+    <richtext id="n4_glgp" name="lbpro" xy="27,13" size="167,27" fontSize="20" color="#ffffff" text="激活符文主题(1/1)"/>
+    <component id="n5_glgp" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="456,50">
+      <Button title="激活"/>
+    </component>
+    <component id="n10_zdqf" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="456,50">
+      <Button title="领取"/>
+    </component>
+    <image id="n7_glgp" name="imgYlq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="457,56"/>
+    <richtext id="n6_glgp" name="lbBuff" xy="477,62" size="85,27" fontSize="20" color="#ff0000" text="尚未激活">
+      <relation target="n5_glgp" sidePair="center-center"/>
+    </richtext>
+    <list id="n9_glgp" name="list" xy="24,48" size="337,104" scale="0.8,0.8" layout="flow_hz" overflow="scroll" scroll="horizontal" colGap="12" defaultItem="ui://jvxpx9emetorm">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

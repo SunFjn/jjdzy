@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="591,551">
+  <displayList>
+    <component id="n0_nlyo" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="591,551" locked="true">
+      <Label title="神将天赋"/>
+    </component>
+    <image id="n16_nlyo" name="n16" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="26,200" size="538,158"/>
+    <component id="n1_nlyo" name="skill0" src="l0xet" fileName="新组建/VWuJiangSkillS.xml" pkg="jvxpx9em" xy="53,103"/>
+    <richtext id="n2_nlyo" name="lbSkillName" xy="168,82" size="174,35" fontSize="24" color="#ffffff" text="神将技能  Lv.40"/>
+    <richtext id="n3_nlyo" name="lbDesc" xy="168,114" size="379,28" fontSize="18" color="#ffffff" ubb="true" autoSize="height" text="神将技能说明"/>
+    <component id="n10_nlyo" name="n10" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="230,439">
+      <Button title="升级"/>
+    </component>
+    <richtext id="n11_nlyo" name="lbCost" xy="257,501" size="77,28" fontSize="18" color="#ffffff" text="消耗材料">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n7_nlyo" name="lbNowAttribute" xy="107,252" size="41,28" group="n12_nlyo" fontSize="18" color="#ffffff" text="生命"/>
+    <richtext id="n8_nlyo" name="lbNextAttribute" xy="380,252" size="41,28" group="n12_nlyo" fontSize="18" color="#00ff66" text="生命"/>
+    <image id="n17_nlyo" name="n17" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="268,268" group="n12_nlyo"/>
+    <group id="n12_nlyo" name="groupAttribute" xy="107,252" size="314,74" advanced="true"/>
+    <richtext id="n13_nlyo" name="lbFullAttribute" xy="218,249" size="40,28" fontSize="18" color="#ffffff" text=""/>
+    <component id="n14_nlyo" name="n14" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="130,216" size="329,31">
+      <Label title="天赋属性"/>
+    </component>
+    <image id="n19_hd20" name="n19" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="112,460" group="n21_hd20"/>
+    <richtext id="n20_hd20" name="n20" xy="237,450" size="116,35" group="n21_hd20" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满星"/>
+    <group id="n21_hd20" name="boxMax" xy="112,450" size="366,35" advanced="true"/>
+    <richtext id="n4_nlyo" name="n4" xy="153,374" size="293,28" fontSize="18" color="#66ff00" text="天赋技能效果只有出战该神将时生效">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n18_pb4s" name="n18" xy="188,402" size="221,28" fontSize="18" color="#ff0066" text="激活神将后可升级神将天赋">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n22_hd20" name="lbPower" xy="168,170" size="136,28" fontSize="18" color="#ffffff" text="战力：1000000"/>
+  </displayList>
+</component>

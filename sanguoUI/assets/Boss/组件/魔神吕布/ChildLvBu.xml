@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="623,922">
+  <displayList>
+    <image id="n17_bx2z" name="n17" src="bx2z22" fileName="image/奖励背景.png" xy="478,145" size="145,173" group="n19_bx2z"/>
+    <image id="n20_bx2z" name="n20" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="8,638" size="606,169" group="n19_bx2z"/>
+    <image id="n21_bx2z" name="n21" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="311,718" group="n19_bx2z"/>
+    <image id="n22_bx2z" name="n22" src="p7531i" fileName="image/奖励一览.png" xy="119,654" group="n19_bx2z"/>
+    <image id="n23_bx2z" name="n23" src="bx2z20" fileName="image/最后一击.png" xy="423,655" group="n19_bx2z"/>
+    <image id="n24_bx2z" name="n24" src="bx2z2d" fileName="image/活动时间.png" xy="507,157" group="n19_bx2z"/>
+    <image id="n18_bx2z" name="n18" src="m3513c0" fileName="image/新版台子.png" pkg="jvxpx9em" xy="161,480" size="318,66" group="n19_bx2z"/>
+    <group id="n19_bx2z" name="n19" xy="8,145" size="615,662" collapsed="true"/>
+    <richtext id="n2_dx12" name="lbJieduan" xy="267,539" size="101,35" group="n13_luy8" fontSize="24" color="#ffc334" text="第二阶段"/>
+    <component id="n4_dx12" name="progress" src="p4bn88" fileName="新组建/HpBar.xml" pkg="jvxpx9em" xy="118,577" size="386,30" group="n13_luy8">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <group id="n13_luy8" name="hpGroup" xy="118,539" size="386,68" advanced="true" collapsed="true"/>
+    <richtext id="n7_dx12" name="lbTime" xy="306,812" size="10,28" fontSize="18" color="#ff0000" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n8_dx12" name="btnFight" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="248,853">
+      <Button title="挑战"/>
+    </component>
+    <richtext id="n10_dx12" name="lbRank" xy="39,862" size="77,28" fontSize="18" color="#33ff00" text="&lt;u>上期排名&lt;/u>"/>
+    <component id="n3_dx12" name="lbName" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="47,164">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <richtext id="n25_bx2z" name="n25" xy="499,187" size="109,92" fontSize="18" color="#ffffff" leading="8" text="12:30-13:00&#xA;18:30-19:00&#xA;21:30-22:00"/>
+    <image id="n26_bx2z" name="n26" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="68,550" size="504,79" group="n31_608a"/>
+    <richtext id="n12_luy8" name="lbTimelimit" xy="212,558" size="216,67" group="n31_608a" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="吕布降临倒计时"/>
+    <group id="n31_608a" name="g2" xy="68,550" size="504,79" advanced="true"/>
+    <richtext id="n32_afjm" name="n32" xy="271,164" size="77,28" fontSize="18" color="#ffffff" align="center" text="不灭魔神">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

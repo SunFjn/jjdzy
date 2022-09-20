@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="149,182">
+  <displayList>
+    <image id="n1_ejra" name="n1" src="d2dd8" fileName="image/预告背景.png" xy="0,0"/>
+    <image id="n10_d2dd" name="n10" src="d2dd9" fileName="image/预告提示底.png" xy="4,3" size="139,40"/>
+    <image id="n6_ejra" name="selImg" src="z1r82h" fileName="image/新资源/选中发光状态框.png" pkg="jvxpx9em" xy="-10,-10" size="170,201"/>
+    <image id="n4_ejra" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="131,-2"/>
+    <image id="n5_ejra" name="promptImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="23,136" size="102,33" aspect="true"/>
+    <loader id="n3_ejra" name="iconImg" xy="37,47" size="84,84" touchable="false" url="ui://j1v1kh34mx0ah" align="center" vAlign="bottom" fill="scaleMatchHeight" shrinkOnly="true">
+      <relation target="n1_ejra" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n13_u1lj" name="maskImg" src="k8qc9z" fileName="image1/maskBg.png" pkg="jvxpx9em" xy="0,0" size="149,182" hideByEditor="true"/>
+    <richtext id="n2_ejra" name="gqLb" xy="9,8" size="135,31" touchable="false" fontSize="20" color="#ffffff" align="center" leading="0" autoSize="none" text="100关开启"/>
+    <richtext id="n8_d2dd" name="drawLb" xy="13,137" size="127,28" touchable="false" fontSize="18" color="#15f234" align="center" autoSize="none" text="可领取"/>
+  </displayList>
+</component>

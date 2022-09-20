@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.actGift.model.ActGift" tbname="actGift">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="periods" type="int" pf="all" comment="期数"/>
+			<col field="endTimeMap" type="text" pf="all" comment="结束时间"/>
+			<col field="buyMap" type="text" pf="all" comment="购买状态"/>		
+     </tb>
+</tbs>

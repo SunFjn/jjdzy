@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="634,923" opaque="false">
+  <displayList>
+    <loader id="n48_zm7h" name="backIcon" xy="4,268" size="629,655" url="ui://jvxpx9emm3513bv" fill="scaleFree"/>
+    <image id="n20_bx2z" name="n20" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="25,367" size="250,400"/>
+    <image id="n22_bx2z" name="n22" src="zm7hd" fileName="image/奖励一览.png" xy="103,380"/>
+    <image id="n23_bx2z" name="n23" src="zm7he" fileName="image/最后一击.png" xy="102,624"/>
+    <image id="n18_bx2z" name="n18" src="m3513c0" fileName="image/新版台子.png" pkg="jvxpx9em" xy="316,682" size="318,66"/>
+    <image id="n49_zm7h" name="n49" src="zm7hi" fileName="image/奖励背景.png" xy="478,278" size="145,173"/>
+    <image id="n50_zm7h" name="n50" src="zm7hj" fileName="image/活动时间.png" xy="503,282"/>
+    <loader id="n45_zm7h" name="roleIcon" xy="362,456" size="232,232" align="center" vAlign="bottom"/>
+    <image id="n42_eq41" name="n42" src="eq41a" fileName="image/BOSS刷新倒计时背景底.png" xy="343,716" group="n44_eq41"/>
+    <richtext id="n43_eq41" name="lbTimelimit" xy="370,719" size="216,67" group="n44_eq41" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="吕布降临倒计时"/>
+    <group id="n44_eq41" name="g2" xy="343,716" size="270,73" advanced="true" collapsed="true"/>
+    <richtext id="n7_dx12" name="lbTime" xy="311,806" size="10,28" fontSize="18" color="#ff0000" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n10_dx12" name="lbRank" xy="41,855" size="77,28" fontSize="18" color="#33ff00" underline="true" text="&lt;u>上期排名&lt;/u>"/>
+    <richtext id="n25_bx2z" name="n25" xy="499,310" size="102,86" fontSize="16" color="#ffffff" leading="8" bold="true" text="14:00-14:30&#xA;19:00-19:30&#xA;22:00-22:30"/>
+    <richtext id="n32_afjm" name="promptLb" xy="32,316" size="77,28" fontSize="18" color="#ffffff" text="不灭魔神"/>
+    <richtext id="n34_eq41" name="timeLb" xy="32,279" size="113,28" fontSize="18" color="#00ff00" text="活动剩余时间"/>
+    <component id="n3_dx12" name="lbName" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="292,394">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+    <component id="n4_dx12" name="progress" src="p4bn88" fileName="新组建/HpBar.xml" pkg="jvxpx9em" xy="322,743" size="302,30">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n8_dx12" name="btnFight" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="254,845">
+      <Button title="挑战"/>
+    </component>
+  </displayList>
+</component>

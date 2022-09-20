@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="555,120">
+  <displayList>
+    <image id="n15_qxiv" name="n15" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="555,120"/>
+    <richtext id="n10_j9wf" name="lbPoint" xy="10,43" size="174,34" touchable="false" fontSize="22" color="#ffc334" align="center" autoSize="none" text="寻宝(100/100)圈"/>
+    <list id="n13_j9wf" name="list" xy="190,17" size="261,107" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="4" defaultItem="ui://jvxpx9emetorm" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n17_qxiv" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="412,35">
+      <Button title="领取"/>
+    </component>
+    <image id="n18_qxiv" name="imgHas" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="416,40"/>
+  </displayList>
+</component>

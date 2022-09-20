@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,223" pivot="0.5,0.5" opaque="false">
+  <displayList>
+    <component id="n0_srrs" name="n0" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="101,147" group="n8_ov4h"/>
+    <component id="n2_srrs" name="n2" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="496,141" group="n8_ov4h">
+      <Button title="退出"/>
+    </component>
+    <image id="n6_ov4h" name="n6" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="1,148" size="96,27" group="n8_ov4h"/>
+    <text id="n7_ov4h" name="n7" xy="14,150" size="77,28" group="n8_ov4h" fontSize="18" color="#33ff00" text="镜头跟随"/>
+    <component id="n12_lkik" name="n4" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="0,-38" size="67,83" group="n8_ov4h">
+      <Button icon="ui://edvdots4x14bw1x"/>
+    </component>
+    <group id="n8_ov4h" name="n8" xy="0,-38" size="626,230"/>
+  </displayList>
+</component>

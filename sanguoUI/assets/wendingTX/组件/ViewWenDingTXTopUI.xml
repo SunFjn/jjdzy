@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,256" opaque="false">
+  <displayList>
+    <image id="n32_cg2i" name="n32" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="2,108" size="632,159" group="n24_fl2h"/>
+    <image id="n35_cg2i" name="n35" src="cg2i11" fileName="images/玉玺豪礼底.png" xy="262,134" group="n24_fl2h"/>
+    <loader id="n15_fl2h" name="imghead" xy="55,149" size="80,80" group="n24_fl2h" url="ui://gxs8kn67fl2hd"/>
+    <loader id="n16_fl2h" name="imgHeadGrid" xy="51,146" size="88,88" group="n24_fl2h" url="ui://gxs8kn67qh9z18" align="center" vAlign="bottom"/>
+    <richtext id="n17_fl2h" name="n17" xy="42,118" size="105,27" group="n24_fl2h" fontSize="20" color="#00ff00" text="当前持有者"/>
+    <richtext id="n18_fl2h" name="lbMVPName" xy="15,234" size="157,25" group="n24_fl2h" fontSize="18" color="#00ff00" align="center" text="玉玺玉玺玉玺.s999">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n21_fl2h" name="g0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="325,154" size="102,102" group="n24_fl2h" scale="0.75,0.75"/>
+    <component id="n22_fl2h" name="g1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="405,154" size="102,102" group="n24_fl2h" scale="0.75,0.75"/>
+    <component id="n23_fl2h" name="g2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="485,154" size="102,102" group="n24_fl2h" scale="0.75,0.75"/>
+    <image id="n30_cg2i" name="n30" src="cg2ig" fileName="images/传国玉玺.png" xy="162,118" group="n24_fl2h"/>
+    <image id="n31_cg2i" name="n31" src="cg2il" fileName="images/玉玺.png" xy="160,142" group="n24_fl2h"/>
+    <image id="n36_cg2i" name="n36" src="cg2im" fileName="images/玉玺豪礼标题.png" xy="388,115" group="n24_fl2h"/>
+    <image id="n38_s56p" name="n38" src="s56p14" fileName="images/虚位以待.png" xy="46,182" group="n24_fl2h"/>
+    <image id="n33_cg2i" name="n33" src="cg2ip" fileName="images/连斩.png" xy="33,276" group="n39_hocl"/>
+    <richtext id="n25_fl2h" name="lbKillCount" xy="7,276" size="102,39" group="n39_hocl" font="ui://jvxpx9emog799d" fontSize="30" color="#ff0000" align="right" autoSize="none" text="10"/>
+    <group id="n39_hocl" name="n39" xy="7,276" size="171,66" group="n24_fl2h" advanced="true"/>
+    <group id="n24_fl2h" name="groupInfo" xy="2,108" size="632,234" advanced="true"/>
+    <image id="n27_cg2i" name="n27" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="2,0" size="635,106"/>
+    <image id="n28_cg2i" name="n28" src="cg2in" fileName="images/第.png" xy="262,22"/>
+    <image id="n29_cg2i" name="n29" src="cg2ii" fileName="images/层.png" xy="340,22"/>
+    <richtext id="n1_fl2h" name="lbTime" xy="11,28" size="183,25" fontSize="18" color="#ffffff" text="活动倒计时：00:00:00"/>
+    <richtext id="n2_fl2h" name="lbAwards" xy="91,58" size="124,25" fontSize="18" color="#ffcc00" text="100000铜币/分"/>
+    <richtext id="n3_fl2h" name="lbMapName" xy="299,23" size="40,27" font="ui://jvxpx9embwmw3w" fontSize="30" color="#ffcc00" align="center" text="12">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n4_fl2h" name="lbDesc" xy="545,27" size="85,27" fontSize="20" color="#33ff00" text="&lt;u>玩法说明&lt;/u>"/>
+    <richtext id="n5_fl2h" name="lb" xy="468,71" size="131,25" fontSize="18" color="#ff9900" text="收益发放倒计时"/>
+    <richtext id="n10_fl2h" name="n10" xy="254,71" size="131,25" fontSize="18" color="#00ff00" align="center" text="本层死亡无惩罚">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n34_cg2i" name="n34" xy="582,129" size="41,25" fontSize="18" color="#66ff00" align="center" underline="true" text="隐藏"/>
+    <richtext id="n40_rudj" name="lbAwards2" xy="10,58" size="95,25" fontSize="18" color="#ffcc00" align="right" text="本层收益："/>
+  </displayList>
+</component>

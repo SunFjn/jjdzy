@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="616,860">
+  <displayList>
+    <component id="n0_nyv7" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="616,860">
+      <Label title="刷新矿藏"/>
+    </component>
+    <richtext id="n8_nyv7" name="n8" xy="215,722" size="189,25" touchable="false" fontSize="18" color="#00ff00" autoSize="none" text="采集玉矿被掠夺无损失"/>
+    <list id="n9_nyv7" name="list" xy="13,73" size="590,648" overflow="hidden" lineGap="4" defaultItem="ui://yqpfulefnyv755" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n10_j2qo" name="startBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="243,772">
+      <Button title="开始采矿"/>
+    </component>
+    <component id="n2_nyv7" name="btnOnekey" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="111,755" group="n11_j2qo">
+      <Button title="一键刷红"/>
+    </component>
+    <component id="n3_nyv7" name="btnRefresh" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="376,755" group="n11_j2qo">
+      <Button title="刷新"/>
+    </component>
+    <image id="n4_nyv7" name="n4" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="126,811" size="26,25" group="n11_j2qo">
+      <relation target="n6_nyv7" sidePair="right-left"/>
+    </image>
+    <image id="n5_nyv7" name="n5" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="388,811" size="26,25" group="n11_j2qo">
+      <relation target="n7_nyv7" sidePair="right-left"/>
+    </image>
+    <richtext id="n6_nyv7" name="moneyLb0" xy="159,811" size="65,31" group="n11_j2qo" touchable="false" fontSize="20" color="#ffffff" align="center" text="20000"/>
+    <richtext id="n7_nyv7" name="moneyLb1" xy="420,811" size="65,31" group="n11_j2qo" touchable="false" fontSize="20" color="#ffffff" align="center" text="20000"/>
+    <group id="n11_j2qo" name="refreshGroup" xy="111,755" size="394,87" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

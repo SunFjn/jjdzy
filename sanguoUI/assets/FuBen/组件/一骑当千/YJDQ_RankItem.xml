@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="556,44">
+  <displayList>
+    <image id="n4_som1" name="n4" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="556,44"/>
+    <richtext id="n0_u94l" name="lbRank" xy="21,9" size="53,28" fontSize="18" color="#ffc334" align="center" autoSize="none" text="99"/>
+    <richtext id="n1_u94l" name="lbName" xy="84,9" size="196,28" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="22"/>
+    <richtext id="n3_u94l" name="lbLv" xy="287,9" size="109,28" fontSize="18" color="#ffffff" align="center" autoSize="shrink" text="噩梦100波"/>
+    <richtext id="n5_ejh4" name="powerLb" xy="412,9" size="141,28" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="1111"/>
+  </displayList>
+</component>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,926" opaque="false" designImage="ui://qb4y6bxepmmq2">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <loader id="n6_phch" name="bgImg" xy="0,273" size="50,50" url="ui://qb4y6bxephch4"/>
+    <list id="n3_phch" name="list" xy="-2,513" size="640,410" overflow="scroll" lineGap="-2" defaultItem="ui://qb4y6bxephch1" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n4_phch" name="n4" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="8,422" size="267,27"/>
+    <richtext id="n5_phch" name="labTime" xy="14,424" size="201,25" touchable="false" fontSize="18" color="#2ff10f" text="活动剩余时间：10:10:10"/>
+    <component id="n7_phch" name="tab0" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="8,467" size="125,40">
+      <Button checked="true" title="消费30万" controller="c1" page="0"/>
+    </component>
+    <component id="n8_phch" name="tab1" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="137,467" size="125,40">
+      <Button title="消费30万" controller="c1" page="1"/>
+    </component>
+    <component id="n9_phch" name="tab2" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="265,467" size="125,40">
+      <Button title="消费100万" controller="c1" page="2"/>
+    </component>
+    <image id="n10_phch" name="n10" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="391,476" size="237,27" flip="hz"/>
+    <richtext id="n11_phch" name="n11" xy="422,476" size="85,27" touchable="false" fontSize="20" color="#ffffff" text="今日消费"/>
+    <component id="n13_phch" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="478,405" size="110,49">
+      <Button title="领取"/>
+    </component>
+    <richtext id="n15_pmmq" name="xfLab" xy="537,476" size="93,27" touchable="false" fontSize="20" color="#ffffff" text="10000000"/>
+    <loader id="n16_pmmq" name="iconYuanBao" xy="507,472" size="32,31" url="ui://jvxpx9embwmw3y"/>
+    <image id="n17_m7hc" name="imgGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="482,410" size="102,38"/>
+    <component id="n27_q54c" name="bpReward" src="q54c4" fileName="组件/PXSBGrid.xml" xy="473,286" size="90,92" aspect="true" scale="1.2,1.2"/>
+  </displayList>
+  <transition name="t0" options="1" autoPlay="true" autoPlayRepeat="-1"/>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="631,918" opaque="false">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n1_a31a" name="vFinal" src="jo891m" fileName="组件/登峰造极/Child_DFZJ_Final.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n2_a31a" name="vSea" src="jo891o" fileName="组件/登峰造极/Child_DFZJ_SeaSel.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <image id="n6_jo89" name="n6" src="djuz3hl" fileName="image/通用底框/圆形选中框.png" pkg="jvxpx9em" xy="333,29">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n7_jo89" name="n7" src="djuz3hl" fileName="image/通用底框/圆形选中框.png" pkg="jvxpx9em" xy="191,29">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <component id="n4_jo89" name="btn0" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="212,50" size="73,89">
+      <Button icon="ui://3o8q23uujo8922" controller="c1" page="0"/>
+    </component>
+    <component id="n5_jo89" name="btn1" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="355,50" size="73,89">
+      <Button icon="ui://3o8q23uujo8925" controller="c1" page="1"/>
+    </component>
+  </displayList>
+</component>

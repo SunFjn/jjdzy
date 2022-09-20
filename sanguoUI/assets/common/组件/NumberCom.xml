@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="278,41">
+  <displayList>
+    <component id="n0_ko8c" name="btnMin" src="usb23gq" fileName="组件/Button6.xml" xy="3,0" group="n6_ko8c">
+      <relation target="n3_ko8c" sidePair="left-left"/>
+      <Button title="-10"/>
+    </component>
+    <component id="n1_ko8c" name="btnReduce" src="usb23gq" fileName="组件/Button6.xml" xy="51,0" size="40,41" group="n6_ko8c">
+      <relation target="n3_ko8c" sidePair="left-left"/>
+      <Button title="-1"/>
+    </component>
+    <component id="n2_ko8c" name="btnAdd" src="usb23gq" fileName="组件/Button6.xml" xy="190,0" size="40,41" group="n6_ko8c">
+      <relation target="n3_ko8c" sidePair="right-right"/>
+      <Button title="+1"/>
+    </component>
+    <image id="n3_ko8c" name="n3" src="rt7o4r" fileName="image/通用底框/inputBg.png" xy="94,5" size="94,31" group="n6_ko8c">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <richtext id="n4_ko8c" name="tfCount" xy="101,7" size="82,28" group="n6_ko8c" input="true" maxLength="10" restrict="0-9" keyboardType="4" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" autoClearText="true" text="99999">
+      <relation target="n3_ko8c" sidePair="width-width,middle-middle"/>
+    </richtext>
+    <component id="n5_ko8c" name="btnMax" src="usb23gq" fileName="组件/Button6.xml" xy="230,0" group="n6_ko8c">
+      <relation target="n3_ko8c" sidePair="right-right"/>
+      <Button title="+10"/>
+    </component>
+    <group id="n6_ko8c" name="n6" xy="3,0" size="275,41" collapsed="true"/>
+  </displayList>
+</component>

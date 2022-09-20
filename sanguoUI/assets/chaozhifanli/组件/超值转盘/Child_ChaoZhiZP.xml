@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,644">
+  <displayList>
+    <image id="n44_n0mt" name="n44" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="3,3" size="634,639"/>
+    <image id="n43_d2hw" name="n43" src="d2hww" fileName="image/跑马灯.png" xy="34,57" group="n45_n0mt"/>
+    <image id="n38_u5im" name="n38" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="139,158" size="334,176" group="n45_n0mt"/>
+    <component id="n13_hn3o" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="37,12" group="n45_n0mt"/>
+    <component id="n14_hn3o" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="187,12" group="n45_n0mt"/>
+    <component id="n15_hn3o" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="337,12" group="n45_n0mt"/>
+    <component id="n16_hn3o" name="grid3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="487,12" group="n45_n0mt"/>
+    <component id="n17_hn3o" name="grid4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="487,124" group="n45_n0mt"/>
+    <component id="n18_hn3o" name="grid5" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="487,236" group="n45_n0mt"/>
+    <component id="n19_hn3o" name="grid6" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="487,348" group="n45_n0mt"/>
+    <component id="n20_hn3o" name="grid7" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="334,348" group="n45_n0mt"/>
+    <component id="n21_hn3o" name="grid8" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="187,348" group="n45_n0mt"/>
+    <component id="n22_hn3o" name="grid9" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="38,348" group="n45_n0mt"/>
+    <component id="n23_hn3o" name="grid10" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="38,236" group="n45_n0mt"/>
+    <component id="n24_hn3o" name="grid11" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="38,124" group="n45_n0mt"/>
+    <component id="n28_hn3o" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="133,512" size="330,16" group="n45_n0mt">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n29_hn3o" name="draw0" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="148,548" group="n45_n0mt">
+      <Button title="抽奖1次"/>
+    </component>
+    <component id="n30_hn3o" name="draw1" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="341,548" group="n45_n0mt">
+      <Button title="抽奖10次"/>
+    </component>
+    <richtext id="n31_hn3o" name="drawNumLb" xy="149,600" size="312,28" group="n45_n0mt" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="剩余抽奖次数：0"/>
+    <richtext id="n26_hn3o" name="noteLb" xy="141,165" size="341,160" group="n45_n0mt" touchable="false" fontSize="18" color="#ffffff" leading="6" autoSize="none" text="在超值&#xA;转盘&#xA;中获得大奖&#xA;+道具名,&#xA;羡煞旁人"/>
+    <richtext id="n27_hn3o" name="promptLb" xy="133,472" size="327,28" group="n45_n0mt" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="每消费1000元宝免费抽奖1次"/>
+    <richtext id="n32_hn3o" name="myNoteLb" xy="521,575" size="77,28" group="n45_n0mt" fontSize="18" color="#3ba5ff" leading="0" underline="true" text="抽奖记录"/>
+    <loader id="n33_hn3o" name="boxBt" xy="515,481" size="87,72" group="n45_n0mt" url="ui://jvxpx9emaro89e" fill="scale"/>
+    <image id="n34_hn3o" name="chooseImg" src="z1r82h" fileName="image/新资源/选中发光状态框.png" pkg="jvxpx9em" xy="28,6" size="112,115" group="n45_n0mt"/>
+    <image id="n36_u5im" name="n36" src="u5imb" fileName="image/一等奖.png" xy="35,11" group="n45_n0mt"/>
+    <image id="n37_u5im" name="n37" src="u5ima" fileName="image/二等奖.png" xy="486,350" group="n45_n0mt"/>
+    <image id="n39_ih3m" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="585,479" group="n45_n0mt" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <richtext id="n40_ih3m" name="timeLb" xy="153,127" size="314,28" group="n45_n0mt" touchable="false" fontSize="18" color="#15f234" align="center" leading="0" autoSize="none" text="活动剩余时间：00:00:00"/>
+    <group id="n45_n0mt" name="n45" xy="28,6" size="577,622" collapsed="true"/>
+    <richtext id="n46_pdbd" name="linkLb" xy="46,503" size="45,31" fontSize="20" color="#00ff00" underline="true" text="概率"/>
+    <component id="n47_kof8" name="checkBox" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="14,565" size="122,32">
+      <Button title=" 跳过动画"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="85,125">
+  <controller name="c1" pages="0,未领取,1,已领取" selected="1"/>
+  <displayList>
+    <richtext id="n1_tcq6" name="lbCount" xy="0,98" size="72,22" touchable="false" fontSize="16" color="#ffffff" align="center" autoSize="none" text="对10联"/>
+    <component id="n2_tcq6" name="btnAward" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="34,34" pivot="0.5,0.5" anchor="true" size="85,85" scale="0.8,0.8">
+      <Button icon="ui://ke8qv0ckehld5"/>
+    </component>
+    <image id="n5_tcq6" name="imgGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="1,23" size="84,27" aspect="true" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+  </displayList>
+</component>

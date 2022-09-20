@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,380" overflow="scroll" scroll="horizontal">
+  <displayList>
+    <loader id="n21_u1j3" name="bg0" xy="0,0" size="643,380"/>
+    <loader id="n22_u1j3" name="bg1" xy="642,0" size="643,380"/>
+    <image id="n23_u1j3" name="n23" src="daee1" fileName="image/关卡背景路线.png" xy="0,87"/>
+    <image id="n24_u1j3" name="n24" src="daee1" fileName="image/关卡背景路线.png" xy="640,87"/>
+    <loader id="n25_u1j3" name="bg2" xy="1284,0" size="643,380"/>
+    <image id="n26_u1j3" name="n26" src="daee1" fileName="image/关卡背景路线.png" xy="1280,87"/>
+    <loader id="n27_u1j3" name="bg3" xy="1926,0" size="643,380"/>
+    <image id="n28_u1j3" name="n28" src="daee1" fileName="image/关卡背景路线.png" xy="1919,87"/>
+    <loader id="n30_u1j3" name="bg4" xy="2568,0" size="643,380"/>
+    <image id="n31_u1j3" name="n31" src="daee1" fileName="image/关卡背景路线.png" xy="2561,87"/>
+    <component id="n5_wr07" name="item1" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="7,30"/>
+    <component id="n6_wr07" name="item2" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="148,187"/>
+    <component id="n7_wr07" name="item3" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="390,69"/>
+    <component id="n8_wr07" name="item4" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="657,45"/>
+    <component id="n9_wr07" name="item5" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="828,199"/>
+    <component id="n10_wr07" name="item6" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="1034,63"/>
+    <component id="n11_wr07" name="item7" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="1295,40"/>
+    <component id="n12_wr07" name="item8" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="1467,196"/>
+    <component id="n13_wr07" name="item9" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="1673,60"/>
+    <component id="n14_wr07" name="item10" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="1936,43"/>
+    <component id="n15_wr07" name="item11" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="2099,195"/>
+    <component id="n16_wr07" name="item12" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="2316,60"/>
+    <component id="n17_wr07" name="item13" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="2587,45"/>
+    <component id="n18_wr07" name="item14" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="2749,200"/>
+    <component id="n33_mfma" name="item15" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="2966,45"/>
+    <loader id="n35_vib6" name="bg5" xy="3210,0" size="643,380"/>
+    <image id="n36_vib6" name="n36" src="daee1" fileName="image/关卡背景路线.png" xy="3200,87"/>
+    <component id="n37_vib6" name="item16" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="3224,36"/>
+    <component id="n38_vib6" name="item17" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="3376,200"/>
+    <component id="n39_vib6" name="item18" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="3601,36"/>
+    <loader id="n40_vib6" name="bg6" xy="3853,0" size="643,380"/>
+    <image id="n41_vib6" name="n41" src="daee1" fileName="image/关卡背景路线.png" xy="3841,88"/>
+    <component id="n42_vib6" name="item19" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="3865,33"/>
+    <component id="n43_vib6" name="item20" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="4052,200"/>
+    <component id="n44_vib6" name="item21" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="4236,37"/>
+    <loader id="n45_vib6" name="bg7" xy="4496,0" size="643,380"/>
+    <image id="n46_vib6" name="n46" src="daee1" fileName="image/关卡背景路线.png" xy="4482,88"/>
+    <component id="n47_vib6" name="item22" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="4511,50"/>
+    <component id="n48_vib6" name="item23" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="4694,192"/>
+    <component id="n49_vib6" name="item24" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="4876,38"/>
+    <loader id="n51_vib6" name="bg8" xy="5139,0" size="643,380"/>
+    <image id="n52_vib6" name="n52" src="daee1" fileName="image/关卡背景路线.png" xy="5122,88"/>
+    <component id="n53_vib6" name="item25" src="h0zq1z" fileName="组件/ItemGQDetail.xml" xy="5160,51"/>
+    <component id="n34_102xb" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="5190,131" scale="0.7,0.7"/>
+  </displayList>
+</component>

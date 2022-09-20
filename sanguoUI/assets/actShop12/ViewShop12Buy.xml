@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="470,355">
+  <displayList>
+    <component id="n12_nnxc" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="470,355">
+      <Label title="购买确认"/>
+    </component>
+    <image id="n13_nnxc" name="n13" src="jkp64z" fileName="image1/Bg4.png" pkg="jvxpx9em" xy="15,79" size="436,212"/>
+    <component id="n10_ucru" name="btnBuy" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="170,288">
+      <Button title="购买"/>
+    </component>
+    <component id="n19_oyk1" name="resComCoupon" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="221,179" size="135,36" group="n21_oyk1"/>
+    <richtext id="n20_oyk1" name="n20" xy="127,180" pivot="1,0" size="93,29" group="n21_oyk1" fontSize="22" color="#ffffff" text="抵金券："/>
+    <group id="n21_oyk1" name="n21" xy="127,179" size="229,36"/>
+    <component id="n17_oyk1" name="resComDis" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="221,137" size="135,36" group="n22_oyk1"/>
+    <richtext id="n18_oyk1" name="n18" xy="105,138" pivot="1,0" size="115,29" group="n22_oyk1" fontSize="22" color="#ffffff" text="优惠减免："/>
+    <group id="n22_oyk1" name="n22" xy="105,137" size="251,36"/>
+    <component id="n15_oyk1" name="resComTotal" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="221,100" size="135,36" group="n23_oyk1"/>
+    <richtext id="n16_oyk1" name="n16" xy="149,101" pivot="1,0" size="71,29" group="n23_oyk1" fontSize="22" color="#a09dad" text="总价："/>
+    <group id="n23_oyk1" name="n23" xy="149,100" size="207,36"/>
+    <component id="n24_oyk1" name="resComPrice" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="221,224" size="135,36" group="n26_oyk1"/>
+    <richtext id="n25_oyk1" name="n25" xy="149,225" pivot="1,0" size="71,29" group="n26_oyk1" fontSize="22" color="#ffffff" text="实付："/>
+    <group id="n26_oyk1" name="n26" xy="149,224" size="207,36"/>
+    <image id="n27_oyk1" name="lineImg" src="mb5j7f" fileName="image1/line.png" pkg="jvxpx9em" xy="155,114" size="191,2"/>
+    <image id="n32_oyk1" name="n32" src="oyk17" fileName="res/气泡框.png" xy="161,55" size="482,191" group="n30_oyk1" scale="-0.5,0.5"/>
+    <richtext id="n29_oyk1" name="tfTips" xy="-64,79" pivot="1,0" size="210,46" group="n30_oyk1" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" autoClearText="true" text="还差799999元宝可减免60000元宝"/>
+    <group id="n30_oyk1" name="groupTips" xy="-64,55" size="707,191" visible="false" advanced="true"/>
+  </displayList>
+</component>

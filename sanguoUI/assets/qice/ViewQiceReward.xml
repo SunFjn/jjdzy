@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="470,304">
+  <controller name="stateCtrl" exported="true" pages="0,,1,,2," selected="2"/>
+  <displayList>
+    <component id="n12_nnxc" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="470,304">
+      <Label title="奖励"/>
+    </component>
+    <image id="n13_nnxc" name="n13" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="23,79" size="424,145"/>
+    <list id="n8_ucru" name="itemList" xy="39,99" pivot="0.5,0.5" size="392,109" layout="row" scroll="horizontal" margin="0,0,5,0" colGap="8" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n9_ucru" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="170,229" group="n14_nnxc">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+      <Button title="领取"/>
+    </component>
+    <component id="n10_ucru" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="170,229" group="n14_nnxc">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+      <Button title="领取"/>
+    </component>
+    <image id="n11_ucru" name="imageGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="175,239" group="n14_nnxc">
+      <gearDisplay controller="stateCtrl" pages="2"/>
+    </image>
+    <group id="n14_nnxc" name="n14" xy="170,229" size="136,62"/>
+  </displayList>
+</component>

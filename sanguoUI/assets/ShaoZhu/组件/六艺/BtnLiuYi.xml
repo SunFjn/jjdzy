@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="184,102" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="2,up,3,down,4,over,5,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n1_ad1l" name="imgBg" xy="9,10" size="166,82" url="ui://p83wyb2bad1l1l" autoSize="true"/>
+    <loader id="n0_ad1l" name="img" xy="27,26" size="50,50" url="ui://p83wyb2bad1l1o"/>
+    <image id="n2_ad1l" name="n2" src="m3513c1" fileName="image/选中效果.png" pkg="jvxpx9em" xy="0,0" size="184,102">
+      <gearDisplay controller="button" pages="3,5"/>
+    </image>
+    <image id="n3_kc1n" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="160,1" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

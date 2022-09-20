@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ghovj25x" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ucgg0" name="ViewFreeVip.xml" path="/组件/" exported="true"/>
+    <image id="ucgg1" name="可立即领取奖励.png" path="/image/" exported="true"/>
+    <image id="ucgg2" name="奖励预览底.png" path="/image/" exported="true"/>
+    <image id="ucgg3" name="孙姬.png" path="/image/" exported="true"/>
+    <image id="ucgg4" name="孙姬头像80.png" path="/image/" exported="true"/>
+    <image id="ucgg5" name="数字底.png" path="/image/" exported="true"/>
+    <image id="ucgg6" name="文字.png" path="/image/" exported="true"/>
+    <image id="ucgg7" name="火剑.png" path="/image/" exported="true"/>
+    <image id="ucgg8" name="火剑道具.png" path="/image/" exported="true"/>
+    <image id="ucggb" name="领取VIP3.png" path="/image/" exported="true"/>
+    <image id="ho3bd" name="图层 1467.png" path="/image/"/>
+    <image id="dqese" name="元宝堆.png" path="/image/" exported="true"/>
+  </resources>
+  <publish npot="true" name="LoginVip" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://pkuzcu87qimq3c">
+  <displayList>
+    <loader id="n29_wisd" name="imgBg" xy="10,144" size="50,30" group="n52_ysz4"/>
+    <image id="n24_wisd" name="n24" src="m1lm30" fileName="image/小底.png" xy="332,662" size="290,174" group="n52_ysz4"/>
+    <component id="n18_wisd" name="btnChallenge" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="407,840" group="n52_ysz4">
+      <Button title="挑战"/>
+    </component>
+    <list id="n1_hjjz" name="listDrop" xy="344,730" size="387,140" group="n52_ysz4" scale="0.7,0.7" layout="row" colGap="31" defaultItem="ui://jvxpx9emetorn" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n17_of9i" name="labReachMax" xy="380,854" size="190,35" group="n52_ysz4" fontSize="24" color="#66ff00" align="center" autoSize="none" bold="true" text="已通关"/>
+    <image id="n36_m1lm" name="n36" src="m1lm2y" fileName="image/榜首.png" xy="7,152" size="158,264" group="n52_ysz4"/>
+    <text id="n10_hjjz" name="labMaxName" xy="13,249" size="160,28" group="n52_ysz4" fontSize="16" color="#ffffff" align="center" ubb="true" autoSize="none" text="玩家名字六字.S999"/>
+    <text id="n8_hjjz" name="labMaxLayer" xy="20,277" size="130,25" group="n52_ysz4" fontSize="16" color="#ffffff" align="center" autoSize="none" strokeColor="#000000" text="通关:1000层"/>
+    <component id="n21_wisd" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="55,316" size="64,63" group="n52_ysz4">
+      <Button icon="ui://jvxpx9ememwp3h9"/>
+    </component>
+    <component id="n37_m1lm" name="viewHead" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="46,183" group="n52_ysz4" scale="0.7,0.7"/>
+    <image id="n40_m1lm" name="n40" src="m1lm2w" fileName="image/文字底.png" xy="332,665" size="285,31" group="n52_ysz4"/>
+    <text id="n0_hjjz" name="labCurLayer" xy="361,668" size="230,32" group="n52_ysz4" fontSize="18" color="#ffffff" align="center" autoSize="none" text="当前关卡：900层"/>
+    <image id="n23_wisd" name="labDrop" src="wisd1w" fileName="image/奖励一览.png" xy="427,700" group="n52_ysz4" aspect="true"/>
+    <component id="n46_m1lm" name="layer3" src="m1lm32" fileName="组件/铜雀台/VPeacockPly.xml" xy="365,318" group="n52_ysz4"/>
+    <component id="n45_m1lm" name="layer2" src="m1lm32" fileName="组件/铜雀台/VPeacockPly.xml" xy="216,450" group="n52_ysz4"/>
+    <component id="n44_m1lm" name="layer1" src="m1lm32" fileName="组件/铜雀台/VPeacockPly.xml" xy="53,572" group="n52_ysz4"/>
+    <image id="n38_m1lm" name="n38" src="m1lm30" fileName="image/小底.png" xy="470,155" size="152,339" group="n51_n2if"/>
+    <component id="n5_hjjz" name="gridBigReward" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="508,196" group="n51_n2if" scale="0.7,0.7"/>
+    <text id="n13_of9i" name="labBigPower" xy="458,290" size="170,28" group="n51_n2if" fontSize="18" color="#f7ac0c" align="center" autoSize="none" text="战力+175000"/>
+    <text id="n14_of9i" name="labRewardPeople" xy="466,437" size="158,59" group="n51_n2if" fontSize="18" color="#ffffff" align="center" ubb="true" autoSize="none" text="前10双倍领取&#xA;已通过：[color=#0ef619]5[/color]人"/>
+    <component id="n22_wisd" name="btnGetReward" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="547,405" pivot="0.5,0.5" anchor="true" size="87,76" group="n51_n2if" scale="0.7,0.7">
+      <Button icon="ui://jvxpx9emaro89e"/>
+    </component>
+    <image id="n39_m1lm" name="n39" src="m1lm2w" fileName="image/文字底.png" xy="473,158" size="144,30" group="n51_n2if"/>
+    <text id="n7_hjjz" name="labBigReward" xy="484,160" size="125,27" group="n51_n2if" fontSize="18" color="#f7ac0c" align="center" autoSize="none" text="1000层大奖"/>
+    <image id="n41_m1lm" name="n41" src="m1lm2w" fileName="image/文字底.png" xy="473,324" size="145,30" group="n51_n2if"/>
+    <text id="n6_hjjz" name="labReward" xy="484,328" size="124,25" group="n51_n2if" fontSize="18" color="#f7ac0c" align="center" autoSize="none" text="180层奖励"/>
+    <group id="n51_n2if" name="n51" xy="458,155" size="176,341" group="n52_ysz4"/>
+    <image id="n53_e4rr" name="n53" src="e4rr3e" fileName="image/榜首title.png" xy="13,142" group="n52_ysz4"/>
+    <group id="n52_ysz4" name="n52" xy="7,142" size="724,760"/>
+  </displayList>
+</component>

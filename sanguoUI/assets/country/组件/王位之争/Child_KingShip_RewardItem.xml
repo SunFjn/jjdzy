@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="566,129">
+  <displayList>
+    <loader id="n4_jd2n" name="backImg" xy="0,0" size="564,129" url="ui://jvxpx9emirr13h0" fill="scaleFree"/>
+    <image id="n10_r1m8" name="imgSel" src="m3513c1" fileName="image/选中效果.png" pkg="jvxpx9em" xy="-4,-5" size="575,139"/>
+    <loader id="n5_jd2n" name="titleIcon" xy="30,40" size="166,52" url="ui://uwzc58njqnae1e" align="center" vAlign="middle"/>
+    <component id="n7_jd2n" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="290,25" scale="0.8,0.8"/>
+    <component id="n8_jd2n" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="377,25" scale="0.8,0.8"/>
+    <component id="n9_jd2n" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="464,25" scale="0.8,0.8"/>
+  </displayList>
+</component>

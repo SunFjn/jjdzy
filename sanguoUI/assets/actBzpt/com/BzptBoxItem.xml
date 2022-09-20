@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="76,76">
+  <controller name="typeCtrl" exported="true" pages="0,,1," selected="0"/>
+  <controller name="stateCtrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n9_ot2y" name="n9" src="ot2y6" fileName="res/宝箱背景框.png" xy="0,0"/>
+    <loader id="n11_ot2y" name="n11" xy="0,0" size="76,76" aspect="true" url="ui://twm3bfygot2y8" fill="scale">
+      <gearDisplay controller="stateCtrl" pages="0,1"/>
+      <gearIcon controller="typeCtrl" pages="0" values="ui://twm3bfygot2y8" default="ui://twm3bfygot2y7"/>
+    </loader>
+    <loader id="n10_ot2y" name="n10" xy="-2,-12" size="85,85" url="ui://twm3bfygot2y5" fill="scale">
+      <gearDisplay controller="stateCtrl" pages="2"/>
+      <gearIcon controller="typeCtrl" pages="0" values="ui://twm3bfygot2y5" default="ui://twm3bfygot2y4"/>
+    </loader>
+    <image id="n14_ot2y" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="54,6">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </image>
+    <richtext id="n15_ot2y" name="tfScore" xy="21,72" pivot="0.5,0.5" size="33,27" fontSize="20" color="#ffffff" vAlign="middle" autoClearText="true" text="3/3"/>
+  </displayList>
+</component>

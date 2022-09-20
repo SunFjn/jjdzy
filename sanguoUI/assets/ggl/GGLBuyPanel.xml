@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,306">
+  <displayList>
+    <image id="n56_loxz" name="n56" src="loxzf" fileName="res/次数弹窗.png" xy="0,0"/>
+    <image id="n63_loxz" name="n63" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="205,197" size="230,32"/>
+    <component id="n57_loxz" name="btnBuy" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="252,114" pivot="0.5,0.5">
+      <Button title="购买一次"/>
+    </component>
+    <richtext id="n58_loxz" name="n58" xy="184,36" pivot="0.5,0.5" size="271,25" fontSize="18" color="#ffffff" text="购买10000铜币，赠送一次刮刮乐"/>
+    <component id="n59_loxz" name="resCom" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="302,199" group="n61_loxz"/>
+    <richtext id="n60_loxz" name="n60" xy="243,201" pivot="1,0" size="59,25" group="n61_loxz" fontSize="18" color="#ffffff" text="消耗："/>
+    <group id="n61_loxz" name="groupConsume" xy="243,199" size="193,33" advanced="true"/>
+    <richtext id="n62_loxz" name="tfFree" xy="242,200" pivot="0.5,0.5" size="156,25" fontSize="18" color="#ffffff" text="今日免费次数：1/3"/>
+  </displayList>
+</component>

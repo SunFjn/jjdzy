@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="j1v1kh34" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ejra0" name="View_FunctionPreview_Panel.xml" path="/组件/" exported="true"/>
+    <component id="ejra4" name="FunctionPreviewItem.xml" path="/组件/" exported="true"/>
+    <image id="d2dd8" name="预告背景.png" path="/image/" exported="true"/>
+    <image id="d2dd9" name="预告提示底.png" path="/image/" exported="true"/>
+    <image id="objsd" name="功能预览标题.png" path="/image/" exported="true"/>
+    <image id="s78hg" name="下方背景.jpg" path="/image/"/>
+    <image id="mx0ah" name="50.png" path="/image/"/>
+  </resources>
+  <publish name="functionPreview" genCode="true" npot="true" excluded="s78hg,mx0ah"/>
+</packageDescription>

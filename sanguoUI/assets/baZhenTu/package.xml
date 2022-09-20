@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="xrzn9ppa" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="f8nk0" name="ViewBaZhenTuPanel.xml" path="/组件/" exported="true"/>
+    <component id="f8nk1" name="ChildBaZhenTu.xml" path="/组件/" exported="true"/>
+    <component id="f8nk2" name="ChildBaZhenTuFenJ.xml" path="/组件/" exported="true"/>
+    <component id="f8nk3" name="ChildBaZhenTuZP.xml" path="/组件/" exported="true"/>
+    <component id="f8nk4" name="VBaZTGrid.xml" path="/组件/" exported="true"/>
+    <component id="f8nk5" name="VBaZTItem.xml" path="/组件/" exported="true"/>
+    <component id="csl06" name="ViewBaZhenTuBag.xml" path="/组件/" exported="true"/>
+    <image id="b5l2c" name="八卦图底座.png" path="/image/" exported="true"/>
+    <image id="b5l2f" name="符文镶嵌+.png" path="/image/" exported="true"/>
+    <image id="b5l2g" name="符文镶嵌孔.png" path="/image/" exported="true"/>
+    <image id="b5l2i" name="阵眼图标.png" path="/image/" exported="true"/>
+    <image id="b5l2j" name="蓝符文1.png" path="/image/"/>
+    <component id="b5l2k" name="VBaZTGridFenJ.xml" path="/组件/" exported="true"/>
+    <image id="b5l2n" name="八阵图title.png" path="/image/" exported="true"/>
+    <image id="b5l2p" name="完美鉴定字条.png" path="/image/" exported="true"/>
+    <image id="b5l2q" name="展示框.png" path="/image/" exported="true"/>
+    <image id="b5l2s" name="符文-锁住.png" path="/image/" exported="true"/>
+    <image id="b5l2t" name="风扬阵眼  .png" path="/image/"/>
+    <component id="b5l2v" name="VBaZTCost.xml" path="/组件/" exported="true"/>
+    <image id="b5l2w" name="符文名称条.png" path="/image/" exported="true"/>
+    <image id="b5l2x" name="符文经验icon.png" path="/image/" exported="true"/>
+    <component id="b5l2z" name="ViewBaZhenTuTemp.xml" path="/组件/" exported="true"/>
+    <component id="b5l216" name="VBaZTChip.xml" path="/组件/" exported="true"/>
+    <component id="j1af17" name="VBaZTBag.xml" path="/组件/" exported="true"/>
+    <component id="j1af18" name="ViewBaZhenTuShow.xml" path="/组件/" exported="true"/>
+    <image id="j1af19" name="底.png" path="/image/" exported="true" scale="9grid" scale9grid="27,7,54,14"/>
+    <image id="mnlv1b" name="符文选中框.png" path="/image/" exported="true"/>
+    <component id="mnlv1c" name="TipBaZhenTu.xml" path="/组件/" exported="true"/>
+    <image id="nv7z1d" name="bg1.png" path="/image/" exported="true"/>
+    <image id="nv7z1e" name="bg2.png" path="/image/" exported="true"/>
+    <image id="vrr61f" name="符文大师入口.png" path="/image/" exported="true"/>
+    <component id="vrr61g" name="ViewBaZhenTuDaShi.xml" path="/组件/" exported="true"/>
+    <component id="caql1h" name="ChildZhenYan.xml" path="/组件/阵眼/" exported="true"/>
+    <image id="caql1i" name="中心图标.png" path="/image/阵眼/" exported="true"/>
+    <image id="caql1j" name="中心图标底座.png" path="/image/阵眼/" exported="true"/>
+    <image id="caql1k" name="八阵图图标.png" path="/image/阵眼/" exported="true"/>
+    <image id="caql1n" name="选中小.png" path="/image/阵眼/" exported="true"/>
+    <image id="caql1v" name="阵眼图标.png" path="/image/阵眼/" exported="true"/>
+    <image id="caql1y" name="阵眼图标3.png" path="/image/阵眼/" exported="true"/>
+    <image id="caql20" name="阵眼底座.png" path="/image/阵眼/" exported="true"/>
+    <component id="caql22" name="VZhenYanBtn.xml" path="/组件/阵眼/" exported="true"/>
+    <component id="caql23" name="VZhenYanBtnBig.xml" path="/组件/阵眼/" exported="true"/>
+    <component id="ihg124" name="VZhenYanLv.xml" path="/组件/阵眼/" exported="true"/>
+    <image id="ihg125" name="星级-亮.png" path="/image/阵眼/" exported="true"/>
+    <image id="uitl26" name="两仪.png" path="/image/阵眼/" exported="true"/>
+    <image id="uitl27" name="九宫.png" path="/image/阵眼/" exported="true"/>
+    <image id="uitl28" name="四相.png" path="/image/阵眼/" exported="true"/>
+    <image id="uitl29" name="天门.png" path="/image/阵眼/" exported="true"/>
+    <image id="uitl2a" name="太极.png" path="/image/阵眼/" exported="true"/>
+    <component id="irzj2b" name="ChildBaZhenTuGod.xml" path="/组件/" exported="true"/>
+    <component id="irzj2c" name="VBaZTGridGod.xml" path="/组件/" exported="true"/>
+    <component id="qcd62d" name="PromptBaZhenTu.xml" path="/组件/" exported="true"/>
+    <image id="xoiv2i" name="神符兑换背景图.jpg" path="/image/" exported="true"/>
+    <image id="xoiv2m" name="阵眼背景图.jpg" path="/image/"/>
+  </resources>
+  <publish name="baZhenTu" genCode="true" maxAtlasSize="512" npot="true" excluded="b5l2j,b5l2t,nv7z1d,nv7z1e,b5l2c,caql1y,caql1j,caql1i,xoiv2i,xoiv2m">
+    <atlas compression="true" index="0"/>
+  </publish>
+</packageDescription>

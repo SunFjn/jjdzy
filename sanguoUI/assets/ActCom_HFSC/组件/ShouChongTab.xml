@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="211,79" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n4_gapn" name="n4" src="gapn4" fileName="image/黄色按钮.png" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+    </image>
+    <image id="n5_gapn" name="n5" src="gapn3" fileName="image/红色按钮.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n6_fhl8" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="188,1"/>
+    <text id="n3_gapn" name="title" xy="0,0" size="211,79" fontSize="24" color="#663300" align="center" vAlign="middle" autoSize="none" singleLine="true" text="充值6元">
+      <gearDisplay controller="button" pages="0,1"/>
+      <gearColor controller="button" pages="1" values="#ffffff,#000000" default="#663300,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

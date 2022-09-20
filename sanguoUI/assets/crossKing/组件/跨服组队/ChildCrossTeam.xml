@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,917" opaque="false" designImage="ui://yqpfuleflwbl6k">
+  <displayList>
+    <image id="n43_lwbl" name="n43" src="m3513bv" fileName="image/通用底框/tips.png" pkg="jvxpx9em" xy="13,535" size="614,294"/>
+    <loader id="n40_oiih" name="backImg" xy="6,156" size="626,419" url="ui://yqpfulefoiih34"/>
+    <image id="n41_oiih" name="n41" src="m3513bt" fileName="image/分割线.png" pkg="jvxpx9em" xy="57,565" pivot="0.5,0.5" size="513,10">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <loader id="n14_iad8" name="nameIcon" xy="261,554" size="119,35" touchable="false" url="ui://yqpfulefoiih3b" align="center"/>
+    <list id="n9_iad8" name="list0" xy="17,166" size="616,335" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="258" colGap="10" defaultItem="ui://yqpfulefiad82x" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n10_iad8" name="pageRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="585,295" size="55,63">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n11_iad8" name="pageLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="15,297" size="55,63" scale="-1,1">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <richtext id="n12_iad8" name="n12" xy="113,505" size="423,27" touchable="false" fontSize="20" color="#00ff00" text="每日10:00-12:00    23:00-01:00可获得额外奖励"/>
+    <component id="n21_oiih" name="roomBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="39,847" group="n27_oiih">
+      <Button title="创建房间"/>
+    </component>
+    <component id="n26_oiih" name="joinBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="473,847" group="n27_oiih">
+      <Button title="快速加入"/>
+    </component>
+    <component id="n22_oiih" name="check0" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="215,841" size="178,32" group="n27_oiih">
+      <Button checked="true" title="10秒后自动加入"/>
+    </component>
+    <richtext id="n24_oiih" name="numLb" xy="215,883" size="175,27" group="n27_oiih" touchable="false" fontSize="20" color="#ffffff" text="剩余收益次数20/30"/>
+    <list id="n20_rdp4" name="list1" xy="35,601" size="567,217" group="n27_oiih" layout="row" overflow="scroll" colGap="8" defaultItem="ui://yqpfulefoiih2z" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n19_rdp4" name="promptBt" xy="276,682" size="101,31" group="n27_oiih" touchable="false" fontSize="24" color="#ffff00" text="暂无队伍"/>
+    <group id="n27_oiih" name="teamDataGroup" xy="35,601" size="568,313" hideByEditor="true" advanced="true"/>
+    <component id="n28_oiih" name="roleItem0" src="iad82y" fileName="组件/跨服组队/TeamRoleItem.xml" xy="30,576" group="n38_oiih"/>
+    <component id="n29_oiih" name="roleItem1" src="iad82y" fileName="组件/跨服组队/TeamRoleItem.xml" xy="226,576" group="n38_oiih"/>
+    <component id="n30_oiih" name="roleItem2" src="iad82y" fileName="组件/跨服组队/TeamRoleItem.xml" xy="422,576" group="n38_oiih"/>
+    <component id="n31_oiih" name="check00" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="48,831" size="191,32" group="n38_oiih">
+      <Button checked="true" title="满员自动开始(5s)"/>
+    </component>
+    <component id="n33_oiih" name="check01" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="48,878" size="178,32" group="n38_oiih">
+      <Button checked="true" title="50秒后开始挑战"/>
+    </component>
+    <component id="n35_oiih" name="check02" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="251,878" size="206,32" group="n38_oiih">
+      <Button checked="true" title="使用收益次数20/30"/>
+    </component>
+    <component id="n37_oiih" name="battleBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="471,836" group="n38_oiih">
+      <Button title="开始挑战"/>
+    </component>
+    <group id="n38_oiih" name="teamRoleGroup" xy="30,576" size="585,334" advanced="true" collapsed="true"/>
+    <component id="n42_i2yv" name="chatBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="30,552" size="51,47">
+      <Button icon="ui://7gxkx46wi2yv6i"/>
+    </component>
+  </displayList>
+</component>

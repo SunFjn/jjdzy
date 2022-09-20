@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,901" opaque="false">
+  <displayList>
+    <loader id="n85_idkj" name="backbg0" xy="11,240" pivot="0.5,0.5" size="307,413" group="n87_idkj" url="ui://jvxpx9emidkj2k"/>
+    <loader id="n86_idkj" name="backbg1" xy="318,240" pivot="0.5,0.5" size="307,413" group="n87_idkj" scale="-1,1" url="ui://jvxpx9emidkj2k"/>
+    <group id="n87_idkj" name="n87" xy="11,240" size="614,413"/>
+    <image id="n77_w6ro" name="n77" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="20,545" size="599,196"/>
+    <component id="n21_c5a5" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="37,366" pivot="0.5,0.5" size="55,63" scale="-1,1">
+      <Button title="左边" icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n22_c5a5" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="549,366" pivot="0.5,0.5" size="55,63">
+      <Button title="右边" icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <richtext id="n23_c5a5" name="lbGuanxian" xy="190,357" pivot="0.5,0.5" size="261,82" font="Microsoft YaHei" fontSize="60" color="#ffc334" align="center" vAlign="middle" autoSize="none" text="都尉"/>
+    <component id="n28_c5a5" name="btnLvUp" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="249,839">
+      <Button title="提升"/>
+    </component>
+    <component id="n35_ltpm" name="barExp" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="94,799" size="451,22">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <richtext id="n53_gs0d" name="lbJS" xy="260,479" size="118,29" fontSize="20" color="#dfd1b5" align="center" autoSize="none" text="一阶"/>
+    <richtext id="n54_gs0d" name="lbGongxun" xy="513,865" size="85,31" font="Microsoft YaHei" fontSize="20" color="#27e730" underline="true" text="&lt;u>获取功勋&lt;/u>"/>
+    <image id="n55_gs0d" name="n55" src="hxx51t" fileName="image/每日俸禄.png" xy="152,570"/>
+    <richtext id="n33_c5a5" name="lbAtt" xy="435,643" size="10,43" fontSize="20" leading="12" text="&#xA;">
+      <relation target="n82_l3sh" sidePair="middle-middle"/>
+    </richtext>
+    <image id="n58_gs0d" name="n58" src="hxx51s" fileName="image/当前属性.png" xy="447,570"/>
+    <richtext id="n59_gs0d" name="n59" xy="289,750" size="65,31" font="Microsoft YaHei" fontSize="20" color="#ffc334" align="center" text="功勋值"/>
+    <component id="n45_gs0d" name="btnContry" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="31,164" size="74,81">
+      <Button icon="ui://dllc71i9idkj2h"/>
+    </component>
+    <component id="n65_u0r5" name="lbPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="174,155"/>
+    <image id="n78_g7t3" name="imgBig" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="476,155" size="144,171" group="n81_g7t3"/>
+    <text id="n79_g7t3" name="labBigReward" xy="483,162" size="130,35" group="n81_g7t3" fontSize="24" color="#ffffff" align="center" autoSize="none" text="第99关"/>
+    <component id="n80_g7t3" name="gridBigReward" src="g7t31n" fileName="官衔/JXGrid.xml" xy="500,197" group="n81_g7t3"/>
+    <group id="n81_g7t3" name="groupJiangYin" xy="476,155" size="144,171" advanced="true" collapsed="true"/>
+    <list id="n82_l3sh" name="itemList" xy="73,613" size="255,105" layout="flow_hz" overflow="scroll" colGap="50" defaultItem="ui://jvxpx9emetorm">
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

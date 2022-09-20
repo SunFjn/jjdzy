@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="568,84">
+  <displayList>
+    <image id="n0_q8rv" name="n0" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,-1" size="568,85">
+      <relation target="n11_q8rv" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n6_q8rv" name="btnSend" src="y1z8b" fileName="新组建/Button0.xml" pkg="jvxpx9em" xy="483,22" size="80,40">
+      <Button title="发送" titleFontSize="24"/>
+    </component>
+    <list id="n11_q8rv" name="list" xy="8,8" size="468,68" layout="flow_hz" selectionMode="none" overflow="hidden" lineGap="10" colGap="10" defaultItem="ui://vm9a8xq8q8rva" autoItemSize="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n11_q8rv" sidePair="height-height"/>
+</component>

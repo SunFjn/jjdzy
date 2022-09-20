@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <graph id="n10_fdq8" name="bg" xy="0,0" size="640,1136" type="rect" lineColor="#00000000" fillColor="#99000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n0_pc65" name="n0" src="gyatva" fileName="image/弹窗.png" xy="25,229" size="589,663" group="n12_gyat"/>
+    <loader id="n1_pc65" name="btnClose" xy="553,220" size="52,111" group="n12_gyat" url="ui://a056duzjpc656"/>
+    <group id="n12_gyat" name="n12" xy="25,220" size="589,672"/>
+    <image id="n6_pc65" name="n6" src="pc65k" fileName="image/侧边框底.png" xy="47,294" size="127,581"/>
+    <list id="n5_pc65" name="lst1" xy="173,306" size="417,569" overflow="scroll" lineGap="5" defaultItem="ui://a056duzjpc65l">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n7_pc65" name="n7" xy="268,244" size="101,35" fontSize="24" color="#fcfcfc" strokeColor="#000000" text="选择区服">
+      <relation target="n0_pc65" sidePair="center-center"/>
+    </richtext>
+    <list id="n3_pc65" name="lst0" xy="36,289" size="125,584" locked="true" overflow="scroll" defaultItem="ui://a056duzjpc65h">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

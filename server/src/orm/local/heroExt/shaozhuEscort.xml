@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.shaozhuEscort.model.ShaoZhuEscort" tbname="shaozhuEscort">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="escortWuJiang" type="int" pf="all" comment="雇佣的武将id"/>
+			<col field="refleshThreshold" type="int" pf="all" comment="刷新武将阈值"/>
+			<col field="interceptedTimes" type="int" pf="all" comment="单次被拦截次数"/>
+			<col field="escortTimes" type="int" pf="all" comment="护送次数"/>
+			<col field="interceptTimes" type="int" pf="all" comment="拦截次数"/>
+			<col field="reachTime" type="int" pf="all" comment="到达时间"/>
+			<col field="state" type="int" pf="all" comment="护送状态：0：没护送，1：护送中，2：护送完成"/>
+			<col field="recordList" type="text" pf="all" comment="被打记录"/>
+			<col field="battleRecordRedPointState" type="int" pf="all" comment="战报红点状态 0：:玩家打开过界面，红点不出来，1：:有红点"/>
+     </tb>
+</tbs>

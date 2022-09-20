@@ -1,0 +1,11 @@
+2021-11-24 10:54:41.612 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:LogServer,time:71 ms
+2021-11-24 10:54:41.613 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.util.db.trans.TransInnerUtil
+2021-11-24 10:54:41.613 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:TransInnerUtil,time:1 ms
+2021-11-24 10:54:41.615 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.util.mybatis.MybatisUtil
+2021-11-24 10:54:41.616 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - init complete:MybatisUtil,time:3 ms
+2021-11-24 10:54:41.616 [main] INFO  com.teamtop.system.event.serverEvent.ServerEventFunction - com.teamtop.util.db.orm.AutoObjTableUtil
+2021-11-24 10:54:41.836 [main] INFO  com.teamtop.util.mybatis.MybatisUtil - get DB session but not found,init this session,zoneid:12345678
+2021-11-24 10:54:42.149 [main] INFO  com.teamtop.util.mybatis.MybatisUtil - get DB session urljdbc:mysql://127.0.0.1:3306/central?useUnicode=true&amp;characterEncoding=utf-8 user=root pwd=root
+2021-11-24 10:54:54.299 [main] INFO  com.teamtop.util.db.autoTable.DDLUtil - create table,prikey:id,tbname:crossSelectKingNode
+2021-11-24 10:54:54.299 [main] INFO  com.teamtop.util.db.autoTable.DDLUtil - create table,found col,tbname:crossSelectKingNode
+2021-11-24 10:54:54.299 [main] INFO  com.teamtop.util.db.autoTable.DDLUtil - crossSelectKingNode (id int(10) NOT NULL  AUTO_INCREMENT COMMENT '表唯一id 节点id',id1 bigint(20) NULL COMMENT '角色id1',id2 bigint(20) NULL COMMENT '角色id2',term int(10) NULL COMMENT '第几届',bang int(10) NULL COMMENT '哪个榜对呀转生区间',round int(10) NULL COMMENT '第几轮',count int(10) NULL COMMENT '第几场',pos int(10) NULL COMMENT '节点索引',state int(10) NULL COMMENT '状态 1未激活 2快要打 3正在打 4已打完',win int(10) NULL COMMENT '战斗结果 0未有结果, 1为ID1赢, 2为ID2赢',partId int(10) NULL COMMENT '跨服大分区（兼容周日关服）',PRIMARY KEY (`id`))ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8

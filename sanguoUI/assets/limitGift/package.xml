@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="k02wlh83" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="fvsk0" name="ViewLimitGiftPanel.xml" path="/组件/" exported="true"/>
+    <image id="fvsk1" name="礼包预览.png" path="/image/" exported="true"/>
+    <image id="fvsk2" name="至尊.png" path="/image/" exported="true"/>
+    <image id="fvsk3" name="至尊成长礼包字.png" path="/image/" exported="true"/>
+    <image id="fvsk4" name="豪华.png" path="/image/" exported="true"/>
+    <image id="fvsk5" name="豪华成长礼包字.png" path="/image/" exported="true"/>
+    <image id="fvsk8" name="限时礼包title.png" path="/image/" exported="true"/>
+    <image id="fvsk9" name="限时礼包底图.jpg" path="/image/"/>
+    <image id="smiua" name="折扣标签.png" path="/image/" exported="true"/>
+    <image id="smiub" name="订阅标题框修饰(1).png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="limitGift" genCode="true" excluded="fvsk9"/>
+</packageDescription>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1388" overflow="hidden" opaque="false">
+  <displayList>
+    <image id="n0_eodn" name="eff0" src="eodnw" fileName="image/eff.png" xy="70,-104"/>
+    <image id="n1_eodn" name="eff1" src="eodnw" fileName="image/eff.png" xy="275,-32"/>
+    <image id="n2_eodn" name="eff2" src="eodnw" fileName="image/eff.png" xy="479,-69"/>
+  </displayList>
+</component>

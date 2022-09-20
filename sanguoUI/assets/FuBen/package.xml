@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="pkuzcu87" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="jie00" name="View_FuBen_Panel.xml" path="/组件/" exported="true"/>
+    <image id="jie01" name="list.png" path="/image/" exported="true"/>
+    <component id="jie02" name="Child_YJDQ.xml" path="/组件/一骑当千/" exported="true"/>
+    <component id="fzz83" name="View_YJDQ_Prompt.xml" path="/组件/一骑当千/" exported="true"/>
+    <component id="fzz85" name="View_YJDQ_Reward.xml" path="/组件/一骑当千/" exported="true"/>
+    <component id="ejh46" name="YJDQ_RankItem.xml" path="/组件/一骑当千/" exported="true"/>
+    <component id="ejh47" name="View_YJDQ_Rank.xml" path="/组件/一骑当千/" exported="true"/>
+    <component id="hjjz3" name="Child_Peacock.xml" path="/组件/铜雀台/" exported="true"/>
+    <component id="of9i4" name="ViewPeacockGetReward.xml" path="/组件/铜雀台/" exported="true"/>
+    <component id="b8ve9" name="View_YJDQ_Fight.xml" path="/组件/一骑当千/" exported="true"/>
+    <component id="b8vea" name="View_YJDQ_RewardShow.xml" path="/组件/一骑当千/" exported="true"/>
+    <component id="dlakh" name="CaiLiaoFBItem.xml" path="/组件/材料副本/" exported="true"/>
+    <component id="ox4fi" name="Child_CaiLiaoFB.xml" path="/组件/材料副本/" exported="true"/>
+    <component id="x3g6l" name="Child_RunMan.xml" path="/组件/过关斩将/" exported="true"/>
+    <component id="em4dm" name="ViewRunManBattleRes.xml" path="/组件/过关斩将/" exported="true"/>
+    <component id="em4dn" name="ViewRunManMopping.xml" path="/组件/过关斩将/" exported="true"/>
+    <component id="em4do" name="VRunManGrid.xml" path="/组件/过关斩将/" exported="true"/>
+    <image id="r4ogs" name="type4.png" path="/image/" exported="true"/>
+    <image id="r4ogt" name="type3.png" path="/image/" exported="true"/>
+    <image id="r4ogu" name="type2.png" path="/image/" exported="true"/>
+    <image id="r4ogv" name="type1.png" path="/image/" exported="true"/>
+    <component id="r4og10" name="YJDQ_Tab.xml" path="/组件/一骑当千/" exported="true"/>
+    <image id="r4og11" name="连斩.png" path="/image/" exported="true"/>
+    <image id="kbck17" name="通关波数.png" path="/image/" exported="true"/>
+    <image id="rvdr1d" name="累积奖励1.png" path="/image/" exported="true"/>
+    <image id="rvdr1e" name="通关波数1.png" path="/image/" exported="true"/>
+    <image id="rvdr1f" name="选择难度1.png" path="/image/" exported="true"/>
+    <component id="rvdr1i" name="View_YJDQ_WaveName.xml" path="/组件/一骑当千/" exported="true"/>
+    <image id="toav1m" name="4001.png" path="/image/" exported="true"/>
+    <image id="toav1p" name="副本.png" path="/image/" exported="true"/>
+    <image id="wisd1v" name="奖励.png" path="/image/" exported="true"/>
+    <image id="wisd1w" name="奖励一览.png" path="/image/" exported="true"/>
+    <image id="wisd1x" name="铜雀台txt.png" path="/image/" exported="true"/>
+    <image id="wisd21" name="头像星星背景.png" path="/image/" exported="true"/>
+    <image id="m76j22" name="激活标记.png" path="/image/" exported="true"/>
+    <image id="m76j23" name="过关斩将.png" path="/image/" exported="true"/>
+    <image id="m76j24" name="jh.png" path="/image/" exported="true"/>
+    <image id="gjj025" name="激活将魂.png" path="/image/" exported="true"/>
+    <image id="gjj026" name="首通奖励.png" path="/image/" exported="true"/>
+    <image id="gv3429" name="cl_1001.jpg" path="/image/" exported="true"/>
+    <image id="gv342a" name="材料副本标题.png" path="/image/" exported="true"/>
+    <image id="jg2q2e" name="一骑当千标题.png" path="/image/" exported="true"/>
+    <component id="nphm2f" name="VRunManLayer.xml" path="/组件/过关斩将/" exported="true"/>
+    <image id="nphm2h" name="首通奖励1.png" path="/image/" exported="true"/>
+    <image id="nphm2j" name="浮空台.png" path="/image/" exported="true"/>
+    <image id="ftd22p" name="选中框.png" path="/image/" exported="true"/>
+    <image id="m1lm2w" name="文字底.png" path="/image/" exported="true"/>
+    <image id="m1lm2y" name="榜首.png" path="/image/" exported="true"/>
+    <image id="m1lm30" name="小底.png" path="/image/" exported="true" scale="9grid" scale9grid="10,10,87,38"/>
+    <component id="m1lm32" name="VPeacockPly.xml" path="/组件/铜雀台/"/>
+    <image id="n08034" name="铜钱.png" path="/image/" exported="true"/>
+    <image id="n08036" name="黑色遮罩.png" path="/image/" exported="true" scale="9grid" scale9grid="23,40,46,80"/>
+    <image id="shpk38" name="旗帜底.png" path="/image/" exported="true"/>
+    <image id="q5t639" name="副本标题文字底.png" path="/image/" exported="true"/>
+    <image id="e4rr3e" name="榜首title.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="FuBen" genCode="true" npot="true" excluded="gv3429,jg2q2c,n08034"/>
+</packageDescription>

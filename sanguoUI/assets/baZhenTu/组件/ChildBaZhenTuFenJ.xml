@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,917" opaque="false">
+  <displayList>
+    <image id="n20_b5l2" name="n20" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="20,157" size="599,358"/>
+    <image id="n19_b5l2" name="n19" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="19,527" size="604,146"/>
+    <list id="n0_f8nk" name="list" xy="33,164" size="580,344" layout="flow_hz" overflow="scroll" lineGap="8" colGap="16" lineItemCount="5" defaultItem="ui://xrzn9ppab5l2k">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_f8nk" name="check5" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="511,723" size="96,32">
+      <Button title="&lt;font color='#ed1414'>神&lt;/font>&lt;font color='#ffc344'>符&lt;/font>&lt;font color='#da2bfa'>文&lt;/font>" titleColor="#3ba5ff"/>
+    </component>
+    <component id="n8_f8nk" name="check1" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="36,723" size="116,32">
+      <Button title="&lt;font color='#15F234'>绿&lt;/font>蓝符文" titleColor="#3ba5ff"/>
+    </component>
+    <component id="n9_f8nk" name="check2" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="163,723" size="96,32">
+      <Button title="紫符文" titleColor="#ff00ff"/>
+    </component>
+    <component id="n10_f8nk" name="check3" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="279,723" size="96,32">
+      <Button title="橙符文" titleColor="#ffc344"/>
+    </component>
+    <component id="n13_b5l2" name="check4" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="395,723" size="96,32">
+      <Button title="红符文" titleColor="#ed1414"/>
+    </component>
+    <component id="n15_b5l2" name="grid" src="f8nk4" fileName="组件/VBaZTGrid.xml" xy="37,544"/>
+    <component id="n17_b5l2" name="labChip" src="b5l216" fileName="组件/VBaZTChip.xml" xy="126,764" touchable="false">
+      <Label title="100(+500)"/>
+    </component>
+    <component id="n18_b5l2" name="labT" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="154,680" size="329,31">
+      <Label title="分解符文"/>
+    </component>
+    <component id="n21_b5l2" name="btnUnLock" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="464,570" pivot="0.5,0.5">
+      <Button title="解锁"/>
+    </component>
+    <image id="n22_b5l2" name="imgLock" src="b5l2s" fileName="image/符文-锁住.png" xy="87,540"/>
+    <component id="n5_f8nk" name="btnLock" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="463,570" pivot="0.5,0.5">
+      <Button title="锁定"/>
+    </component>
+    <component id="n23_j1af" name="btnFenJ" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="251,824">
+      <Button title="分解符文"/>
+    </component>
+    <richtext id="n25_ly3w" name="lbName" xy="153,535" size="98,34" fontSize="22" color="#ffffff" text="符文·坚甲"/>
+    <richtext id="n27_ly3w" name="lbAttr" xy="153,584" size="300,82" fontSize="18" color="#ffffff" autoSize="height" text="攻击：125000&#xA;攻击：125000&#xA;攻击：125000"/>
+    <text id="n28_ly3w" name="lbLevel" xy="153,565" size="101,28" fontSize="18" color="#ffffff" text="Lv.180/200"/>
+    <richtext id="n30_nimv" name="lbPower" xy="272,562" size="147,28" fontSize="18" color="#33ff33" text="战力：10000000"/>
+    <text id="n31_brb4" name="n31" xy="25,889" size="590,28" fontSize="16" color="#00ff00" align="center" autoSize="none" text="分解已培养符文返还所有材料，分解红色符文、神符文可获得神符碎片"/>
+    <component id="n32_qcd6" name="labGod" src="b5l216" fileName="组件/VBaZTChip.xml" xy="335,764" touchable="false">
+      <Label title="100(+500)"/>
+    </component>
+  </displayList>
+</component>

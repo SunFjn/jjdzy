@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <controller name="c1" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <component id="n0_d7mw" name="frame" src="fsg93cj" fileName="组件/frame4.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://yk4rwc6rluu28"/>
+    </component>
+    <loader id="n15_luu2" name="imgloader" xy="2,286" size="50,30" url="ui://yk4rwc6rkwfv9" autoSize="true"/>
+    <image id="n21_cdvg" name="n21" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="5,429" size="600,38"/>
+    <list id="n8_d7mw" name="lst" xy="9,475" size="621,448" overflow="scroll" defaultItem="ui://yk4rwc6rd7mw1">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n5_d7mw" name="lbTime" xy="34,433" size="95,28" group="n17_luu2" fontSize="18" color="#ffffff" text="剩余时间："/>
+    <richtext id="n7_d7mw" name="lbDate" xy="313,433" size="257,28" group="n17_luu2" fontSize="18" color="#ffffff" text="活动期间达到条件即可领取奖励"/>
+    <group id="n17_luu2" name="n17" xy="34,433" size="536,28"/>
+    <list id="n23_l4a9" name="tabList" xy="37,125" size="566,154" layout="row" overflow="hidden" scroll="horizontal" colGap="10" defaultItem="ui://jvxpx9emr9to3he" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n24_inpx" name="child_SJKH" src="l4a99" fileName="组件/Child_ShenJiangKuangHuan.xml" xy="10,475">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <image id="n25_http" name="right" src="w6ro3cm" fileName="image/箭头+其他/箭头1.png" pkg="jvxpx9em" xy="606,182" visible="false"/>
+    <image id="n26_http" name="left" src="w6ro3cm" fileName="image/箭头+其他/箭头1.png" pkg="jvxpx9em" xy="5,182" visible="false" flip="hz"/>
+  </displayList>
+</component>

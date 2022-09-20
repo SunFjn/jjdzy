@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="636,145" designImageOffsetY="-230">
+  <displayList>
+    <image id="n15_vt1r" name="n15" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="636,145"/>
+    <loader id="n2_tq2h" name="bgImg" xy="0,2" size="634,143" url="ui://kdt501v2tq2hs"/>
+    <image id="n9_tq2h" name="n9" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="258,17" size="131,35"/>
+    <richtext id="n10_tq2h" name="n10" xy="273,21" size="102,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="活动掉落"/>
+    <component id="n11_tq2h" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="249,54" scale="0.8,0.8"/>
+    <component id="n12_tq2h" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="330,54" scale="0.8,0.8"/>
+    <component id="n13_tq2h" name="goBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="476,54">
+      <Button title="前往"/>
+    </component>
+  </displayList>
+</component>

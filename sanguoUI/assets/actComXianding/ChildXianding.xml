@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://s98a5pruoz6c2" designImageAlpha="48">
+  <controller name="tabCtrl" exported="true" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <loader id="n0_oz6c" name="imageBanner" xy="0,258" size="640,184" hideByEditor="true" url="ui://s98a5pruoz6c3"/>
+    <image id="n1_oz6c" name="n1" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,448" size="640,479" hideByEditor="true"/>
+    <component id="n2_oz6c" name="tab0" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="20,463">
+      <Button checked="true" title="日常" controller="tabCtrl" page="0"/>
+    </component>
+    <component id="n3_oz6c" name="tab1" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="139,463">
+      <Button title="活动" controller="tabCtrl" page="1"/>
+    </component>
+    <component id="n4_oz6c" name="tab2" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="258,463">
+      <Button title="助力" controller="tabCtrl" page="2"/>
+    </component>
+    <component id="n5_oz6c" name="tab3" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="377,463">
+      <Button title="消耗" controller="tabCtrl" page="3"/>
+    </component>
+    <list id="n15_illc" name="list" xy="14,509" size="615,282" overflow="scroll" lineGap="2" defaultItem="ui://s98a5pruoz6c4" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n16_illc" name="pb" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="35,875" size="570,16">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <richtext id="n17_illc" name="n2" xy="286,890" size="65,27" fontSize="20" color="#ffffff" vAlign="middle" text="活跃值"/>
+    <image id="n18_illc" name="n18" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="14,408" size="267,27"/>
+    <richtext id="n19_illc" name="tfDate" xy="19,410" size="159,25" fontSize="18" color="#00ff00" autoClearText="true" text="活动剩余时间：1天"/>
+    <component id="n21_illc" name="rewardItemTemp" src="illc5" fileName="com/XiandingRewardItem.xml" xy="109,834" visible="false" controller="stateCtrl,0"/>
+  </displayList>
+</component>

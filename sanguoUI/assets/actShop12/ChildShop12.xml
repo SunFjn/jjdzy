@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://plzexlaflplo1">
+  <displayList>
+    <loader id="n0_lplo" name="banner" xy="0,263" size="640,180" url="ui://plzexlaflplo3"/>
+    <image id="n1_lplo" name="n1" src="m3513bf" fileName="image/底板2 拷贝 2.png" pkg="jvxpx9em" xy="0,427" size="640,507"/>
+    <image id="n2_lplo" name="n2" src="m3513bv" fileName="image/tips.png" pkg="jvxpx9em" xy="14,440" size="611,399"/>
+    <component id="n4_lplo" name="resCom0" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="7,362" size="135,36"/>
+    <image id="n7_lplo" name="n7" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="8,399" size="267,27"/>
+    <richtext id="n8_lplo" name="tfDate" xy="10,400" size="159,25" fontSize="18" color="#00ff00" text="活动剩余时间：1天"/>
+    <image id="n9_lplo" name="n9" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="503,399" size="127,27" flip="hz"/>
+    <component id="n10_lplo" name="btnMore" src="lplo3gp" fileName="组件/TextBtn.xml" pkg="jvxpx9em" xy="525,397">
+      <Button title="&lt;u>查看更多优惠&lt;/u>" titleColor="#00ff00"/>
+    </component>
+    <list id="n33_lplo" name="list" xy="25,454" size="595,366" layout="flow_hz" overflow="scroll" lineGap="3" colGap="18" defaultItem="ui://plzexlaflplo5" autoClearItems="true">
+      <item controllers="stateCtrl,0"/>
+      <item controllers="stateCtrl,0"/>
+      <item controllers="stateCtrl,0"/>
+      <item controllers="stateCtrl,0"/>
+      <item controllers="stateCtrl,0"/>
+      <item controllers="stateCtrl,0"/>
+    </list>
+    <component id="n3_lplo" name="btnBuy" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="255,871">
+      <Button title="购买"/>
+    </component>
+    <richtext id="n34_lplo" name="n34" xy="254,840" pivot="1,0" size="71,29" fontSize="22" color="#ffffff" text="总价："/>
+    <component id="n6_lplo" name="resComTotal" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="311,839" size="135,36"/>
+    <component id="n36_c0in" name="btnClear" src="lplo3gp" fileName="组件/TextBtn.xml" pkg="jvxpx9em" xy="411,881">
+      <Button title="&lt;u>清空选项&lt;/u>" titleColor="#00ff00"/>
+    </component>
+  </displayList>
+</component>

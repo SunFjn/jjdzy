@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,556">
+  <displayList>
+    <component id="n0_js6l" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,556">
+      <Label title="挑战记录"/>
+    </component>
+    <image id="n4_j92x" name="n4" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="18,89" size="552,442"/>
+    <richtext id="n1_js6l" name="noteLb" xy="28,98" size="535,421" fontSize="24" color="#ffffff" leading="10" autoSize="none" text=""/>
+  </displayList>
+</component>

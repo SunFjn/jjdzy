@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,165" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <component id="n0_fxp3" name="container" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="100,98"/>
+    <image id="n9_q5rf" name="iconSel" src="5voq3g5" fileName="image/选中框2.png" pkg="jvxpx9em" xy="43,-64" size="116,166" visible="false"/>
+    <image id="n10_5voq" name="n10" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="37,99" size="129,34" group="n3_fxp3"/>
+    <image id="n1_fxp3" name="n1" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="37,99" size="129,34" group="n3_fxp3"/>
+    <text id="n2_fxp3" name="txtName" xy="46,106" size="106,29" group="n3_fxp3" fontSize="18" color="#ffffff" bold="true" text="玩家名字6字">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n3_fxp3" name="grp1" xy="37,99" size="129,36" advanced="true"/>
+    <image id="n8_fxp3" name="iconNoAct" src="fxp38" fileName="image/未激活标签.png" xy="49,138"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="360,285" pivot="0.5,0.5" opaque="false">
+  <displayList>
+    <loader id="n22_f6ec" name="n6" xy="25,84" size="310,172" url="ui://edvdots4ekf610" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <image id="n10_ov4h" name="n10" src="ekf6y" fileName="images/标题文字底.png" xy="116,29">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n3_srrs" name="btnCheck" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="287,92" size="33,33" scale="1.5,1.5">
+      <Button icon="ui://edvdots4srrs7"/>
+    </component>
+    <text id="n1_srrs" name="lbName" xy="154,34" size="53,31" fontSize="24" color="#ffffff" text="主城">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n11_ov4h" name="n11" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="108,74" size="151,27" group="n12_ov4h">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n2_srrs" name="lbMember" xy="154,77" size="47,29" group="n12_ov4h" fontSize="22" color="#ffffff" text="0/10">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n12_ov4h" name="groupMember" xy="108,74" size="151,37" advanced="true" collapsed="true"/>
+    <image id="n13_ov4h" name="imgArrow" src="ekf612" fileName="images/绿色箭头.png" xy="161,-40"/>
+    <loader id="n15_ov4h" name="imgHead" xy="144,119" size="80,80" group="n16_ov4h" touchable="false" url="ui://edvdots4kzd9e"/>
+    <loader id="n14_ov4h" name="n14" xy="140,114" size="88,88" group="n16_ov4h" touchable="false" url="ui://edvdots4ov4h17" align="center" vAlign="bottom"/>
+    <loader id="n17_ov4h" name="n17" xy="130,111" size="26,58" group="n16_ov4h" url="ui://edvdots4ekf6u"/>
+    <image id="n18_ov4h" name="n18" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="87,208" size="186,27" group="n16_ov4h">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n19_ov4h" name="lbOwner" xy="95,211" size="167,25" group="n16_ov4h" fontSize="18" color="#ffffff" text="名字六个字啊.s9999">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n21_ov4h" name="barHp" src="p4bn88" fileName="新组建/HpBar.xml" pkg="jvxpx9em" xy="66,243" size="228,30" group="n16_ov4h" touchable="false">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <group id="n16_ov4h" name="groupHead" xy="66,111" size="228,162" visible="false" advanced="true"/>
+    <component id="n28_f6ec" name="barTime" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="90,0" size="180,25" group="n27_f6ec">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n29_f6ec" name="lbTime" xy="166,4" size="34,25" group="n27_f6ec" fontSize="18" color="#ffcc00" text="30s"/>
+    <text id="n34_vuo0" name="lbTime123" xy="50,2" size="41,25" group="n27_f6ec" fontSize="18" color="#ffcc00" strokeColor="#000000" text="征收"/>
+    <group id="n27_f6ec" name="groupPro" xy="50,0" size="220,32" advanced="true" collapsed="true"/>
+    <image id="n30_ncqs" name="bg" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="114,264" size="151,27" group="n32_ncqs">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n33_ncqs" name="n33" src="ncqsw1r" fileName="images/战斗中....png" xy="142,265" group="n32_ncqs"/>
+    <group id="n32_ncqs" name="groupState" xy="114,264" size="151,28" visible="false" advanced="true" collapsed="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n13_ov4h" tween="true" startValue="161.47,-40.48" endValue="161,-60" duration="6" ease="Linear"/>
+    <item time="6" type="XY" target="n13_ov4h" tween="true" startValue="161,-60" endValue="161,-40" duration="6"/>
+    <item time="12" type="XY" target="n13_ov4h" tween="true" startValue="161,-40" ease="Linear"/>
+  </transition>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,124">
+  <displayList>
+    <image id="n0_mq0c" name="n0" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="640,124"/>
+    <image id="n4_mq0c" name="ylq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="494,38"/>
+    <component id="n1_mq0c" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="488,27">
+      <Button title="可领取"/>
+    </component>
+    <component id="n2_mq0c" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="488,27">
+      <Button title="去充值"/>
+    </component>
+    <text id="n3_mq0c" name="desc" xy="28,44" size="161,40" fontSize="28" color="#ffffff" ubb="true" text="单笔充值6元"/>
+    <component id="n6_h9gs" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="269,22" scale="0.8,0.8"/>
+    <text id="n7_http" name="count" xy="474,85" size="151,25" fontSize="16" color="#ffffff" ubb="true" text="可充值领取次数：60"/>
+    <image id="n8_wde0" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="602,24" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>

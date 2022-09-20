@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,914" opaque="false">
+  <displayList>
+    <component id="n7_h7p8" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="186,313">
+      <Label title="999999999"/>
+    </component>
+    <component id="n9_h7p8" name="szBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="512,324" size="86,93">
+      <Button icon="ui://p83wyb2bh7p82"/>
+    </component>
+    <component id="n10_h7p8" name="battleBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="479,472" size="114,118">
+      <Button icon="ui://p83wyb2bh7p85"/>
+    </component>
+    <image id="n32_fe76" name="n32" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="150,675" size="333,105" visible="false"/>
+    <image id="n30_ftpj" name="n30" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="168,547"/>
+    <component id="n12_h7p8" name="n12" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="175,649" size="285,28">
+      <Label title="属性"/>
+    </component>
+    <text id="n18_h7p8" name="labStar" xy="145,624" size="347,31" font="ui://jvxpx9emz1r82c" fontSize="24" color="#ffffff" align="center" autoSize="none" text="5111111111"/>
+    <richtext id="n15_h7p8" name="labAttrMax" xy="267,713" size="98,28" touchable="false" fontSize="18" color="#ffffff" leading="10" text="升星+1000">
+      <relation target="n32_fe76" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n13_h7p8" name="labAttrCur" xy="180,689" size="98,72" group="n19_h7p8" touchable="false" fontSize="18" color="#ffffff" leading="0" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <image id="n16_h7p8" name="imgArrow" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="288,698" group="n19_h7p8">
+      <relation target="n13_h7p8" sidePair="middle-middle"/>
+    </image>
+    <richtext id="n14_h7p8" name="labAttrNext" xy="354,688" size="98,72" group="n19_h7p8" touchable="false" fontSize="18" color="#ffffff" leading="0" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <group id="n19_h7p8" name="attGroup" xy="180,688" size="272,77" advanced="true" collapsed="true" layout="hz" colGap="10">
+      <relation target="n32_fe76" sidePair="center-center,middle-middle"/>
+    </group>
+    <richtext id="n24_h7p8" name="smLb" xy="531,870" size="85,31" fontSize="20" color="#00ff00" underline="true" text="玩法说明"/>
+    <image id="n27_p7rx" name="boxMax" src="irr13h1" fileName="image/美术字/满级美术字/已满星.png" pkg="jvxpx9em" xy="274,833"/>
+    <component id="n31_ftpj" name="showBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="286,566" size="66,66">
+      <Button title="展示" icon="ui://jvxpx9emul8t3fk"/>
+    </component>
+    <richtext id="n22_h7p8" name="costLb" xy="170,886" size="328,28" group="n37_flxz" fontSize="18" color="#ffffff" align="center" autoSize="none" text="消耗材料">
+      <relation target="n18_h7p8" sidePair="center-center"/>
+    </richtext>
+    <component id="n23_h7p8" name="upBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="253,824" group="n37_flxz">
+      <Button title="升星"/>
+    </component>
+    <image id="n35_flxz" name="n35" src="ul8t3fl" fileName="image/战力提升.png" pkg="jvxpx9em" xy="192,774" group="n39_iv4o"/>
+    <text id="n36_flxz" name="starPowerLb" xy="284,792" size="202,27" group="n39_iv4o" scale="0.8,0.8" font="ui://jvxpx9embwmw3w" fontSize="12" singleLine="true" text="99999999999"/>
+    <group id="n39_iv4o" name="n39" xy="192,774" size="294,51" group="n37_flxz" advanced="true" layout="hz" colGap="-14">
+      <relation target="n23_h7p8" sidePair="center-center"/>
+    </group>
+    <group id="n37_flxz" name="costGroup" xy="170,774" size="328,140" advanced="true" collapsed="true"/>
+    <component id="n34_flxz" name="nameLb" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="72,339" group="n44_kq13">
+      <Label title="刘禅"/>
+    </component>
+    <image id="n40_kq13" name="n40" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="46,325" size="105,241" group="n44_kq13"/>
+    <list id="n41_kq13" name="rewardList" xy="44,331" pivot="0.5,0.5" size="110,217" group="n44_kq13" aspect="true" scale="0.8,0.8" layout="flow_vt" overflow="scroll" scrollBarFlags="128" margin="0,0,5,0" scrollBarMargin="0,10,0,0" defaultItem="ui://jvxpx9emetorm">
+      <item/>
+      <item/>
+    </list>
+    <text id="n42_kq13" name="rewardDesc" xy="50,332" size="93,22" group="n44_kq13" fontSize="18" color="#f2a318" align="center" autoSize="none" strokeColor="#000000" text="20星奖励"/>
+    <component id="n43_kq13" name="getRewardBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="36,517" pivot="0.5,0.5" size="122,47" group="n44_kq13" aspect="true" scale="0.7,0.7">
+      <Button title="领取"/>
+    </component>
+    <image id="n45_kq13" name="yilingqu" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="55,527" size="83,26" group="n44_kq13" aspect="true"/>
+    <group id="n44_kq13" name="rewardGroup" xy="36,325" size="122,241" advanced="true"/>
+    <loader id="n47_vuzv" name="modelIcon" xy="244,400" size="148,175" touchable="false" align="center" vAlign="bottom"/>
+    <component id="n49_o89h" name="qianNengBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="527,738" size="84,88">
+      <Button icon="ui://p83wyb2bo89h36"/>
+    </component>
+  </displayList>
+</component>

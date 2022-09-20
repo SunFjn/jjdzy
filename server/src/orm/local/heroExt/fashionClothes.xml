@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.fashionClothes.FashionClothes" tbname="fashionClothes">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="clothesStar" type="text" pf="all" comment="时装星级 激活才有"/>
+			<col field="wujiangClothesId" type="text" pf="all" comment="武将穿戴时装"/>
+			<col field="fashNum" type="int" pf="all" comment="激活时装数"/>			
+     </tb>
+</tbs>

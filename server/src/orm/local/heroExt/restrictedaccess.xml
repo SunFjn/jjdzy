@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.restrictedAccess.RestrictedAccess" tbname="restrictedAccess">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="numBuyedMap" type="text" pf="all" comment="已购买次数  key:表ID  value:已购买次数"/>
+			<col field="timeBuyedMap" type="text" pf="all" comment="记录首次购买时间。根据时间重置、每日重置用   key:表ID  value:上次购买时间"/>
+     </tb>
+</tbs>

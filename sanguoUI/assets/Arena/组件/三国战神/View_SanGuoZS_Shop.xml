@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" designImage="ui://me1skowlwnzh6j">
+  <displayList>
+    <component id="n1_m40k" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://me1skowlm40k3h"/>
+    </component>
+    <loader id="n8_m40k" name="titleImg" xy="20,157" size="600,152" fill="scaleFree"/>
+    <image id="n3_m40k" name="n3" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="497,263" size="112,30">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <loader id="n4_m40k" name="moneyIcon" xy="498,261" size="33,33" url="ui://me1skowlm40k3f" fill="scaleFree"/>
+    <richtext id="n5_m40k" name="moneyLb" xy="534,266" size="55,25" fontSize="18" color="#ffffff" text="99999">
+      <relation target="" sidePair="width-width"/>
+    </richtext>
+    <richtext id="n10_m40k" name="n10" xy="31,267" size="325,27" touchable="false" fontSize="20" color="#ffffff" leading="0" text="达成三国战神历史排名解锁超值宝藏"/>
+    <list id="n23_m40k" name="list" xy="22,321" size="600,592" layout="flow_hz" overflow="scroll" lineGap="11" colGap="12" lineItemCount="2" defaultItem="ui://me1skowlm40k3l">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

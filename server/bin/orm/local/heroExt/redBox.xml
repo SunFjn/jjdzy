@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.redBox.RedBox" tbname="redBox">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="goldYuanBao" type="bigint" pf="all" comment="金元宝数量"/>
+			<col field="sendNum" type="int" pf="all" comment="今日发红包数量"/>
+	</tb>
+</tbs>

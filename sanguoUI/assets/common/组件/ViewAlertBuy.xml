@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="540,342">
+  <displayList>
+    <component id="n25_kpxy" name="frame" src="f1cf4b" fileName="组件/frame2.xml" xy="0,0" size="540,342">
+      <Label title="提示"/>
+    </component>
+    <image id="n1_hfx7" name="back" src="x3b93cl" fileName="image/通用底框/方框3.png" xy="21,84" size="498,166"/>
+    <richtext id="n6_hfx7" name="lb" xy="38,117" size="465,35" fontSize="24" color="#ffffff" align="center" autoSize="shrink" text="今日剩余购买次数:10"/>
+    <component id="n12_o4l8" name="btnMin" src="usb23gq" fileName="组件/Button6.xml" xy="100,158" group="n19_o4l8">
+      <Button title="-10"/>
+    </component>
+    <component id="n13_o4l8" name="btnReduce" src="usb23gq" fileName="组件/Button6.xml" xy="151,158" group="n19_o4l8">
+      <Button title="-1"/>
+    </component>
+    <image id="n14_o4l8" name="n14" src="rt7o4r" fileName="image/通用底框/inputBg.png" xy="200,162" size="141,31" group="n19_o4l8"/>
+    <component id="n15_o4l8" name="btnAdd" src="usb23gq" fileName="组件/Button6.xml" xy="344,158" group="n19_o4l8">
+      <Button icon="ui://jvxpx9emcyxg4w"/>
+    </component>
+    <text id="n16_o4l8" name="lbCount" xy="227,166" size="86,35" group="n19_o4l8" fontSize="24" color="#ffffff" align="center" autoSize="none" text="99999"/>
+    <component id="n17_o4l8" name="btnMax" src="usb23gq" fileName="组件/Button6.xml" xy="395,158" group="n19_o4l8">
+      <Button title="+10"/>
+    </component>
+    <group id="n19_o4l8" name="groupUse" xy="100,158" size="343,43" advanced="true" collapsed="true"/>
+    <richtext id="n21_o4l8" name="lbTotal" xy="191,207" size="59,35" fontSize="24" color="#ffffff" text="总价:"/>
+    <richtext id="n22_o4l8" name="lbCost" xy="297,207" size="47,35" fontSize="24" color="#ffffff" text="200"/>
+    <loader id="n23_o4l8" name="n23" xy="258,210" size="30,30" url="ui://jvxpx9embwmw3y"/>
+    <component id="n8_c5a5" name="btnCancel" src="y1z8b" fileName="组件/Button0.xml" xy="114,265" group="n24_ud97">
+      <Button title="取消"/>
+    </component>
+    <component id="n9_c5a5" name="btnOk" src="y1z8l" fileName="组件/Button1.xml" xy="284,265" group="n24_ud97">
+      <Button title="确定"/>
+    </component>
+    <group id="n24_ud97" name="n24" xy="114,265" size="306,62"/>
+  </displayList>
+</component>

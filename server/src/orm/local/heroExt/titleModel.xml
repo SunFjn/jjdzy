@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.title.TitleModel" tbname="titleModel">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="wearTitleId" type="int" pf="all" comment="当前穿戴的称号id"/>
+			<col field="hasMap" type="text" pf="all" comment="已拥有称号信息"/>
+			<col field="titleSet" type="text" pf="all" comment="永久类已获得称号"/>
+     </tb>
+</tbs>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="519,147">
+  <displayList>
+    <image id="n3_bx2z" name="n3" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="519,147" locked="true"/>
+    <component id="n0_g50q" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="359,64">
+      <Button title="领取"/>
+    </component>
+    <richtext id="n1_g50q" name="lbProgress" xy="407,38" size="34,28" fontSize="18" color="#00ff00" align="center" text="2亿">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n2_g50q" name="lbCondition" xy="11,5" size="74,28" fontSize="18" color="#ffffff" text="造成100"/>
+    <image id="n4_bx2z" name="ylq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="362,69"/>
+  </displayList>
+</component>

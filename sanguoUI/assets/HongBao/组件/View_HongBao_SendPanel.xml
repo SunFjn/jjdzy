@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="540,671">
+  <displayList>
+    <loader id="n0_qz02" name="backBg" xy="0,0" size="540,671" url="ui://s01exr8xqz029"/>
+    <image id="n17_qz02" name="n17" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="46,310" size="448,60"/>
+    <image id="n12_qz02" name="n12" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="46,399" size="448,60"/>
+    <richtext id="n1_qz02" name="n1" xy="147,45" size="245,69" fontSize="24" color="#ffffff" align="center" text="消耗银元宝发放红包&#xA;抢到红包后可获得元宝"/>
+    <richtext id="n2_qz02" name="n2" xy="246,202" size="53,35" fontSize="24" color="#ffffff" align="center" text="金额"/>
+    <component id="n3_qz02" name="btnMin" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="70,239" size="82,41" group="n9_qz02">
+      <relation target="n6_qz02" sidePair="left-left"/>
+      <Button title="-1000"/>
+    </component>
+    <component id="n4_qz02" name="btnReduce" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="152,239" size="68,41" group="n9_qz02">
+      <relation target="n6_qz02" sidePair="left-left"/>
+      <Button title="-100"/>
+    </component>
+    <component id="n5_qz02" name="btnAdd" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="319,239" size="68,41" group="n9_qz02">
+      <relation target="n6_qz02" sidePair="right-right"/>
+      <Button title="+100"/>
+    </component>
+    <image id="n6_qz02" name="n6" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="223,243" size="94,31" group="n9_qz02">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <richtext id="n7_qz02" name="tfCount" xy="230,245" size="82,28" group="n9_qz02" input="true" maxLength="10" restrict="0-9" keyboardType="4" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" autoClearText="true" text="99999">
+      <relation target="n6_qz02" sidePair="width-width,middle-middle"/>
+    </richtext>
+    <component id="n8_qz02" name="btnMax" src="usb23gq" fileName="组件/Button6.xml" pkg="jvxpx9em" xy="387,239" size="82,41" group="n9_qz02">
+      <relation target="n6_qz02" sidePair="right-right"/>
+      <Button title="+1000"/>
+    </component>
+    <group id="n9_qz02" name="n9" xy="70,239" size="399,41" collapsed="true"/>
+    <richtext id="n10_qz02" name="n10" xy="117,325" size="53,35" fontSize="24" color="#ffffff" align="center" text="数量"/>
+    <richtext id="n11_qz02" name="n11" xy="199,368" size="117,24" fontSize="14" color="#ffffff" align="center" text="注：数量不可更改"/>
+    <text id="n13_qz02" name="zfLb" xy="58,416" size="421,35" input="true" maxLength="10" fontSize="24" color="#ffffff" autoSize="none" text="恭喜发财，大吉大利"/>
+    <richtext id="n18_qz02" name="n18" xy="367,325" size="57,35" fontSize="24" color="#ffffff" align="center" text="10个"/>
+    <component id="n14_qz02" name="sendBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="203,507">
+      <Button title="发红包"/>
+    </component>
+    <component id="n16_qz02" name="closeButton" src="f1cf49" fileName="组件/closeButton1.xml" pkg="jvxpx9em" xy="456,22"/>
+    <component id="n19_qz02" name="changeBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="361,406" size="112,49" visible="false">
+      <Button title="修改"/>
+    </component>
+  </displayList>
+</component>

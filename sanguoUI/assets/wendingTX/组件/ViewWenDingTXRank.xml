@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,757">
+  <controller name="c1" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <component id="n0_fl2h" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,708" locked="true">
+      <Label title="奖励"/>
+    </component>
+    <component id="n1_fl2h" name="n1" src="fl2h5" fileName="组件/ChildWDTXRank.xml" xy="16,71" size="559,618">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n6_fl2h" name="n6" src="fl2h9" fileName="组件/ChildLayerRank.xml" xy="16,71">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <component id="n5_fl2h" name="n5" src="fl2h7" fileName="组件/ChildLianZhanPanel.xml" xy="16,71">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n2_fl2h" name="n2" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,702">
+      <Button checked="true" title="排名奖励" controller="c1" page="0"/>
+    </component>
+    <component id="n3_fl2h" name="n3" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,702">
+      <Button title="连斩奖励" controller="c1" page="1"/>
+    </component>
+    <component id="n4_fl2h" name="n4" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="251,702">
+      <Button title="楼层奖励" controller="c1" page="2"/>
+    </component>
+    <component id="n7_rudj" name="n7" src="n3vz16" fileName="组件/ChildWDTXScoreRank.xml" xy="16,71">
+      <gearDisplay controller="c1" pages="3"/>
+    </component>
+    <component id="n8_rudj" name="n8" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="370,702">
+      <Button title="积分奖励" controller="c1" page="3"/>
+    </component>
+  </displayList>
+</component>

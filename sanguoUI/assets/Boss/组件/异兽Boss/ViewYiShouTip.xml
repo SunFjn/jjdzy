@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="546,303">
+  <displayList>
+    <component id="n0_l44i" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="546,303">
+      <Label title="提示"/>
+    </component>
+    <image id="n2_l44i" name="n2" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="21,78" size="503,125"/>
+    <richtext id="n1_l44i" name="lbTip" xy="106,110" size="332,66" fontSize="24" color="#ffffff" align="center" vars="true" text="是否花费{0}元宝复活？&#xA;（退出战斗BOSS血量将回满）">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n3_l44i" name="btnSure" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="321,225">
+      <Button title="确定"/>
+    </component>
+    <component id="n4_l44i" name="btnExite" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="95,225">
+      <Button title="退出"/>
+    </component>
+  </displayList>
+</component>

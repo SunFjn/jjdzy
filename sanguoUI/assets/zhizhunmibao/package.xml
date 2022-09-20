@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="swuqw468" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="x9uy0" name="ChildZZMiBao.xml" path="/view/" exported="true"/>
+    <component id="x9uy1" name="ItemZZmiBao.xml" path="/view/" exported="true"/>
+  </resources>
+  <publish name="zhizhunmibao" genCode="true"/>
+</packageDescription>

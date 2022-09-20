@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="144,130" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <component id="n1_f8nk" name="check" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="5,2"/>
+    <component id="n7_v97g" name="grid" src="11m1w11" fileName="组件/六道/VSixWayGrid.xml" xy="0,0"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

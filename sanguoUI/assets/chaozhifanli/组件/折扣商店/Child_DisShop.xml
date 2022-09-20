@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="636,661" designImage="ui://qzsojhcrdjuz1k" designImageOffsetX="-2" designImageOffsetY="-262">
+  <displayList>
+    <image id="n21_djuz" name="n21" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="0,-13" size="636,661"/>
+    <richtext id="n17_t68w" name="n17" xy="468,0" size="141,25" group="n19_n0mt" fontSize="18" color="#15f234" leading="0" text="每天0点更新商品"/>
+    <list id="n18_t68w" name="list" xy="30,30" size="575,600" group="n19_n0mt" layout="flow_hz" overflow="scroll" lineGap="14" colGap="15" lineItemCount="2" defaultItem="ui://qzsojhcrt68we" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n19_n0mt" name="n19" xy="30,0" size="579,630"/>
+  </displayList>
+</component>

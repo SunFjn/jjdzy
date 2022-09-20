@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="204,222">
+  <displayList>
+    <image id="n28_hj7d" name="n28" src="hj7d20" fileName="image/充值底1.png" xy="0,0"/>
+    <loader id="n2_t2yi" name="iconGold" xy="26,76" pivot="0.5,0.5" size="129,95" url="ui://42zxp7qjsiu4k" align="center" vAlign="middle"/>
+    <richtext id="n5_t2yi" name="txtYuan" xy="14,186" size="153,35" fontSize="24" color="#ffffff" align="center" autoSize="none" text="6元"/>
+    <loader id="n11_r6t6" name="iconMul" xy="4,-2" size="50,50" url="ui://42zxp7qjdev71x"/>
+    <image id="n19_r6t6" name="n19" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="85,2" size="0,31"/>
+    <richtext id="n18_r6t6" name="txtMul" xy="77,3" size="93,26" group="n24_i2ih" fontSize="18" color="#ffffff" text="12800X2倍"/>
+    <image id="n23_i2ih" name="n23" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="40,-1" group="n24_i2ih"/>
+    <group id="n24_i2ih" name="grpMul" xy="40,-1" size="138,32" advanced="true"/>
+    <image id="n12_r6t6" name="iconEW" src="dev71y" fileName="image/额外赠送.png" xy="105,29" group="n16_r6t6"/>
+    <richtext id="n25_dk0a" name="txtNum" xy="101,52" size="69,26" group="n16_r6t6" font="ui://jvxpx9emxnp23d9" fontSize="22" letterSpacing="-5" text="60000">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n26_aze9" name="n26" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="169,55" group="n16_r6t6" scale="0.8,0.8">
+      <relation target="n25_dk0a" sidePair="left-right"/>
+    </image>
+    <group id="n16_r6t6" name="grpEW" xy="101,29" size="100,63" advanced="true"/>
+  </displayList>
+</component>

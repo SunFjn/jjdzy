@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="186,201" extention="Button">
+  <displayList>
+    <loader id="n8_osj3" name="icon" xy="0,0" size="186,168" url="ui://wx4kos8uosj37"/>
+    <loader id="n10_80el" name="typeLoader" xy="48,27" pivot="0.5,0.5" size="89,62" url="ui://wx4kos8uosj3b" autoSize="true">
+      <relation target="n8_osj3" sidePair="left-left,top-top"/>
+    </loader>
+    <component id="n9_osj3" name="btn" src="osj33i8" fileName="组件/Button7.xml" pkg="jvxpx9em" xy="39,160" size="108,41">
+      <Button title="查看奖励" titleFontSize="18" icon="ui://wx4kos8uosj38"/>
+    </component>
+  </displayList>
+  <Button/>
+  <transition name="effectShake">
+    <item time="0" type="Shake" target="n8_osj3" value="3,1"/>
+  </transition>
+</component>

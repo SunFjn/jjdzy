@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.qiceDraw.model.QiCeDraw" tbname="qiCeDraw">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="awards" type="text" pf="all" comment="抽奖目标奖励"/>
+			<col field="num" type="int" pf="all" comment="抽奖次数"/>
+     </tb>
+</tbs>

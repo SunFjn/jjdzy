@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="193,250">
+  <displayList>
+    <image id="n14_gapn" name="n14" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="193,250"/>
+    <image id="n15_gapn" name="n15" src="gapnh" fileName="image/旗子-第二名.png" xy="8,2"/>
+    <component id="n17_gapn" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="56,14" scale="0.85,0.85"/>
+    <component id="n20_gapn" name="drawBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="28,159">
+      <Button title="敬酒(10/10)" titleFontSize="20"/>
+    </component>
+    <text id="n16_gapn" name="nameLb" xy="13,4" size="29,80" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="青梅酒"/>
+    <richtext id="n18_gapn" name="addLb" xy="50,105" size="96,28" touchable="false" fontSize="20" color="#00ff00" align="center" leading="0" autoSize="none" text="醉意+10"/>
+    <richtext id="n19_gapn" name="rewardLb" xy="3,137" size="183,25" touchable="false" fontSize="16" color="#ffffff" align="center" leading="0" autoSize="none" text="敬酒可获得青梅酒"/>
+    <component id="n22_r3je" name="costIcon" src="tw1l5d" fileName="新组建/ViewGrid2.xml" pkg="jvxpx9em" xy="48,219" size="29,28" group="n23_r3je"/>
+    <richtext id="n21_gapn" name="costLb" xy="77,220" size="66,25" group="n23_r3je" touchable="false" fontSize="16" color="#ffffff" leading="0" text="1000/10"/>
+    <group id="n23_r3je" name="n23" xy="48,219" size="95,28" advanced="true" layout="hz">
+      <relation target="n20_gapn" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,861">
+  <displayList>
+    <component id="n1_jd2n" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,861">
+      <Label title="奖励预览"/>
+    </component>
+    <richtext id="n2_jd2n" name="n2" xy="111,65" size="54,35" fontSize="24" color="#ffff00" autoSize="none" text="官职"/>
+    <richtext id="n3_jd2n" name="n3" xy="358,65" size="149,35" fontSize="24" color="#ffff00" text="每日俸禄预览"/>
+    <component id="n4_jd2n" name="item0" src="jd2n2t" fileName="组件/王位之争/Child_KingShip_RewardItem.xml" xy="19,108"/>
+    <component id="n10_jd2n" name="item1" src="jd2n2t" fileName="组件/王位之争/Child_KingShip_RewardItem.xml" xy="19,237"/>
+    <component id="n11_jd2n" name="item2" src="jd2n2t" fileName="组件/王位之争/Child_KingShip_RewardItem.xml" xy="19,366"/>
+    <component id="n12_jd2n" name="item3" src="jd2n2t" fileName="组件/王位之争/Child_KingShip_RewardItem.xml" xy="19,495"/>
+    <component id="n13_jd2n" name="item4" src="jd2n2t" fileName="组件/王位之争/Child_KingShip_RewardItem.xml" xy="19,624"/>
+    <richtext id="n14_jd2n" name="myposLb" xy="65,782" size="227,35" fontSize="24" color="#ffff00" text="我的官职:蜀国大将军"/>
+    <component id="n15_jd2n" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="426,769">
+      <Button title="领取俸禄"/>
+    </component>
+    <richtext id="n16_jd2n" name="n16" xy="414,819" size="160,28" fontSize="18" color="#00ff00" text="每日可领取1次俸禄"/>
+  </displayList>
+</component>

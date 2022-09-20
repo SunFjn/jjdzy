@@ -1,0 +1,11 @@
+2020-10-27 00:00:03.771 [任务线程 - 11] WARN  com.teamtop.system.rankNew.RankingSysEvent - raning treeSet empty, tyep=3
+2020-10-27 00:01:01.119 [任务线程 - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 00:01:01.119 [任务线程 - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 00:01:01.119 [任务线程 - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 00:01:01.119 [任务线程 - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 00:01:01.135 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 00:01:01.276 [任务线程 - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 00:01:01.276 [任务线程 - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 00:01:01.276 [任务线程 - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 00:01:01.276 [任务线程 - 4] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 00:01:01.276 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!

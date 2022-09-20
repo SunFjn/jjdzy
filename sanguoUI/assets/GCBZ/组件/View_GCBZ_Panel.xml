@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0_uvs3" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://vgiijkm8h9brt"/>
+    </component>
+    <component id="n1_uvs3" name="tab0" src="t1ya3hg" fileName="组件/BtnHard0.xml" pkg="jvxpx9em" xy="1,57" scale="0.8,0.8"/>
+    <component id="n2_uvs3" name="tab1" src="t1ya3hh" fileName="组件/BtnHard1.xml" pkg="jvxpx9em" xy="92,57" scale="0.8,0.8"/>
+    <richtext id="n3_uvs3" name="timeLb" xy="533,90" size="95,52" fontSize="18" color="#ffffff" align="center" leading="0" text="剩余可驻守&#xA;10:00:00"/>
+    <list id="n10_uvs3" name="list" xy="11,145" size="619,771" layout="row" overflow="scroll" scroll="horizontal" colGap="-1" defaultItem="ui://vgiijkm8uvs33" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n23_r5ge" name="n23" src="w6ro5n" fileName="image1/左功能区底.png" pkg="7gxkx46w" xy="538,157" size="92,335"/>
+    <component id="n13_uvs3" name="resetBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="252,921">
+      <Button title="重置关卡"/>
+    </component>
+    <component id="n15_r5ge" name="reportBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="550,169" size="84,88" scale="0.8,0.8">
+      <Button icon="ui://jvxpx9emoyp8r"/>
+    </component>
+    <component id="n16_r5ge" name="explainBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="547,245" size="75,76">
+      <Button icon="ui://jvxpx9emw6sh3g4"/>
+    </component>
+    <component id="n17_r5ge" name="rewardBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="549,327" size="70,73">
+      <Button icon="ui://vgiijkm8r5ge7"/>
+    </component>
+    <component id="n18_r5ge" name="shopBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="550,406" size="70,74">
+      <Button icon="ui://vgiijkm8r5ge8"/>
+    </component>
+    <component id="n26_r5ge" name="locationBt1" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="507,775" size="97,110">
+      <Button icon="ui://vgiijkm8r5gek"/>
+    </component>
+    <component id="n22_r5ge" name="locationBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="485,846">
+      <Button title="定位玩家"/>
+    </component>
+    <image id="n19_r5ge" name="n19" src="r5ge9" fileName="image/气泡.png" xy="464,283" group="n21_r5ge"/>
+    <component id="n20_r5ge" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="489,297" group="n21_r5ge" scale="0.6,0.6"/>
+    <group id="n21_r5ge" name="rewardGroup" xy="464,283" size="127,116" advanced="true" collapsed="true"/>
+    <richtext id="n11_uvs3" name="numLb" xy="3,931" size="93,28" group="n25_r5ge" fontSize="18" color="#ffffff" text="攻城令:1/3"/>
+    <component id="n12_uvs3" name="buyBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="96,927" size="41,41" group="n25_r5ge">
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <group id="n25_r5ge" name="n25" xy="3,927" size="134,41" advanced="true" collapsed="true" layout="hz"/>
+    <component id="n24_r5ge" name="gridIcon" src="tw1l5d" fileName="新组建/ViewGrid2.xml" pkg="jvxpx9em" xy="64,930" size="31,31"/>
+  </displayList>
+</component>

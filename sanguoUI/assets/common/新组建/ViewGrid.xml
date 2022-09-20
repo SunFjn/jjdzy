@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,102">
+  <displayList>
+    <loader id="n0_etor" name="bg" xy="0,5" size="96,96" url="ui://jvxpx9emy1z8p" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n1_etor" name="imgIcon" xy="2,7" size="92,92" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n4_pzg7" name="selectImg" src="z1r82h" fileName="image/新资源/选中发光状态框.png" xy="-10,-5" size="116,116" aspect="true" visible="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_pzg7" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" xy="82,0" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n5_f1cf" name="isinsertImg" src="f1cf4e" fileName="image1/gem_isinsert.png" xy="4,8" visible="false"/>
+    <image id="n6_rvpm" name="chipImg" src="rvpm3b7" fileName="image1/碎片标记.png" xy="0,5" visible="false"/>
+    <richtext id="n2_etor" name="lbNum" xy="2,73" size="89,28" touchable="false" fontSize="18" color="#ffffff" align="right" leading="0" autoSize="none" strokeColor="#000000" text="9999.9万">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </richtext>
+    <richtext id="n7_rxjy" name="equipLb" xy="3,73" size="89,28" visible="false" touchable="false" fontSize="20" color="#fbed0d" leading="0" autoSize="none" bold="true" strokeColor="#001907" strokeSize="2" text="9999.9万">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </richtext>
+  </displayList>
+</component>

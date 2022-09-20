@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="596,680">
+  <displayList>
+    <component id="n1_ut4i" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="596,680">
+      <Label title="提示"/>
+    </component>
+    <image id="n2_ut4i" name="n2" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="16,75" size="563,584"/>
+    <component id="n4_wf0h" name="lb" src="wf0hb" fileName="组建/ItemLeiTaiReport.xml" xy="30,89"/>
+  </displayList>
+</component>

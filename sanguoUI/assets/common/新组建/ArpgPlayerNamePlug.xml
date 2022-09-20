@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="172,88" pivot="0.5,1" anchor="true">
+  <displayList>
+    <component id="n5_wxym" name="hpbar" src="lve29r" fileName="新组建/SceneBar.xml" xy="39,77">
+      <relation target="" sidePair="center-center"/>
+      <ProgressBar max="100"/>
+    </component>
+    <loader id="n6_wxym" name="titleImg" xy="61,3" size="50,30" autoSize="true"/>
+    <richtext id="n7_wxym" name="nameLb" xy="-4,48" size="180,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" strokeColor="#000000" text="玩家名字名字.s9999"/>
+  </displayList>
+</component>

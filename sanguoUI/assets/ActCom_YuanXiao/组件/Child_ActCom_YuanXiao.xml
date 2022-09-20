@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,926">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n1_wtx2" name="n1" src="m3513bv" fileName="image/通用底框/tips.png" pkg="jvxpx9em" xy="0,262" size="640,664"/>
+    <image id="n2_wtx2" name="n2" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="11,274"/>
+    <richtext id="n3_wtx2" name="timeLb" xy="17,272" size="77,28" fontSize="18" color="#00ff00" text="剩余时间"/>
+    <richtext id="n4_wtx2" name="smLb" xy="17,305" size="77,28" fontSize="18" color="#00ff00" underline="true" text="玩法说明"/>
+    <loader id="n5_wtx2" name="backImg" xy="8,363" size="623,553" group="n35_wtx2" url="ui://ajaichn8wtx22" autoSize="true"/>
+    <component id="n6_wtx2" name="goBt" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="12,334" size="83,129" group="n35_wtx2">
+      <Button icon="ui://ajaichn8wtx2m"/>
+    </component>
+    <image id="n7_wtx2" name="n7" src="wtx28" fileName="image/掠夺材料字.png" xy="28,369" group="n35_wtx2"/>
+    <image id="n8_wtx2" name="n8" src="wtx25" fileName="image/灯笼暗.png" xy="506,264" group="n35_wtx2"/>
+    <image id="n16_wtx2" name="maskImg" src="wtx26" fileName="image/灯笼亮.png" xy="497,257" group="n35_wtx2" fillMethod="vt" fillOrigin="1" fillAmount="47"/>
+    <image id="n9_wtx2" name="n9" src="wtx2a" fileName="image/免费材料.png" xy="532,305" group="n35_wtx2"/>
+    <image id="n20_wtx2" name="n20" src="irr13gr" fileName="image/通用按钮/顶部购买按钮.png" pkg="jvxpx9em" xy="122,726" group="n35_wtx2"/>
+    <image id="n21_wtx2" name="n21" src="irr13gr" fileName="image/通用按钮/顶部购买按钮.png" pkg="jvxpx9em" xy="262,724" group="n35_wtx2"/>
+    <image id="n59_gwww" name="randomImg" src="wtx2g" fileName="image/yx0.png" xy="454,698" group="n35_wtx2"/>
+    <image id="n22_wtx2" name="n22" src="wtx27" fileName="image/等于.png" xy="402,718" group="n35_wtx2"/>
+    <image id="n10_wtx2" name="n10" src="if1k3hc" fileName="image/通用底框/小标题文字底.png" pkg="jvxpx9em" xy="498,403" size="130,28" group="n14_wtx2"/>
+    <richtext id="n11_wtx2" name="drawTime" xy="492,404" size="137,25" group="n14_wtx2" fontSize="16" color="#ffffff" text="50分20秒后可领取"/>
+    <group id="n14_wtx2" name="timeGroup" xy="492,403" size="137,28" group="n35_wtx2" advanced="true"/>
+    <image id="n12_wtx2" name="n12" src="wtx24" fileName="image/材料数量圆点.png" xy="582,277" group="n15_wtx2"/>
+    <richtext id="n13_wtx2" name="n13" xy="586,282" size="31,25" group="n15_wtx2" fontSize="16" color="#ffffff" text="x99"/>
+    <group id="n15_wtx2" name="n15" xy="582,277" size="36,36" group="n35_wtx2" collapsed="true"/>
+    <component id="n17_wtx2" name="costLb0" src="wtx2o" fileName="组件/YuanXiaoGrid.xml" xy="20,651" group="n35_wtx2">
+      <Label icon="ui://ajaichn8wtx2b"/>
+    </component>
+    <component id="n29_wtx2" name="costLb1" src="wtx2o" fileName="组件/YuanXiaoGrid.xml" xy="161,651" group="n35_wtx2">
+      <Label title="黑芝麻*1" icon="ui://ajaichn8wtx20"/>
+    </component>
+    <component id="n30_wtx2" name="costLb2" src="wtx2o" fileName="组件/YuanXiaoGrid.xml" xy="302,651" group="n35_wtx2">
+      <Label title="白砂糖*1" icon="ui://ajaichn8wtx2c"/>
+    </component>
+    <component id="n31_wtx2" name="rewardGrid" src="tw1l5d" fileName="新组建/ViewGrid2.xml" pkg="jvxpx9em" xy="455,700" size="144,117" group="n35_wtx2"/>
+    <component id="n32_wtx2" name="rewardBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="461,805" group="n35_wtx2">
+      <Button title="制作"/>
+    </component>
+    <component id="n33_wtx2" name="reportBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="19,818" size="84,88" group="n35_wtx2">
+      <Button icon="ui://jvxpx9emoyp8r"/>
+    </component>
+    <component id="n34_wtx2" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="507,391" size="109,51" group="n35_wtx2">
+      <Button title="领取"/>
+    </component>
+    <group id="n35_wtx2" name="n35" xy="8,257" size="623,659" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <loader id="n52_m3ba" name="n52" xy="9,557" size="622,361" group="n56_m3ba" url="ui://ajaichn8wtx29" autoSize="true"/>
+    <image id="n60_qc9h" name="n60" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="119,782" size="400,135" group="n56_m3ba"/>
+    <component id="n36_wtx2" name="role1" src="wtx2q" fileName="组件/YuanXiaoRole.xml" xy="229,473" group="n56_m3ba"/>
+    <component id="n45_wtx2" name="role0" src="wtx2q" fileName="组件/YuanXiaoRole.xml" xy="24,473" group="n56_m3ba"/>
+    <component id="n46_wtx2" name="role2" src="wtx2q" fileName="组件/YuanXiaoRole.xml" xy="440,473" group="n56_m3ba"/>
+    <richtext id="n47_m3ba" name="resTime" xy="210,662" size="219,28" group="n56_m3ba" fontSize="18" color="#ffffff" align="center" autoSize="none" text="25分"/>
+    <richtext id="n48_m3ba" name="numLb" xy="10,714" size="152,28" group="n56_m3ba" fontSize="18" color="#ffffff" align="right" autoSize="none" text="掠夺次数(3/5)"/>
+    <component id="n49_m3ba" name="n49" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="165,710" size="41,41" group="n56_m3ba">
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <component id="n50_m3ba" name="resBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="250,689" group="n56_m3ba">
+      <Button title="刷新"/>
+    </component>
+    <component id="n51_m3ba" name="costLb" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="251,746" group="n56_m3ba">
+      <relation target="n50_m3ba" sidePair="center-center"/>
+    </component>
+    <component id="n53_m3ba" name="grid0" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="158,784" group="n56_m3ba"/>
+    <component id="n54_m3ba" name="grid1" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="267,784" group="n56_m3ba"/>
+    <component id="n55_m3ba" name="grid2" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="378,784" group="n56_m3ba"/>
+    <component id="n57_gwww" name="backBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="503,273" size="120,59" group="n56_m3ba">
+      <Button title="返回"/>
+    </component>
+    <group id="n56_m3ba" name="n56" xy="9,273" size="622,646" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

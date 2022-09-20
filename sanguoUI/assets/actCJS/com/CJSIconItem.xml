@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="92,95">
+  <controller name="stateCtrl" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n13_pwnz" name="n13" src="pwnz3" fileName="res/底部-点亮.png" xy="0,0">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </image>
+    <image id="n15_pwnz" name="n15" src="pwnz4" fileName="res/底部-未必点亮.png" xy="12,5">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+    </image>
+    <loader id="n14_pwnz" name="iconLoader" xy="12,21" size="69,73" aspect="true" grayed="true" url="ui://ehocr0vupwnz5" fill="scale">
+      <gearLook controller="stateCtrl" pages="0" values="1,0,1,1" default="1,0,0,1"/>
+    </loader>
+  </displayList>
+</component>

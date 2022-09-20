@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.crossSelectKing.CrossSelectKingMapper">
+	<!-- 插入角色参赛数据 -->
+	<insert id="insert" parameterType="String">
+		${insertSql}
+	</insert>
+	<update id="update" parameterType="String">
+		${value}
+	</update>
+     <!--查找所有比赛数据-->
+	<select id="findallCrossSelectKing" resultType="hashmap">
+		select * from crossSelectKing
+	</select>
+	<!-- 批量更新数据 -->
+	<update id="insertOnDuplicateBatch" parameterType="String">
+		${value}
+	</update> 
+	<!-- 批量更新crossSelectKing数据 -->
+	<!-- <insert id="insertIntoBatch" parameterType="CrossSelectKing" useGeneratedKeys="true" keyProperty="id">
+		insert into crossSelectKing(id, hid,name,job,bornLv,level,zoneid,bang,zhanji,rank,hp,skill,shenBing,totalStrength,finalFightAttrMap,challList) values
+		<foreach item="data" collection="list" separator=",">
+			(#{data.id},#{data.hid},#{data.name},#{data.job},#{data.bornLv},#{data.level},#{data.zoneid},#{data.bang},#{data.zhanji},#{data.rank},#{data.hp},#{data.skill},#{data.shenBing},#{data.totalStrength},#{data.finalFightAttrMap},#{data.challList})
+		</foreach>
+	</insert> -->
+     <!-- 清空所有本服晋级赛角色数据 -->
+	<delete id="truncate">
+		truncate table crossSelectKing
+	</delete>
+</mapper>

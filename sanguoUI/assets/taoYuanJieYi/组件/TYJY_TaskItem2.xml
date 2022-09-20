@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="99,114">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <loader id="n1_vfmx" name="iconBX" xy="0,0" pivot="0.5,0.5" size="99,84" scale="-1,1" url="ui://jvxpx9emaro89e" shrinkOnly="true"/>
+    <image id="n2_vfmx" name="iconYLQ" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="10,25" size="81,26">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <richtext id="n4_vfmx" name="title" xy="21,81" size="69,25" fontSize="18" color="#ff9900" align="center" text="1人完成"/>
+    <image id="n5_gt1t" name="n5" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="73,1">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+  </displayList>
+</component>

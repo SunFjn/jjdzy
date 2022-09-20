@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.equip.model.EquipData" tbname="equipData">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="equipAlllist" type="text" pf="all" comment="具体的装备数据"/>
+			<col field="strength" type="int" pf="all" comment="装备总战力"/>
+			<col field="strengthGodEquip" type="int" pf="all" comment="神装总战力"/>
+     </tb>
+</tbs>

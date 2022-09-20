@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,666">
+  <displayList>
+    <component id="n56_hxx5" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,0" size="640,663" locked="true"/>
+    <image id="n20_ykxm" name="n20" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="371,74" size="257,28"/>
+    <loader id="n3_ykxm" name="n3" xy="72,69" size="100,100"/>
+    <loader id="n55_hxx5" name="n55" xy="34,4" size="571,76" url="ui://w5ll6n5jhxx518"/>
+    <image id="n60_hxx5" name="n60" src="ve5s7" fileName="image/yuanbao1.png" xy="290,118" scale="0.8,0.8"/>
+    <image id="n61_hxx5" name="n61" src="ve5s8" fileName="image/yuanbao2.png" xy="369,147" scale="0.8,0.8"/>
+    <image id="n62_hxx5" name="n62" src="ve5s9" fileName="image/yuanbao3.png" xy="398,236" scale="0.8,0.8"/>
+    <image id="n63_hxx5" name="n63" src="ve5sa" fileName="image/yuanbao4.png" xy="373,304" scale="0.8,0.8"/>
+    <image id="n64_hxx5" name="n64" src="ve5sb" fileName="image/yuanbao5.png" xy="285,348" scale="0.8,0.8"/>
+    <image id="n65_hxx5" name="n65" src="ve5sc" fileName="image/yuanbao6.png" xy="197,299" scale="0.8,0.8"/>
+    <image id="n66_hxx5" name="n66" src="ve5s6" fileName="image/8倍元宝.png" xy="170,226" scale="0.8,0.8"/>
+    <image id="n67_hxx5" name="n67" src="ve5s5" fileName="image/10倍元宝.png" xy="202,139" scale="0.8,0.8"/>
+    <image id="n68_hxx5" name="n68" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="26,467" size="593,171"/>
+    <component id="n57_hxx5" name="n57" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="259,200" size="126,126">
+      <Button icon="ui://eh3eod8qve5sf"/>
+    </component>
+    <image id="n59_hxx5" name="n59" src="ve5sd" fileName="image/钥匙.png" xy="278,276" size="80,80" scale="0.5,0.5"/>
+    <richtext id="n21_ykxm" name="labTime" xy="435,78" size="201,25" touchable="false" fontSize="16" color="#00ff00" text="剩余时间：6天5小时5分8秒"/>
+    <richtext id="n42_ykxm" name="lbDes" xy="519,427" size="101,35" fontSize="24" color="#33ff00" text="&lt;u>玩法说明&lt;/u>"/>
+    <richtext id="n43_ykxm" name="lbLog" xy="24,429" size="101,35" fontSize="24" color="#33ff00" text="&lt;u>转盘记录&lt;/u>"/>
+    <richtext id="n44_ykxm" name="lbCount" xy="318,284" size="35,29" fontSize="18" color="#66ff66" text="0/1&#xA;"/>
+    <list id="n45_ykxm" name="list" xy="37,470" size="576,157" layout="flow_hz" overflow="scroll" colGap="2" defaultItem="ui://eh3eod8qve5s1">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n71_hxx5" name="imgArrow" xy="253,94" pivot="0.5,0.69" size="137,246" locked="true" rotation="135" touchable="false" url="ui://eh3eod8qve5se"/>
+    <richtext id="n72_mznh" name="lb1" xy="395,184" size="49,31" fontSize="20" color="#ffe853" align="center" strokeColor="#521b1c" strokeSize="2" text="40倍">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n73_mznh" name="lb2" xy="410,263" size="49,31" fontSize="20" color="#ffe853" align="center" strokeColor="#521b1c" strokeSize="2" text="40倍">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n74_mznh" name="lb3" xy="388,356" size="49,31" fontSize="20" color="#ffe853" align="center" strokeColor="#521b1c" strokeSize="2" text="40倍">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n75_mznh" name="lb4" xy="295,385" size="49,31" fontSize="20" color="#ffe853" align="center" strokeColor="#521b1c" strokeSize="2" text="40倍">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n76_mznh" name="lb5" xy="210,342" size="49,31" fontSize="20" color="#ffe853" align="center" strokeColor="#521b1c" strokeSize="2" text="40倍">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n77_mznh" name="lb6" xy="177,265" size="49,31" fontSize="20" color="#ffe853" align="center" strokeColor="#521b1c" strokeSize="2" text="40倍">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n78_mznh" name="lb7" xy="206,177" size="49,31" fontSize="20" color="#ffe853" align="center" strokeColor="#521b1c" strokeSize="2" text="40倍">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n79_mznh" name="lb0" xy="299,143" size="49,31" fontSize="20" color="#ffe853" align="center" strokeColor="#521b1c" strokeSize="2" text="40倍">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

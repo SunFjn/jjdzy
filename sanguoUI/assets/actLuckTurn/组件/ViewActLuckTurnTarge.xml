@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="587,722">
+  <displayList>
+    <component id="n0_kaqa" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="587,722">
+      <Label title="幸运目标"/>
+    </component>
+    <text id="n14_dhj5" name="lb1" xy="56,681" size="477,28" fontSize="18" color="#1bf011" align="center" autoSize="none" text="我的翻牌次数：1000"/>
+    <list id="n17_dhj5" name="list1" xy="16,94" size="555,576" overflow="scroll" lineGap="8" defaultItem="ui://px5jiht9fvskg">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

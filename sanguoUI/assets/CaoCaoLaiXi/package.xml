@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="n6fub9dd" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="eq410" name="ChildCaoCao.xml" path="/曹操来袭/" exported="true"/>
+    <component id="eq411" name="CaoCaoSceneInfo.xml" path="/曹操来袭/" exported="true"/>
+    <component id="eq412" name="CaoCaoTimeLimitPanel.xml" path="/曹操来袭/" exported="true"/>
+    <component id="eq413" name="CaoCaoRank.xml" path="/曹操来袭/" exported="true"/>
+    <component id="eq414" name="CaoCaotem.xml" path="/曹操来袭/" exported="true"/>
+    <component id="eq415" name="ViewCaoCaoBox.xml" path="/曹操来袭/" exported="true"/>
+    <image id="eq41a" name="BOSS刷新倒计时背景底.png" path="/image/" exported="true"/>
+    <image id="zm7hd" name="奖励一览.png" path="/image/" exported="true"/>
+    <image id="zm7he" name="最后一击.png" path="/image/" exported="true"/>
+    <image id="zm7hg" name="排行榜按钮.png" path="/image/" exported="true"/>
+    <image id="zm7hi" name="奖励背景.png" path="/image/" exported="true"/>
+    <image id="zm7hj" name="活动时间.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="CaoCaoLaiXi" genCode="true" npot="true"/>
+</packageDescription>

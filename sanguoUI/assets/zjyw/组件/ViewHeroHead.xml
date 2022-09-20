@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,114">
+  <displayList>
+    <image id="n44_q5rf" name="n44" src="kw747o" fileName="image1/BOSS血条底.png" pkg="jvxpx9em" xy="218,50" size="303,21" group="n49_q5rf"/>
+    <image id="n45_q5rf" name="n45" src="i8xh5v" fileName="image1/黑底.png" pkg="7gxkx46w" xy="225,26" size="161,26" group="n49_q5rf"/>
+    <richtext id="n46_q5rf" name="lbName" xy="232,26" size="35,25" group="n49_q5rf" fontSize="18" color="#ffffff" leading="0" text="123"/>
+    <richtext id="n47_q5rf" name="lbHp" xy="266,49" size="200,19" group="n49_q5rf" fontSize="14" color="#ffffff" align="center" autoSize="none" text="123&#xA;"/>
+    <component id="n48_q5rf" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="118,-10" group="n49_q5rf"/>
+    <group id="n49_q5rf" name="n49" xy="118,-10" size="403,127"/>
+    <image id="n50_q5rf" name="n50" src="zzq33dz" fileName="image/圆底.png" pkg="jvxpx9em" xy="481,62" pivot="0.5,0.5" size="187,139" group="n54_q5rf" aspect="true"/>
+    <image id="n51_q5rf" name="n51" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="516,170" size="121,35" group="n54_q5rf"/>
+    <richtext id="n52_q5rf" name="passLb" xy="527,171" size="99,31" group="n54_q5rf" fontSize="20" color="#00ff00" align="center" autoSize="none" text="60层大奖"/>
+    <component id="n53_q5rf" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="535,85" group="n54_q5rf" scale="0.8,0.8"/>
+    <group id="n54_q5rf" name="rewardGroup" xy="481,62" size="187,143" advanced="true"/>
+  </displayList>
+</component>

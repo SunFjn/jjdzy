@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 服务器事件，包括启动服务器和关闭服务器 -->
+	<!-- 日志 -->
+	<bean id="LogServer" class="com.teamtop.util.log.LogServer">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 大字段 -->
+	<bean id="TransInnerUtil" class="com.teamtop.util.db.trans.TransInnerUtil">
+		<property method = "startServer"/>
+	</bean>
+	<!-- mybatis -->
+	<bean id="MybatisUtil" class="com.teamtop.util.mybatis.MybatisUtil">
+		<property method = "startServer"/>
+	</bean>
+	<!-- auto obj table orm -->
+	<bean id="AutoObjTableUtil" class="com.teamtop.util.db.orm.AutoObjTableUtil">
+	<property method = "startServer"/>
+	</bean>
+	<!-- 公共数据缓存-->
+	<bean id="GlobalCache" class="com.teamtop.system.global.GlobalCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 游戏配置文件-->
+	<bean id="GameProperties" class="com.teamtop.gameCommon.GameProperties">
+		<property method = "startServer"/>
+	</bean>		
+	<!-- gm时间设置 -->
+	<bean id="GlobalTimeCache" class="com.teamtop.system.global.GlobalTimeCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 协议对应传输字段-->
+	<bean id="ProtocolInvoke" class="com.teamtop.netty.util.nettyCache.ProtocolInvoke">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 协议对应方法-->
+	<bean id="MethodInvoke" class="com.teamtop.netty.util.nettyCache.MethodInvoke">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 充值服务器-->
+	<bean id="RechargetHttpServer" class="com.teamtop.houtaiHttp.recharge.RechargetHttpServer">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 后台http服务器-->
+	<bean id="HouTaiHttpServer" class="com.teamtop.houtaiHttp.HouTaiHttpServer">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 后台http事件-->
+	<bean id="HouTaiHttpCache" class="com.teamtop.houtaiHttp.HouTaiHttpCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 连接事件-->
+	<bean id="CrossConnCache" class="com.teamtop.cross.connEvent.CrossConnCache">
+		<property method = "startServer"/>
+	</bean>	
+	<!--  防沉迷事件-->
+	<!-- <bean id="WallowCrossCache" class="com.teamtop.system.wallow.WallowCrossCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>	 -->
+	<!-- 登录公告-->
+	<bean id="LoginNoticeCache" class="com.teamtop.houtaiHttp.events.loginNotice.LoginNoticeCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 福利大厅公告-->
+	<bean id="WelfareNoticeCache" class="com.teamtop.houtaiHttp.events.welfareNotice.WelfareNoticeCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 自动开服-->
+	<bean id="ServerSelfMotionCache" class="com.teamtop.houtaiHttp.events.serverSelfMotion.ServerSelfMotionCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 服务器信息-->
+	<bean id="ServerInfoCache" class="com.teamtop.houtaiHttp.events.manualOpServer.ServerInfoCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 激活码-->
+	<bean id="CDkeyCache" class="com.teamtop.system.cdkey.CDkeyCache">
+		<property method = "startServer"/>
+		<property method = "initExcel"/>
+	</bean>
+	<!-- 设置服务器预警数-->
+	<bean id="SetServerWarnCache" class="com.teamtop.houtaiHttp.events.serverEvent.setServerWarn.SetServerWarnCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- IOS充值关卡数-->
+	<!-- <bean id="IosRechargeCache" class="com.teamtop.houtaiHttp.events.recharge.iosRecharge.IosRechargeCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean> -->
+	<!-- 充值白名单一键开关-->
+	<bean id="RechargeWhiteListCache" class="com.teamtop.houtaiHttp.events.rechargeWhiteList.RechargeWhiteListCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 跨服活动开关-->
+	<bean id="CrossActivitySwitchCache" class="com.teamtop.houtaiHttp.events.crossActivitySwitch.CrossActivitySwitchCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 活动-->
+	<bean id="ActivitySysCache" class="com.teamtop.system.activity.ActivitySysCache">
+		<property method = "initExcel"/>
+	</bean>
+	<!-- 实名验证与防沉迷开关-->
+	<bean id="TrueNameAndAntiAddictionCache" class="com.teamtop.houtaiHttp.events.trueNameAndAntiAddiction.TrueNameAndAntiAddictionCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 跨服分组中央服配置-->
+	<bean id="KuaFuFenQuCache" class="com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 跨服分组表数据-->
+	<bean id="CrossPartCache" class="com.teamtop.cross.CrossPartCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!--应用宝后台礼包服务器-->
+	<bean id="QqGiftHttpServer" class="com.teamtop.houtaiHttp.qqGift.QqGiftHttpServer">
+		<property method = "startServer"/>
+	</bean>	
+	<!--专属活动-->
+	<bean id="ExclusiveActivitySysCache" class="com.teamtop.system.exclusiveActivity.ExclusiveActivitySysCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>	
+	<!-- ip注册限制-->
+	<bean id="IpWhiteListCache" class="com.teamtop.houtaiHttp.events.ipWhiteList.IpWhiteListCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 定时自动开服-->
+	<bean id="TimingSelfMotionServerCache" class="com.teamtop.houtaiHttp.events.timingSelfMotionServer.TimingSelfMotionServerCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 功能玩法开关-->
+	<bean id="GameSystemCache" class="com.teamtop.houtaiHttp.events.gameSystem.GameSystemCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+</beans>

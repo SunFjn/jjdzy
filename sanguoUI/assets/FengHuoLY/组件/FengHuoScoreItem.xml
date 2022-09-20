@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="570,146">
+  <displayList>
+    <image id="n10_j08a" name="n10" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="570,146" locked="true" flip="vt"/>
+    <image id="n11_j08a" name="n11" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="20,15"/>
+    <richtext id="n0_kzd9" name="lbCondition" xy="23,17" size="154,28" fontSize="18" color="#ffffff" text="积分达到（1/10）"/>
+    <component id="n1_kzd9" name="n1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="17,50" scale="0.75,0.75"/>
+    <component id="n2_kzd9" name="n2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="99,50" scale="0.75,0.75"/>
+    <component id="n3_kzd9" name="n3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="181,50" scale="0.75,0.75"/>
+    <component id="n4_kzd9" name="n4" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="410,50"/>
+    <image id="n5_kzd9" name="n5" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="410,55"/>
+    <component id="n12_j08a" name="n12" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="263,51" scale="0.75,0.75"/>
+  </displayList>
+</component>

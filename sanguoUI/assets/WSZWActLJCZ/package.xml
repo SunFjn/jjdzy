@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="61ucuudy" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="pvvx2" name="Child_WSZW_LeiChong.xml" path="/组件/" exported="true"/>
+    <image id="pvvx4" name="按钮.png" path="/image/" exported="true"/>
+    <image id="pvvx5" name="按钮-未选中.png" path="/image/" exported="true"/>
+    <component id="pvvx6" name="WSZW_LeiChong_Tab.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="WSZWActLJCZ" genCode="true" npot="true"/>
+</packageDescription>

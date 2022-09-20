@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossSelectKing.cross.CrossSelectKingNode" tbname="crossSelectKingNode" serverid="3">
+		<index field="id" type="prikey" />
+		<col field="id" type="int" pf="all" comment="表唯一id 节点id" />
+		<col field="id1" type="bigint" pf="all" comment="角色id1" />
+		<col field="id2" type="bigint" pf="all" comment="角色id2" />
+		<col field="term" type="int" pf="all" comment="第几届" />
+		<col field="bang" type="int" pf="all" comment="哪个榜对呀转生区间" />
+		<col field="round" type="int" pf="all" comment="第几轮" />
+		<col field="count" type="int" pf="all" comment="第几场" />
+		<col field="pos" type="int" pf="all" comment="节点索引" />
+		<col field="state" type="int" pf="all" comment="状态 1未激活 2快要打 3正在打 4已打完" />
+		<col field="win" type="int" pf="all" comment="战斗结果 0未有结果, 1为ID1赢, 2为ID2赢" />
+	    <col field="partId" type="int" pf="all" comment="跨服大分区（兼容周日关服）"/>		
+	</tb>
+</tbs>

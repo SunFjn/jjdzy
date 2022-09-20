@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" designImage="ui://ye1luhg3cytp1e">
+  <displayList>
+    <component id="n0_r6x4" name="frame" src="fsg93cj" fileName="组件/frame4.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://ye1luhg3pseok"/>
+    </component>
+    <list id="n2_r6x4" name="list" xy="35,122" size="576,136" layout="row" overflow="scroll" scroll="horizontal" colGap="4" defaultItem="ui://jvxpx9emr9to3he" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

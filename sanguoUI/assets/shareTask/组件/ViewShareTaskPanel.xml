@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,641">
+  <displayList>
+    <image id="n1_ayd2" name="n1" src="eysi3" fileName="image/分享底.png" xy="0,0" locked="true" aspect="true"/>
+    <loader id="n14_ayd2" name="imageShow" xy="221,90" size="200,200" fill="scale"/>
+    <component id="n9_ayd2" name="btnCheck" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="262,510" size="116,32" visible="false">
+      <Button checked="true" title="求助好友"/>
+    </component>
+    <list id="n16_eihz" name="itemList" xy="31,307" size="577,109" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n18_eysi" name="n18" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="237,88"/>
+    <image id="n19_eysi" name="n19" src="q2mkf" fileName="image/珍稀豪礼.png" xy="134,118"/>
+    <image id="n20_eysi" name="n20" src="q2mkg" fileName="image/分享即送.png" xy="463,118"/>
+    <image id="n22_eysi" name="n22" src="q2mke" fileName="image/分享送礼.png" xy="200,18"/>
+    <component id="n25_eysi" name="btnShare" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="248,443">
+      <Button title="分享"/>
+    </component>
+    <component id="n26_q2mk" name="closeButton" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="556,13" size="62,56">
+      <Button icon="ui://jvxpx9emq2mk3g8"/>
+    </component>
+  </displayList>
+</component>

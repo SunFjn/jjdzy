@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="iwvd88mq" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="r3je0" name="神·诸葛.png" path="/image/" exported="true"/>
+    <image id="r3je1" name="角色背景.png" path="/image/" exported="true"/>
+    <image id="r3je2" name="名字底2.png" path="/image/" exported="true"/>
+    <component id="r3je6" name="Child_ActCom_SJXS.xml" path="/组件/" exported="true"/>
+    <image id="r3je7" name="目标奖励.png" path="/image/" exported="true"/>
+    <image id="r3je8" name="普通奖励底.png" path="/image/" exported="true"/>
+    <component id="r3je9" name="SJXS_RankItem.xml" path="/组件/" exported="true"/>
+    <component id="r3jea" name="View_ActCom_SJXS_Reward.xml" path="/组件/" exported="true"/>
+    <component id="r3jeb" name="ActCom_SJXS_RewardItem.xml" path="/组件/" exported="true"/>
+    <component id="r3jec" name="View_ActCom_SJXS_Rank.xml" path="/组件/" exported="true"/>
+    <component id="r3jee" name="VSJXSRank.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="ActCom_SJXS" genCode="true" npot="true" excluded="r3je1,r3je0"/>
+</packageDescription>

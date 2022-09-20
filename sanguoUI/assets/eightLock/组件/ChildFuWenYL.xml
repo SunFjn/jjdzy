@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,653">
+  <displayList>
+    <loader id="n8_xchg" name="bg" xy="0,0" size="640,184"/>
+    <image id="n9_xchg" name="n9" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="21,152"/>
+    <image id="n10_xchg" name="n10" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="325,152" size="304,27"/>
+    <text id="n1_sakt" name="n1" xy="24,152" size="151,31" fontSize="20" color="#ffffff" text="活动剩余时间： "/>
+    <text id="n2_sakt" name="txtRemainTm" xy="162,152" size="87,31" fontSize="20" color="#33ff00" text="00:00:00"/>
+    <list id="n3_sakt" name="list" xy="2,202" size="635,451" overflow="scroll" defaultItem="ui://hincjqblsaktf">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n4_sakt" name="n4" xy="328,152" size="298,31" fontSize="20" color="#ffffff" text="活动期间击杀BOSS可掉落鉴宝锤"/>
+    <image id="n6_sakt" name="n6" src="xchg17" fileName="image/符文有礼标题.png" xy="32,91"/>
+  </displayList>
+</component>

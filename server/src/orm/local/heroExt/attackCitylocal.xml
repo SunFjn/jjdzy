@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossAttackCity.model.AttackCityLocal" tbname="attackCityLocal">
+		<index field="hid" type="prikey"/>
+		<col field="hid" type="bigint" pf="all" comment="玩家id"/>
+		<col field="cityId" type="int" pf="all" comment="当前城池id"/>
+		<col field="times" type="int" pf="all" comment="重置次数"/>
+		<col field="shopMap" type="text" pf="all" comment="商城信息"/>
+		<col field="shopRefreshTime" type="int" pf="all" comment="商店刷新时间"/>
+		<col field="choose" type="int" pf="all" comment="今天是否已选择难度 0没有 1已选"/>
+		<col field="buyTimes" type="int" pf="all" comment="可购买次数"/>
+		<col field="reTime" type="int" pf="all" comment="每日剩余可驻守时间"/>
+		<col field="countAward" type="int" pf="all" comment="累计奖励物资"/>
+		<col field="passSet" type="text" pf="all" comment="累计首通通关id"/>
+		<col field="dispatchId" type="int" pf="all" comment="占领的城池id"/>
+		<col field="nd" type="int" pf="all" comment="已开启难度"/>
+		<col field="rePassSet" type="text" pf="all" comment="累计通关id 每日重置"/>
+	</tb>
+</tbs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="468,34">
+  <displayList>
+    <richtext id="n0_l5k5" name="lb2" xy="168,0" size="133,34" fontSize="20" color="#ffffff" align="center" leading="0" ubb="true" autoSize="none" text="1-5星"/>
+    <richtext id="n1_l5k5" name="lb3" xy="271,0" size="180,34" fontSize="20" color="#00f234" align="right" leading="0" ubb="true" autoSize="none" text="1-9次"/>
+    <richtext id="n2_l5k5" name="lb1" xy="23,0" size="62,34" fontSize="20" color="#18b1f1" leading="0" ubb="true" autoSize="none" text="1星"/>
+    <image id="n4_l5k5" name="n4" src="l5k54c" fileName="image/分割线.png" xy="0,33"/>
+  </displayList>
+</component>

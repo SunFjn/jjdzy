@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="134,33" extention="Label">
+  <displayList>
+    <loader id="n1_n7sj" name="icon" xy="0,0" size="33,33" url="ui://jvxpx9emy1z8p" fill="scaleFree"/>
+    <richtext id="n2_n7sj" name="title" xy="33,2" size="101,28" fontSize="18" color="#ffffff" text="9999/9999"/>
+  </displayList>
+  <relation target="n2_n7sj" sidePair="width-width"/>
+</component>

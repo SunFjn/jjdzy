@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="638,150">
+  <displayList>
+    <image id="n0_tipm" name="n0" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="638,150"/>
+    <richtext id="n1_tipm" name="txtLoginDay" xy="33,13" size="176,27" fontSize="20" color="#ffffff" text="累计登录1天可领取"/>
+    <component id="n2_tipm" name="container" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="42,49"/>
+    <component id="n5_tipm" name="btnHand" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="482,53"/>
+    <image id="n7_tipm" name="iconGot" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="486,58"/>
+  </displayList>
+</component>

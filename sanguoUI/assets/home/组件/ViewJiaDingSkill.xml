@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,374">
+  <displayList>
+    <image id="n4_nvxy" name="n0" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="0,0" size="591,374"/>
+    <richtext id="n1_g2m4" name="n1" xy="263,78" size="311,28" fontSize="18" color="#ffffff" text="你的动作声响太大，被家丁抓了正着！"/>
+    <component id="n5_nvxy" name="closeButton" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="533,0" pivot="0.6,0.55" size="60,53">
+      <Button icon="ui://jvxpx9emm3513bo"/>
+    </component>
+    <image id="n6_nvxy" name="n6" src="htpq1q" fileName="image/通用底框/名字底框.png" pkg="jvxpx9em" xy="87,31"/>
+    <richtext id="n7_nvxy" name="lbName" xy="137,40" size="38,28" fontSize="18" color="#ffffff" text="123"/>
+    <image id="n8_nvxy" name="n8" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="13,274"/>
+    <image id="n9_nvxy" name="n9" src="g2m4v" fileName="images/府邸币.png" xy="303,166"/>
+    <richtext id="n10_nvxy" name="lbInfo" xy="381,197" size="40,28" fontSize="18" color="#ffffff" text=""/>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="556,112">
+  <displayList>
+    <image id="n6_l3h3" name="n6" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,5" size="556,107"/>
+    <richtext id="n7_l3h3" name="lbRank" xy="5,44" size="140,28" touchable="false" fontSize="18" color="#ffc334" align="center" autoSize="none" text="1"/>
+    <component id="n12_p24e" name="grid3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="170,16" scale="0.8,0.8"/>
+    <component id="n13_p24e" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="267,16" scale="0.8,0.8"/>
+    <component id="n14_p24e" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="364,16" scale="0.8,0.8"/>
+    <component id="n15_bfa3" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="461,16" scale="0.8,0.8"/>
+  </displayList>
+</component>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="302,164">
+  <displayList>
+    <loader id="n0_uvs3" name="bg" xy="48,6" size="254,97" url="ui://jvxpx9emirr13h0" fill="scaleFree"/>
+    <image id="n5_uvs3" name="n5" src="r5ge5" fileName="image/城池底.png" xy="0,0"/>
+    <component id="n1_uvs3" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="59,19" scale="0.7,0.7" touchable="false"/>
+    <richtext id="n6_uvs3" name="cityName" xy="8,17" size="26,71" fontSize="22" color="#47280a" align="center" vAlign="middle" leading="0" autoSize="none" text="会稽"/>
+    <component id="n3_uvs3" name="battleBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="130,112" pivot="0.5,0.5" size="111,50">
+      <Button title="挑战"/>
+    </component>
+    <component id="n4_uvs3" name="cityBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="130,112" pivot="0.5,0.5" size="111,50">
+      <Button title="驻守"/>
+    </component>
+    <component id="n7_uvs3" name="addBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="70,21" pivot="0.5,0.5" size="58,58">
+      <Button icon="ui://jvxpx9emqblv3dq"/>
+    </component>
+    <component id="n8_uvs3" name="lookBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="234,17" pivot="0.5,0.5" size="33,33">
+      <Button icon="ui://jvxpx9emgxpd3gi"/>
+    </component>
+    <image id="n9_r5ge" name="passImg" src="r5ge3il" fileName="image/新资源/已通关.png" pkg="jvxpx9em" xy="135,105"/>
+    <richtext id="n2_uvs3" name="dataLb" xy="140,14" size="93,34" group="n12_fo4i" touchable="false" fontSize="22" color="#ffff00" leading="6" text="驻守大将"/>
+    <richtext id="n10_fo4i" name="nameLb" xy="140,43" size="150,28" group="n12_fo4i" fontSize="18" color="#ffffff" autoSize="none" singleLine="true" text="名字"/>
+    <richtext id="n11_fo4i" name="powerLb" xy="140,67" size="150,28" group="n12_fo4i" fontSize="18" color="#ffffff" autoSize="none" singleLine="true" text="名字"/>
+    <group id="n12_fo4i" name="dataGroup" xy="140,14" size="150,81" advanced="true"/>
+  </displayList>
+</component>

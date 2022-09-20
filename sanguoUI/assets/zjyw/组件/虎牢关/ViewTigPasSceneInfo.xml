@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,64" opaque="false">
+  <displayList>
+    <image id="n34_hxms" name="n34" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="509,4" size="205,60" group="n37_hxms"/>
+    <richtext id="n35_hxms" name="n22" xy="551,10" size="95,28" group="n37_hxms" fontSize="18" color="#ffffff" text="剩余时间："/>
+    <richtext id="n36_hxms" name="lbTime" xy="519,39" size="158,25" group="n37_hxms" fontSize="16" color="#00ff00" align="center" autoSize="none" text="2018-10-17 21:59:08"/>
+    <group id="n37_hxms" name="n37" xy="509,4" size="205,60" advanced="true"/>
+    <image id="n13_bx2z" name="n13" src="bx2z89" fileName="image1/公告底.png" pkg="jvxpx9em" xy="94,8" size="434,38" group="n41_hxms"/>
+    <richtext id="n2_fog8" name="lbInfo" xy="97,14" size="41,28" group="n41_hxms" touchable="false" fontSize="18" color="#ffffff" text="自己"/>
+    <richtext id="n31_hxms" name="lbBestInfo" xy="237,14" size="10,28" group="n41_hxms" touchable="false" fontSize="18" color="#ffffff" text=""/>
+    <group id="n41_hxms" name="n41" xy="94,8" size="434,38"/>
+  </displayList>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" designImage="ui://ehelf5bh11m1w1a">
+  <displayList>
+    <component id="n0_11m1w" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://ehelf5bh11m1w1d"/>
+    </component>
+    <list id="n1_11m1w" name="list" xy="13,382" size="615,527" overflow="scroll" lineGap="6" colGap="13" defaultItem="ui://ehelf5bh11m1wy" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_11m1w" name="labT" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="145,337" size="349,32">
+      <Label title="其他印记" titleFontSize="25"/>
+    </component>
+    <component id="n6_11m1w" name="vEqu" src="11m1wy" fileName="组件/六道/SixWayBagItem.xml" xy="13,153"/>
+    <component id="n8_ugi1" name="BtnGo" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="256,758">
+      <Button title="前往获取"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 充值账号统计 -->
+	<tb model="com.teamtop.system.event.backstage.events.backstage.recharge.B_PayAccount" tbname="b_payaccount">
+		<index field="product_id" type="prikey"/>
+		<index field="createtime" type="normal"/>
+		<index field="updateTime" type="normal"/>		
+		<index field="pfcode" type="normal"/>
+		<index field="zoneid" type="normal"/>
+		<col field="product_id" type="bigint" pf="all" comment="游戏订单号"/>
+		<col field="product_sdkid"  type="varchar" len="100" pf="all" comment="SDK订单号"/>
+		<col field="zoneid"  type="int" pf="all" comment="区号"/>
+		<col field="pfopenid" type="varchar" len="100" pf="all" comment="平台账户"/>	
+		<col field="loginpfcode" type="varchar" len="255" pf="all" comment="登陆平台代码"/>
+		<col field="pfcode" type="varchar" len="255" pf="all" comment="注册平台代码"/>	
+		<col field="openid" type="varchar" len="100" pf="all" comment="用户ID"/>	
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="name" type="varchar" len="100" pf="all" comment="角色名称"/>
+		<col field="lv" type="int" pf="all" comment="角色等级"/>
+		<col field="vipLv" type="int" pf="all" comment="支付时角色vip等级"/>
+		<col field="app_custom" type="varchar" len="100" pf="all" comment="广告标识"/>
+		<col field="payNum" type="int" pf="all" comment="订单金额（以分为单位）"/>
+		<col field="itemId" type="int" pf="all" comment="商品id"/>
+		<col field="itemNum" type="int" pf="all" comment="商品数量"/>
+		<col field="itemName" type="varchar" len="100" pf="all" comment="道具名称"/>		
+		<col field="itemInfo" type="varchar" len="100" pf="all" comment="道具描述"/>		
+		<col field="creatTime" type="int" pf="all" comment="创建订单时间"/>
+		<col field="payTime" type="int" pf="all" comment="支付时间"/>
+		<col field="payState" type="int" pf="all" comment="支付状态 支付状态 0 未处理，1 成功，2 失败"/>
+		<col field="payType" type="varchar" len="100" pf="all" comment="支付方式，如微信支付，米大师支付等"/>
+		<col field="order_formType" type="int"  pf="all" comment="订单类型（0：普通订单，1：切支付订单）"/>
+		<col field="successPayNum" type="int" pf="all" comment="成功支付次数"/>
+		<col field="usesys" type="varchar" len="100" pf="all" comment="注册系统"/>
+		<col field="loginsys" type="varchar" len="100" pf="all" comment="下单系统（登陆系统）"/>
+		<col field="createtime" type="int" pf="all" comment="注册时间"/>
+		<col field="updateTime" type="int" pf="all" comment="最后更新时间"/>
+		<col field="isBlackList" type="int" pf="all" comment="是否是充值白名单 0不是 1是"/>
+		<col field="parameters" type="varchar" len="100" pf="all" comment="特殊参数(供前后端数据定制使用)"/>
+		<col field="job" type="int" pf="all" comment="职业"/>
+		<col field="country" type="varchar" len="100" pf="all" comment="用户国家"/>
+		<col field="region" type="varchar" len="100" pf="all" comment="用户地区"/>			
+	</tb>
+</tbs>

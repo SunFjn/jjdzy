@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="y35rlqhy">
+  <resources>
+    <component id="dufs0" name="Child_ActCom_LJFL.xml" path="/组件/" exported="true"/>
+    <image id="dufs2" name="累计返利图.jpg" path="/image/"/>
+    <image id="dufs4" name="木板.png" path="/image/" exported="true"/>
+    <image id="dufs5" name="折扣显示底.png" path="/image/" exported="true"/>
+    <component id="dufs6" name="Item_ActCom_LJFL.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="actCom_LJFL" genCode="true" excluded="dufs2">
+    <atlas compression="true" index="0"/>
+  </publish>
+</packageDescription>

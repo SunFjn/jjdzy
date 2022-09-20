@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="570,139">
+  <displayList>
+    <image id="n1_dsuf" name="n1" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="570,140"/>
+    <image id="n2_dsuf" name="imgYWC" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="419,49"/>
+    <list id="n3_dsuf" name="list" xy="157,28" size="227,119" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="9" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n4_dsuf" name="lbPoint" xy="8,57" size="142,31" touchable="false" fontSize="20" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="获得20积分"/>
+    <component id="n5_dsuf" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="414,40">
+      <Button title="领取"/>
+    </component>
+    <richtext id="n6_dsuf" name="lbNo" xy="448,52" size="71,34" touchable="false" fontSize="22" color="#ff0000" text="未达成"/>
+  </displayList>
+</component>

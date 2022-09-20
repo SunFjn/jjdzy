@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="581,130">
+  <displayList>
+    <image id="n0_hd20" name="n0" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="581,130"/>
+    <list id="n7_hd20" name="list" xy="294,19" size="309,107" scale="0.9,0.9" layout="flow_hz" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n2_hd20" name="n2" xy="18,34" size="72,65" url="ui://jvxpx9em100v3al">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <richtext id="n8_hd20" name="lbRank" xy="44,50" size="23,43" fontSize="30" color="#ff9900" text="1">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n3_hd20" name="n3" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="94,36" size="189,27" group="n9_hd20"/>
+    <image id="n4_hd20" name="n4" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="93,74" size="189,27" group="n9_hd20"/>
+    <richtext id="n5_hd20" name="lbName" xy="96,36" size="77,28" group="n9_hd20" fontSize="18" color="#ffffff" text="玩家名字"/>
+    <richtext id="n6_hd20" name="lbScore" xy="95,72" size="77,28" group="n9_hd20" fontSize="18" color="#ffffff" text="玩家名字"/>
+    <group id="n9_hd20" name="groupDta" xy="93,36" size="190,65" advanced="true"/>
+    <image id="n10_hd20" name="imgNull" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="126,55"/>
+  </displayList>
+</component>

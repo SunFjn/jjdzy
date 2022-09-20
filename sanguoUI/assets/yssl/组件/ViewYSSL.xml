@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" bgColor="#1c6e32">
+  <displayList>
+    <image id="n0_ln00" name="n0" src="ln001" fileName="组件/异兽送礼.jpg" xy="0,0"/>
+    <image id="n2_ln00" name="n2" src="m3513bv" fileName="image/tips.png" pkg="jvxpx9em" xy="1,274" size="637,646"/>
+    <loader id="n1_ln00" name="n1" xy="10,285" size="618,216"/>
+    <component id="n6_ln00" name="n6" src="ln004" fileName="组件/YSTab.xml" xy="2,297" group="n10_ln00"/>
+    <component id="n7_ln00" name="n7" src="ln004" fileName="组件/YSTab.xml" xy="159,297" group="n10_ln00"/>
+    <component id="n8_ln00" name="n8" src="ln004" fileName="组件/YSTab.xml" xy="316,297" group="n10_ln00"/>
+    <component id="n9_ln00" name="n9" src="ln004" fileName="组件/YSTab.xml" xy="473,297" group="n10_ln00"/>
+    <group id="n10_ln00" name="n10" xy="2,297" size="636,157" collapsed="true"/>
+    <image id="n3_ln00" name="n3" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="9,280"/>
+    <richtext id="n4_ln00" name="lbTime" xy="16,281" size="77,28" fontSize="18" color="#66ff66" text="活动时间"/>
+    <richtext id="n5_ln00" name="lbPro" xy="30,467" size="77,28" fontSize="18" color="#ffffff" text="活动时间"/>
+    <component id="n11_ln00" name="n11" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="485,457" scale="0.8,0.7">
+      <Button title="激活"/>
+    </component>
+    <list id="n13_ln00" name="n13" xy="12,506" size="617,402" overflow="scroll" defaultItem="ui://sbm40ly4ln003" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="630,740">
+  <displayList>
+    <component id="n1_cenr" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="630,739">
+      <Label title="攻城宝库" icon="ui://vgiijkm8r5gef"/>
+    </component>
+    <loader id="n2_cenr" name="bg" xy="22,73" size="587,185" url="ui://vgiijkm8r5gei" fill="scaleFree"/>
+    <component id="n3_cenr" name="moneyLb" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="35,199" size="148,33"/>
+    <richtext id="n5_cenr" name="n5" xy="504,199" size="95,28" fontSize="18" color="#00ff00" text="每周一更新"/>
+    <list id="n6_cenr" name="list" xy="19,267" size="596,460" layout="flow_hz" overflow="scroll" lineGap="14" colGap="10" lineItemCount="2" defaultItem="ui://vgiijkm8r5gej" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

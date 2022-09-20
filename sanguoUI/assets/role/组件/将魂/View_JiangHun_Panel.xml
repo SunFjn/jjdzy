@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <image id="n43_cxk8" name="n43" src="cxk835" fileName="组件/将魂/将魂.png" xy="0,0"/>
+    <component id="n0_k8oz" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://3tzqotadcxk836"/>
+    </component>
+    <component id="n39_ifb2" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="170,142"/>
+    <image id="n40_ifb2" name="n40" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="246,819" size="140,30"/>
+    <image id="n41_ifb2" name="n41" src="z1jw6n" fileName="image1/魂火.png" pkg="jvxpx9em" xy="225,793"/>
+    <component id="n1_k8oz" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,922">
+      <Button checked="true" title="曹魏" controller="c1" page="0"/>
+    </component>
+    <component id="n2_k8oz" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,922">
+      <Button title="蜀汉" controller="c1" page="1"/>
+    </component>
+    <component id="n3_k8oz" name="tab2" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="251,922">
+      <Button title="孙吴" controller="c1" page="2"/>
+    </component>
+    <component id="n4_k8oz" name="tab3" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="370,922">
+      <Button title="群雄" controller="c1" page="3"/>
+    </component>
+    <component id="n42_j67y" name="suitBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="542,154" size="75,77">
+      <Button icon="ui://3tzqotadgs0d1t"/>
+    </component>
+    <image id="n9_k8oz" name="line1" src="k8ozh" fileName="image/line1.png" xy="178,259" size="92,4"/>
+    <image id="n13_k8oz" name="line2" src="k8ozh" fileName="image/line1.png" xy="365,259" size="92,4"/>
+    <image id="n14_k8oz" name="line3" src="k8ozh" fileName="image/line1.png" xy="503,357" size="4,74"/>
+    <image id="n17_k8oz" name="line4" src="k8ozh" fileName="image/line1.png" xy="503,578" size="4,78"/>
+    <image id="n18_k8oz" name="line5" src="k8ozh" fileName="image/line1.png" xy="365,701" size="92,4"/>
+    <image id="n19_k8oz" name="line6" src="k8ozh" fileName="image/line1.png" xy="177,701" size="92,4"/>
+    <image id="n24_k8oz" name="line7" src="k8ozh" fileName="image/line1.png" xy="125,577" size="4,78"/>
+    <image id="n25_k8oz" name="line8" src="k8ozh" fileName="image/line1.png" xy="177,480" size="92,4"/>
+    <image id="n31_ifb2" name="line_1" src="k8ozg" fileName="image/line0.png" xy="177,259" size="92,4"/>
+    <image id="n32_ifb2" name="line_2" src="k8ozg" fileName="image/line0.png" xy="365,259" size="92,4"/>
+    <image id="n33_ifb2" name="line_3" src="k8ozg" fileName="image/line0.png" xy="503,357" size="4,78"/>
+    <image id="n34_ifb2" name="line_4" src="k8ozg" fileName="image/line0.png" xy="503,578" size="4,78"/>
+    <image id="n35_ifb2" name="line_5" src="k8ozg" fileName="image/line0.png" xy="365,701" size="92,4"/>
+    <image id="n36_ifb2" name="line_6" src="k8ozg" fileName="image/line0.png" xy="177,701" size="92,4"/>
+    <image id="n37_ifb2" name="line_7" src="k8ozg" fileName="image/line0.png" xy="125,577" size="4,78"/>
+    <image id="n38_ifb2" name="line_8" src="k8ozg" fileName="image/line0.png" xy="177,480" size="92,4"/>
+    <loader id="n28_k8oz" name="n2" xy="553,168" size="52,48" touchable="false" url="ui://jvxpx9emxyp27g" align="center" vAlign="middle">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <gearIcon controller="c1" pages="1,2,3" values="ui://jvxpx9emxyp27h|ui://jvxpx9emxyp27i|ui://3tzqotadk8ozl" default="ui://jvxpx9emxyp27g"/>
+    </loader>
+    <component id="n10_k8oz" name="grid0" src="k8ozf" fileName="组件/将魂/JiangHunGrid.xml" xy="80,213"/>
+    <component id="n11_k8oz" name="grid1" src="k8ozf" fileName="组件/将魂/JiangHunGrid.xml" xy="269,213"/>
+    <component id="n12_k8oz" name="grid2" src="k8ozf" fileName="组件/将魂/JiangHunGrid.xml" xy="457,213"/>
+    <component id="n15_k8oz" name="grid3" src="k8ozf" fileName="组件/将魂/JiangHunGrid.xml" xy="457,434"/>
+    <component id="n16_k8oz" name="grid4" src="k8ozf" fileName="组件/将魂/JiangHunGrid.xml" xy="457,655"/>
+    <component id="n20_k8oz" name="grid5" src="k8ozf" fileName="组件/将魂/JiangHunGrid.xml" xy="269,655"/>
+    <component id="n21_k8oz" name="grid6" src="k8ozf" fileName="组件/将魂/JiangHunGrid.xml" xy="80,655"/>
+    <component id="n22_k8oz" name="grid7" src="k8ozf" fileName="组件/将魂/JiangHunGrid.xml" xy="80,434"/>
+    <component id="n23_k8oz" name="grid8" src="k8ozf" fileName="组件/将魂/JiangHunGrid.xml" xy="269,434"/>
+    <richtext id="n26_k8oz" name="moneyLb" xy="264,819" size="115,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="1001010"/>
+    <richtext id="n27_k8oz" name="promptLb" xy="43,869" size="554,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="过关斩将通过100关可激活&quot;张辽之魂&quot;"/>
+    <richtext id="n29_k8oz" name="suitLb" xy="541,211" size="75,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="30阶"/>
+  </displayList>
+</component>

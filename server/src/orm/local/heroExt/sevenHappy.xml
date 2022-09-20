@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.sevenHappy.SevenHappy" tbname="sevenHappy">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="rewardMap" type="text" pf="all" comment="所有目标奖励情况"/>
+			<col field="twoRewardMap" type="text" pf="all" comment="奖励领取情况(这种是针对有普通奖励和限量奖励的情况,int[0]普通奖励状态，int[1]限量奖励状态)"/>
+     </tb>
+</tbs>

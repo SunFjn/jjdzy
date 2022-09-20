@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,366">
+  <displayList>
+    <component id="n1_qqvu" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,366">
+      <Label title="宝物使用"/>
+    </component>
+    <image id="n2_qqvu" name="n2" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="53,85" size="187,185"/>
+    <image id="n13_iqo8" name="n13" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="349,85" size="187,185"/>
+    <component id="n3_qqvu" name="grid0" src="n4tus" fileName="组件/ViewBWGrid.xml" xy="91,120"/>
+    <component id="n4_qqvu" name="grid1" src="n4tus" fileName="组件/ViewBWGrid.xml" xy="389,120"/>
+    <richtext id="n5_qqvu" name="n5" xy="115,94" size="63,28" touchable="false" fontSize="18" color="#ffc344" leading="0" text="宝物·壹"/>
+    <richtext id="n6_qqvu" name="n6" xy="412,94" size="63,28" touchable="false" fontSize="18" color="#ffc344" text="宝物·贰"/>
+    <component id="n9_qqvu" name="useBt0" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="72,285">
+      <Button title="使用"/>
+    </component>
+    <component id="n10_qqvu" name="useBt1" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="375,285">
+      <Button title="使用"/>
+    </component>
+    <image id="n14_np4r" name="image0" src="np4r33" fileName="image/无宝物状态.png" xy="100,130"/>
+    <image id="n15_np4r" name="image1" src="np4r33" fileName="image/无宝物状态.png" xy="398,130"/>
+  </displayList>
+</component>

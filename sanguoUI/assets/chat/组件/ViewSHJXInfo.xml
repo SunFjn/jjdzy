@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,434">
+  <displayList>
+    <component id="n0_sh62" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,434">
+      <Label title="展示"/>
+    </component>
+    <component id="n10_sh62" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="76,114"/>
+    <image id="n11_sh62" name="n11" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="25,273" size="547,146"/>
+    <component id="n12_sh62" name="n12" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="152,272" size="289,31">
+      <Label title="印记"/>
+    </component>
+    <component id="n18_sh62" name="labOwner" src="wjpa25" fileName="组件/ChatShowLabel.xml" xy="233,109"/>
+    <component id="n19_sh62" name="labName" src="wjpa25" fileName="组件/ChatShowLabel.xml" xy="233,151"/>
+    <component id="n21_sh62" name="labPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="225,180"/>
+    <component id="n23_sh62" name="item1" src="sh622h" fileName="组件/ItemSHJXC.xml" xy="92,294"/>
+    <component id="n24_sh62" name="item2" src="sh622h" fileName="组件/ItemSHJXC.xml" xy="204,294"/>
+    <component id="n25_sh62" name="item3" src="sh622h" fileName="组件/ItemSHJXC.xml" xy="308,294"/>
+    <component id="n26_sh62" name="item4" src="sh622h" fileName="组件/ItemSHJXC.xml" xy="419,294"/>
+  </displayList>
+</component>

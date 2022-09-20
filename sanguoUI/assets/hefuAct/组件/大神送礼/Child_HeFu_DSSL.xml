@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,650">
+  <displayList>
+    <loader id="n1_hilo" name="bgImg" xy="0,0" size="100,100"/>
+    <richtext id="n8_hilo" name="rechargeTxt" xy="220,638" size="197,25" fontSize="18" color="#ff9900" text="活动期间已充值：150元"/>
+    <list id="n11_tba6" name="list" xy="4,146" size="629,485" overflow="scroll" lineGap="11" defaultItem="ui://07jsdu7hhilo7" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

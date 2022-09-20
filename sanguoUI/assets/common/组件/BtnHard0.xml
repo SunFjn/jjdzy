@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,107" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n0_t1ya" name="n0" src="ad1lj" fileName="image/新资源/普通难度-选中.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <image id="n1_t1ya" name="n1" src="ad1lk" fileName="image/新资源/普通程度-未选中.png" xy="15,17">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,68">
+  <displayList>
+    <image id="n11_r3je" name="n11" src="r3je8" fileName="image/普通奖励底.png" xy="0,0" size="200,68"/>
+    <richtext id="n13_r3je" name="rankLb" xy="2,19" size="70,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="11-20"/>
+    <list id="n16_r3je" name="list" xy="75,3" size="204,105" scale="0.6,0.6" layout="row" overflow="hidden" colGap="2" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

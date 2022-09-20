@@ -1,0 +1,215 @@
+2021-08-21 20:05:37.658 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:200001
+2021-08-21 20:05:37.658 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750024
+2021-08-21 20:05:37.658 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750025
+2021-08-21 20:05:37.658 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750026
+2021-08-21 20:05:37.658 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750027
+2021-08-21 20:05:37.658 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750028
+2021-08-21 20:05:37.658 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750029
+2021-08-21 20:05:37.658 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750030
+2021-08-21 20:05:37.658 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750031
+2021-08-21 20:05:37.658 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750032
+2021-08-21 20:05:37.658 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750033
+2021-08-21 20:05:37.658 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750034
+2021-08-21 20:05:37.658 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750035
+2021-08-21 20:05:37.878 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350004
+2021-08-21 20:05:37.878 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350005
+2021-08-21 20:05:37.878 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350006
+2021-08-21 20:05:37.878 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350101
+2021-08-21 20:05:37.878 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350102
+2021-08-21 20:05:37.878 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350301
+2021-08-21 20:05:37.898 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350004
+2021-08-21 20:05:37.898 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350005
+2021-08-21 20:05:37.898 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350006
+2021-08-21 20:05:37.898 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350101
+2021-08-21 20:05:37.898 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350102
+2021-08-21 20:05:37.898 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350106
+2021-08-21 20:05:37.898 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350104
+2021-08-21 20:05:37.898 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350301
+2021-08-21 20:05:37.943 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350004
+2021-08-21 20:05:37.943 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350005
+2021-08-21 20:05:37.943 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350006
+2021-08-21 20:05:37.943 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350101
+2021-08-21 20:05:37.943 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350102
+2021-08-21 20:05:37.943 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350104
+2021-08-21 20:05:37.943 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350106
+2021-08-21 20:05:37.943 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350301
+2021-08-21 20:05:37.943 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350108
+2021-08-21 20:05:37.943 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350103
+2021-08-21 20:05:38.028 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350004
+2021-08-21 20:05:38.028 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350005
+2021-08-21 20:05:38.028 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350006
+2021-08-21 20:05:38.028 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350101
+2021-08-21 20:05:38.028 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350102
+2021-08-21 20:05:38.028 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350103
+2021-08-21 20:05:38.028 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350104
+2021-08-21 20:05:38.028 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350106
+2021-08-21 20:05:38.028 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350301
+2021-08-21 20:05:38.028 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350107
+2021-08-21 20:05:38.028 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350108
+2021-08-21 20:28:16.444 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:200001
+2021-08-21 20:28:16.445 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750024
+2021-08-21 20:28:16.445 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750025
+2021-08-21 20:28:16.445 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750026
+2021-08-21 20:28:16.445 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750027
+2021-08-21 20:28:16.446 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750028
+2021-08-21 20:28:16.446 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750029
+2021-08-21 20:28:16.446 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750030
+2021-08-21 20:28:16.446 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750031
+2021-08-21 20:28:16.446 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750032
+2021-08-21 20:28:16.446 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750033
+2021-08-21 20:28:16.446 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750034
+2021-08-21 20:28:16.447 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750035
+2021-08-21 20:28:16.641 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350004
+2021-08-21 20:28:16.641 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350005
+2021-08-21 20:28:16.641 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350006
+2021-08-21 20:28:16.641 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350101
+2021-08-21 20:28:16.641 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350102
+2021-08-21 20:28:16.641 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350301
+2021-08-21 20:28:16.668 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350004
+2021-08-21 20:28:16.669 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350005
+2021-08-21 20:28:16.669 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350006
+2021-08-21 20:28:16.670 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350101
+2021-08-21 20:28:16.670 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350102
+2021-08-21 20:28:16.670 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350106
+2021-08-21 20:28:16.670 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350104
+2021-08-21 20:28:16.670 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350301
+2021-08-21 20:28:16.710 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350004
+2021-08-21 20:28:16.715 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350005
+2021-08-21 20:28:16.715 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350006
+2021-08-21 20:28:16.715 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350101
+2021-08-21 20:28:16.715 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350102
+2021-08-21 20:28:16.715 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350104
+2021-08-21 20:28:16.715 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350106
+2021-08-21 20:28:16.715 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350301
+2021-08-21 20:28:16.715 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350108
+2021-08-21 20:28:16.715 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350103
+2021-08-21 20:28:16.779 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350004
+2021-08-21 20:28:16.779 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350005
+2021-08-21 20:28:16.779 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350006
+2021-08-21 20:28:16.779 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350101
+2021-08-21 20:28:16.779 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350102
+2021-08-21 20:28:16.779 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350103
+2021-08-21 20:28:16.779 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350104
+2021-08-21 20:28:16.779 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350106
+2021-08-21 20:28:16.779 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350301
+2021-08-21 20:28:16.779 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350107
+2021-08-21 20:28:16.779 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350108
+2021-08-21 20:32:18.450 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:200001
+2021-08-21 20:32:18.451 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750024
+2021-08-21 20:32:18.451 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750025
+2021-08-21 20:32:18.451 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750026
+2021-08-21 20:32:18.451 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750027
+2021-08-21 20:32:18.451 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750028
+2021-08-21 20:32:18.452 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750029
+2021-08-21 20:32:18.452 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750030
+2021-08-21 20:32:18.452 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750031
+2021-08-21 20:32:18.452 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750032
+2021-08-21 20:32:18.452 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750033
+2021-08-21 20:32:18.452 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750034
+2021-08-21 20:32:18.452 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750035
+2021-08-21 20:32:18.677 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350004
+2021-08-21 20:32:18.677 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350005
+2021-08-21 20:32:18.677 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350006
+2021-08-21 20:32:18.677 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350101
+2021-08-21 20:32:18.677 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350102
+2021-08-21 20:32:18.677 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350301
+2021-08-21 20:32:18.700 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350004
+2021-08-21 20:32:18.700 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350005
+2021-08-21 20:32:18.701 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350006
+2021-08-21 20:32:18.701 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350101
+2021-08-21 20:32:18.701 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350102
+2021-08-21 20:32:18.701 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350106
+2021-08-21 20:32:18.701 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350104
+2021-08-21 20:32:18.701 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350301
+2021-08-21 20:32:18.747 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350004
+2021-08-21 20:32:18.748 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350005
+2021-08-21 20:32:18.748 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350006
+2021-08-21 20:32:18.748 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350101
+2021-08-21 20:32:18.748 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350102
+2021-08-21 20:32:18.748 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350104
+2021-08-21 20:32:18.748 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350106
+2021-08-21 20:32:18.748 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350301
+2021-08-21 20:32:18.748 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350108
+2021-08-21 20:32:18.748 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350103
+2021-08-21 20:32:18.829 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350004
+2021-08-21 20:32:18.829 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350005
+2021-08-21 20:32:18.829 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350006
+2021-08-21 20:32:18.829 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350101
+2021-08-21 20:32:18.829 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350102
+2021-08-21 20:32:18.829 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350103
+2021-08-21 20:32:18.829 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350104
+2021-08-21 20:32:18.829 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350106
+2021-08-21 20:32:18.829 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350301
+2021-08-21 20:32:18.829 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350107
+2021-08-21 20:32:18.829 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350108
+2021-08-21 20:32:23.187 [nioEventLoopGroup-11-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30001,channel:[id: 0x806e9a49, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:32:23.273 [HoutaiNetty-8-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30002,channel:[id: 0x95586534, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:32:23.276 [HoutaiNetty-8-1] WARN  com.teamtop.houtaiHttp.events.manualOpServer.ManualOpServerIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=250,channel:[id: 0x95586534, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:32:23.277 [HoutaiNetty-8-1] WARN  c.teamtop.houtaiHttp.events.trueNameAndAntiAddiction.TrueNameAndAntiAddictionIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=307,channel:[id: 0x95586534, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:32:23.277 [HoutaiNetty-8-1] WARN  com.teamtop.houtaiHttp.events.gameSystem.GameSystemIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=272,channel:[id: 0x95586534, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:32:23.277 [HoutaiNetty-8-1] WARN  com.teamtop.houtaiHttp.events.serverMaintain.ServerMaintainIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=222,channel:[id: 0x95586534, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:32:23.308 [nioEventLoopGroup-11-1] WARN  com.teamtop.houtaiHttp.events.manualOpServer.ManualOpServerIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=251,channel:[id: 0x806e9a49, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:32:26.034 [nioEventLoopGroup-11-1] WARN  com.teamtop.houtaiHttp.events.kuaFuFenQu.KuaFuFenQuIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=259,channel:[id: 0x806e9a49, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:32:26.042 [HoutaiNetty-8-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30003,channel:[id: 0x95586534, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:32:26.102 [nioEventLoopGroup-7-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30001,channel:[id: 0xb4e28e3c, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.292 [HoutaiNetty-9-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30002,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.296 [HoutaiNetty-9-1] WARN  com.teamtop.system.crossBoss.CrossBossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=150,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.301 [HoutaiNetty-9-1] WARN  com.teamtop.system.crossKing.local.CrossKingLocalIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=650,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.306 [HoutaiNetty-9-1] WARN  com.teamtop.system.crossSelectKing.local.CrossSelectKingLocalIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=401,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.312 [HoutaiNetty-9-1] WARN  com.teamtop.system.linglongge.LingLongGeLocalIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=1202,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.316 [HoutaiNetty-9-1] WARN  c.t.system.activity.ativitys.godGenSendGiftAct.cross.CrossGodGenSendGiftActIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=1601,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.323 [nioEventLoopGroup-7-1] WARN  com.teamtop.system.crossBoss.CrossBossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=151,channel:[id: 0xb4e28e3c, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.331 [HoutaiNetty-9-1] WARN  com.teamtop.system.zcBoss.cross.ZcBossCrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=1651,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.349 [HoutaiNetty-9-1] WARN  com.teamtop.system.crossBoss.CrossBossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=152,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.353 [HoutaiNetty-9-1] WARN  com.teamtop.system.eightDoorAppraiseRank.cross.CrossEightDoorAppraiseRankIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=1900,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.363 [HoutaiNetty-9-1] WARN  c.teamtop.system.activity.ativitys.rechargeRankAct.cross.CrossRechargeRankActIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2300,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.363 [HoutaiNetty-9-1] WARN  com.teamtop.system.shaozhuQiYuanRank.cross.CrossShaoZhuQiYuanRankIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2000,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.363 [HoutaiNetty-9-1] WARN  c.t.s.openDaysSystem.monsterKingSearchMonster.cross.MonsterKingSearchMonsterIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=1705,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.366 [HoutaiNetty-9-1] WARN  c.t.s.a.ativitys.eightDoorAppraiseRankAct.cross.CrossEightDoorAppraiseRankActIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2400,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.369 [HoutaiNetty-9-1] WARN  c.t.s.activity.ativitys.shaoZhuQiYuanRankAct.cross.CrossShaoZhuQiYuanRankActIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2500,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.370 [HoutaiNetty-9-1] WARN  com.teamtop.system.crossZhuLu.cross.CrossZhuLuIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2614,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.381 [HoutaiNetty-9-1] WARN  com.teamtop.system.crossCommonRank.cross.CrossCommonRankIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2700,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.381 [HoutaiNetty-9-1] WARN  com.teamtop.system.crossTrial.cross.CrossTrialIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2804,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.387 [HoutaiNetty-9-1] WARN  com.teamtop.system.crossTeamKing.CrossTeamKingIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2954,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.392 [HoutaiNetty-9-1] WARN  com.teamtop.system.activity.ativitys.dropRedPacket.cross.CrossDropRedPacketIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=5001,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.392 [HoutaiNetty-9-1] WARN  com.teamtop.system.redBox.RedBoxCrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=6054,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.392 [HoutaiNetty-9-1] WARN  com.teamtop.system.activity.ativitys.arenaFight.cross.ArenaFightIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2857,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.392 [HoutaiNetty-9-1] WARN  com.teamtop.system.dengFengZaoJi.cross.DengFengZaoJiCrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=3206,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.415 [nioEventLoopGroup-7-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0xb4e28e3c, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.435 [nioEventLoopGroup-7-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0xb4e28e3c, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.454 [nioEventLoopGroup-7-1] WARN  com.teamtop.system.crossTrial.cross.CrossTrialIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2803,channel:[id: 0xb4e28e3c, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.473 [nioEventLoopGroup-7-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0xb4e28e3c, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:32:26.479 [nioEventLoopGroup-7-1] WARN  com.teamtop.system.dengFengZaoJi.cross.DengFengZaoJiCrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=3200,channel:[id: 0xb4e28e3c, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:38:19.960 [任务线程 - 16] WARN  org.apache.ibatis.datasource.pooled.PooledDataSource - Execution of ping query 'show tables' failed: The last packet successfully received from the server was 601,297 milliseconds ago.  The last packet sent successfully to the server was 601,297 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2021-08-21 20:43:01.866 [nioEventLoopGroup-11-1] WARN  org.apache.ibatis.datasource.pooled.PooledDataSource - Execution of ping query 'show tables' failed: The last packet successfully received from the server was 635,291 milliseconds ago.  The last packet sent successfully to the server was 635,291 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2021-08-21 20:43:01.922 [nioEventLoopGroup-11-1] WARN  com.teamtop.houtaiHttp.events.blackList.BlackListIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=205,channel:[id: 0x806e9a49, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:43:01.938 [HoutaiNetty-8-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0x95586534, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:43:04.310 [nioEventLoopGroup-11-1] WARN  com.teamtop.houtaiHttp.events.blackList.BlackListIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=205,channel:[id: 0x806e9a49, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:43:04.314 [HoutaiNetty-8-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0x95586534, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:43:04.358 [nioEventLoopGroup-11-1] WARN  com.teamtop.houtaiHttp.events.adMark.adMarkCrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=238,channel:[id: 0x806e9a49, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:43:04.371 [HoutaiNetty-8-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0x95586534, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:43:05.205 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2021-08-21 20:43:05.252 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2021-08-21 20:43:05.289 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2021-08-21 20:43:05.298 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2021-08-21 20:43:05.675 [nioEventLoopGroup-11-1] WARN  com.teamtop.houtaiHttp.events.whiteList.WhiteListIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=218,channel:[id: 0x806e9a49, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:43:05.756 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2021-08-21 20:43:05.783 [nioEventLoopGroup-7-1] WARN  com.teamtop.system.eightDoorAppraiseRank.cross.CrossEightDoorAppraiseRankIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=1901,channel:[id: 0xb4e28e3c, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:43:05.813 [HoutaiNetty-9-1] WARN  com.teamtop.system.eightDoorAppraiseRank.cross.CrossEightDoorAppraiseRankIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=1902,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:43:05.814 [HoutaiNetty-9-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:43:05.821 [nioEventLoopGroup-7-1] WARN  com.teamtop.system.shaozhuQiYuanRank.cross.CrossShaoZhuQiYuanRankIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2001,channel:[id: 0xb4e28e3c, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:43:05.834 [HoutaiNetty-9-1] WARN  com.teamtop.system.shaozhuQiYuanRank.cross.CrossShaoZhuQiYuanRankIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2002,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:43:05.834 [HoutaiNetty-9-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:43:06.128 [nioEventLoopGroup-11-1] WARN  com.teamtop.system.antiAddictionSystem.AntiAddictionIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=308,channel:[id: 0x806e9a49, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:43:06.160 [HoutaiNetty-8-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0x95586534, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:43:06.628 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000002
+2021-08-21 20:43:06.647 [nioEventLoopGroup-7-1] WARN  com.teamtop.system.crossZhuLu.cross.CrossZhuLuIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2611,channel:[id: 0xb4e28e3c, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:43:06.649 [HoutaiNetty-9-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30003,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:43:06.751 [nioEventLoopGroup-7-1] WARN  com.teamtop.system.guardArea.cross.GuardAreaIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=3001,channel:[id: 0xb4e28e3c, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:43:06.764 [crossChannelEx - 3] WARN  org.apache.ibatis.datasource.pooled.PooledDataSource - Execution of ping query 'show tables' failed: The last packet successfully received from the server was 286,782 milliseconds ago.  The last packet sent successfully to the server was 286,782 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2021-08-21 20:43:06.791 [nioEventLoopGroup-11-1] WARN  com.teamtop.system.event.backstage.events.backstage.oldPlayer.OldPlayerIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=201,channel:[id: 0x806e9a49, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:43:06.839 [HoutaiNetty-8-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0x95586534, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:43:06.842 [HoutaiNetty-9-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0x6d9c43a6, /127.0.0.1:2356 => /127.0.0.1:12001]
+2021-08-21 20:43:12.368 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2021-08-21 20:43:35.529 [nioEventLoopGroup-11-1] WARN  com.teamtop.system.antiAddictionSystem.AntiAddictionIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=309,channel:[id: 0x806e9a49, /127.0.0.1:9893 => /127.0.0.1:11001]
+2021-08-21 20:43:35.536 [nioEventLoopGroup-11-1] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000002

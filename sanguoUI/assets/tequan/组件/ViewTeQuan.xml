@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" designImage="ui://k82cjsputiqw26">
+  <displayList>
+    <component id="n0_g8eo" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0" locked="true"/>
+    <image id="n17_mp04" name="n17" src="mtuj1g" fileName="image/特权卡标题.png" xy="262,69"/>
+    <list id="n31_hcde" name="n31" xy="22,145" size="598,144" layout="row" overflow="scroll" scroll="horizontal" colGap="15" defaultItem="ui://jvxpx9emr9to3he" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n32_hcde" name="n32" src="gs0d67" fileName="image1/收起按钮.png" pkg="jvxpx9em" xy="16,197" pivot="0.5,0.5" visible="false"/>
+    <image id="n34_hcde" name="n34" src="gs0d67" fileName="image1/收起按钮.png" pkg="jvxpx9em" xy="603,220" pivot="0.5,0.5" anchor="true" scale="-1,1" visible="false"/>
+    <image id="n35_hcde" name="n35" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="601,195" visible="false"/>
+    <image id="n37_hcde" name="n37" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="12,194" visible="false"/>
+    <richtext id="n38_hcde" name="n38" xy="23,764" size="181,29" group="n47_hcde" fontSize="22" color="#ffffff" text="特权卡效果可叠加"/>
+    <richtext id="n39_hcde" name="n39" xy="21,805" size="423,31" group="n47_hcde" fontSize="22" color="#ffffff" text="同时购买黄金卡、铂金卡、至尊卡还可获得&#xA;"/>
+    <richtext id="n40_hcde" name="n40" xy="23,849" size="93,29" group="n47_hcde" fontSize="22" color="#ffffff" text="绝版头像"/>
+    <image id="n41_hcde" name="n41" src="v2391m" fileName="image/少年吕布.png" xy="126,844" group="n47_hcde"/>
+    <component id="n42_hcde" name="btnHeadAward" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="426,857" group="n44_hcde">
+      <Button title="领取"/>
+    </component>
+    <image id="n43_hcde" name="imgYlq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="428,864" group="n44_hcde"/>
+    <group id="n44_hcde" name="groupHead" xy="426,857" size="130,51" group="n47_hcde" advanced="true"/>
+    <image id="n45_hcde" name="n45" src="srrs1o" fileName="image/101.png" xy="454,770" group="n47_hcde"/>
+    <image id="n46_hcde" name="n46" src="srrs1n" fileName="image/2002.png" xy="444,750" group="n47_hcde"/>
+    <group id="n47_hcde" name="n47" xy="21,750" size="535,158"/>
+  </displayList>
+</component>

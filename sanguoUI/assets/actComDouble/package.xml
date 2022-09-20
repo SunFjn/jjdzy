@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="746rywv8" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="e3qh0" name="Child_ActComDouble.xml" path="/组件/" exported="true"/>
+    <component id="e3qh1" name="ItemActComDouble.xml" path="/组件/" exported="true"/>
+    <image id="e3qh2" name="img1.png" path="/image/"/>
+    <image id="otsef" name="n12_看图王.jpg" path="/image/"/>
+  </resources>
+  <publish name="actComDouble" genCode="true" excluded="e3qh2,otsef"/>
+</packageDescription>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7y83phvn" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="i1zv0" name="YiShouLuGrid.xml" path="/组件/" exported="true"/>
+    <component id="i1zv1" name="YiShouLuView.xml" path="/组件/" exported="true"/>
+    <image id="sk8j2" name="头像底框.png" path="/images/" exported="true"/>
+    <image id="sk8j5" name="异兽录背景.png" path="/images/"/>
+    <image id="sk8j7" name="选中框.png" path="/images/" exported="true"/>
+    <image id="sk8j8" name="阶位图标.png" path="/images/" exported="true"/>
+    <image id="sy28d" name="ys_444001.png" path="/images/"/>
+    <image id="sy28e" name="660001.png" path="/images/"/>
+    <image id="sy28f" name="头像遮挡黑底.png" path="/images/" exported="true"/>
+    <component id="ws8yg" name="View_YiShouLu_Panel.xml" path="/组件/" exported="true"/>
+    <image id="jw42i" name="仙人寻兽背景图.jpg" path="/images/"/>
+    <image id="jw42k" name="问号.png" path="/images/" exported="true"/>
+    <component id="jw42m" name="XunShouGrid.xml" path="/组件/" exported="true"/>
+    <image id="dsdyn" name="气泡框.png" path="/images/" exported="true"/>
+    <component id="dsdyo" name="Child_XSXS.xml" path="/组件/" exported="true"/>
+    <component id="dsdyp" name="XSXS_JiFenGrid.xml" path="/组件/" exported="true"/>
+    <component id="pz9kq" name="Child_YiShou.xml" path="/组件/" exported="true"/>
+    <component id="pz9kr" name="YiShouEquipGrid.xml" path="/组件/" exported="true"/>
+    <component id="pz9ks" name="Child_YiShouTF.xml" path="/组件/" exported="true"/>
+    <component id="vxvaw" name="Item_YiShouTF_UpLv.xml" path="/组件/" exported="true"/>
+    <image id="vxvax" name="异兽.png" path="/images/" exported="true"/>
+    <image id="vxvay" name="天赋.png" path="/images/" exported="true"/>
+    <component id="vxva11" name="Item_XiuLianTF.xml" path="/组件/" exported="true"/>
+    <image id="vxva13" name="修炼天赋底轮.png" path="/images/"/>
+    <image id="vxva14" name="兽图.png" path="/images/"/>
+    <image id="s1x216" name="敬请期待.png" path="/images/" exported="true"/>
+    <image id="umao1c" name="异兽选择遮罩.png" path="/images/"/>
+  </resources>
+  <publish name="YiShouLu" genCode="true" npot="true" excluded="jw42i,sk8j5,sy28e,sy28d,vxva14,vxva13"/>
+</packageDescription>

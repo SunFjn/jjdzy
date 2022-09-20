@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="kummteny">
+  <resources>
+    <image id="ayd20" name="可领孙子兵法.png" path="/image/" exported="true"/>
+    <image id="ayd21" name="赵云.png" path="/image/" exported="true"/>
+    <component id="ayd22" name="View_Share_Panel.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="Share" genCode="true" excluded="ayd20,ayd21"/>
+</packageDescription>

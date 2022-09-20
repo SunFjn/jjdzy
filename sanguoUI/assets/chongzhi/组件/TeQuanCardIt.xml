@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="197,242" extention="Button">
+  <displayList>
+    <image id="n2_anpm" name="n2" src="anpmt" fileName="image/bg5.png" xy="0,-2" size="197,244"/>
+    <loader id="n4_anpm" name="imgCard" xy="42,21" size="112,116" url="ui://42zxp7qjanpmn"/>
+    <loader id="n5_anpm" name="IMGpRICE" xy="117,4" size="74,74" url="ui://42zxp7qjanpmq"/>
+    <image id="n9_s9vj" name="n9" src="s9vjz" fileName="image/永久生效.png" xy="36,112"/>
+    <richtext id="n6_anpm" name="lbDesc" xy="17,152" size="226,87" fontSize="14" color="#ffffff" ubb="true" autoSize="height" autoClearText="true" text="●每日领取500元宝&#xA;●挂机经验、铜钱加成40%&#xA;●每日领取双倍签到奖励&#xA;●每日领取至尊特权礼包"/>
+    <image id="n8_anpm" name="ygm" src="mb5j7d" fileName="image1/已购买.png" pkg="jvxpx9em" xy="36,96" locked="true"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+</component>

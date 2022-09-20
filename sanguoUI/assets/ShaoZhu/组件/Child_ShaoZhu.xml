@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1,,2,,3," selected="2"/>
+  <displayList>
+    <component id="n25_h7p8" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="10,921">
+      <Button title="升星"/>
+    </component>
+    <component id="n26_h7p8" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,921">
+      <Button title="亲密度"/>
+    </component>
+    <component id="n27_h7p8" name="tab2" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="254,921">
+      <Button title="技能"/>
+    </component>
+    <component id="n79_qyln" name="tab3" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="376,921">
+      <Button title="祈愿"/>
+    </component>
+    <component id="n2_h7p8" name="starItem" src="h7p86" fileName="组件/Child_ShaoZhu_UpStar.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n35_ftpj" name="qinMiItem" src="ng03c" fileName="组件/Child_ShaoZhu_QinMi.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n77_ng03" name="skillItem" src="ng03f" fileName="组件/Child_ShaoZhu_Skill.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <component id="n78_qyln" name="qiYuanItem" src="sr6c15" fileName="组件/祈愿/Child_ShaoZhu_QiYuan.xml" xy="0,126">
+      <gearDisplay controller="c1" pages="3"/>
+    </component>
+  </displayList>
+</component>

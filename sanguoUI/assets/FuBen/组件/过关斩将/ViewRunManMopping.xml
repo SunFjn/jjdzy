@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="454,538">
+  <displayList>
+    <component id="n11_em4d" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="454,538">
+      <Label title="扫荡"/>
+    </component>
+    <image id="n3_of9i" name="n3" src="jkp64z" fileName="image1/Bg4.png" pkg="jvxpx9em" xy="9,87" size="436,379"/>
+    <list id="n10_of9i" name="list" xy="55,198" size="358,223" layout="flow_hz" overflow="scroll" lineGap="11" colGap="22" defaultItem="ui://jvxpx9emetorm">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n13_em4d" name="lbLayer" xy="36,114" size="154,28" touchable="false" fontSize="18" color="#edbc14" autoSize="none" text="扫荡关数：1-36关"/>
+    <richtext id="n14_em4d" name="lbAward" xy="36,155" size="95,28" fontSize="18" color="#edbc14" autoSize="none" text="获得奖励："/>
+    <component id="n16_m76j" name="btnSure" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="156,469">
+      <Button title="确定"/>
+    </component>
+  </displayList>
+</component>

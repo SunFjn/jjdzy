@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" extention="Label" initName="frame">
+  <displayList>
+    <loader id="n9_v3t9" name="backImg" xy="0,0" size="640,1136" url="ui://jvxpx9emm3513bl"/>
+    <image id="n14_irr1" name="n0" src="m3513bf" fileName="image/通用底框/方框1.png" xy="2,140" size="636,787"/>
+    <image id="n15_irr1" name="n15" src="irr13gx" fileName="image/花纹/标题背景花纹.png" xy="119,72"/>
+    <loader id="n18_irr1" name="icon" xy="204,77" size="232,42" align="center" vAlign="middle"/>
+    <image id="n19_irr1" name="n19" src="irr13gu" fileName="image/花纹/方框1底部海浪花纹.png" xy="11,798"/>
+    <component id="n16_irr1" name="closeButton" src="bwmw3b" fileName="组件/closeButton.xml" xy="494,922"/>
+  </displayList>
+</component>

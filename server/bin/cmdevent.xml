@@ -1,0 +1,4259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	
+<!-- 升级事件说明 -->
+	<!-- level 属性是指定事件触发等级数字则说明是等级 all代表所有等级都需要执行-->
+	<!--对于多个等级需要触发同一事件那么可以：level="5_11_17_23_12" 此时代表此事件分别会在 人物升级到5级、11级、23级以及12级分别触发-->
+	<!--对于间隔等级触发的事件可以：level="gap" startLevel="5" endLevel="120" gapLevel="5"此时代表此事件会在5-120(包含5,120级)级每间隔5级触发-->
+	<!-- 增加functionId注册方式，加入funid属性则会从X_104_系统开启表.xlsx中读取等级注册等级事件 -->
+	
+	<!-- 例子
+	<property method = "levelUp" level="all"/>
+	<property method = "levelUp" level="30"/>
+	<property method = "levelUp" level="30_50_60_70_80_90_100_110_120"/>
+	<property method = "levelUp" funid="1002"/>
+	<property method = "levelUp" level="gap" startLevel="100" endLevel="130" gapLevel="1"/>
+	 -->
+<!-- end -->
+
+<!-- 关卡时间 -->
+	<!-- 例子
+	<property method = "passGuanqia" funid="1002"/>
+	<property method = "passGuanqia" curGuanqia="all" />
+	<property method = "passGuanqia" curGuanqia="30_50_60" />
+	 -->
+<!-- end -->
+
+<!-- fixtimeSyncPub说明 -->
+	<!-- 适用于帮会等跟个人无关的系统 -->
+	<!-- gap参数为分钟，仅有此参数 
+	<property method = "fixtimeSyncPub" gap="30"/>
+	 -->
+<!-- end -->
+
+<!-- fixtime说明 -->
+	<!-- 
+	定时事件定义：
+	(1)：d1200表示每天12点触发；
+	(2)：w71400表示星期天14点触发，周一至周日是1至7；
+	(3)：g30表示间隔30分钟触发，必须配置开始时间starttime, 可选配置：结束时间endtime、周几执行opweek(周一至周日是1至7)
+	(4)：y10010000表示每年几月几日几时几分触发，如 10月1日0点
+	例子如下：
+	<property method = "fixTime" starttime="0000" time="d1200_1,d1800_2,g30_3"/>
+	<property method = "fixTime" starttime="0000" endtime="2359" opweek="1,3,4" time="g30_3"/>
+	<property method = "fixTime" time="w71400_1,w71430_2,w71500_3" />
+	 -->
+<!-- end -->
+
+	<!-- gm -->
+	<bean id="com.teamtop.system.gm.GMCG" desc="GM" funid="0">
+		<cache id="com.teamtop.system.gm.GMCache">
+			<property method = "startServer"/>
+		</cache>
+		<cmd>
+			<property cmdId="99" methodName="gm" />
+		</cmd>
+	</bean>
+	<!-- 角色 -->
+	<bean id="com.teamtop.system.hero.HeroCG" desc="角色" funid="0">
+		<event id="com.teamtop.system.hero.HeroEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "afterLogin"/>
+			<property method = "logout"/>
+			<property method = "sync"/>
+			<property method = "fixTime" starttime="0000" time="g30_1,g1_2,g15_3"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "zeroPub"/>
+		</event>
+		<cache id="com.teamtop.system.hero.HeroCache">
+			<property method = "startServer"/>
+			<property method = "initExcel"/>
+			<property method = "shutdownServer"/>
+			<property method = "levelUp" level="all" />
+		</cache>
+		<cmd>
+			<property cmdId="101" methodName="login" paramConn="true" />
+			<property cmdId="103" methodName="loadAlready" />
+			<property cmdId="105" methodName="create" paramConn="true" />
+			<property cmdId="113" methodName="rebornUp" />
+			<property cmdId="131" methodName="askSceneHeros" />
+			<property cmdId="133" methodName="inCreateRoleUI" paramConn="true" />
+			<property cmdId="135" methodName="requestRecharge" />
+			<property cmdId="137" methodName="openRecharge" />
+			<property cmdId="143" methodName="changeName" />
+			<property cmdId="147" methodName="cG_PLAYERSETTING" />
+			<property cmdId="153" methodName="getGuan" />
+			<property cmdId="155" methodName="upGuan" />
+			<property cmdId="169" methodName="getWelfareNotice" />
+			<property cmdId="171" methodName="loginstate" paramConn="true" />
+			<property cmdId="173" methodName="openupdate"/>
+		</cmd>		
+	</bean>	
+	<!-- 关卡-->
+	<bean id="com.teamtop.system.guanqia.GuanqiaCG" desc="关卡" funid="1052">
+		<event id= "com.teamtop.system.guanqia.GuanqiaSystemEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset" />
+			<property method = "zeroHero" />
+		</event>
+		<cache id="com.teamtop.system.guanqia.GuanqiaCache">
+			<property method = "initExcel"/>
+			<property method = "startServer"/>
+		</cache>		
+		<cmd funid="1052">
+			<property cmdId="1101" methodName="syncCurMonster" />
+			<property cmdId="1103" methodName="openBossUI" />
+			<property cmdId="1105" methodName="beatBossWin" />
+			<property cmdId="1107" methodName="getRank" />
+			<property cmdId="1109" methodName="mopUp" />
+			<property cmdId="1111" methodName="getKillAward" />
+			<property cmdId="1113" methodName="challengeBoss" />
+			<property cmdId="1115" methodName="getBigReward" />
+			<property cmdId="1117" methodName="nextBigGuanqia" />
+		</cmd>
+	</bean>
+	<!-- 聊天频道 -->
+	<bean id="com.teamtop.system.chat.ChatCG" desc="聊天频道" funid="3001">
+		<event id="com.teamtop.system.chat.ChatEvent">
+			<property method="init" />
+			<property method="login" />
+			<property method="loginReset" />
+			<property method="zeroHero" />
+			<property method = "levelUp" funid="3001"/>
+			<property method = "fixTime" starttime="0000" time="g1_1"/>
+		</event>
+		<cmd funid="3001">
+			<property cmdId="451" methodName="chat" />
+			<property cmdId="459" methodName="openUI" />
+			<property cmdId="471" methodName="kefuRequest" />
+			<property cmdId="473" methodName="addblack" />
+			<property cmdId="475" methodName="minblack" />
+			<property cmdId="477" methodName="openBlack" />
+			<property cmdId="481" methodName="chatshow" />
+		</cmd>
+	</bean>
+	<!--场景 -->
+	<bean id="com.teamtop.system.scene.SceneCG" desc="场景" funid="0">
+		<event id="com.teamtop.system.scene.SceneEvent">
+			<property method="init" />
+			<property method="logout" />
+		</event>
+		<cmd>
+			<property cmdId="3901" methodName="inscene"/>
+			<property cmdId="3903" methodName="succEnterScene"/>
+			<property cmdId="3905" methodName="changeSceneOK"/>
+			<property cmdId="3907" methodName="move" />
+			<property cmdId="3909" methodName="finishMove" />
+			<property cmdId="3911" methodName="syncPosXY" />
+			<property cmdId="3913" methodName="syncRoute" />
+			<property cmdId="3919" methodName="exitScene" />			
+		</cmd>
+	</bean>
+	<!-- 背包 -->
+	<bean id="com.teamtop.system.bag.BagCG" desc="背包" funid="1301">
+		<event id= "com.teamtop.system.bag.BagEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "logout"/>
+			<property method = "levelUp" funid="1301"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		</event>
+		<cache id="com.teamtop.system.bag.BagCache">
+			<property method = "startServer"/>
+		</cache>
+		<cmd funid="1301">
+			<property cmdId="201" methodName="openGrid" />
+			<property cmdId="207" methodName="useItem" />
+			<property cmdId="209" methodName="useInterItem" />
+		</cmd>
+	</bean>
+	<!-- 系统全局通用 -->
+	<bean id="com.teamtop.system.global.GlobalCG" desc="全局通用">
+		<event id="com.teamtop.system.global.GlobalEvent">
+			<property method = "login"/>
+			<property method = "levelUp" level="all" />
+			<property method = "zeroPub"/>
+		</event>
+		<cache id="com.teamtop.system.global.GlobalCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<cmd>
+			<property cmdId="251" methodName="getServerTime" />
+			<property cmdId="267" methodName="showSecret" />
+		</cmd>
+	</bean>
+	<!-- 装备 -->
+	<bean id="com.teamtop.system.equip.EquipCG" desc="装备">
+		<event id="com.teamtop.system.equip.EquipEvent">
+			<property method="init" />
+			<property method="login" />
+			<property method="logout" />
+		</event>
+		<cache id="com.teamtop.system.equip.EquipCache">
+			<property method="startServer" />
+			<property method="shutdownServer" />
+			<property method="initExcel" />
+		</cache>
+		<cmd>
+			<property cmdId="351" methodName="getEquips" />
+			<property cmdId="353" methodName="wearEquip" />
+			<property cmdId="371" methodName="wearEquipByid" />
+		</cmd>
+		<cmd funid="7001">
+			<property cmdId="355" methodName="wearShenEquip" />
+			<property cmdId="361" methodName="updateOrange" />
+			<property cmdId="363" methodName="composeOrange" />
+			<property cmdId="365" methodName="decomposeOrange" />
+			<property cmdId="367" methodName="getJieOrange" />
+			<property cmdId="369" methodName="upJieOrange" />
+			<property cmdId="373" methodName="wearReBornEquip" />
+			<property cmdId="375" methodName="wearbypart" />
+		</cmd>
+		<cmd funid="1902">
+			<property cmdId="377" methodName="clearEquip" />
+			<property cmdId="379" methodName="clearSate" />
+		</cmd>
+	</bean>
+	<!--邮件 -->
+	<bean id="com.teamtop.system.mail.MailCG" desc="邮件" funid="0">
+		<event id="com.teamtop.system.mail.MailEvent">
+			<property method = "login"/>
+			<property method = "zeroPub"/>
+			<property method = "fixTime" time="d0900_1"/>
+		</event>
+		<cache id="com.teamtop.system.mail.MailCache">
+			<property method = "startServer"/>
+		</cache>
+		<cmd>
+			<property cmdId="303" methodName="openMail_All"  />
+			<property cmdId="305" methodName="openMail_One" />
+			<property cmdId="307" methodName="getAdjunct"  />
+			<property cmdId="309" methodName="getAllAdjunct"  />
+			<property cmdId="313" methodName="deleteAll"  />
+		</cmd>		
+	</bean>	
+	<!-- 称号-->
+	<bean id="com.teamtop.system.title.TitleModelCG" desc="称号" funid="2201">
+		<event id= "com.teamtop.system.title.TitleEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "levelUp" level="all" />
+			<property method = "zeroPub"/>
+			<property method = "passGuanqia" curGuanqia="all" />
+		</event>
+		<cache id="com.teamtop.system.title.TitleCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="2201">
+			<property cmdId="501" methodName="openTitle" />
+			<property cmdId="503" methodName="handleTitle" />
+			<property cmdId="509" methodName="activateTitle" />
+			<property cmdId="513" methodName="upgradeTitle" />
+		</cmd>
+	</bean>
+	<!--后台 事件--> 
+	<bean id="com.teamtop.system.event.backstage.BackstageSystemEvent" desc="后台" funid="0">
+		<cache id="com.teamtop.system.event.backstage.BackstageSystemEvent">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<event id="com.teamtop.system.event.backstage.BackstageSystemEvent">
+			<property method = "login"/>
+			<property method = "logout"/>
+			<property method = "zeroPub"/>
+			<property method = "fixTime" starttime="0001" time="g1_0,g5_1,g8_2,g10_3,g60_4,d2359_5"/>
+		</event>
+	</bean>
+	<!--熔炉--> 
+	<bean id="com.teamtop.system.smelt.SmeltCG" desc="熔炼" funid="1302">
+		<event id="com.teamtop.system.smelt.SmeltEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "levelUp" funid="1302"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>			
+		</event>
+		<cache id="com.teamtop.system.smelt.SmeltCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="1302">
+			<property cmdId="601" methodName="getSmelt"  />
+			<property cmdId="603" methodName="smelt"  />
+		</cmd>		
+	</bean>
+	<!-- 好友-->
+	<bean id="com.teamtop.system.friends.FriendCG" desc="好友">
+		<event id= "com.teamtop.system.friends.FriendEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "logout"/>
+			<property method = "levelUp"/>
+			<property method = "fixTime" starttime="0007" time="g30_1" />
+		</event>
+		<cache id="com.teamtop.system.friends.FriendCache">
+			<property method = "startServer"/>
+		</cache>
+		<cmd>
+			<property cmdId="401" methodName="getInfo" />
+			<property cmdId="403" methodName="addFriend" />
+			<property cmdId="407" methodName="agreeAddFriend" />
+			<property cmdId="409" methodName="addToBadFriend" />
+			<!--
+			<property cmdId="411" methodName="getMsg" />  -->
+			<property cmdId="415" methodName="delFriend" />
+			<property cmdId="417" methodName="delBlack" />
+			<property cmdId="419" methodName="chat" />
+			<property cmdId="427" methodName="getRecentChatFriend" />
+		</cmd>
+	</bean>	
+	<!-- 技能-->
+	<bean id="com.teamtop.system.skill.SkillCG" desc="技能" funid="1101">
+		<cache id="com.teamtop.system.skill.SkillCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.skill.SkillSysEvent">
+			<property method = "passGuanqia" curGuanqia="all"/>
+		</event>
+		<cmd funid="1101">
+			<property cmdId="621" methodName="upgradeSkill" />
+			<property cmdId="623" methodName="upgradePhotoCenter" />
+			<property cmdId="625" methodName="upgradeAll" />
+			<property cmdId="627" methodName="useSkill" />
+			
+		</cmd>
+	</bean>
+	<!-- 兽灵-->
+	<bean id="com.teamtop.system.monsterSpirit.MonsterSpiritCG" desc="兽灵" funid="2001">
+		<cache id="com.teamtop.system.monsterSpirit.MonsterSpiritSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.monsterSpirit.MonsterSpiritSysEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+		</event>
+		<cmd funid="2001">
+			<property cmdId="851" methodName="openUI" />
+			<property cmdId="853" methodName="upgrade" />
+			<property cmdId="855" methodName="wearEquip" />
+			<property cmdId="857" methodName="washEquip" />
+			<property cmdId="859" methodName="updateStar" />
+			<property cmdId="861" methodName="activate" />
+			<property cmdId="863" methodName="lockStamp" />
+			<property cmdId="865" methodName="goFight" />
+			<property cmdId="867" methodName="starUpgrade" />
+		</cmd>
+	</bean>
+	<!-- 兽魂觉醒-->
+	<bean id="com.teamtop.system.monsterSpirit.MonsterSpiritAwakeCG" desc="兽灵" funid="2002">
+		<cmd funid="2002">
+			<property cmdId="5691" methodName="replace" />
+			<property cmdId="5693" methodName="oneKeyWash" />
+			<property cmdId="5695" methodName="openMsChange" />
+			<property cmdId="5697" methodName="msChange" />
+			<property cmdId="5699" methodName="msChangeFight" />
+		</cmd>
+	</bean>
+	<!-- 图鉴-->
+	<bean id="com.teamtop.system.archive.ArchiveCG" desc="图鉴" funid="2901">
+		<cache id="com.teamtop.system.archive.ArchiveCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.archive.ArchiveSysEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+		</event>
+		<cmd funid="2901">
+			<property cmdId="871" methodName="openArchive" />
+			<property cmdId="873" methodName="activateArchive" />
+			<property cmdId="875" methodName="upgradeLevel" />
+			<property cmdId="877" methodName="upgradeStar" />
+			<property cmdId="879" methodName="upgradeSet" />
+		</cmd>
+	</bean>
+	<!-- 星图-->
+	<bean id="com.teamtop.system.starPicture.StarPictureCG" desc="星图" funid="2301">
+		<cache id="com.teamtop.system.starPicture.StarPictureCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.starPicture.StarPictureSysEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "passGuanqia" funid="2301"/>
+		</event>
+		<cmd funid="2301">
+			<property cmdId="921" methodName="openStarPicture" />
+			<property cmdId="923" methodName="upgradeLevel" />
+		</cmd>
+	</bean>
+	<!-- 宝物-->
+	<bean id="com.teamtop.system.treasure.TreasureCG" desc="宝物" funid="2501">
+		<event id= "com.teamtop.system.treasure.TreasureSysEvent">
+			<property method = "init"/>
+			<property method = "passGuanqia" funid="2501"/>
+		</event>
+		<cmd funid="2501">
+			<property cmdId="941" methodName="openTreasure" />
+			<property cmdId="943" methodName="switchTreasure" />
+			<property cmdId="945" methodName="upgradeLevel" />
+			<property cmdId="947" methodName="upgradeAll" />
+			<property cmdId="949" methodName="activateTreasure" />
+			<property cmdId="951" methodName="upgradeStar" />
+			<property cmdId="953" methodName="devourElixir" />
+		</cmd>
+	</bean>
+	<!-- 神剑-->
+	<bean id="com.teamtop.system.excalibur.ExcaliburCG" desc="神剑" funid="2701">
+		<event id= "com.teamtop.system.excalibur.ExcaliburSysEvent">
+		    <property method = "init"/>
+			<property method = "login"/>
+			<property method = "passGuanqia" funid="2701"/>
+		</event>
+		<cmd funid="2701">
+			<property cmdId="1001" methodName="openExcalibur" />
+			<property cmdId="1003" methodName="activateExcalibur" />
+			<property cmdId="1005" methodName="upgradeStar" />
+			<property cmdId="1007" methodName="devourElixir" />
+			<property cmdId="1009" methodName="operateExcalibur" />
+		</cmd>
+	</bean>
+	<!-- 设置-->
+	<bean id="com.teamtop.system.setting.SettingCG" desc="设置" funid="1002">
+		<event id= "com.teamtop.system.setting.SettingSysEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+		</event>
+		<cmd>
+			<property cmdId="1025" methodName="operateSound" />
+			<property cmdId="1027" methodName="operateCountry" />
+		</cmd>
+		<cmd funid="1002">
+			<property cmdId="1023" methodName="changeName" />
+		</cmd>
+		<cmd funid="1003">
+			<property cmdId="1021" methodName="changeIcon" />
+		</cmd>
+	</bean>
+	<!-- 将魂-->
+	<bean id="com.teamtop.system.generalSoul.GeneralSoulCG" desc="将魂" funid="2401">
+		<event id= "com.teamtop.system.generalSoul.GeneralSoulSysEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+		</event>
+		<cache id="com.teamtop.system.generalSoul.GeneralSoulCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="2401">
+			<property cmdId="1151" methodName="openGeneralSoul" />
+			<property cmdId="1153" methodName="upgradeLevel" />
+			<property cmdId="1155" methodName="upgradeSet" />
+		</cmd>
+	</bean>
+	<!-- 商城-->
+	<bean id="com.teamtop.system.shop.ShopCG" desc="商城" funid="3401">
+		<cache id="com.teamtop.system.shop.ShopCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.shop.ShopSysEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		</event>
+		<cmd funid="3401">
+			<property cmdId="1181" methodName="openShop" />
+			<property cmdId="1183" methodName="refreshShop" />
+			<property cmdId="1185" methodName="shopping" />
+		</cmd>
+	</bean>
+	<!-- 个人Boss-->
+	<bean id="com.teamtop.system.boss.personalBoss.PersonalBossCG" desc="个人Boss" funid="1802">
+		<cache id="com.teamtop.system.boss.personalBoss.PersonalBossCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.boss.BossSysEvent">
+			<property method = "passGuanqia" funid="1801"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		</event>
+		<event id= "com.teamtop.system.boss.personalBoss.PersonalBossSysEvent">
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		</event>
+		<cmd funid="1802">
+			<property cmdId="1251" methodName="openBoss" />
+			<property cmdId="1253" methodName="challengeBoss" />
+			<property cmdId="1255" methodName="beatBossWin" />
+			<property cmdId="1257" methodName="mopUp" />
+		</cmd>
+	</bean>
+	<!-- 一骑当千-->
+	<bean id="com.teamtop.system.battleVixens.BattleVixensCG" desc="一骑当千" funid="1704">
+		<cache id="com.teamtop.system.battleVixens.BattleVixensCache">
+			<property method = "initExcel"/>
+			<property method = "startServer"/>
+		</cache>
+		<event id= "com.teamtop.system.battleVixens.BattleVixensSysEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "passGuanqia" funid="1704"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "zeroPub"/>
+			<property method = "logout"/>
+		</event>
+		<cmd funid="1704">
+			<property cmdId="1281" methodName="openBattleVixens" />
+			<property cmdId="1283" methodName="challenge" />
+			<property cmdId="1285" methodName="oneFightEnd" />
+			<property cmdId="1287" methodName="buyCha" />
+			<property cmdId="1289" methodName="getAward" />
+			<property cmdId="1291" methodName="openRanking" />
+		</cmd>
+	</bean>
+	<!-- 三国战神-->
+	<bean id="com.teamtop.system.godOfWar.GodOfWarCG" desc="三国战神" funid="1602">
+		<cache id="com.teamtop.system.godOfWar.model.GodOfWarCache">
+			<property method = "startServer"/>
+		</cache>
+		<event id= "com.teamtop.system.godOfWar.GodOfWarSysEvent">
+			<property method = "passGuanqia" funid="1602"/>
+			<property method = "login"/>
+			<property method = "logout"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "zeroPub"/>
+		</event>
+		<cmd funid="1602">
+			<property cmdId="1401" methodName="openGodOfWar" />
+			<property cmdId="1403" methodName="buyCha" />
+			<property cmdId="1405" methodName="refreshRival" />
+			<property cmdId="1407" methodName="challenge" />
+			<property cmdId="1409" methodName="fightResult" />
+			<property cmdId="1411" methodName="mopUp" />
+			<property cmdId="1413" methodName="openWarStore" />
+			<property cmdId="1415" methodName="buyGoods" />
+		</cmd>
+	</bean>
+	<!-- 南征北战-->
+	<bean id="com.teamtop.system.country.fightNorthAndSouth.FightNSCG" desc="南征北战" funid="1503">
+		<cache id="com.teamtop.system.country.fightNorthAndSouth.FightNSSysCache">
+			<property method = "startServer"/>
+			<property method = "initExcel"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<event id= "com.teamtop.system.country.fightNorthAndSouth.FightNSSysEvent">
+			<property method = "passGuanqia" funid="1503"/>
+			<property method = "login"/>
+			<property method = "logout"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "fixTime" time="w10000_1"/>
+		</event>
+		<cmd funid="1503">
+			<property cmdId="1571" methodName="openFightNS" />
+			<property cmdId="1573" methodName="getPersonalRankList" />
+			<property cmdId="1575" methodName="getCountryRank" />
+			<property cmdId="1577" methodName="buyCha" />
+			<property cmdId="1579" methodName="challenge" />
+			<property cmdId="1581" methodName="fightEnd" />
+			<property cmdId="1583" methodName="getScoreAward" />
+			<property cmdId="1585" methodName="refreshRival" />
+			<property cmdId="1587" methodName="mopUp" />
+		</cmd>
+	</bean>
+	<!-- 单刀赴会-->
+	<bean id="com.teamtop.system.crossSoloRun.SoloRunCG" desc="单刀赴会" funid="1603">
+		<cache id="com.teamtop.system.crossSoloRun.SoloRunSysCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<event id= "com.teamtop.system.crossSoloRun.SoloRunSysEvent">
+			<property method = "passGuanqia" funid="1603"/>
+			<property method = "login"/>
+			<property method = "logout"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "fixTime" time="w70000_1,d2030_2,d2120_3,w62230_4,w10000_5"/>
+		</event>
+		<cmd funid="1603">
+			<property cmdId="1611" methodName="openSoloRun" />
+			<property cmdId="1613" methodName="getDailyAward" />
+			<property cmdId="1617" methodName="getRankList" />
+			<property cmdId="1619" methodName="buyCha" />
+			<property cmdId="1621" methodName="askMatch" />
+			<property cmdId="1625" methodName="fightEnd" />
+			<property cmdId="1627" methodName="getReport" />
+		</cmd>
+	</bean>
+	<!-- 三国无双-->
+	<bean id="com.teamtop.system.crossDynastyWarriors.DynastyWarriorsCG" desc="三国无双" funid="1604">
+		<cache id="com.teamtop.system.crossDynastyWarriors.DynastyWarriorsSysCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<event id= "com.teamtop.system.crossDynastyWarriors.DynastyWarriorsSysEvent">
+			<property method = "passGuanqia" funid="1604"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "fixTime" opweek="7" starttime="2030" time="g1_1,w72028_2"/>
+		</event>
+		<cmd funid="1604">
+			<property cmdId="1831" methodName="openDynastyWarriors" />
+			<property cmdId="1833" methodName="bet" />
+			<property cmdId="1835" methodName="openPond" />
+			<property cmdId="1837" methodName="getPondAward" />
+			<property cmdId="1841" methodName="getVideoData" />
+		</cmd>
+	</bean>
+	<!-- 晋升-->
+	<bean id="com.teamtop.system.promotion.PromotionCG" desc="晋升" funid="4103">
+		<cache id="com.teamtop.system.promotion.PromotionCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.promotion.PromotionSysEvent">
+			<property method = "init"/>
+			<property method = "levelUp" level="all" />
+			<property method = "passGuanqia" curGuanqia="all"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		</event>
+		<cmd funid="4103">
+			<property cmdId="2021" methodName="openPromotion" />
+			<property cmdId="2023" methodName="getLevelReward" />
+			<property cmdId="2025" methodName="getTaskReward" />
+			<property cmdId="2027" methodName="activate" />
+		</cmd>
+	</bean>
+	<!-- VIP-->
+	<bean id="com.teamtop.system.vip.VipCG" desc="VIP" funid="5001">
+		<event id= "com.teamtop.system.vip.VipSysEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+		</event>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+		<cmd funid="5001">
+			<property cmdId="2061" methodName="openVip" />
+			<property cmdId="2063" methodName="getVipAward" />
+			<property cmdId="2065" methodName="buyVipGift" />
+		</cmd>
+	</bean>
+	<!-- 特权卡-->
+	<bean id="com.teamtop.system.privilegeCard.PrivilegeCardCG" desc="特权卡" funid="5004">
+		<event id= "com.teamtop.system.privilegeCard.PrivilegeCardSysEvent">
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "fixTime" starttime="0000" time="g1_1"/>
+		</event>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+		<cmd funid="5004">
+			<property cmdId="2171" methodName="openPrivilegeCard" />
+			<property cmdId="2173" methodName="getPrivilegeCard" />
+			<property cmdId="2175" methodName="getThreeAward" />
+		</cmd>
+	</bean>
+	<!-- 群英榜-->
+	<bean id="com.teamtop.system.crossHeroesList.HeroesListCG" desc="群英榜" funid="4401">
+		<cache id="com.teamtop.system.crossHeroesList.HeroesListSysCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+			<property method = "initExcel"/>
+			<property method = "fixTime" time="d0005_1"/>
+		</cache>
+		<event id= "com.teamtop.system.crossHeroesList.HeroesListSysEvent">		
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "zeroPub"/>
+			<property method = "passGuanqia" funid="4401"/>
+		</event>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+		<cmd funid="4401">
+			<property cmdId="2191" methodName="openHeroesList" />
+			<property cmdId="2193" methodName="getScoreReward" />
+			<property cmdId="2195" methodName="refreshRankList" />
+			<property cmdId="2197" methodName="openLastRankUI" />
+		</cmd>
+	</bean>
+	<!-- 开服天数控制系统-->
+	<bean id="com.teamtop.system.openDaysSystem.OpenDaysSystemCG" desc="开服天数控制系统">
+		<cache id="com.teamtop.system.openDaysSystem.OpenDaysSystemSysCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.openDaysSystem.OpenDaysSystemSysEvent">		
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "zeroPub"/>
+			<property method = "logout"/>
+			<property method = "logoutSyncPub"/>
+			<property method = "passGuanqia" curGuanqia="all"/>
+			<property method = "levelUp" level="all" />
+			<property method = "fixTime" starttime="0000" time="d0005_1"/>
+		</event>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+		<cmd>
+			<property cmdId="4571" methodName="openUI" />
+		</cmd>
+	</bean>
+	<!-- 登录豪礼(8~28)-->
+	<bean id="com.teamtop.system.openDaysSystem.otherLoginLuxuryGifts.OtherLoginLuxuryGiftsCG" desc="登录豪礼(8~28)" funid="4520">
+		<cache id="com.teamtop.system.openDaysSystem.otherLoginLuxuryGifts.OtherLoginLuxuryGiftsCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="4520">
+			<property cmdId="4631" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 新单笔充值(8~28)-->
+	<bean id="com.teamtop.system.openDaysSystem.otherNewOneRecharge.OtherNewOneRechargeCG" desc="新单笔充值(8~28)" funid="4521">
+		<cache id="com.teamtop.system.openDaysSystem.otherNewOneRecharge.OtherNewOneRechargeCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="4521">
+			<property cmdId="4651" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 累计充值(8~28)-->
+	<bean id="com.teamtop.system.openDaysSystem.otherTotalRecharge.OtherTotalRechargeSysCG" desc="累计充值(8~28)" funid="4522">
+		<cache id="com.teamtop.system.openDaysSystem.otherTotalRecharge.OtherTotalRechargeCache">
+			<property method = "initExcel"/>
+		</cache>	
+		<cmd funid="4522">
+			<property cmdId="4671" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 新单日累充(8~28)-->
+	<bean id="com.teamtop.system.openDaysSystem.otherNewDayRecharge.OtherNewDayRechargeCG" desc="新单日累充(8~28)" funid="4523">
+		<cache id="com.teamtop.system.openDaysSystem.otherNewDayRecharge.OtherNewDayRechargeCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="4523">
+			<property cmdId="4691" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 新血战到底(8~28)-->
+	<bean id="com.teamtop.system.openDaysSystem.otherFightToLast.OtherFightToLastCG" desc="新血战到底(8~28)" funid="4616">
+		<cache id="com.teamtop.system.openDaysSystem.otherFightToLast.OtherFightToLastCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="4616">
+			<property cmdId="4751" methodName="battle" />
+			<property cmdId="4753" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 折扣商店(8~28)-->
+	<bean id="com.teamtop.system.openDaysSystem.otherDiscountStore.OtherDiscountStoreCG" desc="折扣商店(8~28)" funid="4617">
+		<cache id="com.teamtop.system.openDaysSystem.otherDiscountStore.OtherDiscountStoreCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="4617">
+			<property cmdId="4771" methodName="buy" />
+		</cmd>
+	</bean>
+	<!-- 超值元宝返利(8~28)-->
+	<bean id="com.teamtop.system.openDaysSystem.otherOverCallbackYBSe.OtherOverCallbackYBSeCG" desc="超值元宝返利(8~28)" funid="4618">
+		<cache id="com.teamtop.system.openDaysSystem.otherOverCallbackYBSe.OtherOverCallbackYBSeCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="4618">
+			<property cmdId="4791" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!-- 超级点将(8~28)-->
+	<bean id="com.teamtop.system.openDaysSystem.otherHyperPointGeneralSys.OtherHyperPointGeneralSysCG" desc="超级点将(8~28)" funid="4524">
+		<cache id="com.teamtop.system.openDaysSystem.otherHyperPointGeneralSys.OtherHyperPointGeneralSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.openDaysSystem.otherHyperPointGeneralSys.OtherHyperPointGeneralSysEvent">	
+			<property method = "login"/>
+		</event> 
+		<cmd funid="4524">
+			<property cmdId="4811" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!-- 连续消费(8~28)-->
+	<bean id="com.teamtop.system.openDaysSystem.otherContinuousConsume.OtherContinuousConsumeCG" desc="连续消费(8~28)" funid="4620">
+		<cache id= "com.teamtop.system.openDaysSystem.otherContinuousConsume.OtherContinuousConsumeCache">	
+			<property method = "initExcel"/>
+		</cache>		 		
+		<cmd funid="4620">
+			<property cmdId="4831" methodName="getAwards" />
+			<property cmdId="4833" methodName="getAwardsSevenDay" />
+		</cmd>
+	</bean>
+	<!-- 活动-->
+	<bean id="com.teamtop.system.activity.ActivityCG" desc="活动" funid="0">
+		<cache id="com.teamtop.system.activity.ActivitySysCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.activity.ActivitySysEvent">		
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "zeroPub"/>
+			<property method = "logout"/>
+			<property method = "logoutSyncPub"/>
+			<property method = "passGuanqia" curGuanqia="all"/>
+			<property method = "levelUp" level="all" />
+			<property method = "fixTime" starttime="0000" time="g1_1"/>
+		</event>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+		<cmd>
+			<property cmdId="2251" methodName="openActivityUI" />
+			<property cmdId="2253" methodName="openAct" />
+			<property cmdId="2287" methodName="openActivityTime" />
+		</cmd>
+	</bean>
+	<!-- 登录豪礼活动-->
+	<bean id="com.teamtop.system.activity.ativitys.loginLuxuryGiftsNew.LoginLuxuryGiftsNewCG" desc="登录豪礼活动" funid="4510">
+		<cache id="com.teamtop.system.activity.ativitys.loginLuxuryGiftsNew.LoginLuxuryGiftsNewCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="4510">
+			<property cmdId="2871" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 登录豪礼系统-->
+	<bean id="com.teamtop.system.LoginLuxuryGifts.LoginLuxuryGiftsCG" desc="登录豪礼活动" funid="4509">
+		<cache id="com.teamtop.system.LoginLuxuryGifts.LoginLuxuryGiftsCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.LoginLuxuryGifts.LoginLuxuryGiftsSysEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "passGuanqia" funid="4509"/>
+		</event>
+		<cmd funid="4509">
+			<property cmdId="2891" methodName="openUI" />
+			<property cmdId="2893" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 吕布降临-->
+	<bean id="com.teamtop.system.lvBuRising.LvBuRisingCG" desc="吕布降临" funid="5501">
+		<cache id="com.teamtop.system.lvBuRising.LvBuRisingCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<event id= "com.teamtop.system.lvBuRising.LvBuRisingSysEvent">		
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "zeroPub"/>
+		</event> 
+		<cmd funid="5501">
+			<property cmdId="2711" methodName="openUI" />
+			<property cmdId="2713" methodName="getRankingList" />
+			<property cmdId="2715" methodName="getTargetReward" />
+		</cmd>
+	</bean>
+	<!-- 藏宝阁-->
+	<bean id="com.teamtop.system.hiddentreasure.HiddenTreasureCG" desc="藏宝阁" funid="5601">
+		<cache id="com.teamtop.system.hiddentreasure.HiddenTreasureCache">
+			<property method = "initExcel"/>
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<event id= "com.teamtop.system.hiddentreasure.HiddenTreasureSysEvent">		
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "zeroPub"/>
+		</event> 
+		<cmd funid="5601">
+			<property cmdId="2731" methodName="openUI" />
+			<property cmdId="2733" methodName="lottery" />
+		</cmd>
+	</bean>
+	<!-- 烽火狼烟-->
+	<bean id="com.teamtop.system.crossFireBeacon.CrossFireBeaconCG" desc="烽火狼烟" funid="3703">
+		<cache id="com.teamtop.system.crossFireBeacon.CrossFireBeaconSysCache">
+			<property method = "initExcel"/>
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<event id= "com.teamtop.system.crossFireBeacon.FrieBeaconLocalSysEvent">		
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "fixTime" time="d1958_1,d2000_2,d2030_3"/>
+		</event> 
+		<event id= "com.teamtop.system.crossFireBeacon.CrossFireBeaconSysEvent">		
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "fixTime" starttime="0920" endtime="2200" opweek="1,3,5" time="d1959_1,d2000_2,d2020_3,g1_4"/>
+		</event> 
+		<cmd funid="3703">
+			<property cmdId="3551" methodName="openUI" />
+			<property cmdId="3553" methodName="getPersonalRanking" />
+			<property cmdId="3555" methodName="getZoneRanking" />
+			<property cmdId="3557" methodName="enterMatch" />
+			<property cmdId="3559" methodName="showCityInfo" />
+			<property cmdId="3561" methodName="move" />
+			<property cmdId="3565" methodName="occupyCity" />
+			<property cmdId="3567" methodName="fightEnd" />
+			<property cmdId="3569" methodName="getScoreAward" />
+			<property cmdId="3571" methodName="getScoreAwardList" />
+			<property cmdId="3573" methodName="levy" />
+			<property cmdId="3575" methodName="leave" />
+			<property cmdId="3577" methodName="getMemberList" />
+			<property cmdId="3579" methodName="calculateScore" />
+			<property cmdId="3591" methodName="revive" />
+		</cmd>
+	</bean>
+	<!-- 活动大厅-->
+	<bean id="com.teamtop.system.actHall.ActHallCG" desc="活动大厅" funid="3701">
+		<cmd funid="3701">
+			<property cmdId="3751" methodName="openActHall" />
+		</cmd>
+	</bean>
+	<!-- 新战斗模式-->
+	<bean id="com.teamtop.system.battleNew.BattleNewCG" desc="新战斗模式">
+		<cmd>
+			<property cmdId="3861" methodName="useSkill" />
+			<property cmdId="3865" methodName="skillHit" />
+			<property cmdId="3869" methodName="testBattle" />
+			<property cmdId="3871" methodName="leave" />
+		</cmd>
+	</bean>
+	<!-- 尊享周卡-->
+	<bean id="com.teamtop.system.weekCard.WeekCardCG" desc="尊享周卡" funid="4205">
+		<event id= "com.teamtop.system.weekCard.WeekCardSysEvent">		
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		</event> 
+		<cmd>
+			<property cmdId="4551" methodName="openUI" />
+			<property cmdId="4553" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!-- 符文收集-->
+	<bean id="com.teamtop.system.openDaysSystem.runeCellect.RuneCellectCG" desc="符文收集" funid="6102">
+		<cache id="com.teamtop.system.openDaysSystem.runeGift.RuneGiftSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd>
+			<property cmdId="4591" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 符文鉴定-->
+	<bean id="com.teamtop.system.openDaysSystem.runeAppraise.RuneAppraiseCG" desc="符文鉴定" funid="6103">
+		<cmd>
+			<property cmdId="4611" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 圣兽降临-圣兽洗练-->
+	<bean id="com.teamtop.system.openDaysSystem.saintMonsterWash.SaintMonsterWashCG" desc="圣兽降临-圣兽洗练" funid="6404">
+		<cmd funid="6404">
+			<property cmdId="4951" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 圣兽降临-圣兽目标-->
+	<bean id="com.teamtop.system.openDaysSystem.saintMonsterGoal.SaintMonsterGoalCG" desc="圣兽降临-圣兽目标" funid="6405">
+		<cache id="com.teamtop.system.openDaysSystem.saintMonsterGoal.SaintMonsterGoalSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="6405">
+			<property cmdId="4971" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 圣兽降临-每日活跃-->
+	<bean id="com.teamtop.system.openDaysSystem.saintMonsterDailyActive.SaintMonsterDailyActiveCG" desc="圣兽降临-每日活跃" funid="6406">
+		<cache id="com.teamtop.system.openDaysSystem.saintMonsterDailyActive.SaintMonsterDailyActiveSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="6406">
+			<property cmdId="4991" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 圣兽降临-圣兽寻宝-->
+	<bean id="com.teamtop.system.openDaysSystem.saintMonsterTreasure.SaintMonsterTreasureCG" desc="圣兽降临-圣兽寻宝" funid="6402">
+		<cache id="com.teamtop.system.openDaysSystem.saintMonsterTreasure.SaintMonsterTreasureSysCache">
+			<property method = "initExcel"/>
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<cmd funid="6402">
+			<property cmdId="5011" methodName="rolling" />
+			<property cmdId="5013" methodName="getRankList" />
+			<property cmdId="5015" methodName="getGoalReward" />
+		</cmd>
+	</bean>
+	<!-- 圣兽降临-圣兽转盘-->
+	<bean id="com.teamtop.system.openDaysSystem.saintMonsterDial.SaintMonsterDialCG" desc="圣兽降临-圣兽转盘" funid="6403">
+		<cache id="com.teamtop.system.openDaysSystem.saintMonsterDial.SaintMonsterDialSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="6403">
+			<property cmdId="5031" methodName="turnDial" />
+		</cmd>
+	</bean>
+	<!-- 快速购买-->
+	<bean id="com.teamtop.system.quickBuy.QuickBuyCG" desc="快速购买" funid="6501">
+		<event id= "com.teamtop.system.quickBuy.QuickBuySysEvent">		
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		</event> 
+		<cmd funid="6501">
+			<property cmdId="5251" methodName="buy" />
+			<property cmdId="5253" methodName="openUI" />
+		</cmd>
+	</bean>
+	<!-- 防沉迷系统-->
+	<bean id="com.teamtop.system.antiAddictionSystem.AntiAddictionSystemCG" desc="防沉迷系统">
+		<event id= "com.teamtop.system.antiAddictionSystem.AntiAddictionSysEvent">		
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "logout"/>
+			<property method = "fixTime" starttime="0000" time="g1_1"/>
+		</event> 
+		<cmd>
+			
+		</cmd>
+	</bean>
+	<!-- 实名验证-->
+	<bean id="com.teamtop.system.trueName.TrueNameCG" desc="实名验证">
+		<event id= "com.teamtop.system.trueName.TrueNameSysEvent">		
+			<property method = "init"/>
+			<property method = "login"/>
+		</event> 
+		<cmd>
+			<property cmdId="5291" methodName="sendIdCard" />
+			<property cmdId="5293" methodName="trueName" />
+			<property cmdId="5295" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 圣兽寻宝（常驻）-->
+	<bean id="com.teamtop.system.saintMonsterTreasureSystem.SaintMonsterTreasureSystemCG" desc="圣兽寻宝（常驻）" funid="2004">
+		<event id= "com.teamtop.system.saintMonsterTreasureSystem.SaintMonsterTreasureSysEvent">
+			<property method = "init"/>
+			<property method = "login"/>			
+			<property method = "loginReset"/>			
+			<property method = "zeroHero"/>			
+			<property method = "zeroPub"/>			
+		</event>
+		<cache id="com.teamtop.system.saintMonsterTreasureSystem.SaintMonsterTreasureSystemSysCache">
+			<property method = "initExcel"/>
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<cmd funid="2004">
+			<property cmdId="5331" methodName="openUI" />
+			<property cmdId="5333" methodName="rolling" />
+			<property cmdId="5335" methodName="getRankList" />
+			<property cmdId="5337" methodName="getGoalReward" />
+		</cmd>
+	</bean>
+	<!-- 跨服试炼-->
+	<bean id="com.teamtop.system.crossTrial.CrossTrialCG" desc="跨服试炼" funid="3609">
+		<event id= "com.teamtop.system.crossTrial.CrossTrialSysEvent">
+			<property method = "init"/>
+			<property method = "login"/>			
+			<property method = "loginReset"/>	
+			<property method = "logout"/>		
+			<property method = "zeroHero"/>		
+			<property method = "zeroPub"/>		
+			<property method = "fixTime"  time="d0001_1"/>	
+		</event>
+		<cache id="com.teamtop.system.crossTrial.CrossTrialCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="3609">
+			<property cmdId="10471" methodName="openUI" />
+			<property cmdId="10473" methodName="challenge" />
+			<property cmdId="10475" methodName="fightEnd" />
+			<property cmdId="10477" methodName="selectBuff" />
+			<property cmdId="10479" methodName="getChest" />
+			<property cmdId="10481" methodName="nextFloor" />
+			<property cmdId="10483" methodName="mopUp" />
+		</cmd>
+	</bean>
+	<!-- 锻造-->
+	<bean id="com.teamtop.system.forge.ForgeCG" desc="锻造" funid="1201">
+		<event id= "com.teamtop.system.forge.ForgeEvent">
+			<property method = "init"/>
+			<property method = "login"/>			
+		</event>
+		<cmd funid="1201">
+		    <property cmdId="551" methodName="getForges" /> 
+			<property cmdId="553" methodName="strengthen" />
+			<property cmdId="571" methodName="oneKeyStre" /> 
+			<property cmdId="577" methodName="suitUpgrade" /> 
+		</cmd>		
+		<cmd funid="1202">
+		    <property cmdId="555" methodName="gem" /> 
+		    <property cmdId="557" methodName="chaiBaoShi" />
+		    <property cmdId="559" methodName="hechengbag" />
+		    <property cmdId="561" methodName="hecheng" /> 
+		    <property cmdId="563" methodName="oneKeyBao" />
+		    <property cmdId="575" methodName="oneKeyHeBao" />
+		</cmd>
+	    <cmd funid="1203">
+		    <property cmdId="565" methodName="upStar" />
+		    <property cmdId="579" methodName="perUpStar" />  
+		</cmd>
+		<cmd funid="1204">
+		    <property cmdId="567" methodName="zhuHun" />
+		    <property cmdId="569" methodName="shihun" />
+		    <property cmdId="573" methodName="oneKeyZhuHun" /> 
+		</cmd>
+		<cmd funid="4101">
+		    <property cmdId="583" methodName="lHDaShiLv" />
+		    <property cmdId="585" methodName="addLHDaShiLv" />
+		    <property cmdId="587" methodName="addLHLv" />
+		</cmd>		
+	</bean>			
+	
+	<!-- 排行榜-->
+	<bean id="com.teamtop.system.rankNew.RankingCG" desc="排行榜" funid="5008">
+		<event id= "com.teamtop.system.rankNew.RankingSysEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "levelUp" level="all" />
+			<property method = "zeroHero"/>
+			<property method = "zeroPub"/>
+			<property method = "fixTime" time="w10000_1,g10_2" />
+		</event>
+		<cache id="com.teamtop.system.rankNew.RankingCache">
+			<property method = "startServer"/>
+		</cache>
+		<cmd>
+			<property cmdId="1451" methodName="getRankList" />
+		</cmd>
+	</bean>
+	<!--武将-->
+	<bean id="com.teamtop.system.wujiang.WuJiangCG" desc="武将" funid="3101">
+		<event id= "com.teamtop.system.wujiang.WuJiangEvent">
+			<property method = "init"/>
+			<property method = "login"/>			
+		</event>
+		<cmd funid="3101">
+			<property cmdId="651" methodName="getWuJiang" />
+			<property cmdId="653" methodName="upWuJie" />
+			<property cmdId="655" methodName="jihuoSkill" />
+			<property cmdId="659" methodName="jihuowj" />
+			<property cmdId="661" methodName="upWJStar" />
+			<property cmdId="663" methodName="useDan" />
+			<property cmdId="665" methodName="wearWJEQ" />
+			<property cmdId="667" methodName="hechengJY" />
+			<property cmdId="669" methodName="upJY" />
+			<property cmdId="671" methodName="decompose" />
+			<property cmdId="673" methodName="changeJob" />
+			<property cmdId="675" methodName="wujiangStrUp" />
+			<property cmdId="677" methodName="getShenJiang" />
+			<property cmdId="679" methodName="shenJiangJiHuo" />
+			<property cmdId="681" methodName="upShenJiangLv" />
+			<property cmdId="683" methodName="upShenJiangTf" />
+			<property cmdId="685" methodName="generalSkillUp" />
+		</cmd>
+	</bean>
+	<!--战甲-->
+	<bean id="com.teamtop.system.zhanjia.ZhanJiaCG" desc="战甲" funid="3102">
+		<event id= "com.teamtop.system.zhanjia.ZhanJiaEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+		</event>
+		<cmd funid="3102">
+			<property cmdId="801" methodName="getZhanJiaUi" />
+			<property cmdId="803" methodName="upJie" />
+			<property cmdId="805" methodName="zhanjiastar" />
+			<property cmdId="807" methodName="upZJTZ" />
+			<property cmdId="809" methodName="jihuoSkill" />
+			<property cmdId="811" methodName="useDan" />
+			<property cmdId="813" methodName="changeZhanjia" />
+			<property cmdId="815" methodName="taozhuangs" />
+			<property cmdId="817" methodName="taozhuangsUp" />
+			<property cmdId="819" methodName="getJueXin" />
+			<property cmdId="821" methodName="upjuexing" />	
+		</cmd>
+	</bean>
+	<!--兵法-->
+	<bean id="com.teamtop.system.bingfa.BingFaCG" desc="兵法" funid="2801">
+		<event id= "com.teamtop.system.bingfa.BingFaEvent">
+			<property method = "init"/>
+		</event>
+		<cmd funid="2801">
+			<property cmdId="901" methodName="getbingfa" />
+			<property cmdId="903" methodName="upbingfa" />
+			<property cmdId="905" methodName="upBFtaozhuang" />
+			<property cmdId="907" methodName="eatDan" />
+	        <property cmdId="909" methodName="getinfobysys" />
+	        <property cmdId="911" methodName="upjiebysys" />	
+	        <property cmdId="913" methodName="upskills" />	        				
+		</cmd>
+	</bean>
+	<!--天书-->
+	<bean id="com.teamtop.system.godbook.GodBookCG" desc="天书" funid="2601">
+		<event id= "com.teamtop.system.godbook.GodBookEvent">
+			<property method = "init"/>
+		</event>
+		<cmd funid="2601">
+			<property cmdId="971" methodName="openUi" />
+			<property cmdId="973" methodName="charge" />
+			<property cmdId="975" methodName="upLevel" />
+			<property cmdId="977" methodName="upStar" />
+			<property cmdId="979" methodName="eatDan" />
+		</cmd>
+	</bean>
+	<!--异宝-->
+	<bean id="com.teamtop.system.specialTreasure.SpecialTreasureCG" desc="异宝" funid="3301">
+		<event id= "com.teamtop.system.specialTreasure.SpecialTreasureEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		</event>
+	    <cache id="com.teamtop.system.specialTreasure.SpecialTreasureCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="3301">
+			<property cmdId="1041" methodName="speTreasureUI" />
+			<property cmdId="1043" methodName="upStar" />
+			<property cmdId="1045" methodName="eatDan" />
+		</cmd>
+	</bean>
+	<!--每日任务-->
+	<bean id="com.teamtop.system.daytask.DayTaskCG" desc="每日任务" funid="4102">
+		<event id= "com.teamtop.system.daytask.DayTaskEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		</event>
+		<cmd funid="4102">
+			<property cmdId="1051" methodName="getDatTaskUI" />
+			<property cmdId="1053" methodName="getTaskReward" />
+			<property cmdId="1055" methodName="getActReward" />
+		</cmd>
+	</bean>
+	<!--铜雀台-->
+	<bean id="com.teamtop.system.peacockFloor.PeacockFloorCG" desc="铜雀台" funid="1702">
+		<event id= "com.teamtop.system.peacockFloor.PeacockFloorEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+		</event>
+		<cache id="com.teamtop.system.peacockFloor.PeacockFloorSysCache">
+		    <property method = "startServer"/>
+			<property method = "initExcel"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<cmd funid="1702">
+			<property cmdId="1221" methodName="openUi" />
+			<property cmdId="1223" methodName="getNum" />
+			<property cmdId="1225" methodName="getreward" />
+			<property cmdId="1227" methodName="upPower" />
+			<property cmdId="1229" methodName="beatBossWin" />
+		</cmd>
+	</bean>
+	<!--全民boss-->
+	<bean id="com.teamtop.system.boss.qmboss.QMBossHeroCG" desc="全民boss" funid="1803">
+		<event id= "com.teamtop.system.boss.qmboss.QMBossEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "logout"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "passGuanqia" funid="1803"/>
+		</event>
+		<cache id="com.teamtop.system.boss.qmboss.QMBossCache">
+		    <property method = "startServer"/>
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="1803">
+			<property cmdId="1351" methodName="openUi" />
+			<property cmdId="1353" methodName="inatt" />
+			<property cmdId="1359" methodName="quitQMboss" />
+			<property cmdId="1361" methodName="openRank" />
+			<property cmdId="1367" methodName="getDanJiRes" />
+			<property cmdId="1369" methodName="mopup" />
+		</cmd>
+	</bean>
+	<!--材料副本-->
+	<bean id="com.teamtop.system.materialFuben.MaterialFubenCG" desc="材料副本" funid="1703">
+		<event id= "com.teamtop.system.materialFuben.MaterialFubenEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "passGuanqia" funid="1703"/>
+		</event>
+		<cmd funid="1703">
+			<property cmdId="1431" methodName="showInfo" />
+			<property cmdId="1433" methodName="reqInGq" />
+			<property cmdId="1435" methodName="challenge" />
+			<property cmdId="1437" methodName="sweep" />
+			<property cmdId="1439" methodName="buyNum" />
+			<property cmdId="1441" methodName="oneKeyBuy" />
+		</cmd>
+	</bean>
+	<!--魔神吕布-->
+	<bean id="com.teamtop.system.boss.monsterGod.MonsterGodCG" desc="魔神吕布" funid="1805">
+		<event id= "com.teamtop.system.boss.monsterGod.MonsterGodEvent">
+			<property method = "login"/>
+			<property method = "logout"/>
+			<property method = "fixTime" time="d1230_1,d1300_0,d1830_1,d1900_0,d2130_1,d2200_0"/>
+		</event>
+		<cache id="com.teamtop.system.boss.monsterGod.MonsterGodSysCache">
+		    <property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<cmd funid="1805">
+			<property cmdId="1501" methodName="openRank" />
+			<property cmdId="1503" methodName="openUi" />
+			<property cmdId="1507" methodName="quitLvBuBoss" />
+			<property cmdId="1515" methodName="buyLive" />
+		    <property cmdId="1517" methodName="join" />
+		    <property cmdId="1519" methodName="cgherodie" />
+		    <property cmdId="1523" methodName="isaotufuhuo" />
+		</cmd>
+	</bean>		
+	<!--国家-->
+	<bean id="com.teamtop.system.country.CountryCG" desc="国家" funid="1501">
+		<event id= "com.teamtop.system.country.CountryEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "passGuanqia" funid="1502"/>
+		</event>
+		<cache id="com.teamtop.system.country.CountrySysCache">
+		    <property method = "startServer"/>
+		    <property method = "shutdownServer"/>
+		</cache>
+		<cmd funid="1501">
+			<property cmdId="1471" methodName="randomCountry" />
+			<property cmdId="1473" methodName="countryDonation" />
+			<property cmdId="1475" methodName="donation" />
+			<property cmdId="1477" methodName="selectCountry" />
+			<property cmdId="1479" methodName="openUI" />
+		</cmd>
+	</bean>
+	<!--过关斩将-->
+	<bean id="com.teamtop.system.runningMan.RunningManCG" desc="过关斩将" funid="1705">
+		<event id= "com.teamtop.system.runningMan.RunningManEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		</event>
+		<cache id="com.teamtop.system.runningMan.RunningManCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="1705">
+			<property cmdId="1551" methodName="openUi" />
+			<property cmdId="1553" methodName="battleType" />
+			<property cmdId="1555" methodName="getreward" />
+			<property cmdId="1557" methodName="oneKey" />
+		</cmd>
+	</bean>
+	<!-- 跨服  -->
+	<bean id="com.teamtop.cross.CrossCG" desc="跨服" funid="3601">
+		<cmd>
+			<property cmdId="1663" methodName="loginCross" paramConn="true"/>
+			<property cmdId="1667" methodName="crossHeart" />
+		</cmd>
+	</bean>
+	<!--跨服boss——七擒孟获-->
+	<bean id="com.teamtop.system.crossBoss.CrossBossCG" desc="跨服boss——七擒孟获" funid="1804">
+		<event id= "com.teamtop.system.crossBoss.CrossBossLocalEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "logout"/>
+		</event>
+		<cmd funid="1804">
+			<property cmdId="1701" methodName="openUi" />
+			<property cmdId="1703" methodName="openRank" />
+			<property cmdId="1705" methodName="buyLive" />
+			<property cmdId="1707" methodName="buyNum" />
+			<property cmdId="1709" methodName="join" />
+			<property cmdId="1711" methodName="exitCrossBoss" />
+			<property cmdId="1713" methodName="openBossRank" />
+			<property cmdId="1715" methodName="openRewards" />
+			<property cmdId="1717" methodName="getreward" />
+			<property cmdId="1719" methodName="buyAttPro" />
+			<property cmdId="1727" methodName="cgdie" />
+			<property cmdId="1729" methodName="isaotufuhuo" />
+		</cmd>
+	</bean>	
+	<!--王位之争-->
+	<!-- <bean id="com.teamtop.system.country.kingship.KingShipCG" desc="王位之争" funid="1504">
+		<event id= "com.teamtop.system.country.kingship.KingShipEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "logout"/>
+			<property method = "fixTime" time="d1000_1,d2200_2,d0000_3"/>
+			<property method = "passGuanqia" funid="1504"/>
+		</event>
+		<cache id="com.teamtop.system.country.kingship.KingShipCache">
+		    <property method = "startServer"/>
+		    <property method = "initExcel"/>
+		</cache>
+		<cmd funid="1504">
+			<property cmdId="1761" methodName="openUIKingShip" />
+			<property cmdId="1763" methodName="ownCountryChallenge" />
+			<property cmdId="1765" methodName="moBai" />
+			<property cmdId="1767" methodName="openKingShipGuardUI" />
+			<property cmdId="1769" methodName="assignGuard" />
+			<property cmdId="1771" methodName="buyCha" />
+			<property cmdId="1773" methodName="fightEnd" />
+			<property cmdId="1775" methodName="getBXAward" />
+		</cmd>
+	</bean> -->		
+	<!--功能开启-->
+	<bean id="com.teamtop.system.functionStart.FunctionStartCG" desc="功能开启" funid="3901">
+		<event id= "com.teamtop.system.functionStart.FunctionStartEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "zeroHero" />
+			<property method = "passGuanqia" curGuanqia="all" />
+			<property method = "levelUp" level="all" />
+		</event>
+		<cmd funid="3901">
+			<property cmdId="1801" methodName="openUI" />
+			<property cmdId="1803" methodName="getAwards" />
+		</cmd>
+	</bean>
+	<!--七日登录-->
+	<bean id="com.teamtop.system.sevenDayLogin.SevenDayLoginCG" desc="七日登录" funid="5005">
+		<event id= "com.teamtop.system.sevenDayLogin.SevenDayLoginEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "zeroHero" />
+			<property method = "loginReset" />
+			<property method = "passGuanqia" funid="5005"/>
+		</event>
+		<cmd funid="5005">
+			<property cmdId="1901" methodName="openUI" />
+			<property cmdId="1903" methodName="getAwards" />
+		</cmd>
+	</bean>
+	
+	<!--每日首充-->
+	<bean id="com.teamtop.system.activity.ativitys.dailyFirstRecharge.DailyFirstRechargeCG" desc="每日首充" funid="5006">
+		<cmd funid="5006">
+			<property cmdId="1931" methodName="getBaoxiangAwards" />
+			<property cmdId="1933" methodName="getAwards" />
+		</cmd>
+	</bean>
+	<!--首充-->
+	<bean id="com.teamtop.system.firstRechargeNew.FirstRechargeNewCG" desc="首充" funid="5602">
+		<event id= "com.teamtop.system.firstRechargeNew.FirstRechargeNewEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "passGuanqia" curGuanqia="13_18_26" />
+		</event>
+		<cmd funid="5602">
+			<property cmdId="2751" methodName="openUI" />
+			<property cmdId="2753" methodName="getReward" />
+			<property cmdId="2757" methodName="closeUI" />
+		</cmd>
+	</bean>
+	
+	<!--隆中对-->
+	<bean id="com.teamtop.system.longZhongDui.LongZhongDuiCG" desc="隆中对" funid="3702">
+		<event id= "com.teamtop.system.longZhongDui.LongZhongDuiEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "loginReset" />
+			<property method = "zeroHero" />
+			<property method = "zeroPub" />
+			<property method = "fixTime" time="d1200_1,d2200_2" />
+			<property method = "passGuanqia" funid="3702"/>
+		</event>
+		<cache id="com.teamtop.system.longZhongDui.LongZhongDuiSysCache">
+		    <property method = "startServer"/>
+		    <property method = "shutdownServer"/>
+		</cache>
+		<cmd funid="3702">
+			<property cmdId="1981" methodName="openAnswerUI" />
+			<property cmdId="1983" methodName="putAnswer" />
+			<property cmdId="1985" methodName="answerRank" />
+			<property cmdId="1987" methodName="startAnswer" />
+		</cmd>
+	</bean>
+	
+	<!--乱世枭雄（跨服最强王者）-->
+	<bean id="com.teamtop.system.crossKing.local.CrossKingCG" desc="乱世枭雄" funid="3602">
+		<event id= "com.teamtop.system.crossKing.local.CrossKingLocalEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		</event>
+		<cmd>
+			<property cmdId="1861" methodName="openUi" />
+			<property cmdId="1863" methodName="buyTimes" />
+			<property cmdId="1865" methodName="challenge" />
+			<property cmdId="1869" methodName="getBattleReward" />
+			<property cmdId="1871" methodName="getJingJi" />
+			<property cmdId="1873" methodName="changeRanks" />
+			<property cmdId="1875" methodName="openRanks" />
+			<property cmdId="1877" methodName="openHis" />
+			<property cmdId="1879" methodName="openRewards" />
+			<property cmdId="1881" methodName="getjfreward" />
+			<property cmdId="1883" methodName="openShop" />
+			<property cmdId="1885" methodName="buyItem" />
+			<property cmdId="1889" methodName="openbao" />	
+			<property cmdId="1893" methodName="mopUpHandle" />		
+		</cmd>
+	</bean>
+	
+	<!--宝库-->
+	<bean id="com.teamtop.system.treasury.TreasuryCG" desc="宝库" funid="3801">
+		<event id= "com.teamtop.system.treasury.TreasuryEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "loginReset" />
+			<property method = "zeroHero" />
+		</event>
+		<cache id="com.teamtop.system.treasury.TreasuryCache">
+		    <property method = "startServer"/>
+		    <property method = "initExcel"/>
+		</cache>
+		<cmd funid="3801">
+			<property cmdId="2041" methodName="openUI" />
+			<property cmdId="2043" methodName="exchange" />
+		</cmd>
+	</bean>
+	
+	<!--聚宝盆-->
+	<bean id="com.teamtop.system.collectTreasury.CollectTreasuryCG" desc="聚宝盆" funid="5002">
+		<event id= "com.teamtop.system.collectTreasury.CollectTreasuryEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "loginReset" />
+			<property method = "zeroHero" />
+			<property method = "passGuanqia" curGuanqia="all" />
+			<property method = "levelUp" level="gap" startLevel="10" endLevel="600" gapLevel="10"/>
+		</event>
+		<cmd funid="5002">
+			<property cmdId="2081" methodName="openUI" />
+			<property cmdId="2083" methodName="buyGiftBag" />
+			<property cmdId="2085" methodName="getAwards" />
+		</cmd>
+	</bean>
+	<!--签到-->
+	<bean id="com.teamtop.system.signIn.SignInCG" desc="签到" funid="4202">
+		<event id= "com.teamtop.system.signIn.SignInEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "loginReset" />
+			<property method = "zeroHero" />
+			<property method = "passGuanqia" funid="4202"/>
+		</event>
+		<cache id="com.teamtop.system.signIn.SignInCache">
+		    <property method = "initExcel"/>
+		</cache>
+		<cmd funid="4202">
+			<property cmdId="2151" methodName="openUI" />
+			<property cmdId="2153" methodName="signIn" />
+			<property cmdId="2155" methodName="repairSign" />
+			<property cmdId="2157" methodName="getBaoxiangAwards" />
+		</cmd>
+	</bean>
+	<!--枭雄争霸-->
+	<bean id="com.teamtop.system.crossSelectKing.local.CrossSelectKingCG" desc="枭雄争霸" funid="3603">
+		<cache id="com.teamtop.system.crossSelectKing.local.CrossSelectKingLocalCache">
+		    <property method = "startServer"/>
+		    <property method = "shutdownServer"/>
+		</cache>	
+		<event id= "com.teamtop.system.crossSelectKing.local.CrossSelectKingLocalEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "loginReset" />
+			<property method = "zeroHero" />
+		</event>
+		<cmd funid="3603">
+			<property cmdId="2101" methodName="openUi" />
+			<property cmdId="2103" methodName="buyWin" />
+			<property cmdId="2105" methodName="lookBattle" />
+			<property cmdId="2109" methodName="openWiners" />
+			<property cmdId="2111" methodName="mobai" />
+			<property cmdId="2113" methodName="getFrist" />
+		</cmd>
+	</bean>
+	<!--激活码-->
+	<bean id="com.teamtop.system.cdkey.CDkeyCG" desc="激活码" funid="4203">
+		<event id= "com.teamtop.system.cdkey.CDkeyEvent">
+			<property method = "init" />
+			<property method = "login" />
+		</event>
+		<cmd funid="4203">
+			<property cmdId="2211" methodName="getCDkeyAward" />
+		</cmd>
+	</bean>
+	
+	<!--七日武圣榜-->
+	<bean id="com.teamtop.system.sevenWuShenRank.SevenWuShenRankCG" desc="七日武圣榜" funid="4901">
+		<event id= "com.teamtop.system.sevenWuShenRank.SevenWuShenRankEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "zeroPub" />
+		</event>
+		<cache id="com.teamtop.system.sevenWuShenRank.SevenWuShenRankCache">
+		    <property method = "startServer"/>
+		    <property method = "initExcel"/>
+		    <property method = "shutdownServer"/>
+		</cache>		
+		<cmd funid="4901">
+			<property cmdId="2301" methodName="openUi"/>
+			<property cmdId="2303" methodName="getreward"/>
+		</cmd>
+	</bean>
+	<!--开服狂欢-->
+	<bean id="com.teamtop.system.sevenHappy.SevenHappyCG" desc="开服狂欢" funid="5101">
+		<event id= "com.teamtop.system.sevenHappy.SevenHappyEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		    <property method = "levelUp" level="all"/>
+		</event>
+		<cache id="com.teamtop.system.sevenHappy.SevenHappyCache">
+		    <property method = "startServer"/>
+		    <property method = "initExcel"/>
+		    <property method = "shutdownServer"/>
+		</cache>		
+		<cmd funid="5101">
+			<property cmdId="2331" methodName="openUi"/>
+			<property cmdId="2333" methodName="getReward"/>
+			<property cmdId="2335" methodName="newOpenUI"/>
+			<property cmdId="2337" methodName="newGetAward"/>
+		</cmd>
+	</bean>			
+	
+	<!--玲珑阁-->
+	<bean id="com.teamtop.system.linglongge.LingLongGeCG" desc="玲珑阁" funid="4801">
+		<event id= "com.teamtop.system.linglongge.LingLongGeEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "loginReset" />
+			<property method = "zeroHero" />
+			<property method = "zeroPub" />
+		</event>
+		<cache id="com.teamtop.system.linglongge.LingLongGeSysCache">
+		    <property method = "startServer"/>
+		    <property method = "initExcel"/>
+		    <property method = "shutdownServer"/>
+		</cache>		
+		<cmd funid="4801">
+			<property cmdId="2221" methodName="openUI"/>
+			<property cmdId="2223" methodName="buy"/>
+			<property cmdId="2225" methodName="rankUI"/>
+			<property cmdId="2227" methodName="getScoreBXAward"/>
+			<property cmdId="2233" methodName="openLastRankUI"/>
+			<property cmdId="2235" methodName="openLastZoneidRankUI"/>
+		</cmd>
+	</bean>	
+	
+	<!--活动预告-->
+	<bean id="com.teamtop.system.activityNotice.ActivityNoticeCG" desc="活动预告" funid="4001">
+		<event id= "com.teamtop.system.activityNotice.ActivityNoticeEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "zeroPub" />
+			<property method = "fixTime" starttime="0000" time="g1_1"/>
+			<property method = "levelUp" level="all" />
+			<property method = "passGuanqia" curGuanqia="all" />
+		</event>
+		<cache id="com.teamtop.system.activityNotice.ActivityNoticeCache">
+		    <property method = "initExcel"/>
+		</cache>
+	</bean>	
+	<!--单笔充值-->
+	<bean id="com.teamtop.system.activity.ativitys.oneRecharge.OneRechargeCG" desc="单笔充值" funid="4503">
+		<cmd funid="4503">
+			<property cmdId="2361" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!--累计充值(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.totalRecharge.TotalRechargeCG" desc="累计充值(活动)" funid="4504">
+	    <cache id="com.teamtop.system.activity.ativitys.totalRecharge.TotalRechargeSysCache">
+		    <property method = "initExcel"/>
+		</cache>
+	    <event id= "com.teamtop.system.activity.ativitys.totalRecharge.TotalRechargeEvent">
+			<property method = "login" />
+		</event>
+		<cmd funid="4504">
+			<property cmdId="2471" methodName="openUI"/>
+			<property cmdId="2473" methodName="getreward"/>
+		</cmd>
+	</bean>		
+	<!--超值材料返利-->
+	<bean id="com.teamtop.system.activity.ativitys.overCallbackCL.OverCallbackCLCG" desc="超值材料返利(活动)" funid="4610">
+		<cache id="com.teamtop.system.activity.ativitys.overCallbackCL.OverCallbackCLCache">
+		    <property method = "initExcel"/>
+		</cache>		
+		<cmd funid="4610">
+			<property cmdId="2431" methodName="getAward"/>
+		</cmd>
+	</bean>
+	<!--超值材料返利系统-->
+	<bean id="com.teamtop.system.overCallbackCLSe.OverCallbackCLSeCG" desc="超值材料返利" funid="4609">
+		<cache id="com.teamtop.system.overCallbackCLSe.OverCallbackCLSeCache">
+		    <property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.overCallbackCLSe.OverCallbackCLSeEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "loginReset" />
+			<property method = "zeroHero" />
+			<property method = "passGuanqia" funid="4609"/>
+		</event>		
+		<cmd funid="4609">
+			<property cmdId="2951" methodName="openUI"/>
+			<property cmdId="2953" methodName="getAward"/>
+		</cmd>
+	</bean>
+	
+	<!--超值元宝返利-->
+	<bean id="com.teamtop.system.activity.ativitys.overCallbackYB.OverCallbackYBCG" desc="超值元宝返利(活动)" funid="4612">
+		<cache id="com.teamtop.system.activity.ativitys.overCallbackYB.OverCallbackYBCache">
+		    <property method = "initExcel"/>
+		</cache>		
+		<cmd funid="4612">
+			<property cmdId="2451" methodName="getAward"/>
+		</cmd>
+	</bean>
+	
+	<!--超值元宝返利系统-->
+	<bean id="com.teamtop.system.overCallbackYBSe.OverCallbackYBSeCG" desc="超值元宝返利" funid="4611">
+		<cache id="com.teamtop.system.overCallbackYBSe.OverCallbackYBSeCache">
+		    <property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.overCallbackYBSe.OverCallbackYBSeEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "loginReset" />
+			<property method = "zeroHero" />
+			<property method = "passGuanqia" funid="4611"/>
+		</event>		
+		<cmd funid="4611">
+			<property cmdId="3031" methodName="openUI"/>
+			<property cmdId="3033" methodName="getAward"/>
+		</cmd>
+	</bean>
+	
+	<!--超值转盘返利-->
+	<bean id="com.teamtop.system.activity.ativitys.overTurntable.OverTurntableCG" desc="超值转盘返利" funid="4604">
+		<cache id="com.teamtop.system.activity.ativitys.overTurntable.OverTurntableSysCache">
+		    <property method = "startServer"/>
+		    <property method = "initExcel"/>
+		    <property method = "shutdownServer"/>
+		</cache>		
+		<cmd funid="4604">
+			<property cmdId="2501" methodName="randAward"/>
+			<property cmdId="2503" methodName="getBXAward"/>
+		</cmd>
+	</bean>
+	<!--单日充值（活动）-->
+	<bean id="com.teamtop.system.activity.ativitys.onedayRecharge.OnedayRechargeCG" desc="单日充值" funid="4505">
+		<cache id="com.teamtop.system.activity.ativitys.onedayRecharge.OnedayRechargeCache">
+		    <property method = "initExcel"/>
+		</cache>		
+		<cmd funid="4505">
+			<property cmdId="2521" methodName="openUI"/>
+			<property cmdId="2523" methodName="getreward"/>
+		</cmd>
+	</bean>	
+	<!--任务-->
+	<bean id="com.teamtop.system.task.TaskUserCG" desc="任务" funid="5301">
+	    <event id= "com.teamtop.system.task.TaskUserEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "passGuanqia" curGuanqia="all" />
+		</event>
+		<cmd funid="5301">
+			<property cmdId="2551" methodName="getreward"/>
+			<property cmdId="2553" methodName="specialtask"/>
+		</cmd>
+	</bean>
+	<!-- 全民狂欢-全民BOSS-->
+	<bean id="com.teamtop.system.activity.ativitys.happyQMboss.HappyQMbossCG" desc="全民狂欢-全民BOSS" funid="5202">
+	    <event id= "com.teamtop.system.activity.ativitys.happyQMboss.HappyQMbossEvent">
+			<property method = "login" />
+		</event>
+		<cmd funid="5202">
+			<property cmdId="2571" methodName="openUI"/>
+			<property cmdId="2573" methodName="getreward"/>
+		</cmd>
+	</bean>	
+	<!-- 全民狂欢-乱世枭雄-->
+	<bean id="com.teamtop.system.activity.ativitys.happyCrossKing.HappyCrossKingCG" desc="全民狂欢-乱世枭雄" funid="5203">
+	    <event id= "com.teamtop.system.activity.ativitys.happyCrossKing.HappyCrossKingEvent">
+			<property method = "login" />
+		</event>
+		<cmd funid="5203">
+			<property cmdId="2581" methodName="openUI"/>
+			<property cmdId="2583" methodName="getreward"/>
+		</cmd>
+	</bean>
+	<!-- 全民狂欢-魔神吕布-->
+	<bean id="com.teamtop.system.activity.ativitys.happyMonsterGod.HappyMonsterGodCG" desc="全民狂欢-魔神吕布" funid="5204">
+	    <event id= "com.teamtop.system.activity.ativitys.happyMonsterGod.HappyMonsterGodEvent">
+			<property method = "login" />
+		</event>
+		<cmd funid="5204">
+			<property cmdId="2591" methodName="openUI"/>
+			<property cmdId="2593" methodName="getreward"/>
+		</cmd>
+	</bean>
+	<!-- 全民狂欢-单刀赴会-->
+	<bean id="com.teamtop.system.activity.ativitys.happySoloRun.HappySoloRunCG" desc="全民狂欢-魔神吕布" funid="5205">
+	    <event id= "com.teamtop.system.activity.ativitys.happySoloRun.HappySoloRunEvent">
+			<property method = "login" />
+		</event>
+		<cmd funid="5205">
+			<property cmdId="2601" methodName="openUI"/>
+			<property cmdId="2603" methodName="getreward"/>
+		</cmd>
+	</bean>	
+	<!--超级点将(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.hyperPointGeneral.HyperPointGeneralCG" desc="超级点将(活动)" funid="4506">
+		<cache id="com.teamtop.system.activity.ativitys.hyperPointGeneral.HyperPointGeneralCache">
+		    <property method = "initExcel"/>
+		</cache>
+		<cmd funid="4506">
+			<property cmdId="2611" methodName="getAward"/>
+		</cmd>
+	</bean>	
+	<!--折扣商店-->
+	<bean id="com.teamtop.system.discountStore.DiscountStoreCG" desc="折扣商店" funid="4605">
+		<event id= "com.teamtop.system.discountStore.DiscountStoreEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "loginReset" />
+			<property method = "zeroHero" />
+			<property method = "passGuanqia" funid="4605"/>
+		</event>
+		<cache id="com.teamtop.system.discountStore.DiscountStoreCache">
+		    <property method = "initExcel"/>
+		</cache>		
+		<cmd funid="4605">
+			<property cmdId="2631" methodName="openUI"/>
+			<property cmdId="2633" methodName="buy"/>
+		</cmd>
+	</bean>
+	<!--合成--> 
+	<bean id="com.teamtop.system.compound.CompoundCG" desc="合成" funid="1303">
+		<event id="com.teamtop.system.compound.CompoundEvent">
+			<property method = "login"/>
+		</event>
+		<cmd>
+			<property cmdId="2651" methodName="heceng"  />
+		</cmd>		
+	</bean>
+	<!--分解--> 
+	<bean id="com.teamtop.system.decompound.DecompoundCG" desc="分解" funid="1304">
+		<event id="com.teamtop.system.decompound.DecompoundEvent">
+			<property method = "login"/>
+		</event>
+		<cmd>
+			<property cmdId="2681" methodName="fejie"/>
+			<property cmdId="2683" methodName="onekeyfenjie"/>
+		</cmd>		
+	</bean>
+	<!--分享--> 
+	<bean id="com.teamtop.system.showReward.ShowRewardCG" desc="分享" funid="5401">
+		<event id="com.teamtop.system.showReward.ShowRewardEvent">
+			<property method = "init" />
+			<property method = "login"/>
+		</event>
+		<cmd>
+			<property cmdId="2701" methodName="getreward"  />
+		</cmd>		
+	</bean>	
+	<!--七日连续累充--> 
+	<bean id="com.teamtop.system.sevenAwayRecharge.SevenAwayRechargeCG" desc="七日连续累充" funid="4507">
+		<event id="com.teamtop.system.sevenAwayRecharge.SevenAwayRechargeEvent">
+			<property method = "init" />
+			<property method = "login"/>
+			<property method = "loginReset" />
+			<property method = "zeroHero" />
+		</event>
+		<cmd funid="4507">
+			<property cmdId="2771" methodName="openUi"  />
+			<property cmdId="2773" methodName="getreward"  />		
+			<property cmdId="2777" methodName="gettodayRew"  />	
+		</cmd>		
+	</bean>
+	<!--活动七日连续累充-->
+	<bean id="com.teamtop.system.activity.ativitys.awayRecharge.AwayRechargeCG" desc="活动七日连续累充" funid="4508">
+		<cmd funid="4508">
+			<property cmdId="2781" methodName="openUI" />
+			<property cmdId="2783" methodName="getreward"  />
+			<property cmdId="2787" methodName="gettodayRew"  />				
+		</cmd>
+	</bean>
+	<!--开服7日血战到底--> 
+	<bean id="com.teamtop.system.sevenFightToLast.SevenFightToLastCG" desc="开服7日血战到底" funid="4606">
+		<event id="com.teamtop.system.sevenFightToLast.SevenFightToLastEvent">
+			<property method = "init" />
+		    <property method = "login"/>
+		</event>
+		<cmd funid="4606">
+			<property cmdId="2801" methodName="openUi"  />
+			<property cmdId="2803" methodName="battle"  />
+			<property cmdId="2805" methodName="getreward"  />
+		</cmd>		
+	</bean>		
+	<!--活动血战到底--> 
+	<bean id="com.teamtop.system.activity.ativitys.actSevenFightToLast.ActSevenFightToLastCG" desc="开服7日血战到底" funid="4607">
+		<cmd funid="4607">
+			<property cmdId="2831" methodName="openUI"  />
+			<property cmdId="2833" methodName="battle"  />
+			<property cmdId="2835" methodName="getWinReward"  />
+		</cmd>		
+	</bean>
+	<!-- 7日首冲团购--> 
+	<bean id="com.teamtop.system.sevenGroupBuy.SevenGroupBuyCG" desc="7日首冲团购" funid="4608">
+		<cache id="com.teamtop.system.sevenGroupBuy.SevenGroupBuyCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		    <property method = "initExcel"/>
+		</cache>
+		<event id="com.teamtop.system.sevenGroupBuy.SevenGroupBuyEvent">
+			<property method = "init" />
+		    <property method = "login"/>
+		    <property method = "loginReset" />
+			<property method = "zeroHero" />
+			<property method = "zeroPub" />
+		</event>
+		<cmd funid="4608">
+			<property cmdId="2851" methodName="getreward"  />
+		</cmd>		
+	</bean>
+	<!-- 7日单日累充--> 
+	<bean id="com.teamtop.system.sevenDayRecharge.SevenDayRechargeCG" desc="7日单日累充" funid="4513">
+		<cache id="com.teamtop.system.sevenDayRecharge.SevenDayRechargeCache">
+		    <property method = "initExcel"/>
+		</cache>
+		<event id="com.teamtop.system.sevenDayRecharge.SevenDayRechargeEvent">
+			<property method = "init" />
+		    <property method = "login"/>
+		    <property method = "loginReset" />
+			<property method = "zeroHero" />
+		</event>
+		<cmd funid="4513">
+			<property cmdId="2911" methodName="openUi"/>
+			<property cmdId="2913" methodName="getreward"/>
+		</cmd>		
+	</bean>
+	<!--新单日累充（活动）-->
+	<bean id="com.teamtop.system.activity.ativitys.newDayRecharge.NewDayRechargeCG" desc="新单日累充" funid="4514">
+		<cache id="com.teamtop.system.activity.ativitys.newDayRecharge.NewDayRechargeCache">
+		    <property method = "initExcel"/>
+		</cache>		
+		<cmd funid="4514">
+			<property cmdId="2931" methodName="openUI"/>
+			<property cmdId="2933" methodName="getreward"/>
+		</cmd>
+	</bean>
+	<!--7日新单笔累充-->
+	<bean id="com.teamtop.system.sevenOneRecharge.SevenOneRechargeCG" desc="7日新单笔累充" funid="4511">
+		<cache id="com.teamtop.system.sevenOneRecharge.SevenOneRechargeCache">
+		    <property method = "initExcel"/>
+		</cache>
+	    <event id="com.teamtop.system.sevenOneRecharge.SevenOneRechargeEvent">
+			<property method = "init" />
+		    <property method = "login"/>
+		    <property method = "loginReset" />
+			<property method = "zeroHero" />		    
+		</event>
+		<cmd funid="4511">
+			<property cmdId="2971" methodName="openUI"/>
+			<property cmdId="2973" methodName="getreward"/>
+		</cmd>
+	</bean>
+	<!--新单笔累充（活动）-->
+	<bean id="com.teamtop.system.activity.ativitys.newOneRecharge.NewOneReChargeCG" desc="新单笔累充" funid="4512">
+		<cache id="com.teamtop.system.activity.ativitys.newOneRecharge.NewOneReChargeCache">
+		    <property method = "initExcel"/>
+		</cache>		
+		<cmd funid="4512">
+			<property cmdId="3001" methodName="openUI"/>
+			<property cmdId="3003" methodName="getreward"/>
+		</cmd>
+	</bean>																
+	<!--连续消费（7天）-->
+	<bean id="com.teamtop.system.sevenContinuousConsume.SevenContinuousConsumeCG" desc="连续充值（7天）" funid="4613">
+		<cmd funid="4613">
+			<property cmdId="3051" methodName="openUI"/>
+			<property cmdId="3053" methodName="getAwards"/>
+			<property cmdId="3055" methodName="getAwardsSevenDay"/>
+		</cmd>
+		<event id="com.teamtop.system.sevenContinuousConsume.SevenContinuousConsumeEvent">
+			<property method = "init" />
+		    <property method = "login"/>
+		    <property method = "loginReset" />
+			<property method = "zeroHero" />		    
+		</event>
+	</bean>
+	<!--连续消费-->
+	<bean id="com.teamtop.system.activity.ativitys.continuousConsume.ContinuousConsumeCG" desc="连续充值" funid="4614">
+		<cmd funid="4614">
+			<property cmdId="3071" methodName="openUI"/>
+			<property cmdId="3073" methodName="getAwards"/>
+			<property cmdId="3075" methodName="getAwardsSevenDay"/>
+		</cmd>
+	</bean>	
+	<!--国家boss-->
+	<bean id="com.teamtop.system.boss.countryBoss.CountryBossCG" desc="国家boss" funid="1505">
+		<cache id="com.teamtop.system.boss.countryBoss.CountryBossSysCache">
+		    <property method = "startServer"/>
+		    <property method = "shutdownServer"/>
+		</cache>
+		<cmd funid="1505">
+			<property cmdId="3201" methodName="openUi"/>
+			<property cmdId="3203" methodName="inbattle"/>
+			<property cmdId="3207" methodName="quit"/>
+			<property cmdId="3213" methodName="buyTime"/>
+			<property cmdId="3215" methodName="getReward"/>
+			<property cmdId="3217" methodName="openrank"/>
+			<property cmdId="3219" methodName="countryrank"/>
+		</cmd>
+		<event id="com.teamtop.system.boss.countryBoss.CountryBossEvent">
+			<property method = "init" />
+		    <property method = "login"/>
+		    <property method = "logout"/>
+		    <property method = "zeroPub"/>	
+		    <property method = "loginReset" />
+			<property method = "zeroHero" />
+		</event>
+	</bean>
+	<!--武将时装-->
+	<bean id="com.teamtop.system.fashionClothes.FashionClothesCG" desc="武将时装" funid="3108">
+		<event id= "com.teamtop.system.fashionClothes.FashionClothesEvent">
+			<property method = "init"/>
+		</event>
+		<cmd funid="3108">
+			<property cmdId="3501" methodName="openUi" />
+			<property cmdId="3503" methodName="upfashion" />
+			<property cmdId="3505" methodName="wearFashion" />
+			<property cmdId="3507" methodName="init" />
+			<property cmdId="3509" methodName="getall" />
+		</cmd>
+	</bean>	
+	<!--跨服组队-->																
+	<bean id="com.teamtop.system.crossTeamFuBen.CrossTeamFubenCG" desc="跨服组队" funid="3604">
+		<event id= "com.teamtop.system.crossTeamFuBen.CrossTeamFubenEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		</event>
+		<cmd funid="3604">
+			<property cmdId="3401" methodName="openUI" />
+			<property cmdId="3403" methodName="autoJoin" />
+			<property cmdId="3405" methodName="removeMenber" />
+			<property cmdId="3407" methodName="battle" />
+			<property cmdId="3409" methodName="leave" />
+			<property cmdId="3411" methodName="joinByTeamID" />
+			<property cmdId="3413" methodName="addMember" />
+			<property cmdId="3419" methodName="leaveBattle" />
+			<property cmdId="3421" methodName="loginCross" />
+			<property cmdId="3425" methodName="awardsState" />
+		</cmd>
+	</bean>	
+	<!--每日直购(开服七天系统)-->
+	<bean id="com.teamtop.system.dailyDirectBuy.DailyDirectBuyCG" desc="每日直购(开服七天系统)" funid="5009">
+		<event id= "com.teamtop.system.dailyDirectBuy.DailyDirectBuyEvent">
+			<property method = "init" />
+		    <property method = "login"/>
+		    <property method = "zeroHero" />	
+		    <property method = "loginReset" />
+		</event>
+		<cache id="com.teamtop.system.dailyDirectBuy.DailyDirectBuyCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="5009">
+			<property cmdId="3701" methodName="openUI" />
+			<property cmdId="3703" methodName="getAward" />
+			<property cmdId="3707" methodName="getTargetAward" />
+		</cmd>
+	</bean>																
+	<!--每日直购(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.dailyDirectBuy.DailyDirectBuyActCG" desc="每日直购(活动)" funid="5010">
+		<cache id="com.teamtop.system.activity.ativitys.dailyDirectBuy.DailyDirectBuyActCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="5010">
+			<property cmdId="3721" methodName="getAward" />
+			<property cmdId="3725" methodName="getTargetAward" />
+		</cmd>
+	</bean>																
+	<!--直升一阶丹-->
+	<bean id="com.teamtop.system.directUp.DirectUPCG" desc="直升一阶丹" funid="0">
+		<cache id="com.teamtop.system.directUp.DirectUPCache">
+			<property method = "startServer"/>
+		</cache>
+		<cmd>
+			<property cmdId="3741" methodName="directUp" />
+		</cmd>
+	</bean>		
+	<!--升阶秘境-->																
+	<bean id="com.teamtop.system.crossSJMiJing.CrossSJMiJingCG" desc="升阶秘境" funid="3605">
+		<event id= "com.teamtop.system.crossSJMiJing.CrossSJMiJingEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		</event>
+		<cache id="com.teamtop.system.crossSJMiJing.CrossSJMiJingCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="3604">
+			<property cmdId="3761" methodName="openUI" />
+			<property cmdId="3763" methodName="getMiJingTeamData" />
+			<property cmdId="3765" methodName="buildTeam" />
+			<property cmdId="3767" methodName="removeMember" />
+			<property cmdId="3769" methodName="broadCast" />
+			<property cmdId="3771" methodName="leave" />
+			<property cmdId="3773" methodName="joinByTeamID" />
+			<property cmdId="3775" methodName="battle" />
+			<property cmdId="3777" methodName="loginCross" />
+			<property cmdId="3785" methodName="leaveBattle" />
+			<property cmdId="3787" methodName="saoDang" />
+			<property cmdId="3789" methodName="buyBox" />
+		</cmd>
+	</bean>															
+	<!--宝物现世-->
+	<bean id="com.teamtop.system.baoWuXianShi.BaoWuXianShiCG" desc="宝物现世" funid="5603">
+		<cache id="com.teamtop.system.baoWuXianShi.BaoWuXianShiCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.baoWuXianShi.BaoWuXianShiEvent">
+			<property method = "init" />
+		    <property method = "login"/>
+		    <property method = "zeroHero" />	
+		    <property method = "loginReset" />
+		    <property method = "levelUp" funid="5603"/>
+		</event>
+		<cmd>
+			<property cmdId="4001" methodName="getAwards" />
+		</cmd>
+	</bean>
+	<!--活动预览-->
+	<bean id="com.teamtop.system.activitysView.ActivitysViewCG" desc="活动预览" funid="4105">
+		<event id= "com.teamtop.system.commonData.CommonDataEvent">
+			<property method = "init" />
+		</event>
+		<event id= "com.teamtop.system.activitysView.ActivitysViewEvent">
+			<property method = "login"/>
+		    <property method = "zeroHero" />	
+		    <property method = "loginReset" />
+		    <property method = "levelUp" funid="4105"/>
+		</event>
+		<cmd>
+			<property cmdId="4051" methodName="getAward" />
+			<property cmdId="4055" methodName="getappreward" />
+		</cmd>
+	</bean>
+	
+	
+	<!--三国盛典-基金-->
+	<bean id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.celebrationJiJin.CelebrationJiJinCG" desc="三国盛典-基金" funid="5704">
+		<event id= "com.teamtop.system.activity.ativitys.threeKingdomsCelebration.celebrationJiJin.CelebrationJiJinEvent">
+			<property method = "login"/>
+		    <property method = "zeroHero" />	
+		</event>
+		<cmd>
+			<property cmdId="4081" methodName="openUI"/>
+			<property cmdId="4083" methodName="getAwards"/>
+		</cmd>
+	</bean>														
+	<!--三国盛典-豪礼兑换-->
+	<bean id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.celebrationHaoLiDuiHuan.CelebrationHaoLiDuiHuanCG" desc="三国盛典-豪礼兑换" funid="5703">
+		<cmd>
+			<property cmdId="4101" methodName="openUI"/>
+			<property cmdId="4103" methodName="duiHuan"/>
+		</cmd>
+	</bean>														
+	<!--三国盛典-豪礼转盘-->
+	<bean id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.celebrationHaoLiZhuanPan.CelebrationHaoLiZhuanPanCG" desc="三国盛典-豪礼转盘" funid="5705">
+		<cache id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.celebrationHaoLiZhuanPan.CelebrationHaoLiZhuanPanCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd>
+			<property cmdId="4123" methodName="buy"/>
+			<property cmdId="4125" methodName="openRank"/>
+			<property cmdId="4127" methodName="openTargetAwardUI"/>
+			<property cmdId="4129" methodName="getTargetAward"/>
+		</cmd>
+	</bean>
+	<!--三国庆典-消费排行-->
+	<bean id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.consumeRank.ConsumeRankCG" desc="三国庆典-消费排行" funid="5702">
+		<cache id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.consumeRank.ConsumeRankSysCache">
+			<property method = "initExcel"/>
+		</cache>
+	</bean>
+	<!--三国庆典-活跃有礼-->
+	<bean id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.activeGetGift.ActiveGetGiftCG" desc="三国庆典-活跃有礼" funid="5706">
+		<cache id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.activeGetGift.ActiveGetGiftSysCache">
+			<property method = "initExcel"/>
+		</cache>
+	</bean>
+	<!--三国庆典-登录有奖-->
+	<bean id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.celebrationLoginGift.CelebrationLoginGiftCG" desc="三国庆典-登录有奖" funid="5707">
+		<cache id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.celebrationLoginGift.CelebrationLoginGiftCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd>
+			<property cmdId="4891" methodName="getReward"/>
+		</cmd>
+	</bean>	
+	<!--三国庆典-单笔返利-->
+	<bean id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.celebrationOneRechargeBack.CelebrationOneRechargeBackCG" desc="三国庆典-单笔返利" funid="5708">
+		<cache id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.celebrationOneRechargeBack.CelebrationOneRechargeBackSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd>
+			<property cmdId="4911" methodName="getReward"/>
+		</cmd>
+	</bean>	
+	<!--三国庆典-累充返利-->
+	<bean id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.celebrationTotalRechargeBack.CelebrationTotalRechargeBackCG" desc="三国庆典-累充返利" funid="5709">
+		<cache id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.celebrationTotalRechargeBack.CelebrationTotalRechargeBackSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd>
+			<property cmdId="4931" methodName="getReward"/>
+		</cmd>
+	</bean>	
+	<!--闯关有礼-->
+	<bean id="com.teamtop.system.chuangGuanYouLi.ChuangGuanYouLiCG" desc="闯关有礼" funid="5801">
+		<cache id="com.teamtop.system.chuangGuanYouLi.ChuangGuanYouLiCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.chuangGuanYouLi.ChuangGuanYouLiEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "passGuanqia" curGuanqia="all" />
+		</event>
+		<cmd>
+			<property cmdId="4151" methodName="openUI"/>
+			<property cmdId="4153" methodName="getTaskAwards"/>
+			<property cmdId="4155" methodName="getTargetAwards"/>
+		</cmd>
+	</bean>
+	<!--累计充值(系统)-->
+	<bean id="com.teamtop.system.totalRecharge.TotalRechargeSysCG" desc="累计充值(系统)" funid="4515">
+	    <event id= "com.teamtop.system.totalRecharge.TotalRechargeSysEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "zeroHero" />	
+		    <property method = "loginReset" />
+		</event>
+		<cmd funid="4515">
+			<property cmdId="4351" methodName="openUI" />
+			<property cmdId="4353" methodName="getreward" />
+		</cmd>
+	</bean>
+	<!--超级点将(系统)-->
+	<bean id="com.teamtop.system.hyperPointGeneralSys.HyperPointGeneralSysCG" desc="超级点将(系统)" funid="4516">
+		<cache id="com.teamtop.system.hyperPointGeneralSys.HyperPointGeneralSysCache">
+		    <property method = "initExcel"/>
+		</cache>
+	    <event id= "com.teamtop.system.hyperPointGeneralSys.HyperPointGeneralSysEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "passGuanqia" funid="4516"/>
+		</event>
+		<cmd funid="4516">
+			<property cmdId="4371" methodName="openUI" />
+			<property cmdId="4373" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!--问鼎天下-->
+	<bean id="com.teamtop.system.crossWenDingTianXia.CrossWenDingTianXiaCG" desc="问鼎天下" funid="3705">
+		<cache id="com.teamtop.system.crossWenDingTianXia.CrossWenDingTianXiaCache">
+		    <property method = "shutdownServer"/>
+		</cache>
+	    <event id= "com.teamtop.system.crossWenDingTianXia.CrossWenDingTianXiaEvent">
+			<property method = "login" />
+			<property method = "init" />
+		</event>
+		<cmd>
+			<property cmdId="4207" methodName="battle" />
+			<property cmdId="4213" methodName="openRank" />
+			<property cmdId="4215" methodName="openKillAwards" />
+			<property cmdId="4217" methodName="openLayerAwards" />
+			<property cmdId="4219" methodName="getKillAwards" />
+			<property cmdId="4221" methodName="getLayerAwards" />
+			<property cmdId="4223" methodName="goToCross" />
+			<property cmdId="4225" methodName="getSceneData" />
+			<property cmdId="4227" methodName="battleMonster" />
+			<property cmdId="4231" methodName="fuHuo" />
+			<property cmdId="4233" methodName="battleMonsterEnd" />
+			<property cmdId="4235" methodName="openScoreAwards" />
+			<property cmdId="4237" methodName="getScoreAwards" />
+		</cmd>
+	</bean>
+	<!--累冲回馈-->
+	<bean id="com.teamtop.system.rechargeFeedback.RechargeFeedbackCG" desc="累冲回馈" funid="5901">
+	    <event id= "com.teamtop.system.rechargeFeedback.RechargeFeedbackEvent">
+			<property method = "init" />
+			<property method = "login" />
+		</event>
+		<cmd funid="5901">
+			<property cmdId="4391" methodName="openUI" />
+			<property cmdId="4393" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!--八阵图-->
+	<bean id="com.teamtop.system.destiny.DestinyCG" desc="八阵图" funid="6001">
+		<cache id="com.teamtop.system.destiny.DestinyCache">
+		    <property method = "initExcel"/>
+		</cache>
+	    <event id= "com.teamtop.system.destiny.DestinyEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "levelUp" level="all" />
+			<property method = "zeroHero" />	
+		    <property method = "loginReset" />			
+		</event>
+		<cmd funid="6001">
+			<property cmdId="4401" methodName="openUi" />
+		    <property cmdId="4403" methodName="useDestiny" />
+		    <property cmdId="4405" methodName="uplevel" />
+		    <property cmdId="4407" methodName="upstar" />
+			<property cmdId="4409" methodName="fenjie" />
+		    <property cmdId="4411" methodName="buydestiny" />
+		    <property cmdId="4413" methodName="locked" />	
+            <property cmdId="4415" methodName="jiesuo" />			    		    		    
+            <property cmdId="4417" methodName="openDestinyMasterUI" />			    		    		    
+            <property cmdId="4419" methodName="jihuoOrUpLv" />
+            <property cmdId="4421" methodName="fenjieBytype" />   
+            <property cmdId="4425" methodName="buy" />    			    		    		    
+		</cmd>
+	</bean>
+	<!--八门金锁-->
+	<bean id="com.teamtop.system.eightDoor.EightDoorCG" desc="八门金锁" funid="6101">
+		<cache id="com.teamtop.system.eightDoor.EightDoorSysCache">
+		    <property method = "startServer"/>
+			<property method = "shutdownServer"/>		    
+		</cache>
+	    <event id= "com.teamtop.system.eightDoor.EightDoorEvent">
+			<property method = "init" />
+			<property method = "login" />	
+			<property method = "passGuanqia" funid="6101"/>
+			<property method = "zeroHero" />	
+			<property method = "zeroPub" />
+		    <property method = "loginReset" />				
+		</event>
+		<cmd funid="6101">
+			<property cmdId="4521" methodName="openUi" />
+		    <property cmdId="4523" methodName="gettask" />
+		    <property cmdId="4525" methodName="getBig" />			    		    
+		</cmd>
+	</bean>				
+	<!--升阶商店-->
+	<bean id="com.teamtop.system.upLvShop.UpLvShopCG" desc="升阶商店" funid="4615">
+		<cache id="com.teamtop.system.upLvShop.UpLvShopCache">
+		    <property method = "initExcel"/>
+		</cache>
+	    <event id= "com.teamtop.system.upLvShop.UpLvShopEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "zeroHero" />	
+		    <property method = "loginReset" />
+		</event>
+		<cmd funid="4615">
+			<property cmdId="4501" methodName="openUI" />
+			<property cmdId="4503" methodName="buy" />
+		</cmd>
+	</bean>
+	<!--限制领取，监控购买-->
+	<bean id="com.teamtop.system.restrictedAccess.RestrictedAccessCG" desc="监控购买" funid="0">
+	    <event id= "com.teamtop.system.restrictedAccess.RestrictedAccessEvent">
+			<property method = "init" />
+			<property method = "zeroHero" />	
+		    <property method = "loginReset" />
+		</event>
+	</bean>
+	<!--诸将演武-->
+	<bean id="com.teamtop.system.zhuJiangYanWu.ZhuJiangYanWuCG" desc="诸将演武" funid="6201">
+		<cache id="com.teamtop.system.zhuJiangYanWu.ZhuJiangYanWuCache">
+		    <property method = "initExcel"/>
+		</cache>
+	    <event id= "com.teamtop.system.zhuJiangYanWu.ZhuJiangYanWuEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "loginReset" />
+			<property method = "zeroHero" />
+			<property method = "zeroPub" />
+		</event>
+		<event id= "com.teamtop.system.alarmSystem.crossActAlarm.CrossActAlarmEvent">
+			<property method = "fixTime" starttime="0000" time="g1_1"/>
+		</event>
+		<cmd funid="6201">
+			<property cmdId="4713" methodName="openUI" />
+			<property cmdId="4715" methodName="battle" />
+			<property cmdId="4717" methodName="battleEnd" />
+		</cmd>
+	</bean>
+	<!--boss战场-->
+	<bean id="com.teamtop.system.zcBoss.ZcBossHeroCG" desc="boss战场" funid="6211">
+		<cache id="com.teamtop.system.zcBoss.ZcBossLocalCache">
+		    <property method = "startServer"/>
+		</cache>
+	    <event id= "com.teamtop.system.zcBoss.ZcBossHeroEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "logout" />
+			<property method = "loginReset" />
+			<property method = "zeroHero" />
+		</event>
+		<cmd funid="6211">
+			<property cmdId="4451" methodName="openUi" />
+			<property cmdId="4453" methodName="join" />
+			<property cmdId="4457" methodName="battlehero" />
+		    <property cmdId="4459" methodName="battleboss" />
+			<property cmdId="4461" methodName="battlerest" />
+		    <property cmdId="4463" methodName="quit" />
+		</cmd>
+	</bean>	
+	<!--神将送礼(系统)-->
+	<bean id="com.teamtop.system.godGenSendGift.GodGenSendGiftCG" desc="神将送礼(系统)" funid="5604">
+		<cache id="com.teamtop.system.godGenSendGift.GodGenSendGiftSysCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		    <property method = "initExcel"/>
+		</cache>
+	    <event id= "com.teamtop.system.godGenSendGift.GodGenSendGiftEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "zeroPub" />
+			<property method = "zeroHero" />	
+		    <property method = "loginReset" />
+		</event>
+		<cmd funid="5604">
+			<property cmdId="4851" methodName="openRankUI" />
+			<property cmdId="4853" methodName="openTargetUI" />
+			<property cmdId="4855" methodName="getAward" />
+			<property cmdId="4857" methodName="openLastRankUI" />
+		</cmd>
+	</bean>
+	<!--神将送礼(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.godGenSendGiftAct.GodGenSendGiftActCG" desc="神将送礼(活动)" funid="5605">
+		<cache id="com.teamtop.system.activity.ativitys.godGenSendGiftAct.GodGenSendGiftActCache">
+		    <property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		    <property method = "initExcel"/>
+		</cache>
+	    <event id= "com.teamtop.system.activity.ativitys.godGenSendGiftAct.GodGenSendGiftActEvent">
+			<property method = "init" />
+			<property method = "login" />
+		</event>
+		<cmd funid="5605">
+			<property cmdId="4871" methodName="openRankUI" />
+			<property cmdId="4873" methodName="openTargetUI" />
+			<property cmdId="4875" methodName="getAward" />
+			<property cmdId="4877" methodName="openLastRankUI" />
+		</cmd>
+	</bean>
+	<!--新王位之争-->
+	<bean id="com.teamtop.system.country.newkingship.NewKingShipCG" desc="新王位之争" funid="1504">
+		<event id= "com.teamtop.system.country.newkingship.NewKingShipEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "logout"/>
+			<property method = "fixTime" time="d0005_1,d2200_2,d0000_3"/>
+		</event>
+		<cache id="com.teamtop.system.country.newkingship.NewKingShipCache">
+		    <property method = "startServer"/>
+			<property method = "shutdownServer"/>		    
+		</cache>
+		<cmd funid="1504">
+			<property cmdId="5201" methodName="openUINewKingShip" />
+			<property cmdId="5203" methodName="battle" />
+			<property cmdId="5205" methodName="battlerest" />
+			<property cmdId="5209" methodName="getreward" />
+			<property cmdId="5211" methodName="getMobai" />
+			<property cmdId="5213" methodName="buyTime" />
+		</cmd>
+	</bean>
+	<!--奖励找回-->
+	<bean id="com.teamtop.system.rewardBack.RewardBackCG" desc="奖励找回" funid="4206">
+		<event id= "com.teamtop.system.rewardBack.RewardBackEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "zeroHero"/>
+		</event>
+		<cache id="com.teamtop.system.rewardBack.RewardBackCache">
+		    <property method = "startServer"/>
+		    <property method = "initExcel"/>
+		</cache>
+		<cmd funid="4206">
+			<property cmdId="5271" methodName="openUI" />
+			<property cmdId="5273" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!--少主-->
+	<bean id="com.teamtop.system.littleLeader.LittleLeaderCG" desc="少主" funid="6301">
+		<event id= "com.teamtop.system.littleLeader.LittleLeaderEvent">
+		    <property method = "login"/>
+			<property method = "init"/>
+		</event>
+		<cache id="com.teamtop.system.littleLeader.LittleLeaderSysCache">
+		    <property method = "initExcel"/>
+		</cache>
+		<cmd funid="6301">
+		    <property cmdId="5101" methodName="openUi" />
+			<property cmdId="5103" methodName="jihuo" />
+			<property cmdId="5105" methodName="upstar" />
+			<property cmdId="5107" methodName="jihuofash" />
+			<property cmdId="5109" methodName="chuzhan" />
+			<property cmdId="5111" methodName="changefashion" />
+			<property cmdId="5113" methodName="upqimidu" />
+			<property cmdId="5115" methodName="upSkillLv" />
+			<property cmdId="5117" methodName="wearSkill" />
+			<property cmdId="5119" methodName="changeSkills" />
+			<property cmdId="5121" methodName="starRewardInfo" />
+			<property cmdId="5123" methodName="getStarreward" />
+			<property cmdId="5125" methodName="openSixArtsUI" />
+			<property cmdId="5127" methodName="upSixArtsLv" />
+			<property cmdId="5129" methodName="furtherEducation" />
+			<property cmdId="5131" methodName="kaoShi" />
+			<property cmdId="5133" methodName="openQianNengUI" />
+			<property cmdId="5135" methodName="upQianneng" />
+			<property cmdId="5137" methodName="swallowing" />
+		</cmd>
+	</bean>
+	<!-- 少主活动-七日目标-->
+	<bean id="com.teamtop.system.openDaysSystem.shaozhuSevenDayTarget.ShaoZhuSevenDayTargetCG" desc="少主活动-七日目标" funid="6806">
+		<cache id="com.teamtop.system.openDaysSystem.shaozhuSevenDayTarget.ShaoZhuSevenDayTargetCache">
+			<property method = "startServer"/>
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="6806">
+			<property cmdId="5411" methodName="openUI" />
+			<property cmdId="5413" methodName="getAward" />
+		</cmd>
+	</bean>		
+	<!-- 少主活动-累计充值-->
+	<bean id="com.teamtop.system.openDaysSystem.shaozhuTotalRecharge.ShaoZhuTotalRechargeCG" desc="少主活动-累计充值" funid="6805">
+		<cmd funid="6805">
+			<property cmdId="5593" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!-- 少主活动-单笔返利-->
+	<bean id="com.teamtop.system.openDaysSystem.shaozhuOneRechargeBack.ShaoZhuOneRechargeBackCG" desc="少主活动-单笔返利" funid="6804">
+		<cache id="com.teamtop.system.openDaysSystem.shaozhuOneRechargeBack.ShaoZhuOneRechargeBackCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="6804">
+			<property cmdId="5643" methodName="getAward" />
+			<property cmdId="5645" methodName="turnAward" />
+			<property cmdId="5647" methodName="openRecordUI" />
+		</cmd>
+	</bean>
+	<!--少主祈愿-->
+	<bean id="com.teamtop.system.shaozhuqiyuan.ShaoZhuQiYuanCG" desc="少主祈愿" funid="6304">
+		<event id= "com.teamtop.system.shaozhuqiyuan.ShaoZhuQiYuanEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+		</event>
+		<cache id="com.teamtop.system.shaozhuqiyuan.ShaoZhuQiYuanSysCache">
+		    <property method = "initExcel"/>
+		</cache>
+		<cmd funid="6304">
+		    <property cmdId="5391" methodName="openUI" />
+			<property cmdId="5393" methodName="pray" />
+			<property cmdId="5395" methodName="getScoreBXAward" />
+		</cmd>
+	</bean>	
+	<!--少主活动金猪送财-->
+	<bean id="com.teamtop.system.openDaysSystem.shaozhugoldpig.ShaoZhuGoldPigCG" desc="少主活动金猪送财" funid="6803">
+		<cmd funid="6803">
+		    <property cmdId="5493" methodName="getHeadAward" />
+			<property cmdId="5495" methodName="getYuanBaoAdd" />
+		</cmd>
+	</bean>	
+	<!--少主活动-登录红包-->
+	<bean id="com.teamtop.system.openDaysSystem.otherSevenDayLogin.OtherSevenDayLoginCG" desc="少主活动-登录红包" funid="6802">
+		<event id= "com.teamtop.system.openDaysSystem.otherSevenDayLogin.OtherSevenDayLoginEvent">
+			<property method = "init"/>
+			<property method = "login"/>			
+			<property method = "zeroHero"/>	
+			<property method = "loginReset"/>		
+		</event>
+		<cache id="com.teamtop.system.openDaysSystem.otherSevenDayLogin.OtherSevenDayLoginCache">
+		    <property method = "startServer"/>
+		</cache>
+		<cmd funid="6802">
+			<property cmdId="5473" methodName="getAwards" />			
+		</cmd>
+	</bean>
+	<!--关卡求助-->
+	<bean id="com.teamtop.system.guanQiaHelp.GuanQiaHelpCG" desc="关卡求助">
+		<event id= "com.teamtop.system.guanQiaHelp.GuanQiaHelpSystemEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset" />
+			<property method = "zeroHero" />
+		</event>
+		<cmd funid="1052">
+		    <property cmdId="5901" methodName="broadCast" />
+		    <property cmdId="5905" methodName="agree" />
+		    <property cmdId="5907" methodName="noticeState" />
+		    <property cmdId="5915" methodName="exitFight" />
+		</cmd>
+	</bean>	
+	<!--国家技能-->
+	<bean id="com.teamtop.system.countrySkill.CountrySkillCG" desc="国家技能" funid="1511">
+		<cache id="com.teamtop.system.countrySkill.CountrySkillCache">
+			<property method = "startServer"/>
+			<property method = "initExcel"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<event id="com.teamtop.system.countrySkill.CountrySkillEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "zeroHero"/>
+			<property method = "passGuanqia" funid="1511"/>
+		</event>
+		<cmd funid="1511">
+			<property cmdId="6001" methodName="openUI" />
+			<property cmdId="6003" methodName="jihuoOrUpLv" />
+		</cmd>
+	</bean>
+	<!-- 每日直购(8~28)-->
+	<bean id="com.teamtop.system.openDaysSystem.otherDailyDirectBuy.OtherDailyDirectBuyCG" desc="每日直购(8~28)" funid="4526">
+		<cache id="com.teamtop.system.openDaysSystem.otherDailyDirectBuy.OtherDailyDirectBuyCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.openDaysSystem.otherDailyDirectBuy.OtherDailyDirectBuyEvent">	
+			<property method = "login"/>
+		</event> 
+		<cmd funid="4526">
+			<property cmdId="7001" methodName="getAward" />
+			<property cmdId="7005" methodName="getTargetAward" />
+		</cmd>
+	</bean>	
+	<!-- 连续累充(8~28) -->
+	<bean id="com.teamtop.system.openDaysSystem.otherAwayRecharge.OtherAwayRechargeCG" desc="连续累充(8~28)" funid="4525">
+		<event id= "com.teamtop.system.openDaysSystem.otherAwayRecharge.OtherAwayRechargeEvent">	
+			<property method = "login"/>
+			<property method = "zeroHero"/>	
+			<property method = "loginReset"/>				
+		</event> 
+		<cmd funid="4525">
+			<property cmdId="7051" methodName="getreward" />
+			<property cmdId="7055" methodName="gettodayRew" />
+		</cmd>
+	</bean>	
+	<!-- 首冲团购(8~28) -->
+	<bean id="com.teamtop.system.openDaysSystem.otherSevenGroupBuy.OtherSevenGroupBuyCG" desc="首冲团购(8~28)" funid="4527">
+		<event id= "com.teamtop.system.openDaysSystem.otherSevenGroupBuy.OtherSevenGroupBuyEvent">	
+			<property method = "login"/>
+			<property method = "zeroHero"/>	
+			<property method = "loginReset"/>
+			<property method = "zeroPub"/>			
+		</event> 
+		<cache id="com.teamtop.system.openDaysSystem.otherSevenGroupBuy.OtherSevenGroupBuyCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+			<property method = "initExcel"/>
+		</cache>		
+		<cmd funid="4527">
+			<property cmdId="7451" methodName="getreward" />
+		</cmd>
+	</bean>		
+	<!-- 一统三国 -->
+	<!-- <bean id="com.teamtop.system.country.unifyThreeCountry.UnifyCountryModelCG" desc="一统三国" funid="1510">
+		<event id= "com.teamtop.system.country.unifyThreeCountry.UnifyCountryEvent">
+			<property method = "login"/>
+			<property method = "logout"/>
+			<property method = "fixTime" time="d2030_1,d2050_0"/>			
+		</event>
+		<cmd funid="1510">
+		    <property cmdId="5801" methodName="inScene" />
+			<property cmdId="5803" methodName="outscene" />
+			<property cmdId="5805" methodName="getBox" />
+			<property cmdId="5807" methodName="stopgetbox" />
+			<property cmdId="5809" methodName="getBoxReward" />
+	        <property cmdId="5811" methodName="battleMonster" />
+	        <property cmdId="5813" methodName="getBatMonReward" />
+            <property cmdId="5815" methodName="battlePvp" />
+            <property cmdId="5819" methodName="openUI" />           	        		
+		</cmd>
+	</bean> -->	
+	<!--六道轮回-->
+	<bean id="com.teamtop.system.reincarnation.ReincarnationCG" desc="六道轮回">
+	<cache id="com.teamtop.system.reincarnation.ReincarnationSysCache">
+		    <property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.reincarnation.ReincarnationEvent">	
+			<property method = "login"/>
+		</event> 
+		<cmd funid="6901">
+		    <property cmdId="7101" methodName="reincarnation" />
+		</cmd>
+	</bean>
+	<!--跨服矿藏-->
+	<bean id="com.teamtop.system.crossMine.CrossMineCG" desc="跨服矿藏">
+		<event id="com.teamtop.system.crossMine.CrossMineEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		</event>
+		<cmd funid="3607">
+		    <property cmdId="7201" methodName="openUI" />
+		    <property cmdId="7203" methodName="invitation" />
+		    <property cmdId="7205" methodName="joinMine" />
+		    <property cmdId="7207" methodName="refreshMine" />
+		    <property cmdId="7209" methodName="startMine" />
+		    <property cmdId="7211" methodName="kickMiner" />
+		    <property cmdId="7213" methodName="leaveMine" />
+		    <property cmdId="7215" methodName="gotoMine" />
+		    <property cmdId="7217" methodName="searchMine" />
+		    <property cmdId="7219" methodName="stealMine" />
+		    <property cmdId="7221" methodName="fightMine" />
+		    <property cmdId="7223" methodName="openReport" />
+		    <property cmdId="7227" methodName="lookReport" />
+            <property cmdId="7233" methodName="getMineReward" />
+		</cmd>
+	</bean>
+	<!-- 八门金锁-鉴定排名-->
+	<bean id="com.teamtop.system.eightDoorAppraiseRank.EightDoorAppraiseRankCG" desc="八门金锁-鉴定排名" funid="6105">
+		<cache id="com.teamtop.system.eightDoorAppraiseRank.EightDoorAppraiseRankSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id="com.teamtop.system.eightDoorAppraiseRank.EightDoorAppraiseRankEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "zeroHero"/>
+			<property method = "passGuanqia" funid="6105"/>
+		</event>
+		<cmd funid="6105">
+			<property cmdId="7301" methodName="openUI" />
+		</cmd>
+	</bean>			
+	<!-- 推送（15-21）-->
+	<bean id="com.teamtop.system.push.PushCG" desc="推送">
+		<event id= "com.teamtop.system.push.PushEvent">
+			<property method = "init"/>
+			<property method = "login"/>					
+		</event>
+		<cmd>
+			<property cmdId="7501" methodName="openUI" />
+			<property cmdId="7503" methodName="setPust" />
+		</cmd>
+	</bean>
+	
+	<!-- 少年英主-祈愿排名-->
+	<bean id="com.teamtop.system.shaozhuQiYuanRank.ShaoZhuQiYuanRankCG" desc="少年英主-祈愿排名" funid="6807">
+		<cache id="com.teamtop.system.shaozhuQiYuanRank.ShaoZhuQiYuanRankSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id="com.teamtop.system.shaozhuQiYuanRank.ShaoZhuQiYuanRankEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "zeroHero"/>
+			<property method = "passGuanqia" funid="6807"/>
+		</event>
+		<cmd funid="6807">
+			<property cmdId="7401" methodName="openUI" />
+		</cmd>
+	</bean>
+	<!-- 圣兽洗练（15-21）-->
+	<bean id="com.teamtop.system.openDaysSystem.saintMonsterWashRank.SaintMonsterWashRankCG" desc="圣兽洗练（15-21）" funid="6407">
+		<event id= "com.teamtop.system.openDaysSystem.saintMonsterWashRank.SaintMonsterWashRankEvent">
+			<property method = "init"/>
+			<property method = "login"/>			
+			<property method = "loginReset"/>			
+			<property method = "zeroHero"/>			
+			<property method = "fixTime" starttime="0000" time="g1_1"/>			
+		</event>
+		<cache id="com.teamtop.system.openDaysSystem.saintMonsterWashRank.SaintMonsterWashRankCache">			
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+	</bean>	
+	<!-- 专属神兵-->
+	<bean id="com.teamtop.system.godWeapon.GodWeaponCG" desc="专属神兵" funid="7001">
+		<event id= "com.teamtop.system.godWeapon.GodWeaponEvent">
+			<property method = "init"/>	
+		</event>
+		<cache id="com.teamtop.system.godWeapon.GodWeaponCache">			
+			<property method = "initExcel"/>
+		</cache>
+		<cmd>
+		    <property cmdId="7851" methodName="upstar" />
+		    <property cmdId="7853" methodName="wear" />
+		    <property cmdId="7855" methodName="godForge" />
+		    <property cmdId="7857" methodName="actzhuanshuLv" />
+		    <property cmdId="7859" methodName="upcuilianlv" />
+		    <property cmdId="7863" methodName="makeWuqi" />
+		    <property cmdId="7871" methodName="openUi" />
+		</cmd>
+	</bean>
+	<!-- 专属活动-->
+	<bean id="com.teamtop.system.exclusiveActivity.ExclusiveActivityCG" desc="专属活动" funid="7101">
+		<cache id="com.teamtop.system.exclusiveActivity.ExclusiveActivitySysCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.exclusiveActivity.ExclusiveActivitySysEvent">		
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "zeroPub"/>
+			<property method = "logout"/>
+			<property method = "logoutSyncPub"/>
+			<property method = "passGuanqia" curGuanqia="all"/>
+			<property method = "levelUp" level="all" />
+			<property method = "fixTime" starttime="0000" time="g1_1"/>
+		</event>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+		<cmd funid="7101">
+			<property cmdId="7901" methodName="openExAct" />
+		</cmd>
+	</bean>
+	<!-- 专属活动-单笔充值 -->
+	<bean id="com.teamtop.system.exclusiveActivity.exOneRecharge.ExActOneRechargeCG" desc="专属活动-单笔充值" funid="7102">
+		<cache id="com.teamtop.system.exclusiveActivity.exOneRecharge.ExActOneRechargeCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7102">
+			<property cmdId="8101" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 专属活动-专属商店-->
+	<bean id="com.teamtop.system.exclusiveActivity.exclusiveShop.ExclusiveShopCG" desc="专属活动-专属商店" funid="7103">
+		<cache id="com.teamtop.system.exclusiveActivity.exclusiveShop.ExclusiveShopSysCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7103">
+			<property cmdId="8161" methodName="buy" />
+		</cmd>
+	</bean>
+	<!-- 专属活动-累计充值 -->
+	<bean id="com.teamtop.system.exclusiveActivity.exTotalRecharge.ExActTotalRechargeSysCG" desc="专属活动-累计充值" funid="7105">
+		<cache id="com.teamtop.system.exclusiveActivity.exTotalRecharge.ExActTotalRechargeCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7105">
+			<property cmdId="8301" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 专属活动-单笔返利 -->
+	<bean id="com.teamtop.system.exclusiveActivity.exOneRechargeBack.ExActOneRechargeBackCG" desc="专属活动-单笔返利" funid="7104">
+		<cache id="com.teamtop.system.exclusiveActivity.exOneRechargeBack.ExActOneRechargeBackSysCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7104">
+			<property cmdId="8361" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 专属活动-元宝返利 -->
+	<bean id="com.teamtop.system.exclusiveActivity.exOverCallbackYBSe.ExActOverCallbackYBSeCG" desc="专属活动-元宝返利" funid="7106">
+		<cache id="com.teamtop.system.exclusiveActivity.exOverCallbackYBSe.ExActOverCallbackYBSeCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7106">
+			<property cmdId="8331" methodName="getRward" />
+		</cmd>
+	</bean>
+	<!-- 三国庆典-庆典商城 -->
+	<bean id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.celebrationShop.CelebrationShopCG" desc="三国庆典-庆典商城" funid="5710">
+		<cache id="com.teamtop.system.activity.ativitys.threeKingdomsCelebration.celebrationShop.CelebrationShopSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="5710">
+			<property cmdId="8131" methodName="buy" />
+		</cmd>
+	</bean>
+	<!-- 年兽闹春 -->
+	<bean id="com.teamtop.system.activity.ativitys.nianMonsterMakeSpring.NianMonsterMakeSpringCG" desc="年兽闹春" funid="7236">
+		<cache id="com.teamtop.system.activity.ativitys.nianMonsterMakeSpring.NianMonsterMakeSpringCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.activity.ativitys.nianMonsterMakeSpring.NianMonsterMakeSpringSysEvent">		
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>			
+			<property method = "fixTime" starttime="0000" time="g2_1"/>	
+		</event>                                                           
+		<cmd funid="7236">
+			<property cmdId="11551" methodName="summonMonster" />
+			<property cmdId="11553" methodName="summonMonsterKing" />
+			<property cmdId="11555" methodName="attactMonster" />
+			<property cmdId="11557" methodName="getGoalReward" />
+			<property cmdId="11559" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 擂台比武 -->
+	<bean id="com.teamtop.system.activity.ativitys.arenaFight.ArenaFightCG" desc="擂台比武" funid="7238">
+		<cache id="com.teamtop.system.activity.ativitys.arenaFight.ArenaFightLocalCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.activity.ativitys.arenaFight.ArenaFightSysEvent">		
+			<property method = "login"/>
+		</event>                                                           
+		<cmd funid="7238">
+			<property cmdId="11601" methodName="challenge" />
+			<property cmdId="11603" methodName="fightEnd" />
+			<property cmdId="11605" methodName="assist" />
+			<property cmdId="11607" methodName="kickOut" />
+			<property cmdId="11609" methodName="getNoticeList" />
+		</cmd>
+	</bean>
+	<!-- 天降豪礼 -->
+	<bean id="com.teamtop.system.activity.ativitys.skyRichGift.SkyRichGiftCG" desc="天降豪礼" funid="7240">
+		<cache id="com.teamtop.system.activity.ativitys.skyRichGift.SkyRichGiftDataSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7240">
+			<property cmdId="11671" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 至尊秘宝-->
+	<bean id="com.teamtop.system.activity.ativitys.kingSecretCrystal.KingSecretCrystalCG" desc="至尊秘宝" funid="7242">
+		<cache id="com.teamtop.system.activity.ativitys.kingSecretCrystal.KingSecretCrystalSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7242">
+			<property cmdId="11701" methodName="draw" />
+			<property cmdId="11703" methodName="resetReward" />
+		</cmd>
+	</bean>
+	<!-- 超级弹珠-->
+	<bean id="com.teamtop.system.activity.ativitys.superHoodle.SuperHoodleCG" desc="超级弹珠" funid="7241">
+		<cache id="com.teamtop.system.activity.ativitys.superHoodle.SuperHoodleSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7241">
+			<property cmdId="11731" methodName="block" />
+			<property cmdId="11733" methodName="shoot" />
+			<property cmdId="11735" methodName="resetHoodle" />
+			<property cmdId="11737" methodName="openStore" />
+			<property cmdId="11739" methodName="exchange" />
+		</cmd>
+	</bean>
+	<!-- 刮刮乐-->
+	<bean id="com.teamtop.system.activity.ativitys.scratchTicket.ScratchTicketCG" desc="刮刮乐" funid="7243">
+		<cache id="com.teamtop.system.activity.ativitys.scratchTicket.ScratchTicketSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7243">
+			<property cmdId="11791" methodName="draw" />
+			<property cmdId="11793" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 许田围猎-->
+	<bean id="com.teamtop.system.xuTianHunt.XuTianHuntCG" desc="许田围猎" funid="7705">
+		<cache id="com.teamtop.system.xuTianHunt.XuTianHuntSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.xuTianHunt.XuTianHuntSysEvent">		
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "logout"/>
+			<property method = "fixTime" time="d1200_1,d1800_2"/>
+		</event>  
+		<cmd funid="7705">
+			<property cmdId="11821" methodName="openUI" />
+			<property cmdId="11823" methodName="buyHunt" />
+			<property cmdId="11825" methodName="startHunt" />
+			<property cmdId="11827" methodName="hunt" />
+			<property cmdId="11829" methodName="endHunt" />
+			<property cmdId="11831" methodName="openWareHouse" />
+		</cmd>
+	</bean>
+	<!-- 少主护送-->
+	<bean id="com.teamtop.system.shaozhuEscort.ShaoZhuEscortCG" desc="少主护送" funid="4301">
+		<cache id="com.teamtop.system.shaozhuEscort.ShaoZhuEscortSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.shaozhuEscort.ShaoZhuEscortEvent">		
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "levelUp" funid="4301"/>
+		</event>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+		<cmd funid="4301">
+			<property cmdId="8001" methodName="openUI" />
+			<property cmdId="8003" methodName="escort" />
+			<property cmdId="8005" methodName="reflesh" />
+			<property cmdId="8009" methodName="getAward" />
+			<property cmdId="8011" methodName="intercept" />
+			<property cmdId="8013" methodName="lookReport" />
+			<property cmdId="8015" methodName="openBattleRecordUI" />
+		</cmd>
+	</bean>
+	<!--火烧赤壁-->
+	<bean id="com.teamtop.system.huoShaoChiBi.HuoShaoChiBiCG" desc="火烧赤壁" funid="6202">
+		<event id= "com.teamtop.system.huoShaoChiBi.HuoShaoChiBiEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+		</event>
+		<cache id="com.teamtop.system.huoShaoChiBi.HuoShaoChiBiSysCache">
+		    <property method = "startServer"/>
+			<property method = "initExcel"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<cmd funid="6202">
+			<property cmdId="7931" methodName="openUi" />
+			<property cmdId="7933" methodName="upPower" />
+			<property cmdId="7935" methodName="beatBossWin" />
+		</cmd>
+	</bean>
+	<!-- 微信分享 -->
+	<bean id="com.teamtop.system.weiXinShare.WeiXinShareCG" desc="微信分享">
+		<event id="com.teamtop.system.weiXinShare.WeiXinShareEvent">
+			<property method="init" />
+			<property method="login" />
+			<property method="loginReset" />
+			<property method="zeroHero" />
+			<property method="levelUp" level="all"/>
+		</event>
+		<cache id="com.teamtop.system.weiXinShare.WeiXinShareCache">
+			<property method="initExcel" />
+		</cache>
+		<cmd>
+			<property cmdId="7751" methodName="openUI" />
+			<property cmdId="7753" methodName="completeShare" />
+			<property cmdId="7755" methodName="getFirstShareAward" />
+			<property cmdId="7757" methodName="draw" />
+			<property cmdId="7759" methodName="getCumulativeAward" />
+			<property cmdId="7761" methodName="openShareUI" />
+			<property cmdId="7763" methodName="getNumberAward" />
+			<property cmdId="7765" methodName="getLevelAward" />
+			<property cmdId="7767" methodName="getHongBaoAward" />
+		</cmd>
+	</bean>
+	<!--六出祁山-->																
+	<bean id="com.teamtop.system.liuChuQiShan.LiuChuQiShanCG" desc="六出祁山" funid="6203">
+		<event id= "com.teamtop.system.liuChuQiShan.LiuChuQiShanEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "logout"/>
+			<property method = "zeroHero"/>
+		</event>
+		<cache id="com.teamtop.system.liuChuQiShan.LiuChuQiShanCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="6203">
+			<property cmdId="8201" methodName="openUI" />
+			<property cmdId="8203" methodName="getTeamData" />
+			<property cmdId="8205" methodName="buildTeam" />
+			<property cmdId="8207" methodName="removeMember" />
+			<property cmdId="8209" methodName="broadCast" />
+			<property cmdId="8211" methodName="leave" />
+			<property cmdId="8213" methodName="joinByTeamID" />
+			<property cmdId="8215" methodName="battle" />
+			<property cmdId="8223" methodName="leaveBattle" />
+			<property cmdId="8225" methodName="saoDang" />
+		</cmd>
+	</bean>
+	<!--异兽录-->																
+	<bean id="com.teamtop.system.specialAnimalDir.SpecialAnimalDirCG" desc="异兽录" funid="7120">
+		<event id= "com.teamtop.system.specialAnimalDir.SpecialAnimalDirEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "zeroHero"/>
+			<property method = "levelUp" funid="7120"/>
+		</event>
+		<cache id="com.teamtop.system.specialAnimalDir.SpecialAnimalDirSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7120">
+			<property cmdId="8391" methodName="openUI" />
+			<property cmdId="8393" methodName="activeOrUpLv" />
+			<property cmdId="8395" methodName="openTalentsUI" />
+			<property cmdId="8397" methodName="upgradeTalentsSkill" />
+			<property cmdId="8399" methodName="upgradeEquip" />
+			<property cmdId="8401" methodName="upgradeQuality" />
+		</cmd>
+	</bean>
+	<!--异兽BOSS-->																
+	<bean id="com.teamtop.system.boss.specialAnimalBoss.SpecialAnimalBossCG" desc="异兽BOSS" funid="7410">
+		<event id= "com.teamtop.system.boss.specialAnimalBoss.SpecialAnimalBossSysEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "logout"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "zeroPub"/>
+		</event>
+		<cache id="com.teamtop.system.boss.specialAnimalBoss.SpecialAnimalBossSysCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<cmd funid="7410">
+			<property cmdId="9431" methodName="openUI" />
+			<property cmdId="9433" methodName="challengeBoss" />
+			<property cmdId="9435" methodName="fightEnd" />
+			<property cmdId="9437" methodName="relive" />
+			<property cmdId="9439" methodName="getReward" />
+			<property cmdId="9441" methodName="openRank" />
+			<property cmdId="9445" methodName="buyChaNum" />
+		</cmd>
+	</bean>
+	<!--节日boss 曹操来袭-->																
+	<bean id="com.teamtop.system.activity.ativitys.caoCaoCome.CaoCaoComeCG" desc="曹操来袭" funid="7203">
+		<event id= "com.teamtop.system.activity.ativitys.caoCaoCome.CaoCaoComeEvent">
+			<property method = "login"/>
+			<property method = "logout"/>			
+		</event>
+		<cache id="com.teamtop.system.activity.ativitys.caoCaoCome.CaoCaoComeSysCache">
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<cmd funid="7203">
+			<property cmdId="8511" methodName="openRank" />
+			<property cmdId="8513" methodName="join" />
+			<property cmdId="8515" methodName="quit" />
+			<property cmdId="8521" methodName="cgherodie" />
+			<property cmdId="8523" methodName="buyLive" />
+			<property cmdId="8525" methodName="isaotufuhuo" />
+		</cmd>
+	</bean>
+	<!--vip折扣(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.vipDiscount.VipDiscountCG" desc="vip折扣(活动)" funid="7208">
+		<cmd funid="7208">
+			<property cmdId="8451" methodName="openUI"/>
+			<property cmdId="8453" methodName="extractDiscount"/>
+			<property cmdId="8455" methodName="buy"/>
+		</cmd>
+	</bean>
+	<!-- 单笔返利(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.oneRechargeBack.OneRechargeBackCG" desc="单笔返利(活动)" funid="7201">
+		<cache id="com.teamtop.system.activity.ativitys.oneRechargeBack.OneRechargeBackCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7201">
+			<property cmdId="8473" methodName="getAward" />
+			<property cmdId="8475" methodName="turnAward" />
+			<property cmdId="8477" methodName="openRecordUI" />
+		</cmd>
+	</bean>
+	<!-- 充值转盘(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.dial.DialCG" desc="充值转盘(活动)" funid="7202">
+		<cache id="com.teamtop.system.activity.ativitys.dial.DialSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7202">
+			<property cmdId="8493" methodName="turnDial" />
+		</cmd>
+	</bean>
+	<!--消费转盘(活动)-->																
+	<bean id="com.teamtop.system.activity.ativitys.consumeTurnTableAct.ConsumeTurnTableActCG" desc="消费转盘(活动)" funid="7205">
+		<cache id="com.teamtop.system.activity.ativitys.consumeTurnTableAct.ConsumeTurnTableActCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7205">
+			<property cmdId="8571" methodName="turn" />
+		</cmd>
+	</bean>
+	<!--消费翻牌(活动)-->																
+	<bean id="com.teamtop.system.activity.ativitys.consumeTurnCardAct.ConsumeTurnCardActCG" desc="消费翻牌(活动)" funid="7206">
+		<cache id="com.teamtop.system.activity.ativitys.consumeTurnCardAct.ConsumeTurnCardActCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7206">
+			<property cmdId="8601" methodName="turn" />
+		</cmd>
+	</bean>
+	<!--万兽之王-累计充值(opAct)-->																
+	<bean id="com.teamtop.system.openDaysSystem.monsterKingTotalRecharge.MonsterKingTotalRechargeCG" desc="万兽之王-累计充值" funid="7302">
+		<cache id="com.teamtop.system.openDaysSystem.monsterKingTotalRecharge.MonsterKingTotalRechargeSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7302">
+			<property cmdId="9101" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!--万兽之王-每日活跃(opAct)-->																
+	<bean id="com.teamtop.system.openDaysSystem.monsterKingDailyActive.MonsterKingDailyActiveCG" desc="万兽之王-每日活跃" funid="7303">
+		<cache id="com.teamtop.system.openDaysSystem.monsterKingDailyActive.MonsterKingDailyActiveSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7303">
+			<property cmdId="9131" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!--万兽之王-登录有奖(opAct)-->																
+	<bean id="com.teamtop.system.openDaysSystem.monsterKingLoginGift.MonsterKingLoginGiftCG" desc="万兽之王-登录有奖" funid="7305">
+		<cache id="com.teamtop.system.openDaysSystem.monsterKingLoginGift.MonsterKingLoginGiftCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7305">
+			<property cmdId="9161" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!--限时抢购(活动)-->																
+	<bean id="com.teamtop.system.activity.ativitys.flashSale.FlashSaleCG" desc="限时抢购(活动)" funid="7212">
+		<cache id="com.teamtop.system.activity.ativitys.flashSale.FlashSaleCache">
+			<property method = "initExcel"/>
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<event id= "com.teamtop.system.activity.ativitys.flashSale.FlashSaleEvent">
+			<property method = "fixTime" starttime="0058" time="g60_1,g2_2"/>
+		</event>
+		<cmd funid="7212">
+			<property cmdId="8671" methodName="openUI" />
+			<property cmdId="8673" methodName="buy" />
+		</cmd>
+	</bean>
+	<!--神兵折扣(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.magicDiscount.MagicDiscountCG" desc="神兵折扣(活动)" funid="7211">
+		<cmd funid="7211">
+		</cmd>
+	</bean>
+	<!--三国宝藏(活动)-->																
+	<bean id="com.teamtop.system.activity.ativitys.countryTreasure.CountryTreasureCG" desc="三国宝藏(活动)" funid="7204">
+		<cmd funid="7204">
+			<property cmdId="8651" methodName="chooseItem" />
+			<property cmdId="8653" methodName="getreward" />
+			<property cmdId="8655" methodName="getExrReward" />
+            <property cmdId="8657" methodName="getleftReward" />						
+		</cmd>
+	</bean>
+	<!--充值排行(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.rechargeRankAct.RechargeRankActCG" desc="充值排行(活动)" funid="7209">
+		<cache id="com.teamtop.system.activity.ativitys.rechargeRankAct.RechargeRankActSysCache">
+		    <property method = "initExcel"/>
+		    <property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+	</bean>		
+	<!--限定武将(活动)-->																
+	<bean id="com.teamtop.system.activity.ativitys.wuJiangGoal.WuJiangGoalCG" desc="限定武将(活动)" funid="7210">
+		<cache id="com.teamtop.system.activity.ativitys.wuJiangGoal.WuJiangGoalSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7210">
+			<property cmdId="8721" methodName="getReward" />
+			<property cmdId="8723" methodName="getActReward" />
+		</cmd>
+	</bean>
+	<!-- 万兽之王-连充豪礼-->
+	<bean id="com.teamtop.system.openDaysSystem.seriesRecharge.SeriesRechargeCG" desc="万兽之王-连充豪礼" funid="7301">
+		<cache id="com.teamtop.system.openDaysSystem.seriesRecharge.SeriesRechargeSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7301">
+			<property cmdId="8801" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!-- 万兽之王-异兽送礼-->
+	<bean id="com.teamtop.system.openDaysSystem.specialAnimalSendGift.SpecialAnimalSendGiftCG" desc="万兽之王-异兽送礼" funid="7304">
+		<cache id="com.teamtop.system.openDaysSystem.specialAnimalSendGift.SpecialAnimalSendGiftSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7304">
+			<property cmdId="9221" methodName="active" />
+			<property cmdId="9223" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!--虎牢关-->																
+	<bean id="com.teamtop.system.tigerPass.TigerPassCG" desc="虎牢关" funid="7400">
+	    <event id= "com.teamtop.system.tigerPass.TigerPassEvent">
+	    	<property method = "init"/>
+			<property method = "login"/>
+			<property method = "loginReset"/>
+			<property method = "logout"/>
+			<property method = "zeroHero"/>
+		</event>
+		<cmd funid="7400">
+			<property cmdId="8901" methodName="openUi" />
+			<property cmdId="8903" methodName="battleboss" />
+			<property cmdId="8907" methodName="die" />
+			<property cmdId="8909" methodName="openemploy" />
+			<property cmdId="8911" methodName="chooseemploy" />
+			<property cmdId="8913" methodName="joinemlpoy" />
+			<property cmdId="8915" methodName="refreshEmploy" />
+			<property cmdId="8917" methodName="getReward" />													
+		</cmd>		
+	</bean>	
+	<!--仙山寻兽-->																
+	<bean id="com.teamtop.system.searchAnimals.SearchAnimalsCG" desc="仙山寻兽" funid="7121">
+		<event id= "com.teamtop.system.searchAnimals.SearchAnimalsEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+			<property method = "zeroHero" />
+		</event>
+		<cache id="com.teamtop.system.searchAnimals.SearchAnimalsSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7121">
+			<property cmdId="8761" methodName="openUI" />
+			<property cmdId="8763" methodName="search" />
+			<property cmdId="8765" methodName="getAward" />
+            <property cmdId="8767" methodName="reset" />						
+		</cmd>
+	</bean> 	
+	<!-- 三国战令-->
+	<bean id="com.teamtop.system.openDaysSystem.warOrderActive.WarOrderActiveCG" desc="三国战令" funid="6408">
+		<cache id="com.teamtop.system.openDaysSystem.warOrderActive.WarOrderActiveSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="6408">
+			<property cmdId="8851" methodName="getWarOrderReward" />
+			<property cmdId="8853" methodName="openTaskUI" />
+			<property cmdId="8855" methodName="getReward" />
+			<property cmdId="8857" methodName="openShopUI" />
+			<property cmdId="8859" methodName="buy" />
+		</cmd>
+	</bean>	
+	<!--修炼天赋-->																
+	<bean id="com.teamtop.system.talent.TalentCG" desc="修炼天赋" funid="7124">
+		<event id= "com.teamtop.system.talent.TalentEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+		</event>
+		<cache id="com.teamtop.system.talent.TalentSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7124">
+			<property cmdId="9371" methodName="openUI" />
+			<property cmdId="9373" methodName="xiuLian" />
+			<property cmdId="9375" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!--鉴定排名(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.eightDoorAppraiseRankAct.EightDoorAppraiseRankActCG" desc="鉴定排名(活动)" funid="7214">
+		<cache id="com.teamtop.system.activity.ativitys.eightDoorAppraiseRankAct.EightDoorAppraiseRankActSysCache">
+		    <property method = "initExcel"/>
+		    <property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+	</bean>
+	<!--祈愿排名(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.shaoZhuQiYuanRankAct.ShaoZhuQiYuanRankActCG" desc="祈愿排名(活动)" funid="7215">
+		<cache id="com.teamtop.system.activity.ativitys.shaoZhuQiYuanRankAct.ShaoZhuQiYuanRankActSysCache">
+		    <property method = "initExcel"/>
+		    <property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+	</bean>
+	<!--消费砸蛋(活动)-->																
+	<bean id="com.teamtop.system.activity.ativitys.consumeSmashEgg.ConsumeSmashEggCG" desc="消费砸蛋(活动)" funid="7217">
+		<cache id="com.teamtop.system.activity.ativitys.consumeSmashEgg.ConsumeSmashEggCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7217">
+			<property cmdId="9503" methodName="smashEgg" />
+		</cmd>
+	</bean>
+	<!--神将折扣(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.godGenDiscount.GodGenDiscountCG" desc="神将折扣(活动)" funid="7216">
+		<cmd funid="7216">
+		</cmd>
+	</bean>
+	<!-- 龙飞凤舞-修炼天赋-->
+	<bean id="com.teamtop.system.openDaysSystem.talentSendGiftActive.TalentSendGiftActiveCG" desc="龙飞凤舞-修炼天赋" funid="7501">
+		<cache id="com.teamtop.system.openDaysSystem.talentSendGiftActive.TalentSendGiftActiveSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7501">
+			<property cmdId="9351" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!-- 龙飞凤舞-天赋目标-->
+	<bean id="com.teamtop.system.openDaysSystem.talentGoal.TalentGoalCG" desc="龙飞凤舞-天赋目标" funid="7502">
+		<cache id="com.teamtop.system.openDaysSystem.talentGoal.TalentGoalSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7502">
+			<property cmdId="9401" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!--群雄逐鹿-->
+	<bean id="com.teamtop.system.crossZhuLu.QunXiongZhuLuCG" desc="群雄逐鹿" funid="3706">
+		<event id= "com.teamtop.system.crossZhuLu.QunXiongZhuLuEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "logout"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "fixTime" time="w10959_1"/>
+		</event>
+		<cmd funid="3706">
+			<property cmdId="8951" methodName="enterMap" />
+			<property cmdId="8953" methodName="openRankUI" />
+			<property cmdId="8955" methodName="openTaskUI" />
+			<property cmdId="8957" methodName="openBaoKuUI" />
+			<property cmdId="8959" methodName="openRecord" />
+			<property cmdId="8961" methodName="exchange" />
+			<property cmdId="8963" methodName="getTaskReward" />
+			<property cmdId="8965" methodName="openCountryRankUI" />
+			<property cmdId="8967" methodName="move" />
+			<property cmdId="8969" methodName="showCityInfo" />
+			<property cmdId="8971" methodName="attack" />
+			<property cmdId="8973" methodName="battleResult" />
+			<property cmdId="8975" methodName="buySta" />
+			<property cmdId="8977" methodName="getDefendAwardInfo" />
+			<property cmdId="8979" methodName="gotDefendAward" />
+			<property cmdId="8983" methodName="openPersonRankUI" />
+			<property cmdId="8985" methodName="buffBuy" />
+		</cmd>
+	</bean>
+	<!--合服-首冲-->																
+	<bean id="com.teamtop.system.activity.ativitys.hefuFristRecharge.HeFuFristRechargeCG" desc="合服-首冲" funid="7604">
+		<cmd funid="7604">
+			<property cmdId="9631" methodName="getreward" />
+		</cmd>
+	</bean>
+	<!--合服-大神送礼-->																
+	<bean id="com.teamtop.system.activity.ativitys.hefuGodGift.HeFuGodGiftCG" desc="合服-大神送礼" funid="7602">
+		<cache id="com.teamtop.system.activity.ativitys.hefuGodGift.HeFuGodGiftSysCache">
+		    <property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<cmd funid="7602">
+			<property cmdId="9601" methodName="getreward" />
+		</cmd>
+	</bean>
+	<!--合服-张飞醉酒-->																
+	<bean id="com.teamtop.system.activity.ativitys.hefuZhangFeiBoss.HeFuZhangFeiBossCG" desc="合服-张飞醉酒" funid="7603">
+		<cache id="com.teamtop.system.activity.ativitys.hefuZhangFeiBoss.HeFuZhangFeiBossSysCache">
+		    <property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<cmd funid="7603">
+			<property cmdId="9641" methodName="addjiu" />
+			<property cmdId="9645" methodName="join" />
+			<property cmdId="9647" methodName="quit" />
+			<property cmdId="9653" methodName="cgherodie" />
+			<property cmdId="9655" methodName="buyLive" />
+			<property cmdId="9657" methodName="isaotufuhuo" />
+			<property cmdId="9663" methodName="openRank" />		
+			<property cmdId="9665" methodName="getBossReward" />
+		</cmd>
+	</bean>	
+	<!--合服-充值返利-->																
+	<bean id="com.teamtop.system.activity.ativitys.hefuRechargeBack.HeFuRechargeBackCG" desc="合服-充值返利" funid="7605">
+		<cmd funid="7605">
+			<property cmdId="9521" methodName="getreward" />
+		</cmd>
+	</bean>
+	<!--神将现世(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.godGenThisLifeAct.GodGenThisLifeActCG" desc="神将现世(活动)" funid="7218">
+		<cache id="com.teamtop.system.activity.ativitys.godGenThisLifeAct.GodGenThisLifeActSysCache">
+		    <property method = "initExcel"/>
+		</cache>
+		<cmd funid="7218">
+			<property cmdId="9551" methodName="turn" />
+			<property cmdId="9553" methodName="openRankUI" />
+			<property cmdId="9555" methodName="openTargetAwardUI" />
+			<property cmdId="9557" methodName="getTargetAward" />
+		</cmd>
+	</bean>
+	<!-- 三英战吕布-->
+	<bean id="com.teamtop.system.threeHeroFightLvBu.ThreeHeroFightLvBuCG" desc="三英战吕布" funid="7703">
+		<cache id="com.teamtop.system.threeHeroFightLvBu.ThreeHeroFightLvBuSysCache">
+		    <property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.threeHeroFightLvBu.ThreeHeroFightLvBuSysEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+			<property method = "logout"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+		</event>
+		<cmd funid="7703">
+			<property cmdId="9771" methodName="openUI" />
+			<property cmdId="9773" methodName="createTeam" />
+			<property cmdId="9775" methodName="kickOut" />
+			<property cmdId="9777" methodName="broadCastInvite" />
+			<property cmdId="9779" methodName="leaveTeam" />
+			<property cmdId="9781" methodName="joinByTeamId" />
+			<property cmdId="9783" methodName="challenge" />
+			<property cmdId="9785" methodName="enterNext" />
+			<property cmdId="9787" methodName="relive" />
+			<property cmdId="9789" methodName="exitCha" />
+			<property cmdId="9791" methodName="chaBoss" />
+			<property cmdId="9803" methodName="changeLeader" />
+			<property cmdId="9805" methodName="buyChaNum" />
+		</cmd>
+	</bean>
+	<!--奇策-->
+	<bean id="com.teamtop.system.qice.QiCeCG" desc="奇策" funid="7700">
+		<event id= "com.teamtop.system.qice.QiCeEvent">
+			<property method = "init"/>
+		</event>
+		<cmd funid="7700">
+			<property cmdId="9701" methodName="openQiCe" />
+			<property cmdId="9703" methodName="upQiCe" />
+			<property cmdId="9705" methodName="upQCtaozhuang" />
+			<property cmdId="9707" methodName="eatDan" />
+	        <property cmdId="9709" methodName="upQiCeJie" />       				
+		</cmd>
+	</bean>
+	<!--出谋策划-->																
+	<bean id="com.teamtop.system.qiceDraw.QiCeDrawCG" desc="出谋策划" funid="7702">
+		<event id= "com.teamtop.system.qiceDraw.QiCeDrawEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+		</event>
+		<cache id="com.teamtop.system.qiceDraw.QiCeDrawSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7702">
+			<property cmdId="9751" methodName="openUI" />
+			<property cmdId="9753" methodName="draw" />
+			<property cmdId="9755" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!--打气球(活动)-->																
+	<bean id="com.teamtop.system.activity.ativitys.playBalloon.PlayBalloonCG" desc="打气球(活动)" funid="7221">
+		<cache id="com.teamtop.system.activity.ativitys.playBalloon.PlayBalloonCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7221">
+			<property cmdId="10001" methodName="shooting" />
+		</cmd>
+	</bean>
+	<!--消费摇骰子(活动)-->																
+	<bean id="com.teamtop.system.activity.ativitys.rollDice.RollDiceCG" desc="消费摇骰子(活动)" funid="7220">
+		<cache id="com.teamtop.system.activity.ativitys.rollDice.RollDiceCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7220">
+			<property cmdId="10021" methodName="rolldice" />
+		</cmd>
+	</bean>
+	<!-- 运筹帷幄-锦囊妙计-->
+	<bean id="com.teamtop.system.openDaysSystem.bagGoodIdea.BagGoodIdeaCG" desc="运筹帷幄-锦囊妙计" funid="7712">
+		<cache id="com.teamtop.system.openDaysSystem.bagGoodIdea.BagGoodIdeaSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7712">
+			<property cmdId="9901" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!-- 运筹帷幄_奇策有礼-->
+	<bean id="com.teamtop.system.openDaysSystem.goodPolicyHasGift.GoodPolicyHasGiftCG" desc="运筹帷幄_奇策有礼" funid="7715">
+		<cache id="com.teamtop.system.openDaysSystem.goodPolicyHasGift.GoodPolicyHasGiftSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7715">
+			<property cmdId="9951" methodName="active" />
+			<property cmdId="9953" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!--粮草抢夺-->
+	<bean id="com.teamtop.system.battleGoods.BattleGoodsCG" desc="粮草抢夺" funid="3707">
+		<event id= "com.teamtop.system.battleGoods.event.BattleGoodLocalSysEvent">
+			<property method = "login"/>
+			<property method = "fixTime" time="d1925_1"/>
+		</event>
+		<cache id="com.teamtop.system.battleGoods.cache.BattleGoodsLocalCache">
+		    <property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>		
+		<cmd funid="3707">
+			<property cmdId="10101" methodName="inscene" />
+			<property cmdId="10105" methodName="battleMonster" />
+			<property cmdId="10107" methodName="getBatMonReward" />
+			<property cmdId="10109" methodName="getBox" />
+			<property cmdId="10111" methodName="stopgetbox" />
+			<property cmdId="10113" methodName="getBoxReward" />
+			<property cmdId="10115" methodName="battlePvp" />
+			<property cmdId="10123" methodName="openRewardUi" />
+			<property cmdId="10125" methodName="getreward" />
+			<property cmdId="10127" methodName="outscene" />
+			<property cmdId="10129" methodName="openRankUi" />
+			<property cmdId="10133" methodName="buyLive" />
+		</cmd>
+	</bean>
+	<!-- 新活动-连续充值 -->
+	<bean id="com.teamtop.system.activity.ativitys.seriesRechargeAct.SeriesRechargeActCG" desc="新活动-连续充值" funid="7222">
+		<cache id="com.teamtop.system.activity.ativitys.seriesRechargeAct.SeriesRechargeActSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7222">
+			<property cmdId="10201" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!--许愿树(活动)-->																
+	<bean id="com.teamtop.system.activity.ativitys.wishingTree.WishingTreeActCG" desc="许愿树(活动)" funid="7219">
+		<cache id="com.teamtop.system.activity.ativitys.wishingTree.WishingTreeActSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7219">
+			<property cmdId="10041" methodName="draw" />
+			<property cmdId="10043" methodName="getAward" />
+			<property cmdId="10045" methodName="openRankUI" />
+			<property cmdId="10047" methodName="openTarget" />
+			<property cmdId="10049" methodName="getTargetAward" />
+		</cmd>
+	</bean>
+	<!--许愿树(系统)-->																
+	<bean id="com.teamtop.system.openDaysSystem.wishingTree.WishingTreeCG" desc="许愿树(系统)" funid="7751">
+		<cache id="com.teamtop.system.openDaysSystem.wishingTree.WishingTreeSysCache">
+			<property method = "initExcel"/>
+		</cache>
+	</bean>	
+	<!--新活动-主题消费-->																
+	<bean id="com.teamtop.system.activity.ativitys.themeConsume.ThemeConsumeCG" desc="新活动-主题消费" funid="7223">
+		<cache id="com.teamtop.system.activity.ativitys.themeConsume.ThemeConsumeCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7223">
+			<property cmdId="10301" methodName="activation" />
+			<property cmdId="10303" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!--阵眼-->																
+	<bean id="com.teamtop.system.zhenYan.ZhenYanCG" desc="阵眼" funid="6004">
+	    <event id= "com.teamtop.system.zhenYan.ZhenYanEvent">
+	    	<property method = "init"/>
+			<property method = "login"/>
+		</event>
+		<cmd funid="6004">
+			<property cmdId="10251" methodName="openUI" />
+			<property cmdId="10253" methodName="upLevelZhenYan" />
+			<property cmdId="10255" methodName="upLevelZhenXin" />												
+		</cmd>		
+	</bean>		
+	<!--桃园结义-->																
+	<bean id="com.teamtop.system.taoyuanSworn.TaoyuanSwornCG" desc="桃园结义" funid="7901">
+		<event id= "com.teamtop.system.taoyuanSworn.TaoyuanSwornEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+			<property method = "loginReset"/>
+			<property method = "zeroHero"/>
+			<property method = "zeroPub"/>
+			<property method = "logout"/>
+		</event>
+		<cache id="com.teamtop.system.taoyuanSworn.TaoyuanSwornSysCache">
+		    <property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<cmd funid="7901">
+			<property cmdId="3101" methodName="getInfos" />
+			<property cmdId="3103" methodName="openMyGang" />
+			<property cmdId="3105" methodName="applyJoin" />												
+			<property cmdId="3107" methodName="getApplyMember" />												
+			<property cmdId="3109" methodName="approvalApply" />												
+			<property cmdId="3111" methodName="cancelApply" />												
+			<property cmdId="3113" methodName="quit" />												
+			<property cmdId="3115" methodName="expel" />												
+			<property cmdId="3117" methodName="getreward" />												
+			<property cmdId="3119" methodName="transfer" />												
+			<property cmdId="3121" methodName="applyBrother" />												
+			<property cmdId="3123" methodName="recruiting" />												
+			<property cmdId="3125" methodName="changeName" />												
+			<property cmdId="3127" methodName="create" />												
+			<property cmdId="3131" methodName="openTaoyuanBossUI" />												
+			<property cmdId="3133" methodName="chooseBoss" />												
+			<property cmdId="3135" methodName="getBossReward" />												
+			<property cmdId="3137" methodName="challengeBOSS" />												
+			<property cmdId="3141" methodName="quitTaoyuanBoss" />												
+		</cmd>	
+	</bean>
+	<!--成就-->																
+	<bean id="com.teamtop.system.achievement.AchievementCG" desc="成就" funid="7801">
+		<event id= "com.teamtop.system.achievement.AchievementSysEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+		</event>
+		<cache id="com.teamtop.system.achievement.AchievementSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7801">
+			<property cmdId="10321" methodName="openUI" />
+			<property cmdId="10323" methodName="getReward" />
+			<property cmdId="10325" methodName="openGoalUI" />
+			<property cmdId="10327" methodName="getGoalReward" />
+			<property cmdId="10329" methodName="upAchievement" />
+		</cmd>
+	</bean>
+	<!--三国战令(活动)-->																
+	<bean id="com.teamtop.system.activity.ativitys.warOrderAct.WarOrderActCG" desc="三国战令(活动)" funid="7226">
+		<cache id="com.teamtop.system.activity.ativitys.warOrderAct.WarOrderActSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7226">
+			<property cmdId="10401" methodName="getWarOrderReward" />
+			<property cmdId="10403" methodName="openTaskUI" />
+			<property cmdId="10405" methodName="getReward" />
+			<property cmdId="10407" methodName="openShopUI" />
+			<property cmdId="10409" methodName="buy" />
+		</cmd>
+	</bean>
+	<!--新活动-幸运翻牌-->																
+	<bean id="com.teamtop.system.activity.ativitys.luckTurnCardAct.LuckTurnCardActCG" desc="新活动-幸运翻牌" funid="7224">
+		<cache id="com.teamtop.system.activity.ativitys.luckTurnCardAct.LuckTurnCardActSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7224">
+			<property cmdId="10341" methodName="turn" />
+			<property cmdId="10343" methodName="openTargetAwardUI" />
+			<property cmdId="10345" methodName="getTargetAward" />
+		</cmd>
+	</bean>
+	<!--限时礼包-->																
+	<bean id="com.teamtop.system.actGift.ActGiftCG" desc="限时礼包" funid="7770">
+		<cache id="com.teamtop.system.actGift.ActGiftCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.actGift.ActGiftEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+			<property method = "zeroHero"/>
+			<property method = "loginReset"/>
+		</event>
+		<cmd funid="7770">
+			<property cmdId="10451" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!--新活动-全服消费-->																
+	<bean id="com.teamtop.system.activity.ativitys.serverConsumeAct.ServerConsumeActCG" desc="新活动-全服消费" funid="7225">
+		<cache id="com.teamtop.system.activity.ativitys.serverConsumeAct.ServerConsumeActSysCache">
+			<property method = "initExcel"/>
+			<property method = "startServer"/>
+			<property method = "shutdownServer"/>
+		</cache>
+		<event id="com.teamtop.system.activity.ativitys.serverConsumeAct.ServerConsumeActEvent">
+			<property method = "fixTime" starttime="0000" time="g60_1"/>
+		</event>
+		<cmd funid="7225">
+			<property cmdId="10421" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!--成就树(活动)-->																
+	<bean id="com.teamtop.system.activity.ativitys.achievementTree.AchievementTreeCG" desc="成就树(活动)" funid="7228">
+		<cache id="com.teamtop.system.activity.ativitys.achievementTree.AchievementTreeSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7228">
+			<property cmdId="10571" methodName="openFloorUI" />
+			<property cmdId="10573" methodName="getReward" />
+		</cmd>
+	</bean>
+	<!--轮回-天命-->																
+	<bean id="com.teamtop.system.reincarnationGodfate.ReincarnationGodFateCG" desc="轮回-天命" funid="6902">
+		<cache id="com.teamtop.system.reincarnationGodfate.ReincarnationGodFateSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id="com.teamtop.system.reincarnationGodfate.ReincarnationGodFateEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+			<property method = "zeroHero"/>
+			<property method = "levelUp" funid="6902"/>
+		</event>
+		<cmd funid="6902">
+			<property cmdId="10591" methodName="openUI" />
+			<property cmdId="10593" methodName="up" />
+		</cmd>
+	</bean>
+	<!--累计返利(活动)-->																
+	<bean id="com.teamtop.system.activity.ativitys.totalRebate.TotalRebateCG" desc="累计返利(活动)" funid="7230">
+		<cache id="com.teamtop.system.activity.ativitys.totalRebate.TotalRebateCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7230">
+			<property cmdId="10751" methodName="getAward" />
+		</cmd>
+	</bean>
+	<!-- 新活动-宝藏拼图-->
+	<bean id="com.teamtop.system.activity.ativitys.baoZangPinTu.BaoZangPinTuCG" desc="新活动-宝藏拼图" funid="7227">
+		<cmd funid="7227">
+			<property cmdId="10651" methodName="activate" />
+			<property cmdId="10653" methodName="gotAward" />
+		</cmd>
+	</bean>
+	<!--新活动-双12商城-->
+	<bean id="com.teamtop.system.activity.ativitys.doubleTwelveShop.DoubleTwelveShopCG" desc="新活动-双12商城" funid="7231">
+		<cache id="com.teamtop.system.activity.ativitys.doubleTwelveShop.DoubleTwelveShopCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7231">
+			<property cmdId="10701" methodName="buyItems" />
+		</cmd>
+	</bean>
+	<!--新活动-节日商城-->
+	<bean id="com.teamtop.system.activity.ativitys.holidayMall.HolidayMallCG" desc="新活动-节日商城" funid="7229">
+		<cache id="com.teamtop.system.activity.ativitys.holidayMall.HolidayMallCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7229">
+			<property cmdId="10801" methodName="refreshShopData" />
+			<property cmdId="10803" methodName="refreshCutDownData" />
+			<property cmdId="10805" methodName="buy" />
+		</cmd>
+	</bean>
+	<!--财神送礼(活动)-->																
+	<bean id="com.teamtop.system.activity.ativitys.godOfWealthSendGiftAct.GodOfWealthSendGiftActCG" desc="财神送礼(活动)" funid="7232">
+		<cache id="com.teamtop.system.activity.ativitys.godOfWealthSendGiftAct.GodOfWealthSendGiftActCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id="com.teamtop.system.activity.ativitys.godOfWealthSendGiftAct.GodOfWealthSendGiftActEvent">
+			<property method = "login"/>
+			<property method = "zeroHero"/>
+		</event>
+		<cmd funid="7232">
+			<property cmdId="10771" methodName="turn" />
+		</cmd>
+	</bean>
+	<!--跨服王者-->																
+	<bean id="com.teamtop.system.crossTeamKing.CrossTeamKingCG" desc="跨服王者" funid="3610">
+		<cache id="com.teamtop.system.crossTeamKing.local.CrossTeamKingLocalCache">
+		    <property method = "startServer"/>
+			<property method = "initExcel"/>
+	        <property method = "shutdownServer"/>			
+		</cache>
+		<event id="com.teamtop.system.crossTeamKing.local.CrossTeamKingLocalEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+		    <property method = "zeroPub"/>	
+		    <property method = "loginReset" />
+			<property method = "zeroHero" />
+		</event>
+		<cmd funid="3610">
+			<property cmdId="10821" methodName="openUi" />
+			<property cmdId="10823" methodName="createteam" />
+            <property cmdId="10825" methodName="invitation" />
+            <property cmdId="10829" methodName="joinTeam" />
+            <property cmdId="10833" methodName="exchange" />
+            <property cmdId="10835" methodName="exitteam" />
+            <property cmdId="10837" methodName="moveMeber" />
+            <property cmdId="10839" methodName="marryBattle" />	
+            <property cmdId="10847" methodName="openRank" />
+            <property cmdId="10849" methodName="getReward" />
+            <property cmdId="10851" methodName="getLog" />	
+            <property cmdId="10855" methodName="cancelMarry" /> 
+            <property cmdId="10857" methodName="overPveBattle" />  
+            <property cmdId="10859" methodName="joinAct" />
+            <property cmdId="10861" methodName="buyCount" />  
+            <property cmdId="10863" methodName="quitBattle" />                           		
+		</cmd>
+	</bean>
+	<!--镇守四方-->
+	<bean id="com.teamtop.system.guardArea.GuardAreaCG" desc="镇守四方" funid="7704">
+		<event id="com.teamtop.system.guardArea.GuardAreaLocalEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+			<property method = "zeroHero"/>
+			<property method = "loginReset"/>
+			<property method = "logout"/>
+		</event>
+		<cmd funid="7704">
+			<property cmdId="10901" methodName="openUI" />
+			<property cmdId="10903" methodName="dispatch" />
+			<property cmdId="10905" methodName="getAward" />
+			<property cmdId="10907" methodName="recall" />
+			<property cmdId="10909" methodName="openPlunderUI" />
+			<property cmdId="10911" methodName="plunder" />
+			<property cmdId="10913" methodName="refresh" />
+			<property cmdId="10915" methodName="openReportUI" />
+			<property cmdId="10917" methodName="openShopUI" />
+			<property cmdId="10919" methodName="buyItem" />
+			<property cmdId="10921" methodName="battleResult" />
+		</cmd>
+	</bean>
+	<!--坐骑-->
+	<bean id="com.teamtop.system.mount.MountCG" desc="坐骑" funid="7811">
+		<event id= "com.teamtop.system.mount.MountEvent">
+		    <property method = "login"/>
+			<property method = "init"/>
+		</event>
+		<cmd funid="7811">
+		    <property cmdId="11021" methodName="openMountUI" />
+			<property cmdId="11023" methodName="ride" />
+			<property cmdId="11025" methodName="upStar" />
+			<property cmdId="11027" methodName="upMountLv" />
+			<property cmdId="11029" methodName="openMountUnrealUI" />
+			<property cmdId="11031" methodName="rideUnreal" />
+			<property cmdId="11033" methodName="activation" />
+			<property cmdId="11035" methodName="upMountUnrealLv" />
+		</cmd>
+	</bean>
+	<!--宴会-->
+	<bean id="com.teamtop.system.house.yanhui.YanhuiCG" desc="宴会" funid="4705">
+	    <event id= "com.teamtop.system.house.yanhui.event.YanhuiEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "logout" />
+			<property method = "fixTime" time="d1800_1,d2030_2"/>
+		</event>
+		<cmd funid="4705">
+			<property cmdId="11451" methodName="openListUI" />
+			<property cmdId="11453" methodName="enterScene" />
+			<property cmdId="11455" methodName="fuyan" />
+		    <property cmdId="11457" methodName="juban" />
+			<property cmdId="11459" methodName="jingjiu" />
+		    <property cmdId="11461" methodName="lingjiang" />
+		    <property cmdId="11463" methodName="kaiqiBiwu" />
+		    <property cmdId="11465" methodName="yaoqing" />
+		    <property cmdId="11467" methodName="quit" />
+		    <property cmdId="11469" methodName="battleboss" />
+		    <property cmdId="11471" methodName="battlerest" />
+		    <property cmdId="11475" methodName="backIntoScene" />
+		    <property cmdId="11479" methodName="shenqing" />
+		    <property cmdId="11481" methodName="gouxuan" />
+		    <property cmdId="11483" methodName="pizhunShenqing" />
+		</cmd>
+	</bean>	
+	<!--对对联(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.coupletAct.CoupletActCG" desc="对对联(活动)" funid="7234">
+		<cache id="com.teamtop.system.activity.ativitys.coupletAct.CoupletActSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7234">
+			<property cmdId="11321" methodName="commit" />
+			<property cmdId="11323" methodName="openRankUI" />
+			<property cmdId="11325" methodName="getTargetAward" />
+		</cmd>
+	</bean>
+	<!--幸运扭蛋(活动)-->																
+	<bean id="com.teamtop.system.activity.ativitys.luckyTwist.LuckyTwistCG" desc="幸运扭蛋(活动)" funid="7233">
+		<cache id="com.teamtop.system.activity.ativitys.luckyTwist.LuckyTwistSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7233">
+			<property cmdId="11001" methodName="draw" />
+			<property cmdId="11003" methodName="chooseItem" />
+		</cmd>
+	</bean>
+	<!-- 金鼠送财 -->
+	<bean id="com.teamtop.system.activity.ativitys.goldenMouse.GoldenMouseCG" desc="金鼠送财" funid="7237">
+		<cmd funid="7237">
+			<property cmdId="11581" methodName="buy" />
+		</cmd>
+	</bean>
+    <!-- 府邸商店任务目标 -->
+	<bean id="com.teamtop.system.houseShopTask.HouseShopTaskCG" desc="府邸商店任务目标" funid="4702">
+	    <cache id="com.teamtop.system.houseShopTask.HouseShopTaskCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id="com.teamtop.system.houseShopTask.HouseShopTaskEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+			<property method = "zeroHero"/>
+			<property method = "loginReset"/>
+		</event>
+		<cmd funid="4702">
+			<property cmdId="11401" methodName="openShopUi" />
+			<property cmdId="11403" methodName="restShopId" />
+			<property cmdId="11405" methodName="buyIndex" />
+			<property cmdId="11407" methodName="opendaytask" />
+			<property cmdId="11409" methodName="getTaskReward" />
+			<property cmdId="11411" methodName="getBoxReward" />
+			<property cmdId="11413" methodName="openGoal" />
+			<property cmdId="11415" methodName="getGoalReward" />
+		</cmd>
+	</bean> 
+	<!--新活动-天降红包-->
+	<bean id="com.teamtop.system.activity.ativitys.dropRedPacket.DropRedPacketCG" desc="新活动-天降红包" funid="7235">
+		<cache id="com.teamtop.system.activity.ativitys.dropRedPacket.DropRedPacketSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.activity.ativitys.dropRedPacket.DropRedPacketEvent">
+			<property method = "zeroPub"/>
+			<property method = "fixTime" starttime="0001" time="g1_1"/>
+		</event>
+		<cmd funid="7235">
+			<property cmdId="11371" methodName="sendUI" />
+			<property cmdId="11373" methodName="send" />
+			<property cmdId="11375" methodName="get" />
+			<property cmdId="11377" methodName="openRecordUI" />
+		</cmd>
+	</bean>
+	<!--府邸系统-->
+	<bean id="com.teamtop.system.house.yard.YardCG" desc="府邸系统" funid="4702">
+		<event id="com.teamtop.system.house.yard.HouseEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+			<property method = "zeroHero"/>
+			<property method = "loginReset"/>
+			<property method = "logout"/>
+		</event>
+		<cmd funid="4702">
+			<property cmdId="11101" methodName="gotoYard" />
+			<property cmdId="11103" methodName="outHouse" />
+			<property cmdId="11105" methodName="upHouseLv" />
+			<property cmdId="11107" methodName="upHouseDc" />
+			<property cmdId="11109" methodName="upDecorateLv" />
+			<property cmdId="11111" methodName="shakeTree" />
+			<property cmdId="11113" methodName="harvestMoney" />
+			<property cmdId="11115" methodName="drawAward" />
+			<property cmdId="11117" methodName="sacrifice" />
+			<property cmdId="11119" methodName="gotoRoom" />
+			<property cmdId="11121" methodName="openRankUI" />
+			<property cmdId="11123" methodName="getEventAward" />
+			<property cmdId="11127" methodName="battleMonster" />
+			<property cmdId="11129" methodName="getBatMonReward" />
+			<property cmdId="11131" methodName="getGoldInfo" />
+			<property cmdId="11133" methodName="openLog" />
+		</cmd>
+	</bean>
+	<!--新活动-做元宵-->
+	<bean id="com.teamtop.system.activity.ativitys.yuanXiao.YuanXiaoLocalCG" desc="新活动-做元宵" funid="7239">
+		<event id= "com.teamtop.system.activity.ativitys.yuanXiao.YuanXiaoLocalEvent">
+			<property method = "zeroHero"/>
+			<property method = "loginReset"/>
+		</event>
+		<cmd funid="7239">
+			<property cmdId="11631" methodName="openBattle" />
+			<property cmdId="11633" methodName="battleHid" />
+			<property cmdId="11635" methodName="refresh" />
+			<property cmdId="11637" methodName="make" />
+			<property cmdId="11639" methodName="getCaiLiao" />
+		</cmd>
+	</bean>
+	<!--红包系统-->
+	<bean id="com.teamtop.system.redBox.RedBoxCG" desc="红包系统" funid="7821">
+		<event id= "com.teamtop.system.redBox.RedBoxEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+			<property method = "zeroHero"/>
+			<property method = "loginReset"/>
+			<property method = "zeroPub"/>
+		</event>
+		<cmd funid="7821">
+			<property cmdId="11761" methodName="lookinfos" />
+			<property cmdId="11763" methodName="faBoxs" />
+			<property cmdId="11765" methodName="getBox" />
+			<property cmdId="11769" methodName="openUI" />
+		</cmd>
+	</bean>	
+	<!--轮回副本-->
+	<bean id="com.teamtop.system.crossRebornFB.RebornFBCG" desc="轮回副本" funid="6903">
+		<cache id="com.teamtop.system.crossRebornFB.RebornFBCache">
+			<property method = "initExcel"/>
+		</cache>
+		<event id= "com.teamtop.system.crossRebornFB.local.RebornFBLocalEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+			<property method = "zeroHero"/>
+			<property method = "loginReset"/>
+		</event>
+		<cmd funid="6903">
+			<property cmdId="11861" methodName="openUi" />
+			<property cmdId="11863" methodName="createTeam" />
+			<property cmdId="11867" methodName="joinTeam" />
+			<property cmdId="11869" methodName="invitation" />
+			<property cmdId="11873" methodName="exitTeam" />
+			<property cmdId="11875" methodName="moveMeber" />
+			<property cmdId="11877" methodName="refreshStar" />
+			<property cmdId="11881" methodName="battle" />
+			<property cmdId="11887" methodName="leaveBattle" />
+			<property cmdId="11891" methodName="loginCross" />
+		</cmd>
+	</bean>			
+	<!--登峰造极-->
+	<bean id="com.teamtop.system.dengFengZaoJi.DengFengZaoJiCG" desc="登峰造极" funid="7720">
+		<cache id="com.teamtop.system.dengFengZaoJi.DengFengZaoJiCache">
+		    <property method = "startServer"/>
+		</cache>
+	    <event id= "com.teamtop.system.dengFengZaoJi.event.DengFengZaoJiEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "logout" />
+			<property method = "loginReset" />
+			<property method = "zeroHero" />
+			<property method = "fixTime" time="w11000_1,w52200_2,w61000_3,w72200_4"/>
+		</event>
+		<cmd funid="7720">
+			<property cmdId="11951" methodName="openUI" />
+			<property cmdId="11953" methodName="buyTime" />
+			<property cmdId="11955" methodName="rankReward" />
+		    <property cmdId="11957" methodName="scoreReward" />
+			<property cmdId="11959" methodName="replace" />
+		    <property cmdId="11961" methodName="getPredictData" />
+		    <property cmdId="11963" methodName="bet" />
+		    <property cmdId="11965" methodName="battle" />
+		    <property cmdId="11967" methodName="battlerest" />
+		    <property cmdId="11969" methodName="receive" />
+		</cmd>
+	</bean>	
+	<!--轮回-六道-->
+	<bean id="com.teamtop.system.sixWay.SixWayCG" desc="轮回-六道" funid="6904">
+		<event id= "com.teamtop.system.sixWay.SixWayEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+		</event>
+		<cmd funid="6904">
+			<property cmdId="11901" methodName="openUi" />
+			<property cmdId="11903" methodName="openOneWay" />
+			<property cmdId="11905" methodName="useYingJi" />
+			<property cmdId="11907" methodName="uplevel" />
+			<property cmdId="11909" methodName="upstar" />
+			<property cmdId="11911" methodName="fenjie" />
+			<property cmdId="11915" methodName="fenjieBytype" />
+		</cmd>
+	</bean>				
+	<!--侍女-->
+	<bean id="com.teamtop.system.house.maid.MaidCG" desc="侍女" funid="4703">
+		<event id= "com.teamtop.system.house.maid.MaidEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+		</event>
+		<cmd funid="4703">
+			<property cmdId="11301" methodName="openUI" />
+			<property cmdId="11303" methodName="upMaid" />
+	        <property cmdId="11305" methodName="upMaidLevel" />   
+	        <property cmdId="11307" methodName="useMaid" />               				
+		</cmd>
+	</bean>
+	<!--家丁-->
+	<bean id="com.teamtop.system.house.houseKeeper.HouseKeeperCG" desc="家丁" funid="4704">
+		<event id= "com.teamtop.system.house.houseKeeper.HouseKeeperEvent">
+			<property method = "init"/>
+			<property method = "login"/>
+		</event>
+		<cmd funid="4704">
+			<property cmdId="11351" methodName="openUI" />
+			<property cmdId="11353" methodName="upHouseKeeper" />
+	        <property cmdId="11355" methodName="upHouseKeeperLevel" />                				
+		</cmd>
+	</bean>
+	<!--貔貅散宝(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.pixiutreasure.PiXiuTreasureCG" desc="对对联(活动)" funid="7244">
+		<cache id="com.teamtop.system.activity.ativitys.pixiutreasure.PiXiuTreasureCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7244">
+			<property cmdId="12101" methodName="get" />
+		</cmd>
+	</bean>
+	<!--攻城拔寨-->
+	<bean id="com.teamtop.system.crossAttackCity.AttackCityCG" desc="攻城拔寨" funid="7831">
+		<event id="com.teamtop.system.crossAttackCity.AttackCityLocalEvent">
+			<property method = "login"/>
+			<property method = "init"/>
+			<property method = "zeroHero"/>
+			<property method = "loginReset"/>
+			<property method = "logout"/>
+			<property method = "fixTime" time="d2350_1"/>
+		</event>
+		<cmd funid="7831">
+			<property cmdId="12051" methodName="openUI" />
+			<property cmdId="12053" methodName="dispatch" />
+			<property cmdId="12055" methodName="getAward" />
+			<property cmdId="12057" methodName="plunder" />
+			<property cmdId="12059" methodName="battleResult" />
+			<property cmdId="12061" methodName="attackNPC" />
+			<property cmdId="12063" methodName="battleNPCResult" />
+			<property cmdId="12065" methodName="openShopUI" />
+			<property cmdId="12067" methodName="buyItem" />
+			<property cmdId="12069" methodName="openReportUI" />
+			<property cmdId="12071" methodName="again" />
+			<property cmdId="12073" methodName="buyTimes" />
+			<property cmdId="12075" methodName="move" />
+			<property cmdId="12077" methodName="choose" />
+			<property cmdId="12081" methodName="checkBox" />
+		</cmd>
+	</bean>
+	<!--武庙十哲(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.wuMiaoShiZheAct.WuMiaoShiZheActCG" desc="武庙十哲(活动)" funid="7245">
+		<cache id="com.teamtop.system.activity.ativitys.wuMiaoShiZheAct.WuMiaoShiZheActSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7245">
+			<property cmdId="12201" methodName="openTargetAwardUI" />
+			<property cmdId="12203" methodName="getTargetAward" />
+		</cmd>
+	</bean>
+	<!--幸运福签(活动)-->
+	<bean id="com.teamtop.system.activity.ativitys.luckSign.LuckSignCG" desc="幸运福签(活动)" funid="7246">
+		<cache id="com.teamtop.system.activity.ativitys.luckSign.LuckSignSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="7246">
+			<property cmdId="12151" methodName="draw" />
+			<property cmdId="12153" methodName="openRankUI" />
+			<property cmdId="12155" methodName="getTargetAward" />
+			<property cmdId="12157" methodName="getAward" />
+			<property cmdId="12159" methodName="openLuckSign" />
+		</cmd>
+	</bean>
+	<!--犒赏三军(系统)-->																
+	<bean id="com.teamtop.system.openDaysSystem.warOrder.WarOrderCG" desc="犒赏三军(系统)" funid="8001">
+		<cache id="com.teamtop.system.openDaysSystem.warOrder.WarOrderSysCache">
+			<property method = "initExcel"/>
+		</cache>
+	</bean>	
+	<!--犒赏三军(活动)-->																
+	<bean id="com.teamtop.system.activity.ativitys.warOrder.WarOrderCG" desc="犒赏三军(活动)">
+		<cache id="com.teamtop.system.activity.ativitys.warOrder.WarOrderSysCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="8003">
+			<property cmdId="12251" methodName="getWarOrderReward" />
+			<property cmdId="12253" methodName="openTaskUI" />
+			<property cmdId="12255" methodName="getReward" />
+			<property cmdId="12257" methodName="openDayTaskUI" />
+			<property cmdId="12259" methodName="getDayReward" />
+			<property cmdId="12261" methodName="buyLevel" />
+		</cmd>
+	</bean>
+	<!--万元红包-->
+	<bean id="com.teamtop.system.wanyuanhongbao.WanyuanHongbaoCG" desc="万元红包" funid="8201">
+		<event id= "com.teamtop.system.wanyuanhongbao.WanyuanHongbaoEvent">
+			<property method = "init" />
+			<property method = "login" />
+			<property method = "levelUp" level="gap" startLevel="10" endLevel="5000" gapLevel="10"/>
+		</event>
+		<cmd funid="8201">
+			<property cmdId="20011" methodName="openUI" />
+			<property cmdId="20013" methodName="getAwards" />
+		</cmd>
+	</bean>
+	<!--超值礼包-->
+	<bean id="com.teamtop.system.extraValueGiftBag.ExtraValueGiftBagCG" desc="超值礼包" funid="8101">
+		<event id= "com.teamtop.system.extraValueGiftBag.ExtraValueGiftBagEvent">
+			<property method = "init" />
+		    <property method = "login"/>
+		    <property method = "zeroHero" />	
+		    <property method = "loginReset" />
+		</event>
+		<cache id="com.teamtop.system.extraValueGiftBag.ExtraValueGiftBagCache">
+			<property method = "initExcel"/>
+		</cache>
+		<cmd funid="8101">
+			<property cmdId="20001" methodName="openUI" />
+		</cmd>
+	</bean>
+</beans>

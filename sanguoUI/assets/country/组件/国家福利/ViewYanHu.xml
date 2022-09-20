@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="620,768">
+  <displayList>
+    <component id="n0_zftk" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,0" size="625,768"/>
+    <list id="n1_zftk" name="list" xy="0,10" size="618,675" overflow="scroll" margin="5,0,5,0" defaultItem="ui://uwzc58njzftk3c">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n4_zftk" name="n4" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="28,711" size="99,27"/>
+    <richtext id="n3_zftk" name="linkLb" xy="40,711" size="77,25" fontSize="18" color="#00ff00" underline="true" text="玩法说明"/>
+    <component id="n5_zftk" name="SheYanBtn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="462,701">
+      <Button title="设 宴"/>
+    </component>
+  </displayList>
+</component>

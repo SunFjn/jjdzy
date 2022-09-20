@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 合服事件-->
+	<bean desc="角色合服事件" class="com.teamtop.hefu.events.HeroHefuEvent" />
+	<bean desc="邮件合服事件" class="com.teamtop.hefu.events.MailHefuEvent" />
+	<bean desc="合服活动活动事件" class="com.teamtop.hefu.events.HeFuActivityEvent" />
+	<bean desc="Global数据合服事件" class="com.teamtop.hefu.events.GlobalHefuEvent" />
+	<bean desc="黑名单" class="com.teamtop.hefu.events.BlackListHefuEvent" />
+	
+</beans>

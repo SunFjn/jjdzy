@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="m0rbmsgs" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="rcvu24" name="View_TuJian_Panel.xml" path="/" exported="true"/>
+    <component id="rcvu25" name="TuJianListItem.xml" path="/" exported="true"/>
+    <component id="rcvu27" name="View_TuJianUp_Panel.xml" path="/" exported="true"/>
+    <component id="rkgc2k" name="View_TuJianUpStar_Panel.xml" path="/" exported="true"/>
+    <component id="rkgc2l" name="View_TuJianSuit_Panel.xml" path="/" exported="true"/>
+    <image id="h3bo2m" name="bg4.png" path="/image/" exported="true"/>
+    <image id="h3bo2o" name="bg5.png" path="/image/" exported="true"/>
+    <image id="h3bo2q" name="bg6.png" path="/image/" exported="true"/>
+    <image id="h3bo2r" name="type3.png" path="/image/" exported="true"/>
+    <image id="h3bo2s" name="bg3.png" path="/image/" exported="true"/>
+    <image id="h3bo2u" name="type2.png" path="/image/" exported="true"/>
+    <image id="h3bo30" name="type0.png" path="/image/" exported="true"/>
+    <image id="h3bo31" name="type1.png" path="/image/" exported="true"/>
+    <image id="tli038" name="图鉴标题.png" path="/image/" exported="true"/>
+    <image id="cia23a" name="蔡文姬.jpg" path="/image/"/>
+    <component id="cia23b" name="TuJianItem.xml" path="/" exported="true"/>
+    <component id="cjfy3d" name="TuJianUpStarItem.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="TuJian" genCode="true" npot="true" excluded="cia23a,h3bo2s,h3bo2m,h3bo2o,h3bo2q"/>
+</packageDescription>

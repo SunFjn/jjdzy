@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="618,148">
+  <displayList>
+    <image id="n3_luu2" name="n3" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="618,148"/>
+    <image id="n5_kwfv" name="n5" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="24,18"/>
+    <richtext id="n0_d7mw" name="lbCondition" xy="31,17" size="40,28" fontSize="18" color="#ffffff" text=""/>
+    <component id="n1_d7mw" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="447,48">
+      <Button title="领取"/>
+    </component>
+    <image id="n2_d7mw" name="ylq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="449,54"/>
+    <component id="n4_9xar" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="450,45">
+      <Button title="前往"/>
+    </component>
+  </displayList>
+</component>

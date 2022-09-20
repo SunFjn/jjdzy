@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="642,923">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <list id="n5_sr40" name="list" xy="16,230" size="613,693" overflow="scroll" lineGap="10" defaultItem="ui://7a366usasr401g" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n11_loov" name="vTitle" src="loov1t" fileName="组件/六出祁山/ItemLCQSTitle.xml" xy="0,43"/>
+    <component id="n14_t1ya" name="tabBtn0" src="t1ya3hg" fileName="组件/BtnHard0.xml" pkg="jvxpx9em" xy="21,124" scale="0.8,0.8">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+    <component id="n15_t1ya" name="tabBtn1" src="t1ya3hh" fileName="组件/BtnHard1.xml" pkg="jvxpx9em" xy="117,124" scale="0.8,0.8">
+      <Button controller="c1" page="1"/>
+    </component>
+  </displayList>
+</component>

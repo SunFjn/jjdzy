@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,866" designImage="ui://ehelf5bh11m1w1c" designImageOffsetX="-22" designImageOffsetY="-78">
+  <displayList>
+    <component id="n0_v97g" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,866">
+      <Label title="查看套装"/>
+    </component>
+    <list id="n1_v97g" name="list" xy="19,72" size="565,782" overflow="scroll" lineGap="13" defaultItem="ui://ehelf5bhv97gw1y" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

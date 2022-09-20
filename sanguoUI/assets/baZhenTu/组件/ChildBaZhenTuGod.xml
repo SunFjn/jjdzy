@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,910">
+  <displayList>
+    <list id="n0_f8nk" name="list" xy="21,308" size="604,602" layout="flow_hz" overflow="scroll" lineGap="11" colGap="10" lineItemCount="2" defaultItem="ui://xrzn9ppairzj2c">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n36_irzj" name="imgBg" xy="19,158" size="602,141" url="ui://xrzn9ppaxoiv2i" autoSize="true"/>
+    <image id="n33_irzj" name="n33" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="286,241" size="333,48" flip="hz"/>
+    <richtext id="n34_irzj" name="lab" xy="296,262" size="308,25" touchable="false" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="right" autoSize="none" text="分解红色符文可得符文碎片"/>
+    <richtext id="n38_au5y" name="n0" xy="296,237" size="308,25" touchable="false" font="Microsoft YaHei" fontSize="18" color="#ff0000" align="right" autoSize="none" text="符文兑换数量不重置"/>
+    <component id="n35_irzj" name="labChip" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="50,250" size="137,33"/>
+  </displayList>
+</component>

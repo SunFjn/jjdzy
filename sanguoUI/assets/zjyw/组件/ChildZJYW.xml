@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="634,771">
+  <displayList>
+    <loader id="n12_fxp3" name="bg" xy="0,0" size="50,50"/>
+    <component id="n2_fxp3" name="item5" src="fxp31" fileName="组件/ItemZJYW.xml" xy="346,495"/>
+    <component id="n1_fxp3" name="item4" src="fxp31" fileName="组件/ItemZJYW.xml" xy="116,494"/>
+    <component id="n3_fxp3" name="item6" src="fxp31" fileName="组件/ItemZJYW.xml" xy="226,297"/>
+    <component id="n4_fxp3" name="item2" src="fxp31" fileName="组件/ItemZJYW.xml" xy="7,316"/>
+    <component id="n5_fxp3" name="item3" src="fxp31" fileName="组件/ItemZJYW.xml" xy="434,316"/>
+    <component id="n6_fxp3" name="item0" src="fxp31" fileName="组件/ItemZJYW.xml" xy="101,73"/>
+    <component id="n7_fxp3" name="item1" src="fxp31" fileName="组件/ItemZJYW.xml" xy="353,77"/>
+    <component id="n8_fxp3" name="btnHand" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="257,680">
+      <Button title="挑战"/>
+    </component>
+    <richtext id="n9_fxp3" name="txtCnt" xy="269,742" size="108,31" fontSize="20" color="#ffffff" text="挑战次数: 0">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n10_fxp3" name="txtCost" xy="469,742" size="128,31" fontSize="20" color="#ffffff" text="消耗演武令: 0"/>
+    <component id="n11_fxp3" name="itemInfo" src="fxp32" fileName="组件/VChInfo.xml" xy="12,611" size="140,159"/>
+    <image id="n14_fxp3" name="iconActTm" src="fxp37" fileName="image/活动武将标签.png" xy="371,226"/>
+    <image id="n15_fxp3" name="n15" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="500,6" size="122,27" flip="hz"/>
+    <image id="n18_ri6v" name="imgTime" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="18,6" size="215,27"/>
+    <richtext id="n16_fxp3" name="txtDes" xy="540,8" size="77,28" fontSize="18" color="#00ff00" text="玩法说明"/>
+    <richtext id="n17_ri6v" name="labTime" xy="22,8" size="169,28" fontSize="18" color="#00ff00" text="剩余时间：00:00:00"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n14_fxp3" tween="true" startValue="371,226" endValue="371,216" duration="24"/>
+    <item time="24" type="XY" target="n14_fxp3" tween="true" startValue="371,216" endValue="371,226" duration="24"/>
+  </transition>
+</component>

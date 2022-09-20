@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://wx4kos8uosj31">
+  <displayList>
+    <component id="n0_xwoq" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="22,155" size="594,887">
+      <Label title="查看奖池"/>
+    </component>
+    <list id="n8_lxqw" name="list" xy="24,229" size="577,796" overflow="scroll" defaultItem="ui://wx4kos8ulxqwn" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

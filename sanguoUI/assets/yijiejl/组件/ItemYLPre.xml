@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="539,90">
+  <displayList>
+    <image id="n6_oxr7" name="n6" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="536,90"/>
+    <image id="n8_rh96" name="imgXW" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="137,35"/>
+    <richtext id="n1_opnx" name="n1" xy="34,28" size="19,35" fontSize="24" color="#ffc334" text="9"/>
+    <list id="n4_opnx" name="n4" xy="292,1" size="309,107" scale="0.8,0.8" layout="flow_hz" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n7_oxr7" name="n7" xy="11,10" size="50,50" locked="true" url="ui://jvxpx9em100v3al"/>
+    <richtext id="n2_opnx" name="n2" xy="122,14" size="131,28" group="n9_rh96" fontSize="18" color="#ffffff" text="玩家名字六个字">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n3_opnx" name="n3" xy="130,45" size="114,28" group="n9_rh96" fontSize="18" color="#ffffff" text="分享币12123">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n9_rh96" name="groupContent" xy="122,14" size="131,59" advanced="true"/>
+  </displayList>
+</component>

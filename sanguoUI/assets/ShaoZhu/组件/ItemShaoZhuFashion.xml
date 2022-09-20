@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,140">
+  <displayList>
+    <loader id="n12_z7r8" name="colorImg" xy="13,5" size="96,96" url="ui://jvxpx9emy1z8p"/>
+    <image id="n9_gofq" name="backImg" src="vsk3z" fileName="image/敬请期待.png" xy="13,6" size="95,94"/>
+    <loader id="n13_z7r8" name="iconDefault" xy="16,8" size="90,90" align="center" vAlign="middle"/>
+    <image id="n34_tbzv" name="iconDressed" src="ng03u" fileName="image/已穿戴(1).png" xy="13,5"/>
+    <image id="n24_ur84" name="selectImg" src="z1r82h" fileName="image/新资源/选中发光状态框.png" pkg="jvxpx9em" xy="5,-4" size="113,116" visible="false"/>
+    <image id="n33_cl8i" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="100,0" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n28_ur84" name="n28" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="24,75" size="76,24" group="n31_cl8i"/>
+    <image id="n30_cl8i" name="imgStar" src="sv0g2i" fileName="image1/big_star_1.png" pkg="jvxpx9em" xy="56,73" group="n31_cl8i">
+      <relation target="n29_ur84" sidePair="right-right"/>
+    </image>
+    <richtext id="n29_ur84" name="txtNum" xy="15,72" size="44,31" group="n31_cl8i" fontSize="20" color="#ffffff" align="right" leading="0" autoSize="none" text="2"/>
+    <group id="n31_cl8i" name="starGroup" xy="15,72" size="85,31" advanced="true" collapsed="true"/>
+    <image id="n18_ur84" name="n18" src="m3513by" fileName="image/文字底.png" pkg="jvxpx9em" xy="4,-5" group="n19_ur84"/>
+    <richtext id="n10_gofq" name="wayLb" xy="10,2" size="41,29" group="n19_ur84" fontSize="18" color="#ffffff" bold="true" text="活动"/>
+    <group id="n19_ur84" name="wayGroup" xy="4,-5" size="78,36" advanced="true" collapsed="true"/>
+    <richtext id="n1_ke3i" name="txtName" xy="25,106" size="77,28" fontSize="18" color="#ffcc00" text="默认名字">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://pkuzcu87b6rd3f">
+  <displayList>
+    <loader id="n34_m76j" name="backImg" xy="10,144" size="100,100"/>
+    <image id="n30_m76j" name="imgBig" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="20,156" size="137,179"/>
+    <image id="n29_m76j" name="n29" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="425,790" size="194,43"/>
+    <richtext id="n0_x3g6" name="labMaxLayer" xy="405,796" size="234,35" touchable="false" fontSize="20" color="#edbc14" align="center" autoSize="none" text="最高通关：999关"/>
+    <component id="n2_x3g6" name="btnChallenge" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="139,848">
+      <Button title="开始挑战" titleColor="#ffffff"/>
+    </component>
+    <text id="n6_x3g6" name="labBigReward" xy="25,167" size="130,35" fontSize="24" color="#ffffff" align="center" autoSize="none" text="第99关"/>
+    <component id="n27_m76j" name="btnOneKey" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="365,848">
+      <Button title="一键扫荡"/>
+    </component>
+    <component id="n22_em4d" name="gridBigReward" src="em4do" fileName="组件/过关斩将/VRunManGrid.xml" xy="40,199"/>
+    <component id="n36_nphm" name="vLayer2" src="nphm2f" fileName="组件/过关斩将/VRunManLayer.xml" xy="110,441"/>
+    <component id="n37_nphm" name="vLayer1" src="nphm2f" fileName="组件/过关斩将/VRunManLayer.xml" xy="338,584"/>
+    <component id="n38_nphm" name="vLayer0" src="nphm2f" fileName="组件/过关斩将/VRunManLayer.xml" xy="110,716"/>
+    <component id="n39_nphm" name="vLayer3" src="nphm2f" fileName="组件/过关斩将/VRunManLayer.xml" xy="338,311"/>
+    <component id="n31_m76j" name="btnSoul" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="537,158" size="78,83">
+      <Button icon="ui://pkuzcu87m76j24"/>
+    </component>
+  </displayList>
+</component>

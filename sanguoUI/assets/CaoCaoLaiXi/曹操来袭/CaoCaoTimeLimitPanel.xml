@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,124">
+  <displayList>
+    <image id="n3_bx2z" name="n3" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="0,0" size="600,124"/>
+    <component id="n1_qcyl" name="btn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="237,64">
+      <Button title="立即复活"/>
+    </component>
+    <richtext id="n0_qcyl" name="lbTime" xy="295,11" size="10,43" fontSize="30" color="#ff0000" align="center" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

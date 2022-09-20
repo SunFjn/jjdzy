@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,767">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <list id="n0_q2i9" name="list" xy="22,158" size="602,500" overflow="scroll" lineGap="21" defaultItem="ui://b3p8szvvq2i92o">
+      <gearXY controller="c1" pages="1" values="22,81" default="22,158"/>
+      <gearSize controller="c1" pages="1" values="602,573,1,1" default="602,500,1,1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n7_d5so" name="n7" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="22,662" size="594,102"/>
+    <component id="n8_d5so" name="btnDef" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="461,687">
+      <Button title="恢复默认"/>
+    </component>
+    <component id="n9_d5so" name="btnRew" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="34,677" size="86,76">
+      <Button icon="ui://b3p8szvvnxbw2h"/>
+    </component>
+    <image id="n3_rpdn" name="n3" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="22,90" size="594,48" group="n12_ai81"/>
+    <richtext id="n4_rpdn" name="lb1" xy="35,100" size="85,31" group="n12_ai81" fontSize="20" color="#e7b51b" text="活动类型"/>
+    <richtext id="n5_rpdn" name="lb2" xy="359,100" size="85,31" group="n12_ai81" fontSize="20" color="#e7b51b" text="是否推送"/>
+    <group id="n12_ai81" name="boxTit" xy="22,90" size="594,48" advanced="true">
+      <gearXY controller="c1" pages="1" values="22,15" default="22,90"/>
+    </group>
+    <component id="n14_ai81" name="btnSave" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="305,687">
+      <Button title="保存设置"/>
+    </component>
+    <richtext id="n2_q2i9" name="lb" xy="78,31" size="245,31" group="n15_nv36" fontSize="20" color="#0af720" text="更新客户端可使用推送设置"/>
+    <component id="n10_d5so" name="btnUp" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="461,20" group="n15_nv36">
+      <Button title="立即更新"/>
+    </component>
+    <loader id="n11_d5so" name="img" xy="358,6" size="80,80" group="n15_nv36" url="ui://b3p8szvv810t23" align="center" vAlign="middle" fill="scaleMatchWidth"/>
+    <group id="n15_nv36" name="boxUp" xy="78,6" size="512,80" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+  </displayList>
+</component>

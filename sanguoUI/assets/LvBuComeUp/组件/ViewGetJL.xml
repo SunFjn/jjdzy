@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,350">
+  <displayList>
+    <component id="n0_100um" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="16,20" size="470,330"/>
+    <image id="n2_100um" name="n2" src="jkp64z" fileName="image1/Bg4.png" pkg="jvxpx9em" xy="31,100" size="436,163"/>
+    <list id="n3_100um" name="list" xy="75,120" size="361,110" layout="row" overflow="scroll" scroll="horizontal" colGap="24" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5_100um" name="btnGet" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="187,271">
+      <Button title="领取"/>
+    </component>
+    <image id="n6_l757" name="iconGot" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="190,275" size="122,41"/>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,705">
+  <displayList>
+    <component id="n1_iv4o" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,706">
+      <Label title="上期排名"/>
+    </component>
+    <component id="n13_iv4o" name="item" src="iv4oq" fileName="组件/Child_SGYT_CountryRank.xml" xy="16,93"/>
+  </displayList>
+</component>

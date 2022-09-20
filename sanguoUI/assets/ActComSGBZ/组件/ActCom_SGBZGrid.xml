@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="127,142">
+  <displayList>
+    <component id="n6_zm7h" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="24,22" scale="0.8,0.8"/>
+    <richtext id="n7_zm7h" name="nameLb" xy="0,0" size="127,28" fontSize="16" color="#cc9900" align="center" autoSize="none" text="道具名字111"/>
+    <component id="n8_zm7h" name="selBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="24,108" size="80,34">
+      <Button title="选择" titleFontSize="18"/>
+    </component>
+    <component id="n9_oh2q" name="escBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="24,108" size="80,34">
+      <Button title="取消" titleFontSize="18"/>
+    </component>
+  </displayList>
+</component>

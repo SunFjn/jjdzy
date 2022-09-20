@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="618,250">
+  <displayList>
+    <image id="n0_inpx" name="n0" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="618,250"/>
+    <image id="n13_rncy" name="n13" src="rncy3fk" fileName="image/奖励底.png" xy="330,50" size="259,184"/>
+    <image id="n14_rncy" name="n14" src="rncy3fk" fileName="image/奖励底.png" xy="28,51" size="259,184"/>
+    <component id="n3_inpx" name="btnGoLeft" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="108,175" group="n5_inpx">
+      <Button title="前往"/>
+    </component>
+    <image id="n39_i669" name="ylq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="111,179" group="n5_inpx"/>
+    <component id="n1_inpx" name="btnLeft" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="108,174" group="n5_inpx">
+      <Button title="领取"/>
+    </component>
+    <image id="n35_l7te" name="noticeImgLeft" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="222,170" group="n5_inpx" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <group id="n5_inpx" name="n5" xy="108,170" size="134,56" collapsed="true"/>
+    <component id="n7_inpx" name="btnGoRight" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="411,174" group="n9_inpx">
+      <Button title="前往"/>
+    </component>
+    <image id="n42_i669" name="ylq2" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="414,179" group="n9_inpx"/>
+    <image id="n26_rncy" name="yqw" src="rncyo" fileName="image/已抢完.png" xy="415,160" group="n9_inpx"/>
+    <component id="n8_inpx" name="btnRight" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="411,174" group="n9_inpx">
+      <Button title="领取"/>
+    </component>
+    <image id="n36_l7te" name="noticeImgRight" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="523,170" group="n9_inpx" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <group id="n9_inpx" name="n9" xy="411,160" size="132,70" collapsed="true"/>
+    <image id="n23_rncy" name="n23" src="rncyp" fileName="image/达标奖励.png" xy="21,35"/>
+    <image id="n24_rncy" name="n24" src="rncym" fileName="image/限量奖励.png" xy="328,35"/>
+    <image id="n27_rncy" name="n27" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="26,13"/>
+    <text id="n28_rncy" name="des" xy="37,14" size="385,27" fontSize="20" color="#cfe2f3" ubb="true" text="啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"/>
+    <text id="n29_rncy" name="residue" xy="432,148" size="115,25" fontSize="18" color="#7bde2b" text="（仅剩15份）"/>
+    <list id="n32_rncy" name="girdListRight" xy="384,61" size="301,102" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,50" scrollBarMargin="0,46,0,0" defaultItem="ui://jvxpx9emetorm" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n30_rncy" name="girdListLeft" xy="79,61" size="297,102" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,50" scrollBarMargin="0,46,0,0" defaultItem="ui://jvxpx9emetorm" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

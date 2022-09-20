@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,374" extention="Label" initName="frame">
+  <displayList>
+    <image id="n1_f1cf" name="n1" src="m3513br" fileName="image/通用底框/弹窗.png" xy="0,8" size="593,366">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2_f1cf" name="closeButton" src="c14z16" fileName="组件/Button2.xml" xy="530,13" pivot="0.6,0.55" size="60,53">
+      <relation target="n1_f1cf" sidePair="right-right"/>
+      <Button icon="ui://jvxpx9emm3513bo"/>
+    </component>
+    <image id="n5_irr1" name="n5" src="irr13gz" fileName="image/通用底框/弹窗框标题底框.png" xy="172,9">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <richtext id="n4_oc0j" name="title" xy="291,22" size="10,34" touchable="false" fontSize="22" color="#ffffff" vAlign="middle" leading="0" strokeColor="#000000" text="">
+      <relation target="n1_f1cf" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

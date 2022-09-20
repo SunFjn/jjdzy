@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="603,286" designImageOffsetX="-18" designImageOffsetY="-199">
+  <displayList>
+    <image id="n5_vfmx" name="n5" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="603,286" alpha="0.9"/>
+    <richtext id="n4_vfmx" name="titleLb" xy="14,10" size="249,29" touchable="false" fontSize="22" color="#33ccff" text="任务：挑战20次过关斩将"/>
+    <image id="n15_htpq" name="n15" src="htpq1t" fileName="image/内部边框.png" xy="13,44" size="581,117"/>
+    <list id="n6_vfmx" name="list" xy="27,58" size="538,92" overflow="hidden" lineGap="7" defaultItem="ui://m2fm2aiyvfmx16" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_vfmx" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="62,201" size="473,22">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n9_vfmx" name="box0" src="vfmx17" fileName="组件/TYJY_TaskItem2.xml" xy="15,174"/>
+    <component id="n10_vfmx" name="box1" src="vfmx17" fileName="组件/TYJY_TaskItem2.xml" xy="245,174"/>
+    <component id="n11_vfmx" name="box2" src="vfmx17" fileName="组件/TYJY_TaskItem2.xml" xy="481,174"/>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.exclusiveActivity.model.ExclusiveActivityData" tbname="exclusiveActivityData">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="exActivityStr" type="text" pf="all" comment="个人已开活动"/>
+			<col field="exActOpenStateStr" type="text" pf="all" comment="活动开启检测记录（只检测一次）"/>
+     </tb>
+</tbs>

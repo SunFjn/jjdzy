@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6gtjahse" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="o65r0" name="Child_ActComSBZK.xml" path="/组件/" exported="true"/>
+    <image id="o65r1" name="1_0000_6折.png" path="/image/" exported="true"/>
+    <image id="o65r2" name="1_0001_7折.png" path="/image/" exported="true"/>
+    <image id="o65r3" name="1_0002_8折.png" path="/image/" exported="true"/>
+    <image id="o65r4" name="1_0003_9折.png" path="/image/" exported="true"/>
+    <image id="o65rb" name="进度条.png" path="/image/" exported="true" scale="9grid" scale9grid="13,1,30,9"/>
+    <image id="o65rc" name="进度条底框.png" path="/image/" exported="true" scale="9grid" scale9grid="20,7,149,8"/>
+    <image id="o65rd" name="间隔图标.png" path="/image/" exported="true"/>
+    <component id="o65re" name="sbzkBar.xml" path="/组件/" exported="true"/>
+    <image id="o65rf" name="BOSS刷新倒计时背景底.png" path="/image/" exported="true"/>
+    <image id="ij4wg" name="8.5折.png" path="/image/" exported="true"/>
+    <image id="ij4wh" name="9.5折.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="actComSBZK" genCode="true" npot="true"/>
+</packageDescription>

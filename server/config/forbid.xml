@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 时装 -->
+	<!-- 七天登陆 -->
+	<!-- 激活码 -->
+	<!-- 美味佳肴 -->
+	<!-- 翅膀 -->
+	<!-- 神兵 -->
+	<!-- 江湖试炼 -->
+	<!-- 寻宝商店 -->
+	<!-- VIP-->
+	<!--
+	<bean cg="com.teamtop.system.fashion.FashionCG" event="com.teamtop.system.fashion.FashionEvent" />
+	<bean cg="com.teamtop.system.loginSevenDay.SevenDayCG" event="com.teamtop.system.loginSevenDay.SevenDayEvent" />
+	<bean cg="com.teamtop.system.welFareHall.WelFareHallCG" event="com.teamtop.system.welFareHall.WelFareHallEvent" />
+	<bean cmd="121_122" event="com.teamtop.system.deliciousFood.DeliciousFoodEvent" iconHiddenId="5"/>
+	<bean cg="com.teamtop.system.magicArm.MagicArmCG" event="com.teamtop.system.magicArm.MagicArmEvent" />
+	<bean cg="com.teamtop.system.treShop.TreShopCG" event="com.teamtop.system.treShop.TreShopEvent" unforbidFun="init"/>
+	<bean cg="com.teamtop.system.vip.VipCG" event="com.teamtop.system.vip.VipEvent" unforbidFun="init"/>
+	<bean cg="com.teamtop.system.wing.WingCG" event="com.teamtop.system.wing.WingEvent" unforbidFun="init"/>
+	<bean cg="com.teamtop.system.jianghu.JiangHuCG" event="com.teamtop.system.jianghu.local.JiangHuLocalEvent" />
+	<bean cg="com.teamtop.system.welFareHall.WelFareHallCG" event="com.teamtop.system.welFareHall.WelFareHallEvent" />
+	<bean cg="com.teamtop.system.rank.RankListCG" event="com.teamtop.system.rank.RankListEvent" />
+	<bean cg="com.teamtop.system.practice.PracticeCG" event="com.teamtop.system.practice.PracticeEvent" unforbidFun="init"/>
+	<bean cg="com.teamtop.system.market.MarketCG" />
+	<bean cg="com.teamtop.system.arena.ArenaCG" event="com.teamtop.system.arena.ArenaEvent" />
+	<bean cg="com.teamtop.system.mall.MallCG" event="com.teamtop.system.mall.MallEvent" />
+	<bean cg="com.teamtop.system.transport.TransportCG" event="com.teamtop.system.transport.TransportEvent" />
+	<bean cg="com.teamtop.system.meridian.MeridianCG" event="com.teamtop.system.meridian.MeridianEvent" />
+	<bean cg="com.teamtop.system.equipForge.EquipForgeCG" unforbidCmd="2601_2603_2605_2607_2609_2611_2613_2615"/>
+	<bean cg="com.teamtop.system.worldBoss.WorldBossCG" event="com.teamtop.system.worldBoss.WorldBossEvent" />
+	<bean cg="com.teamtop.system.workshop.WorkShopCG" event="com.teamtop.system.workshop.WorkShopEvent" />
+	<bean cg="com.teamtop.system.shiPoTian.ShiPoTianCG" event="com.teamtop.system.shiPoTian.ShiPoTianEvent" />
+	
+	<bean cg="com.teamtop.system.rabbit.RabbitCG" event="com.teamtop.system.rabbit.RabbitEvent" />
+	<bean cg="com.teamtop.system.fish.FishCG" event="com.teamtop.system.fish.FishEvent" />
+	<bean cg="com.teamtop.system.treasure.TreasureCG" event="com.teamtop.system.treasure.TreasureEvent" />
+	
+	<bean cg="com.teamtop.system.weekAdventure.WeekAdventureCG" event="com.teamtop.system.weekAdventure.WeekAdventureEvent" />
+	<bean cg="com.teamtop.system.marriage.MarriageCG" event="com.teamtop.system.marriage.MarriageEvent" />
+	<bean cg="com.teamtop.system.protectBelle.ProtectBelleCG" />
+	<bean cg="com.teamtop.system.block.BlockCG" event="com.teamtop.system.block.BlockEvent" />
+	
+	<bean cg="com.teamtop.system.skyCliff.SkyCliffCG" event="com.teamtop.system.skyCliff.SkyCliffEvent" />
+	<bean cg="com.teamtop.system.competeHegemony.CompeteHegemonyCG" event="com.teamtop.system.competeHegemony.CompeteHegemonyEvent" />
+	<bean cg="com.teamtop.system.exam.ExamCG" event="com.teamtop.system.exam.ExamEvent" />
+	<bean cg="com.teamtop.system.happyClear.HappyClearCG" event="com.teamtop.system.happyClear.HappyClearEvent" />
+	<bean cg="com.teamtop.system.xialv.XialvCG" event="com.teamtop.system.xialv.XialvEvent" />
+	<bean cg="com.teamtop.system.presonBoss.PresonBossCG" event="com.teamtop.system.presonBoss.PresonBossEvent" />
+	
+	<bean cg="com.teamtop.system.registrationModel.RegistrationCG" event="com.teamtop.system.registrationModel.RegistrationEvent" />
+	
+	<bean cg="com.teamtop.system.turtleRace.TurtleRaceCG" event="com.teamtop.system.turtleRace.TurtleRaceEvent" />
+	<bean cg="com.teamtop.system.trade.TradeCG" event="com.teamtop.system.trade.TradeEvent" />
+	 -->
+	<!-- 广播cmd -->
+	<!-- <bean cmd="1106"/> -->
+</beans>

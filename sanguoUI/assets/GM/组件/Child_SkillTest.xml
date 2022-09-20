@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="567,769">
+  <displayList>
+    <richtext id="n10_qla2" name="n10" xy="8,14" size="88,35" fontSize="24" color="#ffffff" leading="0" autoSize="none" text="技能ID"/>
+    <image id="n11_qla2" name="n11" src="x3b93cl" fileName="image1/Bg2.png" pkg="jvxpx9em" xy="99,0" size="200,63"/>
+    <text id="n12_qla2" name="skillIdLb" xy="116,11" size="162,35" input="true" keyboardType="4" fontSize="24" color="#ffffff" leading="0" autoSize="none" text=""/>
+    <richtext id="n14_qla2" name="n14" xy="8,65" size="150,35" fontSize="24" color="#ffffff" leading="0" autoSize="none" text="技能动作参数"/>
+    <image id="n15_qla2" name="n15" src="x3b93cl" fileName="image1/Bg2.png" pkg="jvxpx9em" xy="0,99" size="567,616"/>
+    <text id="n16_qla2" name="skillActLb" xy="20,122" size="521,566" input="true" fontSize="24" color="#ffffff" leading="0" autoSize="none" text=""/>
+    <component id="n17_qla2" name="copyBt" src="y1z8b" fileName="新组建/Button0.xml" pkg="jvxpx9em" xy="83,717">
+      <Button title="复制"/>
+    </component>
+    <component id="n18_qla2" name="replaceBt" src="y1z8l" fileName="新组建/Button1.xml" pkg="jvxpx9em" xy="351,717">
+      <Button title="替换"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="fx4pr5qe" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="mtzm0" name="View_Chat_Panel.xml" path="/组件/" exported="true"/>
+    <component id="og791" name="ChatRoleHead.xml" path="/组件/" exported="true"/>
+    <component id="ov4j2" name="ChatItem.xml" path="/组件/" exported="true"/>
+    <image id="ov4je" name="13.png" path="/image/" exported="true"/>
+    <image id="ov4jf" name="14.png" path="/image/" exported="true"/>
+    <image id="ov4jq" name="1.png" path="/image/" exported="true"/>
+    <image id="ov4jr" name="2.png" path="/image/" exported="true"/>
+    <image id="ov4js" name="3.png" path="/image/" exported="true"/>
+    <image id="ov4jt" name="4.png" path="/image/" exported="true"/>
+    <image id="ov4ju" name="5.png" path="/image/" exported="true"/>
+    <image id="ov4jv" name="6.png" path="/image/" exported="true"/>
+    <image id="ov4jw" name="7.png" path="/image/" exported="true"/>
+    <image id="ov4jx" name="8.png" path="/image/" exported="true"/>
+    <image id="ov4jy" name="9.png" path="/image/" exported="true"/>
+    <image id="ov4jz" name="10.png" path="/image/" exported="true"/>
+    <image id="ov4j10" name="11.png" path="/image/" exported="true"/>
+    <image id="ov4j11" name="12.png" path="/image/" exported="true"/>
+    <font id="ov4j13" name="faceFont.fnt" path="/组件/" exported="true"/>
+    <component id="81i015" name="View_Chat_LookPanel.xml" path="/组件/" exported="true"/>
+    <component id="81i016" name="View_Chat_BlackList.xml" path="/组件/" exported="true"/>
+    <component id="81i017" name="Chat_BlackListItem.xml" path="/组件/" exported="true"/>
+    <image id="hzfc18" name="Settings.png" path="/image/" exported="true"/>
+    <image id="hzfc1a" name="_Group_.png" path="/image/" exported="true"/>
+    <image id="hzfc1b" name="Horn.png" path="/image/" exported="true"/>
+    <image id="hzfc1c" name="Mute.png" path="/image/" exported="true"/>
+    <image id="hzfc1f" name="Vip背景.png" path="/image/" exported="true"/>
+    <image id="tgbf1i" name="聊天框.png" path="/image/" exported="true"/>
+    <image id="cxk81n" name="聊天标题.png" path="/image/" exported="true"/>
+    <image id="cxk81p" name="聊天输入底.png" path="/image/" exported="true"/>
+    <image id="cxk81q" name="聊天输入框.png" path="/image/" exported="true"/>
+    <image id="skzf1r" name="15.png" path="/image/" exported="true"/>
+    <image id="sp0j1s" name="系统消息.png" path="/image/" exported="true"/>
+    <image id="rqui1u" name="chenghao_019.png" path="/image/"/>
+    <image id="cia21v" name="chenghao_011.png" path="/image/"/>
+    <image id="cia21w" name="chenghao_017.png" path="/image/"/>
+    <image id="wjpa1x" name="bg3.png" path="/image/" exported="true"/>
+    <image id="wjpa1y" name="bg4.png" path="/image/" exported="true"/>
+    <image id="wjpa1z" name="bg5.png" path="/image/" exported="true"/>
+    <image id="wjpa20" name="bg6.png" path="/image/" exported="true"/>
+    <image id="wjpa22" name="蔡文姬.jpg" path="/image/"/>
+    <component id="wjpa23" name="View_chat_TuJian.xml" path="/组件/" exported="true"/>
+    <component id="wjpa25" name="ChatShowLabel.xml" path="/组件/" exported="true"/>
+    <image id="wjpa29" name="展示背景.png" path="/image/" exported="true"/>
+    <component id="wjpa2a" name="View_chat_BaoWu.xml" path="/组件/" exported="true"/>
+    <component id="wjpa2b" name="View_chat_WuJiang.xml" path="/组件/" exported="true"/>
+    <component id="wjpa2c" name="ChatWuJiangSkillS.xml" path="/组件/" exported="true"/>
+    <image id="wjpa2d" name="普通技能框.png" path="/image/" exported="true"/>
+    <image id="wjpa2e" name="技能名字框.png" path="/image/" exported="true"/>
+    <image id="pdbd2f" name="16.png" path="/image/" exported="true"/>
+    <component id="sh622g" name="ViewSHJXInfo.xml" path="/组件/" exported="true"/>
+    <component id="sh622h" name="ItemSHJXC.xml" path="/组件/" exported="true"/>
+    <component id="ewn52j" name="View_chat_ShaoZhu.xml" path="/组件/" exported="true"/>
+    <component id="ewn52k" name="ChatShaoZhuSkillGrid.xml" path="/组件/" exported="true"/>
+    <image id="eigu2l" name="未解锁.png" path="/image/" exported="true"/>
+    <image id="dx1h2n" name="主动技能底框.png" path="/image/" exported="true"/>
+    <image id="tv5m2o" name="系统公告底部-底.png" path="/image/" exported="true" scale="9grid" scale9grid="31,11,62,22"/>
+    <image id="tv5m2p" name="系统公告底部-字.png" path="/image/" exported="true"/>
+    <image id="tv5m2q" name="系统公告底部-边.png" path="/image/" exported="true"/>
+    <component id="tv5m2s" name="ChatLabelItem.xml" path="/组件/" exported="true"/>
+    <component id="sk8j2t" name="View_chat_YiShou.xml" path="/组件/" exported="true"/>
+    <image id="rod52u" name="qingLongYJ.png" path="/组件/"/>
+    <image id="wa212v" name="660008.png" path="/image/"/>
+    <component id="eckr2w" name="View_chat_Qice.xml" path="/组件/" exported="true"/>
+    <component id="wa9j2x" name="View_chat_Horse.xml" path="/组件/" exported="true"/>
+    <component id="fs5a2y" name="View_chat_Maid.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="chat" genCode="true" npot="true" excluded="rqui1u,cia21v,cia21w,sp0j1s,wjpa22,wjpa1x,wjpa1y,wjpa1z,wjpa20,wjpa29"/>
+</packageDescription>

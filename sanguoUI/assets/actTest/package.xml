@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="g1ngk9h3" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="mvdu0" name="ActTestPanel.xml" path="/" exported="true"/>
+    <image id="mvdu1" name="4507_icon.png" path="/res/" exported="true"/>
+    <image id="mvdu2" name="4507_title.png" path="/res/" exported="true"/>
+    <image id="mvdu3" name="4508_icon.png" path="/res/" exported="true"/>
+    <image id="mvdu4" name="4508_title.png" path="/res/" exported="true"/>
+  </resources>
+  <publish name="actTest" genCode="true"/>
+</packageDescription>

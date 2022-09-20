@@ -1,0 +1,28 @@
+2020-10-24 11:41:59.601 [OpTaskExecutorService-thread-2] ERROR com.teamtop.system.event.systemEvent.SystemEventFunction - java.lang.NullPointerException
+	at com.teamtop.system.activity.ativitys.nianMonsterMakeSpring.NianMonsterMakeSpringSysEvent.dailyReset(NianMonsterMakeSpringSysEvent.java:68)
+	at com.teamtop.system.activity.ativitys.nianMonsterMakeSpring.NianMonsterMakeSpringSysEvent.loginReset(NianMonsterMakeSpringSysEvent.java:54)
+	at com.teamtop.system.event.systemEvent.SystemEventFunction.triggerLoginResetEvent(SystemEventFunction.java:872)
+	at com.teamtop.system.hero.HeroManager.loadAlready(HeroManager.java:604)
+	at com.teamtop.system.hero.HeroCG.loadAlready(HeroCG.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.teamtop.netty.util.NettyDispatch$1.run(NettyDispatch.java:141)
+	at com.teamtop.synHandleCore.OpTaskExecutorService$Work.run(OpTaskExecutorService.java:314)
+	at java.lang.Thread.run(Thread.java:745)
+,hid:1000100000000079,name:世外丨玄痕.S1,NianMonsterMakeSpringSysEventlogin exception
+2020-10-24 11:42:13.823 [OpTaskExecutorService-thread-5] ERROR com.teamtop.system.event.systemEvent.SystemEventFunction - java.lang.NullPointerException
+	at com.teamtop.system.activity.ativitys.nianMonsterMakeSpring.NianMonsterMakeSpringSysEvent.dailyReset(NianMonsterMakeSpringSysEvent.java:68)
+	at com.teamtop.system.activity.ativitys.nianMonsterMakeSpring.NianMonsterMakeSpringSysEvent.loginReset(NianMonsterMakeSpringSysEvent.java:54)
+	at com.teamtop.system.event.systemEvent.SystemEventFunction.triggerLoginResetEvent(SystemEventFunction.java:872)
+	at com.teamtop.system.hero.HeroManager.loadAlready(HeroManager.java:604)
+	at com.teamtop.system.hero.HeroCG.loadAlready(HeroCG.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.teamtop.netty.util.NettyDispatch$1.run(NettyDispatch.java:141)
+	at com.teamtop.synHandleCore.OpTaskExecutorService$Work.run(OpTaskExecutorService.java:314)
+	at java.lang.Thread.run(Thread.java:745)
+,hid:1000100000000080,name:年華丨三郎.S1,NianMonsterMakeSpringSysEventlogin exception

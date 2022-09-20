@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 中央服务器线程事件，启动服务器后处理 -->
+	<!-- 指定定时任务-->
+	<bean key="QURATZ" class="com.teamtop.util.exector.schedule.ScheduleFixtime" pf="PF_ALL" delay="1000" interval="1000">
+		<property method = "ScheduleFixtime"/>
+	</bean>
+	<!-- 烽火狼烟-->
+	<bean key="CROSS_FIREBEACON" class="com.teamtop.system.crossFireBeacon.CrossFireBeaconSchedule" pf="PF_ALL" delay="30000" interval="30000" useLong="false" desc="烽火狼烟 征收">
+		<property method = "CrossFireBeaconSchedule"/>
+	</bean>
+	<!-- 跨服组队副本-->
+	<bean key="CROSS_TEAM_FUBEN" class="com.teamtop.system.crossTeamFuBen.CrossTeamFubenSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" desc="跨服组队副本">
+		<property method = "CrossTeamFubenSchedule"/>
+	</bean>
+	<!-- 升阶秘境-->
+	<bean key="CROSS_S_J_MI_JING" class="com.teamtop.system.crossSJMiJing.CrossSJMiJingSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" desc="升阶秘境">
+		<property method = "CrossSJMiJingSchedule"/>
+	</bean>
+	<!-- 问鼎天下定时奖励、刷怪-->
+	<bean key="CROSS_WEN_DING_TIAN_XIA" class="com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossSchedule" pf="PF_ALL" delay="30000" interval="30000" useLong="false" desc="问鼎天下定时奖励">
+		<property method = "CrossWenDingTianXiaCrossSchedule"/>
+	</bean>
+	<!-- 问鼎天下玩家复活检测-->
+	<bean key="CROSS_WEN_DING_TIAN_XIA_FU_HUO" class="com.teamtop.system.crossWenDingTianXia.cross.CrossWenDingTianXiaCrossFuHuoSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" desc="问鼎天下玩家复活">
+		<property method = "CrossWenDingTianXiaCrossFuHuoSchedule"/>
+	</bean>
+	<!--跨服战场boss-->
+	<bean key="CROSS_ZCBOSS_SCHEDULE" class="com.teamtop.system.zcBoss.cross.ZcBossCrossSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" desc="跨服战场boss">
+		<property method = "ZcBossCrossSchedule"/>
+	</bean>	
+	<!--跨服矿藏-->
+	<bean key="CROSS_MINE_SCHEDULE" class="com.teamtop.system.crossMine.CrossMineSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" desc="跨服矿藏">
+		<property method = "CrossMineSchedule"/>
+	</bean>
+	<!--群雄逐鹿-->
+	<bean key="CROSS_ZHU_LU_SCHEDULE" class="com.teamtop.system.crossZhuLu.cross.CrossZhuLuSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" desc="群雄逐鹿">
+		<property method = "CrossZhuLuSchedule"/>
+	</bean>
+	<!-- 粮草抢夺-->
+	<bean key="BATTLEGOODS_SCHEDULE" class="com.teamtop.system.battleGoods.BattleGoodsSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="粮草抢夺">
+		<property method = "BattleGoodsSchedule"/>
+	</bean>	
+	<!--镇守四方-->
+	<bean key="GUARD_AREA_SCHEDULE" class="com.teamtop.system.guardArea.GuardAreaSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" desc="镇守四方">
+		<property method = "GuardAreaSchedule"/>
+	</bean>
+	<!--跨服王者-->
+	<bean key="CROSS_TEAMKING_MARRY" class="com.teamtop.system.crossTeamKing.CrossTeamKingSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="跨服王者">
+		<property method = "CrossTeamKingSchedule"/>
+	</bean>
+	<!--府邸金库-->
+	<bean key="HOUSE_GOLD_SCHEDULE" class="com.teamtop.system.house.yard.HouseGoldSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="府邸金库">
+		<property method = "HouseGoldSchedule"/>
+	</bean>
+	<!--宴会-->
+	<bean key="CROSS_YANHUI_SCHEDULE" class="com.teamtop.system.house.yanhui.cross.YanhuiCrossSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" desc="宴会">
+		<property method = "YanhuiCrossSchedule"/>
+	</bean>	
+	<!--攻城拔寨-->
+	<bean key="ATTACK_CITY_SCHEDULE" class="com.teamtop.system.crossAttackCity.AttackCitySchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" desc="攻城拔寨">
+		<property method = "AttackCitySchedule"/>
+	</bean>
+	<!-- 新战斗模式-->
+	<bean key="BATTLE_NEW" class="com.teamtop.system.battleNew.BattleNewSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" local="1" desc="新战斗模式">
+		<property method = "BattleNewSchedule"/>
+	</bean>
+	<!-- 轮回副本-->
+	<bean key="REBORN_FB" class="com.teamtop.system.crossRebornFB.RebornFBSchedule" pf="PF_ALL" delay="1000" interval="1000" useLong="false" desc="轮回副本">
+		<property method = "RebornFBSchedule"/>
+	</bean>
+</beans>

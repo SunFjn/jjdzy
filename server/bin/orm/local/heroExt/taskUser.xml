@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.task.TaskUser" tbname="taskUser">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="taskid" type="int" pf="all" comment="任务id"/>
+			<col field="state" type="int" pf="all" comment="任务状态(0没有完成,1完成奖励可领取2完成奖励已经领取)"/>
+			<col field="doNum" type="int" pf="all" comment="参数"/>
+     </tb>
+</tbs>

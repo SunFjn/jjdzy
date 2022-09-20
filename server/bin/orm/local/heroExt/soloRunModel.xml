@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossSoloRun.model.SoloRunModel" tbname="soloRunModel">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="chaNum" type="int" pf="all" comment="挑战次数"/>
+			<col field="buyNum" type="int" pf="all" comment="每日已购买次数"/>
+			<col field="winNum" type="int" pf="all" comment="每日胜利次数"/>
+			<col field="score" type="int" pf="all" comment="积分"/>
+			<col field="winStreakNum" type="int" pf="all" comment="连胜次数"/>
+			<col field="loseStreakNum" type="int" pf="all" comment="连输次数"/>
+			<col field="winAward" type="text" pf="all" comment="每日已领取胜利奖励项"/>
+			<col field="reportList" type="text" pf="all" comment="战报"/>
+			<col field="weekResetTime" type="int" pf="all" comment="周重置时间"/>
+     </tb>
+</tbs>

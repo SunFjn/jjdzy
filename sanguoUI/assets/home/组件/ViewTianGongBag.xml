@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,743">
+  <displayList>
+    <component id="n0_ye03" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,743">
+      <Label title="投入材料"/>
+    </component>
+    <image id="n10_nvxy" name="n10" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="12,107" size="568,252"/>
+    <image id="n11_nvxy" name="n11" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="12,417" size="568,252"/>
+    <component id="n1_ye03" name="n1" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="137,84" size="319,28">
+      <Label title="背包道具"/>
+    </component>
+    <list id="n2_ye03" name="bagList" xy="26,122" size="544,229" layout="flow_hz" overflow="scroll" lineGap="-8" colGap="19" defaultItem="ui://y0plc878ye03a">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n3_ye03" name="slectList" xy="26,432" size="546,227" layout="flow_hz" overflow="scroll" lineGap="-8" colGap="20" defaultItem="ui://y0plc878ye03a">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_ye03" name="n4" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="137,375" size="319,28">
+      <Label title="献祭列表"/>
+    </component>
+    <richtext id="n5_ye03" name="n5" xy="36,687" size="101,35" fontSize="24" color="#ffffff" text="天工积分"/>
+    <image id="n6_ye03" name="bg" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="142,689" size="120,30">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <richtext id="n7_ye03" name="n7" xy="169,688" size="47,35" fontSize="24" color="#ffffff" text="123"/>
+    <component id="n8_ye03" name="btnGO" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="446,671" pivot="0.5,0.5" scale="0.8,0.8">
+      <Button title="开始献祭"/>
+    </component>
+    <component id="n12_c160" name="btnAll" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="330,671" pivot="0.5,0.5" scale="0.8,0.8">
+      <Button title="一键投入"/>
+    </component>
+  </displayList>
+</component>

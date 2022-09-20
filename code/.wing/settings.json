@@ -1,0 +1,7 @@
+{
+	"search.exclude": {
+		"**/bin-debug": true,
+		"**/bin-release": true
+	},
+	"workbench.editor.enablePreview": false
+}

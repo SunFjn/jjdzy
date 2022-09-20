@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="187,182">
+  <displayList>
+    <image id="n5_hilo" name="n5" src="hilo5" fileName="image/方形花纹.png" xy="0,0"/>
+    <component id="n2_hilo" name="item" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="49,1" scale="0.9,0.9"/>
+    <component id="n3_hilo" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="28,97">
+      <Button title="领取"/>
+    </component>
+    <richtext id="n4_hilo" name="tipsTxt" xy="0,153" size="187,22" fontSize="16" color="#ff9900" align="center" autoSize="none" text="VIP15可额外领取"/>
+    <image id="n8_lgr8" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="134,96" size="24,25" group="n10_lgr8" aspect="true"/>
+    <richtext id="n9_lgr8" name="numLb" xy="132,94" size="25,25" group="n10_lgr8" fontSize="16" color="#ffffff" align="center" autoSize="none" text="10"/>
+    <group id="n10_lgr8" name="noticeGroup" xy="132,94" size="26,27" advanced="true"/>
+    <image id="n7_lgr8" name="receivedImg" src="lgr89" fileName="image/已领取.png" xy="31,94"/>
+  </displayList>
+</component>

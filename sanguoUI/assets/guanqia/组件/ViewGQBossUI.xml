@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1134">
+  <displayList>
+    <component id="n15_som1" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://r92dp953som11i"/>
+    </component>
+    <loader id="n52_aqes" name="guanqiaBg" xy="11,148" size="618,685" url="ui://r92dp953emwp2l"/>
+    <image id="n47_x3b9" name="n47" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="391,157" size="227,159"/>
+    <richtext id="n11_hfx7" name="lbCant" xy="97,857" size="445,39" fontSize="30" color="#66ff00" align="center" autoSize="none" text=""/>
+    <component id="n22_som1" name="btnRank" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="564,163" size="46,46">
+      <Button icon="ui://jvxpx9ememwp3h9"/>
+    </component>
+    <image id="n34_som1" name="n34" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="20,579" size="599,93"/>
+    <richtext id="n33_som1" name="lbGuanQia" xy="240,588" size="156,35" group="n39_som1" fontSize="26" color="#ffc334" align="center" autoSize="none" text="1230关"/>
+    <richtext id="n37_som1" name="lbTongBi" xy="105,626" size="101,34" group="n39_som1" fontSize="20" color="#00ff00" text="22222222&#xA;"/>
+    <richtext id="n38_som1" name="lbExp" xy="398,626" size="101,34" group="n39_som1" fontSize="20" color="#00ff00" text="22222222&#xA;"/>
+    <image id="n43_jtm5" name="n43" src="som163" fileName="image1/经验球.png" pkg="jvxpx9em" xy="366,628" group="n39_som1"/>
+    <image id="n44_jtm5" name="n44" src="ltpm59" fileName="image1/铜币.png" pkg="jvxpx9em" xy="77,627" group="n39_som1"/>
+    <group id="n39_som1" name="n39" xy="77,588" size="422,70" collapsed="true"/>
+    <image id="n46_x3b9" name="n46" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="19,680" size="601,149"/>
+    <component id="n53_py0u" name="btnSweeping" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="33,401" size="121,125">
+      <Button icon="ui://r92dp953e2bn1p"/>
+    </component>
+    <component id="n54_py0u" name="btnQRS" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="454,401" size="120,137">
+      <Button icon="ui://r92dp953som1v"/>
+    </component>
+    <component id="n27_som1" name="progress" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="443,491" size="142,20">
+      <ProgressBar value="18260" max="18260"/>
+    </component>
+    <component id="n55_h0zq" name="guanQiaInfo" src="h0zq1w" fileName="组件/VGQInfo.xml" xy="20,157"/>
+    <image id="n60_p3a0" name="n60" src="roqq52" fileName="image1/提示框.png" pkg="7gxkx46w" xy="175,172" size="125,130" group="n59_h0zq"/>
+    <component id="n57_h0zq" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="206,208" group="n59_h0zq" scale="0.8,0.8"/>
+    <richtext id="n58_h0zq" name="n57" xy="203,180" size="85,31" group="n59_h0zq" touchable="false" fontSize="20" color="#ffffff" autoSize="none" text="通关奖励">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n59_h0zq" name="rewardGrp" xy="175,172" size="133,138" advanced="true" collapsed="true"/>
+    <list id="n61_ejku" name="n61" xy="48,698" size="616,128" scale="0.9,0.9" layout="row" overflow="scroll" scroll="horizontal" colGap="22" defaultItem="ui://jvxpx9emetorn" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n23_som1" name="n23" src="som117" fileName="image/排名.png" xy="478,161" group="n62_poih"/>
+    <component id="n8_hfx7" name="rank0" src="hfx71" fileName="组件/PanellistItem.xml" xy="348,208" size="271,32" group="n32_som1"/>
+    <component id="n9_hfx7" name="rank1" src="hfx71" fileName="组件/PanellistItem.xml" xy="348,246" group="n32_som1"/>
+    <component id="n10_hfx7" name="rank2" src="hfx71" fileName="组件/PanellistItem.xml" xy="348,284" group="n32_som1"/>
+    <group id="n32_som1" name="n32" xy="348,208" size="271,108" group="n62_poih" collapsed="true"/>
+    <group id="n62_poih" name="n62" xy="348,161" size="271,155" hideByEditor="true" visible="false" advanced="true" collapsed="true"/>
+    <richtext id="n64_poih" name="lbHelp" xy="401,192" size="125,28" fontSize="18" color="#ffffff" text="求助次数：0/5"/>
+    <richtext id="n65_poih" name="lbHelpCount" xy="401,216" size="125,28" fontSize="18" color="#ffffff" text="帮助次数：0/5"/>
+    <image id="n66_poih" name="n66" src="poih2e" fileName="image/关卡求助.png" xy="452,162"/>
+    <component id="n67_poih" name="btnSendHelp" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="437,249">
+      <Button title="发送求助"/>
+    </component>
+    <component id="n6_hfx7" name="btnFight" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="250,846">
+      <Button title="闯关"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n59_h0zq" tween="true" startValue="-,172" endValue="-,182" duration="24" ease="Linear"/>
+    <item time="24" type="XY" target="n59_h0zq" tween="true" startValue="-,182" endValue="-,172" duration="24" ease="Linear"/>
+  </transition>
+</component>

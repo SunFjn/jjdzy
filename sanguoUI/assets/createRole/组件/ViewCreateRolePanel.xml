@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <loader id="n22_gt3k" name="imgBg" xy="0,0" size="50,50"/>
+    <image id="n29_lg3q" name="n29" src="lg3ql" fileName="image/底座.png" xy="96,638"/>
+    <loader id="n28_lg3q" name="imgSelect" xy="0,88" size="640,642" touchable="false"/>
+    <component id="n16_ysx7" name="btnEnter" src="furkf" fileName="组件/Button_Big.xml" xy="182,989"/>
+    <text id="n21_ou3r" name="labTime" xy="100,960" size="440,31" fontSize="20" color="#00ff00" align="center" autoSize="none" text="59秒后自动进入游戏"/>
+    <image id="n27_lg3q" name="n27" src="lg3qj" fileName="image/创建角色.png" xy="210,20"/>
+    <component id="n18_ou3r" name="btn1" src="furki" fileName="组件/ChildRoleBtn.xml" xy="66,717">
+      <Button checked="true" icon="ui://hpazy1telg3qu" controller="c1" page="0"/>
+    </component>
+    <component id="n19_ou3r" name="btn2" src="furki" fileName="组件/ChildRoleBtn.xml" xy="216,0" visible="false" alpha="0" touchable="false">
+      <Button controller="c1" page="1"/>
+    </component>
+    <component id="n20_ou3r" name="btn3" src="furki" fileName="组件/ChildRoleBtn.xml" xy="337,717">
+      <Button icon="ui://hpazy1telg3qr" controller="c1" page="2"/>
+    </component>
+    <image id="n8_ysx7" name="n8" src="lg3qk" fileName="image/名字框.png" xy="182,902" size="276,52"/>
+    <text id="n9_ysx7" name="labName" xy="217,910" size="207,35" input="true" maxLength="6" font="Microsoft YaHei" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="老刘打数值老"/>
+    <component id="n17_furk" name="btnRandom" src="furkh" fileName="组件/Button_Random.xml" xy="421,897"/>
+  </displayList>
+</component>

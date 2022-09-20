@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="245,33">
+  <displayList>
+    <richtext id="n2_cenr" name="lb" xy="0,2" size="110,28" group="n4_cenr" fontSize="18" color="#ffffff" text="玩家名字111"/>
+    <component id="n3_cenr" name="rewardLb" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="110,0" size="135,33" group="n4_cenr">
+      <relation target="n2_cenr" sidePair="right-left"/>
+    </component>
+    <group id="n4_cenr" name="n4" xy="0,0" size="245,33" advanced="true" collapsed="true" layout="hz"/>
+  </displayList>
+  <relation target="n4_cenr" sidePair="width-width"/>
+</component>

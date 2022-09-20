@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="104,93">
+  <displayList>
+    <loader id="n0_qxkh" name="n0" xy="-10,0" size="124,34" url="ui://jvxpx9emqxkh3fo" fill="scaleFree">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n1_qxkh" sidePair="width-width"/>
+    </loader>
+    <richtext id="n1_qxkh" name="n1" xy="9,4" size="85,25" fontSize="16" align="center" text="一级强化石">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <loader id="n2_qxkh" name="n2" xy="32,33" size="40,40" url="ui://jvxpx9emqxkh3fp" fill="scale"/>
+  </displayList>
+</component>

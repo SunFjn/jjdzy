@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ehocr0vu" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="pwnz0" name="成就树.jpg" path="/res/"/>
+    <component id="pwnz1" name="ChildCJS.xml" path="/" exported="true"/>
+    <image id="pwnz2" name="成就树底图.jpg" path="/res/"/>
+    <image id="pwnz3" name="底部-点亮.png" path="/res/"/>
+    <image id="pwnz4" name="底部-未必点亮.png" path="/res/"/>
+    <image id="pwnz5" name="1.png" path="/res/"/>
+    <component id="pwnz6" name="CJSIconItem.xml" path="/com/" exported="true"/>
+    <component id="pwnz7" name="ViewTaskCJS.xml" path="/" exported="true"/>
+    <image id="pwnz8" name="本层目标弹窗.jpg" path="/res/"/>
+    <image id="pwnz9" name="已达成.png" path="/res/"/>
+    <component id="pwnza" name="CJSTaskItem.xml" path="/com/" exported="true"/>
+    <component id="pwnzb" name="ViewRewardCJS.xml" path="/" exported="true"/>
+    <image id="pwnzc" name="奖励预览弹窗.jpg" path="/res/"/>
+    <component id="pwnzd" name="CJSRewardItem.xml" path="/com/" exported="true"/>
+  </resources>
+  <publish name="actCJS" genCode="true" npot="true" excluded="pwnz2,pwnz5"/>
+</packageDescription>

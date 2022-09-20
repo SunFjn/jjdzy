@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="139,163">
+  <displayList>
+    <component id="n5_nyv7" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="12,16"/>
+    <component id="n4_nyv7" name="closeBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="88,-1" size="39,40">
+      <Button icon="ui://yqpfulefoiih32"/>
+    </component>
+    <image id="n3_nyv7" name="singImg" src="nyv758" fileName="image/跨服矿藏/矿主标签.png" xy="26,15"/>
+    <richtext id="n1_nyv7" name="numLb" xy="0,135" size="139,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="战力：10万"/>
+    <richtext id="n6_j2qo" name="nameLb" xy="0,109" size="139,25" touchable="false" fontSize="16" color="#ffffff" align="center" autoSize="none" text="战力：10万"/>
+  </displayList>
+</component>

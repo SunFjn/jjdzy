@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,102">
+  <displayList>
+    <component id="n0_hvvj" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="0,0"/>
+    <image id="n1_hvvj" name="bg" src="xwhy3dc" fileName="image/抽奖框.png" pkg="jvxpx9em" xy="-5,-1" visible="false"/>
+  </displayList>
+</component>

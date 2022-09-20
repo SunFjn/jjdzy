@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.eightDoor.EightDoor" tbname="eightDoor">
+		<index field="hid" type="prikey" autoIncrement="false" />
+		<col field="hid" type="bigint" pf="all" comment="角色id" />
+		<col field="rechargenum" type="int" pf="all" comment="活动期间充值" />
+		<col field="taskRewads" type="text" pf="all" comment="任务id-》任务[0]完成数 [1]任务奖励状态" />
+		<col field="bigGoalReward" type="text" pf="all" comment="目标门-》奖励状态" />
+	</tb>
+</tbs>

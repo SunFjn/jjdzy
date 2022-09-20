@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="321,28" extention="Label">
+  <displayList>
+    <image id="n3_irr1" name="n3" src="irr13gt" fileName="image/花纹/标题两边花纹.png" xy="0,8" pivot="0.5,0.5" flip="hz">
+      <relation target="n2_iqo8" sidePair="middle-middle"/>
+    </image>
+    <richtext id="n2_iqo8" name="title" xy="122,1" size="77,28" fontSize="18" color="#f4bf12" leading="0" text="宝物效果"/>
+    <image id="n1_iqo8" name="n1" src="irr13gt" fileName="image/花纹/标题两边花纹.png" xy="204,8" pivot="0.5,0.5">
+      <relation target="n2_iqo8" sidePair="middle-middle,right-right"/>
+    </image>
+  </displayList>
+  <relation target="n2_iqo8" sidePair="width-width,height-height"/>
+</component>

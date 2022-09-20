@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="97,380">
+  <displayList>
+    <image id="n0_gz25" name="n0" src="w6ro5n" fileName="image1/左功能区底.png" pkg="7gxkx46w" xy="0,0" size="97,380"/>
+    <component id="n1_gz25" name="inviteBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="6,2" pivot="0.5,0.5" size="84,88">
+      <Button icon="ui://4x7dk3lhgz255"/>
+    </component>
+    <component id="n2_gz25" name="toastBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="6,95" pivot="0.5,0.5" size="84,88">
+      <Button icon="ui://4x7dk3lhgz258"/>
+    </component>
+    <component id="n3_gz25" name="battleBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="6,188" pivot="0.5,0.5" size="84,88">
+      <Button icon="ui://4x7dk3lhgz256"/>
+    </component>
+    <component id="n4_owxn" name="applyBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="6,281" pivot="0.5,0.5" size="84,88">
+      <Button icon="ui://4x7dk3lhowxn10"/>
+    </component>
+  </displayList>
+</component>

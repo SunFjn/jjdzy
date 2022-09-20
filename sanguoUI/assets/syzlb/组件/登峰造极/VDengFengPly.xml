@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="180,207">
+  <displayList>
+    <image id="n15_j2af" name="img2" src="jo8920" fileName="image/登峰造极/海选地台2.png" xy="-1,109" visible="false"/>
+    <image id="n16_j2af" name="img3" src="jo8921" fileName="image/登峰造极/海选地台3.png" xy="2,2" visible="false"/>
+    <image id="n2_a31a" name="img1" src="jo891z" fileName="image/登峰造极/海选地台.png" xy="0,65" visible="false"/>
+    <image id="n4_a31a" name="n4" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="2,143" size="178,64"/>
+    <component id="n19_spw6" name="roleModel" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="91,128" touchable="false"/>
+    <image id="n13_a31a" name="imgPoint" src="irr13h2" fileName="image/进度条/经验条2底框.png" pkg="jvxpx9em" xy="53,2" size="73,20" visible="false"/>
+    <richtext id="n3_a31a" name="lbPoint" xy="52,0" size="75,25" touchable="false" fontSize="16" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="5000积分"/>
+    <richtext id="n5_a31a" name="lbName" xy="-21,147" size="226,28" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="玩家名字刘字.S8999"/>
+    <richtext id="n6_a31a" name="lbPower" xy="56,176" size="115,28" fontSize="18" color="#e2ad38" autoClearText="true" text="1245400000"/>
+    <image id="n7_a31a" name="imgPower" src="bwmw3l" fileName="image/战力.png" pkg="jvxpx9em" xy="8,172" size="46,32" aspect="true" visible="false"/>
+    <component id="n8_a31a" name="btnBat" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="120,74" size="64,69" visible="false">
+      <Button icon="ui://3o8q23uujo8926"/>
+    </component>
+    <image id="n17_j2af" name="imgOne" src="j2af2e" fileName="image/登峰造极/第一名.png" xy="41,-39" visible="false"/>
+    <image id="n11_a31a" name="n11" src="gz253i9" fileName="image/箭头+其他/小旗子标签底2.png" pkg="jvxpx9em" xy="11,0" group="n18_j2af"/>
+    <richtext id="n9_a31a" name="lbRank" xy="10,6" size="36,28" group="n18_j2af" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="50"/>
+    <richtext id="n10_a31a" name="n10" xy="10,28" size="36,28" group="n18_j2af" fontSize="18" color="#ffffff" align="center" autoSize="none" text="名"/>
+    <group id="n18_j2af" name="gRank" xy="10,0" size="37,69" visible="false" advanced="true"/>
+    <loader id="n20_f33b" name="imgHasBat" xy="25,32" size="129,70" visible="false" touchable="false" url="ui://3o8q23uuf33b2h"/>
+    <component id="n21_mn6e" name="effCont" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="91,101" touchable="false"/>
+    <image id="n22_g6s3" name="imgNO" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="43,166"/>
+  </displayList>
+</component>

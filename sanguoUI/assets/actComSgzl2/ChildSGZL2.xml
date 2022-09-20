@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://ggwi8wepqhocc">
+  <controller name="tabCtrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <controller name="stateCtrl" exported="true" pages="0,,1," selected="0"/>
+  <controller name="updateFlagCtrl" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1_jt4v" name="n1" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="0,268" size="640,666"/>
+    <image id="n18_jt4v" name="n18" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="16,378" size="607,494"/>
+    <component id="n5_jt4v" name="tab0" src="qhocd" fileName="com/SGZL2Btn.xml" xy="354,286">
+      <Button checked="true" controller="tabCtrl" page="0"/>
+    </component>
+    <component id="n6_jt4v" name="tab1" src="qhocd" fileName="com/SGZL2Btn.xml" xy="443,286">
+      <Button icon="ui://ggwi8wepqhoc1" controller="tabCtrl" page="1"/>
+    </component>
+    <component id="n7_jt4v" name="tab2" src="qhocd" fileName="com/SGZL2Btn.xml" xy="532,286">
+      <Button icon="ui://ggwi8wepqhoc2" controller="tabCtrl" page="2"/>
+    </component>
+    <component id="n8_jt4v" name="pb" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="127,344" size="222,21">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader id="n12_jt4v" name="n12" xy="20,274" size="222,102" url="ui://ggwi8wepqhoc3">
+      <gearIcon controller="stateCtrl" pages="1" values="ui://ggwi8wepqhoc4" default="ui://ggwi8wepqhoc3"/>
+    </loader>
+    <component id="n10_jt4v" name="btnUpgrade" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="247,297" size="95,39">
+      <gearDisplay controller="updateFlagCtrl" pages="0"/>
+      <Button icon="ui://ggwi8wepqhoc5"/>
+    </component>
+    <image id="n11_jt4v" name="n11" src="qhoc6" fileName="res/进阶.png" xy="272,304">
+      <gearDisplay controller="updateFlagCtrl" pages="0"/>
+      <relation target="n10_jt4v" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n14_jt4v" name="tfLevel" xy="58,308" pivot="0.5,0.5" size="38,27" font="ui://jvxpx9embwmw3w" fontSize="18" color="#ffffff" letterSpacing="-2" bold="true" text="14">
+      <relation target="n12_jt4v" sidePair="left-left,top-top"/>
+    </text>
+    <richtext id="n15_jt4v" name="tfDate" xy="33,882" size="160,28" fontSize="18" color="#00ff00" autoClearText="true" text="活动剩余时间：1天"/>
+    <component id="n16_jt4v" name="btnGetAll" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="478,875" size="119,44">
+      <gearDisplay controller="tabCtrl" pages="0"/>
+      <Button title="一键领取"/>
+    </component>
+    <image id="n49_tvlr" name="n49" src="qhoc7" fileName="res/进阶奖励底.png" xy="315,386" size="289,474" group="n50_tvlr"/>
+    <image id="n38_tvlr" name="n38" src="qhoc8" fileName="res/进阶奖励框.png" xy="318,386" group="n50_tvlr"/>
+    <image id="n39_tvlr" name="n39" src="qhoc9" fileName="res/普通奖励底 拷贝 2.png" xy="126,386" group="n50_tvlr"/>
+    <image id="n40_tvlr" name="n40" src="qhoca" fileName="res/进阶奖励标题.png" xy="409,397" group="n50_tvlr"/>
+    <richtext id="n41_tvlr" name="n41" xy="170,395" size="93,34" group="n50_tvlr" fontSize="22" color="#ffff00" bold="true" text="普通奖励"/>
+    <group id="n50_tvlr" name="n50" xy="126,386" size="478,474" advanced="true" collapsed="true">
+      <gearDisplay controller="tabCtrl" pages="0"/>
+    </group>
+    <list id="n37_tvlr" name="list0" xy="42,431" size="576,428" overflow="scroll" lineGap="-16" defaultItem="ui://ggwi8wepqhoci" autoItemSize="false" autoClearItems="true">
+      <gearDisplay controller="tabCtrl" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n26_jt4v" name="list1" xy="33,387" size="576,471" overflow="scroll" lineGap="2" defaultItem="ui://ggwi8wepqhocf" autoItemSize="false" autoClearItems="true">
+      <gearDisplay controller="tabCtrl" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n36_tvlr" name="list2" xy="33,387" size="576,471" layout="flow_hz" overflow="scroll" lineGap="11" colGap="10" defaultItem="ui://ggwi8wepqhocg" autoClearItems="true">
+      <gearDisplay controller="tabCtrl" pages="2"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n51_ke27" name="tfMax" xy="201,339" size="71,34" fontSize="22" color="#00cc00" bold="true" text="已满级"/>
+    <image id="n52_ke27" name="n52" src="qhocb" fileName="res/已进阶.png" xy="249,297">
+      <gearDisplay controller="updateFlagCtrl" pages="1"/>
+    </image>
+    <component id="n53_ke27" name="resCom0" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="343,880" size="123,36">
+      <gearDisplay controller="tabCtrl" pages="2"/>
+    </component>
+    <component id="n54_ke27" name="resCom1" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="486,880" size="123,36">
+      <gearDisplay controller="tabCtrl" pages="2"/>
+    </component>
+  </displayList>
+</component>

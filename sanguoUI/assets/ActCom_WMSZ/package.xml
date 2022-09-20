@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="5na9ulpx" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="8a0y0" name="Child_ActCom_WMSZ.xml" path="/组件/" exported="true"/>
+    <component id="8a0y1" name="Item_ActCom_WMSZ.xml" path="/组件/" exported="true"/>
+    <component id="gv3t2" name="WMSZIntegralView.xml" path="/组件/" exported="true"/>
+    <component id="gv3t3" name="WMSZIntegralItem.xml" path="/组件/" exported="true"/>
+    <image id="gv3t6" name="积分奖励.png" path="/image/" exported="true"/>
+    <image id="gv3t8" name="活动主题zi.png" path="/image/" exported="true"/>
+    <component id="gv3t9" name="WMSZ_ShowItem.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="ActCom_WMSZ" genCode="true"/>
+</packageDescription>

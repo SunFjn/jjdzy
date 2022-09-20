@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,115" extention="Label">
+  <displayList>
+    <richtext id="n0_ng03" name="title" xy="-49,87" size="188,28" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" text="高级暴击"/>
+    <image id="n1_ng03" name="n1" src="dhj53ds" fileName="image/普通技能框.png" pkg="jvxpx9em" xy="-1,0" size="91,91" aspect="true"/>
+    <loader id="n2_ng03" name="iconImg" xy="11,10" size="68,68" align="center" vAlign="middle" fill="scaleNoBorder" shrinkOnly="true"/>
+    <image id="n3_ng03" name="lockImg" src="eigu2l" fileName="image/未解锁.png" xy="14,4"/>
+  </displayList>
+</component>

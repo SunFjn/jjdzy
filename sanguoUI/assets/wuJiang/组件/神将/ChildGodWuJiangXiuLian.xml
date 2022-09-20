@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <loader id="n44_nlyo" name="n44" xy="0,147" size="640,778" url="ui://zyx92gzwnlyo4s"/>
+    <image id="n1_nlyo" name="n1" src="z1jw6l" fileName="image/侧边框底.png" pkg="jvxpx9em" xy="12,148" size="122,770"/>
+    <loader id="n49_nlyo" name="n49" xy="175,230" size="419,267" url="ui://zyx92gzwnlyo4t"/>
+    <image id="n50_nlyo" name="icon0" src="nlyo4v" fileName="image/卫星.png" xy="161,389" scale="0.5,0.5"/>
+    <image id="n51_nlyo" name="icon1" src="nlyo4v" fileName="image/卫星.png" xy="204,458" scale="0.65,0.65"/>
+    <image id="n52_nlyo" name="icon2" src="nlyo4v" fileName="image/卫星.png" xy="309,465" scale="0.7,0.7"/>
+    <image id="n54_nlyo" name="icon3" src="nlyo4v" fileName="image/卫星.png" xy="352,379" scale="0.8,0.8"/>
+    <image id="n55_nlyo" name="icon4" src="nlyo4v" fileName="image/卫星.png" xy="380,277" aspect="true" scale="0.9,0.9"/>
+    <image id="n56_nlyo" name="icon5" src="nlyo4v" fileName="image/卫星.png" xy="474,203"/>
+    <image id="n57_nlyo" name="icon6" src="nlyo4v" fileName="image/卫星.png" xy="547,260" scale="1.2,1.2"/>
+    <image id="n59_nlyo" name="n59" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="139,523" size="479,80"/>
+    <list id="n2_nlyo" name="list" xy="10,157" size="116,759" overflow="scroll" defaultItem="ui://zyx92gzwtht45" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n5_nlyo" name="n5" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="198,818" group="n7_nlyo"/>
+    <richtext id="n6_nlyo" name="n6" xy="323,808" size="116,35" group="n7_nlyo" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满星"/>
+    <group id="n7_nlyo" name="boxMax" xy="198,808" size="366,35" advanced="true"/>
+    <component id="n8_nlyo" name="labPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="244,154" touchable="false"/>
+    <richtext id="n9_nlyo" name="labAttrMax" xy="335,633" size="172,110" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <image id="n10_nlyo" name="imgArrow" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="384,691" pivot="0.5,0.5" anchor="true"/>
+    <component id="n15_nlyo" name="n15" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="213,600" size="329,31">
+      <Label title="修炼属性"/>
+    </component>
+    <richtext id="n25_nlyo" name="labCost" xy="246,811" size="77,28" group="n31_nlyo" fontSize="18" color="#ffffff" align="right" ubb="true" text="神将印记">
+      <relation target="n34_nlyo" sidePair="right-right"/>
+    </richtext>
+    <component id="n26_nlyo" name="btnUp" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="318,847" group="n31_nlyo">
+      <Button title="升阶"/>
+    </component>
+    <image id="n27_nlyo" name="n27" src="nlyo4o" fileName="image/修炼战力+.png" xy="257,747" size="106,51" group="n29_nlyo"/>
+    <text id="n28_nlyo" name="starPowerLb" xy="349,765" size="148,27" group="n29_nlyo" scale="0.8,0.8" font="ui://jvxpx9embwmw3w" fontSize="12" singleLine="true" text="99999999"/>
+    <group id="n29_nlyo" name="n29" xy="257,747" size="240,51" group="n31_nlyo" advanced="true" collapsed="true" layout="hz" colGap="-14"/>
+    <image id="n34_nlyo" name="n34" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="339,806" size="150,30" group="n31_nlyo"/>
+    <loader id="n35_nlyo" name="imgItem" xy="345,810" size="50,30" group="n31_nlyo" scale="0.3,0.3" shrinkOnly="true" autoSize="true"/>
+    <component id="n42_nlyo" name="btnBreach" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="318,847" group="n31_nlyo">
+      <Button title="突破"/>
+    </component>
+    <richtext id="n36_nlyo" name="lbCount" xy="386,809" size="35,28" group="n31_nlyo" fontSize="18" color="#ffffff" text="0/0"/>
+    <group id="n31_nlyo" name="starGroup" xy="246,747" size="251,151" advanced="true"/>
+    <richtext id="n39_nlyo" name="lbNowScore" xy="326,537" size="77,28" fontSize="18" color="#ff9900" align="center" text="下级评分"/>
+    <richtext id="n40_nlyo" name="lbNextScore" xy="480,537" size="77,28" fontSize="18" color="#ff9900" align="center" text="下级评分"/>
+    <image id="n47_nlyo" name="n47" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="171,218">
+      <relation target="n41_nlyo" sidePair="width-width,right-right"/>
+    </image>
+    <image id="n48_nlyo" name="n48" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="171,218">
+      <relation target="n41_nlyo" sidePair="width-width,right-right"/>
+    </image>
+    <richtext id="n41_nlyo" name="lbLevel" xy="189,224" size="81,35" fontSize="24" color="#ffffff" align="center" text="9重1星">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n3_nlyo" name="labAttrCur" xy="187,633" size="172,110" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <richtext id="n4_nlyo" name="labAttrNext" xy="464,633" size="172,110" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <image id="n60_nlyo" name="n60" src="nlyo4u" fileName="image/神将技能.png" xy="164,543"/>
+  </displayList>
+</component>

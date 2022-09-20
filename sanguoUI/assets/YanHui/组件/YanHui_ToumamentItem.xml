@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="562,143">
+  <displayList>
+    <image id="n2_gz25" name="n2" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="562,143"/>
+    <richtext id="n5_gz25" name="nameLb" xy="122,35" size="37,25" fontSize="16" color="#ffffff" text="貂蝉"/>
+    <richtext id="n6_gz25" name="fwLb" xy="122,74" size="115,25" fontSize="16" color="#ffffff" text="氛围值+100/人"/>
+    <richtext id="n8_gz25" name="n8" xy="237,13" size="101,25" fontSize="16" color="#ffffff" text="主人开启奖励"/>
+    <richtext id="n10_gz25" name="n10" xy="347,13" size="85,25" fontSize="16" color="#ffffff" text="击败后可领"/>
+    <richtext id="n13_gz25" name="promptLb" xy="462,46" size="77,35" fontSize="24" color="#ffffff" text="已开启"/>
+    <component id="n12_gz25" name="costLb" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="471,91" size="60,33">
+      <relation target="n11_gz25" sidePair="center-center"/>
+      <Label title="99"/>
+    </component>
+    <component id="n4_gz25" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="8,26"/>
+    <component id="n7_gz25" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="250,40" scale="0.8,0.8"/>
+    <component id="n9_gz25" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="348,40" scale="0.8,0.8"/>
+    <component id="n11_gz25" name="openBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="447,38" size="109,53">
+      <Button title="开启"/>
+    </component>
+    <image id="n14_ihns" name="openImg" src="ihnsw" fileName="image/已开启.png" xy="453,47"/>
+  </displayList>
+</component>

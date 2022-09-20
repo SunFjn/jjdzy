@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,924" opaque="false">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <loader id="n5_gapn" name="backImg" xy="0,266" size="640,660" url="ui://4h4iwgjrgapnf" autoSize="true"/>
+    <image id="n2_gapn" name="n2" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="20,278" size="267,27"/>
+    <component id="n8_gapn" name="expBar" src="p4bn88" fileName="新组建/HpBar.xml" pkg="jvxpx9em" xy="320,406">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <list id="n10_gapn" name="list" xy="272,489" size="418,102" scale="0.85,0.85" layout="row" overflow="hidden" colGap="3" defaultItem="ui://jvxpx9emetorm" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n7_gapn" name="levelLb" xy="270,396" size="50,35" touchable="false" fontSize="24" color="#ffffff" text="Lv.5"/>
+    <richtext id="n3_gapn" name="timeLb" xy="24,277" size="77,28" touchable="false" fontSize="18" color="#00ff00" text="剩余时间"/>
+    <richtext id="n4_gapn" name="explainLb" xy="548,282" size="77,28" fontSize="18" color="#00ff00" underline="true" text="玩法说明"/>
+    <component id="n11_gapn" name="rewardBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="492,428">
+      <Button title="领取奖励"/>
+    </component>
+    <richtext id="n12_gapn" name="n12" xy="299,578" size="297,25" touchable="false" fontSize="16" color="#ffffff" text="醉意值满后可挑战张飞,击败后可领取奖励"/>
+    <richtext id="n13_gapn" name="rankLb" xy="547,625" size="77,28" fontSize="18" color="#00ff00" underline="true" text="敬酒排名"/>
+    <component id="n14_gapn" name="item0" src="gapni" fileName="组件/ZFZJItem.xml" xy="23,656" group="n24_gapn"/>
+    <component id="n22_gapn" name="item1" src="gapni" fileName="组件/ZFZJItem.xml" xy="224,656" group="n24_gapn"/>
+    <component id="n23_gapn" name="item2" src="gapni" fileName="组件/ZFZJItem.xml" xy="425,656" group="n24_gapn"/>
+    <group id="n24_gapn" name="n24" xy="23,656" size="595,250" advanced="true" collapsed="true" layout="hz" colGap="8">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n25_gapn" name="n25" src="gapn9" fileName="image/醉意已满字体.png" xy="213,775" group="n27_gapn"/>
+    <component id="n26_gapn" name="battleBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="255,834" group="n27_gapn">
+      <Button title="挑战BOSS"/>
+    </component>
+    <group id="n27_gapn" name="n27" xy="213,775" size="219,110" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n28_gapn" name="n28" src="gapn8" fileName="image/已认怂字体.png" xy="171,799">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,642">
+  <displayList>
+    <image id="n20_n0mt" name="n20" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="3,3" size="634,639"/>
+    <richtext id="n17_t68w" name="n17" xy="469,3" size="142,28" group="n19_n0mt" fontSize="18" color="#15f234" leading="0" text="每天0点更新商品"/>
+    <list id="n18_t68w" name="list" xy="32,30" size="575,592" group="n19_n0mt" layout="flow_hz" overflow="scroll" lineGap="6" colGap="10" lineItemCount="2" defaultItem="ui://qzsojhcrpdbd1i" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n21_pdbd" name="timeLb" xy="30,1" size="164,28" group="n19_n0mt" fontSize="18" color="#15f234" leading="0" text="活动剩余时间：100"/>
+    <group id="n19_n0mt" name="n19" xy="30,1" size="581,621" collapsed="true"/>
+  </displayList>
+</component>

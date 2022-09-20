@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,383">
+  <displayList>
+    <component id="n1_j158" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,383">
+      <Label title="必中清单"/>
+    </component>
+    <image id="n3_j158" name="n3" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="17,130" size="555,151"/>
+    <richtext id="n2_j158" name="n2" xy="34,86" size="221,35" fontSize="24" color="#ffffff" text="已选必中清单如下："/>
+    <richtext id="n4_j158" name="listLb" xy="29,139" size="532,134" fontSize="20" color="#ffffff" vAlign="middle" leading="15" autoSize="none" text=""/>
+    <component id="n5_j158" name="escBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="116,299">
+      <Button title="取消"/>
+    </component>
+    <component id="n6_j158" name="sureBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="344,299">
+      <Button title="确定"/>
+    </component>
+  </displayList>
+</component>

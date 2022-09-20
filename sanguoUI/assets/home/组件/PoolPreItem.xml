@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="568,210">
+  <displayList>
+    <image id="n6_nvxy" name="n6" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="568,210"/>
+    <richtext id="n2_ye03" name="lbCondition" xy="18,96" size="40,28" fontSize="18" color="#ffffff" text=""/>
+    <richtext id="n3_ye03" name="lbCost" xy="19,151" size="40,28" fontSize="18" color="#ffffff" text=""/>
+    <list id="n4_ye03" name="list" xy="208,14" size="449,222" scale="0.8,0.8" layout="flow_hz" overflow="scroll" scroll="horizontal" lineGap="8" colGap="11" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n7_nvxy" name="lbName" xy="25,26" size="50,50" url="ui://y0plc878g2m413"/>
+  </displayList>
+</component>

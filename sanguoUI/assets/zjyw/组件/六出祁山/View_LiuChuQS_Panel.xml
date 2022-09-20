@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="c2" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n2_sr40" name="frame" src="fsg93cj" fileName="组件/frame4.xml" pkg="jvxpx9em" xy="0,0"/>
+    <list id="n34_jten" name="listMap" xy="27,223" size="584,339" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://7a366usasr401l" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n26_hndy" name="imgMapBg" xy="9,219" size="623,347" touchable="false" url="ui://7a366usahndy1y"/>
+    <image id="n31_hndy" name="n31" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="1,567" size="638,362"/>
+    <image id="n32_hndy" name="n32" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="21,612" size="598,238"/>
+    <component id="n3_sr40" name="saoDanBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="148,859" pivot="0.5,0.5" group="n9_sr40">
+      <Button title="一键扫荡"/>
+    </component>
+    <component id="n4_sr40" name="createBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="375,859" pivot="0.5,0.5" group="n9_sr40">
+      <Button title="创建房间"/>
+    </component>
+    <list id="n7_sr40" name="listJoin" xy="37,625" size="572,217" group="n9_sr40" layout="row" overflow="hidden" scroll="horizontal" colGap="8" defaultItem="ui://7a366usasr401k" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n8_sr40" name="lbNoTeam" xy="248,714" size="143,35" group="n9_sr40" touchable="false" fontSize="24" color="#ffff00" align="center" autoSize="none" text="暂无队伍"/>
+    <group id="n9_sr40" name="teamDataGroup" xy="37,625" size="572,285" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <list id="n20_sr40" name="listTeam" xy="34,603" size="588,247" group="n17_sr40" layout="row" overflow="hidden" defaultItem="ui://7a366usasr401i">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n16_sr40" name="battleBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="358,859" pivot="0.5,0.5" group="n17_sr40">
+      <Button title="开始挑战"/>
+    </component>
+    <component id="n23_f2mo" name="yaoQingBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="149,859" pivot="0.5,0.5" group="n17_sr40">
+      <Button title="邀请协助"/>
+    </component>
+    <component id="n24_f2mo" name="exitBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="255,859" pivot="0.5,0.5" group="n17_sr40">
+      <Button title="退出"/>
+    </component>
+    <group id="n17_sr40" name="teamRoleGroup" xy="34,603" size="588,307" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n18_sr40" name="chatBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="9,574" pivot="0.5,0.5" size="51,47">
+      <Button icon="ui://7gxkx46wi2yv6i"/>
+    </component>
+    <component id="n25_loov" name="vTitle" src="loov1t" fileName="组件/六出祁山/ItemLCQSTitle.xml" xy="0,43"/>
+    <component id="n30_hndy" name="n30" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="155,585" size="329,31">
+      <Label title="队伍信息"/>
+    </component>
+    <image id="n35_jten" name="n35" src="loov1o" fileName="image/六出祁山/卷轴.png" xy="259,245" size="120,37" aspect="true"/>
+    <loader id="n33_jten" name="imapName" xy="259,253" size="120,21" touchable="false" url="ui://7a366usajten20" align="center"/>
+    <component id="n38_iduu" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="0,369" pivot="0.5,0.5" size="36,47">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <component id="n39_iduu" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="622,369" pivot="0.5,0" anchor="true" size="36,47" scale="-1,1">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <component id="n40_t874" name="tabBtn0" src="t1ya3hg" fileName="组件/BtnHard0.xml" pkg="jvxpx9em" xy="21,124" scale="0.8,0.8" touchable="false">
+      <Button checked="true" icon="ui://7a366usaaxhn2u" selectedIcon="ui://7a366usaaxhn2v" controller="c2" page="0"/>
+    </component>
+    <component id="n41_t874" name="tabBtn1" src="t1ya3hh" fileName="组件/BtnHard1.xml" pkg="jvxpx9em" xy="117,124" scale="0.8,0.8" touchable="false">
+      <Button icon="ui://7a366usaaxhn2x" selectedIcon="ui://7a366usaaxhn2w" controller="c2" page="1"/>
+    </component>
+  </displayList>
+</component>

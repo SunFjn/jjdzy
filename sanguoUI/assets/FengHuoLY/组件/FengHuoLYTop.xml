@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="637,159" opaque="false">
+  <displayList>
+    <image id="n17_b801" name="n17" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="1,49" size="636,110"/>
+    <richtext id="n0_srrs" name="lbScore" xy="415,123" size="95,28" fontSize="18" color="#00ff00" text="我的积分："/>
+    <richtext id="n3_srrs" name="lbDesc" xy="541,61" size="85,31" fontSize="18" color="#00ff00" autoSize="none" text="&lt;u>玩法说明&lt;/u>"/>
+    <richtext id="n4_srrs" name="lbTime" xy="415,90" size="169,28" fontSize="18" color="#00ff00" autoSize="none" text="活动倒计时16:06:23"/>
+    <list id="n21_b801" name="n21" xy="19,66" size="394,84" overflow="scroll" defaultItem="ui://edvdots4b801w25">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.commonData.CommonData" tbname="commonData">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="actViewAwardState" type="int" pf="all" comment="活动预览每日奖励状态 ,0:未领取,1:领取"/>
+			<col field="dailyRedPointState" type="int" pf="all" comment="每日红点状态"/>
+			<col field="appAwardState" type="int" pf="all" comment="app每日奖励领取状态 0未领取,1:领取"/>			
+     </tb>
+</tbs>

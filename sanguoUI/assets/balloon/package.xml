@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="i1mp7ufx" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="wuwj0" name="ChildBalloon.xml" path="/" exported="true"/>
+    <image id="wuwj1" name="打气球.png" path="/res/"/>
+    <image id="wuwj2" name="背景.jpg" path="/res/"/>
+    <image id="wuwj3" name="奖励预览.png" path="/res/"/>
+    <image id="wuwj4" name="气球.png" path="/res/"/>
+    <image id="wuwj5" name="气球破碎状态.png" path="/res/"/>
+    <component id="wuwj6" name="BallloonItem.xml" path="/" exported="true"/>
+    <image id="9tdd7" name="已领取.png" path="/res/"/>
+    <component id="9tdd8" name="BallViewGrid.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="balloon" genCode="true" npot="true" excluded="wuwj2"/>
+</packageDescription>

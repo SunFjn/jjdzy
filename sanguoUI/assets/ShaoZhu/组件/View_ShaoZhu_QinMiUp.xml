@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,709">
+  <displayList>
+    <loader id="n14_ng03" name="backIcon" xy="0,0" size="640,709" url="ui://p83wyb2bng03g" fill="scaleFree"/>
+    <loader id="n2_ng03" name="titleIcon" xy="185,104" size="270,48" url="ui://p83wyb2bng03k" align="center"/>
+    <image id="n15_ng03" name="n15" src="ng03p" fileName="image/升阶奖励.png" xy="63,464"/>
+    <image id="n4_ng03" name="n4" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="178,380"/>
+    <richtext id="n3_ng03" name="n3" xy="262,167" size="115,34" fontSize="22" color="#ffcc33" leading="0" text="亲密度提升"/>
+    <richtext id="n9_ng03" name="promptLb" xy="230,673" size="177,31" fontSize="20" color="#00ff00" align="center" leading="0" autoSize="none" text="解锁新被动技能孔"/>
+    <component id="n10_ng03" name="sureBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="254,618">
+      <Button title="确定"/>
+    </component>
+    <list id="n16_fe76" name="list" xy="98,484" size="442,137" layout="row" overflow="scroll" colGap="35" defaultItem="ui://jvxpx9emetorn" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n18_vuzv" name="modelIcon" xy="255,240" size="148,175" touchable="false" align="center" vAlign="bottom"/>
+  </displayList>
+</component>

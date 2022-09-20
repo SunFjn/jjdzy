@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,905" opaque="false">
+  <displayList>
+    <image id="n1_genj" name="n1" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="19,812" size="601,93"/>
+    <component id="n2_genj" name="btnHand" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="468,837">
+      <Button title="一键扫荡"/>
+    </component>
+    <text id="n3_genj" name="n3" xy="41,846" size="339,27" fontSize="20" color="#33ff00" leading="10" text="同一秘境每日只可挑战1次（周卡+1）"/>
+    <list id="n4_genj" name="list" xy="17,158" size="605,654" overflow="scroll" margin="0,0,6,0" lineGap="6" defaultItem="ui://yqpfulefgenj3x" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="104,129">
+  <displayList>
+    <component id="n0_dsuf" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="2,0"/>
+    <component id="n1_dsuf" name="bar" src="emwp3h8" fileName="组件/ExpBar1.xml" pkg="jvxpx9em" xy="0,109" size="100,20">
+      <ProgressBar max="100"/>
+    </component>
+    <richtext id="n3_dsuf" name="lb" xy="16,30" size="74,50" touchable="false" fontSize="16" color="#ffcc00" autoSize="none" text="击退年兽获得奖励"/>
+  </displayList>
+</component>

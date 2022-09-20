@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="151,150" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <loader id="n1_t2re" name="icon" xy="0,0" size="146,144" url="ui://c7onhgk8t2rev" align="center" vAlign="middle" autoSize="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n8_af3g" name="maskImg" src="k8qc9z" fileName="image1/maskBg.png" pkg="jvxpx9em" xy="1,3" size="141,137"/>
+    <image id="n6_61zd" name="selectImg" src="m3513c1" fileName="image/选中效果.png" pkg="jvxpx9em" xy="-5,-5" size="156,155">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <image id="n7_61zd" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="119,8" visible="false"/>
+    <richtext id="n2_t2re" name="levelLb" xy="71,111" size="68,28" touchable="false" fontSize="18" color="#ffffff" align="right" autoSize="none" text="10阶"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

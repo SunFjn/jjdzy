@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_608a" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,253" size="640,596">
+      <Label title="竞猜"/>
+    </component>
+    <component id="n7_608a" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="252,693">
+      <Button title="押注"/>
+    </component>
+    <richtext id="n8_608a" name="n8" xy="73,787" size="167,28" fontSize="18" color="#ffffff" align="center" text="若押注选手&lt;font color='#15f234'>晋级&lt;/font>赢得"/>
+    <image id="n10_vlmi" name="n10" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="281,751"/>
+    <richtext id="n11_vlmi" name="lbYb" xy="313,753" size="38,28" fontSize="18" color="#ffffff" text="100"/>
+    <image id="n12_vlmi" name="n12" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="242,786"/>
+    <image id="n13_vlmi" name="n13" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="497,786"/>
+    <richtext id="n14_vlmi" name="n14" xy="326,787" size="171,28" fontSize="18" color="#ffffff" align="center" text=",若押注选手&lt;font color='#fe0000'>淘汰&lt;/font>返还"/>
+    <richtext id="n15_vlmi" name="lbYbWin" xy="279,787" size="38,28" fontSize="18" color="#f2a00e" text="600"/>
+    <richtext id="n16_vlmi" name="lbYbFault" xy="532,787" size="38,28" fontSize="18" color="#f2a00e" text="150"/>
+    <image id="n18_vlmi" name="n18" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="29,346" size="576,320"/>
+    <component id="n3_608a" name="i0" src="608a10" fileName="组件/三国无双/SGCard.xml" xy="38,360" size="186,246"/>
+    <image id="n17_vlmi" name="n17" src="k8h11s" fileName="image/VS.png" xy="243,428"/>
+    <richtext id="n6_608a" name="n6" xy="76,619" size="473,28" fontSize="18" color="#00ff00" align="center" text="每个赛程只可压住一场比赛，奖励本场比赛结束后邮件发放"/>
+    <component id="n4_608a" name="i1" src="608a10" fileName="组件/三国无双/SGCard.xml" xy="410,360" size="186,246"/>
+  </displayList>
+</component>

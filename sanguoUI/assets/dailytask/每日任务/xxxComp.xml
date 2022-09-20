@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="129,92">
+  <displayList>
+    <image id="n26_v431" name="n26" src="aro89e" fileName="image1/宝箱.png" pkg="jvxpx9em" xy="13,0" group="n24_tc2x"/>
+    <text id="n23_tc2x" name="n23" xy="0,53" size="129,39" group="n24_tc2x" fontSize="30" color="#ffffff" bold="true" strokeColor="#000000" text="每日奖励"/>
+    <group id="n24_tc2x" name="rewardGRP" xy="0,0" size="129,92" advanced="true"/>
+  </displayList>
+</component>

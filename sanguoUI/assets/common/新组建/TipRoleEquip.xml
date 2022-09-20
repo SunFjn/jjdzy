@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="562,554">
+  <displayList>
+    <component id="n17_tw1l" name="frame" src="f1cf47" fileName="组件/frame1.xml" xy="0,0" size="562,554" locked="true">
+      <relation target="n32_tw1l" sidePair="bottomext-bottom"/>
+    </component>
+    <image id="n32_tw1l" name="g22" src="x3b93cl" fileName="image/通用底框/方框3.png" xy="30,146" size="501,372">
+      <relation target="n8_kpa7" sidePair="bottomext-bottom"/>
+    </image>
+    <component id="n1_kpa7" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" xy="30,25"/>
+    <text id="n3_kpa7" name="lbLevel" xy="139,71" size="89,34" fontSize="20" color="#ffffff" text="二转90级&#xA;"/>
+    <richtext id="n18_tw1l" name="lbName" xy="139,30" size="260,34" fontSize="26" color="#ffffff" autoSize="none" text="珍妮路"/>
+    <text id="n4_kpa7" name="lbPower1" xy="139,101" size="137,31" visible="false" fontSize="20" color="#ffffff" text="战力：123456"/>
+    <text id="n5_kpa7" name="n5" xy="57,157" size="77,28" fontSize="18" color="#ffc334" text="基础属性"/>
+    <text id="n6_kpa7" name="n6" xy="57,227" size="77,28" fontSize="18" color="#ffc334" text="强化属性">
+      <relation target="n11_kpa7" sidePair="top-bottom"/>
+    </text>
+    <text id="n7_kpa7" name="bb" xy="57,296" size="77,28" fontSize="18" color="#ffc334" text="宝石属性">
+      <relation target="n12_kpa7" sidePair="top-bottom"/>
+    </text>
+    <text id="n8_kpa7" name="n8" xy="54,469" size="77,28" fontSize="18" color="#ffc334" text="升星属性">
+      <relation target="n20_tw1l" sidePair="top-bottom"/>
+    </text>
+    <richtext id="n9_kpa7" name="lb" xy="132,456" size="318,25" font="ui://jvxpx9emz1r82c" fontSize="18" color="#ffffff" autoSize="none" text="123">
+      <relation target="n8_kpa7" sidePair="top-top"/>
+    </richtext>
+    <richtext id="n11_kpa7" name="lbBaseAtt" xy="73,184" size="27,28" fontSize="18" color="#ffffff" text="23">
+      <relation target="n5_kpa7" sidePair="top-bottom"/>
+    </richtext>
+    <richtext id="n12_kpa7" name="lbStreng" xy="73,253" size="16,28" fontSize="18" color="#ffffff" text="2">
+      <relation target="n6_kpa7" sidePair="top-bottom"/>
+    </richtext>
+    <text id="n15_kpa7" name="lbStrengPower" xy="142,227" size="10,25" fontSize="18" color="#00ff00" text="">
+      <relation target="n6_kpa7" sidePair="top-top"/>
+    </text>
+    <loader id="n19_tw1l" name="s2" xy="70,395" size="31,31" url="ui://3tzqotadtw1l1l">
+      <relation target="n21_tw1l" sidePair="top-bottom"/>
+    </loader>
+    <loader id="n20_tw1l" name="s3" xy="70,425" size="31,31" url="ui://3tzqotadtw1l1k">
+      <relation target="n19_tw1l" sidePair="top-bottom"/>
+    </loader>
+    <loader id="n21_tw1l" name="s1" xy="70,362" size="31,31" url="ui://3tzqotadtw1l1j">
+      <relation target="n22_tw1l" sidePair="top-bottom"/>
+    </loader>
+    <loader id="n22_tw1l" name="s0" xy="70,333" size="31,31" url="ui://3tzqotadtw1l1i">
+      <relation target="n7_kpa7" sidePair="top-bottom"/>
+    </loader>
+    <richtext id="n24_tw1l" name="lbStone1" xy="105,359" size="77,28" fontSize="18" color="#ffffff" text="自雷宝石">
+      <relation target="n21_tw1l" sidePair="top-top"/>
+    </richtext>
+    <richtext id="n13_kpa7" name="lbStone0" xy="105,330" size="117,29" fontSize="18" color="#ffffff" autoSize="none" text="11级碧水宝石">
+      <relation target="n22_tw1l" sidePair="top-top"/>
+    </richtext>
+    <richtext id="n25_tw1l" name="lbStone2" xy="105,392" size="77,28" fontSize="18" color="#ffffff" text="青木宝石">
+      <relation target="n19_tw1l" sidePair="top-top"/>
+    </richtext>
+    <richtext id="n26_tw1l" name="lbStone3" xy="105,422" size="77,28" fontSize="18" color="#ffffff" text="朱延宝石">
+      <relation target="n20_tw1l" sidePair="top-top"/>
+    </richtext>
+    <richtext id="n27_tw1l" name="lbSX0" xy="238,330" size="14,22" font="SimHei" fontSize="18" color="#ffffff" text="1">
+      <relation target="n13_kpa7" sidePair="top-top"/>
+    </richtext>
+    <richtext id="n28_tw1l" name="lbSX1" xy="238,359" size="40,22" font="SimHei" fontSize="18" color="#ffffff" text="">
+      <relation target="n24_tw1l" sidePair="top-top"/>
+    </richtext>
+    <richtext id="n29_tw1l" name="lbSX2" xy="238,392" size="40,22" font="SimHei" fontSize="18" color="#ffffff" text="">
+      <relation target="n25_tw1l" sidePair="top-top"/>
+    </richtext>
+    <richtext id="n30_tw1l" name="lbSX3" xy="238,422" size="40,22" font="SimHei" fontSize="18" color="#ffffff" text="">
+      <relation target="n26_tw1l" sidePair="top-top"/>
+    </richtext>
+    <component id="n33_bwh7" name="lbPower" src="z8fv3ff" fileName="新组建/ViewPower1.xml" xy="139,102" size="227,40" scale="0.9,0.9">
+      <Label title="111222223"/>
+    </component>
+  </displayList>
+  <relation target="n17_tw1l" sidePair="height-height"/>
+</component>

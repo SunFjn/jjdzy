@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="183,109">
+  <displayList>
+    <image id="n21_j158" name="n21" src="zm7h2" fileName="image/宝箱底座.png" xy="0,0"/>
+    <component id="n22_j158" name="boxBt" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="53,7" size="74,63" aspect="true">
+      <Button icon="ui://jvxpx9emaro89e"/>
+    </component>
+    <component id="n23_j158" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="58,3" scale="0.65,0.65"/>
+    <richtext id="n24_j158" name="nameLb" xy="30,77" size="127,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text=""/>
+  </displayList>
+</component>

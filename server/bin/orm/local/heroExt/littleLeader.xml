@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.littleLeader.LittleLeader" tbname="littleLeader">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="wearType" type="int" pf="all"  comment="当前出站小主"/>
+		    <col field="hasLittleLeaderModels" type="text" pf="all" comment="激活的小主"/>
+			<col field="starRewardState" type="varchar" len="800"  pf="all" comment="少主升星奖励领取情况"/>		    
+    </tb>
+</tbs>

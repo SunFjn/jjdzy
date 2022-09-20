@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,590">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n10_som1" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,541">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearText controller="c1" pages="0" values="个人排行" default="国家排行"/>
+      <Label title="国家排行"/>
+    </component>
+    <component id="n33_l3h3" name="n33" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,536">
+      <Button checked="true" title="国家排名" controller="c1" page="1"/>
+    </component>
+    <component id="n32_l3h3" name="n32" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,536">
+      <Button title="个人排名" controller="c1" page="0"/>
+    </component>
+    <component id="n16_som1" name="item0" src="p1wo28" fileName="组件/国家BOSS/Child_CountryBoss_MyRank.xml" xy="13,69">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n35_l3h3" name="item1" src="p1wo27" fileName="组件/国家BOSS/Child_CountryBoss_Rank.xml" xy="14,68">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+</component>

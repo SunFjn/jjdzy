@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossTeamKing.local.CrossTeamKingLocal" tbname="crossTeamKingLocal">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+            <col field="reborenType" type="int" pf="all" comment="当前赛季转生区间"/>
+            <col field="duanwei" type="int" pf="all" comment="当前段位"/>
+            <col field="jf" type="int" pf="all" comment="当前积分"/>
+            <col field="rank" type="int" pf="all" comment="当前排名"/>
+            <col field="leftNum" type="int" pf="all" comment="今日剩余参与数量"/>
+            <col field="buyNum" type="int" pf="all" comment="今日购买次数"/>
+            <col field="battleWinNum" type="int" pf="all" comment="今日战胜次数"/>
+            <col field="weekResetTime" type="int" pf="all" comment="上次重置时间"/>
+            <col field="rewards" type="text" pf="all" comment="宝箱奖励已经领取"/>
+            <col field="winAwayNum" type="int" pf="all" comment="当前连胜数"/>            
+     </tb>
+</tbs>

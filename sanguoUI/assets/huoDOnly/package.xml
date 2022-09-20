@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="mk3gp0vr" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="lbbw0" name="Child_HuoDOnly.xml" path="/组件/" exported="true"/>
+    <image id="lbbw2" name="4507.png" path="/image/"/>
+    <component id="lbbw3" name="VHuoDOnlyItem.xml" path="/组件/" exported="true"/>
+    <component id="lbbw4" name="View_HuoDOnly_Panel.xml" path="/组件/" exported="true"/>
+    <image id="lbbw5" name="专属活动.png" path="/image/" exported="true"/>
+    <component id="ujy06" name="HOnlyShopItem.xml" path="/组件/专属商店/" exported="true"/>
+    <component id="ujy07" name="Child_HOnlyShop.xml" path="/组件/专属商店/" exported="true"/>
+    <component id="hndy8" name="Child_HOnlyDBFanLi.xml" path="/组件/单笔返利/" exported="true"/>
+    <component id="hndya" name="Item_HOnlyDBFanLi.xml" path="/组件/单笔返利/" exported="true"/>
+    <image id="fxj4b" name="数字底.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="huoDOnly" genCode="true" maxAtlasSize="1024" npot="true" excluded="lbbw2"/>
+</packageDescription>

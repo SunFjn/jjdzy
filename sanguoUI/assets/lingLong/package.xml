@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="1xperbsy" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="kaqa0" name="ViewLingLongPanel.xml" path="/组件/" exported="true"/>
+    <component id="kaqa1" name="VLingLongItem.xml" path="/组件/" exported="true"/>
+    <component id="kaqa3" name="ViewLingLongRank.xml" path="/组件/" exported="true"/>
+    <component id="kaqa4" name="VLingLongRank.xml" path="/组件/" exported="true"/>
+    <component id="c1o95" name="ViewLingLongReward.xml" path="/组件/" exported="true"/>
+    <image id="q4gk6" name="大奖.png" path="/image/" exported="true"/>
+    <image id="q4gk7" name="排名.png" path="/image/" exported="true"/>
+    <image id="q4gka" name="玲珑阁标题.png" path="/image/" exported="true"/>
+    <image id="q4gkg" name="积分.png" path="/image/" exported="true"/>
+    <image id="q4gkh" name="宝箱.png" path="/image/" exported="true"/>
+    <image id="l1e2i" name="奖励txt.png" path="/image/" exported="true"/>
+    <image id="l1e2j" name="虚位以待.png" path="/image/" exported="true"/>
+    <image id="l1e2k" name="玲珑币.png" path="/image/" exported="true"/>
+    <component id="pk53l" name="VLingLongPoint.xml" path="/组件/" exported="true"/>
+    <component id="dhj5n" name="VLingLongRank1.xml" path="/组件/" exported="true"/>
+    <image id="amwyo" name="本服.png" path="/image/" exported="true"/>
+    <image id="amwyp" name="积分1.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="lingLong" genCode="true" npot="true"/>
+</packageDescription>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="556,128">
+  <displayList>
+    <image id="n10_cg2i" name="n10" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="556,128"/>
+    <richtext id="n0_fl2h" name="lbLayer" xy="13,13" size="65,43" fontSize="30" color="#f9bb13" text="主宰"/>
+    <richtext id="n1_fl2h" name="lbCondition" xy="13,56" size="141,31" fontSize="20" color="#ffffff" text="进入积分：100"/>
+    <component id="n3_fl2h" name="n3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="255,17" scale="0.8,0.8"/>
+    <component id="n4_fl2h" name="n4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="337,17" scale="0.8,0.8"/>
+    <richtext id="n5_fl2h" name="lbWDC" xy="452,46" size="77,35" fontSize="24" color="#ff0000" text="未达成"/>
+    <component id="n6_fl2h" name="n6" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="423,38" size="118,51">
+      <Button title="领取"/>
+    </component>
+    <image id="n7_fl2h" name="imgYlq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="427,44" size="113,40"/>
+    <richtext id="n8_fl2h" name="lbCondition_2" xy="13,84" size="215,31" fontSize="20" color="#33ff00" text="收益：星魂*100000/分"/>
+  </displayList>
+</component>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,912" opaque="false">
+  <displayList>
+    <component id="n77_ng03" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="195,307">
+      <Label title="999999999"/>
+    </component>
+    <richtext id="n80_ng03" name="nameLb" xy="126,375" size="101,35" fontSize="24" color="#f4bf12" text="乐不思蜀"/>
+    <richtext id="n81_ng03" name="explainLb" xy="127,408" size="474,58" fontSize="18" color="#ffffff" autoSize="none" text="乐不思蜀"/>
+    <component id="n82_ng03" name="costLb0" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="470,376" size="137,36" visible="false"/>
+    <component id="n83_ng03" name="upBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="474,413" pivot="0.5,0.5" visible="false">
+      <Button title="升级"/>
+    </component>
+    <component id="n84_ng03" name="n84" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="161,477" size="329,31">
+      <Label title="被动技能"/>
+    </component>
+    <component id="n85_ng03" name="curGrid" src="ng03d" fileName="组件/ShaoZhuSkillGrid.xml" xy="34,373"/>
+    <image id="n86_ng03" name="n86" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="24,522" size="584,135"/>
+    <image id="n87_ng03" name="n87" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="183,509" size="279,29"/>
+    <richtext id="n88_ng03" name="n88" xy="192,511" size="260,25" touchable="false" fontSize="16" color="#00ff00" align="center" autoSize="none" text="不同少主被动技能属性叠加"/>
+    <component id="n89_ng03" name="grid0" src="ng03d" fileName="组件/ShaoZhuSkillGrid.xml" xy="54,540"/>
+    <component id="n90_ng03" name="grid1" src="ng03d" fileName="组件/ShaoZhuSkillGrid.xml" xy="164,540"/>
+    <component id="n91_ng03" name="grid2" src="ng03d" fileName="组件/ShaoZhuSkillGrid.xml" xy="274,540"/>
+    <component id="n92_ng03" name="grid3" src="ng03d" fileName="组件/ShaoZhuSkillGrid.xml" xy="384,540"/>
+    <component id="n93_ng03" name="grid4" src="ng03d" fileName="组件/ShaoZhuSkillGrid.xml" xy="494,540"/>
+    <image id="n94_ng03" name="n94" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="25,674" size="583,133"/>
+    <image id="n95_ng03" name="n95" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="183,659" size="278,29"/>
+    <richtext id="n96_ng03" name="n96" xy="189,659" size="264,25" touchable="false" fontSize="16" color="#00ff00" align="center" autoSize="none" text="选择所需替换的技能进行替换"/>
+    <richtext id="n109_fe76" name="maxLb" xy="501,391" size="77,35" visible="false" fontSize="24" color="#00ff00" text="已满级"/>
+    <component id="n97_ng03" name="grid00" src="ng03d" fileName="组件/ShaoZhuSkillGrid.xml" xy="54,689" group="n108_kwfw"/>
+    <component id="n98_ng03" name="grid01" src="ng03d" fileName="组件/ShaoZhuSkillGrid.xml" xy="164,689" group="n108_kwfw"/>
+    <component id="n99_ng03" name="grid02" src="ng03d" fileName="组件/ShaoZhuSkillGrid.xml" xy="274,689" group="n108_kwfw"/>
+    <component id="n100_ng03" name="grid03" src="ng03d" fileName="组件/ShaoZhuSkillGrid.xml" xy="384,689" group="n108_kwfw"/>
+    <component id="n101_ng03" name="grid04" src="ng03d" fileName="组件/ShaoZhuSkillGrid.xml" xy="494,689" group="n108_kwfw"/>
+    <group id="n108_kwfw" name="skillGroup" xy="54,689" size="530,115" advanced="true"/>
+    <component id="n102_ng03" name="costLb1" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="23,814" size="133,36" group="n110_fe76"/>
+    <component id="n103_ng03" name="costLb2" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="169,814" size="137,36" group="n110_fe76"/>
+    <component id="n104_ng03" name="tiHuanBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="479,849" pivot="0.5,0.5" group="n110_fe76">
+      <Button title="替换"/>
+    </component>
+    <component id="n105_ng03" name="xiLianBt0" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="24,850" pivot="0.5,0.5" group="n110_fe76">
+      <Button title="洗练1次"/>
+    </component>
+    <component id="n106_ng03" name="xiLianBt1" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="173,850" pivot="0.5,0.5" group="n110_fe76">
+      <Button title="洗练5次"/>
+    </component>
+    <richtext id="n107_ng03" name="n107" xy="323,816" size="284,28" group="n110_fe76" fontSize="18" color="#ffffff" align="right" autoSize="none" text="洗练次数越多高级技能概率越高"/>
+    <richtext id="n112_eigu" name="linkLb" xy="348,860" size="85,31" group="n110_fe76" fontSize="20" color="#00ff00" align="center" underline="true" text="查看技能"/>
+    <group id="n110_fe76" name="upGroup" xy="23,814" size="592,98" advanced="true"/>
+    <richtext id="n111_fe76" name="promptLb" xy="182,839" size="275,35" fontSize="24" color="#ff0000" align="center" autoSize="none" text="需激活少主"/>
+  </displayList>
+</component>

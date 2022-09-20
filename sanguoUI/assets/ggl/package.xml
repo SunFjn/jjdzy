@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="wnqj5rwk" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="loxz3" name="1-刮刮乐1.jpg" path="/design/"/>
+    <image id="loxz4" name="3-刮刮乐3.jpg" path="/design/"/>
+    <image id="loxz5" name="2-刮刮乐2.jpg" path="/design/"/>
+    <component id="loxz6" name="ChildGGL.xml" path="/" exported="true"/>
+    <image id="loxz7" name="刮刮乐背景.jpg" path="/res/"/>
+    <image id="loxz8" name="刮刮乐大张.jpg" path="/res/"/>
+    <image id="loxz9" name="奖励预览.png" path="/res/"/>
+    <image id="loxza" name="刮刮乐3.png" path="/res/"/>
+    <image id="loxzb" name="刮刮乐1.png" path="/res/"/>
+    <component id="loxzc" name="GGLItem.xml" path="/" exported="true"/>
+    <component id="loxze" name="GGLGridView.xml" path="/" exported="true"/>
+    <image id="loxzf" name="次数弹窗.png" path="/res/"/>
+    <component id="loxzg" name="GGLBuyPanel.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="ggl" genCode="true" npot="true"/>
+</packageDescription>

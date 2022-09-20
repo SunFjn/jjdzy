@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="585,469">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n0_j9wf" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="585,469">
+      <Label title="战报"/>
+    </component>
+    <image id="n15_qxiv" name="n15" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="14,93" size="556,352"/>
+    <list id="n13_j9wf" name="list" xy="26,98" size="532,340" overflow="scroll" defaultItem="ui://me1skowlhfct3w">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

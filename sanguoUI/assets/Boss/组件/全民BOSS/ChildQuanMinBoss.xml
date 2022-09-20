@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="639,908" opaque="false">
+  <displayList>
+    <image id="n29_p4bn" name="n29" src="z1jw6l" fileName="image/侧边框底.png" pkg="jvxpx9em" xy="8,145" size="135,757"/>
+    <list id="n16_gs0d" name="lst" xy="12,162" size="122,736" overflow="scroll" lineGap="3" defaultItem="ui://47jfyc6egs0dr" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n41_p4bn" name="n41" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="256,480" group="n46_hxms"/>
+    <image id="n44_p4bn" name="n44" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="168,667" size="448,118" group="n46_hxms"/>
+    <richtext id="n22_gs0d" name="lbKiller" xy="233,585" size="320,31" group="n46_hxms" fontSize="18" color="#ffffff" align="center" autoSize="none" text="上轮第一&#xA;"/>
+    <component id="n23_gs0d" name="btnFight" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="232,812" group="n46_hxms">
+      <Button title="挑战"/>
+    </component>
+    <richtext id="n25_gs0d" name="lbCount" xy="224,880" size="338,28" group="n46_hxms" fontSize="18" color="#ffffff" align="center" autoSize="none" text=""/>
+    <component id="n38_p4bn" name="hpBar" src="p4bn88" fileName="新组建/HpBar.xml" pkg="jvxpx9em" xy="247,178" size="322,33" group="n46_hxms">
+      <ProgressBar value="1" max="100"/>
+    </component>
+    <image id="n42_p4bn" name="bgv1" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="261,214" size="294,31" group="n53_gyat"/>
+    <richtext id="n21_gs0d" name="lbRelive" xy="264,214" size="280,28" group="n53_gyat" fontSize="18" color="#ff0000" align="center" autoSize="none" text=""/>
+    <group id="n53_gyat" name="g0" xy="261,214" size="294,31" group="n46_hxms" advanced="true" collapsed="true"/>
+    <richtext id="n55_ngkt" name="lbItemCount" xy="261,880" size="215,28" group="n58_ngkt" fontSize="18" color="#ffffff" autoSize="none" text="全民挑战令：      1/2"/>
+    <richtext id="n59_ngkt" name="lbRemaindTime" xy="480,880" size="40,28" group="n58_ngkt" fontSize="18" color="#ff0000" text=""/>
+    <loader id="n56_ngkt" name="n56" xy="375,881" size="80,80" group="n58_ngkt" aspect="true" scale="0.3,0.3" url="ui://47jfyc6engkt3b" autoSize="true"/>
+    <group id="n58_ngkt" name="groupItem" xy="261,880" size="259,81" group="n46_hxms" advanced="true"/>
+    <richtext id="n66_cytp" name="n66" xy="357,641" size="77,28" group="n46_hxms" fontSize="18" color="#ffc334" strokeColor="#000000" strokeSize="2" text="奖励预览"/>
+    <component id="n67_smzi" name="btnSao" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="417,812" group="n46_hxms">
+      <Button title="扫荡"/>
+    </component>
+    <richtext id="n68_lxmz" name="lbTips" xy="232,789" size="320,31" group="n46_hxms" fontSize="18" color="#ffffff" align="center" autoSize="none" text="VIP7且通关280关开启扫荡&#xA;"/>
+    <group id="n46_hxms" name="n46" xy="168,178" size="448,783"/>
+    <image id="n35_p4bn" name="n35" src="z1jw6p" fileName="image/通用底框/名字边框.png" pkg="jvxpx9em" xy="158,170"/>
+    <richtext id="n19_gs0d" name="lbName" xy="177,168" size="32,177" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="10转-左慈">
+      <relation target="n35_p4bn" sidePair="middle-middle"/>
+    </richtext>
+    <richtext id="n48_gyat" name="n48" xy="356,543" size="77,28" fontSize="18" color="#ffc334" strokeColor="#000000" strokeSize="2" text="上轮第一"/>
+    <image id="n61_qsq2" name="imgDoub" src="qsq23gc" fileName="image1/双倍标签.png" pkg="jvxpx9em" xy="565,644"/>
+    <image id="n62_djuz" name="n62" src="irr13gt" fileName="image/花纹/标题两边花纹.png" pkg="jvxpx9em" xy="452,548"/>
+    <image id="n63_djuz" name="n63" src="irr13gt" fileName="image/花纹/标题两边花纹.png" pkg="jvxpx9em" xy="337,548" scale="-1,1"/>
+    <image id="n64_djuz" name="n64" src="irr13gt" fileName="image/花纹/标题两边花纹.png" pkg="jvxpx9em" xy="452,647"/>
+    <image id="n65_djuz" name="n65" src="irr13gt" fileName="image/花纹/标题两边花纹.png" pkg="jvxpx9em" xy="337,647" scale="-1,1"/>
+  </displayList>
+</component>

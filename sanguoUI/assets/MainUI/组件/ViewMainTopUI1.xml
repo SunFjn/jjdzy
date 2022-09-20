@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="641,127" opaque="false">
+  <displayList>
+    <image id="n134_fj7b" name="n134" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,-50" size="640,50"/>
+    <image id="n138_wfnc" name="n138" src="wfnc4n" fileName="image1/顶部影子.png" xy="1,0" size="641,56"/>
+    <image id="n168_gyat" name="n168" src="gyat5t" fileName="image1/头像底.png" xy="0,0" alpha="0"/>
+    <component id="n139_c47v" name="powerEffBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="31,48" size="317,50" group="n169_jona">
+      <Button icon="ui://7gxkx46wc47v5f"/>
+    </component>
+    <text id="n117_ltpm" name="lbPower" xy="145,60" size="184,27" group="n169_jona" font="ui://jvxpx9embwmw3w" fontSize="18" color="#ffffff" bold="true" text="1235689933"/>
+    <image id="n123_dpw4" name="n123" src="bwmw3l" fileName="image/战力.png" pkg="jvxpx9em" xy="90,56" group="n169_jona"/>
+    <richtext id="n151_c47v" name="lbName" xy="202,14" size="100,24" group="n169_jona" touchable="false" fontSize="16" color="#ffffff" leading="0" text="长江后浪推前">
+      <relation target="n154_c47v" sidePair="left-right"/>
+    </richtext>
+    <richtext id="n154_c47v" name="zsLvLb" xy="99,13" size="94,26" group="n169_jona" touchable="false" font="Microsoft YaHei" fontSize="18" color="#ffe5a0" leading="0" text="十六转三重"/>
+    <component id="n135_nf0g" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="-11,6" group="n169_jona"/>
+    <loader id="n172_l220" name="soundOn" xy="2,9" size="29,29" group="n169_jona" url="ui://7gxkx46wl220b7c"/>
+    <loader id="n173_l220" name="soundOff" xy="2,9" size="29,29" group="n169_jona" url="ui://7gxkx46wl220b7d"/>
+    <group id="n169_jona" name="headGroup" xy="-11,6" size="359,127" advanced="true"/>
+    <image id="n167_pb1e" name="n167" src="pb1e5k" fileName="image1/挂机底.png" xy="466,53" group="n170_jona"/>
+    <component id="n101_ltpm" name="ButtonVIP" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="344,53" size="109,36" group="n170_jona">
+      <Button icon="ui://7gxkx46wltpm18"/>
+    </component>
+    <text id="n113_ltpm" name="lbExp" xy="566,57" size="69,22" group="n170_jona" fontSize="14" color="#cfeff8" text="7000万/时"/>
+    <image id="n166_pb1e" name="n166" src="pb1e5h" fileName="image1/关卡.png" xy="517,58" group="n170_jona"/>
+    <text id="n114_ltpm" name="lbTongbi" xy="566,80" size="69,22" group="n170_jona" fontSize="14" color="#cfeff8" text="7000万/时"/>
+    <image id="n132_k8qc" name="n132" src="ltpm59" fileName="image1/铜币.png" pkg="jvxpx9em" xy="545,78" size="20,20" group="n170_jona"/>
+    <image id="n133_k8qc" name="n133" src="som163" fileName="image1/经验球.png" pkg="jvxpx9em" xy="545,54" size="20,20" group="n170_jona"/>
+    <image id="n157_pb1e" name="yuanbaoBg" src="pb1e5g" fileName="image1/buyBg.png" xy="304,13" size="145,30" group="n165_pb1e"/>
+    <image id="n158_pb1e" name="tongbiBg" src="pb1e5g" fileName="image1/buyBg.png" xy="461,12" size="141,30" group="n165_pb1e"/>
+    <image id="n159_pb1e" name="n159" src="ltpm59" fileName="image1/铜币.png" pkg="jvxpx9em" xy="463,14" group="n165_pb1e"/>
+    <image id="n160_pb1e" name="n160" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="310,12" group="n165_pb1e"/>
+    <richtext id="n161_pb1e" name="lbYB" xy="346,15" size="31,24" group="n165_pb1e" touchable="false" font="Microsoft YaHei" fontSize="16" color="#ffffff" leading="0" text="123"/>
+    <richtext id="n162_pb1e" name="lbTongBi" xy="495,15" size="31,24" group="n165_pb1e" touchable="false" font="Microsoft YaHei" fontSize="16" color="#ffffff" leading="0" text="123"/>
+    <component id="n163_pb1e" name="btnAddYB" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="414,8" size="43,43" group="n165_pb1e">
+      <Button icon="ui://jvxpx9emirr13gr"/>
+    </component>
+    <component id="n164_pb1e" name="btnAddTB" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="567,6" size="43,43" group="n165_pb1e">
+      <Button icon="ui://jvxpx9emirr13gr"/>
+    </component>
+    <group id="n165_pb1e" name="n165" xy="304,6" size="306,45" group="n170_jona"/>
+    <text id="n115_ltpm" name="lbGuanQia" xy="469,66" size="52,28" group="n170_jona" fontSize="16" color="#ffffff" align="right" autoSize="none" text="9999"/>
+    <text id="n107_ltpm" name="lbVip" xy="349,58" size="97,26" group="n170_jona" font="ui://jvxpx9em608a8q" fontSize="22" align="center" leading="0" autoSize="none" text="P29"/>
+    <group id="n170_jona" name="moneyGroup" xy="304,6" size="332,96" advanced="true"/>
+    <component id="n174_qbg3" name="qcBar" src="qbg3b7s" fileName="组件/QCBar.xml" xy="89,92" group="n176_osvk">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader id="n175_qbg3" name="qcIcon" xy="311,78" pivot="0.5,0.5" size="40,40" group="n176_osvk" url="ui://7gxkx46wqbg3b7n" autoSize="true"/>
+    <group id="n176_osvk" name="qiceGroup" xy="89,78" size="262,40" advanced="true"/>
+  </displayList>
+</component>

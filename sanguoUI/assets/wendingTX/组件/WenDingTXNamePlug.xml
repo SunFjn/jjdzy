@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="180,100" pivot="0.5,1" anchor="true">
+  <displayList>
+    <component id="n1_fl2h" name="hpbar" src="lve29r" fileName="新组建/SceneBar.xml" pkg="jvxpx9em" xy="43,90">
+      <relation target="" sidePair="center-center"/>
+      <ProgressBar max="100"/>
+    </component>
+    <richtext id="n3_fl2h" name="nameLb" xy="0,61" size="180,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" strokeColor="#000000" text="玩家名字名字.s9999"/>
+    <loader id="n4_fl2h" name="imgYuXi" xy="47,-94" size="86,103" url="ui://gxs8kn67cg2il" align="center" vAlign="middle" autoSize="true"/>
+    <richtext id="n5_fl2h" name="jxLb" xy="38,37" size="103,25" touchable="false" fontSize="16" color="#ff9900" align="center" leading="0" strokeColor="#000000" text="击杀积分：10"/>
+    <loader id="n6_fl2h" name="imgFlag" xy="22,2" size="136,38" url="ui://gxs8kn67cg2if" align="center" vAlign="middle" autoSize="true"/>
+  </displayList>
+</component>

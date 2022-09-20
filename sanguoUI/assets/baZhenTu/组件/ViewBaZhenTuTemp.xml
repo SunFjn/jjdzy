@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n16_j1af" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0"/>
+    <list id="n14_csl0" name="list" xy="10,146" size="615,591" layout="flow_hz" overflow="scroll" lineItemCount="6" defaultItem="ui://xrzn9ppab5l2k" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n18_j1af" name="vSelect" src="j1af17" fileName="组件/VBaZTBag.xml" xy="18,742"/>
+  </displayList>
+</component>

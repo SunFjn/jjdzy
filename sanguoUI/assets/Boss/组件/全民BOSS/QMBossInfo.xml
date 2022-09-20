@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,241" opaque="false">
+  <displayList>
+    <image id="n1_gs0d" name="n1" src="bx2z89" fileName="image1/公告底.png" pkg="jvxpx9em" xy="118,1" size="509,38"/>
+    <richtext id="n2_gs0d" name="lbMyhurt" xy="122,6" size="10,28" fontSize="18" color="#ffffff" text=""/>
+    <component id="n6_bx2z" name="btn" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="585,12" size="33,17">
+      <Button icon="ui://47jfyc6ep4bn1m"/>
+    </component>
+    <image id="n7_bx2z" name="n7" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="461,63" size="179,178" group="n12_bx2z"/>
+    <richtext id="n8_bx2z" name="n8" xy="497,70" size="113,25" group="n12_bx2z" fontSize="18" color="#ffc334" text="伤害第一奖励"/>
+    <richtext id="n9_bx2z" name="lbBest" xy="470,188" size="168,47" group="n12_bx2z" fontSize="18" color="#ffc334" align="center" autoSize="none" text="伤害第一奖励"/>
+    <component id="n11_bx2z" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="515,99" group="n12_bx2z" scale="0.8,0.8"/>
+    <group id="n12_bx2z" name="n12" xy="461,63" size="179,178" advanced="true"/>
+  </displayList>
+</component>

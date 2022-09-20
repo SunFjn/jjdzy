@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="457,387">
+  <displayList>
+    <component id="n0_h7qe" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="457,387">
+      <Label title="赴宴"/>
+    </component>
+    <richtext id="n2_h7qe" name="nameLb" xy="16,72" size="426,53" fontSize="18" color="#ffffff" align="center" autoSize="none" text="玩家正在举办豪华宴会(5/8)&#xA;选择敷衍礼物"/>
+    <image id="n1_h7qe" name="n1" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="16,131" size="207,236" group="n8_h7qe"/>
+    <richtext id="n3_h7qe" name="n3" xy="29,136" size="185,28" group="n8_h7qe" fontSize="18" color="#ffffff" align="center" autoSize="none" text="主人可获得"/>
+    <component id="n4_h7qe" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="80,176" group="n8_h7qe" scale="0.8,0.8"/>
+    <component id="n5_h7qe" name="ptBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="52,270" group="n8_h7qe">
+      <Button title="普通礼物"/>
+    </component>
+    <component id="n6_h7qe" name="costLb0" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="53,328" group="n8_h7qe">
+      <relation target="n5_h7qe" sidePair="center-center"/>
+    </component>
+    <richtext id="n7_h7qe" name="promptLb" xy="17,284" size="205,28" group="n8_h7qe" fontSize="18" color="#ffffff" align="center" autoSize="none" text="本次宴会不接受普通礼物"/>
+    <group id="n8_h7qe" name="n8" xy="16,131" size="207,236" group="n16_h7qe"/>
+    <image id="n9_h7qe" name="n9" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="231,131" size="207,236" group="n15_h7qe"/>
+    <richtext id="n10_h7qe" name="n10" xy="242,135" size="185,28" group="n15_h7qe" fontSize="18" color="#ffffff" align="center" autoSize="none" text="主人可获得"/>
+    <component id="n11_h7qe" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="296,175" group="n15_h7qe" scale="0.8,0.8"/>
+    <component id="n12_h7qe" name="HHBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="266,270" group="n15_h7qe">
+      <Button title="豪华礼物"/>
+    </component>
+    <component id="n13_h7qe" name="costLb1" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="267,328" group="n15_h7qe">
+      <relation target="n12_h7qe" sidePair="center-center"/>
+    </component>
+    <group id="n15_h7qe" name="n15" xy="231,131" size="207,236" group="n16_h7qe"/>
+    <group id="n16_h7qe" name="n16" xy="16,131" size="422,236"/>
+  </displayList>
+</component>

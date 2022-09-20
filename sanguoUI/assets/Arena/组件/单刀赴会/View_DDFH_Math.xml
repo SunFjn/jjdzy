@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="256,422">
+  <displayList>
+    <loader id="n1_j92x" name="qzImg" xy="103,0" size="50,30" url="ui://me1skowlj92x1m" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <image id="n2_j92x" name="n2" src="j92x1o" fileName="image/寻找对手中.png" xy="56,379"/>
+    <list id="n0_r4og" name="list" xy="26,139" size="203,130" touchable="false" overflow="scroll" defaultItem="ui://me1skowlr4ogh" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

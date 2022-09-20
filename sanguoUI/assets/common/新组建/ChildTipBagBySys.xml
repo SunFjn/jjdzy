@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="374,339">
+  <displayList>
+    <image id="n26_ud97" name="g22" src="x3b93cl" fileName="image/通用底框/方框3.png" xy="0,0" size="374,339" locked="true"/>
+    <richtext id="n22_cyxg" name="lbDesTit" xy="41,8" size="77,28" touchable="false" fontSize="18" color="#ffc344" autoSize="none" text="道具展示"/>
+    <image id="n28_q2i9" name="img" src="m3513c0" fileName="image/通用底框/新版台子.png" xy="187,271" pivot="0.5,0.2" anchor="true" aspect="true"/>
+    <image id="n34_q2i9" name="imgDes" src="irr13gw" fileName="image/花纹/菱形花纹.png" xy="17,12"/>
+    <loader id="n35_q2i9" name="pic" xy="87,85" size="200,200" touchable="false" align="center" vAlign="bottom"/>
+  </displayList>
+  <transition name="t0" options="1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n35_q2i9" tween="true" startValue="-,85" endValue="-,75" duration="18" ease="Linear"/>
+    <item time="18" type="XY" target="n35_q2i9" tween="true" startValue="-,75" endValue="-,85" duration="18" ease="Linear"/>
+  </transition>
+</component>

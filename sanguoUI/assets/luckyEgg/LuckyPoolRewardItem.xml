@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="577,212" extention="Label">
+  <controller name="hCtrl" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n2_lxqw" name="iconLoader" xy="0,0" size="90,60" url="ui://wx4kos8uosj3c"/>
+    <image id="n3_lxqw" name="n3" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="12,56" size="565,156">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <list id="n4_lxqw" name="itemList" xy="21,68" size="553,132" layout="flow_hz" scroll="horizontal" margin="0,0,5,0" colGap="8" defaultItem="ui://jvxpx9emetorn" autoClearItems="true">
+      <gearSize controller="hCtrl" pages="1" values="553,266,1,1" default="553,132,1,1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n10_chyo" name="flagList" xy="21,68" size="553,132" touchable="false" layout="flow_hz" scroll="horizontal" margin="0,0,5,0" lineGap="86" colGap="27" defaultItem="ui://wx4kos8ulxqwk" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n4_lxqw" sidePair="height-height"/>
+</component>

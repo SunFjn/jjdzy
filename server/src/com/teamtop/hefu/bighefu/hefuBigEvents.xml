@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 合并玩法中央服事件-->
+	<bean desc="Global数据合服事件" class="com.teamtop.hefu.bighefu.events.GlobalBigHefuEvent" />
+</beans>

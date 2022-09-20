@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="638,150">
+  <displayList>
+    <image id="n0_tipm" name="n0" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="638,150"/>
+    <richtext id="n1_tipm" name="txtInfo" xy="41,13" size="227,27" fontSize="20" color="#ffffff" text="收集以下物品可兑换(0/1)"/>
+    <component id="n2_tipm" name="container1" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="40,42"/>
+    <text id="n3_tipm" name="n3" xy="235,64" size="23,39" fontSize="30" color="#66ff00" text="="/>
+    <component id="n4_tipm" name="container2" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="271,42"/>
+    <component id="n5_tipm" name="btnHand" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="482,53"/>
+    <richtext id="n6_tipm" name="txtDHCnt" xy="526,107" size="47,27" fontSize="20" color="#66ff00" text="(1/3)">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n7_tipm" name="iconFin" src="tipm8" fileName="image/已兑完.png" xy="487,45"/>
+  </displayList>
+</component>

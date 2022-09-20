@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,666">
+  <displayList>
+    <loader id="n5_jthq" name="imgHeadbg" xy="0,0" size="100,100"/>
+    <image id="n8_kxay" name="n8" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="396,153" size="237,27" flip="hz"/>
+    <image id="n7_kxay" name="n7" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="15,10" size="267,27"/>
+    <list id="n0_coud" name="list" xy="0,191" size="640,475" overflow="scroll" lineGap="1" defaultItem="ui://d5y9ngt6ccyk3">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n2_coud" name="labTime" xy="19,11" size="205,28" touchable="false" fontSize="18" color="#2ff10f" text="活动剩余时间：10:10:10"/>
+    <richtext id="n3_coud" name="labTips" xy="449,154" size="179,28" touchable="false" fontSize="18" color="#ffffff" align="right" autoSize="none" text="洗炼兽魂可获得奖励"/>
+  </displayList>
+</component>

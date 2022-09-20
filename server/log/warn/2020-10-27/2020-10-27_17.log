@@ -1,0 +1,133 @@
+2020-10-27 17:01:26.664 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:01:26.680 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:01:26.680 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:01:26.680 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:01:26.680 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:01:27.290 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000006
+2020-10-27 17:01:39.244 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:06:54.034 [nioEventLoopGroup-11-1] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000006
+2020-10-27 17:10:36.707 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:10:36.707 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:10:36.707 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:10:36.707 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:10:36.707 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:10:36.722 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:10:36.722 [OpTaskExecutorService-thread-3] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000006
+2020-10-27 17:10:56.171 [nioEventLoopGroup-11-2] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000006
+2020-10-27 17:16:03.817 [nioEventLoopGroup-11-7] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000005
+2020-10-27 17:18:37.234 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:18:37.234 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:18:37.234 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:18:37.234 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:18:37.234 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:18:37.234 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:18:37.250 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:18:37.328 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:18:37.328 [OpTaskExecutorService-thread-0] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000005
+2020-10-27 17:18:50.635 [nioEventLoopGroup-11-3] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000005
+2020-10-27 17:23:04.363 [nioEventLoopGroup-11-8] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000002
+2020-10-27 17:23:09.739 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:23:09.739 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:23:09.739 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:23:09.739 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:23:09.739 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:23:09.739 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:23:09.739 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:23:09.739 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:23:09.739 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000002
+2020-10-27 17:23:09.754 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000002
+2020-10-27 17:23:10.707 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000002 name:才貌丿听雨openUI countryType=0
+2020-10-27 17:27:03.990 [nioEventLoopGroup-11-4] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000002
+2020-10-27 17:27:57.937 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:27:57.937 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:27:57.937 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:27:57.937 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:27:57.937 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:27:57.937 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:27:57.937 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:27:57.952 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:27:57.952 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.boss.countryBoss.CountryBossManager - hero.getCountryType()==0 hid:1000100000000002
+2020-10-27 17:27:57.952 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000002
+2020-10-27 17:27:58.874 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.countrySkill.CountrySkillManager - hid1000100000000002 name:才貌丿听雨openUI countryType=0
+2020-10-27 17:32:32.845 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:32.845 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:32.845 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:32.845 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:33.002 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:33.002 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:33.018 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:33.143 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:33.158 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:33.158 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:33.158 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:33.314 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:33.314 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:33.314 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:33.642 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:33.642 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:33.642 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:33.798 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:33.798 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:33.798 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:33.814 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:33.970 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:33.970 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:33.970 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:34.127 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:34.127 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:34.127 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:34.329 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:34.329 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:34.329 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:34.485 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:34.485 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:34.485 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:34.641 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:34.641 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:34.641 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:34.657 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:34.829 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:34.829 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:34.829 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:34.985 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:34.985 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:34.985 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:35.173 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:35.173 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:35.173 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:35.298 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:35.298 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:35.298 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:35.625 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:35.625 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:35.625 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:35.641 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:35.797 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:35.797 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:35.797 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:32:36.015 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000002, pid=11
+2020-10-27 17:32:36.015 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:32:36.015 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:35:30.690 [OpTaskExecutorService-thread-2] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:35:30.690 [OpTaskExecutorService-thread-2] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:35:30.690 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:35:30.690 [OpTaskExecutorService-thread-2] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:35:30.690 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:35:31.582 [OpTaskExecutorService-thread-2] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000007
+2020-10-27 17:35:41.865 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:35:53.971 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:35:54.815 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:36:02.108 [OpTaskExecutorService-thread-2] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000007, pid=110
+2020-10-27 17:36:02.108 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:36:02.124 [OpTaskExecutorService-thread-2] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:36:02.124 [OpTaskExecutorService-thread-2] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:36:02.875 [OpTaskExecutorService-thread-2] WARN  com.teamtop.system.firstRechargeNew.FirstRechargeNewFunction - FirstRechargeNewFunction firstRecharge hid=1000100000000007, pid=110
+2020-10-27 17:36:02.875 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:36:02.875 [OpTaskExecutorService-thread-2] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:36:02.875 [OpTaskExecutorService-thread-2] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:28
+2020-10-27 17:36:13.892 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-27 17:37:35.312 [任务线程 - 11] WARN  com.teamtop.system.crossTeamFuBen.CrossTeamFubenFunction - scheduleAttQmBoss.team is null.teamID:1
+2020-10-27 17:37:35.312 [任务线程 - 11] WARN  com.teamtop.system.crossTeamFuBen.CrossTeamFubenFunction - scheduleBossAttTeam.team is null.teamID:1
+2020-10-27 17:37:35.765 [nioEventLoopGroup-9-6] WARN  com.teamtop.system.scene.SceneFunction - hid: 1000100000000007name 才貌丨墨安.S1exitScene get sceneEvent is null,sceneSysId:0
+2020-10-27 17:37:57.530 [nioEventLoopGroup-11-5] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000002
+2020-10-27 17:38:09.877 [nioEventLoopGroup-11-6] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000007

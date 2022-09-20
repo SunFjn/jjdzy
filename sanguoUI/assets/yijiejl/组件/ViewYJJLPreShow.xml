@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,849">
+  <displayList>
+    <component id="n1_opnx" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,849" locked="true">
+      <Label title="查看排名"/>
+    </component>
+    <image id="n7_oxr7" name="n7" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="20,753" size="553,81"/>
+    <list id="n2_opnx" name="n2" xy="29,141" size="547,597" overflow="scroll" lineGap="11" defaultItem="ui://e2wcosdzopnx5" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n3_opnx" name="lbRank" xy="50,784" size="149,28" fontSize="18" color="#ffffff" text="我的排名：第七名"/>
+    <richtext id="n4_opnx" name="lbCoin" xy="442,781" size="99,28" fontSize="18" color="#ffffff" text="分享币：50">
+      <relation target="" sidePair="right-left"/>
+    </richtext>
+    <image id="n8_oxr7" name="n8" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="26,89" size="537,44"/>
+    <richtext id="n9_oxr7" name="n9" xy="59,98" size="41,28" fontSize="18" color="#ffc334" text="排名"/>
+    <richtext id="n10_oxr7" name="n10" xy="199,98" size="41,29" fontSize="18" color="#ffc334" text="玩家&#xA;"/>
+    <richtext id="n11_oxr7" name="n11" xy="421,98" size="41,28" fontSize="18" color="#ffc334" text="奖励"/>
+  </displayList>
+</component>

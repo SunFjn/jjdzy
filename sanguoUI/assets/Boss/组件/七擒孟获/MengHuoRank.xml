@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="623,573">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0_qcyl" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="623,523">
+      <Label title="排行榜"/>
+    </component>
+    <image id="n1_qcyl" name="n1" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="31,94" size="556,44"/>
+    <list id="n3_qcyl" name="list" xy="31,145" size="559,268" overflow="scroll" lineGap="10" defaultItem="ui://47jfyc6eee1117">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n4_qcyl" name="n4" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="31,437" size="556,61"/>
+    <richtext id="n5_qcyl" name="lbMine" xy="67,458" size="149,28" fontSize="18" color="#ffc334" text="我的信息我的信息"/>
+    <component id="n6_a191" name="n6" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,518">
+      <Button checked="true" title="个人排行" controller="c1" page="0"/>
+    </component>
+    <component id="n7_a191" name="n7" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,518">
+      <Button title="势力排行" controller="c1" page="1"/>
+    </component>
+    <richtext id="n9_bx2z" name="lbT" xy="86,102" size="476,21" fontSize="18" color="#ffc334" autoSize="none" text="排名                   势力                     伤害                   奖励&#xA;"/>
+  </displayList>
+</component>

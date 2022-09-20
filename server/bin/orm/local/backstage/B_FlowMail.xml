@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 邮件流水表 -->
+	<tb model="com.teamtop.system.event.backstage.events.flowMail.B_FlowMail" tbname="b_flowmail">
+		<index field="id" type="prikey"/>
+		<index field="receiverId" type="normal"/>
+		<index field="time" type="normal"/>
+		<col field="id" type="bigint" pf="all" comment="邮件唯一id"/>
+		<col field="receiverId" type="bigint" pf="all" comment="接收人id"/>
+		<col field="receiver" type="varchar" pf="all" len="255" comment="接收者"/>
+		<col field="isRead" type="int" pf="all" comment="邮件读取状态：参考 MailConst.MAIL_READ"/>
+		<col field="isGetAdj" type="int" pf="all" comment="附件领取状态：参考 MailConst.ADJ_STATE_0"/>
+		<col field="content" type="varchar" pf="all" len="2500" comment="内容"/>
+		<col field="time" type="int" pf="all" comment="流水记录时间"/>
+		<col field="yuanbao" type="int" pf="all" comment="元宝数量"/>
+		<col field="coin" type="int" pf="all" comment="铜币数量"/>
+		<col field="fujian" type="text" pf="all" comment="附件内容"/>
+		<col field="zoneid" type="int" pf="all" comment="区号"/>
+		<col field="sendTime" type="int" pf="all" comment="发送时间"/>
+		<col field="mailType" type="varchar" pf="all" len="255" comment="邮件类型"/>
+	</tb>
+</tbs>

@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>至尊三国H5</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <script src="loginjs/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="loginjs/libtest/sdklib_1000.js" type="text/javascript"></script>
+    <script src="https://staticjs.quickapi.net/static/lib/libQuickSDK_v2.js" type="text/javascript"></script>
+    <style>
+        html,
+        body {
+            -ms-touch-action: none;
+            background: #000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+            -webkit-touch-callout: none; /* iOS Safari */
+            -webkit-user-select: none; /* Chrome/Safari/Opera */
+            -khtml-user-select: none; /* Konqueror */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently not supported by any browser */
+        }
+    </style>
+</head>
+<script type="text/javascript">
+    !(function (win, doc) {
+        function setFontSize() {
+            var rate = 1.6666;
+            var winWidth = document.documentElement.clientWidth;
+            var winHeight = document.documentElement.clientHeight;
+            if (winHeight / winWidth < rate) {
+                var size = winHeight / rate / 10;
+            } else {
+                var size = winWidth / 10;
+            }
+            doc.documentElement.style.fontSize = size + 'px';
+        }
+
+        var evt = 'onorientationchange' in win ? 'orientationchange' : 'resize';
+        var timer = null;
+        win.addEventListener(evt, function () {
+            clearTimeout(timer);
+            timer = setTimeout(setFontSize, 100);
+        }, false);
+
+        win.addEventListener("pageshow", function (e) {
+            if (e.persisted) {
+                clearTimeout(timer);
+                timer = setTimeout(setFontSize, 100);
+            }
+        }, false);
+
+        // 初始化
+        setFontSize();
+    } (window, document));
+
+    $.random = function (n1, n2) {
+        return Math.round(Math.random() * (Math.max(n1, n2) - Math.min(n1, n2)), 0);
+    }
+
+    $("head").append("<link>");
+    var css = $("head").children(":last");
+    css.attr({
+        rel: "stylesheet",
+        type: "text/css",
+        href: "css/stylePro3.css?v=" + Math.random()
+    });
+
+</script>
+
+<body>
+    <div id="gameBg" class="gameBg server_webkit"></div>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="Main" data-orientation="auto" data-scale-mode="showAll" data-frame-rate="60" data-content-width="640"
+data-content-height="1136" data-show-paint-rect="false" data-multi-fingered="2" data-show-fps="true" data-show-log="false"
+data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+</div>
+<div id="server" class="server server_webkit">
+    <div id="gg" class="gg_none">
+        <span class="pop_title">公 告</span>
+        <span class="pop_bottom"></span>
+        <div class="pop_close" id="ggtopclose"></div>
+        <div class="ggcontent" id="ggcontent">公告<br/>
+        </div>
+    </div>
+
+    <div id="choose" class="choose choose_webkit">
+        <div id="ggbut" class="ggbut">
+            <div id="ggbtn" class="ggbtn" style="display:block;"></div>
+</div>
+<div id="logo" class="logo"></div>
+<div class="newServer" id="newServer">&nbsp;&nbsp;&nbsp;账号：<input id='zhanghaoTxt' type="text" placeholder="请输入username_uid" class="newInput" />
+</div>
+<div class="now">
+    <div class="servername"></div>
+</div>
+<div class="goplay"></div>
+<div class="notice"></div>
+<span class="version">version:</span>
+</div>
+<div id="slist" class="slist_none">
+    <span class="pop_title">选择区服</span>
+    <span class="pop_bottom"></span>
+    <div class="pop_close" id="sclosetitle"></div>
+    <div class="ggclose" id="sclose"></div>
+    <div class="between-out">
+        <div class="between"></div>
+    </div>
+    <div id="pop_line" class="pop_line"></div>
+</div>
+<div id="loading" class="loading_none">
+    <div id="loading1" class="loading1 loadpro_webkit">
+        <div id="pro_line1" class="pro_line1">
+            <div id="star1" class="star"></div>
+        </div>
+        <div id="proalert1" class="protext">加载中</div>
+    </div>
+    <div id="loading2" class="loading2 loadpro_webkit">
+        <div id="pro_line2" class="pro_line2">
+            <div id="star2" class="star"></div>
+        </div>
+        <div id="proalert2" class="protext">加载中</div>
+    </div>
+</div>
+</div>
+<div id="popbg" class="pop_bg" style="display:none;"></div>
+</body>
+<script>
+    var pf = "";
+    var isTest = true;//是否是内测服
+    var isDebugModel = false;//是否是本地调试模式
+    var loginArg = null;
+    function initPbSDK() {
+        if (isDebugModel) {
+            document.getElementById("newServer").style.visibility = "visible"
+        } else {
+            document.getElementById("newServer").style.visibility = "visible"
+        }
+        if (isDebugModel) {
+            loginArg = {};
+            loginArg.account = "wen";
+            loginArg.serverHttpUrl = "loginjs/servers.php";
+        } else {
+            //初始化
+            $('.servername').text("请求数据中");
+            var productCode = '33827237067467388509055845353587';        //QuickSDK后台自动分配 
+            var productKey = '87969230';        //QuickSDK后台自动分配 
+            QuickSDK.init(productCode, productKey, true, function () {
+                console.log("init success");
+                QuickSDK.login(function (callbackData) {
+                    var message;
+                    if (callbackData.status) {
+                        func_userdata(callbackData.data);
+                        console.log('GameDemo:QuickSDK登录成功: uid=>' + callbackData.data.uid);
+                    } else {
+                        console.log('GameDemo:QuickSDK登录失败:' + callbackData.message);
+                        $('.servername').text("请求失败，请重启程序");
+                        // func_userdata();
+                    }
+                })
+            })
+        }
+
+        QuickSDK.setSwitchAccountNotification(function (callbackData) {
+            window.reload();
+        });
+    }
+
+    //获取用户信息
+    function func_userdata(user) {
+        loginArg = {};
+        loginArg.productCode = '33827237067467388509055845353587';
+        loginArg.productKey = '87969230';
+        loginArg.resHead = "http://49.235.248.138/";
+        loginArg.serverHttpUrl = "http://49.235.248.138/loginjs/servers.json";
+        loginArg.isLogin = user.isLogin;
+        loginArg.open_id = user.username;
+        loginArg.token = user.token;
+        loginArg.account = loginArg.uid = user.uid;
+        pf = loginArg.pfcode = loginArg.pf = loginArg.platform = user.channelId;
+        loginArg.mainType = 2;
+        loginArg.isTest = true;
+        loginArg.sdkType = 1;
+    }
+
+    window.onload = function () {
+        initPbSDK();
+    }
+</script>
+<script src="loginjs/libtest/loginHioLocal.js" type="text/javascript"></script>
+
+</html>

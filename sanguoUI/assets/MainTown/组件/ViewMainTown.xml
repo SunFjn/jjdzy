@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1388">
+  <displayList>
+    <loader id="n0_jie0" name="bg0" xy="0,0" size="640,1388" url="ui://p8pwr887m5xyb" autoSize="true"/>
+    <loader id="n28_x6pe" name="bg2" xy="0,0" size="640,1388" url="ui://p8pwr887m5xyb" align="center" vAlign="bottom"/>
+    <loader id="n1_jie0" name="bg1" xy="0,694" size="640,694" url="ui://p8pwr887m5xyc" autoSize="true"/>
+    <component id="n3_jie0" name="arenaBt" src="mp9n4" fileName="组件/MainMenuBtn.xml" pkg="7gxkx46w" xy="268,727" size="187,148" scale="0.767,0.902">
+      <Button icon="ui://p8pwr887m5xym"/>
+    </component>
+    <component id="n4_jie0" name="fbBt" src="mp9n4" fileName="组件/MainMenuBtn.xml" pkg="7gxkx46w" xy="340,892" size="282,260" scale="0.669,0.884" skew="0,0.1">
+      <Button icon="ui://p8pwr887m5xyj"/>
+    </component>
+    <component id="n6_gs0d" name="btnQM" src="mp9n4" fileName="组件/MainMenuBtn.xml" pkg="7gxkx46w" xy="383,573" size="118,156">
+      <Button icon="ui://p8pwr887m5xyn"/>
+    </component>
+    <component id="n7_qiai" name="btnGang" src="mp9n4" fileName="组件/MainMenuBtn.xml" pkg="7gxkx46w" xy="72,478" size="346,239" scale="0.8,0.8" skew="0,-3">
+      <Button icon="ui://p8pwr887m5xyk"/>
+    </component>
+    <component id="n8_n7ie" name="btnHD" src="mp9n4" fileName="组件/MainMenuBtn.xml" pkg="7gxkx46w" xy="119,832" size="245,201" scale="0.7,0.7">
+      <Button icon="ui://p8pwr887m5xyl"/>
+    </component>
+    <component id="n5_tujy" name="btnBoss" src="mp9n4" fileName="组件/MainMenuBtn.xml" pkg="7gxkx46w" xy="7,645" size="251,200" scale="0.713,0.7" skew="0,-5">
+      <Button icon="ui://p8pwr887m5xyo"/>
+    </component>
+    <component id="n19_idjl" name="noticeBt0" src="idjlw" fileName="组件/TownLabel.xml" xy="149,941" scale="0.7,0.7">
+      <Button icon="ui://p8pwr887idjlr"/>
+    </component>
+    <component id="n11_idjl" name="noticeBt1" src="idjlw" fileName="组件/TownLabel.xml" xy="358,669" scale="0.7,0.7">
+      <Button icon="ui://p8pwr887idjlt"/>
+    </component>
+    <component id="n15_idjl" name="noticeBt2" src="idjlw" fileName="组件/TownLabel.xml" xy="287,821" scale="0.7,0.7" skew="0,-14">
+      <Button icon="ui://p8pwr887idjls"/>
+    </component>
+    <component id="n12_idjl" name="noticeBt3" src="idjlw" fileName="组件/TownLabel.xml" xy="82,783" scale="0.7,0.7">
+      <Button icon="ui://p8pwr887idjlu"/>
+    </component>
+    <component id="n14_idjl" name="noticeBt4" src="idjlw" fileName="组件/TownLabel.xml" xy="143,456" size="178,62" scale="0.7,0.7" skew="0,-9">
+      <Button icon="ui://p8pwr887idjlq"/>
+    </component>
+    <component id="n13_idjl" name="noticeBt5" src="idjlw" fileName="组件/TownLabel.xml" xy="408,991" size="178,62" scale="0.7,0.7" skew="0,-16">
+      <Button icon="ui://p8pwr887idjlp"/>
+    </component>
+    <component id="n20_fxp3" name="container" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="316,733"/>
+    <image id="n25_q5rf" name="grpYWTip" src="q5rf13" fileName="image/演武开始.png" xy="223,652" visible="false"/>
+    <component id="n27_qt18" name="btnSyzlb" src="qt181c" fileName="组件/TownFlag.xml" xy="407,743" size="244,212" scale="0.7,0.8"/>
+  </displayList>
+  <transition name="t1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n25_q5rf" tween="true" startValue="224,611" endValue="224,624" duration="24"/>
+    <item time="24" type="XY" target="n25_q5rf" tween="true" startValue="224,624" endValue="224,611" duration="24"/>
+  </transition>
+</component>

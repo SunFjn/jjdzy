@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,200">
+  <displayList>
+    <image id="n4_lkx8" name="n4" src="lkx86h" fileName="image1/台子.png" xy="6,147" size="89,56"/>
+    <image id="n5_lkx8" name="n5" src="i8xh5u" fileName="image1/自动底.png" xy="-4,174">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n2_lkx8" sidePair="width-width"/>
+    </image>
+    <loader id="n1_lkx8" name="body" xy="26,49" size="50,30" url="ui://nf66suj6lkx83" fill="scale" autoSize="true"/>
+    <richtext id="n2_lkx8" name="n2" xy="2,174" size="96,28" fontSize="18" color="#ffcc00" align="center" text="领取     1/2">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n6_lkx8" name="n6" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="83,165">
+      <relation target="n5_lkx8" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>

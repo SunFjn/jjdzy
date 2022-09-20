@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.bag.Bag" tbname="bag">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="itemData" type="text" pf="all" comment="道具背包数据"/>
+			<col field="openGrid" type="int" pf="all" comment="已开启的格子数"/>
+			<col field="secondPsd" type="varchar" len="20" pf="all" comment="二级密码"/>
+			<col field="dailyItemNum" type="text" pf="all" comment="每日道具数量"/>
+     </tb>
+</tbs>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 符文流水表 -->
+	<tb model="com.teamtop.system.event.backstage.events.backstage.flowDestiny.B_FlowDestiny" tbname="b_flowDestiny">
+		<index field="id" type="prikey"/>
+		<index field="hid" type="normal"/>
+		<index field="zoneid" type="normal"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="zoneid" type="int" pf="all" comment="区号"/>
+		<col field="useType" type="int" pf="all" comment="类型  增加或减少，0增加，1减少 2升级 "/>
+		<col field="sysid" type="int" pf="all" comment="符文系统id"/>
+		<col field="name" type="varchar" len="255" pf="all" comment="符文名称"/>
+		<col field="operateTime" type="int" pf="all" comment="操作时间"/>
+	</tb>
+</tbs>

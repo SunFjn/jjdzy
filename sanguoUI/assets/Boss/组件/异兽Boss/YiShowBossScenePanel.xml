@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="235,251">
+  <displayList>
+    <image id="n0_l44i" name="n0" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="0,0" size="235,59"/>
+    <richtext id="n1_l44i" name="lbTime" xy="88,6" size="59,53" fontSize="18" color="#ffffff" vars="true" text="剩余&#xA;时间：&#xA;{0}">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n2_l44i" name="n2" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="0,71" size="235,180"/>
+    <loader id="n3_l44i" name="imgHead" xy="76,123" size="80,80" url="ui://47jfyc6enlyo3u"/>
+    <loader id="n4_l44i" name="imgGrid" xy="69,101" size="99,107" url="ui://47jfyc6enlyo3v" align="center" vAlign="bottom"/>
+    <richtext id="n7_l44i" name="n7" xy="85,74" size="69,25" fontSize="16" color="#ffcc33" text="率先通关"/>
+    <image id="n8_l44i" name="imgNull" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="70,219"/>
+    <richtext id="n9_l44i" name="lbName" xy="83,218" size="69,25" fontSize="16" color="#ffffff" text="玩家名字">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

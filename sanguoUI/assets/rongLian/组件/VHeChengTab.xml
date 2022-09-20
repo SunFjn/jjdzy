@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="115,128" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <component id="n14_nflu" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="9,0"/>
+    <image id="n7_nflu" name="maskBg" src="k8qc9z" fileName="image1/maskBg.png" pkg="jvxpx9em" xy="9,5" size="96,96"/>
+    <richtext id="n12_nflu" name="labName" xy="2,100" size="113,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="蚩尤战甲"/>
+    <image id="n0_nflu" name="selectImg" src="m3513c1" fileName="image/选中效果.png" pkg="jvxpx9em" xy="0,-4" size="114,114">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

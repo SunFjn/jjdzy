@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,389" designImage="ui://m2fm2aiyihs7l" designImageOffsetX="-29" designImageOffsetY="-268">
+  <displayList>
+    <component id="n1_h2sm" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,389" locked="true">
+      <Label title="加入义盟"/>
+    </component>
+    <image id="n2_h2sm" name="n2" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="28,95" size="537,183"/>
+    <richtext id="n4_h2sm" name="tipsLb" xy="147,125" size="312,122" fontSize="25" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="海内存知己，天涯若比邻。"/>
+    <component id="n5_h2sm" name="btnGo" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="232,298">
+      <Button title="前往"/>
+    </component>
+  </displayList>
+</component>

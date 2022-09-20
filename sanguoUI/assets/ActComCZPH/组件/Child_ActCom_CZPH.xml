@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,951" opaque="false">
+  <displayList>
+    <image id="n1_k1rz" name="n1" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,254" size="640,662"/>
+    <loader id="n3_k1rz" name="roleBackImg" xy="14,286" size="298,557" url="ui://q5asybs1k1rz3"/>
+    <loader id="n20_k1rz" name="rankBackImg" xy="-1,298" size="213,51" url="ui://q5asybs1k1rz2"/>
+    <list id="n7_k1rz" name="list0" xy="32,660" size="336,223" scale="0.8,0.8" layout="flow_hz" overflow="hidden" lineGap="7" colGap="15" lineItemCount="3" defaultItem="ui://jvxpx9emetorm" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n15_k1rz" name="list1" xy="315,297" size="318,554" overflow="hidden" lineGap="4" defaultItem="ui://q5asybs1k1rz6" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n2_k1rz" name="timeLb" xy="14,269" size="113,28" touchable="false" fontSize="18" color="#00ff00" text="活动剩余时间"/>
+    <richtext id="n6_k1rz" name="nameLb" xy="63,369" size="198,31" touchable="false" fontSize="20" color="#00ff00" align="center" autoSize="none" text=""/>
+    <richtext id="n16_k1rz" name="linkLb" xy="544,267" size="85,31" fontSize="20" color="#00ff00" underline="true" text="查看排行"/>
+    <richtext id="n17_k1rz" name="rankLb" xy="26,857" size="150,31" touchable="false" fontSize="20" color="#ffffff" ubb="true" vars="true" text="我的排名:[color=#00ff00]{rank=未上榜}[/color]"/>
+    <richtext id="n18_k1rz" name="moneyLb" xy="349,859" size="270,31" touchable="false" fontSize="20" color="#ffffff" align="right" ubb="true" vars="true" autoSize="none" text="我的充值:[color=#FFC344]{money=1000元宝}[/color]"/>
+    <richtext id="n19_k1rz" name="promptLb" xy="74,920" size="416,31" touchable="false" fontSize="20" color="#ffffff" align="center" ubb="true" vars="true" autoSize="none" text="前5名需要累计充值[color=#FFC344]{money=100000元宝}[/color]方可上榜"/>
+    <richtext id="n21_k1rz" name="n2" xy="28,309" size="57,31" fontSize="20" color="#e0cd92" text="第1名"/>
+  </displayList>
+</component>

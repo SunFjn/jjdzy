@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="622,754" designImage="ui://zyx92gzweccsm51" designImageOffsetX="-9" designImageOffsetY="-154">
+  <displayList>
+    <image id="n50_m4uj" name="n50" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="7,606" size="612,154" hideByEditor="true"/>
+    <image id="n51_m4uj" name="n51" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="0,0" size="600,135"/>
+    <image id="n56_m4uj" name="n56" src="m4uj4c" fileName="image/专属神兵/铁毡.png" xy="173,304"/>
+    <component id="n53_m4uj" name="godBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="530,136" size="70,72">
+      <Button icon="ui://zyx92gzwm4uj4b"/>
+    </component>
+    <image id="n54_m4uj" name="n54" src="pxaa3cv" fileName="image/数量框.png" pkg="jvxpx9em" xy="521,206" pivot="0.5,0.5" size="89,26"/>
+    <component id="n1_u01j" name="btnBuy1" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="148,494">
+      <Button title="打造1次"/>
+    </component>
+    <component id="n2_u01j" name="btnBuy10" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="337,494">
+      <Button title="打造10次"/>
+    </component>
+    <component id="n13_u01j" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="124,674" size="478,19">
+      <ProgressBar value="180" max="200"/>
+    </component>
+    <component id="n26_oaxs" name="gird0" src="m4uj47" fileName="组件/专属神兵/打造神兵/VGodWeaponPoint.xml" xy="145,651"/>
+    <component id="n27_oaxs" name="gird3" src="m4uj47" fileName="组件/专属神兵/打造神兵/VGodWeaponPoint.xml" xy="522,651"/>
+    <component id="n28_oaxs" name="gird2" src="m4uj47" fileName="组件/专属神兵/打造神兵/VGodWeaponPoint.xml" xy="397,651"/>
+    <component id="n29_oaxs" name="gird1" src="m4uj47" fileName="组件/专属神兵/打造神兵/VGodWeaponPoint.xml" xy="257,651"/>
+    <component id="n37_qyln" name="vres1" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="157,566" size="120,36">
+      <Label title="300"/>
+    </component>
+    <component id="n38_qyln" name="vres10" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="346,566" size="120,36">
+      <Label title="2800"/>
+    </component>
+    <list id="n4_u01j" name="list" xy="47,15" size="580,113" scale="0.9,0.9" layout="row" overflow="scroll" scroll="horizontal" colGap="5" defaultItem="ui://jvxpx9emetorm" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n12_u01j" name="checkBox" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="508,565" size="108,32">
+      <Button title="跳过动画" titleColor="#00ff00" titleFontSize="18"/>
+    </component>
+    <richtext id="n23_u01j" name="labTip" xy="22,621" size="149,28" touchable="false" fontSize="18" color="#ffffff" text="打造次数满后重置"/>
+    <richtext id="n24_u01j" name="labPoint" xy="17,671" size="101,31" touchable="false" fontSize="18" color="#ff9900" ubb="true" text="[size=20]工匠锤[/size]次数"/>
+    <richtext id="n52_m4uj" name="hightLb" xy="24,136" size="207,28" fontSize="18" color="#ffffff" text="再打造10次必出高级奖励"/>
+    <richtext id="n55_m4uj" name="drugCount" xy="521,208" size="92,25" touchable="false" fontSize="16" color="#ffffff" align="center" leading="0" autoSize="none" text="5000/1000"/>
+    <loader id="n57_u0i5" name="effImg" xy="233,194" size="146,179"/>
+    <image id="n58_h6e1" name="tipsBg" src="h6e14i" fileName="image/专属神兵/气泡框.png" xy="302,353" group="n61_qahf"/>
+    <richtext id="n60_h6e1" name="tips" xy="329,397" size="220,77" group="n61_qahf" font="SimHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="5" letterSpacing="5" autoSize="none" text="当前打造享7折优惠&#xA;打造30次后可享6折优惠"/>
+    <group id="n61_qahf" name="tipsGroup" xy="302,353" size="270,175" advanced="true" collapsed="true"/>
+    <text id="n62_jsaw" name="n62" xy="189,570" size="43,28" group="n64_jsaw" rotation="6" fontSize="18" color="#ff0000" text="——"/>
+    <text id="n63_jsaw" name="discount1" xy="231,573" size="50,28" group="n64_jsaw" fontSize="18" color="#00ff00" text="(300)"/>
+    <group id="n64_jsaw" name="vresG1" xy="189,570" size="89,28" advanced="true" collapsed="true"/>
+    <text id="n65_jsaw" name="n65" xy="383,570" size="43,28" group="n67_jsaw" rotation="6" fontSize="18" color="#ff0000" text="——"/>
+    <text id="n66_jsaw" name="discount10" xy="428,573" size="50,28" group="n67_jsaw" fontSize="18" color="#00ff00" text="(300)"/>
+    <group id="n67_jsaw" name="vresG10" xy="383,570" size="92,28" advanced="true"/>
+  </displayList>
+  <transition name="t0" options="1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n57_u0i5" tween="true" startValue="233,194" endValue="233,180" duration="18" ease="Linear"/>
+    <item time="18" type="XY" target="n57_u0i5" tween="true" startValue="233,180" endValue="233,194" duration="18" ease="Linear"/>
+  </transition>
+</component>

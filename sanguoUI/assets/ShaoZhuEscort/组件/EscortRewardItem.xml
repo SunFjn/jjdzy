@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,84">
+  <displayList>
+    <component id="n0_lnit" name="item" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="0,0" size="86,84"/>
+    <text id="n3_lnit" name="itemNum" xy="250,31" size="27,27" fontSize="20" color="#ffffff" text="55"/>
+    <text id="n4_lnit" name="interNum" xy="386,31" size="63,27" fontSize="20" color="#ff0000" text="（-5）"/>
+    <richtext id="n5_94en" name="itemName" xy="102,31" size="105,27" fontSize="20" color="#ff0000" align="center" text="直升五级丹"/>
+  </displayList>
+</component>

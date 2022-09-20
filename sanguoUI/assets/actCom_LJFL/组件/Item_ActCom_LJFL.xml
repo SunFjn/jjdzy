@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="308,270">
+  <displayList>
+    <image id="n9_dufs" name="n9" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="308,270" flip="vt"/>
+    <image id="n1_dufs" name="n1" src="dufs5" fileName="image/折扣显示底.png" xy="131,106" size="199,61"/>
+    <richtext id="n2_dufs" name="lbLi" xy="133,127" size="156,34" fontSize="22" color="#f5ca0c" align="center" autoSize="none" text="100% / 500%"/>
+    <richtext id="n4_dufs" name="lbFan" xy="142,85" size="145,31" fontSize="20" color="#d1e1f4" text="当前累计返利："/>
+    <component id="n5_dufs" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="44,86" scale="0.8,0.8"/>
+    <image id="n6_dufs" name="n6" src="dufs4" fileName="image/木板.png" xy="44,20"/>
+    <richtext id="n8_dufs" name="lbTitle" xy="12,30" size="282,35" fontSize="22" color="#ffffff" align="center" autoSize="none" text="单笔充值&lt;font color='#F5CA0C'>1927&lt;/font>元"/>
+    <component id="n10_dufs" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="89,190" pivot="0.5,0.5">
+      <Button title="领取"/>
+    </component>
+    <component id="n12_qcd6" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="89,190" pivot="0.5,0.5">
+      <Button title="前往充值"/>
+    </component>
+    <image id="n11_dufs" name="imgHas" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="91,194"/>
+  </displayList>
+</component>

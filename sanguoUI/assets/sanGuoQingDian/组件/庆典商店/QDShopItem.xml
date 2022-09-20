@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="280,170">
+  <displayList>
+    <image id="n9_spa9" name="n9" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,5" size="280,165"/>
+    <component id="n0_spa9" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="20,20"/>
+    <component id="n7_spa9" name="buyBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="133,110" size="115,41">
+      <Button title="购买"/>
+    </component>
+    <loader id="n3_spa9" name="typeImg0" xy="182,24" size="26,26" url="ui://jvxpx9emltpm59" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <loader id="n5_spa9" name="typeImg1" xy="183,52" size="26,26" url="ui://jvxpx9emltpm59" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <image id="n11_spa9" name="n11" src="mb5j7f" fileName="image1/line.png" pkg="jvxpx9em" xy="172,33" size="98,2"/>
+    <image id="n14_mb5j" name="buyImg" src="mb5j7d" fileName="image/已购买.png" pkg="jvxpx9em" xy="126,112" visible="false"/>
+    <image id="n8_spa9" name="disImg" src="igx91u" fileName="image/折扣标签.png" xy="10,5"/>
+    <richtext id="n1_spa9" name="nameLb" xy="14,126" size="113,28" touchable="false" fontSize="18" color="#ff0000" align="center" leading="0" autoSize="none" text="兵法属性丹"/>
+    <richtext id="n2_spa9" name="dataLb" xy="129,21" size="144,84" touchable="false" fontSize="18" color="#ffffff" leading="6" vars="true" text="原价：      50000&#xA;现价：      1000&#xA;今日(3/3)"/>
+    <richtext id="n10_spa9" name="promptLb" xy="126,119" size="125,28" touchable="false" fontSize="18" color="#ff0000" align="center" leading="0" ubb="true" autoSize="none" text="VIP5可购买"/>
+    <text id="n16_mb5j" name="disLb" xy="15,13" size="60,28" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="0.8折"/>
+  </displayList>
+</component>

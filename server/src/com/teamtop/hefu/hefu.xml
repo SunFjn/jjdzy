@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.hefu.HefuMapper">
+	<!-- 找出合服需要删除的角色数据 -->
+	<select id="getDelHero" parameterType="java.util.HashMap" resultType="DelHero">
+		<![CDATA[
+			select id as hid,name,zoneid,aid,sex from hero where level<=${level} and chongZhiYuan<=${chongZhiYuan} and logoutTime<${time}
+		]]>
+	</select>
+	
+	<!-- 删除玩家关联的表 -->
+	<delete id="delExtra" parameterType="java.util.HashMap"> 
+		delete from ${tbname} where ${id} in (${delcontent})
+	</delete>
+	<!-- 重置指定表某字段 设置为"",0等 -->
+	<update id="resetByUpdate" parameterType="java.util.HashMap"> 
+		update ${tbname} set ${resetField} 
+	</update>
+	<!-- 删除没有附件的邮件 以前：已读 isRead !=0 and  -->
+	<delete id="delReadNoFjMail"> 
+		delete from mail where isGetAdj !=1
+	</delete>
+	<!-- 找出合服需要删除的角色数据 -->
+	<select id="getMoveData" parameterType="String" resultType="hashmap">
+		select * from ${value}
+	</select>
+	
+	<!-- 转移数据 -->
+	<insert id="moveData" parameterType="java.util.HashMap"> 
+		insert into ${tbname}(${sbField}) values ${sbVal} 
+	</insert>
+	<!-- 清空数据 -->
+	<insert id="truncateData" parameterType="String"> 
+		truncate ${value} 
+	</insert>
+	
+	<!-- 找出所有角色名字数据 -->
+	<select id="getAllHeroName" resultType="com.teamtop.hefu.HefuHeroName">
+		select id as hid,name from hero
+	</select>
+	<!-- 修改角色名字 -->
+	<select id="updateHeroName" resultType="com.teamtop.hefu.HefuHeroName">
+		update hero set name=#{name} where id=${hid}
+	</select>
+	<!-- 删除公共数据 -->
+	<delete id="delGlobaldata" parameterType="int"> 
+		delete from globaldata where type =${value}
+	</delete>
+	<!-- 删除crossMine 中hid=1的主键 -->
+	<delete id="del_crossMine" > 
+		delete from crossmine where hid =1
+	</delete>
+	<!-- 删除crosskingrank 错误的数据 -->
+	<delete id="del_crosskingrank" > 
+		delete from crosskingrank where type=1 AND rid>=1000000000000000
+	</delete>
+	<!-- 删除crossSelectKing 中hid=1的主键 -->
+	<delete id="del_crossSelectKing" > 
+		delete from crossSelectKing where hid =1
+	</delete>
+	<!-- 删除tigerPassEmployer 中hid=1的主键 -->
+	<delete id="del_tigerPassEmployer" > 
+		delete from tigerPassEmployer where hid =1
+	</delete>
+		
+	<!-- 删除crosszhuluheroinfo 错误的数据 -->
+	<delete id="del_crosszhuluheroinfo" > 
+		delete from crosszhuluheroinfo where  hid =1
+	</delete>
+	<!-- 找出crosskingrank中 最大npc序号-->
+	<select id="getMaxNpcId" resultType="int">
+		select Max(rid) from crosskingrank WHERE type=1
+	</select>
+	<!-- 找出getMaxNodeIndex中 最大nodeIndex序号-->
+	<select id="getMaxNodeIndex" resultType="int">
+		select Max(id) from crossselectkingnode
+	</select>
+		
+</mapper>

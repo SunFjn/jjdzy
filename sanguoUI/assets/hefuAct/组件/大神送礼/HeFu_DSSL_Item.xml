@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="629,237">
+  <displayList>
+    <image id="n1_hilo" name="n1" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="629,237" flip="vt"/>
+    <image id="n4_hilo" name="n4" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="25,9" size="267,27"/>
+    <richtext id="n2_hilo" name="lab" xy="27,10" size="196,27" touchable="false" fontSize="20" color="#cfe2f3" text="本服每有1名玩家达到"/>
+    <list id="n5_hilo" name="list" xy="26,41" size="582,191" layout="row" overflow="hidden" colGap="9" defaultItem="ui://07jsdu7hhilo8" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n7_hilo" name="n7" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="368,10" size="237,27" group="n8_lgr8" flip="hz"/>
+    <richtext id="n3_hilo" name="vipNum" xy="368,10" size="235,27" group="n8_lgr8" touchable="false" fontSize="20" color="#ff9900" align="right" autoSize="none" text="当前VIP15人数：15"/>
+    <group id="n8_lgr8" name="numGroup" xy="368,10" size="237,27" advanced="true"/>
+  </displayList>
+</component>

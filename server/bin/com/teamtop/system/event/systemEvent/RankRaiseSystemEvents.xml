@@ -1,0 +1,56 @@
+<beans>
+<!-- 升级事件说明 -->
+	<!-- level 属性是指定事件触发等级数字则说明是等级 all代表所有等级都需要执行-->
+	<!--对于多个等级需要触发同一事件那么可以：level="5_11_17_23_12" 此时代表此事件分别会在 人物升级到5级、11级、23级以及12级分别触发-->
+	<!--对于间隔等级触发的事件可以：level="gap" startLevel="5" endLevel="120" gapLevel="5"此时代表此事件会在5-120(包含5,120级)级每间隔5级触发-->
+	<!-- 增加functionId注册方式，加入funId属性则会从X_104_系统开启表.xlsx中读取等级注册等级事件 -->
+	
+	<!-- 例子
+	<property method = "levelUp" level="all"/>
+	<property method = "levelUp" level="30"/>
+	<property method = "levelUp" level="30_50_60_70_80_90_100_110_120"/>
+	<property method = "levelUp" funId="1002"/>
+	<property method = "levelUp" level="gap" startLevel="100" endLevel="130" gapLevel="1"/>
+	 -->
+<!-- end -->
+
+<!-- fixtimeSyncPub说明 -->
+	<!-- 适用于帮会等跟个人无关的系统 -->
+	<!-- gap参数为分钟，仅有此参数 
+	<property method = "fixtimeSyncPub" gap="30"/>
+	 -->
+<!-- end -->
+
+<!-- fixtime说明 -->
+	<!-- 
+	定时事件定义：
+	(1)：d1200表示每天12点触发；
+	(2)：w71400表示星期天14点触发，周一至周日是1至7；
+	(3)：g30表示间隔30分钟触发，必须配置开始时间starttime
+	例子如下：
+	<property method = "fixTime" starttime="0000" time="d1200_1,d1800_2,g30_3"/>
+	<property method = "fixTime" time="w71400_1,w71430_2,w71500_3" />
+	 -->
+<!-- end -->
+	
+	<!-- 系统事件，常规包括init login-->
+	<!-- 战力提升排行  -->
+	<!-- <bean id="RankRaiseCrossEvent" class="com.teamtop.system.rankRaise.cross.RankRaiseCrossEvent" pf="all" >
+		<property method = "fixTime" starttime="0000" time="g20_1" />
+	</bean> -->
+	<!--跨服龙舟 -->
+	<bean id="DragonBoatEvent" class="com.teamtop.system.dragonBoat.cross.DragonBoatEvent" pf="PF_ALL" funid="1140">
+		<property method = "fixTime" time="w21400_1,w21405_2,w21430_3,w41400_1,w41405_2,w41430_3,w61400_1,w61405_2,w61430_3" />
+	</bean>
+	<!-- 奔跑兄弟 -->
+	<bean id="RunningManEvent" class="com.teamtop.system.runningMan.RunningManEvent" pf="PF_ALL" funid="1075">
+		<property method = "fixTime"  time="w12100_1,w12105_2,w12125_3,w32100_1,w32105_2,w32125_3,w52100_1,w52105_2,w52125_3,w72020_1,w72025_2,w72045_3"/>
+	</bean>
+	<!-- 雄霸三国 -->
+	<bean id="CountryFightCrossEvent" class="com.teamtop.system.countryFight.cross.CountryFightCrossEvent" pf="PF_ALL">
+		<!-- 
+		<property method = "fixTime" time="w10000_0,w11200_1,w52200_2,w62100_3,w62105_4,w62130_5,w62150_6,w62155_7,w62220_8,w72100_11,w72105_12,w72130_13,w72150_14,w72155_15,w72220_16"/>
+		 -->
+		<property method = "fixTime" time="d1200_1,d2130_2,d2135_3,d2155_4"/>
+	</bean>
+</beans>

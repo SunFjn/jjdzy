@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,269" opaque="false">
+  <displayList>
+    <image id="n17_dzc5" name="n17" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="0,51" size="156,48"/>
+    <component id="n1_fl2h" name="n1" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="24,-35" size="67,83">
+      <Button icon="ui://gxs8kn67cg2i10"/>
+    </component>
+    <component id="n2_fl2h" name="n2" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="490,201">
+      <Button title="退出"/>
+    </component>
+    <richtext id="n3_fl2h" name="n3" xy="6,51" size="103,22" fontSize="16" color="#ffffff" text="我的排名：20"/>
+    <richtext id="n4_fl2h" name="n4" xy="6,75" size="103,22" fontSize="16" color="#ffffff" text="我的积分：20"/>
+    <image id="n14_cg2i" name="n14" src="i8xh5u" fileName="image1/自动底.png" pkg="7gxkx46w" xy="206,33" size="230,38" group="n18_s56p">
+      <relation target="n6_fl2h" sidePair="width-width"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <richtext id="n6_fl2h" name="lbCondition" xy="237,38" size="161,25" group="n18_s56p" fontSize="18" color="#ffffff" align="center" text="条件：积分达到100">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n18_s56p" name="groupNext" xy="206,33" size="230,38" advanced="true"/>
+    <image id="n7_fl2h" name="n7" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="524,-8" size="111,105" group="n19_hocl"/>
+    <image id="n15_cg2i" name="n15" src="cg2ih" fileName="images/复仇之魂.png" xy="533,0" group="n19_hocl"/>
+    <richtext id="n11_fl2h" name="n11" xy="598,7" size="21,22" group="n19_hocl" fontSize="14" color="#ffffff" align="center" text="88&#xA;"/>
+    <group id="n19_hocl" name="n19" xy="524,-8" size="111,105" visible="false" advanced="true"/>
+  </displayList>
+</component>

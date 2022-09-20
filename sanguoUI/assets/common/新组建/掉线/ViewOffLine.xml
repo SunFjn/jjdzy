@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="613,576">
+  <displayList>
+    <component id="n9_p5b5" name="frame" src="f1cf4b" fileName="组件/frame2.xml" xy="0,0" size="613,576">
+      <Label title="提示"/>
+    </component>
+    <loader id="n0_om2s" name="backImg" xy="10,125" size="592,342" url="ui://udf5w9fap5b55"/>
+    <component id="n12_p5b5" name="sureBt" src="y1z8b" fileName="组件/Button0.xml" xy="254,490">
+      <Button title="确认"/>
+    </component>
+    <richtext id="n13_p5b5" name="txtInfo" xy="141,86" size="330,28" fontSize="18" color="#ffc344" align="center" leading="0" autoSize="none" text="您掉线了，请按照以下方式进入游戏"/>
+  </displayList>
+</component>

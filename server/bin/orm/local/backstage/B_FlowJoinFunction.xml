@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 角色参与系统玩法流水表-->
+	<tb model="com.teamtop.system.event.backstage.events.flowHero.B_FlowJoinFunction" tbname="b_flowjoinfunction">
+		<index field="id" type="prikey"/>
+		<index field="hid" type="normal"/>
+	    <index field="joinTime" type="normal"/>
+	    <index field="pfcode" type="normal"/>
+        <index field="zoneid" type="normal"/>      	    	    	
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="level" type="int" pf="all" comment="角色等级"/>
+		<col field="vipLevel" type="int" pf="all" comment="vip等级"/>
+		<col field="createJob" type="int" pf="all" comment="职业"/>
+		<col field="strength" type="bigint" pf="all" comment="战力"/>
+		<col field="sysId" type="int" pf="all" comment="系统id"/>
+		<col field="sysName" type="varchar" len="20" pf="all" comment="系统名"/>
+		<col field="zoneid" type="int" pf="all" comment="区号"/>
+		<col field="pfcode" type="varchar" len="255" pf="all" comment="平台代码"/>
+		<col field="usesys" type="varchar" len="255" pf="all" comment="注册系统"/>
+		<col field="joinTime" type="int" pf="all" comment="参与时间"/>
+		<col field="reincarnationLevel" type="int" pf="all" comment="六道轮回等级"/>
+	</tb>
+</tbs>

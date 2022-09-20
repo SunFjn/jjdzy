@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 用户表数据-->
+	<tb model="com.teamtop.system.event.backstage.events.backstage.register.B_Register" tbname="b_register">
+		<index field="openid" type="prikey"/>
+		<index field="createtime" type="normal"/>		
+		<index field="pfcode" type="normal"/>
+		<index field="zoneid" type="normal"/>
+		<col field="openid" type="varchar" len="100" pf="all" comment="唯一id"/>
+		<col field="zoneid" type="int" pf="all" comment="区号"/>
+		<col field="pfopenid" type="varchar" len="100" pf="all" comment="平台账户 接入的渠道账户名 由SDk提供给游戏前端"/>
+		<col field="pfcode" type="varchar" len="100" pf="all" comment="平台代码 接入平台代号 由SDk转接工程提供给游戏前端 "/>
+		<col field="usesys" type="varchar" len="100" pf="all" comment="注册系统"/>
+	    <col field="createtime" type="int" pf="all" comment="注册时间"/>
+	    <col field="createip" type="varchar" len="100" pf="all" comment="注册IP"/>
+	    <col field="app_custom" type="varchar" len="100" pf="all" comment="广告标识"/>
+	    <col field="id" type="bigint" pf="all" comment="角色id"/>
+	    <col field="name" type="varchar" len="100" pf="all" comment="角色名字"/>
+	    <col field="job" type="int" pf="all" comment="职业"/>
+		<col field="country" type="varchar" len="100" pf="all" comment="用户国家"/>
+		<col field="region" type="varchar" len="100" pf="all" comment="用户地区"/>		    
+	</tb>
+</tbs>

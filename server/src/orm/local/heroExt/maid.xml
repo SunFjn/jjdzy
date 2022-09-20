@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.house.maid.model.Maid" tbname="maid">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="maidMap" type="text" pf="all" comment="已拥有侍女信息"/>
+			<col field="useMaid" type="int" pf="all" comment="侍女使用形象"/>
+			<col field="strength" type="bigint" pf="all" comment="侍女战力"/>
+     </tb>
+</tbs>

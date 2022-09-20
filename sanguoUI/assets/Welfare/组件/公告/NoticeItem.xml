@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="599,28">
+  <displayList>
+    <richtext id="n0_ffub" name="noticeLb" xy="0,0" size="599,28" touchable="false" fontSize="18" color="#ffffff" leading="10" ubb="true" autoSize="height" text="111111111111111111111111111"/>
+  </displayList>
+  <relation target="n0_ffub" sidePair="width-width,height-height"/>
+</component>

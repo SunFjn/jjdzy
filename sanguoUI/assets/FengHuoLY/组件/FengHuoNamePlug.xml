@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="180,88">
+  <displayList>
+    <loader id="n1_m2dl" name="titleImg" xy="65,0" size="50,30" autoSize="true"/>
+    <richtext id="n2_m2dl" name="nameLb" xy="0,33" size="180,28" touchable="false" fontSize="18" color="#ff0000" align="center" leading="0" autoSize="none" strokeColor="#000000" text="玩家名字名字.s9999"/>
+    <image id="n3_jv3k" name="n3" src="ekf612" fileName="images/绿色箭头.png" xy="70,-55"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n3_jv3k" tween="true" startValue="70,-20" endValue="70,-35" duration="6"/>
+    <item time="6" type="XY" target="n3_jv3k" tween="true" startValue="70,-35" endValue="70,-20" duration="6" ease="Linear"/>
+    <item time="12" type="XY" target="n3_jv3k" tween="true" startValue="70,-20" ease="Linear"/>
+  </transition>
+</component>

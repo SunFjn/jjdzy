@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="486,305">
+  <displayList>
+    <component id="n0_b8ve" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="486,305">
+      <Label title="累积奖励"/>
+    </component>
+    <image id="n4_jg2q" name="n4" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="25,92" size="436,156"/>
+    <list id="n2_b8ve" name="list" xy="47,103" size="391,136" layout="row" overflow="hidden" colGap="40" defaultItem="ui://jvxpx9emetorn">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n6_sscw" name="n6" xy="42,258" size="401,28" touchable="false" fontSize="18" color="#15f234" text="通关波数越多奖励越好，挑战结束后奖励统一发放"/>
+  </displayList>
+</component>

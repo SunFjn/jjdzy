@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="556,130">
+  <displayList>
+    <image id="n5_rjpy" name="n5" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="556,130"/>
+    <component id="n1_rjpy" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="26,19" scale="0.8,0.8"/>
+    <text id="n2_rjpy" name="txtName" xy="120,19" size="113,28" fontSize="18" color="#ffcc00" text="道具名称六字"/>
+    <richtext id="n3_rjpy" name="txtDes" xy="120,47" size="271,75" touchable="false" fontSize="18" color="#ffffff" ubb="true" autoSize="none" text="道具名称六字道具名称六字道具名称六字道具名称六字道具名称六字道具名称六字"/>
+    <component id="n4_rjpy" name="btnHand" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="410,47">
+      <Button title="使用"/>
+    </component>
+  </displayList>
+</component>

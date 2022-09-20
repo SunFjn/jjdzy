@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="265,172">
+  <displayList>
+    <image id="n1_ad1l" name="n1" src="ad1l1n" fileName="image/六艺/考试底.png" xy="0,0"/>
+    <loader id="n6_ad1l" name="img" xy="30,35" size="50,50" url="ui://p83wyb2bad1l1o"/>
+    <component id="n2_ad1l" name="btn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="132,107" pivot="0.5,0.5" anchor="true" size="104,48" group="n8_kc1n">
+      <Button title="考试" titleFontSize="20"/>
+    </component>
+    <richtext id="n3_ad1l" name="lbLv" xy="84,26" size="78,35" group="n8_kc1n" fontSize="24" text="Lv.500"/>
+    <richtext id="n4_ad1l" name="lbGai" xy="84,55" size="147,31" group="n8_kc1n" fontSize="20" text="合格概率：70%"/>
+    <image id="n9_7s8s" name="n9" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="47,130" size="169,24" group="n8_kc1n" alpha="0.8"/>
+    <richtext id="n5_ad1l" name="lbIt" xy="32,129" size="198,28" group="n8_kc1n" fontSize="18" color="#00ff00" align="center" autoSize="none" text="试卷：5/1"/>
+    <group id="n8_kc1n" name="view0" xy="32,26" size="199,131" visible="false" advanced="true"/>
+    <richtext id="n7_kc1n" name="lbPass" xy="85,71" size="94,43" fontSize="30" color="#33dd33" align="center" autoSize="none" text="合格"/>
+  </displayList>
+</component>

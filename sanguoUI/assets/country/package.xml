@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="uwzc58nj" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="hy5r0" name="ViewCountryPanel.xml" path="/组件/" exported="true"/>
+    <component id="lz1x1" name="ViewCouSelectPanel.xml" path="/组件/" exported="true"/>
+    <component id="lyou2" name="ViewCountryDonate.xml" path="/组件/捐献/" exported="true"/>
+    <image id="fjuvh" name="国家选择.png" path="/image/其他/" exported="true"/>
+    <component id="fjuvs" name="BtnCouSelect.xml" path="/组件/" exported="true"/>
+    <image id="f50e10" name="元宝插图.png" path="/image/其他/" exported="true"/>
+    <image id="f50e11" name="铜钱插图.png" path="/image/其他/" exported="true"/>
+    <image id="qnae18" name="丞.png" path="/image/其他/" exported="true"/>
+    <image id="qnae1b" name="大将军.png" path="/image/其他/" exported="true"/>
+    <image id="qnae1c" name="本国成员.png" path="/image/其他/" exported="true"/>
+    <image id="qnae1d" name="王位之争.png" path="/image/其他/" exported="true"/>
+    <image id="qnae1e" name="皇城侍卫.png" path="/image/其他/" exported="true"/>
+    <image id="qnae1i" name="已膜拜.png" path="/image/其他/" exported="true"/>
+    <image id="rj731p" name="head_bg.png" path="/image/其他/" exported="true"/>
+    <component id="iala1t" name="VCountryBtn.xml" path="/组件/" exported="true"/>
+    <component id="htxq1u" name="ViewCtryBoss.xml" path="/组件/国家BOSS/" exported="true"/>
+    <image id="escg1w" name="国家BOSS标题.png" path="/image/其他/" exported="true"/>
+    <component id="u0wz20" name="ChildKingShipResult.xml" path="/组件/王位之争/" exported="true"/>
+    <component id="teph24" name="VKingShipPly.xml" path="/组件/王位之争/" exported="true"/>
+    <image id="twy626" name="排名争夺.png" path="/image/其他/" exported="true"/>
+    <component id="p1wo27" name="Child_CountryBoss_Rank.xml" path="/组件/国家BOSS/" exported="true"/>
+    <component id="p1wo28" name="Child_CountryBoss_MyRank.xml" path="/组件/国家BOSS/" exported="true"/>
+    <component id="p1wo29" name="View_Country_Rank.xml" path="/组件/国家BOSS/" exported="true"/>
+    <image id="p1wo2f" name="国家.png" path="/image/其他/" exported="true"/>
+    <component id="p1wo2h" name="Country_RankItem.xml" path="/组件/国家BOSS/" exported="true"/>
+    <image id="ofde2j" name="击杀奖励.png" path="/image/其他/" exported="true"/>
+    <component id="ofde2k" name="CountryBossInfo.xml" path="/组件/国家BOSS/" exported="true"/>
+    <component id="ofde2l" name="ViewCountryBossRnk.xml" path="/组件/国家BOSS/" exported="true"/>
+    <image id="ofde2m" name="展开伤害榜.png" path="/image/其他/" exported="true"/>
+    <component id="ofde2n" name="CountryBossRnk.xml" path="/组件/国家BOSS/" exported="true"/>
+    <image id="ggjy2o" name="kingship.jpg" path="/image/不导出/"/>
+    <component id="5vwc2p" name="View_KingShip_Panel.xml" path="/组件/王位之争/" exported="true"/>
+    <component id="jd2n2s" name="View_KingShip_RewardPanel.xml" path="/组件/王位之争/" exported="true"/>
+    <component id="jd2n2t" name="Child_KingShip_RewardItem.xml" path="/组件/王位之争/" exported="true"/>
+    <image id="jd2n2u" name="俸禄宝箱.png" path="/image/其他/" exported="true"/>
+    <image id="apr12w" name="无官职.png" path="/image/其他/" exported="true"/>
+    <image id="zftk2y" name="国家公告标题.png" path="/image/宴会/"/>
+    <image id="zftk35" name="宴会令-道具大.png" path="/image/宴会/"/>
+    <image id="zftk36" name="宴会令-道具小.png" path="/image/宴会/"/>
+    <image id="zftk37" name="宴会令-道具中.png" path="/image/宴会/"/>
+    <component id="zftk3a" name="CountryWelfarePanel.xml" path="/组件/国家福利/" exported="true"/>
+    <component id="zftk3b" name="ViewYanHu.xml" path="/组件/国家福利/" exported="true"/>
+    <component id="zftk3c" name="YanHuItem.xml" path="/组件/国家福利/" exported="true"/>
+    <component id="zftk3d" name="ViewSetYanhu.xml" path="/组件/国家福利/" exported="true"/>
+    <component id="zftk3e" name="SetYanhuItem.xml" path="/组件/国家福利/" exported="true"/>
+    <image id="zftk3f" name="奖励一览.png" path="/image/其他/" exported="true"/>
+    <image id="eeiw4l" name="捐献标题.png" path="/image/宴会/捐献/"/>
+    <image id="eeiw4m" name="捐赠底图y.jpg" path="/image/宴会/捐献/"/>
+    <component id="eeiw50" name="ViewYanHuMain.xml" path="/组件/国家福利/"/>
+    <component id="dr4r6c" name="View_CountrySkill_Panel.xml" path="/组件/国家技能/" exported="true"/>
+    <component id="dr4r6d" name="ViewCouSkillItem.xml" path="/组件/国家技能/" exported="true"/>
+    <image id="wuea6e" name="国家技能图标.png" path="/image/其他/"/>
+    <image id="wuea6g" name="国家技能标题.png" path="/image/其他/" exported="true"/>
+    <image id="h60v6m" name="东吴.png" path="/image/不导出/"/>
+    <image id="h60v6n" name="吴.png" path="/image/不导出/"/>
+    <image id="h60v6p" name="曹魏.png" path="/image/不导出/"/>
+    <image id="h60v6r" name="蜀.png" path="/image/不导出/"/>
+    <image id="h60v6t" name="蜀汉.png" path="/image/不导出/"/>
+    <image id="h60v6u" name="选中.png" path="/image/不导出/"/>
+    <image id="h60v6v" name="魏.png" path="/image/不导出/"/>
+    <image id="wnzh6x" name="国家技能底.jpg" path="/image/其他/" exported="true"/>
+    <image id="tidc74" name="国家技能底.png" path="/image/其他/"/>
+  </resources>
+  <publish name="country" genCode="true" npot="true" excluded="ggjy2o,h60v6p,h60v6m,h60v6r,h60v6t,h60v6v,h60v6u,h60v6n"/>
+</packageDescription>

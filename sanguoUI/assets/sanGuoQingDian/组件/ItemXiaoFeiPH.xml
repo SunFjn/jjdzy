@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,250" opaque="false">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1_tipm" name="n1" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="0,0" size="300,136">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n3_tipm" name="iconFirst" src="tipmf" fileName="image/第1名.png" xy="25,1">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <loader id="n11_tipm" name="iconPM" xy="19,5" size="68,31" url="ui://kdt501v2tipm9" fill="scaleFree" autoSize="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </loader>
+    <richtext id="n12_tipm" name="txtName" xy="107,9" size="180,31" fontSize="20" color="#ff9900" align="right" vAlign="bottom" autoSize="none" text="玩家名字">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <component id="n2_tipm" name="container" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="205,65"/>
+    <text id="n13_j27o" name="txtPer" xy="29,60" size="47,31" fontSize="20" color="#00ff00" text="18%"/>
+    <image id="n14_m5m5" name="iconXWYD" src="ioin14" fileName="image/虚位以待.png" xy="190,14"/>
+  </displayList>
+</component>

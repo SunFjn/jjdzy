@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="626,731">
+  <displayList>
+    <component id="n5_oc0j" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="626,731">
+      <Label title="排行榜"/>
+    </component>
+    <list id="n2_n7ie" name="lst" xy="31,143" size="558,454" overflow="scroll" lineGap="18" defaultItem="ui://1xydor24n7ie5">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n8_oc0j" name="n8" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="31,91" size="555,46" group="n13_oc0j"/>
+    <image id="n9_oc0j" name="n9" src="j92x9s" fileName="image1/积分.png" pkg="jvxpx9em" xy="410,103" group="n13_oc0j"/>
+    <image id="n10_oc0j" name="n10" src="q8rv9n" fileName="image1/排名.png" pkg="jvxpx9em" xy="107,104" group="n13_oc0j"/>
+    <image id="n11_oc0j" name="n11" src="j92x9t" fileName="image1/名字.png" pkg="jvxpx9em" xy="264,103" group="n13_oc0j"/>
+    <image id="n12_oc0j" name="n12" src="q8rv9o" fileName="image1/奖励.png" pkg="jvxpx9em" xy="511,103" group="n13_oc0j"/>
+    <group id="n13_oc0j" name="n13" xy="31,91" size="555,46" collapsed="true"/>
+    <image id="n14_oc0j" name="n14" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="31,613" size="555,63" group="n16_oc0j"/>
+    <richtext id="n3_n7ie" name="lbInfo" xy="93,633" size="77,28" group="n16_oc0j" fontSize="18" color="#ffffff" text="我的积分"/>
+    <richtext id="n15_oc0j" name="lbMyRank" xy="399,633" size="77,28" group="n16_oc0j" fontSize="18" color="#ffffff" text="我的积分"/>
+    <group id="n16_oc0j" name="n16" xy="31,613" size="555,63" collapsed="true"/>
+    <richtext id="n17_q9i5" name="n17" xy="186,688" size="253,25" fontSize="16" color="#ffffff" text="每天22:00结算，奖励通过邮件发放"/>
+  </displayList>
+</component>

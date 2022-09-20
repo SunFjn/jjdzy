@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="587,722">
+  <displayList>
+    <component id="n0_lonv" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="587,722">
+      <Label title="许愿送礼"/>
+    </component>
+    <text id="n1_lonv" name="lb" xy="58,682" size="477,28" fontSize="18" color="#1bf011" align="center" autoSize="none" text="抽奖次数：1000"/>
+    <list id="n2_lonv" name="list" xy="16,94" size="555,576" overflow="scroll" lineGap="8" defaultItem="ui://zyevj37nlonve">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

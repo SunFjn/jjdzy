@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="519,409">
+  <displayList>
+    <component id="n0_608a" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="519,409">
+      <Label title="玩法说明"/>
+    </component>
+    <richtext id="n1_608a" name="n1" xy="25,94" size="461,232" fontSize="14" color="#ffffff" leading="8" ubb="true" text="1、参与条件：本周单刀赴会[color=#66ccff]前16名[/color]&#xA;2、开始时间：每周日[color=#66ccff]20:30-21:20[/color]&#xA;3、战斗规则：比赛采用[color=#66ccff]淘汰赛[/color]规则，胜者晋级，直到决出冠军。每场比&#xA;赛准备时间为[color=#66ccff]10[/color]分钟，战斗时间为[color=#66ccff]5[/color]分钟。战斗开始后由系统[color=#66ccff]自动战斗 [/color]&#xA;4、竞猜规则：玩家可对每个赛程的其中一场比赛进行竞猜，竞猜只能对&#xA;其中一方进行押注。竞猜奖励在本赛程结束后邮件发放&#xA;5、无双奖池：每个赛程结束后可领取对应赛程的无双奖池中的元宝奖励，&#xA;[color=#66ccff]数量有限，先到先得[/color]&#xA;6、冠军可获得永久称号：[color=#66ccff]三国无双[/color]&#xA;"/>
+  </displayList>
+</component>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,289">
+  <controller name="state0Ctrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <controller name="state1Ctrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n61_e7lc" name="n61" src="e7lcj" fileName="出图文件/底1.png" xy="0,0"/>
+    <image id="n62_e7lc" name="n62" src="e7lci" fileName="出图文件/底2.png" xy="0,157"/>
+    <richtext id="n65_e7lc" name="tfIndex" xy="37,7" pivot="0.5,0" size="34,28" fontSize="18" color="#ffffff" align="center" autoClearText="true" text="5级"/>
+    <component id="n63_e7lc" name="item0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="19,50" scale="0.8,0.8"/>
+    <graph id="n53_ke27" name="btnGet0" xy="12,47" size="90,90" alpha="0" type="rect">
+      <gearDisplay controller="state0Ctrl" pages="1"/>
+    </graph>
+    <image id="n66_e7lc" name="lbNo0" src="e7lcg" fileName="出图文件/无奖励.png" xy="13,77" pivot="0.5,0" visible="false"/>
+    <image id="n49_tvlr" name="imageGet0" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="6,76" scale="0.8,0.8">
+      <gearDisplay controller="state0Ctrl" pages="2"/>
+    </image>
+    <image id="n51_kjiu" name="noticeImg0" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="81,47">
+      <gearDisplay controller="state0Ctrl" pages="1"/>
+    </image>
+    <image id="n60_sk4y" name="grey0" src="e7lc7" fileName="image/黑色遮挡.png" xy="2,37" size="110,120" alpha="0.5">
+      <gearDisplay controller="state0Ctrl" pages="0"/>
+    </image>
+    <component id="n64_e7lc" name="item1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="18,181" scale="0.8,0.8"/>
+    <image id="n67_e7lc" name="lbNo1" src="e7lcg" fileName="出图文件/无奖励.png" xy="13,208" pivot="0.5,0" visible="false"/>
+    <image id="n58_ml15" name="grey1" src="e7lc7" fileName="image/黑色遮挡.png" xy="2,159" size="110,128" alpha="0.5">
+      <gearDisplay controller="state1Ctrl" pages="0"/>
+    </image>
+    <graph id="n54_ke27" name="btnGet1" xy="11,178" size="90,90" alpha="0" type="rect">
+      <gearDisplay controller="state1Ctrl" pages="1"/>
+    </graph>
+    <image id="n52_kjiu" name="noticeImg1" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="81,178">
+      <gearDisplay controller="state1Ctrl" pages="1"/>
+    </image>
+    <image id="n50_tvlr" name="imageGet1" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="6,207" scale="0.8,0.8">
+      <gearDisplay controller="state1Ctrl" pages="2"/>
+    </image>
+  </displayList>
+</component>

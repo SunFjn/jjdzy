@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,210" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n2_cenr" name="n2" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="4,2" size="162,206"/>
+    <image id="n3_cenr" name="n3" src="8m8s3hf" fileName="image/通用底框/蓝色选中光效.png" pkg="jvxpx9em" xy="-16,-16" size="202,243">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <richtext id="n4_cenr" name="nameLb" xy="8,9" size="152,35" fontSize="24" color="#ffffff" align="center" autoSize="none" text="曹操"/>
+    <loader id="n5_cenr" name="bg" xy="44,51" size="82,83" url="ui://jvxpx9emy1z8p" fill="scaleFree"/>
+    <loader id="n6_cenr" name="imgIcon" xy="47,54" size="77,76" fill="scaleFree"/>
+    <image id="n7_cenr" name="n7" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="46,106" size="80,24" group="n10_cenr"/>
+    <image id="n8_cenr" name="n8" src="sv0g2l" fileName="image1/big_star_4.png" pkg="jvxpx9em" xy="89,105" size="24,24" group="n10_cenr"/>
+    <richtext id="n9_cenr" name="starLb" xy="53,104" size="33,29" group="n10_cenr" touchable="false" fontSize="18" color="#ffffff" align="right" autoSize="none" bold="true" text="10"/>
+    <group id="n10_cenr" name="starGroup" xy="46,104" size="80,29" visible="false" advanced="true" collapsed="true"/>
+    <richtext id="n11_cenr" name="perLb" xy="4,141" size="162,57" fontSize="18" color="#ffffff" align="center" leading="10" autoSize="none" text="品质加成"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

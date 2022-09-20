@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.huoShaoChiBi.HuoShaoChiBi" tbname="huoShaoChiBi">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="floorNum" type="int" pf="all" comment="当前过关层数"/>
+			<col field="attTime" type="int" pf="all" comment="通关时间"/>
+     </tb>
+</tbs>

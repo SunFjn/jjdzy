@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <graph id="n3_p5b5" name="n3" xy="1,-1" size="640,1136" alpha="0.7" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <loader id="n0_p5b5" name="n0" xy="2,380" size="631,375" group="n2_p5b5" touchable="false"/>
+    <richtext id="n1_p5b5" name="lb" xy="78,667" size="479,82" group="n2_p5b5" touchable="false" fontSize="18" color="#15f234" align="center" leading="10" autoSize="none" text=""/>
+    <group id="n2_p5b5" name="n2" xy="2,380" size="631,375" advanced="true">
+      <relation target="n3_p5b5" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

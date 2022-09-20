@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,135">
+  <displayList>
+    <component id="n0_y1c1" name="n0" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="16,33"/>
+    <image id="n1_y1c1" name="n1" src="y1c13" fileName="image/卡牌选中框.png" xy="-16,0" size="161,186"/>
+  </displayList>
+</component>

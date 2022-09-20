@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,695">
+  <displayList>
+    <component id="n14_ze8t" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="591,695">
+      <Label title="鉴定排名"/>
+    </component>
+    <image id="n15_ze8t" name="n15" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="19,83" size="556,44"/>
+    <list id="n6_wea3" name="list" xy="19,131" size="556,522" overflow="scroll" lineGap="5" defaultItem="ui://hincjqblze8t1s">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n16_ze8t" name="n16" src="k8x01k" fileName="image/排名.png" xy="81,96"/>
+    <image id="n17_ze8t" name="n17" src="k8x01j" fileName="image/名字.png" xy="285,96"/>
+    <image id="n18_ze8t" name="n18" src="k8x01o" fileName="image/鉴定次数.png" xy="468,96"/>
+  </displayList>
+</component>

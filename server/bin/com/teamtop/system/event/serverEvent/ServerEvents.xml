@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 服务器事件，包括启动服务器和关闭服务器 -->
+	<!-- pf为指定平台开启时填写 若全平台则不填  指定平台未PfConst变量名-->
+	<!-- 日志 -->
+	<bean id="LogServer" class="com.teamtop.util.log.LogServer">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 大字段 -->
+	<bean id="TransInnerUtil" class="com.teamtop.util.db.trans.TransInnerUtil">
+		<property method = "startServer"/>
+	</bean>
+	<!-- mybatis -->
+	<bean id="MybatisUtil" class="com.teamtop.util.mybatis.MybatisUtil">
+		<property method = "startServer"/>
+	</bean>
+	<!-- auto obj table orm -->
+	<bean id="AutoObjTableUtil" class="com.teamtop.util.db.orm.AutoObjTableUtil">
+	<property method = "startServer"/>
+	</bean>
+	<!-- 公共数据缓存-->
+	<bean id="GlobalCache" class="com.teamtop.system.global.GlobalCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 游戏配置文件-->
+	<bean id="GameProperties" class="com.teamtop.gameCommon.GameProperties">
+		<property method = "startServer"/>
+	</bean>			
+	<!-- gm时间设置 -->
+	<bean id="GlobalTimeCache" class="com.teamtop.system.global.GlobalTimeCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 协议对应传输字段-->
+	<bean id="ProtocolInvoke" class="com.teamtop.netty.util.nettyCache.ProtocolInvoke">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 协议对应方法-->
+<!-- 	<bean id="MethodInvoke" class="com.teamtop.netty.util.nettyCache.MethodInvoke">
+		<property method = "startServer"/>
+	</bean> -->
+	<!-- 屏蔽协议，事件，图标  放在MethodInvoke后面，SystemEventFunction前面-->
+	<bean id="ForbidFunction" class="com.teamtop.forbid.ForbidFunction">
+		<property method = "startServer"/>
+		<property method = "initExcel"/>
+	</bean>
+	<!-- 系统事件-->
+<!-- 	<bean id="SystemEventFunction" class="com.teamtop.system.event.systemEvent.SystemEventFunction">
+		<property method = "startServer"/>
+	</bean> -->
+	<!-- 地图文件-->
+	<bean id="SceneFile" class="com.teamtop.system.scene.SceneFile">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 场景事件-->
+	<bean id="SceneEventFunction" class="com.teamtop.system.event.sceneEvent.SceneEventFunction">
+		<property method = "startServer"/>
+	</bean>
+	<!-- hero下线数据保存管理-->
+	<bean id="HeroDataSaver" class="com.teamtop.system.hero.HeroDataSaver">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- hero下线数据保存管理-->
+	<bean id="FightCalcFunction" class="com.teamtop.system.hero.FightCalcFunction">
+		<property method = "startServer"/>
+	</bean>
+	<!-- hero相关系统数据初始化-->
+	<!-- <bean id="HeroCache" class="com.teamtop.system.hero.HeroCache">
+		<property method = "startServer"/>
+	</bean> -->
+	<!-- 充值服务器-->
+	<bean id="RechargetHttpServer" class="com.teamtop.houtaiHttp.recharge.RechargetHttpServer">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 跨服分区 -->
+	<bean id="CrossPartCache" class="com.teamtop.cross.CrossPartCache">
+		<property method = "startServer"/>
+		<property method = "initExcel"/>
+	</bean>	
+	<!-- 充值事件-->
+	<bean id="RechargeEventCache" class="com.teamtop.system.recharge.RechargeEventCache">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 消费事件-->
+	<bean id="ConsumeEventCache" class="com.teamtop.system.consume.ConsumeEventCache">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 后台http服务器-->
+	<bean id="HouTaiHttpServer" class="com.teamtop.houtaiHttp.HouTaiHttpServer">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 后台http事件-->
+	<bean id="HouTaiHttpCache" class="com.teamtop.houtaiHttp.HouTaiHttpCache">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 单服公告 -->
+	<bean id="NoticeCache" class="com.teamtop.houtaiHttp.events.notice.NoticeCache">
+		<property method = "startServer"/>
+	</bean>
+	<!-- 服务器状态 -->
+	<bean id="ServerMaintainCache" class="com.teamtop.houtaiHttp.events.serverMaintain.ServerMaintainCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>	
+	<!-- 充值白名单-->
+	<bean id="RechargeWhiteListCache" class="com.teamtop.houtaiHttp.events.rechargeWhiteList.RechargeWhiteListCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 福利大厅公告-->
+	<bean id="WelfareNoticeCache" class="com.teamtop.houtaiHttp.events.welfareNotice.WelfareNoticeCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 实名验证与防沉迷开关-->
+	<bean id="TrueNameAndAntiAddictionCache" class="com.teamtop.houtaiHttp.events.trueNameAndAntiAddiction.TrueNameAndAntiAddictionCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 热更平台信息-->
+	<bean id="PlatformInfoCache" class="com.teamtop.redeploy.platformInfo.PlatformInfoCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 礼包保底-->
+	<bean id="GiftBaodiCache" class="com.teamtop.system.material.baodi.GiftBaodiCache">
+		<property method = "initExcel"/>
+	</bean>
+	<!-- 屏蔽词-->
+	<bean id="BlockWordCache" class="com.teamtop.houtaiHttp.events.BlockWord.BlockWordCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 万兽之王-仙山寻兽排名-->
+	<bean id="MonsterKingSearchMonsterSysCache" class="com.teamtop.system.openDaysSystem.monsterKingSearchMonster.MonsterKingSearchMonsterSysCache">
+		<property method = "initExcel"/>
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 通用排名寻兽排名-->
+	<bean id="CommonRankSysCache" class="com.teamtop.system.crossCommonRank.CommonRankSysCache">
+		<property method = "initExcel"/>
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- ip注册限制-->
+	<bean id="IpWhiteListCache" class="com.teamtop.houtaiHttp.events.ipWhiteList.IpWhiteListCache">
+		<property method = "startServer"/>
+		<property method = "shutdownServer"/>
+	</bean>
+</beans>

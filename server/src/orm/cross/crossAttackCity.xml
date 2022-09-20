@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossAttackCity.model.AttackCity" tbname="attackCity" serverid="3">
+		<index field="cityId" type="prikey"/>
+		<col field="cityId" type="int" pf="all" comment="城池id"/>	
+		<col field="cityInfoMap" type="text" pf="all" comment="城池信息"/>	
+	</tb>
+</tbs>

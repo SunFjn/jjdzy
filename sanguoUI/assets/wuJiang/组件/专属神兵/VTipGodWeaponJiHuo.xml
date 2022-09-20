@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="515,545" opaque="false">
+  <displayList>
+    <component id="n35_o6gd" name="n35" src="o6gd2g" fileName="组件/ZhanShenEff.xml" pkg="jvxpx9em" xy="256,230" touchable="false"/>
+    <image id="n24_pmv2" name="n24" src="tw1l5m" fileName="image1/将印名称底.png" pkg="jvxpx9em" xy="126,11"/>
+    <component id="n23_pmv2" name="nameLb" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="37,118" touchable="false">
+      <Label title="宝物名称"/>
+    </component>
+    <component id="n33_pmv2" name="btnHand" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="190,335">
+      <Button title="前往穿戴"/>
+    </component>
+    <loader id="n34_o6gd" name="bwIcon" xy="170,113" size="176,212" touchable="false" align="center" vAlign="bottom" fill="scale" shrinkOnly="true"/>
+    <richtext id="n39_p5r7" name="jihuoLb" xy="77,50" size="361,35" touchable="false" fontSize="24" color="#ffff00" align="center" autoSize="none" text="激活神兵·丈八蛇矛的新皮肤"/>
+  </displayList>
+  <transition name="t0" options="1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n35_o6gd" tween="true" startValue="0" endValue="360" duration="114" ease="Linear" repeat="-1"/>
+    <item time="114" type="Rotation" target="n35_o6gd" tween="true" startValue="360"/>
+  </transition>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="568,72">
+  <displayList>
+    <image id="n0_7jrg" name="n0" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="568,72"/>
+    <image id="n6_qla2" name="n6" src="x3b93cl" fileName="image1/Bg2.png" pkg="jvxpx9em" xy="95,-4" size="125,86"/>
+    <image id="n7_qla2" name="n7" src="x3b93cl" fileName="image1/Bg2.png" pkg="jvxpx9em" xy="305,-5" size="160,86"/>
+    <text id="n1_7jrg" name="lbInput" xy="113,8" size="91,58" input="true" fontSize="24" color="#ffffff" autoSize="none" bold="true" text="1"/>
+    <text id="n2_7jrg" name="lbInput0" xy="320,8" size="131,59" input="true" fontSize="24" color="#ffffff" autoSize="none" bold="true" text="1"/>
+    <text id="n3_7jrg" name="lbTitle" xy="3,7" size="101,59" fontSize="18" color="#ffffff" autoSize="none" bold="true" text="添加物品"/>
+    <component id="n4_7jrg" name="btnSend" src="y1z8b" fileName="新组建/Button0.xml" pkg="jvxpx9em" xy="463,13" size="98,51">
+      <Button title="发送" titleFontSize="24"/>
+    </component>
+    <text id="n5_7jrg" name="lbTitle0" xy="215,9" size="95,57" fontSize="18" color="#ffffff" autoSize="none" bold="true" text="添加物品"/>
+  </displayList>
+</component>

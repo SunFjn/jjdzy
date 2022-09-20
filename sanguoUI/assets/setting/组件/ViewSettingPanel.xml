@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="587,745">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n8_r7m7" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="587,695">
+      <Label title="设置"/>
+    </component>
+    <image id="n7_r7m7" name="n7" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="31,95" size="521,571"/>
+    <component id="n4_g30n" name="viewName" src="g30n1" fileName="组件/ChildSettingName.xml" xy="35,112">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n5_g30n" name="viewHead" src="g30n2" fileName="组件/ChildSettingHead.xml" xy="45,90" size="494,574">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n2_mmwd" name="n2" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,690">
+      <Button checked="true" title="修改名称" controller="c1" page="0"/>
+    </component>
+    <component id="n3_mmwd" name="n3" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,690">
+      <Button title="头像设置" controller="c1" page="1"/>
+    </component>
+    <component id="n11_y4zb" name="btnKefu" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="251,690">
+      <Button title="联系客服"/>
+    </component>
+    <richtext id="n12_m29b" name="lbVersion" xy="42,640" size="90,24" fontSize="14" color="#ffffff" text="前端版本：v1"/>
+  </displayList>
+</component>

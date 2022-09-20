@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="293,150">
+  <displayList>
+    <image id="n0_lkx8" name="n0" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="293,150"/>
+    <component id="n1_lkx8" name="n1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="29,23"/>
+    <richtext id="n2_lkx8" name="n2" xy="132,24" size="151,35" fontSize="18" color="#ffcc00" align="center" autoSize="none" text="关卡达到100关"/>
+    <component id="n3_lkx8" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="147,52" size="119,54">
+      <Button title="前往"/>
+    </component>
+    <component id="n4_lkx8" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="147,52" size="118,54">
+      <Button title="领取"/>
+    </component>
+    <text id="n5_lkx8" name="n5" xy="141,104" size="129,28" fontSize="18" color="#ff0000" align="center" autoSize="none" text="1000/1000"/>
+    <image id="n6_lkx8" name="n6" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="145,58"/>
+  </displayList>
+</component>

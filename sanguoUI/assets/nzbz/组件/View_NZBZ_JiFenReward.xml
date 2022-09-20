@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="595,809">
+  <displayList>
+    <component id="n0_i6im" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="595,809">
+      <Label title="积分奖励"/>
+    </component>
+    <richtext id="n8_i6im" name="n8" xy="137,758" size="321,31" fontSize="18" color="#15f234" align="center" leading="0" autoSize="none" text="每周一00:00重置，请及时领取"/>
+    <list id="n7_i6im" name="list" xy="13,69" size="570,680" overflow="scroll" lineGap="5" defaultItem="ui://xzyn0qe3i6imj" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

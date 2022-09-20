@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="70,70" extention="Button">
+  <displayList>
+    <image id="n0_vwaa" name="n0" src="vwaa35" fileName="image/小星星.png" xy="0,0"/>
+    <text id="n1_vwaa" name="title" xy="16,47" size="37,25" fontSize="16" color="#33ccff" text="尾宿">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

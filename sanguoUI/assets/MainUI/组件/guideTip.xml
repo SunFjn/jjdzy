@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="171,61">
+  <displayList>
+    <image id="n9_kpls" name="n9" src="kplsah" fileName="image1/tishikuang.png" pkg="jvxpx9em" xy="0,0" size="171,61" group="n11_n03r"/>
+    <loader id="n14_n03r" name="imgAuto" xy="15,8" pivot="0.5,0.5" size="154,45" group="n11_n03r" url="ui://7gxkx46wpc654u" align="center" vAlign="middle"/>
+    <group id="n11_n03r" name="g2" xy="0,0" size="171,61" advanced="true" collapsed="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n11_n03r" tween="true" startValue="0,0" endValue="0,-10" duration="24" ease="Linear"/>
+    <item time="24" type="XY" target="n11_n03r" tween="true" startValue="0,-10" endValue="0,0" duration="24" ease="Linear"/>
+  </transition>
+</component>

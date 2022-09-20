@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="579,135">
+  <controller name="rankCtrl" exported="true" pages="0,,1,,2,,3," selected="0"/>
+  <controller name="stateCtrl" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n6_cpw9" name="n6" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="579,132"/>
+    <image id="n14_cpw9" name="n14" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="112,72" size="167,27" group="n16_cpw9"/>
+    <richtext id="n15_cpw9" name="tfScore" xy="114,72" size="129,27" group="n16_cpw9" fontSize="20" color="#ffffff" autoClearText="true" text="总积分：1000"/>
+    <group id="n16_cpw9" name="groupScore" xy="112,72" size="167,27" advanced="true" collapsed="true">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </group>
+    <list id="n8_cpw9" name="itemList" xy="293,24" size="338,109" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="1" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n17_cpw9" name="loaderFlag" xy="24,23" size="79,88" aspect="true" align="center" vAlign="middle">
+      <gearDisplay controller="rankCtrl" pages="1,2,3"/>
+      <gearIcon controller="rankCtrl" pages="0,1,2,3" values="|ui://jvxpx9em100v3al|ui://jvxpx9em100v3am|ui://jvxpx9em100v3an"/>
+    </loader>
+    <image id="n22_g6cv" name="n22" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="112,42" size="167,27" group="n24_g6cv"/>
+    <richtext id="n23_g6cv" name="tfName" xy="114,42" size="129,27" group="n24_g6cv" fontSize="20" color="#ffffff" autoClearText="true" text="总积分：1000"/>
+    <group id="n24_g6cv" name="n24" xy="112,42" size="167,27" advanced="true" collapsed="true">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </group>
+    <richtext id="n25_g6cv" name="tfRank" xy="53,48" pivot="0.5,0.5" size="22,39" fontSize="30" color="#ffffff" bold="true" autoClearText="true" text="4">
+      <gearDisplay controller="rankCtrl" pages="0"/>
+    </richtext>
+    <image id="n26_dcne" name="n26" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="131,58">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+    </image>
+  </displayList>
+</component>

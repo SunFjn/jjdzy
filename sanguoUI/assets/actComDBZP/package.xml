@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="eh3eod8q" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ve5s0" name="Child_ActComDbZp.xml" path="/组件/" exported="true"/>
+    <component id="ve5s1" name="ItemActComDbZp.xml" path="/组件/" exported="true"/>
+    <component id="ve5s2" name="ItemActComDbZpLabel.xml" path="/组件/" exported="true"/>
+    <component id="ve5s3" name="ViewActComDbZpAwards.xml" path="/组件/" exported="true"/>
+    <component id="ve5s4" name="ViewActComDbZpLog.xml" path="/组件/" exported="true"/>
+    <image id="ve5s5" name="10倍元宝.png" path="/image/" exported="true"/>
+    <image id="ve5s6" name="8倍元宝.png" path="/image/" exported="true"/>
+    <image id="ve5s7" name="yuanbao1.png" path="/image/" exported="true"/>
+    <image id="ve5s8" name="yuanbao2.png" path="/image/" exported="true"/>
+    <image id="ve5s9" name="yuanbao3.png" path="/image/" exported="true"/>
+    <image id="ve5sa" name="yuanbao4.png" path="/image/" exported="true"/>
+    <image id="ve5sb" name="yuanbao5.png" path="/image/" exported="true"/>
+    <image id="ve5sc" name="yuanbao6.png" path="/image/" exported="true"/>
+    <image id="ve5sd" name="钥匙.png" path="/image/" exported="true"/>
+    <image id="ve5se" name="转盘-hover2.png" path="/image/" exported="true"/>
+    <image id="ve5sf" name="转盘-中间按钮.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="actComDBZP" genCode="true"/>
+</packageDescription>

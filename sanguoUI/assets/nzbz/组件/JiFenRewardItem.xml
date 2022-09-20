@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="567,147">
+  <displayList>
+    <image id="n2_i6im" name="n2" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="567,147"/>
+    <richtext id="n3_i6im" name="jifenLb" xy="9,5" size="163,28" fontSize="18" color="#ffffff" leading="0" text="积分达到(200/100)"/>
+    <image id="n7_i6im" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="412,60"/>
+    <component id="n6_i6im" name="drawBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="406,49">
+      <Button title="领取"/>
+    </component>
+    <component id="n8_i6im" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="11,36"/>
+    <component id="n9_i6im" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="118,36"/>
+    <component id="n10_i6im" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="225,36"/>
+  </displayList>
+</component>

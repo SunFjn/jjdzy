@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="591,613">
+  <displayList>
+    <component id="n34_y1z8" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,0" size="591,613"/>
+    <image id="n42_k8oz" name="n42" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="27,74" size="537,254"/>
+    <image id="n46_tli0" name="n46" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="27,366" size="537,136"/>
+    <image id="n43_k8oz" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="236,542"/>
+    <list id="n40_otk8" name="list" xy="39,383" size="512,104" layout="row" selectionMode="none" overflow="scroll" scroll="horizontal" scrollBarFlags="2" colGap="15" defaultItem="ui://jvxpx9emetorm" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n30_sl2f" name="n30" xy="32,337" size="41,28" fontSize="18" color="#ffc344" text="附件"/>
+    <richtext id="n44_k8oz" name="n44" xy="267,25" size="53,35" fontSize="24" color="#ffc334" leading="0" text="信函"/>
+    <component id="n29_sl2f" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="230,531">
+      <Button title="收取"/>
+    </component>
+    <component id="n47_fnxm" name="contentLb" src="fnxm3gn" fileName="新组建/ScrollLabel.xml" pkg="jvxpx9em" xy="39,84" size="511,230"/>
+  </displayList>
+</component>

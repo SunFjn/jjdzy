@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="119,108">
+  <displayList>
+    <image id="n4_bx2z" name="sg" src="5voq3g5" fileName="image/选中框2.png" pkg="jvxpx9em" xy="3,-11" size="111,118"/>
+    <component id="n2_bx2z" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="0,1" size="119,127"/>
+  </displayList>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="587,722">
+  <displayList>
+    <component id="n0_lwy2" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="587,722">
+      <Label title="许愿排行奖励"/>
+    </component>
+    <list id="n1_lwy2" name="list" xy="16,157" size="555,509" overflow="scroll" lineGap="8" defaultItem="ui://zyevj37nlwy28" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n2_lwy2" name="lbMy" xy="19,678" size="285,25" fontSize="18" color="#f9bb13" text="我的排名：10          抽奖次数：100"/>
+    <image id="n3_lwy2" name="n3" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="17,86" size="555,61" group="n8_lwy2"/>
+    <image id="n5_lwy2" name="n5" src="j92x9t" fileName="image1/名字.png" pkg="jvxpx9em" xy="146,105" group="n8_lwy2"/>
+    <image id="n6_lwy2" name="n6" src="q8rv9n" fileName="image1/排名.png" pkg="jvxpx9em" xy="36,105" group="n8_lwy2"/>
+    <image id="n7_lwy2" name="n7" src="q8rv9o" fileName="image1/奖励.png" pkg="jvxpx9em" xy="327,105" group="n8_lwy2"/>
+    <image id="n9_lwy2" name="n9" src="lwy27" fileName="image/字.png" xy="451,98" group="n8_lwy2"/>
+    <group id="n8_lwy2" name="n8" xy="17,86" size="555,61" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

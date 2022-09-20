@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,553">
+  <displayList>
+    <component id="n0_js6l" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="594,553">
+      <Label title="玩法说明"/>
+    </component>
+    <richtext id="n1_js6l" name="explainLb" xy="21,85" size="545,432" fontSize="18" color="#ffffff" leading="10" ubb="true" autoSize="none" text="1、参与条件：通关[color=#66ccff]60[/color]关&#xA;2、开启时间：单刀赴会每赛季持续6天。每周一至周六[color=#66ccff]20:30-21:30[/color]可匹配，周日休息&#xA;3、战斗规则：玩家在跨服中随机匹配对手进行1v1对战，战斗后可获得积分并提升段位&#xA;4、挑战次数：活动中每天有[color=#66ccff]10[/color]次挑战机会，每天可额外购买[color=#66ccff]5[/color]次。每日挑战次数可累积，[color=#66ccff]周日0点重置次数[/color]&#xA;5、积分规则：每次挑战胜利可获得[color=#66ccff]20[/color]积分，挑战失败获得 [color=#66ccff]20[/color]积分。连胜额外增加[color=#66ccff]2[/color]积分，连胜积分可累加，但不得超过[color=#66ccff]10[/color]积分&#xA;6、段位规则：共[color=#66ccff]青铜[/color]、[color=#66ccff]白银[/color]、[color=#66ccff]黄金[/color]、[color=#66ccff]铂金[/color]、[color=#66ccff]钻石[/color]5个段位，达到段位所需积分后可提升段位并领取段位奖励&#xA;"/>
+  </displayList>
+</component>

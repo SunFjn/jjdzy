@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossZhuLu.model.CrossZhuLuRoomInfo" tbname="crossZhuLuRoomInfo" serverid="3">
+		<index field="partId" type="prikey"/>
+		<col field="partId" type="int" pf="all" comment="跨服组id"/>
+		<col field="cityInfoMap" type="text" pf="all" comment="所有城池数据"/>	
+		<col field="countryInfoMap" type="text" pf="all" comment="所有国家数据"/>
+		<col field="mvpHeroId" type="bigint" pf="all" comment="mvp玩家id"/>
+		<col field="lastMvpHero" type="varchar" len="50" pf="all" comment="上一届mvp玩家id"/>
+	</tb>
+</tbs>

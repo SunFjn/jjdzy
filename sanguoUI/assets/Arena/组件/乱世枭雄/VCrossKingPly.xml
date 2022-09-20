@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,225" designImage="ui://me1skowlwnzh6h" designImageOffsetX="-418" designImageOffsetY="-166">
+  <displayList>
+    <image id="n6_qxiv" name="imgBg" src="hfct5l" fileName="image/乱世枭雄/浮空台.png" xy="99,193" pivot="0.5,0.5" anchor="true" size="158,78" aspect="true"/>
+    <image id="n7_qxiv" name="n7" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="0,180" size="200,59"/>
+    <component id="n0_t2ds" name="btnChallenge" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="50,42" size="100,119">
+      <Button titleColor="#ffffff"/>
+    </component>
+    <richtext id="n1_t2ds" name="lbName" xy="-3,183" size="200,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="S1000.玩家名字六字"/>
+    <richtext id="n2_t2ds" name="lbPower" xy="-5,208" size="200,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="战力：10000000"/>
+    <image id="n12_djuz" name="labRank" src="djuz3hk" fileName="image/通用底框/关卡连击底框.png" pkg="jvxpx9em" xy="32,0" size="134,43"/>
+    <richtext id="n5_qxiv" name="lbRank" xy="11,9" size="180,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="排名：150"/>
+    <component id="n8_p8ej" name="btSao" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="51,235" size="98,41">
+      <Button title="扫荡" titleFontSize="20"/>
+    </component>
+  </displayList>
+</component>

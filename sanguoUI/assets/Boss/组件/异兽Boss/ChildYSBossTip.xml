@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,30" opaque="false">
+  <displayList>
+    <image id="n0_in3b" name="n0" src="i8xh5v" fileName="image1/黑底.png" pkg="7gxkx46w" xy="179,0" size="282,30">
+      <relation target="n1_in3b" sidePair=""/>
+    </image>
+    <richtext id="n1_in3b" name="lbInfo" xy="254,0" size="131,28" touchable="false" fontSize="18" color="#33ff00" align="center" text="剩余复活次数：">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="618,147">
+  <displayList>
+    <image id="n0_hsa2" name="n0" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="618,147" locked="true"/>
+    <image id="n8_hgo3" name="n8" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="36,15"/>
+    <image id="n6_hsa2" name="imgYlq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="454,63"/>
+    <list id="n2_hsa2" name="n2" xy="36,45" size="337,104" scale="0.8,0.8" layout="flow_hz" overflow="scroll" scroll="horizontal" colGap="12" defaultItem="ui://jvxpx9emetorm">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_hsa2" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="452,48">
+      <Button title="领取"/>
+    </component>
+    <component id="n5_hsa2" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="452,48">
+      <Button title="前往"/>
+    </component>
+    <richtext id="n3_hsa2" name="lbBuff" xy="475,59" size="77,28" fontSize="18" color="#ff0000" text="尚未激活">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n1_hsa2" name="lbpro" xy="43,16" size="92,28" fontSize="18" color="#ffffff" text="挑战100次"/>
+  </displayList>
+</component>

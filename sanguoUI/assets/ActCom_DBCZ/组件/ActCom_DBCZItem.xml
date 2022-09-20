@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,168">
+  <displayList>
+    <image id="n4_jthq" name="n4" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="640,168" flip="vt"/>
+    <image id="n10_nyjr" name="n10" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="21,16"/>
+    <richtext id="n5_jthq" name="lab" xy="25,15" size="228,25" touchable="false" fontSize="18" color="#ffffff" text="达到精英段位可领取（1/1）"/>
+    <list id="n6_jthq" name="list" xy="29,49" size="436,110" layout="row" overflow="scroll" scroll="horizontal" colGap="7" defaultItem="ui://jvxpx9emetorm" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_jthq" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="478,68">
+      <Button title="领取"/>
+    </component>
+    <component id="n9_jthq" name="btnRec" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="478,68">
+      <Button title="前往充值"/>
+    </component>
+    <image id="n8_jthq" name="imgGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="480,73"/>
+    <richtext id="n11_vlqe" name="labCount" xy="470,122" size="159,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="剩余可领次数:5">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+  </displayList>
+</component>

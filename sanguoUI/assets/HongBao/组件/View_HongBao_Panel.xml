@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_qz02" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://s01exr8xqz02f"/>
+    </component>
+    <loader id="n1_qz02" name="backImg" xy="20,153" size="600,152" url="ui://s01exr8xqz02d" autoSize="true"/>
+    <image id="n9_qz02" name="n9" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="23,270"/>
+    <richtext id="n2_qz02" name="smLb" xy="30,156" size="77,28" fontSize="18" color="#00ff00" underline="true" text="玩法说明"/>
+    <richtext id="n3_qz02" name="nameLb" xy="31,214" size="59,28" fontSize="18" color="#ffffff" text="金元宝"/>
+    <richtext id="n5_qz02" name="numLb" xy="31,270" size="207,28" fontSize="18" color="#ffffff" text="今日发红包剩余次数：10"/>
+    <component id="n4_qz02" name="itemRes" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="90,213" size="126,35"/>
+    <component id="n6_qz02" name="sendBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="514,184" size="84,88">
+      <Button icon="ui://s01exr8xqz02e"/>
+    </component>
+    <list id="n7_qz02" name="list" xy="18,315" size="604,591" layout="flow_hz" overflow="scroll" lineGap="13" colGap="10" defaultItem="ui://s01exr8xqz021" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

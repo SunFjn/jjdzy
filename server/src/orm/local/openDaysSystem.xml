@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.openDaysSystem.model.AbsOpenDaysSystemModel" tbname="openDaysSystem">
+		<index field="id" type="prikey"/>
+		<index field="hid,uid" type="normal"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="uid" type="int" pf="all" comment="配置表唯一id"/>
+		<col field="sysid" type="int" pf="all" comment="系统id"/>
+		<col field="qs" type="int" pf="all" comment="期数"/>
+		<col field="opSysStr" type="text" pf="all" comment="个人系统详细数据"/>
+	</tb>
+</tbs>

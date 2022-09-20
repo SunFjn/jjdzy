@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://6d8dzzdgrak313">
+  <controller name="tabCtrl" exported="true" pages="0,,1," selected="0"/>
+  <controller name="stateCtrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n13_rak3" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="26,828">
+      <Button checked="true" title="每日任务" controller="tabCtrl" page="0"/>
+    </component>
+    <component id="n14_rak3" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="145,828">
+      <Button title="每周任务" controller="tabCtrl" page="1"/>
+    </component>
+    <component id="n0_fmjx" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="13,115" size="614,719">
+      <Label title="任务"/>
+    </component>
+    <list id="n3_fmjx" name="list" xy="30,200" size="579,585" overflow="scroll" lineGap="4" colGap="11" defaultItem="ui://6d8dzzdgrak314" autoClearItems="true">
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+    </list>
+    <richtext id="n5_fmjx" name="tfDes" xy="266,789" pivot="0.5,0.5" size="106,29" visible="false" fontSize="18" color="#ffffff" bold="true" text="每天0点重置"/>
+  </displayList>
+</component>

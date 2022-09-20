@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.tigerPass.cross.TigerPassEmployerMapper">
+	<!-- 插入角色参赛数据 -->
+	<insert id="insert" parameterType="String">
+		${insertSql}
+	</insert>
+	<update id="update" parameterType="String">
+		${value}
+	</update>
+     <!--查找所有数据-->
+	<select id="findallTigerPassEmployer" resultType="hashmap">
+		select * from tigerPassEmployer
+	</select>
+	<!-- 批量更新数据 -->
+	<update id="insertOnDuplicateBatch" parameterType="String">
+		${value}
+	</update>
+     <!-- 清空所有数据 -->
+	<delete id="truncate">
+		truncate table tigerPassEmployer
+	</delete>
+</mapper>

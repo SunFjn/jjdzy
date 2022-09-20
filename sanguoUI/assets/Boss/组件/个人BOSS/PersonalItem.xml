@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="596,170">
+  <displayList>
+    <image id="n37_gyat" name="n37" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="596,170"/>
+    <image id="n18_p753" name="n18" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="441,115" size="125,25"/>
+    <richtext id="n2_tujy" name="lbCount" xy="442,114" size="124,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="剩余次数："/>
+    <component id="n4_tujy" name="btnFight" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="436,41">
+      <Button title="挑战"/>
+    </component>
+    <image id="n27_p753" name="n27" src="p7531j" fileName="image/奖励底.png" xy="141,13" group="n36_p753"/>
+    <image id="n28_p753" name="n28" src="p7531i" fileName="image/奖励一览.png" xy="254,15" group="n36_p753"/>
+    <group id="n36_p753" name="n36" xy="141,13" size="314,33" collapsed="true"/>
+    <component id="n23_p753" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="15,27"/>
+    <richtext id="n7_tujy" name="lbTime" xy="448,56" size="109,28" group="n25_p753" fontSize="18" color="#ffffff" align="center" autoSize="none" text="12：00"/>
+    <group id="n25_p753" name="timeGroup" xy="448,56" size="109,28" advanced="true" collapsed="true"/>
+    <image id="n39_qsq2" name="imgDoub" src="qsq23gc" fileName="image1/双倍标签.png" pkg="jvxpx9em" xy="97,18"/>
+    <image id="n12_p753" name="n12" src="gyat2t" fileName="image/黑色遮罩.png" xy="0,0" size="596,170" group="n17_p753"/>
+    <component id="n38_gyat" name="lbTip" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="124,69" size="347,31" group="n17_p753">
+      <Label title="10转开启" titleColor="#ed2f24" titleFontSize="24"/>
+    </component>
+    <group id="n17_p753" name="g0" xy="0,0" size="596,170" advanced="true"/>
+  </displayList>
+</component>

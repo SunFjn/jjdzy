@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="558,87">
+  <displayList>
+    <image id="n4_a31a" name="n4" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="558,87"/>
+    <loader id="n18_a0u3" name="img" xy="37,19" size="50,50" align="center" vAlign="middle"/>
+    <richtext id="n5_a31a" name="lbName" xy="137,16" size="160,28" fontSize="18" color="#ffffff" autoClearText="true" text="S241.玩家名字刘字"/>
+    <richtext id="n6_a31a" name="lbPoint" xy="138,41" size="103,28" fontSize="18" color="#ffffff" autoClearText="true" text="积分：9888"/>
+    <richtext id="n15_a0u3" name="lb" xy="45,27" size="35,34" fontSize="22" color="#e2ad38" align="center" autoSize="none" autoClearText="true" text="4"/>
+    <list id="n16_a0u3" name="list" xy="316,7" size="334,106" scale="0.7,0.7" layout="row" overflow="scroll" scroll="horizontal" colGap="12" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n19_k4tt" name="imgNO" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="167,33"/>
+  </displayList>
+</component>

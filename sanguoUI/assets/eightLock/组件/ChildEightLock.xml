@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,644" designImage="ui://hincjqblcytp1v" designImageOffsetY="-259">
+  <displayList>
+    <loader id="n6_j3hf" name="bg" xy="4,0" size="632,98" url="ui://hincjqblj3hfw"/>
+    <image id="n7_j3hf" name="n7" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="13,62"/>
+    <text id="n1_vib6" name="n1" xy="19,63" size="151,27" fontSize="20" color="#ffffff" text="活动剩余时间： "/>
+    <image id="n12_cytp" name="n12" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="341,6" size="283,32"/>
+    <text id="n2_vib6" name="txtRemainTm" xy="154,63" size="83,27" fontSize="20" color="#33ff00" text="00:00:00"/>
+    <richtext id="n3_vib6" name="txtCZ" xy="359,12" size="229,27" fontSize="20" color="#ffffff" text="您在本活动已充值5000元">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <list id="n4_vib6" name="list" xy="3,99" size="633,563" overflow="scroll" lineGap="-2" defaultItem="ui://hincjqblvib66">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="wx4kos8u" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="osj30" name="ChildLuckyEgg.xml" path="/" exported="true"/>
+    <image id="osj31" name="查看奖池.jpg" path="/design/"/>
+    <image id="osj32" name="查看奖励.jpg" path="/design/"/>
+    <image id="osj33" name="获得奖励.jpg" path="/design/"/>
+    <image id="osj34" name="幸运扭蛋.jpg" path="/design/"/>
+    <image id="osj35" name="顶级扭蛋盒.png" path="/res/"/>
+    <image id="osj36" name="高级扭蛋盒.png" path="/res/"/>
+    <image id="osj37" name="中级扭蛋盒.png" path="/res/"/>
+    <image id="osj38" name="小按钮.png" path="/res/"/>
+    <component id="osj39" name="LuckyEggPoolItem.xml" path="/" exported="true"/>
+    <image id="osj3a" name="levelImg_2.png" path="/res/" exported="true"/>
+    <image id="osj3b" name="levelImg_1.png" path="/res/" exported="true"/>
+    <image id="osj3c" name="levelImg_3.png" path="/res/" exported="true"/>
+    <image id="osj3d" name="管道.png" path="/res/"/>
+    <image id="osj3e" name="扭蛋紫色.png" path="/res/"/>
+    <image id="osj3f" name="扭蛋彩色.png" path="/res/"/>
+    <image id="osj3g" name="扭蛋红薯.png" path="/res/"/>
+    <component id="osj3h" name="LuckyEggItem.xml" path="/" exported="true"/>
+    <image id="osj3i" name="底2.jpg" path="/res/"/>
+    <component id="xwoqj" name="ViewPoolRewardLucky.xml" path="/" exported="true"/>
+    <image id="lxqwk" name="已抽取.png" path="/res/"/>
+    <component id="lxqwm" name="ViewPoolPreviewLucky.xml" path="/" exported="true"/>
+    <component id="lxqwn" name="LuckyPoolPreviewItem.xml" path="/" exported="true"/>
+    <component id="chyoo" name="LuckyPoolRewardItem.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="luckyEgg" genCode="true" npot="true"/>
+</packageDescription>

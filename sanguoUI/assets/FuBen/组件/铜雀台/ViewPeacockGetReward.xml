@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="470,350">
+  <displayList>
+    <component id="n12_wisd" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="470,350">
+      <Label title="奖励"/>
+    </component>
+    <text id="n2_of9i" name="lbTitle" xy="81,304" size="309,28" fontSize="18" color="#1bf011" align="center" autoSize="none" text="铜雀台挑战达到XX层可领取"/>
+    <image id="n3_of9i" name="n3" src="jkp64z" fileName="image1/Bg4.png" pkg="jvxpx9em" xy="17,79" size="436,163"/>
+    <list id="n10_of9i" name="list" xy="57,99" size="361,110" layout="row" overflow="scroll" scroll="horizontal" colGap="24" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n13_wisd" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="164,242">
+      <Button title="领取"/>
+    </component>
+  </displayList>
+</component>

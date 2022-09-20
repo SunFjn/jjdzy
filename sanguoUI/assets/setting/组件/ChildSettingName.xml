@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="512,516">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <richtext id="n18_r7m7" name="labVoice" xy="157,406" size="198,35" touchable="false" fontSize="18" color="#b5bfe8" align="center" autoSize="none" text="声音设置"/>
+    <component id="n23_bri4" name="viewHead" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="28,13"/>
+    <richtext id="n24_bri4" name="lab1" xy="143,19" size="59,28" touchable="false" fontSize="18" color="#ffc334" autoSize="none" text="名字："/>
+    <richtext id="n25_bri4" name="lab2" xy="142,47" size="59,28" touchable="false" fontSize="18" color="#ffc334" autoSize="none" text="等级："/>
+    <richtext id="n26_bri4" name="lab3" xy="141,74" size="59,28" touchable="false" fontSize="18" color="#ffc334" autoSize="none" text="转生："/>
+    <richtext id="n27_bri4" name="labName" xy="196,19" size="112,26" touchable="false" fontSize="18" color="#ffffff" text="名字名字名字"/>
+    <richtext id="n28_bri4" name="labLevel" xy="196,47" size="34,26" touchable="false" fontSize="18" color="#ffffff" text="500"/>
+    <richtext id="n29_bri4" name="labZs" xy="196,74" size="76,26" touchable="false" fontSize="18" color="#ffffff" text="二转一重"/>
+    <richtext id="n30_bri4" name="btnCopy1" xy="423,19" size="76,26" touchable="false" fontSize="18" color="#00ff00" singleLine="true" text="&lt;u&gt;复制名字&lt;/u&gt;"/>
+    <image id="n31_bri4" name="n31" src="m3513bt" fileName="image/分割线.png" pkg="jvxpx9em" xy="1,414" pivot="0.5,0.5" size="500,10"/>
+    <loader id="n33_bri4" name="btnCopy" xy="420,17" size="84,33"/>
+    <richtext id="n9_g30n" name="labNoVoice1" xy="131,481" size="112,26" group="n36_heu9" touchable="false" fontSize="18" color="#ffffff" text="关闭背景音乐"/>
+    <component id="n14_lyou" name="checkVoiceBGM" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="95,479" group="n36_heu9"/>
+    <richtext id="n34_heu9" name="labNoVoice" xy="316,481" size="112,26" group="n36_heu9" touchable="false" fontSize="18" color="#ffffff" text="关闭武将音效"/>
+    <component id="n35_heu9" name="checkVoice" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="276,479" group="n36_heu9"/>
+    <group id="n36_heu9" name="n36" xy="95,479" size="334,32"/>
+    <image id="n12_g30n" name="n12" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="117,196" size="284,36" group="n37_e286"/>
+    <text id="n0_g30n" name="inputName" xy="125,202" size="266,35" group="n37_e286" fontSize="24" color="#ffffff" align="center" autoSize="none" text="" input="true" prompt="[color=#999999]请输入名字[/color]" maxLength="6"/>
+    <richtext id="n6_g30n" name="labTitle" xy="158,140" size="198,35" group="n37_e286" touchable="false" fontSize="18" color="#b5bfe8" align="center" autoSize="none" text="修改名字"/>
+    <richtext id="n10_g30n" name="labCost" xy="185,345" size="59,28" group="n37_e286" touchable="false" fontSize="18" color="#ffffff" autoSize="none" text="消耗："/>
+    <component id="n15_r7m7" name="btnSure" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="191,263" group="n37_e286">
+      <Button title="确定"/>
+    </component>
+    <richtext id="n17_r7m7" name="labCostCount" xy="284,345" size="49,28" group="n37_e286" touchable="false" fontSize="18" color="#ffffff" autoSize="none" text="1000"/>
+    <image id="n19_r7m7" name="imgYB" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="241,341" group="n37_e286"/>
+    <loader id="n22_qohz" name="imgCost" xy="243,343" size="30,30" group="n37_e286" fill="scaleFree"/>
+    <image id="n32_bri4" name="n32" src="m3513bt" fileName="image/分割线.png" pkg="jvxpx9em" xy="0,148" pivot="0.5,0.5" size="500,10" group="n37_e286"/>
+    <group id="n37_e286" name="groupChangeName" xy="0,140" size="500,233" advanced="true"/>
+    <component id="n38_ewyw" name="changeBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="35,106" size="106,43">
+      <Button title="切换账号" titleFontSize="20"/>
+    </component>
+    <richtext id="n39_doja" name="lab3" xy="142,107" size="59,28" touchable="false" fontSize="18" color="#ffc334" autoSize="none" text="ID："/>
+    <richtext id="n40_doja" name="labID" xy="197,107" size="34,26" touchable="false" fontSize="18" color="#ffffff" text="123"/>
+    <richtext id="n42_doja" name="btnCopy111" xy="423,101" size="59,26" touchable="false" fontSize="18" color="#00ff00" singleLine="true" text="&lt;u&gt;复制ID&lt;/u&gt;"/>
+    <loader id="n43_doja" name="btnCopyID" xy="414,96" size="84,33"/>
+  </displayList>
+</component>

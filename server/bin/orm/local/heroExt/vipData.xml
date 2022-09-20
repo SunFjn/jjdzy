@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.vip.model.VipData" tbname="vipData">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="vipExp" type="int" pf="all" comment="vip经验"/>
+			<col field="vipAward" type="text" pf="all" comment="已领取的vip奖励"/>
+			<col field="vipGift" type="text" pf="all" comment="已购买的vip礼包"/>
+			<col field="version" type="int" pf="all" comment="补偿版本"/>
+     </tb>
+</tbs>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="591,130">
+  <displayList>
+    <image id="n8_q09v" name="n8" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="591,130" locked="true"/>
+    <image id="n0_q09v" name="n0" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="18,12"/>
+    <image id="n1_q09v" name="imgYlq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="418,48"/>
+    <list id="n2_q09v" name="n2" xy="17,47" size="337,104" scale="0.7,0.7" layout="flow_hz" overflow="scroll" scroll="horizontal" colGap="12" defaultItem="ui://jvxpx9emetorm">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_q09v" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="416,47">
+      <Button title="领取"/>
+    </component>
+    <richtext id="n6_q09v" name="lbpro" xy="25,13" size="92,28" fontSize="18" color="#ffffff" text="挑战100次"/>
+  </displayList>
+</component>

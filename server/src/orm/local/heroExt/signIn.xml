@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.signIn.model.SignIn" tbname="signIn">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="signStateList" type="text" pf="all" comment="签到状态列表 0：未达到，1：可签到，2：已签到，3：可补签"/>
+			<col field="accSignBXStateList" type="text" pf="all" comment="累签宝箱状态列表 0：未达到，1：可领取，2：已领取"/>
+			<col field="resetTime" type="int" pf="all"  comment="下次签到重置时间"/>
+			<col field="startTime" type="int" pf="all"  comment="签到开启时间(用于签到重置)"/>
+			<col field="qs" type="int" pf="all"  comment="签到期数"/>
+    </tb>
+</tbs>

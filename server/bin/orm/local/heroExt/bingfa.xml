@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.bingfa.BingFa" tbname="bingfa">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="bingfas" type="text" pf="all" comment="已拥有兵法信息"/>
+			<col field="taozhuanbfs" type="varchar" len="400" pf="all" comment="兵法套装"/>
+			<col field="strength" type="int" pf="all" comment="兵法战力"/>
+			<col field="jieLv" type="int" pf="all"  comment="阶级"/>
+			<col field="jieexp" type="int" pf="all" comment="升阶经验"/>
+			<col field="skills" type="varchar" len="1000" pf="all" comment="技能"/>
+     </tb>
+</tbs>

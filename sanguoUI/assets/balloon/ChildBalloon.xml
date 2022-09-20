@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://i1mp7ufxwuwj1">
+  <displayList>
+    <loader id="n0_wuwj" name="loaderBg" xy="0,254" size="640,667" hideByEditor="true" url="ui://i1mp7ufxwuwj2"/>
+    <image id="n1_wuwj" name="n1" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="19,276" size="267,27"/>
+    <richtext id="n2_wuwj" name="tfDate" xy="21,278" size="159,25" fontSize="18" color="#00ff00" text="活动剩余时间：1天"/>
+    <richtext id="n3_wuwj" name="tfCount" xy="241,808" pivot="0.5,0.5" size="156,27" fontSize="20" color="#ffffff" text="可翻牌次数：2次"/>
+    <richtext id="n4_wuwj" name="tfDes" xy="119,874" pivot="0.5,0.5" size="401,25" fontSize="18" color="#ffffff" text="活动期间每消费指定元宝数，可获得一次射击机会"/>
+    <component id="n5_wuwj" name="pb" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="81,842" size="478,23">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n6_wuwj" name="n6" src="m3513bv" fileName="image/tips.png" pkg="jvxpx9em" xy="36,666" size="567,144"/>
+    <image id="n7_wuwj" name="n7" src="m3513bt" fileName="image/分割线.png" pkg="jvxpx9em" xy="68,688" pivot="0.5,0.5" group="n9_wuwj">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <image id="n8_wuwj" name="n8" src="wuwj3" fileName="res/奖励预览.png" xy="284,679" group="n9_wuwj"/>
+    <group id="n9_wuwj" name="n9" xy="68,679" size="501,26"/>
+    <list id="n10_wuwj" name="itemList" xy="56,705" size="668,109" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="8" defaultItem="ui://i1mp7ufx9tdd8" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n11_wuwj" name="ball0" src="wuwj6" fileName="BallloonItem.xml" xy="41,426"/>
+    <component id="n15_wuwj" name="ball1" src="wuwj6" fileName="BallloonItem.xml" xy="194,426"/>
+    <component id="n16_wuwj" name="ball2" src="wuwj6" fileName="BallloonItem.xml" xy="500,304"/>
+    <component id="n17_wuwj" name="ball3" src="wuwj6" fileName="BallloonItem.xml" xy="347,548"/>
+    <component id="n18_wuwj" name="ball4" src="wuwj6" fileName="BallloonItem.xml" xy="194,304"/>
+    <component id="n19_wuwj" name="ball5" src="wuwj6" fileName="BallloonItem.xml" xy="347,426"/>
+    <component id="n20_wuwj" name="ball6" src="wuwj6" fileName="BallloonItem.xml" xy="500,426"/>
+    <component id="n21_wuwj" name="ball7" src="wuwj6" fileName="BallloonItem.xml" xy="500,548"/>
+    <component id="n22_wuwj" name="ball8" src="wuwj6" fileName="BallloonItem.xml" xy="41,304"/>
+    <component id="n23_wuwj" name="ball9" src="wuwj6" fileName="BallloonItem.xml" xy="347,304"/>
+    <component id="n24_wuwj" name="ball10" src="wuwj6" fileName="BallloonItem.xml" xy="41,548"/>
+    <component id="n25_wuwj" name="ball11" src="wuwj6" fileName="BallloonItem.xml" xy="194,548"/>
+  </displayList>
+</component>

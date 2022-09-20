@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,634">
+  <displayList>
+    <image id="n10_q1jv" name="n10" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="9,195" size="621,439"/>
+    <loader id="n6_ah3c" name="n6" xy="0,0" size="640,225" url="ui://ye1luhg3ah3ct"/>
+    <component id="n4_coud" name="btnSure" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="247,472">
+      <Button title="礼包领取"/>
+    </component>
+    <image id="n7_ah3c" name="n7" src="rt7o4r" fileName="image1/货币底.png" pkg="jvxpx9em" xy="123,358" size="394,42"/>
+    <text id="n3_coud" name="inputName" xy="131,365" size="380,35" input="true" prompt="请输入激活码" maxLength="12" fontSize="24" color="#ffffff" align="center" autoSize="none" text="请输入礼包激活码"/>
+  </displayList>
+</component>

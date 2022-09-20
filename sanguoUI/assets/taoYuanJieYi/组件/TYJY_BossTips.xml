@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,376" designImage="ui://m2fm2aiyihs7n" designImageOffsetX="-25" designImageOffsetY="-313">
+  <displayList>
+    <component id="n1_ozk4" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,376" locked="true">
+      <Label title="开启BOSS"/>
+    </component>
+    <image id="n2_ozk4" name="n2" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="27,108" size="531,163"/>
+    <richtext id="n3_ozk4" name="n3" xy="65,150" size="460,68" fontSize="25" color="#d8e2eb" align="center" leading="10" autoSize="none" text="高级BOSS将给义盟成员带来更丰厚奖励&#xA;是否开启高级BOSS"/>
+    <component id="n4_ozk4" name="lowBtn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="116,282">
+      <Button title="开启低级"/>
+    </component>
+    <component id="n5_ozk4" name="highBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="345,282">
+      <Button title="开启高级"/>
+    </component>
+    <component id="n6_ozk4" name="vres" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="353,336" size="114,36">
+      <Label title="300"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,930">
+  <displayList>
+    <image id="n11_tc2x" name="n11" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="16,806" size="608,112"/>
+    <list id="n12_tc2x" name="list" xy="19,156" size="601,650" overflow="scroll" lineGap="5" defaultItem="ui://b3p8szvvtc2x1q">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n26_v431" name="rewardGRP" src="nxbw2h" fileName="images/每日奖励.png" xy="32,828"/>
+    <text id="n25_tc2x" name="txtDate" xy="388,847" size="219,39" fontSize="30" color="#ff9900" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="3月14日 星期四"/>
+    <image id="n29_nxbw" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="94,828" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>

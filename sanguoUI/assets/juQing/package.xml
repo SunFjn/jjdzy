@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="vm8a565a" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="k0t23fn" name="ViewJuQingPanel.xml" path="/组件/" exported="true"/>
+    <image id="vwm11" name="对话框.png" path="/image/" exported="true" scale="9grid" scale9grid="30,35,60,70"/>
+    <image id="vwm12" name="多边形 1.png" path="/image/" exported="true"/>
+  </resources>
+  <publish npot="true" name="juQing" genCode="true"/>
+</packageDescription>

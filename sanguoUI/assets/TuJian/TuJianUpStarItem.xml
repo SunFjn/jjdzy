@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="376,28">
+  <displayList>
+    <richtext id="n0_cjfy" name="attLb" xy="0,0" size="253,28" touchable="false" fontSize="18" color="#ffffff" leading="10" text="攻击+1247000，防御+27640"/>
+    <richtext id="n1_cjfy" name="stateLb" xy="277,0" size="99,28" touchable="false" fontSize="18" color="#ffffff" align="right" leading="10" autoSize="height" text="已激活"/>
+  </displayList>
+</component>

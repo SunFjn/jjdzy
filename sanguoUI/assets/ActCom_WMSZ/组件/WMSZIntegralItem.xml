@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="558,87">
+  <controller name="c1" pages="0,未达成,1,可领取,2,已领取" selected="0"/>
+  <displayList>
+    <image id="n10_gv3t" name="n10" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="558,87"/>
+    <richtext id="n2_lwy2" name="labTarget" xy="23,26" size="68,28" fontSize="22" color="#f9bb13" align="center" autoSize="none" autoClearText="true" text="40"/>
+    <list id="n4_lwy2" name="list" xy="152,1" size="296,106" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_gv3t" name="btnRec" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="406,12">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="领取"/>
+    </component>
+    <text id="n11_gv3t" name="n11" xy="439,27" size="71,29" fontSize="22" color="#ff0000" text="未达成">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <image id="n12_w9f4" name="imgGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="412,22">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+  </displayList>
+</component>

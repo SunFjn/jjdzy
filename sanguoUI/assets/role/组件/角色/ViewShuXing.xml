@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="420,530">
+  <displayList>
+    <component id="n0_ltpm" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="420,530">
+      <Label title="角色属性"/>
+    </component>
+    <component id="n8_ltpm" name="content" src="ltpm19" fileName="组件/角色/lstLabel.xml" xy="32,87" size="336,400"/>
+  </displayList>
+</component>

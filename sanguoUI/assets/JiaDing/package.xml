@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ypo8uejw" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ctaj0" name="View_JiaDing_Panel.xml" path="/组件/" exported="true"/>
+    <component id="ctaj1" name="Child_JiaDing_UpJie.xml" path="/组件/" exported="true"/>
+    <component id="ctaj2" name="Child_JiaDing_JinSheng.xml" path="/组件/" exported="true"/>
+    <component id="i2ij3" name="View_Home_Shop.xml" path="/组件/" exported="true"/>
+    <image id="i2ij4" name="镇守宝库图.jpg" path="/image/"/>
+    <component id="i2ij5" name="Home_ShopItem.xml" path="/组件/" exported="true"/>
+    <image id="gz258" name="家丁标题.png" path="/image/"/>
+    <image id="gz259" name="家丁框.png" path="/image/"/>
+    <component id="gz25a" name="JiaDingSkill.xml" path="/组件/" exported="true"/>
+    <image id="gz25b" name="10002.png" path="/image/"/>
+    <component id="gz25c" name="JiaDingJinShengRoleItem.xml" path="/组件/" exported="true"/>
+    <component id="gz25e" name="View_JiaDingSkill_Tips.xml" path="/组件/" exported="true"/>
+    <image id="fzv5g" name="府邸商店标题.png" path="/image/"/>
+  </resources>
+  <publish name="JiaDing" genCode="true" npot="true" excluded="i2ij4,gz25b,gz259"/>
+</packageDescription>

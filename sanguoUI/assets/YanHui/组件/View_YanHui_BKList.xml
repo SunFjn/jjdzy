@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,378">
+  <displayList>
+    <component id="n1_gz25" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,378">
+      <Label title="宾客列表"/>
+    </component>
+    <richtext id="n2_gz25" name="contentLb" xy="20,71" size="555,287" fontSize="18" color="#ffffff" autoSize="none" text="玩家名字"/>
+  </displayList>
+</component>

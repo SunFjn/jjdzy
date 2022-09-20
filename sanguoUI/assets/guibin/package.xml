@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="uwuhem42" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="itpb0" name="3特权.png" path="/image/"/>
+    <image id="itpb1" name="更多惊喜敬请期待.png" path="/image/"/>
+    <image id="itpb2" name="贵宾入口.png" path="/image/"/>
+    <image id="itpb4" name="贵宾标题.png" path="/image/"/>
+    <image id="itpb5" name="贵族主公专属特权标题.png" path="/image/"/>
+    <component id="itpb6" name="guibin_panel.xml" path="/组件/" exported="true"/>
+    <image id="itpb8" name="首次字.png" path="/image/"/>
+    <image id="glz79" name="guibinBG.png" path="/image/"/>
+    <image id="glz7a" name="kf_1.jpg" path="/image/"/>
+  </resources>
+  <publish name="guibin" genCode="true" npot="true" excluded="glz7a,glz79"/>
+</packageDescription>

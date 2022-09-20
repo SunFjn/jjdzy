@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://7hwmix0gbnyp1">
+  <displayList>
+    <loader id="n10_bnyp" name="loaderBg" xy="0,272" size="640,654" url="ui://7hwmix0gbnypb"/>
+    <image id="n24_bnyp" name="n24" src="bnyps" fileName="res/签盒.png" xy="319,539" pivot="0.5,0.72" anchor="true" scale="0.8,0.8"/>
+    <image id="n31_oflg" name="n31" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="15,752" size="610,147"/>
+    <image id="n29_oflg" name="n29" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="127,698" size="168,29"/>
+    <image id="n30_oflg" name="n30" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="345,698" size="168,29"/>
+    <image id="n1_bnyp" name="n1" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="15,283" size="267,27"/>
+    <richtext id="n2_bnyp" name="tfDate" xy="17,283" size="159,25" fontSize="18" color="#00ff00" text="活动剩余时间：1天"/>
+    <component id="n3_bnyp" name="btnHelp" src="lplo3gp" fileName="组件/TextBtn.xml" pkg="jvxpx9em" xy="530,284" pivot="0.5,0.5" size="90,20">
+      <Button title="&lt;>玩法说明&lt;/>" titleColor="#00ff00"/>
+    </component>
+    <component id="n4_bnyp" name="btnTen" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="361,630" pivot="0.5,0.5">
+      <Button title="抽十次" titleColor="#ffffff"/>
+    </component>
+    <component id="n5_bnyp" name="btnOne" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="143,630" pivot="0.5,0.5">
+      <Button title="抽一次"/>
+    </component>
+    <component id="n6_bnyp" name="btnHC" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="24,377" pivot="0.5,0.5" size="84,88">
+      <Button icon="ui://7hwmix0gbnypa"/>
+    </component>
+    <component id="n7_bnyp" name="btnTarget" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="531,377" pivot="0.5,0.5" size="84,88">
+      <Button icon="ui://7hwmix0gbnyp8"/>
+    </component>
+    <component id="n8_bnyp" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="531,491" pivot="0.5,0.5" size="84,88">
+      <Button icon="ui://7hwmix0gbnyp7"/>
+    </component>
+    <component id="n9_bnyp" name="btnReward" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="24,491" pivot="0.5,0.5" size="84,88">
+      <Button icon="ui://7hwmix0gbnyp9"/>
+    </component>
+    <component id="n11_bnyp" name="item0" src="bnypm" fileName="QianItem.xml" xy="80,821" pivot="0.5,0.5" anchor="true">
+      <Label icon="ui://7hwmix0gbnyph"/>
+    </component>
+    <component id="n16_bnyp" name="item1" src="bnypm" fileName="QianItem.xml" xy="200,821" pivot="0.5,0.5" anchor="true">
+      <Label icon="ui://7hwmix0gbnypi"/>
+    </component>
+    <component id="n17_bnyp" name="item2" src="bnypm" fileName="QianItem.xml" xy="320,821" pivot="0.5,0.5" anchor="true">
+      <Label icon="ui://7hwmix0gbnypl"/>
+    </component>
+    <component id="n18_bnyp" name="item3" src="bnypm" fileName="QianItem.xml" xy="440,821" pivot="0.5,0.5" anchor="true">
+      <Label icon="ui://7hwmix0gbnypk"/>
+    </component>
+    <component id="n19_bnyp" name="item4" src="bnypm" fileName="QianItem.xml" xy="560,821" pivot="0.5,0.5" anchor="true">
+      <Label icon="ui://7hwmix0gbnypj"/>
+    </component>
+    <component id="n22_bnyp" name="resComOne" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="172,697" pivot="0.5,0.5" size="78,33">
+      <Label title="9999"/>
+    </component>
+    <component id="n23_bnyp" name="resComTen" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="390,697" pivot="0.5,0.5" size="78,33">
+      <Label title="9999"/>
+    </component>
+    <component id="n26_oflg" name="btnCheck" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="262,595" size="116,32">
+      <Button title="跳过动画"/>
+    </component>
+    <loader id="n27_oflg" name="tempQian" xy="286,365" pivot="0.45,0.5" size="66,99" aspect="true" visible="false" rotation="-30" touchable="false" url="ui://7hwmix0gbnype" fill="scale"/>
+  </displayList>
+  <transition name="mc" options="4" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n24_bnyp" tween="true" startValue="0" endValue="-29.3" duration="3"/>
+    <item time="3" type="Rotation" target="n24_bnyp" tween="true" startValue="-29.3" endValue="0" duration="3"/>
+  </transition>
+</component>

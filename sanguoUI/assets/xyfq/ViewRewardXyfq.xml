@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://7hwmix0gbnyp5">
+  <displayList>
+    <component id="n0_bnyp" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="21,134" size="601,778">
+      <Label title="奖励预览"/>
+    </component>
+    <list id="n13_bnyp" name="list" xy="38,210" size="570,682" overflow="scroll" lineGap="6" defaultItem="ui://7hwmix0gbnypu" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="42sp9wgr">
+  <resources>
+    <image id="i8840" name="价值             元宝.png" path="/image/" exported="true" scale="9grid" scale9grid="61,7,122,14"/>
+    <image id="i8842" name="按钮.png" path="/image/" exported="true" scale="9grid" scale9grid="58,24,116,48"/>
+    <image id="i8843" name="按钮2.png" path="/image/" exported="true"/>
+    <image id="i8844" name="按钮-未选中.png" path="/image/" exported="true" scale="9grid" scale9grid="53,18,106,36"/>
+    <image id="i8845" name="标题.png" path="/image/" exported="true"/>
+    <image id="i8846" name="选中天数底.png" path="/image/" exported="true"/>
+    <image id="i8847" name="每日直购配图.png" path="/image/" exported="true"/>
+    <image id="i8848" name="未选中天数底.png" path="/image/" exported="true"/>
+    <component id="i884a" name="View_ZhiGou_Panel.xml" path="/组件/" exported="true"/>
+    <component id="i884c" name="ZhiGouTab.xml" path="/组件/" exported="true"/>
+    <component id="i884d" name="moneyTab.xml" path="/组件/" exported="true"/>
+    <component id="rquie" name="ZhiGouGrid.xml" path="/组件/" exported="true"/>
+    <image id="rquif" name="标语.png" path="/image/" exported="true"/>
+    <image id="dx7ug" name="3.png" path="/image/" exported="true"/>
+    <image id="dx7uh" name="1.png" path="/image/" exported="true"/>
+    <image id="dx7ui" name="2.png" path="/image/" exported="true"/>
+    <image id="kqktj" name="2888.png" path="/image/"/>
+    <image id="kqktl" name="遮罩.png" path="/image/" exported="true"/>
+    <component id="lruum" name="ViewZhiGouReward.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="zhigou" genCode="true"/>
+</packageDescription>

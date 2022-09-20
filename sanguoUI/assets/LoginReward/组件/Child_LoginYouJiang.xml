@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,922" opaque="false">
+  <displayList>
+    <loader id="n7_h9gs" name="bg" xy="0,283" size="640,184" url="ui://q4uuphepdsdy2" fill="scaleFree"/>
+    <list id="n1_mq0c" name="n1" xy="0,469" size="200,300" overflow="scroll"/>
+    <list id="n2_mq0c" name="list" xy="0,469" size="640,453" overflow="scroll" defaultItem="ui://q4uuphepdsdy3" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n3_mq0c" name="n3" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="9,432" size="268,29" flip="hz"/>
+    <image id="n4_mq0c" name="n4" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="376,433" size="256,29" flip="hz"/>
+    <richtext id="n5_mq0c" name="txtLeftTime" xy="21,433" size="218,31" fontSize="20" color="#66ff00" text="活动剩余时间: 00:00:00"/>
+    <text id="n6_mq0c" name="nn" xy="382,434" size="245,31" fontSize="20" color="#ffffff" text="每日登陆即可领取豪华奖励">
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+</component>

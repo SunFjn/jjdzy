@@ -1,0 +1,5 @@
+#服务端重启命令
+cmd cd $programDir$;sh $programDir$/run.sh stop
+check cd $programDir$;sh $programDir$/run.sh check
+cmd cd $programDir$;sh $programDir$/run.sh start
+tail $programDir$/logs/console.log

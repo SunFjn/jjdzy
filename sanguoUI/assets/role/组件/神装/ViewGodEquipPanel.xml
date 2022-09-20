@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,924" opaque="false" designImage="ui://3tzqotadgsrt5b">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n79_gsrt" name="n79" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="140,492" size="359,175"/>
+    <component id="n2_p87f" name="g0" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="28,179"/>
+    <component id="n3_p87f" name="g1" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="28,308"/>
+    <component id="n4_p87f" name="g2" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="28,436"/>
+    <component id="n5_p87f" name="g3" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="28,566"/>
+    <component id="n6_p87f" name="g4" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="28,695"/>
+    <component id="n7_p87f" name="g5" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="516,179"/>
+    <component id="n8_p87f" name="g6" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="516,308"/>
+    <component id="n9_p87f" name="g7" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="516,436"/>
+    <component id="n10_p87f" name="g8" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="516,566"/>
+    <component id="n11_p87f" name="g9" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="516,695"/>
+    <image id="n40_n7sj" name="n40" src="f1cf4g" fileName="image1/Bg3.png" pkg="jvxpx9em" xy="132,322" size="378,159" alpha="0.5"/>
+    <text id="n25_gk1h" name="labPart" xy="222,266" size="203,35" fontSize="24" color="#e5bd1d" align="center" autoSize="none" text="武器"/>
+    <component id="n82_cytp" name="btnOperate" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="251,833">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearText controller="c1" default="合成"/>
+      <Button title="合成" titleColor="#4a2c10"/>
+    </component>
+    <component id="n38_n7sj" name="btnResolve" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="154,760" pivot="0.5,0.5" size="78,89" scale="0.8,0.8">
+      <Button icon="ui://3tzqotadn7sj2b"/>
+    </component>
+    <component id="n42_cld8" name="boxMat" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="240,786"/>
+    <component id="n54_suyt" name="labPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="176,155"/>
+    <image id="n56_ah3c" name="n56" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="136,858" group="n58_ah3c"/>
+    <richtext id="n57_ah3c" name="n57" xy="261,848" size="116,35" group="n58_ah3c" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满级"/>
+    <group id="n58_ah3c" name="boxMax" xy="136,848" size="366,35" advanced="true" collapsed="true"/>
+    <loader id="n59_ud97" name="titleIcon" xy="274,79" size="91,36" url="ui://3tzqotadud973g" align="center" vAlign="middle">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearIcon controller="c1" pages="0" values="ui://3tzqotadud973g" default="ui://3tzqotadjf0d4v"/>
+    </loader>
+    <component id="n80_gsrt" name="n80" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="159,497" group="n62_jf0d">
+      <Label title="升阶属性"/>
+    </component>
+    <richtext id="n14_p87f" name="lbCurAttr" xy="143,524" size="158,124" group="n62_jf0d" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="16" autoSize="none" text="攻击+1000&#xA;攻击+1000&#xA;攻击+100"/>
+    <richtext id="n21_p87f" name="lbNextAttr" xy="342,524" size="158,124" group="n62_jf0d" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="16" autoSize="none" text="攻击+1000&#xA;攻击+1000&#xA;攻击+100"/>
+    <component id="n12_p87f" name="curEquip" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="167,337" group="n62_jf0d"/>
+    <component id="n19_p87f" name="nextEquip" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="377,337" group="n62_jf0d"/>
+    <component id="n29_n7sj" name="btnSuit" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="420,210" pivot="0.5,0.5" size="80,80" group="n62_jf0d">
+      <Button icon="ui://3tzqotadn7sj2f"/>
+    </component>
+    <image id="n31_n7sj" name="labArrow" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="298,373" group="n62_jf0d"/>
+    <text id="n32_n7sj" name="labSuitJie" xy="423,278" size="70,28" group="n62_jf0d" fontSize="18" color="#ffffff" align="center" autoSize="none" text="二阶"/>
+    <image id="n33_n7sj" name="arrow" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="301,554" group="n62_jf0d"/>
+    <richtext id="n55_suyt" name="lbMaxAttr" xy="271,529" size="92,97" group="n62_jf0d" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="16" text="攻击+1000&#xA;攻击+1000&#xA;攻击+100"/>
+    <component id="n81_gsrt" name="imgMat" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="159,710" group="n62_jf0d">
+      <Label title="打造材料"/>
+    </component>
+    <group id="n62_jf0d" name="upGroup" xy="143,210" size="357,528" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n63_jf0d" name="btnXL" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="416,760" pivot="0.5,0.5" size="90,90" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button icon="ui://3tzqotadjf0d4u" controller="c1" page="1"/>
+    </component>
+    <component id="n64_jf0d" name="curEquip1" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="276,337" group="n75_jf0d"/>
+    <image id="n65_jf0d" name="n65" src="jf0d4x" fileName="image/洗炼材料字.png" xy="271,730" group="n75_jf0d"/>
+    <richtext id="n77_ewyv" name="xltip" xy="186,581" size="276,28" group="n75_jf0d" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="神装达到5阶才能洗练"/>
+    <component id="n66_jf0d" name="bar0" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="145,528" size="349,20" group="n78_ewyv">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <richtext id="n67_jf0d" name="n67" xy="143,496" size="77,25" group="n78_ewyv" fontSize="18" color="#e5bd1d" text="气血洗练"/>
+    <richtext id="n68_jf0d" name="n68" xy="143,551" size="77,25" group="n78_ewyv" fontSize="18" color="#e5bd1d" text="攻击洗练"/>
+    <richtext id="n69_jf0d" name="n69" xy="143,602" size="77,25" group="n78_ewyv" fontSize="18" color="#e5bd1d" text="防御洗练"/>
+    <component id="n70_jf0d" name="bar1" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="145,581" size="349,20" group="n78_ewyv">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n71_jf0d" name="bar2" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="145,640" size="349,20" group="n78_ewyv">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <richtext id="n72_jf0d" name="xlAtt0" xy="228,496" size="265,28" group="n78_ewyv" fontSize="18" color="#42c742" align="right" leading="0" autoSize="none" text="1000/1000"/>
+    <richtext id="n73_jf0d" name="xlAtt1" xy="228,550" size="265,28" group="n78_ewyv" fontSize="18" color="#42c742" align="right" leading="0" autoSize="none" text="1000/1000"/>
+    <richtext id="n74_jf0d" name="xlAtt2" xy="228,603" size="265,28" group="n78_ewyv" fontSize="18" color="#42c742" align="right" leading="0" autoSize="none" text="1000/1000"/>
+    <group id="n78_ewyv" name="boxAtt" xy="143,496" size="351,164" group="n75_jf0d" advanced="true"/>
+    <group id="n75_jf0d" name="xlGroup" xy="143,337" size="351,421" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n76_jf0d" name="btnUp" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="427,741" pivot="0.5,0.5" size="90,90">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button icon="ui://3tzqotadjf0d4w" controller="c1" page="0"/>
+    </component>
+  </displayList>
+</component>

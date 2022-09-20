@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="px5jiht9" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="kzdy0" name="Child_ActLuckTurn.xml" path="/组件/" exported="true"/>
+    <image id="kzdy1" name="3.png" path="/image/" exported="true"/>
+    <image id="kzdy2" name="图层 22.png" path="/image/" exported="true"/>
+    <image id="kzdy3" name="图层 23.png" path="/image/" exported="true"/>
+    <image id="kzdy4" name="2.png" path="/image/" exported="true"/>
+    <image id="kzdy5" name="1.png" path="/image/" exported="true"/>
+    <image id="kzdy8" name="玩法说明.png" path="/image/" exported="true"/>
+    <image id="kzdy9" name="目标奖励.png" path="/image/" exported="true"/>
+    <component id="kzdya" name="ItemActLuckTurn.xml" path="/组件/" exported="true"/>
+    <image id="kzdyb" name="奖励预览.png" path="/image/" exported="true"/>
+    <image id="kzdyc" name="选角底条.png" path="/image/" exported="true" scale="9grid" scale9grid="163,37,221,76"/>
+    <image id="kzdyd" name="卡牌正面.png" path="/image/" exported="true"/>
+    <image id="kzdye" name="卡牌背面.png" path="/image/" exported="true"/>
+    <component id="fvskf" name="ViewActLuckTurnTarge.xml" path="/组件/" exported="true"/>
+    <component id="fvskg" name="ItemActLuckTurnTarge.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="actLuckTurn" genCode="true" npot="true"/>
+</packageDescription>

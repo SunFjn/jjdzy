@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="d5y9ngt6" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ccyk0" name="Child_ActHolyBXiLian.xml" path="/组件/洗练/" exported="true"/>
+    <image id="ccyk2" name="4507.png" path="/image/"/>
+    <component id="ccyk3" name="VActHolyBeastItem.xml" path="/组件/" exported="true"/>
+    <component id="ccyk4" name="ViewActHolyBeastPanel.xml" path="/组件/" exported="true"/>
+    <component id="n2pm5" name="Child_ActHolyBHuoYue.xml" path="/组件/活跃/" exported="true"/>
+    <component id="n2pm6" name="Child_ActHolyBZhuanP.xml" path="/组件/转盘/" exported="true"/>
+    <component id="n2pm7" name="Child_ActHolyBXunB.xml" path="/组件/寻宝/" exported="true"/>
+    <component id="phvv8" name="ViewActHolyBMuB.xml" path="/组件/寻宝/" exported="true"/>
+    <component id="phvv9" name="VActHolyBMuB.xml" path="/组件/寻宝/" exported="true"/>
+    <component id="phvva" name="ViewActHolyBRank.xml" path="/组件/寻宝/" exported="true"/>
+    <component id="phvvb" name="VActHolyBRank.xml" path="/组件/寻宝/" exported="true"/>
+    <image id="p3zoe" name="圆盘.png" path="/image/" exported="true"/>
+    <image id="p3zof" name="圆盘2.png" path="/image/" exported="true"/>
+    <image id="p3zog" name="底盘.png" path="/image/" exported="true"/>
+    <image id="p3zoh" name="花纹.png" path="/image/" exported="true"/>
+    <image id="p3zoi" name="转.png" path="/image/" exported="true"/>
+    <image id="p3zoj" name="bg.png" path="/image/"/>
+    <image id="p3zok" name="光.png" path="/image/" exported="true"/>
+    <component id="v10mm" name="Child_ActHolyBMuBiao.xml" path="/组件/目标/" exported="true"/>
+    <image id="v10mr" name="圣兽降临标题.png" path="/image/" exported="true"/>
+    <component id="v10mt" name="ActHolyBHuoYTab.xml" path="/组件/活跃/" exported="true"/>
+    <image id="v10mu" name="选中框.png" path="/image/" exported="true"/>
+    <component id="v10mw" name="ActHolyBMuBTab.xml" path="/组件/目标/" exported="true"/>
+    <image id="v10m10" name="格子底.png" path="/image/" exported="true"/>
+    <image id="v10m12" name="骰子.png" path="/image/" exported="true"/>
+    <component id="v10m13" name="VActHolyBGrid.xml" path="/组件/寻宝/" exported="true"/>
+    <image id="v10m14" name="排名奖励.png" path="/image/" exported="true"/>
+    <image id="v10m15" name="目标奖励.png" path="/image/" exported="true"/>
+    <image id="kxay16" name="积分.png" path="/image/" exported="true"/>
+    <image id="kxay18" name="头像背景.png" path="/image/"/>
+    <component id="kxay19" name="VActHolyBHead.xml" path="/组件/寻宝/" exported="true"/>
+    <image id="kxay1a" name="虚位以待.png" path="/image/" exported="true"/>
+    <component id="kxay1b" name="ViewActHolyBReward.xml" path="/组件/寻宝/" exported="true"/>
+    <image id="kxay1c" name="1.png" path="/image/" exported="true"/>
+    <image id="kxay1d" name="2.png" path="/image/" exported="true"/>
+    <image id="kxay1e" name="3.png" path="/image/" exported="true"/>
+    <image id="kxay1f" name="4.png" path="/image/" exported="true"/>
+    <image id="kxay1g" name="5.png" path="/image/" exported="true"/>
+    <image id="kxay1h" name="6.png" path="/image/" exported="true"/>
+    <image id="8tt91i" name="起点.png" path="/image/" exported="true"/>
+    <component id="jt4v1j" name="ChildSGZL.xml" path="/组件/三国战令/" exported="true"/>
+    <image id="jt4v1k" name="三国战令任务.png" path="/组件/三国战令/res/"/>
+    <image id="jt4v1l" name="战令任务.png" path="/组件/三国战令/res/"/>
+    <image id="jt4v1m" name="战令商店.png" path="/组件/三国战令/res/"/>
+    <image id="jt4v1n" name="战令奖励.png" path="/组件/三国战令/res/"/>
+    <component id="jt4v1o" name="SGZLBtn.xml" path="/组件/三国战令/com/" exported="true"/>
+    <image id="jt4v1p" name="VIP按钮.png" path="/组件/三国战令/res/"/>
+    <image id="jt4v1q" name="进阶.png" path="/组件/三国战令/res/"/>
+    <image id="jt4v1r" name="未升级版战令.png" path="/组件/三国战令/res/"/>
+    <image id="jt4v1s" name="升级版战令.png" path="/组件/三国战令/res/"/>
+    <component id="jt4v1t" name="SGZLTaskItem.xml" path="/组件/三国战令/com/" exported="true"/>
+    <image id="jt4v1u" name="三国战令商店.png" path="/组件/三国战令/res/"/>
+    <component id="tvlr1v" name="SGZLShopItem.xml" path="/组件/三国战令/com/" exported="true"/>
+    <image id="tvlr1w" name="三国战令.png" path="/组件/三国战令/res/"/>
+    <image id="tvlr1x" name="普通奖励底 拷贝 2.png" path="/组件/三国战令/res/"/>
+    <image id="tvlr1y" name="进阶奖励框.png" path="/组件/三国战令/res/" scale="9grid" scale9grid="45,17,199,15"/>
+    <image id="tvlr1z" name="普通奖励底.png" path="/组件/三国战令/res/"/>
+    <image id="tvlr20" name="进阶奖励标题.png" path="/组件/三国战令/res/"/>
+    <image id="tvlr21" name="星级-亮.png" path="/组件/三国战令/res/"/>
+    <image id="tvlr22" name="星级-暗.png" path="/组件/三国战令/res/"/>
+    <image id="tvlr23" name="连接线.png" path="/组件/三国战令/res/"/>
+    <image id="tvlr24" name="进阶奖励底.png" path="/组件/三国战令/res/" scale="9grid" scale9grid="11,11,221,39"/>
+    <component id="tvlr25" name="SGZLRewardItem.xml" path="/组件/三国战令/com/" exported="true"/>
+    <image id="tvlr26" name="图层 69 副本.png" path="/组件/三国战令/res/"/>
+    <component id="tvlr27" name="ViewSGZLUpgrade.xml" path="/组件/三国战令/" exported="true"/>
+    <image id="tvlr28" name="组 216 拷贝.png" path="/组件/三国战令/res/"/>
+    <component id="cl031l" name="Child_XiLianRank.xml" path="/组件/洗练排名/" exported="true"/>
+    <component id="cl031m" name="XiLianListGrid.xml" path="/组件/洗练排名/" exported="true"/>
+    <component id="cl031n" name="ViewXiLianRank.xml" path="/组件/洗练排名/" exported="true"/>
+    <component id="cl031o" name="ItemXiLianRank.xml" path="/组件/洗练排名/" exported="true"/>
+    <component id="cl031p" name="ItemXiLianRank1.xml" path="/组件/洗练排名/" exported="true"/>
+    <component id="cl031q" name="ItemXiLianRank2.xml" path="/组件/洗练排名/" exported="true"/>
+    <image id="foqs1r" name="名字.png" path="/image/" exported="true"/>
+    <image id="foqs1s" name="排名.png" path="/image/" exported="true"/>
+    <image id="foqs1t" name="第11-20名.png" path="/image/" exported="true"/>
+    <image id="foqs1u" name="第4-10名.png" path="/image/" exported="true"/>
+    <image id="et041v" name="洗练次数.png" path="/image/" exported="true"/>
+    <image id="ze8t1w" name="第1名.png" path="/image/" exported="true"/>
+    <image id="ze8t1x" name="第2名.png" path="/image/" exported="true"/>
+    <image id="ze8t1y" name="第3名.png" path="/image/" exported="true"/>
+    <image id="ke2729" name="已兑完.png" path="/组件/三国战令/res/"/>
+    <image id="ke272a" name="已进阶.png" path="/组件/三国战令/res/"/>
+    <image id="ke272b" name="普通战令.png" path="/组件/三国战令/res/"/>
+    <image id="ke272c" name="升级后战令.png" path="/组件/三国战令/res/"/>
+  </resources>
+  <publish name="actHolyBeast" genCode="true" maxAtlasSize="1024" npot="true" excluded="ccyk2,p3zoj,p3zoh,p3zog"/>
+</packageDescription>

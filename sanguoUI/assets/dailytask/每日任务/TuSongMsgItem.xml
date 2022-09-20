@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,48">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n2_q2i9" name="n2" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="0,0" size="594,48"/>
+    <richtext id="n0_q2i9" name="lb" xy="13,11" size="85,31" fontSize="20" color="#ffffff" text="单刀赴会"/>
+    <list id="n1_q2i9" name="list" xy="16,59" size="565,131" visible="false" layout="flow_hz" selectionMode="multipleSingleClick" overflow="hidden" lineGap="12" colGap="30" lineItemCount="2" defaultItem="ui://jvxpx9emsom165" autoItemSize="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_q2i9" name="check0" src="z1r82f" fileName="新组建/checkBox.xml" pkg="jvxpx9em" xy="342,7" size="88,32">
+      <Button checked="true" title="  开启" controller="c1" page="0"/>
+    </component>
+    <component id="n4_q2i9" name="check1" src="z1r82f" fileName="新组建/checkBox.xml" pkg="jvxpx9em" xy="490,8" size="88,32">
+      <Button title="  关闭" controller="c1" page="1"/>
+    </component>
+  </displayList>
+</component>

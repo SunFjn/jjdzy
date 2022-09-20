@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="132,142" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <image id="n15_sakt" name="n15" src="kplsah" fileName="image1/tishikuang.png" pkg="jvxpx9em" xy="0,0" size="114,125" group="n20_p0sp">
+      <relation target="n16_sakt" sidePair="leftext-left,rightext-right"/>
+    </image>
+    <text id="n16_sakt" name="n16" xy="26,10" size="79,25" group="n20_p0sp" fontSize="18" color="#ffffff" text="  可领取  ">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n17_sakt" name="gridExtral" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="30,40" group="n20_p0sp" scale="0.7,0.7"/>
+    <image id="n19_j3hf" name="img2" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="94,0" group="n20_p0sp">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+    <group id="n20_p0sp" name="n20" xy="0,0" size="132,142" advanced="true"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n20_p0sp" tween="true" startValue="0,0" endValue="0,-10" duration="24"/>
+    <item time="24" type="XY" target="n20_p0sp" tween="true" startValue="0,-10" endValue="0,0" duration="24"/>
+  </transition>
+</component>

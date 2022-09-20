@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.equip.EquipMapper">
+<update id="update" parameterType="String">
+	${value}
+</update>   
+<insert id="insert" parameterType="Equip" useGeneratedKeys="true" keyProperty="id">
+	${insertSql}
+</insert>
+<select id="find" parameterType="String" resultType="hashmap">
+	${value}
+</select> 
+<select id="findMany" parameterType="Long" resultType="hashmap">
+	select * from equip where hid=${value}
+</select> 
+<select id="findOnbodyEquip" parameterType="Long" resultType="hashmap">
+	select * from equip where hid=${value} and state=3
+</select> 
+<delete id="delOne" parameterType="String">
+	${value}
+</delete> 
+<select id="findByIds" parameterType="String" resultType="hashmap">
+	select * from equip where id in ${value}
+</select> 
+<update id="insertOnDuplicateBatch" parameterType="String">
+	${value}
+</update>
+<delete id="delMany" parameterType="hashmap">
+	delete from equip where id in 
+	<foreach item="item" collection="list" open="(" separator="," close=")">
+		#{item}
+	</foreach>
+</delete> 
+<insert id="insertIntoBatch" parameterType="Equip" useGeneratedKeys="true" keyProperty="id">
+	insert into equip(id, hid,sysId,state,quality,attrAdd,part,bodyIndex,score,createTime) values
+	<foreach item="equip" collection="list" separator=",">
+		(#{equip.id},#{equip.hid},#{equip.sysId},#{equip.state},#{equip.quality},#{equip.attrAdd},#{equip.part},#{equip.bodyIndex},#{equip.score},#{equip.createTime})
+	</foreach>
+</insert>
+</mapper>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="638,250">
+  <displayList>
+    <image id="n17_hd20" name="n17" src="m3513bf" fileName="image/底板2 拷贝 2.png" pkg="jvxpx9em" xy="0,52" size="638,164"/>
+    <image id="n26_hd20" name="n26" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="8,221"/>
+    <list id="n21_hd20" name="serverList" xy="14,71" size="394,84" overflow="scroll" lineGap="4" defaultItem="ui://mbcu0qc0hd202" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n24_hd20" name="n24" xy="307,99" size="397,132" scale="0.8,0.8" touchable="false" layout="row" overflow="scroll" colGap="-12" defaultItem="ui://mbcu0qc0hd204" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n25_hd20" name="n25" src="f3sq3dd" fileName="image/拉伸背景.png" pkg="jvxpx9em" xy="446,220" size="184,29"/>
+    <richtext id="n23_hd20" name="n23" xy="332,63" size="267,28" fontSize="18" color="#ffffff" text="击败所有BOSS将在阵营刷新&lt;font color='#FFCC00'>粮草&lt;/font>"/>
+    <richtext id="n20_hd20" name="lbTime" xy="460,221" size="169,28" fontSize="18" color="#00ff00" align="right" text="活动倒计时16:06:23">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <richtext id="n28_hd20" name="lbRefresh" xy="19,219" size="77,28" fontSize="18" color="#ffffff" text="强盗刷新"/>
+    <image id="n29_lipb" name="n29" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="11,166"/>
+    <richtext id="n30_lipb" name="lbScore" xy="19,164" size="77,28" fontSize="18" color="#ffffff" text="强盗刷新"/>
+  </displayList>
+</component>

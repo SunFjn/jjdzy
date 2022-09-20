@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.event.backstage.events.backstage.serverInfoList.ServerInfoMapper">
+	<!-- 插入新的服务器数据 -->
+	<insert id="insertData" parameterType="M_ServerInfo" useGeneratedKeys="true" keyProperty="id">
+		insert into m_serverinfo (zoneid,pf,alias,port,ip,state) values (#{zoneid},#{pf},#{alias},#{port},#{ip},#{state})
+	</insert>
+	<update id="updateData" parameterType="M_ServerInfo">
+		update m_serverinfo set alias=#{alias},port=#{port},ip=#{ip},state=#{state},content=#{content},autoopen=#{autoopen},opentime=#{opentime},hefuServer=#{hefuServer},hefuTime=#{hefuTime} where zoneid=#{zoneid} and pf = #{pf}
+	</update>
+	<!-- 获取服务器信息 -->
+	<select id="findAll" resultType="M_ServerInfo">
+		select * from m_serverinfo
+	</select>
+	<!-- 根据zid查 -->
+	<select id="findByZID" resultType="M_ServerInfo" parameterType="java.util.List">
+          select * from m_serverinfo 
+          where zoneid in 
+          <foreach collection="list" index="index" item="zoneid" open="(" separator="," close=")">  
+            #{zoneid}  
+        </foreach>
+  	</select>
+  	<update id="insertOnDuplicateBatch" parameterType="String">
+		${value}
+	</update>
+  	<select id="selectAllDrop" parameterType="String" resultType="String">
+		${value}
+	</select>
+	<update id="deleteAllTables" parameterType="String">
+		${value}
+	</update>
+	<update id="updateClientVersionAll" parameterType="java.util.Map">
+		update m_serverinfo set clientversion=#{clientversion} where pf = #{pf}
+	</update>
+	<update id="updateClientVersion" parameterType="java.util.Map">
+		update m_serverinfo set clientversion=#{clientversion} where pf = #{pf} and zoneid in
+		<foreach collection="zoneid" index="index" item="item" open="(" separator="," close=")">
+          #{item}
+       	</foreach> 
+	</update>
+</mapper>

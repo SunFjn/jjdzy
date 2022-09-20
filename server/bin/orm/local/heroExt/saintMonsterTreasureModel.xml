@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.saintMonsterTreasureSystem.model.SaintMonsterTreasureModel" tbname="saintMonsterTreasureModel">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="round" type="int" pf="all" comment="已完成圈数"/>
+			<col field="lastRound" type="int" pf="all" comment="上期圈数"/>
+			<col field="grid" type="int" pf="all" comment="当前所在格子"/>
+			<col field="rewardListStr" type="text" pf="all" comment="奖励"/>
+			<col field="goalReward" type="text" pf="all" comment="目标奖励"/>
+			<col field="goalRewardMap" type="text" pf="all" comment="目标奖励，key:id，value:[0]:(领取状态,0:未领过,1:已领过)，[1]:(领取数量，-1:已领完，0:未达到，其他:剩余领取次数)"/>
+     </tb>
+</tbs>

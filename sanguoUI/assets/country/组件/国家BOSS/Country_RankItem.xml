@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="564,96">
+  <displayList>
+    <image id="n6_l3h3" name="n6" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="564,96"/>
+    <loader id="n11_l3h3" name="boxImg" xy="460,14" size="79,74" aspect="true" url="ui://jvxpx9emaro89e" align="center" vAlign="middle" fill="scale"/>
+    <richtext id="n7_l3h3" name="lbRank" xy="23,36" size="62,28" touchable="false" fontSize="18" color="#ffc334" align="center" autoSize="none" text="第1名"/>
+    <richtext id="n8_l3h3" name="lbName" xy="115,36" size="187,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="一二三四五六.s9996"/>
+    <richtext id="n9_l3h3" name="jifenLb" xy="319,36" size="89,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="shrink" text="9999999"/>
+    <image id="n12_yuw9" name="promptImg" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="159,38"/>
+  </displayList>
+</component>

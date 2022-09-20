@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="320,148">
+  <displayList>
+    <loader id="n0_h0ag" name="n0" xy="0,0" size="100,100" url="ui://r92dp953h0ag1r"/>
+    <loader id="n5_obg1" name="headImg" xy="41,18" size="81,81" autoSize="true"/>
+    <image id="n6_obg1" name="n6" src="obg11t" fileName="image/普通技能框.png" xy="25,2"/>
+    <image id="n2_h0ag" name="n2" src="c4v29g" fileName="image1/提示背景.png" pkg="jvxpx9em" xy="5,104" size="309,45"/>
+    <image id="n3_h0ag" name="n3" src="h0ag1s" fileName="image/解锁新技能.png" xy="98,115"/>
+    <richtext id="n4_h0ag" name="lbName" xy="141,46" size="77,28" fontSize="18" color="#ffffff" text="技能名字"/>
+  </displayList>
+</component>

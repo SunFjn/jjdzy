@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="279,172">
+  <displayList>
+    <image id="n11_gwaz" name="n11" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,5" size="279,167"/>
+    <component id="n12_gwaz" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="23,20"/>
+    <component id="n13_gwaz" name="buyBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="143,91" size="101,42">
+      <Button title="购买"/>
+    </component>
+    <loader id="n14_gwaz" name="typeImg0" xy="181,28" size="26,26" url="ui://jvxpx9emltpm59" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <image id="n15_gwaz" name="buyImg" src="mb5j7d" fileName="image/已购买.png" pkg="jvxpx9em" xy="134,92" visible="false"/>
+    <richtext id="n16_gwaz" name="nameLb" xy="13,127" size="113,28" touchable="false" fontSize="18" color="#ff0000" align="center" leading="0" autoSize="shrink" text="兵法属性丹"/>
+    <richtext id="n17_gwaz" name="dataLb" xy="129,29" size="141,28" touchable="false" fontSize="18" color="#ffffff" leading="6" vars="true" autoSize="none" text="价格：      5000"/>
+    <richtext id="n18_gwaz" name="promptLb" xy="124,98" size="146,28" touchable="false" fontSize="18" color="#ff0000" align="center" leading="0" ubb="true" autoSize="none" text="VIP5可购买"/>
+  </displayList>
+</component>

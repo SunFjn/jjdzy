@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="563,137">
+  <displayList>
+    <component id="n20_nb1u" name="headItem" src="aro8m" fileName="组件/NZBZHead.xml" xy="0,0"/>
+    <image id="n22_nb1u" name="n22" src="aro8s" fileName="image/功勋图标.png" xy="167,110"/>
+    <image id="n23_nb1u" name="n23" src="aro8t" fileName="image/声望图标.png" xy="166,72"/>
+    <loader id="n27_nb1u" name="jifenImg" xy="7,99" size="88,29" url="ui://xzyn0qe3aro8q" align="center" autoSize="true"/>
+    <component id="n41_nb1u" name="battleBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="425,38">
+      <Button title="挑战"/>
+    </component>
+    <component id="n44_ehma" name="saoDangBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="425,38">
+      <Button title="扫荡"/>
+    </component>
+    <richtext id="n24_nb1u" name="guanxianLb" xy="114,4" size="157,28" touchable="false" fontSize="18" color="#ffffff" leading="0" text="【12阶·骠骑将军】"/>
+    <richtext id="n25_nb1u" name="gongxunLb" xy="115,109" size="147,28" touchable="false" fontSize="18" color="#ffffff" text="功勋        100000"/>
+    <richtext id="n26_nb1u" name="prestigeLb" xy="114,72" size="147,28" touchable="false" fontSize="18" color="#ffffff" text="声望        100000"/>
+    <richtext id="n29_nb1u" name="powerLb" xy="114,39" size="125,28" touchable="false" fontSize="18" color="#ffffff" leading="0" text="战力：100000"/>
+  </displayList>
+</component>

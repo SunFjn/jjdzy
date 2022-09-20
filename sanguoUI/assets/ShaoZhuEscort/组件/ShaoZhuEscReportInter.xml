@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,51">
+  <displayList>
+    <text id="n2_imkm" name="itemNum" xy="61,18" size="56,27" fontSize="20" color="#ff0000" text="-2000"/>
+    <component id="n5_imkm" name="item" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="0,0" size="102,102" aspect="true" scale="0.5,0.5"/>
+  </displayList>
+</component>

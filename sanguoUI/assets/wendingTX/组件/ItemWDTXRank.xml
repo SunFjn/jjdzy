@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="556,128">
+  <displayList>
+    <image id="n9_cg2i" name="n9" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="556,128"/>
+    <richtext id="n0_fl2h" name="lbRank" xy="110,16" size="39,35" fontSize="24" color="#f9bb13" align="center" text="1st">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n1_fl2h" name="lbName" xy="20,53" size="217,34" fontSize="22" color="#ffffff" align="center" autoSize="none" text="岁月催人老了.s99999">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n3_fl2h" name="lbScore" xy="80,90" size="98,25" fontSize="16" color="#33ff33" align="center" text="积分：99999">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n5_fl2h" name="n5" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="443,17" scale="0.9,0.9"/>
+    <component id="n6_fl2h" name="n6" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="353,17" scale="0.9,0.9"/>
+    <component id="n7_fl2h" name="n7" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="263,17" scale="0.9,0.9"/>
+    <image id="n10_hocl" name="n10" src="s56p14" fileName="images/虚位以待.png" xy="84,58"/>
+  </displayList>
+</component>

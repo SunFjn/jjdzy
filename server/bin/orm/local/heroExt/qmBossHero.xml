@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.boss.qmboss.QMBossHero" tbname="qmBossHero">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="rewardnum" type="int" pf="all" comment="剩余获取奖励的次数"/>
+			<col field="qmbossId" type="int" pf="all" comment="当前所在bossId"/>
+			<col field="qmbossRefreshTime" type="int" pf="all" comment="全民boss恢复时间"/>
+			<col field="isKiller" type="varchar" len="200" pf="all" comment="是否击杀过"/>	
+     </tb>
+</tbs>

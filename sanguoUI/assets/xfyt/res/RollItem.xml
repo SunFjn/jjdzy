@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="59,67">
+  <controller name="indexCtrl" pages="0,,1,,2,,3,,4,,5,,6," selected="6"/>
+  <displayList>
+    <loader id="n33_vpqq" name="n33" xy="0,0" size="59,67" url="ui://n5noipr2vpqqe" fill="scale">
+      <gearIcon controller="indexCtrl" pages="0,2,3,4,5,6" values="|ui://n5noipr2vpqqa|ui://n5noipr2vpqqb|ui://n5noipr2vpqqc|ui://n5noipr2vpqqd|ui://n5noipr2vpqqe" default="ui://n5noipr2vpqq9"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>

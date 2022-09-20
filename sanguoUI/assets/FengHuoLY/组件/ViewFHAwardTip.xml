@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,402">
+  <displayList>
+    <component id="n4_j08a" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,402" locked="true">
+      <Label title="征收成功"/>
+    </component>
+    <component id="n1_srrs" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="230,302">
+      <Button title="确定"/>
+    </component>
+    <image id="n5_j08a" name="n5" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="30,102" size="537,174"/>
+    <text id="n6_j08a" name="n6" xy="234,115" size="125,35" fontSize="24" color="#ffffff" text="积分+9999">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n7_j08a" name="n7" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="115,162" scale="0.9,0.9"/>
+    <component id="n8_j08a" name="n8" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="253,162" scale="0.9,0.9"/>
+    <component id="n9_j08a" name="n9" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="391,162" scale="0.9,0.9"/>
+  </displayList>
+</component>

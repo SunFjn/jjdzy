@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="558,183">
+  <displayList>
+    <image id="n6_vwm1" name="n6" src="vwm11" fileName="image/对话框.png" xy="0,0" size="558,183"/>
+    <richtext id="n3_k0t2" name="lbDesc" xy="184,70" size="334,88" fontSize="22" color="#ffffff" leading="0" ubb="true" autoSize="height" text="奖品名字      10%&#xA;奖品名字      10%&#xA;奖品名字      10%"/>
+    <richtext id="n4_k0t2" name="lbName" xy="184,37" size="49,34" fontSize="22" color="#ffc334" leading="0" ubb="true" text="剧情"/>
+    <loader id="n9_vwm1" name="viewHead" xy="29,24" size="118,138" url="ui://jvxpx9emp75388" fill="scaleFree"/>
+    <richtext id="n10_vwm1" name="lbTime" xy="507,144" size="16,28" fontSize="18" color="#ffc334" leading="0" ubb="true" text="3"/>
+    <image id="n11_vwm1" name="img" src="vwm12" fileName="image/多边形 1.png" xy="480,148" size="25,17" aspect="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="590,117">
+  <displayList>
+    <component id="n0_ov4j" name="headIcon" src="og791" fileName="组件/ChatRoleHead.xml" xy="0,13"/>
+    <image id="n3_ov4j" name="n3" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="114,41" size="476,76"/>
+    <component id="n4_ov4j" name="excuseBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="542,57" size="41,41">
+      <Button icon="ui://fx4pr5qehzfc1c"/>
+    </component>
+    <richtext id="n1_ov4j" name="nameLb" xy="115,12" size="135,28" fontSize="18" color="#ffc344" leading="0" text="聊天玩家名字11"/>
+    <richtext id="n5_ov4j" name="contentLb" xy="121,43" size="412,71" fontSize="18" color="#ffffff" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="a1111"/>
+    <loader id="n7_rqui" name="titleIcon" xy="433,0" size="157,50" url="ui://fx4pr5qecia21w" align="right" vAlign="bottom" fill="scaleNoBorder" shrinkOnly="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="435,321">
+  <displayList>
+    <component id="n15_lnck" name="frame" src="f1cf47" fileName="组件/frame1.xml" xy="0,0" size="435,321">
+      <relation target="n14_lnck" sidePair="bottomext-bottom"/>
+    </component>
+    <component id="n14_lnck" name="childTip" src="lnckac" fileName="新组建/ChildTipBagItem.xml" xy="24,32"/>
+  </displayList>
+  <relation target="n14_lnck" sidePair="bottomext-bottom"/>
+</component>

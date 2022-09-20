@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,348">
+  <displayList>
+    <component id="n1_81i0" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,348">
+      <Label title="扫荡结算"/>
+    </component>
+    <image id="n2_81i0" name="n2" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="19,83" size="556,166"/>
+    <image id="n5_81i0" name="n5" src="aro8t" fileName="image/声望图标.png" xy="78,91"/>
+    <image id="n6_81i0" name="n6" src="aro8s" fileName="image/功勋图标.png" xy="79,135"/>
+    <component id="n3_81i0" name="sureBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="225,261">
+      <Button title="确定"/>
+    </component>
+    <richtext id="n4_81i0" name="rewardLb" xy="26,92" size="536,126" fontSize="18" color="#ffffff" leading="20" autoSize="none" text="声望           +1000"/>
+  </displayList>
+</component>

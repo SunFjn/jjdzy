@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="538,65">
+  <displayList>
+    <image id="n4_k1rz" name="n4" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="538,64"/>
+    <loader id="n5_k1rz" name="rankIcon" xy="26,3" size="57,54" touchable="false" url="ui://jvxpx9em100v3al" fill="scale"/>
+    <richtext id="n6_k1rz" name="rankLb" xy="29,13" size="50,35" touchable="false" fontSize="24" color="#cc9933" align="center" autoSize="none" text="10"/>
+    <richtext id="n7_k1rz" name="nameLb" xy="121,13" size="228,35" touchable="false" fontSize="24" color="#ffffff" align="center" autoSize="none" text="玩家名字紫在.S8889"/>
+    <richtext id="n8_k1rz" name="moneyLb" xy="372,13" size="157,35" touchable="false" fontSize="24" color="#ffffff" align="center" autoSize="none" text="0"/>
+    <image id="n9_k1rz" name="nameImg" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="188,20"/>
+  </displayList>
+</component>

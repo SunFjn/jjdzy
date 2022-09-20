@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="238,284" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n9_ut4i" name="imgBg" src="ut4i4" fileName="image/擂台台子.png" xy="119,184" pivot="0.5,0.5" anchor="true"/>
+    <image id="n13_ut4i" name="n13" src="5voq3g5" fileName="image/选中框2.png" pkg="jvxpx9em" xy="64,55" size="111,139">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <loader id="n14_wf0h" name="uirole" xy="118,183" size="50,50" touchable="false"/>
+    <image id="n3_ut4i" name="ctBg" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="28,194" size="182,59"/>
+    <richtext id="n1_n093" name="lbTil0" xy="26,195" size="185,35" touchable="false" fontSize="24" color="#ff0000" align="center" autoSize="none" autoClearText="true" text="天字擂台"/>
+    <richtext id="n2_n093" name="lbCt" xy="16,224" size="206,28" touchable="false" fontSize="16" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="人数:   1/3"/>
+    <component id="n8_ut4i" name="btn" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="183,173" pivot="0.5,0.5" anchor="true" size="87,76" scale="-0.6,0.6">
+      <Button icon="ui://jvxpx9emaro89e"/>
+    </component>
+    <richtext id="n11_ut4i" name="lbTil1" xy="26,198" size="185,35" touchable="false" fontSize="18" color="#ffcc00" align="center" autoSize="none" autoClearText="true" text="地字擂台"/>
+    <image id="n5_ut4i" name="n5" src="htpq1q" fileName="image/通用底框/名字底框.png" pkg="jvxpx9em" xy="21,40" size="195,40" group="n12_ut4i"/>
+    <richtext id="n6_ut4i" name="lbName" xy="7,49" size="223,25" group="n12_ut4i" fontSize="16" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="玩家名字六字.s999"/>
+    <group id="n12_ut4i" name="gName" xy="7,40" size="223,40" advanced="true"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

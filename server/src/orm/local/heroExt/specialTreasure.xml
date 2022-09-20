@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.specialTreasure.SpecialTreasure" tbname="specialTreasure">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="treasureStar" type="varchar" len="500" pf="all" comment="激活异宝星级"/>
+			<col field="jieLv" type="int" pf="all"  comment="阶级"/>
+			<col field="jieexp" type="int" pf="all" comment="升阶经验"/>
+			<col field="skills" type="varchar" len="1000" pf="all" comment="技能"/>
+			<col field="taozhuangs" type="varchar" len="400" pf="all" comment="套装"/>
+	        <col field="jueXingSkills" type="varchar" len="600" pf="all" comment="觉醒技能/觉醒之力 技能（1-3）4觉醒之力"/>					
+     </tb>
+</tbs>

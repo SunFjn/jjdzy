@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6tpaxc0k" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="rkjp0" name="BaoKuItem.xml" path="/组件/" exported="true"/>
+    <component id="rkjp1" name="View_BaoKu_Panel.xml" path="/组件/" exported="true"/>
+    <image id="su6n3" name="隆中宝玉.png" path="/image/" exported="true"/>
+    <image id="su6n5" name="三国金印.png" path="/image/" exported="true"/>
+    <image id="su6n7" name="无双宝玉.png" path="/image/" exported="true"/>
+    <image id="su6n9" name="枭雄宝玉.png" path="/image/" exported="true"/>
+    <image id="v3t9f" name="宝库标题.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="baoku" genCode="true" npot="true"/>
+</packageDescription>

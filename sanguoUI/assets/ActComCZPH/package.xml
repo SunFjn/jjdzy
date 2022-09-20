@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="q5asybs1" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="k1rz2" name="排行底条.png" path="/image/" exported="true"/>
+    <image id="k1rz3" name="第一名底图.jpg" path="/image/" exported="true"/>
+    <component id="k1rz4" name="Child_ActCom_CZPH.xml" path="/组件/" exported="true"/>
+    <component id="k1rz6" name="ActCom_CZPHItem.xml" path="/组件/" exported="true"/>
+    <component id="k1rz7" name="View_ActCom_CZPHRank.xml" path="/组件/" exported="true"/>
+    <component id="k1rz8" name="ActCom_CZPHRankItem.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="ActComCZPH" genCode="true" npot="true" excluded="k1rz3,k1rz2"/>
+</packageDescription>

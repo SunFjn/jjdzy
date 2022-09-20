@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <image id="n1_gz25" name="n1" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="7,52" size="625,181"/>
+    <richtext id="n2_gz25" name="nameLb" xy="27,53" size="95,25" touchable="false" fontSize="18" color="#ffffff" align="center" text="玩家的宴会"/>
+    <richtext id="n3_gz25" name="numLb" xy="403,51" size="77,25" touchable="false" fontSize="18" color="#ffffff" align="center" text="参与人数"/>
+    <richtext id="n4_gz25" name="lookLb" xy="532,51" size="77,25" fontSize="18" color="#00ff00" align="center" underline="true" text="查看宾客"/>
+    <richtext id="n5_gz25" name="n5" xy="26,147" size="77,25" touchable="false" fontSize="18" color="#f4bf12" align="center" text="宴会氛围"/>
+    <richtext id="n7_gz25" name="smLb" xy="531,201" size="77,25" fontSize="18" color="#00ff00" align="center" underline="true" text="玩法说明"/>
+    <richtext id="n13_gz25" name="fwLb0" xy="141,174" size="79,22" group="n18_gz25" fontSize="16" color="#ffffff" align="center" autoSize="none" text="50"/>
+    <richtext id="n14_gz25" name="fwLb1" xy="236,174" size="86,25" group="n18_gz25" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" autoSize="none" text="100"/>
+    <richtext id="n15_gz25" name="fwLb2" xy="336,174" size="90,25" group="n18_gz25" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" autoSize="none" text="100"/>
+    <richtext id="n16_gz25" name="fwLb3" xy="434,174" size="90,25" group="n18_gz25" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" autoSize="none" text="100"/>
+    <richtext id="n17_gz25" name="fwLb4" xy="536,174" size="81,25" group="n18_gz25" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" autoSize="none" text="100"/>
+    <group id="n18_gz25" name="n18" xy="141,174" size="476,25"/>
+    <richtext id="n19_gz25" name="timeLb" xy="27,201" size="95,25" fontSize="18" color="#ffffff" text="剩余时间："/>
+    <component id="n6_gz25" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="113,150" size="490,22">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n8_gz25" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="154,81" group="n20_gz25" scale="0.6,0.6"/>
+    <component id="n9_gz25" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="251,81" group="n20_gz25" scale="0.6,0.6"/>
+    <component id="n10_gz25" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="348,81" group="n20_gz25" scale="0.6,0.6"/>
+    <component id="n11_gz25" name="grid3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="445,81" group="n20_gz25" scale="0.6,0.6"/>
+    <component id="n12_gz25" name="grid4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="542,81" group="n20_gz25" scale="0.6,0.6"/>
+    <group id="n20_gz25" name="n20" xy="154,81" size="490,102"/>
+  </displayList>
+</component>

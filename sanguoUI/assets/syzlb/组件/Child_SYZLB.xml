@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,922" opaque="false">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <controller name="c2" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n47_hfuw" name="backImg" xy="0,144" size="616,616" url="ui://3o8q23uuhsaxo" autoSize="true"/>
+    <image id="n31_hndy" name="n31" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="17,560" size="605,275"/>
+    <component id="n4_sr40" name="createBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="467,845" pivot="0.5,0.5" group="n9_sr40">
+      <Button title="创建房间"/>
+    </component>
+    <list id="n7_sr40" name="listJoin" xy="27,604" size="572,217" group="n9_sr40" layout="row" overflow="scroll" scroll="horizontal" colGap="8" defaultItem="ui://3o8q23uuhfuw8" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n8_sr40" name="lbNoTeam" xy="238,693" size="143,35" group="n9_sr40" touchable="false" fontSize="24" color="#ffff00" align="center" autoSize="none" text="暂无队伍"/>
+    <group id="n9_sr40" name="teamDataGroup" xy="27,604" size="576,303" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <list id="n20_sr40" name="listTeam" xy="32,582" size="588,247" group="n17_sr40" layout="row" overflow="hidden" defaultItem="ui://3o8q23uuhfuw7">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n16_sr40" name="battleBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="467,845" pivot="0.5,0.5" group="n17_sr40">
+      <Button title="开始挑战"/>
+    </component>
+    <component id="n23_f2mo" name="yaoQingBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="318,845" pivot="0.5,0.5" group="n17_sr40">
+      <Button title="邀请协助"/>
+    </component>
+    <component id="n24_f2mo" name="exitBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="467,845" pivot="0.5,0.5" group="n17_sr40">
+      <Button title="退出"/>
+    </component>
+    <group id="n17_sr40" name="teamRoleGroup" xy="32,582" size="588,325" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n18_sr40" name="chatBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="22,565" pivot="0.5,0.5" size="51,47">
+      <Button icon="ui://7gxkx46wi2yv6i"/>
+    </component>
+    <component id="n30_hndy" name="n30" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="155,569" size="329,31">
+      <Label title="队伍信息"/>
+    </component>
+    <loader id="n41_hfuw" name="backImg1" xy="90,158" size="459,395" url="ui://3o8q23uult8ip" autoSize="true"/>
+    <image id="n43_hfuw" name="n43" src="sd2wh" fileName="image/奖励预览底.png" xy="87,407" size="468,140"/>
+    <list id="n40_hfuw" name="listRew" xy="136,443" size="478,116" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="19" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n44_hfuw" name="n44" xy="17,153" size="178,28" fontSize="18" color="#33ff00" text="每天0点重置挑战次数"/>
+    <richtext id="n46_hfuw" name="txtDes" xy="17,174" size="77,28" fontSize="18" color="#00ff00" text="玩法说明"/>
+    <richtext id="n45_hfuw" name="lbBat" xy="39,867" size="125,28" fontSize="18" color="#ffffff" text="挑战次数：1/2"/>
+    <richtext id="n48_uu5e" name="itemLb" xy="42,866" size="77,28" group="n51_uu5e" fontSize="18" color="#33ff00" text="三英令："/>
+    <loader id="n49_uu5e" name="itemIcon" xy="117,866" size="30,30" group="n51_uu5e" aspect="true" fill="scaleFree"/>
+    <richtext id="n50_uu5e" name="itemCt" xy="151,866" size="16,28" group="n51_uu5e" fontSize="18" color="#ffffff" text="4"/>
+    <group id="n51_uu5e" name="groupItem" xy="42,866" size="125,30" advanced="true" collapsed="true"/>
+    <component id="n52_n9l1" name="btnAdd" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="168,861" pivot="0.5,0.5" size="41,41">
+      <relation target="n45_hfuw" sidePair="left-right"/>
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <component id="n53_ad1l" name="tabBtn0" src="t1ya3hg" fileName="组件/BtnHard0.xml" pkg="jvxpx9em" xy="1,234">
+      <Button controller="c2" page="0"/>
+    </component>
+    <component id="n54_ad1l" name="tabBtn1" src="t1ya3hh" fileName="组件/BtnHard1.xml" pkg="jvxpx9em" xy="1,336">
+      <Button checked="true" controller="c2" page="1"/>
+    </component>
+    <image id="n55_cenr" name="n55" src="cenr15" fileName="image/奖励预览文字.png" xy="274,402"/>
+  </displayList>
+</component>

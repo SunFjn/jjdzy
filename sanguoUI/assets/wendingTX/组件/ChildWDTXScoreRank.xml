@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="559,618">
+  <displayList>
+    <list id="n0_n3vz" name="n0" xy="1,0" size="557,584" overflow="scroll" defaultItem="ui://gxs8kn67fl2h8">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n1_n3vz" name="lbScore" xy="22,588" size="138,31" fontSize="24" color="#ffcc00" text="我的连斩：0"/>
+  </displayList>
+</component>

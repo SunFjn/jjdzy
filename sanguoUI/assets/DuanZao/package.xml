@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="pofv8989" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="lqbq0" name="View_DuanZao_Panel.xml" path="/" exported="true"/>
+    <component id="z1r81" name="Child_DuanZao_Streng.xml" path="/" exported="true"/>
+    <component id="z1r82" name="Child_DuanZao_Stone.xml" path="/" exported="true"/>
+    <component id="z1r83" name="Child_DuanZao_UpStar.xml" path="/" exported="true"/>
+    <component id="z1r84" name="Child_DuanZao_ZhuHun.xml" path="/" exported="true"/>
+    <component id="pzg75" name="View_DuanZao_StrengSuit.xml" path="/" exported="true"/>
+    <component id="pzg76" name="View_Stone_Bag.xml" path="/" exported="true"/>
+    <component id="kn3r7" name="View_DuanZao_StoneSuit.xml" path="/" exported="true"/>
+    <component id="sv0ga" name="GemBt.xml" path="/" exported="true"/>
+    <component id="sv0g2c" name="View_DuanZao_StarSuit.xml" path="/" exported="true"/>
+    <component id="tlm32d" name="View_ShiHun_Panel.xml" path="/" exported="true"/>
+    <component id="tlm32e" name="View_PerUpStar_Panel.xml" path="/" exported="true"/>
+    <image id="bwmw5n" name="forgingbg.jpg" path="/image/" exported="true"/>
+    <image id="bwmw5o" name="锻造大师.png" path="/image/" exported="true"/>
+    <image id="bwmw5t" name="宝石大师.png" path="/image/" exported="true"/>
+    <image id="bwmw5u" name="宝石底.png" path="/image/" exported="true"/>
+    <image id="bwmw5v" name="Plus.png" path="/image/" exported="true"/>
+    <image id="bwmw5z" name="Stars @up.png" path="/image/" exported="true"/>
+    <image id="f1cf60" name="star.png" path="/image/" exported="true"/>
+    <image id="f1cf61" name="starBack.png" path="/image/" exported="true"/>
+    <image id="f1cf63" name="绿魂.png" path="/image/" exported="true"/>
+    <image id="f1cf64" name="黄魂.png" path="/image/" exported="true"/>
+    <image id="f1cf65" name="蓝魂.png" path="/image/" exported="true"/>
+    <image id="kcyr6i" name="锻造标题.png" path="/image/" exported="true"/>
+    <image id="bfa36j" name="完美升星.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="DuanZao" genCode="true" npot="true" excluded="bwmw5n"/>
+</packageDescription>

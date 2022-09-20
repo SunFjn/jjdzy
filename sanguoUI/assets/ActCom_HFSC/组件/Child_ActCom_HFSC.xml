@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,916" opaque="false">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n3_gapn" name="backImg" xy="6,299" size="628,449" url="ui://444si0mygapn1"/>
+    <image id="n2_gapn" name="n2" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,699" size="640,217"/>
+    <image id="n8_gapn" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="260,845"/>
+    <component id="n4_gapn" name="tab0" src="gapn5" fileName="组件/ShouChongTab.xml" xy="92,582">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+    <component id="n5_gapn" name="tab1" src="gapn5" fileName="组件/ShouChongTab.xml" xy="326,582">
+      <Button title="充值98元" controller="c1" page="1"/>
+    </component>
+    <component id="n7_gapn" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="257,839">
+      <Button title="领取"/>
+    </component>
+    <list id="n6_gapn" name="list" xy="47,740" size="610,102" scale="0.9,0.9" layout="row" overflow="hidden" scroll="horizontal" colGap="8" defaultItem="ui://jvxpx9emetorm" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n10_xgdw" name="n10" src="f1cf4g" fileName="image1/Bg3.png" pkg="jvxpx9em" xy="191,669" size="257,28"/>
+    <richtext id="n9_xgdw" name="n9" xy="210,670" size="220,26" fontSize="18" color="#ff0000" text="在本界面点击充值才可生效"/>
+  </displayList>
+</component>

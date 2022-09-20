@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="72,24" extention="Label">
+  <displayList>
+    <image id="n0_nvxy" name="n0" src="nvxy3ia" fileName="image/通用底框/小边框底.png" xy="-2,0" size="77,24">
+      <relation target="n1_nvxy" sidePair="leftext-left,rightext-right"/>
+    </image>
+    <richtext id="n1_nvxy" name="title" xy="17,0" size="37,28" fontSize="18" color="#ffffff" text="123">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

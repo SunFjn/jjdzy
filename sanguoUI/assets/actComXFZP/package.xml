@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="eo9jmf5w" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ve5s0" name="Child_ActComXfZp.xml" path="/组件/" exported="true"/>
+    <image id="ve5s1" name="板块.png" path="/image/" exported="true"/>
+    <image id="ve5s2" name="板块2.png" path="/image/" exported="true"/>
+    <image id="ve5s3" name="转盘-中间按钮.png" path="/image/" exported="true"/>
+    <image id="ve5s4" name="转盘-指针.png" path="/image/" exported="true"/>
+    <image id="ve5s5" name="转盘.png" path="/image/" exported="true"/>
+    <image id="ve5s6" name="转盘底.png" path="/image/" exported="true"/>
+    <image id="h2o67" name="椭圆 1 拷贝.png" path="/image/"/>
+    <image id="h2o68" name="图层1.png" path="/image/"/>
+    <image id="h2o69" name="图层2.png" path="/image/"/>
+    <image id="h2o6a" name="装饰1.png" path="/image/"/>
+    <image id="h2o6b" name="装饰2.png" path="/image/"/>
+    <image id="h2o6c" name="装饰3.png" path="/image/"/>
+    <image id="h2o6d" name="装饰4.png" path="/image/"/>
+  </resources>
+  <publish name="actComXFZP" genCode="true"/>
+</packageDescription>

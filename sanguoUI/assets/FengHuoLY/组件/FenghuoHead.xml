@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="165,126">
+  <displayList>
+    <image id="n1_1266w" name="imgHead" src="kzd9e" fileName="images/1.png" xy="43,4"/>
+    <image id="n0_1266w" name="imgHeadGrid" src="ov4h17" fileName="images/2001.png" xy="39,0"/>
+    <text id="n2_1266w" name="lbName" xy="0,98" size="165,28" fontSize="18" color="#00ff00" text="名字最长六子.s6666"/>
+  </displayList>
+</component>

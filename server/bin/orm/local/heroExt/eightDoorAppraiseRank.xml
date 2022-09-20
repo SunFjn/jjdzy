@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.eightDoorAppraiseRank.model.EightDoorAppraiseRank" tbname="eightDoorAppraiseRank">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="appraiseTimes" type="int" pf="all" comment="鉴定次数"/>
+     </tb>
+</tbs>

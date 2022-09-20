@@ -1,0 +1,15 @@
+2020-10-16 11:22:48.669 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-16 11:22:48.734 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-16 11:22:48.734 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-16 11:22:48.734 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-16 11:22:48.734 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2020-10-16 11:22:49.580 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000276
+2020-10-16 11:23:30.598 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:8
+2020-10-16 11:23:39.944 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:8
+2020-10-16 11:25:56.721 [OpTaskExecutorService-thread-1] WARN  com.teamtop.system.event.useAddEvent.UseAddUtil - GameConst.huobiMap can not find3,type:8
+2020-10-16 11:26:30.235 [nioEventLoopGroup-11-3] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000276
+2020-10-16 11:50:00.856 [任务线程 - 1] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-10-16 11:50:00.871 [任务线程 - 1] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-10-16 11:50:00.871 [任务线程 - 1] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-10-16 11:50:00.871 [任务线程 - 1] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null
+2020-10-16 11:50:00.887 [任务线程 - 1] WARN  com.teamtop.system.crossBoss.CrossBossFunction - countryRankList==null

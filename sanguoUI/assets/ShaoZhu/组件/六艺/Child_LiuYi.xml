@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <controller name="c1" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <controller name="c2" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n24_oe5v" name="imgYaoqiu" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="475,319" size="138,216">
+      <relation target="n11_ad1l" sidePair="height-height"/>
+    </image>
+    <image id="n23_oe5v" name="n23" src="m3513bv" fileName="image/通用底框/tips.png" pkg="jvxpx9em" xy="13,737" size="615,176"/>
+    <component id="n10_ad1l" name="lbPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="186,300"/>
+    <richtext id="n11_ad1l" name="lbYaoqiu" xy="485,322" size="142,208" fontSize="18" color="#ffffff" leading="8" autoSize="height" autoClearText="true" text="考试要求：&#xA;礼：Lv50/100&#xA;乐：Lv50/100&#xA;射：Lv50/100&#xA;御：Lv50/100&#xA;御：Lv50/100&#xA;御：Lv50/100"/>
+    <image id="n22_ad1l" name="n22" src="fyft3hg" fileName="image1/flag.png" pkg="jvxpx9em" xy="97,354" size="32,116"/>
+    <richtext id="n19_ad1l" name="lbName" xy="101,360" size="24,122" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="1级学堂"/>
+    <component id="n27_kc1n" name="btn1" src="ad1l1y" fileName="组件/六艺/BtnLiuYi.xml" xy="23,531">
+      <Button controller="c1" page="1"/>
+    </component>
+    <component id="n28_kc1n" name="btn2" src="ad1l1y" fileName="组件/六艺/BtnLiuYi.xml" xy="228,531">
+      <Button controller="c1" page="2"/>
+    </component>
+    <component id="n29_kc1n" name="btn3" src="ad1l1y" fileName="组件/六艺/BtnLiuYi.xml" xy="433,531">
+      <Button controller="c1" page="3"/>
+    </component>
+    <component id="n30_kc1n" name="btn4" src="ad1l1y" fileName="组件/六艺/BtnLiuYi.xml" xy="23,630">
+      <Button controller="c1" page="4"/>
+    </component>
+    <component id="n31_kc1n" name="btn5" src="ad1l1y" fileName="组件/六艺/BtnLiuYi.xml" xy="228,630">
+      <Button controller="c1" page="5"/>
+    </component>
+    <component id="n32_kc1n" name="btn6" src="ad1l1y" fileName="组件/六艺/BtnLiuYi.xml" xy="433,630">
+      <Button controller="c1" page="6"/>
+    </component>
+    <component id="n33_kc1n" name="btn0" src="kc1n2b" fileName="组件/六艺/BtnXueTang.xml" xy="222,359">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+    <richtext id="n12_ad1l" name="lbLvSel" xy="131,759" size="158,35" group="n34_kc1n" fontSize="24" color="#33ff00" autoClearText="true" text="Lv.1000/1000"/>
+    <richtext id="n13_ad1l" name="lbPowerSel" xy="131,794" size="203,35" group="n34_kc1n" fontSize="24" color="#ffcc33" autoClearText="true" text="战力：123456789"/>
+    <richtext id="n14_ad1l" name="lbAttrSel" xy="131,829" size="153,53" group="n34_kc1n" fontSize="18" color="#e9e7d2" autoClearText="true" text="生命+123456789&#xA;生命+123456789"/>
+    <richtext id="n15_ad1l" name="lbCanUp" xy="425,865" size="210,28" group="n34_kc1n" fontSize="18" color="#ff0000" align="center" autoSize="none" autoClearText="true" text="孙鲁育四星可升级"/>
+    <component id="n16_ad1l" name="btnLY" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="462,797" pivot="0.5,0.5" group="n34_kc1n">
+      <Button title="升级"/>
+    </component>
+    <component id="n17_ad1l" name="vres" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="487,757" size="128,33" group="n34_kc1n"/>
+    <richtext id="n18_ad1l" name="lbRes" xy="386,761" size="95,28" group="n34_kc1n" fontSize="18" color="#00ff00" align="right" autoSize="none" autoClearText="true" text="三字经"/>
+    <loader id="n21_ad1l" name="imgSel" xy="32,781" size="88,88" group="n34_kc1n" url="ui://p83wyb2bad1l23"/>
+    <richtext id="n26_kc1n" name="lbOpen" xy="23,803" size="597,45" group="n34_kc1n" touchable="false" fontSize="24" color="#ff0000" align="center" autoSize="none" autoClearText="true" text="中级学堂开启"/>
+    <richtext id="n42_quos" name="lbMaxLv" xy="475,809" size="111,35" group="n34_kc1n" touchable="false" fontSize="24" color="#33ff00" align="center" autoSize="none" autoClearText="true" text="已满级"/>
+    <group id="n34_kc1n" name="n34" xy="23,757" size="612,136" advanced="true">
+      <gearDisplay controller="c2" pages="1"/>
+    </group>
+    <component id="n35_kc1n" name="btnXT" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="463,801" pivot="0.5,0.5" group="n41_kc1n">
+      <Button title="学堂考试"/>
+    </component>
+    <richtext id="n38_kc1n" name="lbXT" xy="39,762" size="399,31" group="n41_kc1n" fontSize="20" color="#ffffff" autoClearText="true" text="初级学堂：孙鲁育升星属性+50%（+60%）"/>
+    <richtext id="n39_kc1n" name="lbPowerXT" xy="39,795" size="188,34" group="n41_kc1n" fontSize="22" color="#ffcc33" autoClearText="true" text="战力：123456789"/>
+    <richtext id="n40_kc1n" name="lbAttrXT" xy="41,827" size="153,78" group="n41_kc1n" fontSize="18" color="#e9e7d2" autoClearText="true" text="生命+123456789&#xA;生命+123456789&#xA;生命+123456789"/>
+    <group id="n41_kc1n" name="n41" xy="39,762" size="560,143" advanced="true">
+      <gearDisplay controller="c2" pages="0"/>
+    </group>
+  </displayList>
+</component>

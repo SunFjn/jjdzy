@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="290,166">
+  <displayList>
+    <image id="n0_x9uy" name="n0" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="290,166"/>
+    <component id="n1_x9uy" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="21,14"/>
+    <component id="n2_x9uy" name="buyBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="138,105" size="117,43">
+      <Button title="兑换"/>
+    </component>
+    <loader id="n3_x9uy" name="typeImg0" xy="185,58" size="40,40" url="ui://jvxpx9emc4lpa4" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <image id="n4_x9uy" name="buyImg" src="c4lpa2" fileName="image/已售罄.png" pkg="jvxpx9em" xy="136,107" visible="false"/>
+    <richtext id="n8_x9uy" name="nameLb" xy="1,126" size="139,28" touchable="false" fontSize="18" color="#ff0000" align="center" leading="0" autoSize="shrink" text="兵法属性丹属性丹"/>
+    <richtext id="n9_x9uy" name="dataLb" xy="136,21" size="133,68" touchable="false" fontSize="18" color="#ffffff" leading="18" vars="true" text="限购：0/3&#xA;现价：      1000"/>
+  </displayList>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,141">
+  <displayList>
+    <image id="n21_cazx" name="n21" src="hfct4w" fileName="image/乱世枭雄/决赛.png" xy="236,0"/>
+    <image id="n22_cazx" name="n22" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="0,74" size="600,67" flip="vt"/>
+    <richtext id="n23_cazx" name="lbName" xy="139,94" size="322,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="战斗中  00:00:00"/>
+  </displayList>
+</component>

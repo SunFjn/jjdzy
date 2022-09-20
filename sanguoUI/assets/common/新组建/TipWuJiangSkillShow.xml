@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,560">
+  <displayList>
+    <text id="n0_oy8g" name="n0" xy="194,0" size="211,35" fontSize="24" color="#e9ad1b" align="center" autoSize="none" text="点击任意位置关闭"/>
+    <loader id="n8_oy8g" name="wjBg" xy="300,321" pivot="0.5,0.5" anchor="true" size="176,87" touchable="false" align="center" vAlign="bottom"/>
+    <image id="n6_oy8g" name="n6" src="x3b93cl" fileName="image/通用底框/方框3.png" xy="0,414" size="600,146" group="n9_rlwe"/>
+    <loader id="n2_oy8g" name="bg" xy="31,424" size="110,110" group="n9_rlwe" url="ui://jvxpx9emdhj53ds" fill="scaleFree"/>
+    <loader id="n1_oy8g" name="imgIcon" xy="44,437" size="84,83" group="n9_rlwe" url="ui://zyx92gzwl0xew" fill="scaleFree"/>
+    <richtext id="n3_oy8g" name="labName" xy="13,374" size="181,43" group="n9_rlwe" fontSize="30" color="#e9ad1b" text="夜叉探海.Lv1"/>
+    <richtext id="n5_oy8g" name="labDesc" xy="150,446" size="401,69" group="n9_rlwe" touchable="false" fontSize="24" color="#ffffff" autoSize="height" text="技能说明技能说明技能说明技能说明技能说明技能说明技能说明技能说明"/>
+    <group id="n9_rlwe" name="gSkill" xy="0,374" size="600,186" advanced="true"/>
+  </displayList>
+</component>

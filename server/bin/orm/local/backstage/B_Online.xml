@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 在线时长统计-->
+	<tb model="com.teamtop.system.event.backstage.events.backstage.online.B_Online" tbname="b_online">
+		<index field="id" type="prikey"/>
+		<index field="time" type="normal"/>
+		<index field="pfcode" type="normal"/>
+		<index field="zoneid" type="normal"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="onlineNum" type="int" pf="all" comment="在线人数"/>
+		<col field="time" type="int" pf="all" comment="时间"/>
+		<col field="ipNum" type="int" pf="all" comment="在线IP数"/>
+		<col field="pfcode" type="varchar" len="255" pf="all" comment="平台代码"/>
+		<col field="zoneid" type="int" pf="all" comment="区号"/>
+	</tb>
+</tbs>

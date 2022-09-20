@@ -1,0 +1,39 @@
+{
+  "engineVersion": "5.2.26",
+  "compilerVersion": "5.2.26",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "promise"
+    },{
+      "name":"dragonbones"
+    }
+  ],
+  "targets": {
+    "android": {
+      "appname": "测试包",
+      "packagename": "com.companyname"
+    }
+  },
+  "vivo": {
+    "usePlugin": true
+  }
+}

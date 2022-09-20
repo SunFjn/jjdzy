@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="188,46">
+  <displayList>
+    <image id="n0_k8h1" name="n0" src="k8h12c" fileName="image/玩家名字底.png" xy="0,0"/>
+    <richtext id="n2_k8h1" name="nameLb" xy="9,9" size="169,28" fontSize="18" color="#ffffff" align="center" leading="0" text="s1000.三国无双三国">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n3_jzus" name="imgYaZhu" src="hfct52" fileName="image/乱世枭雄/已押注标签.png" xy="-7,-12" visible="false"/>
+  </displayList>
+</component>

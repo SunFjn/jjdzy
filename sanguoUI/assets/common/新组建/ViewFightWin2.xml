@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n14_jb04" name="bg1" src="d2iu9v" fileName="新组建/ViewBg1.xml" xy="0,0"/>
+    <image id="n15_jb04" name="n15" src="i6im6i" fileName="image1/胜利.png" xy="226,18"/>
+    <image id="n29_h2qt" name="n29" src="q5t63h4" fileName="image1/技能底.png" xy="50,301" size="540,249" flip="vt"/>
+    <component id="n20_e1fi" name="btnClose" src="y1z8l" fileName="组件/Button1.xml" xy="248,736">
+      <Button title="退出(10)"/>
+    </component>
+    <image id="n23_ydye" name="imgUp" src="ydyeam" fileName="image1/成功晋级.png" xy="242,207"/>
+    <component id="n24_ydye" name="viewHead" src="p75387" fileName="新组建/ViewHead.xml" xy="260,319"/>
+    <richtext id="n25_ydye" name="lbName" xy="232,460" size="176,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="S1000.玩家名字六字"/>
+    <richtext id="n26_ydye" name="lbGuanxian" xy="190,426" size="260,28" touchable="false" fontSize="18" color="#ffc334" align="center" autoSize="none" text="【12阶官衔】"/>
+    <richtext id="n27_ydye" name="lbPower" xy="232,494" size="176,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="战力：1000000"/>
+  </displayList>
+</component>

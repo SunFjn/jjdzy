@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.godbook.GodBook" tbname="godbook">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="wearid" type="int" pf="all" comment="携带的天书id"/>
+			<col field="level" type="int" pf="all" comment="天书等级"/>
+			<col field="exp" type="int" pf="all" comment="天书经验"/>
+			<col field="hasBooks" type="text" pf="all" comment="已激活天书"/>
+			<col field="strength" type="int" pf="all" comment="天书战力"/>
+			<col field="skills" type="varchar" len="1000" pf="all" comment="技能"/>	
+			<col field="taozhuangs" type="varchar" len="400" pf="all" comment="套装"/>					
+     </tb>
+</tbs>

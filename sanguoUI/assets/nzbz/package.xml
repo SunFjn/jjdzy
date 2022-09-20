@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="xzyn0qe3" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="nb1u0" name="View_NZBZ_Panel.xml" path="/组件/" exported="true"/>
+    <component id="nb1u6" name="NZBZ_Item.xml" path="/组件/" exported="true"/>
+    <component id="nb1u7" name="Child_NZBZ.xml" path="/组件/" exported="true"/>
+    <component id="l3h38" name="View_NZBZ_Rank.xml" path="/组件/" exported="true"/>
+    <component id="l3h39" name="NZBZ_RankItem.xml" path="/组件/" exported="true"/>
+    <component id="l3h3b" name="Child_NZBZ_MyRank.xml" path="/组件/" exported="true"/>
+    <component id="l3h3f" name="Child_Country_Rank.xml" path="/组件/" exported="true"/>
+    <component id="i6imh" name="View_NZBZ_JiFenReward.xml" path="/组件/" exported="true"/>
+    <component id="i6imj" name="JiFenRewardItem.xml" path="/组件/" exported="true"/>
+    <component id="aro8m" name="NZBZHead.xml" path="/组件/" exported="true"/>
+    <image id="aro8n" name="排名奖励.png" path="/image/" exported="true"/>
+    <image id="aro8o" name="积分奖励.png" path="/image/" exported="true"/>
+    <image id="aro8p" name="30积分.png" path="/image/" exported="true"/>
+    <image id="aro8q" name="10积分.png" path="/image/" exported="true"/>
+    <image id="aro8r" name="20积分.png" path="/image/" exported="true"/>
+    <image id="aro8s" name="功勋图标.png" path="/image/" exported="true"/>
+    <image id="aro8t" name="声望图标.png" path="/image/" exported="true"/>
+    <image id="rjsa18" name="君主.png" path="/image/" exported="true"/>
+    <component id="81i01b" name="View_NZBZ_SaoDang.xml" path="/组件/" exported="true"/>
+    <image id="gv341e" name="南征北战标题.png" path="/image/" exported="true"/>
+    <image id="tidc1i" name="countrya1.png" path="/image/"/>
+  </resources>
+  <publish name="nzbz" genCode="true" npot="true" excluded="tidc1i"/>
+</packageDescription>

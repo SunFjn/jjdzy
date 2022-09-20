@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="204,103">
+  <displayList>
+    <image id="n0_e7fg" name="n0" src="x3b93cl" fileName="image1/BOSS名字底.png" pkg="jvxpx9em" xy="0,0" size="204,103"/>
+    <component id="n1_e7fg" name="button" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="37,26"/>
+    <component id="n2_e7fg" name="closeBtn" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="164,-26" size="62,56">
+      <Button icon="ui://jvxpx9emq2mk3g8"/>
+    </component>
+  </displayList>
+</component>

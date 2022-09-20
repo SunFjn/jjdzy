@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="576,128">
+  <controller name="c1" pages="0,没有数据,1,有数据" selected="0"/>
+  <displayList>
+    <image id="n6_xn88" name="n6" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="576,128"/>
+    <list id="n1_xn88" name="list" xy="300,21" size="335,109" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="1" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n2_xn88" name="lbRank" xy="12,50" size="91,31" fontSize="24" color="#f9bb13" align="center" autoSize="none" text="1St"/>
+    <richtext id="n4_xn88" name="lbName" xy="110,23" size="184,25" group="n7_xn88" fontSize="18" color="#ffffff" align="center" autoSize="height" text="岁月催人老了.s9999"/>
+    <richtext id="n5_xn88" name="lbCount" xy="110,70" size="184,25" group="n7_xn88" fontSize="18" color="#ffffff" align="center" autoSize="height" text="对出100联"/>
+    <group id="n7_xn88" name="n7" xy="110,23" size="184,72" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n8_xn88" name="xwydImg" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="155,54">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <loader id="n9_tl0c" name="rankImg" xy="21,32" size="75,67" url="ui://jvxpx9em100v3al"/>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+2020-11-06 11:26:37.312 [任务线程 - 5] ERROR com.teamtop.util.exector.schedule.ScheduleFixtime - java.lang.NullPointerException
+	at com.teamtop.system.battleGoods.event.BattleGoodLocalSysEvent.fixTime(BattleGoodLocalSysEvent.java:69)
+	at com.teamtop.util.exector.schedule.ScheduleFixtime.execute(ScheduleFixtime.java:119)
+	at com.teamtop.util.exector.schedule.ScheduleUtil$2.run(ScheduleUtil.java:204)
+	at com.teamtop.util.exector.schedule.SchedulerBean$3.run(SchedulerBean.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+,excute event ocurs an error

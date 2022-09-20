@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="554,120">
+  <displayList>
+    <image id="n1_elpx" name="n1" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="554,120"/>
+    <image id="n7_hoin" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="401,40"/>
+    <component id="n2_elpx" name="grid0" src="elpxf" fileName="晋升/JinShengGrid.xml" xy="10,7"/>
+    <component id="n3_elpx" name="grid1" src="elpxf" fileName="晋升/JinShengGrid.xml" xy="120,7"/>
+    <component id="n4_elpx" name="grid2" src="elpxf" fileName="晋升/JinShengGrid.xml" xy="230,7"/>
+    <richtext id="n6_elpx" name="promptLb" xy="333,42" size="189,35" touchable="false" fontSize="24" color="#ed1414" align="right" leading="0" ubb="true" autoSize="none" text="晋升到四品"/>
+  </displayList>
+</component>

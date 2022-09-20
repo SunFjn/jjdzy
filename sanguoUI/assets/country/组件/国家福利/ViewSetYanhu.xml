@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="620,550">
+  <displayList>
+    <component id="n0_zftk" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="620,580"/>
+    <text id="n1_zftk" name="n1" xy="279,26" size="60,31" fontSize="24" color="#ffffff" ubb="true" strokeColor="#000000" text="设 宴"/>
+    <list id="n2_zftk" name="list" xy="5,86" size="610,480" overflow="scroll" scrollBarFlags="128" margin="10,0,0,0" lineGap="5" defaultItem="ui://uwzc58njzftk3e">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

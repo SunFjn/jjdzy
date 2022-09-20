@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="635,152">
+  <displayList>
+    <image id="n2_i6im" name="n2" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="635,152"/>
+    <image id="n12_oo0o" name="n12" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="30,14"/>
+    <richtext id="n3_i6im" name="jifenLb" xy="32,10" size="180,31" fontSize="20" color="#ffffff" leading="0" text="积分达到(200/100)"/>
+    <image id="n7_i6im" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="462,59"/>
+    <component id="n8_i6im" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="33,48" scale="0.8,0.8"/>
+    <component id="n9_i6im" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="115,48" scale="0.8,0.8"/>
+    <component id="n10_i6im" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="197,49" scale="0.8,0.8"/>
+    <component id="n13_oo0o" name="grid3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="279,49" scale="0.8,0.8"/>
+    <component id="n6_i6im" name="goBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="459,54">
+      <Button title="前往"/>
+    </component>
+    <component id="n14_fgbi" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="459,54">
+      <Button title="领取"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,683">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0_f00b" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,628"/>
+    <text id="n1_f00b" name="title" xy="237,25" size="117,40" fontSize="28" color="#ffffff" ubb="true" strokeColor="#000000" text="神将之力"/>
+    <component id="n3_f00b" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,624">
+      <Button checked="true" title="神将之力" controller="c1" page="0"/>
+    </component>
+    <component id="n4_f00b" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,624">
+      <Button title="技能进阶" controller="c1" page="1"/>
+    </component>
+  </displayList>
+</component>

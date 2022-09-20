@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="609,191">
+  <displayList>
+    <loader id="n0_sr40" name="imgBg" xy="0,0" size="609,191" url="ui://7a366usaloov1o"/>
+    <loader id="n2_sr40" name="imgPic" xy="25,52" size="50,30"/>
+    <component id="n4_sr40" name="btnEnter" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="239,85">
+      <Button title="进入关卡"/>
+    </component>
+    <loader id="n7_loov" name="imgName" xy="235,20" size="134,30" align="center"/>
+    <image id="n8_loov" name="n8" src="loov1s" fileName="image/六出祁山/矩形.png" xy="220,25"/>
+    <image id="n9_loov" name="n9" src="loov1s" fileName="image/六出祁山/矩形.png" xy="372,25"/>
+    <image id="n5_loov" name="maskBg" src="k8qc9z" fileName="image1/maskBg.png" pkg="jvxpx9em" xy="0,0" size="609,191" visible="false"/>
+    <image id="n10_hndy" name="imgNoOpen" src="sr401c" fileName="image/六出祁山/通关上一关卡后开启.png" xy="198,99"/>
+  </displayList>
+</component>

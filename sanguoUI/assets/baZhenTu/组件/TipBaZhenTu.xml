@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="453,320">
+  <displayList>
+    <component id="n1_ylz5" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,0" size="453,320"/>
+    <image id="n4_ylz5" name="g22" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="26,191" size="401,100"/>
+    <richtext id="n5_ylz5" name="lbName" xy="139,43" size="101,35" fontSize="24" color="#ffffff" text="经验符文"/>
+    <richtext id="n7_ylz5" name="lbPower1" xy="138,105" size="103,28" visible="false" fontSize="18" color="#ffffff" text="战力：9999"/>
+    <richtext id="n8_ylz5" name="lbLevel" xy="138,80" size="103,28" fontSize="18" color="#ffffff" text="等级：9999"/>
+    <richtext id="n9_ylz5" name="lbDes" xy="47,202" size="350,84" touchable="false" fontSize="18" color="#ffffff" leading="6" autoSize="height" text="气血+1000&#xA;气血+1000&#xA;气血+1000"/>
+    <richtext id="n11_ylz5" name="lbDesTit" xy="44,160" size="93,34" touchable="false" fontSize="22" color="#ffc344" text="符文属性"/>
+    <component id="n15_ylz5" name="grid" src="f8nk4" fileName="组件/VBaZTGrid.xml" xy="28,40"/>
+    <component id="n16_axy4" name="lbPower" src="z8fv3ff" fileName="新组建/ViewPower1.xml" pkg="jvxpx9em" xy="138,108" scale="0.9,0.9">
+      <Label title="111222223"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n3_b8g1" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0" size="640,1136">
+      <Label icon="ui://tbqdf7fdnlhgg"/>
+    </component>
+    <image id="n14_b8g1" name="n14" src="z1jw6l" fileName="image/侧边框底.png" pkg="jvxpx9em" xy="8,149" size="129,764"/>
+    <image id="n16_b8g1" name="n16" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="231,396"/>
+    <image id="n35_b8g1" name="n35" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="143,609" size="477,142"/>
+    <list id="n15_b8g1" name="list" xy="15,153" size="123,755" overflow="scroll" defaultItem="ui://tbqdf7fdb8g16" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n17_b8g1" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="238,149" touchable="false"/>
+    <component id="n19_b8g1" name="nameLb" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="153,189" touchable="false"/>
+    <component id="n20_b8g1" name="suitBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="511,174" size="93,98">
+      <Button icon="ui://tbqdf7fdb8g11"/>
+    </component>
+    <richtext id="n22_b8g1" name="suitLb" xy="512,273" size="91,26" touchable="false" fontSize="16" color="#ffffff" align="center" autoSize="none" text="2阶"/>
+    <component id="n23_b8g1" name="iconBt0" src="zgylb" fileName="组件/JueXingBt.xml" xy="174,436" size="101,103">
+      <Button icon="ui://tbqdf7fdb8g13" selectedIcon="ui://tbqdf7fdb8g19"/>
+    </component>
+    <component id="n24_b8g1" name="iconBt1" src="zgylb" fileName="组件/JueXingBt.xml" xy="329,490" size="101,103">
+      <Button icon="ui://tbqdf7fdb8g12" selectedIcon="ui://tbqdf7fdb8g17"/>
+    </component>
+    <component id="n25_b8g1" name="iconBt2" src="zgylb" fileName="组件/JueXingBt.xml" xy="485,436" size="101,103">
+      <Button icon="ui://tbqdf7fdb8g10" selectedIcon="ui://tbqdf7fdb8g18"/>
+    </component>
+    <richtext id="n36_b8g1" name="curLb" xy="160,616" size="152,31" fontSize="20" color="#ffffff" align="center" text="觉醒·七杀  Lv.10"/>
+    <richtext id="n37_b8g1" name="attLb" xy="160,652" size="132,66" fontSize="20" color="#ffffff" leading="10" text="生命+100000&#xA;生命+100000"/>
+    <richtext id="n38_b8g1" name="maxLb" xy="142,760" size="478,31" fontSize="20" color="#ffffff" align="center" autoSize="none" text="1阶"/>
+    <component id="n39_b8g1" name="jxBt" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="309,801" group="n41_b8g1">
+      <Button title="觉醒"/>
+    </component>
+    <richtext id="n40_b8g1" name="costLb" xy="293,865" size="175,28" group="n41_b8g1" touchable="false" fontSize="18" color="#ffffff" leading="0" text="消耗：张凌剑x1(0/1)">
+      <relation target="n39_b8g1" sidePair="center-center"/>
+    </richtext>
+    <group id="n41_b8g1" name="costGroup" xy="293,801" size="175,92" advanced="true"/>
+    <image id="n42_b8g1" name="n42" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="197,837" group="n44_b8g1"/>
+    <richtext id="n43_b8g1" name="n43" xy="322,829" size="120,35" group="n44_b8g1" touchable="false" fontSize="24" color="#00ff00" align="center" autoSize="none" text="已满级"/>
+    <group id="n44_b8g1" name="maxGroup" xy="197,829" size="366,35" advanced="true"/>
+  </displayList>
+</component>

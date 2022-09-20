@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="175,235" opaque="false" designImageOffsetX="-52" designImageOffsetY="-242">
+  <displayList>
+    <image id="n17_eia5" name="imgBg" src="eia55z" fileName="image/三国战神/光圈.png" xy="0,102"/>
+    <loader id="n19_eia5" name="qizi" xy="4,64" size="50,50" url="ui://me1skowleia564"/>
+    <richtext id="n8_qiai" name="rankLb" xy="17,89" size="29,89" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="第二名"/>
+    <image id="n30_eia5" name="n30" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="6,0" size="146,60" group="n34_eia5"/>
+    <richtext id="n31_eia5" name="nameLb" xy="5,0" size="147,28" group="n34_eia5" touchable="false" fontSize="18" color="#ffffff" align="center" leading="10" autoSize="none" text="玩家名字六字"/>
+    <image id="n32_eia5" name="n32" src="bwmw3l" fileName="image/战力.png" pkg="jvxpx9em" xy="11,30" size="38,27" group="n34_eia5" aspect="true">
+      <relation target="n33_eia5" sidePair="left-left"/>
+    </image>
+    <richtext id="n33_eia5" name="powerLb" xy="97,33" pivot="0.5,0" anchor="true" size="95,22" group="n34_eia5" touchable="false" fontSize="16" color="#f1b926" leading="10" text="1234000000"/>
+    <image id="n37_w6sh" name="n37" src="w6sh6c" fileName="image/矩形 2267.png" xy="9,26" size="140,1" group="n34_eia5"/>
+    <group id="n34_eia5" name="boxName" xy="5,0" size="187,60" advanced="true" collapsed="true"/>
+    <component id="n35_q2i9" name="saodangBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="103,134" size="64,69">
+      <Button icon="ui://me1skowleia562"/>
+    </component>
+    <component id="n36_q2i9" name="battleBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="103,134" size="64,69">
+      <Button icon="ui://me1skowleia563"/>
+    </component>
+  </displayList>
+</component>

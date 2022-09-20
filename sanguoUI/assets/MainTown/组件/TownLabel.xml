@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="178,62" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n11_idjl" name="icon" xy="0,0" size="176,62" aspect="true" url="ui://p8pwr887idjlt" autoSize="true"/>
+    <image id="n16_idjl" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="150,4"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.1"/>
+  <relation target="n11_idjl" sidePair="width-width,height-height"/>
+</component>

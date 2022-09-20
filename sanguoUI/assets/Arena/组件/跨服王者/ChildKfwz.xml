@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://me1skowln9yf6f" designImageAlpha="49">
+  <controller name="gradeCtrl" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <image id="n18_n9yf" name="n18" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="24,366" size="591,156"/>
+    <image id="n19_n9yf" name="teamListBg" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="19,529" size="602,306"/>
+    <component id="n6_n9yf" name="btnLog" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="18,152" size="84,88">
+      <Button icon="ui://me1skowln9yf6p"/>
+    </component>
+    <component id="n7_n9yf" name="btnReward" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="117,152" size="84,88">
+      <Button icon="ui://me1skowln9yf6q"/>
+    </component>
+    <component id="n8_n9yf" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="18,252" size="84,88">
+      <Button icon="ui://me1skowln9yf6t"/>
+    </component>
+    <component id="n9_n9yf" name="btnHelp" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="117,252" size="84,88">
+      <Button icon="ui://me1skowln9yf6r"/>
+    </component>
+    <image id="n45_s0r5" name="gradeGrid0" src="s0r57a" fileName="组件/跨服王者/res/经验1.png" xy="254,273" group="n55_s0r5"/>
+    <image id="n46_s0r5" name="gradeGrid1" src="s0r57b" fileName="组件/跨服王者/res/经验2.png" xy="244,283" group="n55_s0r5"/>
+    <image id="n47_s0r5" name="gradeGrid2" src="s0r57c" fileName="组件/跨服王者/res/经验3.png" xy="245,288" group="n55_s0r5"/>
+    <image id="n48_s0r5" name="gradeGrid3" src="s0r57d" fileName="组件/跨服王者/res/经验4.png" xy="267,295" group="n55_s0r5"/>
+    <image id="n49_s0r5" name="gradeGrid4" src="s0r57e" fileName="组件/跨服王者/res/经验5.png" xy="294,298" group="n55_s0r5"/>
+    <image id="n50_s0r5" name="gradeGrid5" src="s0r57f" fileName="组件/跨服王者/res/经验6.png" xy="319,298" group="n55_s0r5"/>
+    <image id="n51_s0r5" name="gradeGrid6" src="s0r57g" fileName="组件/跨服王者/res/经验7.png" xy="334,295" group="n55_s0r5"/>
+    <image id="n52_s0r5" name="gradeGrid7" src="s0r57h" fileName="组件/跨服王者/res/经验8.png" xy="348,289" group="n55_s0r5"/>
+    <image id="n53_s0r5" name="gradeGrid8" src="s0r57i" fileName="组件/跨服王者/res/经验9.png" xy="364,282" group="n55_s0r5"/>
+    <image id="n54_s0r5" name="gradeGrid9" src="s0r57j" fileName="组件/跨服王者/res/经验10.png" xy="347,273" group="n55_s0r5"/>
+    <group id="n55_s0r5" name="n55" xy="244,273" size="151,49"/>
+    <loader id="n10_n9yf" name="iconGrade" xy="320,225" pivot="0.5,0.5" anchor="true" size="105,79" url="ui://me1skowln9yf6v" autoSize="true">
+      <gearIcon controller="gradeCtrl" pages="1,2,3,4,5" values="ui://me1skowln9yf6y|ui://me1skowln9yf6u|ui://me1skowln9yf6x|ui://me1skowln9yf6w|ui://me1skowlpzsw7s" default="ui://me1skowln9yf6v"/>
+    </loader>
+    <loader id="n12_n9yf" name="iconGName" xy="455,170" pivot="0.5,0.5" size="110,53" url="ui://me1skowlpzsw7w" autoSize="true">
+      <gearIcon controller="gradeCtrl" pages="0,1,3,4,5" values="ui://me1skowlpzsw7w|ui://me1skowlpzsw7u|ui://me1skowlpzsw7v|ui://me1skowlpzsw7y|ui://me1skowlpzsw7x" default="ui://me1skowln9yf6z"/>
+    </loader>
+    <richtext id="n13_n9yf" name="tfSScore" xy="435,259" size="143,25" fontSize="18" color="#ffffff" autoClearText="true" text="本赛季积分：200"/>
+    <richtext id="n14_n9yf" name="tfSRank" xy="435,288" size="133,25" fontSize="18" color="#ffffff" autoClearText="true" text="本赛季排名：10"/>
+    <richtext id="n15_n9yf" name="tfGrade" xy="435,233" size="77,25" fontSize="18" color="#ffcc33" autoClearText="true" text="黄金段位"/>
+    <component id="n20_n9yf" name="pb" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="82,464" size="489,20">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n21_n9yf" name="tempBoxItem" src="n9yf70" fileName="组件/跨服王者/KfwzBoxItem.xml" xy="155,435" visible="false"/>
+    <image id="n16_n9yf" name="n16" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="265,323" size="109,29" group="n23_n9yf">
+      <relation target="n17_n9yf" sidePair="leftext-left,rightext-right"/>
+    </image>
+    <richtext id="n17_n9yf" name="tfScore" xy="319,335" pivot="0.5,0.5" anchor="true" size="70,25" group="n23_n9yf" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoClearText="true" text="100/100"/>
+    <group id="n23_n9yf" name="n23" xy="265,323" size="109,29" collapsed="true"/>
+    <richtext id="n25_n9yf" name="tfSate" xy="263,650" pivot="0.5,0.5" size="113,34" fontSize="26" color="#ffff00" bold="true" text="暂无队伍"/>
+    <richtext id="n65_ri59" name="tfDate" xy="279,692" pivot="0.5,0.5" size="81,25" fontSize="18" color="#00ff00" bold="true" autoClearText="true" text="暂无队伍"/>
+    <richtext id="n26_n9yf" name="tfTips" xy="227,800" pivot="0.5,0.5" size="185,25" fontSize="18" color="#00ff00" text="手指拖动调整上阵顺序"/>
+    <component id="n38_9zya" name="btnFast" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="470,852">
+      <Button title="快速加入"/>
+    </component>
+    <component id="n56_cmwd" name="btnCreate" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="470,852">
+      <Button title="创建组队"/>
+    </component>
+    <component id="n39_9zya" name="btnInvite" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="322,852">
+      <Button title="邀请组队"/>
+    </component>
+    <component id="n57_cmwd" name="btnExit" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="470,852">
+      <Button title="退出队伍"/>
+    </component>
+    <component id="n40_9zya" name="btnStart" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="470,852">
+      <Button title="开始匹配"/>
+    </component>
+    <richtext id="n41_9zya" name="tfRemain" xy="45,849" size="140,25" fontSize="18" color="#ffffff" text="挑战次数：20/20"/>
+    <component id="n44_9zya" name="btnAdd" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="186,842" size="41,41">
+      <relation target="n41_9zya" sidePair="left-right,top-top"/>
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <component id="n59_ju9q" name="btnChat" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="19,497" size="51,47">
+      <Button icon="ui://7gxkx46wi2yv6i"/>
+    </component>
+    <list id="n63_p2gq" name="teamListList" xy="38,540" size="576,265" hideByEditor="true" visible="false" layout="row" overflow="hidden" colGap="14" defaultItem="ui://me1skowlp2gq84" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n66_veix" name="teamItemBg0" src="veix8g" fileName="组件/跨服王者/KfwzTeamItemBg.xml" xy="38,540"/>
+    <component id="n67_veix" name="teamItemBg1" src="veix8g" fileName="组件/跨服王者/KfwzTeamItemBg.xml" xy="230,540"/>
+    <component id="n68_veix" name="teamItemBg2" src="veix8g" fileName="组件/跨服王者/KfwzTeamItemBg.xml" xy="422,540"/>
+    <component id="n27_n9yf" name="teamItem0" src="n9yf74" fileName="组件/跨服王者/KfwzTeamItem.xml" xy="38,540"/>
+    <component id="n36_9zya" name="teamItem1" src="n9yf74" fileName="组件/跨服王者/KfwzTeamItem.xml" xy="230,540"/>
+    <component id="n37_9zya" name="teamItem2" src="n9yf74" fileName="组件/跨服王者/KfwzTeamItem.xml" xy="422,540"/>
+    <component id="n64_ri59" name="n64" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="154,368">
+      <Label title="每日胜利"/>
+    </component>
+    <image id="n69_qid3" name="n69" src="qid38h" fileName="组件/跨服王者/res/连胜底框.png" xy="436,319" group="n71_qid3"/>
+    <richtext id="n70_qid3" name="tfCombo" xy="475,312" pivot="1,0" size="35,38" group="n71_qid3" font="ui://jvxpx9emfd9p3i7" fontSize="18" color="#ffffff" autoClearText="true" text="2"/>
+    <group id="n71_qid3" name="groupCombo" xy="436,312" size="146,46" advanced="true"/>
+    <component id="n72_n7mb" name="btnAuto" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="45,881" size="167,32" visible="false">
+      <Button title="&lt;font color='#00ff00'>3秒&lt;/font>后自动匹配"/>
+    </component>
+    <richtext id="n73_n7mb" name="tfAuto" xy="487,832" pivot="0.5,0.5" size="102,22" visible="false" fontSize="16" color="#ffffff" autoClearText="true" text="3s后自动匹配"/>
+  </displayList>
+</component>

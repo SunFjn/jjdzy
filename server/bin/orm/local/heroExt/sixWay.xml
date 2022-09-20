@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.sixWay.SixWay" tbname="sixWay">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="str" type="int" pf="all" comment="总战力"/>
+			<col field="zuhenum" type="text" pf="all" comment="激活的组合数"/>
+			<col field="bagData" type="text" pf="all" comment="背包"/>
+			<col field="bodyData" type="text" pf="all" comment="装备栏的位置索引 	value:装备印记"/>
+     </tb>
+</tbs>

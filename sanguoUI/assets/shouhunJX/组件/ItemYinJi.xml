@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="140,180">
+  <displayList>
+    <image id="n4_rjpy" name="n4" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="0,0" size="139,178"/>
+    <loader id="n9_eium" name="iconType" xy="19,5" size="100,100" url="ui://4aepcdbwk0ep3v" fill="scale"/>
+    <text id="n2_rjpy" name="txtAttr" xy="0,123" size="139,49" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="攻击+100000&#xA;攻击+100000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n5_rjpy" name="n5" src="eium2h" fileName="image/标题文字底.png" xy="29,87" size="78,33"/>
+    <text id="n6_rjpy" name="txtNum" xy="51,93" size="16,28" fontSize="18" color="#ffcc00" vAlign="middle" strokeColor="#000000" text="6">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n7_rjpy" name="n7" src="sv0g2l" fileName="image1/big_star_4.png" pkg="jvxpx9em" xy="68,92">
+      <relation target="n6_rjpy" sidePair="right-right"/>
+    </image>
+    <loader id="n10_nbrv" name="typeIcon" xy="16,5" size="21,43" url="ui://4aepcdbwnbrv43"/>
+    <image id="n11_nbrv" name="maskImg" src="k8qc9z" fileName="image1/maskBg.png" pkg="jvxpx9em" xy="1,1" size="140,178" hideByEditor="true"/>
+    <loader id="n8_rjpy" name="iconLock" xy="101,5" size="28,29" url="ui://jvxpx9emeium3fk"/>
+  </displayList>
+</component>

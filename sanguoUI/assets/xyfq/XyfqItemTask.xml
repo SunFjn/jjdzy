@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="558,117">
+  <controller name="stateCtrl" pages="0,,1,,2," selected="1"/>
+  <displayList>
+    <image id="n8_bnyp" name="n8" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="558,117"/>
+    <list id="n12_bnyp" name="itemList" xy="144,12" size="338,109" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="1" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n13_bnyp" name="tfState" xy="446,41" pivot="0.5,0.5" size="80,33" fontSize="24" color="#ed1414" bold="true" text="未达成"/>
+    <richtext id="n14_bnyp" name="tfName" xy="11,29" pivot="0.5,0.5" size="132,57" fontSize="22" color="#ffffff" align="center" bold="true" autoClearText="true" text="每天0点重置&#xA;test"/>
+    <component id="n15_bnyp" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="418,28" pivot="0.5,0.5">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+      <Button title="领取"/>
+    </component>
+    <image id="n16_bnyp" name="imageGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="424,37">
+      <gearDisplay controller="stateCtrl" pages="2"/>
+    </image>
+  </displayList>
+</component>

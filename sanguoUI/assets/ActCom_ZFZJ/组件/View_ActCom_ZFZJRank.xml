@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="591,851">
+  <displayList>
+    <component id="n1_r3je" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="591,851">
+      <Label title="排行榜"/>
+    </component>
+    <image id="n2_r3je" name="n2" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="13,67" size="564,42"/>
+    <richtext id="n3_r3je" name="n3" xy="48,71" size="41,28" touchable="false" fontSize="18" color="#ffcc00" text="排名"/>
+    <richtext id="n4_r3je" name="n4" xy="419,71" size="41,28" touchable="false" fontSize="18" color="#ffcc00" text="奖励"/>
+    <richtext id="n5_r3je" name="n5" xy="187,70" size="41,28" touchable="false" fontSize="18" color="#ffcc00" text="玩家"/>
+    <richtext id="n13_r3je" name="myRank" xy="27,802" size="95,28" touchable="false" fontSize="18" color="#ffcc00" text="我的排名："/>
+    <richtext id="n14_r3je" name="myNum" xy="450,802" size="95,28" touchable="false" fontSize="18" color="#ffcc00" text="我的敬酒："/>
+    <list id="n11_r3je" name="list" xy="14,113" size="566,681" overflow="scroll" lineGap="6" defaultItem="ui://4h4iwgjrr3jem" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

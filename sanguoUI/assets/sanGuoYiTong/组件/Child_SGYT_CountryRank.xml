@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="560,581">
+  <displayList>
+    <image id="n13_iv4o" name="n13" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="5,544" size="282,37"/>
+    <component id="n2_iv4o" name="item0" src="iv4ok" fileName="组件/SGYT_CountryRankRewardItem.xml" xy="0,0"/>
+    <component id="n11_iv4o" name="item1" src="iv4ok" fileName="组件/SGYT_CountryRankRewardItem.xml" xy="0,182"/>
+    <component id="n12_iv4o" name="item2" src="iv4ok" fileName="组件/SGYT_CountryRankRewardItem.xml" xy="0,364"/>
+    <richtext id="n14_iv4o" name="countryLb" xy="8,545" size="100,35" fontSize="24" color="#ff9900" text="我的国家"/>
+  </displayList>
+</component>

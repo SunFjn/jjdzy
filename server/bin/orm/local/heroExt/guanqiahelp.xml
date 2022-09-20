@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.guanQiaHelp.GuanQiaHelp" tbname="guanqiahelp">
+		<index field="hid" type="prikey" autoIncrement="false" />
+		<col field="hid" type="bigint" pf="all" comment="角色id" />
+		<col field="seekHelpTimes" type="int" pf="all" comment="求助次数 " />
+		<col field="helpTimes" type="int" pf="all" comment="帮助次数" />
+		<col field="lastRefreshTime" type="bigint" pf="all" comment="最后一次刷新时间戳" />
+	</tb>
+</tbs>

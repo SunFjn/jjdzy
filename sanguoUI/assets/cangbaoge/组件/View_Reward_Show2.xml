@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="597,448">
+  <displayList>
+    <component id="n0_ns2m" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="597,448">
+      <Label title="获得奖励"/>
+    </component>
+    <image id="n1_ns2m" name="n1" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="15,84" size="566,284"/>
+    <list id="n2_ns2m" name="list" xy="15,84" size="566,284" layout="flow_hz" selectionMode="none" overflow="hidden" scroll="horizontal" colGap="10" lineItemCount="5" defaultItem="ui://jvxpx9emetorn" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_ns2m" name="surebt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="157,380" group="n5_ns2m">
+      <Button title="确定"/>
+    </component>
+    <component id="n4_ns2m" name="onceMoreBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="309,380" group="n5_ns2m">
+      <Button title="再来一次"/>
+    </component>
+    <group id="n5_ns2m" name="n5" xy="157,380" size="282,51"/>
+  </displayList>
+</component>

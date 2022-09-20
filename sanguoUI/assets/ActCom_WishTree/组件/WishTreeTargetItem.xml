@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="555,115">
+  <displayList>
+    <image id="n0_lonv" name="n0" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="555,115"/>
+    <richtext id="n1_lonv" name="labPoint" xy="13,44" size="122,25" fontSize="18" color="#ffffff" autoClearText="true" text="许愿次数:1000"/>
+    <list id="n2_lonv" name="list" xy="153,5" size="238,106" layout="row" overflow="scroll" scroll="horizontal" colGap="6" defaultItem="ui://jvxpx9emetorm" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_lonv" name="btnRec" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="404,38">
+      <Button title="领取"/>
+    </component>
+    <richtext id="n4_lonv" name="n4" xy="439,49" size="59,25" fontSize="18" color="#ff0000" text="未达成"/>
+    <image id="n5_lonv" name="imgGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="407,43"/>
+  </displayList>
+</component>

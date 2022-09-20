@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="c7onhgk8" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="c14zf" name="View_Skill_Panel.xml" path="/组件/" exported="true"/>
+    <component id="c14zj" name="SkillItem.xml" path="/组件/" exported="true"/>
+    <component id="c14zm" name="Child_SKill_Learn.xml" path="/组件/" exported="true"/>
+    <component id="c14zn" name="Child_GodSkill.xml" path="/组件/" exported="true"/>
+    <component id="lqbqo" name="Tip_Skill_ZhenYan.xml" path="/组件/" exported="true"/>
+    <image id="dn7912" name="普通技能框.png" path="/image/" exported="true"/>
+    <image id="dn7913" name="等级框.png" path="/image/" exported="true"/>
+    <image id="dn7917" name="诛仙心雷.png" path="/image/" exported="true"/>
+    <image id="dn7918" name="屠魔业火.png" path="/image/" exported="true"/>
+    <image id="dn7919" name="戮神巽风.png" path="/image/" exported="true"/>
+    <image id="dn791b" name="神技背景花纹.jpg" path="/image/" exported="true"/>
+    <image id="dn791c" name="神技框.png" path="/image/" exported="true"/>
+    <image id="iqo82s" name="技能标题.png" path="/image/" exported="true"/>
+    <image id="iqo82u" name="神技标题.png" path="/image/" exported="true"/>
+    <image id="h8gx32" name="武将材料底.png" path="/image/" exported="true"/>
+    <image id="t2reb" name="icon_title_1.png" path="/image/" exported="true"/>
+    <image id="t2rep" name="icon_1.png" path="/image/" exported="true"/>
+    <image id="t2rev" name="icon1.png" path="/image/" exported="true"/>
+    <image id="61zd13" name="主星透明罩.png" path="/image/" exported="true"/>
+    <image id="61zd1f" name="卫星.png" path="/image/" exported="true"/>
+    <image id="61zd1l" name="主星底.png" path="/image/" exported="true"/>
+    <image id="61zd1m" name="主星文字底.png" path="/image/" exported="true"/>
+    <image id="61zd1o" name="line.png" path="/image/" exported="true" scale="9grid" scale9grid="19,15,6,4"/>
+    <image id="tli01s" name="星图标题.png" path="/image/" exported="true"/>
+    <component id="t2re7" name="View_XingTu_Panel.xml" path="/组件/" exported="true"/>
+    <component id="t2re11" name="XingTuTab.xml" path="/组件/" exported="true"/>
+    <image id="hblp33" name="复.png" path="/image/字/" exported="true"/>
+    <image id="hblp34" name="恒.png" path="/image/字/" exported="true"/>
+    <image id="hblp35" name="困井.png" path="/image/字/" exported="true"/>
+    <image id="hblp36" name="履.png" path="/image/字/" exported="true"/>
+    <image id="hblp37" name="谦.png" path="/image/字/" exported="true"/>
+    <image id="hblp38" name="损益.png" path="/image/字/" exported="true"/>
+    <image id="hblp39" name="巽.png" path="/image/字/" exported="true"/>
+  </resources>
+  <publish name="Skill" genCode="true" npot="true" excluded="dn791b,t2rev,t2rep,t2reb"/>
+</packageDescription>

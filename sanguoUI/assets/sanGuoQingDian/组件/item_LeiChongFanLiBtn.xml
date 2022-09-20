@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,72">
+  <displayList>
+    <image id="n1_mq0c" name="bg" src="mq0c1k" fileName="image/按钮-未选中.png" xy="0,2"/>
+    <image id="n3_mq0c" name="fg" src="mq0c1n" fileName="image/按钮.png" xy="-4,-11" scale="0.95,0.95"/>
+    <richtext id="n2_mq0c" name="desc" xy="14,8" size="184,64" touchable="false" fontSize="22" color="#3f130c" align="center" autoSize="none" text="累充6元&#xA;丰厚豪礼&#xA;"/>
+    <image id="n4_wde0" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="177,6" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="123,443">
+  <displayList>
+    <richtext id="n3_gz25" name="nameLb" xy="0,0" size="24,78" fontSize="16" color="#ffffff" autoSize="none" text="女儿红"/>
+    <richtext id="n6_gz25" name="fwLb" xy="10,79" size="102,25" fontSize="16" color="#ffffff" align="center" autoSize="none" text="氛围值+1000"/>
+    <richtext id="n9_gz25" name="n9" xy="10,114" size="98,25" fontSize="16" color="#ffffff" align="center" autoSize="none" text="敬酒奖励"/>
+    <richtext id="n10_gz25" name="n10" xy="8,222" size="98,25" fontSize="16" color="#ffffff" align="center" autoSize="none" text="其他人可得"/>
+    <richtext id="n11_gz25" name="surLb" xy="1,335" size="69,25" fontSize="16" color="#ffffff" text="本场剩余"/>
+    <component id="n12_gz25" name="jjBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="4,364" size="109,49">
+      <Button title="敬酒"/>
+    </component>
+    <component id="n13_gz25" name="costLb" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="20,410" size="71,33">
+      <relation target="n12_gz25" sidePair="center-center"/>
+      <Label title="999"/>
+    </component>
+    <component id="n14_gz25" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="20,247" scale="0.8,0.8"/>
+    <component id="n15_gz25" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="21,137" scale="0.8,0.8"/>
+  </displayList>
+</component>

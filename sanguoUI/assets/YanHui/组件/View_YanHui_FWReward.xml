@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,596">
+  <displayList>
+    <component id="n1_gz25" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,596">
+      <Label title="氛围奖励"/>
+    </component>
+    <list id="n8_gz25" name="list" xy="9,68" size="574,460" overflow="scroll" lineGap="5" defaultItem="ui://4x7dk3lhgz25p" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n9_gz25" name="n9" xy="72,541" size="448,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="范围值达到一定要求可升级奖励，宴会结束后邮件发放"/>
+  </displayList>
+</component>

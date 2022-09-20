@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,648">
+  <displayList>
+    <loader id="n5_jthq" name="imgHeadbg" xy="0,0" size="100,100"/>
+    <image id="n7_uxki" name="imgCharge" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="381,24" size="227,39" flip="vt"/>
+    <list id="n0_coud" name="list" xy="0,184" size="640,464" overflow="scroll" lineGap="3" defaultItem="ui://vrw7je9rt2amd">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n2_coud" name="labTime" xy="15,145" size="205,28" touchable="false" fontSize="18" color="#2ff10f" text="活动剩余时间：10:10:10"/>
+    <richtext id="n3_coud" name="labTips" xy="265,145" size="355,28" touchable="false" fontSize="18" color="#ffffff" align="right" autoSize="none" text="累计充值达到指定数额即可领取奖励"/>
+    <richtext id="n6_uxki" name="labCharge" xy="393,29" size="202,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="今日已充：30元"/>
+  </displayList>
+</component>

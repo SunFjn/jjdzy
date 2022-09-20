@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="scvzi2gq" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="w89c1" name="Child_ActCom_CSSL.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="ActCom_CSSL" genCode="true" npot="true"/>
+</packageDescription>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="380,28" overflow="scroll" scroll="horizontal">
+  <displayList>
+    <richtext id="n1_e2bn" name="lbContent" xy="-1,0" size="10,28" fontSize="18" color="#ffffff" ubb="true" text=""/>
+  </displayList>
+</component>

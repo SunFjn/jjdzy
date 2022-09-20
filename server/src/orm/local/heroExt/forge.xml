@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.forge.model.Forge" tbname="forge">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="forgeModelMap" type="text" pf="all" comment="部位锻造"/>
+			<col field="hunLevels"  type="varchar" len="300" pf="all" comment="噬魂"/>
+            <col field="shenLv" type="int" pf="all"  comment="神装套装等级"/>
+            <col field="dashi"  type="varchar" len="300" pf="all" comment="大师"/>
+     </tb>
+</tbs>

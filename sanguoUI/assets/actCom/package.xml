@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="g8w9swyg" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="mvdu0" name="ViewActCom.xml" path="/" exported="true"/>
+    <component id="mvdu9" name="TestPanel.xml" path="/" exported="true"/>
+    <image id="zm7hd" name="7203_icon.png" path="/icon/" exported="true"/>
+    <image id="zm7he" name="7200_title.png" path="/icon/" exported="true"/>
+  </resources>
+  <publish name="actCom" genCode="true" npot="true" excluded="zm7he,zm7hd"/>
+</packageDescription>

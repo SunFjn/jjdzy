@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="188,215">
+  <displayList>
+    <image id="n9_u7hr" name="n9" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="0,0" size="186,215" locked="true"/>
+    <component id="n0_q09v" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="37,49"/>
+    <richtext id="n1_q09v" name="n1" xy="56,13" size="77,28" fontSize="18" color="#ffffff" vars="true" text="第{0}位好友">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n2_q09v" name="n2" xy="13,156" size="169,28" fontSize="18" color="#ffffff" text="玩家名字六子.s9999">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n3_q09v" name="n3" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="47,158">
+      <relation target="" sidePair="center-center"/>
+    </image>
+  </displayList>
+</component>

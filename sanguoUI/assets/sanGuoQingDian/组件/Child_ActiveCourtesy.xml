@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,924" opaque="false" designImage="ui://kdt501v2vt1r1v">
+  <displayList>
+    <loader id="n1_tq2h" name="backIcon" xy="0,274" size="640,184" hideByEditor="true" url="ui://kdt501v2tq2hr" fill="scaleNoBorder"/>
+    <image id="n4_tq2h" name="n5" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="9,423"/>
+    <image id="n6_tq2h" name="n6" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="635,423" size="313,27" scale="-1,1"/>
+    <richtext id="n7_tq2h" name="timeLb" xy="13,424" size="113,25" touchable="false" fontSize="18" color="#ffffff" text="活动剩余时间"/>
+    <richtext id="n8_tq2h" name="n4" xy="342,424" size="289,25" touchable="false" fontSize="18" color="#ffffff" text="活动期间击杀BOSS可掉落兑换材料"/>
+    <component id="n3_tq2h" name="item0" src="tq2ht" fileName="组件/ActiveCourtesyItem.xml" xy="2,483"/>
+    <component id="n14_tq2h" name="item1" src="tq2ht" fileName="组件/ActiveCourtesyItem.xml" xy="2,632"/>
+    <component id="n15_tq2h" name="item2" src="tq2ht" fileName="组件/ActiveCourtesyItem.xml" xy="2,780"/>
+  </displayList>
+</component>

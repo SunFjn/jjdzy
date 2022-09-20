@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,559">
+  <displayList>
+    <component id="n1_j158" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,559">
+      <Label title="剩余奖池预览"/>
+    </component>
+    <list id="n2_j158" name="list" xy="20,86" size="553,444" layout="flow_hz" overflow="hidden" lineGap="10" colGap="90" lineItemCount="3" defaultItem="ui://y9683xrpws8yf" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

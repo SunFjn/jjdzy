@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="gy3mzfqr" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="7jlm0" name="Child_ActCom_TianJiangHL.xml" path="/view/" exported="true"/>
+    <component id="7jlm1" name="Item_TianJiangHL.xml" path="/view/" exported="true"/>
+  </resources>
+  <publish name="actComTianJiangHaoli" genCode="true"/>
+</packageDescription>

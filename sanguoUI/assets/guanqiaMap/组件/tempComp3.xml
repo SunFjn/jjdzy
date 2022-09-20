@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="117,96" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n0_h0zq" name="iconMap" xy="0,-15" size="100,100"/>
+    <image id="n3_h0zq" name="n3" src="daee5" fileName="image/城池名字底.png" xy="-3,-9" size="52,111"/>
+    <text id="n1_h0zq" name="txtName" xy="6,-4" size="26,89" fontSize="24" color="#ffffff" align="center" autoSize="none" strokeColor="#000000" text="宜州">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

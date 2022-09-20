@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_hul7" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://47jfyc6ebx2z1p"/>
+    </component>
+    <component id="n4_hul7" name="n4" src="rjjf13" fileName="组件/七擒孟获/Child7MengHuo.xml" xy="0,0"/>
+  </displayList>
+</component>

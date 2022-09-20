@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 缓存流水表 -->
+	<tb model="com.teamtop.system.event.backstage.events.flowMMCache.B_FlowMMCache" tbname="b_flowmmcache">
+		<index field="id" type="prikey"/>
+		<index field="time" type="normal"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="time" type="int" pf="all" comment="操作时间"/>
+		<col field="cacheName" type="varchar" len="255" pf="all" comment="缓存自定义名称"/>
+		<col field="className" type="varchar" len="255" pf="all" comment="缓存所在类名字"/>
+		<col field="sizeAll" type="int" pf="all" comment="缓存对象总数量"/>
+		<col field="cacheType1" type="varchar" len="255" pf="all" comment="第一层缓存类型"/>
+		<col field="size1" type="int" pf="all" comment="第一层缓存大小"/>
+		<col field="cacheType2" type="varchar" len="255" pf="all" comment="第二层缓存类型"/>
+		<col field="size2" type="int" pf="all" comment="第二层缓存大小"/>
+		<col field="cacheType3" type="varchar" len="255" pf="all" comment="第三层缓存类型"/>
+		<col field="size3" type="int" pf="all" comment="第三层缓存大小"/>
+		<col field="cacheType4" type="varchar" len="255" pf="all" comment="第四层缓存类型"/>
+		<col field="size4" type="int" pf="all" comment="第四层缓存大小"/>
+	</tb>
+</tbs>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="me1skowl" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="qiai0" name="View_Arena_Panel.xml" path="/组件/" exported="true"/>
+    <component id="qiai4" name="SanGuoZSItem.xml" path="/组件/三国战神/" exported="true"/>
+    <image id="qiai5" name="rankaward.png" path="/image/" exported="true"/>
+    <component id="qiai6" name="Child_SanGuoZS.xml" path="/组件/三国战神/" exported="true"/>
+    <component id="p24e8" name="SGZS_RankItem.xml" path="/组件/三国战神/" exported="true"/>
+    <component id="p24e9" name="View_SGZS_Rank.xml" path="/组件/三国战神/" exported="true"/>
+    <component id="c4lfc" name="Child_DanDaoFH.xml" path="/组件/单刀赴会/" exported="true"/>
+    <component id="r4oge" name="DDFH_RankItem.xml" path="/组件/单刀赴会/" exported="true"/>
+    <component id="r4ogf" name="View_DDFH_Rank.xml" path="/组件/单刀赴会/" exported="true"/>
+    <component id="r4ogg" name="View_DDFH_Math.xml" path="/组件/单刀赴会/" exported="true"/>
+    <component id="r4ogh" name="DDFH_MathRender.xml" path="/组件/单刀赴会/" exported="true"/>
+    <component id="js6li" name="View_DDFH_Explain.xml" path="/组件/单刀赴会/" exported="true"/>
+    <component id="js6lj" name="View_DDFH_BattleNote.xml" path="/组件/单刀赴会/" exported="true"/>
+    <component id="js6lk" name="View_DDFH_RewardShow.xml" path="/组件/单刀赴会/" exported="true"/>
+    <component id="qt57s" name="Child_SanGuoWS.xml" path="/组件/三国无双/" exported="true"/>
+    <component id="608at" name="ViewSanGuoDes.xml" path="/组件/三国无双/" exported="true"/>
+    <component id="608au" name="ViewSGRankWard.xml" path="/组件/三国无双/" exported="true"/>
+    <component id="608av" name="SGRankIt.xml" path="/组件/三国无双/" exported="true"/>
+    <component id="608aw" name="ViewSGWardPool.xml" path="/组件/三国无双/" exported="true"/>
+    <component id="608ax" name="WardItem.xml" path="/组件/三国无双/" exported="true"/>
+    <component id="608az" name="ViewSGYaZhu.xml" path="/组件/三国无双/" exported="true"/>
+    <component id="608a10" name="SGCard.xml" path="/组件/三国无双/" exported="true"/>
+    <component id="608a12" name="ViewSGWin.xml" path="/组件/三国无双/" exported="true"/>
+    <image id="q8rv15" name="我的信息.png" path="/image/" exported="true"/>
+    <image id="j92x1o" name="寻找对手中.png" path="/image/" exported="true"/>
+    <image id="k8h11s" name="VS.png" path="/image/" exported="true"/>
+    <image id="k8h126" name="成功晋级.png" path="/image/" exported="true"/>
+    <image id="k8h127" name="抢到最多标记.png" path="/image/" exported="true"/>
+    <image id="k8h12a" name="无双奖励.png" path="/image/" exported="true"/>
+    <image id="k8h12b" name="玉玺.png" path="/image/" exported="true"/>
+    <image id="k8h12c" name="玩家名字底.png" path="/image/" exported="true"/>
+    <component id="k8h12g" name="SanGuoItem.xml" path="/组件/三国无双/" exported="true"/>
+    <image id="k8h12h" name="灰色.png" path="/image/" exported="true"/>
+    <image id="k8h12i" name="绿色1.png" path="/image/" exported="true"/>
+    <image id="k8h12j" name="绿色2.png" path="/image/" exported="true"/>
+    <image id="k8h12k" name="绿色3.png" path="/image/" exported="true"/>
+    <image id="k8h12l" name="绿色4.png" path="/image/" exported="true"/>
+    <image id="vbia2n" name="bx1.png" path="/image/" exported="true"/>
+    <image id="vbia2o" name="bx2.png" path="/image/" exported="true"/>
+    <image id="vbia2p" name="bx3.png" path="/image/" exported="true"/>
+    <image id="vbia2q" name="bx4.png" path="/image/" exported="true"/>
+    <image id="thox2z" name="已抢完.png" path="/image/" exported="true"/>
+    <component id="n7xv30" name="ZhanShenEff.xml" path="/组件/三国战神/" exported="true"/>
+    <image id="n7xv33" name="最高排名奖励底.png" path="/image/" exported="true" scale="9grid" scale9grid="81,14,162,28"/>
+    <image id="n7xv34" name="历史最高字体.png" path="/image/" exported="true"/>
+    <component id="n7xv35" name="ViewSanGuoZSPrompt.xml" path="/组件/三国战神/" exported="true"/>
+    <image id="gv3437" name="三国战神标题.png" path="/image/" exported="true"/>
+    <component id="m40k3e" name="View_SanGuoZS_Shop.xml" path="/组件/三国战神/" exported="true"/>
+    <image id="m40k3g" name="战神宝藏.png" path="/image/" exported="true"/>
+    <image id="m40k3h" name="战神宝藏标题.png" path="/image/" exported="true"/>
+    <component id="m40k3l" name="SanGuoZS_ShopItem.xml" path="/组件/三国战神/" exported="true"/>
+    <image id="mw7t3n" name="排名奖励(1).png" path="/image/" exported="true"/>
+    <image id="nihf3o" name="排行奖励.png" path="/image/" exported="true"/>
+    <component id="hfct3p" name="ChildCrossKing.xml" path="/组件/乱世枭雄/" exported="true"/>
+    <component id="hfct3q" name="VCrossKingPly.xml" path="/组件/乱世枭雄/" exported="true"/>
+    <component id="hfct3r" name="ViewCrossKingPromotion.xml" path="/组件/乱世枭雄/" exported="true"/>
+    <component id="hfct3s" name="ViewCrossKingProSuc.xml" path="/组件/乱世枭雄/" exported="true"/>
+    <component id="hfct3t" name="ViewCrossKingReward.xml" path="/组件/乱世枭雄/" exported="true"/>
+    <component id="hfct3u" name="VCrossKingReward.xml" path="/组件/乱世枭雄/" exported="true"/>
+    <component id="hfct3v" name="ViewCrossKingReport.xml" path="/组件/乱世枭雄/" exported="true"/>
+    <component id="hfct3w" name="VCrossKingReport.xml" path="/组件/乱世枭雄/" exported="true"/>
+    <component id="hfct3x" name="ChildCrossKingReward.xml" path="/组件/乱世枭雄/" exported="true"/>
+    <component id="hfct3y" name="ChildCrossKingPoint.xml" path="/组件/乱世枭雄/" exported="true"/>
+    <component id="hfct3z" name="VCrossKingPoint.xml" path="/组件/乱世枭雄/" exported="true"/>
+    <component id="hfct40" name="ViewCrossKingRank.xml" path="/组件/乱世枭雄/" exported="true"/>
+    <component id="hfct41" name="VCrossKingRank.xml" path="/组件/乱世枭雄/" exported="true"/>
+    <component id="hfct42" name="ViewCrossKingStore.xml" path="/组件/乱世枭雄/" exported="true"/>
+    <component id="hfct43" name="VCrossKingStore.xml" path="/组件/乱世枭雄/" exported="true"/>
+    <component id="hfct44" name="ChildCrossWars.xml" path="/组件/枭雄争霸/" exported="true"/>
+    <component id="hfct45" name="ViewCrossWarsWin.xml" path="/组件/枭雄争霸/" exported="true"/>
+    <component id="hfct46" name="VCrossWars16.xml" path="/组件/枭雄争霸/" exported="true"/>
+    <component id="hfct47" name="VCrossWars8.xml" path="/组件/枭雄争霸/" exported="true"/>
+    <component id="hfct48" name="VCrossWars4.xml" path="/组件/枭雄争霸/" exported="true"/>
+    <component id="hfct49" name="ViewCrossWarsReward.xml" path="/组件/枭雄争霸/" exported="true"/>
+    <component id="hfct4a" name="VCrossWarsReward.xml" path="/组件/枭雄争霸/" exported="true"/>
+    <component id="hfct4b" name="VCrossWarsWin.xml" path="/组件/枭雄争霸/" exported="true"/>
+    <component id="hfct4c" name="ViewCrossWarsBet.xml" path="/组件/枭雄争霸/" exported="true"/>
+    <component id="hfct4d" name="VCrossWarsBet.xml" path="/组件/枭雄争霸/" exported="true"/>
+    <component id="hfct4e" name="VCrossWars2.xml" path="/组件/枭雄争霸/" exported="true"/>
+    <component id="hfct4f" name="ViewCrossWarsLook.xml" path="/组件/枭雄争霸/" exported="true"/>
+    <component id="hfct4g" name="ViewCrossKingView.xml" path="/组件/" exported="true"/>
+    <image id="hfct4l" name="g1.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct4m" name="g2.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct4n" name="g3.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct4o" name="g4.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct4p" name="g5.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct4r" name="乱世宝藏.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct4s" name="乱世宝藏标题.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct4t" name="乱世枭雄.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct4u" name="兑换.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct4w" name="决赛.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct4x" name="可扫荡.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct4y" name="可挑战.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct4z" name="名人堂.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct51" name="奖励图标.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct52" name="已押注标签.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct53" name="已膜拜.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct54" name="战报.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct55" name="押注按钮大.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct58" name="排名图标.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct59" name="推荐战力.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct5d" name="晋级.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct5e" name="晋级成功.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct5g" name="枭雄争霸.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct5k" name="段位.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct5l" name="浮空台.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct5p" name="胜利标签.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct5q" name="观战按钮大.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct5s" name="降级.png" path="/image/乱世枭雄/" exported="true"/>
+    <image id="hfct5t" name="领取.png" path="/image/乱世枭雄/" exported="true"/>
+    <component id="gmu55v" name="ViewDanDaoView.xml" path="/组件/" exported="true"/>
+    <image id="gmu55w" name="三国无双.png" path="/image/" exported="true"/>
+    <image id="gmu55x" name="单刀赴会.png" path="/image/" exported="true"/>
+    <component id="eia55y" name="SanGuoZSItemPre.xml" path="/组件/三国战神/" exported="true"/>
+    <image id="eia55z" name="光圈.png" path="/image/三国战神/" exported="true"/>
+    <image id="eia561" name="战力a排名黑色底.png" path="/image/三国战神/" exported="true"/>
+    <image id="eia562" name="扫荡按钮.png" path="/image/三国战神/" exported="true"/>
+    <image id="eia563" name="挑战按钮.png" path="/image/三国战神/" exported="true"/>
+    <image id="eia564" name="qizi1.png" path="/image/三国战神/" exported="true"/>
+    <image id="eia565" name="qizi3.png" path="/image/三国战神/" exported="true"/>
+    <image id="eia566" name="qizi2.png" path="/image/三国战神/" exported="true"/>
+    <image id="eia56a" name="名.png" path="/image/三国战神/" exported="true"/>
+    <image id="eia56b" name="第.png" path="/image/三国战神/" exported="true"/>
+    <image id="w6sh6c" name="矩形 2267.png" path="/image/" exported="true"/>
+    <component id="n9yf6d" name="ChildKfwz.xml" path="/组件/跨服王者/" exported="true"/>
+    <image id="n9yf6e" name="1活动未开启.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6f" name="2跨服王者.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6g" name="3赛季已结束.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6h" name="4奖励.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6i" name="5段位奖励.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6j" name="6排名.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6k" name="7排名2.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6l" name="8战报.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6m" name="9VS.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6n" name="10战斗画面.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6o" name="11正在匹配.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6p" name="战报.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6q" name="段位奖励图标.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6r" name="玩法说明.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6t" name="排行榜.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6u" name="grade_2.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6v" name="grade_0.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6w" name="grade_4.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6x" name="grade_3.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6y" name="grade_1.png" path="/组件/跨服王者/res/"/>
+    <image id="n9yf6z" name="gradeLb_2.png" path="/组件/跨服王者/res/"/>
+    <component id="n9yf70" name="KfwzBoxItem.xml" path="/组件/跨服王者/" exported="true"/>
+    <image id="n9yf71" name="队长标签.png" path="/组件/跨服王者/res/"/>
+    <component id="n9yf72" name="KfwzHead.xml" path="/组件/跨服王者/" exported="true"/>
+    <component id="n9yf74" name="KfwzTeamItem.xml" path="/组件/跨服王者/" exported="true"/>
+    <image id="papu6e" name="旗帜底.png" path="/image/单刀赴会/"/>
+    <component id="pmqq75" name="ViewGradeRewardKfwz.xml" path="/组件/跨服王者/" exported="true"/>
+    <component id="pmqq76" name="KfwzGradeItem.xml" path="/组件/跨服王者/" exported="true"/>
+    <component id="pmqq77" name="ViewRankKfwz.xml" path="/组件/跨服王者/" exported="true"/>
+    <component id="pmqq78" name="KfwzRankItem.xml" path="/组件/跨服王者/" exported="true"/>
+    <component id="s0r579" name="ViewRewardKfwz.xml" path="/组件/跨服王者/" exported="true"/>
+    <image id="s0r57a" name="经验1.png" path="/组件/跨服王者/res/"/>
+    <image id="s0r57b" name="经验2.png" path="/组件/跨服王者/res/"/>
+    <image id="s0r57c" name="经验3.png" path="/组件/跨服王者/res/"/>
+    <image id="s0r57d" name="经验4.png" path="/组件/跨服王者/res/"/>
+    <image id="s0r57e" name="经验5.png" path="/组件/跨服王者/res/"/>
+    <image id="s0r57f" name="经验6.png" path="/组件/跨服王者/res/"/>
+    <image id="s0r57g" name="经验7.png" path="/组件/跨服王者/res/"/>
+    <image id="s0r57h" name="经验8.png" path="/组件/跨服王者/res/"/>
+    <image id="s0r57i" name="经验9.png" path="/组件/跨服王者/res/"/>
+    <image id="s0r57j" name="经验10.png" path="/组件/跨服王者/res/"/>
+    <component id="s0r57k" name="ViewLogKfwz.xml" path="/组件/跨服王者/" exported="true"/>
+    <image id="s0r57l" name="负.png" path="/组件/跨服王者/res/"/>
+    <image id="s0r57m" name="胜.png" path="/组件/跨服王者/res/"/>
+    <component id="s0r57n" name="KfwzLogItem.xml" path="/组件/跨服王者/" exported="true"/>
+    <image id="s0r57o" name="ko.png" path="/组件/跨服王者/res/"/>
+    <image id="ju9q7p" name="x Copy.png" path="/组件/跨服王者/res/"/>
+    <component id="ju9q7q" name="ViewMatchKfwz.xml" path="/组件/跨服王者/" exported="true"/>
+    <image id="ju9q7r" name="匹配旗子.png" path="/组件/跨服王者/res/"/>
+    <image id="pzsw7s" name="grade_5.png" path="/组件/跨服王者/res/"/>
+    <image id="pzsw7t" name="标题.png" path="/组件/跨服王者/res/"/>
+    <image id="pzsw7u" name="gradeLb_1.png" path="/组件/跨服王者/res/"/>
+    <image id="pzsw7v" name="gradeLb_3.png" path="/组件/跨服王者/res/"/>
+    <image id="pzsw7w" name="gradeLb_0.png" path="/组件/跨服王者/res/"/>
+    <image id="pzsw7x" name="gradeLb_5.png" path="/组件/跨服王者/res/"/>
+    <image id="pzsw7y" name="gradeLb_4.png" path="/组件/跨服王者/res/"/>
+    <image id="pzsw7z" name="个人标记.png" path="/组件/跨服王者/res/"/>
+    <component id="pzsw80" name="ViewStartKfwz.xml" path="/组件/跨服王者/" exported="true"/>
+    <image id="pzsw81" name="图层 725.png" path="/组件/跨服王者/res/"/>
+    <image id="pzsw82" name="图层 726.png" path="/组件/跨服王者/res/"/>
+    <image id="pzsw83" name="db_ttz_vs.png" path="/组件/跨服王者/res/"/>
+    <component id="p2gq84" name="KfwzTeamListItem.xml" path="/组件/跨服王者/" exported="true"/>
+    <component id="fyft85" name="ViewBattleKfwz.xml" path="/组件/跨服王者/" exported="true"/>
+    <component id="fyft86" name="KfwzHeadBattle.xml" path="/组件/跨服王者/" exported="true"/>
+    <image id="fyft87" name="顺序底.png" path="/组件/跨服王者/res/"/>
+    <image id="fyft88" name="vs.png" path="/组件/跨服王者/res/"/>
+    <image id="fyft89" name="跨服王者战斗标题.png" path="/组件/跨服王者/res/"/>
+    <image id="fyft8a" name="粗血条底.png" path="/组件/跨服王者/res/" scale="9grid" scale9grid="12,15,203,14"/>
+    <image id="fyft8b" name="粗血条.png" path="/组件/跨服王者/res/" scale="9grid" scale9grid="10,9,124,18"/>
+    <image id="fyft8c" name="绿血条.png" path="/组件/跨服王者/res/" scale="9grid" scale9grid="8,7,124,17"/>
+    <component id="fyft8d" name="ProgressBar1.xml" path="/组件/跨服王者/"/>
+    <component id="fyft8e" name="ProgressBar2.xml" path="/组件/跨服王者/"/>
+    <image id="u5s08f" name="已击杀标记.png" path="/组件/跨服王者/res/"/>
+    <component id="veix8g" name="KfwzTeamItemBg.xml" path="/组件/跨服王者/" exported="true"/>
+    <image id="djuz6g" name="战神宝藏1.jpg" path="/image/"/>
+    <image id="qid38h" name="连胜底框.png" path="/组件/跨服王者/res/"/>
+  </resources>
+  <publish name="Arena" genCode="true" npot="true" excluded="m40k3k,papu6e,ju9q7r,pzsw81,pzsw82"/>
+</packageDescription>

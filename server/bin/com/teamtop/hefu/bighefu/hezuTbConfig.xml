@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 合服表的处理 truncate为清空所有数据 -->
+	<bean tbname="crossKingInfo" oper="truncate" desc = "乱世枭雄主表"/>
+	<bean tbname="crossKingRank" oper="truncate" desc = "乱世枭雄参与表"/>
+	<!-- pro.合服表的处理truncateOther保留主区数据，其他区数据清空-->
+	<!-- pro.合并所有区数据到1个区   move为转移  连主键一起移入-->
+
+	<!-- 不是放在heroExt的表的数据需要在删除一个玩家的时候删除  key为del sql语句where后的key-->
+
+	<!-- pro. resetByUpdate:重置指定表某字段 设置为"",0等  key:set后的重置字段-->
+	
+	<!-- TODO  合服事件：好友、更名卡邮件+军团更名卡看看是否发成功、测试攻城剁地清空抢夺记录、帮主被清理后关系处理-->
+	<!-- TODO  改成读配置,删除hero名单SQL，删除的玩家名单-->
+</beans>

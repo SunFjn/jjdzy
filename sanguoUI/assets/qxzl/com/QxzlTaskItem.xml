@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="579,135">
+  <controller name="stateCtrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n15_rak3" name="n15" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="579,132"/>
+    <richtext id="n16_rak3" name="tfName" xy="16,39" pivot="0.5,0.5" size="132,57" fontSize="22" color="#ffffff" align="center" bold="true" autoClearText="true" text="每天0点重置&#xA;test"/>
+    <list id="n17_rak3" name="itemList1" xy="158,26" size="338,109" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="1" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n21_rak3" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="438,44" size="130,51" grayed="true">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+      <Button title="领取"/>
+    </component>
+    <component id="n22_rak3" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="438,44">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+      <Button title="领取"/>
+    </component>
+    <image id="n23_rak3" name="imageGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="440,49">
+      <gearDisplay controller="stateCtrl" pages="2"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="616,919">
+  <displayList>
+    <component id="n1_lnit" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="616,919">
+      <Label title="护卫武将"/>
+    </component>
+    <text id="n2_lnit" name="n2" xy="211,721" size="205,27" fontSize="20" color="#ff0000" text="雇佣吕布被拦截无损失"/>
+    <component id="n3_lnit" name="btnOnekey" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="113,759">
+      <Button title="一键刷红"/>
+    </component>
+    <component id="n4_lnit" name="btnRefresh" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="377,759">
+      <Button title="刷新"/>
+    </component>
+    <component id="n5_lnit" name="btnStart" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="246,837">
+      <Button title="开始护送"/>
+    </component>
+    <richtext id="n8_lnit" name="moneyLb0" xy="161,815" size="55,25" touchable="false" fontSize="18" color="#ffffff" bold="true" text="20000"/>
+    <richtext id="n10_lnit" name="moneyLb1" xy="424,815" size="55,25" touchable="false" fontSize="18" color="#ffffff" bold="true" text="20000"/>
+    <list id="n11_lnit" name="list" xy="17,80" size="586,638" overflow="scroll" lineGap="5" defaultItem="ui://lnw94ki2lnit8" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n12_lnit" name="n12" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="125,814" size="26,25"/>
+    <image id="n13_lnit" name="n13" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="391,814" size="26,25"/>
+  </displayList>
+</component>

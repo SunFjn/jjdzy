@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.destiny.model.PersonalDestiny" tbname="personalDestiny">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="feelNum" type="int" pf="all" comment="每日免费元宝次数"/>
+			<col field="coinNum" type="int" pf="all" comment="每日铜钱抽取"/>
+			<col field="yuanbaoNum" type="int" pf="all" comment="元宝抽取次数"/>
+			<col field="luckNum" type="int" pf="all" comment="每日铜钱抽取"/>
+			<col field="bagData" type="text" pf="all" comment="符文背包"/>
+			<col field="bodyData" type="text" pf="all" comment="符文装备"/>
+			<col field="destinyMasterId" type="int" pf="all" comment="符文大师id,为0表示未激活"/>
+			<col field="godFuChange" type="text" pf="all" comment="神符兑换数量"/>						
+     </tb>
+</tbs>

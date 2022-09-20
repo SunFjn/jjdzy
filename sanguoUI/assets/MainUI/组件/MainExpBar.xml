@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,10" extention="ProgressBar">
+  <displayList>
+    <image id="n0_rt7o" name="n0" src="rt7oq" fileName="image1/经验空.png" xy="0,0" size="64,10">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_rt7o" name="bar" src="rt7or" fileName="image1/经验满.png" xy="0,2" size="64,6">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

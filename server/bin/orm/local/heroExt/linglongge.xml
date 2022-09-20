@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.linglongge.model.LingLongGe" tbname="linglongge">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="score" type="int" pf="all"  comment="玩家每日积分 0点清空"/>
+			<col field="totalBuyTimes" type="int" pf="all"  comment="抽奖总次数"/>
+			<col field="scoreAwardList" type="text" pf="all" comment="每日积分宝箱奖励状态列表 0点清空"/>
+			<col field="bigAwardTimes" type="int" pf="all"  comment="抽奖次数 用于大奖"/>
+			<col field="gettedBigAwardMap" type="text" pf="all" comment="是否取得大奖Map key为玲珑阁表bizhong的id"/>
+			<col field="version" type="int" pf="all"  comment="改动版本数"/>			
+    </tb>
+</tbs>

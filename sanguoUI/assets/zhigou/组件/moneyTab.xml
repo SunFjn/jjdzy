@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="209,65" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_i884" name="n0" src="i8844" fileName="image/按钮-未选中.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_i884" name="n1" src="i8842" fileName="image/按钮.png" xy="-10,-14">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_i884" name="title" xy="3,0" size="203,63" fontSize="24" color="#552016" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" singleLine="true" text="1元直购">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n3_bubc" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="189,-3" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

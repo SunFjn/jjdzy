@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.exclusiveActivity.ExclusiveActivityMapper">
+<delete id="deleteExAct" parameterType="String">
+	${value}
+</delete>
+<select id="findHeroExAct" parameterType="Long" resultType="ExclusiveActivityData">
+	select * from exclusiveActivityData where hid = ${value}
+</select> 
+<insert id="insertData" parameterType="ExclusiveActivityData" useGeneratedKeys="true" keyProperty="id">
+		insert into activityData (hid,indexId,actId,periods,actStr) values (#{hid},#{indexId},#{actId},#{periods},#{insertActStr})
+</insert>
+<update id="saveExActData" parameterType="String">
+	${value}
+</update> 
+</mapper>

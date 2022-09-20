@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="279,169">
+  <controller name="stateCtrl" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n27_jt4v" name="n27" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="279,169"/>
+    <component id="n28_jt4v" name="item" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="20,17"/>
+    <richtext id="n29_jt4v" name="tfItemName" xy="25,124" pivot="0.5,0.5" size="85,27" fontSize="20" color="#ffff00" autoClearText="true" text="战令等级"/>
+    <component id="n30_jt4v" name="btnBuy" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="129,106">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+      <Button title="兑换"/>
+    </component>
+    <richtext id="n31_jt4v" name="tfLimit" xy="128,18" size="59,25" fontSize="18" color="#ffffff" autoClearText="true" text="限购："/>
+    <richtext id="n32_jt4v" name="n32" xy="128,60" size="59,25" fontSize="18" color="#ffffff" text="单价："/>
+    <loader id="n33_jt4v" name="imageIcon" xy="182,57" size="32,32" aspect="true" url="ui://jvxpx9embwmw3y" align="center" vAlign="middle" fill="scale"/>
+    <richtext id="n34_jt4v" name="tfValue" xy="215,60" size="49,27" fontSize="20" color="#ffffff" vAlign="middle" autoClearText="true" text="1000"/>
+    <image id="n35_ke27" name="n35" src="rak316" fileName="组件/三国战令/res/已兑完.png" xy="129,91">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </image>
+  </displayList>
+</component>

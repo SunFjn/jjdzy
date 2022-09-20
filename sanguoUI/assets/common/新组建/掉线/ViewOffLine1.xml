@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="595,392">
+  <displayList>
+    <component id="n0_hbxz" name="frame" src="f1cf4b" fileName="组件/frame2.xml" xy="0,0" size="595,392">
+      <Label title="提示"/>
+    </component>
+    <image id="n2_hbxz" name="n2" src="x3b93cl" fileName="image/奖励底.png" xy="18,103" size="552,176"/>
+    <richtext id="n3_hbxz" name="n3" xy="30,107" size="528,35" touchable="false" fontSize="24" color="#9db0ed" leading="6" autoSize="height" text="您已断线，请点击重新登录"/>
+    <component id="n4_hbxz" name="sureBt" src="y1z8l" fileName="组件/Button1.xml" xy="230,303">
+      <Button title="确定"/>
+    </component>
+  </displayList>
+</component>

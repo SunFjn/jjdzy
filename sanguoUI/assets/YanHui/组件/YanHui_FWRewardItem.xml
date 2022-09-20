@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="569,110">
+  <displayList>
+    <image id="n2_gz25" name="n2" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="8,2" size="561,108"/>
+    <image id="n3_gz25" name="n3" src="gz253i8" fileName="image/箭头+其他/角标彩条.png" pkg="jvxpx9em" xy="7,0" group="n8_wtx2"/>
+    <richtext id="n4_gz25" name="cur" xy="-3,35" size="61,20" group="n8_wtx2" rotation="-47" fontSize="14" color="#ffffff" text="当前档次"/>
+    <group id="n8_wtx2" name="curGroup" xy="-3,0" size="64,59" advanced="true"/>
+    <richtext id="n5_gz25" name="numLb" xy="23,41" size="95,25" fontSize="18" color="#ffffff" text="氛围值达到"/>
+    <richtext id="n7_gz25" name="rewardLb" xy="384,4" size="172,104" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="10" ubb="true" autoSize="none" text="大奖：[color=#ed1414]少主·孙鲁育[/color]*1&#xA;获得概率为[color=#66ccff]10%[/color]"/>
+    <component id="n6_gz25" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="267,13" scale="0.8,0.8"/>
+  </displayList>
+</component>

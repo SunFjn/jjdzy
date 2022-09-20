@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.crossKing.model.CrossKingInfoMapper">
+	<insert id="insert" parameterType="com.teamtop.system.crossKing.model.CrossKingInfo" useGeneratedKeys="true" keyProperty="id">
+		insert into crossKingInfo(term,state,startTime,endTime) values(#{term},#{state},#{startTime},#{endTime})
+	</insert>
+	<update id="update" parameterType="String">
+		${value}
+	</update>
+	<select id="findInfo" resultType="CrossKingInfo">
+		select * from crossKingInfo
+	</select>
+</mapper>

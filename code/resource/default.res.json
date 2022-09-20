@@ -1,0 +1,1523 @@
+{
+	"groups": [
+		{
+			"keys": "common_atlas0,common,MainUI_atlas0,MainUI,common_atlas0_1,version_json",
+			"name": "preload"
+		},
+		{
+			"keys": "config0_json",
+			"name": "gamecfg"
+		},
+		{
+			"keys": "ani_json",
+			"name": "ani"
+		}
+	],
+	"resources": [
+		{
+			"url": "UI/Mail/Mail.bin",
+			"type": "bin",
+			"name": "Mail"
+		},
+		{
+			"url": "UI/Mail/Mail_atlas0.png",
+			"type": "image",
+			"name": "Mail_atlas0"
+		},
+		{
+			"url": "UI/createRole/createRole.bin",
+			"type": "bin",
+			"name": "createRole"
+		},
+		{
+			"url": "UI/createRole/createRole_atlas0.png",
+			"type": "image",
+			"name": "createRole_atlas0"
+		},
+		{
+			"url": "UI/mainUI/MainUI.bin",
+			"type": "bin",
+			"name": "MainUI"
+		},
+		{
+			"url": "UI/mainUI/MainUI_atlas0.png",
+			"type": "image",
+			"name": "MainUI_atlas0"
+		},
+		{
+			"url": "UI/common/common.bin",
+			"type": "bin",
+			"name": "common"
+		},
+		{
+			"url": "UI/common/common_atlas0.png",
+			"type": "image",
+			"name": "common_atlas0"
+		},
+		{
+			"url": "UI/GM/GM.bin",
+			"type": "bin",
+			"name": "GM"
+		},
+		{
+			"url": "UI/bag/bag.bin",
+			"type": "bin",
+			"name": "bag"
+		},
+		{
+			"url": "UI/Skill/Skill.bin",
+			"type": "bin",
+			"name": "Skill"
+		},
+		{
+			"url": "UI/Skill/Skill_atlas0.png",
+			"type": "image",
+			"name": "Skill_atlas0"
+		},
+		{
+			"url": "UI/godEquip/godEquip.bin",
+			"type": "bin",
+			"name": "godEquip"
+		},
+		{
+			"url": "UI/role/role.bin",
+			"type": "bin",
+			"name": "role"
+		},
+		{
+			"url": "UI/duanzao/DuanZao.bin",
+			"type": "bin",
+			"name": "DuanZao"
+		},
+		{
+			"url": "UI/duanzao/DuanZao_atlas0.png",
+			"type": "image",
+			"name": "DuanZao_atlas0"
+		},
+		{
+			"url": "UI/tuJian/TuJian_atlas0.png",
+			"type": "image",
+			"name": "TuJian_atlas0"
+		},
+		{
+			"url": "UI/tuJian/TuJian.bin",
+			"type": "bin",
+			"name": "TuJian"
+		},
+		{
+			"url": "UI/guaqia/guanqia.bin",
+			"type": "bin",
+			"name": "guanqia"
+		},
+		{
+			"url": "UI/guaqia/guanqia_atlas0.png",
+			"type": "image",
+			"name": "guanqia_atlas0"
+		},
+		{
+			"url": "UI/bag/bag_atlas0.png",
+			"type": "image",
+			"name": "bag_atlas0"
+		},
+		{
+			"url": "UI/wuJiang/wuJiang.bin",
+			"type": "bin",
+			"name": "wuJiang"
+		},
+		{
+			"url": "UI/rongLian/rongLian.bin",
+			"type": "bin",
+			"name": "rongLian"
+		},
+		{
+			"url": "UI/rongLian/rongLian_atlas0.png",
+			"type": "image",
+			"name": "rongLian_atlas0"
+		},
+		{
+			"url": "UI/rebirth/rebirth.bin",
+			"type": "bin",
+			"name": "rebirth"
+		},
+		{
+			"url": "UI/role/role_atlas0.png",
+			"type": "image",
+			"name": "role_atlas0"
+		},
+		{
+			"url": "UI/wuJiang/wuJiang_atlas0.png",
+			"type": "image",
+			"name": "wuJiang_atlas0"
+		},
+		{
+			"url": "UI/shop/Shop.bin",
+			"type": "bin",
+			"name": "Shop"
+		},
+		{
+			"url": "UI/rebirth/rebirth_atlas0.png",
+			"type": "image",
+			"name": "rebirth_atlas0"
+		},
+		{
+			"url": "UI/mainUI/MainTown.bin",
+			"type": "bin",
+			"name": "MainTown"
+		},
+		{
+			"url": "UI/mainUI/MainTown_atlas0.png",
+			"type": "image",
+			"name": "MainTown_atlas0"
+		},
+		{
+			"url": "UI/fuben/FuBen.bin",
+			"type": "bin",
+			"name": "FuBen"
+		},
+		{
+			"url": "UI/fuben/FuBen_atlas0.png",
+			"type": "image",
+			"name": "FuBen_atlas0"
+		},
+		{
+			"url": "UI/boss/Boss.bin",
+			"type": "bin",
+			"name": "Boss"
+		},
+		{
+			"url": "UI/boss/Boss_atlas0.png",
+			"type": "image",
+			"name": "Boss_atlas0"
+		},
+		{
+			"url": "UI/nzbz/nzbz.bin",
+			"type": "bin",
+			"name": "nzbz"
+		},
+		{
+			"url": "UI/nzbz/nzbz_atlas0.png",
+			"type": "image",
+			"name": "nzbz_atlas0"
+		},
+		{
+			"url": "UI/rank/rank.bin",
+			"type": "bin",
+			"name": "rank"
+		},
+		{
+			"url": "UI/arena/Arena.bin",
+			"type": "bin",
+			"name": "Arena"
+		},
+		{
+			"url": "UI/arena/Arena_atlas0.png",
+			"type": "image",
+			"name": "Arena_atlas0"
+		},
+		{
+			"url": "config/config0.json",
+			"type": "json",
+			"name": "config0_json"
+		},
+		{
+			"url": "UI/chongzhi/chongzhi.bin",
+			"type": "bin",
+			"name": "chongzhi"
+		},
+		{
+			"url": "UI/chongzhi/chongzhi_atlas0.png",
+			"type": "image",
+			"name": "chongzhi_atlas0"
+		},
+		{
+			"url": "UI/vip/vip_atlas0.png",
+			"type": "image",
+			"name": "vip_atlas0"
+		},
+		{
+			"url": "UI/vip/vip.bin",
+			"type": "bin",
+			"name": "vip"
+		},
+		{
+			"url": "UI/welfare/Welfare.bin",
+			"type": "bin",
+			"name": "Welfare"
+		},
+		{
+			"url": "UI/welfare/Welfare_atlas0.png",
+			"type": "image",
+			"name": "Welfare_atlas0"
+		},
+		{
+			"url": "UI/sevenDayLogin/sevenDayLogin.bin",
+			"type": "bin",
+			"name": "sevenDayLogin"
+		},
+		{
+			"url": "UI/funtionPreview/functionPreview.bin",
+			"type": "bin",
+			"name": "functionPreview"
+		},
+		{
+			"url": "UI/funtionPreview/functionPreview_atlas0.png",
+			"type": "image",
+			"name": "functionPreview_atlas0"
+		},
+		{
+			"url": "UI/country/country.bin",
+			"type": "bin",
+			"name": "country"
+		},
+		{
+			"url": "UI/country/country_atlas0.png",
+			"type": "image",
+			"name": "country_atlas0"
+		},
+		{
+			"url": "UI/wushengList/wushengList.bin",
+			"type": "bin",
+			"name": "wushengList"
+		},
+		{
+			"url": "UI/wushengList/wushengList_atlas0.png",
+			"type": "image",
+			"name": "wushengList_atlas0"
+		},
+		{
+			"url": "UI/baoku/baoku.bin",
+			"type": "bin",
+			"name": "baoku"
+		},
+		{
+			"url": "UI/activityHall/activityHall.bin",
+			"type": "bin",
+			"name": "activityHall"
+		},
+		{
+			"url": "UI/jubaopeng/jubaopeng.bin",
+			"type": "bin",
+			"name": "jubaopeng"
+		},
+		{
+			"url": "UI/chat/chat.bin",
+			"type": "bin",
+			"name": "chat"
+		},
+		{
+			"url": "UI/chat/chat_atlas0.png",
+			"type": "image",
+			"name": "chat_atlas0"
+		},
+		{
+			"url": "UI/chaozhifanli/chaozhifanli.bin",
+			"type": "bin",
+			"name": "chaozhifanli"
+		},
+		{
+			"url": "UI/kaifukuanghuan/kaifukuanghuan.bin",
+			"type": "bin",
+			"name": "kaifukuanghuan"
+		},
+		{
+			"url": "UI/huoDong/huoDong.bin",
+			"type": "bin",
+			"name": "huoDong"
+		},
+		{
+			"url": "UI/huoDong/huoDong_atlas0.png",
+			"type": "image",
+			"name": "huoDong_atlas0"
+		},
+		{
+			"url": "UI/qunyingbang/qunyingbang.bin",
+			"type": "bin",
+			"name": "qunyingbang"
+		},
+		{
+			"url": "UI/chaozhifanli/chaozhifanli_atlas0.png",
+			"type": "image",
+			"name": "chaozhifanli_atlas0"
+		},
+		{
+			"url": "UI/quanminkuanghuan/QMKH.bin",
+			"type": "bin",
+			"name": "QMKH"
+		},
+		{
+			"url": "UI/quanminkuanghuan/QMKH_atlas0.png",
+			"type": "image",
+			"name": "QMKH_atlas0"
+		},
+		{
+			"url": "UI/shouchong/shouchong.bin",
+			"type": "bin",
+			"name": "shouchong"
+		},
+		{
+			"url": "UI/shouchong/shouchong_atlas0.png",
+			"type": "image",
+			"name": "shouchong_atlas0"
+		},
+		{
+			"url": "UI/rank/rank_atlas0.png",
+			"type": "image",
+			"name": "rank_atlas0"
+		},
+		{
+			"url": "UI/crossKing/crossKing.bin",
+			"type": "bin",
+			"name": "crossKing"
+		},
+		{
+			"url": "UI/crossKing/crossKing_atlas0.png",
+			"type": "image",
+			"name": "crossKing_atlas0"
+		},
+		{
+			"url": "UI/common/CartoonManager.bin",
+			"type": "bin",
+			"name": "CartoonManager"
+		},
+		{
+			"url": "UI/common/CartoonManager_atlas0.png",
+			"type": "image",
+			"name": "CartoonManager_atlas0"
+		},
+		{
+			"url": "UI/setting/setting.bin",
+			"type": "bin",
+			"name": "setting"
+		},
+		{
+			"url": "UI/setting/setting_atlas0.png",
+			"type": "image",
+			"name": "setting_atlas0"
+		},
+		{
+			"url": "UI/login/Login.bin",
+			"type": "bin",
+			"name": "Login"
+		},
+		{
+			"url": "UI/login/Login_atlas0.png",
+			"type": "image",
+			"name": "Login_atlas0"
+		},
+		{
+			"url": "UI/lingLong/lingLong.bin",
+			"type": "bin",
+			"name": "lingLong"
+		},
+		{
+			"url": "UI/lingLong/lingLong_atlas0.png",
+			"type": "image",
+			"name": "lingLong_atlas0"
+		},
+		{
+			"url": "UI/jubaopeng/jubaopeng_atlas0.png",
+			"type": "image",
+			"name": "jubaopeng_atlas0"
+		},
+		{
+			"url": "UI/activityHall/activityHall_atlas0.png",
+			"type": "image",
+			"name": "activityHall_atlas0"
+		},
+		{
+			"url": "UI/qunyingbang/qunyingbang_atlas0.png",
+			"type": "image",
+			"name": "qunyingbang_atlas0"
+		},
+		{
+			"url": "UI/kaifukuanghuan/kaifukuanghuan_atlas0.png",
+			"type": "image",
+			"name": "kaifukuanghuan_atlas0"
+		},
+		{
+			"url": "UI/Share/Share.bin",
+			"type": "bin",
+			"name": "Share"
+		},
+		{
+			"url": "UI/Share/Share_atlas0.png",
+			"type": "image",
+			"name": "Share_atlas0"
+		},
+		{
+			"url": "UI/common/common_atlas0_1.png",
+			"type": "image",
+			"name": "common_atlas0_1"
+		},
+		{
+			"url": "UI/baoku/baoku_atlas0.png",
+			"type": "image",
+			"name": "baoku_atlas0"
+		},
+		{
+			"url": "UI/lvBuComeup/LvBuComeUp_atlas0.png",
+			"type": "image",
+			"name": "LvBuComeUp_atlas0"
+		},
+		{
+			"url": "UI/lvBuComeup/LvBuComeUp.bin",
+			"type": "bin",
+			"name": "LvBuComeUp"
+		},
+		{
+			"url": "UI/cangbaoge/cangbaoge.bin",
+			"type": "bin",
+			"name": "cangbaoge"
+		},
+		{
+			"url": "UI/cangbaoge/cangbaoge_atlas0.png",
+			"type": "image",
+			"name": "cangbaoge_atlas0"
+		},
+		{
+			"url": "UI/shop/Shop_atlas0.png",
+			"type": "image",
+			"name": "Shop_atlas0"
+		},
+		{
+			"url": "UI/sevenDayLogin/sevenDayLogin_atlas0.png",
+			"type": "image",
+			"name": "sevenDayLogin_atlas0"
+		},
+		{
+			"url": "UI/LoginVip/LoginVip.bin",
+			"type": "bin",
+			"name": "LoginVip"
+		},
+		{
+			"url": "UI/LoginVip/LoginVip_atlas0.png",
+			"type": "image",
+			"name": "LoginVip_atlas0"
+		},
+		{
+			"url": "UI/dailytask/dailytask.bin",
+			"type": "bin",
+			"name": "dailytask"
+		},
+		{
+			"url": "UI/dailytask/dailytask_atlas0.png",
+			"type": "image",
+			"name": "dailytask_atlas0"
+		},
+		{
+			"url": "UI/tequan/tequan.bin",
+			"type": "bin",
+			"name": "tequan"
+		},
+		{
+			"url": "UI/tequan/tequan_atlas0.png",
+			"type": "image",
+			"name": "tequan_atlas0"
+		},
+		{
+			"url": "UI/zhigou/zhigou.bin",
+			"type": "bin",
+			"name": "zhigou"
+		},
+		{
+			"url": "UI/zhigou/zhigou_atlas0.png",
+			"type": "image",
+			"name": "zhigou_atlas0"
+		},
+		{
+			"url": "UI/FengHuoLY/FengHuoLY.bin",
+			"type": "bin",
+			"name": "FengHuoLY"
+		},
+		{
+			"url": "UI/FengHuoLY/FengHuoLY_atlas0.png",
+			"type": "image",
+			"name": "FengHuoLY_atlas0"
+		},
+		{
+			"url": "UI/bossTiShi/bossTiShi.bin",
+			"type": "bin",
+			"name": "bossTiShi"
+		},
+		{
+			"url": "UI/bossTiShi/bossTiShi_atlas0.png",
+			"type": "image",
+			"name": "bossTiShi_atlas0"
+		},
+		{
+			"url": "UI/sanguoQD/sanGuoQingDian_atlas0.png",
+			"type": "image",
+			"name": "sanGuoQingDian_atlas0"
+		},
+		{
+			"url": "UI/sanguoQD/sanGuoQingDian.bin",
+			"type": "bin",
+			"name": "sanGuoQingDian"
+		},
+		{
+			"url": "UI/ARPGScene/ARPGScene.bin",
+			"type": "bin",
+			"name": "ARPGScene"
+		},
+		{
+			"url": "UI/chuangguanYL/chuangguanYL.bin",
+			"type": "bin",
+			"name": "chuangguanYL"
+		},
+		{
+			"url": "UI/chuangguanYL/chuangguanYL_atlas0.png",
+			"type": "image",
+			"name": "chuangguanYL_atlas0"
+		},
+		{
+			"url": "UI/lchk/lchk.bin",
+			"type": "bin",
+			"name": "lchk"
+		},
+		{
+			"url": "UI/lchk/lchk_atlas0.png",
+			"type": "image",
+			"name": "lchk_atlas0"
+		},
+		{
+			"url": "UI/wendingTX/wendingTX.bin",
+			"type": "bin",
+			"name": "wendingTX"
+		},
+		{
+			"url": "UI/wendingTX/wendingTX_atlas0.png",
+			"type": "image",
+			"name": "wendingTX_atlas0"
+		},
+		{
+			"url": "UI/eightLock/eightLock.bin",
+			"type": "bin",
+			"name": "eightLock"
+		},
+		{
+			"url": "UI/eightLock/eightLock_atlas0.png",
+			"type": "image",
+			"name": "eightLock_atlas0"
+		},
+		{
+			"url": "UI/baZhenTu/baZhenTu.bin",
+			"type": "bin",
+			"name": "baZhenTu"
+		},
+		{
+			"url": "UI/baZhenTu/baZhenTu_atlas0.png",
+			"type": "image",
+			"name": "baZhenTu_atlas0"
+		},
+		{
+			"url": "UI/zjyw/zjyw.bin",
+			"type": "bin",
+			"name": "zjyw"
+		},
+		{
+			"url": "UI/zjyw/zjyw_atlas0.png",
+			"type": "image",
+			"name": "zjyw_atlas0"
+		},
+		{
+			"url": "UI/giftBag/giftBag.bin",
+			"type": "bin",
+			"name": "giftBag"
+		},
+		{
+			"url": "UI/giftBag/giftBag_atlas0.png",
+			"type": "image",
+			"name": "giftBag_atlas0"
+		},
+		{
+			"url": "UI/guanqiaMap/guanqiaMap.bin",
+			"type": "bin",
+			"name": "guanqiaMap"
+		},
+		{
+			"url": "UI/guanqiaMap/guanqiaMap_atlas0.png",
+			"type": "image",
+			"name": "guanqiaMap_atlas0"
+		},
+		{
+			"url": "UI/shouHunJX/shouhunJX.bin",
+			"type": "bin",
+			"name": "shouhunJX"
+		},
+		{
+			"url": "UI/shouHunJX/shouhunJX_atlas0.png",
+			"type": "image",
+			"name": "shouhunJX_atlas0"
+		},
+		{
+			"url": "UI/actHolyBeast/actHolyBeast.bin",
+			"type": "bin",
+			"name": "actHolyBeast"
+		},
+		{
+			"url": "UI/actHolyBeast/actHolyBeast_atlas0.png",
+			"type": "image",
+			"name": "actHolyBeast_atlas0"
+		},
+		{
+			"url": "UI/juQing/juQing.bin",
+			"type": "bin",
+			"name": "juQing"
+		},
+		{
+			"url": "UI/juQing/juQing_atlas0.png",
+			"type": "image",
+			"name": "juQing_atlas0"
+		},
+		{
+			"url": "UI/trueName/trueName.bin",
+			"type": "bin",
+			"name": "trueName"
+		},
+		{
+			"url": "UI/trueName/trueName_atlas0.png",
+			"type": "image",
+			"name": "trueName_atlas0"
+		},
+		{
+			"url": "UI/common/common_b8ux3dh.bin",
+			"type": "sound",
+			"name": "common_b8ux3dh"
+		},
+		{
+			"url": "UI/CompressionPNG8.bat",
+			"type": "bin",
+			"name": "CompressionPNG8_bat"
+		},
+		{
+			"url": "UI/juexing/jueXing.bin",
+			"type": "bin",
+			"name": "jueXing"
+		},
+		{
+			"url": "UI/juexing/jueXing_atlas0.png",
+			"type": "image",
+			"name": "jueXing_atlas0"
+		},
+		{
+			"url": "UI/shaoZhu/ShaoZhu.bin",
+			"type": "bin",
+			"name": "ShaoZhu"
+		},
+		{
+			"url": "UI/shaoZhu/ShaoZhu_atlas0.png",
+			"type": "image",
+			"name": "ShaoZhu_atlas0"
+		},
+		{
+			"url": "UI/zhishengdan/ZhiShengDan.bin",
+			"type": "bin",
+			"name": "ZhiShengDan"
+		},
+		{
+			"url": "UI/zhishengdan/ZhiShengDan_atlas0.png",
+			"type": "image",
+			"name": "ZhiShengDan_atlas0"
+		},
+		{
+			"url": "UI/shaozhuAct/shaozhuAct.bin",
+			"type": "bin",
+			"name": "shaozhuAct"
+		},
+		{
+			"url": "UI/shaozhuAct/shaozhuAct_atlas0.png",
+			"type": "image",
+			"name": "shaozhuAct_atlas0"
+		},
+		{
+			"url": "UI/sanguoYiTong/sanGuoYiTong.bin",
+			"type": "bin",
+			"name": "sanGuoYiTong"
+		},
+		{
+			"url": "UI/sanguoYiTong/sanGuoYiTong_atlas0.png",
+			"type": "image",
+			"name": "sanGuoYiTong_atlas0"
+		},
+		{
+			"url": "UI/mainUI/TiShi.bin",
+			"type": "bin",
+			"name": "TiShi"
+		},
+		{
+			"url": "UI/mainUI/TiShi_atlas0.png",
+			"type": "image",
+			"name": "TiShi_atlas0"
+		},
+		{
+			"url": "UI/pngquant.exe",
+			"type": "bin",
+			"name": "pngquant_exe"
+		},
+		{
+			"url": "UI/guibin/guibin.bin",
+			"type": "bin",
+			"name": "guibin"
+		},
+		{
+			"url": "UI/guibin/guibin_atlas0.png",
+			"type": "image",
+			"name": "guibin_atlas0"
+		},
+		{
+			"url": "ani.json",
+			"type": "json",
+			"name": "ani_json"
+		},
+		{
+			"url": "UI/huoDOnly/huoDOnly.bin",
+			"type": "bin",
+			"name": "huoDOnly"
+		},
+		{
+			"url": "UI/huoDOnly/huoDOnly_atlas0.png",
+			"type": "image",
+			"name": "huoDOnly_atlas0"
+		},
+		{
+			"url": "UI/ShaoZhuEscort/ShaoZhuEscort.bin",
+			"type": "bin",
+			"name": "ShaoZhuEscort"
+		},
+		{
+			"url": "UI/ShaoZhuEscort/ShaoZhuEscort_atlas0.png",
+			"type": "image",
+			"name": "ShaoZhuEscort_atlas0"
+		},
+		{
+			"url": "UI/helper/helper.bin",
+			"type": "bin",
+			"name": "helper"
+		},
+		{
+			"url": "UI/helper/helper_atlas0.png",
+			"type": "image",
+			"name": "helper_atlas0"
+		},
+		{
+			"url": "UI/shareTask/shareTask.bin",
+			"type": "bin",
+			"name": "shareTask"
+		},
+		{
+			"url": "UI/shareTask/shareTask_atlas0.png",
+			"type": "image",
+			"name": "shareTask_atlas0"
+		},
+		{
+			"url": "UI/YiShouLu/YiShouLu.bin",
+			"type": "bin",
+			"name": "YiShouLu"
+		},
+		{
+			"url": "UI/YiShouLu/YiShouLu_atlas0.png",
+			"type": "image",
+			"name": "YiShouLu_atlas0"
+		},
+		{
+			"url": "UI/actCom/ActComShouChong.bin",
+			"type": "bin",
+			"name": "ActComShouChong"
+		},
+		{
+			"url": "UI/actCom/ActComShouChong_atlas0.png",
+			"type": "image",
+			"name": "ActComShouChong_atlas0"
+		},
+		{
+			"url": "UI/actCom/CaoCaoLaiXi.bin",
+			"type": "bin",
+			"name": "CaoCaoLaiXi"
+		},
+		{
+			"url": "UI/actCom/CaoCaoLaiXi_atlas0.png",
+			"type": "image",
+			"name": "CaoCaoLaiXi_atlas0"
+		},
+		{
+			"url": "UI/actCom/actCom.bin",
+			"type": "bin",
+			"name": "actCom"
+		},
+		{
+			"url": "UI/actTest/actTest.bin",
+			"type": "bin",
+			"name": "actTest"
+		},
+		{
+			"url": "UI/actTest/actTest_atlas0.png",
+			"type": "image",
+			"name": "actTest_atlas0"
+		},
+		{
+			"url": "UI/actComCzZp/actComCzZp.bin",
+			"type": "bin",
+			"name": "actComCzZp"
+		},
+		{
+			"url": "UI/actComCzZp/actComCzZp_atlas0.png",
+			"type": "image",
+			"name": "actComCzZp_atlas0"
+		},
+		{
+			"url": "UI/actComDBZP/actComDBZP.bin",
+			"type": "bin",
+			"name": "actComDBZP"
+		},
+		{
+			"url": "UI/actComDBZP/actComDBZP_atlas0.png",
+			"type": "image",
+			"name": "actComDBZP_atlas0"
+		},
+		{
+			"url": "UI/actComXFZP/actComXFZP.bin",
+			"type": "bin",
+			"name": "actComXFZP"
+		},
+		{
+			"url": "UI/actComXFZP/actComXFZP_atlas0.png",
+			"type": "image",
+			"name": "actComXFZP_atlas0"
+		},
+		{
+			"url": "UI/actComVipDis/actComVipDis_atlas0.png",
+			"type": "image",
+			"name": "actComVipDis_atlas0"
+		},
+		{
+			"url": "UI/actComVipDis/actComVipDis.bin",
+			"type": "bin",
+			"name": "actComVipDis"
+		},
+		{
+			"url": "UI/xffp/xffp.bin",
+			"type": "bin",
+			"name": "xffp"
+		},
+		{
+			"url": "UI/xffp/xffp_atlas0.png",
+			"type": "image",
+			"name": "xffp_atlas0"
+		},
+		{
+			"url": "UI/actCom/actComDouble.bin",
+			"type": "bin",
+			"name": "actComDouble"
+		},
+		{
+			"url": "UI/actCom/actComBuyLimit.bin",
+			"type": "bin",
+			"name": "actComBuyLimit"
+		},
+		{
+			"url": "UI/actCom/actComBuyLimit_atlas0.png",
+			"type": "image",
+			"name": "actComBuyLimit_atlas0"
+		},
+		{
+			"url": "UI/actComSBZK/actComSBZK.bin",
+			"type": "bin",
+			"name": "actComSBZK"
+		},
+		{
+			"url": "UI/actComSBZK/actComSBZK_atlas0.png",
+			"type": "image",
+			"name": "actComSBZK_atlas0"
+		},
+		{
+			"url": "UI/actCom/ActComCZPH.bin",
+			"type": "bin",
+			"name": "ActComCZPH"
+		},
+		{
+			"url": "UI/actCom/ActComSGBZ.bin",
+			"type": "bin",
+			"name": "ActComSGBZ"
+		},
+		{
+			"url": "UI/actCom/ActComSGBZ_atlas0.png",
+			"type": "image",
+			"name": "ActComSGBZ_atlas0"
+		},
+		{
+			"url": "UI/actComXianding/actComXianding.bin",
+			"type": "bin",
+			"name": "actComXianding"
+		},
+		{
+			"url": "UI/actComXianding/actComXianding_atlas0.png",
+			"type": "image",
+			"name": "actComXianding_atlas0"
+		},
+		{
+			"url": "UI/lunhui/lunhui.bin",
+			"type": "bin",
+			"name": "lunhui"
+		},
+		{
+			"url": "UI/lunhui/lunhui_atlas0.png",
+			"type": "image",
+			"name": "lunhui_atlas0"
+		},
+		{
+			"url": "UI/actcom_systemRank/ActCom_SystemRank_atlas0.png",
+			"type": "image",
+			"name": "ActCom_SystemRank_atlas0"
+		},
+		{
+			"url": "UI/actCom_LoginGift/LoginReward.bin",
+			"type": "bin",
+			"name": "LoginReward"
+		},
+		{
+			"url": "UI/actcom_systemRank/ActCom_SystemRank.bin",
+			"type": "bin",
+			"name": "ActCom_SystemRank"
+		},
+		{
+			"url": "UI/WSZWActLCHL/WSZWActLCHL.bin",
+			"type": "bin",
+			"name": "WSZWActLCHL"
+		},
+		{
+			"url": "UI/WSZWActLJCZ/WSZWActLJCZ.bin",
+			"type": "bin",
+			"name": "WSZWActLJCZ"
+		},
+		{
+			"url": "UI/WSZWActLJCZ/WSZWActLJCZ_atlas0.png",
+			"type": "image",
+			"name": "WSZWActLJCZ_atlas0"
+		},
+		{
+			"url": "UI/WSZWActMRHY/WSZWActMRHY.bin",
+			"type": "bin",
+			"name": "WSZWActMRHY"
+		},
+		{
+			"url": "UI/WSZWActMRHY/WSZWActMRHY_atlas0.png",
+			"type": "image",
+			"name": "WSZWActMRHY_atlas0"
+		},
+		{
+			"url": "UI/yssl/yssl.bin",
+			"type": "bin",
+			"name": "yssl"
+		},
+		{
+			"url": "UI/actCom/ActCom_DBCZ.bin",
+			"type": "bin",
+			"name": "ActCom_DBCZ"
+		},
+		{
+			"url": "UI/actCom/XFZD/ActCom_XFZD.bin",
+			"type": "bin",
+			"name": "ActCom_XFZD"
+		},
+		{
+			"url": "UI/actCom/XFZD/ActCom_XFZD_atlas0.png",
+			"type": "image",
+			"name": "ActCom_XFZD_atlas0"
+		},
+		{
+			"url": "UI/actCom/actTalent.bin",
+			"type": "bin",
+			"name": "actTalent"
+		},
+		{
+			"url": "UI/actCom/actTalentGoal.bin",
+			"type": "bin",
+			"name": "actTalentGoal"
+		},
+		{
+			"url": "UI/hefuAct/hefuAct.bin",
+			"type": "bin",
+			"name": "hefuAct"
+		},
+		{
+			"url": "UI/hefuAct/hefuAct_atlas0.png",
+			"type": "image",
+			"name": "hefuAct_atlas0"
+		},
+		{
+			"url": "UI/actCom/ZFZJ/ActCom_ZFZJ.bin",
+			"type": "bin",
+			"name": "ActCom_ZFZJ"
+		},
+		{
+			"url": "UI/actCom/ZFZJ/ActCom_ZFZJ_atlas0.png",
+			"type": "image",
+			"name": "ActCom_ZFZJ_atlas0"
+		},
+		{
+			"url": "UI/actCom/HFSC/ActCom_HFSC.bin",
+			"type": "bin",
+			"name": "ActCom_HFSC"
+		},
+		{
+			"url": "UI/actCom/HFSC/ActCom_HFSC_atlas0.png",
+			"type": "image",
+			"name": "ActCom_HFSC_atlas0"
+		},
+		{
+			"url": "UI/actCom/SJXS/ActCom_SJXS.bin",
+			"type": "bin",
+			"name": "ActCom_SJXS"
+		},
+		{
+			"url": "UI/actCom/SJXS/ActCom_SJXS_atlas0.png",
+			"type": "image",
+			"name": "ActCom_SJXS_atlas0"
+		},
+		{
+			"url": "UI/qice/qice.bin",
+			"type": "bin",
+			"name": "qice"
+		},
+		{
+			"url": "UI/qice/qice_atlas0.png",
+			"type": "image",
+			"name": "qice_atlas0"
+		},
+		{
+			"url": "UI/xfyt/xfyt.bin",
+			"type": "bin",
+			"name": "xfyt"
+		},
+		{
+			"url": "UI/xfyt/xfyt_atlas0.png",
+			"type": "image",
+			"name": "xfyt_atlas0"
+		},
+		{
+			"url": "UI/balloon/balloon.bin",
+			"type": "bin",
+			"name": "balloon"
+		},
+		{
+			"url": "UI/balloon/balloon_atlas0.png",
+			"type": "image",
+			"name": "balloon_atlas0"
+		},
+		{
+			"url": "UI/actcom_WishTree/ActCom_WishTree.bin",
+			"type": "bin",
+			"name": "ActCom_WishTree"
+		},
+		{
+			"url": "UI/actcom_WishTree/ActCom_WishTree_atlas0.png",
+			"type": "image",
+			"name": "ActCom_WishTree_atlas0"
+		},
+		{
+			"url": "UI/actCom_ZTXF/ActCom_ZTXF.bin",
+			"type": "bin",
+			"name": "ActCom_ZTXF"
+		},
+		{
+			"url": "UI/actCom_ZTXF/ActCom_ZTXF_atlas0.png",
+			"type": "image",
+			"name": "ActCom_ZTXF_atlas0"
+		},
+		{
+			"url": "UI/liangcao/liangcao.bin",
+			"type": "bin",
+			"name": "liangcao"
+		},
+		{
+			"url": "UI/liangcao/liangcao_atlas0.png",
+			"type": "image",
+			"name": "liangcao_atlas0"
+		},
+		{
+			"url": "UI/actComSgzl2/actComSgzl2.bin",
+			"type": "bin",
+			"name": "actComSgzl2"
+		},
+		{
+			"url": "UI/actComSgzl2/actComSgzl2_atlas0.png",
+			"type": "image",
+			"name": "actComSgzl2_atlas0"
+		},
+		{
+			"url": "UI/qxzl/qxzl.bin",
+			"type": "bin",
+			"name": "qxzl"
+		},
+		{
+			"url": "UI/qxzl/qxzl_atlas0.png",
+			"type": "image",
+			"name": "qxzl_atlas0"
+		},
+		{
+			"url": "UI/syzlb/syzlb.bin",
+			"type": "bin",
+			"name": "syzlb"
+		},
+		{
+			"url": "UI/syzlb/syzlb_atlas0.png",
+			"type": "image",
+			"name": "syzlb_atlas0"
+		},
+		{
+			"url": "UI/actCom/QFXF/actQFXF.bin",
+			"type": "bin",
+			"name": "actQFXF"
+		},
+		{
+			"url": "UI/actCom/QFXF/actQFXF_atlas0.png",
+			"type": "image",
+			"name": "actQFXF_atlas0"
+		},
+		{
+			"url": "UI/actCom/luckTurn/actLuckTurn.bin",
+			"type": "bin",
+			"name": "actLuckTurn"
+		},
+		{
+			"url": "UI/actCom/luckTurn/actLuckTurn_atlas0.png",
+			"type": "image",
+			"name": "actLuckTurn_atlas0"
+		},
+		{
+			"url": "UI/limitGift/limitGift.bin",
+			"type": "bin",
+			"name": "limitGift"
+		},
+		{
+			"url": "UI/limitGift/limitGift_atlas0.png",
+			"type": "image",
+			"name": "limitGift_atlas0"
+		},
+		{
+			"url": "UI/taoYuanJieYi/taoYuanJieYi.bin",
+			"type": "bin",
+			"name": "taoYuanJieYi"
+		},
+		{
+			"url": "UI/taoYuanJieYi/taoYuanJieYi_atlas0.png",
+			"type": "image",
+			"name": "taoYuanJieYi_atlas0"
+		},
+		{
+			"url": "UI/actCJS/actCJS.bin",
+			"type": "bin",
+			"name": "actCJS"
+		},
+		{
+			"url": "UI/actCJS/actCJS_atlas0.png",
+			"type": "image",
+			"name": "actCJS_atlas0"
+		},
+		{
+			"url": "UI/actBzpt/actBzpt.bin",
+			"type": "bin",
+			"name": "actBzpt"
+		},
+		{
+			"url": "UI/actBzpt/actBzpt_atlas0.png",
+			"type": "image",
+			"name": "actBzpt_atlas0"
+		},
+		{
+			"url": "UI/actCom/LJFL/actCom_LJFL.bin",
+			"type": "bin",
+			"name": "actCom_LJFL"
+		},
+		{
+			"url": "UI/actCom/LJFL/actCom_LJFL_atlas0.png",
+			"type": "image",
+			"name": "actCom_LJFL_atlas0"
+		},
+		{
+			"url": "UI/actShop12/actShop12.bin",
+			"type": "bin",
+			"name": "actShop12"
+		},
+		{
+			"url": "UI/actShop12/actShop12_atlas0.png",
+			"type": "image",
+			"name": "actShop12_atlas0"
+		},
+		{
+			"url": "UI/actCom/JRSC/actCom_JRSC.bin",
+			"type": "bin",
+			"name": "actCom_JRSC"
+		},
+		{
+			"url": "UI/actCom/CSSL/ActCom_CSSL.bin",
+			"type": "bin",
+			"name": "ActCom_CSSL"
+		},
+		{
+			"url": "UI/horse/horse.bin",
+			"type": "bin",
+			"name": "horse"
+		},
+		{
+			"url": "UI/horse/horse_atlas0.png",
+			"type": "image",
+			"name": "horse_atlas0"
+		},
+		{
+			"url": "UI/actCom_DDL/ActCom_DDL.bin",
+			"type": "bin",
+			"name": "ActCom_DDL"
+		},
+		{
+			"url": "UI/actCom_DDL/ActCom_DDL_atlas0.png",
+			"type": "image",
+			"name": "ActCom_DDL_atlas0"
+		},
+		{
+			"url": "UI/luckyEgg/luckyEgg.bin",
+			"type": "bin",
+			"name": "luckyEgg"
+		},
+		{
+			"url": "UI/luckyEgg/luckyEgg_atlas0.png",
+			"type": "image",
+			"name": "luckyEgg_atlas0"
+		},
+		{
+			"url": "UI/fudi/JiaDing.bin",
+			"type": "bin",
+			"name": "JiaDing"
+		},
+		{
+			"url": "UI/fudi/JiaDing_atlas0.png",
+			"type": "image",
+			"name": "JiaDing_atlas0"
+		},
+		{
+			"url": "UI/yanhui/YanHui.bin",
+			"type": "bin",
+			"name": "YanHui"
+		},
+		{
+			"url": "UI/yanhui/YanHui_atlas0.png",
+			"type": "image",
+			"name": "YanHui_atlas0"
+		},
+		{
+			"url": "UI/actCom/JSSC/ActCom_JSSC.bin",
+			"type": "bin",
+			"name": "ActCom_JSSC"
+		},
+		{
+			"url": "UI/actCom/JSSC/ActCom_JSSC_atlas0.png",
+			"type": "image",
+			"name": "ActCom_JSSC_atlas0"
+		},
+		{
+			"url": "UI/actCom_TJHB/ActCom_TJHB.bin",
+			"type": "bin",
+			"name": "ActCom_TJHB"
+		},
+		{
+			"url": "UI/actCom_TJHB/ActCom_TJHB_atlas0.png",
+			"type": "image",
+			"name": "ActCom_TJHB_atlas0"
+		},
+		{
+			"url": "UI/actCom/nianShou/actComNianShou.bin",
+			"type": "bin",
+			"name": "actComNianShou"
+		},
+		{
+			"url": "UI/actCom/nianShou/actComNianShou_atlas0.png",
+			"type": "image",
+			"name": "actComNianShou_atlas0"
+		},
+		{
+			"url": "UI/actCom/leiTai/actComLeiTai.bin",
+			"type": "bin",
+			"name": "actComLeiTai"
+		},
+		{
+			"url": "UI/actCom/leiTai/actComLeiTai_atlas0.png",
+			"type": "image",
+			"name": "actComLeiTai_atlas0"
+		},
+		{
+			"url": "UI/actCom/actComTianJiangHaoli.bin",
+			"type": "bin",
+			"name": "actComTianJiangHaoli"
+		},
+		{
+			"url": "UI/actCom/superMarbles.bin",
+			"type": "bin",
+			"name": "superMarbles"
+		},
+		{
+			"url": "UI/actCom/superMarbles_atlas0.png",
+			"type": "image",
+			"name": "superMarbles_atlas0"
+		},
+		{
+			"url": "UI/actCom/yuanxiao/ActCom_YuanXiao.bin",
+			"type": "bin",
+			"name": "ActCom_YuanXiao"
+		},
+		{
+			"url": "UI/actCom/yuanxiao/ActCom_YuanXiao_atlas0.png",
+			"type": "image",
+			"name": "ActCom_YuanXiao_atlas0"
+		},
+		{
+			"url": "UI/actCom/zhizhunmibao.bin",
+			"type": "bin",
+			"name": "zhizhunmibao"
+		},
+		{
+			"url": "UI/ggl/ggl.bin",
+			"type": "bin",
+			"name": "ggl"
+		},
+		{
+			"url": "UI/ggl/ggl_atlas0.png",
+			"type": "image",
+			"name": "ggl_atlas0"
+		},
+		{
+			"url": "UI/HongBao/HongBao.bin",
+			"type": "bin",
+			"name": "HongBao"
+		},
+		{
+			"url": "UI/HongBao/HongBao_atlas0.png",
+			"type": "image",
+			"name": "HongBao_atlas0"
+		},
+		{
+			"url": "UI/xuTian/xuTian.bin",
+			"type": "bin",
+			"name": "xuTian"
+		},
+		{
+			"url": "UI/xuTian/xuTian_atlas0.png",
+			"type": "image",
+			"name": "xuTian_atlas0"
+		},
+		{
+			"url": "UI/homeMaid/homeMaid.bin",
+			"type": "bin",
+			"name": "homeMaid"
+		},
+		{
+			"url": "UI/homeMaid/homeMaid_atlas0.png",
+			"type": "image",
+			"name": "homeMaid_atlas0"
+		},
+		{
+			"url": "UI/homeTask/homeTask.bin",
+			"type": "bin",
+			"name": "homeTask"
+		},
+		{
+			"url": "UI/homeTask/homeTask_atlas0.png",
+			"type": "image",
+			"name": "homeTask_atlas0"
+		},
+		{
+			"url": "UI/actCom_PXSB/actCom_PXSB.bin",
+			"type": "bin",
+			"name": "actCom_PXSB"
+		},
+		{
+			"url": "UI/actCom_PXSB/actCom_PXSB_atlas0.png",
+			"type": "image",
+			"name": "actCom_PXSB_atlas0"
+		},
+		{
+			"url": "UI/GCBZ/GCBZ.bin",
+			"type": "bin",
+			"name": "GCBZ"
+		},
+		{
+			"url": "UI/GCBZ/GCBZ_atlas0.png",
+			"type": "image",
+			"name": "GCBZ_atlas0"
+		},
+		{
+			"url": "UI/home/home.bin",
+			"type": "bin",
+			"name": "home"
+		},
+		{
+			"url": "UI/home/home_atlas0.png",
+			"type": "image",
+			"name": "home_atlas0"
+		},
+		{
+			"url": "UI/actComWMSZ/ActCom_WMSZ.bin",
+			"type": "bin",
+			"name": "ActCom_WMSZ"
+		},
+		{
+			"url": "UI/actComWMSZ/ActCom_WMSZ_atlas0.png",
+			"type": "image",
+			"name": "ActCom_WMSZ_atlas0"
+		},
+		{
+			"url": "UI/xyfq/xyfq.bin",
+			"type": "bin",
+			"name": "xyfq"
+		},
+		{
+			"url": "UI/xyfq/xyfq_atlas0.png",
+			"type": "image",
+			"name": "xyfq_atlas0"
+		},
+		{
+			"url": "UI/warOrder/warOrder.bin",
+			"type": "bin",
+			"name": "warOrder"
+		},
+		{
+			"url": "UI/warOrder/warOrder_atlas0.png",
+			"type": "image",
+			"name": "warOrder_atlas0"
+		},
+		{
+			"url": "UI/warOrder1/warOrder1.bin",
+			"type": "bin",
+			"name": "warOrder1"
+		},
+		{
+			"url": "UI/warOrder1/warOrder1_atlas0.png",
+			"type": "image",
+			"name": "warOrder1_atlas0"
+		},
+		{
+			"url": "UI/bt/czlb.bin",
+			"type": "bin",
+			"name": "czlb"
+		},
+		{
+			"url": "UI/bt/czlb_atlas0.png",
+			"type": "image",
+			"name": "czlb_atlas0"
+		},
+		{
+			"url": "UI/bt/wyhb.bin",
+			"type": "bin",
+			"name": "wyhb"
+		},
+		{
+			"url": "UI/bt/wyhb_atlas0.png",
+			"type": "image",
+			"name": "wyhb_atlas0"
+		},
+		{
+			"url": "version.json",
+			"type": "json",
+			"name": "version_json"
+		}
+	]
+}

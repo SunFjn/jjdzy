@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="5ed3mple" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="lsg11" name="活动开启底.png" path="/image/" exported="true" scale="" scale9grid="175,78,25,149"/>
+    <image id="lsg12" name="活动开启标题.png" path="/image/" exported="true"/>
+    <component id="lsg13" name="View_ActivityOpenPrompt_Panel.xml" path="/组件/" exported="true"/>
+    <image id="lsg14" name="x.png" path="/image/" exported="true"/>
+  </resources>
+  <publish npot="true" name="TiShi" genCode="true"/>
+</packageDescription>

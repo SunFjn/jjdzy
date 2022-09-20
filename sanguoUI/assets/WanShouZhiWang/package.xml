@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="h1sqou1z" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="hjvb2" name="ActHolyBHuoYTab.xml" path="/组件/每日活跃/" exported="true"/>
+    <component id="hjvb3" name="Child_ActHolyBHuoYue.xml" path="/组件/每日活跃/" exported="true"/>
+    <component id="hjvb6" name="Child_HuoDong.xml" path="/组件/累计充值/" exported="true"/>
+    <image id="hjvb8" name="48.png" path="/image/"/>
+    <image id="hjvb9" name="6.png" path="/image/"/>
+    <image id="hjvba" name="98.png" path="/image/"/>
+    <image id="hjvbb" name="活动图.jpg" path="/image/"/>
+    <image id="hjvbc" name="连充豪礼.jpg" path="/image/"/>
+    <component id="q6qwe" name="ViewWSZWAct.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="WanShouZhiWang" genCode="true" npot="true"/>
+</packageDescription>

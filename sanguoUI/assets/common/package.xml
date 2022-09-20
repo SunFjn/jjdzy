@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="jvxpx9em" hasFavorites="true">
+  <resources>
+    <component id="y1z8b" name="Button0.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="y1z8l" name="Button1.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="y1z8p" name="BmG_3.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="etorm" name="ViewGrid.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="etorn" name="ViewGridRender.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="etoro" name="Bm_Liang.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="c14z16" name="Button2.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="lqbq1a" name="commonWarn.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="nwjs20" name="No_Crittext.png" path="/image1/crit/" exported="true" scale="9grid" scale9grid="43,26,86,52"/>
+    <image id="nwjs21" name="No_dizz.png" path="/image1/crit/" exported="true"/>
+    <component id="7g6v23" name="TipBagItem.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="7g6v24" name="TipBagItemUse.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="7g6v25" name="TipEquip.xml" path="/新组建/" exported="true" favorite="true"/>
+    <font id="z1r82c" name="StarFont.fnt" path="/新组建/" exported="true" favorite="true"/>
+    <component id="z1r82f" name="checkBox.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="z1r82h" name="选中发光状态框.png" path="/image/新资源/" exported="true" favorite="true" scale="9grid" scale9grid="19,18,25,30"/>
+    <image id="sv0g2i" name="big_star_1.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="sv0g2j" name="big_star_2.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="sv0g2k" name="big_star_3.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="sv0g2l" name="big_star_4.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="sv0g2m" name="big_star_5.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="sv0g2n" name="big_star_0.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="bwmw3b" name="closeButton.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="bwmw3c" name="Title.png" path="/image1/" exported="true" favorite="true" scale="9grid" scale9grid="149,12,298,24"/>
+    <component id="bwmw3f" name="TabButton.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="bwmw3l" name="战力.png" path="/image/" exported="true" favorite="true"/>
+    <font id="bwmw3w" name="powerFont.fnt" path="/组件/" exported="true" favorite="true"/>
+    <image id="bwmw3y" name="元宝.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="f1cf44" name="勾.png" path="/image/箭头+其他/" exported="true" favorite="true"/>
+    <image id="f1cf45" name="CheckButton.png" path="/image/箭头+其他/" exported="true" favorite="true"/>
+    <component id="f1cf47" name="frame1.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="f1cf49" name="closeButton1.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="f1cf4b" name="frame2.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="f1cf4e" name="gem_isinsert.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="f1cf4g" name="Bg3.png" path="/image1/" exported="true" favorite="true" scale="9grid" scale9grid="42,10,84,20"/>
+    <component id="rt7o4l" name="ViewAlert.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="rt7o4r" name="inputBg.png" path="/image/通用底框/" exported="true" favorite="true" scale="9grid" scale9grid="14,8,157,16"/>
+    <image id="cyxg4w" name="数量增减按钮1.png" path="/image/通用按钮/" exported="true" favorite="true" scale="9grid" scale9grid="12,12,24,17"/>
+    <image id="jkp64z" name="Bg4.png" path="/image1/" exported="true" favorite="true" scale="9grid" scale9grid="20,12,88,74"/>
+    <image id="n4tu52" name="ContentBg.png" path="/image1/" exported="true" favorite="true" scale="9grid" scale9grid="30,30,37,58"/>
+    <image id="ltpm59" name="铜币.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="tw1l5d" name="ViewGrid2.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="tw1l5j" name="头像框.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="tw1l5m" name="将印名称底.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="tw1l5p" name="bg5.png" path="/image1/" exported="true" favorite="true" scale="9grid" scale9grid="14,13,38,9"/>
+    <image id="som163" name="经验球.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="som165" name="checkBox1.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="gs0d66" name="阵营框.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="gs0d67" name="收起按钮.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="dlak69" name="间隔线.png" path="/image/箭头+其他/" exported="true" favorite="true"/>
+    <component id="x2oe6a" name="PromptItemList.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="l3y16b" name="箭头.png" path="/image/箭头+其他/" exported="true" favorite="true"/>
+    <component id="qcyl6d" name="TipRoleEquip.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="n7sj6d" name="ViewResource.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="i6im6g" name="获得奖励.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="i6im6i" name="胜利.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="i6im6j" name="失败.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="z1jw6l" name="侧边框底.png" path="/image/" exported="true" favorite="true" scale="9grid" scale9grid="37,1,74,5"/>
+    <image id="z1jw6n" name="魂火.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="z1jw6p" name="名字边框.png" path="/image/通用底框/" exported="true" favorite="true" scale9grid="8,34,84,70"/>
+    <image id="z1jw6q" name="佩戴标志.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="z1jw6s" name="头像星星背景.png" path="/image1/" exported="true" favorite="true" scale="9grid" scale9grid="23,6,46,12"/>
+    <component id="z1jw6v" name="frame3.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="z1jw6w" name="战力底.png" path="/image/" exported="true" favorite="true" scale="9grid" scale9grid="18,6,221,28"/>
+    <image id="ifb26y" name="通用锁.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="spdw6y" name="ViewName.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="h3bo72" name="ViewPower.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="nn9875" name="ViewBattleFault.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="nn9876" name="ViewFightWin.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="61zd77" name="九宫格拉伸透明底.png" path="/image1/" exported="true" favorite="true" scale="9grid" scale9grid="5,5,10,10"/>
+    <image id="61zd78" name="装饰2.png" path="/image/" exported="true" favorite="true" scale="9grid" scale9grid="129,0,109,17"/>
+    <image id="mb5j7d" name="已购买.png" path="/image/" exported="true" favorite="true"/>
+    <image id="mb5j7f" name="line.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="xyp27g" name="country1.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="xyp27h" name="country2.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="xyp27i" name="country3.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="xyp27j" name="country4.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="kw747k" name="Quit.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="kw747l" name="头像底.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="kw747m" name="View_BossSceneHead.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="kw747o" name="BOSS血条底.png" path="/image1/" exported="true" favorite="true" scale="9grid" scale9grid="20,6,272,9"/>
+    <image id="kw747v" name="BM_BOXT1.png" path="/image1/" exported="true" favorite="true" scale="9grid" scale9grid="15,5,30,6"/>
+    <image id="kw7481" name="诗.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="kw7482" name="提升战力.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="rhgq83" name="CloseBt.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="r6x487" name="View_Reward_Show.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="p75385" name="技能数字底框.png" path="/image/新资源/" exported="true" favorite="true" scale="9grid" scale9grid="13,10,14,15"/>
+    <component id="p75387" name="ViewHead.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="p4bn88" name="HpBar.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="bx2z89" name="公告底.png" path="/image1/" exported="true" favorite="true" scale="9grid" scale9grid="14,9,28,18"/>
+    <image id="bx2z8a" name="已领取.png" path="/image/" exported="true" favorite="true"/>
+    <image id="608a8f" name="vip0.png" path="/image1/vipNum/" exported="true"/>
+    <image id="608a8g" name="vip1.png" path="/image1/vipNum/" exported="true"/>
+    <image id="608a8h" name="vip2.png" path="/image1/vipNum/" exported="true"/>
+    <image id="608a8i" name="vip3.png" path="/image1/vipNum/" exported="true"/>
+    <image id="608a8j" name="vip4.png" path="/image1/vipNum/" exported="true"/>
+    <image id="608a8k" name="vip5.png" path="/image1/vipNum/" exported="true"/>
+    <image id="608a8l" name="vip6.png" path="/image1/vipNum/" exported="true"/>
+    <image id="608a8m" name="vip7.png" path="/image1/vipNum/" exported="true"/>
+    <image id="608a8n" name="vip8.png" path="/image1/vipNum/" exported="true"/>
+    <image id="608a8o" name="vip9.png" path="/image1/vipNum/" exported="true"/>
+    <image id="608a8p" name="VIP.png" path="/image1/vipNum/" exported="true"/>
+    <font id="608a8q" name="vipFont.fnt" path="/新组建/" exported="true" favorite="true"/>
+    <image id="og798s" name="dmg9.png" path="/image1/dmg/" exported="true"/>
+    <image id="og798t" name="dmg0.png" path="/image1/dmg/" exported="true"/>
+    <image id="og798u" name="dmg1.png" path="/image1/dmg/" exported="true"/>
+    <image id="og798v" name="dmg2.png" path="/image1/dmg/" exported="true"/>
+    <image id="og798w" name="dmg3.png" path="/image1/dmg/" exported="true"/>
+    <image id="og798x" name="dmg4.png" path="/image1/dmg/" exported="true"/>
+    <image id="og798y" name="dmg5.png" path="/image1/dmg/" exported="true"/>
+    <image id="og798z" name="dmg6.png" path="/image1/dmg/" exported="true"/>
+    <image id="og7990" name="dmg7.png" path="/image1/dmg/" exported="true"/>
+    <image id="og7991" name="dmg8.png" path="/image1/dmg/" exported="true"/>
+    <font id="og7992" name="dmgFont.fnt" path="/新组建/" exported="true" favorite="true"/>
+    <image id="og7993" name="crit9.png" path="/image1/crit/" exported="true"/>
+    <image id="og7994" name="crit0.png" path="/image1/crit/" exported="true"/>
+    <image id="og7995" name="crit1.png" path="/image1/crit/" exported="true" scale="9grid" scale9grid="9,9,18,18"/>
+    <image id="og7996" name="crit2.png" path="/image1/crit/" exported="true"/>
+    <image id="og7997" name="crit3.png" path="/image1/crit/" exported="true"/>
+    <image id="og7998" name="crit4.png" path="/image1/crit/" exported="true"/>
+    <image id="og7999" name="crit5.png" path="/image1/crit/" exported="true"/>
+    <image id="og799a" name="crit6.png" path="/image1/crit/" exported="true"/>
+    <image id="og799b" name="crit7.png" path="/image1/crit/" exported="true"/>
+    <image id="og799c" name="crit8.png" path="/image1/crit/" exported="true"/>
+    <font id="og799d" name="critFont.fnt" path="/新组建/" exported="true" favorite="true"/>
+    <image id="aro89e" name="宝箱.png" path="/image/新资源/" exported="true" favorite="true"/>
+    <component id="81i09f" name="View_BoxReward_Show.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="hzfc9g" name="View_CaiLiao_GetPanel.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="hzfc9h" name="way_title.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="hzfc9k" name="CaiLiaoRender.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="c4v29g" name="提示背景.png" path="/image1/" exported="true" favorite="true" scale="9grid" scale9grid="95,8,190,12"/>
+    <component id="ta899l" name="BattleHpAndName.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="q8rv9m" name="方形购买按钮.png" path="/image/通用按钮/" exported="true" favorite="true"/>
+    <image id="q8rv9n" name="排名.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="q8rv9o" name="奖励.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="lve29p" name="小血条.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="lve29q" name="小血条底.png" path="/image1/" exported="true" favorite="true" scale="9grid" scale9grid="24,3,48,5"/>
+    <component id="lve29r" name="SceneBar.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="j92x9s" name="积分.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="j92x9t" name="名字.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="j92x9u" name="段位.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="d2iu9v" name="ViewBg1.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="f50e9w" name="功勋图标.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="f50e9x" name="声望图标.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="k8qc9z" name="maskBg.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="nxcba0" name="分割线.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="nxcba1" name="Vip背景.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="c4lpa2" name="已售罄.png" path="/image/" exported="true" favorite="true"/>
+    <image id="c4lpab" name="限时.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="e1fia2" name="ViewFightWin1.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="siu4a3" name="yuan.png" path="/image/powerNum/" exported="true" favorite="true"/>
+    <component id="lnckac" name="ChildTipBagItem.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="kplsah" name="tishikuang.png" path="/image1/" exported="true" favorite="true" scale="9grid" scale9grid="46,16,108,22"/>
+    <component id="omdtal" name="BroadcastItemText.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="100v3al" name="rank_1.png" path="/image/新资源/" exported="true" favorite="true"/>
+    <image id="100v3am" name="rank_2.png" path="/image/新资源/" exported="true" favorite="true"/>
+    <image id="100v3an" name="rank_3.png" path="/image/新资源/" exported="true" favorite="true"/>
+    <component id="ydyeal" name="ViewFightWin2.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="ydyeam" name="成功晋级.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="ah3c3ap" name="View_WFSM_Panel.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="ah3c3aq" name="View_WFSM.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="ruw93as" name="ViewBattlePrompt.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="obg13at" name="heroDmg9.png" path="/image1/dmg/" exported="true"/>
+    <image id="obg13au" name="heroDmg0.png" path="/image1/dmg/" exported="true"/>
+    <image id="obg13av" name="heroDmg1.png" path="/image1/dmg/" exported="true"/>
+    <image id="obg13aw" name="heroDmg2.png" path="/image1/dmg/" exported="true"/>
+    <image id="obg13ax" name="heroDmg3.png" path="/image1/dmg/" exported="true"/>
+    <image id="obg13ay" name="heroDmg4.png" path="/image1/dmg/" exported="true"/>
+    <image id="obg13az" name="heroDmg5.png" path="/image1/dmg/" exported="true"/>
+    <image id="obg13b0" name="heroDmg6.png" path="/image1/dmg/" exported="true"/>
+    <image id="obg13b1" name="heroDmg7.png" path="/image1/dmg/" exported="true"/>
+    <image id="obg13b2" name="heroDmg8.png" path="/image1/dmg/" exported="true"/>
+    <font id="obg13b3" name="heroDmgFont.fnt" path="/新组建/" exported="true" favorite="true"/>
+    <component id="vasq3b4" name="expBar2.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="vasq3b5" name="经验.png" path="/image/进度条/" exported="true" favorite="true" scale="9grid" scale9grid="4,0,4,11"/>
+    <image id="vasq3b6" name="经验底.png" path="/image/进度条/" exported="true" favorite="true" scale="9grid" scale9grid="24,7,22,8"/>
+    <image id="rvpm3b7" name="碎片标记.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="fslr3b9" name="ViewModalWait.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="x9ki3ba" name="View_NewWuJiang.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="x9ki3bb" name="获得新武将.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="tqmx3bc" name="ViewOffLine.xml" path="/新组建/掉线/" exported="true" favorite="true"/>
+    <image id="dyuu3bd" name="错误提示.png" path="/image1/" exported="true" favorite="true" scale="9grid" scale9grid="11,10,21,17"/>
+    <image id="m3513bf" name="方框1.png" path="/image/通用底框/" exported="true" favorite="true" scale="9grid" scale9grid="158,37,320,103"/>
+    <image id="m3513bi" name="标签页未选中状态按钮.png" path="/image/通用按钮/" exported="true" favorite="true" scale="9grid" scale9grid="29,14,58,25"/>
+    <image id="m3513bk" name="标签页选中状态按钮.png" path="/image/通用按钮/" exported="true" favorite="true"/>
+    <image id="m3513bl" name="背景.jpg" path="/image/通用背景图/" exported="true" favorite="true"/>
+    <image id="m3513bm" name="返回按钮.png" path="/image/通用按钮/" exported="true" favorite="true"/>
+    <image id="m3513bn" name="升星按钮.png" path="/image/" exported="true" favorite="true"/>
+    <image id="m3513bo" name="弹窗关闭按钮.png" path="/image/通用按钮/" exported="true" favorite="true"/>
+    <image id="m3513bp" name="橙色按钮.png" path="/image/通用按钮/" exported="true" favorite="true"/>
+    <image id="m3513bq" name="蓝色按钮.png" path="/image/通用按钮/" exported="true" favorite="true"/>
+    <image id="m3513br" name="弹窗.png" path="/image/通用底框/" exported="true" favorite="true" scale="9grid" scale9grid="146,68,295,24"/>
+    <image id="m3513bt" name="分割线.png" path="/image/" exported="true" favorite="true" scale="9grid" scale9grid="221,0,68,10"/>
+    <image id="m3513bv" name="tips.png" path="/image/通用底框/" exported="true" favorite="true" scale="9grid" scale9grid="79,62,9,13"/>
+    <image id="m3513by" name="文字底.png" path="/image/" exported="true" favorite="true"/>
+    <image id="m3513c0" name="新版台子.png" path="/image/通用底框/" exported="true" favorite="true"/>
+    <image id="m3513c1" name="选中效果.png" path="/image/" exported="true" favorite="true" scale="9grid" scale9grid="27,27,54,54"/>
+    <component id="v3t93c3" name="WindowFrame1.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="tojh3c4" name="材料1.png" path="/image/" exported="true" favorite="true"/>
+    <image id="tojh3c5" name="材料2.png" path="/image/" exported="true" favorite="true"/>
+    <image id="tojh3c6" name="power0.png" path="/image/powerNum/" exported="true" favorite="true"/>
+    <image id="tojh3c7" name="power1.png" path="/image/powerNum/" exported="true" favorite="true"/>
+    <image id="tojh3c8" name="power2.png" path="/image/powerNum/" exported="true" favorite="true"/>
+    <image id="tojh3c9" name="power3.png" path="/image/powerNum/" exported="true" favorite="true"/>
+    <image id="tojh3ca" name="power4.png" path="/image/powerNum/" exported="true" favorite="true"/>
+    <image id="tojh3cb" name="power5.png" path="/image/powerNum/" exported="true" favorite="true"/>
+    <image id="tojh3cc" name="power6.png" path="/image/powerNum/" exported="true" favorite="true"/>
+    <image id="tojh3cd" name="power7.png" path="/image/powerNum/" exported="true" favorite="true"/>
+    <image id="tojh3ce" name="power8.png" path="/image/powerNum/" exported="true" favorite="true"/>
+    <image id="tojh3cf" name="power9.png" path="/image/powerNum/" exported="true" favorite="true"/>
+    <component id="iqo83cg" name="ViewTitle.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="iqo83ch" name="Button4.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="iqo83ci" name="材料3.png" path="/image/" exported="true" favorite="true"/>
+    <component id="fsg93cj" name="frame4.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="qrc53bf" name="ViewAlertBuy.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="x3b93cl" name="方框3.png" path="/image/通用底框/" exported="true" favorite="true" scale="9grid" scale9grid="6,5,7,11"/>
+    <image id="w6ro3cm" name="箭头1.png" path="/image/箭头+其他/" exported="true" favorite="true"/>
+    <image id="dna53co" name="卸下.png" path="/image/" exported="true" favorite="true"/>
+    <image id="dna53cp" name="使用按钮.png" path="/image/" exported="true" favorite="true"/>
+    <image id="dna53cq" name="使用中.png" path="/image/" exported="true" favorite="true"/>
+    <image id="oo0o3cs" name="活动条件文字底.png" path="/image/" exported="true" favorite="true"/>
+    <image id="gsdl3cn" name="战力底1.png" path="/image1/" exported="true" favorite="true" scale="9grid" scale9grid="65,10,130,20"/>
+    <component id="tli03cv" name="TabButton1.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="tli03cw" name="标签按钮2选中状态.png" path="/image/通用按钮/" exported="true" favorite="true" scale="9grid" scale9grid="29,11,58,22"/>
+    <image id="tli03cx" name="标签按钮2未选中状态.png" path="/image/通用按钮/" exported="true" favorite="true" scale="9grid" scale9grid="29,11,58,22"/>
+    <image id="pxaa3cv" name="数量框.png" path="/image/" exported="true" favorite="true" scale="9grid" scale9grid="11,0,86,26"/>
+    <image id="vqyp3cy" name="战力.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="xnp23cz" name="0.png" path="/image1/lightNum/" exported="true"/>
+    <image id="xnp23d0" name="1.png" path="/image1/lightNum/" exported="true"/>
+    <image id="xnp23d1" name="2.png" path="/image1/lightNum/" exported="true"/>
+    <image id="xnp23d2" name="3.png" path="/image1/lightNum/" exported="true"/>
+    <image id="xnp23d3" name="4.png" path="/image1/lightNum/" exported="true"/>
+    <image id="xnp23d4" name="5.png" path="/image1/lightNum/" exported="true"/>
+    <image id="xnp23d5" name="6.png" path="/image1/lightNum/" exported="true"/>
+    <image id="xnp23d6" name="7.png" path="/image1/lightNum/" exported="true"/>
+    <image id="xnp23d7" name="8.png" path="/image1/lightNum/" exported="true"/>
+    <image id="xnp23d8" name="9.png" path="/image1/lightNum/" exported="true"/>
+    <font id="xnp23d9" name="numFont.fnt" path="/image1/lightNum/" exported="true"/>
+    <component id="ur2m3da" name="TipEatDan.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="xwhy3dc" name="抽奖框.png" path="/image/" exported="true" favorite="true" scale="9grid" scale9grid="42,23,27,46"/>
+    <image id="f3sq3dd" name="拉伸背景.png" path="/image/" exported="true" favorite="true" scale="9grid" scale9grid="2,11,4,22"/>
+    <component id="hbxz3df" name="ViewOffLine1.xml" path="/新组建/掉线/" exported="true" favorite="true"/>
+    <image id="c6yy3dg" name="大奖.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="myon3di" name="单根光效.png" path="/image/" exported="true" favorite="true"/>
+    <component id="ppkp3dj" name="ViewBaoWuLevelUp.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="rxjy3dl" name="额外.png" path="/image/" exported="true" favorite="true"/>
+    <component id="khne3dm" name="VZhiSheng.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="dv773dn" name="VSysSkillItem.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="dv773do" name="ViewSysTipSkill.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="r3tt3dm" name="升阶解锁.png" path="/image/" exported="true" favorite="true"/>
+    <image id="qblv3dq" name="直升一阶(1).png" path="/image/" exported="true" favorite="true"/>
+    <image id="qblv3dr" name="今日上架(1).png" path="/image/" exported="true" favorite="true"/>
+    <image id="ik2r3du" name="协助.png" path="/image/" exported="true" favorite="true"/>
+    <component id="tc2x3dv" name="EmptyComp.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="oy8g30" name="TipWuJiangSkillShow.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="dhj53ds" name="普通技能框.png" path="/image/" exported="true" favorite="true"/>
+    <component id="crbi3dv" name="RevivePanel.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="810t3dy" name="VSCTip.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="zzq33dy" name="boss名字底.png" path="/image/" exported="true" favorite="true" scale="9grid" scale9grid="43,15,86,23"/>
+    <image id="zzq33dz" name="圆底.png" path="/image/" exported="true" favorite="true"/>
+    <component id="73mn3e1" name="View_MapPanel.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="qup63e3" name="排行榜按钮.png" path="/image/" exported="true" favorite="true"/>
+    <image id="by8m3e3" name="羁绊图标底.png" path="/image/" exported="true" favorite="true"/>
+    <component id="on893e4" name="View_WFLab_Panel.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="s89q3e5" name="IconJie.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="s89q3e6" name="阶数图标.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="l0xet" name="VWuJiangSkillS.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="rzhj3e7" name="护盾.png" path="/image1/" exported="true" favorite="true" scale9grid="0,0,-4,-4"/>
+    <image id="rzhj3e8" name="heroShield9.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3e9" name="heroShield0.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3ea" name="heroShield1.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3eb" name="heroShield2.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3ec" name="heroShield3.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3ed" name="heroShield4.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3ee" name="heroShield5.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3ef" name="heroShield6.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3eg" name="heroShield7.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3eh" name="heroShield8.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3ei" name="灰色护盾.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3ej" name="蓝色护盾.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3ek" name="shield9.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3el" name="shield0.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3em" name="shield1.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3en" name="shield2.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3eo" name="shield3.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3ep" name="shield4.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3eq" name="shield5.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3er" name="shield6.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3es" name="shield7.png" path="/image1/shieldDmg/" exported="true"/>
+    <image id="rzhj3et" name="shield8.png" path="/image1/shieldDmg/" exported="true"/>
+    <font id="rzhj3eu" name="shieldFont.fnt" path="/新组建/" exported="true" favorite="true"/>
+    <font id="rzhj3ev" name="heroShieldFont.fnt" path="/新组建/" exported="true" favorite="true"/>
+    <component id="hc263ew" name="View_TSMS_Panel.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="hc263ex" name="组 88.png" path="/image/" exported="true" favorite="true"/>
+    <image id="ppyw3ey" name="奖励预览.png" path="/image/" exported="true" favorite="true"/>
+    <image id="iy753ez" name="连击.png" path="/image/" exported="true" favorite="true"/>
+    <component id="iy753f0" name="View_LianJi_Panel.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="pdbd3f1" name="View_GaiLv_Panel.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="dzc53f1" name="ArpgPlayerNamePlug.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="dzc53f2" name="ViewArpgSceneChange.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="z05i3f3" name="TipBagItemUse1.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="z05i3f4" name="概率公示.png" path="/image/" exported="true" favorite="true"/>
+    <image id="z05i3f5" name="必中次数公示.png" path="/image/" exported="true" favorite="true"/>
+    <image id="orq63ff" name="vip绿.png" path="/image1/vipNum/" exported="true"/>
+    <image id="orq63fg" name="vip紫.png" path="/image1/vipNum/" exported="true"/>
+    <image id="orq63fh" name="vip红.png" path="/image1/vipNum/" exported="true"/>
+    <image id="orq63fi" name="vip蓝.png" path="/image1/vipNum/" exported="true"/>
+    <component id="z8fv3ff" name="ViewPower1.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="sjy23fj" name="RoleStatePlug.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="eium3fk" name="锁定.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="eium3fl" name="解锁.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="ul8t3fk" name="展示.png" path="/image/" exported="true" favorite="true"/>
+    <image id="ul8t3fl" name="战力提升.png" path="/image/" exported="true" favorite="true"/>
+    <image id="ik2r3dt" name="首通.png" path="/image/" exported="true" favorite="true"/>
+    <component id="nbrv3fm" name="View_QuickBuy_Panel.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="qxkh3fn" name="SceneDropView.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="qxkh3fo" name="1.png" path="/image1/" favorite="true" scale="9grid" scale9grid="26,9,52,10"/>
+    <image id="qxkh3fp" name="3.png" path="/image1/" favorite="true"/>
+    <image id="6hpm3fs" name="tab2.png" path="/image/" exported="true" favorite="true"/>
+    <component id="6hpm3ft" name="TabButton2.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="s62s3fu" name="首通奖励.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="dr4r3fv" name="双倍.png" path="/image/" exported="true" favorite="true"/>
+    <image id="lsg13fw" name="荐.png" path="/image/" exported="true" favorite="true"/>
+    <image id="wycz3fv" name="ylq.png" path="/image/" exported="true" favorite="true"/>
+    <image id="git23fx" name="满员.png" path="/image/" exported="true" favorite="true"/>
+    <component id="pmv22e" name="VTipBWJiHuoSkin.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="o6gd2g" name="ZhanShenEff.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="vpg63fy" name="ViewHeadWin.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="fy1c3fz" name="Button5.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="q2i93g0" name="TipBagItemUseWuJ.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="q2i93g1" name="ChildTipBagWuJ.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="q2i93g2" name="TipBagItemUseBySys.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="q2i93g3" name="ChildTipBagBySys.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="w6sh3g4" name="玩法说明按钮.png" path="/image/新资源/" exported="true" favorite="true"/>
+    <image id="5voq3g5" name="选中框2.png" path="/image/" exported="true" favorite="true"/>
+    <image id="q09v3g6" name="虚位以待 拷贝.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="mwm93g7" name="big_star_6.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="8xhz3g8" name="QuestGuideArrow.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="8xhz3g9" name="GuideArrowImg.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="q2mk3g8" name="关闭.png" path="/image/" exported="true" favorite="true"/>
+    <component id="zm7h3gb" name="ChildComAutoRevive.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="qsq23gc" name="双倍标签.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="dsdy3gd" name="View_Reward_Show3.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="o8ip29" name="TaskItemCom.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="fmjx3gg" name="左右箭头.png" path="/image/" exported="true" favorite="true"/>
+    <component id="gxpd3gh" name="RoleCom.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="gxpd3gi" name="观战按钮小.png" path="/image1/" exported="true" favorite="true"/>
+    <image id="gxpd3gj" name="黑影.png" path="/image1/" favorite="true"/>
+    <component id="vxva3gg" name="TabButton3.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="vxva3gh" name="三国无双.png" path="/image/" favorite="true"/>
+    <image id="hul73gi" name="通关奖励.png" path="/image1/" exported="true" favorite="true"/>
+    <component id="r3je3gj" name="ViewSkillGrid.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="pb4s3gk" name="ViewTianFuSkillShow.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="taxk3gl" name="ViewResource2.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="e7fg3gm" name="ArpgRoleStatePlug.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="fnxm3gn" name="ScrollLabel.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="ngrk3go" name="lianji.png" path="/image1/crit/" exported="true"/>
+    <component id="lplo3gp" name="TextBtn.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="usb23gq" name="Button6.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="irr13gr" name="顶部购买按钮.png" path="/image/通用按钮/" exported="true" favorite="true"/>
+    <image id="irr13gt" name="标题两边花纹.png" path="/image/花纹/" exported="true" favorite="true" scale="9grid" scale9grid="46,4,14,5"/>
+    <image id="irr13gu" name="方框1底部海浪花纹.png" path="/image/花纹/" exported="true" favorite="true"/>
+    <image id="irr13gv" name="经验条上面的花纹.png" path="/image/花纹/" exported="true" favorite="true"/>
+    <image id="irr13gw" name="菱形花纹.png" path="/image/花纹/" exported="true" favorite="true"/>
+    <image id="irr13gx" name="标题背景花纹.png" path="/image/花纹/" exported="true" favorite="true"/>
+    <image id="irr13gz" name="弹窗框标题底框.png" path="/image/通用底框/" exported="true" favorite="true"/>
+    <image id="irr13h0" name="方框2.png" path="/image/通用底框/" exported="true" favorite="true" scale="9grid" scale9grid="18,19,17,18"/>
+    <image id="irr13h1" name="已满星.png" path="/image/美术字/满级美术字/" exported="true" favorite="true"/>
+    <image id="irr13h2" name="经验条2底框.png" path="/image/进度条/" exported="true" favorite="true" scale="9grid" scale9grid="5,5,5,10"/>
+    <image id="shpk3h3" name="已满级.png" path="/image/美术字/满级美术字/" exported="true" favorite="true"/>
+    <image id="q5t63h4" name="渐变黑底.png" path="/image/通用底框/" exported="true" favorite="true" scale="9grid" scale9grid="58,16,116,32"/>
+    <image id="q5t63h5" name="活动图标选中状态光效.png" path="/image/通用底框/" exported="true" favorite="true"/>
+    <image id="q5t63h6" name="活动图标底框.png" path="/image/通用底框/" exported="true" favorite="true"/>
+    <image id="emwp3h7" name="经验条2.png" path="/image/进度条/" exported="true" favorite="true" scale="9grid" scale9grid="5,0,3,14"/>
+    <component id="emwp3h8" name="ExpBar1.xml" path="/组件/" exported="true" favorite="true"/>
+    <image id="emwp3h9" name="榜单图标.png" path="/image/新资源/" exported="true" favorite="true"/>
+    <image id="emwp3ha" name="红色经验条.png" path="/image/进度条/" exported="true" favorite="true" scale="9grid" scale9grid="2,0,4,11"/>
+    <image id="if1k3hb" name="间隔图标.png" path="/image/箭头+其他/" exported="true" favorite="true"/>
+    <image id="if1k3hc" name="小标题文字底.png" path="/image/通用底框/" exported="true" favorite="true" scale="9grid" scale9grid="62,9,127,18"/>
+    <image id="idkj2k" name="VIP背景.jpg" path="/image/通用背景图/" exported="true" favorite="true"/>
+    <component id="r9to3he" name="ComActivityTab.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="ko8c3gq" name="NumberCom.xml" path="/组件/" exported="true" favorite="true"/>
+    <component id="tszw3gq" name="PromptBaZhenTu.xml" path="/新组建/" exported="true" favorite="true"/>
+    <component id="tszw3gr" name="ViewGridBaZT.xml" path="/新组建/" exported="true" favorite="true"/>
+    <image id="8m8s3hf" name="蓝色选中光效.png" path="/image/通用底框/" exported="true" favorite="true" scale="9grid" scale9grid="26,25,18,19"/>
+    <image id="orxgg" name="折扣标签.png" path="/image/新资源/" exported="true"/>
+    <image id="ad1lm" name="困难程度-未选中.png" path="/image/新资源/" exported="true"/>
+    <image id="ad1ll" name="困难程度-选中.png" path="/image/新资源/" exported="true"/>
+    <image id="ad1lk" name="普通程度-未选中.png" path="/image/新资源/" exported="true"/>
+    <image id="ad1lj" name="普通难度-选中.png" path="/image/新资源/" exported="true"/>
+    <image id="htpq1q" name="名字底框.png" path="/image/通用底框/" exported="true"/>
+    <image id="fyft3hg" name="小旗子标签底.png" path="/image/箭头+其他/" exported="true"/>
+    <component id="t1ya3hg" name="BtnHard0.xml" path="/组件/" exported="true"/>
+    <component id="t1ya3hh" name="BtnHard1.xml" path="/组件/" exported="true"/>
+    <image id="oyp8r" name="战报.png" path="/image/新资源/" exported="true"/>
+    <image id="mf0y3hi" name="关闭按钮小.png" path="/image/" exported="true"/>
+    <image id="djuz3hk" name="关卡连击底框.png" path="/image/通用底框/" exported="true" scale="9grid" scale9grid="12,12,20,19" gridTile="31"/>
+    <image id="djuz3hl" name="圆形选中框.png" path="/image/通用底框/" exported="true"/>
+    <image id="6x1y3hp" name="充值按钮.png" path="/image/通用按钮/" exported="true"/>
+    <image id="ra8g3hk" name="升级战力.png" path="/image/" exported="true"/>
+    <image id="fd9p3hl" name="大数字1.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3hm" name="大数字2.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3hn" name="大数字3.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3ho" name="大数字4.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3hp" name="大数字5.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3hq" name="大数字6.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3hr" name="大数字7.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3hs" name="大数字8.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3ht" name="大数字9.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3hu" name="大数字0.png" path="/image1/font/" exported="true"/>
+    <font id="fd9p3hv" name="BigNum.fnt" path="/image1/font/" exported="true"/>
+    <image id="fd9p3hw" name="小数字2.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3hx" name="小数字3.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3hy" name="小数字4.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3hz" name="小数字5.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3i0" name="小数字6.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3i1" name="小数字7.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3i2" name="小数字8.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3i3" name="小数字9.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3i4" name="小数字？.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3i5" name="小数字0.png" path="/image1/font/" exported="true"/>
+    <image id="fd9p3i6" name="小数字1.png" path="/image1/font/" exported="true"/>
+    <font id="fd9p3i7" name="SmallNum.fnt" path="/image1/font/" exported="true"/>
+    <component id="osj33i8" name="Button7.xml" path="/组件/" exported="true"/>
+    <component id="chyo3i9" name="ViewAlertBuy2.xml" path="/组件/" exported="true"/>
+    <image id="gz253i8" name="角标彩条.png" path="/image/箭头+其他/" exported="true"/>
+    <image id="gz253i9" name="小旗子标签底2.png" path="/image/箭头+其他/" exported="true"/>
+    <image id="nvxy3ia" name="小边框底.png" path="/image/通用底框/" exported="true" scale="9grid" scale9grid="17,8,37,7"/>
+    <component id="nvxy3ib" name="LevelLabel.xml" path="/组件/" exported="true"/>
+    <image id="wtx23ic" name="气泡框.png" path="/image/新资源/" exported="true"/>
+    <component id="qc9h3id" name="ViewVideotapLook.xml" path="/组件/" exported="true"/>
+    <image id="x9uy3ie" name="bg_moon_0.png" path="/image1/" exported="true"/>
+    <image id="x9uy3if" name="bg_moon_1.png" path="/image1/" exported="true"/>
+    <image id="x9uy3ig" name="bg_moon_2.png" path="/image1/" exported="true"/>
+    <image id="x9uy3ih" name="bg_moon_3.png" path="/image1/" exported="true"/>
+    <image id="x9uy3ii" name="bg_moon_4.png" path="/image1/" exported="true"/>
+    <image id="x9uy3ij" name="bg_moon_5.png" path="/image1/" exported="true"/>
+    <image id="x9uy3ik" name="bg_moon_6.png" path="/image1/" exported="true"/>
+    <image id="r5ge3il" name="已通关.png" path="/image/新资源/" exported="true"/>
+    <image id="s0ki3im" name="VIP彩色.png" path="/image1/vipNum/" exported="true"/>
+    <component id="iv1o3in" name="TabButton4.xml" path="/组件/" exported="true"/>
+    <image id="iv1o3io" name="tab3.png" path="/image/" exported="true"/>
+    <image id="iv1o3ip" name="tab4.png" path="/image/" exported="true"/>
+    <image id="p3o23iq" name="金币.png" path="/image1/"/>
+    <image id="aec33it" name="底板背景.jpg" path="/image/通用背景图/"/>
+  </resources>
+  <publish name="common" genCode="true" maxAtlasSize="1024" sizeOption="npot" excluded="m3513bl,m3513bg,qxkh3fo,hc263ex,gxpd3gj,vxva3gh,idkj2k,p3o23ir,aec33it"/>
+</packageDescription>

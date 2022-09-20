@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="135,366" opaque="false">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n5_qqnw" name="imgBg" src="w6ro5n" fileName="image1/左功能区底.png" pkg="7gxkx46w" xy="0,0" size="135,366">
+      <gearSize controller="c1" pages="0,1" values="135,366,1,1|135,191,1,1"/>
+    </image>
+    <component id="n7_qqnw" name="info1" src="qqnwf" fileName="组件/ItemSYZLBTeamInfo.xml" xy="5,14"/>
+    <component id="n8_qqnw" name="info2" src="qqnwf" fileName="组件/ItemSYZLBTeamInfo.xml" xy="4,187">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n9_idql" name="btnCge" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="68,-30" pivot="0.5,0.5" anchor="true" scale="0.8,0.8">
+      <Button title="挑战boss"/>
+    </component>
+  </displayList>
+</component>

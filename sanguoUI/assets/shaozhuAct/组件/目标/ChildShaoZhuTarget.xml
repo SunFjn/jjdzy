@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,666">
+  <displayList>
+    <loader id="n6_hgo3" name="n6" xy="0,0" size="640,184" url="ui://w5ll6n5jhgo3u"/>
+    <image id="n8_hgo3" name="n8" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="428,12" size="162,23"/>
+    <richtext id="n9_hgo3" name="n9" xy="430,11" size="197,25" fontSize="16" color="#b7c9d8" text="完成指定任务领取任务奖励"/>
+    <list id="n0_6hpm" name="n0" xy="11,126" size="779,58" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="14" defaultItem="ui://jvxpx9em6hpm3ft" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n5_6hpm" name="list" xy="0,183" size="640,484" overflow="scroll" lineGap="1" defaultItem="ui://w5ll6n5j6hpm5">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n11_hgo3" name="n11" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="18,12" size="162,23"/>
+    <richtext id="n12_hgo3" name="lbTime" xy="20,11" size="85,25" fontSize="16" color="#66ff00" text="剩余时间："/>
+  </displayList>
+</component>

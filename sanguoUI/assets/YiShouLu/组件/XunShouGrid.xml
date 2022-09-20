@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="81,81" extention="Label">
+  <displayList>
+    <component id="n0_jw42" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="0,0" scale="0.8,0.8"/>
+    <image id="n2_jw42" name="showImg" src="jw42k" fileName="images/问号.png" xy="13,7"/>
+    <richtext id="n1_jw42" name="title" xy="-1,81" size="81,28" fontSize="18" color="#ffc344" align="center" autoSize="none" bold="true" strokeColor="#000000" text="万寿山"/>
+  </displayList>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,852">
+  <displayList>
+    <component id="n3_ql4n" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,852">
+      <Label title="排名榜"/>
+    </component>
+    <image id="n4_ql4n" name="n4" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="26,89" size="539,44"/>
+    <list id="n5_ql4n" name="list" xy="26,141" size="549,602" overflow="scroll" lineGap="7" defaultItem="ui://7a366usaql4nu" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n13_om0e" name="n13" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="18,752" size="554,82"/>
+    <richtext id="n10_ql4n" name="lbMy" xy="50,781" size="122,28" fontSize="18" color="#f9bb13" text="我的排名：10 "/>
+    <richtext id="n11_om0e" name="n11" xy="55,100" size="41,28" fontSize="18" color="#ffcc00" text="排名"/>
+    <richtext id="n12_om0e" name="lbPass" xy="364,781" size="181,28" fontSize="18" color="#f9bb13" align="right" autoSize="none" text="通关数：50 "/>
+    <richtext id="n14_om0e" name="n14" xy="180,100" size="41,28" fontSize="18" color="#ffcc00" text="名字"/>
+    <richtext id="n15_om0e" name="n15" xy="322,100" size="59,28" fontSize="18" color="#ffcc00" text="通关数"/>
+    <richtext id="n16_om0e" name="n16" xy="457,100" size="41,28" fontSize="18" color="#ffcc00" text="战力"/>
+  </displayList>
+</component>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" designImage="ui://yqpfuleflwbl6m">
+  <controller name="c1" pages="0,,1,,2," selected="2"/>
+  <displayList>
+    <component id="n1_udgz" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0" hideByEditor="true"/>
+    <loader id="n2_udgz" name="n2" xy="15,148" size="100,100"/>
+    <list id="n5_udgz" name="listSel" xy="14,149" size="610,303" layout="row" overflow="scroll" scroll="horizontal" colGap="5" defaultItem="ui://yqpfulefudgz42">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n6_udgz" name="iconRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="587,297" size="55,63">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n7_udgz" name="iconLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="-6,296" size="55,63" scale="-1,1">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <image id="n33_lwbl" name="n33" src="m3513bv" fileName="image/通用底框/tips.png" pkg="jvxpx9em" xy="14,457" size="615,139" scale="1,0.8"/>
+    <image id="n32_lwbl" name="n32" src="m3513bv" fileName="image/通用底框/tips.png" pkg="jvxpx9em" xy="14,567" size="615,274"/>
+    <image id="n9_udgz" name="n9" src="genj3t" fileName="image/升阶秘境/奖励预览.png" xy="41,476"/>
+    <list id="n14_udgz" name="listTeam" xy="31,615" size="577,213" layout="row" overflow="scroll" scroll="horizontal" margin="5,5,5,5" colGap="10" defaultItem="ui://yqpfulefudgz43"/>
+    <component id="n15_udgz" name="btnHand" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="475,837">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="475,834|475,851" default="475,837"/>
+      <Button title="创建队伍"/>
+    </component>
+    <richtext id="n16_udgz" name="n16" xy="65,843" size="365,31" touchable="false" fontSize="20" color="#ffffff" ubb="true" autoSize="none" text="[color=#FF9900]已通关玩家[/color]协助他人通关可获得[color=#FF9900]大量功勋[/color]">
+      <gearDisplay controller="c1" pages="0,2"/>
+    </richtext>
+    <richtext id="n18_udgz" name="n18" xy="65,863" size="176,31" touchable="false" fontSize="20" color="#ffffff" autoSize="none" text="每日协助奖励次数: ">
+      <gearDisplay controller="c1" pages="0,2"/>
+    </richtext>
+    <richtext id="n19_udgz" name="txtXieZhu" xy="237,864" size="33,27" touchable="false" fontSize="20" color="#00ff00" text="3/3">
+      <gearDisplay controller="c1" pages="0,2"/>
+    </richtext>
+    <component id="n21_udgz" name="btnXieZhu" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="320,851">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="邀请协助"/>
+    </component>
+    <component id="n23_i2yv" name="chatBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="21,574" size="51,47">
+      <Button icon="ui://7gxkx46wi2yv6i"/>
+    </component>
+    <list id="n25_sh62" name="listTab" xy="24,49" size="590,95" layout="row" overflow="scroll" scroll="horizontal" margin="2,2,2,2" colGap="15" defaultItem="ui://yqpfulefsh6249" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n26_au8a" name="n26" src="au8a4g" fileName="image/升阶秘境/推荐战力.png" xy="421,470"/>
+    <richtext id="n27_au8a" name="lbPower" xy="427,511" size="186,35" fontSize="20" color="#33ff00" align="center" autoSize="none" text="1234567896"/>
+    <richtext id="n28_ybh9" name="battleNumLb" xy="487,892" size="105,25" touchable="false" fontSize="18" color="#ffffff" ubb="true" vars="true" text="挑战次数：[color=#00ff00]{num=3}[/color]">
+      <gearDisplay controller="c1" pages="0"/>
+    </richtext>
+    <richtext id="n30_git2" name="n30" xy="38,880" size="225,27" visible="false" touchable="false" fontSize="20" color="#ffffff" text="三人组队可获得满员奖励">
+      <gearDisplay controller="c1" pages="1"/>
+    </richtext>
+    <component id="n20_udgz" name="checkBox" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="38,843" size="178,32">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button checked="true" title="10秒后自动加入"/>
+    </component>
+    <component id="n31_lwbl" name="btnSaoDang" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="474,836">
+      <gearDisplay controller="c1" pages="2"/>
+      <Button title="扫荡"/>
+    </component>
+    <component id="n34_lwbl" name="promptLb0" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="156,577" size="329,31" touchable="false">
+      <Label title="队伍信息" titleColor="#cccccc"/>
+    </component>
+  </displayList>
+</component>

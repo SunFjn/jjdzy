@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <component id="n32_plkm" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="-1,262" size="642,666" locked="true" hideByEditor="true"/>
+    <loader id="n2_dsuf" name="imgBg" xy="10,374" size="622,396" locked="true" hideByEditor="true" url="ui://ht2966i4dsuf7"/>
+    <image id="n4_dsuf" name="imgTime" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="8,275" size="267,27" locked="true"/>
+    <richtext id="n5_dsuf" name="labTime" xy="17,276" size="275,28" locked="true" touchable="false" fontSize="18" color="#2ff10f" autoSize="none" autoClearText="true" text="剩余时间：10:10:10"/>
+    <richtext id="n6_dsuf" name="lbFresh" xy="439,308" size="201,25" locked="true" touchable="false" fontSize="16" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="10:50后恢复1个鞭炮"/>
+    <image id="n10_dsuf" name="n10" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="456,275" size="173,27" locked="true"/>
+    <richtext id="n7_dsuf" name="lbNameBP" xy="444,275" size="63,28" locked="true" touchable="false" fontSize="18" color="#ffffff" align="right" autoSize="none" text="鞭炮"/>
+    <richtext id="n8_dsuf" name="lbBPCt" xy="540,275" size="68,28" locked="true" touchable="false" fontSize="18" color="#ffffff" autoClearText="true" text="99/100"/>
+    <loader id="n9_dsuf" name="imgBP" xy="506,273" size="32,32" touchable="false" url="ui://ht2966i4n093i" fill="scale"/>
+    <component id="n31_plkm" name="vNianShou" src="plkmg" fileName="组建/VNianShou.xml" xy="277,582" pivot="0.5,0.5" anchor="true"/>
+    <component id="n3_dsuf" name="btnZhao" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="252,683">
+      <Button title="召唤年兽"/>
+    </component>
+    <component id="n11_dsuf" name="btnRward" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="16,346" size="88,90" locked="true">
+      <Button icon="ui://ht2966i4dsufb"/>
+    </component>
+    <image id="n38_n093" name="imgNo" src="n093q" fileName="image/年兽问号.png" xy="135,376" locked="true" hideByEditor="true"/>
+    <richtext id="n14_dsuf" name="lbTip1" xy="220,657" size="201,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="点击刷新一个年兽"/>
+    <image id="n18_dsuf" name="n18" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="25,773" size="588,138"/>
+    <list id="n17_dsuf" name="list" xy="51,777" size="557,138" layout="row" scroll="horizontal" colGap="7" defaultItem="ui://ht2966i4dsufc" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n20_dsuf" name="lbDes" xy="16,306" size="77,28" fontSize="18" color="#33ff00" text="&lt;u>玩法说明&lt;/u>"/>
+    <image id="n22_dsuf" name="n22" src="dsufd" fileName="image/气泡框2.png" xy="502,417" group="n25_dsuf" scale="0.8,0.8"/>
+    <component id="n34_n093" name="vReward" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="529,423" group="n25_dsuf" scale="0.7,0.7"/>
+    <richtext id="n35_n093" name="lbReward" xy="506,494" size="112,25" group="n25_dsuf" fontSize="14" color="#ffffff" align="center" autoSize="none" strokeColor="#000000" text="中级消耗品"/>
+    <group id="n25_dsuf" name="gReward" xy="502,417" size="135,130" advanced="true"/>
+    <component id="n33_qdrx" name="btnKing" src="qdrxh" fileName="组建/VNianShouBtn.xml" xy="513,642"/>
+    <image id="n27_dsuf" name="hpBg" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="87,333" size="490,57" group="n39_n093"/>
+    <richtext id="n16_dsuf" name="lbName" xy="239,335" size="165,28" group="n39_n093" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="蓝色年兽"/>
+    <component id="n21_dsuf" name="hpBar" src="p4bn88" fileName="新组建/HpBar.xml" pkg="jvxpx9em" xy="170,366" size="303,30" group="n39_n093" touchable="false">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <richtext id="n19_dsuf" name="lbTip0" xy="182,391" size="278,25" group="n39_n093" touchable="false" fontSize="16" color="#ffffff" align="center" autoSize="none" text="点击年兽可消耗&lt;font color='#FFC344'>鞭炮&lt;/font>攻击年兽"/>
+    <group id="n39_n093" name="gHp" xy="87,333" size="490,83" advanced="true"/>
+  </displayList>
+</component>

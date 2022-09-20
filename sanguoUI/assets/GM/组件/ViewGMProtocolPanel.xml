@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_pckg" name="frame" src="z1jw6v" fileName="新组建/frame3.xml" pkg="jvxpx9em" xy="0,0"/>
+    <list id="n1_pckg" name="list0" xy="18,148" size="130,775" overflow="scroll" lineGap="6" defaultItem="ui://jvxpx9embwmw3f" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n2_pckg" name="list1" xy="149,148" size="470,773" overflow="scroll" defaultItem="ui://vm9a8xq8pckgc" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

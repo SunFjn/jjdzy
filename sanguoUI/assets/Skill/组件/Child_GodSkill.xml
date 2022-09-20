@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,891" opaque="false">
+  <displayList>
+    <loader id="n33_dn79" name="godSkillBack" xy="12,147" size="616,587" url="ui://c7onhgk8dn791b" autoSize="true"/>
+    <image id="n34_dn79" name="n34" src="dn791c" fileName="image/神技框.png" xy="240,365"/>
+    <component id="n17_c14z" name="iconBt0" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="258,212" size="120,110">
+      <Button icon="ui://c7onhgk8dn7917"/>
+    </component>
+    <component id="n18_c14z" name="iconBt2" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="408,482" size="120,110">
+      <Button icon="ui://c7onhgk8dn7918"/>
+    </component>
+    <component id="n19_c14z" name="iconBt1" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="108,483" size="120,110">
+      <Button icon="ui://c7onhgk8dn7919"/>
+    </component>
+    <image id="n30_dn79" name="n30" src="dn7913" fileName="image/等级框.png" xy="341,291"/>
+    <image id="n31_dn79" name="n31" src="dn7913" fileName="image/等级框.png" xy="491,562"/>
+    <image id="n32_dn79" name="n32" src="dn7913" fileName="image/等级框.png" xy="193,562"/>
+    <image id="n35_dn79" name="n35" src="h8gx32" fileName="image/武将材料底.png" xy="253,169" size="119,37"/>
+    <image id="n36_dn79" name="n36" src="h8gx32" fileName="image/武将材料底.png" xy="103,442" size="119,34"/>
+    <image id="n37_dn79" name="n37" src="h8gx32" fileName="image/武将材料底.png" xy="402,440" size="119,36"/>
+    <image id="n38_dn79" name="n38" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="26,702" size="587,189"/>
+    <loader id="n39_dn79" name="nameImg" xy="141,719" size="358,33" align="center"/>
+    <loader id="n14_c14z" name="skillIcon" xy="257,376" size="126,126" url="ui://c7onhgk8dn7911" fill="scaleFree"/>
+    <richtext id="n20_c14z" name="n20" xy="267,172" size="100,29" touchable="false" fontSize="18" color="#ffc334" align="center" leading="0" autoSize="none" text="诛仙神雷"/>
+    <richtext id="n22_c14z" name="n22" xy="115,445" size="100,29" touchable="false" fontSize="18" color="#ffc334" align="center" autoSize="none" text="戮神巽风"/>
+    <richtext id="n23_c14z" name="n23" xy="419,445" size="98,29" touchable="false" fontSize="18" color="#ffc334" align="center" autoSize="none" text="屠魔业火"/>
+    <richtext id="n21_c14z" name="lvLb0" xy="338,295" size="41,23" touchable="false" fontSize="14" color="#ffffff" align="center" leading="0" autoSize="none" text="999"/>
+    <richtext id="n24_c14z" name="lvLb1" xy="190,566" size="41,23" touchable="false" fontSize="14" color="#ffffff" align="center" leading="0" autoSize="none" text="999"/>
+    <richtext id="n25_c14z" name="lvLb2" xy="486,567" size="44,23" touchable="false" fontSize="14" color="#ffffff" align="center" leading="0" autoSize="none" text="999"/>
+    <richtext id="n26_c14z" name="skillName" xy="224,492" size="185,41" touchable="false" fontSize="28" color="#ffc344" align="center" leading="0" ubb="true" autoSize="none" strokeColor="#030a20" text="呼风唤雨"/>
+    <richtext id="n27_c14z" name="skillDes" xy="47,772" size="546,35" touchable="false" fontSize="24" color="#ffffff" align="center" leading="0" ubb="true" autoSize="none" text="对全体目标造成1000%的伤害"/>
+    <richtext id="n28_c14z" name="skillCon" xy="47,825" size="546,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" ubb="true" autoSize="none" text="释放需要100怒气，每次攻击怒气+1"/>
+  </displayList>
+</component>

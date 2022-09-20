@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,133">
+  <displayList>
+    <image id="n1_lsg1" name="n1" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="300,133"/>
+    <image id="n2_msug" name="n2" src="dhj53ds" fileName="image/普通技能框.png" pkg="jvxpx9em" xy="16,11" size="91,91" aspect="true"/>
+    <image id="n4_msug" name="n4" src="pxaa3cv" fileName="image/数量框.png" pkg="jvxpx9em" xy="17,92" size="90,26"/>
+    <loader id="n3_msug" name="iconImg" xy="28,21" size="68,68" align="center" vAlign="middle" fill="scaleNoBorder" shrinkOnly="true"/>
+    <component id="n8_msug" name="powerLb" src="z8fv3ff" fileName="新组建/ViewPower1.xml" pkg="jvxpx9em" xy="114,25" size="191,40" scale="0.9,0.9">
+      <Label title="9999999"/>
+    </component>
+    <richtext id="n5_msug" name="nameLb" xy="16,91" size="92,29" fontSize="18" color="#ffffff" align="center" autoSize="none" text="10级暴击"/>
+    <richtext id="n9_msug" name="attLb" xy="114,65" size="169,54" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text=""/>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" extention="Label" initName="frame" bgColor="#31425c">
+  <displayList>
+    <loader id="n16_bwmw" name="backImg" xy="0,0" size="640,1136" url="ui://jvxpx9emm3513bl"/>
+    <image id="n25_n4tu" name="n0" src="m3513bf" fileName="image/通用底框/方框1.png" xy="2,138" size="636,787"/>
+    <loader id="n35_q5t6" name="bgImg" xy="12,147" size="616,463" url="ui://jvxpx9emaec33it" autoSize="true"/>
+    <component id="n20_bwmw" name="closeButton" src="bwmw3b" fileName="组件/closeButton.xml" xy="494,922"/>
+    <image id="n34_irr1" name="n34" src="irr13gu" fileName="image/花纹/方框1底部海浪花纹.png" xy="11,796" size="617,114"/>
+    <image id="n33_irr1" name="n33" src="irr13gx" fileName="image/花纹/标题背景花纹.png" xy="100,70" group="n36_r9to"/>
+    <loader id="n31_qf5l" name="icon" xy="204,75" size="232,42" group="n36_r9to" align="center" vAlign="middle"/>
+    <group id="n36_r9to" name="titleGroup" xy="100,70" size="440,65" advanced="true"/>
+  </displayList>
+</component>

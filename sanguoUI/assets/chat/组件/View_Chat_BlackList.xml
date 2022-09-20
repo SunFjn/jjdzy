@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="596,556">
+  <displayList>
+    <component id="n0_81i0" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="596,556">
+      <Label title="黑名单"/>
+    </component>
+    <list id="n4_81i0" name="list" xy="27,99" size="549,357" overflow="scroll" lineGap="11" defaultItem="ui://fx4pr5qe81i017" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n5_81i0" name="lb" xy="163,504" size="270,28" touchable="false" fontSize="18" color="#00f234" align="center" leading="0" autoSize="none" text="黑名单上限：2/50"/>
+  </displayList>
+</component>

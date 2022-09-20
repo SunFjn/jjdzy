@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,400" overflow="scroll">
+  <displayList>
+    <richtext id="n0_ltpm" name="lbContent" xy="0,0" size="300,27" fontSize="20" leading="12" autoSize="height" text=""/>
+  </displayList>
+</component>

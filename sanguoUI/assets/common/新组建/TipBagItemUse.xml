@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="435,442">
+  <displayList>
+    <component id="n32_lnck" name="frame" src="f1cf47" fileName="组件/frame1.xml" xy="0,0" size="435,442">
+      <relation target="n33_lnck" sidePair="bottomext-bottom"/>
+    </component>
+    <component id="n26_cyxg" name="btnMin" src="usb23gq" fileName="组件/Button6.xml" xy="40,310" group="n13_etor">
+      <Button title="-10"/>
+    </component>
+    <component id="n27_cyxg" name="btnReduce" src="usb23gq" fileName="组件/Button6.xml" xy="95,310" size="40,41" group="n13_etor">
+      <Button title="-1" icon="ui://jvxpx9emcyxg4w"/>
+    </component>
+    <image id="n29_cyxg" name="n29" src="rt7o4r" fileName="image/通用底框/inputBg.png" xy="142,314" size="141,31" group="n13_etor"/>
+    <component id="n28_cyxg" name="btnAdd" src="usb23gq" fileName="组件/Button6.xml" xy="290,310" size="40,41" group="n13_etor">
+      <Button title="+1"/>
+    </component>
+    <richtext id="n11_etor" name="lbCount" xy="155,317" size="115,28" group="n13_etor" fontSize="18" color="#ffffff" align="center" autoSize="none" text="99999"/>
+    <component id="n30_cyxg" name="btnMax" src="usb23gq" fileName="组件/Button6.xml" xy="337,310" group="n13_etor">
+      <Button title="+10" icon="ui://jvxpx9emcyxg4u"/>
+    </component>
+    <component id="n31_cyxg" name="btnUse" src="y1z8b" fileName="组件/Button0.xml" xy="149,362" group="n13_etor">
+      <Button title="使用" titleColor="#ffffff"/>
+    </component>
+    <group id="n13_etor" name="groupUse" xy="40,310" size="345,114" advanced="true" collapsed="true">
+      <relation target="n33_lnck" sidePair="top-bottom"/>
+    </group>
+    <component id="n33_lnck" name="childTip" src="lnckac" fileName="新组建/ChildTipBagItem.xml" xy="24,32" size="380,263"/>
+  </displayList>
+  <relation target="n33_lnck" sidePair="bottomext-bottom"/>
+</component>

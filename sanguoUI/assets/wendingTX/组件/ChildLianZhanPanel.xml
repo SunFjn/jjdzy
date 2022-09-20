@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="559,618">
+  <displayList>
+    <list id="n0_fl2h" name="n0" xy="0,0" size="557,584" overflow="scroll" defaultItem="ui://gxs8kn67rudj17">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n1_fl2h" name="n1" xy="22,588" size="139,35" fontSize="24" color="#ffcc00" text="我的连斩：0"/>
+  </displayList>
+</component>

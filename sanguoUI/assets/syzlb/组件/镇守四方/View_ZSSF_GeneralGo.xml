@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,681">
+  <displayList>
+    <component id="n1_cenr" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="594,681">
+      <Label title="派遣"/>
+    </component>
+    <richtext id="n16_cenr" name="promptLb" xy="135,290" size="320,99" fontSize="36" color="#ffffff" align="center" leading="10" ubb="true" autoSize="none" text="暂无可派遣的神将&#xA;[color=#ff0000][size=24]皇庭只可派遣神将镇守[/size][/color]"/>
+    <list id="n12_cenr" name="list" xy="29,77" size="543,499" group="n17_cenr" layout="flow_hz" overflow="scroll" lineGap="8" colGap="15" lineItemCount="3" defaultItem="ui://3o8q23uucenr19" autoClearItems="true">
+      <item controllers="c1,1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n13_cenr" name="n13" xy="114,576" size="366,28" group="n17_cenr" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="武将品质、星级越高，镇守加成越高"/>
+    <component id="n14_cenr" name="gobt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="231,606" group="n17_cenr">
+      <Button title="派遣"/>
+    </component>
+    <group id="n17_cenr" name="listGroup" xy="29,77" size="543,591" hideByEditor="true" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

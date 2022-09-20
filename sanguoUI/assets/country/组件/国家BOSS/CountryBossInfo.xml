@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,38" opaque="false">
+  <displayList>
+    <image id="n1_gs0d" name="n1" src="bx2z89" fileName="image1/公告底.png" pkg="jvxpx9em" xy="131,0" size="509,38"/>
+    <richtext id="n2_gs0d" name="lbMyhurt" xy="135,5" size="456,28" fontSize="18" color="#ffffff" align="right" autoSize="none" text=""/>
+    <component id="n6_bx2z" name="btn" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="598,11" size="33,17">
+      <Button icon="ui://uwzc58njofde2m"/>
+    </component>
+  </displayList>
+</component>

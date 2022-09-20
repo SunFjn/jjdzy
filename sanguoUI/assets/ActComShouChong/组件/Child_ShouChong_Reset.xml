@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,916" opaque="false">
+  <displayList>
+    <loader id="n1_zm7h" name="backImg" xy="0,277" size="640,639" url="ui://yih9vfegzm7h1"/>
+    <component id="n2_zm7h" name="goBt" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="443,816" size="183,75" aspect="true">
+      <Button icon="ui://yih9vfegzm7h3"/>
+    </component>
+    <richtext id="n3_zm7h" name="n3" xy="482,835" size="109,39" touchable="false" fontSize="26" color="#3f130c" text="前往充值"/>
+    <richtext id="n4_zm7h" name="timeLb" xy="26,807" size="85,31" touchable="false" fontSize="20" color="#0000ff" text="剩余时间"/>
+    <richtext id="n5_zm7h" name="n5" xy="26,843" size="385,61" touchable="false" fontSize="20" color="#006600" text="活动期间，充值不同额度可获首充三倍奖励&#xA;优惠不容错过，赶快前往充值！"/>
+    <richtext id="n6_zm7h" name="n4" xy="252,466" size="366,61" touchable="false" font="Microsoft YaHei" fontSize="20" color="#ff0000" align="right" autoSize="none" strokeColor="#000000" text="仅充值界面充值有效&#xA;购买首充、特权卡、基金等不计入返利">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <image id="n7_n2qq" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="603,823" visible="false"/>
+  </displayList>
+</component>

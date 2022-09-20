@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="546,108">
+  <controller name="gradeCtrl" pages="0,,1,,2,,3,,4,,5," selected="5"/>
+  <displayList>
+    <image id="n4_pmqq" name="n4" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="546,108"/>
+    <list id="n5_pmqq" name="itemList" xy="269,12" size="338,109" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="1" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n6_pmqq" name="iconGrade" xy="78,53" pivot="0.5,0.5" anchor="true" size="128,128" scale="0.6,0.6" url="ui://me1skowlpzsw7s" autoSize="true">
+      <gearIcon controller="gradeCtrl" pages="1,2,3,4,5" values="ui://me1skowln9yf6y|ui://me1skowln9yf6u|ui://me1skowln9yf6x|ui://me1skowln9yf6w|ui://me1skowlpzsw7s" default="ui://me1skowln9yf6v"/>
+    </loader>
+    <loader id="n9_pzsw" name="iconGName" xy="197,53" pivot="0.5,0.5" anchor="true" size="108,51" url="ui://me1skowlpzsw7x" autoSize="true">
+      <gearIcon controller="gradeCtrl" pages="0,1,3,4,5" values="ui://me1skowlpzsw7w|ui://me1skowlpzsw7u|ui://me1skowlpzsw7v|ui://me1skowlpzsw7y|ui://me1skowlpzsw7x" default="ui://me1skowln9yf6z"/>
+    </loader>
+  </displayList>
+</component>

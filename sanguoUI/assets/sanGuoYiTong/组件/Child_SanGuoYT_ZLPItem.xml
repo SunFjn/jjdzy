@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="530,76">
+  <displayList>
+    <image id="n7_iv4o" name="n7" src="rfyww" fileName="image/分割线.png" xy="0,67" size="531,9"/>
+    <richtext id="n10_iv4o" name="nameLb" xy="26,8" size="49,34" fontSize="22" color="#00ff00" text="玩家"/>
+    <richtext id="n11_iv4o" name="jifenLb" xy="202,8" size="49,34" fontSize="22" color="#ffffff" text="积分"/>
+    <component id="n12_iv4o" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="389,0">
+      <Button title="赏赐"/>
+    </component>
+  </displayList>
+</component>

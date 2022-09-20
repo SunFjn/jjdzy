@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" designImage="ui://ehelf5bhf2zdw28">
+  <controller name="c1" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <controller name="c2" pages="0,未镶嵌,1,已镶嵌" selected="1"/>
+  <displayList>
+    <component id="n15_11m1w" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0" locked="true">
+      <Label icon="ui://ehelf5bh11m1w1d"/>
+    </component>
+    <loader id="n53_ile1" name="bgImg" xy="0,140" size="50,50" locked="true"/>
+    <image id="n17_11m1w" name="n17" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="13,743" size="614,173" locked="true"/>
+    <richtext id="n16_11m1w" name="linkCheck" xy="29,163" size="105,32" fontSize="25" color="#00ff00" underline="true" text="查看套装"/>
+    <component id="n20_11m1w" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="178,198"/>
+    <component id="n21_11m1w" name="btnBag" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="524,163" size="84,88">
+      <Button icon="ui://ehelf5bh11m1w1q"/>
+    </component>
+    <component id="n24_11m1w" name="grid0" src="11m1w15" fileName="组件/六道/SixWayYinJiItem.xml" xy="126,294">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+    <component id="n25_11m1w" name="grid1" src="11m1w15" fileName="组件/六道/SixWayYinJiItem.xml" xy="360,294">
+      <Button controller="c1" page="1"/>
+    </component>
+    <component id="n26_11m1w" name="grid4" src="11m1w15" fileName="组件/六道/SixWayYinJiItem.xml" xy="123,582">
+      <Button controller="c1" page="4"/>
+    </component>
+    <component id="n27_11m1w" name="grid2" src="11m1w15" fileName="组件/六道/SixWayYinJiItem.xml" xy="457,434">
+      <Button controller="c1" page="2"/>
+    </component>
+    <component id="n28_11m1w" name="grid5" src="11m1w15" fileName="组件/六道/SixWayYinJiItem.xml" xy="14,440">
+      <Button controller="c1" page="5"/>
+    </component>
+    <component id="n29_11m1w" name="grid3" src="11m1w15" fileName="组件/六道/SixWayYinJiItem.xml" xy="360,582">
+      <Button controller="c1" page="3"/>
+    </component>
+    <image id="n31_11m1w" name="n31" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="197,436" size="257,124"/>
+    <richtext id="n22_11m1w" name="nameLb" xy="201,446" size="252,32" fontSize="25" color="#666666" align="center" autoSize="none" text="天道之力（2/4/6）"/>
+    <richtext id="n23_11m1w" name="proLb" xy="201,488" size="252,27" fontSize="20" color="#666666" align="center" autoSize="none" text="属性：PVP伤害+50%"/>
+    <component id="n32_11m1w" name="btnChange" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="547,698" pivot="0.5,0.5" size="105,109" scale="0.6,0.6">
+      <Button icon="ui://ehelf5bhtdmew28"/>
+    </component>
+    <richtext id="n35_ozko" name="n35" xy="237,814" size="155,32" fontSize="25" color="#ffffff" text="尚未镶嵌印记">
+      <gearDisplay controller="c2" pages="0"/>
+    </richtext>
+    <richtext id="n10_11m1w" name="lbName" xy="32,754" size="125,28" group="n50_k23m" font="SimHei" fontSize="24" color="#33ff00" text="修罗道风印"/>
+    <richtext id="n11_11m1w" name="lbLv" xy="159,755" size="103,27" group="n50_k23m" fontSize="20" color="#ffffff" text="Lv.180/200">
+      <relation target="n10_11m1w" sidePair="right-left"/>
+    </richtext>
+    <richtext id="n12_11m1w" name="lbAttr" xy="32,812" size="203,103" group="n50_k23m" font="SimHei" fontSize="20" color="#ffffff" leading="4" autoSize="none" text="生命+100000100&#xA;攻击：125000&#xA;攻击：125000&#xA;攻击：125000"/>
+    <component id="n13_11m1w" name="btnUp" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="261,818" pivot="0.5,0.5" group="n50_k23m">
+      <Button title="升级"/>
+    </component>
+    <component id="n14_11m1w" name="btnStar" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="437,818" pivot="0.5,0.5" group="n50_k23m">
+      <Button title="升星"/>
+    </component>
+    <image id="n44_k23m" name="lbCostStarBg" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="433,782" size="143,30" group="n50_k23m">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <richtext id="n45_k23m" name="lbCostStar" xy="433,783" size="141,28" group="n50_k23m" fontSize="18" color="#ffffff" align="center" autoSize="none" text="111"/>
+    <component id="n46_k23m" name="lbCostUp" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="258,782" size="141,33" group="n50_k23m"/>
+    <richtext id="n38_my7j" name="lbMaxLv" xy="285,823" size="80,32" group="n50_k23m" fontSize="25" color="#ffff00" text="已满级"/>
+    <richtext id="n39_my7j" name="lbMaxStar" xy="464,823" size="80,32" group="n50_k23m" fontSize="25" color="#ffff00" text="已满星"/>
+    <richtext id="n56_ohy4" name="lbPower" xy="32,785" size="139,25" group="n50_k23m" fontSize="18" color="#ffc344" text="战力：10000000"/>
+    <group id="n50_k23m" name="n50" xy="32,754" size="544,161" advanced="true">
+      <gearDisplay controller="c2" pages="1"/>
+    </group>
+    <component id="n55_i6q4" name="vChip" src="ile1w1z" fileName="组件/六道/VSixWayChip.xml" xy="13,231"/>
+    <richtext id="n58_ohy4" name="lbSuitPow" xy="201,523" size="252,27" fontSize="20" color="#666666" align="center" autoSize="none" text="战力：1000"/>
+  </displayList>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 道具流水表-->
+	<tb model="com.teamtop.system.event.backstage.events.flowTools.B_FlowTool" tbname="b_flowtool">
+		<index field="id" type="prikey"/>
+		<index field="hid" type="normal"/>
+		<index field="sysid" type="normal"/>		
+		<index field="operateTime" type="normal"/>
+		<index field="pfcode" type="normal"/>
+		<index field="zoneid" type="normal"/>		
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="useType" type="int" pf="all" comment="消耗类型 1道具 2装备"/>
+		<col field="sysid" type="int" pf="all" comment="道具系统id"/>
+		<col field="name" type="varchar" len="100" pf="all" comment="道具名字"/>
+		<col field="num" type="int" pf="all" comment="道具数量"/>
+		<col field="isadd" type="int" pf="all" comment="增加或减少 1增加，2减少"/>
+		<col field="reason" type="int" pf="all" comment="操作原因"/>
+		<col field="zoneid" type="int" pf="all" comment="区号"/>
+		<col field="operateTime" type="int" pf="all" comment="操作时间"/>
+		<col field="totalNum" type="int" pf="all" comment="剩余总数"/>
+		<col field="pfcode" type="varchar" len="255" pf="all" comment="平台代码"/>
+		<col field="usesys" type="varchar" len="255" pf="all" comment="注册系统"/>
+	</tb>
+</tbs>

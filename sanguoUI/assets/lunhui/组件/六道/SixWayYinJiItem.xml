@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="145,133" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <controller name="c1" pages="0,无装备,1,有装备" selected="0"/>
+  <displayList>
+    <image id="n33_f2zd" name="n33" src="f2zdw27" fileName="image/六道/选中.png" xy="29,-9">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <loader id="n28_a4yc" name="pzImg" xy="42,4" size="73,84" url="ui://ehelf5bhf2zdw29"/>
+    <loader id="n6_px95" name="iconImg" xy="42,4" size="73,84" url="ui://ehelf5bhf2zdw25" align="center" vAlign="bottom"/>
+    <image id="n23_v97g" name="imgName" src="htpq1q" fileName="image/通用底框/名字底框.png" pkg="jvxpx9em" xy="5,93" locked="true"/>
+    <image id="n16_b5l2" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="107,0" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n24_v97g" name="imgAdd" src="qblv3dq" fileName="image/直升一阶(1).png" pkg="jvxpx9em" xy="49,16">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <richtext id="n31_ohy4" name="labName" xy="0,100" size="144,27" fontSize="20" color="#ffffff" align="center" autoSize="none" text="修罗道印记">
+      <gearDisplay controller="c1" pages="0"/>
+    </richtext>
+    <richtext id="n2_f8nk" name="labName1" xy="-4,102" size="105,27" group="n32_ohy4" fontSize="20" color="#ffffff" align="right" autoSize="none" text="修罗道印记">
+      <gearDisplay controller="c1" pages="1"/>
+    </richtext>
+    <richtext id="n21_11m1w" name="lbStar" xy="103,99" size="27,27" group="n32_ohy4" fontSize="20" color="#ffffff" align="center" autoSize="none" text="20"/>
+    <image id="n26_v97g" name="n26" src="sv0g2i" fileName="image1/big_star_1.png" pkg="jvxpx9em" xy="126,101" group="n32_ohy4"/>
+    <group id="n32_ohy4" name="n32" xy="-4,99" size="154,30" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

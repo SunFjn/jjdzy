@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ajaichn8" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="wtx20" name="芝麻.png" path="/image/" exported="true"/>
+    <image id="wtx22" name="做元宵底.jpg" path="/image/" exported="true"/>
+    <image id="wtx24" name="材料数量圆点.png" path="/image/" exported="true"/>
+    <image id="wtx25" name="灯笼暗.png" path="/image/" exported="true"/>
+    <image id="wtx26" name="灯笼亮.png" path="/image/" exported="true"/>
+    <image id="wtx27" name="等于.png" path="/image/" exported="true"/>
+    <image id="wtx28" name="掠夺材料字.png" path="/image/" exported="true"/>
+    <image id="wtx29" name="掠夺底.jpg" path="/image/" exported="true"/>
+    <image id="wtx2a" name="免费材料.png" path="/image/" exported="true"/>
+    <image id="wtx2b" name="面粉.png" path="/image/" exported="true"/>
+    <image id="wtx2c" name="糖.png" path="/image/" exported="true"/>
+    <image id="wtx2g" name="yx0.png" path="/image/" exported="true"/>
+    <component id="wtx2i" name="Child_ActCom_YuanXiao.xml" path="/组件/" exported="true"/>
+    <image id="wtx2m" name="奖品底图.png" path="/image/" exported="true" scale="9grid" scale9grid="19,62,38,12"/>
+    <image id="wtx2n" name="话框.png" path="/image/" exported="true"/>
+    <component id="wtx2o" name="YuanXiaoGrid.xml" path="/组件/" exported="true"/>
+    <image id="wtx2p" name="掠夺成功.png" path="/image/" exported="true"/>
+    <component id="wtx2q" name="YuanXiaoRole.xml" path="/组件/" exported="true"/>
+    <component id="qc9hr" name="View_YuanXiao_battleReport.xml" path="/组件/" exported="true"/>
+    <component id="qc9hs" name="YuanXiaoBattleReportItem.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="ActCom_YuanXiao" genCode="true" excluded="wtx22,wtx29"/>
+</packageDescription>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,926" opaque="false" designImage="ui://5na9ulpxgv3t4">
+  <displayList>
+    <component id="n12_gv3t" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="-3,262" size="640,664"/>
+    <loader id="n6_gv3t" name="bgImg" xy="7,273" size="621,142" url="ui://5na9ulpxgv3t7" fill="scale"/>
+    <image id="n5_gv3t" name="n5" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="7,274" size="267,27"/>
+    <richtext id="n0_8a0y" name="labTime" xy="17,277" size="165,25" touchable="false" fontSize="18" color="#2ff10f" text="剩余时间：10:10:10"/>
+    <component id="n1_8a0y" name="btnIntegral" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="248,294" pivot="0.5,0.5" size="108,110">
+      <Button icon="ui://5na9ulpxgv3t6"/>
+    </component>
+    <list id="n2_8a0y" name="list" xy="19,431" size="598,485" overflow="scroll" lineGap="-9" defaultItem="ui://5na9ulpx8a0y1" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n3_8a0y" name="labIntegral" xy="17,336" size="190,31" touchable="false" fontSize="24" color="#ffcc00" strokeColor="#000000" text="我的积分：10000"/>
+    <richtext id="n4_8a0y" name="labRank" xy="17,372" size="138,31" touchable="false" fontSize="24" color="#ffcc00" strokeColor="#000000" text="我的排名：3"/>
+    <image id="n8_gv3t" name="n8" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="398,273" size="227,140"/>
+    <image id="n7_gv3t" name="n7" src="gv3t8" fileName="image/活动主题zi.png" xy="386,295"/>
+    <list id="n10_gv3t" name="showList" xy="423,285" size="200,112" overflow="scroll" defaultItem="ui://5na9ulpxgv3t9" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n11_gv3t" name="labTips" xy="19,927" size="242,27" fontSize="20" color="#66ff00" align="center" autoSize="none" text="积分达到1000可上榜"/>
+    <richtext id="n13_m4eq" name="n21" xy="17,304" size="185,25" touchable="false" fontSize="18" color="#66ff00" text="消耗指定道具获得积分"/>
+    <richtext id="n14_k33v" name="labTips1" xy="176,409" size="263,25" touchable="false" fontSize="18" color="#66ff00" text="建议不要在00:00-00:05使用道具"/>
+    <richtext id="n15_10xyi" name="n15" xy="290,927" size="205,27" fontSize="20" color="#66ff00" text="使用元宝抽奖不加积分"/>
+  </displayList>
+</component>

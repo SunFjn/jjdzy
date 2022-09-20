@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="251,93">
+  <displayList>
+    <image id="n3_oc0j" name="n3" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="-8,2" size="259,90"/>
+    <loader id="n1_n7ie" name="lbTitle" xy="58,8" size="135,43" url="ui://1xydor24oc0jv"/>
+    <richtext id="n2_n7ie" name="lbScore" xy="87,65" size="76,28" fontSize="18" color="#00ff00" text="积分+10"/>
+  </displayList>
+</component>

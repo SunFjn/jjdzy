@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <image id="n36_gtq2" name="n36" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="1,253" size="638,671"/>
+    <richtext id="n24_pif6" name="timeTxt" xy="28,269" size="215,27" fontSize="20" color="#66ff00" text="活动剩余时间: 00:00:00"/>
+    <list id="n35_vt1r" name="list" xy="17,314" size="607,596" overflow="scroll" lineGap="5" defaultItem="ui://mpjztentvt1r12">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

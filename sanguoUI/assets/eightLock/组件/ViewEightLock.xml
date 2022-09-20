@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_vib6" name="frame" src="fsg93cj" fileName="组件/frame4.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://hincjqblug7b18"/>
+    </component>
+    <component id="n2_vib6" name="n2" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="0,172" size="36,47">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <component id="n3_vib6" name="n3" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="603,166" pivot="0.5,0.5" size="36,47" scale="-1,1">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <component id="n4_vib6" name="container" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="0,270"/>
+    <list id="n1_vib6" name="list" xy="33,119" size="572,154" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://jvxpx9emr9to3he" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

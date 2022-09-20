@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n1_cenr" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label title="府邸宝库" icon="ui://ypo8uejwfzv5g"/>
+    </component>
+    <loader id="n2_cenr" name="bg" xy="23,156" size="594,143" url="ui://ypo8uejwi2ij4" autoSize="true"/>
+    <component id="n3_cenr" name="moneyLb" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="44,249" size="118,33"/>
+    <image id="n4_cenr" name="n4" src="if1k3hc" fileName="image/通用底框/小标题文字底.png" pkg="jvxpx9em" xy="422,302" size="198,36"/>
+    <image id="n10_c60e" name="n10" src="if1k3hc" fileName="image/通用底框/小标题文字底.png" pkg="jvxpx9em" xy="204,249"/>
+    <richtext id="n5_cenr" name="n5" xy="249,253" size="142,28" fontSize="18" color="#00ff00" text="每日0点自动重置"/>
+    <list id="n6_cenr" name="list" xy="25,313" size="596,605" layout="flow_hz" overflow="scroll" lineGap="14" colGap="10" lineItemCount="2" defaultItem="ui://ypo8uejwi2ij5" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_i2ij" name="resBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="482,232">
+      <Button title="重置"/>
+    </component>
+    <component id="n8_h7qe" name="resCostLb" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="503,199" size="93,33">
+      <relation target="n7_i2ij" sidePair="center-center"/>
+      <Label title="99999"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="70,65" opaque="false" initName="iconJie">
+  <displayList>
+    <image id="n0_s89q" name="n0" src="s89q3e6" fileName="image1/阶数图标.png" xy="13,0" size="45,44" aspect="true"/>
+    <richtext id="n1_s89q" name="n1" xy="0,40" size="71,25" fontSize="18" color="#ffcc00" strokeColor="#000000" text="10阶9级">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

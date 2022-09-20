@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="85,90">
+  <displayList>
+    <image id="n1_sh62" name="iconSel" src="5voq3g5" fileName="image/选中框2.png" pkg="jvxpx9em" xy="0,0" size="85,90" visible="false"/>
+    <loader id="n5_vwaa" name="iconLD" xy="0,0" size="85,88" url="ui://yqpfulefvwaa4c"/>
+    <image id="n3_sh62" name="n3" src="tc2x48" fileName="image/升阶秘境/标题文字底.png" xy="0,58" size="82,32"/>
+    <text id="n4_sh62" name="txtName" xy="11,64" size="65,24" fontSize="15" color="#ff9900" text="武将秘境">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n6_vwaa" name="iconSt" xy="10,0" size="66,19" url="ui://yqpfulefvwaa4f" fill="scale" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <image id="n7_mkjh" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="65,0" visible="false"/>
+  </displayList>
+</component>

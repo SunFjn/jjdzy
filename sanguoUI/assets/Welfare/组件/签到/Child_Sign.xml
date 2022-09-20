@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="621,623">
+  <displayList>
+    <image id="n35_povh" name="n0" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="0,0" size="621,623"/>
+    <image id="n15_r6x4" name="lbImg" src="pseoi" fileName="image/激活至尊卡领取双倍签到奖励.png" xy="30,578"/>
+    <loader id="n4_r6x4" name="box0" xy="34,427" size="76,76" aspect="true" url="ui://jvxpx9emaro89e" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n5_r6x4" name="box1" xy="158,427" size="76,76" aspect="true" url="ui://jvxpx9emaro89e" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n6_r6x4" name="box2" xy="282,427" size="76,76" aspect="true" url="ui://jvxpx9emaro89e" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n7_r6x4" name="box3" xy="406,427" size="76,76" aspect="true" url="ui://jvxpx9emaro89e" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n8_r6x4" name="box4" xy="530,427" size="76,76" aspect="true" url="ui://jvxpx9emaro89e" align="center" vAlign="middle" fill="scale"/>
+    <image id="n18_r6x4" name="drawImg0" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="31,453" size="80,26" aspect="true"/>
+    <image id="n19_r6x4" name="drawImg1" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="156,453" size="80,26"/>
+    <image id="n20_r6x4" name="drawImg2" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="280,453" size="80,26"/>
+    <image id="n21_r6x4" name="drawImg3" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="404,453" size="80,26"/>
+    <image id="n22_r6x4" name="drawImg4" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="528,453" size="80,26"/>
+    <image id="n29_m5xy" name="noticeImg0" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="89,432"/>
+    <image id="n30_m5xy" name="noticeImg1" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="212,432"/>
+    <image id="n31_m5xy" name="noticeImg2" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="335,432"/>
+    <image id="n32_m5xy" name="noticeImg3" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="458,432"/>
+    <image id="n33_m5xy" name="noticeImg4" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="581,432"/>
+    <component id="n9_r6x4" name="expbar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="27,505" size="565,16">
+      <ProgressBar value="5" max="30"/>
+    </component>
+    <richtext id="n10_r6x4" name="n10" xy="39,526" size="69,25" touchable="false" fontSize="18" color="#ffffff" leading="0" text="签到3天"/>
+    <richtext id="n11_r6x4" name="n11" xy="160,526" size="69,25" touchable="false" fontSize="18" color="#ffffff" leading="0" text="签到5天"/>
+    <richtext id="n12_r6x4" name="n12" xy="280,526" size="69,25" touchable="false" fontSize="18" color="#ffffff" leading="0" text="签到7天"/>
+    <richtext id="n13_r6x4" name="n13" xy="396,526" size="79,25" touchable="false" fontSize="18" color="#ffffff" leading="0" text="签到15天"/>
+    <richtext id="n14_r6x4" name="n14" xy="517,526" size="79,25" touchable="false" fontSize="18" color="#ffffff" leading="0" text="签到30天"/>
+    <richtext id="n17_r6x4" name="jihuoLb" xy="220,576" size="173,31" touchable="false" fontSize="24" color="#15f234" leading="0" text="已激活双倍收益"/>
+    <richtext id="n34_af09" name="resetLb" xy="188,396" size="251,28" touchable="false" fontSize="18" color="#15f234" align="center" leading="0" autoSize="none" text="X天后重置签到信息"/>
+    <component id="n16_r6x4" name="jihuoBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="462,561">
+      <Button title="前往激活"/>
+    </component>
+    <list id="n3_r6x4" name="list" xy="26,12" size="574,376" layout="flow_hz" overflow="scroll" lineGap="15" colGap="13" defaultItem="ui://ye1luhg3r6x41" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="70,22" extention="ProgressBar">
+  <displayList>
+    <image id="n4_hkwu" name="n4" src="vasq3b6" fileName="image/进度条/经验底.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5_hkwu" name="bar" src="vasq3b5" fileName="image/进度条/经验.png" xy="16,4" size="38,15">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <richtext id="n6_hkwu" name="title" xy="18,-1" size="35,25" touchable="false" fontSize="16" color="#ffffff" align="center" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </richtext>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

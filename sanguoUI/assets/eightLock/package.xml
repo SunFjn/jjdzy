@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="hincjqbl" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="vib60" name="ViewEightLock.xml" path="/组件/" exported="true"/>
+    <component id="vib62" name="ChildEightLock.xml" path="/组件/" exported="true"/>
+    <component id="vib63" name="ChildFuWenCol.xml" path="/组件/" exported="true"/>
+    <component id="vib64" name="ChildFuWenJD.xml" path="/组件/" exported="true"/>
+    <component id="vib65" name="ChildFuWenYL.xml" path="/组件/" exported="true"/>
+    <component id="vib66" name="ItemEILock.xml" path="/组件/" exported="true"/>
+    <component id="vib67" name="VTaskInfo.xml" path="/组件/" exported="true"/>
+    <component id="vib68" name="ItemTaskInfo.xml" path="/组件/" exported="true"/>
+    <component id="vib6b" name="ItemFWCol.xml" path="/组件/" exported="true"/>
+    <component id="saktd" name="ItemFWJD.xml" path="/组件/" exported="true"/>
+    <component id="saktf" name="ItemFWYL.xml" path="/组件/" exported="true"/>
+    <image id="j3hfg" name="伤门.png" path="/image/" exported="true"/>
+    <image id="j3hfh" name="生门.png" path="/image/" exported="true"/>
+    <image id="j3hfi" name="死门.png" path="/image/" exported="true"/>
+    <image id="j3hfj" name="休门.png" path="/image/" exported="true"/>
+    <image id="j3hfk" name="杜门.png" path="/image/" exported="true"/>
+    <image id="j3hfl" name="惊门.png" path="/image/" exported="true"/>
+    <image id="j3hfm" name="景门.png" path="/image/" exported="true"/>
+    <image id="j3hfn" name="开门.png" path="/image/" exported="true"/>
+    <font id="j3hfo" name="StarFont.fnt" path="/image/" exported="true"/>
+    <image id="p0sp16" name="开门奖励.png" path="/image/" exported="true"/>
+    <image id="xchg17" name="符文有礼标题.png" path="/image/" exported="true"/>
+    <image id="ug7b18" name="八门金锁标题.png" path="/image/" exported="true"/>
+    <image id="9tlt1b" name="6102.png" path="/image/"/>
+    <image id="c4j41c" name="ball.png" path="/image/" exported="true"/>
+    <component id="k8x01d" name="AuthenListGrid.xml" path="/组件/" exported="true"/>
+    <component id="k8x01e" name="ChildAuthenRank.xml" path="/组件/" exported="true"/>
+    <component id="k8x01g" name="ItemAuthenRank1.xml" path="/组件/" exported="true"/>
+    <component id="k8x01h" name="ItemAuthenRank2.xml" path="/组件/" exported="true"/>
+    <image id="k8x01j" name="名字.png" path="/image/" exported="true"/>
+    <image id="k8x01k" name="排名.png" path="/image/" exported="true"/>
+    <image id="k8x01l" name="第11-20名.png" path="/image/" exported="true"/>
+    <image id="k8x01m" name="第4-10名.png" path="/image/" exported="true"/>
+    <image id="k8x01n" name="虚位以待 拷贝.png" path="/image/" exported="true"/>
+    <image id="k8x01o" name="鉴定次数.png" path="/image/" exported="true"/>
+    <image id="ze8t1p" name="第1名.png" path="/image/" exported="true"/>
+    <image id="ze8t1q" name="第2名.png" path="/image/" exported="true"/>
+    <image id="ze8t1r" name="第3名.png" path="/image/" exported="true"/>
+    <component id="ze8t1s" name="ItemAuthenRank.xml" path="/组件/" exported="true"/>
+    <component id="ze8t1t" name="ViewAuthenRank.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="eightLock" genCode="true" npot="true" excluded="9tlt1b"/>
+</packageDescription>

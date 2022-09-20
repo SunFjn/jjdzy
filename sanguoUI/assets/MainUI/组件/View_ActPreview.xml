@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,116">
+  <displayList>
+    <image id="n11_mx0a" name="n11" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="-2,92" size="106,24" group="n7_pseo"/>
+    <loader id="n8_pzcf" name="iconImg" xy="4,0" size="94,95" group="n7_pseo" url="ui://7gxkx46wkje862" align="center" vAlign="middle" fill="scale"/>
+    <richtext id="n10_pzcf" name="timeLb" xy="0,92" pivot="0.5,0.5" size="101,24" group="n7_pseo" touchable="false" fontSize="14" color="#00f234" leading="0" text="00:59:59后开启"/>
+    <group id="n7_pseo" name="iconGroup" xy="-2,0" size="106,116" advanced="true"/>
+  </displayList>
+  <relation target="n10_pzcf" sidePair="width-width"/>
+</component>

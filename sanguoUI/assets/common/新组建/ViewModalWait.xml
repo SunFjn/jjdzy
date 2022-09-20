@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <graph id="n0_fslr" name="n0" xy="0,0" pivot="0.5,0.5" size="100,100" touchable="false" type="rect">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n0_fslr" tween="true" startValue="0" endValue="360" duration="48"/>
+  </transition>
+</component>

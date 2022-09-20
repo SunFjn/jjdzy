@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,46">
+  <displayList>
+    <image id="n28_dpw4" name="n28" src="dpw447" fileName="image1/状态栏底.png" xy="0,0"/>
+    <image id="n25_k8oz" name="yuanbaoBg" src="pb1e5g" fileName="image1/buyBg.png" xy="272,6" size="152,30"/>
+    <image id="n26_k8oz" name="tongbiBg" src="pb1e5g" fileName="image1/buyBg.png" xy="436,5" size="141,30"/>
+    <image id="n7_hju4" name="n7" src="ltpm59" fileName="image1/铜币.png" pkg="jvxpx9em" xy="438,7"/>
+    <image id="n8_hju4" name="n8" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="275,9" size="30,24" aspect="true"/>
+    <richtext id="n4_hju4" name="lbName" xy="105,8" size="175,29" touchable="false" fontSize="16" color="#ffffff" leading="0" autoSize="none" text="长江后浪推前浪">
+      <relation target="n21_k8oz" sidePair="left-right"/>
+    </richtext>
+    <richtext id="n10_hju4" name="lbYB" xy="308,6" size="85,28" touchable="false" font="Microsoft YaHei" fontSize="18" color="#ffffff" leading="0" autoSize="none" text="123"/>
+    <richtext id="n12_hju4" name="lbTongBi" xy="470,6" size="79,28" touchable="false" font="Microsoft YaHei" fontSize="18" color="#ffffff" leading="0" autoSize="none" text="123"/>
+    <richtext id="n21_k8oz" name="zsLvLb" xy="9,8" size="94,26" touchable="false" font="Microsoft YaHei" fontSize="18" color="#ffe5a0" leading="0" text="十六转三重"/>
+    <component id="n23_k8oz" name="btnAddYB" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="394,0" size="43,43">
+      <Button icon="ui://jvxpx9emirr13gr"/>
+    </component>
+    <component id="n24_k8oz" name="btnAddTB" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="549,0" size="43,43">
+      <Button icon="ui://jvxpx9emirr13gr"/>
+    </component>
+  </displayList>
+</component>

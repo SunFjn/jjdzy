@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="543,81">
+  <displayList>
+    <image id="n1_81i0" name="n1" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="543,81"/>
+    <richtext id="n2_81i0" name="nameLb" xy="17,21" size="53,35" fontSize="24" color="#ffffff" leading="0" text="名字"/>
+    <component id="n3_81i0" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="379,19">
+      <Button title="取消屏蔽"/>
+    </component>
+  </displayList>
+</component>

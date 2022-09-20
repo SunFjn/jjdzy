@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.event.backstage.events.backstage.oldPlayer.OldPlayerMapper">
+	<update id="insertOnDuplicateBatch" parameterType="String">
+		${value}
+	</update>
+	<!-- 查找某个玩家账号的滚服信息 -->
+	<select id="findByOpenid" parameterType="String" resultType="hashMap">
+		select * from m_oldplayer where openid = #{value};
+	</select>
+	<select id="findSameIpOpenidNum" parameterType="String" resultType="int">
+		select count(openid) from m_oldplayer where createIp = #{value};
+	</select>
+</mapper>

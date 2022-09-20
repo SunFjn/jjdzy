@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.util.db.blobTable.BlobTableMapper">
+<insert id="save" parameterType="BlobTable" useGeneratedKeys="true" keyProperty="id">
+	insert into ${tbname}(id,data) values(null,#{data})
+</insert>
+<select id="findAll" parameterType="String" resultType="BlobTable">
+	select * from ${value}
+</select>
+<delete id="delete" parameterType="java.util.Map">
+	delete from ${tbname} where id=${id}
+</delete> 
+</mapper>

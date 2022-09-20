@@ -1,0 +1,136 @@
+package com.teamtop.util.cache.union;
+/**
+*有缓存的系统枚举
+*@authorkyle
+*
+*/
+public enum SysEnum{
+	HERO,//角色
+	SCENE,//场景
+	EQUIP,//装备
+	GANG,//帮会
+	GANGBATTLE,//帮战
+	GENERAL,//侠客
+	BATTLE,//战斗
+	BATTLE_TEMP_HP,//战斗临时气血
+	SKILL,//技能
+	NPC,//NPC
+	GLOBAL,//公共数据
+	WORLDBOSS,//世界boss
+	MARKET,//市场
+	TRANSPORT,//运镖
+	ARENA,//竞技场
+	GAMECOPY,//副本
+	RIDE,//坐骑
+	TEAM,//队伍
+	FRIEND,//好友
+	ACTIVITY,//活动
+	EQUIPFORGE,//装备锻造
+	TOWER,//爬塔（摩天崖）
+	EXCELHOTSWAP,//excel热更
+	RABBIT,//兔子变身
+	SHI_PO_TIAN,//真假石破天
+	ROBBERT,//移动NPC
+	FASHION,//时装
+	FORBID,//屏蔽功能
+	TURTLERACE,//小龟赛跑
+	WEEK_ADVENTURE,//每周历险
+	PET,//宠物
+	TREASURE,//挖宝
+	WING,//翅膀
+	DESTINY,//天命
+	MAGICARM,//神兵
+	BLOCK,//方块
+	PROTECT_BELLE,//保护美女
+	CROSS,//跨服
+	EXAM,//科举
+	JIANG_HU,//江湖试炼
+	COMPETE_HEGEMONY,//群雄逐鹿
+	SKY_CLIFF,//摩天涯
+	WORKSHOP,//家园
+	FISH,//钓鱼
+	MARRIAGE,//结婚
+	TRE_SHOP,//寻宝商店
+	ROB_BOSS,//过关斩将
+	RANK,//排行榜
+	GANG_COMPETITION,//帮会竞技
+	EXCEL_TRIGGLE,//excel触发事件
+	CS,//反恐精英
+	ROAD_OF_HERO,//大侠之路
+	UNICORN_ARM,//麒麟臂
+	EVERY_DAY,//日常任务
+	ANTI_ADDCATION,//防沉迷
+	RUNNING_MAN,//奔跑兄弟缓存
+	GANG_RED_PACKET,//帮会红包
+	FIRSTRECHARGE,//配置首冲
+	GSREBATE,//GS返利
+	XINSHOU,//新手
+	ONLINE_REWARD,//在线奖励
+	KAIFU_ACTIVITY,//开服活动
+	KAIFU_GROUP_BUY,//开服团购
+	KAIFU_CHONGZHI,//开服充值
+	KAIFU_RANK,//开服比拼
+	MALL,//商城
+	BUFF,//buff
+	KAIFU_CONSUME, //开服消费
+	CHAT,//聊天
+	GENERAL_ISLAND,//侠客岛
+	TASK,//任务
+	RECHARGE,//充值
+	CLOSETESTACT, //封测活动
+	QQMAIL,//qq邮箱发送
+	COMSUME, //消费
+	CONTINUE_CONSUME,//累计消费
+	RECHARGELEIJI,//累计充值
+	NADIS,//新经脉
+	RANKRAISE,//战力提升排行
+	RANKRAISE_CROSS,//战力提升排行中央服
+	CONSUMETABLE,//消费转盘
+	MATERIAL,//道具
+	CONSUMEREBACK,//消费返利
+	INVITESHARE,//邀请分享
+	DIAMONDCACHE, //钻石信息
+	ZONE_MARKET,//任务集市
+	WATCH,//系统监控
+	PETTUJIAN,//宠物图鉴
+	MANUAL,//图鉴
+	CHALLENGEJIANGHU,//勇闯江湖
+	MAIL,//信件缓存
+	IPCACHE,//ipcache
+	INSTRUMENT,//玄兵
+	GODDESS,//美女
+	TITLE,//称号
+	ACHIEVE,//个人成就
+	BAGBUGNUM, //背包bug物品数量监控
+	WILD_BOSS,//野外boss
+	RECHAREBIGBAG,//充值大礼包
+	CROSSCONNEVENT,//跨服连接事件
+	CROSSPRIMARY, //天下第一
+	HANG_FB,//挂机副本
+	DRAGONBOAT,//跨服龙舟
+	DRAGONBOAT_CROSS,//跨服龙舟中央服
+	TEN_SEARCH,//十连抽
+	OPENSERCOMPETITION,//开服竞技
+	CROSSKING,//最强王者
+	COUNTRYFIGHT,//雄霸三国
+	FLYRIDE,//飞骑
+	CONSUME_RANK,//合服消费排行
+	STRENGTH_RANK,//合服战力比拼
+	YUENAN_VIP,//越南vip平台记录
+	TANBAO,//台湾探宝系统
+	TERRITORY,//攻城掠地
+	RONGLU,//进阶装备熔炉
+	RIDE_BOSS,//坐骑boss
+	CROSS_TEAM_BATTLE,//跨服竞技3v3
+	OPENRETURN,//开服大返利
+	CLOSETEST_TW,//台湾冲级狂人（封测活动）
+	PASSFB,//闯关副本
+	JINJIE_FB_CROSS,//跨服进阶副本
+	ACTIVITY_CROSS,//跨服活动
+	LIMITDAILY,//每日限购
+	LIMITGENERAL,//侠客限购
+	BIWU,//比武大会
+	CROSSENEMY,//跨服仇人
+	DADAO,//江湖大盗
+	XIAHUN,//侠魂
+}

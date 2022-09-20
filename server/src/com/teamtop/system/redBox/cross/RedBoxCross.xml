@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.redBox.cross.RedBoxCrossMapper">
+	<insert id="insert" parameterType="RedBoxCross" useGeneratedKeys="true" keyProperty="boxid">
+		${insertSql}
+	</insert>
+	<update id="update" parameterType="String">
+		${value}
+	</update>
+	<select id="find" parameterType="String" resultType="hashmap">
+		${value}
+	</select>
+	<!--查找数据-->
+	<select id="findRedBoxCrossList"   resultType="hashmap">
+		select * from redBoxCross
+	</select>
+	<update id="insertOnDuplicateBatch" parameterType="String">
+		${value}
+	</update>
+	<!-- 清空所赛季数据 -->
+	<delete id="truncate">
+		truncate table redBoxCross
+	</delete>
+</mapper>

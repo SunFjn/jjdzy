@@ -1,0 +1,861 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch CrossIO",
+            "request": "launch",
+            "mainClass": "com.teamtop.cross.CrossIO",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunBattleVideo",
+            "request": "launch",
+            "mainClass": "com.teamtop.cross.battleVideo.RunBattleVideo",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileUploadServer",
+            "request": "launch",
+            "mainClass": "com.teamtop.cross.battleVideo.upload.FileUploadServer",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch GameProperties",
+            "request": "launch",
+            "mainClass": "com.teamtop.gameCommon.GameProperties",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SourceGoodConst",
+            "request": "launch",
+            "mainClass": "com.teamtop.gameCommon.SourceGoodConst",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch HefuFunction",
+            "request": "launch",
+            "mainClass": "com.teamtop.hefu.HefuFunction",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnalyzeUtils",
+            "request": "launch",
+            "mainClass": "com.teamtop.houtaiHttp.AnalyzeUtils",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExclusiveActivityHttpEvent",
+            "request": "launch",
+            "mainClass": "com.teamtop.houtaiHttp.events.exclusiveActivity.ExclusiveActivityHttpEvent",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch LogFunction",
+            "request": "launch",
+            "mainClass": "com.teamtop.houtaiHttp.events.log.LogFunction",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch MailCrossIO",
+            "request": "launch",
+            "mainClass": "com.teamtop.houtaiHttp.events.mail.MailCrossIO",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch RechargeHoutaiHttpEvent",
+            "request": "launch",
+            "mainClass": "com.teamtop.houtaiHttp.events.recharge.RechargeHoutaiHttpEvent",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch QqGiftHttpHandler",
+            "request": "launch",
+            "mainClass": "com.teamtop.houtaiHttp.qqGift.QqGiftHttpHandler",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch RechargeHttpHandler",
+            "request": "launch",
+            "mainClass": "com.teamtop.houtaiHttp.recharge.RechargeHttpHandler",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sing",
+            "request": "launch",
+            "mainClass": "com.teamtop.houtaiHttp.recharge.Sing",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChatMonitoring",
+            "request": "launch",
+            "mainClass": "com.teamtop.houtaiHttp.request.ChatMonitoring",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SynOpenServerInfo",
+            "request": "launch",
+            "mainClass": "com.teamtop.houtaiHttp.request.SynOpenServerInfo",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunCentralServer",
+            "request": "launch",
+            "mainClass": "com.teamtop.main.RunCentralServer",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunHefu",
+            "request": "launch",
+            "mainClass": "com.teamtop.main.RunHefu",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunHoutaiServer",
+            "request": "launch",
+            "mainClass": "com.teamtop.main.RunHoutaiServer",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunLocalServer",
+            "request": "launch",
+            "mainClass": "com.teamtop.main.RunLocalServer",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunRedeployClient",
+            "request": "launch",
+            "mainClass": "com.teamtop.main.RunRedeployClient",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunRedeployServer",
+            "request": "launch",
+            "mainClass": "com.teamtop.main.RunRedeployServer",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SkyEyeFunction",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.firewall.skyeye.SkyEyeFunction",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch HttpUtil",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.http.HttpUtil",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch HttpClientTest",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.http.client.connect.HttpClientTest",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ServerController",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.server.ServerController",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecureChatClient",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.ssl.client.SecureChatClient",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecureChatServer",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.ssl.server.SecureChatServer",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SSLServer",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.ssl.test.SSLServer",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch NettyWrite",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.util.NettyWrite",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodInvoke",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.util.nettyCache.MethodInvoke",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch NodeUtil",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.util.nettyCache.NodeUtil",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProtocolInvoke",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.util.nettyCache.ProtocolInvoke",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch XXBuildMain",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.util.test.XXBuildMain",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch XXExcelMain",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.util.test.XXExcelMain",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch XXMain",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.util.test.XXMain",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch XXSave",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.util.test.XXSave",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConventPFXToJKS",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.websocket.ConventPFXToJKS",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch WebSocketSSLServer",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.websocket.WebSocketSSLServer",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch WebSocketServer",
+            "request": "launch",
+            "mainClass": "com.teamtop.netty.websocket.WebSocketServer",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckClientFile",
+            "request": "launch",
+            "mainClass": "com.teamtop.redeploy.CheckClientFile",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetNewClass",
+            "request": "launch",
+            "mainClass": "com.teamtop.redeploy.GetNewClass",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch RedeployClientFunction",
+            "request": "launch",
+            "mainClass": "com.teamtop.redeploy.RedeployClientFunction",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SvnTools",
+            "request": "launch",
+            "mainClass": "com.teamtop.redeploy.SvnTools",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch UploadDownloadUtil",
+            "request": "launch",
+            "mainClass": "com.teamtop.redeploy.UploadDownloadUtil",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZipCompress",
+            "request": "launch",
+            "mainClass": "com.teamtop.redeploy.ZipCompress",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SystemStateEnum",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.SystemStateEnum",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch BD",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.battle.BD",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch BattleFunction",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.battle.BattleFunction",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch CDkeyCreate",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.cdkey.CDkeyCreate",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch CrossDynastyWarriorsSysEvent",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.crossDynastyWarriors.cross.CrossDynastyWarriorsSysEvent",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch CrossSelectKingCache",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.crossSelectKing.cross.CrossSelectKingCache",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch CmdEvent",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.event.serverEvent.CmdEvent",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ServerEventFunction",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.event.serverEvent.ServerEventFunction",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch UseAddIO",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.event.useAddEvent.UseAddIO",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExclusiveActivitySysCache",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.exclusiveActivity.ExclusiveActivitySysCache",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExclusiveActivitySysEvent",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.exclusiveActivity.ExclusiveActivitySysEvent",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimeGMFunction",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.gm.event.TimeGMFunction",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeroManager",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.hero.HeroManager",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeroXData",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.hero.HeroXData",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestHero",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.hero.TestHero",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch MailDao",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.mail.dao.MailDao",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaterialFunction",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.material.MaterialFunction",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch RankingFunction",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.rankNew.RankingFunction",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SceneCache",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.scene.SceneCache",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SceneFunction",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.scene.SceneFunction",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrueNameManager",
+            "request": "launch",
+            "mainClass": "com.teamtop.system.trueName.TrueNameManager",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch HalfFind",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.ProbabilityEvent.HalfFind",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch PropertiesTools",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.Properties.PropertiesTools",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch AgentGetNew",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.agent.AgentGetNew",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestHotSwap",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.agent.TestHotSwap",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch AntService",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.ant.AntService",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch RobbertFunction",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.astar.RobbertFunction",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestAstar",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.astar.TestAstar",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch UC",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.cache.union.UC",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch UCTriggerFunction",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.cache.union.UCTriggerFunction",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch CommonUtil",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.common.CommonUtil",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunSVN",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.common.RunSVN",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZoneIDUtil",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.common.ZoneIDUtil",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestDumpDB",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.db.TestDumpDB",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch AutoObjTableUtil",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.db.orm.AutoObjTableUtil",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch LMessageFormat",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.db.trans.LMessageFormat",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch CrossEX",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.db.trans.crossTrans.CrossEX",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch CrossTrans",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.db.trans.crossTrans.CrossTrans",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObjByteArr",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.db.trans.objbyte2.ObjByteArr",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch EX1",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.db.trans.objbyte2.test.EX1",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch EX1(1)",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.db.trans.strTest.EX1",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExcelJsonUtils",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.excel.ExcelJsonUtils",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExcelTest",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.excel.ExcelTest",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExcelWrite1",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.excel.ExcelWrite1",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadExcel",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.excel.ReadExcel",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExcelHotswapCache",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.excelHotswap.ExcelHotswapCache",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fixtime",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.exector.Fixtime",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestExecuteor",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.exector.TestExecuteor",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScheduleUtil",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.exector.schedule.ScheduleUtil",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileUtils",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.file.FileUtils",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZipCompress(1)",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.file.ZipCompress",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tail",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.file.tail.Tail",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecurityXMLServer",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.flashSecurity.SecurityXMLServer",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvokeGroovy",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.groovy.InvokeGroovy",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch BanWordsUtil",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.illiegalUtil.BanWordsUtil",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch IlliegalUtil",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.illiegalUtil.IlliegalUtil",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch JsonUtils",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.json.JsonUtils",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch LogFlowUtil",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.log.LogFlowUtil",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch LogServer",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.log.LogServer",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch QQMail",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.mail.QQMail",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch QQMailActivity",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.mail.QQMailActivity",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch MD5Function",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.md5.MD5Function",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch CreateDataSource",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.mybatis.CreateDataSource",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch DataSourceFactory",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.mybatis.DataSourceFactory",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch MybatisUtil",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.mybatis.MybatisUtil",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch XMLGen",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.mybatis.XMLGen",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiamondUtil",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.regexUtil.DiamondUtil",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch MD5",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.regexUtil.MD5",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch RegexUtil",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.regexUtil.RegexUtil",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScriptMain",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.script.ScriptMain",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Console",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.surveillance.Console",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimeDateUtil",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.time.TimeDateUtil",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainFrame",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.ui.MainFrame",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch WeixinApiUtils",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.weixinAPI.WeixinApiUtils",
+            "projectName": "H5"
+        },
+        {
+            "type": "java",
+            "name": "Launch GZIP",
+            "request": "launch",
+            "mainClass": "com.teamtop.util.zlib.GZIP",
+            "projectName": "H5"
+        }
+    ]
+}

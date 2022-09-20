@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n1_cenr" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="24,182" size="593,680">
+      <Label title="战报"/>
+    </component>
+    <image id="n6_cenr" name="n6" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="39,249" size="563,585"/>
+    <list id="n5_cenr" name="list" xy="53,260" size="532,556" overflow="scroll" lineGap="9" defaultItem="ui://3o8q23uucenr1f" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

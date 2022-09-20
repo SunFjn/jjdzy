@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="638,150">
+  <displayList>
+    <image id="n0_vib6" name="n0" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="638,150">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n15_ug7b" name="bgImg" xy="0,6" size="633,141"/>
+    <component id="n5_vib6" name="btnQW" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="478,56">
+      <Button title="前往"/>
+    </component>
+    <image id="n11_sakt" name="n11" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="232,10" size="116,33"/>
+    <text id="n12_sakt" name="n12" xy="248,15" size="87,27" fontSize="20" color="#cccccc" strokeColor="#000000" text="活动掉落"/>
+  </displayList>
+</component>

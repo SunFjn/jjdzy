@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,808">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <controller name="c2" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0_bvfw" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,808">
+      <Label title="幻形"/>
+    </component>
+    <component id="n2_bvfw" name="lbName" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="68,106"/>
+    <component id="n3_bvfw" name="lbPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="169,79"/>
+    <component id="n4_bvfw" name="img" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="151,510" size="289,31">
+      <Label title="属性"/>
+    </component>
+    <image id="n9_bvfw" name="imgHas" src="bvfw5h" fileName="image/幻形/已幻形.png" xy="265,701">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <component id="n11_bvfw" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="549,321" pivot="0.5,0.5" anchor="true" size="40,50">
+      <Button icon="ui://4aepcdbwbvfw5k"/>
+    </component>
+    <component id="n12_bvfw" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="47,320" pivot="0.5,0.5" anchor="true" size="40,50" scale="-1,1">
+      <Button icon="ui://4aepcdbwbvfw5k"/>
+    </component>
+    <richtext id="n13_bvfw" name="lbNo" xy="180,611" size="237,28" touchable="false" fontSize="18" color="#ffff00" align="center" autoSize="none" text="默认幻形无属性加成">
+      <gearDisplay controller="c2" pages="0"/>
+    </richtext>
+    <component id="n1_bvfw" name="btnJiH" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="230,701">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="激活"/>
+    </component>
+    <richtext id="n5_bvfw" name="lbAttr" xy="220,545" size="153,109" group="n16_bvfw" touchable="false" fontSize="18" color="#33ff00" text="攻击+1000&#xA;攻击+1000&#xA;攻击+100000000&#xA;攻击+100000000">
+      <relation target="n0_bvfw" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n6_bvfw" name="lbTip" xy="205,655" size="183,28" group="n16_bvfw" touchable="false" fontSize="18" color="#ffc344" align="center" autoSize="none" text="激活后属性永久生效"/>
+    <group id="n16_bvfw" name="n16" xy="205,545" size="183,138" advanced="true">
+      <gearDisplay controller="c2" pages="1"/>
+    </group>
+    <component id="n17_bvfw" name="container" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="296,320"/>
+    <richtext id="n7_bvfw" name="lbCost" xy="284,754" size="60,28" group="n18_dqes" touchable="false" fontSize="18" color="#ffffff" text="10000"/>
+    <image id="n8_bvfw" name="imgCost" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="247,751" group="n18_dqes"/>
+    <group id="n18_dqes" name="n18" xy="247,751" size="97,31" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n19_mwm9" name="btnHX" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="239,684" size="114,116">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button icon="ui://4aepcdbwmwm95l"/>
+    </component>
+  </displayList>
+</component>

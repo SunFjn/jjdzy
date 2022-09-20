@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="87,111">
+  <displayList>
+    <loader id="n5_pz9k" name="bg" xy="3,0" size="82,82" url="ui://jvxpx9emy1z8p" fill="scaleFree"/>
+    <image id="n17_mm9s" name="showImg" src="s1x216" fileName="images/敬请期待.png" xy="6,4"/>
+    <loader id="n6_pz9k" name="imgIcon" xy="4,2" size="79,77" group="n18_mm9s" align="center" vAlign="middle"/>
+    <image id="n7_pz9k" name="selectImg" src="z1r82h" fileName="image/新资源/选中发光状态框.png" pkg="jvxpx9em" xy="-6,-10" size="98,102" group="n18_mm9s" visible="false"/>
+    <image id="n8_pz9k" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="69,-3" group="n18_mm9s" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n15_ehnl" name="colorBg" src="nxcba1" fileName="image1/Vip背景.png" pkg="jvxpx9em" xy="4,2" size="51,24" group="n18_mm9s"/>
+    <image id="n16_ehnl" name="levelBg" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="4,55" size="80,24" group="n18_mm9s"/>
+    <richtext id="n11_pz9k" name="lbNum" xy="1,54" size="80,28" group="n18_mm9s" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" strokeColor="#000000" text="1阶"/>
+    <richtext id="n13_pz9k" name="nameLb" xy="0,83" size="89,28" group="n18_mm9s" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="毕方之足"/>
+    <richtext id="n14_s1x2" name="colorLb" xy="5,0" size="40,28" group="n18_mm9s" touchable="false" fontSize="18" color="#ffff00" text="+10"/>
+    <group id="n18_mm9s" name="dataGroup" xy="-6,-10" size="98,121" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

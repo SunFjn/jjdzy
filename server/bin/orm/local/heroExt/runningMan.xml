@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.runningMan.RunningMan" tbname="runningMan">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="maxtodayFloor" type="text" pf="all" comment="不同难度的每日的进度"/>
+			<col field="maxHisFloor" type="text" pf="all" comment="不同难度历史最高进度"/>
+			<col field="maxtodaynum" type="int" pf="all" comment="今日最高层"/>
+			<col field="maxHisnum" type="int" pf="all" comment="历史最高层"/>
+			<col field="isNow" type="int" pf="all" comment="是否改一版"/>
+     </tb>
+</tbs>

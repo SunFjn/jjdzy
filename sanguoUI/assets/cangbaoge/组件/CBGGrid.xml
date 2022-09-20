@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,102">
+  <displayList>
+    <component id="n0_m0yo" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="0,0" pivot="0.5,0.5" locked="true" scale="0.8,0.8"/>
+    <image id="n2_m0yo" name="imgSelected" src="xwhy3dc" fileName="image/抽奖框.png" pkg="jvxpx9em" xy="-6,-3" pivot="0.5,0.5" scale="0.8,0.8"/>
+    <image id="n1_m0yo" name="imgSepurise" src="tar60" fileName="image/大奖.png" xy="7,10"/>
+  </displayList>
+</component>

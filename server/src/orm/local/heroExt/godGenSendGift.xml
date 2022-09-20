@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.godGenSendGift.model.GodGenSendGift" tbname="godGenSendGift">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="totalTimes" type="int" pf="all" comment="抽奖次数"/>
+			<col field="awardStateMap" type="text" pf="all" comment="奖励状态key:配置表id value:1：可领取，2：已领取"/>
+     		<col field="qs" type="int" pf="all" comment="期数,判断发奖励清数据用"/>
+     </tb>
+</tbs>

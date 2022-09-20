@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="589,755">
+  <controller name="c1" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <component id="n0_j9wf" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="589,706">
+      <Label title="排行榜"/>
+    </component>
+    <image id="n30_qxiv" name="n30" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="16,92" size="555,45"/>
+    <list id="n23_j9wf" name="list" xy="16,143" size="555,452" overflow="scroll" lineGap="9" defaultItem="ui://me1skowlhfct41">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n24_j9wf" name="lbMyGrade" xy="65,610" size="221,35" fontSize="24" color="#ffffff" text="我的段位：乱世枭雄"/>
+    <text id="n25_j9wf" name="lbTips" xy="66,658" size="455,28" fontSize="18" color="#25f909" align="center" autoSize="none" text="赛季结束后乱世枭雄段位玩家可参加枭雄争霸"/>
+    <richtext id="n26_j9wf" name="lbMyRank" xy="323,610" size="198,35" fontSize="24" color="#ffffff" align="right" autoSize="none" text="我的排名：10"/>
+    <image id="n28_qxiv" name="n28" src="q8rv9n" fileName="image1/排名.png" pkg="jvxpx9em" xy="109,105"/>
+    <image id="n29_qxiv" name="n29" src="j92x9t" fileName="image1/名字.png" pkg="jvxpx9em" xy="365,105"/>
+    <component id="n20_j9wf" name="tab3" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="370,700">
+      <Button title="宗师一阶" controller="c1" page="3"/>
+    </component>
+    <component id="n17_j9wf" name="tab2" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="251,700">
+      <Button title="宗师二阶" controller="c1" page="2"/>
+    </component>
+    <component id="n16_j9wf" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,700">
+      <Button title="宗师三阶" controller="c1" page="1"/>
+    </component>
+    <component id="n15_j9wf" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,700">
+      <Button checked="true" title="乱世枭雄" controller="c1" page="0"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_h7qe" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://4x7dk3lhgz25a"/>
+    </component>
+    <list id="n8_h7qe" name="list" xy="16,163" size="605,541" layout="flow_hz" overflow="hidden" lineItemCount="3" defaultItem="ui://4x7dk3lhh7qe1" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n9_h7qe" name="leftBt" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="194,734" size="47,49" group="n13_h7qe" scale="-1,1">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <image id="n10_h7qe" name="n10" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="251,741" size="134,31" group="n13_h7qe"/>
+    <richtext id="n11_h7qe" name="pageLb" xy="261,742" size="117,28" group="n13_h7qe" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="100/100"/>
+    <component id="n12_h7qe" name="rightBt" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="399,732" size="47,49" group="n13_h7qe">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <group id="n13_h7qe" name="n13" xy="194,732" size="252,51" collapsed="true"/>
+    <richtext id="n14_h7qe" name="smLb" xy="36,825" size="77,28" fontSize="18" color="#00ff00" align="center" vAlign="middle" leading="0" underline="true" text="玩法说明"/>
+    <component id="n15_h7qe" name="holdBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="253,805">
+      <Button title="举办宴会"/>
+    </component>
+    <richtext id="n16_h7qe" name="n16" xy="142,882" size="341,28" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" text="同一时间只能参与一场宴会(举办也算参与)"/>
+  </displayList>
+</component>

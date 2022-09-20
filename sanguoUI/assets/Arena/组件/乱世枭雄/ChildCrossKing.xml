@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="625,770" designImageOffsetX="-5" designImageOffsetY="-148">
+  <displayList>
+    <image id="n37_pxaa" name="n37" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="23,421" size="212,288"/>
+    <image id="n43_ca02" name="n43" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="26,724" size="172,31"/>
+    <loader id="n24_qxiv" name="qzImg" xy="12,17" size="230,406"/>
+    <richtext id="n4_t2ds" name="lbBattleCount" xy="32,728" size="140,25" touchable="false" fontSize="18" color="#ffffff" autoClearText="true" text="挑战次数：10/10"/>
+    <component id="n5_t2ds" name="btnAdd" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="204,719" size="41,41">
+      <relation target="n4_t2ds" sidePair="right-right"/>
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <richtext id="n7_t2ds" name="lbChangeCost" xy="533,723" size="55,25" touchable="false" fontSize="18" color="#ffffff" align="center" autoClearText="true" text="10000"/>
+    <richtext id="n8_t2ds" name="lbZsLevel" xy="19,32" size="215,35" fontSize="24" color="#eba00e" align="center" autoSize="none" autoClearText="true" text="乱世枭雄(1-3转)"/>
+    <image id="n36_pr1u" name="n36" src="f1cf4g" fileName="image1/Bg3.png" pkg="jvxpx9em" xy="38,227" size="176,110"/>
+    <richtext id="n9_t2ds" name="lbGrade" xy="48,230" size="167,25" touchable="false" fontSize="18" color="#ffffff" autoClearText="true" text="我的段位：&lt;font color=#ffff00>精英三阶&lt;/font>"/>
+    <richtext id="n10_t2ds" name="lbRank" xy="48,268" size="125,25" touchable="false" fontSize="18" color="#ffffff" autoClearText="true" text="我的排名：150"/>
+    <richtext id="n11_t2ds" name="lbPower" xy="48,303" size="129,25" touchable="false" fontSize="18" color="#ffffff" autoClearText="true" text="战力：1111150"/>
+    <component id="n14_t2ds" name="ply0" src="hfct3q" fileName="组件/乱世枭雄/VCrossKingPly.xml" xy="414,16"/>
+    <component id="n15_t2ds" name="ply2" src="hfct3q" fileName="组件/乱世枭雄/VCrossKingPly.xml" xy="414,298"/>
+    <component id="n16_t2ds" name="ply1" src="hfct3q" fileName="组件/乱世枭雄/VCrossKingPly.xml" xy="236,152"/>
+    <image id="n33_qxiv" name="n33" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="28,182" size="206,34"/>
+    <component id="n17_t2ds" name="ply3" src="hfct3q" fileName="组件/乱世枭雄/VCrossKingPly.xml" xy="236,433"/>
+    <richtext id="n18_t2ds" name="lbTips" xy="38,186" size="182,28" locked="true" fontSize="18" color="#25f909" align="center" autoSize="none" text="前20名可挑战晋升赛"/>
+    <component id="n22_qxiv" name="btnTips" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="42,429" size="75,76">
+      <Button icon="ui://jvxpx9emw6sh3g4"/>
+    </component>
+    <component id="n25_qxiv" name="btnShop" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="143,525" size="67,83">
+      <Button icon="ui://me1skowlhfct4u"/>
+    </component>
+    <component id="n26_qxiv" name="btnReport" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="44,525" size="67,83">
+      <Button icon="ui://me1skowlhfct54"/>
+    </component>
+    <component id="n27_qxiv" name="btnReward" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="44,613" size="67,83">
+      <Button icon="ui://me1skowlhfct51"/>
+    </component>
+    <component id="n28_qxiv" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="141,613" size="67,83">
+      <Button icon="ui://me1skowlhfct58"/>
+    </component>
+    <component id="n29_qxiv" name="btnChange" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="487,664" size="108,46">
+      <Button title="换一批"/>
+    </component>
+    <image id="n30_qxiv" name="n30" src="ltpm59" fileName="image1/铜币.png" pkg="jvxpx9em" xy="500,719"/>
+    <image id="n23_qxiv" name="n23" src="kplsah" fileName="image1/tishikuang.png" pkg="jvxpx9em" xy="183,81" group="n34_qxiv"/>
+    <richtext id="n31_qxiv" name="n31" xy="204,98" size="167,28" group="n34_qxiv" fontSize="18" color="#f3c216" autoSize="none" text="点击图标挑战晋升赛"/>
+    <group id="n34_qxiv" name="gClick" xy="183,81" size="196,61" advanced="true" collapsed="true"/>
+    <loader id="n35_pr1u" name="btnPromotion" xy="73,61" size="116,113" align="center" vAlign="middle"/>
+    <component id="n38_gwaz" name="btnStore" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="132,431" size="94,83">
+      <Button icon="ui://me1skowlhfct4r"/>
+    </component>
+    <richtext id="n39_uitl" name="lbItemCount" xy="32,728" size="204,25" group="n42_uitl" fontSize="18" color="#ffffff" text="乱世枭雄挑战令：      1/2"/>
+    <richtext id="n40_uitl" name="lbRemaindTime" xy="251,728" size="40,28" group="n42_uitl" fontSize="18" color="#ff0000" text=""/>
+    <loader id="n41_uitl" name="iconItem" xy="177,729" size="30,30" group="n42_uitl" aspect="true" url="ui://47jfyc6engkt3b" fill="scaleFree"/>
+    <group id="n42_uitl" name="groupItem" xy="32,728" size="259,31" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

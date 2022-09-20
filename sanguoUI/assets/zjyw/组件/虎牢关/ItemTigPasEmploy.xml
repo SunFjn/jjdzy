@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="213,248" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n2_y5hd" name="n2" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="20,21" size="170,207"/>
+    <component id="n3_y5hd" name="vhead" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="44,58"/>
+    <richtext id="n4_y5hd" name="lbPower" xy="23,153" size="164,28" touchable="false" fontSize="16" color="#ffffff" align="center" autoSize="none" text="战力：123456789"/>
+    <richtext id="n6_y5hd" name="lbName" xy="23,26" size="164,28" touchable="false" fontSize="16" color="#ffffff" align="center" autoSize="none" text="玩家名字六字 .S9999"/>
+    <richtext id="n7_y5hd" name="lbCt" xy="23,175" size="164,28" touchable="false" fontSize="16" color="#ffffff" align="center" autoSize="none" text="剩余雇佣次数：1"/>
+    <richtext id="n8_y5hd" name="lbYb" xy="98,198" size="50,25" touchable="false" fontSize="16" color="#ffffff" text="99999"/>
+    <image id="n9_y5hd" name="imgYb" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="61,193"/>
+    <image id="n10_hdie" name="n10" src="hdie2i" fileName="image/虎牢关/卡牌选中框.png" xy="0,0" size="213,248">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <richtext id="n12_hdie" name="lbNo" xy="23,157" size="164,28" touchable="false" fontSize="22" color="#ffffff" align="center" autoSize="none" text="无人报名雇佣"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

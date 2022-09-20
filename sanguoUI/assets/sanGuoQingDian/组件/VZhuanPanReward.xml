@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="555,120">
+  <displayList>
+    <image id="n15_cazx" name="n15" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="555,120"/>
+    <richtext id="n10_j9wf" name="lbRank" xy="5,35" size="67,49" fontSize="34" color="#ffc334" align="center" autoSize="none" text="99"/>
+    <list id="n13_j9wf" name="list" xy="267,18" size="346,106" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="5" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="right">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n16_ioin" name="lbName" xy="82,23" size="178,31" fontSize="20" color="#ffffff" text="玩家名字名字.S999"/>
+    <image id="n17_ioin" name="imgNo" src="ioin14" fileName="image/虚位以待.png" xy="122,50"/>
+    <richtext id="n18_ioin" name="lbCt" xy="82,67" size="153,31" fontSize="20" color="#ffffff" text="转盘次数：1000"/>
+  </displayList>
+</component>

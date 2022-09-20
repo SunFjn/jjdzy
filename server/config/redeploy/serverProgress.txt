@@ -1,0 +1,17 @@
+#服务端部署命令
+cmd tar -xf $serverBinDir$/bin.tar.gz -C $serverBinDir$/ -m
+cmd cd $programDir$;sh $programDir$/run.sh stop
+check cd $programDir$;sh $programDir$/run.sh check
+cmd cd $programDir$;rm -rf $programDir$/server/bin.bak bin.bak.* bin.tar.gz
+cmd cd $programDir$;mv $programDir$/server/bin $programDir$/server/bin.bak
+cmd cd $programDir$;mv $serverBinDir$/bin $programDir$/server/
+cmd cd $programDir$;sh $programDir$/run.sh start
+tail $programDir$/logs/console.log
+#中央服江湖试炼
+cmd cd $jianghuDir$;sh $jianghuDir$/run.sh stop
+check cd $jianghuDir$;sh $jianghuDir$/run.sh check
+cmd cd $jianghuDir$;sh $jianghuDir$/run.sh start
+#中央服战力提升
+cmd cd $rankDir$;sh $rankDir$/run.sh stop
+check cd $rankDir$;sh $rankDir$/run.sh check
+cmd cd $rankDir$;sh $rankDir$/run.sh start

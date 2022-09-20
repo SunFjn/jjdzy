@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="238,365">
+  <displayList>
+    <loader id="n27_kh25" name="iconImg" xy="0,0" size="238,332" url="ui://yqpfulefkh255z" fill="scaleFree"/>
+    <image id="n25_kh25" name="n25" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="54,4" size="129,37"/>
+    <loader id="n26_kh25" name="titleIcon" xy="62,5" size="114,36" url="ui://yqpfulefkh255y" align="center"/>
+    <component id="n28_kh25" name="chooseBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="56,319" size="118,46">
+      <Button title="购买"/>
+    </component>
+    <richtext id="n30_kh25" name="buffLb" xy="30,177" size="171,28" fontSize="18" color="#ffff00" align="center" leading="0" ubb="true" autoSize="none" autoClearText="true" text="爆伤减免+30%"/>
+    <image id="n32_kh25" name="n32" src="s37b6g" fileName="image/跨服试炼/试炼点.png" xy="110,224" size="32,31" group="n34_s37b"/>
+    <richtext id="n31_kh25" name="costLb" xy="68,227" size="102,28" group="n34_s37b" fontSize="18" color="#00ff00" text="消耗:       30"/>
+    <group id="n34_s37b" name="n34" xy="68,224" size="102,31" advanced="true" collapsed="true" layout="hz" colGap="-74">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <image id="n35_qp5y" name="buyImg" src="mb5j7d" fileName="image/已购买.png" pkg="jvxpx9em" xy="53,322"/>
+  </displayList>
+</component>

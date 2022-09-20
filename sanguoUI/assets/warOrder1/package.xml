@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="89er3bo3">
+  <resources>
+    <component id="e7lc0" name="ViewWarOrderPanel1.xml" path="/com/" exported="true"/>
+    <component id="e7lc1" name="ViewWarOrderUpgrade1.xml" path="/com/" exported="true"/>
+    <component id="e7lc2" name="WarOrderRewItem1.xml" path="/com/" exported="true"/>
+    <component id="e7lc3" name="WarOrderTaskItem1.xml" path="/com/" exported="true"/>
+    <component id="e7lc4" name="ViewWarOrderBuyCt1.xml" path="/com/" exported="true"/>
+    <image id="e7lc5" name="徽章底.png" path="/image/" exported="true"/>
+    <image id="e7lc7" name="黑色遮挡.png" path="/image/" exported="true"/>
+    <image id="e7lc8" name="装备锻造.png" path="/image/" exported="true"/>
+    <image id="e7lca" name="已激活.png" path="/image/" exported="true"/>
+    <image id="e7lcb" name="锁.png" path="/出图文件/" exported="true"/>
+    <image id="e7lcc" name="遮罩.png" path="/出图文件/" exported="true"/>
+    <image id="e7lce" name="背景底纹.png" path="/出图文件/" exported="true"/>
+    <image id="e7lcf" name="标题荣誉勋章.png" path="/出图文件/" exported="true"/>
+    <image id="e7lcg" name="无奖励.png" path="/出图文件/" exported="true"/>
+    <image id="e7lch" name="文字底.png" path="/出图文件/" exported="true"/>
+    <image id="e7lci" name="底2.png" path="/出图文件/" exported="true"/>
+    <image id="e7lcj" name="底1.png" path="/出图文件/" exported="true"/>
+    <image id="e7lck" name="勋章.png" path="/出图文件/" exported="true"/>
+    <component id="e7lco" name="WarOrderRewItem2.xml" path="/com/" exported="true"/>
+    <component id="e7lcp" name="ChildWarOrderRew.xml" path="/com/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true" excluded="e7lc8"/>
+</packageDescription>

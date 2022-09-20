@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossFireBeacon.model.FireBeacon" tbname="fireBeacon">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="score" type="bigint" pf="all" comment="积分"/>
+			<col field="cdStartTime" type="int" pf="all" comment="金融活动冷却时间"/>
+			<col field="lastResetTime" type="bigint" pf="all" comment="上次重置时间"/>
+			<col field="alreadyGet" type="text" pf="all" comment="已领取的积分奖励"/>
+     </tb>
+</tbs>

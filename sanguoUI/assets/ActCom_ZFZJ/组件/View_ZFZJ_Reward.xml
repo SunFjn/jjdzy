@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="591,851">
+  <displayList>
+    <component id="n1_r3je" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="591,851">
+      <Label title="查看奖励"/>
+    </component>
+    <image id="n2_r3je" name="n2" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="15,68" size="564,41"/>
+    <richtext id="n3_r3je" name="n3" xy="48,72" size="45,31" fontSize="20" color="#ffcc00" text="等级"/>
+    <richtext id="n4_r3je" name="n4" xy="237,73" size="45,31" fontSize="20" color="#ffcc00" text="奖励"/>
+    <list id="n8_r3je" name="list" xy="15,115" size="567,717" overflow="scroll" lineGap="6" defaultItem="ui://4h4iwgjrr3jek" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

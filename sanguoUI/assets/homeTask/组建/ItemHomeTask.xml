@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="610,140">
+  <displayList>
+    <image id="n17_dsuf" name="n17" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="610,140"/>
+    <component id="n1_tw1l" name="progress" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="249,37" size="201,20">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <richtext id="n4_tw1l" name="lbNa0" xy="108,70" size="71,28" fontSize="18" color="#ffffff" align="right" autoSize="none" text="繁荣度"/>
+    <richtext id="n5_tw1l" name="lbTitle" xy="123,35" size="95,28" fontSize="18" color="#ffc334" text="收取府邸币"/>
+    <richtext id="n13_ftjg" name="lbNa1" xy="280,70" size="68,28" fontSize="18" color="#ffffff" align="right" autoSize="none" text="繁荣度"/>
+    <component id="n15_oytr" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="31,24" scale="0.8,0.8"/>
+    <component id="n3_tw1l" name="btn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="458,40" group="n18_dsuf">
+      <Button title="前往"/>
+    </component>
+    <image id="n10_tw1l" name="imgYWC" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="464,51" group="n18_dsuf"/>
+    <component id="n14_oj5a" name="btnLQ" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="458,40" group="n18_dsuf">
+      <Button title="领取"/>
+    </component>
+    <group id="n18_dsuf" name="n18" xy="458,40" size="136,62"/>
+    <richtext id="n19_dsuf" name="lbCt0" xy="213,70" size="62,28" fontSize="18" color="#ffffff" text="+1000"/>
+    <loader id="n20_dsuf" name="img0" xy="178,64" size="36,36" url="ui://oy62ymetdsufb" fill="scale"/>
+    <richtext id="n21_dsuf" name="lbCt1" xy="382,70" size="62,28" fontSize="18" color="#ffffff" autoClearText="true" text="+1000"/>
+    <loader id="n22_dsuf" name="img1" xy="347,65" size="36,36" url="ui://oy62ymetdsufe" fill="scale"/>
+  </displayList>
+</component>

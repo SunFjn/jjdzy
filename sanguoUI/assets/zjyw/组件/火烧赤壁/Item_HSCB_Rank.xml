@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="539,62">
+  <displayList>
+    <image id="n22_ql4n" name="n22" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="539,62"/>
+    <richtext id="n23_ql4n" name="labName" xy="87,17" size="174,28" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="S99"/>
+    <richtext id="n25_ql4n" name="labPower" xy="383,17" size="144,28" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="1"/>
+    <richtext id="n30_om0e" name="labLayer" xy="278,17" size="91,28" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="200"/>
+    <loader id="n31_om0e" name="img" xy="24,5" size="50,50" url="ui://7a366usaql4nv" align="center" vAlign="middle"/>
+    <richtext id="n32_om0e" name="labRank" xy="4,17" size="91,28" fontSize="18" color="#f9bb13" align="center" autoSize="none" autoClearText="true" text="200"/>
+    <image id="n33_9vt1" name="imgNo" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="127,22"/>
+  </displayList>
+</component>

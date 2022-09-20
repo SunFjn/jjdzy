@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ye1luhg3" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="r6x41" name="SignGrid.xml" path="/组件/签到/" exported="true"/>
+    <component id="r6x48" name="View_Welfare_Panel.xml" path="/组件/" exported="true"/>
+    <component id="r6x4d" name="Child_Sign.xml" path="/组件/签到/" exported="true"/>
+    <component id="owbuf" name="Child_ActCode.xml" path="/组件/激活码/" exported="true"/>
+    <component id="ffubg" name="Child_UpdateNotice.xml" path="/组件/公告/" exported="true"/>
+    <component id="ffubh" name="NoticeItem.xml" path="/组件/公告/" exported="true"/>
+    <image id="pseoi" name="激活至尊卡领取双倍签到奖励.png" path="/image/" exported="true"/>
+    <image id="pseok" name="福利.png" path="/image/" exported="true"/>
+    <image id="pseoq" name="可补签.png" path="/image/" exported="true"/>
+    <image id="ah3ct" name="ban激活码.png" path="/image/" exported="true"/>
+    <image id="9tlt11" name="4202.png" path="/image/"/>
+    <image id="o9c212" name="奖励找回.jpg" path="/image/"/>
+    <image id="o9c213" name="已找回.png" path="/image/"/>
+    <image id="o9c214" name="找.png" path="/image/"/>
+    <image id="o9c215" name="100%奖励.png" path="/image/"/>
+    <image id="o9c216" name="曹操全身像.png" path="/image/"/>
+    <component id="o9c217" name="RewardBack.xml" path="/组件/奖励找回/" exported="true"/>
+    <image id="o9c218" name="元宝.png" path="/image/" exported="true"/>
+    <image id="o9c21a" name="货币底.png" path="/image/" exported="true" scale="9grid" scale9grid="29,8,58,9"/>
+    <component id="o9c21b" name="RewardBackItem.xml" path="/组件/奖励找回/" exported="true"/>
+    <image id="onxf1c" name="铜币.png" path="/image/" exported="true"/>
+    <image id="k2yd1e" name="功能预告.png" path="/image/" exported="true"/>
+    <image id="k2yd1f" name="更新公告.png" path="/image/" exported="true"/>
+    <component id="k2yd1g" name="NoticeItem1.xml" path="/组件/公告/" exported="true"/>
+    <image id="k2yd1h" name="标题标签底.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="Welfare" genCode="true" npot="true" excluded="9tlt11,ah3ct,o9c212,o9c216"/>
+</packageDescription>

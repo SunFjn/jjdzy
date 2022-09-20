@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_b8ve" name="n0" src="d2iu9v" fileName="新组建/ViewBg1.xml" pkg="jvxpx9em" xy="0,0"/>
+    <loader id="n9_rvdr" name="titleIcon" xy="229,60" size="188,101" url="ui://jvxpx9emi6im6i"/>
+    <image id="n10_rvdr" name="n10" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="236,200"/>
+    <image id="n12_rvdr" name="n12" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="389,200"/>
+    <image id="n13_rvdr" name="n13" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="236,319"/>
+    <image id="n14_rvdr" name="n14" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="390,319"/>
+    <image id="n15_rvdr" name="n15" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="238,462"/>
+    <image id="n16_rvdr" name="n16" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="388,462"/>
+    <image id="n17_rvdr" name="n17" src="rvdr1f" fileName="image/选择难度1.png" xy="270,195"/>
+    <image id="n18_rvdr" name="n18" src="rvdr1e" fileName="image/通关波数1.png" xy="270,313"/>
+    <image id="n19_rvdr" name="n19" src="rvdr1d" fileName="image/累积奖励1.png" xy="271,458"/>
+    <loader id="n1_b8ve" name="typeIcon" xy="282,224" size="66,84" touchable="false" url="ui://pkuzcu87r4ogt" align="center" vAlign="middle" fill="scale"/>
+    <list id="n11_rvdr" name="list" xy="102,510" size="454,277" layout="flow_hz" overflow="hidden" lineGap="6" colGap="15" defaultItem="ui://jvxpx9emetorn" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_b8ve" name="sureBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="257,833">
+      <Button title="确定(10)"/>
+    </component>
+    <richtext id="n3_b8ve" name="passLb" xy="257,376" size="126,43" touchable="false" fontSize="30" color="#ffc344" align="center" leading="0" autoSize="none" text="100波"/>
+  </displayList>
+</component>

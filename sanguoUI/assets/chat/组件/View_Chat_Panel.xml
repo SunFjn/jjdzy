@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1,,2," selected="0"/>
+  <controller name="c2" autoRadioGroupDepth="true" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n0_mtzm" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://fx4pr5qecxk81n"/>
+    </component>
+    <list id="n1_ov4j" name="list" xy="19,345" size="593,480" overflow="scroll" lineGap="3" defaultItem="ui://fx4pr5qeov4j2" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n2_ov4j" name="n2" src="cxk81p" fileName="image/聊天输入底.png" xy="11,832" size="615,84">
+      <gearDisplay controller="c2" pages="0,1,2"/>
+      <gearXY controller="c2" pages="0,1,2" values="11,832|13,829|13,781"/>
+      <gearSize controller="c2" pages="0,1,2" values="615,84,1,1|612,86,1,1|612,135,1,1"/>
+    </image>
+    <image id="n3_ov4j" name="n3" src="cxk81q" fileName="image/聊天输入框.png" xy="75,841"/>
+    <image id="n8_ov4j" name="hornImg" src="hzfc1b" fileName="image/Horn.png" xy="518,894" size="29,25"/>
+    <image id="n52_tv5m" name="n52" src="tv5m2o" fileName="image/系统公告底部-底.png" xy="17,148" size="606,194"/>
+    <image id="n53_tv5m" name="n53" src="tv5m2q" fileName="image/系统公告底部-边.png" xy="111,143"/>
+    <image id="n54_tv5m" name="n54" src="tv5m2q" fileName="image/系统公告底部-边.png" xy="524,143" scale="-1,1"/>
+    <image id="n55_tv5m" name="n55" src="tv5m2p" fileName="image/系统公告底部-字.png" xy="268,141"/>
+    <list id="n56_tv5m" name="list1" xy="19,176" size="595,159" overflow="scroll" lineGap="5" defaultItem="ui://fx4pr5qetv5m2s" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n47_tgbf" name="n47" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="14,653" size="611,174" group="n35_ov4j"/>
+    <component id="n23_ov4j" name="faceBt0" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="23,669" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qeov4jq"/>
+    </component>
+    <component id="n18_ov4j" name="faceBt1" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="98,669" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qeov4jr"/>
+    </component>
+    <component id="n21_ov4j" name="faceBt2" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="173,669" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qeov4js"/>
+    </component>
+    <component id="n17_ov4j" name="faceBt3" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="248,669" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qeov4jt"/>
+    </component>
+    <component id="n26_ov4j" name="faceBt4" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="323,669" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qeov4ju"/>
+    </component>
+    <component id="n28_ov4j" name="faceBt5" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="398,669" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qeov4jv"/>
+    </component>
+    <component id="n15_ov4j" name="faceBt6" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="473,669" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qeov4jw"/>
+    </component>
+    <component id="n11_ov4j" name="faceBt7" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="548,669" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qeov4jx"/>
+    </component>
+    <component id="n20_ov4j" name="faceBt8" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="27,755" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qeov4jy"/>
+    </component>
+    <component id="n31_ov4j" name="faceBt9" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="102,755" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qeov4jz"/>
+    </component>
+    <component id="n34_ov4j" name="faceBt10" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="177,755" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qeov4j10"/>
+    </component>
+    <component id="n10_ov4j" name="faceBt11" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="252,755" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qeov4j11"/>
+    </component>
+    <component id="n29_ov4j" name="faceBt12" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="327,755" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qeov4je"/>
+    </component>
+    <component id="n30_ov4j" name="faceBt13" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="402,755" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qeov4jf"/>
+    </component>
+    <component id="n49_sy5t" name="faceBt14" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="477,755" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qeskzf1r"/>
+    </component>
+    <component id="n50_pdbd" name="faceBt15" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="552,755" size="64,64" group="n35_ov4j">
+      <Button icon="ui://fx4pr5qepdbd2f"/>
+    </component>
+    <group id="n35_ov4j" name="faceGroup" xy="14,653" size="611,174" visible="false" advanced="true" collapsed="true">
+      <gearDisplay controller="c2" pages="1"/>
+    </group>
+    <component id="n6_ov4j" name="shezhiBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="25,842" size="47,47">
+      <Button icon="ui://fx4pr5qehzfc18"/>
+    </component>
+    <component id="n7_ov4j" name="faceBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="446,844" size="46,48">
+      <Button icon="ui://fx4pr5qehzfc1a"/>
+    </component>
+    <component id="n5_ov4j" name="sendBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="500,848" size="112,43">
+      <Button title="发送"/>
+    </component>
+    <image id="n48_tgbf" name="n48" src="irr13gw" fileName="image/花纹/菱形花纹.png" pkg="jvxpx9em" xy="26,805" group="n45_aro8"/>
+    <component id="n43_aro8" name="check0" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="367,799" group="n45_aro8"/>
+    <richtext id="n40_aro8" name="blackListLb" xy="46,799" size="105,31" group="n45_aro8" fontSize="20" color="#15f234" leading="0" underline="true" text="查看黑名单"/>
+    <richtext id="n44_aro8" name="n44" xy="404,797" size="169,31" group="n45_aro8" fontSize="20" color="#ffffff" leading="0" text="屏蔽50级以下发言"/>
+    <group id="n45_aro8" name="blackGroup" xy="26,797" size="547,33" visible="false" advanced="true" collapsed="true">
+      <gearDisplay controller="c2" pages="2"/>
+    </group>
+    <component id="n36_ov4j" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,922">
+      <Button title="跨服"/>
+    </component>
+    <component id="n37_ov4j" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,922">
+      <Button title="本服"/>
+    </component>
+    <component id="n38_ov4j" name="tab2" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="251,922">
+      <Button title="国家"/>
+    </component>
+    <text id="n4_ov4j" name="msgLb" xy="80,846" size="336,44" input="true" maxLength="30" fontSize="24" color="#ffffff" vAlign="middle" leading="0" autoSize="none" text=""/>
+    <richtext id="n9_ov4j" name="prohibitLb" xy="551,890" size="49,28" fontSize="18" color="#00f234" leading="0" text="9999"/>
+  </displayList>
+</component>

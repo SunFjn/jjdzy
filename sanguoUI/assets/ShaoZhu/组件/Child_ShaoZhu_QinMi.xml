@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,899" opaque="false">
+  <displayList>
+    <image id="n81_fe76" name="n81" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="159,685" size="333,78" visible="false"/>
+    <image id="n40_ng03" name="n40" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="181,557" size="278,70"/>
+    <component id="n35_ftpj" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="198,314">
+      <Label title="999999999"/>
+    </component>
+    <loader id="n85_vuzv" name="modelIcon" xy="248,415" size="148,175" touchable="false" align="center" vAlign="bottom"/>
+    <loader id="n41_ng03" name="nameImg" xy="209,579" size="228,35" align="center" vAlign="bottom"/>
+    <image id="n44_ng03" name="n44" src="ng03a" fileName="image/话框.png" xy="368,378" group="n46_ng03"/>
+    <richtext id="n45_ng03" name="showLb" xy="375,383" size="143,48" group="n46_ng03" fontSize="18" color="#ffffff" autoSize="none" text="谢谢"/>
+    <group id="n46_ng03" name="showGroup" xy="368,378" size="157,66" advanced="true" collapsed="true"/>
+    <component id="n49_ng03" name="expbar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="199,614" size="309,22" group="n50_ng03">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n47_ng03" name="n47" src="ng03b" fileName="image/亲密度-心.png" xy="141,588" group="n50_ng03"/>
+    <richtext id="n48_ng03" name="levelLb" xy="151,605" size="67,31" group="n50_ng03" fontSize="20" color="#ffffff" align="center" autoSize="none" text="10"/>
+    <group id="n50_ng03" name="n50" xy="141,588" size="367,70" collapsed="true"/>
+    <component id="n51_ng03" name="n51" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="163,651" size="289,31">
+      <Label title="属性"/>
+    </component>
+    <richtext id="n52_ng03" name="labAttrCur" xy="189,683" size="98,82" group="n55_ng03" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <image id="n53_ng03" name="imgArrow" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="297,695" group="n55_ng03">
+      <relation target="n52_ng03" sidePair="middle-middle"/>
+    </image>
+    <richtext id="n54_ng03" name="labAttrNext" xy="363,682" size="98,82" group="n55_ng03" touchable="false" fontSize="18" color="#ffffff" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <group id="n55_ng03" name="attGroup" xy="189,682" size="272,83" advanced="true" collapsed="true" layout="hz" colGap="10">
+      <relation target="n81_fe76" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n56_ng03" name="n56" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="45,782" size="547,117" group="n78_ng03"/>
+    <image id="n61_ng03" name="n61" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="65,864" size="77,31" group="n78_ng03"/>
+    <image id="n67_ng03" name="n67" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="147,865" size="77,31" group="n78_ng03"/>
+    <image id="n70_ng03" name="n70" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="227,865" size="77,31" group="n78_ng03"/>
+    <image id="n73_ng03" name="n73" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="308,865" size="77,31" group="n78_ng03"/>
+    <component id="n57_ng03" name="grid00" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="68,787" group="n78_ng03" scale="0.75,0.75"/>
+    <component id="n58_ng03" name="grid01" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="148,787" group="n78_ng03" scale="0.75,0.75"/>
+    <component id="n59_ng03" name="grid02" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="229,787" group="n78_ng03" scale="0.75,0.75"/>
+    <component id="n60_ng03" name="grid03" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="309,787" group="n78_ng03" scale="0.75,0.75"/>
+    <richtext id="n62_ng03" name="numLb0" xy="75,865" size="58,28" group="n78_ng03" fontSize="18" color="#ffffff" align="center" autoSize="none" text="+100"/>
+    <richtext id="n68_ng03" name="numLb1" xy="157,866" size="58,28" group="n78_ng03" fontSize="18" color="#ffffff" align="center" autoSize="none" text="+100"/>
+    <richtext id="n71_ng03" name="numLb2" xy="237,866" size="58,28" group="n78_ng03" fontSize="18" color="#ffffff" align="center" autoSize="none" text="+100"/>
+    <richtext id="n74_ng03" name="numLb3" xy="318,866" size="58,28" group="n78_ng03" fontSize="18" color="#ffffff" align="center" autoSize="none" text="+100"/>
+    <component id="n76_ng03" name="keyBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="443,812" group="n78_ng03">
+      <Button title="一键赠送"/>
+    </component>
+    <group id="n78_ng03" name="costGroup" xy="45,782" size="547,117" advanced="true" collapsed="true"/>
+    <richtext id="n79_ng03" name="promptLb" xy="120,816" size="418,43" fontSize="30" color="#ff0000" align="center" leading="0" autoSize="none" text="亲密度已满"/>
+    <richtext id="n80_ng03" name="labAttrMax" xy="277,684" pivot="0.5,0" size="98,82" touchable="false" fontSize="18" color="#ffffff" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <image id="n82_gfnp" name="n82" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="45,325" size="106,198" group="n83_gfnp"/>
+    <image id="n36_ftpj" name="n36" src="gfnp14" fileName="image/下阶奖励.png" xy="52,328" group="n83_gfnp"/>
+    <component id="n37_ftpj" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="60,353" group="n83_gfnp" scale="0.8,0.8"/>
+    <component id="n38_ftpj" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="61,434" group="n83_gfnp" scale="0.8,0.8"/>
+    <group id="n83_gfnp" name="rewardGroup" xy="45,325" size="118,211" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,125">
+  <displayList>
+    <component id="n8_xt46" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="3,0">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <richtext id="n2_go93" name="txtLayer" xy="-11,101" size="125,31" fontSize="20" color="#ffffff" align="center" autoSize="none" text="已通关"/>
+    <image id="n5_xt46" name="iconTG" src="r5ge3il" fileName="image/已通关.png" xy="0,25" pkg="jvxpx9em"/>
+  </displayList>
+</component>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- xx 
+	<bean cg="com.teamtop.system.skill.SkillCG" event="com.teamtop.system.skill.SkillEvent" iconHiddenId="5"/>
+	-->
+</beans>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="597,887" designImage="ui://fm0lrzctv4655" designImageOffsetX="-22" designImageOffsetY="-155">
+  <displayList>
+    <component id="n0_v465" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="597,887">
+      <Label title="发红包"/>
+    </component>
+    <list id="n1_v465" name="list" xy="8,78" size="570,783" overflow="scroll" lineGap="9" defaultItem="ui://fm0lrzctv4653" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

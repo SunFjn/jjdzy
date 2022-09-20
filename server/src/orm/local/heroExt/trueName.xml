@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.trueName.model.TrueNameModel" tbname="trueNameModel">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="name" type="varchar" len="50" pf="all" comment="真实姓名"/>
+			<col field="idCardNum" type="varchar" len="50" pf="all" comment="身份证号"/>
+			<col field="adult" type="int" pf="all" comment="是否已成年（0:未成年, 1:已成年）"/>
+			<col field="checkState" type="int" pf="all" comment="实名验证状态（0:未验证, 1:已验证）"/>
+			<col field="reward" type="int" pf="all" comment="实名验证奖励领取状态（0:未领取, 1:已领取）"/>
+     </tb>
+</tbs>

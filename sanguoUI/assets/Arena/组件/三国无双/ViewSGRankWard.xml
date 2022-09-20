@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="626,747">
+  <displayList>
+    <component id="n0_608a" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="626,747">
+      <Label title="排名奖励"/>
+    </component>
+    <image id="n2_608a" name="n2" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="35,91" size="556,45"/>
+    <list id="n4_608a" name="lst" xy="35,147" size="556,535" overflow="scroll" lineGap="5" defaultItem="ui://me1skowl608av">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n5_s8ql" name="n5" xy="223,687" size="167,28" fontSize="18" color="#33ff00" text="活动结束后邮件发放"/>
+    <image id="n7_rhgx" name="n7" src="q8rv9o" fileName="image1/奖励.png" pkg="jvxpx9em" xy="428,104"/>
+    <image id="n8_rhgx" name="n8" src="j92x9s" fileName="image1/积分.png" pkg="jvxpx9em" xy="99,104"/>
+  </displayList>
+</component>

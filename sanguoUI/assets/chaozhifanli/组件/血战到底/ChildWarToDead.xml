@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,665">
+  <displayList>
+    <image id="n57_n0mt" name="n57" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="9,12" size="620,649"/>
+    <loader id="n60_tt6c" name="bg" xy="1,127" size="50,50"/>
+    <image id="n42_fdrs" name="n42" src="m3513c0" fileName="image/新版台子.png" pkg="jvxpx9em" xy="178,373"/>
+    <image id="n8_go93" name="btnLeft" src="gs0d67" fileName="image1/收起按钮.png" pkg="jvxpx9em" xy="14,67" scale="0.8,0.8"/>
+    <image id="n9_go93" name="btnRight" src="gs0d67" fileName="image1/收起按钮.png" pkg="jvxpx9em" xy="625,67" scale="-0.8,0.8">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <list id="n10_go93" name="list" xy="46,30" size="549,142" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://qzsojhcrasooi">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n33_xt46" name="n33" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="23,475" size="596,116"/>
+    <image id="n31_xt46" name="n31" src="bwmw3c" fileName="image1/Title.png" pkg="jvxpx9em" xy="24,420" size="596,45"/>
+    <image id="n36_xt46" name="n36" src="gsdl3cn" fileName="image1/战力底1.png" pkg="jvxpx9em" xy="238,173" size="163,40"/>
+    <richtext id="n12_go93" name="txtLayer" xy="288,176" size="67,35" fontSize="24" color="#ffffff" text="第3关">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n14_go93" name="gridBigAward" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="517,172" scale="0.75,0.75"/>
+    <richtext id="n15_go93" name="txtZhanLi" xy="493,262" size="132,31" fontSize="20" color="#ff9900" text="战力+123456">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n16_go93" name="txtHighestLayer" xy="502,291" size="109,31" fontSize="20" color="#ffffff" text="通关第10关">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n18_go93" name="txtTJZhanLi" xy="217,425" size="205,39" fontSize="26" color="#ffffff" text="推荐战力:123456">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n28_go93" name="btnHand" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="258,601">
+      <Button title="挑战"/>
+    </component>
+    <richtext id="n29_go93" name="n32" xy="32,347" size="96,31" fontSize="20" color="#ffffff" text="剩余时间: ">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n32_xt46" name="txtLeftTm" xy="33,375" size="87,31" fontSize="20" color="#00ff00" text="00:00:00"/>
+    <graph id="n37_xt46" name="n37" xy="295,340" size="1,1" type="rect"/>
+    <image id="n40_fdrs" name="n40" src="asook" fileName="image/大奖框.png" xy="505,164" size="96,96"/>
+    <image id="n47_fdrs" name="n47" src="asool" fileName="image/奖励一览.png" xy="52,524"/>
+    <text id="n49_fdrs" name="iconTG" xy="225,614" size="188,35" fontSize="24" color="#00ff00" text="已成功击杀BOSS"/>
+    <image id="n56_mebd" name="n56" src="asooj" fileName="image/大奖.png" xy="517,176"/>
+    <richtext id="n61_utkz" name="txtZhanLi1" xy="23,262" size="132,31" fontSize="20" color="#ff9900" text="战力+123456">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n62_utkz" name="txtHighestLayer1" xy="32,291" size="109,31" fontSize="20" color="#ffffff" text="通关第10关">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n64_utkz" name="gridBigAward1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="47,172" scale="0.75,0.75"/>
+    <image id="n65_utkz" name="n65" src="asooj" fileName="image/大奖.png" xy="47,176"/>
+    <image id="n63_utkz" name="n63" src="asook" fileName="image/大奖框.png" xy="35,164" size="96,96"/>
+  </displayList>
+</component>

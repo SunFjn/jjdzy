@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="464,278">
+  <displayList>
+    <component id="n8_f1cf" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="464,278">
+      <Label title="完美升星"/>
+    </component>
+    <component id="n2_tlm3" name="upStar" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="161,204">
+      <Button title="升星"/>
+    </component>
+    <component id="n3_tlm3" name="countLb" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="143,155" touchable="false"/>
+    <richtext id="n14_f1cf" name="n14" xy="119,99" size="225,31" touchable="false" fontSize="20" color="#ffffff" leading="0" ubb="true" text="使用完美升星石[color=#ff9900]必定[/color]成功"/>
+  </displayList>
+</component>

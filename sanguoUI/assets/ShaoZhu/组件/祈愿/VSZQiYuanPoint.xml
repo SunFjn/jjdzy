@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,89">
+  <displayList>
+    <richtext id="n0_pk53" name="lbPoint" xy="-8,64" size="108,25" fontSize="16" color="#ffffff" align="center" autoSize="none" text="200积分"/>
+    <component id="n5_h1ig" name="btnPoint" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="18,2" scale="0.6,0.6"/>
+    <image id="n6_h1ig" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="56,-4" size="26,27" aspect="true"/>
+    <richtext id="n3_h1ig" name="lbCt" xy="49,-6" size="42,25" fontSize="16" color="#ffffff" align="center" autoSize="none" text="1"/>
+    <image id="n2_pk53" name="imgGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="13,25" size="84,27" aspect="true" scale="0.8,0.8"/>
+  </displayList>
+</component>

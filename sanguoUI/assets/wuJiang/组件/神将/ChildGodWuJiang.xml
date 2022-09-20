@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <image id="n1_nlyo" name="n1" src="z1jw6l" fileName="image/侧边框底.png" pkg="jvxpx9em" xy="12,148" size="122,770"/>
+    <list id="n2_nlyo" name="list" xy="10,157" size="116,759" overflow="scroll" defaultItem="ui://zyx92gzwtht45" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n0_nlyo" name="img" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="369,428" pivot="0.5,0.4" anchor="true" aspect="true"/>
+    <image id="n6_nlyo" name="n6" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="198,834" group="n8_nlyo"/>
+    <richtext id="n7_nlyo" name="n7" xy="323,824" size="116,35" group="n8_nlyo" fontSize="24" color="#02e703" align="center" autoSize="none" text="已激活"/>
+    <group id="n8_nlyo" name="boxMax" xy="198,824" size="366,35" advanced="true"/>
+    <component id="n9_nlyo" name="labPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="245,155" touchable="false"/>
+    <richtext id="n10_nlyo" name="labAttrMax" xy="333,659" size="98,92" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" text="升星+1000&#xA;升星+1000&#xA;升星+1000">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n12_nlyo" name="skill0" src="l0xet" fileName="新组建/VWuJiangSkillS.xml" pkg="jvxpx9em" xy="164,531"/>
+    <component id="n13_nlyo" name="skill1" src="l0xet" fileName="新组建/VWuJiangSkillS.xml" pkg="jvxpx9em" xy="275,531"/>
+    <component id="n14_nlyo" name="skill2" src="l0xet" fileName="新组建/VWuJiangSkillS.xml" pkg="jvxpx9em" xy="387,531"/>
+    <component id="n15_nlyo" name="skill3" src="l0xet" fileName="新组建/VWuJiangSkillS.xml" pkg="jvxpx9em" xy="512,531"/>
+    <component id="n16_nlyo" name="n16" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="230,633" size="285,28">
+      <Label title="属性"/>
+    </component>
+    <richtext id="n17_nlyo" name="scoreLb" xy="137,503" size="492,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="10" autoSize="none" text="升星+1000"/>
+    <richtext id="n27_nlyo" name="labCost" xy="189,860" size="385,28" group="n32_nlyo" fontSize="16" color="#ffffff" align="center" ubb="true" autoSize="none" text="消耗：武将赵云*1（5/1）"/>
+    <component id="n28_nlyo" name="btnUp" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="313,802" pivot="0.5,0.5" group="n32_nlyo">
+      <Button title="激活"/>
+    </component>
+    <richtext id="n36_nlyo" name="labTios" xy="189,890" size="385,28" group="n32_nlyo" fontSize="16" color="#ffffff" align="center" ubb="true" autoSize="none" text="消耗：武将赵云*1（5/1）">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n32_nlyo" name="starGroup" xy="189,802" size="385,116" advanced="true"/>
+    <component id="n41_pb4s" name="n39" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="518,168" pivot="0.5,0.5" size="84,88">
+      <Button icon="ui://zyx92gzwnlyo4q"/>
+    </component>
+    <component id="n43_pb4s" name="labName" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="151,204" group="n51_pb4s">
+      <Label title="赵云"/>
+    </component>
+    <component id="n44_pb4s" name="btnBattle" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="508,369" pivot="0.5,0.5" size="114,118" group="n51_pb4s">
+      <Button icon="ui://zyx92gzwpr1u2m"/>
+    </component>
+    <image id="n45_pb4s" name="imgBattle" src="pr1u2l" fileName="image/按钮出战中.png" xy="531,387" group="n51_pb4s"/>
+    <component id="n49_pb4s" name="showBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="336,427" pivot="0.5,0.5" size="66,66" group="n51_pb4s">
+      <Button title="展示" titleFontSize="20" icon="ui://jvxpx9emul8t3fk"/>
+    </component>
+    <group id="n51_pb4s" name="boxUp" xy="151,204" size="471,289" advanced="true"/>
+    <component id="n52_7jlm" name="jueXingBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="524,778" pivot="0.5,0.5" size="84,88">
+      <Button icon="ui://7gxkx46wb8g1b7a"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+2020-11-03 17:19:28.417 [main] ERROR com.teamtop.cross.callback.ListenerLogic - 
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) ~[na:1.8.0_73]
+	at com.teamtop.cross.callback.ListenerLogic.sendAndWait(ListenerLogic.java:96) ~[bin/:na]
+	at com.teamtop.netty.util.NettyWrite.writeBlockData(NettyWrite.java:368) [bin/:na]
+	at com.teamtop.netty.server.server2.Client_2.getKuaFufenQuInfoAndNewClient(Client_2.java:44) [bin/:na]
+	at com.teamtop.netty.server.server2.Client_2.getIns(Client_2.java:27) [bin/:na]
+	at com.teamtop.netty.server.ServerController.startServer(ServerController.java:44) [bin/:na]
+	at com.teamtop.main.RunLocalServer.main(RunLocalServer.java:28) [bin/:na]
+2020-11-03 17:19:28.417 [main] ERROR com.teamtop.main.RunServerException - RunServerException:
+2020-11-03 17:19:28.417 [main] ERROR com.teamtop.main.RunServerException - java.lang.NullPointerException
+	at com.teamtop.netty.server.server2.Client_2.getKuaFufenQuInfoAndNewClient(Client_2.java:45)
+	at com.teamtop.netty.server.server2.Client_2.getIns(Client_2.java:27)
+	at com.teamtop.netty.server.ServerController.startServer(ServerController.java:44)
+	at com.teamtop.main.RunLocalServer.main(RunLocalServer.java:28)
+

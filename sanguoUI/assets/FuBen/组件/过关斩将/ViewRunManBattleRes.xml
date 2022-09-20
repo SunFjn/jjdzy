@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n13_m76j" name="bg1" src="d2iu9v" fileName="新组建/ViewBg1.xml" pkg="jvxpx9em" xy="0,0"/>
+    <image id="n15_m76j" name="n15" src="i6im6i" fileName="image1/胜利.png" pkg="jvxpx9em" xy="226,18"/>
+    <image id="n16_m76j" name="n16" src="i6im6g" fileName="image1/获得奖励.png" pkg="jvxpx9em" xy="259,196" group="n19_m76j"/>
+    <image id="n17_m76j" name="n17" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="233,202" group="n19_m76j"/>
+    <image id="n18_m76j" name="n18" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="390,202" group="n19_m76j"/>
+    <group id="n19_m76j" name="n19" xy="233,196" size="174,28" advanced="true"/>
+    <image id="n24_ixu9" name="n24" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="233,422" group="n26_ixu9"/>
+    <image id="n25_ixu9" name="n25" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="390,422" group="n26_ixu9"/>
+    <image id="n34_gjj0" name="n34" src="gjj026" fileName="image/首通奖励.png" xy="259,417" group="n26_ixu9"/>
+    <group id="n26_ixu9" name="gFirst" xy="233,417" size="174,26" advanced="true"/>
+    <component id="n27_ixu9" name="hunGrid" src="em4do" fileName="组件/过关斩将/VRunManGrid.xml" xy="272,685"/>
+    <image id="n30_ixu9" name="n30" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="233,642" group="n33_ixu9"/>
+    <image id="n31_ixu9" name="n31" src="irr13gw" fileName="image1/tit.png" pkg="jvxpx9em" xy="390,642" group="n33_ixu9"/>
+    <image id="n35_gjj0" name="n35" src="gjj025" fileName="image/激活将魂.png" xy="259,636" group="n33_ixu9"/>
+    <group id="n33_ixu9" name="gHun" xy="233,636" size="174,28" advanced="true"/>
+    <component id="n20_ixu9" name="btnContinue" src="y1z8l" fileName="新组建/Button1.xml" pkg="jvxpx9em" xy="348,844">
+      <Button title="继续（5）"/>
+    </component>
+    <component id="n21_ixu9" name="btnClose" src="y1z8b" fileName="新组建/Button0.xml" pkg="jvxpx9em" xy="162,844">
+      <Button title="离开" titleColor="#ffffff"/>
+    </component>
+    <list id="n36_gjj0" name="list" xy="88,250" size="463,135" layout="row" overflow="scroll" scroll="horizontal" lineGap="10" colGap="16" defaultItem="ui://jvxpx9emetorn" align="center">
+      <item/>
+      <item/>
+    </list>
+    <list id="n37_gjj0" name="listFirst" xy="88,468" size="463,135" layout="row" overflow="scroll" scroll="horizontal" lineGap="10" colGap="16" defaultItem="ui://jvxpx9emetorn" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

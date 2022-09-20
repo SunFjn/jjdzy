@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" designImage="ui://6d8dzzdgems48">
+  <displayList>
+    <component id="n0_ems4" name="map" src="ems45" fileName="com/QxzlMapGUI.xml" xy="0,251" size="640,885"/>
+    <image id="n1_ems4" name="n1" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="0,50" size="640,211"/>
+    <component id="n3_ems4" name="btnRank" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="20,201" size="120,46" group="n8_ems4">
+      <Button title="排名"/>
+    </component>
+    <component id="n4_ems4" name="btnTask" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="140,201" size="120,46" group="n8_ems4">
+      <Button title="任务"/>
+    </component>
+    <component id="n5_ems4" name="btnShop" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="260,201" size="120,46" group="n8_ems4">
+      <Button title="宝库"/>
+    </component>
+    <component id="n6_ems4" name="btnStatus" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="380,201" size="120,46" group="n8_ems4">
+      <Button title="战况"/>
+    </component>
+    <component id="n7_ems4" name="btnIntroduce" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="500,201" size="120,46" group="n8_ems4">
+      <Button title="玩法说明"/>
+    </component>
+    <group id="n8_ems4" name="n8" xy="20,201" size="600,46" collapsed="true"/>
+    <image id="n9_ems4" name="n9" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="6,263" size="267,27" group="n13_ems4"/>
+    <richtext id="n10_ems4" name="tfCountry" xy="8,263" size="145,27" group="n13_ems4" fontSize="20" color="#ffffff" autoClearText="true" text="所属国家：魏国"/>
+    <group id="n13_ems4" name="n13" xy="6,263" size="267,27" collapsed="true"/>
+    <image id="n11_ems4" name="n11" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="6,299" size="267,27" group="n14_ems4"/>
+    <richtext id="n12_ems4" name="tfScore" xy="8,299" size="193,27" group="n14_ems4" fontSize="20" color="#ffffff" autoClearText="true" text="当前积分：99999999"/>
+    <group id="n14_ems4" name="n14" xy="6,299" size="267,27" collapsed="true"/>
+    <image id="n15_ems4" name="n15" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="365,299" size="267,27" group="n17_ems4" flip="hz"/>
+    <richtext id="n16_ems4" name="tfRecoverTips" xy="629,299" pivot="1,0" anchor="true" size="197,27" group="n17_ems4" fontSize="20" color="#ffffff" autoClearText="true" text="00:00后恢复10点体力"/>
+    <group id="n17_ems4" name="groupRecover" xy="365,299" size="267,27" advanced="true" collapsed="true"/>
+    <image id="n20_ems4" name="n20" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="365,263" size="267,27" group="n22_ems4" flip="hz"/>
+    <richtext id="n21_ems4" name="tfStamia" xy="596,263" pivot="1,0" anchor="true" size="77,27" group="n22_ems4" fontSize="20" color="#ffffff" vAlign="middle" autoClearText="true" text="100/100"/>
+    <component id="n19_ems4" name="btnAdd" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="600,260" size="41,41" group="n22_ems4">
+      <Button icon="ui://jvxpx9emq8rv9m"/>
+    </component>
+    <loader id="n23_ems4" name="imageIcon" xy="487,260" size="32,32" group="n22_ems4" aspect="true" url="ui://jvxpx9embwmw3y" align="center" vAlign="middle" fill="scale">
+      <relation target="n21_ems4" sidePair="right-left"/>
+    </loader>
+    <group id="n22_ems4" name="n22" xy="365,260" size="276,41" collapsed="true"/>
+    <richtext id="n24_ems4" name="n24" xy="175,67" pivot="0.5,0.5" size="68,28" fontSize="20" color="#ffffff" bold="true" text="总积分"/>
+    <richtext id="n25_ems4" name="n25" xy="357,67" pivot="0.5,0.5" size="89,28" fontSize="20" color="#ffffff" bold="true" text="占领城池"/>
+    <component id="n37_ems4" name="pbScore2" src="ems4c" fileName="com/ProgressBar1.xml" xy="86,133" size="260,20">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n38_ems4" name="pbScore3" src="ems4d" fileName="com/ProgressBar2.xml" xy="86,164" size="260,20">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n39_ems4" name="pbScore1" src="ems4e" fileName="com/ProgressBar3.xml" xy="86,102" size="260,20">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <richtext id="n40_ems4" name="tfCountry1" xy="35,97" pivot="0.5,0.5" size="43,25" fontSize="18" color="#ffffff" bold="true" text="魏国"/>
+    <richtext id="n41_ems4" name="tfCountry3" xy="35,159" pivot="0.5,0.5" size="43,25" fontSize="18" color="#ffffff" bold="true" text="吴国"/>
+    <richtext id="n42_ems4" name="tfCountry2" xy="35,128" pivot="0.5,0.5" size="43,25" fontSize="18" color="#ffffff" bold="true" text="蜀国"/>
+    <richtext id="n43_lxm0" name="tfOwnCount1" xy="379,97" pivot="0.5,0.5" size="43,25" fontSize="18" color="#ffffff" bold="true" autoClearText="true" text="魏国"/>
+    <richtext id="n44_lxm0" name="tfOwnCount2" xy="379,128" pivot="0.5,0.5" size="43,25" fontSize="18" color="#ffffff" bold="true" autoClearText="true" text="魏国"/>
+    <richtext id="n45_lxm0" name="tfOwnCount3" xy="379,159" pivot="0.5,0.5" size="43,25" fontSize="18" color="#ffffff" bold="true" autoClearText="true" text="魏国"/>
+    <component id="n46_lxm0" name="btnReward" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="544,339" size="84,88">
+      <Button icon="ui://6d8dzzdglxm0f"/>
+    </component>
+    <component id="n48_lxm0" name="headItem" src="lxm0m" fileName="com/QxzlHead.xml" xy="446,88"/>
+    <loader id="n47_lxm0" name="loaderTitle" xy="477,55" size="102,34" aspect="true" url="ui://6d8dzzdglxm0j" fill="scale"/>
+    <component id="n50_sdq3" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="615,692" pivot="0.5,0.5" anchor="true" size="55,63">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n52_sdq3" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="25,692" pivot="0.5,0.5" anchor="true" size="55,63" scale="-1,1">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n53_sdq3" name="btnDown" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="320,1105" pivot="0.5,0.5" anchor="true" size="55,63" rotation="90">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n54_sdq3" name="btnUp" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="320,354" pivot="0.5,0.5" anchor="true" size="55,63" rotation="-90">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n56_sdq3" name="closeButton" src="bwmw3b" fileName="组件/closeButton.xml" pkg="jvxpx9em" xy="497,1038"/>
+    <component id="n58_fmjx" name="btnRelocate" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="539,839" size="97,110">
+      <Button title=" " icon="ui://6d8dzzdggxpd11"/>
+    </component>
+    <component id="n59_dcne" name="btnRelocate1" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="537,912" size="104,40">
+      <Button title="定位玩家" titleFontSize="22"/>
+    </component>
+    <component id="n63_vhu6" name="btnDqpm" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="544,446" size="84,88" group="n62_vhu6">
+      <Button icon="ui://6d8dzzdgvhu61k"/>
+    </component>
+    <image id="n67_k03z" name="n67" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="529,532" size="114,27" group="n62_vhu6" alpha="0.8">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <richtext id="n61_vhu6" name="dqpmTime" xy="533,532" size="102,26" group="n62_vhu6" fontSize="18" color="#00ff00" align="center" autoSize="none" text="尚未激活"/>
+    <group id="n62_vhu6" name="n111" xy="529,446" size="114,113" advanced="true"/>
+  </displayList>
+</component>

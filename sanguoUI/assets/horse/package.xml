@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7shc3kzd" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="moak0" name="View_Horse_Panel.xml" path="/组件/" exported="true"/>
+    <image id="moak8" name="取消.png" path="/image/" exported="true"/>
+    <image id="moak9" name="标题.png" path="/image/" exported="true"/>
+    <image id="moaka" name="骑乘.png" path="/image/" exported="true"/>
+    <component id="wa9jc" name="VHorseGrid.xml" path="/组件/" exported="true"/>
+    <component id="wa9je" name="VHorseBtn.xml" path="/组件/" exported="true"/>
+    <component id="nct0h" name="Child_Horse_Lv.xml" path="/组件/" exported="true"/>
+    <component id="nct0i" name="Child_Horse_Star.xml" path="/组件/" exported="true"/>
+    <image id="fd9pj" name="骑乘中.png" path="/image/" exported="true"/>
+    <image id="fd9pm" name="级.png" path="/image/" exported="true"/>
+    <image id="fd9pn" name="阶.png" path="/image/" exported="true"/>
+    <image id="dwb4p" name="坐骑幻化.png" path="/res_幻化/"/>
+    <image id="dwb4q" name="坐骑背景.jpg" path="/res_幻化/"/>
+    <image id="dwb4r" name="装饰.png" path="/res_幻化/"/>
+    <image id="dwb4s" name="背景光.png" path="/res_幻化/"/>
+    <component id="dwb4t" name="Child_Hourse_HH.xml" path="/组件/" exported="true"/>
+    <component id="dwb4u" name="ItemHorseHH.xml" path="/组件/" exported="true"/>
+    <component id="dwb4v" name="ItemHorseCondition.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="horse" genCode="true" excluded="dwb4q"/>
+</packageDescription>

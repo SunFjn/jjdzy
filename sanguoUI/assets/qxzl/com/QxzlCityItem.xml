@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="261,225" extention="Label">
+  <controller name="countryCtrl" exported="true" pages="0,,1,,2,,3," selected="0">
+    <remark page="0" value="无"/>
+    <remark page="1" value="魏"/>
+    <remark page="2" value="蜀"/>
+    <remark page="3" value="吴"/>
+  </controller>
+  <displayList>
+    <loader id="n1_ems4" name="icon" xy="-40,6" size="344,219" locked="true" touchable="false" url="ui://6d8dzzdghdba0"/>
+    <component id="n4_ems4" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="64,130" size="125,52">
+      <Button title="移动到此"/>
+    </component>
+    <image id="n10_ems4" name="n10" src="lxm0i" fileName="res/阵营底.png" xy="167,8">
+      <gearDisplay controller="countryCtrl" pages="1,2,3"/>
+    </image>
+    <loader id="n5_ems4" name="n5" xy="177,23" size="41,28" aspect="true" fill="scale">
+      <gearDisplay controller="countryCtrl" pages="1,2,3"/>
+      <gearIcon controller="countryCtrl" pages="0,2,3" values="|ui://jvxpx9emxyp27h|ui://jvxpx9emxyp27i" default="ui://jvxpx9emxyp27g"/>
+    </loader>
+    <image id="n11_ems4" name="n11" src="lxm0h" fileName="res/城池底.png" xy="7,27" size="43,99">
+      <relation target="n12_ems4" sidePair="height-height"/>
+      <relation target="n12_ems4" sidePair="left-left,top-top"/>
+    </image>
+    <richtext id="n12_ems4" name="tfCityName" xy="14,48" size="29,61" fontSize="20" align="center" autoSize="height" bold="true" text="长安"/>
+    <image id="n13_fmjx" name="imgArrow" src="fmjxq" fileName="res/绿色箭头.png" xy="102,-15"/>
+    <component id="n15_fmjx" name="btnCheck" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="13,125" size="33,33">
+      <relation target="n12_ems4" sidePair="top-bottom,center-center"/>
+      <Button icon="ui://6d8dzzdgfmjxr"/>
+    </component>
+    <richtext id="n17_fmjx" name="tfId" xy="45,9" size="45,31" visible="false" fontSize="20" color="#000099" align="center" bold="true" text="长安"/>
+    <richtext id="n20_fmjx" name="tfNeed" xy="140,203" pivot="0.5,0.5" anchor="true" size="41,31" group="n22_fmjx" fontSize="20" color="#ffffff" vAlign="middle" autoClearText="true" text="100"/>
+    <loader id="n21_fmjx" name="imageIcon" xy="89,188" size="32,32" group="n22_fmjx" aspect="true" url="ui://jvxpx9embwmw3y" align="center" vAlign="middle" fill="scale">
+      <relation target="n20_fmjx" sidePair="right-left"/>
+    </loader>
+    <group id="n22_fmjx" name="groupNeed" xy="89,188" size="70,32" advanced="true" collapsed="true"/>
+    <component id="n23_ukfn" name="btnAttack" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="64,130" size="125,52">
+      <Button title="驻守城池" icon="ui://jvxpx9emm3513bp"/>
+    </component>
+    <image id="n24_dcne" name="n24" src="dcne1j" fileName="res/数字底.png" xy="175,66" group="n26_dcne"/>
+    <richtext id="n25_dcne" name="tfCount" xy="199,83" pivot="0.5,0.5" anchor="true" size="17,31" group="n26_dcne" fontSize="20" color="#ffffff" vAlign="middle" autoClearText="true" text="1"/>
+    <group id="n26_dcne" name="n26" xy="175,66" size="44,44" collapsed="true"/>
+  </displayList>
+  <transition name="mcArrow" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n13_fmjx" tween="true" startValue="-,-35" endValue="-,-55" duration="6"/>
+    <item time="6" type="XY" target="n13_fmjx" tween="true" startValue="-,-55" endValue="-,-35" duration="6"/>
+  </transition>
+</component>

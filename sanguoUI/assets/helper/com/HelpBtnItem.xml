@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="216,80" opaque="false">
+  <controller name="ctrlArrow" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n2_qczb" name="bgPanel" xy="53,2" size="163,76" url="ui://hohorv9tt3c34">
+      <relation target="n3_qczb" sidePair="top-top"/>
+    </loader>
+    <component id="n0_qczb" name="btnService" src="qczb6" fileName="com/AutoBtn.xml" xy="76,8" size="64,64" group="n5_qczb">
+      <Button icon="ui://hohorv9tt3c33"/>
+    </component>
+    <component id="n1_qczb" name="btnRefresh" src="qczb6" fileName="com/AutoBtn.xml" xy="140,8" size="64,64" group="n5_qczb">
+      <Button icon="ui://hohorv9tt3c35"/>
+    </component>
+    <group id="n5_qczb" name="groupPanel" xy="76,8" size="128,64" advanced="true">
+      <relation target="n2_qczb" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n3_qczb" name="btnMain" src="qczb6" fileName="com/AutoBtn.xml" xy="0,0" size="80,80">
+      <Button icon="ui://hohorv9tt3c32"/>
+    </component>
+    <image id="n4_qczb" name="n4" src="t3c31" fileName="image/箭头.png" xy="14,10" pivot="0.5,0.5">
+      <gearSize controller="ctrlArrow" pages="0" values="52,59,1,1" default="52,59,-1,1"/>
+      <relation target="n3_qczb" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="315,125">
+  <displayList>
+    <image id="n11_vib6" name="n11" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="315,125"/>
+    <image id="n13_j3hf" name="n13" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="11,13" size="148,27"/>
+    <text id="n0_vib6" name="txtInfo1" xy="17,15" size="112,28" fontSize="18" color="#ffffff" text="全身强化+10"/>
+    <component id="n5_vib6" name="btnLingQu" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="188,41" scale="0.7,0.8">
+      <Button title="可领取"/>
+    </component>
+    <component id="n6_vib6" name="btnQW" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="188,41" scale="0.7,0.8">
+      <Button title="前往"/>
+    </component>
+    <richtext id="n7_vib6" name="txtInfo2" xy="154,89" size="156,28" fontSize="18" color="#ff0000" align="center" autoSize="none" text="100000/2000000">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n8_vib6" name="iconGot" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="200,46" scale="0.8,0.9"/>
+  </displayList>
+</component>

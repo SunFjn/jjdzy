@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="637,175">
+  <displayList>
+    <image id="n0_r2r0" name="n0" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="637,175" flip="vt"/>
+    <image id="n6_d2hw" name="n6" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="22,18"/>
+    <richtext id="n1_r2r0" name="lab" xy="27,17" size="233,28" touchable="false" fontSize="18" color="#ffffff" text="达到精英段位可领取（1/1）"/>
+    <list id="n2_r2r0" name="list" xy="22,53" size="436,110" layout="row" overflow="scroll" scroll="horizontal" colGap="7" defaultItem="ui://jvxpx9emetorm" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_r2r0" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="478,68">
+      <Button title="领取"/>
+    </component>
+    <image id="n4_r2r0" name="imgGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="480,73"/>
+    <component id="n5_r2r0" name="btnRec" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="479,68">
+      <Button title="前往充值"/>
+    </component>
+  </displayList>
+</component>

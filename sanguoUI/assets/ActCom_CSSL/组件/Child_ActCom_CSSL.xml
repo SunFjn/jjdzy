@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,928" opaque="false" designImage="ui://scvzi2gqw89c3">
+  <displayList>
+    <component id="n20_w89c" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,263" size="641,663" locked="true"/>
+    <loader id="n0_w89c" name="bgImg" xy="45,339" size="50,50"/>
+    <image id="n1_w89c" name="n1" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="23,282" size="192,27"/>
+    <richtext id="n2_w89c" name="labTime" xy="24,283" size="225,25" touchable="false" fontSize="18" color="#00ff00" text="剩余时间：6天5小时5分8秒"/>
+    <richtext id="n3_w89c" name="labTips" xy="24,313" size="335,25" touchable="false" fontSize="18" color="#ffffff" text="活动期间每充值&lt;font color='#15f234'>50元&lt;/font>可抽奖1次(上不封顶)"/>
+    <component id="n4_w89c" name="qyBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="252,794" size="134,54">
+      <Button title="抽奖"/>
+    </component>
+    <richtext id="n5_w89c" name="labRecharge" xy="220,889" size="205,25" touchable="false" fontSize="18" color="#ffffff" text="再充值2元可获得1个檀香">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n7_w89c" name="reward0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="69,350" scale="0.9,0.9"/>
+    <component id="n8_w89c" name="reward1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="210,350" scale="0.9,0.9"/>
+    <component id="n9_w89c" name="reward2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="350,350" scale="0.9,0.9"/>
+    <component id="n10_w89c" name="reward3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="490,350" scale="0.9,0.9"/>
+    <component id="n11_w89c" name="reward4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="490,463" scale="0.9,0.9"/>
+    <component id="n12_w89c" name="reward11" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="69,463" scale="0.9,0.9"/>
+    <component id="n14_w89c" name="reward10" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="69,574" scale="0.9,0.9"/>
+    <component id="n15_w89c" name="reward9" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="69,684" scale="0.9,0.9"/>
+    <component id="n16_w89c" name="reward8" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="210,684" scale="0.9,0.9"/>
+    <component id="n17_w89c" name="reward7" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="350,684" scale="0.9,0.9"/>
+    <component id="n18_w89c" name="reward6" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="490,684" scale="0.9,0.9"/>
+    <component id="n19_w89c" name="reward5" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="490,574" scale="0.9,0.9"/>
+    <richtext id="n21_b6rd" name="labDraw" xy="265,851" size="105,25" touchable="false" fontSize="18" color="#ffffff" align="center" text="抽奖次数：0">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

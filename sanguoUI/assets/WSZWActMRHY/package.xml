@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6aqn8xpr" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="hx4m0" name="WSZWHuoYTab.xml" path="/组件/" exported="true"/>
+    <component id="hx4m2" name="Child_WSZW_HuoYue.xml" path="/组件/" exported="true"/>
+    <component id="c4543" name="WSZW_HuoYue_Item.xml" path="/组件/" exported="true"/>
+    <image id="c8864" name="选中框.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="WSZWActMRHY" genCode="true" npot="true"/>
+</packageDescription>

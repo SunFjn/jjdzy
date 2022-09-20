@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="621,775">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n1_hd20" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="-1,0" size="620,722">
+      <Label title="奖励"/>
+    </component>
+    <component id="n2_hd20" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,720">
+      <Button checked="true" title="个人排名" controller="c1" page="0"/>
+    </component>
+    <component id="n3_hd20" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,720">
+      <Button title="区服排名" controller="c1" page="1"/>
+    </component>
+    <component id="n4_hd20" name="tab2" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="251,720">
+      <Button title="积分奖励" controller="c1" page="2"/>
+    </component>
+    <richtext id="n6_hd20" name="lbRank" xy="24,681" size="149,28" fontSize="18" color="#ff9900" text="我的排名：未上榜">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </richtext>
+    <richtext id="n7_hd20" name="lbScore" xy="313,681" size="149,28" fontSize="18" color="#ff9900" text="我的积分：未上榜">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </richtext>
+    <list id="n5_hd20" name="personList" xy="18,88" size="581,588" overflow="scroll" defaultItem="ui://mbcu0qc0hd20a" autoClearItems="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n9_hd20" name="serverList" xy="18,88" size="581,413" touchable="false" overflow="scroll" lineGap="12" defaultItem="ui://mbcu0qc0hd20d" autoClearItems="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n10_hd20" name="scoreList" xy="18,88" size="581,611" overflow="scroll" defaultItem="ui://mbcu0qc0hd20f" autoClearItems="true">
+      <gearDisplay controller="c1" pages="2"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n12_hd20" name="n12" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="18,508" size="583,169" group="n20_hd20"/>
+    <loader id="n16_hd20" name="imgTitle" xy="33,524" size="134,53" group="n20_hd20" url="ui://mbcu0qc0hd20k">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <image id="n13_hd20" name="n13" src="kw747l" fileName="image1/头像底.png" pkg="jvxpx9em" xy="62,586" size="80,80" group="n20_hd20"/>
+    <image id="n21_hd20" name="n21" src="hd20l" fileName="images/MVP.png" xy="61,584" size="60,40" group="n20_hd20"/>
+    <loader id="n14_hd20" name="headIcon" xy="62,586" size="80,80" group="n20_hd20" url="ui://jvxpx9emp75388" fill="scaleFree"/>
+    <loader id="n15_hd20" name="frameIcon" xy="52,578" size="100,90" group="n20_hd20" url="ui://jvxpx9emtw1l5j" align="center" vAlign="bottom"/>
+    <richtext id="n18_hd20" name="lbMvp" xy="173,577" size="149,55" group="n20_hd20" fontSize="18" color="#ffffff" text="玩家名字玩家名字&#xA;积分"/>
+    <list id="n19_hd20" name="list" xy="336,552" size="313,111" group="n20_hd20" scale="0.8,0.8" layout="flow_vt" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n20_hd20" name="groupMVP" xy="18,508" size="631,169" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

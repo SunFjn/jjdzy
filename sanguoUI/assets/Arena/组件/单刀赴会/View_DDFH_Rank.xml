@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="595,759">
+  <displayList>
+    <component id="n10_som1" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="595,710">
+      <Label title="排名"/>
+    </component>
+    <image id="n36_p24e" name="n36" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="16,68" size="565,40"/>
+    <image id="n49_r4og" name="n49" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="16,623" size="565,71"/>
+    <loader id="n53_r4og" name="levelImg" xy="434,642" size="58,46" url="ui://me1skowl6ieu1a" align="center" vAlign="middle" fill="scale"/>
+    <richtext id="n34_l3h3" name="n34" xy="334,650" size="95,28" touchable="false" fontSize="18" color="#ffffff" text="我的段位："/>
+    <richtext id="n39_p24e" name="rankLb" xy="34,649" size="77,28" touchable="false" fontSize="18" color="#ffffff" text="我的排名"/>
+    <list id="n38_p24e" name="list" xy="17,113" size="569,508" overflow="scroll" lineGap="6" defaultItem="ui://me1skowlr4oge" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n50_r4og" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,705">
+      <Button title="本服排名"/>
+    </component>
+    <component id="n51_r4og" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,705">
+      <Button title="跨服排名"/>
+    </component>
+    <richtext id="n62_if1k" name="n62" xy="36,72" size="505,31" touchable="false" fontSize="20" color="#f4bf12" text="排名         段位               名字                积分          奖励"/>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.openDaysSystem.OpenDaysSystemMapper">
+<select id="findHeroOpSys" parameterType="Long" resultType="AbsOpenDaysSystemModel">
+	select * from openDaysSystem where hid = ${value}
+</select> 
+<insert id="insertData" parameterType="AbsOpenDaysSystemModel" useGeneratedKeys="true" keyProperty="id">
+		insert into openDaysSystem (hid,uid,sysid,qs,opSysStr) values (#{hid},#{uid},#{sysid},#{qs},#{insertActStr})
+</insert>
+<update id="saveOpSysData" parameterType="String">
+	${value}
+</update> 
+</mapper>

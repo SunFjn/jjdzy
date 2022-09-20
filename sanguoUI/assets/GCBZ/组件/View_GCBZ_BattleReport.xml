@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,867">
+  <displayList>
+    <component id="n1_r5ge" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,867">
+      <Label title="战报"/>
+    </component>
+    <list id="n4_r5ge" name="list" xy="19,86" size="560,764" overflow="scroll" lineGap="17" defaultItem="ui://vgiijkm8r5geq" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

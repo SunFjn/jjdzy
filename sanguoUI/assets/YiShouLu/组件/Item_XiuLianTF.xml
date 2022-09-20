@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://7y83phvnumao18">
+  <displayList>
+    <loader id="n1_vxva" name="bg0" xy="76,187" size="488,488" url="ui://7y83phvnvxva13"/>
+    <loader id="n2_vxva" name="bg1" xy="214,325" size="235,211" url="ui://7y83phvnvxva14"/>
+    <richtext id="n11_vxva" name="promptLb" xy="18,158" size="205,48" fontSize="18" color="#ffffff" text="修炼次数满后重置进度&#xA;再修炼10次必出高级道具"/>
+    <component id="n12_vxva" name="btnBuy1" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="155,741">
+      <Button title="修炼1次"/>
+    </component>
+    <component id="n13_vxva" name="btnBuy10" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="349,741">
+      <Button title="修炼10次"/>
+    </component>
+    <component id="n14_vxva" name="vres1" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="156,698" size="134,36">
+      <Label title="300"/>
+    </component>
+    <component id="n15_vxva" name="vres10" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="348,698" size="134,36">
+      <Label title="2800"/>
+    </component>
+    <component id="n16_vxva" name="checkBox" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="506,158" size="108,32">
+      <Button title="跳过动画" titleColor="#00ff00" titleFontSize="18"/>
+    </component>
+    <component id="n17_vxva" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="106,845" size="460,19">
+      <ProgressBar value="76" max="100"/>
+    </component>
+    <component id="n3_vxva" name="grid_0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="129,236" scale="0.8,0.8"/>
+    <component id="n4_vxva" name="grid_1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="282,180" scale="0.8,0.8"/>
+    <component id="n5_vxva" name="grid_2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="434,236" scale="0.8,0.8"/>
+    <component id="n6_vxva" name="grid_3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="71,389" scale="0.8,0.8"/>
+    <component id="n7_vxva" name="grid_4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="490,389" scale="0.8,0.8"/>
+    <component id="n8_vxva" name="grid_5" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="129,542" scale="0.8,0.8"/>
+    <component id="n9_vxva" name="grid_6" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="282,599" scale="0.8,0.8"/>
+    <component id="n10_vxva" name="grid_7" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="434,542" scale="0.8,0.8"/>
+    <component id="n18_vxva" name="grid0" src="dsdyp" fileName="组件/XSXS_JiFenGrid.xml" xy="144,817"/>
+    <component id="n19_vxva" name="grid3" src="dsdyp" fileName="组件/XSXS_JiFenGrid.xml" xy="530,817"/>
+    <component id="n20_vxva" name="grid2" src="dsdyp" fileName="组件/XSXS_JiFenGrid.xml" xy="395,817"/>
+    <component id="n21_vxva" name="grid1" src="dsdyp" fileName="组件/XSXS_JiFenGrid.xml" xy="267,817"/>
+    <richtext id="n22_vxva" name="labPoint" xy="9,834" size="97,58" touchable="false" fontSize="18" color="#ffffff" align="center" ubb="true" autoSize="none" text="[size=20]修炼[/size]次数&#xA;70/200"/>
+  </displayList>
+</component>

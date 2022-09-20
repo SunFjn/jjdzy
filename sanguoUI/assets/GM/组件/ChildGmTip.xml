@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,60">
+  <displayList>
+    <image id="n1_qm4n" name="n1" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="200,60"/>
+    <text id="n0_qm4n" name="lbName" xy="14,13" size="175,35" fontSize="24" color="#d4fabb" align="center" autoSize="none" bold="true" text="添加物品物品"/>
+  </displayList>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="66,81">
+  <displayList>
+    <image id="n3_kxay" name="chooseImg" src="kxay18" fileName="image/头像背景.png" xy="0,0"/>
+    <loader id="n4_kxay" name="headIcon" xy="9,10" size="80,80" scale="0.6,0.6" url="ui://jvxpx9emp75388" fill="scaleFree"/>
+    <loader id="n5_kxay" name="frameIcon" xy="3,6" size="100,90" scale="0.6,0.6" url="ui://jvxpx9emtw1l5j" align="center" vAlign="bottom"/>
+  </displayList>
+</component>

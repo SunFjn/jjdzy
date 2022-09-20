@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,706">
+  <displayList>
+    <component id="n1_dg22" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,706">
+      <Label title="奖励"/>
+    </component>
+    <list id="n9_dg22" name="list" xy="12,69" size="571,592" overflow="scroll" lineGap="2" defaultItem="ui://kdt501v2dg2219" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n10_dg22" name="numlb" xy="118,663" pivot="0.5,0.5" size="357,35" fontSize="24" color="#ffffff" align="center" autoSize="none" text="转盘次数：100"/>
+  </displayList>
+</component>

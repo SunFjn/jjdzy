@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="52,49">
+  <displayList>
+    <loader id="n4_l5k5" name="imgBg" xy="5,0" size="42,49" url="ui://xrzn9ppaihg125"/>
+    <richtext id="n5_l5k5" name="lb" xy="0,8" size="52,32" touchable="false" fontSize="18" color="#ffffff" align="center" leading="10" autoSize="none" autoClearText="true" text="0级"/>
+  </displayList>
+</component>

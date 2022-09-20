@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="555,102">
+  <displayList>
+    <image id="n14_vbia" name="n14" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="555,102"/>
+    <loader id="n15_vbia" name="rankImg" xy="37,10" size="87,82" url="ui://jvxpx9em100v3am" align="center" vAlign="middle"/>
+    <richtext id="n21_vbia" name="lbRank" xy="30,22" size="96,58" fontSize="24" color="#ffc334" align="center" autoSize="none" text=""/>
+  </displayList>
+</component>

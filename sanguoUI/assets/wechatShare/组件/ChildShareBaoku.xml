@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <list id="n0_d7us" name="list" xy="33,379" size="575,530" layout="flow_hz" selectionMode="none" overflow="scroll" lineGap="6" colGap="12" lineItemCount="2" defaultItem="ui://83gc6bhvd7us1i" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n1_d7us" name="n1" src="rt7o4r" fileName="image1/货币底.png" pkg="jvxpx9em" xy="73,338"/>
+    <loader id="n2_d7us" name="headIcon" xy="33,158" size="573,177" fill="scale"/>
+    <richtext id="n3_d7us" name="costLb" xy="80,339" size="45,25" touchable="false" fontSize="18" color="#ffffff" leading="0" text="1111"/>
+    <richtext id="n4_d7us" name="n4" xy="509,297" size="95,28" touchable="false" fontSize="18" color="#15f234" leading="0" autoSize="none" text="每周一更新"/>
+    <richtext id="n5_d7us" name="n5" xy="426,345" size="177,25" touchable="false" fontSize="18" color="#ffffff" leading="0" text="限时商品次日0点下架"/>
+    <loader id="n6_d7us" name="imgMoney" xy="36,332" size="40,40" fill="scale" shrinkOnly="true"/>
+  </displayList>
+</component>

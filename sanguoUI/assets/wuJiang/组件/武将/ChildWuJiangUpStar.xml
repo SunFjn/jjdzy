@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,768" designImageOffsetX="-25" designImageOffsetY="-149">
+  <displayList>
+    <image id="n39_pr1u" name="img" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="368,275" pivot="0.5,0.4" anchor="true" aspect="true"/>
+    <image id="n50_vasq" name="n50" src="z1jw6l" fileName="image/侧边框底.png" pkg="jvxpx9em" xy="10,0" size="122,770"/>
+    <list id="n1_tht4" name="list" xy="10,9" size="116,759" overflow="scroll" defaultItem="ui://zyx92gzwtht45" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n3_tht4" name="labAttrCur" xy="181,502" size="172,110" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <richtext id="n5_tht4" name="labAttrNext" xy="458,502" size="172,110" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <text id="n7_tht4" name="labStar" xy="197,324" size="347,35" font="ui://jvxpx9emz1r82c" fontSize="24" color="#ffffff" align="center" autoSize="none" text="5111111111"/>
+    <image id="n28_pgs5" name="n28" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="192,704" group="n30_pgs5"/>
+    <richtext id="n29_pgs5" name="n29" xy="317,694" size="116,35" group="n30_pgs5" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满星"/>
+    <group id="n30_pgs5" name="boxMax" xy="192,694" size="366,35" advanced="true"/>
+    <component id="n32_vh5g" name="labPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="239,9" touchable="false"/>
+    <richtext id="n40_pr1u" name="labAttrMax" xy="329,502" size="172,110" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <image id="n15_l0xe" name="imgArrow" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="378,560" pivot="0.5,0.5" anchor="true"/>
+    <component id="n52_vasq" name="skill0" src="l0xet" fileName="新组建/VWuJiangSkillS.xml" pkg="jvxpx9em" xy="165,383"/>
+    <component id="n53_vasq" name="skill1" src="l0xet" fileName="新组建/VWuJiangSkillS.xml" pkg="jvxpx9em" xy="277,383"/>
+    <component id="n54_vasq" name="skill2" src="l0xet" fileName="新组建/VWuJiangSkillS.xml" pkg="jvxpx9em" xy="389,383"/>
+    <component id="n56_vasq" name="skill3" src="l0xet" fileName="新组建/VWuJiangSkillS.xml" pkg="jvxpx9em" xy="501,383"/>
+    <component id="n64_pxaa" name="n64" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="212,477" size="329,31">
+      <Label title="升星属性"/>
+    </component>
+    <richtext id="n66_o393" name="scoreLb" xy="131,355" size="492,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="10" autoSize="none" text="升星+1000"/>
+    <component id="n27_kaqa" name="labName" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="150,55" group="n68_ek64">
+      <Label title="赵云"/>
+    </component>
+    <component id="n41_pr1u" name="btnBattle" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="507,220" pivot="0.5,0.5" size="114,118" group="n68_ek64">
+      <Button icon="ui://zyx92gzwpr1u2m"/>
+    </component>
+    <image id="n38_pr1u" name="imgBattle" src="pr1u2l" fileName="image/按钮出战中.png" xy="530,238" group="n68_ek64"/>
+    <component id="n45_vasq" name="grid0" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="519,14" pivot="0.5,0.5" size="85,95" group="n68_ek64">
+      <Button icon="ui://jvxpx9emtojh3c5"/>
+    </component>
+    <image id="n46_vasq" name="n46" src="pxaa3cv" fileName="image/数量框.png" pkg="jvxpx9em" xy="497,87" size="128,26" group="n68_ek64"/>
+    <richtext id="n48_vasq" name="labGrid0" xy="500,88" size="122,28" group="n68_ek64" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="99999/99999"/>
+    <component id="n65_n0nc" name="showBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="335,264" pivot="0.5,0.5" size="66,66" group="n68_ek64">
+      <Button title="展示" titleFontSize="20" icon="ui://jvxpx9emul8t3fk"/>
+    </component>
+    <component id="n67_7xjx" name="btnSZ" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="519,117" pivot="0.5,0.5" size="86,93" group="n68_ek64">
+      <Button icon="ui://zyx92gzw7xjx3k"/>
+    </component>
+    <group id="n68_ek64" name="boxUp" xy="150,14" size="475,324" advanced="true"/>
+    <text id="n6_tht4" name="labCost" xy="183,740" size="385,28" group="n72_ul8t" fontSize="18" color="#ffffff" align="center" ubb="true" autoSize="none" text="消耗：武将赵云*1（5/1）"/>
+    <component id="n26_phli" name="btnUp" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="308,676" pivot="0.5,0.5" group="n72_ul8t">
+      <Button title="升星"/>
+    </component>
+    <image id="n70_ul8t" name="n70" src="ul8t3fl" fileName="image/战力提升.png" pkg="jvxpx9em" xy="269,622" size="106,51" group="n73_111ue"/>
+    <text id="n71_ul8t" name="starPowerLb" xy="361,640" size="148,27" group="n73_111ue" scale="0.8,0.8" font="ui://jvxpx9embwmw3w" fontSize="12" singleLine="true" text="99999999"/>
+    <group id="n73_111ue" name="n73" xy="269,622" size="240,51" group="n72_ul8t" advanced="true" layout="hz" colGap="-14">
+      <relation target="n26_phli" sidePair="center-center"/>
+    </group>
+    <group id="n72_ul8t" name="starGroup" xy="183,622" size="385,146" advanced="true"/>
+    <text id="n75_jxbq" name="wujiangDesc" xy="161,326" size="36,27" fontSize="20" color="#ffffff" ubb="true" text="5阶"/>
+    <component id="n78_mcrs" name="WuJiang" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="134,244" pivot="0.5,0.5" size="89,78">
+      <Button icon="ui://zyx92gzwjxbq3l" selectedIcon="ui://zyx92gzwjxbq3l"/>
+    </component>
+    <component id="n79_nlhg" name="jueXingBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="524,652" pivot="0.5,0.5" size="84,88">
+      <Button icon="ui://7gxkx46wb8g1b7a"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="470,350">
+  <controller name="stateCtrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n12_nnxc" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="470,350">
+      <Label title="奖励"/>
+    </component>
+    <image id="n13_nnxc" name="n13" src="jkp64z" fileName="image1/Bg4.png" pkg="jvxpx9em" xy="15,79" size="436,213"/>
+    <list id="n8_ucru" name="itemList" xy="39,139" pivot="0.5,0.5" size="392,109" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="8" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n14_dcne" name="tfDes" xy="84,101" pivot="0.5,0.5" size="301,33" fontSize="24" color="#ffffff" bold="true" autoClearText="true" text="今日胜场3场可领取（0/0）"/>
+    <component id="n16_uirp" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="167,277" group="n18_uirp">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+      <Button title="领取"/>
+    </component>
+    <image id="n17_uirp" name="imageGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="169,282" group="n18_uirp">
+      <gearDisplay controller="stateCtrl" pages="2"/>
+    </image>
+    <group id="n18_uirp" name="n18" xy="167,277" size="136,62"/>
+    <richtext id="n19_hab1" name="" xy="132,295" pivot="0.5,0.5" size="205,33" fontSize="24" color="#ff0000" bold="true" text="满足条件后可领取">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+    </richtext>
+  </displayList>
+</component>

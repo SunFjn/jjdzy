@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6d8dzzdg" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="hdba0" name="建筑1.png" path="/res/"/>
+    <image id="hdba1" name="建筑2.png" path="/res/"/>
+    <image id="hdba2" name="建筑3.png" path="/res/"/>
+    <image id="hdba3" name="建筑4.png" path="/res/"/>
+    <image id="hdba4" name="群雄逐鹿场-底图.jpg" path="/res/"/>
+    <component id="ems45" name="QxzlMapGUI.xml" path="/com/" exported="true"/>
+    <component id="ems46" name="ViewQxzl.xml" path="/" exported="true"/>
+    <component id="ems47" name="QxzlCityItem.xml" path="/com/" exported="true"/>
+    <image id="ems48" name="群雄逐鹿.png" path="/res/"/>
+    <image id="ems49" name="血条1.png" path="/res/" scale="9grid" scale9grid="49,4,98,8"/>
+    <image id="ems4a" name="血条2.png" path="/res/"/>
+    <image id="ems4b" name="血条3.png" path="/res/"/>
+    <component id="ems4c" name="ProgressBar1.xml" path="/com/"/>
+    <component id="ems4d" name="ProgressBar2.xml" path="/com/"/>
+    <component id="ems4e" name="ProgressBar3.xml" path="/com/"/>
+    <image id="lxm0f" name="驻守奖励图标.png" path="/res/"/>
+    <image id="lxm0g" name="领地奖励图标.png" path="/res/"/>
+    <image id="lxm0h" name="城池底.png" path="/res/" scale="9grid" scale9grid="7,24,29,62"/>
+    <image id="lxm0i" name="阵营底.png" path="/res/"/>
+    <image id="lxm0j" name="chenghao_085.png" path="/res/"/>
+    <component id="lxm0m" name="QxzlHead.xml" path="/com/" exported="true"/>
+    <image id="lxm0n" name="1.png" path="/res/"/>
+    <image id="lxm0o" name="2001.png" path="/res/"/>
+    <image id="lxm0p" name="MVP.png" path="/res/"/>
+    <image id="fmjxq" name="绿色箭头.png" path="/res/"/>
+    <image id="fmjxr" name="观战按钮小.png" path="/res/"/>
+    <image id="fmjxt" name="定位1.png" path="/res/"/>
+    <image id="fmjxu" name="城池界面.png" path="/res/"/>
+    <component id="fmjxv" name="ViewCityInfoQxzl.xml" path="/" exported="true"/>
+    <image id="fmjxw" name="武将底.png" path="/res/"/>
+    <component id="fmjxx" name="RoleInfoItem.xml" path="/com/" exported="true"/>
+    <image id="fmjxy" name="黑影.png" path="/res/"/>
+    <image id="fmjx10" name="庆典城池.png" path="/res/"/>
+    <image id="gxpd11" name="定位.png" path="/res/"/>
+    <component id="rak312" name="ViewTaskQxzl.xml" path="/" exported="true"/>
+    <image id="rak313" name="任务.png" path="/res/"/>
+    <component id="rak314" name="QxzlTaskItem.xml" path="/com/" exported="true"/>
+    <component id="rak315" name="QxzlShopItem.xml" path="/com/" exported="true"/>
+    <image id="rak316" name="已兑完.png" path="/res/"/>
+    <component id="rak317" name="ViewShopQxzl.xml" path="/" exported="true"/>
+    <image id="rak318" name="仙鹿宝库插图.jpg" path="/res/"/>
+    <component id="cpw919" name="ViewRankQxzl.xml" path="/" exported="true"/>
+    <image id="cpw91a" name="排名奖励.png" path="/res/"/>
+    <component id="cpw91b" name="QxzlCountryRankItem.xml" path="/com/" exported="true"/>
+    <image id="cpw91c" name="countrya1.png" path="/res/"/>
+    <component id="g6cv1d" name="QxzlPlayerRankItem.xml" path="/com/" exported="true"/>
+    <image id="g6cv1e" name="排名奖励2.png" path="/res/"/>
+    <component id="g6cv1f" name="ViewEventQxzl.xml" path="/" exported="true"/>
+    <component id="i2j21g" name="QxzlLogCom.xml" path="/com/" exported="true"/>
+    <component id="i2j21h" name="ViewRewardQxzl.xml" path="/" exported="true"/>
+    <image id="dcne1i" name="领地奖励图标(1).png" path="/res/"/>
+    <image id="dcne1j" name="数字底.png" path="/res/"/>
+    <image id="vhu61k" name="单枪匹马图标.png" path="/res/"/>
+    <component id="vhu61l" name="View_Qxzl_Alert.xml" path="/" exported="true"/>
+    <component id="vhu61m" name="QxzlPlayerPersonRankItem.xml" path="/com/" exported="true"/>
+    <image id="afk01n" name="虚位以待.png" path="/res/" exported="true"/>
+  </resources>
+  <publish name="qxzl" genCode="true" npot="true" excluded="hdba4,lxm0j,rak318,cpw91c"/>
+</packageDescription>

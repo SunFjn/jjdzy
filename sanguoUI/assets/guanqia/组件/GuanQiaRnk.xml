@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="556,44">
+  <displayList>
+    <image id="n4_som1" name="n4" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="556,44"/>
+    <richtext id="n0_u94l" name="lbRank" xy="42,11" size="59,25" fontSize="18" color="#ffc334" align="center" autoSize="none" text="第一名"/>
+    <richtext id="n1_u94l" name="lbName" xy="182,11" size="195,25" fontSize="18" color="#ffffff" align="center" autoSize="none" text="22"/>
+    <richtext id="n3_u94l" name="lbLv" xy="459,11" size="45,25" fontSize="18" color="#ffffff" align="center" autoSize="none" text="1111"/>
+  </displayList>
+</component>

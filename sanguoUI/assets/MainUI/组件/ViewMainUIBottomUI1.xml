@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,310" opaque="false">
+  <displayList>
+    <loader id="n43_j2m4" name="chatBt" xy="0,256" size="640,66" group="n41_tw1l" url="ui://7gxkx46wobg154" fill="scaleFree"/>
+    <list id="n45_j2m4" name="list" xy="63,261" size="575,54" group="n41_tw1l" touchable="false" selectionMode="none" overflow="hidden" defaultItem="ui://7gxkx46wj2m43j" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n41_tw1l" name="chatGroup" xy="0,256" size="640,66" advanced="true" collapsed="true"/>
+    <list id="n59_hoeb" name="tipContainer" xy="0,29" size="612,50" layout="row" overflow="scroll" defaultItem="ui://7gxkx46wjv3k6c" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n58_jv3k" name="tipBtnContainer" xy="0,81" size="612,95" layout="row" overflow="scroll" defaultItem="ui://7gxkx46wjv3k6c" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n53_w6ro" name="taskImg" src="idn56b" fileName="组件/ViewMainUIBottomUI2.xml" xy="177,165" size="257,86" group="n21_tw1l">
+      <Label icon="ui://7gxkx46wjjay4x"/>
+    </component>
+    <loader id="n18_tw1l" name="grid" xy="268,216" size="30,22" group="n21_tw1l" touchable="false" url="ui://jvxpx9embwmw3y">
+      <relation target="n19_tw1l" sidePair="left-left"/>
+    </loader>
+    <richtext id="n16_tw1l" name="lbTask" xy="177,193" size="256,28" group="n21_tw1l" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="一起来玩三国战纪"/>
+    <richtext id="n19_tw1l" name="lbAward" xy="319,220" pivot="0.5,0" anchor="true" size="39,28" group="n21_tw1l" touchable="false" fontSize="18" color="#ffffff" text="X10"/>
+    <component id="n57_l1h1" name="taskBt" src="tw1l5d" fileName="新组建/ViewGrid2.xml" pkg="jvxpx9em" xy="177,165" size="257,86" group="n21_tw1l" touchable="false"/>
+    <group id="n21_tw1l" name="taskGroup" xy="177,165" size="257,86" advanced="true" collapsed="true"/>
+    <image id="n55_zazn" name="n55" src="zazn5x" fileName="image1/di-jineng.png" xy="435,4" group="n40_tw1l"/>
+    <component id="n34_tw1l" name="skill0" src="tw1l2h" fileName="组件/ItemSkillGrid.xml" xy="544,2" group="n40_tw1l"/>
+    <component id="n37_tw1l" name="skill1" src="tw1l2h" fileName="组件/ItemSkillGrid.xml" xy="445,60" group="n40_tw1l"/>
+    <component id="n38_tw1l" name="skill2" src="tw1l2h" fileName="组件/ItemSkillGrid.xml" xy="443,153" group="n40_tw1l"/>
+    <component id="n39_tw1l" name="angerSkill" src="tw1l2g" fileName="组件/BSkillGrid.xml" xy="529,102" group="n40_tw1l"/>
+    <component id="n46_dyuu" name="autoBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="527,211" size="110,29" group="n40_tw1l">
+      <Button icon="ui://7gxkx46wi8xh5u"/>
+    </component>
+    <loader id="n47_dyuu" name="imgAuto" xy="534,213" size="95,26" group="n40_tw1l" touchable="false" url="ui://7gxkx46wpc654t" align="center" vAlign="middle" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <component id="n60_orxg" name="changeBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="580,-55" size="60,60" group="n40_tw1l" visible="false">
+      <Button icon="ui://7gxkx46worxgb7e"/>
+    </component>
+    <group id="n40_tw1l" name="skillGroup" xy="435,-55" size="205,333" advanced="true" collapsed="true"/>
+    <component id="n49_po2d" name="guide" src="fzsd55" fileName="组件/guideTip.xml" xy="534,101" size="158,61" scale="-1,1" visible="false" touchable="false"/>
+    <component id="n61_z5h8" name="bqBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="268,-2" pivot="0.5,0.5" size="76,81" visible="false">
+      <Button icon="ui://7gxkx46wz5h8b7t"/>
+    </component>
+  </displayList>
+</component>

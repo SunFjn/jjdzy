@@ -1,0 +1,125 @@
+2022-09-18 11:01:00.371 [任务线程 - 49] WARN  org.apache.ibatis.datasource.pooled.PooledDataSource - Execution of ping query 'show tables' failed: The last packet successfully received from the server was 299,462 milliseconds ago.  The last packet sent successfully to the server was 299,462 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2022-09-18 11:06:00.863 [任务线程 - 17] WARN  org.apache.ibatis.datasource.pooled.PooledDataSource - Execution of ping query 'show tables' failed: The last packet successfully received from the server was 300,421 milliseconds ago.  The last packet sent successfully to the server was 300,422 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2022-09-18 11:11:00.318 [任务线程 - 8] WARN  org.apache.ibatis.datasource.pooled.PooledDataSource - Execution of ping query 'show tables' failed: The last packet successfully received from the server was 299,413 milliseconds ago.  The last packet sent successfully to the server was 299,414 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2022-09-18 11:16:00.644 [任务线程 - 57] WARN  org.apache.ibatis.datasource.pooled.PooledDataSource - Execution of ping query 'show tables' failed: The last packet successfully received from the server was 300,304 milliseconds ago.  The last packet sent successfully to the server was 300,304 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2022-09-18 11:21:00.064 [任务线程 - 59] WARN  org.apache.ibatis.datasource.pooled.PooledDataSource - Execution of ping query 'show tables' failed: The last packet successfully received from the server was 299,391 milliseconds ago.  The last packet sent successfully to the server was 299,391 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2022-09-18 11:26:00.435 [任务线程 - 61] WARN  org.apache.ibatis.datasource.pooled.PooledDataSource - Execution of ping query 'show tables' failed: The last packet successfully received from the server was 300,346 milliseconds ago.  The last packet sent successfully to the server was 300,346 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2022-09-18 11:31:00.809 [任务线程 - 14] WARN  org.apache.ibatis.datasource.pooled.PooledDataSource - Execution of ping query 'show tables' failed: The last packet successfully received from the server was 300,337 milliseconds ago.  The last packet sent successfully to the server was 300,337 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2022-09-18 11:36:00.144 [任务线程 - 52] WARN  org.apache.ibatis.datasource.pooled.PooledDataSource - Execution of ping query 'show tables' failed: The last packet successfully received from the server was 299,302 milliseconds ago.  The last packet sent successfully to the server was 299,302 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2022-09-18 11:41:00.391 [任务线程 - 41] WARN  org.apache.ibatis.datasource.pooled.PooledDataSource - Execution of ping query 'show tables' failed: The last packet successfully received from the server was 300,216 milliseconds ago.  The last packet sent successfully to the server was 300,216 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2022-09-18 11:43:01.531 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:200001
+2022-09-18 11:43:01.533 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750024
+2022-09-18 11:43:01.533 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750025
+2022-09-18 11:43:01.533 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750026
+2022-09-18 11:43:01.533 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750027
+2022-09-18 11:43:01.533 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750028
+2022-09-18 11:43:01.533 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750029
+2022-09-18 11:43:01.533 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750030
+2022-09-18 11:43:01.533 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750031
+2022-09-18 11:43:01.534 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750032
+2022-09-18 11:43:01.534 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750033
+2022-09-18 11:43:01.534 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750034
+2022-09-18 11:43:01.535 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:30010002 has not npcid:750035
+2022-09-18 11:43:01.554 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350004
+2022-09-18 11:43:01.555 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350005
+2022-09-18 11:43:01.555 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350006
+2022-09-18 11:43:01.555 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350101
+2022-09-18 11:43:01.555 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350102
+2022-09-18 11:43:01.555 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350104
+2022-09-18 11:43:01.555 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350106
+2022-09-18 11:43:01.555 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350301
+2022-09-18 11:43:01.555 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350108
+2022-09-18 11:43:01.555 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500005 has not npcid:350103
+2022-09-18 11:43:01.596 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350004
+2022-09-18 11:43:01.597 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350005
+2022-09-18 11:43:01.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350006
+2022-09-18 11:43:01.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350101
+2022-09-18 11:43:01.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350102
+2022-09-18 11:43:01.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350103
+2022-09-18 11:43:01.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350104
+2022-09-18 11:43:01.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350106
+2022-09-18 11:43:01.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350301
+2022-09-18 11:43:01.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350107
+2022-09-18 11:43:01.598 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500007 has not npcid:350108
+2022-09-18 11:43:01.613 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350004
+2022-09-18 11:43:01.613 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350005
+2022-09-18 11:43:01.613 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350006
+2022-09-18 11:43:01.613 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350101
+2022-09-18 11:43:01.614 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350102
+2022-09-18 11:43:01.614 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350106
+2022-09-18 11:43:01.614 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350104
+2022-09-18 11:43:01.614 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500003 has not npcid:350301
+2022-09-18 11:43:01.646 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350004
+2022-09-18 11:43:01.647 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350005
+2022-09-18 11:43:01.647 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350006
+2022-09-18 11:43:01.647 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350101
+2022-09-18 11:43:01.647 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350102
+2022-09-18 11:43:01.647 [main] WARN  com.teamtop.system.scene.SceneCache - sceneid:500001 has not npcid:350301
+2022-09-18 11:43:03.828 [nioEventLoopGroup-7-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30001,channel:[id: 0x19bf7b25, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:03.945 [HoutaiNetty-9-2] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30002,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:03.948 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossBoss.CrossBossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=150,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:03.948 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossKing.local.CrossKingLocalIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=650,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:03.953 [nioEventLoopGroup-7-1] WARN  com.teamtop.system.crossBoss.CrossBossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=151,channel:[id: 0x19bf7b25, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:03.956 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossSelectKing.local.CrossSelectKingLocalIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=401,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:03.957 [HoutaiNetty-9-2] WARN  com.teamtop.system.linglongge.LingLongGeLocalIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=1202,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:03.974 [HoutaiNetty-9-2] WARN  c.t.system.activity.ativitys.godGenSendGiftAct.cross.CrossGodGenSendGiftActIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=1601,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:03.999 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossBoss.CrossBossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=152,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.004 [HoutaiNetty-9-2] WARN  com.teamtop.system.zcBoss.cross.ZcBossCrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=1651,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.059 [HoutaiNetty-9-2] WARN  com.teamtop.system.eightDoorAppraiseRank.cross.CrossEightDoorAppraiseRankIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=1900,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.061 [HoutaiNetty-9-2] WARN  c.teamtop.system.activity.ativitys.rechargeRankAct.cross.CrossRechargeRankActIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2300,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.061 [HoutaiNetty-9-2] WARN  c.t.s.openDaysSystem.monsterKingSearchMonster.cross.MonsterKingSearchMonsterIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=1705,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.061 [HoutaiNetty-9-2] WARN  com.teamtop.system.shaozhuQiYuanRank.cross.CrossShaoZhuQiYuanRankIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2000,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.061 [HoutaiNetty-9-2] WARN  c.t.s.a.ativitys.eightDoorAppraiseRankAct.cross.CrossEightDoorAppraiseRankActIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2400,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.068 [HoutaiNetty-9-2] WARN  c.t.s.activity.ativitys.shaoZhuQiYuanRankAct.cross.CrossShaoZhuQiYuanRankActIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2500,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.068 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossZhuLu.cross.CrossZhuLuIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2614,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.070 [nioEventLoopGroup-7-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0x19bf7b25, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.074 [nioEventLoopGroup-7-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0x19bf7b25, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.109 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossCommonRank.cross.CrossCommonRankIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2700,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.109 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossTrial.cross.CrossTrialIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2804,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.131 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossTeamKing.CrossTeamKingIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2954,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.132 [HoutaiNetty-9-2] WARN  com.teamtop.system.activity.ativitys.dropRedPacket.cross.CrossDropRedPacketIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=5001,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.132 [HoutaiNetty-9-2] WARN  com.teamtop.system.redBox.RedBoxCrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=6054,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.132 [HoutaiNetty-9-2] WARN  com.teamtop.system.activity.ativitys.arenaFight.cross.ArenaFightIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2857,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.132 [HoutaiNetty-9-2] WARN  com.teamtop.system.dengFengZaoJi.cross.DengFengZaoJiCrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=3206,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.148 [nioEventLoopGroup-7-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0x19bf7b25, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:04.156 [crossChannelEx - 7] WARN  org.apache.ibatis.datasource.pooled.PooledDataSource - Execution of ping query 'show tables' failed: Communications link failure
+
+The last packet successfully received from the server was 123,744 milliseconds ago.  The last packet sent successfully to the server was 7 milliseconds ago.
+2022-09-18 11:43:04.822 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2022-09-18 11:43:04.822 [crossChannelEx - 7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2022-09-18 11:43:04.824 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2022-09-18 11:43:04.824 [crossChannelEx - 7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2022-09-18 11:43:04.824 [crossChannelEx - 3] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2022-09-18 11:43:04.825 [crossChannelEx - 7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2022-09-18 11:43:04.826 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2022-09-18 11:43:04.826 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2022-09-18 11:43:05.078 [nioEventLoopGroup-7-1] WARN  com.teamtop.system.crossTrial.cross.CrossTrialIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2803,channel:[id: 0x19bf7b25, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:05.079 [nioEventLoopGroup-7-1] WARN  com.teamtop.system.dengFengZaoJi.cross.DengFengZaoJiCrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=3200,channel:[id: 0x19bf7b25, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:22.533 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossTeamKing.CrossTeamKingIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2954,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:42.603 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossTeamKing.CrossTeamKingIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2954,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:57.690 [nioEventLoopGroup-11-1] WARN  com.teamtop.houtaiHttp.events.blackList.BlackListIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=205,channel:[id: 0x2d7c7393, /127.0.0.1:55732 => /127.0.0.1:11001]
+2022-09-18 11:43:57.753 [HoutaiNetty-8-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0xbc411790, /127.0.0.1:55732 => /127.0.0.1:11001]
+2022-09-18 11:43:58.079 [nioEventLoopGroup-11-1] WARN  com.teamtop.houtaiHttp.events.adMark.adMarkCrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=238,channel:[id: 0x2d7c7393, /127.0.0.1:55732 => /127.0.0.1:11001]
+2022-09-18 11:43:58.094 [HoutaiNetty-8-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0xbc411790, /127.0.0.1:55732 => /127.0.0.1:11001]
+2022-09-18 11:43:58.234 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2022-09-18 11:43:58.235 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2022-09-18 11:43:58.236 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2022-09-18 11:43:58.236 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2022-09-18 11:43:58.257 [OpTaskExecutorService-thread-9] WARN  com.teamtop.system.hero.FightCalcFunction - hero set fight attribute value fail cause of attributes array is null!
+2022-09-18 11:43:58.276 [nioEventLoopGroup-11-1] WARN  com.teamtop.houtaiHttp.events.whiteList.WhiteListIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=218,channel:[id: 0x2d7c7393, /127.0.0.1:55732 => /127.0.0.1:11001]
+2022-09-18 11:43:58.342 [nioEventLoopGroup-11-1] WARN  com.teamtop.system.antiAddictionSystem.AntiAddictionIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=308,channel:[id: 0x2d7c7393, /127.0.0.1:55732 => /127.0.0.1:11001]
+2022-09-18 11:43:58.355 [OpTaskExecutorService-thread-7] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000002
+2022-09-18 11:43:58.365 [nioEventLoopGroup-11-1] WARN  com.teamtop.system.event.backstage.events.backstage.oldPlayer.OldPlayerIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=201,channel:[id: 0x2d7c7393, /127.0.0.1:55732 => /127.0.0.1:11001]
+2022-09-18 11:43:58.369 [nioEventLoopGroup-7-1] WARN  com.teamtop.system.crossZhuLu.cross.CrossZhuLuIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2611,channel:[id: 0x19bf7b25, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:58.381 [nioEventLoopGroup-7-1] WARN  com.teamtop.system.guardArea.cross.GuardAreaIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=3001,channel:[id: 0x19bf7b25, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:58.394 [HoutaiNetty-9-2] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30003,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:43:58.434 [HoutaiNetty-8-1] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0xbc411790, /127.0.0.1:55732 => /127.0.0.1:11001]
+2022-09-18 11:43:58.528 [HoutaiNetty-9-2] WARN  com.teamtop.cross.CrossIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=30000,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:44:02.669 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossTeamKing.CrossTeamKingIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2954,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:44:22.750 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossTeamKing.CrossTeamKingIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2954,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:44:42.822 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossTeamKing.CrossTeamKingIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2954,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:45:02.893 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossTeamKing.CrossTeamKingIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2954,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:45:22.966 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossTeamKing.CrossTeamKingIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2954,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:45:43.037 [HoutaiNetty-9-2] WARN  com.teamtop.system.crossTeamKing.CrossTeamKingIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=2954,channel:[id: 0x6ba70a62, /127.0.0.1:60793 => /127.0.0.1:12001]
+2022-09-18 11:45:52.556 [nioEventLoopGroup-11-1] WARN  com.teamtop.system.antiAddictionSystem.AntiAddictionIO - CrossDispatch.dispatcherMethod 跨服消息打印 cmd=309,channel:[id: 0x2d7c7393, /127.0.0.1:55732 => /127.0.0.1:11001]
+2022-09-18 11:45:52.557 [nioEventLoopGroup-11-2] WARN  com.teamtop.system.zcBoss.ZcBossHeroManager - JoinersMap().containsKey(hero.getId()) hid:1000100000000002

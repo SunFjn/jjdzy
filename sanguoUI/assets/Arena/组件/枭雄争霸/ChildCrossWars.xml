@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="617,778" designImage="ui://me1skowlwnzh6l" designImageOffsetX="-12" designImageOffsetY="-148">
+  <controller name="c1" pages="0,,1,,2,,3," selected="2"/>
+  <displayList>
+    <component id="n4_6wzt" name="tab0" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="37,12">
+      <Button checked="true" title="16强赛"/>
+    </component>
+    <component id="n5_6wzt" name="tab1" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="178,12">
+      <Button title="8强赛"/>
+    </component>
+    <component id="n6_6wzt" name="tab2" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="317,12">
+      <Button title="4强赛"/>
+    </component>
+    <component id="n7_6wzt" name="tab3" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="457,12">
+      <Button title="决赛"/>
+    </component>
+    <list id="n13_6wzt" name="list16" xy="7,128" size="604,543" overflow="hidden" lineGap="8" defaultItem="ui://me1skowlhfct46">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n14_6wzt" name="list8" xy="7,128" size="604,547" overflow="hidden" lineGap="6" defaultItem="ui://me1skowlhfct47">
+      <gearDisplay controller="c1" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n15_6wzt" name="list4" xy="8,135" size="603,519" overflow="hidden" lineGap="17" defaultItem="ui://me1skowlhfct48">
+      <gearDisplay controller="c1" pages="2"/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n16_6wzt" name="list1" src="hfct48" fileName="组件/枭雄争霸/VCrossWars4.xml" xy="4,261">
+      <gearDisplay controller="c1" pages="3"/>
+    </component>
+    <component id="n22_l1e2" name="btnReward" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="90,674" size="67,83">
+      <Button icon="ui://me1skowlhfct51"/>
+    </component>
+    <component id="n23_l1e2" name="btnShop" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="338,676" size="67,83">
+      <Button icon="ui://me1skowlhfct4u"/>
+    </component>
+    <component id="n24_l1e2" name="btnTips" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="457,676" size="75,76">
+      <Button icon="ui://jvxpx9emw6sh3g4"/>
+    </component>
+    <component id="n33_w6sh" name="btnWin" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="213,676" size="72,83">
+      <Button icon="ui://me1skowlhfct4z"/>
+    </component>
+    <component id="n30_cazx" name="view1" src="hfct4e" fileName="组件/枭雄争霸/VCrossWars2.xml" xy="4,113">
+      <gearDisplay controller="c1" pages="3"/>
+    </component>
+    <image id="n19_l1e2" name="n19" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="6,65" size="600,55" group="n31_cazx" flip="vt"/>
+    <richtext id="n8_6wzt" name="lbTitle" xy="176,70" size="240,28" group="n31_cazx" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="16强赛"/>
+    <richtext id="n18_l1e2" name="lbTime" xy="109,95" size="401,28" group="n31_cazx" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="战斗中  06:59:59"/>
+    <richtext id="n32_nw6y" name="lbOver" xy="178,83" size="240,28" group="n31_cazx" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="赛事也结束"/>
+    <group id="n31_cazx" name="gStatus" xy="6,65" size="600,58" advanced="true">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+    </group>
+  </displayList>
+</component>

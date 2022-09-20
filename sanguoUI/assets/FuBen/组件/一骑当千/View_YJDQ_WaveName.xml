@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="529,35">
+  <displayList>
+    <image id="n3_rvdr" name="n3" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="0,0" size="529,35"/>
+    <richtext id="n4_rvdr" name="lb" xy="93,3" size="343,28" touchable="false" fontSize="18" color="#15f234" align="center" leading="0" autoSize="none" text="第100波  名字"/>
+  </displayList>
+</component>

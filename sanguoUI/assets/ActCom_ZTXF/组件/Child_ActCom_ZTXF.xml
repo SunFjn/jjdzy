@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400" designImage="ui://904git2zglgp0" designImageOffsetY="-275">
+  <displayList>
+    <component id="n6_glgp" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,0" size="641,648" locked="true"/>
+    <list id="n10_glgp" name="tabList" xy="23,68" size="595,159" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://904git2zglgpc" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_glgp" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="23,140" pivot="0.5,0.5" anchor="true" size="40,50" scale="-1,1">
+      <Button icon="ui://904git2zglgpb"/>
+    </component>
+    <component id="n5_glgp" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="620,140" pivot="0.5,0.5" anchor="true" size="40,50">
+      <Button icon="ui://904git2zglgpb"/>
+    </component>
+    <image id="n8_glgp" name="n8" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="9,6" size="192,27"/>
+    <richtext id="n7_glgp" name="labTime" xy="9,7" size="225,25" touchable="false" fontSize="18" color="#00ff00" text="剩余时间：6天5小时5分8秒"/>
+    <richtext id="n9_glgp" name="tipsTxt" xy="9,41" size="621,26" touchable="false" fontSize="19" color="#ffffff" align="center" autoSize="none" text="活动期间累计充值达到xxx元，可且仅可激活一个消费主题(100/198)"/>
+    <list id="n11_glgp" name="list" xy="10,230" size="620,406" overflow="scroll" lineGap="3" defaultItem="ui://904git2zglgpd" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

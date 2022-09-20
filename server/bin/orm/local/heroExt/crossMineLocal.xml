@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossMine.model.CrossMineLocal" tbname="crossMineLocal">
+		<index field="hid" type="prikey"/>
+		<col field="hid" type="bigint" pf="all" comment="玩家id"/>
+		<col field="helpMinerId" type="bigint" pf="all" comment="协助矿矿主id"/>
+		<col field="fightTimes" type="int" pf="all" comment="战斗掠夺次数"/>
+		<col field="stealTimes" type="int" pf="all" comment="顺手牵羊次数"/>
+		<col field="mineIdList" type="text" pf="all" comment="已搜索矿藏id"/>
+		<col field="searchTimes" type="int" pf="all" comment="搜索矿藏次数"/>
+	</tb>
+</tbs>

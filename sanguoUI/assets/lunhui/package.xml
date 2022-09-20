@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ehelf5bh" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="n5o70" name="View_LunHui_Panel.xml" path="/组件/" exported="true"/>
+    <image id="olrh1" name="世轮回.png" path="/image/" exported="true"/>
+    <image id="olrh2" name="背景-人.png" path="/image/" exported="true"/>
+    <image id="olrh5" name="轮回奖励.png" path="/image/" exported="true"/>
+    <image id="olrh6" name="轮回背景.jpg" path="/image/" exported="true"/>
+    <image id="olrh7" name="icon1.png" path="/image/" exported="true"/>
+    <image id="olrh8" name="icon2.png" path="/image/" exported="true"/>
+    <image id="olrh9" name="icon3.png" path="/image/" exported="true"/>
+    <image id="olrha" name="icon4.png" path="/image/" exported="true"/>
+    <image id="olrhb" name="icon5.png" path="/image/" exported="true"/>
+    <image id="olrhc" name="icon6.png" path="/image/" exported="true"/>
+    <image id="olrhd" name="icon7.png" path="/image/" exported="true"/>
+    <image id="olrhe" name="icon8.png" path="/image/" exported="true"/>
+    <image id="olrhf" name="icon9.png" path="/image/" exported="true"/>
+    <image id="olrhg" name="title.png" path="/image/" exported="true"/>
+    <component id="xzzhh" name="LunHuiGrid.xml" path="/组件/" exported="true"/>
+    <image id="tkdni" name="icon0.png" path="/image/" exported="true"/>
+    <image id="lo8ej" name="icon10.png" path="/image/" exported="true"/>
+    <component id="h2o6k" name="Child_LunHui.xml" path="/组件/" exported="true"/>
+    <component id="h2o6l" name="Child_TianMing.xml" path="/组件/天命/" exported="true"/>
+    <component id="h2o6p" name="GridTianMing.xml" path="/组件/天命/" exported="true"/>
+    <image id="h2o6r" name="轮回底图.jpg" path="/image/天命/"/>
+    <image id="h2o6s" name="主动技能底框.png" path="/image/天命/" exported="true"/>
+    <image id="h2o6t" name="已满级.png" path="/image/天命/" exported="true"/>
+    <image id="b8asu" name="title.png" path="/image/天命/" exported="true"/>
+    <component id="11m1wv" name="Child_SixWay.xml" path="/组件/六道/" exported="true"/>
+    <component id="11m1ww" name="SixWayItem.xml" path="/组件/六道/" exported="true"/>
+    <component id="11m1wx" name="SixWayBagView.xml" path="/组件/六道/" exported="true"/>
+    <component id="11m1wy" name="SixWayBagItem.xml" path="/组件/六道/" exported="true"/>
+    <component id="11m1wz" name="ChildSixWayFenJie.xml" path="/组件/六道/" exported="true"/>
+    <component id="11m1w10" name="VSixWayGridFenJie.xml" path="/组件/六道/" exported="true"/>
+    <component id="11m1w11" name="VSixWayGrid.xml" path="/组件/六道/" exported="true"/>
+    <component id="11m1w14" name="SixWayYinJiView.xml" path="/组件/六道/" exported="true"/>
+    <component id="11m1w15" name="SixWayYinJiItem.xml" path="/组件/六道/" exported="true"/>
+    <image id="11m1w1d" name="六道标题.png" path="/image/六道/" exported="true"/>
+    <image id="11m1w1q" name="印记背包.png" path="/image/六道/" exported="true"/>
+    <component id="v97gw1x" name="SixWayCheckView.xml" path="/组件/六道/" exported="true"/>
+    <component id="v97gw1y" name="SixWayCheckItem.xml" path="/组件/六道/" exported="true"/>
+    <component id="ile1w1z" name="VSixWayChip.xml" path="/组件/六道/" exported="true"/>
+    <image id="i6q4w23" name="分解材料.png" path="/image/六道/" exported="true"/>
+    <image id="f2zdw27" name="选中.png" path="/image/六道/" exported="true"/>
+    <image id="tdmew28" name="更换.png" path="/image/六道/" exported="true"/>
+  </resources>
+  <publish name="lunhui" genCode="true" npot="true" excluded="h2o6r"/>
+</packageDescription>

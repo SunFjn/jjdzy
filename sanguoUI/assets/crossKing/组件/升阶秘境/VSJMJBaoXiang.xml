@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,407">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n16_ik2r" name="backImg" xy="0,0" size="100,100"/>
+    <image id="n1_rydj" name="n1" src="genj3u" fileName="image/升阶秘境/秘境宝箱.png" xy="229,14" size="126,36" aspect="true"/>
+    <image id="n3_rydj" name="n3" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="139,54" size="302,38"/>
+    <richtext id="n4_rydj" name="txtTitle" xy="176,56" size="237,29" fontSize="22" color="#ffffff" autoSize="none" text="首通1阶武将秘境可开启">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n8_rydj" name="btnCancal" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="125,287">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="取消"/>
+    </component>
+    <component id="n9_rydj" name="btnHand" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="332,287">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="开启"/>
+    </component>
+    <loader id="n10_rydj" name="iconCost" xy="353,344" size="39,38" aspect="true" url="ui://jvxpx9embwmw3y" fill="scaleFree">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader>
+    <text id="n11_rydj" name="txtCost" xy="395,350" size="44,31" fontSize="24" color="#ffffff" text="100">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <image id="n12_rydj" name="n12" src="genj3m" fileName="image/升阶秘境/已开启.png" xy="247,278">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n19_git2" name="imgZhe" src="git24h" fileName="image/升阶秘境/zhe.png" xy="519,11"/>
+    <richtext id="n18_git2" name="lbZhe" xy="512,57" size="76,35" fontSize="24" color="#ffffff" align="center" autoSize="none" text="1"/>
+  </displayList>
+</component>

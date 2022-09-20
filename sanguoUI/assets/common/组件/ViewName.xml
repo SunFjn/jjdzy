@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="63,186" extention="Label">
+  <displayList>
+    <image id="n0_spdw" name="n0" src="z1jw6p" fileName="image/名字边框.png" xy="0,0"/>
+    <richtext id="n1_spdw" name="title" xy="21,10" size="28,142" fontSize="24" color="#ffffff" align="center" vAlign="middle" leading="6" autoSize="none" strokeColor="#000000" text="雷神锤"/>
+  </displayList>
+</component>

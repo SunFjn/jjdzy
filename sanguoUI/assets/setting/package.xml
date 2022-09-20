@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="dt6yws4j" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="vaaj0" name="ViewSettingPanel.xml" path="/组件/" exported="true"/>
+    <component id="g30n1" name="ChildSettingName.xml" path="/组件/" exported="true"/>
+    <component id="g30n2" name="ChildSettingHead.xml" path="/组件/" exported="true"/>
+    <component id="g30n3" name="VSettingHead.xml" path="/组件/" exported="true"/>
+    <component id="ejx38" name="VSettingHeadTop.xml" path="/组件/" exported="true"/>
+    <component id="lncka" name="VSettingFrame.xml" path="/组件/" exported="true"/>
+    <image id="lnckh" name="头像框选中.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="setting" genCode="true" npot="true"/>
+</packageDescription>

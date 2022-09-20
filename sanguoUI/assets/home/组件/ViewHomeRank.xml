@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,839">
+  <displayList>
+    <component id="n8_nvxy" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,839">
+      <Label title="府邸列表"/>
+    </component>
+    <list id="n2_sbl7" name="list" xy="12,67" size="582,696" layout="pagination" overflow="scroll" scroll="horizontal" scrollBarFlags="8" lineItemCount2="5" defaultItem="ui://y0plc878sbl7e" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n9_nvxy" name="n9" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="242,782" size="113,31"/>
+    <component id="n3_sbl7" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="351,766" pivot="0.5,0.5" size="55,63">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n4_sbl7" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="188,766" pivot="0.5,0.5" size="55,63" scale="-1,1">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <richtext id="n5_sbl7" name="n5" xy="277,785" size="40,28" fontSize="18" color="#ffffff" text=""/>
+    <richtext id="n6_g2m4" name="lbMyRank" xy="25,785" size="40,28" fontSize="18" color="#ffffff" text=""/>
+  </displayList>
+</component>

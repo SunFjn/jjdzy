@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="568,429">
+  <displayList>
+    <component id="n10_som1" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="-1,0" size="569,429">
+      <Label title="伤害榜"/>
+    </component>
+    <list id="n8_u94l" name="list" xy="29,86" size="505,285" overflow="scroll" lineGap="8" defaultItem="ui://47jfyc6egs0du">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n17_som1" name="lbMine" xy="78,374" size="149,28" fontSize="18" color="#ffc334" text="我的信息我的信息"/>
+  </displayList>
+</component>

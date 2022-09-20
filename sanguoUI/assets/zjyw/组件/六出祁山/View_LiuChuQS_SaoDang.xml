@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,555">
+  <displayList>
+    <component id="n1_sr40" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,555">
+      <Label title="扫荡"/>
+    </component>
+    <richtext id="n2_sr40" name="lab" xy="35,79" size="107,35" fontSize="24" color="#ffffff" text="扫荡关卡:"/>
+    <richtext id="n3_sr40" name="labList" xy="35,155" size="107,35" fontSize="24" color="#ffffff" text="获得奖励:"/>
+    <list id="n4_sr40" name="list" xy="39,196" size="535,224" layout="flow_hz" overflow="scroll" lineGap="9" colGap="4" lineItemCount="5" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n5_sr40" name="labGuan" xy="82,112" size="53,35" fontSize="24" color="#ffcc00" text="北伐"/>
+    <component id="n6_sr40" name="btnSure" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="233,463">
+      <Button title="确定"/>
+    </component>
+  </displayList>
+</component>

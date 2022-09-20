@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="10,44" extention="Label">
+  <displayList>
+    <richtext id="n0_hzfc" name="title" xy="0,10" size="10,34" fontSize="22" color="#15f234" leading="0" singleLine="true" text=""/>
+    <loader id="n1_lsg1" name="icon" xy="5,0" size="23,26" url="ui://jvxpx9emlsg13fw" autoSize="true">
+      <relation target="n0_hzfc" sidePair="right-right"/>
+    </loader>
+  </displayList>
+  <relation target="n0_hzfc" sidePair="width-width"/>
+</component>

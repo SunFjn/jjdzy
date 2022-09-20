@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,134">
+  <displayList>
+    <richtext id="n2_f8nk" name="lbName" xy="-10,110" size="123,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="符文·肩甲甲"/>
+    <loader id="n6_tszw" name="bg" xy="3,8" size="96,96" url="ui://jvxpx9emy1z8p" fill="scaleFree"/>
+    <loader id="n7_tszw" name="imgIcon" xy="10,-19" size="100,100"/>
+    <image id="n8_tszw" name="n8" src="z1jw6s" fileName="image1/头像星星背景.png" xy="5,77" group="n11_tszw"/>
+    <image id="n9_tszw" name="n9" src="sv0g2l" fileName="image1/big_star_4.png" xy="52,76" group="n11_tszw"/>
+    <richtext id="n10_tszw" name="starLb" xy="16,75" size="33,29" group="n11_tszw" touchable="false" fontSize="18" color="#ffffff" align="right" autoSize="none" bold="true" text="10"/>
+    <group id="n11_tszw" name="starGroup" xy="5,75" size="92,29" advanced="true"/>
+    <image id="n5_ly3w" name="selectImg" src="z1r82h" fileName="image/新资源/选中发光状态框.png" xy="-8,-3" size="117,117" aspect="true" visible="false"/>
+  </displayList>
+</component>

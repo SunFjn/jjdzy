@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,623">
+  <displayList>
+    <loader id="n0_o9c2" name="n111" xy="0,0" size="640,184"/>
+    <text id="n1_o9c2" name="n1" xy="16,151" size="145,27" fontSize="20" color="#ffffff" ubb="true" strokeColor="#000000" text="可找回昨日奖励"/>
+    <component id="n2_o9c2" name="getAll" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="487,96">
+      <Button title="一键找回"/>
+    </component>
+    <image id="n16_povh" name="n16" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="489,151" size="126,28"/>
+    <richtext id="n7_o9c2" name="lbYB" xy="511,148" size="101,25" touchable="false" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" text="10000"/>
+    <image id="n8_o9c2" name="n8" src="o9c218" fileName="image/元宝.png" xy="492,148"/>
+    <list id="n12_o9c2" name="list" xy="3,185" size="644,437" overflow="scroll" lineGap="2" defaultItem="ui://ye1luhg3o9c21b">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n13_onxf" name="image" xy="181,225" size="267,308" url="ui://ye1luhg3o9c216"/>
+    <text id="n14_onxf" name="desc" xy="210,525" size="197,31" fontSize="24" color="#ffffff" ubb="true" text="没有可找回的奖励"/>
+  </displayList>
+</component>

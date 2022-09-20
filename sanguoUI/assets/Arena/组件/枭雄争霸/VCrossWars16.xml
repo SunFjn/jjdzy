@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="601,129" designImageOffsetX="-20" designImageOffsetY="-276">
+  <displayList>
+    <image id="n29_ca02" name="n29" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="601,129"/>
+    <graph id="n16_l1e2" name="n16" xy="225,43" size="150,2" type="rect" lineSize="0" fillColor="#ff8f8f8f"/>
+    <graph id="n17_l1e2" name="imgWin1" xy="225,42" size="75,2" type="rect" lineSize="0" fillColor="#ff1ffb10"/>
+    <graph id="n27_cazx" name="imgWin2" xy="300,42" size="75,2" type="rect" lineSize="0" fillColor="#ff1ffb10"/>
+    <graph id="n21_l1e2" name="n21" xy="225,93" size="150,2" type="rect" lineSize="0" fillColor="#ff8f8f8f"/>
+    <graph id="n22_l1e2" name="imgWin3" xy="225,93" size="75,2" type="rect" lineSize="0" fillColor="#ff1ffb10"/>
+    <graph id="n28_cazx" name="imgWin4" xy="300,93" size="75,2" type="rect" lineSize="0" fillColor="#ff1ffb10"/>
+    <image id="n20_l1e2" name="n20" src="k8h12c" fileName="image/玩家名字底.png" xy="372,71"/>
+    <image id="n19_l1e2" name="n19" src="k8h12c" fileName="image/玩家名字底.png" xy="372,19"/>
+    <image id="n18_l1e2" name="n18" src="k8h12c" fileName="image/玩家名字底.png" xy="40,71"/>
+    <image id="n15_l1e2" name="n15" src="k8h12c" fileName="image/玩家名字底.png" xy="40,19"/>
+    <richtext id="n2_6wzt" name="lbName1" xy="46,30" size="175,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="S1000.玩家名字六字"/>
+    <richtext id="n3_6wzt" name="lbName2" xy="378,30" size="175,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="S1000.玩家名字六字"/>
+    <richtext id="n4_6wzt" name="lbGroup" xy="236,3" size="130,28" touchable="false" fontSize="18" color="#f1bf11" align="center" autoSize="none" text="A组"/>
+    <richtext id="n7_6wzt" name="lbName3" xy="46,83" size="175,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="S1000.玩家名字六字"/>
+    <richtext id="n8_6wzt" name="lbName4" xy="379,83" size="175,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="S1000.玩家名字六字"/>
+    <component id="n11_l1e2" name="btnLook2" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="265,59" size="69,70" scale="0.5,0.5">
+      <Button icon="ui://me1skowlhfct5q"/>
+    </component>
+    <component id="n12_l1e2" name="btnLook1" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="265,9" size="69,70" scale="0.5,0.5">
+      <Button icon="ui://me1skowlhfct5q"/>
+    </component>
+    <image id="n13_l1e2" name="imgYa1" src="hfct52" fileName="image/乱世枭雄/已押注标签.png" xy="5,3"/>
+    <component id="n24_l1e2" name="btnYa2" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="265,59" size="69,70" scale="0.5,0.5">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n14_l1e2" name="btnYa1" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="265,9" size="69,70" scale="0.5,0.5">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <image id="n25_cazx" name="imgYa3" src="hfct52" fileName="image/乱世枭雄/已押注标签.png" xy="5,64"/>
+    <image id="n26_cazx" name="imgYa2" src="hfct52" fileName="image/乱世枭雄/已押注标签.png" xy="563,3"/>
+    <image id="n23_l1e2" name="imgYa4" src="hfct52" fileName="image/乱世枭雄/已押注标签.png" xy="563,64"/>
+  </displayList>
+</component>

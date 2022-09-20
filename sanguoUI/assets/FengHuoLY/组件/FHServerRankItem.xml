@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="558,171">
+  <displayList>
+    <image id="n8_j08a" name="n8" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="558,171" flip="vt"/>
+    <text id="n0_kzd9" name="lbServer" xy="18,27" size="75,34" fontSize="22" color="#ff9900" text="S.9999"/>
+    <text id="n1_kzd9" name="n1" xy="113,31" size="143,28" fontSize="18" color="#66ff00" text="总积分：999999"/>
+    <component id="n3_kzd9" name="n3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="19,66" scale="0.9,0.9"/>
+    <component id="n4_kzd9" name="n4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="123,66" scale="0.9,0.9"/>
+    <component id="n5_kzd9" name="n5" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="227,66" scale="0.9,0.9"/>
+    <component id="n6_kzd9" name="n6" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="331,66" scale="0.9,0.9"/>
+    <image id="n9_j08a" name="n9" src="j08a1n" fileName="images/领先.png" xy="450,19"/>
+    <text id="n10_lkik" name="n10" xy="236,57" size="85,56" fontSize="40" color="#ffff00" text="轮空"/>
+  </displayList>
+</component>

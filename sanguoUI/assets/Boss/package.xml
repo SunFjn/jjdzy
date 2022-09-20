@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="47jfyc6e" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="tujy0" name="ChildPersonalBoss.xml" path="/组件/个人BOSS/" exported="true"/>
+    <component id="tujy1" name="PersonalItem.xml" path="/组件/个人BOSS/" exported="true"/>
+    <component id="tujy2" name="ViewBoss.xml" path="/组件/" exported="true"/>
+    <component id="tujy9" name="ViewBossAppear.xml" path="/组件/" exported="true"/>
+    <component id="gs0dq" name="ChildQuanMinBoss.xml" path="/组件/全民BOSS/" exported="true"/>
+    <component id="gs0dr" name="QuanMinHead.xml" path="/组件/全民BOSS/" exported="true"/>
+    <component id="gs0ds" name="QMBossInfo.xml" path="/组件/全民BOSS/" exported="true"/>
+    <component id="gs0dt" name="ViewQMBossRnk.xml" path="/组件/全民BOSS/" exported="true"/>
+    <component id="gs0du" name="QMBossRnk.xml" path="/组件/全民BOSS/" exported="true"/>
+    <component id="dx12v" name="ChildLvBu.xml" path="/组件/魔神吕布/" exported="true"/>
+    <component id="qcylw" name="LvBuSceneInfo.xml" path="/组件/魔神吕布/" exported="true"/>
+    <component id="qcylz" name="TimeLimitPanel.xml" path="/组件/魔神吕布/" exported="true"/>
+    <component id="qcyl10" name="LvBuRank.xml" path="/组件/魔神吕布/" exported="true"/>
+    <component id="qcyl11" name="LvBuItem.xml" path="/组件/魔神吕布/" exported="true"/>
+    <component id="qcyl12" name="ViewLvBuBox.xml" path="/组件/魔神吕布/" exported="true"/>
+    <component id="rjjf13" name="Child7MengHuo.xml" path="/组件/七擒孟获/" exported="true"/>
+    <component id="rjjf14" name="MHTab.xml" path="/组件/七擒孟获/" exported="true"/>
+    <component id="ee1116" name="MengHuoRank.xml" path="/组件/七擒孟获/" exported="true"/>
+    <component id="ee1117" name="MengHuoItem.xml" path="/组件/七擒孟获/" exported="true"/>
+    <component id="a19118" name="MengHuoSceneInfo.xml" path="/组件/七擒孟获/" exported="true"/>
+    <component id="g50q19" name="ViewMHTagert.xml" path="/组件/七擒孟获/" exported="true"/>
+    <component id="g50q1a" name="MHTargetItem.xml" path="/组件/七擒孟获/" exported="true"/>
+    <image id="p7531c" name="BOSS.png" path="/image/" exported="true"/>
+    <image id="p7531i" name="奖励一览.png" path="/image/" exported="true"/>
+    <image id="p7531j" name="奖励底.png" path="/image/" exported="true"/>
+    <image id="p4bn1l" name="全民BOSStxt.png" path="/image/" exported="true"/>
+    <image id="p4bn1m" name="展开伤害榜.png" path="/image/" exported="true"/>
+    <image id="bx2z1p" name="七擒孟获txt.png" path="/image/" exported="true"/>
+    <image id="bx2z1q" name="魔神吕布txt.png" path="/image/" exported="true"/>
+    <image id="bx2z1s" name="Button_+.png" path="/image/" exported="true"/>
+    <image id="bx2z1v" name="分割线.png" path="/image/" exported="true"/>
+    <image id="bx2z20" name="最后一击.png" path="/image/" exported="true"/>
+    <image id="bx2z22" name="奖励背景.png" path="/image/" exported="true"/>
+    <image id="bx2z24" name="BUFF.png" path="/image/" exported="true"/>
+    <image id="bx2z25" name="排行榜按钮.png" path="/image/" exported="true"/>
+    <image id="bx2z29" name="对话框.png" path="/image/" exported="true" scale="9grid" scale9grid="30,35,60,70"/>
+    <image id="bx2z2d" name="活动时间.png" path="/image/" exported="true"/>
+    <component id="bx2z2e" name="ViewLBDialog.xml" path="/组件/魔神吕布/" exported="true"/>
+    <image id="bx2z2f" name="c12.png" path="/image/" exported="true"/>
+    <image id="hxms2i" name="伤害增益.png" path="/image/" exported="true"/>
+    <image id="hxms2j" name="目标奖励.png" path="/image/" exported="true"/>
+    <image id="gyat2t" name="黑色遮罩.png" path="/image/" exported="true" scale="9grid" scale9grid="23,40,46,80"/>
+    <image id="hc262w" name="2.png" path="/image/" exported="true"/>
+    <image id="hc262x" name="1.png" path="/image/" exported="true"/>
+    <component id="ppyw2z" name="BossZCItem.xml" path="/组件/BOSS战场/" exported="true"/>
+    <image id="ppyw30" name="跨服标签.png" path="/image/" exported="true"/>
+    <component id="ppyw31" name="Child_BOSSZC.xml" path="/组件/BOSS战场/" exported="true"/>
+    <component id="sx3835" name="BossZCTimer.xml" path="/组件/BOSS战场/" exported="true"/>
+    <component id="sx3836" name="ViewLvBu.xml" path="/组件/魔神吕布/" exported="true"/>
+    <image id="scqm38" name="Boss商店.png" path="/image/" exported="true"/>
+    <component id="mca439" name="BossZCPveTimer.xml" path="/组件/BOSS战场/" exported="true"/>
+    <image id="vwbr3a" name="测试标签.png" path="/image/" exported="true"/>
+    <image id="ngkt3b" name="410015.png" path="/image/" exported="true"/>
+    <component id="hul73c" name="ViewMenghuo.xml" path="/组件/七擒孟获/" exported="true"/>
+    <image id="hul73d" name="title.png" path="/image/" exported="true"/>
+    <image id="hul73e" name="底图.jpg" path="/image/"/>
+    <image id="hul73f" name="恭喜通关.png" path="/image/"/>
+    <component id="hul73h" name="ChildYiShouBoss.xml" path="/组件/异兽Boss/" exported="true"/>
+    <image id="hul73j" name="底框.png" path="/image/"/>
+    <component id="hul73k" name="ViewYiShowBossRank.xml" path="/组件/异兽Boss/" exported="true"/>
+    <component id="hul73m" name="ItemYSBOSS.xml" path="/组件/异兽Boss/" exported="true"/>
+    <component id="in3b3n" name="ChildYSBossTip.xml" path="/组件/异兽Boss/" exported="true"/>
+    <component id="l44i3o" name="ViewYiShouTip.xml" path="/组件/异兽Boss/" exported="true"/>
+    <component id="l44i3p" name="YiShowBossScenePanel.xml" path="/组件/异兽Boss/" exported="true"/>
+    <image id="nlyo3u" name="108.png" path="/组件/异兽Boss/"/>
+    <image id="nlyo3v" name="2002.png" path="/组件/异兽Boss/"/>
+    <image id="djuz3w" name="上方选中框.png" path="/image/"/>
+    <image id="djuz3x" name="宝箱.png" path="/image/"/>
+    <image id="djuz3y" name="图层 1035.jpg" path="/image/"/>
+    <image id="djuz40" name="异兽BOSS.jpg" path="/image/"/>
+  </resources>
+  <publish name="Boss" genCode="true" npot="true" excluded="t5sk33,hul73e,nlyo3u,nlyo3v"/>
+</packageDescription>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.house.yard.model.LocalHouse" tbname="localHouse">
+		<index field="hid" type="prikey"/>
+		<col field="hid" type="bigint" pf="all" comment="玩家id"/>
+		<col field="houseMoney" type="bigint" pf="all" comment="府邸币"/>
+		<col field="jiFen" type="bigint" pf="all" comment="天工炉积分"/>
+		<col field="decorateLvMap" type="text" pf="all" comment="装饰等级(计算属性用)"/>
+		<col field="houseLv" type="int" pf="all" comment="府邸等级(计算属性用)"/>
+		<col field="prosperity" type="bigint" pf="all" comment="繁荣度"/>
+		<col field="drawAwardTimes" type="int" pf="all" comment="天工炉抽奖次数"/>
+		<col field="completeEventTimes" type="int" pf="all" comment="已经完成的随机事件次数"/>
+		<col field="completeEventHelpTimes" type="int" pf="all" comment="已经帮助完成的随机事件次数"/>
+		<col field="completeRobberTimes" type="int" pf="all" comment="已经完成的强盗事件次数"/>
+	</tb>
+</tbs>

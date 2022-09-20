@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="564,137">
+  <displayList>
+    <image id="n2_r3je" name="n2" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="564,137"/>
+    <image id="n3_r3je" name="n3" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="16,7"/>
+    <image id="n9_r3je" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="420,47"/>
+    <richtext id="n4_r3je" name="needLb" xy="19,7" size="41,28" touchable="false" fontSize="18" color="#ffffff" text="抽奖"/>
+    <list id="n7_r3je" name="list" xy="15,37" size="322,109" scale="0.85,0.85" layout="row" overflow="hidden" colGap="8" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_r3je" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="417,43">
+      <Button title="可领取"/>
+    </component>
+  </displayList>
+</component>

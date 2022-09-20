@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 后台事件，常规包括executePreXX-->
+	<!-- 角色表数据 -->
+	<bean id="B_RoleInfoEvent" class="com.teamtop.system.event.backstage.events.backstage.roleInfo.B_RoleInfoEvent" pf="all">
+		<property method = "login"/>
+		<property method = "executeFiveMin"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 在线人数表 -->
+	<bean id="OnlineEvent" class="com.teamtop.system.event.backstage.events.backstage.online.OnlineEvent" pf="all">
+		<property method = "executeFiveMin"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 登录日志表 -->
+	<bean id="FlowLoginoutEvent" class="com.teamtop.system.event.backstage.events.backstage.loginInfo.FlowLoginoutEvent" pf="all">
+		<property method = "executeOneMin"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 装备流水 -->
+	<bean id="FlowEquipEvent" class="com.teamtop.system.event.backstage.events.flowEquip.FlowEquipEvent" pf="all">
+		<property method = "executeFiveMin"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 道具流水 -->
+	<bean id="FlowToolEvent" class="com.teamtop.system.event.backstage.events.flowTools.FlowToolEvent" pf="all">
+		<property method = "executeFiveMin"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 角色经验与战力流水 -->
+	<bean id="FlowHeroEvent" class="com.teamtop.system.event.backstage.events.flowHero.FlowHeroEvent" pf="all">
+		<property method = "executeFiveMin"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 缓存监控流水 -->
+	<bean id="FlowMMCacheEvent" class="com.teamtop.system.event.backstage.events.flowMMCache.FlowMMCacheEvent" pf="all">
+		<property method = "executeOneHour"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 邮件流水 -->
+	<bean id="FlowMailEvent" class="com.teamtop.system.event.backstage.events.flowMail.FlowMailEvent" pf="all">
+		<property method = "executeFiveMin"/>
+		<property method = "shutdownServer"/>
+	</bean>	
+	<!-- 鉴定流水 -->
+	<bean id="FlowAppraiseEvent" class="com.teamtop.system.event.backstage.events.backstage.flowAppraise.FlowAppraiseEvent" pf="all">
+		<property method = "executeFiveMin"/>
+		<property method = "shutdownServer"/>
+	</bean>
+	<!-- 符文流水 -->
+	<bean id="B_FlowDestinyEvent" class="com.teamtop.system.event.backstage.events.backstage.flowDestiny.B_FlowDestinyEvent" pf="all">
+		<property method = "executeFiveMin"/>
+		<property method = "shutdownServer"/>
+	</bean>		
+</beans>

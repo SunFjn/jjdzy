@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,926" opaque="false">
+  <displayList>
+    <component id="n1_glz7" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,264" size="640,662"/>
+    <component id="n2_glz7" name="n2" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="155,297">
+      <Label title="奖励预览"/>
+    </component>
+    <loader id="n3_glz7" name="backImg" xy="23,437" size="604,352" url="ui://nshesk1rglz72"/>
+    <loader id="n4_glz7" name="danImg0" xy="57,511" size="187,227" url="ui://nshesk1rglz75" vAlign="bottom"/>
+    <loader id="n5_glz7" name="danImg1" xy="224,511" size="187,227" url="ui://nshesk1rglz75" vAlign="bottom"/>
+    <loader id="n6_glz7" name="danImg2" xy="391,511" size="187,227" url="ui://nshesk1rglz75" vAlign="bottom"/>
+    <component id="n7_glz7" name="eggBt0" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="86,711">
+      <Button title="砸蛋"/>
+    </component>
+    <component id="n8_glz7" name="eggBt1" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="254,711">
+      <Button title="砸蛋"/>
+    </component>
+    <component id="n9_glz7" name="eggBt2" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="425,711">
+      <Button title="砸蛋"/>
+    </component>
+    <image id="n10_glz7" name="n10" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="24,441" size="222,28"/>
+    <list id="n12_glz7" name="list" xy="50,328" size="550,86" layout="row" overflow="hidden" colGap="13" defaultItem="ui://nshesk1rmm9s8" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n14_glz7" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="89,865" size="460,16">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <richtext id="n11_glz7" name="timeLb" xy="31,439" size="77,28" fontSize="18" color="#00ff00" text="剩余时间"/>
+    <richtext id="n13_glz7" name="numLb" xy="229,787" size="137,34" fontSize="22" color="#ffffff" text="剩余砸蛋次数"/>
+    <richtext id="n15_glz7" name="promptLb" xy="214,830" size="225,28" fontSize="18" color="#ffffff" ubb="true" text="每砸蛋3次可砸1次[color=#ffff00]超级金蛋[/color]"/>
+    <richtext id="n16_glz7" name="n16" xy="121,883" size="401,28" fontSize="18" color="#00ff00" text="活动期间每消费指定元宝数，可获得一次砸蛋次数"/>
+    <component id="n18_mm9s" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="115,541" scale="0.7,0.7"/>
+    <component id="n19_mm9s" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="283,541" scale="0.7,0.7"/>
+    <component id="n20_mm9s" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="452,541" scale="0.7,0.7"/>
+    <richtext id="n21_hnj1" name="linkLb" xy="44,830" size="41,28" fontSize="18" color="#00ff00" underline="true" text="概率"/>
+  </displayList>
+</component>

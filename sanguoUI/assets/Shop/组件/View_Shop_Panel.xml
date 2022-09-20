@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" designImage="ui://1f2dgazvnyujk">
+  <displayList>
+    <component id="n0_spa9" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0" hideByEditor="true"/>
+    <loader id="n6_spa9" name="headIcon" xy="23,156" size="594,143" url="ui://1f2dgazvfzmrg" fill="scaleFree"/>
+    <image id="n8_spa9" name="bg1" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="39,225" size="139,30"/>
+    <image id="n9_spa9" name="bg0" src="rt7o4r" fileName="image/通用底框/inputBg.png" pkg="jvxpx9em" xy="41,263" size="139,30"/>
+    <loader id="n10_spa9" name="money1" xy="37,227" size="37,26" url="ui://jvxpx9embwmw3y" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <loader id="n11_spa9" name="money0" xy="39,261" size="36,31" url="ui://jvxpx9emltpm59" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <image id="n18_spa9" name="n0" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="369,237" size="203,24" group="n19_spa9"/>
+    <image id="n22_mb5j" name="n4" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="369,265" size="205,24" group="n19_spa9"/>
+    <loader id="n15_spa9" name="money2" xy="460,233" size="36,31" group="n19_spa9" url="ui://jvxpx9emltpm59" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <component id="n17_spa9" name="refreshBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="494,190" size="98,35" group="n19_spa9">
+      <Button title="刷新" titleFontSize="18"/>
+    </component>
+    <richtext id="n14_spa9" name="n14" xy="373,235" size="95,25" group="n19_spa9" touchable="false" fontSize="18" color="#ffffff" leading="0" text="刷新消耗："/>
+    <richtext id="n16_spa9" name="moneyLb2" xy="497,235" size="45,25" group="n19_spa9" touchable="false" fontSize="18" color="#ffffff" leading="0" text="1000"/>
+    <richtext id="n23_mb5j" name="n23" xy="373,262" size="158,25" group="n19_spa9" touchable="false" fontSize="18" color="#15f234" leading="0" text="每天00:00自动刷新"/>
+    <group id="n19_spa9" name="refreshGroup" xy="369,190" size="223,100" advanced="true" collapsed="true"/>
+    <richtext id="n12_spa9" name="moneyLb1" xy="76,226" size="45,25" touchable="false" fontSize="18" color="#ffffff" leading="0" text="1000"/>
+    <richtext id="n13_spa9" name="moneyLb0" xy="79,264" size="45,25" touchable="false" fontSize="18" color="#ffffff" leading="0" text="1000"/>
+    <richtext id="n24_bkwy" name="linkLb" xy="525,254" size="77,25" fontSize="18" color="#00f234" leading="0" text="&lt;u>获取声望&lt;/u>"/>
+    <list id="n7_spa9" name="list" xy="24,311" size="597,602" layout="flow_hz" selectionMode="none" overflow="scroll" lineGap="12" colGap="10" lineItemCount="2" defaultItem="ui://1f2dgazvspa9d" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n27_b8g1" name="tabList" xy="6,37" size="627,109" layout="row" overflow="scroll" scroll="horizontal" colGap="-10" defaultItem="ui://jvxpx9emvxva3gg" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

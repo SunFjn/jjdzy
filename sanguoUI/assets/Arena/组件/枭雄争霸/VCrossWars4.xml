@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="601,250" designImage="ui://me1skowlwnzh6l" designImageOffsetX="-20" designImageOffsetY="-283">
+  <displayList>
+    <image id="n23_ca02" name="n23" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="601,250"/>
+    <component id="n11_l1e2" name="btnLook" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="266,80" size="69,70" locked="true" hideByEditor="true">
+      <Button icon="ui://me1skowlhfct5q"/>
+    </component>
+    <component id="n12_l1e2" name="btnYa" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="266,80" size="69,70">
+      <Button icon="ui://me1skowlhfct55"/>
+    </component>
+    <component id="n17_cazx" name="viewWin1" src="hfct4b" fileName="组件/枭雄争霸/VCrossWarsWin.xml" xy="19,2"/>
+    <component id="n18_cazx" name="viewWin2" src="hfct4b" fileName="组件/枭雄争霸/VCrossWarsWin.xml" xy="380,2"/>
+    <image id="n13_cazx" name="imgYa1" src="hfct52" fileName="image/乱世枭雄/已押注标签.png" xy="13,14"/>
+    <image id="n14_cazx" name="imgYa2" src="hfct52" fileName="image/乱世枭雄/已押注标签.png" xy="554,14"/>
+    <image id="n21_nw6y" name="imgWin1" src="hfct5p" fileName="image/乱世枭雄/胜利标签.png" xy="174,14"/>
+    <image id="n22_nw6y" name="imgWin2" src="hfct5p" fileName="image/乱世枭雄/胜利标签.png" xy="382,14"/>
+  </displayList>
+</component>

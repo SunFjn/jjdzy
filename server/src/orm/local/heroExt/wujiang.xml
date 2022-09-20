@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.wujiang.WuJiang" tbname="wujiang">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="wujiangs" type="text" pf="all" comment="已拥有武将信息"/>
+			<col field="taozhuangs" type="varchar" len="400" pf="all" comment="套装"/>
+			<col field="jieLv" type="int" pf="all"  comment="武将阶级"/>
+			<col field="exp" type="int" pf="all" comment="武将升阶经验"/>
+			<col field="wujiangSkill" type="varchar" len="1000" pf="all" comment="武将技能"/>
+			<col field="strength" type="int" pf="all" comment="武将战力"/>
+			<col field="restTaoZhuang" type="int" pf="all" comment="重置所有武将羁绊 0没有重置过 1重置1次"/>
+     </tb>
+</tbs>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.event.backstage.events.backstage.ipWhiteList.IpWhiteListMapper">
+	<!-- 查找ip的白名单信息 -->
+	<select id="findByIp" parameterType="String" resultType="hashMap">
+		select * from m_ipWhiteList where ip = #{value};
+	</select>
+	<insert id="insert" parameterType="M_IpWhiteList" useGeneratedKeys="true" keyProperty="id">
+		insert into m_ipWhiteList(id, ip, time, state) values(${id}, '${ip}', ${time}, ${state})
+	</insert>
+	<update id="updateData" parameterType="M_IpWhiteList">
+		update m_ipWhiteList set time=${time},state=${state} where ip='${ip}'
+	</update>
+</mapper>

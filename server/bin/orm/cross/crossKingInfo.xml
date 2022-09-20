@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossKing.model.CrossKingInfo" tbname="crossKingInfo" serverid="3">
+		<index field="id" type="prikey"/>
+			<col field="id" type="int" pf="all" comment="表唯一id"/>
+			<col field="term" type="int" pf="all" comment="第几届"/>
+			<col field="state" type="int" pf="all" comment="赛季状态 0关闭1开启2结束"/>
+			<col field="startTime" type="int" pf="all" comment="赛季开始时间"/>
+			<col field="endTime" type="int" pf="all" comment="赛季结束时间"/>
+	</tb>
+</tbs>

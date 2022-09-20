@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="76,76" extention="Button">
+  <displayList>
+    <loader id="n0_tw1l" name="icon" xy="0,0" size="76,76" locked="true" url="ui://7gxkx46woi0q4m" align="center" vAlign="middle" fill="scale" autoSize="true"/>
+    <loader id="n1_tw1l" name="skillIcon" xy="10,10" size="57,56" url="ui://7gxkx46wpseo4y" align="center" vAlign="middle" fill="scaleFree"/>
+    <image id="n3_pseo" name="maskImg" src="pseo51" fileName="image1/宝物遮罩.png" xy="5,7" size="63,63" locked="true"/>
+    <richtext id="n2_tw1l" name="lbCD" xy="13,15" size="49,44" locked="true" touchable="false" fontSize="30" color="#ed1414" align="center" leading="0" autoSize="none" text="30"/>
+    <image id="n4_gz25" name="cmImg" src="gz25b7w" fileName="image/已击杀标记.png" xy="15,14" visible="false"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.10"/>
+</component>

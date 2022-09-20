@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" designImage="ui://y2wvab26wnzhi">
+  <displayList>
+    <component id="n37_wzmn" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://y2wvab26nxcbd"/>
+    </component>
+    <image id="n21_nxcb" name="n21" src="z1jw6l" fileName="image/侧边框底.png" pkg="jvxpx9em" xy="16,149" size="144,754"/>
+    <image id="n17_nxcb" name="imgDi" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="394,462" pivot="0.5,0.7" anchor="true"/>
+    <list id="n2_mq9u" name="listTab" xy="27,169" size="122,732" overflow="scroll" lineGap="22" defaultItem="ui://jvxpx9emtli03cv">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n16_nxcb" name="n16" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="170,551" size="452,325"/>
+    <list id="n3_mq9u" name="listData" xy="169,561" size="450,309" overflow="scroll" defaultItem="ui://y2wvab26mq9u1" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n5_mq9u" name="labRankMy" xy="182,886" size="105,25" fontSize="18" color="#ffffff" text="我的排名：7"/>
+    <richtext id="n6_mq9u" name="labLevelMy" xy="331,886" size="278,28" fontSize="18" color="#ffffff" align="right" autoSize="none" text="我的等级：100"/>
+    <image id="n18_nxcb" name="imgRank" src="nxcb8" fileName="image/1 拷贝.png" xy="184,159"/>
+    <image id="n20_nxcb" name="imgNameBg" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="168,447" size="452,103" group="n25_nxcb" flip="vt"/>
+    <richtext id="n4_mq9u" name="labName" xy="202,453" size="385,28" group="n25_nxcb" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="【12阶.骠骑将军】 S1000.玩家名字六字"/>
+    <richtext id="n8_mq9u" name="labTips" xy="274,516" size="217,28" group="n25_nxcb" touchable="false" fontSize="18" color="#00ff00" align="center" autoSize="none" text="每日0点发放称号"/>
+    <richtext id="n32_opsf" name="labNoVip" xy="187,486" size="414,28" group="n25_nxcb" fontSize="18" color="#ffffff" align="center" autoSize="none" text="等级：0    战力：0"/>
+    <component id="n34_kjez" name="gvip" src="kjeze" fileName="组件/ChildRankItem.xml" xy="267,484" size="284,30" group="n25_nxcb"/>
+    <group id="n25_nxcb" name="gPlayer" xy="168,447" size="452,103" advanced="true"/>
+    <image id="n23_nxcb" name="imgNo" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="393,313" pivot="0.5,0.5" anchor="true" size="452,103" flip="vt"/>
+    <image id="n24_nxcb" name="imgNo1" src="nxcbb" fileName="image/虚位以待 拷贝.png" xy="341,304"/>
+    <loader id="n28_qmrj" name="imgTitle" xy="271,167" size="231,78" align="center" vAlign="middle"/>
+    <loader id="n36_ixu9" name="imgCountry" xy="541,161" size="50,50" url="ui://jvxpx9emxyp27g" align="center"/>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="sbm40ly4" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ln000" name="ViewYSSL.xml" path="/组件/" exported="true"/>
+    <image id="ln002" name="异兽送礼底图.jpg" path="/images/" exported="true"/>
+    <component id="ln003" name="ItemYSSL.xml" path="/组件/" exported="true"/>
+    <component id="ln004" name="YSTab.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="yssl" genCode="true" npot="true" excluded="ln002"/>
+</packageDescription>

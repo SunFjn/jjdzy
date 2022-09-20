@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="194,79" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n4_io2j" name="buyBtn" src="og19s" fileName="image/按钮.png" xy="0,0" size="194,79"/>
+    <text id="n5_io2j" name="n5" xy="14,27" size="167,25" fontSize="23" color="#660000" align="center" autoSize="none" text="抽取折扣"/>
+    <image id="n6_k2gf" name="iconNot" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="169,5">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

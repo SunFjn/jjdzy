@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.tigerPass.model.TigerPassEmployer" tbname="tigerPassEmployer" serverid="3">
+		<index field="hid" type="prikey"/>
+			<col field="hid" type="bigint" pf="all" comment="表唯一id 对象id"/>
+			<col field="name" type="varchar" len="50" pf="all" comment="角色名字"/>
+			<col field="job" type="int" pf="all" comment="对象职业"/>
+			<col field="level" type="int" pf="all" comment="等级"/>
+            <col field="zoneid" type="int" pf="all" comment="区号"/>	
+			<col field="totalStrength" type="bigint" pf="all" comment="战力"/>
+	        <col field="finalFightAttr" type="text" pf="all" comment="战斗属性详细"/>
+			<col field="nameZoneid" type="varchar" len="100" pf="all" comment="带区号的名字"/>	        
+	        <col field="skill" type="varchar" len="800" pf="all" comment="技能"/>	
+			<col field="icon" type="int" pf="all" comment="头像"/>	
+			<col field="frame" type="int" pf="all" comment="头像框"/>			
+			<col field="rebornlv" type="int" pf="all" comment="转生"/>	
+			<col field="official" type="int" pf="all" comment="将衔"/>
+			<col field="titleId" type="int" pf="all" comment="称号"/>		
+			<col field="bodyModel" type="int" pf="all" comment="时装ID"/>	
+			<col field="fightMonsterSpirit" type="int" pf="all" comment="兽魂id"/>	
+			<col field="withLeaderId" type="int" pf="all" comment="携带少主类型"/>
+		    <col field="withLeaderFid" type="int" pf="all" comment="携带少主外观"/>
+		    <col field="leaderStarId" type="int" pf="all" comment="少主星级"/>		
+	        <col field="leaderSkillId" type="int" pf="all" comment="少主技能id"/>	
+			<col field="godWeapon" type="int" pf="all" comment="专属神兵id"/>
+			<col field="vip" type="int" pf="all" comment="vip"/>
+	        <col field="countryType" type="int" pf="all" comment="国家id"/>
+		    <col field="belongZoneid" type="int" pf="all" comment="大分区"/>
+		    <col field="godWeaponKill" type="int" pf="all" comment="专属神兵技能增伤"/>   
+            <col field="bechoosenum" type="int" pf="all" comment="被雇佣次数"/>	
+            <col field="money" type="int" pf="all" comment="雇佣价格"/>
+            <col field="godSkillLevel" type="int" pf="all" comment="神将之力技能进阶"/>	            	          		
+	</tb>
+</tbs>

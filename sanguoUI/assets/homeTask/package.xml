@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="oy62ymet" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="d8t60" name="ViewHomeTask.xml" path="/组建/" exported="true"/>
+    <component id="d8t62" name="ChildHomeTask.xml" path="/组建/" exported="true"/>
+    <component id="d8t63" name="ItemHomeTask.xml" path="/组建/" exported="true"/>
+    <component id="d8t64" name="ChildHomeTarget.xml" path="/组建/" exported="true"/>
+    <component id="d8t65" name="ItemHomeTarget.xml" path="/组建/" exported="true"/>
+    <component id="whzh6" name="ItemHomeTaskBao.xml" path="/组建/" exported="true"/>
+    <component id="whzh7" name="ViewHomeTaskBox.xml" path="/组建/" exported="true"/>
+    <image id="dsufb" name="府邸币.png" path="/image/" exported="true"/>
+    <image id="dsufc" name="府邸日常标题.png" path="/image/" exported="true"/>
+    <image id="dsufd" name="府邸目标标题.png" path="/image/" exported="true"/>
+    <image id="dsufe" name="繁荣度图标.png" path="/image/" exported="true"/>
+    <image id="dsuff" name="1.png" path="/image/" exported="true"/>
+    <image id="dsufg" name="2.png" path="/image/" exported="true"/>
+    <image id="dsufh" name="3.png" path="/image/" exported="true"/>
+    <image id="dsufi" name="4.png" path="/image/" exported="true"/>
+    <image id="dsufj" name="5.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="homeTask" genCode="true"/>
+</packageDescription>

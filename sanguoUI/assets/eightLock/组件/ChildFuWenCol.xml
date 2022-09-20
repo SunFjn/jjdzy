@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,644">
+  <displayList>
+    <loader id="n5_j3hf" name="bg" xy="0,0" size="640,95" url="ui://hincjqblj3hf18"/>
+    <image id="n6_j3hf" name="n6" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="16,58"/>
+    <text id="n2_vib6" name="n2" xy="21,59" size="151,27" fontSize="20" color="#ffffff" text="活动剩余时间： "/>
+    <text id="n3_vib6" name="txtRemainTm" xy="153,61" size="83,27" fontSize="20" color="#33ff00" text="00:00:00"/>
+    <list id="n4_vib6" name="list" xy="2,96" size="636,546" overflow="scroll" defaultItem="ui://hincjqblvib6b">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

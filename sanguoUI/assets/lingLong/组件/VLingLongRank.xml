@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="555,115">
+  <displayList>
+    <image id="n6_q4gk" name="n6" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="555,115"/>
+    <richtext id="n0_kaqa" name="labName" xy="68,25" size="174,28" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="S9999.皮条客冬至至"/>
+    <richtext id="n1_kaqa" name="labRank" xy="2,45" size="68,28" fontSize="18" color="#f9bb13" align="center" autoSize="none" autoClearText="true" text="第99名"/>
+    <richtext id="n2_kaqa" name="labPoint" xy="83,60" size="144,28" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="积分：1000"/>
+    <list id="n4_kaqa" name="list" xy="253,17" size="248,106" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="3" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_q4gk" name="btnReward" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="460,22" size="85,73">
+      <Button icon="ui://1xperbsyq4gkh"/>
+    </component>
+    <image id="n8_l1e2" name="imgNo" src="l1e2j" fileName="image/虚位以待.png" xy="108,47"/>
+  </displayList>
+</component>

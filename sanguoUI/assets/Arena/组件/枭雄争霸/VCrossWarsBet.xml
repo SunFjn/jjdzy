@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="186,246" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n14_cazx" name="n14" src="5voq3g5" fileName="image/选中框2.png" pkg="jvxpx9em" xy="0,0" size="187,245">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <richtext id="n2_6wzt" name="lbName" xy="5,159" size="176,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="S1000.玩家名字六字"/>
+    <richtext id="n4_6wzt" name="lbGuanxian" xy="-20,125" size="218,28" touchable="false" fontSize="18" color="#ffc334" align="center" autoSize="none" text="【二十六阶】正北将军"/>
+    <richtext id="n10_6wzt" name="lbPower" xy="5,193" size="176,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="战力：1000000"/>
+    <component id="n13_cazx" name="viewHead" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="33,18"/>
+    <image id="n15_nw6y" name="imgYa1" src="hfct52" fileName="image/乱世枭雄/已押注标签.png" xy="10,10"/>
+    <image id="n16_nw6y" name="imgYa2" src="hfct52" fileName="image/乱世枭雄/已押注标签.png" xy="144,11"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

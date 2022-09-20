@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="edvdots4" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="srrs0" name="FengHuoLYUI.xml" path="/组件/" exported="true"/>
+    <component id="srrs1" name="FengHuoLYTop.xml" path="/组件/" exported="true"/>
+    <component id="srrs2" name="FengHuoLYBottom.xml" path="/组件/" exported="true"/>
+    <component id="srrs3" name="FengHuoLangYanScene.xml" path="/组件/" exported="true"/>
+    <component id="srrs5" name="ItemCity.xml" path="/组件/" exported="true"/>
+    <image id="srrs7" name="观战按钮小.png" path="/images/" exported="true"/>
+    <component id="srrs9" name="ViewCityInfo.xml" path="/组件/" exported="true"/>
+    <component id="srrsa" name="ViewFHAwardTip.xml" path="/组件/" exported="true"/>
+    <component id="srrsb" name="ViewFenghuoBattleRt.xml" path="/组件/" exported="true"/>
+    <image id="kzd9e" name="1.png" path="/images/"/>
+    <component id="kzd9f" name="ViewFenghuoRank.xml" path="/组件/" exported="true"/>
+    <component id="kzd9g" name="ChildFHPlayerRank.xml" path="/组件/" exported="true"/>
+    <component id="kzd9h" name="FHPlayerRankItem.xml" path="/组件/" exported="true"/>
+    <component id="kzd9i" name="ChildServerRank.xml" path="/组件/" exported="true"/>
+    <component id="kzd9j" name="FHServerRankItem.xml" path="/组件/" exported="true"/>
+    <component id="kzd9k" name="ChildScoreRank.xml" path="/组件/" exported="true"/>
+    <component id="kzd9l" name="FengHuoScoreItem.xml" path="/组件/" exported="true"/>
+    <image id="ekf6t" name="光圈.png" path="/images/" exported="true"/>
+    <image id="ekf6u" name="占领者.png" path="/images/" exported="true"/>
+    <image id="ekf6v" name="city3.png" path="/images/" exported="true"/>
+    <image id="ekf6y" name="标题文字底.png" path="/images/" exported="true" scale="9grid" scale9grid="32,9,64,18"/>
+    <image id="ekf6z" name="活动背景1.png" path="/images/" exported="true"/>
+    <image id="ekf610" name="city1.png" path="/images/" exported="true"/>
+    <image id="ekf611" name="红色旗子.png" path="/images/" exported="true"/>
+    <image id="ekf612" name="绿色箭头.png" path="/images/" exported="true"/>
+    <image id="ekf613" name="蓝色旗子.png" path="/images/" exported="true"/>
+    <image id="ekf614" name="city2.png" path="/images/" exported="true"/>
+    <image id="ov4h17" name="2001.png" path="/images/"/>
+    <image id="ov4h18" name="光圈2.png" path="/images/" exported="true"/>
+    <image id="ov4h1a" name="上方遮罩.png" path="/images/" exported="true" scale9grid="3,72,6,144"/>
+    <component id="j08a1j" name="ViewFengHuoRet.xml" path="/组件/" exported="true"/>
+    <image id="j08a1m" name="胜利标签.png" path="/images/" exported="true"/>
+    <image id="j08a1n" name="领先.png" path="/images/" exported="true"/>
+    <image id="j08a1o" name="路径.png" path="/images/" exported="true"/>
+    <component id="1266w1p" name="FenghuoHead.xml" path="/组件/" exported="true"/>
+    <component id="heu9w1q" name="FengHuoMap.xml" path="/组件/" exported="true"/>
+    <image id="ncqsw1r" name="战斗中....png" path="/images/" exported="true"/>
+    <component id="m2dlw1s" name="FengHuoNamePlug.xml" path="/组件/" exported="true"/>
+    <component id="m2dlw1t" name="FengHuoLstIt.xml" path="/组件/" exported="true"/>
+    <image id="m2dlw1u" name="展开伤害榜.png" path="/images/" exported="true"/>
+    <image id="jv3kw1w" name="占领者2.png" path="/images/" exported="true"/>
+    <image id="x14bw1x" name="奖励.png" path="/images/" exported="true"/>
+    <image id="ec49w1y" name="台子.png" path="/images/" exported="true"/>
+    <component id="lkikw1z" name="ViewFengHuoScoreGet.xml" path="/组件/" exported="true"/>
+    <image id="lkikw21" name="虚位以待.png" path="/images/" exported="true"/>
+    <image id="b801w22" name="fenghuolangyan1.jpg" path="/images/"/>
+    <image id="b801w23" name="fenghuolangyan2.jpg" path="/images/"/>
+    <image id="b801w24" name="fenghuolangyan3.jpg" path="/images/"/>
+    <component id="b801w25" name="FenghuoTopBar.xml" path="/组件/" exported="true"/>
+    <image id="b801w26" name="血条1.png" path="/images/" exported="true" scale="9grid" scale9grid="49,4,98,8"/>
+    <image id="b801w27" name="血条2.png" path="/images/" exported="true"/>
+    <image id="b801w28" name="血条3.png" path="/images/" exported="true"/>
+    <image id="b801w29" name="血条底.png" path="/images/" exported="true"/>
+    <image id="kbplw2b" name="绿色旗子.png" path="/images/" exported="true"/>
+    <image id="byucw2d" name="占领者3.png" path="/images/" exported="true"/>
+  </resources>
+  <publish name="FengHuoLY" genCode="true" npot="true" excluded="b801w22,b801w23,b801w24,ov4h17,kzd9e,ekf610,ekf614,ekf6v,ov4h18,ec49w1y,ekf6z"/>
+</packageDescription>

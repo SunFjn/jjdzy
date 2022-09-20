@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,816">
+  <displayList>
+    <component id="n0_elpx" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,816">
+      <Label title="晋升奖励"/>
+    </component>
+    <list id="n7_elpx" name="list" xy="18,87" size="559,675" overflow="scroll" lineGap="8" defaultItem="ui://dllc71i9elpxi" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n8_elpx" name="timeLb" xy="71,767" size="450,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="限时奖励领取6天23:59:59后结束"/>
+  </displayList>
+</component>

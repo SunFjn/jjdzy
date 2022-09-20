@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="plzexlaf" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="lplo0" name="ChildShop12.xml" path="/" exported="true"/>
+    <image id="lplo1" name="双12商店.png" path="/res/"/>
+    <image id="lplo2" name="双12商店购买确认.png" path="/res/"/>
+    <image id="lplo3" name="双12商店图.jpg" path="/res/"/>
+    <image id="lplo4" name="折扣券.png" path="/res/"/>
+    <component id="lplo5" name="Shop12Item.xml" path="/com/" exported="true"/>
+    <component id="oyk16" name="ViewShop12Buy.xml" path="/" exported="true"/>
+    <image id="oyk17" name="气泡框.png" path="/res/" scale="9grid" scale9grid="90,47,104,79"/>
+    <image id="bjac8" name="折扣标签.png" path="/res/"/>
+  </resources>
+  <publish name="actShop12" genCode="true" npot="true" excluded="lplo3"/>
+</packageDescription>

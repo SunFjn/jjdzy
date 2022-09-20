@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="570,351">
+  <controller name="hCtrl" pages="0,,1,,3," selected="2"/>
+  <displayList>
+    <image id="n18_bnyp" name="n18" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,48" size="570,303">
+      <gearSize controller="hCtrl" pages="1,3" values="570,221,1,1|570,303,1,1" default="570,134,1,1"/>
+    </image>
+    <image id="n19_bnyp" name="n19" src="htpq1q" fileName="image/通用底框/名字底框.png" pkg="jvxpx9em" xy="81,7" pivot="0.5,0.5" size="392,40"/>
+    <component id="n17_bnyp" name="comTitle" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="116,14" pivot="0.5,0.5" size="321,25">
+      <Label title="福星高照"/>
+    </component>
+    <list id="n20_bnyp" name="itemList" xy="23,71" size="657,327" scale="0.8,0.8" layout="flow_hz" scroll="horizontal" margin="0,0,5,0" lineGap="8" colGap="8" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <gearSize controller="hCtrl" pages="0,1,3" values="657,107,0.8,0.8|657,221,0.8,0.8|657,327,0.8,0.8"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n18_bnyp" sidePair="height-height"/>
+</component>

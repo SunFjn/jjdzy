@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="vagtkxbk" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="orbj0" name="图层 19.png" path="/image/" exported="true"/>
+    <image id="orbj1" name="抢购.jpg" path="/image/"/>
+    <image id="orbj2" name="指引提示框 拷贝.png" path="/image/" exported="true"/>
+    <component id="qsq25" name="ItemActComBuyLimit.xml" path="/组件/" exported="true"/>
+    <component id="qsq26" name="Child_ActComBuyLimit.xml" path="/组件/" exported="true"/>
+    <component id="qsq27" name="ActComBuyLTab.xml" path="/组件/" exported="true"/>
+    <image id="qsq28" name="折扣标签.png" path="/image/" exported="true" scale="9grid" scale9grid="18,13,3,26"/>
+    <image id="qsq29" name="选角底条.png" path="/image/" exported="true" scale="9grid" scale9grid="132,18,266,113"/>
+  </resources>
+  <publish name="actComBuyLimit" genCode="true" excluded="orbj1"/>
+</packageDescription>

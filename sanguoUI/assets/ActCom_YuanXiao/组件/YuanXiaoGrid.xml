@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="106,165" extention="Label">
+  <displayList>
+    <image id="n26_wtx2" name="n26" src="wtx2n" fileName="image/话框.png" xy="0,0" size="106,47" group="n29_m3ba"/>
+    <richtext id="n27_wtx2" name="numLb" xy="4,7" size="97,28" group="n29_m3ba" fontSize="18" color="#00ff00" align="center" autoSize="none" text="剩余11200"/>
+    <group id="n29_m3ba" name="numGroup" xy="0,0" size="106,47" advanced="true" collapsed="true"/>
+    <component id="n17_wtx2" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="3,38"/>
+    <richtext id="n23_wtx2" name="title" xy="6,137" size="95,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="面粉*1"/>
+  </displayList>
+</component>

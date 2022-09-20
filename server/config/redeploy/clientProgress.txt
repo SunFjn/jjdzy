@@ -1,0 +1,17 @@
+#部署客户端命令
+cmd unzip -q $clientBinDir$/clientupload.zip -d $clientBinDir$/
+cmd mv $clientBinDir$/clientupload/* $clientBinDir$/
+cmd rm -rf $clientBinDir$/clientupload*
+compare 1 $clientSvnDir$
+cmd svn cleanup $clientSvnDir$
+cmd svn up $clientSvnDir$
+cmd cp -ar $clientBinDir$/* $clientSvnDir$
+svnadd
+cmd svn ci $clientSvnDir$/ -m "test" --username $svnuser$ --password $svnpwd$
+compare 1 $backSvn$
+cmd svn cleanup $backSvn$
+cmd svn up $backSvn$
+cmd cp -ar $clientBinDir$/* $backSvn$
+svnadd
+cmd svn ci $backSvn$/ -m "test"
+version 3

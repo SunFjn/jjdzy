@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,666">
+  <displayList>
+    <loader id="n0_hjvb" name="imgHeadbg" xy="0,0" size="100,100"/>
+    <image id="n2_hjvb" name="n2" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="393,200" size="237,27" flip="hz"/>
+    <richtext id="n3_hjvb" name="labTips" xy="403,200" size="218,28" touchable="false" fontSize="20" color="#ffffff" align="right" autoSize="none" text="今日已充：6元"/>
+    <image id="n5_hjvb" name="n5" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="9,10" size="267,27"/>
+    <richtext id="n6_hjvb" name="labTime" xy="15,11" size="201,25" touchable="false" fontSize="18" color="#2ff10f" text="活动剩余时间：10:10:10"/>
+    <list id="n7_hjvb" name="titleList" xy="7,190" size="369,46" layout="row" scroll="horizontal" defaultItem="ui://jvxpx9emtli03cv" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n4_hjvb" name="list" xy="0,238" size="640,405" overflow="scroll" defaultItem="ui://niyo89miq6qw2" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n8_hjvb" name="moneyIcon" xy="5,57" size="429,87" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <list id="n13_c454" name="bpList" xy="480,52" size="95,97" layout="row" overflow="hidden" colGap="15" defaultItem="ui://niyo89mic4543" autoClearItems="true">
+      <item/>
+    </list>
+  </displayList>
+</component>

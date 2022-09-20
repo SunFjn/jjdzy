@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.godWeapon.GodWeapon" tbname="godWeapon">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="weaponIdByWuJiang" type="text" pf="all" comment="武将神兵的 锻造情况 武将类型=》神兵锻造情况"/>
+			<col field="num" type="int" pf="all"  comment="工匠锤抽取次数"/>
+			<col field="strength" type="int" pf="all" comment="战力"/>
+			<col field="qs" type="int" pf="all" comment="期数"/>			
+     </tb>
+</tbs>

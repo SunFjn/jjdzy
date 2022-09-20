@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,800">
+  <displayList>
+    <component id="n8_itpb" name="returnBtn" src="bwmw3b" fileName="组件/closeButton.xml" pkg="jvxpx9em" xy="453,747" size="134,55"/>
+    <component id="n1_itpb" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,16" size="593,740"/>
+    <image id="n2_itpb" name="n2" src="itpb4" fileName="image/贵宾标题.png" xy="106,-7" size="377,159"/>
+    <image id="n5_itpb" name="n5" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="17,402" size="565,337"/>
+    <image id="n4_itpb" name="n4" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="25,553" size="546,151"/>
+    <image id="n3_itpb" name="n3" src="itpb5" fileName="image/贵族主公专属特权标题.png" xy="202,410" size="188,31"/>
+    <image id="n6_itpb" name="n6" src="itpb1" fileName="image/更多惊喜敬请期待.png" xy="204,566" size="186,30"/>
+    <image id="n7_itpb" name="n7" src="itpb0" fileName="image/3特权.png" xy="132,451" size="335,98"/>
+    <image id="n20_itpb" name="n20" src="itpb8" fileName="image/首次字.png" xy="115,709"/>
+    <loader id="n14_itpb" name="bgLoader" xy="8,95" pivot="0.5,0.5" size="561,295" url="ui://uwuhem42glz79"/>
+    <loader id="n13_itpb" name="iconLoader" xy="75,129" size="215,233" url="ui://uwuhem42glz7a" fill="scaleFree"/>
+    <list id="n10_itpb" name="RewardList" xy="-5,587" pivot="0.5,0.5" size="610,104" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="128" scrollBarMargin="0,46,0,0" defaultItem="ui://jvxpx9emetorm" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n11_itpb" name="copyBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="374,313" size="130,51">
+      <Button title="一键复制"/>
+    </component>
+    <richtext id="n15_itpb" name="weixinNumber" xy="318,267" size="142,31" touchable="false" fontSize="20" color="#ffc344" text="微信号111111:"/>
+    <richtext id="n21_glz7" name="numLb" xy="459,267" size="65,31" touchable="false" fontSize="20" color="#ffffff" text="12121">
+      <relation target="n15_itpb" sidePair="left-right"/>
+    </richtext>
+  </displayList>
+</component>

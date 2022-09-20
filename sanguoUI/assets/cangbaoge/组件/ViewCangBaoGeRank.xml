@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="587,722">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n0_kaqa" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="587,722">
+      <Label title="神将送礼"/>
+    </component>
+    <list id="n2_kaqa" name="list" xy="16,157" size="555,509" overflow="scroll" lineGap="8" defaultItem="ui://1tr9e6d8z8fv18">
+      <gearDisplay controller="c1" pages="0,2"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n14_dhj5" name="lb1" xy="56,683" size="477,28" fontSize="18" color="#1bf011" align="center" autoSize="none" text="抽奖次数：1000">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <list id="n17_dhj5" name="list1" xy="16,94" size="555,576" overflow="scroll" lineGap="8" defaultItem="ui://1tr9e6d8z8fv19">
+      <gearDisplay controller="c1" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n20_twy6" name="lbMy" xy="19,678" size="290,28" fontSize="18" color="#f9bb13" text="我的排名：10          抽奖次数：100">
+      <gearDisplay controller="c1" pages="0,2"/>
+    </richtext>
+    <image id="n21_z8fv" name="n21" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="17,86" size="555,61" group="n24_q9yr"/>
+    <image id="n8_q4gk" name="n8" src="q9yr1e" fileName="image/积分.png" xy="451,98" group="n24_q9yr"/>
+    <image id="n10_q4gk" name="n10" src="j92x9t" fileName="image1/名字.png" pkg="jvxpx9em" xy="146,105" group="n24_q9yr"/>
+    <image id="n22_z8fv" name="n22" src="q8rv9n" fileName="image1/排名.png" pkg="jvxpx9em" xy="36,105" group="n24_q9yr"/>
+    <image id="n23_z8fv" name="n23" src="q8rv9o" fileName="image1/奖励.png" pkg="jvxpx9em" xy="327,105" group="n24_q9yr"/>
+    <group id="n24_q9yr" name="n24" xy="17,86" size="555,61" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0,2"/>
+    </group>
+    <component id="n16_dhj5" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,719">
+      <Button title="目标奖励" controller="c1" page="1"/>
+    </component>
+    <component id="n15_dhj5" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,719">
+      <Button checked="true" title="排行奖励" controller="c1" page="0"/>
+    </component>
+    <component id="n26_osyo" name="tab2" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="250,719">
+      <Button title="上期排名" controller="c1" page="2"/>
+    </component>
+  </displayList>
+</component>

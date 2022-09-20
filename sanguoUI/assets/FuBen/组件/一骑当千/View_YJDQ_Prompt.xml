@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,35">
+  <displayList>
+    <image id="n0_fzz8" name="n0" src="q5t63h4" fileName="image1/技能底.png" pkg="jvxpx9em" xy="0,0" size="640,35"/>
+    <richtext id="n2_fzz8" name="lb" xy="124,3" size="391,28" touchable="false" fontSize="18" color="#15f234" align="center" leading="0" vars="true" autoSize="none" text="{time=20}秒击杀BOSS可直接跳至{bo=100}波"/>
+  </displayList>
+</component>

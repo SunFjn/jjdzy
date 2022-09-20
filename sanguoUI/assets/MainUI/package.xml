@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7gxkx46w">
+  <resources>
+    <component id="mp9n0" name="ViewMainButtom.xml" path="/组件/" exported="true"/>
+    <component id="mp9n4" name="MainMenuBtn.xml" path="/组件/" exported="true"/>
+    <component id="hju42" name="ViewMainTopUI.xml" path="/组件/" exported="true"/>
+    <component id="j30eo" name="ViewMainTopUI1.xml" path="/组件/" exported="true"/>
+    <image id="rt7oq" name="经验空.png" path="/image1/" exported="true" scale="9grid" scale9grid="16,0,608,6"/>
+    <image id="rt7or" name="经验满.png" path="/image1/" exported="true" scale="9grid" scale9grid="16,0,608,6"/>
+    <image id="rt7oy" name="底部背景.png" path="/image1/" exported="true"/>
+    <component id="rt7oz" name="MainExpBar.xml" path="/组件/" exported="true"/>
+    <image id="ltpm18" name="VIP按钮.png" path="/image1/" exported="true"/>
+    <image id="ltpm1i" name="血条.png" path="/image1/" exported="true" scale="9grid" scale9grid="7,3,14,3"/>
+    <component id="tw1l1o" name="ViewMainUIRight.xml" path="/组件/" exported="true"/>
+    <component id="tw1l1p" name="ViewMainUIBottomUI1.xml" path="/组件/" exported="true"/>
+    <component id="tw1l2g" name="BSkillGrid.xml" path="/组件/" exported="true"/>
+    <component id="tw1l2h" name="ItemSkillGrid.xml" path="/组件/" exported="true"/>
+    <component id="re2a2w" name="ViewStrUp.xml" path="/组件/" exported="true"/>
+    <component id="rjjf2y" name="ViewConnectWorldNet.xml" path="/组件/" exported="true"/>
+    <component id="klpn2z" name="ViewSceneChange.xml" path="/组件/" exported="true"/>
+    <image id="klpn30" name="loading.png" path="/image1/" exported="true" scale="" scale9grid="21,17,14,15"/>
+    <component id="jy0t3c" name="View_ActPreview.xml" path="/组件/" exported="true"/>
+    <component id="j2m43j" name="ChatLb.xml" path="/组件/" exported="true"/>
+    <image id="hkln3n" name="0.png" path="/image1/战力/" exported="true"/>
+    <image id="hkln3o" name="1.png" path="/image1/战力/" exported="true"/>
+    <image id="hkln3p" name="2.png" path="/image1/战力/" exported="true"/>
+    <image id="hkln3q" name="3.png" path="/image1/战力/" exported="true"/>
+    <image id="hkln3r" name="4.png" path="/image1/战力/" exported="true"/>
+    <image id="hkln3s" name="5.png" path="/image1/战力/" exported="true"/>
+    <image id="hkln3t" name="6.png" path="/image1/战力/" exported="true"/>
+    <image id="hkln3u" name="7.png" path="/image1/战力/" exported="true"/>
+    <image id="hkln3v" name="8.png" path="/image1/战力/" exported="true"/>
+    <image id="hkln3w" name="9.png" path="/image1/战力/" exported="true"/>
+    <font id="hkln41" name="ScenePowerFnt.fnt" path="/组件/" exported="true"/>
+    <image id="hkln42" name="战力.png" path="/image1/战力/" exported="true"/>
+    <image id="dpw447" name="状态栏底.png" path="/image1/" exported="true"/>
+    <component id="e2bn4a" name="ViewBroadcastText.xml" path="/组件/" exported="true"/>
+    <component id="e2bn4b" name="BrocastTxt.xml" path="/组件/" exported="true"/>
+    <image id="ukw94c" name="聊天.png" path="/image1/" exported="true"/>
+    <component id="objs4d" name="View_FunctionPreview.xml" path="/组件/" exported="true"/>
+    <image id="mrrg4f" name="1401.png" path="/image1/" exported="true"/>
+    <image id="mrrg4g" name="1301.png" path="/image1/" exported="true"/>
+    <image id="mrrg4h" name="1201.png" path="/image1/" exported="true"/>
+    <image id="mrrg4j" name="1001.png" path="/image1/" exported="true"/>
+    <image id="mrrg4k" name="3101.png" path="/image1/" exported="true"/>
+    <image id="mrrg4l" name="1101.png" path="/image1/" exported="true"/>
+    <image id="oi0q4m" name="小框.png" path="/image1/" exported="true"/>
+    <image id="oi0q4o" name="大框.png" path="/image1/" exported="true"/>
+    <image id="oi0q4q" name="能量底.png" path="/image1/" exported="true"/>
+    <image id="wfnc4n" name="顶部影子.png" path="/image1/" exported="true" scale="9grid" scale9grid="166,0,251,56"/>
+    <image id="pc654t" name="Bt_ZDTZ_down.png" path="/image1/" exported="true"/>
+    <image id="pc654u" name="Bt_ZDTZ_up.png" path="/image1/" exported="true"/>
+    <image id="pc654v" name="自动战斗图标.png" path="/image1/" exported="true"/>
+    <component id="hf054w" name="ViewGuanQiaBossEntry.xml" path="/组件/" exported="true"/>
+    <image id="jjay4x" name="任务底.png" path="/image1/" exported="true" scale="9grid" scale9grid="0,50,257,12"/>
+    <image id="pseo4y" name="无宝物效果.png" path="/image1/" exported="true"/>
+    <image id="pseo4z" name="无天书效果.png" path="/image1/" exported="true"/>
+    <image id="pseo51" name="宝物遮罩.png" path="/image1/" exported="true"/>
+    <image id="roqq52" name="提示框.png" path="/image1/" exported="true" scale="9grid" scale9grid="31,21,87,80"/>
+    <image id="roqq53" name="熔炼.png" path="/image1/" exported="true"/>
+    <image id="obg154" name="聊天底.png" path="/image1/" exported="true" scale="9grid" scale9grid="0,52,640,32"/>
+    <component id="fzsd55" name="guideTip.xml" path="/组件/" exported="true"/>
+    <image id="gjj056" name="自动挑战底.png" path="/image1/" exported="true" scale="9grid" scale9grid="32,8,64,16"/>
+    <component id="bq0h59" name="GuanQiaBar.xml" path="/组件/" exported="true"/>
+    <image id="xhyw5a" name="1401f.png" path="/image1/" exported="true"/>
+    <image id="qohz5b" name="点击回到关卡.png" path="/image1/" exported="true"/>
+    <image id="dyuu5c" name="autoSkill.png" path="/image1/" exported="true"/>
+    <image id="po2d5d" name="点击释放神技.png" path="/image1/" exported="true"/>
+    <image id="po2d5e" name="点击使用宝物.png" path="/image1/" exported="true"/>
+    <image id="c47v5f" name="战力底.png" path="/image1/" exported="true"/>
+    <image id="pb1e5g" name="buyBg.png" path="/image1/" exported="true"/>
+    <image id="pb1e5h" name="关卡.png" path="/image1/" exported="true"/>
+    <image id="pb1e5k" name="挂机底.png" path="/image1/" exported="true"/>
+    <image id="w6ro5n" name="左功能区底.png" path="/image1/" exported="true" scale="9grid" scale9grid="19,30,42,29"/>
+    <component id="gyat5s" name="ViewMainUILeft.xml" path="/组件/"/>
+    <image id="gyat5t" name="头像底.png" path="/image1/" exported="true"/>
+    <image id="i8xh5u" name="自动底.png" path="/image1/" exported="true" scale="9grid" scale9grid="28,8,56,9"/>
+    <image id="i8xh5v" name="黑底.png" path="/image1/" exported="true"/>
+    <image id="zazn5x" name="di-jineng.png" path="/image1/" exported="true"/>
+    <image id="kje862" name="单刀赴会.png" path="/image1/"/>
+    <image id="mx0a63" name="60.png" path="/image1/"/>
+    <image id="koxx64" name="副本进度1.png" path="/image1/" exported="true"/>
+    <image id="koxx65" name="副本进度2.png" path="/image1/" exported="true"/>
+    <image id="koxx66" name="副本进度3.png" path="/image1/" exported="true"/>
+    <image id="koxx67" name="副本进度4.png" path="/image1/" exported="true"/>
+    <image id="jvkq68" name="Bt_ZDTZ_down1.png" path="/image1/" exported="true"/>
+    <image id="jvkq69" name="Bt_ZDTZ_up1.png" path="/image1/" exported="true"/>
+    <image id="idn56a" name="经验底.png" path="/image1/" exported="true"/>
+    <component id="idn56b" name="ViewMainUIBottomUI2.xml" path="/组件/" exported="true"/>
+    <component id="jv3k6c" name="TipBtn.xml" path="/组件/" exported="true"/>
+    <image id="dhj56c" name="跨服标签.png" path="/image1/" exported="true"/>
+    <component id="73mn6e" name="View_FunctionNotice_Panel.xml" path="/组件/" exported="true"/>
+    <image id="73mn6f" name="功能开启底.png" path="/image1/" exported="true"/>
+    <image id="73mn6g" name="自动.png" path="/image1/" exported="true"/>
+    <component id="lkx80" name="ChuangGuanYLIcon.xml" path="/组件/" exported="true"/>
+    <image id="lkx86h" name="台子.png" path="/image1/" exported="true"/>
+    <image id="i2yv6i" name="chat.png" path="/image1/" exported="true"/>
+    <image id="p3a06i" name="按钮.png" path="/image1/" exported="true"/>
+    <component id="102xb6j" name="tempBtn.xml" path="/组件/" exported="true"/>
+    <component id="p0spb6k" name="tempComp1.xml" path="/组件/" exported="true"/>
+    <image id="ltpmu" name="bf.png" path="/image/" exported="true"/>
+    <image id="c4lf32" name="bw.png" path="/image/" exported="true"/>
+    <image id="ltpmv" name="sj.png" path="/image/" exported="true"/>
+    <image id="ltpm11" name="tj.png" path="/image/" exported="true"/>
+    <image id="ltpmx" name="yb.png" path="/image/" exported="true"/>
+    <image id="kf2734" name="战甲.png" path="/image/" exported="true"/>
+    <image id="nayub6l" name="发光选中框.png" path="/image/" exported="true"/>
+    <component id="fbywb6m" name="ChildFuBenActEntrance.xml" path="/组件/" exported="true"/>
+    <font id="kd8fb6y" name="ShaoZhuFont.fnt" path="/image/shaozhuNum/" exported="true"/>
+    <image id="kd8fb6z" name="shaoZhu.png" path="/image/shaozhuNum/" exported="true"/>
+    <image id="kd8fb70" name="shaoZhu0.png" path="/image/shaozhuNum/" exported="true"/>
+    <image id="kd8fb71" name="shaoZhu1.png" path="/image/shaozhuNum/" exported="true"/>
+    <image id="kd8fb72" name="shaoZhu2.png" path="/image/shaozhuNum/" exported="true"/>
+    <image id="kd8fb73" name="shaoZhu3.png" path="/image/shaozhuNum/" exported="true"/>
+    <image id="kd8fb74" name="shaoZhu4.png" path="/image/shaozhuNum/" exported="true"/>
+    <image id="kd8fb75" name="shaoZhu5.png" path="/image/shaozhuNum/" exported="true"/>
+    <image id="kd8fb76" name="shaoZhu6.png" path="/image/shaozhuNum/" exported="true"/>
+    <image id="kd8fb77" name="shaoZhu7.png" path="/image/shaozhuNum/" exported="true"/>
+    <image id="kd8fb78" name="shaoZhu8.png" path="/image/shaozhuNum/" exported="true"/>
+    <image id="kd8fb79" name="shaoZhu9.png" path="/image/shaozhuNum/" exported="true"/>
+    <image id="b8g1b7a" name="觉醒.png" path="/image/" exported="true"/>
+    <image id="l220b7c" name="组 209 拷贝.png" path="/image1/" exported="true"/>
+    <image id="l220b7d" name="组 209.png" path="/image1/" exported="true"/>
+    <image id="orxgb7e" name="切换按钮.png" path="/image/" exported="true"/>
+    <image id="orxgb7g" name="能量1.png" path="/image1/" exported="true"/>
+    <image id="orxgb7i" name="能量.png" path="/image1/" exported="true"/>
+    <image id="q6rjb7j" name="卡牌选中框.png" path="/image/" exported="true" scale="9grid" scale9grid="54,75,108,150"/>
+    <image id="u89ob7k" name="Bm_Liang.png" path="/image1/"/>
+    <image id="o6k7b7m" name="折扣小标签.png" path="/image/" exported="true"/>
+    <image id="qbg3b7n" name="rageMax.png" path="/image/" exported="true"/>
+    <image id="qbg3b7o" name="爆气进度橙条.png" path="/image/" exported="true"/>
+    <image id="qbg3b7p" name="爆气进度点.png" path="/image/" exported="true"/>
+    <image id="qbg3b7q" name="爆气进度条.png" path="/image/" exported="true"/>
+    <image id="qbg3b7r" name="rage.png" path="/image/" exported="true"/>
+    <component id="qbg3b7s" name="QCBar.xml" path="/组件/" exported="true"/>
+    <image id="z5h8b7t" name="爆气按钮.png" path="/image/" exported="true"/>
+    <component id="e7fgb7u" name="VideoShow.xml" path="/组件/"/>
+    <component id="ved3b7v" name="MainMenuBtn1.xml" path="/组件/" exported="true"/>
+    <image id="gz25b7w" name="已击杀标记.png" path="/image/" exported="true"/>
+    <image id="k7mbb7x" name="折扣小标签.png" path="/image1/"/>
+  </resources>
+  <publish name="MainUI" genCode="true" excluded="kje862,mx0a63,pseo4y,pseo4z"/>
+</packageDescription>

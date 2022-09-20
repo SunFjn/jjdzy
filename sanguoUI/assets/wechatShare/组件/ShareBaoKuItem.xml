@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="278,166">
+  <displayList>
+    <image id="n0_d7us" name="n0" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="278,166"/>
+    <component id="n1_d7us" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="19,16"/>
+    <component id="n2_d7us" name="buyBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="138,109" size="117,43">
+      <Button title="兑换"/>
+    </component>
+    <loader id="n3_d7us" name="typeImg0" xy="178,44" size="40,40" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <image id="n4_d7us" name="buyImg" src="c4lpa2" fileName="image/已售罄.png" pkg="jvxpx9em" xy="136,111" visible="false"/>
+    <image id="n5_d7us" name="xianshiImg" src="fyft3hg" fileName="image1/flag.png" pkg="jvxpx9em" xy="18,17" group="n7_d7us"/>
+    <richtext id="n6_d7us" name="lb" xy="21,18" size="24,50" group="n7_d7us" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="height" text="9折"/>
+    <group id="n7_d7us" name="lbGroup" xy="18,17" size="30,59" advanced="true" collapsed="true"/>
+    <richtext id="n8_d7us" name="nameLb" xy="0,122" size="139,28" touchable="false" fontSize="18" color="#ff0000" align="center" leading="0" autoSize="shrink" text="兵法属性丹属性丹"/>
+    <richtext id="n9_d7us" name="dataLb" xy="129,14" size="133,68" touchable="false" fontSize="18" color="#ffffff" leading="18" vars="true" text="限购：0/3&#xA;现价：      1000"/>
+    <richtext id="n10_d7us" name="promptLb" xy="135,117" size="125,28" touchable="false" fontSize="18" color="#ff0000" align="center" leading="0" ubb="true" autoSize="none" text="VIP5可购买"/>
+  </displayList>
+</component>

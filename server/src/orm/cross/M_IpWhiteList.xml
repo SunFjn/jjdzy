@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- ip白名单 -->
+	<tb model="com.teamtop.system.event.backstage.events.backstage.ipWhiteList.M_IpWhiteList" tbname="m_ipWhiteList" serverid="2">
+		<index field="id" type="prikey"/>
+		<index field="time" type="normal"/>
+		<index field="ip" type="unique"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="ip" type="varchar" len="100" pf="all" comment="ip地址"/>
+		<col field="time" type="int" pf="all" comment="添加时间"/>
+		<col field="state" type="int" pf="all" comment="状态"/>
+	</tb>
+</tbs>

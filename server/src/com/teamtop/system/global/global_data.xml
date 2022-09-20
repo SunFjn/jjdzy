@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.global.GlobalDataMapper">
+	<update id="updateData" parameterType="GlobalData">
+		update globaldata set type=#{type},content=#{content,javaType=String,jdbcType=BLOB,typeHandler=com.teamtop.system.global.BlobTypeHandler},insertTime=#{insertTime},invalidTime=#{invalidTime} where id=#{id}
+	</update>
+	<insert id="insertData" parameterType="GlobalData" useGeneratedKeys="true" keyProperty="id">
+		insert into globaldata (id,type,content,insertTime,invalidTime) values (#{id},#{type},#{content,javaType=String,jdbcType=BLOB,typeHandler=com.teamtop.system.global.BlobTypeHandler},#{insertTime},#{invalidTime})
+	</insert>
+	<!-- <insert id="insert" parameterType="GlobalData" useGeneratedKeys="true" keyProperty="id">
+		${insertSql}
+	</insert> -->
+	<!-- <select id="find" parameterType="String" resultType="hashmap">
+		${value}
+	</select> -->
+	<select id="findData" parameterType="String" resultMap="gdMap">
+		${value}
+	</select>
+	<delete id="delOne" parameterType="String">
+		${value}
+	</delete>
+	<select id="findMany" resultMap="gdMap">
+		select * from globaldata;
+	</select>
+	<resultMap type="GlobalData" id="gdMap">
+		<id column="id" property="id" jdbcType="BIGINT"/>
+		<result column="type" property="type" jdbcType="INTEGER"/>
+		<result column="insertTime" property="insertTime" jdbcType="INTEGER"/>
+		<result column="invalidTime" property="invalidTime" jdbcType="INTEGER"/>
+		<result column="content" property="content" typeHandler="com.teamtop.system.global.BlobTypeHandler"/>
+	</resultMap>
+</mapper>

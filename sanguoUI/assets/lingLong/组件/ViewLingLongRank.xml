@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="587,722">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n16_dhj5" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,715">
+      <Button title="区服排名" controller="c1" page="1"/>
+    </component>
+    <component id="n15_dhj5" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,715">
+      <Button checked="true" title="个人排名" controller="c1" page="0"/>
+    </component>
+    <component id="n0_kaqa" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="587,722">
+      <Label title="排名奖励"/>
+    </component>
+    <image id="n12_q4gk" name="n12" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="16,89" size="555,61"/>
+    <list id="n2_kaqa" name="list" xy="16,157" size="555,509" overflow="scroll" lineGap="8" defaultItem="ui://1xperbsykaqa4">
+      <gearDisplay controller="c1" pages="0,2"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n8_q4gk" name="n8" src="q4gkg" fileName="image/积分.png" xy="443,100">
+      <gearDisplay controller="c1" pages="0,2"/>
+    </image>
+    <image id="n9_q4gk" name="n9" src="q8rv9o" fileName="image1/奖励.png" pkg="jvxpx9em" xy="329,109">
+      <gearXY controller="c1" pages="1" values="383,109" default="329,109"/>
+    </image>
+    <image id="n10_q4gk" name="n10" src="j92x9t" fileName="image1/名字.png" pkg="jvxpx9em" xy="146,109">
+      <gearDisplay controller="c1" pages="0,2"/>
+    </image>
+    <image id="n11_q4gk" name="n11" src="q8rv9n" fileName="image1/排名.png" pkg="jvxpx9em" xy="35,109"/>
+    <text id="n13_dhj5" name="lb" xy="39,651" size="521,28" fontSize="18" color="#1bf011" align="center" autoSize="none" text="个人积分达到{0}分可领取区服排行奖励">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <text id="n14_dhj5" name="lb1" xy="61,680" size="477,28" fontSize="18" color="#1bf011" align="center" autoSize="none" text="奖励在每日0点通过邮件发放">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <list id="n17_dhj5" name="list1" xy="16,157" size="555,487" overflow="scroll" lineGap="8" defaultItem="ui://1xperbsydhj5n">
+      <gearDisplay controller="c1" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n19_amwy" name="n19" src="amwyp" fileName="image/积分1.png" xy="168,110" size="47,23" aspect="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <richtext id="n20_twy6" name="lbMy" xy="19,678" size="290,28" fontSize="18" color="#f9bb13" text="我的排名：10          我的积分：100">
+      <gearDisplay controller="c1" pages="0,2"/>
+    </richtext>
+    <component id="n22_g6ol" name="tab2" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="251,715">
+      <Button title="上期排名" controller="c1" page="2"/>
+    </component>
+  </displayList>
+</component>

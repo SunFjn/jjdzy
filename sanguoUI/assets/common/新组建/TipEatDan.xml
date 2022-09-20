@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="412,375">
+  <displayList>
+    <component id="n22_80zw" name="frame" src="f1cf47" fileName="组件/frame1.xml" xy="0,0" size="412,375">
+      <relation target="n28_80zw" sidePair="height-height"/>
+    </component>
+    <image id="n35_kpxy" name="g22" src="x3b93cl" fileName="image/通用底框/方框3.png" xy="25,124" size="366,171">
+      <relation target="n28_80zw" sidePair="height-height"/>
+    </image>
+    <richtext id="n24_80zw" name="labName" xy="132,23" size="125,35" touchable="false" fontSize="24" color="#ffffff" text="武将属性丹"/>
+    <richtext id="n25_80zw" name="labHas" xy="132,59" size="150,28" touchable="false" fontSize="18" color="#ffffff" text="已吞噬：  94/260"/>
+    <richtext id="n26_80zw" name="labCount" xy="132,88" size="106,28" touchable="false" fontSize="18" color="#ffffff" text="拥有数量：0"/>
+    <richtext id="n27_80zw" name="lab1" xy="39,172" size="167,28" touchable="false" fontSize="18" color="#14ec24" text="已永久增加主角属性"/>
+    <richtext id="n28_80zw" name="labAttr" xy="39,199" size="113,84" touchable="false" fontSize="18" color="#ffffff" leading="6" text="攻击   +1000&#xA;攻击   +1000&#xA;攻击   +1000"/>
+    <richtext id="n34_opsf" name="lab" xy="39,137" size="275,29" touchable="false" fontSize="18" color="#14ec24" text="战甲激活（升星）可增加吞噬上限&#xA;"/>
+    <component id="n29_80zw" name="btnEat" src="y1z8b" fileName="组件/Button0.xml" xy="52,302">
+      <relation target="n22_80zw" sidePair="bottom-bottom"/>
+      <Button title="吞噬" titleColor="#ffffff"/>
+    </component>
+    <component id="n32_owbu" name="btnOneKey" src="y1z8l" fileName="组件/Button1.xml" xy="230,302">
+      <relation target="n22_80zw" sidePair="bottom-bottom"/>
+      <Button title="一键吞噬" titleColor="#ffffff"/>
+    </component>
+    <component id="n36_hd47" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" xy="26,14"/>
+  </displayList>
+  <relation target="n22_80zw" sidePair="height-height"/>
+</component>

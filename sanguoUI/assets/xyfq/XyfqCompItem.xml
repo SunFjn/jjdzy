@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="562,211">
+  <displayList>
+    <image id="n19_szt5" name="n19" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="562,211"/>
+    <image id="n27_szt5" name="n27" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="155,14" size="390,164"/>
+    <component id="n20_szt5" name="itemCur" src="szt5w" fileName="QianItemGrid.xml" xy="35,52"/>
+    <component id="n22_szt5" name="itemNeed" src="szt5w" fileName="QianItemGrid.xml" xy="195,33" size="49,64" aspect="true"/>
+    <component id="n23_szt5" name="pgNeed" src="emwp3h8" fileName="组件/ExpBar1.xml" pkg="jvxpx9em" xy="260,54" size="109,20">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n24_szt5" name="numCom" src="ko8c3gq" fileName="组件/NumberCom.xml" pkg="jvxpx9em" xy="150,108"/>
+    <component id="n25_szt5" name="resCom" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="393,112" pivot="0.5,0.5"/>
+    <richtext id="n26_szt5" name="tfDes" xy="161,177" size="85,27" fontSize="20" color="#f1f1f1" autoClearText="true" text="我的排名"/>
+    <component id="n28_szt5" name="btnOpen" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="391,33" pivot="0.5,0.5">
+      <Button title="合成福签" titleColor="#ffffff"/>
+    </component>
+  </displayList>
+</component>

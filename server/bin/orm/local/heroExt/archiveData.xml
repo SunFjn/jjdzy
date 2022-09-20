@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.archive.model.ArchiveData" tbname="archiveData">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="archiveMap" type="text" pf="all" comment="已拥有图鉴信息"/>
+			<col field="archiveSetList" type="varchar" len="200" pf="all" comment="图鉴套装信息"/>
+			<col field="strength" type="int" pf="all" comment="图鉴战力"/>
+     </tb>
+</tbs>

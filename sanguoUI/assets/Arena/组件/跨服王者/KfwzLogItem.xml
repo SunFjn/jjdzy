@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="560,429">
+  <controller name="resultCtrl" pages="0,,1,,2," selected="0"/>
+  <controller name="typeCtrl" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n1_pmqq" name="n1" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="14,0" size="546,429">
+      <gearSize controller="typeCtrl" pages="1" values="546,429,1,1" default="546,70,1,1"/>
+    </image>
+    <richtext id="n2_pmqq" name="tfContent" xy="61,11" size="414,49" fontSize="18" color="#ffffff" vAlign="middle" autoSize="none" autoClearText="true" text="你的队伍战胜了"/>
+    <component id="n12_s0r5" name="btnHide" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="523,34" pivot="0.5,0.5" anchor="true" size="55,63" rotation="-90">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n13_s0r5" name="btnShow" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="524,34" pivot="0.5,0.5" anchor="true" size="55,63" rotation="90">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <image id="n14_s0r5" name="n14" src="s0r57m" fileName="组件/跨服王者/res/胜.png" xy="0,3" size="58,64" aspect="true">
+      <gearDisplay controller="resultCtrl" pages="1"/>
+    </image>
+    <image id="n15_s0r5" name="n15" src="s0r57l" fileName="组件/跨服王者/res/负.png" xy="0,3" size="64,64" aspect="true">
+      <gearDisplay controller="resultCtrl" pages="2"/>
+    </image>
+    <image id="n19_s0r5" name="n19" src="pzsw83" fileName="组件/跨服王者/res/db_ttz_vs.png" xy="250,199" size="70,91" aspect="true">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+    </image>
+    <list id="n17_s0r5" name="list1" xy="29,76" size="515,135" layout="row" colGap="8" defaultItem="ui://me1skowln9yf72" align="center" autoClearItems="true">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n18_s0r5" name="list2" xy="29,292" size="515,135" layout="row" colGap="8" defaultItem="ui://me1skowln9yf72" align="center" autoClearItems="true">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n1_pmqq" sidePair="height-height"/>
+</component>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,904" opaque="false">
+  <displayList>
+    <image id="n37_f1cf" name="n37" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="107,533" size="449,183"/>
+    <component id="n25_sv0g" name="costGrid" src="tw1l5d" fileName="新组建/ViewGrid2.xml" pkg="jvxpx9em" xy="357,750" pivot="0.5,0.5" size="30,26"/>
+    <component id="n24_z1r8" name="suitBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="395,219" pivot="0.5,0.5" size="89,75">
+      <Button icon="ui://pofv8989bwmw5o"/>
+    </component>
+    <component id="n16_lqbq" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="271,371"/>
+    <component id="n23_lqbq" name="keyStrengBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="255,842" pivot="0.5,0.5">
+      <Button title="一键强化"/>
+    </component>
+    <richtext id="n17_lqbq" name="n0" xy="201,577" size="41,28" touchable="false" fontSize="18" color="#ffffff" autoSize="none" text="当前"/>
+    <richtext id="n18_lqbq" name="n1" xy="397,577" size="41,28" touchable="false" fontSize="18" color="#ffffff" autoSize="none" text="下级"/>
+    <component id="n19_lqbq" name="n19" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="161,742" touchable="false">
+      <relation target="" sidePair="center-center"/>
+      <Label title="强化消耗"/>
+    </component>
+    <richtext id="n28_bwmw" name="suitLb" xy="407,291" size="72,31" touchable="false" fontSize="20" color="#ffffff" align="center" leading="0" autoSize="none" strokeColor="#000000" text="3阶"/>
+    <richtext id="n30_bwmw" name="nameLb" xy="218,337" size="204,31" touchable="false" fontSize="20" color="#e5bd1d" align="center" leading="0" autoSize="none" text="武器"/>
+    <component id="n33_bwmw" name="costLb0" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="149,798" size="142,33" touchable="false">
+      <Label title="99999"/>
+    </component>
+    <component id="n35_bwmw" name="costLb1" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="344,798" size="145,36" touchable="false"/>
+    <richtext id="n20_lqbq" name="curAttLb" xy="169,606" size="97,55" group="n39_j92x" touchable="false" fontSize="18" color="#ffffff" leading="10" text="攻击 +6000&#xA;攻击 +6000"/>
+    <image id="n29_bwmw" name="n29" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="292,608" size="58,58" group="n39_j92x">
+      <relation target="n20_lqbq" sidePair="middle-middle"/>
+    </image>
+    <richtext id="n21_lqbq" name="nextAttLb" xy="370,606" size="97,55" group="n39_j92x" touchable="false" fontSize="18" color="#00ff00" vAlign="middle" leading="10" text="攻击 +6000&#xA;攻击 +6000"/>
+    <group id="n39_j92x" name="n39" xy="169,606" size="304,62" advanced="true" collapsed="true" layout="hz" colGap="20">
+      <relation target="n16_lqbq" sidePair="center-center"/>
+    </group>
+    <component id="n41_jh0l" name="nameTitle" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="165,543" size="285,25" touchable="false">
+      <relation target="" sidePair="center-center"/>
+      <Label title="武器"/>
+    </component>
+  </displayList>
+</component>

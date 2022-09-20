@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="196,228">
+  <displayList>
+    <image id="n14_cazx" name="imgBg" src="hfct5l" fileName="image/乱世枭雄/浮空台.png" xy="98,185" pivot="0.5,0.5" anchor="true" size="160,79" aspect="true"/>
+    <image id="n15_cazx" name="n15" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="0,164" size="196,62"/>
+    <image id="n12_cazx" name="imgPower" src="gsdl3cn" fileName="image1/战力底1.png" pkg="jvxpx9em" xy="28,0" size="140,29"/>
+    <richtext id="n2_6wzt" name="lbName" xy="10,170" size="176,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="S1000.玩家名字六字"/>
+    <richtext id="n4_6wzt" name="lbZs" xy="42,1" size="112,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="7-8转"/>
+    <richtext id="n13_cazx" name="lbPower" xy="10,197" size="176,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="战力：10000000"/>
+    <component id="n16_wtx2" name="roleModel" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="98,157" touchable="false"/>
+  </displayList>
+</component>

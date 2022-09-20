@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="904git2z" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="glgp7" name="已激活.png" path="/image/" exported="true"/>
+    <component id="glgpa" name="Child_ActCom_ZTXF.xml" path="/组件/" exported="true"/>
+    <image id="glgpb" name="箭头.png" path="/image/" exported="true"/>
+    <component id="glgpc" name="Tab_ZTXF.xml" path="/组件/" exported="true"/>
+    <component id="glgpd" name="ActCom_ZTXF_Item.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="ActCom_ZTXF" genCode="true" npot="true"/>
+</packageDescription>

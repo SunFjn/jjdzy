@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="589,783">
+  <displayList>
+    <component id="n0_j9wf" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="589,783">
+      <Label title="排名奖励"/>
+    </component>
+    <image id="n29_cazx" name="n29" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="17,92" size="555,45"/>
+    <list id="n23_6wzt" name="list" xy="17,144" size="555,572" overflow="scroll" lineGap="7" defaultItem="ui://kdt501v2ioin13">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n25_6wzt" name="lbMyRank" xy="22,731" size="149,28" touchable="false" fontSize="18" color="#0bf52c" text="我的排名：未上榜"/>
+    <image id="n27_cazx" name="n27" src="q8rv9n" fileName="image1/排名.png" pkg="jvxpx9em" xy="38,105"/>
+    <image id="n28_cazx" name="n28" src="q8rv9o" fileName="image1/奖励.png" pkg="jvxpx9em" xy="410,105"/>
+    <richtext id="n30_ioin" name="lbMyCount" xy="225,733" size="128,28" touchable="false" fontSize="18" color="#0bf52c" text="转盘次数：100"/>
+    <richtext id="n31_ioin" name="lbTips" xy="457,719" size="103,53" touchable="false" fontSize="18" color="#0bf52c" align="center" text="上榜条件&#xA;转盘1000次"/>
+    <image id="n32_ioin" name="n32" src="j92x9t" fileName="image1/名字.png" pkg="jvxpx9em" xy="169,105"/>
+  </displayList>
+</component>

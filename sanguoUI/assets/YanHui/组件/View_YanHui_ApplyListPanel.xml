@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImageAlpha="80">
+  <displayList>
+    <component id="n0_owxn" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="27,122" size="596,774">
+      <Label title="申请列表"/>
+    </component>
+    <list id="n5_owxn" name="list" xy="45,193" size="561,587" overflow="scroll" lineGap="5" defaultItem="ui://4x7dk3lhowxnz" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n6_owxn" name="rejectBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="375,812" pivot="0.5,0.5" size="112,46">
+      <Button title="全部拒绝" titleFontSize="20"/>
+    </component>
+    <component id="n7_owxn" name="agreeBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="494,812" pivot="0.5,0.5" size="112,46">
+      <Button title="全部同意" titleFontSize="20"/>
+    </component>
+    <component id="n8_owxn" name="boxBt" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="50,819" size="116,32">
+      <Button title="无需申请"/>
+    </component>
+  </displayList>
+</component>

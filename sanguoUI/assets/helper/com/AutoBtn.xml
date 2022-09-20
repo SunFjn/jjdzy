@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,20" opaque="false" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n5_qnht" name="icon" xy="25,-5" size="50,30" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <richtext id="n6_qnht" name="title" xy="-30,-5" size="160,30" touchable="false" font="黑体" fontSize="20" color="#e4e8ea" align="center" vAlign="middle" leading="0" autoSize="none" text="">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

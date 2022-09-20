@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossRebornFB.model.RebornFBLocal" tbname="rebornFBLocal">
+			<index field="hid" type="prikey"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="helpNum" type="int" pf="all" comment="已协助次数"/>
+			<col field="batterInfoMap" type="text" pf="all" comment="副本信息"/>
+     </tb>
+</tbs>

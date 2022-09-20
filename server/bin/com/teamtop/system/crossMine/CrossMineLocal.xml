@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.crossMine.CrossMineLocalMapper">
+	<!-- 批量更新数据 -->
+	<update id="updataCrossMine" parameterType="long" useGeneratedKeys="true" keyProperty="id">
+		update crossMineLocal set helpMinerId = -1 where hid = ${value}
+	</update> 
+</mapper>

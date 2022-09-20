@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,628" opaque="false">
+  <controller name="c1" pages="0,0级,1,未满级,2,满级" selected="1"/>
+  <displayList>
+    <image id="n38_f00b" name="n38" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="29,141" size="536,353"/>
+    <component id="n2_f00b" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="171,75"/>
+    <richtext id="n21_f00b" name="curLb" xy="58,147" size="298,27" group="n24_f00b" touchable="false" fontSize="20" color="#ffffff" leading="0" ubb="true" vars="true" text="当前阶段：神将之力达到6级(6/6)"/>
+    <richtext id="n22_f00b" name="curAttLb" xy="58,201" size="101,75" group="n24_f00b" touchable="false" fontSize="20" color="#00ff33" ubb="true" text="生命+1000&#xA;生命+1000&#xA;生命+1000"/>
+    <richtext id="n25_f00b" name="curDes" xy="58,175" size="252,27" group="n24_f00b" touchable="false" fontSize="20" color="#ffffff" leading="0" ubb="true" vars="true" text="[color=#15f234]神技坑龙有悔提升[/color]  {des=5%} 伤害"/>
+    <image id="n43_1160m" name="n43" src="1160m4z" fileName="image/专属神兵/point.png" xy="39,154" group="n24_f00b"/>
+    <group id="n24_f00b" name="n24" xy="39,147" size="317,129" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </group>
+    <richtext id="n26_f00b" name="nextLb" xy="58,296" size="298,27" group="n30_f00b" touchable="false" fontSize="20" color="#ffffff" leading="0" ubb="true" vars="true" text="下一阶段：神将之力达到6级(6/6)"/>
+    <richtext id="n27_f00b" name="nextAttLb" xy="58,350" size="101,75" group="n30_f00b" touchable="false" fontSize="20" color="#a0a0a0" ubb="true" text="生命+1000&#xA;生命+1000&#xA;生命+1000"/>
+    <richtext id="n29_f00b" name="nextDes" xy="58,324" size="252,27" group="n30_f00b" touchable="false" fontSize="20" color="#ffffff" leading="0" ubb="true" vars="true" text="[color=#15f234]神技坑龙有悔提升[/color]  {des=5%} 伤害"/>
+    <image id="n42_1160m" name="n42" src="1160m4z" fileName="image/专属神兵/point.png" xy="39,304" group="n30_f00b"/>
+    <group id="n30_f00b" name="n30" xy="39,296" size="317,129" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0" values="39,147" default="39,296"/>
+    </group>
+    <richtext id="n31_f00b" name="n31" xy="58,429" size="145,27" fontSize="20" color="#ffc334" text="已提升技能伤害"/>
+    <richtext id="n32_f00b" name="skillTxt0" xy="58,455" size="125,27" fontSize="20" color="#ffffff" text="鬼头波：35%"/>
+    <richtext id="n33_f00b" name="skillTxt1" xy="221,455" size="125,27" fontSize="20" color="#ffffff" text="鬼头波：35%"/>
+    <richtext id="n34_f00b" name="skillTxt2" xy="384,455" size="125,27" fontSize="20" color="#ffffff" text="鬼头波：35%"/>
+    <component id="n36_f00b" name="skillUpBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="232,553" group="n40_1160m">
+      <Button title="技能进阶"/>
+    </component>
+    <richtext id="n35_f00b" name="itemName" xy="169,507" size="85,27" group="n40_1160m" fontSize="20" color="#ffc334" align="right" text="神将秘籍"/>
+    <component id="n37_f00b" name="vres" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="257,509" size="147,36" group="n40_1160m">
+      <Label title="300"/>
+    </component>
+    <group id="n40_1160m" name="n40" xy="169,507" size="235,97" advanced="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </group>
+    <text id="n44_ysad" name="maxDesc" xy="245,527" size="71,29" group="n46_ysad" fontSize="22" color="#00ff33" ubb="true" text="已满阶"/>
+    <image id="n45_ysad" name="adorn" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="99,532" group="n46_ysad"/>
+    <group id="n46_ysad" name="n46" xy="99,527" size="366,29" advanced="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="637,144">
+  <displayList>
+    <image id="n4_jthq" name="n4" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="-1,0" size="638,144" flip="vt"/>
+    <richtext id="n5_jthq" name="lab" xy="17,13" size="184,25" touchable="false" fontSize="18" color="#f4b60f" text="拥有（1/1）个5星印记"/>
+    <list id="n6_jthq" name="list" xy="18,42" size="436,110" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="7" defaultItem="ui://jvxpx9emetorm" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_jthq" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="490,47">
+      <Button title="领取"/>
+    </component>
+    <component id="n9_jthq" name="btnRec" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="490,47">
+      <Button title="前往充值"/>
+    </component>
+    <image id="n8_jthq" name="imgGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="492,53"/>
+  </displayList>
+</component>

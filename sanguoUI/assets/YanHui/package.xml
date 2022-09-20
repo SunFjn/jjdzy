@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="4x7dk3lh">
+  <resources>
+    <component id="h7qe0" name="View_YanHui_Panel.xml" path="/组件/" exported="true"/>
+    <component id="h7qe1" name="YanHuiListItem.xml" path="/组件/" exported="true"/>
+    <component id="h7qe2" name="View_YanHui_FuYanPanel.xml" path="/组件/" exported="true"/>
+    <component id="h7qe3" name="View_YanHui_HoldPanel.xml" path="/组件/" exported="true"/>
+    <image id="gz255" name="邀请.png" path="/image/"/>
+    <image id="gz256" name="比武.png" path="/image/"/>
+    <image id="gz257" name="豪华宴会底框.png" path="/image/"/>
+    <image id="gz258" name="敬酒.png" path="/image/"/>
+    <image id="gz259" name="普通宴会底框.png" path="/image/"/>
+    <image id="gz25a" name="宴会标题文字.png" path="/image/"/>
+    <component id="gz25f" name="View_YanHuiScene_LeftPanel.xml" path="/组件/" exported="true"/>
+    <component id="gz25h" name="View_YanHuiScene_TopPanel.xml" path="/组件/" exported="true"/>
+    <component id="gz25i" name="View_YanHui_BKList.xml" path="/组件/" exported="true"/>
+    <component id="gz25l" name="View_YanHui_Tournament.xml" path="/组件/" exported="true"/>
+    <component id="gz25m" name="YanHui_ToumamentItem.xml" path="/组件/" exported="true"/>
+    <component id="gz25o" name="View_YanHui_FWReward.xml" path="/组件/" exported="true"/>
+    <component id="gz25p" name="YanHui_FWRewardItem.xml" path="/组件/" exported="true"/>
+    <component id="gz25r" name="View_YanHui_JingJiu_Panel.xml" path="/组件/" exported="true"/>
+    <image id="gz25s" name="敬酒底.jpg" path="/image/"/>
+    <component id="gz25t" name="YanHui_JingJiuItem.xml" path="/组件/" exported="true"/>
+    <component id="gz25v" name="YanHui_JingJiuRewardItem.xml" path="/组件/" exported="true"/>
+    <image id="ihnsw" name="已开启.png" path="/image/"/>
+    <component id="owxnx" name="View_YanHui_ApplyListPanel.xml" path="/组件/" exported="true"/>
+    <component id="owxnz" name="YanHui_ApplyListItem.xml" path="/组件/" exported="true"/>
+    <image id="owxn10" name="申请.png" path="/image/"/>
+    <image id="owxn11" name="已申请.png" path="/image/"/>
+  </resources>
+  <publish name="YanHui" genCode="true" excluded="gz259,gz257,gz25s"/>
+</packageDescription>

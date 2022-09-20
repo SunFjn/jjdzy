@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,913" opaque="false">
+  <displayList>
+    <loader id="n58_r9to" name="backBg" xy="12,149" size="616,463" url="ui://jvxpx9emm3513bg" autoSize="true"/>
+    <image id="n38_hd1b" name="n38" src="z1jw6p" fileName="image/通用底框/名字边框.png" pkg="jvxpx9em" xy="50,177"/>
+    <component id="n27_s0h0" name="rewardBt" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="514,176" size="81,88">
+      <Button icon="ui://dllc71i9v95q1r"/>
+    </component>
+    <component id="n53_v95q" name="iconJSHL" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="513,257" size="81,88">
+      <Button icon="ui://dllc71i9v95q1q"/>
+    </component>
+    <loader id="n39_hd1b" name="pinImg" xy="65,189" size="33,126" url="ui://dllc71i9hd1bp" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n40_hd1b" name="nameImg" xy="242,160" size="151,33" url="ui://dllc71i9hd1bx" align="center" vAlign="middle"/>
+    <image id="n42_hd1b" name="limitImg" src="hd1b16" fileName="image/限时.png" xy="509,173"/>
+    <image id="n46_pseo" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="581,169"/>
+    <image id="n52_nszk" name="noticeImg2" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="574,260"/>
+    <list id="n36_s0h0" name="list" xy="19,484" size="602,429" overflow="scroll" lineGap="8" defaultItem="ui://dllc71i9s0h0d" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n43_hd1b" name="n0" src="so6h17" fileName="image/晋升经验.png" xy="59,432" group="n54_ng03" color="#ffc344"/>
+    <list id="n50_bkwy" name="rewardList" xy="137,226" size="362,105" group="n54_ng03" layout="row" overflow="hidden" defaultItem="ui://dllc71i9elpxf" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n28_s0h0" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="117,445" size="450,19" group="n54_ng03">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n45_so6h" name="jihuoBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="249,380" group="n54_ng03">
+      <Button title="领取"/>
+    </component>
+    <richtext id="n25_s0h0" name="n25" xy="280,195" size="77,28" group="n54_ng03" fontSize="18" color="#ffffff" leading="0" text="下品奖励"/>
+    <richtext id="n26_s0h0" name="powerLb" xy="122,394" size="389,28" group="n54_ng03" fontSize="18" color="#ffffff" align="center" leading="0" ubb="true" autoSize="none" text="限时奖励领取6天23:59:59后结束"/>
+    <richtext id="n48_bkwy" name="n48" xy="280,338" size="77,28" group="n54_ng03" fontSize="18" color="#ffc344" leading="0" text="海量元宝"/>
+    <group id="n54_ng03" name="jinshengGroup" xy="59,195" size="508,280" advanced="true" collapsed="true"/>
+    <richtext id="n55_ng03" name="promptLb" xy="224,380" size="185,43" fontSize="30" color="#ff0000" text="已升至最高品"/>
+  </displayList>
+</component>

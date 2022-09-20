@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <controller name="c1" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <loader id="n6_r2r0" name="imgHeadbg" xy="0,280" size="640,184"/>
+    <image id="n12_bdk5" name="n12" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="36,429"/>
+    <list id="n0_r2r0" name="list" xy="2,525" size="637,400" overflow="scroll" defaultItem="ui://qzsojhcrr2r0i">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n1_r2r0" name="tab0" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="10,474" size="118,43">
+      <Button checked="true" title="团购10人" controller="c1" page="0"/>
+    </component>
+    <component id="n2_r2r0" name="tab1" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="129,474" size="118,43">
+      <Button title="团购30人" controller="c1" page="1"/>
+    </component>
+    <component id="n3_r2r0" name="tab2" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="248,474" size="118,43">
+      <Button title="团购50人" controller="c1" page="2"/>
+    </component>
+    <component id="n4_r2r0" name="tab3" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="367,474" size="130,43">
+      <Button title="团购100人" controller="c1" page="3"/>
+    </component>
+    <component id="n5_r2r0" name="tab4" src="tli03cv" fileName="组件/TabButton1.xml" pkg="jvxpx9em" xy="498,474" size="130,43">
+      <Button title="团购200人" controller="c1" page="4"/>
+    </component>
+    <image id="n7_r2r0" name="imgCharge" src="rt7o4r" fileName="image1/货币底.png" pkg="jvxpx9em" xy="434,411" size="151,39">
+      <relation target="n11_r2r0" sidePair="width-width"/>
+    </image>
+    <richtext id="n9_r2r0" name="labTime" xy="39,428" size="205,28" touchable="false" fontSize="18" color="#ffffff" text="活动剩余时间：10:10:10"/>
+    <richtext id="n11_r2r0" name="labCharge" xy="442,415" size="135,28" touchable="false" fontSize="18" color="#ffffff" autoClearText="true" text="今日已充：30元"/>
+  </displayList>
+</component>

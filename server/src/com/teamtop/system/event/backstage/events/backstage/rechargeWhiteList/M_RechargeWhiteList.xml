@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.event.backstage.events.backstage.rechargeWhiteList.RechargeWhiteListMapper">
+	<!-- 查找某个玩家账号的白名单信息 -->
+	<select id="findByOpenid" parameterType="String" resultType="hashMap">
+		select * from m_rechargewhitelist where openid = #{value};
+	</select>
+	<select id="findAll" resultType="M_RechargeWhiteList">
+		select * from m_rechargewhitelist;
+	</select>
+	<insert id="insert" parameterType="M_RechargeWhiteList" useGeneratedKeys="true" keyProperty="id">
+		insert into m_rechargewhitelist(id, openid, account,time, state) values(${id}, '${openid}', '${account}', ${time}, ${state})
+	</insert>
+	<update id="updateData" parameterType="M_RechargeWhiteList">
+		update m_rechargewhitelist set account='${account}',time=${time},state=${state} where openid='${openid}'
+	</update>
+</mapper>

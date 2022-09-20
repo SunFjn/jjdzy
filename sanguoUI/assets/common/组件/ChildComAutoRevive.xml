@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="196,32">
+  <displayList>
+    <image id="n2_rt8r" name="n2" src="c4v29g" fileName="image1/提示背景.png" xy="-91,-1" size="379,34"/>
+    <component id="n0_rt8r" name="n0" src="som165" fileName="新组建/checkBox1.xml" xy="0,0" size="196,32">
+      <Button title="自动消耗元宝复活"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,125" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <loader id="n0_qdrx" name="img" xy="22,10" size="88,90" url="ui://ht2966i4n093p"/>
+    <image id="n5_n093" name="n5" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="6,89" size="108,25"/>
+    <richtext id="n1_qdrx" name="lb" xy="0,88" size="120,28" fontSize="18" color="#66ff00" align="center" autoSize="none" text="可召唤"/>
+    <image id="n3_qdrx" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="93,9" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.05"/>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.searchAnimals.model.SearchAnimals" tbname="searchAnimals">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="animals" type="text" pf="all" comment="寻兽信息"/>
+			<col field="awards" type="text" pf="all" comment="积分奖励"/>
+			<col field="score" type="int" pf="all" comment="积分"/>
+			<col field="firstTime" type="int" pf="all" comment="每天首次"/>
+     </tb>
+</tbs>

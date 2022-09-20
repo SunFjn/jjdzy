@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,666">
+  <displayList>
+    <image id="n1_g0ni" name="n0" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="0,0" size="637,673"/>
+    <loader id="n51_h2o6" name="imgBg" xy="57,22" size="525,525" group="n73_h2o6" url="ui://eo9jmf5wh2o67"/>
+    <image id="n62_h2o6" name="zp0" src="h2o69" fileName="image/图层2.png" xy="320,282" pivot="0,0.5" anchor="true" group="n73_h2o6" rotation="-90"/>
+    <image id="n67_h2o6" name="zp1" src="h2o68" fileName="image/图层1.png" xy="320,283" group="n73_h2o6" rotation="-90"/>
+    <image id="n66_h2o6" name="zp2" src="h2o68" fileName="image/图层1.png" xy="322,285" group="n73_h2o6" rotation="-60"/>
+    <image id="n60_h2o6" name="zp3" src="h2o69" fileName="image/图层2.png" xy="321,287" pivot="0,0.5" anchor="true" group="n73_h2o6"/>
+    <image id="n61_h2o6" name="zp4" src="h2o68" fileName="image/图层1.png" xy="321,284" group="n73_h2o6"/>
+    <image id="n65_h2o6" name="zp5" src="h2o68" fileName="image/图层1.png" xy="319,285" group="n73_h2o6" rotation="30"/>
+    <image id="n63_h2o6" name="zp6" src="h2o69" fileName="image/图层2.png" xy="320,287" pivot="0,0.5" anchor="true" group="n73_h2o6" rotation="90"/>
+    <image id="n69_h2o6" name="zp7" src="h2o68" fileName="image/图层1.png" xy="320,286" group="n73_h2o6" rotation="90"/>
+    <image id="n70_h2o6" name="zp8" src="h2o68" fileName="image/图层1.png" xy="320,281" group="n73_h2o6" rotation="120"/>
+    <image id="n64_h2o6" name="zp9" src="h2o69" fileName="image/图层2.png" xy="319,285" pivot="0,0.5" anchor="true" group="n73_h2o6" rotation="180"/>
+    <image id="n71_h2o6" name="zp10" src="h2o68" fileName="image/图层1.png" xy="318,285" group="n73_h2o6" rotation="180"/>
+    <image id="n72_h2o6" name="zp11" src="h2o68" fileName="image/图层1.png" xy="317,285" group="n73_h2o6" rotation="210"/>
+    <group id="n73_h2o6" name="n73" xy="57,22" size="525,525" group="n16_g0ni" collapsed="true"/>
+    <image id="n11_g0ni" name="imgArrow" src="ve5s4" fileName="image/转盘-指针.png" xy="318,277" pivot="0.5,3" anchor="true" group="n16_g0ni"/>
+    <component id="n13_g0ni" name="btnZP" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="252,218" size="128,126" group="n16_g0ni">
+      <Button icon="ui://eo9jmf5wve5s3"/>
+    </component>
+    <image id="n15_g0ni" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="339,238" group="n16_g0ni" visible="false"/>
+    <image id="n74_h2o6" name="n74" src="h2o6a" fileName="image/装饰1.png" xy="252,413" group="n16_g0ni"/>
+    <image id="n75_h2o6" name="n75" src="h2o6b" fileName="image/装饰2.png" xy="28,45" group="n16_g0ni"/>
+    <image id="n76_h2o6" name="n76" src="h2o6c" fileName="image/装饰3.png" xy="316,33" group="n16_g0ni"/>
+    <image id="n77_h2o6" name="n77" src="h2o6d" fileName="image/装饰4.png" xy="36,383" group="n16_g0ni"/>
+    <group id="n16_g0ni" name="n16" xy="28,22" size="554,537"/>
+    <image id="n17_g0ni" name="n17" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="11,12" size="267,27"/>
+    <richtext id="n18_g0ni" name="labTime" xy="15,13" size="229,28" touchable="false" fontSize="18" color="#00ff00" text="剩余时间：6天5小时5分8秒"/>
+    <component id="n19_g0ni" name="checkBox" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="28,627" size="122,32">
+      <Button title=" 跳过动画" titleColor="#66ff00"/>
+    </component>
+    <component id="n20_g0ni" name="grid6" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="284,424" scale="0.7,0.7"/>
+    <component id="n21_g0ni" name="grid7" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="193,410" scale="0.7,0.7"/>
+    <component id="n22_g0ni" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="286,58" scale="0.7,0.7"/>
+    <component id="n23_g0ni" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="378,81" scale="0.7,0.7"/>
+    <component id="n24_g0ni" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="450,160" scale="0.7,0.7"/>
+    <component id="n25_g0ni" name="grid3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="466,247" scale="0.7,0.7"/>
+    <component id="n26_g0ni" name="grid4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="448,337" scale="0.7,0.7"/>
+    <component id="n27_g0ni" name="grid5" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="368,401" scale="0.7,0.7"/>
+    <image id="n28_g0ni" name="n28" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="251,623" size="131,38"/>
+    <richtext id="n29_g0ni" name="labTip" xy="141,561" size="359,34" touchable="false" fontSize="20" color="#ffffff" align="center" autoSize="none" text="再充值1000元可增加转动次数"/>
+    <richtext id="n30_g0ni" name="labTip1" xy="182,628" size="269,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="还可转1次"/>
+    <component id="n31_g0ni" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="138,598" size="367,16">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n43_tdkj" name="img6" src="c6yy3dg" fileName="image1/大奖.png" pkg="jvxpx9em" xy="288,424" size="26,53" aspect="true"/>
+    <image id="n44_tdkj" name="img5" src="c6yy3dg" fileName="image1/大奖.png" pkg="jvxpx9em" xy="372,404" size="26,53" aspect="true"/>
+    <image id="n45_tdkj" name="img4" src="c6yy3dg" fileName="image1/大奖.png" pkg="jvxpx9em" xy="453,337" size="26,53" aspect="true"/>
+    <image id="n46_tdkj" name="img3" src="c6yy3dg" fileName="image1/大奖.png" pkg="jvxpx9em" xy="473,249" size="26,53" aspect="true"/>
+    <image id="n47_tdkj" name="img2" src="c6yy3dg" fileName="image1/大奖.png" pkg="jvxpx9em" xy="456,160" size="26,53" aspect="true"/>
+    <image id="n48_tdkj" name="img1" src="c6yy3dg" fileName="image1/大奖.png" pkg="jvxpx9em" xy="381,79" size="26,53" aspect="true"/>
+    <image id="n49_tdkj" name="img0" src="c6yy3dg" fileName="image1/大奖.png" pkg="jvxpx9em" xy="288,57" size="26,53" aspect="true"/>
+    <image id="n50_tdkj" name="img7" src="c6yy3dg" fileName="image1/大奖.png" pkg="jvxpx9em" xy="195,411" size="26,53" aspect="true"/>
+    <component id="n52_h2o6" name="grid8" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="123,333" scale="0.7,0.7"/>
+    <image id="n53_h2o6" name="img8" src="c6yy3dg" fileName="image1/大奖.png" pkg="jvxpx9em" xy="125,334" size="26,53" aspect="true"/>
+    <component id="n54_h2o6" name="grid9" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="90,246" scale="0.7,0.7"/>
+    <image id="n55_h2o6" name="img9" src="c6yy3dg" fileName="image1/大奖.png" pkg="jvxpx9em" xy="92,247" size="26,53" aspect="true"/>
+    <component id="n56_h2o6" name="grid10" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="116,154" scale="0.7,0.7"/>
+    <image id="n57_h2o6" name="img10" src="c6yy3dg" fileName="image1/大奖.png" pkg="jvxpx9em" xy="118,155" size="26,53" aspect="true"/>
+    <component id="n58_h2o6" name="grid11" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="193,84" scale="0.7,0.7"/>
+    <image id="n59_h2o6" name="img11" src="c6yy3dg" fileName="image1/大奖.png" pkg="jvxpx9em" xy="195,85" size="26,53" aspect="true"/>
+    <richtext id="n78_hnj1" name="linkLb" xy="57,567" size="41,28" fontSize="18" color="#00ff00" underline="true" text="概率"/>
+  </displayList>
+</component>

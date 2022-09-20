@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,119">
+  <displayList>
+    <image id="n0_lfaz" name="n0" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="594,119"/>
+    <loader id="n10_lx81" name="mailImg" xy="42,43" size="56,41" url="ui://uwarq7k4k8ozj" autoSize="true"/>
+    <image id="n11_k8oz" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="429,44"/>
+    <component id="n9_lx81" name="drawBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="423,33">
+      <Button title="领取"/>
+    </component>
+    <richtext id="n1_lfaz" name="titleLb" xy="123,20" size="101,35" font="Microsoft YaHei" fontSize="24" color="#ffffff" leading="0" ubb="true" bold="true" singleLine="true" text="邮件标题&#xA;"/>
+    <richtext id="n3_lfaz" name="timeLb" xy="122,64" size="109,29" font="Microsoft YaHei" fontSize="18" color="#15f234" leading="0" ubb="true" bold="true" singleLine="true" text="2017-11-01&#xA;"/>
+  </displayList>
+</component>

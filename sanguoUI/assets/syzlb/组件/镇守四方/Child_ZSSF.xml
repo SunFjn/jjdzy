@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,911">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n1_lt8i" name="backImg" xy="12,146" size="616,598" url="ui://3o8q23uult8is"/>
+    <image id="n34_spfr" name="n34" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="13,737" size="617,174"/>
+    <component id="n2_lt8i" name="goBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="251,161">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearText controller="c1" pages="0" values="前往掠夺" default="返回"/>
+      <Button title="前往掠夺"/>
+    </component>
+    <image id="n3_lt8i" name="n3" src="if1k3hc" fileName="image/通用底框/小标题文字底.png" pkg="jvxpx9em" xy="12,151"/>
+    <richtext id="n4_lt8i" name="surLb" xy="28,156" size="153,28" fontSize="18" color="#ffffff" text="今日掠夺次数：10"/>
+    <component id="n5_lt8i" name="item4" src="spfrw" fileName="组件/镇守四方/ZSSFCityItem.xml" xy="207,402">
+      <Label icon="ui://3o8q23uult8iu"/>
+    </component>
+    <image id="n9_spfr" name="n9" src="htpq1q" fileName="image/通用底框/名字底框.png" pkg="jvxpx9em" xy="248,342"/>
+    <richtext id="n10_spfr" name="n10" xy="269,343" size="99,35" fontSize="22" color="#ffffff" align="center" autoSize="none" text="皇庭"/>
+    <component id="n27_spfr" name="item1" src="spfrw" fileName="组件/镇守四方/ZSSFCityItem.xml" xy="403,270">
+      <Label icon="ui://3o8q23uult8it"/>
+    </component>
+    <component id="n28_spfr" name="item3" src="spfrw" fileName="组件/镇守四方/ZSSFCityItem.xml" xy="13,518">
+      <Label icon="ui://3o8q23uult8it"/>
+    </component>
+    <component id="n29_spfr" name="item2" src="spfrw" fileName="组件/镇守四方/ZSSFCityItem.xml" xy="403,518">
+      <Label icon="ui://3o8q23uult8it"/>
+    </component>
+    <component id="n12_spfr" name="item0" src="spfrw" fileName="组件/镇守四方/ZSSFCityItem.xml" xy="13,270">
+      <Label icon="ui://3o8q23uult8it"/>
+    </component>
+    <image id="n13_spfr" name="n13" src="spfrx" fileName="image/镇守四方/名字底.png" xy="584,525" group="n17_spfr"/>
+    <image id="n14_spfr" name="n14" src="spfr10" fileName="image/镇守四方/东方.png" xy="595,575" group="n17_spfr"/>
+    <group id="n17_spfr" name="n17" xy="584,525" size="44,149" collapsed="true"/>
+    <image id="n18_spfr" name="n18" src="spfrx" fileName="image/镇守四方/名字底.png" xy="584,296" group="n20_spfr"/>
+    <image id="n19_spfr" name="n19" src="spfrz" fileName="image/镇守四方/北方.png" xy="595,346" group="n20_spfr"/>
+    <group id="n20_spfr" name="n20" xy="584,296" size="44,149" collapsed="true"/>
+    <image id="n21_spfr" name="n21" src="spfrx" fileName="image/镇守四方/名字底.png" xy="12,524" group="n23_spfr"/>
+    <image id="n22_spfr" name="n22" src="spfr11" fileName="image/镇守四方/南方.png" xy="22,574" group="n23_spfr"/>
+    <group id="n23_spfr" name="n23" xy="12,524" size="44,149" collapsed="true"/>
+    <image id="n24_spfr" name="n24" src="spfrx" fileName="image/镇守四方/名字底.png" xy="12,295" group="n26_spfr"/>
+    <image id="n25_spfr" name="n25" src="spfry" fileName="image/镇守四方/西方.png" xy="23,345" group="n26_spfr"/>
+    <group id="n26_spfr" name="n26" xy="12,295" size="44,149" collapsed="true"/>
+    <richtext id="n35_spfr" name="cityLb1" xy="53,747" size="96,34" group="n44_spfr" fontSize="22" color="#ffffff" align="center" autoSize="none" text="南方"/>
+    <loader id="n36_spfr" name="n36" xy="23,778" size="166,127" group="n44_spfr" url="ui://3o8q23uult8it" align="center" fill="scale"/>
+    <richtext id="n37_spfr" name="n37" xy="184,753" size="95,28" group="n62_cenr" fontSize="18" color="#f4bf12" text="可掠夺奖励"/>
+    <component id="n38_spfr" name="resCom" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="213,783" size="133,33" group="n62_cenr"/>
+    <richtext id="n39_spfr" name="ldNumLb" xy="184,818" size="113,28" group="n62_cenr" fontSize="18" color="#f4bf12" text="可掠夺奖励："/>
+    <component id="n40_spfr" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="349,731" group="n62_cenr" scale="0.7,0.7"/>
+    <component id="n41_spfr" name="head1" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="367,772" group="n62_cenr"/>
+    <component id="n42_spfr" name="ldBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="479,793" group="n62_cenr">
+      <Button title="掠夺"/>
+    </component>
+    <group id="n62_cenr" name="cityDataGroup" xy="184,731" size="431,168" group="n44_spfr" advanced="true"/>
+    <richtext id="n63_cenr" name="cityPrompt" xy="498,807" size="101,35" group="n44_spfr" touchable="false" fontSize="24" color="#ff0000" text="无人镇守"/>
+    <image id="n65_mqpu" name="ldImg" src="mqpu1k" fileName="image/镇守四方/掠夺成功.png" xy="496,802" group="n44_spfr" visible="false"/>
+    <group id="n44_spfr" name="n44" xy="23,731" size="592,174" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n32_spfr" name="resBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="254,636" group="n45_spfr">
+      <Button title="刷新"/>
+    </component>
+    <image id="n30_spfr" name="n30" src="if1k3hc" fileName="image/通用底框/小标题文字底.png" pkg="jvxpx9em" xy="207,598" size="215,36" group="n64_mqpu"/>
+    <richtext id="n31_spfr" name="resTimeLb" xy="235,603" pivot="0.5,0.5" size="153,28" group="n64_mqpu" fontSize="18" color="#ffffff" text="今日掠夺次数：10"/>
+    <component id="n33_spfr" name="costLb" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="260,697" size="125,33" group="n64_mqpu"/>
+    <group id="n64_mqpu" name="freegroup" xy="207,598" size="215,132" group="n45_spfr" advanced="true"/>
+    <group id="n45_spfr" name="n45" xy="207,598" size="215,132" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <richtext id="n46_spfr" name="cityLb0" xy="51,745" size="96,34" group="n55_spfr" touchable="false" fontSize="22" color="#ffffff" align="center" autoSize="none" text="南方"/>
+    <loader id="n47_spfr" name="cityIcon" xy="21,776" size="166,127" group="n55_spfr" url="ui://3o8q23uult8it" align="center" fill="scale"/>
+    <richtext id="n48_spfr" name="n48" xy="186,752" size="77,28" group="n55_spfr" touchable="false" fontSize="18" color="#febf12" text="镇守奖励"/>
+    <component id="n50_spfr" name="rewardLb0" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="209,786" size="277,33" group="n55_spfr" touchable="false"/>
+    <richtext id="n51_spfr" name="qdLb" xy="186,819" size="77,28" group="n55_spfr" touchable="false" fontSize="18" color="#febf12" text="被掠夺："/>
+    <component id="n52_spfr" name="rewardLb1" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="209,851" size="140,33" group="n55_spfr" touchable="false"/>
+    <richtext id="n53_spfr" name="n53" xy="497,744" size="77,28" group="n55_spfr" touchable="false" fontSize="18" color="#ffffff" text="镇守武将"/>
+    <component id="n54_spfr" name="head0" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="478,772" group="n55_spfr"/>
+    <component id="n56_cenr" name="goGeneralBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="508,789" size="58,58" group="n55_spfr">
+      <Button icon="ui://jvxpx9emqblv3dq"/>
+    </component>
+    <richtext id="n61_cenr" name="timeLb" xy="278,752" size="77,28" group="n55_spfr" touchable="false" fontSize="18" color="#ffffff" text="剩余时间"/>
+    <group id="n55_spfr" name="n55" xy="21,744" size="576,159" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n58_cenr" name="shopBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="400,152" size="70,73">
+      <Button icon="ui://3o8q23uucenr1c"/>
+    </component>
+    <component id="n59_cenr" name="reportBt" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="478,152" size="72,72">
+      <Button icon="ui://jvxpx9emoyp8r"/>
+    </component>
+    <component id="n60_cenr" name="smBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="555,152" size="75,76">
+      <Button icon="ui://jvxpx9emw6sh3g4"/>
+    </component>
+  </displayList>
+</component>

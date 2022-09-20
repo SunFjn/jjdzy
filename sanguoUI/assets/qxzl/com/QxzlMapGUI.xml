@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,1520" overflow="scroll" scroll="both" scrollBarFlags="384" scrollBar="hidden">
+  <displayList>
+    <loader id="n0_ems4" name="loaderBg" xy="0,0" size="1600,1520" url="ui://6d8dzzdghdba4"/>
+    <component id="n1_ems4" name="item0" src="ems47" fileName="com/QxzlCityItem.xml" xy="118,232" customData="301" controller="countryCtrl,0">
+      <Label icon="ui://6d8dzzdghdba3"/>
+    </component>
+    <component id="n13_ems4" name="item1" src="ems47" fileName="com/QxzlCityItem.xml" xy="678,239" customData="401" controller="countryCtrl,0">
+      <Label icon="ui://6d8dzzdghdba2"/>
+    </component>
+    <component id="n14_ems4" name="item2" src="ems47" fileName="com/QxzlCityItem.xml" xy="1229,250" customData="303" controller="countryCtrl,0">
+      <Label icon="ui://6d8dzzdghdba3"/>
+    </component>
+    <component id="n15_ems4" name="item10" src="ems47" fileName="com/QxzlCityItem.xml" xy="681,492" customData="307" controller="countryCtrl,0">
+      <Label icon="ui://6d8dzzdghdba3"/>
+    </component>
+    <component id="n16_ems4" name="item9" src="ems47" fileName="com/QxzlCityItem.xml" xy="333,602" customData="201" controller="countryCtrl,0">
+      <Label icon="ui://6d8dzzdghdba1"/>
+    </component>
+    <component id="n17_ems4" name="item15" src="ems47" fileName="com/QxzlCityItem.xml" xy="681,708" customData="101" controller="countryCtrl,0"/>
+    <component id="n18_ems4" name="item11" src="ems47" fileName="com/QxzlCityItem.xml" xy="1117,618" customData="202" controller="countryCtrl,0">
+      <Label icon="ui://6d8dzzdghdba1"/>
+    </component>
+    <component id="n19_ems4" name="item14" src="ems47" fileName="com/QxzlCityItem.xml" xy="234,823" customData="308" controller="countryCtrl,0">
+      <Label icon="ui://6d8dzzdghdba3"/>
+    </component>
+    <component id="n20_ems4" name="item13" src="ems47" fileName="com/QxzlCityItem.xml" xy="715,1020" customData="203" controller="countryCtrl,0">
+      <Label icon="ui://6d8dzzdghdba1"/>
+    </component>
+    <component id="n21_ems4" name="item12" src="ems47" fileName="com/QxzlCityItem.xml" xy="1083,866" customData="309" controller="countryCtrl,0">
+      <Label icon="ui://6d8dzzdghdba3"/>
+    </component>
+    <component id="n22_ems4" name="item8" src="ems47" fileName="com/QxzlCityItem.xml" xy="27,490" customData="302" controller="countryCtrl,0">
+      <Label icon="ui://6d8dzzdghdba3"/>
+    </component>
+    <component id="n23_ems4" name="item7" src="ems47" fileName="com/QxzlCityItem.xml" xy="72,1067" customData="402" controller="countryCtrl,0">
+      <Label icon="ui://6d8dzzdghdba2"/>
+    </component>
+    <component id="n24_ems4" name="item6" src="ems47" fileName="com/QxzlCityItem.xml" xy="390,1107" customData="305" controller="countryCtrl,0">
+      <Label icon="ui://6d8dzzdghdba3"/>
+    </component>
+    <component id="n25_ems4" name="item5" src="ems47" fileName="com/QxzlCityItem.xml" xy="979,1178" customData="306" controller="countryCtrl,0">
+      <Label icon="ui://6d8dzzdghdba3"/>
+    </component>
+    <component id="n26_ems4" name="item4" src="ems47" fileName="com/QxzlCityItem.xml" xy="1271,1048" customData="403" controller="countryCtrl,0">
+      <Label icon="ui://6d8dzzdghdba2"/>
+    </component>
+    <component id="n27_ems4" name="item3" src="ems47" fileName="com/QxzlCityItem.xml" xy="1339,480" customData="304" controller="countryCtrl,0">
+      <Label icon="ui://6d8dzzdghdba3"/>
+    </component>
+    <component id="n28_fmjx" name="role" src="gxpd3gh" fileName="组件/RoleCom.xml" pkg="jvxpx9em" xy="167,184" visible="false"/>
+  </displayList>
+</component>

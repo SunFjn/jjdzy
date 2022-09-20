@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,917" opaque="false">
+  <displayList>
+    <image id="n33_61zd" name="n33" src="z1jw6l" fileName="image/侧边框底.png" pkg="jvxpx9em" xy="3,144" size="167,773"/>
+    <component id="n21_t2re" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="257,144"/>
+    <image id="n31_61zd" name="n0" src="61zd1o" fileName="image/line.png" xy="200,365" size="154,36" group="n65_i1zl" rotation="-50"/>
+    <image id="n59_i1zl" name="n1" src="61zd1o" fileName="image/line.png" xy="310,242" size="121,36" group="n65_i1zl" rotation="7.8"/>
+    <image id="n60_i1zl" name="n2" src="61zd1o" fileName="image/line.png" xy="441,268" size="96,35" group="n65_i1zl" rotation="36.7"/>
+    <image id="n61_i1zl" name="n3" src="61zd1o" fileName="image/line.png" xy="527,352" size="85,35" group="n65_i1zl" rotation="74"/>
+    <image id="n62_i1zl" name="n4" src="61zd1o" fileName="image/line.png" xy="539,472" size="85,35" group="n65_i1zl" rotation="125"/>
+    <image id="n63_i1zl" name="n5" src="61zd1o" fileName="image/line.png" xy="298,507" size="153,35" group="n65_i1zl" rotation="6.7"/>
+    <image id="n64_i1zl" name="n6" src="61zd1o" fileName="image/line.png" xy="277,496" size="94,35" group="n65_i1zl" rotation="-53.1"/>
+    <image id="n42_c4lf" name="lb0" src="hblp36" fileName="image/字/履.png" xy="237,359" group="n65_i1zl"/>
+    <image id="n43_c4lf" name="lb1" src="hblp37" fileName="image/字/谦.png" xy="319,270" group="n65_i1zl"/>
+    <image id="n44_c4lf" name="lb6" src="hblp39" fileName="image/字/巽.png" xy="303,530" group="n65_i1zl"/>
+    <image id="n45_c4lf" name="lb5" src="hblp35" fileName="image/字/困井.png" xy="483,556" group="n65_i1zl"/>
+    <image id="n46_c4lf" name="lb2" src="hblp33" fileName="image/字/复.png" xy="422,290" group="n65_i1zl"/>
+    <image id="n47_c4lf" name="lb4" src="hblp38" fileName="image/字/损益.png" xy="529,478" group="n65_i1zl"/>
+    <image id="n48_c4lf" name="lb3" src="hblp34" fileName="image/字/恒.png" xy="529,357" group="n65_i1zl"/>
+    <group id="n65_i1zl" name="n65" xy="200,242" size="424,359" collapsed="true"/>
+    <image id="n25_61zd" name="n25" src="61zd1l" fileName="image/主星底.png" xy="329,345"/>
+    <loader id="n10_t2re" name="iconImg" xy="347,355" size="65,67" url="ui://c7onhgk8t2rep" autoSize="true"/>
+    <image id="n24_61zd" name="n24" src="61zd13" fileName="image/主星透明罩.png" xy="347,355"/>
+    <image id="n28_61zd" name="n28" src="61zd1m" fileName="image/主星文字底.png" xy="329,412"/>
+    <image id="n2_t2re" name="iconImg0" src="61zd1f" fileName="image/卫星.png" xy="210,348" size="32,32"/>
+    <image id="n3_t2re" name="iconImg1" src="61zd1f" fileName="image/卫星.png" xy="291,236" size="45,46"/>
+    <image id="n4_t2re" name="iconImg2" src="61zd1f" fileName="image/卫星.png" xy="403,248" size="49,50"/>
+    <image id="n5_t2re" name="iconImg3" src="61zd1f" fileName="image/卫星.png" xy="491,315" size="58,58"/>
+    <image id="n6_t2re" name="iconImg4" src="61zd1f" fileName="image/卫星.png" xy="507,421" size="62,63"/>
+    <image id="n7_t2re" name="iconImg5" src="61zd1f" fileName="image/卫星.png" xy="434,509" size="64,64"/>
+    <image id="n8_t2re" name="iconImg6" src="61zd1f" fileName="image/卫星.png" xy="249,488" size="64,64"/>
+    <loader id="n11_t2re" name="iconLbImg" xy="337,417" size="38,22" touchable="false" url="ui://c7onhgk8t2reb" autoSize="true"/>
+    <image id="n34_61zd" name="n34" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="170,612" size="454,155" group="n19_t2re" visible="false"/>
+    <richtext id="n15_t2re" name="curAtt" xy="250,678" size="98,58" group="n36_61zd" touchable="false" fontSize="18" color="#ffffff" leading="6" text="攻击+1000&#xA;攻击+1000"/>
+    <image id="n35_61zd" name="n35" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="368,678" group="n36_61zd">
+      <relation target="n15_t2re" sidePair="middle-middle"/>
+    </image>
+    <richtext id="n14_t2re" name="nextAtt" xy="446,678" size="98,58" group="n36_61zd" touchable="false" fontSize="18" color="#00ff00" leading="6" text="攻击+1000&#xA;攻击+1000"/>
+    <group id="n36_61zd" name="n36" xy="250,678" size="294,58" group="n19_t2re" advanced="true" collapsed="true" layout="hz" colGap="20">
+      <relation target="n34_61zd" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n49_af3g" name="n49" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="206,857" group="n51_af3g"/>
+    <richtext id="n50_af3g" name="n50" xy="331,849" size="120,35" group="n51_af3g" touchable="false" fontSize="24" color="#00ff00" align="center" autoSize="none" text="已满阶"/>
+    <group id="n51_af3g" name="maxGroup" xy="206,849" size="366,35" group="n19_t2re" advanced="true" collapsed="true"/>
+    <component id="n17_t2re" name="upBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="324,841" group="n52_af3g">
+      <Button title="升级"/>
+    </component>
+    <component id="n55_ih3m" name="labCount" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="259,800" size="252,36" group="n52_af3g" touchable="false">
+      <Label title="9999.9万/9999.9万"/>
+    </component>
+    <group id="n52_af3g" name="btGroup" xy="259,800" size="252,103" group="n19_t2re" advanced="true" collapsed="true"/>
+    <component id="n57_tli0" name="n57" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="229,619" size="329,31" group="n19_t2re">
+      <Label title="升星属性"/>
+    </component>
+    <group id="n19_t2re" name="upGroup" xy="170,612" size="454,291" advanced="true" collapsed="true"/>
+    <list id="n1_t2re" name="list" xy="13,153" size="152,755" overflow="scroll" defaultItem="ui://c7onhgk8t2re11" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n18_t2re" name="jihuoLb" xy="250,833" size="262,35" touchable="false" fontSize="24" color="#ff0000" align="center" autoSize="none" text="三转一重激活"/>
+    <richtext id="n29_61zd" name="levelLb" xy="380,412" size="43,28" fontSize="18" color="#ffffff" align="right" leading="0" autoSize="none" text="4阶"/>
+  </displayList>
+</component>

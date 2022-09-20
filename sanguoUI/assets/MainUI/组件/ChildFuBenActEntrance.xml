@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,100">
+  <displayList>
+    <loader id="n0_fbyw" name="n0" xy="9,0" size="84,88" url="ui://7gxkx46wmx0a63">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+  </displayList>
+</component>

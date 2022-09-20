@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="167,113">
+  <displayList>
+    <richtext id="n2_1266w" name="lbName" xy="-1,83" pivot="0.5,0.5" size="169,28" fontSize="18" color="#ffffff" vAlign="middle" autoClearText="true" text="名字最长六子.s6666"/>
+    <loader id="n5_psge" name="imgHead" xy="43,6" size="80,80" group="n3_lxm0" url="ui://jvxpx9emp75388" fill="scaleFree"/>
+    <loader id="n6_psge" name="imgHeadGrid" xy="33,-2" size="100,90" group="n3_lxm0" url="ui://jvxpx9emtw1l5j" align="center" vAlign="bottom"/>
+    <group id="n3_lxm0" name="n3" xy="33,-2" size="100,90"/>
+    <image id="n4_lxm0" name="n4" src="lxm0p" fileName="res/MVP.png" xy="39,0"/>
+  </displayList>
+</component>

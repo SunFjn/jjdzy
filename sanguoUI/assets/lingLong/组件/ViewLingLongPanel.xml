@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <image id="n71_i1zl" name="n71" src="i1zlq" fileName="组件/寻宝.jpg" xy="0,0"/>
+    <component id="n29_q4gk" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://1xperbsyq4gka"/>
+    </component>
+    <image id="n56_kuy0" name="n56" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="20,723" size="600,187" flip="vt"/>
+    <image id="n46_q4gk" name="n46" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="16,207" size="606,374"/>
+    <image id="n34_q4gk" name="n34" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="65,325" size="536,132" flip="vt"/>
+    <component id="n2_kaqa" name="g0" src="kaqa1" fileName="组件/VLingLongItem.xml" xy="51,215"/>
+    <component id="n3_kaqa" name="g1" src="kaqa1" fileName="组件/VLingLongItem.xml" xy="268,215"/>
+    <component id="n4_kaqa" name="g2" src="kaqa1" fileName="组件/VLingLongItem.xml" xy="485,215"/>
+    <component id="n5_kaqa" name="g7" src="kaqa1" fileName="组件/VLingLongItem.xml" xy="51,341"/>
+    <component id="n6_kaqa" name="g3" src="kaqa1" fileName="组件/VLingLongItem.xml" xy="485,341"/>
+    <component id="n7_kaqa" name="g6" src="kaqa1" fileName="组件/VLingLongItem.xml" xy="51,461"/>
+    <component id="n8_kaqa" name="g4" src="kaqa1" fileName="组件/VLingLongItem.xml" xy="485,461"/>
+    <component id="n9_kaqa" name="g5" src="kaqa1" fileName="组件/VLingLongItem.xml" xy="268,461"/>
+    <richtext id="n10_kaqa" name="labTips" xy="294,731" size="319,28" fontSize="18" color="#ffffff" align="right" autoSize="none" text="每领取一轮积分奖励后可重置"/>
+    <component id="n11_kaqa" name="btnBuy1" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="158,625" pivot="0.5,0.5">
+      <Button title="购买1次"/>
+    </component>
+    <component id="n12_kaqa" name="btnBuy10" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="380,625" pivot="0.5,0.5">
+      <Button title="购买10次"/>
+    </component>
+    <richtext id="n24_kaqa" name="labCost1" xy="240,688" pivot="0.5,0" anchor="true" size="35,28" fontSize="18" color="#ffffff" autoClearText="true" text="7/1"/>
+    <richtext id="n25_kaqa" name="labBuy1" xy="157,593" size="137,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="购买100星魂"/>
+    <richtext id="n26_kaqa" name="labBuy10" xy="369,593" size="157,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="购买1000星魂"/>
+    <richtext id="n27_kaqa" name="labCost10" xy="467,688" pivot="0.5,0" anchor="true" size="49,28" fontSize="18" color="#ffffff" text="1000"/>
+    <image id="n32_q4gk" name="imgBao1" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="186,685" hideByEditor="true">
+      <relation target="n24_kaqa" sidePair="left-left"/>
+    </image>
+    <image id="n33_q4gk" name="imgBao10" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="406,685">
+      <relation target="n27_kaqa" sidePair="left-left"/>
+    </image>
+    <component id="n35_q4gk" name="btnRank" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="547,640" pivot="0.5,0.5" size="67,82">
+      <Button icon="ui://1xperbsyq4gk7"/>
+    </component>
+    <component id="n40_q4gk" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="44,877" size="551,24">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader id="n49_l1e2" name="imgLing1" xy="189,686" size="30,30" url="ui://1xperbsyl1e2k" vAlign="middle" fill="scaleFree">
+      <relation target="n24_kaqa" sidePair="left-left"/>
+    </loader>
+    <loader id="n50_l1e2" name="imgLing10" xy="408,686" size="30,30" url="ui://1xperbsyl1e2k" vAlign="middle" fill="scaleFree">
+      <relation target="n27_kaqa" sidePair="left-left"/>
+    </loader>
+    <image id="n57_frac" name="n57" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="195,159" size="253,40"/>
+    <richtext id="n58_frac" name="labJin" xy="217,164" size="206,31" touchable="false" fontSize="18" color="#f9bb13" align="center" autoSize="none" text="今日主题：武将武将武"/>
+    <text id="n59_frac" name="labMing" xy="431,181" size="194,25" fontSize="16" color="#ffffff" align="right" autoSize="none" singleLine="true" text="明日主题：武将武将"/>
+    <text id="n62_jzfm" name="labMing1" xy="475,180" size="149,25" visible="false" fontSize="16" color="#ffffff" align="right" text="明日主题：武将武将"/>
+    <image id="n63_s9bg" name="chooseImg" src="xwhy3dc" fileName="image/抽奖框.png" pkg="jvxpx9em" xy="48,213"/>
+    <list id="n64_pk53" name="listPoint" xy="50,763" size="538,114" layout="row" overflow="scroll" scroll="horizontal" colGap="22" defaultItem="ui://1xperbsypk53l">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n65_pk53" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="32,806" pivot="0.5,0.5" anchor="true" size="36,47">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <component id="n66_pk53" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="607,806" pivot="0.5,0.5" anchor="true" size="36,47" scale="-1,1">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <richtext id="n67_upyg" name="noteLb" xy="155,331" size="315,118" fontSize="18" color="#ffffff" leading="16" autoSize="none" text="S1000.玩家名字六字获得道具名字名字*1000&#xA;S1000.玩家名字六字获得道具名字名字*1000&#xA;S1000.玩家名字六字获得道具名字名字*1000&#xA;"/>
+    <richtext id="n68_h1ig" name="labTotal" xy="27,731" size="121,28" fontSize="18" color="#ffffff" text="总积分：1000"/>
+    <richtext id="n69_pdbd" name="linkLb" xy="26,601" size="45,31" fontSize="20" color="#00ff00" underline="true" text="概率"/>
+    <component id="n70_bwh7" name="checkBox" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="14,654" size="122,32">
+      <Button title=" 跳过动画"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,305">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n1_udgz" name="taiziImg" xy="35,181" size="135,67" aspect="true" scale="0.6,0.6" url="ui://yqpfulefqxiv1b"/>
+    <component id="n2_udgz" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="26,222" scale="0.65,0.65">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n3_udgz" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="110,222" scale="0.7,0.65">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <loader id="n0_udgz" name="iconSel" xy="-14,-15" size="227,369" locked="true" scale="1,0.9" visible="false" url="ui://yqpfulefoiih3j"/>
+    <image id="n10_udgz" name="n10" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="26,198" size="152,92">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n11_udgz" name="iconBX" src="aro89e" fileName="image/新资源/宝箱.png" pkg="jvxpx9em" xy="58,213" size="90,76" aspect="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n12_udgz" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="136,209" visible="false">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n14_udgz" name="iconKQ" src="genj3m" fileName="image/升阶秘境/已开启.png" xy="59,186">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n6_udgz" name="n6" src="tc2x48" fileName="image/升阶秘境/标题文字底.png" xy="26,26" size="148,39">
+      <relation target="n7_udgz" sidePair="leftext-left,rightext-right"/>
+    </image>
+    <text id="n7_udgz" name="txtTitle" xy="36,34" size="127,27" fontSize="20" color="#ff9900" text="99阶武将秘境">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n4_udgz" name="n4" src="pxaa3cv" fileName="image/数量框.png" pkg="jvxpx9em" xy="51,196" size="94,32" aspect="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n9_udgz" sidePair="leftext-left,rightext-right"/>
+    </image>
+    <text id="n9_udgz" name="txtOpenLv" xy="61,200" size="77,25" fontSize="18" color="#ff0000" text="首通奖励">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n15_git2" name="imgZhe" src="m3513by" fileName="image/文字底.png" pkg="jvxpx9em" xy="44,205"/>
+    <richtext id="n16_git2" name="lbZhe" xy="47,209" size="49,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="5折"/>
+    <image id="n17_qsq2" name="imgDoub" src="qsq23gc" fileName="image1/双倍标签.png" pkg="jvxpx9em" xy="151,71"/>
+  </displayList>
+</component>

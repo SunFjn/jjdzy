@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="rhfap29i" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="n0930" name="Child_ActComLeiTai.xml" path="/组建/" exported="true"/>
+    <component id="n0931" name="ItemLeiTai.xml" path="/组建/" exported="true"/>
+    <component id="n0933" name="ItemLeiTaiHead.xml" path="/组建/" exported="true"/>
+    <image id="ut4i4" name="擂台台子.png" path="/image/" exported="true"/>
+    <image id="ut4i5" name="背景.jpg" path="/image/"/>
+    <image id="ut4i6" name="绿色箭头.png" path="/image/" exported="true"/>
+    <component id="ut4i8" name="ViewLeiTaiReport.xml" path="/组建/" exported="true"/>
+    <component id="ut4i9" name="ViewLeiTaiReward.xml" path="/组建/" exported="true"/>
+    <image id="ut4ia" name="战报.png" path="/image/"/>
+    <component id="wf0hb" name="ItemLeiTaiReport.xml" path="/组建/" exported="true"/>
+    <image id="u1kuc" name="擂主.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="actComLeiTai" genCode="true" npot="true" excluded="ut4i5"/>
+</packageDescription>

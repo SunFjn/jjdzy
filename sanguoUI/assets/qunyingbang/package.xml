@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="pxel4rmb" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="wzou0" name="ViewQunYingB.xml" path="/组件/" exported="true"/>
+    <component id="wzou1" name="QunYingBIt.xml" path="/组件/" exported="true"/>
+    <image id="ewje3" name="本期群英榜.png" path="/image/" exported="true"/>
+    <image id="ewje6" name="群英榜.png" path="/image/" exported="true"/>
+    <image id="osyoa" name="上期群英榜.png" path="/image/" exported="true"/>
+    <image id="smghc" name="群英榜背景图.jpg" path="/image/"/>
+  </resources>
+  <publish name="qunyingbang" genCode="true" npot="true" excluded="smghc"/>
+</packageDescription>

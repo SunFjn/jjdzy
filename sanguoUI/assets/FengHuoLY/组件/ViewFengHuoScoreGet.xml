@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,403">
+  <displayList>
+    <component id="n1_lkik" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,403">
+      <Label title="征收成功"/>
+    </component>
+    <image id="n4_lkik" name="n4" src="x3b93cl" fileName="image1/BOSS名字底.png" pkg="jvxpx9em" xy="27,87" size="538,182"/>
+    <component id="n2_lkik" name="n2" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="231,298">
+      <Button title="确定"/>
+    </component>
+    <text id="n5_lkik" name="n5" xy="240,101" size="113,35" fontSize="24" color="#ffffff" align="center" text="积分+100">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n6_lkik" name="n6" xy="110,144" size="372,96" layout="row" overflow="scroll" defaultItem="ui://jvxpx9emetorm" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="143,66">
+  <displayList>
+    <image id="n0_iy75" name="n0" src="iy753ez" fileName="image/连击.png" xy="0,0"/>
+    <text id="n1_iy75" name="showLb" xy="-37,0" size="115,39" font="ui://jvxpx9emog799d" fontSize="24" color="#ffffff" align="right" autoSize="none" text="333"/>
+  </displayList>
+</component>

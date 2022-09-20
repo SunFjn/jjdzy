@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,767">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n11_r5ge" name="bg" xy="1,0" size="719,767" url="ui://vgiijkm8r5gea" autoSize="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearIcon controller="c1" pages="1" values="ui://vgiijkm8r5gea" default="ui://vgiijkm8r5ge6"/>
+    </loader>
+    <component id="n4_uvs3" name="item2" src="uvs31" fileName="组件/GCBZCityItem.xml" xy="237,0" pivot="0.5,0.5">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="64,3|237,0"/>
+    </component>
+    <component id="n5_uvs3" name="item1" src="uvs31" fileName="组件/GCBZCityItem.xml" xy="199,293" pivot="0.5,0.5">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="34,240|199,293"/>
+    </component>
+    <component id="n6_uvs3" name="item0" src="uvs31" fileName="组件/GCBZCityItem.xml" xy="7,505" pivot="0.5,0.5">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="7,505|7,505"/>
+    </component>
+    <component id="n9_uvs3" name="item3" src="uvs31" fileName="组件/GCBZCityItem.xml" xy="411,163" pivot="0.5,0.5">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="391,428|411,163"/>
+    </component>
+    <component id="n10_uvs3" name="container" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="700,300" size="0,0"/>
+  </displayList>
+</component>

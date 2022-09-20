@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="cg6stvjx" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="mbqo0" name="View_SevenDayLogin_Panel.xml" path="/组件/" exported="true"/>
+    <image id="h8gx1" name="七天登录标题.png" path="/image/" exported="true"/>
+    <image id="h8gx3" name="背景.jpg" path="/image/"/>
+  </resources>
+  <publish name="sevenDayLogin" genCode="true" npot="true" excluded="h8gx3"/>
+</packageDescription>

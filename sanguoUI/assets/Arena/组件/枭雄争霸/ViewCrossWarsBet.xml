@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="608,574">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n5_6wzt" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="608,574">
+      <Label title="竞猜"/>
+    </component>
+    <image id="n26_cazx" name="n26" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="16,90" size="576,320"/>
+    <richtext id="n11_6wzt" name="lbTips" xy="42,363" size="527,28" touchable="false" fontSize="18" color="#0cf62d" align="center" autoSize="none" text="每个赛程只可押注一场比赛，奖励本场比赛结束后邮件发放"/>
+    <component id="n22_6wzt" name="ply0" src="hfct4d" fileName="组件/枭雄争霸/VCrossWarsBet.xml" xy="29,97">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+    <component id="n23_6wzt" name="ply1" src="hfct4d" fileName="组件/枭雄争霸/VCrossWarsBet.xml" xy="394,97">
+      <Button controller="c1" page="1"/>
+    </component>
+    <richtext id="n24_6wzt" name="lbCost" xy="298,481" size="38,28" fontSize="18" color="#ffffff" text="300"/>
+    <image id="n28_cazx" name="n28" src="k8h11s" fileName="image/VS.png" xy="230,180"/>
+    <component id="n29_cazx" name="btnBet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="233,426">
+      <Button title="押注"/>
+    </component>
+    <image id="n30_cazx" name="n30" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="262,480"/>
+    <richtext id="n10_6wzt" name="lbTips1" xy="58,520" size="167,28" group="n35_cazx" fontSize="18" color="#ffffff" text="若押注选手&lt;font color='#0cf62d'>晋级&lt;/font>赢得"/>
+    <richtext id="n27_cazx" name="lbTips2" xy="305,520" size="185,28" group="n35_cazx" fontSize="18" color="#ffffff" text="，若押注选手&lt;font color='#f30a0a'>淘汰&lt;/font>返还"/>
+    <image id="n31_cazx" name="n31" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="225,519" group="n35_cazx"/>
+    <richtext id="n32_cazx" name="lbTipCount1" xy="258,520" size="49,28" group="n35_cazx" fontSize="18" color="#ffc334" text="1000"/>
+    <image id="n33_cazx" name="n33" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="491,519" group="n35_cazx"/>
+    <richtext id="n34_cazx" name="lbTipCount2" xy="525,520" size="27,28" group="n35_cazx" fontSize="18" color="#ffc334" text="50"/>
+    <group id="n35_cazx" name="gTips" xy="58,519" size="494,31" advanced="true"/>
+  </displayList>
+</component>

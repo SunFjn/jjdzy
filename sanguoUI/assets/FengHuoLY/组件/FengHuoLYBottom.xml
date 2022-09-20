@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,200">
+  <displayList>
+    <component id="n1_srrs" name="btnOut" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="491,138"/>
+    <component id="n2_srrs" name="btnFollow" src="z1r82f" fileName="新组建/checkBox.xml" pkg="jvxpx9em" xy="523,6"/>
+    <text id="n3_srrs" name="n3" xy="559,14" size="53,21" fontSize="12" text="镜头跟随"/>
+    <image id="n4_ekf6" name="n4" src="aro89e" fileName="image1/宝箱.png" pkg="jvxpx9em" xy="-4,-54"/>
+  </displayList>
+</component>

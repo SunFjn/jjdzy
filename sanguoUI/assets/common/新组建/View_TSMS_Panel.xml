@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="335,204" overflow="hidden">
+  <displayList>
+    <loader id="n0_hc26" name="iconImg" xy="0,0" size="335,204" url="ui://jvxpx9emhc263ex" align="center" vAlign="bottom" fill="scaleNoBorder" shrinkOnly="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="XY" target="n0_hc26" tween="true" startValue="-272,0" endValue="0,0" duration="12"/>
+  </transition>
+</component>

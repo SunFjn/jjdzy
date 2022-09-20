@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="195,339" overflow="hidden" scroll="horizontal">
+  <displayList>
+    <loader id="n7_8qvq" name="loader" xy="0,0" size="195,339" url="ui://7a366usaiduu22" fill="scaleFree" autoSize="true"/>
+    <component id="n1_ir1y" name="item" src="sr401m" fileName="组件/六出祁山/ItemLCQSMapDetail.xml" xy="0,38">
+      <Button checked="true" page="0"/>
+    </component>
+  </displayList>
+</component>

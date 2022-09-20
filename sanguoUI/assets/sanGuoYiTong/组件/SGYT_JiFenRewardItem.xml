@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="560,137">
+  <displayList>
+    <image id="n17_iv4o" name="n17" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="560,137"/>
+    <image id="n18_iv4o" name="n18" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="17,10" size="282,28"/>
+    <image id="n23_iv4o" name="drawImg" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="376,49"/>
+    <richtext id="n19_iv4o" name="countryLb" xy="21,9" size="77,28" fontSize="18" color="#ffffff" text="积分到达"/>
+    <richtext id="n24_iv4o" name="drawLb" xy="390,53" size="95,31" fontSize="20" color="#ff0000" align="center" autoSize="none" text="未完成"/>
+    <component id="n20_iv4o" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="18,40" scale="0.8,0.8"/>
+    <component id="n21_iv4o" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="108,40" scale="0.8,0.8"/>
+    <component id="n22_iv4o" name="drawBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="373,43">
+      <Button title="领取"/>
+    </component>
+  </displayList>
+</component>

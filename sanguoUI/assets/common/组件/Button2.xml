@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,30" opaque="false" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_c14z" name="icon" xy="0,0" size="50,30" align="center" vAlign="middle" autoSize="true"/>
+    <image id="n4_rt7o" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" xy="35,-5" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.10"/>
+  <relation target="n3_c14z" sidePair="width-width,height-height"/>
+</component>

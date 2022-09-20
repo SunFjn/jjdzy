@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="226,334">
+  <displayList>
+    <loader id="n1_cia2" name="iconImg" xy="6,6" size="210,318" url="ui://m0rbmsgscia23a" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <loader id="n2_cia2" name="colorImg" xy="0,0" size="226,334" url="ui://m0rbmsgsh3bo2o" autoSize="true"/>
+    <image id="n3_cia2" name="maskImg" src="61zd77" fileName="image1/九宫格拉伸透明底.png" pkg="jvxpx9em" xy="0,0" size="226,334" alpha="0.5"/>
+    <image id="n4_cia2" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="203,3" visible="false"/>
+    <richtext id="n6_cia2" name="levelLb" xy="8,10" size="39,28" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="99"/>
+    <richtext id="n7_cia2" name="nameLb" xy="63,3" size="98,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="赵云"/>
+    <text id="n8_cia2" name="starLb" xy="184,16" size="29,129" font="ui://jvxpx9emz1r82c" fontSize="18" color="#ffffff" leading="0" autoSize="none" text="00100"/>
+  </displayList>
+</component>

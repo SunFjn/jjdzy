@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.rechargeFeedback.moel.RechargeFeedback" tbname="rechargeFeedback">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="awardStateMap" type="text" pf="all" comment="奖励状态key:配置表id value:1：可领取，2：已领取"/>
+			<col field="consumeYb" type="int" pf="all" comment="消耗元宝"/>
+     </tb>
+</tbs>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="595,190">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1_genj" name="n1" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="595,190"/>
+    <loader id="n0_genj" name="bgLD" xy="0,0" size="100,100"/>
+    <loader id="n2_genj" name="taiziImg" xy="15,111" size="137,68" aspect="true" scale="0.6,0.6" url="ui://yqpfulefqxiv1b"/>
+    <component id="n21_pdff" name="container" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="82,125"/>
+    <image id="n3_genj" name="n3" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="25,142" size="116,38"/>
+    <richtext id="n4_genj" name="txtName" xy="47,144" size="71,34" fontSize="22" color="#ff9900" text="诸葛亮">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n5_genj" name="n5" src="genj3n" fileName="image/升阶秘境/已通关.png" xy="31,65"/>
+    <image id="n8_genj" name="n8" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="157,81" size="277,93"/>
+    <image id="n9_genj" name="n9" src="tc2x48" fileName="image/升阶秘境/标题文字底.png" xy="187,17" size="204,45"/>
+    <text id="n10_genj" name="txtTitle" xy="216,25" size="150,39" fontSize="26" color="#ff9900" text="4阶武将秘境">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n11_genj" name="btnHand" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="450,99">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="进入"/>
+    </component>
+    <image id="n13_genj" name="n13" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="432,37" size="147,32" flip="hz">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <richtext id="n14_genj" name="txtSDCount" xy="460,32" size="108,27" fontSize="20" color="#ffffff" align="right" vAlign="middle" autoSize="none" text="扫荡次数: 1">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n19_tc2x" name="gridContainer" src="tc2x3dv" fileName="新组建/EmptyComp.xml" pkg="jvxpx9em" xy="170,86"/>
+    <graph id="n17_tc2x" name="n17" xy="0,0" size="594,190" hideByEditor="true" alpha="0.6" touchable="false" type="rect" lineColor="#00000000" fillColor="#ff000000"/>
+    <image id="n18_tc2x" name="n18" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="464,103" size="118,38" group="n20_tc2x"/>
+    <text id="n15_udgz" name="txtOpenLv" xy="477,110" size="105,31" group="n20_tc2x" fontSize="20" color="#ff0000" bold="true" text="(99级开启)">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n20_tc2x" name="n20" xy="464,103" size="118,38" advanced="true" collapsed="true"/>
+    <image id="n22_qsq2" name="imgDoub" src="qsq23gc" fileName="image1/双倍标签.png" pkg="jvxpx9em" xy="379,29"/>
+  </displayList>
+</component>

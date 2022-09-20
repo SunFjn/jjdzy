@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossMine.model.CrossMine" tbname="crossMine" serverid="3">
+		<index field="hid" type="prikey"/>
+		<col field="hid" type="bigint" pf="all" comment="对象id也是队伍id"/>
+		<col field="mineId" type="int" pf="all" comment="矿藏配置id"/>
+		<col field="startTime" type="bigint" pf="all" comment="开始开采时间"/>
+		<col field="stealTimes" type="int" pf="all" comment="被顺手牵羊次数"/>
+		<col field="fightTimes" type="int" pf="all" comment="被抢次数"/>
+		<col field="minersInfo" type="text" pf="all" comment="队伍人员"/>	
+		<col field="name" type="varchar" len="50" pf="all" comment="矿主名称"/>
+		<col field="minerNum" type="int" pf="all" comment="几人开采"/>
+		<col field="belongZoneid" type="int" pf="all" comment="所属区服"/>
+		<col field="yz" type="int" pf="all" comment="刷新阈值"/>
+	</tb>
+</tbs>

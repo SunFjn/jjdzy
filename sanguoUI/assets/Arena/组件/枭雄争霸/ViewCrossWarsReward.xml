@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="589,783">
+  <displayList>
+    <component id="n0_j9wf" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="589,783">
+      <Label title="奖励"/>
+    </component>
+    <image id="n29_cazx" name="n29" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="17,92" size="555,45"/>
+    <list id="n23_6wzt" name="list" xy="17,144" size="555,572" overflow="scroll" lineGap="7" defaultItem="ui://me1skowlhfct4a">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n25_6wzt" name="lbTips" xy="93,731" size="402,28" touchable="false" fontSize="18" color="#0bf52c" align="center" autoSize="none" text="排名奖励活动结束后邮件发放"/>
+    <image id="n27_cazx" name="n27" src="q8rv9n" fileName="image/排名.png" xy="83,105" pkg="jvxpx9em"/>
+    <image id="n28_cazx" name="n28" src="q8rv9o" fileName="image/奖励.png" xy="381,104" pkg="jvxpx9em"/>
+  </displayList>
+</component>

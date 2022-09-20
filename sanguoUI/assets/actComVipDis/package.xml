@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="mpjztent" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="og19r" name="Child_ActComVipDis.xml" path="/组件/" exported="true"/>
+    <image id="og19s" name="按钮.png" path="/image/" exported="true"/>
+    <component id="io2jx" name="VipDiscountBtn.xml" path="/组件/" exported="true"/>
+    <component id="vt1r12" name="VipDiscountItem.xml" path="/组件/" exported="true"/>
+    <image id="gtq213" name="底.png" path="/image/" exported="true" scale="9grid" scale9grid="14,6,28,9" gridTile="31"/>
+  </resources>
+  <publish name="actComVipDis" genCode="true" npot="true"/>
+</packageDescription>

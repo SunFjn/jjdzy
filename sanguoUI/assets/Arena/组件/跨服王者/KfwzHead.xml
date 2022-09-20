@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="167,113">
+  <displayList>
+    <richtext id="n2_1266w" name="lbName" xy="0,95" pivot="0.5,0.5" size="167,25" fontSize="18" color="#ffffff" vAlign="middle" autoClearText="true" text="名字最长六子.s6666"/>
+    <loader id="n5_psge" name="imgHead" xy="43,6" size="80,80" group="n3_lxm0" url="ui://jvxpx9emp75388" fill="scaleFree"/>
+    <loader id="n6_psge" name="imgHeadGrid" xy="33,-2" size="100,90" group="n3_lxm0" url="ui://jvxpx9emtw1l5j" align="center" vAlign="bottom"/>
+    <group id="n3_lxm0" name="n3" xy="33,-2" size="100,90"/>
+    <richtext id="n7_n9yf" name="tfLevel" xy="78,124" pivot="0.5,0.5" size="10,25" fontSize="18" color="#ffffff" vAlign="middle" autoClearText="true" text=""/>
+    <richtext id="n8_n9yf" name="tfPower" xy="78,153" pivot="0.5,0.5" size="10,25" fontSize="18" color="#ffffff" vAlign="middle" autoClearText="true" text=""/>
+  </displayList>
+</component>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.hero.HeroMapper">
+	<update id="update" parameterType="String">
+		${value}
+	</update>
+	<insert id="insert" parameterType="Hero" useGeneratedKeys="true" keyProperty="id">
+		${insertSql}
+	</insert>
+	<select id="find" parameterType="String" resultType="hashmap">
+		${value}
+	</select>
+	<insert id="insertGen" parameterType="com.teamtop.system.hero.General" useGeneratedKeys="true" keyProperty="id">
+		${insertSql}
+	</insert>
+	<select id="findGenerals" parameterType="long" resultType="hashmap">
+		select * from general where hid=${value}
+	</select>
+	<select id="getmaxid" resultType="long">
+		select max(id) from hero
+	</select>
+	<!-- 登陆查找hero基本信息 -->
+	<select id="findHeroLoginBase" parameterType="long" resultType="LightLoginHero">
+		select id,aid,name,openid,zoneid,sex,job,illegalState,illegalTimeout,illegalReason,forbidState,forbidTimeout,forbidReason from hero where id=${value}
+	</select>
+	<delete id="delOne" parameterType="String">
+		${value}
+	</delete>
+	<select id="getHeroSexCount" parameterType="int" resultType="com.teamtop.system.hero.HeroSexCount">
+		select count(1) as count,sex from hero where zoneid=${value} group by sex 
+	</select>
+	<select id="findHidByName" parameterType="String" resultType="Hero">
+		select id, name from hero where name=#{value} limit 1 
+	</select>
+	<select id="findHidsByName" parameterType="String" resultType="long">
+		select id from hero where name like '%${value}%' limit 1 
+	</select>
+	<select id="getHidByName" parameterType="String" resultType="long">
+		select id from hero where name=#{value} limit 1 
+	</select>
+	<select id="findHidByOpenid" parameterType="String" resultType="long">
+		select id from hero where openid=#{value} limit 1 
+	</select>
+	<select id="findHidByPfOpenid" parameterType="String" resultType="long">
+		select hid from account where pfopenid=#{value} limit 1 
+	</select>	
+	<select id="findLevel" parameterType="long" resultType="int">
+		select level from hero where id=${value}
+	</select>
+	<select id="findAllHid" resultType="long">
+		select id from hero
+	</select>
+	<select id="findHeroNum" resultType="long">
+		select count(id) from hero
+	</select>
+	<select id="findIpNum" resultType="long">
+		select count(distinct createIp) from hero
+	</select>
+	<select id="findAllHidByConditions" parameterType="String" resultType="long">
+		${value}
+	</select>
+	<select id="findAllHidByConditionsLh" parameterType="String" resultType="HeroLevelInfo">
+		${value}
+	</select>
+	<!--批量禁言-->
+	<update id="batchUpdateStopTalk" parameterType="string">
+		update hero set illegalState=3,illegalReason=3,illegalTimeout=unix_timestamp()+24*3600 where id in (${value}); 
+	</update>
+	<!--单个禁言-->
+	<update id="UpdateStopTalk" parameterType="long">
+		update hero set illegalState=3,illegalReason=3,illegalTimeout=unix_timestamp()+24*3600 where id =${value}; 
+	</update>
+	<!--解开禁言-->
+	<update id="freeStopTalk" parameterType="long">
+		update hero set illegalState=0 ,illegalReason=0,illegalTimeout=unix_timestamp() where id =${value}; 
+	</update>
+	<select id="findBasic" parameterType="long" resultType="Hero">
+		select id,name,level,sex,gangId,logoutTime,zoneid,totalStrength,job from hero where id=${value}
+	</select>
+	
+	<!--查找离线战斗玩家数据-->
+	<select id="findBattleHero" parameterType="long" resultType="hashmap">
+		select id,name,level,job,sex,zoneid,totalStrength,finalFightAttr,showModel from hero where id=${value}
+	</select>
+	<!--查找离线战斗玩家阵法数据-->
+	<select id="findBattleHeroDeploy" parameterType="long" resultType="hashmap">
+		select * from deploy where hid=${value}
+	</select>
+	<!--查找离线战斗玩家技能数据-->
+	<select id="findBattleHeroSkill" parameterType="long" resultType="hashmap">
+		select * from skill where hid=${value}
+	</select>
+	<!--查找离线战斗玩家麒麟臂数据-->
+	<select id="findBattleUnicornArm" parameterType="long" resultType="hashmap">
+		select * from unicornArm where hid=${value}
+	</select>
+	<!--查找离线战斗玩家上阵将领数据-->
+	<select id="findBattleGeneral" parameterType="java.util.Map" resultType="hashmap">
+		select * from general where hid=${hid} and state = ${state}
+	</select>
+	<!--查找离线战斗玩家上阵将领数据-->
+	<select id="findBattleExtGeneral" parameterType="java.util.Map" resultType="hashmap">
+		select * from general where hid=${hid} and configId in (${configId});
+	</select>	
+	<!--查找离线战斗宠物数据-->
+	<select id="findBattlePet" parameterType="long" resultType="hashmap">
+		select * from pet where hid=${value}
+	</select>
+	<!--查找离线婚宴送礼数据-->
+	<!-- <select id="findMarriageGiftList" parameterType="long" resultType="hashmap">
+		select id,name,level,job,sex,zoneid,marriageGifts,marriageId from hero where id=${value}
+	</select> -->
+	<!--更新角色帮会信息-->
+	<update id="updateGangInfo" parameterType="java.util.Map">
+		update hero set gangId=${gangId} where id =${hid}; 
+	</update>
+	<!--更新玩家结婚-->
+	<update id="updateMarriage" parameterType="java.util.Map">
+		update hero set marryHid=${marryHid},marriageId=${marriageId} where id =${hid}; 
+	</update>
+	<!--更新角色称号信息-->
+	<update id="updateTitleInfo" parameterType="java.util.Map">
+		update hero set titleId=#{titleId} where id=#{hid};
+	</update>
+	<!--更新角色已穿戴的信息-->
+	<update id="updateWearInfo" parameterType="java.util.Map">
+		update hero set wearInfo=#{wearInfo} where id=#{hid};
+	</update>
+	<!--更新角色封号禁言状态-->
+	<update id="updateForbidInfo" parameterType="Hero">
+		update hero set illegalState=#{illegalState},illegalTimeout=#{illegalTimeout},illegalReason=#{illegalReason},forbidState=#{forbidState},forbidTimeout=#{forbidTimeout},forbidReason=#{forbidReason} where id=#{id};
+	</update>
+	<!--更新角色滚服状态-->
+	<update id="updateOldPlayer" parameterType="java.util.Map">
+		update hero set isOldPlayer=#{isOldPlayer} where id=#{id};
+	</update>
+	<!--名字是否存在-->
+	<select id="existName" parameterType="String" resultType="long">
+		select id from hero where name=#{value}
+	</select>
+	<!--更新名字-->
+	<update id="updateName" parameterType="java.util.Map">
+		update hero set name=#{name} where id=#{hid};
+	</update>
+	<!--查找侠客岛数据-->
+	<select id="findBattleGeneralIsland" parameterType="long" resultType="hashmap">
+		select * from generalIsland where hid=${value};
+	</select>
+	<!--更新内部号标识-->
+	<update id="updateIndoor" parameterType="java.util.Map">
+		update hero set isIndoorAccount=#{type} where id=#{hid};
+	</update>
+	
+	<!--查找任务集市-->
+	<select id="getZoneMarket" parameterType="java.util.Map" resultType="hashmap">
+		select * from zoneMarket where openid=#{openid} and zoneid=#{zoneid};
+	</select>
+	<!-- 查找对应ip的角色id -->
+	<select id="findHeroByIp" parameterType="string" resultType="long">
+		select id from hero where loginIp=#{value} or createIp=#{value};
+	</select>
+	<!-- 更新离线的广告号数据 -->
+	<update id="updateAdHero" parameterType="java.util.Map">
+		update hero set adState=#{state},adMonitorType=#{type},illegalState=#{illegalState},illegalTimeout=#{illegalTimeout},illegalReason=#{illegalReason},adTime=#{time} where id=#{id};
+	</update>
+	<!-- 查找广告号的注册ip -->
+	<select id="findAdIp" resultType="string">
+		select distinct createIp from hero where adState = 3;
+	</select>
+	<!--查找等级角色-->
+	<select id="getLvHero" parameterType="java.util.Map" resultType="LightLoginHero">
+		select id,aid,name,openid,zoneid,sex,job from hero where rebornlv>=#{rebornlv} and id not in(${ids})
+	</select>
+	<!--更新登录平台和渠道-->
+	<update id="updateLoginPf" parameterType="java.util.Map">
+		update hero set loginPf=#{loginPf}, loginPd=#{loginPd} where id=#{hid};
+	</update>
+	<!--查找收益上限-->
+	<select id="findLimitRec" parameterType="long" resultType="hashmap">
+		select id,limitRec from hero where id=${value}
+	</select>
+	<!--更新收益上限-->
+	<update id="updateLimitRec" parameterType="java.util.Map">
+		update hero set limitRec=#{limitRec} where id=#{hid};
+	</update>
+	<!-- 根据国家查找玩家id -->
+	<select id="findCountry" resultType="hashmap">
+		 select id,countryType from hero where countryType > 0
+	</select>
+	<!-- 查询玩家战力 限制前20 -->
+	<select id="findCountryStrength" parameterType="int" resultType="CountryStrengthRankModel">
+		select id,totalStrength,official,name,icon,frame,job,showModel from hero where countryType = #{countryType} order by totalStrength DESC limit 0,20
+	</select>
+	<!-- 查询玩家战力 由高到低 -->
+	<select id="findAllCountryStrength" parameterType="int" resultType="KingShipModel">
+		select id,totalStrength,official,name from hero where countryType = #{countryType} order by totalStrength DESC
+	</select>
+	<!-- 根据国家获取等级前20成员 -->
+	<select id="findCountryLevelPeople" parameterType="int" resultType="FightNSScoreRank">
+		select id as hid, name, level, job, countryType, totalStrength as strength, settingData from hero where countryType = #{countryType} order by level DESC limit 0,20
+	</select>
+	<!-- 更新hero玩家的 successPayNum数量-->
+	<update id="updateHeroPayNum" parameterType="java.util.Map">
+		update hero set successPayNum=#{successPayNum} where openid=#{openid};
+	</update>
+    
+    <!--离线更新 玩家的霸服礼包数量-->
+	<update id="updateGiftTaskIds" parameterType="java.util.Map">
+		update hero set giftTaskIds=#{giftTaskIds} where id=#{hid};
+	</update>
+	<!--按照时间+平台 查询全区总充值-->
+	<select id="getRechargeNumByTimePfcode" parameterType="java.util.Map" resultType="int">
+	    select sum(payNum)/100 from b_payaccount where payTime &gt; #{paytime1} and payTime &lt; #{paytime2} and pfcode=${pfcode};
+	</select>
+	<!--按照时间  查询全区总充值-->
+	<select id="getRechargeNumByTime" parameterType="java.util.Map" resultType="int">
+	    select sum(payNum)/100 from b_payaccount where payTime &gt; #{paytime1} and payTime &lt; #{paytime2};
+	</select>
+	<!--更新zero-->
+	<update id="updateZeroTime" parameterType="int">
+		update hero set zeroTime=${zeroTime} ; 
+	</update>
+	<!--获取Vip达标人数-->
+	<select id="getNumByVip" parameterType="int" resultType="long">
+	    select id from hero where viplv>=#{viplv};
+	</select>		
+</mapper>

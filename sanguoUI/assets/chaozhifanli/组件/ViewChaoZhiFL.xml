@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" designImage="ui://qzsojhcrpovh1k">
+  <displayList>
+    <component id="n0_lwai" name="frame" src="fsg93cj" fileName="组件/frame4.xml" pkg="jvxpx9em" xy="0,0"/>
+    <list id="n13_lez2" name="lst" xy="34,116" size="564,138" layout="row" overflow="scroll" scroll="horizontal" colGap="5" defaultItem="ui://jvxpx9emr9to3he" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n14_o1f2" name="n14" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="0,160" size="55,63" scale="0.8,0.8">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <component id="n15_o1f2" name="n15" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="591,155" pivot="0.5,0.5" size="55,63" scale="-0.8,0.8">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+  </displayList>
+</component>

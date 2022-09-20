@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="555,115">
+  <displayList>
+    <image id="n6_q4gk" name="n6" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="555,115"/>
+    <richtext id="n2_kaqa" name="labPoint" xy="13,44" size="125,28" fontSize="18" color="#ffffff" autoClearText="true" text="累计胜利:1000"/>
+    <list id="n4_kaqa" name="list" xy="153,5" size="238,106" layout="row" overflow="scroll" scroll="horizontal" colGap="6" defaultItem="ui://jvxpx9emetorm" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n10_z8fv" name="btnRec" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="404,38">
+      <Button title="领取"/>
+    </component>
+    <image id="n11_z8fv" name="imgGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="416,43" hideByEditor="true"/>
+    <richtext id="n12_ykxm" name="lbNo" xy="439,49" size="59,28" fontSize="18" color="#ff0000" text="未达成"/>
+  </displayList>
+</component>

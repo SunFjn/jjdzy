@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="b3p8szvv" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="tw1l1" name="DailyBaoXiang.xml" path="/每日任务/" exported="true"/>
+    <component id="tw1l2" name="DailyItem.xml" path="/每日任务/" exported="true"/>
+    <component id="tw1l5" name="ChildDailyTask.xml" path="/每日任务/" exported="true"/>
+    <component id="ftjg1e" name="ViewDailyBox.xml" path="/每日任务/" exported="true"/>
+    <component id="g5te1n" name="ViewDailyTask.xml" path="/每日任务/" exported="true"/>
+    <image id="kzof1o" name="每日任务标题.png" path="/images/" exported="true"/>
+    <component id="tc2x1p" name="ChildActPreView.xml" path="/每日任务/" exported="true"/>
+    <component id="tc2x1q" name="ItemActPreView.xml" path="/每日任务/" exported="true"/>
+    <component id="tc2x1r" name="VActPreViewBox.xml" path="/每日任务/" exported="true"/>
+    <component id="v4311u" name="xxxComp.xml" path="/每日任务/" exported="true"/>
+    <image id="810t23" name="重要标签.png" path="/images/" exported="true"/>
+    <image id="nxbw2g" name="进行中.png" path="/images/" exported="true"/>
+    <image id="nxbw2h" name="每日奖励.png" path="/images/" exported="true"/>
+    <image id="nxbw2j" name="标题文字底.png" path="/images/" exported="true" scale="9grid" scale9grid="32,9,64,18"/>
+    <image id="nxbw2l" name="跨服标签.png" path="/images/" exported="true"/>
+    <image id="nxbw2m" name="活动预览标题.png" path="/images/" exported="true"/>
+    <component id="q2i92n" name="ChildTuiSongMsg.xml" path="/每日任务/" exported="true"/>
+    <component id="q2i92o" name="TuSongMsgItem.xml" path="/每日任务/" exported="true"/>
+    <image id="q2i92q" name="推送消息设置标题.png" path="/images/" exported="true"/>
+  </resources>
+  <publish name="dailytask" genCode="true" npot="true"/>
+</packageDescription>

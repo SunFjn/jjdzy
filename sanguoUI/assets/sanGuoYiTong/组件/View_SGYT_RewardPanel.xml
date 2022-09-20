@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,759">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n1_iv4o" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,707">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <gearText controller="c1" pages="0,1,2" values="个人排名|国家排名|积分奖励"/>
+      <Label title="个人排名"/>
+    </component>
+    <component id="n2_iv4o" name="n2" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,704">
+      <Button checked="true" title="个人排名" controller="c1" page="0"/>
+    </component>
+    <component id="n3_iv4o" name="n3" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="132,704">
+      <Button title="国家排名" controller="c1" page="1"/>
+    </component>
+    <component id="n4_iv4o" name="n4" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="251,704">
+      <Button title="积分奖励" controller="c1" page="2"/>
+    </component>
+    <component id="n12_iv4o" name="item0" src="iv4op" fileName="组件/Child_SGYT_MyRank.xml" xy="12,71">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n15_iv4o" name="item1" src="iv4oq" fileName="组件/Child_SGYT_CountryRank.xml" xy="16,93">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n25_iv4o" name="n25" src="iv4os" fileName="组件/Child_SGYT_JiFenReward.xml" xy="17,72">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossTeamFuBen.model.CrossTeamFuBen" tbname="crossTeamFuBen">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="timesBattled" type="int" pf="all" comment="当天已经战斗的次数"/>
+			<col field="addTimes" type="int" pf="all" comment="添加的次数"/>
+     </tb>
+</tbs>

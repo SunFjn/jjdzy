@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="168,145">
+  <controller name="stateCtrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n16_ot2y" name="n16" src="ot2ya" fileName="res/拼图遮盖背景.png" xy="0,0">
+      <gearDisplay controller="stateCtrl" pages="0,1"/>
+    </image>
+    <richtext id="n25_ot2y" name="tfContent" xy="10,18" size="148,27" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="height" strokeColor="#000000" autoClearText="true" text="t">
+      <gearDisplay controller="stateCtrl" pages="0,1"/>
+    </richtext>
+    <component id="n27_lplo" name="btnGo" src="lplo3gp" fileName="组件/TextBtn.xml" pkg="jvxpx9em" xy="58,105" size="52,25">
+      <gearDisplay controller="stateCtrl" pages="0,1"/>
+      <gearText controller="stateCtrl" pages="0,1,2" values="&lt;u>&lt;b>前往&lt;/b>&lt;/u>|&lt;u>&lt;b>激活&lt;/b>&lt;/u>|&lt;u>完成&lt;/u>"/>
+      <Button title="&lt;u>&lt;b>前往&lt;/b>&lt;/u>" titleColor="#00ff00"/>
+    </component>
+    <image id="n28_lplo" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="148,1">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </image>
+  </displayList>
+</component>

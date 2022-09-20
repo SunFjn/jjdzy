@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="76,76" extention="Label">
+  <displayList>
+    <image id="n2_gz25" name="n2" src="y1z8p" fileName="image1/BmG_3.png" pkg="jvxpx9em" xy="0,0" size="76,76"/>
+    <loader id="n0_gz25" name="icon" xy="2,2" size="72,72" url="ui://ypo8uejwgz25b" fill="scaleFree"/>
+    <richtext id="n1_gz25" name="title" xy="-5,78" size="87,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="家丁技能"/>
+  </displayList>
+</component>

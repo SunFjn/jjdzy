@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,644">
+  <displayList>
+    <loader id="n0_kzdy" name="imgBg" xy="0,0" size="640,160" url="ui://p8fr1bvgkzdy2"/>
+    <list id="n2_kzdy" name="list" xy="0,160" size="640,484" overflow="scroll" lineGap="4" defaultItem="ui://p8fr1bvgkzdy6" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n9_kzdy" name="n9" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="3,129" size="250,28"/>
+    <richtext id="n10_kzdy" name="labTime" xy="5,131" size="205,28" touchable="false" fontSize="18" color="#2ff10f" autoClearText="true" text="活动剩余时间：10:10:10"/>
+    <image id="n11_kzdy" name="n11" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="512,96" size="122,28" flip="hz"/>
+    <richtext id="n12_kzdy" name="lb" xy="519,98" size="110,28" fontSize="16" color="#ffff00" align="right" autoSize="none" text="个人消费"/>
+    <image id="n14_kzdy" name="n14" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="512,128" size="122,28" flip="hz"/>
+    <richtext id="n8_kzdy" name="lbXF" xy="488,130" size="141,28" fontSize="16" color="#ffff00" align="right" autoSize="none" autoClearText="true" text="10000000元宝"/>
+  </displayList>
+</component>

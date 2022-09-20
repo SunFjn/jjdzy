@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,927" opaque="false">
+  <displayList>
+    <image id="n30_r3je" name="n30" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="1,261" size="638,666"/>
+    <image id="n4_r3je" name="n4" src="m3513c0" fileName="image/通用底框/新版台子.png" pkg="jvxpx9em" xy="68,544"/>
+    <loader id="n32_r3je" name="backImg" xy="43,291" size="333,291" touchable="false" url="ui://iwvd88mqr3je1"/>
+    <image id="n34_eo2n" name="n34" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="23,272"/>
+    <image id="n10_r3je" name="n10" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="402,277" size="220,400"/>
+    <image id="n20_r3je" name="n20" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="21,683" size="595,135"/>
+    <image id="n1_r3je" name="n1" src="r3je2" fileName="image/名字底2.png" xy="34,348"/>
+    <loader id="n2_r3je" name="nameIcon" xy="44,364" size="24,115" url="ui://iwvd88mqr3je0" align="center" vAlign="middle"/>
+    <component id="n3_r3je" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="79,287"/>
+    <component id="n5_r3je" name="skill0" src="r3je3gj" fileName="组件/ViewSkillGrid.xml" pkg="jvxpx9em" xy="29,580"/>
+    <component id="n6_r3je" name="skill1" src="r3je3gj" fileName="组件/ViewSkillGrid.xml" pkg="jvxpx9em" xy="120,580"/>
+    <component id="n7_r3je" name="skill2" src="r3je3gj" fileName="组件/ViewSkillGrid.xml" pkg="jvxpx9em" xy="211,580"/>
+    <component id="n8_r3je" name="skill3" src="r3je3gj" fileName="组件/ViewSkillGrid.xml" pkg="jvxpx9em" xy="302,580"/>
+    <component id="n11_r3je" name="rank0" src="r3je9" fileName="组件/SJXS_RankItem.xml" xy="413,326"/>
+    <component id="n16_r3je" name="rank1" src="r3je9" fileName="组件/SJXS_RankItem.xml" xy="413,395"/>
+    <component id="n17_r3je" name="rank2" src="r3je9" fileName="组件/SJXS_RankItem.xml" xy="413,464"/>
+    <component id="n18_r3je" name="rank3" src="r3je9" fileName="组件/SJXS_RankItem.xml" xy="413,533"/>
+    <component id="n19_r3je" name="rank4" src="r3je9" fileName="组件/SJXS_RankItem.xml" xy="413,602"/>
+    <component id="n9_r3je" name="targetBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="306,352" size="88,90">
+      <Button icon="ui://iwvd88mqr3je7"/>
+    </component>
+    <richtext id="n12_r3je" name="n12" xy="472,284" size="85,31" touchable="false" fontSize="20" color="#ffcc00" text="排名奖励"/>
+    <richtext id="n21_r3je" name="n21" xy="277,689" size="85,31" touchable="false" fontSize="20" color="#ffffff" text="奖励预览"/>
+    <richtext id="n27_r3je" name="moneyLb0" xy="190,884" size="38,28" fontSize="18" color="#ffffff" text="500"/>
+    <richtext id="n29_r3je" name="moneyLb1" xy="438,883" size="38,28" fontSize="18" color="#ffffff" text="500"/>
+    <richtext id="n33_r3je" name="timeLb" xy="26,271" size="95,28" touchable="false" fontSize="18" color="#00ff00" text="剩余时间："/>
+    <component id="n23_r3je" name="drawBt1" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="133,829">
+      <Button title="抽1次"/>
+    </component>
+    <component id="n25_r3je" name="drawBt10" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="376,829">
+      <Button title="抽10次"/>
+    </component>
+    <component id="n31_r3je" name="rankBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="564,269" size="57,57">
+      <Button icon="ui://jvxpx9emqup63e3"/>
+    </component>
+    <component id="n26_r3je" name="grid0" src="tw1l5d" fileName="新组建/ViewGrid2.xml" pkg="jvxpx9em" xy="153,883" size="34,30"/>
+    <component id="n28_r3je" name="grid1" src="tw1l5d" fileName="新组建/ViewGrid2.xml" pkg="jvxpx9em" xy="401,882" size="34,30"/>
+    <list id="n22_r3je" name="list" xy="35,717" size="705,102" scale="0.8,0.8" layout="row" overflow="hidden" colGap="8" defaultItem="ui://jvxpx9emetorm" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

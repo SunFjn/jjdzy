@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="556,70">
+  <displayList>
+    <image id="n5_ze8t" name="n5" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="556,70"/>
+    <loader id="n6_ze8t" name="rankImg" xy="41,3" size="81,63" url="ui://a8l39nm98hxb6" align="center" vAlign="middle" fill="scale"/>
+    <richtext id="n7_ze8t" name="rankTxt" xy="48,24" size="65,28" fontSize="18" color="#ffc344" align="center" leading="0" autoSize="none" text="100"/>
+    <richtext id="n8_ze8t" name="nameTxt" xy="180,21" pivot="0.5,0.5" size="209,28" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="100"/>
+    <richtext id="n9_ze8t" name="jdTxt" xy="427,21" size="114,28" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="100000000"/>
+  </displayList>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <list id="n0_7jlm" name="list" xy="0,478" size="640,437" overflow="scroll" defaultItem="ui://gy3mzfqr7jlm1" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n2_7jlm" name="imgBg" xy="14,281" size="50,50"/>
+    <image id="n4_7jlm" name="n4" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="42,432" size="228,27"/>
+    <richtext id="n3_7jlm" name="lbTime" xy="42,436" size="38,28" fontSize="18" color="#ffffff" text="123"/>
+    <image id="n6_7jlm" name="n6" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="638,432" size="300,27" scale="-1,1"/>
+    <richtext id="n5_7jlm" name="n5" xy="306,431" size="329,28" fontSize="18" color="#ffffff" text="累计充值达到指定数量即可领取豪华大礼"/>
+  </displayList>
+</component>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,900" opaque="false">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n52_gz25" name="curItem" src="gz25c" fileName="组件/JiaDingJinShengRoleItem.xml" xy="22,206">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="1" values="183,206" default="22,206"/>
+    </component>
+    <component id="n56_gz25" name="nextItem" src="gz25c" fileName="组件/JiaDingJinShengRoleItem.xml" xy="344,206">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n30_ctaj" name="labPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="190,147"/>
+    <component id="n31_ctaj" name="btnOnekey" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="252,807">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="晋升"/>
+    </component>
+    <image id="n37_ctaj" name="imgArrow" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="320,752" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n42_ctaj" name="n0" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="318,455" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n48_uw87" name="n48" src="shpk3h3" fileName="image/美术字/满级美术字/已满级.png" pkg="jvxpx9em" xy="275,838">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <richtext id="n34_ctaj" name="labAttrCur" xy="98,692" size="182,110" touchable="false" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="10" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000&#xA;升星+1000">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="98,692|229,700"/>
+    </richtext>
+    <richtext id="n35_ctaj" name="labAttrNext" xy="396,692" size="182,110" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000&#xA;升星+1000">
+      <gearDisplay controller="c1" pages="0"/>
+    </richtext>
+    <component id="n38_ctaj" name="labUp" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="159,670">
+      <Label title="晋升属性"/>
+    </component>
+    <richtext id="n47_uw87" name="costLb" xy="128,872" size="384,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="消耗">
+      <gearDisplay controller="c1" pages="0"/>
+    </richtext>
+  </displayList>
+</component>

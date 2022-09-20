@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="gf2tw9lz" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="7jlm0" name="ChildSuperMarbles.xml" path="/view/" exported="true"/>
+    <component id="x9uy2" name="ViewSuperMarblesShop.xml" path="/view/" exported="true"/>
+    <component id="x9uy3" name="SuperMarblesItem.xml" path="/view/" exported="true"/>
+    <component id="x9uy4" name="ViewSuperMarblesPool.xml" path="/view/" exported="true"/>
+    <component id="x9uy5" name="SuperMarblesPoolItem.xml" path="/view/" exported="true"/>
+    <image id="77k97" name="图层 1057.png" path="/assets/" exported="true"/>
+    <image id="77k98" name="奖励预览.png" path="/assets/" exported="true"/>
+    <image id="77k99" name="弹珠.png" path="/assets/" exported="true"/>
+    <image id="77k9a" name="弹珠机.png" path="/assets/" exported="true"/>
+    <image id="77k9b" name="积分图标.png" path="/assets/" exported="true"/>
+    <image id="77k9c" name="管道.png" path="/assets/" exported="true"/>
+    <component id="77k9e" name="SMCard.xml" path="/view/" exported="true"/>
+  </resources>
+  <publish name="superMarbles" genCode="true" excluded="77k9c,77k9a"/>
+</packageDescription>

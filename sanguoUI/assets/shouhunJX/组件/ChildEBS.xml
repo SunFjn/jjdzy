@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,915" opaque="false">
+  <displayList>
+    <loader id="n3_sh62" name="back" xy="56,370" size="579,351" url="ui://4aepcdbwi1zl5n"/>
+    <loader id="n1_811a" name="bg" xy="153,380" size="345,336" url="ui://4aepcdbweium2n" align="center" vAlign="middle" fill="scale"/>
+    <component id="n2_sh62" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="190,280"/>
+    <loader id="n4_vwaa" name="iconType" xy="26,297" size="143,37" url="ui://4aepcdbwsh622y"/>
+    <image id="n5_vwaa" name="n5" src="vwaa30" fileName="image/阶.png" xy="20,346"/>
+    <loader id="n6_vwaa" name="iconType2" xy="526,298" pivot="0.5,0.5" size="76,66" url="ui://4aepcdbwvwaa34"/>
+    <text id="n7_vwaa" name="txtTZJie" xy="541,284" size="34,28" fontSize="18" color="#ffffff" strokeColor="#000000" text="1阶">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n8_vwaa" name="n8" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="149,734" size="329,31">
+      <Label title="星宿属性"/>
+    </component>
+    <component id="n15_vwaa" name="item1" src="vwaa36" fileName="组件/ItemEBS.xml" xy="144,658">
+      <Button title="角宿"/>
+    </component>
+    <component id="n16_vwaa" name="item2" src="vwaa36" fileName="组件/ItemEBS.xml" xy="89,532">
+      <Button title="亢宿"/>
+    </component>
+    <component id="n17_vwaa" name="item3" src="vwaa36" fileName="组件/ItemEBS.xml" xy="148,413">
+      <Button title="邸宿"/>
+    </component>
+    <component id="n18_vwaa" name="item4" src="vwaa36" fileName="组件/ItemEBS.xml" xy="293,343">
+      <Button title="房宿"/>
+    </component>
+    <component id="n19_vwaa" name="item5" src="vwaa36" fileName="组件/ItemEBS.xml" xy="440,408">
+      <Button title="心宿"/>
+    </component>
+    <component id="n20_vwaa" name="item6" src="vwaa36" fileName="组件/ItemEBS.xml" xy="493,535">
+      <Button title="尾宿"/>
+    </component>
+    <component id="n21_vwaa" name="item7" src="vwaa36" fileName="组件/ItemEBS.xml" xy="438,657">
+      <Button title="算宿"/>
+    </component>
+    <text id="n22_vwaa" name="txtJie" xy="8,344" size="66,39" font="ui://jvxpx9emog799d" fontSize="30" color="#ffffff" align="right" leading="0" autoSize="none" text="15"/>
+    <image id="n24_k0ep" name="labFull" src="irr13h1" fileName="image/美术字/满级美术字/已满星.png" pkg="jvxpx9em" xy="276,861"/>
+    <image id="n9_vwaa" name="n9" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="297,779" group="n25_k0ep"/>
+    <text id="n10_vwaa" name="txtLeft" xy="131,766" size="120,88" group="n25_k0ep" fontSize="18" color="#ffffff" leading="6" text="生命+100000&#xA;生命+100000&#xA;生命+100000"/>
+    <text id="n11_vwaa" name="txtRight" xy="409,766" size="120,88" group="n25_k0ep" fontSize="18" color="#33ff00" leading="6" text="生命+100000&#xA;生命+100000&#xA;生命+100000"/>
+    <group id="n25_k0ep" name="grpAttr" xy="131,766" size="398,84" advanced="true" collapsed="true"/>
+    <text id="n27_k0ep" name="txtMid" xy="262,763" size="120,88" fontSize="18" color="#33ff00" leading="6" text="生命+100000&#xA;生命+100000&#xA;生命+100000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <richtext id="n12_vwaa" name="txtCostN" xy="0,867" size="104,31" group="n28_k0ep" touchable="false" fontSize="18" color="#00ff00" align="right" leading="6" autoSize="none" text="青龙碎片"/>
+    <component id="n14_vwaa" name="btnSJ" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="253,853" group="n28_k0ep">
+      <Button title="突破"/>
+    </component>
+    <component id="n13_vwaa" name="costItem" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="103,866" size="147,36" group="n28_k0ep"/>
+    <component id="n26_k0ep" name="btnJH" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="253,852" group="n28_k0ep">
+      <Button title="点亮"/>
+    </component>
+    <group id="n28_k0ep" name="grpOpe" xy="0,852" size="389,63" advanced="true" collapsed="true"/>
+    <image id="n29_jmmn" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="576,286" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>

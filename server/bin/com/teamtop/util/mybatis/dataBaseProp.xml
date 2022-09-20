@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.util.mybatis.DataBasePropMapper">
+<select id="getProp" resultType="com.teamtop.util.mybatis.DataBaseProp">
+	select * from dataBaseProp;
+</select>
+<insert id="insert" parameterType="com.teamtop.util.mybatis.DataBaseProp">
+	insert into dataBaseProp values(#{zoneid},#{url},#{user},#{pwd});
+</insert> 
+</mapper>

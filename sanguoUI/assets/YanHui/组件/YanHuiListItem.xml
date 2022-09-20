@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="202,270">
+  <displayList>
+    <loader id="n1_h7qe" name="backImg" xy="0,0" size="202,270" url="ui://4x7dk3lhgz257" autoSize="true"/>
+    <image id="n6_h7qe" name="stateImg" src="fyft3hg" fileName="image/箭头+其他/小旗子标签底.png" pkg="jvxpx9em" xy="5,7" size="34,65"/>
+    <component id="n3_h7qe" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="42,50"/>
+    <component id="n5_h7qe" name="goBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="43,204" size="109,48">
+      <Button title="前往"/>
+    </component>
+    <richtext id="n4_h7qe" name="numLb" xy="11,173" size="178,28" fontSize="18" color="#ffffff" align="center" autoSize="none" text="参与人数：5/8"/>
+    <richtext id="n7_h7qe" name="stateLb" xy="6,10" size="31,50" fontSize="16" color="#ffffff" align="center" leading="0" autoSize="none" text="参与中"/>
+    <image id="n9_owxn" name="applyImg" src="owxn11" fileName="image/已申请.png" xy="49,211"/>
+  </displayList>
+</component>

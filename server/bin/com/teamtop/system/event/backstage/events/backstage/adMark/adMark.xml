@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.event.backstage.events.backstage.adMark.M_AdMarkMapper">
+	<!-- 查找某个玩家账号的广告号信息 -->
+	<select id="findByOpenid" parameterType="String" resultType="hashMap">
+		select * from m_adMark where openid = #{value};
+	</select>
+	<insert id="insert" parameterType="M_AdMark" useGeneratedKeys="true" keyProperty="id">
+		insert into m_adMark(id, openid, time, state) values(${id}, '${openid}', ${time}, ${state})
+	</insert>
+	<update id="updateData" parameterType="M_AdMark">
+		update m_adMark set time=${time},state=${state} where openid='${openid}'
+	</update>
+</mapper>

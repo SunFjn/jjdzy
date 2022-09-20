@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 角色表数据createHeroTime updateTime pfcode zoneid -->
+	<tb model="com.teamtop.system.event.backstage.events.backstage.roleInfo.B_RoleInfo" tbname="b_roleInfo">
+		<index field="openid" type="prikey"/>
+		<index field="createHeroTime" type="normal"/>	
+		<index field="updateTime" type="normal"/>			
+		<index field="pfcode" type="normal"/>
+		<index field="zoneid" type="normal"/>
+		<col field="openid" type="varchar" len="100" pf="all" comment="唯一id"/>
+	    <col field="id" type="bigint" pf="all" comment="角色id"/>
+		<col field="zoneid" type="int" pf="all" comment="区号"/>
+		<col field="pfopenid" type="varchar" len="100" pf="all" comment="平台账户 接入的渠道账户名 由SDk提供给游戏前端"/>
+		<col field="pfcode" type="varchar" len="100" pf="all" comment="平台代码 接入平台代号 由SDk转接工程提供给游戏前端 "/>
+		<col field="usesys" type="varchar" len="100" pf="all" comment="注册系统"/>
+	    <col field="createip" type="varchar" len="100" pf="all" comment="注册IP"/>
+	    <col field="name" type="varchar" len="100" pf="all" comment="角色名字"/>
+	    <col field="level" type="int" pf="all" comment="角色等级"/>
+	    <col field="totalStrength" type="bigint" pf="all" comment="玩家总战力"/>
+	    <col field="coin" type="bigint" pf="all" comment="铜钱"/> 
+	    <col field="yuanbao" type="bigint" pf="all" comment="元宝"/>
+	    <col field="vip" type="int" pf="all" comment="vip"/>
+	    <col field="app_custom" type="varchar" len="100" pf="all" comment="广告标识"/>
+	    <col field="SumMoney" type="bigint" pf="all" comment="充值累计金额(元)"/>
+	    <col field="isOld" type="int" pf="all" comment="是否为首服用户  这个角色是否为此平台账号下的首服用户(0待查，1是，2否)"/>
+	    <col field="createHeroTime" type="int" pf="all" comment="创角时间"/>
+	    <col field="RegisterTime" type="int" pf="all" comment="注册时间 "/>
+	    <col field="recentlyRechargeTime" type="int" pf="all" comment="最近一次充值时间"/>
+	    <col field="updateTime" type="int" pf="all" comment="最后更新时间 "/>
+	    <col field="reincarnationLevel" type="int" pf="all" comment="六道轮回等级"/>
+		<col field="country" type="varchar" len="100" pf="all" comment="用户国家"/>
+		<col field="region" type="varchar" len="100" pf="all" comment="用户地区"/>		    
+	</tb>
+</tbs>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://7y83phvnumao1b">
+  <controller name="c1" pages="0,未激活,1,已激活,2,进阶,3,满级" selected="2"/>
+  <displayList>
+    <loader id="n77_i4c0" name="backImg" xy="11,148" size="617,465" url="ui://7y83phvnsk8j5"/>
+    <loader id="n86_sy28" name="iconImg" xy="85,158" size="451,421" url="ui://7y83phvnsy28e" autoSize="true"/>
+    <component id="n1_i1zv" name="item0" src="i1zv0" fileName="组件/YiShouLuGrid.xml" xy="28,162"/>
+    <component id="n2_i1zv" name="item1" src="i1zv0" fileName="组件/YiShouLuGrid.xml" xy="28,262"/>
+    <component id="n3_i1zv" name="item2" src="i1zv0" fileName="组件/YiShouLuGrid.xml" xy="28,365"/>
+    <component id="n4_i1zv" name="item3" src="i1zv0" fileName="组件/YiShouLuGrid.xml" xy="28,466"/>
+    <component id="n5_i1zv" name="item4" src="i1zv0" fileName="组件/YiShouLuGrid.xml" xy="515,162"/>
+    <component id="n6_i1zv" name="item5" src="i1zv0" fileName="组件/YiShouLuGrid.xml" xy="515,262"/>
+    <component id="n7_i1zv" name="item6" src="i1zv0" fileName="组件/YiShouLuGrid.xml" xy="515,365"/>
+    <component id="n8_i1zv" name="item7" src="i1zv0" fileName="组件/YiShouLuGrid.xml" xy="515,466"/>
+    <component id="n9_i1zv" name="powerLb" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="165,510">
+      <Label title="999999999"/>
+    </component>
+    <component id="n85_sy28" name="nameLb" src="spdw6y" fileName="组件/ViewName.xml" pkg="jvxpx9em" xy="127,173" touchable="false"/>
+    <image id="n14_i1zv" name="n14" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="71,574" size="497,85"/>
+    <richtext id="n10_i1zv" name="labAttrCur" xy="146,696" size="154,74" group="n13_i1zv" touchable="false" fontSize="18" color="#ffffff" leading="5" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <image id="n11_i1zv" name="n11" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="304,705" size="55,58" group="n13_i1zv">
+      <relation target="n10_i1zv" sidePair="middle-middle"/>
+    </image>
+    <text id="n25_i1zv" name="itemName" xy="195,816" size="95,25" group="n13_i1zv" fontSize="18" color="#ffffff" align="right" text="异兽灵元丹">
+      <relation target="n71_sk8j" sidePair="middle-middle"/>
+    </text>
+    <richtext id="n12_i1zv" name="labAttrNext" xy="394,696" size="154,74" group="n13_i1zv" touchable="false" fontSize="18" color="#00ff00" leading="5" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <component id="n27_i1zv" name="oneKeyLvUpBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="349,851" group="n13_i1zv">
+      <Button title="一键升级"/>
+    </component>
+    <component id="n28_i1zv" name="lvUpBtn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="155,851" group="n13_i1zv">
+      <Button title="升级"/>
+    </component>
+    <image id="n66_sk8j" name="n66" src="sk8j8" fileName="images/阶位图标.png" xy="78,756" group="n13_i1zv"/>
+    <text id="n67_sk8j" name="lvTxt" xy="72,792" size="57,23" group="n13_i1zv" fontSize="17" color="#ffffff" text="5阶4级"/>
+    <component id="n68_sk8j" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="131,780" size="431,19" group="n13_i1zv">
+      <ProgressBar value="1000" max="1000"/>
+    </component>
+    <component id="n71_sk8j" name="vres1" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="302,812" size="155,36" group="n13_i1zv">
+      <Label title="300"/>
+    </component>
+    <group id="n13_i1zv" name="n13" xy="72,696" size="490,217" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n15_i1zv" name="n15" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="155,663" size="329,31">
+      <Label title="升级属性"/>
+    </component>
+    <text id="n16_i1zv" name="suitName" xy="100,561" size="21,112" fontSize="20" color="#ff9900" align="center" vAlign="middle" autoSize="none" text="穷奇之怒"/>
+    <richtext id="n20_i1zv" name="costLb" xy="107,875" size="421,28" group="n29_i1zv" fontSize="18" color="#ffffff" align="center" autoSize="none" text="消耗材料"/>
+    <richtext id="n22_i1zv" name="labAttrAct" xy="271,694" size="154,74" group="n29_i1zv" touchable="false" fontSize="18" color="#00ff00" leading="5" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <component id="n23_i1zv" name="activateBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="253,809" group="n29_i1zv">
+      <Button title="激活"/>
+    </component>
+    <group id="n29_i1zv" name="n29" xy="107,694" size="421,209" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <richtext id="n31_i1zv" name="labAttrMax" xy="261,694" size="154,74" group="n33_i1zv" touchable="false" fontSize="18" color="#00ff00" leading="5" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <image id="n34_i1zv" name="n34" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="137,823" group="n36_i1zv"/>
+    <richtext id="n35_i1zv" name="n35" xy="262,813" size="116,35" group="n36_i1zv" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满级"/>
+    <group id="n36_i1zv" name="boxMax" xy="137,813" size="366,35" group="n33_i1zv" advanced="true" collapsed="true"/>
+    <group id="n33_i1zv" name="n33" xy="137,694" size="366,154" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="3"/>
+    </group>
+    <component id="n37_i1zv" name="showBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="439,505" size="66,66">
+      <gearDisplay controller="c1" pages="1,2,3"/>
+      <Button title="展示" icon="ui://jvxpx9emul8t3fk"/>
+    </component>
+    <text id="n43_i1zv" name="itemName1" xy="193,816" size="95,25" group="n42_i1zv" fontSize="18" color="#ffffff" align="right" text="异兽灵元丹">
+      <relation target="n72_sk8j" sidePair="middle-middle,right-left"/>
+    </text>
+    <component id="n45_i1zv" name="jinjieBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="254,851" group="n42_i1zv">
+      <Button title="进阶"/>
+    </component>
+    <richtext id="n60_i1zv" name="labAttrCur1" xy="148,696" size="154,74" group="n42_i1zv" touchable="false" fontSize="18" color="#ffffff" leading="5" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <image id="n61_i1zv" name="n61" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="300,699" size="55,58" group="n42_i1zv">
+      <relation target="n60_i1zv" sidePair="middle-middle"/>
+    </image>
+    <richtext id="n62_i1zv" name="labAttrNext1" xy="392,696" size="154,74" group="n42_i1zv" touchable="false" fontSize="18" color="#00ff00" leading="5" autoSize="none" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <component id="n72_sk8j" name="vres2" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="296,812" size="191,36" group="n42_i1zv">
+      <Label title="300"/>
+    </component>
+    <group id="n42_i1zv" name="n42" xy="148,696" size="398,217" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </group>
+    <text id="n46_i1zv" name="curEffTitle" xy="147,585" size="190,23" group="n63_i1zv" fontSize="17" color="#ffffff" align="center" autoSize="none" text="当前效果"/>
+    <text id="n48_i1zv" name="nextEffTitle" xy="359,586" size="190,23" group="n63_i1zv" fontSize="17" color="#ffffff" align="center" autoSize="none" text="下阶效果"/>
+    <richtext id="n79_vhjk" name="labEffCur" xy="147,619" size="190,23" group="n63_i1zv" fontSize="17" color="#00ff00" align="center" autoSize="none" text="Pvp伤害加成+15%"/>
+    <richtext id="n80_vhjk" name="labEffNext" xy="359,620" size="190,23" group="n63_i1zv" fontSize="17" color="#00ff00" align="center" autoSize="none" text="Pvp伤害加成+15%"/>
+    <group id="n63_i1zv" name="hasActGroup" xy="147,585" size="402,58" advanced="true" collapsed="true"/>
+    <text id="n65_sk8j" name="suitLv" xy="125,575" size="21,81" fontSize="20" color="#ff9900" align="center" vAlign="middle" autoSize="none" text="0级"/>
+    <text id="n17_i1zv" name="effTitle" xy="242,585" size="167,23" group="n74_sk8j" fontSize="17" color="#ffffff" align="center" autoSize="none" text="下级效果（5阶激活）"/>
+    <richtext id="n78_vhjk" name="labEffAct" xy="242,616" size="167,23" group="n74_sk8j" fontSize="17" color="#00ff00" align="center" autoSize="none" text="Pvp伤害+15%"/>
+    <group id="n74_sk8j" name="noActGroup" xy="242,585" size="167,54" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="185,229" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="1"/>
+  <displayList>
+    <image id="n20_ymt7" name="n20" src="chem23" fileName="轮回副本/res/底.png" xy="-3,-8" size="193,231">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n15_ymt7" name="n15" src="chem22" fileName="轮回副本/res/坐台.png" xy="21,127"/>
+    <image id="n22_q4bc" name="n22" src="q4bc1z" fileName="轮回副本/res/按钮1.png" xy="1,170">
+      <gearDisplay controller="button" pages="0"/>
+    </image>
+    <image id="n23_q4bc" name="n23" src="q4bc1y" fileName="轮回副本/res/按钮2.png" xy="1,170">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <richtext id="n18_ymt7" name="tfTitle" xy="30,185" pivot="0.5,0.5" size="125,27" touchable="false" fontSize="20" color="#ffcc33" align="center" text="二世轮回副本">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n21_rxif" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="161,175" size="20,20" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n24_k90x" name="n24" src="k90x21" fileName="轮回副本/res/红框.png" xy="56,62" group="n25_qtag"/>
+    <loader id="n19_ymt7" name="loaderIcon" xy="38,50" size="109,108" group="n25_qtag" url="ui://3o8q23uuk90x20" align="center" vAlign="middle"/>
+    <group id="n25_qtag" name="n25" xy="38,50" size="109,108" advanced="true"/>
+  </displayList>
+  <Button mode="Radio"/>
+  <transition name="t0" options="4" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n25_qtag" tween="true" startValue="38,50" endValue="38,20" duration="24"/>
+    <item time="24" type="XY" target="n25_qtag" tween="true" startValue="38,20" endValue="38,50" duration="36"/>
+  </transition>
+</component>

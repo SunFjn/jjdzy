@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="133,183">
+  <displayList>
+    <image id="n0_ql4n" name="img" src="ql4nj" fileName="image/火烧赤壁/关数底.png" xy="0,143"/>
+    <richtext id="n1_ql4n" name="lb" xy="0,146" size="133,35" fontSize="24" color="#feecb0" align="center" autoSize="none" text="第10关"/>
+    <image id="n2_ql4n" name="imgPass" src="loov1v" fileName="image/六出祁山/已通关(1).png" xy="0,41"/>
+    <component id="n3_om0e" name="btnHand" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="0,0" size="133,160" alpha="0">
+      <Button title="挑战"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="482,118">
+  <controller name="stateCtrl" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n6_pke6" name="n6" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="482,118"/>
+    <component id="n7_pke6" name="item" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="20,16" scale="0.8,0.8"/>
+    <component id="n8_pke6" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="331,43">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+      <Button title="前往"/>
+    </component>
+    <component id="n9_pke6" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="330,44">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+      <Button title="领取"/>
+    </component>
+    <image id="n10_pke6" name="imageGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="338,53">
+      <gearDisplay controller="stateCtrl" pages="2"/>
+    </image>
+    <component id="n13_pke6" name="pb" src="emwp3h8" fileName="组件/ExpBar1.xml" pkg="jvxpx9em" xy="109,78" size="176,20">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <richtext id="n11_pke6" name="tfName" xy="104,18" size="129,34" fontSize="22" color="#33dd33" bold="true" autoClearText="true" text="每天0点重置"/>
+    <richtext id="n12_pke6" name="tfContent" xy="104,49" size="106,28" fontSize="18" color="#ffffff" autoClearText="true" text="每天0点重置"/>
+    <component id="n14_g7h3" name="resCom" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="332,10">
+      <relation target="n8_pke6" sidePair="center-center"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,332">
+  <displayList>
+    <image id="n0_ijvz" name="n0" src="ijvz1" fileName="image/BOSS来袭背景.png" xy="0,0"/>
+    <text id="n1_ijvz" name="lbTitle" xy="264,161" size="249,35" fontSize="18" color="#251204" align="center" autoSize="none" text="全民BOSS(1-3转)"/>
+    <component id="n2_ijvz" name="closeButton" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="492,93" size="62,56">
+      <Button icon="ui://3me6ra11ijvz2"/>
+    </component>
+    <component id="n3_ijvz" name="headIcon" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="197,153"/>
+    <component id="n4_ijvz" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="322,196">
+      <Button title="立即挑战"/>
+    </component>
+  </displayList>
+</component>

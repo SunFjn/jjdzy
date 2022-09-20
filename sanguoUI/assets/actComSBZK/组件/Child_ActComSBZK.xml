@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,673">
+  <displayList>
+    <image id="n1_o65r" name="n0" src="m3513bf" fileName="image/底板2 拷贝 2.png" pkg="jvxpx9em" xy="2,0" size="637,673" locked="true"/>
+    <loader id="n22_hjvb" name="bgImg" xy="14,27" size="100,100"/>
+    <richtext id="n2_o65r" name="labTime" xy="38,26" size="225,25" touchable="false" fontSize="18" color="#00ff00" text="剩余时间：6天5小时5分8秒"/>
+    <component id="n3_o65r" name="goBtn" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="254,587">
+      <Button title="前往打造"/>
+    </component>
+    <component id="n24_ob6z" name="expbar" src="o65re" fileName="组件/sbzkBar.xml" xy="33,493" size="571,28">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n10_o65r" name="n10" src="o65rd" fileName="image/间隔图标.png" xy="161,492"/>
+    <image id="n11_o65r" name="n11" src="o65rd" fileName="image/间隔图标.png" xy="304,492"/>
+    <image id="n12_o65r" name="n12" src="o65rd" fileName="image/间隔图标.png" xy="443,492"/>
+    <image id="n13_o65r" name="n13" src="o65rd" fileName="image/间隔图标.png" xy="584,492"/>
+    <image id="n21_o65r" name="n21" src="o65rf" fileName="image/BOSS刷新倒计时背景底.png" xy="61,403" size="536,40"/>
+    <text id="n15_o65r" name="tipsTxt" xy="66,411" size="527,25" fontSize="18" color="#ff9900" text="活动期间打造神兵可享折扣优惠。打造次数越多，折扣力度越大。"/>
+    <text id="n17_o65r" name="num1" xy="155,530" size="43,25" fontSize="18" color="#ffffff" text="50次"/>
+    <text id="n18_o65r" name="num2" xy="293,530" size="53,25" fontSize="18" color="#ffffff" text="100次"/>
+    <text id="n19_o65r" name="num3" xy="434,530" size="53,25" fontSize="18" color="#ffffff" text="200次"/>
+    <text id="n20_o65r" name="num4" xy="566,530" size="53,25" fontSize="18" color="#ffffff" text="600次"/>
+    <image id="n4_o65r" name="n4" src="o65r4" fileName="image/1_0003_9折.png" xy="154,464" group="n25_ij4w"/>
+    <image id="n5_o65r" name="n5" src="o65r3" fileName="image/1_0002_8折.png" xy="292,464" group="n25_ij4w"/>
+    <image id="n6_o65r" name="n6" src="o65r2" fileName="image/1_0001_7折.png" xy="432,464" group="n25_ij4w"/>
+    <image id="n7_o65r" name="n7" src="o65r1" fileName="image/1_0000_6折.png" xy="563,464" group="n25_ij4w"/>
+    <group id="n25_ij4w" name="disGroup0" xy="154,464" size="472,32" advanced="true" collapsed="true"/>
+    <image id="n26_ij4w" name="n26" src="ij4wh" fileName="image/9.5折.png" xy="152,465" group="n30_ij4w"/>
+    <image id="n27_ij4w" name="n27" src="o65r4" fileName="image/1_0003_9折.png" xy="293,465" group="n30_ij4w"/>
+    <image id="n28_ij4w" name="n28" src="ij4wg" fileName="image/8.5折.png" xy="429,464" group="n30_ij4w"/>
+    <image id="n29_ij4w" name="n29" src="o65r3" fileName="image/1_0002_8折.png" xy="564,464" group="n30_ij4w"/>
+    <group id="n30_ij4w" name="disGroup1" xy="152,464" size="475,33" advanced="true"/>
+  </displayList>
+</component>

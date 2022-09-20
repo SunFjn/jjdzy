@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://me1skowln9yf6n">
+  <displayList>
+    <image id="n0_fyft" name="n0" src="m3513bv" fileName="image/通用底框/tips.png" pkg="jvxpx9em" xy="-4,-3" size="649,207"/>
+    <image id="n11_fyft" name="n11" src="htpq1q" fileName="image/通用底框/名字底框.png" pkg="jvxpx9em" xy="56,16" size="235,40"/>
+    <image id="n13_fyft" name="n13" src="htpq1q" fileName="image/通用底框/名字底框.png" pkg="jvxpx9em" xy="346,16" size="235,40"/>
+    <component id="n9_fyft" name="hpBar1" src="fyft8d" fileName="组件/跨服王者/ProgressBar1.xml" xy="83,50" size="214,50">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n1_fyft" name="head10" src="fyft86" fileName="组件/跨服王者/KfwzHeadBattle.xml" xy="-14,5" customData="0"/>
+    <component id="n10_fyft" name="hpBar2" src="fyft8e" fileName="组件/跨服王者/ProgressBar2.xml" xy="344,50" size="214,50">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n2_fyft" name="head20" src="fyft86" fileName="组件/跨服王者/KfwzHeadBattle.xml" xy="531,5" customData="1"/>
+    <image id="n3_fyft" name="n3" src="fyft88" fileName="组件/跨服王者/res/vs.png" xy="281,34"/>
+    <image id="n4_fyft" name="n4" src="irr13gz" fileName="image/通用底框/弹窗框标题底框.png" pkg="jvxpx9em" xy="196,124"/>
+    <image id="n5_fyft" name="n5" src="fyft89" fileName="组件/跨服王者/res/跨服王者战斗标题.png" xy="272,141"/>
+    <richtext id="n12_fyft" name="tfName1" xy="103,24" size="59,25" fontSize="18" color="#ffffff" vAlign="middle" strokeColor="#000000" autoClearText="true" text="名字最"/>
+    <richtext id="n14_fyft" name="tfName2" xy="441,24" pivot="1,0" size="95,25" fontSize="18" color="#ffffff" vAlign="middle" strokeColor="#000000" autoClearText="true" text="名字最长六"/>
+    <image id="n15_fyft" name="n15" src="fyft3hg" fileName="image/箭头+其他/小旗子标签底.png" pkg="jvxpx9em" xy="171,133" size="32,63" group="n17_u5s0" aspect="true"/>
+    <richtext id="n16_fyft" name="n16" xy="178,130" size="23,56" group="n17_u5s0" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" text="备战"/>
+    <group id="n17_u5s0" name="groupFlag1" xy="171,130" size="32,66" advanced="true"/>
+    <image id="n18_u5s0" name="n18" src="fyft3hg" fileName="image/箭头+其他/小旗子标签底.png" pkg="jvxpx9em" xy="437,133" size="32,63" group="n20_u5s0" aspect="true"/>
+    <richtext id="n19_u5s0" name="n19" xy="444,130" size="23,56" group="n20_u5s0" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" text="备战"/>
+    <group id="n20_u5s0" name="groupFlag2" xy="437,130" size="32,66" advanced="true"/>
+    <component id="n21_u5s0" name="head12" src="fyft86" fileName="组件/跨服王者/KfwzHeadBattle.xml" xy="-6,117" scale="0.8,0.8" customData="0"/>
+    <component id="n22_u5s0" name="head11" src="fyft86" fileName="组件/跨服王者/KfwzHeadBattle.xml" xy="82,117" scale="0.8,0.8" customData="0"/>
+    <component id="n23_u5s0" name="head21" src="fyft86" fileName="组件/跨服王者/KfwzHeadBattle.xml" xy="460,117" scale="0.8,0.8" customData="1"/>
+    <component id="n24_u5s0" name="head22" src="fyft86" fileName="组件/跨服王者/KfwzHeadBattle.xml" xy="548,117" scale="0.8,0.8" customData="1"/>
+    <richtext id="n26_u5s0" name="tfHp1" xy="94,59" size="59,25" fontSize="18" color="#ffffff" vAlign="middle" strokeColor="#000000" autoClearText="true" text="名字最"/>
+    <richtext id="n27_u5s0" name="tfHp2" xy="452,59" pivot="1,0" size="95,25" fontSize="18" color="#ffffff" vAlign="middle" strokeColor="#000000" autoClearText="true" text="名字最长六"/>
+    <image id="n28_l09j" name="n28" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="-352,237" size="343,132" group="n33_l09j"/>
+    <loader id="n29_l09j" name="imgHead" xy="-220,254" size="80,80" group="n31_l09j" url="ui://jvxpx9emp75388" fill="scaleFree"/>
+    <loader id="n30_l09j" name="imgHeadGrid" xy="-230,246" size="100,90" group="n31_l09j" url="ui://jvxpx9emtw1l5j" align="center" vAlign="bottom"/>
+    <group id="n31_l09j" name="n31" xy="-230,246" size="100,90" group="n33_l09j"/>
+    <richtext id="n32_l09j" name="tfUpTips" xy="-210,338" pivot="0.5,0.5" size="59,25" group="n33_l09j" fontSize="18" color="#ffffff" vAlign="middle" strokeColor="#000000" autoClearText="true" text="名字最"/>
+    <group id="n33_l09j" name="groupUpTips" xy="-352,237" size="343,132" advanced="true"/>
+  </displayList>
+</component>

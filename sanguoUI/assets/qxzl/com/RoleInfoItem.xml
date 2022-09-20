@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="178,221" opaque="false">
+  <controller name="countryCtrl" exported="true" pages="0,,1,,2,,3," selected="0"/>
+  <controller name="stateCtrl" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1_fmjx" name="n1" src="fmjxw" fileName="res/武将底.png" xy="0,0"/>
+    <component id="n10_gxpd" name="role" src="gxpd3gh" fileName="组件/RoleCom.xml" pkg="jvxpx9em" xy="89,183" touchable="false">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </component>
+    <image id="n7_fmjx" name="n7" src="fmjxy" fileName="res/黑影.png" xy="30,57">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+    </image>
+    <image id="n3_fmjx" name="n3" src="lxm0i" fileName="res/阵营底.png" xy="2,29">
+      <gearDisplay controller="countryCtrl" pages="1,2,3"/>
+    </image>
+    <loader id="n4_fmjx" name="n4" xy="12,44" size="41,28" aspect="true" fill="scale">
+      <gearDisplay controller="countryCtrl" pages="1,2,3"/>
+      <gearIcon controller="countryCtrl" pages="0,2,3" values="|ui://jvxpx9emxyp27h|ui://jvxpx9emxyp27i" default="ui://jvxpx9emxyp27g"/>
+    </loader>
+    <component id="n2_fmjx" name="pbHp" src="ems4d" fileName="com/ProgressBar2.xml" xy="6,5" size="111,20">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <richtext id="n5_fmjx" name="tfName" xy="48,163" pivot="0.5,0.5" size="80,26" fontSize="18" color="#ffffff" bold="true" autoClearText="true" text="角色名字">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </richtext>
+    <richtext id="n6_fmjx" name="tfPower" xy="31,187" pivot="0.5,0.5" size="113,26" fontSize="18" color="#ffffff" bold="true" autoClearText="true" text="战力：100万">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </richtext>
+    <image id="n8_fmjx" name="n8" src="q09v3g6" fileName="image1/虚位以待 拷贝.png" pkg="jvxpx9em" xy="42,185">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+    </image>
+    <image id="n9_fmjx" name="imageAdd" src="qblv3dq" fileName="image/直升一阶(1).png" pkg="jvxpx9em" xy="60,81"/>
+    <richtext id="n11_cb0w" name="tfLimit" xy="18,6" pivot="0.5,0.5" size="140,26" fontSize="18" color="#ffffff" bold="true" autoClearText="true" text="体力≥50可驻守"/>
+    <graph id="n12_cvv8" name="clickBg" xy="0,0" size="178,221" alpha="0" type="rect"/>
+  </displayList>
+</component>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,892" opaque="false">
+  <displayList>
+    <image id="n41_i8xh" name="n41" src="i8xh37" fileName="image/影子.png" xy="58,680"/>
+    <loader id="n33_ltpm" name="imgRole" xy="51,267" size="537,568" align="center" vAlign="bottom"/>
+    <component id="n5_ua8b" name="grid0" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="34,185"/>
+    <component id="n6_ua8b" name="grid1" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="34,317"/>
+    <component id="n7_ua8b" name="grid2" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="34,449"/>
+    <component id="n8_ua8b" name="grid3" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="34,581"/>
+    <component id="n9_ua8b" name="grid4" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="34,713"/>
+    <component id="n10_ua8b" name="grid9" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="513,713"/>
+    <component id="n11_ua8b" name="grid6" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="513,317"/>
+    <component id="n12_ua8b" name="grid5" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="513,185"/>
+    <component id="n13_ua8b" name="grid7" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="513,449"/>
+    <component id="n14_ua8b" name="grid8" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="513,581"/>
+    <component id="n19_ltpm" name="btnOneKey" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="257,830">
+      <Button title="一键换装" titleColor="#ffffff"/>
+    </component>
+    <component id="n39_u0r5" name="lbPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="187,165"/>
+    <component id="n18_ltpm" name="btnSX" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="439,222" size="61,68">
+      <Button icon="ui://3tzqotadltpms"/>
+    </component>
+    <component id="n28_ltpm" name="btnTJ" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="144,48" pivot="0.5,0.5" size="76,102" group="n47_b7zy">
+      <Button icon="ui://7gxkx46wltpm11"/>
+    </component>
+    <component id="n30_ltpm" name="btnJH" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="54,48" pivot="0.5,0.5" size="76,102" group="n47_b7zy">
+      <Button icon="ui://7gxkx46wc4lf32"/>
+    </component>
+    <component id="n25_ltpm" name="btnBF" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="510,48" pivot="0.5,0.5" size="76,102" group="n47_b7zy">
+      <Button icon="ui://7gxkx46wltpmu"/>
+    </component>
+    <component id="n26_ltpm" name="btnYB" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="328,48" pivot="0.5,0.5" size="76,102" group="n47_b7zy">
+      <Button icon="ui://7gxkx46wltpmx"/>
+    </component>
+    <component id="n29_ltpm" name="btnSJ" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="237,48" pivot="0.5,0.5" size="76,102" group="n47_b7zy">
+      <Button icon="ui://7gxkx46wltpmv"/>
+    </component>
+    <component id="n40_kf27" name="btnSZ" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="419,48" pivot="0.5,0.5" size="76,102" group="n47_b7zy">
+      <Button icon="ui://7gxkx46wkf2734"/>
+    </component>
+    <group id="n47_b7zy" name="n47" xy="54,48" size="532,102" collapsed="true"/>
+    <component id="n48_u7bl" name="btnLH" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="439,295" size="61,68">
+      <Button icon="ui://3tzqotadu7bl51"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="570,141">
+  <controller name="c1" pages="0,可发,1,已发" selected="0"/>
+  <displayList>
+    <image id="n6_v465" name="n6" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="570,141"/>
+    <image id="n7_v465" name="n7" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="15,15"/>
+    <richtext id="n1_v465" name="labTitle" xy="24,17" size="160,25" fontSize="18" color="#ffffff" text="充值（100/100）元"/>
+    <richtext id="n2_v465" name="n2" xy="22,50" size="41,25" fontSize="18" color="#ffffff" text="总额"/>
+    <richtext id="n3_v465" name="residueLab" xy="23,82" size="115,25" fontSize="18" color="#ffffff" text="可抢个数：10"/>
+    <component id="n4_v465" name="scendBtn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="412,39">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="发红包"/>
+    </component>
+    <richtext id="n8_v465" name="labTotal" xy="100,50" size="63,25" fontSize="18" color="#ffffff" text="：1000"/>
+    <loader id="n9_v465" name="iconYuanBao" xy="66,46" size="32,31" url="ui://jvxpx9embwmw3y" fill="scaleFree"/>
+    <image id="n11_nif0" name="n11" src="nif0x" fileName="image/已发送.png" xy="434,52">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+  </displayList>
+</component>

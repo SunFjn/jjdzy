@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,906">
+  <displayList>
+    <image id="n67_nv7z" name="n67" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="18,218" size="602,688"/>
+    <loader id="n48_b5l2" name="imgBg2" xy="27,477" size="583,236" url="ui://xrzn9ppanv7z1e" autoSize="true"/>
+    <loader id="n47_b5l2" name="imgBg1" xy="25,228" size="583,236" url="ui://xrzn9ppanv7z1d" autoSize="true"/>
+    <component id="n0_f8nk" name="btnTong1" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="81,351">
+      <Button title="鉴定1次"/>
+    </component>
+    <component id="n1_f8nk" name="btnTong10" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="422,351">
+      <Button title="鉴定10次"/>
+    </component>
+    <image id="n16_b5l2" name="n16" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="414,245" size="177,39"/>
+    <richtext id="n17_b5l2" name="labCt" xy="396,249" size="208,31" fontSize="20" color="#ffffff" align="center" autoSize="none" singleLine="true" text="今日次数：20/20"/>
+    <component id="n18_b5l2" name="btnYuan1" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="82,599">
+      <Button title="鉴定1次"/>
+    </component>
+    <component id="n19_b5l2" name="btnYuan10" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="423,599">
+      <Button title="鉴定10次"/>
+    </component>
+    <richtext id="n20_b5l2" name="labBag" xy="225,168" size="203,31" fontSize="20" color="#ffffff" align="center" autoSize="none" text="背包符文：150/200"/>
+    <component id="n40_b5l2" name="labTong1" src="b5l2v" fileName="组件/VBaZTCost.xml" xy="88,416">
+      <Label title="1000" icon="ui://jvxpx9emltpm59"/>
+    </component>
+    <component id="n41_b5l2" name="labTong10" src="b5l2v" fileName="组件/VBaZTCost.xml" xy="430,415">
+      <Label title="1000" icon="ui://jvxpx9emltpm59"/>
+    </component>
+    <component id="n42_b5l2" name="labYuan1" src="b5l2v" fileName="组件/VBaZTCost.xml" xy="86,662">
+      <Label title="1000" icon="ui://jvxpx9embwmw3y"/>
+    </component>
+    <component id="n43_b5l2" name="labYuan10" src="b5l2v" fileName="组件/VBaZTCost.xml" xy="429,661">
+      <Label title="1000" icon="ui://jvxpx9embwmw3y"/>
+    </component>
+    <image id="n49_b5l2" name="n49" src="b5l2p" fileName="image/完美鉴定字条.png" xy="375,498" size="231,29"/>
+    <richtext id="n10_f8nk" name="labMust" xy="368,498" size="238,28" fontSize="18" color="#ffffff" align="right" ubb="true" autoSize="none" text="再抽[color=#ff0000]7次[/color]必得高级符文"/>
+    <component id="n50_b5l2" name="vChip" src="b5l216" fileName="组件/VBaZTChip.xml" xy="38,154"/>
+    <component id="n51_j1af" name="btnBag" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="481,153">
+      <Button title="符文预览"/>
+    </component>
+    <richtext id="n54_eeiw" name="txtDesc" xy="33,736" size="185,28" touchable="false" fontSize="18" color="#ffffff" ubb="true" strokeColor="#000000" text="鉴定次数满后重置次数"/>
+    <richtext id="n52_gijz" name="linkLb" xy="562,734" size="41,28" fontSize="18" color="#00ff00" underline="true" text="概率"/>
+    <richtext id="n55_eeiw" name="txtDesc1" xy="30,839" size="77,31" touchable="false" fontSize="16" color="#ffcc00" ubb="true" text="[size=20]完美[/size]鉴定"/>
+    <component id="n53_eeiw" name="progress" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="117,845" size="492,21">
+      <ProgressBar value="100" max="200"/>
+    </component>
+    <component id="n57_eeiw" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="132,772" scale="0.6,0.6"/>
+    <component id="n58_eeiw" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="209,772" scale="0.6,0.6"/>
+    <component id="n60_eeiw" name="grid2" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="288,772" scale="0.6,0.6"/>
+    <component id="n61_eeiw" name="grid5" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="547,772" scale="0.6,0.6"/>
+    <richtext id="n62_eeiw" name="count0" xy="131,873" size="60,25" touchable="false" fontSize="16" color="#ffffff" align="center" ubb="true" autoSize="none" strokeColor="#000000" text="20次"/>
+    <richtext id="n63_eeiw" name="count1" xy="209,873" size="60,25" touchable="false" fontSize="16" color="#ffffff" ubb="true" autoSize="none" strokeColor="#000000" text="50次"/>
+    <richtext id="n64_eeiw" name="count2" xy="287,873" size="60,25" touchable="false" fontSize="16" color="#ffffff" align="center" ubb="true" autoSize="none" strokeColor="#000000" text="80次"/>
+    <richtext id="n65_eeiw" name="count5" xy="553,873" size="60,25" touchable="false" fontSize="16" color="#ffffff" align="center" ubb="true" autoSize="none" strokeColor="#000000" text="200次"/>
+    <component id="n69_vrr6" name="grid3" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="366,772" scale="0.6,0.6"/>
+    <richtext id="n70_vrr6" name="count3" xy="369,873" size="60,25" touchable="false" fontSize="16" color="#ffffff" align="center" ubb="true" autoSize="none" strokeColor="#000000" text="100次"/>
+    <component id="n71_vrr6" name="grid4" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="456,772" scale="0.6,0.6"/>
+    <richtext id="n72_vrr6" name="count4" xy="457,873" size="60,25" touchable="false" fontSize="16" color="#ffffff" align="center" ubb="true" autoSize="none" strokeColor="#000000" text="150次"/>
+  </displayList>
+</component>

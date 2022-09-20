@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://dllc71i9g7h32c">
+  <displayList>
+    <component id="n0_g7h3" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="12,108" size="614,859">
+      <Label title="成就奖励"/>
+    </component>
+    <list id="n8_g7h3" name="list" xy="47,200" size="545,726" overflow="scroll" lineGap="4" colGap="11" defaultItem="ui://dllc71i9g7h32d" autoClearItems="true">
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+    </list>
+  </displayList>
+</component>

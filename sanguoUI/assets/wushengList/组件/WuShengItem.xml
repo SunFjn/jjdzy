@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="636,98">
+  <displayList>
+    <image id="n4_8hxb" name="n4" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="636,98"/>
+    <richtext id="n6_8hxb" name="nameLb" xy="22,16" size="77,28" touchable="false" fontSize="18" color="#f1f1f1" leading="0" text="玩家名字"/>
+    <richtext id="n15_bubc" name="powerLb" xy="22,54" size="77,28" touchable="false" fontSize="18" color="#f1f1f1" leading="0" text="玩家名字"/>
+    <component id="n8_8hxb" name="grid3" src="tv5mt" fileName="组件/WuShengListGrid.xml" xy="267,6" aspect="true"/>
+    <component id="n9_8hxb" name="grid2" src="tv5mt" fileName="组件/WuShengListGrid.xml" xy="357,6" aspect="true"/>
+    <component id="n10_8hxb" name="grid1" src="tv5mt" fileName="组件/WuShengListGrid.xml" xy="447,6" aspect="true"/>
+    <component id="n12_oo0o" name="grid0" src="tv5mt" fileName="组件/WuShengListGrid.xml" xy="537,4"/>
+    <component id="n16_mo6g" name="lookBt" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="152,25" size="125,46" group="n18_mo6g">
+      <Button icon="ui://a8l39nm9v913o"/>
+    </component>
+    <richtext id="n17_mo6g" name="rankLb" xy="22,27" size="72,43" group="n18_mo6g" fontSize="30" color="#ffffff" leading="0" text="4-10"/>
+    <group id="n18_mo6g" name="rankGroup" xy="22,25" size="255,46" visible="false" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

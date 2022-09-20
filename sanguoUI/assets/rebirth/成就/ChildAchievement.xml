@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://dllc71i9pke61v">
+  <controller name="tabCtrl" pages="" selected="-1"/>
+  <displayList>
+    <image id="n9_pke6" name="n9" src="z1jw6l" fileName="image/侧边框底.png" pkg="jvxpx9em" xy="7,146" size="122,770"/>
+    <list id="n1_pke6" name="tabList" xy="10,160" size="123,707" overflow="scroll" scrollBar="hidden" lineGap="5" colGap="8" defaultItem="ui://dllc71i9pke61x" autoItemSize="false" align="center" selectionController="tabCtrl" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n2_pke6" name="btnUp" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="67,140" pivot="0.5,0.5" anchor="true" size="36,47" rotation="90">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <component id="n3_pke6" name="btnDown" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="67,895" pivot="0.5,0.5" anchor="true" size="36,47" scale="-1,1" rotation="90">
+      <Button icon="ui://jvxpx9emgs0d67"/>
+    </component>
+    <list id="n10_pke6" name="list" xy="139,299" size="488,518" overflow="scroll" lineGap="4" colGap="11" defaultItem="ui://dllc71i9pke624" autoClearItems="true">
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+      <item controllers="countryCtrl,0"/>
+    </list>
+    <component id="n11_pke6" name="btnGetAll" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="318,835" hideByEditor="true">
+      <Button title="一键领取"/>
+    </component>
+    <component id="n12_pke6" name="pb" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="251,223" size="262,22" hideByEditor="true">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n14_pke6" name="btnReward" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="521,175" size="75,70" hideByEditor="true">
+      <Button icon="ui://dllc71i9pke625"/>
+    </component>
+    <component id="n15_pke6" name="btnMaster" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="156,173" size="89,75" hideByEditor="true">
+      <Button icon="ui://dllc71i9pke626"/>
+    </component>
+    <richtext id="n16_pke6" name="tfLevel" xy="260,190" size="41,34" hideByEditor="true" fontSize="22" color="#ffff00" bold="true" strokeColor="#000000" autoClearText="true" text="8阶"/>
+    <component id="n17_emwp" name="n17" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="218,264">
+      <Label title="任务一览"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="96,96">
+  <displayList>
+    <loader id="n0_k8oz" name="bg" xy="0,0" size="96,96" url="ui://jvxpx9emy1z8p"/>
+    <loader id="n3_k8oz" name="iconImg" xy="3,3" size="90,91" align="center" vAlign="middle"/>
+    <richtext id="n1_k8oz" name="nameLv" xy="0,95" size="96,29" touchable="false" fontSize="20" color="#ff0000" align="center" autoSize="none" text="张辽之魂"/>
+    <image id="n5_m76j" name="imgAct" src="v2391o" fileName="image/激活标记.png" xy="-2,-3"/>
+  </displayList>
+</component>

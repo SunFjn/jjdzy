@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.godOfWar.model.GodOfWar" tbname="godOfWar">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="chaNum" type="int" pf="all" comment="可挑战次数"/>
+			<col field="buyNum" type="int" pf="all" comment="购买挑战次数"/>
+			<col field="cdTime" type="int" pf="all" comment="挑战冷却时间"/>
+			<col field="lastChaTime" type="int" pf="all" comment="最后一次挑战时间"/>
+			<col field="promoteAwardRank" type="int" pf="all" comment="晋升奖励领取到的排行数"/>
+			<col field="buySet" type="varchar" len="300" pf="all" comment="已购买商品"/>
+     </tb>
+</tbs>

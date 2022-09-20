@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="4h4iwgjr" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="gapn8" name="已认怂字体.png" path="/image/" exported="true"/>
+    <image id="gapn9" name="醉意已满字体.png" path="/image/" exported="true"/>
+    <image id="gapnf" name="张飞醉酒底图.jpg" path="/image/" exported="true"/>
+    <component id="gapng" name="Child_ActCom_ZFZJ.xml" path="/组件/" exported="true"/>
+    <image id="gapnh" name="旗子-第二名.png" path="/image/" exported="true"/>
+    <component id="gapni" name="ZFZJItem.xml" path="/组件/" exported="true"/>
+    <component id="r3jej" name="View_ZFZJ_Reward.xml" path="/组件/" exported="true"/>
+    <component id="r3jek" name="ActCom_ZFZJ_RewardItem.xml" path="/组件/" exported="true"/>
+    <component id="r3jel" name="View_ActCom_ZFZJRank.xml" path="/组件/" exported="true"/>
+    <component id="r3jem" name="ActCom_ZFZJ_RankItem.xml" path="/组件/" exported="true"/>
+    <component id="r3jen" name="ZFZJSceneInfo.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="ActCom_ZFZJ" genCode="true" npot="true" excluded="gapnf"/>
+</packageDescription>

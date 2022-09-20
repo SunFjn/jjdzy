@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false" designImage="ui://wnqj5rwkloxz4">
+  <displayList>
+    <image id="n1_loxz" name="n1" src="m3513bf" fileName="image/通用底框/方框1.png" pkg="jvxpx9em" xy="2,265" size="636,661"/>
+    <image id="n2_loxz" name="n2" src="loxz7" fileName="res/刮刮乐背景.jpg" xy="10,270"/>
+    <image id="n3_loxz" name="n3" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="12,405" size="616,509"/>
+    <image id="n6_loxz" name="n6" src="loxz9" fileName="res/奖励预览.png" xy="21,312" size="26,72"/>
+    <component id="n7_loxz" name="btnHelp" src="lplo3gp" fileName="组件/TextBtn.xml" pkg="jvxpx9em" xy="526,279" pivot="0.5,0.5" size="90,20">
+      <Button title="&lt;>玩法说明&lt;/>" titleColor="#00ff00"/>
+    </component>
+    <image id="n8_loxz" name="n8" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="11,277" size="267,27"/>
+    <richtext id="n9_loxz" name="tfDate" xy="13,277" size="159,25" fontSize="18" color="#00ff00" text="活动剩余时间：1天"/>
+    <list id="n10_loxz" name="itemList" xy="51,306" size="709,109" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" margin="0,0,5,0" colGap="8" defaultItem="ui://jvxpx9emetorn" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n32_loxz" name="n32" src="loxz8" fileName="res/刮刮乐大张.jpg" xy="27,414"/>
+    <image id="n33_loxz" name="n33" src="loxza" fileName="res/刮刮乐3.png" xy="66,451" group="n42_loxz"/>
+    <image id="n34_loxz" name="n34" src="loxza" fileName="res/刮刮乐3.png" xy="241,451" group="n42_loxz"/>
+    <image id="n35_loxz" name="n35" src="loxza" fileName="res/刮刮乐3.png" xy="416,451" group="n42_loxz"/>
+    <image id="n36_loxz" name="n36" src="loxza" fileName="res/刮刮乐3.png" xy="66,584" group="n42_loxz"/>
+    <image id="n37_loxz" name="n37" src="loxza" fileName="res/刮刮乐3.png" xy="241,584" group="n42_loxz"/>
+    <image id="n38_loxz" name="n38" src="loxza" fileName="res/刮刮乐3.png" xy="416,584" group="n42_loxz"/>
+    <image id="n39_loxz" name="n39" src="loxza" fileName="res/刮刮乐3.png" xy="66,717" group="n42_loxz"/>
+    <image id="n40_loxz" name="n40" src="loxza" fileName="res/刮刮乐3.png" xy="241,717" group="n42_loxz"/>
+    <image id="n41_loxz" name="n41" src="loxza" fileName="res/刮刮乐3.png" xy="416,717" group="n42_loxz"/>
+    <group id="n42_loxz" name="n42" xy="66,451" size="510,399"/>
+    <component id="n43_loxz" name="grid" src="loxze" fileName="GGLGridView.xml" xy="66,451"/>
+    <richtext id="n5_loxz" name="tfDes" xy="216,878" pivot="0.5,0.5" size="203,25" fontSize="18" color="#00ff00" text="滑动手指，刮开奖励区域"/>
+    <graph id="n54_loxz" name="graph" xy="51,437" size="540,423"/>
+    <graph id="n55_loxz" name="layerTouch" xy="51,437" size="540,423" alpha="0" type="rect" lineSize="0"/>
+    <component id="n56_loxz" name="panelBuy" src="loxzg" fileName="GGLBuyPanel.xml" xy="0,498"/>
+    <component id="n57_loxz" name="btnRate" src="lplo3gp" fileName="组件/TextBtn.xml" pkg="jvxpx9em" xy="523,878" pivot="0.5,0.5" size="90,20">
+      <Button title="&lt;>概率公示&lt;/>" titleColor="#00ff00"/>
+    </component>
+  </displayList>
+</component>

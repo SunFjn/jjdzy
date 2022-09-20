@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400" overflow="scroll" extention="Label">
+  <displayList>
+    <richtext id="n0_fnxm" name="title" xy="0,0" size="400,28" fontSize="18" color="#ffffff" autoSize="height" text="">
+      <relation target="" sidePair="width-width"/>
+    </richtext>
+  </displayList>
+</component>

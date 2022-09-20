@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 1-200：php、自己用，加密串1；201-1000：前端，加密串2；1001-2000：运维，固定加密串-->
+	
+	<!-- 后台http事件-->
+	<!-- 玩家信息详情-->
+	<bean cmd="1" class="com.teamtop.houtaiHttp.events.heroInfo.HeroInfoHttpEvent" />
+	<!-- 封号禁言-->
+	<bean cmd="2" class="com.teamtop.houtaiHttp.events.heroInfo.ForbidHttpEvent" />
+	<!-- 发送个人邮件-->
+	<bean cmd="3" class="com.teamtop.houtaiHttp.events.mail.PersonalMailHttpEvent" />
+	<!-- 发送区服邮件-->
+	<bean cmd="4" class="com.teamtop.houtaiHttp.events.mail.ZoneMailHttpEvent" />
+	<!-- 登录公告设置-->
+	<bean cmd="5" class="com.teamtop.houtaiHttp.events.loginNotice.LoginNoticeHttpEvent" />
+	<!-- 维护服务器设置-->
+	<bean cmd="6" class="com.teamtop.houtaiHttp.events.serverMaintain.ServerMaintainHttpEvent" />
+	<!-- 添加删除白名单-->
+	<bean cmd="7" class="com.teamtop.houtaiHttp.events.whiteList.WhiteListHttpEvent" />
+	<!-- 同步字典数据-->
+	<bean cmd="8" class="com.teamtop.houtaiHttp.events.synDictionary.SynDictionaryHttpEvent" />
+	<!-- 踢玩家下线-->
+	<bean cmd="9" class="com.teamtop.houtaiHttp.events.kickOutHero.KickOutHeroHttpEvent" />
+	<!-- 广告号标记-->
+	<bean cmd="10" class="com.teamtop.houtaiHttp.events.adMark.adMarkHttpEvent" />
+	<!-- 充值入口开关-->
+	<bean cmd="12" class="com.teamtop.houtaiHttp.events.recharge.rechargeSwitch.RechargeSwitchHttpEvent" />
+	<!-- 自动开服-->
+	<bean cmd="13" class="com.teamtop.houtaiHttp.events.serverSelfMotion.ServerSelfMotionHttpEvent" />
+	<!-- 手动开服-->
+	<bean cmd="14" class="com.teamtop.houtaiHttp.events.manualOpServer.ManualOpServerHttpEvent" />
+	<!-- 系统循环公告-->
+	<bean cmd="15" class="com.teamtop.houtaiHttp.events.sysLoopNotice.SysLoopNoticeHttpEvent" />
+	<!-- 福利大厅公告-->
+	<bean cmd="16" class="com.teamtop.houtaiHttp.events.welfareNotice.WelfareHttpEvent" />
+	<!-- 添加删除黑名单-->
+	<bean cmd="17" class="com.teamtop.houtaiHttp.events.blackList.BlackListHttpEvent" />
+	<!--获取玩家背包道具 -->
+	<bean cmd="18" class="com.teamtop.houtaiHttp.events.bag.getbag.BagHttpEvent" />
+	<!--删除背包道具 -->
+	<bean cmd="19" class="com.teamtop.houtaiHttp.events.bag.delbag.DelBagHttpEvent" />
+	<!--查看平台服务器数目 -->
+	<bean cmd="20" class="com.teamtop.houtaiHttp.events.serverEvent.viewServer.ViewServerHttpEvent" />
+	<!--设置服务器预警数 -->
+	<bean cmd="21" class="com.teamtop.houtaiHttp.events.serverEvent.setServerWarn.SetServerWarnHttpEvent" />
+	<!-- 添加删除充值白名单-->
+	<bean cmd="23" class="com.teamtop.houtaiHttp.events.rechargeWhiteList.RechargeWhiteListHttpEvent" />
+	<!-- 实名认证系统-->
+	<bean cmd="24" class="com.teamtop.houtaiHttp.events.trueNameAndAntiAddiction.TrueNameAndAntiAddictionHttpEvent" />
+	<!-- 设置玩家默认进入区服-->
+	<bean cmd="25" class="com.teamtop.houtaiHttp.events.buyNumZoine.SetBuyNumZoneidHttpEvent" />
+	<!-- 获取导量服信息-->
+	<bean cmd="26" class="com.teamtop.houtaiHttp.events.buyNumZoine.GetBuyNumZoineHttpEvent" />
+	<!-- ios充值关卡设置-->
+	<bean cmd="27" class="com.teamtop.houtaiHttp.events.recharge.iosRecharge.IosRechargeHttpEvent" />
+	<!-- 设置玩家数值(设置玩家关卡)-->
+	<bean cmd="28" class="com.teamtop.houtaiHttp.events.guanka.GuanKaHttpEvent" />	
+	<!-- 游戏排行榜数据-->
+	<bean cmd="29" class="com.teamtop.houtaiHttp.events.ranking.RankingHttpEvent" />	
+	<!-- 充值白名单一键开关-->
+	<bean cmd="30" class="com.teamtop.houtaiHttp.events.rechargeWhiteList.RechargeWLOpenHttpEvent" />	
+	<!-- 充值白名单获取-->
+	<bean cmd="31" class="com.teamtop.houtaiHttp.events.rechargeWhiteList.RechargeWLGetHttpEvent" />	
+	<!-- 跨服活动开关-->
+	<bean cmd="32" class="com.teamtop.houtaiHttp.events.crossActivitySwitch.CrossActivitySwitchHttpEvent" />	
+	<!-- 活动开关-->
+	<bean cmd="33" class="com.teamtop.houtaiHttp.events.activity.ActivityOpHttpEvent" />
+	<!-- 专属活动 -->
+	<bean cmd="35" class="com.teamtop.houtaiHttp.events.exclusiveActivity.ExclusiveActivityHttpEvent" />
+	<!-- 自动开服_状态设置-->
+	<bean cmd="36" class="com.teamtop.houtaiHttp.events.serverSelfMotion.ServerSelfSetStateHttpEvent" />
+	<!-- 设置开关 -->
+	<bean cmd="40" class="com.teamtop.houtaiHttp.events.switchOnOff.SwitchOnOffHttpEvent" />
+	<!-- 屏蔽词 -->
+	<bean cmd="41" class="com.teamtop.houtaiHttp.events.BlockWord.BlockWordHttpEvent" />
+	<!-- 定时开服 -->
+	<bean cmd="44" class="com.teamtop.houtaiHttp.events.timingSelfMotionServer.TimingSelfMotionServerHttpEvent" />
+	<!-- IP注册限制功能 -->
+	<bean cmd="45" class="com.teamtop.houtaiHttp.events.ipWhiteList.IpWhiteListHttpEvent" />
+	<!-- 功能玩法开关 -->
+	<bean cmd="46" class="com.teamtop.houtaiHttp.events.gameSystem.GameSystemHttpEvent" />
+	
+		
+	<!-- 登录监控（模拟登录）-->
+	<bean cmd="101" class="com.teamtop.houtaiHttp.events.simulateLoginRecharge.SimulateLoginHttpEvent" />	
+	<!-- 支付监控（模拟充值）-->
+	<bean cmd="102" class="com.teamtop.houtaiHttp.events.simulateLoginRecharge.SimulateRechargeHttpEvent" />	
+	
+	
+	<!-- 线上指令-->
+	<bean cmd="66" class="com.teamtop.houtaiHttp.events.bsh.BshHttpEvent" />
+	<!-- 活动控制-->
+	<bean cmd="67" class="com.teamtop.houtaiHttp.events.activity.ActivityHttpEvent" />
+	
+	
+	<!-- 登录公告-->
+	<bean cmd="201" class="com.teamtop.houtaiHttp.events.loginNotice.LoginNoticeClientHttpEvent" />
+	<!-- 服务列表-->
+	<bean cmd="202" class="com.teamtop.houtaiHttp.events.manualOpServer.ServerClientHttpEvent" />
+	<!-- 维护检测-->
+	<bean cmd="203" class="com.teamtop.houtaiHttp.events.serverMaintain.ServerCanInClientHttpEvent" />
+	
+	<!-- 维护检测-->
+	<bean cmd="250" class="com.teamtop.houtaiHttp.events.serverSelfMotion.ServerSelfMotionHttpEvent" />
+	
+	
+	<!-- 运维通知-->
+	<bean cmd="1001" class="com.teamtop.houtaiHttp.request.YunweiHoutaiHttpEvent" />
+	<!-- 同步DB的ServerInfo到缓存-->
+	<bean cmd="1002" class="com.teamtop.houtaiHttp.events.manualOpServer.ServerInfoHttpEvent" />
+	<!-- 热更-->
+	<bean cmd="1003" class="com.teamtop.houtaiHttp.events.hotSwap.HotSwapHttpEvent" />
+	<!-- 脚本-->
+	<bean cmd="1004" class="com.teamtop.houtaiHttp.events.groovy.GroovyHttpEvent" />
+	<!-- 版本号-->
+	<bean cmd="1005" class="com.teamtop.houtaiHttp.events.version.VersionHttpEvent" />
+	<!-- 日志相关-->
+	<bean cmd="1006" class="com.teamtop.houtaiHttp.events.log.LogHttpEvent" />
+	<!-- 版本号控制相关-->
+	<bean cmd="1007" class="com.teamtop.houtaiHttp.request.YunweiClientVersionOpHttpEvent" />
+	<!-- 根据pfcode payTime时间 获取全平台的充值-->
+	<bean cmd="1008" class="com.teamtop.houtaiHttp.events.getRechargeByTime.GetRechargeByTime" />
+</beans>  

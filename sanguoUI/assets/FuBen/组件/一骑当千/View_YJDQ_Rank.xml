@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,442">
+  <displayList>
+    <component id="n10_som1" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,442">
+      <Label title="今日排名"/>
+    </component>
+    <image id="n16_som1" name="n16" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="17,90" size="556,44"/>
+    <list id="n8_u94l" name="list" xy="17,142" size="560,266" overflow="hidden" lineGap="10" defaultItem="ui://pkuzcu87ejh46">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n22_ejh4" name="n22" src="vqyp3cy" fileName="image1/战力.png" pkg="jvxpx9em" xy="481,100" group="n23_apmy"/>
+    <image id="n13_som1" name="n13" src="kbck17" fileName="image/通关波数.png" xy="319,100" group="n23_apmy"/>
+    <image id="n14_som1" name="n14" src="j92x9t" fileName="image1/名字.png" pkg="jvxpx9em" xy="179,100" group="n23_apmy"/>
+    <image id="n15_som1" name="n15" src="q8rv9n" fileName="image1/排名.png" pkg="jvxpx9em" xy="43,100" group="n23_apmy"/>
+    <group id="n23_apmy" name="n23" xy="43,100" size="482,24"/>
+  </displayList>
+</component>

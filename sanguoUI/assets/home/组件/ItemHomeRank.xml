@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="578,139">
+  <displayList>
+    <image id="n9_nvxy" name="n0" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="570,139"/>
+    <loader id="n1_sbl7" name="imgRank" xy="18,39" size="50,50" url="ui://jvxpx9em100v3al"/>
+    <richtext id="n2_sbl7" name="lbRank" xy="40,50" size="23,43" fontSize="30" color="#ffffff" text="2"/>
+    <component id="n3_sbl7" name="n3" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="86,24"/>
+    <richtext id="n4_sbl7" name="lbName" xy="219,28" size="40,28" fontSize="18" color="#ffffff" text=""/>
+    <richtext id="n5_sbl7" name="lbHomeType" xy="219,62" size="40,28" fontSize="18" color="#ffffff" text=""/>
+    <richtext id="n6_sbl7" name="lbAwards" xy="219,95" size="40,28" fontSize="18" color="#ffffff" text=""/>
+    <component id="n7_sbl7" name="btnEnter" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="460,37" size="60,66" group="n11_l7n5">
+      <Button title="进入" icon="ui://y0plc878nvxy1r"/>
+    </component>
+    <image id="n10_nvxy" name="imgTip" src="nvxy1q" fileName="images/感叹号.png" xy="491,-3" group="n11_l7n5"/>
+    <group id="n11_l7n5" name="n11" xy="460,-3" size="118,106" advanced="true"/>
+    <richtext id="n12_l7n5" name="lbHome" xy="443,52" size="101,35" fontSize="24" color="#66ff00" bold="true" strokeColor="#000000" text="玩家府邸"/>
+    <richtext id="n13_l7n5" name="lbInHome" xy="455,52" size="77,35" fontSize="24" color="#ff6633" bold="true" strokeColor="#000000" text="拜访中"/>
+  </displayList>
+</component>

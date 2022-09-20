@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="216,302">
+  <displayList>
+    <image id="n18_qsq2" name="n18" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="18,1" size="198,301"/>
+    <component id="n0_spa9" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="70,31"/>
+    <component id="n7_spa9" name="buyBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="52,232">
+      <Button title="立即抢购"/>
+    </component>
+    <image id="n14_mb5j" name="buyImg" src="mb5j7d" fileName="image/已购买.png" pkg="jvxpx9em" xy="54,238" visible="false"/>
+    <richtext id="n21_qsq2" name="dataLb1" xy="47,196" size="155,28" touchable="false" fontSize="18" color="#ffffff" leading="6" vars="true" autoSize="height" text="现价：      1000"/>
+    <image id="n8_spa9" name="disImg" src="qsq28" fileName="image/折扣标签.png" xy="0,0"/>
+    <richtext id="n1_spa9" name="nameLb" xy="24,8" size="193,28" touchable="false" fontSize="18" color="#ff0000" align="center" leading="0" autoSize="shrink" text="兵法属"/>
+    <richtext id="n2_spa9" name="dataLb" xy="47,166" size="155,28" touchable="false" fontSize="18" color="#ffffff" leading="6" vars="true" autoSize="height" text="原价：      5000"/>
+    <richtext id="n16_mb5j" name="disLb" xy="-1,6" size="40,31" fontSize="20" color="#ffffff" align="right" leading="0" autoSize="none" bold="true" text="0.5"/>
+    <richtext id="n19_qsq2" name="LbLast" xy="116,135" size="83,28" touchable="false" fontSize="18" color="#ffffff" align="right" leading="6" vars="true" autoSize="none" text="剩余:20"/>
+    <richtext id="n20_qsq2" name="LbLimit" xy="31,135" size="89,28" touchable="false" fontSize="18" color="#ffffff" leading="6" vars="true" text="限购：0/3"/>
+    <loader id="n3_spa9" name="typeImg0" xy="100,169" size="26,26" url="ui://jvxpx9emltpm59" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <loader id="n5_spa9" name="typeImg1" xy="100,198" size="26,26" url="ui://jvxpx9emltpm59" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <image id="n11_spa9" name="lineImg" src="mb5j7f" fileName="image1/line.png" pkg="jvxpx9em" xy="97,179" size="98,2"/>
+  </displayList>
+</component>

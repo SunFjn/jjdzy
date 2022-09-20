@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="e2wcosdz" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="opnx0" name="ViewYiJieJL.xml" path="/组件/" exported="true"/>
+    <component id="opnx1" name="ItemYiJieJL.xml" path="/组件/" exported="true"/>
+    <component id="opnx2" name="Gridshare.xml" path="/组件/" exported="true"/>
+    <component id="opnx4" name="ViewYJJLPreShow.xml" path="/组件/" exported="true"/>
+    <component id="opnx5" name="ItemYLPre.xml" path="/组件/" exported="true"/>
+    <image id="oxr78" name="title.png" path="/images/" exported="true"/>
+    <image id="oxr79" name="奖励底框.png" path="/images/" exported="true"/>
+    <image id="oxr7a" name="榜首底图.png" path="/images/" exported="true"/>
+    <component id="oxr7b" name="ViewYJJLAwards.xml" path="/组件/" exported="true"/>
+  </resources>
+  <publish name="yijiejl" genCode="true" npot="true"/>
+</packageDescription>

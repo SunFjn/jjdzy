@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.godOfWar.GodOfWarRankMapper">
+<update id="update" parameterType="String">
+	${value}
+</update>
+<insert id="insert" parameterType="GodOfWarRank" useGeneratedKeys="true" keyProperty="hid">
+	${insertSql}
+</insert>     
+<select id="find" parameterType="String" resultType="hashmap">
+	${value}
+</select> 
+<delete id="delOne" parameterType="String">
+	${value}
+</delete>
+<select id="findAll"  resultType="java.util.LinkedHashMap">
+	select * from godOfWarRank where ranking>0 order by ranking
+</select> 
+<update id="insertOnDuplicateBatch" parameterType="String">
+	${value}
+</update> 
+</mapper>

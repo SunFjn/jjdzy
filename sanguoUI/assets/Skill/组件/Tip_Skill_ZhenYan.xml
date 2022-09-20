@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,506">
+  <displayList>
+    <component id="n0_lqbq" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="594,506">
+      <Label title="升级"/>
+    </component>
+    <image id="n11_dn79" name="n11" src="jkp64z" fileName="image1/Bg4.png" pkg="jvxpx9em" xy="16,177" size="563,180"/>
+    <component id="n12_dn79" name="costItem" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="208,368"/>
+    <loader id="n1_lqbq" name="iconImg" xy="38,86" size="88,82" url="ui://c7onhgk8dn7918" fill="scale"/>
+    <component id="n9_lqbq" name="upgradeBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="226,420">
+      <Button title="升级"/>
+    </component>
+    <richtext id="n2_lqbq" name="nameLb" xy="140,85" size="101,35" touchable="false" fontSize="24" color="#ffc344" leading="0" ubb="true" text="诛仙心雷"/>
+    <richtext id="n3_lqbq" name="levelLb" xy="142,131" size="45,28" touchable="false" fontSize="18" color="#ffc344" leading="0" ubb="true" text="21级"/>
+    <richtext id="n4_lqbq" name="n4" xy="51,197" size="41,28" touchable="false" fontSize="18" color="#ffc344" leading="0" text="当前"/>
+    <richtext id="n5_lqbq" name="curAttLb" xy="50,227" size="92,28" touchable="false" fontSize="18" color="#ffffff" leading="0" ubb="true" text="伤害+20%"/>
+    <richtext id="n6_lqbq" name="n6" xy="52,271" size="59,28" touchable="false" fontSize="18" color="#ffc344" leading="0" text="下一级"/>
+    <richtext id="n7_lqbq" name="nextAttLb" xy="52,298" size="92,28" touchable="false" fontSize="18" color="#15f234" leading="0" ubb="true" text="伤害+20%"/>
+  </displayList>
+</component>

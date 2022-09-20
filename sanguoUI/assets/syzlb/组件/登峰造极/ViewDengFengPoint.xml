@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="596,888">
+  <displayList>
+    <component id="n3_a0u3" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="596,888">
+      <Label title="积分奖励"/>
+    </component>
+    <image id="n19_a0u3" name="n19" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="21,70" size="558,42"/>
+    <list id="n4_a0u3" name="list" xy="21,118" size="560,652" overflow="scroll" lineGap="3" colGap="1" defaultItem="ui://3o8q23uua0u32d" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n21_a0u3" name="n21" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="21,778" size="558,87"/>
+    <richtext id="n5_a0u3" name="lbRank" xy="58,809" size="117,28" fontSize="18" color="#e2ad38" autoClearText="true" text="我的排名：22"/>
+    <richtext id="n20_a0u3" name="lbPoint" xy="310,809" size="229,28" fontSize="18" color="#e2ad38" align="right" autoSize="none" autoClearText="true" text="我的积分：50"/>
+    <richtext id="n22_a0u3" name="n22" xy="58,79" size="41,28" fontSize="18" color="#e2ad38" text="积分"/>
+    <richtext id="n23_a0u3" name="n23" xy="274,79" size="41,28" fontSize="18" color="#e2ad38" text="奖励"/>
+  </displayList>
+</component>

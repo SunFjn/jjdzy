@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.lvBuRising.model.LvBuRisingModel" tbname="lvBuRisingModel">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="targetSet" type="text" pf="all" comment="已领取目标奖励"/>
+			<col field="score" type="int" pf="all" comment="积分"/>
+     </tb>
+</tbs>

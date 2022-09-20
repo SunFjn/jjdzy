@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="59,99" extention="Label">
+  <displayList>
+    <component id="n69_flxz" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="0,10" scale="0.6,0.6"/>
+    <image id="n72_flxz" name="imgGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="-10,31" size="78,25" aspect="true" visible="false"/>
+    <image id="n70_flxz" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="41,1" size="26,27" aspect="true"/>
+    <richtext id="n71_flxz" name="lbCt" xy="34,2" size="42,25" fontSize="16" color="#ffffff" align="center" leading="0" autoSize="none" text="1"/>
+    <richtext id="n80_flxz" name="title" xy="2,71" size="55,25" fontSize="16" color="#ffffff" align="center" autoSize="none" text="1圈"/>
+  </displayList>
+</component>

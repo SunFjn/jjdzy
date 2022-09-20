@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,305">
+  <displayList>
+    <component id="n0_wjpa" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,305">
+      <Label title="被动技能"/>
+    </component>
+    <image id="n17_oyny" name="n17" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="245,124" size="256,30" alpha="0.5"/>
+    <image id="n18_oyny" name="n18" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="245,161" size="256,30" alpha="0.5"/>
+    <image id="n19_oyny" name="n19" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="245,199" size="256,30" alpha="0.5"/>
+    <image id="n20_oyny" name="n20" src="bwmw3l" fileName="image/战力.png" pkg="jvxpx9em" xy="261,193"/>
+    <richtext id="n7_wjpa" name="attLb" xy="250,124" size="240,64" fontSize="20" color="#00ff00" leading="10" autoSize="none" text="暴击&#xA;暴击"/>
+    <richtext id="n21_oyny" name="powerLb" xy="330,198" size="65,31" fontSize="20" color="#ffffff" text="20000"/>
+    <component id="n22_oyny" name="skillGrid" src="ng03d" fileName="组件/ShaoZhuSkillGrid.xml" xy="98,113"/>
+  </displayList>
+</component>

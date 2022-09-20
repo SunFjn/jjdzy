@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="109,130">
+  <displayList>
+    <loader id="n0_n4tu" name="bg" xy="6,7" size="96,96" url="ui://jvxpx9emy1z8p" autoSize="true"/>
+    <loader id="n1_n4tu" name="imgIcon" xy="9,10" size="91,90" fill="scaleFree"/>
+    <image id="n6_n4tu" name="wearImg" src="ftpj9" fileName="image/出战中.png" xy="-4,0" aspect="true" visible="false"/>
+    <image id="n17_g2sr" name="maskBg" src="k8qc9z" fileName="image1/maskBg.png" pkg="jvxpx9em" xy="7,8" size="93,93" group="n13_z1jw"/>
+    <image id="n12_z1jw" name="n12" src="m3513by" fileName="image/文字底.png" pkg="jvxpx9em" xy="-2,-5" group="n13_z1jw"/>
+    <richtext id="n10_n4tu" name="sourceLb" xy="2,1" size="52,26" group="n13_z1jw" touchable="false" fontSize="16" color="#ffffff" leading="0" bold="true" text="VIP10"/>
+    <group id="n13_z1jw" name="sourceGroup" xy="-2,-5" size="102,106" hideByEditor="true" visible="false" advanced="true" collapsed="true"/>
+    <image id="n14_z1jw" name="n14" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="8,75" group="n9_n4tu"/>
+    <image id="n7_n4tu" name="n7" src="sv0g2l" fileName="image1/big_star_4.png" pkg="jvxpx9em" xy="54,77" size="20,20" group="n9_n4tu" aspect="true"/>
+    <richtext id="n8_n4tu" name="starLb" xy="18,75" size="35,25" group="n9_n4tu" touchable="false" fontSize="16" color="#ffffff" align="right" autoSize="none" text="10"/>
+    <group id="n9_n4tu" name="starGroup" xy="8,75" size="92,25" visible="false" advanced="true" collapsed="true"/>
+    <richtext id="n4_n4tu" name="nameLb" xy="4,102" size="101,28" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" text="刘禅"/>
+    <image id="n15_h3yj" name="selectImg" src="m3513c1" fileName="image/选中效果.png" pkg="jvxpx9em" xy="0,1" size="108,107" hideByEditor="true" visible="false"/>
+    <image id="n3_n4tu" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="87,3" hideByEditor="true" visible="false"/>
+  </displayList>
+</component>

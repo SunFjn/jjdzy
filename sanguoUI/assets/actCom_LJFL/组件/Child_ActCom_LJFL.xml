@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,666" opaque="false">
+  <displayList>
+    <loader id="n1_dufs" name="imgBg" xy="0,0" size="640,180" url="ui://y35rlqhydufs2"/>
+    <list id="n2_dufs" name="list" xy="12,180" size="620,486" layout="flow_hz" overflow="scroll" lineGap="1" colGap="2" lineItemCount="2" defaultItem="ui://y35rlqhydufs6" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n3_dufs" name="n3" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="10,146"/>
+    <richtext id="n4_dufs" name="labTime" xy="13,147" size="113,28" touchable="false" fontSize="18" color="#66ff00" text="活动剩余时间"/>
+    <image id="n5_qcd6" name="n5" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="511,146" size="118,27" flip="hz"/>
+    <richtext id="n6_qcd6" name="lab" xy="535,147" size="91,28" fontSize="18" color="#66ff00" align="right" autoSize="none" text="活动规则"/>
+    <richtext id="n7_dao9" name="lbAct" xy="119,676" size="400,35" fontSize="24" color="#33ff00" align="center" autoSize="none" text="2天后充值可激活"/>
+    <image id="n9_tszw" name="n9" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="290,109" size="339,27" flip="hz"/>
+    <richtext id="n8_tszw" name="lab1" xy="280,109" size="346,28" touchable="false" fontSize="18" color="#ff0000" align="right" autoSize="none" text="购买首充、特权卡、基金等不计入返利"/>
+  </displayList>
+</component>

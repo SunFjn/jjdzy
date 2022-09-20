@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="190,212" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n19_loov" name="chooseImg" src="q6rjb7j" fileName="image/卡牌选中框.png" pkg="7gxkx46w" xy="10,-22" size="198,186">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <loader id="n17_loov" name="imgBg" xy="32,0" size="154,143" align="center" vAlign="middle"/>
+    <image id="n22_8rj7" name="maskBg" src="k8qc9z" fileName="image1/maskBg.png" pkg="jvxpx9em" xy="32,0" size="154,143" visible="false"/>
+    <list id="n14_loov" name="list" xy="31,130" size="222,118" scale="0.7,0.7" layout="row" overflow="hidden" scroll="horizontal" colGap="14" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <image id="n15_loov" name="n15" src="loov1u" fileName="image/六出祁山/城池名字底.png" xy="0,9" size="40,110" aspect="true"/>
+    <text id="n16_loov" name="txtName" xy="6,14" size="26,111" fontSize="24" color="#ffffff" align="center" autoSize="none" strokeColor="#000000" text="第一关"/>
+    <image id="n21_hndy" name="n21" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="38,95" size="130,34"/>
+    <richtext id="n20_hndy" name="lbRew" xy="52,98" size="106,31" fontSize="22" color="#00ff00" align="center" autoSize="none" text="首通奖励"/>
+    <image id="n11_gv7i" name="imgPass" src="loov1v" fileName="image/六出祁山/已通关(1).png" xy="38,43" visible="false"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

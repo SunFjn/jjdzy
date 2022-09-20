@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="560,126">
+  <displayList>
+    <image id="n5_iv4o" name="n5" src="irr13h0" fileName="image/奖励栏.png" pkg="jvxpx9em" xy="0,0" size="560,126"/>
+    <richtext id="n6_iv4o" name="n6" xy="29,11" size="200,35" fontSize="24" color="#ff9900" align="center" autoSize="none" text="第2名"/>
+    <richtext id="n7_iv4o" name="n7" xy="29,45" size="200,35" fontSize="24" color="#ffffff" align="center" leading="0" autoSize="none" text="玩家"/>
+    <richtext id="n8_iv4o" name="n8" xy="29,81" size="200,35" fontSize="18" color="#00ff00" align="center" leading="0" autoSize="none" text="积分："/>
+    <loader id="n9_iv4o" name="n9" xy="241,28" size="70,68" url="ui://jvxpx9emxyp27h" align="center" vAlign="middle"/>
+    <component id="n10_iv4o" name="grid0" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="370,20" scale="0.8,0.8"/>
+    <component id="n11_iv4o" name="grid1" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="458,20" scale="0.8,0.8"/>
+  </displayList>
+</component>

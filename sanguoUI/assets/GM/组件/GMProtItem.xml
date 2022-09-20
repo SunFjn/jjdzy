@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="474,125">
+  <displayList>
+    <image id="n3_pckg" name="n3" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="474,125">
+      <relation target="n2_pckg" sidePair="bottomext-bottom"/>
+    </image>
+    <richtext id="n1_pckg" name="titleLb" xy="0,0" size="473,28" fontSize="18" color="#ffffff" autoSize="height" text="协议注释1111111111111111111111"/>
+    <list id="n2_pckg" name="list" xy="0,34" size="411,91" layout="flow_hz" overflow="hidden" defaultItem="ui://vm9a8xq8pckgd" autoClearItems="true">
+      <relation target="n1_pckg" sidePair="bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_af09" name="sendBt" src="y1z8l" fileName="新组建/Button1.xml" pkg="jvxpx9em" xy="416,32" size="54,52">
+      <relation target="n1_pckg" sidePair="bottom-bottom"/>
+      <Button title="发送"/>
+    </component>
+  </displayList>
+  <relation target="n2_pckg" sidePair="bottomext-bottom"/>
+</component>

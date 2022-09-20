@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="453,481">
+  <displayList>
+    <component id="n0_m20j" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="1,0" size="452,481"/>
+    <component id="n2_m20j" name="btnUp" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="76,402">
+      <Button title="炼魂" titleColor="#ffffff"/>
+    </component>
+    <image id="n3_m20j" name="g22" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="31,144" size="392,136"/>
+    <text id="n4_m20j" name="lbName" xy="140,33" size="91,35" fontSize="24" color="#ffffff" text="2级地魂"/>
+    <component id="n5_m20j" name="grid" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="33,29" scale="0.9,0.9"/>
+    <text id="n6_m20j" name="lbLH" xy="140,95" size="231,31" fontSize="20" color="#ffffff" ubb="true" text="炼魂战力： 1245667778"/>
+    <text id="n7_m20j" name="lbBase" xy="140,67" size="231,31" fontSize="20" color="#ffffff" ubb="true" text="基础战力： 1245667778"/>
+    <richtext id="n8_m20j" name="lbValue" xy="52,190" size="365,84" touchable="false" fontSize="18" color="#ffffff" leading="6" ubb="true" autoSize="none" text="生命+1000"/>
+    <richtext id="n10_m20j" name="lbTit" xy="189,152" size="77,31" touchable="false" fontSize="20" color="#ffffff" align="center" autoSize="none" text="属性"/>
+    <component id="n15_m20j" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="104,306" size="309,21">
+      <ProgressBar max="100"/>
+    </component>
+    <text id="n16_m20j" name="lbLv" xy="25,305" size="71,31" fontSize="20" color="#ffffff" align="right" autoSize="none" text="Lv.20"/>
+    <component id="n17_m20j" name="viewRes" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="178,346"/>
+    <component id="n19_g7pm" name="btnOneKey" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="266,402">
+      <Button title="一键炼魂"/>
+    </component>
+    <text id="n20_g7pm" name="lbLhName" xy="67,349" size="107,31" fontSize="20" color="#ffffff" align="right" autoSize="none" text="炼魂石"/>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.generalSoul.model.GeneralSoul" tbname="generalSoul">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="generalSoulMap" type="text" pf="all" comment="已拥有将魂信息"/>
+			<col field="setList" type="varchar" len="200" pf="all" comment="将魂套装信息"/>
+     </tb>
+</tbs>

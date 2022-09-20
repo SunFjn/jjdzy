@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="615,172" extention="Label">
+  <displayList>
+    <image id="n25_v97g" name="n25" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="615,172"/>
+    <richtext id="n14_j1af" name="lbName" xy="183,18" size="130,32" touchable="false" fontSize="25" color="#ff9900" text="修罗道风印"/>
+    <richtext id="n16_j1af" name="lbAttr" xy="183,77" size="273,71" touchable="false" fontSize="18" color="#ffffff" autoSize="height" text="攻击：125000&#xA;攻击：125000&#xA;攻击：125000"/>
+    <component id="n29_tdme" name="btnDown" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="422,55" pivot="0.5,0.5">
+      <Button title="卸下"/>
+    </component>
+    <component id="n20_j1af" name="btnWear" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="422,55" pivot="0.5,0.5">
+      <Button title="镶嵌"/>
+    </component>
+    <richtext id="n22_ly3w" name="lbLevel" xy="331,19" size="128,32" touchable="false" fontSize="25" color="#ffffff" text="Lv.180/200"/>
+    <richtext id="n15_j1af" name="lbPower" xy="183,52" size="139,25" fontSize="18" color="#ffc344" text="战力：10000000"/>
+    <component id="n28_v97g" name="grid" src="11m1w11" fileName="组件/六道/VSixWayGrid.xml" xy="19,18"/>
+  </displayList>
+</component>

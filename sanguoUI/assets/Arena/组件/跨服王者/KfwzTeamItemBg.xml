@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="178,261">
+  <displayList>
+    <image id="n27_n9yf" name="n27" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,12" size="178,249"/>
+    <image id="n33_n9yf" name="n33" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="48,0" size="82,29" group="n35_n9yf"/>
+    <richtext id="n34_n9yf" name="tfPos" xy="72,0" pivot="0.5,0.5" size="33,25" group="n35_n9yf" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoClearText="true" text="1号"/>
+    <group id="n35_n9yf" name="n35" xy="48,0" size="82,29" collapsed="true"/>
+  </displayList>
+</component>

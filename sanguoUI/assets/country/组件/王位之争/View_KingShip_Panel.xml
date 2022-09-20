@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_5vwc" name="frame" src="z1jw6v" fileName="组件/WindowFrame1.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://uwzc58njqnae1d"/>
+    </component>
+    <component id="n1_5vwc" name="item" src="u0wz20" fileName="组件/王位之争/ChildKingShipResult.xml" xy="0,143"/>
+  </displayList>
+</component>

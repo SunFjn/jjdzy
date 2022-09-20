@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="642,149">
+  <displayList>
+    <image id="n0_7jlm" name="n0" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="642,149"/>
+    <image id="n1_7jlm" name="n1" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="28,15"/>
+    <richtext id="n2_7jlm" name="lbPro" xy="28,15" size="77,28" fontSize="18" color="#ffffff" text="达到条件"/>
+    <component id="n3_7jlm" name="btn" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="468,45">
+      <Button title="领取"/>
+    </component>
+    <image id="n4_7jlm" name="ylq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="475,55"/>
+    <component id="n5_7jlm" name="btn1" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="466,45">
+      <Button title="前往"/>
+    </component>
+    <list id="n6_7jlm" name="list" xy="21,50" size="467,105" scale="0.85,0.85" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n7_7jlm" name="lbTips" xy="496,106" size="77,28" fontSize="18" color="#ffffff" text="达到条件">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

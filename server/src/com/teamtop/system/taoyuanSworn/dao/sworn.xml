@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.taoyuanSworn.dao.SwornMapper">
+	<!--获取桃园结义id-->
+	<select id="getSwornByHid" parameterType="long" resultType="hashmap">
+	    select * from sworn where hid=#{value};
+	</select>
+	<!--更新桃园结义信息-->
+	<update id="update" parameterType="com.teamtop.system.taoyuanSworn.model.Sworn">
+		${value}
+	</update>
+</mapper>

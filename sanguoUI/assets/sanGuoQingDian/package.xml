@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="kdt501v2" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="tipm1" name="ChildXiaoFeiPH.xml" path="/组件/" exported="true"/>
+    <component id="tipm2" name="ChildHLDuiHuan.xml" path="/组件/" exported="true"/>
+    <component id="tipm6" name="ItemHLDuiHuan.xml" path="/组件/" exported="true"/>
+    <image id="tipm8" name="已兑完.png" path="/image/" exported="true"/>
+    <image id="tipm9" name="第2名.png" path="/image/" exported="true"/>
+    <image id="tipma" name="第3-5名.png" path="/image/" exported="true"/>
+    <image id="tipmb" name="第6-10名.png" path="/image/" exported="true"/>
+    <image id="tipmc" name="第11-50名.png" path="/image/" exported="true"/>
+    <image id="tipmd" name="消费.png" path="/image/" exported="true"/>
+    <image id="tipme" name="消费返还道具图标.png" path="/image/" exported="true"/>
+    <image id="tipmf" name="第1名.png" path="/image/" exported="true"/>
+    <component id="tipmg" name="ItemXiaoFeiPH.xml" path="/组件/" exported="true"/>
+    <component id="tipmj" name="VXiaoFeiPaiHang.xml" path="/组件/" exported="true"/>
+    <component id="tipml" name="ItemXFBang.xml" path="/组件/" exported="true"/>
+    <component id="tipmm" name="ChildJiJin.xml" path="/组件/" exported="true"/>
+    <component id="tipmo" name="ItemJiJin.xml" path="/组件/" exported="true"/>
+    <component id="tq2hp" name="Child_ActiveCourtesy.xml" path="/组件/" exported="true"/>
+    <image id="tq2hr" name="活跃有礼配图.jpg" path="/image/" exported="true"/>
+    <image id="tq2hs" name="魔神吕布活跃有礼配图.png" path="/image/" exported="true"/>
+    <component id="tq2ht" name="ActiveCourtesyItem.xml" path="/组件/" exported="true"/>
+    <component id="to1mu" name="Child_ZhuanPan.xml" path="/组件/" exported="true"/>
+    <image id="to1mv" name="中奖记录.png" path="/image/" exported="true"/>
+    <image id="to1mw" name="排名奖励.png" path="/image/" exported="true"/>
+    <image id="to1mx" name="箭头.png" path="/image/" exported="true"/>
+    <image id="to1my" name="转盘.png" path="/image/" exported="true"/>
+    <image id="to1mz" name="选中奖励.png" path="/image/" exported="true"/>
+    <component id="ioin12" name="ViewZhuanPanReward.xml" path="/组件/" exported="true"/>
+    <component id="ioin13" name="VZhuanPanReward.xml" path="/组件/" exported="true"/>
+    <image id="ioin14" name="虚位以待.png" path="/image/" exported="true"/>
+    <image id="xx4115" name="大奖.png" path="/image/" exported="true"/>
+    <component id="xx4116" name="VZhuanPanLab.xml" path="/组件/" exported="true"/>
+    <component id="dg2218" name="VieZhuanPanTargetReward.xml" path="/组件/" exported="true"/>
+    <component id="dg2219" name="ChildZhuanPanTargetReward.xml" path="/组件/" exported="true"/>
+    <image id="dg221a" name="目标奖励.png" path="/image/" exported="true"/>
+    <component id="mq0c1c" name="Child_DanBiFanLi.xml" path="/组件/" exported="true"/>
+    <component id="mq0c1d" name="item_DanBiJiangLi.xml" path="/组件/" exported="true"/>
+    <component id="mq0c1e" name="Child_DeLuYouJiang.xml" path="/组件/" exported="true"/>
+    <component id="mq0c1f" name="item_DeLuYouJiang.xml" path="/组件/" exported="true"/>
+    <image id="mq0c1g" name="礼包内容底.png" path="/image/"/>
+    <image id="mq0c1h" name="助你战力飞升.png" path="/image/" exported="true"/>
+    <component id="mq0c1i" name="Child_LeiChongFanLi.xml" path="/组件/" exported="true"/>
+    <image id="mq0c1j" name="单笔返利配图.jpg" path="/image/"/>
+    <image id="mq0c1k" name="按钮-未选中.png" path="/image/"/>
+    <component id="mq0c1m" name="item_LeiChongFanLiBtn.xml" path="/组件/" exported="true"/>
+    <image id="mq0c1n" name="按钮.png" path="/image/"/>
+    <component id="qrkf1r" name="QDShopItem.xml" path="/组件/庆典商店/" exported="true"/>
+    <component id="qrkf1s" name="Child_QDShop.xml" path="/组件/庆典商店/" exported="true"/>
+    <image id="igx91u" name="折扣标签.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="sanGuoQingDian" genCode="true" npot="true" excluded="tq2hs,tq2hr,mq0c1h,to1my,mq0c1g,mq0c1j"/>
+</packageDescription>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="293,202">
+  <controller name="c1" pages="0,未开启,1,已开启" selected="0"/>
+  <displayList>
+    <image id="n2_11m1w" name="n2" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="293,202"/>
+    <richtext id="n0_11m1w" name="nameLb" xy="7,136" size="280,27" fontSize="20" color="#666666" align="center" autoSize="none" text="天道之力（2/4/6）"/>
+    <richtext id="n1_11m1w" name="proLb" xy="7,164" size="280,30" fontSize="20" color="#666666" align="center" autoSize="none" text="属性PVP伤害加成0%"/>
+    <loader id="n4_11m1w" name="bgImg" xy="16,17" size="262,112" url="ui://ehelf5bh11m1w1j"/>
+    <loader id="n3_11m1w" name="pzImg" xy="13,14" size="268,118" url="ui://ehelf5bh11m1w1e"/>
+    <image id="n6_ozko" name="n6" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="34,62" group="n8_ozko"/>
+    <richtext id="n7_ozko" name="lbActivate" xy="94,80" size="105,25" group="n8_ozko" fontSize="18" color="#ff0000" text="5世轮回开启"/>
+    <group id="n8_ozko" name="n8" xy="34,62" size="230,62" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n9_a4yc" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="265,8" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>

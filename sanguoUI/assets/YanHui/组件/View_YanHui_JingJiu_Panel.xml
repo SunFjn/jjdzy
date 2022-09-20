@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="593,645">
+  <controller name="c1" autoRadioGroupDepth="true" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n1_gz25" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="593,596">
+      <Label title="敬酒"/>
+    </component>
+    <loader id="n2_gz25" name="backImg" xy="10,62" size="577,525" group="n18_gz25" url="ui://4x7dk3lhgz25s"/>
+    <component id="n3_gz25" name="item0" src="gz25t" fileName="组件/YanHui_JingJiuItem.xml" xy="59,119" group="n18_gz25"/>
+    <component id="n16_gz25" name="item1" src="gz25t" fileName="组件/YanHui_JingJiuItem.xml" xy="239,118" group="n18_gz25"/>
+    <component id="n17_gz25" name="item2" src="gz25t" fileName="组件/YanHui_JingJiuItem.xml" xy="418,119" group="n18_gz25"/>
+    <group id="n18_gz25" name="n18" xy="10,62" size="577,525" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n19_gz25" name="tab0" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="13,591">
+      <Button checked="true" title="敬酒" controller="c1" page="0"/>
+    </component>
+    <component id="n20_gz25" name="tab1" src="bwmw3f" fileName="组件/TabButton.xml" pkg="jvxpx9em" xy="131,591">
+      <Button title="敬酒奖励" controller="c1" page="1"/>
+    </component>
+    <list id="n25_gz25" name="list" xy="17,70" size="564,511" overflow="scroll" lineGap="6" defaultItem="ui://4x7dk3lhgz25v" autoClearItems="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

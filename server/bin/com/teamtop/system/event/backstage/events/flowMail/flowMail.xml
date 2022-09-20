@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teamtop.system.event.backstage.events.flowMail.FlowMailMapper">
+<update id="updateFlowMailState" parameterType="com.teamtop.system.event.backstage.events.flowMail.B_FlowMail">
+	update b_flowmail set isRead=#{isRead},time=#{time} where id=#{id}
+</update> 
+<update id="updateFlowMailFujianState" parameterType="com.teamtop.system.event.backstage.events.flowMail.B_FlowMail">
+	update b_flowmail set isRead=#{isRead},isGetAdj=#{isGetAdj},time=#{time} where id=#{id}
+</update> 
+</mapper>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 服务器信息表 -->
+	<tb model="com.teamtop.system.event.backstage.events.backstage.serverInfoList.M_ServerInfo" tbname="m_serverinfo" serverid="2">
+		<index field="id" type="prikey"/>
+		<index field="zoneid" type="normal"/>
+		<index field="pf" type="normal"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="zoneid" type="int" pf="all" comment="区号"/>
+		<col field="alias" type="varchar" len="100" pf="all" comment="区服名"/>
+		<col field="pf" type="varchar" len="100" pf="all" comment="平台号"/>
+		<col field="port" type="int" pf="all" comment="端口"/>
+		<col field="houtaiport" type="int" pf="all" comment="后台端口"/>
+		<col field="rechargeport" type="int" pf="all" comment="充值端口"/>
+		<col field="ip" type="varchar" len="250" pf="all" comment="ip地址"/>
+		<col field="state" type="int" pf="all" comment="服务器状态"/>
+		<col field="dbip" type="varchar" len="250" pf="all" comment="数据库ip"/>
+		<col field="dbport" type="int" pf="all" comment="数据库端口"/>
+		<col field="dbname" type="varchar" len="250" pf="all" comment="数据库名称"/>
+		<col field="dbuser" type="varchar" len="250" pf="all" comment="数据库user"/>
+		<col field="dbpwd" type="varchar" len="250" pf="all" comment="数据库密码"/>
+		<col field="opentime" type="int" pf="all" comment="实际开服时间 时间戳"/>
+		<col field="autoopen" type="int" pf="all" comment="自动开服标志"/>
+		<col field="content" type="varchar" len="500" pf="all" comment="维护公告"/>
+		<col field="hefuServer" type="text" pf="all"  comment="合服区"/>
+		<col field="hefuTime" type="int" pf="all" comment="合服时间"/>
+		<col field="clientversion" type="varchar" len="255" pf="all" comment="客户端版本"/>
+	</tb>
+</tbs>

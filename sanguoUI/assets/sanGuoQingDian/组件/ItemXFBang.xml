@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="560,80">
+  <displayList>
+    <image id="n0_tipm" name="n0" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="0,0" size="560,80"/>
+    <text id="n1_tipm" name="txtPM" xy="34,25" size="33,35" fontSize="26" color="#ffcc00" text="10">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n2_tipm" name="txtName" xy="164,25" size="187,35" fontSize="26" color="#ffffff" text="玩家名字六个字">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n3_tipm" name="txtJiFen" xy="435,26" size="61,35" fontSize="26" color="#ffffff" vAlign="middle" text="3000"/>
+    <loader id="n4_tipm" name="iconPM" xy="16,7" size="72,65" aspect="true" fill="scale" autoSize="true"/>
+    <image id="n5_tipm" name="iconCost" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="398,22" size="36,35" aspect="true"/>
+    <image id="n6_u279" name="iconXWYD" src="ioin14" fileName="image/虚位以待.png" xy="208,33"/>
+  </displayList>
+</component>

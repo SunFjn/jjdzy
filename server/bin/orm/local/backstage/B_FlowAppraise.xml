@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<!-- 鉴定流水流水表 -->
+	<tb model="com.teamtop.system.event.backstage.events.backstage.flowAppraise.B_FlowAppraise" tbname="b_flowAppraise">
+		<index field="id" type="prikey"/>
+		<index field="hid" type="normal"/>
+		<index field="pfcode" type="normal"/>
+		<index field="zoneid" type="normal"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="zoneid" type="int" pf="all" comment="区号"/>
+		<col field="pfcode" type="varchar" len="100" pf="all" comment="平台代码 接入平台代号 由SDk转接工程提供给游戏前端 "/>
+		<col field="appraiseTimes" type="int" pf="all" comment="鉴定次数"/>
+		<col field="awardStr" type="text" pf="all" comment="鉴定奖励，Json字符串"/>
+		<col field="operateTime" type="int" pf="all" comment="操作时间"/>
+	</tb>
+</tbs>

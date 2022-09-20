@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.crossZhuLu.model.CrossZhuLuHeroInfo" tbname="crossZhuLuHeroInfo" serverid="3">
+		<index field="hid" type="prikey"/>
+		<col field="hid" type="bigint" pf="all" comment="角色id"/>
+		<col field="cityId" type="int" pf="all" comment="当前城池位置"/>
+		<col field="state" type="int" pf="all" comment="当前状态"/>
+		<col field="score" type="bigint" pf="all" comment="当前积分"/>
+		<col field="updateScoreTime" type="int" pf="all" comment="更新积分时间"/>
+		<col field="tiLi" type="int" pf="all" comment="当前体力"/>
+		<col field="updateTiLiTime" type="int" pf="all" comment="更新体力时间"/>
+		<col field="maxTiLi" type="int" pf="all" comment="最大体力"/>
+		<col field="partId" type="int" pf="all" comment="跨服组id"/>
+		<col field="countryId" type="int" pf="all" comment="国家id"/>
+		<col field="job" type="int" pf="all" comment="职业"/>
+		<col field="strength" type="bigint" pf="all" comment="战力"/>
+		<col field="model" type="text" pf="all" comment="角色显示模型"/>
+		<col field="skill" type="text" pf="all" comment="技能"/>
+		<col field="finalFightAttr" type="text" pf="all" comment="战斗属性详细"/>
+		<col field="figthMonsterSpirit" type="int" pf="all" comment="出战兽魂"/>
+		<col field="littleLeader" type="text" pf="all" comment="少主信息"/>
+		<col field="name" type="varchar" len="50" pf="all" comment="玩家名称"/>
+		<col field="herdid" type="int" pf="all" comment="头像"/>
+		<col field="iconid" type="int" pf="all" comment="头像框"/>
+		<col field="rewards" type="text" pf="all" comment="驻守奖励"/>
+		<col field="todayScore" type="bigint" pf="all" comment="今日积分"/>
+		<col field="todayScoreTime" type="int" pf="all" comment="刷新今日积分时间"/>
+		<col field="godSkillLevel" type="int" pf="all" comment="神将之力技能进阶"/>
+		<col field="baowu" type="text" pf="all" comment="宝物"/>
+	    <col field="tianshu" type="text" pf="all" comment="天书"/> 
+	</tb>
+</tbs>

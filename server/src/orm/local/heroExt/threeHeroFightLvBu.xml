@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.threeHeroFightLvBu.model.ThreeHeroFightLvBu" tbname="threeHeroFightLvBu">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="chaNum" type="int" pf="all" comment="挑战次数"/>
+			<col field="buyNum" type="int" pf="all" comment="已购买次数"/>
+			<col field="hardType" type="int" pf="all" comment="已开通难度"/>
+     </tb>
+</tbs>

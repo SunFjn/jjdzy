@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="136,62" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n0_y1z8" name="n0" src="m3513bp" fileName="image/通用按钮/橙色按钮.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_sv0g" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" xy="117,-3" size="20,20" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <text id="n1_y1z8" name="title" xy="15,14" size="105,34" fontSize="22" color="#f7f3f3" vAlign="middle" letterSpacing="3" singleLine="true" text="一键领取">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.10"/>
+</component>

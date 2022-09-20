@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_hiz7" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://j0lk55yeg53ae"/>
+    </component>
+    <component id="n5_g53a" name="xuT" src="g53a1" fileName="组建/Child_XuTian.xml" xy="0,0"/>
+  </displayList>
+</component>

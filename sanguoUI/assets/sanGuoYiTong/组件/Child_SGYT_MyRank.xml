@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="560,623">
+  <displayList>
+    <list id="n12_iv4o" name="n12" xy="0,0" size="560,588" overflow="scroll" lineGap="10" defaultItem="ui://z4ijxlqkiv4oo" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n13_iv4o" name="n13" xy="40,592" size="117,31" touchable="false" fontSize="20" color="#ff9900" text="我的排名：2"/>
+    <richtext id="n14_iv4o" name="n14" xy="324,591" size="213,31" touchable="false" fontSize="20" color="#00ff00" align="right" autoSize="none" text="我的积分：2"/>
+  </displayList>
+</component>

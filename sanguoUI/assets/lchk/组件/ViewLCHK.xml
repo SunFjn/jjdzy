@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136">
+  <displayList>
+    <component id="n0_liti" name="frame" src="z1jw6v" fileName="组件/frame3.xml" pkg="jvxpx9em" xy="0,0">
+      <Label icon="ui://goyve578povha"/>
+    </component>
+    <loader id="n14_qnxv" name="back" xy="0,119" size="640,804" url="ui://goyve578qnxv8"/>
+    <image id="n2_liti" name="btnLeft" src="w6ro3cm" fileName="image/箭头+其他/箭头1.png" pkg="jvxpx9em" xy="4,845" size="42,57" aspect="true" scale="0.8,0.8" flip="hz"/>
+    <image id="n3_liti" name="btnRight" src="w6ro3cm" fileName="image/箭头+其他/箭头1.png" pkg="jvxpx9em" xy="594,845" size="45,61" aspect="true" scale="0.8,0.8"/>
+    <list id="n4_liti" name="list" xy="44,824" size="547,93" layout="flow_hz" overflow="scroll" scroll="horizontal" colGap="6" lineItemCount="100" defaultItem="ui://goyve578liti1" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8_liti" name="btnQW" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="256,718">
+      <Button title="前往充值"/>
+    </component>
+    <text id="n9_liti" name="txtCZ" xy="255,785" size="129,29" fontSize="22" color="#00ff00" text="已充值: 66元">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n11_liti" name="iconGot" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="258,728"/>
+    <component id="n10_liti" name="btnGot" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="256,719">
+      <Button title="领取"/>
+    </component>
+    <image id="n12_mfma" name="noticeImg1" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="27,840" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n13_mfma" name="noticeImg2" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="600,836" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <image id="n21_vib6" name="n21" src="z1jw6w" fileName="image/战力底.png" pkg="jvxpx9em" xy="156,506" size="314,61">
+      <relation target="n18_qnxv" sidePair="left-left"/>
+    </image>
+    <loader id="n18_qnxv" name="iconImg" xy="301,525" size="56,31" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <image id="n19_vib6" name="n19" src="vib68" fileName="image/累计价值.png" xy="197,524">
+      <relation target="n18_qnxv" sidePair="left-left"/>
+    </image>
+    <image id="n20_vib6" name="n20" src="vib69" fileName="image/元宝.png" xy="358,525">
+      <relation target="n18_qnxv" sidePair="right-right"/>
+    </image>
+    <list id="n22_l3sh" name="n22" xy="103,576" size="445,127" layout="flow_hz" overflow="scroll" colGap="12" defaultItem="ui://jvxpx9emetorm">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

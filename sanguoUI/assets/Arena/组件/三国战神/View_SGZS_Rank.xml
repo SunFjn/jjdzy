@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="590,758">
+  <displayList>
+    <component id="n10_som1" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="590,758">
+      <Label title="奖励预览"/>
+    </component>
+    <image id="n36_p24e" name="n36" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="16,77" size="556,44"/>
+    <image id="n43_q8rv" name="n43" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="16,629" size="557,63"/>
+    <richtext id="n34_l3h3" name="n34" xy="206,706" size="178,28" touchable="false" fontSize="18" color="#00f234" text="奖励每晚0点邮件发放"/>
+    <richtext id="n39_p24e" name="rankLb" xy="68,643" size="77,28" touchable="false" fontSize="18" color="#ffffff" text="我的排名"/>
+    <list id="n38_p24e" name="list" xy="16,124" size="560,496" overflow="scroll" lineGap="5" defaultItem="ui://me1skowlp24e8">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n41_q8rv" name="n41" src="q8rv9n" fileName="image1/排名.png" pkg="jvxpx9em" xy="71,89"/>
+    <image id="n42_q8rv" name="n42" src="q8rv9o" fileName="image1/奖励.png" pkg="jvxpx9em" xy="340,87"/>
+  </displayList>
+</component>

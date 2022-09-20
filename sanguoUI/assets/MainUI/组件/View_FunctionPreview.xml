@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,117">
+  <displayList>
+    <loader id="n9_pseo" name="iconImg" xy="10,0" size="94,95" url="ui://7gxkx46wmx0a63" align="center" vAlign="middle" fill="scale"/>
+    <image id="n12_mx0a" name="n12" src="z1jw6s" fileName="image1/头像星星背景.png" pkg="jvxpx9em" xy="4,93" size="106,24"/>
+    <image id="n11_tczz" name="noticeImg" src="etoro" fileName="image1/Bm_Liang.png" pkg="jvxpx9em" xy="81,4"/>
+    <richtext id="n10_pseo" name="openLb" xy="0,93" size="114,24" touchable="false" fontSize="14" color="#00f234" align="center" leading="0" autoSize="none" text="00:59:59后开启"/>
+  </displayList>
+</component>

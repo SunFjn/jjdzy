@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="456,385">
+  <displayList>
+    <component id="n0_h7qe" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="456,385">
+      <Label title="举办宴会"/>
+    </component>
+    <richtext id="n1_h7qe" name="n1" xy="26,68" size="235,28" fontSize="18" color="#ffffff" text="设宴时间：每天18:00-20:00"/>
+    <loader id="n2_h7qe" name="backImg0" xy="23,100" size="202,270" group="n9_h7qe" url="ui://4x7dk3lhgz259"/>
+    <richtext id="n5_h7qe" name="n5" xy="89,173" size="69,25" group="n9_h7qe" fontSize="16" color="#ffffff" align="center" text="奖励预览"/>
+    <list id="n6_h7qe" name="list0" xy="38,197" size="316,102" group="n9_h7qe" scale="0.55,0.55" layout="row" overflow="hidden" colGap="5" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_h7qe" name="holdBt0" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="67,285" pivot="0.5,0.5" size="111,47" group="n9_h7qe">
+      <Button title="举办宴会" titleFontSize="18"/>
+    </component>
+    <component id="n8_h7qe" name="costLb0" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="88,332" size="82,33" group="n9_h7qe" scale="0.8,0.8">
+      <relation target="n7_h7qe" sidePair="center-center"/>
+      <Label title="9999&#xD;"/>
+    </component>
+    <richtext id="n22_gz25" name="numLb0" xy="53,144" size="141,25" group="n9_h7qe" fontSize="16" color="#ffffff" align="center" autoSize="none" text="可参与人数"/>
+    <richtext id="n24_gz25" name="vipLb0" xy="34,307" size="177,25" group="n9_h7qe" fontSize="18" color="#ffffff" align="center" autoSize="none" text="VIP7开启"/>
+    <group id="n9_h7qe" name="n9" xy="23,100" size="331,270"/>
+    <loader id="n10_h7qe" name="backImg1" xy="233,100" size="202,270" group="n17_h7qe" url="ui://4x7dk3lhgz257"/>
+    <richtext id="n13_h7qe" name="n13" xy="300,173" size="69,25" group="n17_h7qe" fontSize="16" color="#ffffff" align="center" text="奖励预览"/>
+    <list id="n14_h7qe" name="list1" xy="242,197" size="332,102" group="n17_h7qe" scale="0.55,0.55" layout="row" overflow="hidden" defaultItem="ui://jvxpx9emetorm" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n15_h7qe" name="holdBt1" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="279,285" pivot="0.5,0.5" size="111,47" group="n17_h7qe">
+      <Button title="举办宴会" titleFontSize="18"/>
+    </component>
+    <component id="n16_h7qe" name="costLb1" src="taxk3gl" fileName="新组建/ViewResource2.xml" pkg="jvxpx9em" xy="301,332" size="82,33" group="n17_h7qe" scale="0.8,0.8">
+      <relation target="n15_h7qe" sidePair="center-center"/>
+      <Label title="9999"/>
+    </component>
+    <component id="n18_h7qe" name="checkBt" src="som165" fileName="新组建/checkBox1.xml" pkg="jvxpx9em" xy="248,257" size="216,32" group="n17_h7qe" scale="0.8,0.8">
+      <Button title="不接受普通赴宴礼物"/>
+    </component>
+    <richtext id="n23_gz25" name="numLb1" xy="247,145" size="172,25" group="n17_h7qe" fontSize="16" color="#ffffff" align="center" autoSize="none" text="可参与人数"/>
+    <richtext id="n25_gz25" name="vipLb1" xy="245,307" size="177,25" group="n17_h7qe" fontSize="18" color="#ffffff" align="center" autoSize="none" text="VIP7开启"/>
+    <group id="n17_h7qe" name="n17" xy="233,100" size="341,270"/>
+    <richtext id="n20_gz25" name="smLb" xy="351,68" size="77,28" fontSize="18" color="#00ff00" underline="true" text="玩法说明"/>
+  </displayList>
+</component>

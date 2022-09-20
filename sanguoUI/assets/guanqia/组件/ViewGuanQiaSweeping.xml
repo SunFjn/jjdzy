@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="587,770">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n7_som1" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="587,770">
+      <Label title="快速扫荡"/>
+    </component>
+    <loader id="n9_som1" name="imgBG" xy="21,77" size="545,164" url="ui://r92dp953x3b91x"/>
+    <image id="n10_som1" name="n10" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="35,270" size="501,322"/>
+    <component id="n12_som1" name="btnSweep" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="222,630" group="n28_hcde">
+      <Button title="扫荡"/>
+    </component>
+    <richtext id="n13_som1" name="lbTip" xy="237,595" size="113,28" group="n28_hcde" fontSize="18" color="#33ff00" text="每日首次免费"/>
+    <richtext id="n14_som1" name="lbCount" xy="190,685" size="207,28" group="n28_hcde" fontSize="18" color="#ffffff" align="center" autoSize="none" text="今日扫荡次数：3/3"/>
+    <text id="n16_som1" name="n16" xy="193,712" size="200,28" group="n21_vxzz" fontSize="18" color="#00ff00" text="提升VIP等级可增加次数 "/>
+    <group id="n21_vxzz" name="n21" xy="193,712" size="200,28" group="n28_hcde"/>
+    <component id="n23_ejku" name="n23" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="97,303" group="n28_hcde"/>
+    <component id="n24_ejku" name="n24" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="242,303" group="n28_hcde"/>
+    <component id="n25_ejku" name="n25" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="387,303" group="n28_hcde"/>
+    <component id="n26_ejku" name="n26" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="153,452" group="n28_hcde"/>
+    <component id="n27_ejku" name="n27" src="etorn" fileName="新组建/ViewGridRender.xml" pkg="jvxpx9em" xy="338,452" group="n28_hcde"/>
+    <group id="n28_hcde" name="n28" xy="97,303" size="392,437" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <list id="n29_hcde" name="n29" xy="36,273" size="497,312" group="n38_hcde" layout="flow_hz" overflow="scroll" colGap="16" defaultItem="ui://jvxpx9emetorn" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n31_hcde" name="n31" src="tli03cx" fileName="image1/Switch @up.png" pkg="jvxpx9em" xy="385,607" size="116,36" group="n38_hcde"/>
+    <image id="n32_hcde" name="n32" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="397,609" group="n38_hcde"/>
+    <richtext id="n33_hcde" name="n33" xy="433,615" size="50,25" group="n38_hcde" fontSize="16" color="#ffffff" text="99999"/>
+    <component id="n30_hcde" name="n30" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="78,648" group="n38_hcde">
+      <Button title="一键熔炼"/>
+    </component>
+    <component id="n34_hcde" name="n34" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="378,648" group="n38_hcde">
+      <Button title="扫荡"/>
+    </component>
+    <richtext id="n36_hcde" name="n36" xy="382,703" size="121,25" group="n38_hcde" fontSize="16" color="#ffffff" text="剩余次数：9999"/>
+    <richtext id="n37_hcde" name="n37" xy="356,728" size="175,25" group="n38_hcde" fontSize="16" color="#00ff00" text="提升VIP等级可增加次数"/>
+    <group id="n38_hcde" name="n38" xy="36,273" size="497,480" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

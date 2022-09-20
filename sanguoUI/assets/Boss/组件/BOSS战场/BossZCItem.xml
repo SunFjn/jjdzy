@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="604,138" designImageOffsetX="-18" designImageOffsetY="-185">
+  <displayList>
+    <loader id="n27_t5sk" name="n27" xy="0,0" size="604,138"/>
+    <loader id="n17_ppyw" name="n17" xy="246,9" size="73,21" url="ui://jvxpx9emppyw3ey"/>
+    <image id="n26_ppyw" name="crossImg" src="ppyw30" fileName="image/跨服标签.png" xy="168,5"/>
+    <richtext id="n14_ppyw" name="nameLb" xy="21,8" size="97,25" fontSize="18" color="#e6e0cc" align="center" leading="0" strokeColor="#211a04" text="张辽(1-3转)">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n46_djuz" name="n46" src="61zd77" fileName="image1/九宫格拉伸透明底.png" pkg="jvxpx9em" xy="166,39" size="235,87"/>
+    <list id="n29_sx38" name="n29" xy="160,39" size="310,102" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://jvxpx9emetorm" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n25_ppyw" name="resLb" xy="464,11" size="109,25" group="n33_sx38" fontSize="18" color="#00ff00" align="center" leading="0" text="BOSS已刷新">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n33_sx38" name="groupEnter" xy="464,11" size="109,25" advanced="true" collapsed="true"/>
+    <component id="n24_ppyw" name="enterBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="446,50">
+      <Button title="进入战场"/>
+    </component>
+    <image id="n34_sx38" name="n34" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="409,74" size="198,27" group="n35_sx38">
+      <relation target="n19_ppyw" sidePair="width-width"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <richtext id="n19_ppyw" name="timeLb" xy="419,75" size="165,25" group="n35_sx38" fontSize="18" color="#33ff00" align="center" leading="0" text="刷新时间：23:59:59">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n35_sx38" name="groupTime" xy="409,74" size="198,27" advanced="true" collapsed="true"/>
+    <image id="n37_scqm" name="n137" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="409,109" size="198,27" group="n39_scqm">
+      <relation target="n38_scqm" sidePair="width-width"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <richtext id="n38_scqm" name="cdLb" xy="418,109" size="155,25" group="n39_scqm" fontSize="18" color="#ff0000" align="center" leading="0" text="进入CD：23:59:59">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n39_scqm" name="groupCD" xy="409,109" size="198,27" advanced="true" collapsed="true"/>
+    <loader id="n16_ppyw" name="headIcon" xy="40,49" size="81,82" group="n41_scqm" scale="0.8,0.8" align="center" vAlign="middle" fill="scaleNoBorder" shrinkOnly="true"/>
+    <image id="n15_ppyw" name="n15" src="tw1l5j" fileName="image1/头像框.png" pkg="jvxpx9em" xy="38,45" group="n41_scqm" scale="0.8,0.8"/>
+    <group id="n41_scqm" name="n41" xy="38,45" size="88,88" collapsed="true"/>
+    <image id="n43_6hpm" name="n43" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="451,74" size="142,27" group="n45_6hpm">
+      <relation target="n44_6hpm" sidePair="width-width"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <richtext id="n44_6hpm" name="lbKiller" xy="461,74" size="113,25" group="n45_6hpm" fontSize="18" color="#33ff00" align="center" leading="0" text="上次击杀：无">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n45_6hpm" name="groupKiller" xy="451,74" size="142,27" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

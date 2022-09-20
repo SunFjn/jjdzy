@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,907" opaque="false">
+  <controller name="ctr2" exported="true" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <image id="n58_gsrt" name="n58" src="qcyl2m" fileName="image/称号txt.png" xy="275,69"/>
+    <image id="n41_p6mw" name="n41" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="17,426" size="605,158"/>
+    <image id="n45_p6mw" name="imgIcon" src="hr703i" fileName="image/装备中.png" xy="168,376"/>
+    <component id="n18_mokh" name="btn0" src="qcyl2p" fileName="组件/称号/Button1.xml" xy="32,773">
+      <Button checked="true" icon="ui://3tzqotadqcyl2k" controller="ctr2" page="0"/>
+    </component>
+    <component id="n19_mokh" name="btn1" src="qcyl2p" fileName="组件/称号/Button1.xml" xy="183,773">
+      <Button icon="ui://3tzqotadqcyl2j" controller="ctr2" page="1"/>
+    </component>
+    <component id="n20_mokh" name="btn2" src="qcyl2p" fileName="组件/称号/Button1.xml" xy="334,773">
+      <Button icon="ui://3tzqotadqcyl2l" controller="ctr2" page="2"/>
+    </component>
+    <component id="n21_mokh" name="btn3" src="qcyl2p" fileName="组件/称号/Button1.xml" xy="485,773">
+      <Button icon="ui://3tzqotadqcyl2h" controller="ctr2" page="3"/>
+    </component>
+    <component id="n29_u0r5" name="lbPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="191,142"/>
+    <loader id="n46_p6mw" name="imgTitle" xy="295,277" pivot="0.5,0.5" size="50,30" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <component id="n47_p6mw" name="btnLvlUp" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="261,523" size="118,52">
+      <Button title="升阶"/>
+    </component>
+    <component id="n48_p6mw" name="btnWear" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="261,367" size="118,52">
+      <Button title="装备"/>
+    </component>
+    <richtext id="n49_p6mw" name="lbCost" xy="389,536" size="95,28" fontSize="18" color="#ffffff" text="消耗材料："/>
+    <richtext id="n50_p6mw" name="lbCondition" xy="272,206" size="95,28" fontSize="18" color="#ffffff" text="激活条件：">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n51_p6mw" name="lbDate" xy="272,334" size="95,28" fontSize="18" color="#ffffff" align="right" text="期限：永久">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <richtext id="n52_p6mw" name="lbPowerSingle" xy="293,428" size="54,28" fontSize="18" color="#ffc334" text="战力+">
+      <relation target="n41_p6mw" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n53_p6mw" name="lbLevel" xy="31,432" size="62,35" font="ui://3tzqotadp6mw3v" fontSize="18" color="#ffc334" text="19j"/>
+    <richtext id="n54_p6mw" name="lbAttribute" xy="290,460" size="60,55" font="Microsoft YaHei" fontSize="18" color="#33ff00" text="11111&#xA;22222">
+      <relation target="n41_p6mw" sidePair="center-center"/>
+    </richtext>
+    <list id="n55_9gwz" name="lst" xy="64,597" size="517,164" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="8" colGap="34" defaultItem="ui://3tzqotadp6mw3w">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n56_9gwz" name="btnRight" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="578,645" size="55,63">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+    <component id="n57_9gwz" name="btnLeft" src="c14z16" fileName="组件/Button2.xml" pkg="jvxpx9em" xy="9,645" pivot="0.5,0.5" size="55,63" scale="-1,1">
+      <Button icon="ui://jvxpx9emw6ro3cm"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,1136" opaque="false">
+  <displayList>
+    <image id="n0_mvdu" name="fuck0" src="mvdu8" fileName="icon/4507_title.png" xy="220,389"/>
+    <image id="n1_mvdu" name="fuck1" src="mvdu7" fileName="icon/4507_icon.png" xy="226,439"/>
+  </displayList>
+</component>

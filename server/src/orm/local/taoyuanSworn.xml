@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.taoyuanSworn.model.TaoyuanSworn" tbname="taoyuanSworn">
+		<index field="id" type="prikey"/>
+		<col field="id" type="bigint" pf="all" comment="唯一id"/>
+		<col field="name" type="varchar" len="50" pf="all" comment="义盟名称"/>
+		<col field="time" type="int" pf="all" comment="创建时间"/>
+		<col field="member" type="text" pf="all" comment="成员"/>
+		<col field="applyMember" type="text" pf="all" comment="申请玩家"/>
+		<col field="taskComplete" type="text" pf="all" comment="完成桃园结义任务"/>
+		<col field="bossId" type="int" pf="all" comment="开启BossId"/>
+		<col field="openBossName" type="varchar" len="50" pf="all" comment="开启桃园结义BOSS玩家名称"/>
+		<col field="curhp" type="bigint" pf="all" comment="Boss 当前血量"/>
+		<col field="zoneid" type="int" pf="all" comment="所在区"/>
+		<col field="dieState" type="int" pf="all" comment="Boss 死亡状态"/>
+	</tb>
+</tbs>

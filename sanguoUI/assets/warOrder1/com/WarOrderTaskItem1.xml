@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="619,150">
+  <controller name="stateCtrl" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n33_sk4y" name="n33" src="irr13h0" fileName="image/通用底框/方框2.png" pkg="jvxpx9em" xy="0,0" size="619,150"/>
+    <richtext id="n19_jt4v" name="tfTitle" xy="24,19" size="77,28" fontSize="18" color="#ffffff" autoClearText="true" text="装备锻造"/>
+    <list id="n30_o8ip" name="itemList" xy="307,31" size="165,115" scale="0.8,0.8" layout="row" overflow="hidden" scroll="horizontal" margin="0,0,5,0" colGap="10" defaultItem="ui://jvxpx9emetorm" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <component id="n26_jt4v" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="456,46">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+      <Button title="前往"/>
+    </component>
+    <component id="n27_jt4v" name="btnGet" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="456,46">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+      <Button title="领取"/>
+    </component>
+    <image id="n28_jt4v" name="imageGet" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="463,56">
+      <gearDisplay controller="stateCtrl" pages="2"/>
+    </image>
+    <richtext id="n32_sk4y" name="tfCt" xy="477,20" size="97,29" fontSize="20" color="#ffffff" align="center" autoSize="none" autoClearText="true" text="1/1"/>
+    <loader id="n34_sk4y" name="img" xy="40,63" size="50,50" url="ui://89er3bo3e7lc8" align="center" vAlign="middle" clearOnPublish="true"/>
+    <richtext id="n35_sk4y" name="tfContent" xy="134,51" pivot="0.5,0" size="117,28" fontSize="18" color="#ffffff" align="center" autoClearText="true" text="装备强化50次"/>
+    <richtext id="n36_sk4y" name="tfCs" xy="174,77" pivot="0.5,0" size="35,28" fontSize="18" color="#ffffff" align="center" autoClearText="true" text="0/5"/>
+  </displayList>
+</component>

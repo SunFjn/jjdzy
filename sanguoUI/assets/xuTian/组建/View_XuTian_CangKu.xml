@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="594,449">
+  <displayList>
+    <component id="n1_cenr" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="594,449">
+      <Label title="狩猎仓库"/>
+    </component>
+    <image id="n20_g53a" name="n20" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="21,80" size="551,304"/>
+    <list id="n18_bzs6" name="list" xy="45,94" size="527,280" layout="flow_hz" overflow="scroll" lineGap="6" colGap="33" lineItemCount="4" defaultItem="ui://jvxpx9emetorn">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n19_bzs6" name="n19" xy="213,398" size="167,28" fontSize="18" color="#00ff00" text="狩猎结束后邮件发送"/>
+  </displayList>
+</component>

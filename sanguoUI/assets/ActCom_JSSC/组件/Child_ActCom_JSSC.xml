@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,927" opaque="false">
+  <displayList>
+    <loader id="n8_bg03" name="backImg" xy="0,266" size="640,661" url="ui://yug4d48ubg032"/>
+    <image id="n1_tidc" name="n1" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="19,279"/>
+    <loader id="n10_bg03" name="boxImg" xy="40,551" pivot="0.5,1" size="212,293" url="ui://yug4d48ubg034"/>
+    <image id="n3_tidc" name="n3" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="32,806" size="267,75"/>
+    <image id="n9_bg03" name="n9" src="bg035" fileName="image/10000元宝.png" xy="37,505"/>
+    <richtext id="n2_tidc" name="timeLb" xy="22,279" size="77,28" fontSize="18" color="#27e730" text="剩余时间"/>
+    <richtext id="n4_tidc" name="flLb" xy="36,589" size="135,61" rotation="-32.3" fontSize="20" color="#e61010" align="center" leading="10" autoSize="none" text="至少返利&#xA;10000元宝"/>
+    <richtext id="n6_tidc" name="numLb" xy="19,807" pivot="0.5,0.5" size="276,72" fontSize="20" color="#ffffff" align="center" leading="20" autoSize="none" text="投资次数：5"/>
+    <component id="n5_tidc" name="moneyBt" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="89,745">
+      <Button title="    50000"/>
+    </component>
+    <image id="n7_tidc" name="n7" src="bwmw3y" fileName="image1/元宝.png" pkg="jvxpx9em" xy="103,756"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n10_bg03" tween="true" startValue="0" endValue="-5" duration="2" ease="Linear"/>
+    <item time="2" type="Rotation" target="n10_bg03" tween="true" startValue="-5" endValue="0" duration="2" ease="Linear"/>
+    <item time="4" type="Rotation" target="n10_bg03" tween="true" startValue="0" endValue="0" duration="2" ease="Linear"/>
+    <item time="6" type="Rotation" target="n10_bg03" tween="true" startValue="0" endValue="5" duration="2" ease="Linear"/>
+  </transition>
+</component>

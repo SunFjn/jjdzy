@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,914" opaque="false" designImage="ui://7y83phvnumao1a">
+  <displayList>
+    <image id="n56_umao" name="n56" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="37,153" size="577,126" group="n42_vxva"/>
+    <list id="n3_pz9k" name="list" xy="38,155" size="573,111" group="n42_vxva" layout="row" overflow="scroll" scroll="horizontal" colGap="27" defaultItem="ui://7y83phvni1zv0" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n57_umao" name="n57" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="21,718" size="600,190" group="n42_vxva" locked="true"/>
+    <image id="n48_s1x2" name="n48" src="sk8j2" fileName="images/头像底框.png" xy="128,744" group="n42_vxva"/>
+    <loader id="n49_s1x2" name="skillIcon" xy="136,753" size="78,78" group="n42_vxva" url="ui://7y83phvnsy28d" fill="scale"/>
+    <image id="n50_s1x2" name="n50" src="tli03cx" fileName="image/通用按钮/标签按钮2未选中状态.png" pkg="jvxpx9em" xy="120,819" size="110,32" group="n42_vxva"/>
+    <component id="n4_pz9k" name="labPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="202,277" group="n42_vxva" touchable="false"/>
+    <image id="n55_ehnl" name="n55" src="q5t63h4" fileName="image/通用底框/渐变黑底.png" pkg="jvxpx9em" xy="138,506" size="364,101" group="n23_pz9k" visible="false"/>
+    <richtext id="n18_pz9k" name="labAttrCur" xy="194,510" size="98,96" group="n54_ehnl" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="10" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <image id="n21_pz9k" name="imgArrow" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="302,529" pivot="0.5,0.5" group="n54_ehnl">
+      <relation target="n18_pz9k" sidePair="middle-middle"/>
+    </image>
+    <richtext id="n19_pz9k" name="labAttrNext" xy="370,510" size="98,96" group="n54_ehnl" touchable="false" fontSize="18" color="#ffffff" leading="10" text="升星+100&#xA;升星+1000&#xA;升星+1000"/>
+    <group id="n54_ehnl" name="attGroup" xy="194,510" size="274,96" group="n23_pz9k" advanced="true" collapsed="true" layout="hz" colGap="10">
+      <relation target="n55_ehnl" sidePair="center-center,middle-middle"/>
+    </group>
+    <richtext id="n20_pz9k" name="labAttrMax" xy="274,510" size="98,96" group="n23_pz9k" touchable="false" fontSize="18" color="#ffffff" leading="10" text="升星+1000&#xA;升星+1000&#xA;升星+1000">
+      <relation target="n55_ehnl" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <component id="n22_pz9k" name="labUp" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="155,479" group="n23_pz9k">
+      <Label title="升品属性"/>
+    </component>
+    <group id="n23_pz9k" name="n23" xy="138,479" size="364,128" group="n42_vxva" collapsed="true"/>
+    <component id="n27_pz9k" name="levelLb" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="102,721" pivot="0.5,0.5" size="435,28" group="n42_vxva" touchable="false">
+      <Label title="天赋·赤焰焚天(1111级)"/>
+    </component>
+    <component id="n30_pz9k" name="btnUp" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="254,842" group="n42_vxva">
+      <Button title="升级"/>
+    </component>
+    <component id="n24_pz9k" name="boxNeed" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="256,606" group="n36_vxva"/>
+    <richtext id="n26_pz9k" name="labNeedName" xy="71,609" size="184,28" group="n36_vxva" fontSize="18" color="#ffffff" align="right" autoSize="none" text="战甲培养丹"/>
+    <component id="n25_pz9k" name="btnOnekey" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="254,648" group="n36_vxva" aspect="true">
+      <Button title="升阶"/>
+    </component>
+    <group id="n36_vxva" name="upGroup" xy="71,606" size="362,104" group="n42_vxva" advanced="true" collapsed="true"/>
+    <component id="n16_pz9k" name="curGrid" src="pz9kr" fileName="组件/YiShouEquipGrid.xml" xy="206,345" group="n39_vxva"/>
+    <image id="n31_pz9k" name="imgArrow1" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="322,392" pivot="0.5,0.5" anchor="true" group="n39_vxva"/>
+    <component id="n17_pz9k" name="nextGrid" src="pz9kr" fileName="组件/YiShouEquipGrid.xml" xy="350,345" group="n39_vxva"/>
+    <group id="n39_vxva" name="gridGroup" xy="206,345" size="231,111" group="n42_vxva" advanced="true" collapsed="true"/>
+    <image id="n44_vxva" name="n44" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="138,668" group="n46_vxva"/>
+    <richtext id="n45_vxva" name="maxLb" xy="263,660" size="120,35" group="n46_vxva" touchable="false" fontSize="24" color="#00ff00" align="center" autoSize="none" text="已满星"/>
+    <group id="n46_vxva" name="maxGroup" xy="138,660" size="366,35" group="n42_vxva" hideByEditor="true" advanced="true" collapsed="true"/>
+    <richtext id="n29_pz9k" name="skillLb" xy="240,759" size="98,86" group="n42_vxva" touchable="false" fontSize="18" color="#ffffff" leading="5" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <richtext id="n37_vxva" name="promptLb" xy="79,651" size="493,35" group="n42_vxva" fontSize="24" color="#ff0000" align="center" autoSize="none" text="天赋"/>
+    <richtext id="n38_vxva" name="maxLb0" xy="266,855" size="114,35" group="n42_vxva" fontSize="24" color="#00ff00" align="center" autoSize="none" text="已满级"/>
+    <richtext id="n47_vxva" name="skillNeedLb" xy="233,874" size="177,31" group="n42_vxva" fontSize="20" color="#ff0000" align="center" autoSize="none" text="所有部位达到3阶"/>
+    <richtext id="n51_s1x2" name="skillName" xy="128,821" size="94,28" group="n42_vxva" fontSize="18" color="#ffffff" align="center" autoSize="none" text="赤焰焚天"/>
+    <component id="n40_vxva" name="curGrid0" src="pz9kr" fileName="组件/YiShouEquipGrid.xml" xy="281,345" group="n42_vxva"/>
+    <component id="n5_pz9k" name="grid0" src="pz9kr" fileName="组件/YiShouEquipGrid.xml" xy="37,301" group="n42_vxva"/>
+    <component id="n13_pz9k" name="grid2" src="pz9kr" fileName="组件/YiShouEquipGrid.xml" xy="37,476" group="n42_vxva"/>
+    <component id="n14_pz9k" name="grid1" src="pz9kr" fileName="组件/YiShouEquipGrid.xml" xy="517,301" group="n42_vxva"/>
+    <component id="n15_pz9k" name="grid3" src="pz9kr" fileName="组件/YiShouEquipGrid.xml" xy="517,476" group="n42_vxva"/>
+    <group id="n42_vxva" name="n42" xy="21,153" size="600,755"/>
+  </displayList>
+</component>

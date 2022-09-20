@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="592,650">
+  <displayList>
+    <component id="n11_som1" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="0,0" size="592,650">
+      <Label title="离线收益"/>
+    </component>
+    <component id="n4_hfx7" name="btnConfirm" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="231,578">
+      <Button title="确定"/>
+    </component>
+    <loader id="n12_som1" name="imgBG" xy="23,87" size="50,30" url="ui://r92dp953aze922" fill="scaleFree" autoSize="true"/>
+    <image id="n13_som1" name="n13" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="23,263" size="545,301"/>
+    <richtext id="n21_som1" name="lbTime" xy="117,183" size="99,29" fontSize="18" color="#00ff00" align="center" bold="true" text="一小时30分"/>
+    <richtext id="n24_aqes" name="n777" xy="128,153" size="71,34" fontSize="22" color="#ffc334" align="center" bold="true" text="已离线">
+      <relation target="n21_som1" sidePair="center-center"/>
+    </richtext>
+    <list id="n25_l3sh" name="n25" xy="105,287" size="401,270" layout="flow_hz" overflow="scroll" colGap="40" defaultItem="ui://jvxpx9emetorn">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n26_opnx" name="n26" xy="94,617" size="403,28" fontSize="18" color="#ffffff" align="center" text="离线奖励已发放，分享后可额外获得30%经验奖励">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+</component>

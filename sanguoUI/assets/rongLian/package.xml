@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ny9kb4yz" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="etor0" name="ViewRongLianPanel.xml" path="/组件/" exported="true"/>
+    <component id="etor1" name="ChildRongLian.xml" path="/组件/" exported="true"/>
+    <component id="etor2" name="ChildFenJie.xml" path="/组件/" exported="true"/>
+    <component id="cyxg5" name="ViewRongLianSuccess.xml" path="/组件/" exported="true"/>
+    <image id="t5707" name="title.png" path="/image/" exported="true"/>
+    <image id="kgke8" name="分解txt.png" path="/image/" exported="true"/>
+    <image id="kgke9" name="分解背景.jpg" path="/image/" exported="true"/>
+    <component id="e1fic" name="VFenJieGrid.xml" path="/组件/" exported="true"/>
+    <component id="nflud" name="ChildHeCheng.xml" path="/组件/" exported="true"/>
+    <component id="nflug" name="VHeChengTab.xml" path="/组件/"/>
+    <image id="r34lh" name="合成标题.png" path="/image/" exported="true"/>
+    <image id="idkjj" name="卷轴背景图.png" path="/image/" exported="true"/>
+  </resources>
+  <publish name="rongLian" genCode="true" npot="true" excluded="kgke9"/>
+</packageDescription>

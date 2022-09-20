@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="614,719">
+  <displayList>
+    <component id="n0_xn88" name="frame" src="f1cf4b" fileName="组件/frame2.xml" pkg="jvxpx9em" xy="1,3" size="614,719">
+      <Label title="排名奖励"/>
+    </component>
+    <list id="n1_xn88" name="list" xy="19,152" size="581,504" overflow="scroll" lineGap="10" defaultItem="ui://ke8qv0ckxn888" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n2_xn88" name="lbMyRank" xy="46,670" size="139,29" fontSize="22" color="#ffffff" text="我的排名：10"/>
+    <richtext id="n3_xn88" name="lbMyCount" xy="411,671" size="129,29" fontSize="22" color="#ffffff" text="我对出100联"/>
+    <image id="n4_tl0c" name="n4" src="tw1l5p" fileName="image1/bg5.png" pkg="jvxpx9em" xy="19,80" size="576,61" group="n9_tl0c"/>
+    <image id="n6_tl0c" name="n6" src="j92x9t" fileName="image1/名字.png" pkg="jvxpx9em" xy="200,99" group="n9_tl0c"/>
+    <image id="n7_tl0c" name="n7" src="q8rv9n" fileName="image1/排名.png" pkg="jvxpx9em" xy="58,99" group="n9_tl0c"/>
+    <image id="n8_tl0c" name="n8" src="q8rv9o" fileName="image1/奖励.png" pkg="jvxpx9em" xy="430,99" group="n9_tl0c"/>
+    <group id="n9_tl0c" name="n9" xy="19,80" size="576,61" collapsed="true"/>
+  </displayList>
+</component>

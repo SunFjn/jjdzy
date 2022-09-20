@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,666">
+  <displayList>
+    <component id="n18_hgo3" name="frame" src="f1cf47" fileName="组件/frame1.xml" pkg="jvxpx9em" xy="0,0" size="640,663"/>
+    <loader id="n16_hgo3" name="n0" xy="13,8" size="593,640" url="ui://w5ll6n5jpoih1q"/>
+    <list id="n2_ykxm" name="list" xy="15,20" size="216,688" scale="0.9,0.9" overflow="scroll" clipSoftness="10,10" defaultItem="ui://61ucuudypvvx6" autoClearItems="true">
+      <item icon="ui://w5ll6n5jhxx517" selectedIcon="ui://w5ll6n5jhxx516"/>
+      <item icon="ui://w5ll6n5jhxx517" selectedIcon="ui://w5ll6n5jhxx516"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n10_ykxm" name="desc" xy="370,543" size="97,25" fontSize="18" align="center" vAlign="middle" ubb="true" text="已充值80元">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n12_ykxm" name="ylq" src="bx2z8a" fileName="image/已领取.png" pkg="jvxpx9em" xy="358,588"/>
+    <list id="n13_ykxm" name="n13" xy="282,361" size="337,217" scale="0.8,0.8" layout="flow_hz" overflow="scroll" lineGap="11" colGap="12" defaultItem="ui://jvxpx9emetorm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n14_ykxm" name="n14" src="etorm" fileName="新组建/ViewGrid.xml" pkg="jvxpx9em" xy="369,208"/>
+    <component id="n15_pdzw" name="n15" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="355,587">
+      <Button title="领取"/>
+    </component>
+    <component id="n3_ykxm" name="upGrad" src="iqo83ch" fileName="组件/Button4.xml" pkg="jvxpx9em" xy="348,584">
+      <Button title="立即充值"/>
+    </component>
+    <richtext id="n22_hxx5" name="n22" xy="401,169" size="37,22" fontSize="16" color="#ffffff" align="center" text="武将">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n23_erg2" name="n23" src="oo0o3cs" fileName="image/活动条件文字底.png" pkg="jvxpx9em" xy="431,8" size="162,23"/>
+    <richtext id="n24_erg2" name="lbTime" xy="433,7" size="85,22" fontSize="16" color="#66ff00" text="剩余时间："/>
+  </displayList>
+</component>

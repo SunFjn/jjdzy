@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,907">
+  <controller name="c1" pages="0,,1,,2,,3,,4," selected="0"/>
+  <controller name="c2" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n25_caql" name="imgBg" xy="11,149" size="616,610" url="ui://xrzn9ppaxoiv2m" autoSize="true"/>
+    <image id="n57_caql" name="n57" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="19,600" size="601,307"/>
+    <component id="n0_caql" name="lbPower" src="h3bo72" fileName="新组建/ViewPower.xml" pkg="jvxpx9em" xy="188,159">
+      <Label title="11111111111"/>
+    </component>
+    <component id="n1_caql" name="btnAct" src="y1z8l" fileName="组件/Button1.xml" pkg="jvxpx9em" xy="252,839">
+      <Button title="激活"/>
+    </component>
+    <richtext id="n2_caql" name="lbNeed" xy="114,801" size="153,28" fontSize="18" color="#ffffff" align="right" autoSize="none" autoClearText="true" text="武将培养丹"/>
+    <component id="n3_caql" name="boxNeed" src="n7sj6d" fileName="新组建/ViewResource.xml" pkg="jvxpx9em" xy="274,800" size="154,33"/>
+    <image id="n15_caql" name="n15" src="61zd78" fileName="image/装饰2.png" pkg="jvxpx9em" xy="151,860" size="334,17" group="n17_caql"/>
+    <richtext id="n16_caql" name="n16" xy="260,850" size="116,35" group="n17_caql" touchable="false" fontSize="24" color="#02e703" align="center" autoSize="none" text="已满星"/>
+    <group id="n17_caql" name="boxMax" xy="151,850" size="334,35" advanced="true" collapsed="true"/>
+    <component id="n44_caql" name="lbName" src="iqo83cg" fileName="组件/ViewTitle.xml" pkg="jvxpx9em" xy="132,608" size="375,31">
+      <relation target="" sidePair="width-width"/>
+      <Label title="两仪阵眼(0星)"/>
+    </component>
+    <component id="n41_caql" name="btn4" src="caql22" fileName="组件/阵眼/VZhenYanBtn.xml" xy="475,449">
+      <Button controller="c1" page="3"/>
+    </component>
+    <component id="n46_caql" name="btn5" src="caql23" fileName="组件/阵眼/VZhenYanBtnBig.xml" xy="254,306">
+      <Button controller="c1" page="4"/>
+    </component>
+    <component id="n39_caql" name="btn3" src="caql22" fileName="组件/阵眼/VZhenYanBtn.xml" xy="61,464">
+      <Button controller="c1" page="2"/>
+    </component>
+    <component id="n38_caql" name="btn1" src="caql22" fileName="组件/阵眼/VZhenYanBtn.xml" xy="72,208">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+    <component id="n40_caql" name="btn2" src="caql22" fileName="组件/阵眼/VZhenYanBtn.xml" xy="499,221">
+      <Button controller="c1" page="1"/>
+    </component>
+    <richtext id="n5_caql" name="labAttrCur" xy="117,718" size="172,80" group="n58_caql" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="2" autoSize="none" autoClearText="true" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <richtext id="n6_caql" name="labAttrNext" xy="412,718" size="172,80" group="n58_caql" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="2" autoSize="none" autoClearText="true" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <richtext id="n7_caql" name="labAttrMax" xy="265,718" size="172,80" group="n58_caql" touchable="false" fontSize="18" color="#ffffff" vAlign="middle" leading="2" autoSize="none" autoClearText="true" text="升星+1000&#xA;升星+1000&#xA;升星+1000"/>
+    <image id="n8_caql" name="imgArrow" src="l3y16b" fileName="image/箭头+其他/箭头.png" pkg="jvxpx9em" xy="320,758" pivot="0.5,0.5" anchor="true" group="n58_caql"/>
+    <group id="n58_caql" name="n58" xy="117,718" size="467,80" advanced="true" collapsed="true">
+      <gearXY controller="c2" pages="0,1" values="126,631|117,718"/>
+    </group>
+    <richtext id="n59_caql" name="lbAttr" xy="56,637" size="551,92" fontSize="18" color="#ffffff" align="center" leading="10" autoSize="none" autoClearText="true" text="战斗战斗战斗战斗战斗战斗&#xA;升星+1000&#xA;升星+1000">
+      <gearDisplay controller="c2" pages="1"/>
+    </richtext>
+    <component id="n4_caql" name="expBar" src="vasq3b4" fileName="组件/expBar2.xml" pkg="jvxpx9em" xy="131,765" size="431,21">
+      <gearDisplay controller="c2" pages="0"/>
+      <ProgressBar max="100"/>
+    </component>
+    <component id="n60_ihg1" name="vLv" src="ihg124" fileName="组件/阵眼/VZhenYanLv.xml" xy="307,732" pivot="0.5,0" anchor="true">
+      <gearDisplay controller="c2" pages="0"/>
+    </component>
+    <richtext id="n61_ihg1" name="lbNo" xy="136,863" size="386,28" touchable="false" fontSize="18" color="#ff0000" align="center" autoSize="none" text="等级不满足">
+      <gearDisplay controller="c2" pages="1"/>
+    </richtext>
+    <image id="n63_uitl" name="img1" src="uitl27" fileName="image/阵眼/九宫.png" xy="27,451"/>
+    <image id="n64_uitl" name="img2" src="uitl26" fileName="image/阵眼/两仪.png" xy="39,179"/>
+    <image id="n65_uitl" name="img3" src="uitl28" fileName="image/阵眼/四相.png" xy="566,214"/>
+    <image id="n66_uitl" name="img5" src="uitl2a" fileName="image/阵眼/太极.png" xy="384,268"/>
+    <image id="n67_uitl" name="img4" src="uitl29" fileName="image/阵眼/天门.png" xy="546,450"/>
+  </displayList>
+</component>

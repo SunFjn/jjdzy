@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="121,130" opaque="false" bgColor="#ff0000">
+  <displayList>
+    <graph id="n5_apr1" name="n5" xy="0,0" size="121,130" alpha="0" type="rect"/>
+    <loader id="n1_i25o" name="titleImg" xy="60,28" pivot="0.5,1" anchor="true" size="91,27" group="n4_jd2n" touchable="false" url="ui://uwzc58njqnae1e" align="center" vAlign="bottom" autoSize="true"/>
+    <richtext id="n2_i25o" name="nameLb" xy="-65,26" size="252,28" group="n4_jd2n" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" strokeColor="#000000" text="玩家名字名字.s9999"/>
+    <richtext id="n3_8hg8" name="powerLb" xy="-65,52" size="252,28" group="n4_jd2n" touchable="false" fontSize="18" color="#ffffff" align="center" leading="0" autoSize="none" strokeColor="#000000" text="战力：9999万"/>
+    <group id="n4_jd2n" name="roleGroup" xy="-65,1" size="252,79" advanced="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.overCallbackCLSe.model.OverCallbackCLSe" tbname="overCallbackCLSe">
+			<index field="hid" type="prikey" autoIncrement="false"/>
+			<col field="hid" type="bigint" pf="all" comment="角色id"/>
+			<col field="awardStateMap" type="text" pf="all" comment="奖励状态"/>
+			<col field="consumeNum" type="int" pf="all" comment="活动期间消耗道具个数"/>
+			<col field="openDays" type="int" pf="all" comment="玩家待领取奖励的开服天数"/>
+     </tb>
+</tbs>

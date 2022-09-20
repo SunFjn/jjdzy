@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="546,82">
+  <controller name="gradeCtrl" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <image id="n13_pmqq" name="n13" src="x3b93cl" fileName="image/通用底框/方框3.png" pkg="jvxpx9em" xy="0,0" size="546,82"/>
+    <richtext id="n14_pmqq" name="tfRank" xy="25,23" pivot="0.5,0.5" size="18,31" fontSize="24" color="#ffffff" text="1"/>
+    <richtext id="n15_pmqq" name="tfName" xy="183,25" pivot="0.5,0.5" size="160,25" fontSize="18" color="#ffffff" text="玩家名字六子.S999"/>
+    <richtext id="n16_pmqq" name="tfScore" xy="371,25" pivot="0.5,0.5" size="65,25" fontSize="18" color="#ffffff" text="999999"/>
+    <component id="n19_pmqq" name="btnReward" src="fy1c3fz" fileName="组件/Button5.xml" pkg="jvxpx9em" xy="455,10" size="67,59" aspect="true">
+      <Button icon="ui://jvxpx9emaro89e"/>
+    </component>
+    <loader id="n20_pmqq" name="iconGrade" xy="122,40" pivot="0.5,0.5" anchor="true" size="105,79" scale="0.5,0.5" url="ui://me1skowln9yf6v" autoSize="true">
+      <gearIcon controller="gradeCtrl" pages="1,2,3,4,5" values="ui://me1skowln9yf6y|ui://me1skowln9yf6u|ui://me1skowln9yf6x|ui://me1skowln9yf6w|ui://me1skowlpzsw7s" default="ui://me1skowln9yf6v"/>
+    </loader>
+  </displayList>
+</component>

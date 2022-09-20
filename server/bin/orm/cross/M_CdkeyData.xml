@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.cdkey.model.CDkeyData" tbname="m_cdkeydata" serverid="all">
+			<index field="id" type="prikey"/>
+			<col field="id" type="bigint" pf="all" comment="激活码id"/>
+			<col field="cdkey" type="varchar" len="32" pf="all" comment="激活码"/>
+			<col field="type" type="int" pf="all" comment="激活码的类型"/>
+			<col field="isUsed" type="int" pf="all" comment="是否已被使用 0：未使用，1：已使用"/>
+     </tb>
+</tbs>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbs>
+	<tb model="com.teamtop.system.global.GlobalData" tbname="globaldata" serverid="all">
+			<index field="id" type="prikey"/>
+			<col field="id" type="bigint" pf="all" comment="唯一id"/>
+			<col field="type" type="int" pf="all" comment="系统类型"/>
+			<col field="content" type="mediumblob" pf="all" comment="数据"/>
+			<col field="insertTime" type="int" pf="all" comment="插入时间"/>
+			<col field="invalidTime" type="int" pf="all" comment="过期时间"/>
+     </tb>
+</tbs>

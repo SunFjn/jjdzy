@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="183,213">
+  <displayList>
+    <image id="n15_iad8" name="n15" src="x3b93cl" fileName="image/奖励底.png" pkg="jvxpx9em" xy="0,0" size="183,213"/>
+    <component id="n16_iad8" name="head" src="p75387" fileName="新组建/ViewHead.xml" pkg="jvxpx9em" xy="35,8"/>
+    <richtext id="n17_iad8" name="numLb" xy="22,127" size="144,28" touchable="false" fontSize="18" color="#ffffff" align="center" autoSize="none" text="人数：2/3"/>
+    <component id="n18_iad8" name="joinBt" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="33,158" size="116,47">
+      <Button title="加入"/>
+    </component>
+  </displayList>
+</component>

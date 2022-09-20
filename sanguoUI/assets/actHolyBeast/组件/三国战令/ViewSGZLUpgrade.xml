@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="441,158">
+  <controller name="stateCtrl" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n52_tvlr" name="n52" src="tvlr26" fileName="组件/三国战令/res/图层 69 副本.png" xy="0,0"/>
+    <component id="n53_tvlr" name="btnGo" src="y1z8b" fileName="组件/Button0.xml" pkg="jvxpx9em" xy="192,81" size="179,69">
+      <gearDisplay controller="stateCtrl" pages="0"/>
+      <Button title="168元" titleColor="#ffffff" titleFontSize="26" icon="ui://d5y9ngt6tvlr28"/>
+    </component>
+    <richtext id="n54_tvlr" name="tfDes" xy="160,51" pivot="0.5,0.5" size="264,25" fontSize="18" color="#482f10" bold="true" text="立刻获得限量头像、元宝33600"/>
+    <image id="n55_nzeu" name="n55" src="ke272a" fileName="组件/三国战令/res/已进阶.png" xy="240,96">
+      <gearDisplay controller="stateCtrl" pages="1"/>
+    </image>
+  </displayList>
+</component>
